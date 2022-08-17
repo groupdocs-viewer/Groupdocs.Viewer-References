@@ -32,4 +32,4 @@ jobs:
         dst_repo_name: reference.groupdocs.com
         dst_branch: production
         src_branch: production
-		clean: true
+        clean: true
