@@ -24,12 +24,12 @@ public class Line : TextElement<string>
 
 | Name | Description |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } |  |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } |  |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } |  |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | The height of the rectangle which contains the element (in pixels). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | The element value. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | The width of the rectangle which contains the element (in pixels). |
 | [Words](../../groupdocs.viewer.results/line/words) { get; } | The words contained by the line. |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } |  |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } |  |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | The X coordinate of the highest left point on the page layout where the rectangle that contains element begins. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | The Y coordinate of the highest left point on the page layout where the rectangle that contains element begins. |
 
 ## Methods
 
