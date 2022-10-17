@@ -1,0 +1,146 @@
+---
+title: ForEmbeddedResources
+second_title: Справочник по API GroupDocs.Viewer для .NET
+description: Инициализирует новый экземплярHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions класс для рендеринга в HTML со встроенными ресурсами.
+type: docs
+weight: 10
+url: /ru/net/groupdocs.viewer.options/htmlviewoptions/forembeddedresources/
+---
+## ForEmbeddedResources(CreatePageStream) {#forembeddedresources_1}
+
+Инициализирует новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс для рендеринга в HTML со встроенными ресурсами.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| createPageStream | CreatePageStream | Метод, создающий экземпляр потока, используемый для записи выходных данных страницы. |
+
+### Возвращаемое значение
+
+Новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс для рендеринга в HTML со встроенными ресурсами.
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | Брошен, когда*createPageStream* нулевой. |
+
+### Смотрите также
+
+* delegate [CreatePageStream](../../../groupdocs.viewer.interfaces/createpagestream)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* пространство имен [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(CreatePageStream, ReleasePageStream) {#forembeddedresources_2}
+
+Инициализирует новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс для рендеринга в HTML со встроенными ресурсами.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream, 
+    ReleasePageStream releasePageStream)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| createPageStream | CreatePageStream | Метод, создающий экземпляр потока, используемый для записи выходных данных страницы. |
+| releasePageStream | ReleasePageStream | Метод, который освобождает поток, созданный методом, назначенным делегату, переданному в*createPageStream* параметр. |
+
+### Возвращаемое значение
+
+Новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс для рендеринга в HTML со встроенными ресурсами.
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | Брошен, когда*createPageStream* нулевой. |
+| ArgumentNullException | Брошен, когда*releasePageStream* нулевой. |
+
+### Смотрите также
+
+* delegate [CreatePageStream](../../../groupdocs.viewer.interfaces/createpagestream)
+* delegate [ReleasePageStream](../../../groupdocs.viewer.interfaces/releasepagestream)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* пространство имен [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(IPageStreamFactory) {#forembeddedresources_3}
+
+Инициализирует новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс для рендеринга в HTML со встроенными ресурсами.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStreamFactory)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| pageStreamFactory | IPageStreamFactory | Фабрика, которая реализует методы для создания и выпуска потока выходных страниц. |
+
+### Возвращаемое значение
+
+Новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс для рендеринга в HTML со встроенными ресурсами.
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | Брошен, когда*pageStreamFactory* нулевой. |
+
+### Смотрите также
+
+* interface [IPageStreamFactory](../../../groupdocs.viewer.interfaces/ipagestreamfactory)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* пространство имен [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources() {#forembeddedresources}
+
+Инициализирует новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources()
+```
+
+### Смотрите также
+
+* class [HtmlViewOptions](../../htmlviewoptions)
+* пространство имен [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(string) {#forembeddedresources_4}
+
+Инициализирует новый экземпляр[`HtmlViewOptions`](../../htmlviewoptions) класс.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| filePathFormat | String | Формат пути к файлу, например, «page_{0}.html». |
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentException | Брошен, когда*filePathFormat* является нулевым или пустым. |
+
+### Смотрите также
+
+* class [HtmlViewOptions](../../htmlviewoptions)
+* пространство имен [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* сборка [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
