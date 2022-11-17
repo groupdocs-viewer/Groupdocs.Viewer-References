@@ -1,0 +1,75 @@
+---
+title: JpgViewOptions
+second_title: GroupDocs.Viewer لمرجع .NET API
+description: يوفر خيارات لعرض المستندات بتنسيق JPG .
+type: docs
+weight: 360
+url: /ar/net/groupdocs.viewer.options/jpgviewoptions/
+---
+## JpgViewOptions class
+
+يوفر خيارات لعرض المستندات بتنسيق JPG .
+
+```csharp
+public class JpgViewOptions : ViewOptions, IMaxSizeOptions
+```
+
+## المنشئون
+
+| اسم | وصف |
+| --- | --- |
+| [JpgViewOptions](jpgviewoptions#constructor)() | تهيئة مثيل جديد لـ[`JpgViewOptions`](../jpgviewoptions) فئة . |
+| [JpgViewOptions](jpgviewoptions#constructor_1)(CreatePageStream) | تهيئة مثيل جديد لـ[`JpgViewOptions`](../jpgviewoptions) فئة . |
+| [JpgViewOptions](jpgviewoptions#constructor_3)(IPageStreamFactory) | تهيئة مثيل جديد لـ[`JpgViewOptions`](../jpgviewoptions) فئة . |
+| [JpgViewOptions](jpgviewoptions#constructor_4)(string) | تهيئة مثيل جديد لـ[`JpgViewOptions`](../jpgviewoptions) فئة . |
+| [JpgViewOptions](jpgviewoptions#constructor_2)(CreatePageStream, ReleasePageStream) | تهيئة مثيل جديد لـ[`JpgViewOptions`](../jpgviewoptions) فئة . |
+
+## الخصائص
+
+| اسم | وصف |
+| --- | --- |
+| [ArchiveOptions](../../groupdocs.viewer.options/baseviewoptions/archiveoptions) { get; set; } | خيارات عرض ملفات الأرشيف . |
+| [CadOptions](../../groupdocs.viewer.options/baseviewoptions/cadoptions) { get; set; } | خيارات عرض رسم CAD. |
+| [DefaultFontName](../../groupdocs.viewer.options/baseviewoptions/defaultfontname) { get; set; } | الخط الافتراضي الذي سيتم استخدامه عندما يتعذر العثور على خط معين مستخدم في المستند. |
+| [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | خيارات عرض رسائل البريد الإلكتروني . |
+| [ExtractText](../../groupdocs.viewer.options/jpgviewoptions/extracttext) { get; set; } | تمكين استخراج النص . |
+| [Height](../../groupdocs.viewer.options/jpgviewoptions/height) { get; set; } | ارتفاع صورة الإخراج بالبكسل . |
+| [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | خيارات عرض ملفات بيانات تخزين البريد . |
+| [MaxHeight](../../groupdocs.viewer.options/jpgviewoptions/maxheight) { get; set; } | أقصى ارتفاع لصورة الإخراج بالبكسل . |
+| [MaxWidth](../../groupdocs.viewer.options/jpgviewoptions/maxwidth) { get; set; } | أقصى عرض لصورة الإخراج بالبكسل . |
+| [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | خيارات عرض ملفات بيانات MS Outlook . |
+| [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | خيارات عرض مستندات PDF . |
+| [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | خيارات عرض مستندات معالجة العرض التقديمي. |
+| [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | خيارات عرض ملفات إدارة المشروع. |
+| [Quality](../../groupdocs.viewer.options/jpgviewoptions/quality) { get; set; } | جودة الصورة الناتجة ؛ القيم الصالحة بين 1 و 100 ؛ القيمة الافتراضية هي 90. |
+| [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | تمكين عرض التعليقات . |
+| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | تمكين عرض الصفحات المخفية. |
+| [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | تمكين عرض الملاحظات . |
+| [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | خيارات عرض ملفات جدول البيانات. |
+| [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | تقسيم الملفات النصية إلى خيارات الصفحات. |
+| [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | خيارات عرض مستندات معالجة ملفات Visio. |
+| [Watermark](../../groupdocs.viewer.options/viewoptions/watermark) { get; set; } | العلامة المائية النصية المطبقة على كل صفحة. |
+| [WebDocumentOptions](../../groupdocs.viewer.options/baseviewoptions/webdocumentoptions) { get; set; } | تتيح لك خيارات العرض هذه تخصيص مظهر الناتج HTML / PDF / PNG / JPEG عند عرض مستندات الويب. |
+| [Width](../../groupdocs.viewer.options/jpgviewoptions/width) { get; set; } | عرض الصورة الناتجة بالبكسل . |
+| [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | تتيح لك خيارات العرض هذه تخصيص مظهر الناتج HTML / PDF / PNG / JPEG عند عرض مستندات Word. |
+
+## طُرق
+
+| اسم | وصف |
+| --- | --- |
+| [RotatePage](../../groupdocs.viewer.options/viewoptions/rotatepage)(int, Rotation) | لتطبيق استدارة في اتجاه عقارب الساعة على الصفحة. |
+
+## مجالات
+
+| اسم | وصف |
+| --- | --- |
+| readonly [PageRotations](../../groupdocs.viewer.options/viewoptions/pagerotations) | تدوير الصفحة . |
+
+### أنظر أيضا
+
+* class [ViewOptions](../viewoptions)
+* interface [IMaxSizeOptions](../imaxsizeoptions)
+* مساحة الاسم [GroupDocs.Viewer.Options](../../groupdocs.viewer.options)
+* المجسم [GroupDocs.Viewer](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
