@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/layer/visible/
 The layer visibility indicator.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Remarks

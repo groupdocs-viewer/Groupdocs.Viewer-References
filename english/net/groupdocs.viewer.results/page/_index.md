@@ -3,7 +3,7 @@ title: Page
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents single page that can be viewed.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.viewer.results/page/
 ---
 ## Page class
@@ -18,23 +18,24 @@ public class Page
 
 | Name | Description |
 | --- | --- |
-| [Page](page#constructor)(int, bool) | Initializes new instance of [`Page`](../page) class. |
-| [Page](page#constructor_3)(int, string, bool) | Initializes new instance of [`Page`](../page) class. |
-| [Page](page#constructor_1)(int, bool, int, int) | Initializes new instance of [`Page`](../page) class. |
-| [Page](page#constructor_2)(int, bool, int, int, IList&lt;Line&gt;) | Initializes new instance of [`Page`](../page) class. |
-| [Page](page#constructor_4)(int, string, bool, int, int) | Initializes new instance of [`Page`](../page) class. |
-| [Page](page#constructor_5)(int, string, bool, int, int, IList&lt;Line&gt;) | Initializes new instance of [`Page`](../page) class. |
+| [Page](page#constructor)() | Initializes new instance of [`Page`](../page) class. |
+| [Page](page#constructor_1)(int, bool) | Initializes new instance of [`Page`](../page) class. |
+| [Page](page#constructor_4)(int, string, bool) | Initializes new instance of [`Page`](../page) class. |
+| [Page](page#constructor_2)(int, bool, int, int) | Initializes new instance of [`Page`](../page) class. |
+| [Page](page#constructor_3)(int, bool, int, int, List&lt;Line&gt;) | Initializes new instance of [`Page`](../page) class. |
+| [Page](page#constructor_5)(int, string, bool, int, int) | Initializes new instance of [`Page`](../page) class. |
+| [Page](page#constructor_6)(int, string, bool, int, int, List&lt;Line&gt;) | Initializes new instance of [`Page`](../page) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/page/height) { get; } | The height of the page in pixels when viewing as JPG or PNG. |
-| [Lines](../../groupdocs.viewer.results/page/lines) { get; } | The lines contained by the page when viewing as JPG or PNG with enabled Text Extraction. |
-| [Name](../../groupdocs.viewer.results/page/name) { get; } | The worksheet or page name. |
-| [Number](../../groupdocs.viewer.results/page/number) { get; } | The page number. |
-| [Visible](../../groupdocs.viewer.results/page/visible) { get; } | The page visibility indicator. |
-| [Width](../../groupdocs.viewer.results/page/width) { get; } | The width of the page in pixels when viewing as JPG or PNG. |
+| [Height](../../groupdocs.viewer.results/page/height) { get; set; } | The height of the page in pixels when viewing as JPG or PNG. |
+| [Lines](../../groupdocs.viewer.results/page/lines) { get; set; } | The lines contained by the page when viewing as JPG or PNG with enabled Text Extraction. |
+| [Name](../../groupdocs.viewer.results/page/name) { get; set; } | The worksheet or page name. |
+| [Number](../../groupdocs.viewer.results/page/number) { get; set; } | The page number. |
+| [Visible](../../groupdocs.viewer.results/page/visible) { get; set; } | The page visibility indicator. |
+| [Width](../../groupdocs.viewer.results/page/width) { get; set; } | The width of the page in pixels when viewing as JPG or PNG. |
 
 ## Methods
 

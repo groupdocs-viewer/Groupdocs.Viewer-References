@@ -3,7 +3,7 @@ title: ONE
 second_title: GroupDocs.Viewer for .NET API Reference
 description: OneNote Document .one is created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. Learn more about this file format herehttps//wiki.fileformat.com/notetaking/one.
 type: docs
-weight: 960
+weight: 980
 url: /net/groupdocs.viewer/filetype/one/
 ---
 ## FileType.ONE field

@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Determines whether the current FileTypegroupdocs.viewer/filetype is the same as specified FileTypegroupdocs.viewer/filetype object.
 type: docs
-weight: 1930
+weight: 1950
 url: /net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}

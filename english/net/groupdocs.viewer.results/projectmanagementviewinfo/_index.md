@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for MS Project document.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | Name | Description |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Initializes new instance of [`ProjectManagementViewInfo`](../projectmanagementviewinfo) class. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Initializes new instance of [`ProjectManagementViewInfo`](../projectmanagementviewinfo) class. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Initializes new instance of [`ProjectManagementViewInfo`](../projectmanagementviewinfo) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | The date time when the project is to be completed. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | The type of the file. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | The list of pages to view. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | The date time from which the project started. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | The date time when the project is to be completed. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | The type of the file. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | The list of pages to view. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | The date time from which the project started. |
 
 ## Methods
 

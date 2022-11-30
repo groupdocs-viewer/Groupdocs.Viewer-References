@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+Initializes new instance of [`Attachment`](../../attachment) class.
+
+```csharp
+public Attachment()
+```
+
+### See Also
+
+* class [Attachment](../../attachment)
+* namespace [GroupDocs.Viewer.Results](../../attachment)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 Initializes new instance of [`Attachment`](../../attachment) class.
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 Initializes new instance of [`Attachment`](../../attachment) class.
 
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 Initializes new instance of [`Attachment`](../../attachment) class.
 

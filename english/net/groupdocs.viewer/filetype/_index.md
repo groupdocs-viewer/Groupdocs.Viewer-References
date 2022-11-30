@@ -14,12 +14,19 @@ Represents file type. Provides methods to obtain list of all file types supporte
 public sealed class FileType : IEquatable<FileType>
 ```
 
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [FileType](filetype#constructor)() | Initializes new instance of [`FileType`](../filetype) class. |
+| [FileType](filetype#constructor_1)(string, string) | Initializes new instance of [`FileType`](../filetype) class. |
+
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Extension](../../groupdocs.viewer/filetype/extension) { get; } | Filename suffix (including the period ".") e.g. ".doc". |
-| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; } | File type name e.g. "Microsoft Word Document". |
+| [Extension](../../groupdocs.viewer/filetype/extension) { get; set; } | Filename suffix (including the period ".") e.g. ".doc". |
+| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; set; } | File type name e.g. "Microsoft Word Document". |
 
 ## Methods
 
@@ -108,6 +115,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | JPEG 2000 Code Stream (.j2c) |
 | static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) is an image that is compressed using the wavelet compression instead of DCT compression. Learn more about this file format [here](https://wiki.fileformat.com/image/j2k). |
 | static readonly [JAVA](../../groupdocs.viewer/filetype/java) | Java Source Code File (.java) |
+| static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
 | static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) is an image coding system and state-of-the-art image compression standard. Learn more about this file format [here](https://wiki.fileformat.com/image/jp2). |
 | static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | JPEG 2000 Code Stream (.jpc) |
 | static readonly [JPEG](../../groupdocs.viewer/filetype/jpeg) | JPEG Image (.jpeg) is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Learn more about this file format [here](https://wiki.fileformat.com/image/jpeg). |

@@ -3,7 +3,7 @@ title: Position
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines watermark position.
 type: docs
-weight: 410
+weight: 420
 url: /net/groupdocs.viewer.options/position/
 ---
 ## Position enumeration

@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents the method that instantiates stream used to write output page data.
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.viewer.interfaces/createpagestream/
 ---
 ## CreatePageStream delegate

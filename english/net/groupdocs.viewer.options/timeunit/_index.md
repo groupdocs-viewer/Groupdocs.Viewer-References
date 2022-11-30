@@ -3,7 +3,7 @@ title: TimeUnit
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Time unit of the project duration.
 type: docs
-weight: 520
+weight: 530
 url: /net/groupdocs.viewer.options/timeunit/
 ---
 ## TimeUnit enumeration

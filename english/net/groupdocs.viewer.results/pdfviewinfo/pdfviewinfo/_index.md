@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /net/groupdocs.viewer.results/pdfviewinfo/pdfviewinfo/
 ---
-## PdfViewInfo constructor
+## PdfViewInfo() {#constructor}
 
 Initializes new instance of [`PdfViewInfo`](../../pdfviewinfo) class.
 
 ```csharp
-public PdfViewInfo(FileType fileType, IList<Page> pages, bool printingAllowed)
+public PdfViewInfo()
+```
+
+### See Also
+
+* class [PdfViewInfo](../../pdfviewinfo)
+* namespace [GroupDocs.Viewer.Results](../../pdfviewinfo)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewInfo(FileType, List&lt;Page&gt;, bool) {#constructor_1}
+
+Initializes new instance of [`PdfViewInfo`](../../pdfviewinfo) class.
+
+```csharp
+public PdfViewInfo(FileType fileType, List<Page> pages, bool printingAllowed)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileType | FileType | The type of the file. |
-| pages | IList`1 | The list of pages to view. |
+| pages | List`1 | The list of pages to view. |
 | printingAllowed | Boolean | The printing permission indicator. |
 
 ### Exceptions

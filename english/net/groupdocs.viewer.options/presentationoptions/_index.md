@@ -3,7 +3,7 @@ title: PresentationOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering presentations options.
 type: docs
-weight: 420
+weight: 430
 url: /net/groupdocs.viewer.options/presentationoptions/
 ---
 ## PresentationOptions class

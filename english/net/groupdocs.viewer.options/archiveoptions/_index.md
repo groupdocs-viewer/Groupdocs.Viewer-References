@@ -3,7 +3,7 @@ title: ArchiveOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering archive files.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.viewer.options/archiveoptions/
 ---
 ## ArchiveOptions class

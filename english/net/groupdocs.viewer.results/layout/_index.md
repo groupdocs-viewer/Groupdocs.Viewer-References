@@ -18,15 +18,16 @@ public sealed class Layout : IEquatable<Layout>
 
 | Name | Description |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Initializes new instance of [`Layout`](../layout) class. |
+| [Layout](layout#constructor)() | Initializes new instance of [`Layout`](../layout) class. |
+| [Layout](layout#constructor_1)(string, float, float) | Initializes new instance of [`Layout`](../layout) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | The height of the layout. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | The name of the layout. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | The width of the layout. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | The height of the layout. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | The name of the layout. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | The width of the layout. |
 
 ## Methods
 

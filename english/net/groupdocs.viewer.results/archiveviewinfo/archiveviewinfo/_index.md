@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /net/groupdocs.viewer.results/archiveviewinfo/archiveviewinfo/
 ---
-## ArchiveViewInfo constructor
+## ArchiveViewInfo() {#constructor}
 
 Initializes new instance of [`ArchiveViewInfo`](../../archiveviewinfo) class.
 
 ```csharp
-public ArchiveViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public ArchiveViewInfo()
+```
+
+### See Also
+
+* class [ArchiveViewInfo](../../archiveviewinfo)
+* namespace [GroupDocs.Viewer.Results](../../archiveviewinfo)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## ArchiveViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Initializes new instance of [`ArchiveViewInfo`](../../archiveviewinfo) class.
+
+```csharp
+public ArchiveViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileType | FileType | The type of the file. |
-| pages | IList`1 | The list of pages to view. |
-| folders | IList`1 | The list of folders contained by the archive file. |
+| pages | List`1 | The list of pages to view. |
+| folders | List`1 | The list of folders contained by the archive file. |
 
 ### Exceptions
 

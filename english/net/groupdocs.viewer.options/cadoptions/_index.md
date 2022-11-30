@@ -3,7 +3,7 @@ title: CadOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering CAD drawings.
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.viewer.options/cadoptions/
 ---
 ## CadOptions class

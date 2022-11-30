@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/layout/name/
 The name of the layout.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### See Also

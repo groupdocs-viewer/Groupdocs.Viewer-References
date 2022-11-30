@@ -3,7 +3,7 @@ title: PdfViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for PDF document.
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.viewer.results/pdfviewinfo/
 ---
 ## PdfViewInfo class
@@ -18,15 +18,16 @@ public class PdfViewInfo : ViewInfo
 
 | Name | Description |
 | --- | --- |
-| [PdfViewInfo](pdfviewinfo)(FileType, IList&lt;Page&gt;, bool) | Initializes new instance of [`PdfViewInfo`](../pdfviewinfo) class. |
+| [PdfViewInfo](pdfviewinfo#constructor)() | Initializes new instance of [`PdfViewInfo`](../pdfviewinfo) class. |
+| [PdfViewInfo](pdfviewinfo#constructor_1)(FileType, List&lt;Page&gt;, bool) | Initializes new instance of [`PdfViewInfo`](../pdfviewinfo) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | The type of the file. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | The list of pages to view. |
-| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; } | Indicates if printing of the document is allowed. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | The type of the file. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | The list of pages to view. |
+| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; set; } | Indicates if printing of the document is allowed. |
 
 ## Methods
 

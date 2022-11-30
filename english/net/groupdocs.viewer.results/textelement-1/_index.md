@@ -3,7 +3,7 @@ title: TextElementT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents generic text element.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.viewer.results/textelement-1/
 ---
 ## TextElement&lt;T&gt; class
@@ -22,17 +22,18 @@ public class TextElement<T>
 
 | Name | Description |
 | --- | --- |
-| [TextElement](textelement)(T, double, double, double, double) | Initializes new instance of [`TextElement`](../textelement-1) class. |
+| [TextElement](textelement#constructor)() | Initializes new instance of [`TextElement`](../textelement-1) class. |
+| [TextElement](textelement#constructor_1)(T, double, double, double, double) | Initializes new instance of [`TextElement`](../textelement-1) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | The height of the rectangle which contains the element (in pixels). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | The element value. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | The width of the rectangle which contains the element (in pixels). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | The X coordinate of the highest left point on the page layout where the rectangle that contains element begins. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | The Y coordinate of the highest left point on the page layout where the rectangle that contains element begins. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | The height of the rectangle which contains the element (in pixels). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | The element value. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | The width of the rectangle which contains the element (in pixels). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | The X coordinate of the highest left point on the page layout where the rectangle that contains element begins. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | The Y coordinate of the highest left point on the page layout where the rectangle that contains element begins. |
 
 ## Methods
 

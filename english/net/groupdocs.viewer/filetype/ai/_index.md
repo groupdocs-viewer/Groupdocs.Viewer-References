@@ -3,7 +3,7 @@ title: AI
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Adobe Illustrator .ai is a file format for Adobe Illustrator drawings. Learn more about this file format herehttps//fileinfo.com/extension/aiadobe_illustrator_file.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.viewer/filetype/ai/
 ---
 ## FileType.AI field
