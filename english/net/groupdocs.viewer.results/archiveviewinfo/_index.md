@@ -18,15 +18,16 @@ public class ArchiveViewInfo : ViewInfo
 
 | Name | Description |
 | --- | --- |
-| [ArchiveViewInfo](archiveviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Initializes new instance of [`ArchiveViewInfo`](../archiveviewinfo) class. |
+| [ArchiveViewInfo](archiveviewinfo#constructor)() | Initializes new instance of [`ArchiveViewInfo`](../archiveviewinfo) class. |
+| [ArchiveViewInfo](archiveviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Initializes new instance of [`ArchiveViewInfo`](../archiveviewinfo) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | The type of the file. |
-| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; } | The folders contained by the archive file. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | The list of pages to view. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | The type of the file. |
+| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; set; } | The folders contained by the archive file. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | The list of pages to view. |
 
 ## Methods
 

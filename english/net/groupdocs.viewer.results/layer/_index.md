@@ -18,15 +18,16 @@ public sealed class Layer : IEquatable<Layer>
 
 | Name | Description |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Initializes new instance of [`Layer`](../layer) class. |
-| [Layer](layer#constructor_1)(string, bool) | Initializes new instance of [`Layer`](../layer) class. |
+| [Layer](layer#constructor)() | Initializes new instance of [`Layer`](../layer) class. |
+| [Layer](layer#constructor_1)(string) | Initializes new instance of [`Layer`](../layer) class. |
+| [Layer](layer#constructor_2)(string, bool) | Initializes new instance of [`Layer`](../layer) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | The name of the layer. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | The layer visibility indicator. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | The name of the layer. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | The layer visibility indicator. |
 
 ## Methods
 

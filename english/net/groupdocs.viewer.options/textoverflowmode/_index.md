@@ -3,7 +3,7 @@ title: TextOverflowMode
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines text overflow mode for rendering spreadsheet documents into HTML.
 type: docs
-weight: 500
+weight: 510
 url: /net/groupdocs.viewer.options/textoverflowmode/
 ---
 ## TextOverflowMode enumeration

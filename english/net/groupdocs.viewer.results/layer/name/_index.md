@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/layer/name/
 The name of the layer.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Remarks

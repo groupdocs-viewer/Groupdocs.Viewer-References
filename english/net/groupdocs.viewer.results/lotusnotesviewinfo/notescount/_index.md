@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/lotusnotesviewinfo/notescount/
 Notes count in storage
 
 ```csharp
-public int NotesCount { get; }
+public int NotesCount { get; set; }
 ```
 
 ### See Also

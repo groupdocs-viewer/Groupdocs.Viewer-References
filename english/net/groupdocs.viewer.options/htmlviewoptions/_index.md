@@ -3,7 +3,7 @@ title: HtmlViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering documents into HTML format.
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.viewer.options/htmlviewoptions/
 ---
 ## HtmlViewOptions class

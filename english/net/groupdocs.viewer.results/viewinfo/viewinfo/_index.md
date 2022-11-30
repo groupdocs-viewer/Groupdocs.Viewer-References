@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /net/groupdocs.viewer.results/viewinfo/viewinfo/
 ---
-## ViewInfo constructor
+## ViewInfo() {#constructor}
 
 Initializes new instance of [`ViewInfo`](../../viewinfo) class.
 
 ```csharp
-public ViewInfo(FileType fileType, IList<Page> pages)
+public ViewInfo()
+```
+
+### See Also
+
+* class [ViewInfo](../../viewinfo)
+* namespace [GroupDocs.Viewer.Results](../../viewinfo)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## ViewInfo(FileType, List&lt;Page&gt;) {#constructor_1}
+
+Initializes new instance of [`ViewInfo`](../../viewinfo) class.
+
+```csharp
+public ViewInfo(FileType fileType, List<Page> pages)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileType | FileType | The type of the file. |
-| pages | IList`1 | The list of pages to view. |
+| pages | List`1 | The list of pages to view. |
 
 ### Exceptions
 

@@ -3,7 +3,7 @@ title: CreateResourceUrl
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents the method that creates URL for HTML resource.
 type: docs
-weight: 680
+weight: 690
 url: /net/groupdocs.viewer.interfaces/createresourceurl/
 ---
 ## CreateResourceUrl delegate

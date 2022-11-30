@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /net/groupdocs.viewer.results/projectmanagementviewinfo/projectmanagementviewinfo/
 ---
-## ProjectManagementViewInfo constructor
+## ProjectManagementViewInfo() {#constructor}
 
 Initializes new instance of [`ProjectManagementViewInfo`](../../projectmanagementviewinfo) class.
 
 ```csharp
-public ProjectManagementViewInfo(FileType fileType, IList<Page> pages, DateTime startDate, 
+public ProjectManagementViewInfo()
+```
+
+### See Also
+
+* class [ProjectManagementViewInfo](../../projectmanagementviewinfo)
+* namespace [GroupDocs.Viewer.Results](../../projectmanagementviewinfo)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## ProjectManagementViewInfo(FileType, List&lt;Page&gt;, DateTime, DateTime) {#constructor_1}
+
+Initializes new instance of [`ProjectManagementViewInfo`](../../projectmanagementviewinfo) class.
+
+```csharp
+public ProjectManagementViewInfo(FileType fileType, List<Page> pages, DateTime startDate, 
     DateTime endDate)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileType | FileType | The type of the file. |
-| pages | IList`1 | The list of pages to view. |
+| pages | List`1 | The list of pages to view. |
 | startDate | DateTime | The date time from which the project started. |
 | endDate | DateTime | The date time when the project is to be completed. |
 

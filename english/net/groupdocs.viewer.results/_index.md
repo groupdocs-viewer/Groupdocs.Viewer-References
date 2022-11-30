@@ -21,6 +21,7 @@ The namespace provides classes which represent document rendering results.
 | [Layout](./layout) | Represents layout contained by the CAD drawing. |
 | [Line](./line) | Represents relatively positioned rectangle which contains single line. |
 | [LotusNotesViewInfo](./lotusnotesviewinfo) | Represents view information for Lotus notes database storage |
+| [MboxViewInfo](./mboxviewinfo) | Represents view information for Mbox files storage |
 | [OutlookViewInfo](./outlookviewinfo) | Represents view information for Outlook Data file. |
 | [Page](./page) | Represents single page that can be viewed. |
 | [PdfViewInfo](./pdfviewinfo) | Represents view information for PDF document. |

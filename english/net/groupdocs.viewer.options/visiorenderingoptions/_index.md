@@ -3,7 +3,7 @@ title: VisioRenderingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The Visio files processing documents view options.
 type: docs
-weight: 550
+weight: 560
 url: /net/groupdocs.viewer.options/visiorenderingoptions/
 ---
 ## VisioRenderingOptions class

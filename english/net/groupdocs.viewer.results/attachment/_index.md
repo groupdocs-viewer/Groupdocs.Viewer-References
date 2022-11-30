@@ -18,19 +18,20 @@ public class Attachment
 
 | Name | Description |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Initializes new instance of [`Attachment`](../attachment) class. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Initializes new instance of [`Attachment`](../attachment) class. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Initializes new instance of [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor)() | Initializes new instance of [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_1)(string, string) | Initializes new instance of [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Initializes new instance of [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Initializes new instance of [`Attachment`](../attachment) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Attachment file name. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Attachment relative path e.g. folder/file.docx or filename when the file is located in the root of an archive, in e-mail message or data file. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Attachment file type. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Unique identifier of the attachment in context of a single file that contains this attachment. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Attachment file size in bytes. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Attachment file name. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Attachment relative path e.g. folder/file.docx or filename when the file is located in the root of an archive, in e-mail message or data file. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Attachment file type. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Unique identifier of the attachment in context of a single file that contains this attachment. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Attachment file size in bytes. |
 
 ## Methods
 

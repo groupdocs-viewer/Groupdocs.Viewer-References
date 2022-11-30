@@ -11,15 +11,15 @@ url: /net/groupdocs.viewer.results/cadviewinfo/cadviewinfo/
 Initializes new instance of [`CadViewInfo`](../../cadviewinfo) class.
 
 ```csharp
-public CadViewInfo(FileType fileType, IList<Page> pages, IList<Layer> layers, IList<Layout> layouts)
+public CadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileType | FileType | The type of the file. |
-| pages | IList`1 | The list of pages to view. |
-| layers | IList`1 | The list of layers contained by the CAD drawing. |
-| layouts | IList`1 | The list of layers contained by the CAD drawing. |
+| pages | List`1 | The list of pages to view. |
+| layers | List`1 | The list of layers contained by the CAD drawing. |
+| layouts | List`1 | The list of layers contained by the CAD drawing. |
 
 ### Exceptions
 

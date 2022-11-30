@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/layout/height/
 The height of the layout.
 
 ```csharp
-public float Height { get; }
+public float Height { get; set; }
 ```
 
 ### See Also

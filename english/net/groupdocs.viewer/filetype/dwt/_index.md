@@ -3,7 +3,7 @@ title: DWT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: AutoCAD Drawing Template .dwt is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. Learn more about this file format herehttps//wiki.fileformat.com/cad/dwt.
 type: docs
-weight: 360
+weight: 370
 url: /net/groupdocs.viewer/filetype/dwt/
 ---
 ## FileType.DWT field

@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Filename suffix including the period . e.g. .doc.
 type: docs
-weight: 1910
+weight: 1930
 url: /net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer/filetype/extension/
 Filename suffix (including the period ".") e.g. ".doc".
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### See Also

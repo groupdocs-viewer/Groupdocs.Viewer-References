@@ -3,7 +3,7 @@ title: ICO
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Icon File .ico are image file types used as icon for representation of an application on Microsoft Windows. Learn more about this file format herehttps//wiki.fileformat.com/image/ico.
 type: docs
-weight: 590
+weight: 600
 url: /net/groupdocs.viewer/filetype/ico/
 ---
 ## FileType.ICO field

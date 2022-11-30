@@ -3,7 +3,7 @@ title: SVG
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Scalable Vector Graphics File .svg is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. Learn more about this file format herehttps//wiki.fileformat.com/pagedescriptionlanguage/svg.
 type: docs
-weight: 1400
+weight: 1420
 url: /net/groupdocs.viewer/filetype/svg/
 ---
 ## FileType.SVG field

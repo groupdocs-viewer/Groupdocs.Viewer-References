@@ -3,7 +3,7 @@ title: Resource
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents HTML resource such as font style image or graphics.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.viewer.results/resource/
 ---
 ## Resource class
@@ -18,14 +18,15 @@ public class Resource
 
 | Name | Description |
 | --- | --- |
-| [Resource](resource)(string, bool) | Creates new instance of [`Resource`](../resource) class. |
+| [Resource](resource#constructor)() | Creates new instance of [`Resource`](../resource) class. |
+| [Resource](resource#constructor_1)(string, bool) | Creates new instance of [`Resource`](../resource) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/resource/filename) { get; } | The resource file name. |
-| [Nested](../../groupdocs.viewer.results/resource/nested) { get; } | Indicates whether resource resides inside another resource, e.g. font resource that resides in CSS or SVG resource. |
+| [FileName](../../groupdocs.viewer.results/resource/filename) { get; set; } | The resource file name. |
+| [Nested](../../groupdocs.viewer.results/resource/nested) { get; set; } | Indicates whether resource resides inside another resource, e.g. font resource that resides in CSS or SVG resource. |
 
 ## Methods
 

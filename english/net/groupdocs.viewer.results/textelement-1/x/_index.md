@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/textelement-1/x/
 The X coordinate of the highest left point on the page layout where the rectangle that contains element begins.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: Resolution
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides option to set resolution for images in output document.
 type: docs
-weight: 440
+weight: 450
 url: /net/groupdocs.viewer.options/resolution/
 ---
 ## Resolution class

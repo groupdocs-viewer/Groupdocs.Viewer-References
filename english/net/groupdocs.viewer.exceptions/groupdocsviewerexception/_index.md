@@ -3,7 +3,7 @@ title: GroupDocsViewerException
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents the generic errors that occur during document processing.
 type: docs
-weight: 760
+weight: 770
 url: /net/groupdocs.viewer.exceptions/groupdocsviewerexception/
 ---
 ## GroupDocsViewerException class

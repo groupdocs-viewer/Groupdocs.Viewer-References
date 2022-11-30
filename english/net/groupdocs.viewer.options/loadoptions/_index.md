@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options that used to open the file.
 type: docs
-weight: 330
+weight: 340
 url: /net/groupdocs.viewer.options/loadoptions/
 ---
 ## LoadOptions class

@@ -3,7 +3,7 @@ title: ProjectManagementOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering project management files.
 type: docs
-weight: 430
+weight: 440
 url: /net/groupdocs.viewer.options/projectmanagementoptions/
 ---
 ## ProjectManagementOptions class

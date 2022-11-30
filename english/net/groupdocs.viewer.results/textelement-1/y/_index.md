@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/textelement-1/y/
 The Y coordinate of the highest left point on the page layout where the rectangle that contains element begins.
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### See Also

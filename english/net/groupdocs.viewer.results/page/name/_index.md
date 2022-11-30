@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/page/name/
 The worksheet or page name.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/page/width/
 The width of the page in pixels when viewing as JPG or PNG.
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### See Also

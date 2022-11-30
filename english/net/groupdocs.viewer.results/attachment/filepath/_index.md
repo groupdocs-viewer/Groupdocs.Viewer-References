@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.results/attachment/filepath/
 Attachment relative path e.g. folder/file.docx or filename when the file is located in the root of an archive, in e-mail message or data file.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### See Also

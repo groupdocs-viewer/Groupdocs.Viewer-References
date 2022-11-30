@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns a string that represents the current object.
 type: docs
-weight: 1950
+weight: 1970
 url: /net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method
