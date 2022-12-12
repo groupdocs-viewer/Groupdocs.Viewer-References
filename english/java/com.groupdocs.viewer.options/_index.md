@@ -22,7 +22,7 @@ The package provides classes to specify additional options when rendering docume
 | [HtmlViewOptions](../com.groupdocs.viewer.options/htmlviewoptions) | Provides options for rendering documents into HTML format. |
 | [JpgViewOptions](../com.groupdocs.viewer.options/jpgviewoptions) | Provides options for rendering documents into JPG format. |
 | [LoadOptions](../com.groupdocs.viewer.options/loadoptions) | Provides options that used to open the file. |
-| [MailStorageOptions](../com.groupdocs.viewer.options/mailstorageoptions) |  |
+| [MailStorageOptions](../com.groupdocs.viewer.options/mailstorageoptions) | Provides options for rendering Mail storage (Lotus Notes, MBox) data files. |
 | [OutlookOptions](../com.groupdocs.viewer.options/outlookoptions) | Provides options for rendering Outlook data files. |
 | [PdfOptions](../com.groupdocs.viewer.options/pdfoptions) | Provides options for rendering PDF documents. |
 | [PdfViewOptions](../com.groupdocs.viewer.options/pdfviewoptions) | Provides options for rendering documents into PDF format. |

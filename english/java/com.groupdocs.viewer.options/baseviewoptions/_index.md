@@ -51,15 +51,17 @@ Provides base rendering options.
 | [getPdfOptions()](#getPdfOptions--) | The PDF documents view options. |
 | [setPdfOptions(PdfOptions value)](#setPdfOptions-com.groupdocs.viewer.options.PdfOptions-) | The PDF documents view options. |
 | [getMailStorageOptions()](#getMailStorageOptions--) | Lotus Notes storage data files view options. |
-| [setMailStorageOptions(MailStorageOptions mMailStorageOptions)](#setMailStorageOptions-com.groupdocs.viewer.options.MailStorageOptions-) | Lotus Notes storage data files view options. |
+| [setMailStorageOptions(MailStorageOptions mailStorageOptions)](#setMailStorageOptions-com.groupdocs.viewer.options.MailStorageOptions-) | Lotus Notes storage data files view options. |
 | [getProjectManagementOptions()](#getProjectManagementOptions--) | The project management files view options. |
-| [setProjectManagementOptions(ProjectManagementOptions value)](#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-) | The project management files view options. |
+| [setProjectManagementOptions(ProjectManagementOptions projectManagementOptions)](#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-) | The project management files view options. |
 | [getSpreadsheetOptions()](#getSpreadsheetOptions--) | The spreadsheet files view options. |
 | [setSpreadsheetOptions(SpreadsheetOptions value)](#setSpreadsheetOptions-com.groupdocs.viewer.options.SpreadsheetOptions-) | The spreadsheet files view options. |
 | [getWordProcessingOptions()](#getWordProcessingOptions--) | The word processing documents view options. |
-| [setWordProcessingOptions(WordProcessingOptions value)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | The word processing documents view options. |
+| [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | The word processing documents view options. |
 | [getVisioRenderingOptions()](#getVisioRenderingOptions--) | The Visio files processing documents view options. |
 | [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) |  |
+| [getPresentationOptions()](#getPresentationOptions--) | The presentation processing documents view options. |
+| [setPresentationOptions(PresentationOptions presentationOptions)](#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-) | The presentation processing documents view options. |
 ### BaseViewOptions() {#BaseViewOptions--}
 ```
 public BaseViewOptions()
@@ -398,9 +400,9 @@ Lotus Notes storage data files view options.
 
 **Returns:**
 [MailStorageOptions](../../com.groupdocs.viewer.options/mailstorageoptions)
-### setMailStorageOptions(MailStorageOptions mMailStorageOptions) {#setMailStorageOptions-com.groupdocs.viewer.options.MailStorageOptions-}
+### setMailStorageOptions(MailStorageOptions mailStorageOptions) {#setMailStorageOptions-com.groupdocs.viewer.options.MailStorageOptions-}
 ```
-public void setMailStorageOptions(MailStorageOptions mMailStorageOptions)
+public void setMailStorageOptions(MailStorageOptions mailStorageOptions)
 ```
 
 
@@ -409,7 +411,7 @@ Lotus Notes storage data files view options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mMailStorageOptions | [MailStorageOptions](../../com.groupdocs.viewer.options/mailstorageoptions) |  |
+| mailStorageOptions | [MailStorageOptions](../../com.groupdocs.viewer.options/mailstorageoptions) |  |
 
 ### getProjectManagementOptions() {#getProjectManagementOptions--}
 ```
@@ -421,9 +423,9 @@ The project management files view options.
 
 **Returns:**
 [ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions)
-### setProjectManagementOptions(ProjectManagementOptions value) {#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-}
+### setProjectManagementOptions(ProjectManagementOptions projectManagementOptions) {#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-}
 ```
-public final void setProjectManagementOptions(ProjectManagementOptions value)
+public final void setProjectManagementOptions(ProjectManagementOptions projectManagementOptions)
 ```
 
 
@@ -432,7 +434,7 @@ The project management files view options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions) |  |
+| projectManagementOptions | [ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions) |  |
 
 ### getSpreadsheetOptions() {#getSpreadsheetOptions--}
 ```
@@ -467,9 +469,9 @@ The word processing documents view options.
 
 **Returns:**
 [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions)
-### setWordProcessingOptions(WordProcessingOptions value) {#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-}
+### setWordProcessingOptions(WordProcessingOptions wordProcessingOptions) {#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-}
 ```
-public final void setWordProcessingOptions(WordProcessingOptions value)
+public final void setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)
 ```
 
 
@@ -478,7 +480,7 @@ The word processing documents view options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) |  |
+| wordProcessingOptions | [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) |  |
 
 ### getVisioRenderingOptions() {#getVisioRenderingOptions--}
 ```
@@ -502,4 +504,27 @@ public void setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions
 | Parameter | Type | Description |
 | --- | --- | --- |
 | visioRenderingOptions | [VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions) |  |
+
+### getPresentationOptions() {#getPresentationOptions--}
+```
+public PresentationOptions getPresentationOptions()
+```
+
+
+The presentation processing documents view options.
+
+**Returns:**
+com.groupdocs.viewer.options.PresentationOptions
+### setPresentationOptions(PresentationOptions presentationOptions) {#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-}
+```
+public void setPresentationOptions(PresentationOptions presentationOptions)
+```
+
+
+The presentation processing documents view options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presentationOptions | com.groupdocs.viewer.options.PresentationOptions |  |
 

@@ -49,6 +49,8 @@ Represents main class that controls document rendering process.
 | [view(ViewOptions options, int[] pageNumbers)](#view-com.groupdocs.viewer.options.ViewOptions-int...-) | Creates view of specific document pages. |
 | [getFileInfo()](#getFileInfo--) | Returns information about file such as file-type and flag that indicates if file is encrypted. |
 | [close()](#close--) | Releases file stream and managed internal resources. |
+| [getLoadOptionsInternal()](#getLoadOptionsInternal--) |  |
+| [setLoadOptionsInternal(LoadOptions mLoadOptionsInternal)](#setLoadOptionsInternal-com.groupdocs.viewer.options.LoadOptions-) |  |
 ### Viewer(InputStream fileStream) {#Viewer-java.io.InputStream-}
 ```
 public Viewer(InputStream fileStream)
@@ -590,4 +592,27 @@ public final void close()
 
 
 Releases file stream and managed internal resources.
+
+### getLoadOptionsInternal() {#getLoadOptionsInternal--}
+```
+public LoadOptions getLoadOptionsInternal()
+```
+
+
+
+
+**Returns:**
+[LoadOptions](../../com.groupdocs.viewer.options/loadoptions)
+### setLoadOptionsInternal(LoadOptions mLoadOptionsInternal) {#setLoadOptionsInternal-com.groupdocs.viewer.options.LoadOptions-}
+```
+public void setLoadOptionsInternal(LoadOptions mLoadOptionsInternal)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mLoadOptionsInternal | [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) |  |
 

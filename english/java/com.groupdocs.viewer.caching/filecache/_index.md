@@ -31,6 +31,8 @@ Represents a local on-disk cache.
 | [set(String key, Object value)](#set-java.lang.String-java.lang.Object-) | Serializes data to the local disk. |
 | [<T>get(String key)](#-T-get-java.lang.String-) | Deserializes data associated with this key if present. |
 | [getKeys(String filter)](#getKeys-java.lang.String-) | Returns all file names that contains filter in filename. |
+| [getWaitTimeout()](#getWaitTimeout--) |  |
+| [setWaitTimeout(System.TimeSpan waitTimeout)](#setWaitTimeout-com.aspose.ms.System.TimeSpan-) |  |
 ### FileCache(String cachePath) {#FileCache-java.lang.String-}
 ```
 public FileCache(String cachePath)
@@ -122,3 +124,26 @@ Returns all file names that contains filter in filename.
 
 **Returns:**
 java.util.List<java.lang.String> - File names that contains filter in filename.
+### getWaitTimeout() {#getWaitTimeout--}
+```
+public System.TimeSpan getWaitTimeout()
+```
+
+
+
+
+**Returns:**
+com.aspose.ms.System.TimeSpan
+### setWaitTimeout(System.TimeSpan waitTimeout) {#setWaitTimeout-com.aspose.ms.System.TimeSpan-}
+```
+public void setWaitTimeout(System.TimeSpan waitTimeout)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| waitTimeout | com.aspose.ms.System.TimeSpan |  |
+
