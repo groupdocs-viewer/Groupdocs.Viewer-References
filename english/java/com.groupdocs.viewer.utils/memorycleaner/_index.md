@@ -22,12 +22,12 @@ Cleanes different resources to free memory
 
 | Method | Description |
 | --- | --- |
-| [clearKeepingFontSettings()](#clearKeepingFontSettings--) |  |
-| [clear()](#clear--) |  |
-| [clearStaticInstances()](#clearStaticInstances--) |  |
-| [clearAllTempFiles()](#clearAllTempFiles--) |  |
-| [clearFontRegistry()](#clearFontRegistry--) |  |
-| [clearCurrentThreadLocals()](#clearCurrentThreadLocals--) |  |
+| [clearKeepingFontSettings()](#clearKeepingFontSettings--) | Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
+| [clear()](#clear--) | Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
+| [clearStaticInstances()](#clearStaticInstances--) | Clears Heap memory from static PDF instances. |
+| [clearAllTempFiles()](#clearAllTempFiles--) | Clears temp files, created by PDF in system temp directory. |
+| [clearFontRegistry()](#clearFontRegistry--) | Clears FontRegistry information from the Heap memory. |
+| [clearCurrentThreadLocals()](#clearCurrentThreadLocals--) | Safely clears Heap memory from ThreadLocal instances for current thread |
 ### MemoryCleaner() {#MemoryCleaner--}
 ```
 public MemoryCleaner()
@@ -40,7 +40,7 @@ public static void clearKeepingFontSettings()
 ```
 
 
-
+Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
 
 ### clear() {#clear--}
 ```
@@ -48,7 +48,7 @@ public static void clear()
 ```
 
 
-
+Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
 
 ### clearStaticInstances() {#clearStaticInstances--}
 ```
@@ -56,7 +56,7 @@ public static void clearStaticInstances()
 ```
 
 
-
+Clears Heap memory from static PDF instances.
 
 ### clearAllTempFiles() {#clearAllTempFiles--}
 ```
@@ -64,7 +64,7 @@ public static void clearAllTempFiles()
 ```
 
 
-
+Clears temp files, created by PDF in system temp directory.
 
 ### clearFontRegistry() {#clearFontRegistry--}
 ```
@@ -72,7 +72,7 @@ public static void clearFontRegistry()
 ```
 
 
-
+Clears FontRegistry information from the Heap memory.
 
 ### clearCurrentThreadLocals() {#clearCurrentThreadLocals--}
 ```
@@ -80,5 +80,5 @@ public static void clearCurrentThreadLocals()
 ```
 
 
-
+Safely clears Heap memory from ThreadLocal instances for current thread
 

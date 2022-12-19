@@ -50,7 +50,7 @@ The package provides classes to specify additional options when rendering docume
 
 | Enum | Description |
 | --- | --- |
-| [Field](../com.groupdocs.viewer.options/field) | Represents email message fields e.g. |
+| [Field](../com.groupdocs.viewer.options/field) | Represents email message fields e.g. From, To, Subject etc. |
 | [ImageQuality](../com.groupdocs.viewer.options/imagequality) | The quality of images in the output HTML contained by the PDF documents. |
 | [PageSize](../com.groupdocs.viewer.options/pagesize) | The size of the page. |
 | [Position](../com.groupdocs.viewer.options/position) | Defines watermark position. |

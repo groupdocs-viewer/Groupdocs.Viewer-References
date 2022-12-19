@@ -29,8 +29,8 @@ Provides options that used to open the file.
 | [setPassword(String value)](#setPassword-java.lang.String-) | The password for opening encrypted file. |
 | [getCharset()](#getCharset--) | The Charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
 | [setCharset(Charset value)](#setCharset-java.nio.charset.Charset-) | The Charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
-| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | The external resources e.g. |
-| [setResourceLoadingTimeout(int resourceLoadingTimeout)](#setResourceLoadingTimeout-int-) | The external resources e.g. |
+| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | The external resources e.g. graphics loading timeout. |
+| [setResourceLoadingTimeout(int resourceLoadingTimeout)](#setResourceLoadingTimeout-int-) | The external resources e.g. graphics loading timeout. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()

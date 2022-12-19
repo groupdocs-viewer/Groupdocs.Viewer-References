@@ -41,7 +41,7 @@ Provides options for rendering documents into JPG format.
 | [setWidth(int value)](#setWidth-int-) | The width of the output image in pixels. |
 | [getHeight()](#getHeight--) | The height of an output image in pixels. |
 | [setHeight(int value)](#setHeight-int-) | The height of an output image in pixels. |
-| [getPageStreamFactory()](#getPageStreamFactory--) |  |
+| [getPageStreamFactory()](#getPageStreamFactory--) | The factory which implements methods for creating and releasing output page stream. |
 ### JpgViewOptions(CreatePageStream createPageStream) {#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-}
 ```
 public JpgViewOptions(CreatePageStream createPageStream)
@@ -259,7 +259,7 @@ public final PageStreamFactory getPageStreamFactory()
 ```
 
 
-
+The factory which implements methods for creating and releasing output page stream.
 
 **Returns:**
 [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory)

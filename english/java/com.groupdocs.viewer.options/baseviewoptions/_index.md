@@ -24,14 +24,6 @@ Provides base rendering options.
 | --- | --- |
 | [getTextOptions()](#getTextOptions--) | Text files splitting to pages options. |
 | [setTextOptions(TextOptions textOptions)](#setTextOptions-com.groupdocs.viewer.options.TextOptions-) | Text files splitting to pages options. |
-| [isForHtmlView()](#isForHtmlView--) |  |
-| [setForHtmlView(boolean value)](#setForHtmlView-boolean-) |  |
-| [isForSinglePage()](#isForSinglePage--) |  |
-| [setForSinglePage(boolean isForSinglePage)](#setForSinglePage-boolean-) |  |
-| [isForPngView()](#isForPngView--) |  |
-| [setForPngView(boolean forPngView)](#setForPngView-boolean-) |  |
-| [isForJpgView()](#isForJpgView--) |  |
-| [setForJpgView(boolean forJpgView)](#setForJpgView-boolean-) |  |
 | [isRenderComments()](#isRenderComments--) | Enables rendering comments. |
 | [setRenderComments(boolean value)](#setRenderComments-boolean-) | Enables rendering comments. |
 | [isRenderNotes()](#isRenderNotes--) | Enables rendering notes. |
@@ -59,7 +51,7 @@ Provides base rendering options.
 | [getWordProcessingOptions()](#getWordProcessingOptions--) | The word processing documents view options. |
 | [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | The word processing documents view options. |
 | [getVisioRenderingOptions()](#getVisioRenderingOptions--) | The Visio files processing documents view options. |
-| [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) |  |
+| [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) | Sets the Visio files processing documents view options. |
 | [getPresentationOptions()](#getPresentationOptions--) | The presentation processing documents view options. |
 | [setPresentationOptions(PresentationOptions presentationOptions)](#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-) | The presentation processing documents view options. |
 ### BaseViewOptions() {#BaseViewOptions--}
@@ -90,98 +82,6 @@ Text files splitting to pages options.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | textOptions | [TextOptions](../../com.groupdocs.viewer.options/textoptions) |  |
-
-### isForHtmlView() {#isForHtmlView--}
-```
-public final boolean isForHtmlView()
-```
-
-
-
-
-**Returns:**
-boolean
-### setForHtmlView(boolean value) {#setForHtmlView-boolean-}
-```
-public final void setForHtmlView(boolean value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### isForSinglePage() {#isForSinglePage--}
-```
-public boolean isForSinglePage()
-```
-
-
-
-
-**Returns:**
-boolean
-### setForSinglePage(boolean isForSinglePage) {#setForSinglePage-boolean-}
-```
-public void setForSinglePage(boolean isForSinglePage)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isForSinglePage | boolean |  |
-
-### isForPngView() {#isForPngView--}
-```
-public boolean isForPngView()
-```
-
-
-
-
-**Returns:**
-boolean
-### setForPngView(boolean forPngView) {#setForPngView-boolean-}
-```
-public void setForPngView(boolean forPngView)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| forPngView | boolean |  |
-
-### isForJpgView() {#isForJpgView--}
-```
-public boolean isForJpgView()
-```
-
-
-
-
-**Returns:**
-boolean
-### setForJpgView(boolean forJpgView) {#setForJpgView-boolean-}
-```
-public void setForJpgView(boolean forJpgView)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| forJpgView | boolean |  |
 
 ### isRenderComments() {#isRenderComments--}
 ```
@@ -498,12 +398,12 @@ public void setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions
 ```
 
 
-
+Sets the Visio files processing documents view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visioRenderingOptions | [VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions) |  |
+| visioRenderingOptions | [VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions) | The Visio files processing documents view options. |
 
 ### getPresentationOptions() {#getPresentationOptions--}
 ```

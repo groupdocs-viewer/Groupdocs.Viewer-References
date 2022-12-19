@@ -16,7 +16,7 @@ Represents attachment file contained by email message, archive, PDF document or 
 | --- | --- |
 | [getId()](#getId--) | Unique identifier of the attachment in context of a single file that contains this attachment. |
 | [getFileName()](#getFileName--) | Attachment file name. |
-| [getFilePath()](#getFilePath--) | Attachment relative path e.g. |
+| [getFilePath()](#getFilePath--) | Attachment relative path e.g. "folder/file.docx"" or filename when the file is located in the root of an archive, in e-mail message or data file. |
 | [getSize()](#getSize--) | Attachment file size in bytes. |
 | [getFileType()](#getFileType--) | Attachment file type. |
 ### getId() {#getId--}

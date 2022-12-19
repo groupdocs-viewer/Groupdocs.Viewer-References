@@ -16,7 +16,7 @@ Defines the methods that are required for creating resource URL, instantiating a
 | --- | --- |
 | [createResourceStream(int pageNumber, Resource resource)](#createResourceStream-int-com.groupdocs.viewer.results.Resource-) | Creates the stream used to write output HTML resource data. |
 | [createResourceUrl(int pageNumber, Resource resource)](#createResourceUrl-int-com.groupdocs.viewer.results.Resource-) | Creates the URL for HTML resource. |
-| [closeResourceStream(int pageNumber, Resource resource, OutputStream resourceStream)](#closeResourceStream-int-com.groupdocs.viewer.results.Resource-java.io.OutputStream-) | Releases the stream created by \#createResourceStream(int, Resource).createResourceStream(int, Resource) method. |
+| [closeResourceStream(int pageNumber, Resource resource, OutputStream resourceStream)](#closeResourceStream-int-com.groupdocs.viewer.results.Resource-java.io.OutputStream-) | Releases the stream created by [createResourceStream(int, Resource)](../../com.groupdocs.viewer.interfaces/resourcestreamfactory\#createResourceStream-int--Resource-) method. |
 ### createResourceStream(int pageNumber, Resource resource) {#createResourceStream-int-com.groupdocs.viewer.results.Resource-}
 ```
 public abstract OutputStream createResourceStream(int pageNumber, Resource resource)
@@ -55,12 +55,12 @@ public abstract void closeResourceStream(int pageNumber, Resource resource, Outp
 ```
 
 
-Releases the stream created by \#createResourceStream(int, Resource).createResourceStream(int, Resource) method.
+Releases the stream created by [createResourceStream(int, Resource)](../../com.groupdocs.viewer.interfaces/resourcestreamfactory\#createResourceStream-int--Resource-) method.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pageNumber | int | The number of a page. |
 | resource | [Resource](../../com.groupdocs.viewer.results/resource) | The HTML resource such as font, style, image or graphics. |
-| resourceStream | java.io.OutputStream | OutputStream created by \#createResourceStream(int, Resource).createResourceStream(int, Resource) method. |
+| resourceStream | java.io.OutputStream | OutputStream created by [createResourceStream(int, Resource)](../../com.groupdocs.viewer.interfaces/resourcestreamfactory\#createResourceStream-int--Resource-) method. |
 

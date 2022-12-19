@@ -85,9 +85,7 @@ public Map<Integer,Rotation> getPageRotations()
 
 The page rotations.
 
---------------------
-
-In case both  ViewOptions.Watermark (\#getWatermark().getWatermark()/\#setWatermark(Watermark).setWatermark(Watermark)) and \#mPageRotations.mPageRotations are specified than watermark will be applied to the rotated pages.
+In case both ([setWatermark(Watermark)](../../com.groupdocs.viewer.options/viewoptions\#setWatermark-Watermark-)/getPageRotations()) are specified than watermark will be applied to the rotated pages.
 
 **Returns:**
 java.util.Map<java.lang.Integer,com.groupdocs.viewer.options.Rotation>
