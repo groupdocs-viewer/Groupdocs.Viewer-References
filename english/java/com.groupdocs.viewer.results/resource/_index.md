@@ -26,7 +26,7 @@ Represents HTML resource such as font, style, image or graphics.
 | Method | Description |
 | --- | --- |
 | [getFileName()](#getFileName--) | The resource file name. |
-| [isNested()](#isNested--) | Indicates whether resource resides inside another resource, e.g. |
+| [isNested()](#isNested--) | Indicates whether resource resides inside another resource, e.g. font resource that resides in CSS or SVG resource. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 ### Resource(String fileName, boolean nested) {#Resource-java.lang.String-boolean-}
 ```

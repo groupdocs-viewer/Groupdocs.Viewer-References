@@ -31,7 +31,7 @@ Provides options for rendering documents into HTML format.
 | [forEmbeddedResources()](#forEmbeddedResources--) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
 | [forEmbeddedResources(String filePathFormat)](#forEmbeddedResources-java.lang.String-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
 | [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
-| [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-com.groupdocs.viewer.interfaces.ReleasePageStream-com.groupdocs.viewer.interfaces.ReleaseResourceStream-) |  |
+| [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-com.groupdocs.viewer.interfaces.ReleasePageStream-com.groupdocs.viewer.interfaces.ReleaseResourceStream-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
 | [forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory)](#forExternalResources-com.groupdocs.viewer.interfaces.PageStreamFactory-com.groupdocs.viewer.interfaces.ResourceStreamFactory-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
 | [forExternalResources()](#forExternalResources--) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
 | [forExternalResources(String filePathFormat, String resourceFilePathFormat, String resourceUrlFormat)](#forExternalResources-java.lang.String-java.lang.String-java.lang.String-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
@@ -40,13 +40,11 @@ Provides options for rendering documents into HTML format.
 | [isMinify()](#isMinify--) | Enables HTML content and HTML resources minification. |
 | [setMinify(boolean value)](#setMinify-boolean-) | Enables HTML content and HTML resources minification. |
 | [setRenderToSinglePage(boolean renderSinglePage)](#setRenderToSinglePage-boolean-) | Enables HTML content will be rendered to single page |
-| [isRenderToSinglePage()](#isRenderToSinglePage--) |  |
+| [isRenderToSinglePage()](#isRenderToSinglePage--) | Enables HTML content will be rendered to single page |
 | [isExcludeFonts()](#isExcludeFonts--) | When enabled prevents adding any fonts into HTML document. |
 | [setExcludeFonts(boolean value)](#setExcludeFonts-boolean-) | When enabled prevents adding any fonts into HTML document. |
 | [getFontsToExclude()](#getFontsToExclude--) | The list of font names, to exclude from HTML document. |
 | [setFontsToExclude(List<String> value)](#setFontsToExclude-java.util.List-java.lang.String--) | The list of font names, to exclude from HTML document. |
-| [isEmbedResources()](#isEmbedResources--) |  |
-| [isExternalResources()](#isExternalResources--) |  |
 | [isForPrinting()](#isForPrinting--) | Indicates whether to optimize output HTML for printing. |
 | [setForPrinting(boolean value)](#setForPrinting-boolean-) | Indicates whether to optimize output HTML for printing. |
 ### getImageMaxWidth() {#getImageMaxWidth--}
@@ -235,19 +233,19 @@ public static HtmlViewOptions forExternalResources(CreatePageStream createPageSt
 ```
 
 
-
+Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) |  |
-| createResourceStream | [CreateResourceStream](../../com.groupdocs.viewer.interfaces/createresourcestream) |  |
-| createResourceUrl | [CreateResourceUrl](../../com.groupdocs.viewer.interfaces/createresourceurl) |  |
-| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) |  |
-| releaseResourceStream | [ReleaseResourceStream](../../com.groupdocs.viewer.interfaces/releaseresourcestream) |  |
+| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates stream used to write output page data. |
+| createResourceStream | [CreateResourceStream](../../com.groupdocs.viewer.interfaces/createresourcestream) | The method that instantiates stream used to write output HTML resource data. |
+| createResourceUrl | [CreateResourceUrl](../../com.groupdocs.viewer.interfaces/createresourceurl) | The method that creates URL for HTML resource. |
+| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases stream created by method assigned to delegate that passed to createPageStream parameter. |
+| releaseResourceStream | [ReleaseResourceStream](../../com.groupdocs.viewer.interfaces/releaseresourcestream) | The method that releases stream created by method assigned to delegate that passed to createResourceStream parameter. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - New instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
 ### forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory) {#forExternalResources-com.groupdocs.viewer.interfaces.PageStreamFactory-com.groupdocs.viewer.interfaces.ResourceStreamFactory-}
 ```
 public static HtmlViewOptions forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory)
@@ -366,7 +364,7 @@ public boolean isRenderToSinglePage()
 ```
 
 
-
+Enables HTML content will be rendered to single page
 
 **Returns:**
 boolean
@@ -425,26 +423,6 @@ This option is supported for presentations only. The fonts that are added into H
 | --- | --- | --- |
 | value | java.util.List<java.lang.String> |  |
 
-### isEmbedResources() {#isEmbedResources--}
-```
-public final boolean isEmbedResources()
-```
-
-
-
-
-**Returns:**
-boolean
-### isExternalResources() {#isExternalResources--}
-```
-public final boolean isExternalResources()
-```
-
-
-
-
-**Returns:**
-boolean
 ### isForPrinting() {#isForPrinting--}
 ```
 public final boolean isForPrinting()

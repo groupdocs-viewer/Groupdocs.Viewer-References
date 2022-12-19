@@ -43,16 +43,10 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | [DWFX](#DWFX) | Design Web Format File XPS (.dwfx) represents 2D/3D drawing as XPS document in compressed format for viewing, reviewing or printing design files. |
 | [DGN](#DGN) | MicroStation Design File (.dgn) are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System. |
 | [PLT](#PLT) | PLT (HPGL) (.plt) is a vector-based plotter file introduced by Autodesk, Inc. |
-| [CF2](#CF2) | Common File Format File Learn more about this file format [here][].
-
-
-[here]: https://fileinfo.com/extension/cf2 |
-| [OBJ](#OBJ) | Wavefront 3D Object File (.obj) is 3D image file introduced by Wavefront Technologies Learn more about this file format [here][].
-
-
-[here]: https://wiki.fileformat.com/3d/obj/ |
-| [HPG](#HPG) | PLT (HPGL) (.hpg) |
-| [IGS](#IGS) | Initial Graphics Exchange Specification (IGES) (.igs) |
+| [CF2](#CF2) | Common File Format File. |
+| [OBJ](#OBJ) | Wavefront 3D Object File (.obj) is 3D image file introduced by Wavefront Technologies. |
+| [HPG](#HPG) | PLT (HPGL) (.hpg). |
+| [IGS](#IGS) | Initial Graphics Exchange Specification (IGES) (.igs). |
 | [VSD](#VSD) | Visio Drawing File (.vsd) are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these. |
 | [VSDX](#VSDX) | Visio Drawing (.vsdx) represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. |
 | [VSS](#VSS) | Visio Stencil File(.vss) are stencil files created with Microsoft Visio 2007 and earlier. |
@@ -117,10 +111,7 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | [HTML](#HTML) | Hypertext Markup Language File (.html) is the extension for web pages created for display in browsers. |
 | [MHT](#MHT) | MHTML Web Archive (.mht) |
 | [NSF](#NSF) | Lotus Notes Database (.nsf) Learn more about this file format https://fileinfo.com/extension/nsf |
-| [MBOX](#MBOX) | Email Mailbox File (.mbox) Learn more about this file format [here][].
-
-
-[here]: https://fileinfo.com/extension/mbox |
+| [MBOX](#MBOX) | Email Mailbox File (.mbox). |
 | [MHTML](#MHTML) | MIME HTML File (.mhtml) |
 | [XML](#XML) | XML File (.xml) |
 | [ONE](#ONE) | OneNote Document (.one) is created by Microsoft OneNote application. |
@@ -226,14 +217,14 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | [valueOf(String name)](#valueOf-java.lang.String-) |  |
 | [fromExtension(String extension)](#fromExtension-java.lang.String-) | Maps file extension to file type. |
 | [fromFilePath(String filePath)](#fromFilePath-java.lang.String-) | Extracts file extension and maps it to file type. |
-| [fromMediaType(String mediaType)](#fromMediaType-java.lang.String-) | Maps file media type to file type e.g. |
+| [fromMediaType(String mediaType)](#fromMediaType-java.lang.String-) | Maps file media type to file type e.g. 'application/pdf' will be mapped to [FileType](../../com.groupdocs.viewer/filetype).PDF. |
 | [fromStream(InputStream stream)](#fromStream-java.io.InputStream-) | Detects file type by reading the file signature. |
 | [fromStream(InputStream stream, String password)](#fromStream-java.io.InputStream-java.lang.String-) | Detects file type by reading the file signature. |
 | [fromStream(InputStream stream, ILogger logger)](#fromStream-java.io.InputStream-com.groupdocs.foundation.logging.ILogger-) | Detects file type by reading the file signature. |
 | [fromStream(InputStream stream, String password, ILogger logger)](#fromStream-java.io.InputStream-java.lang.String-com.groupdocs.foundation.logging.ILogger-) | Detects file type by reading the file signature. |
 | [getSupportedFileTypes()](#getSupportedFileTypes--) | Retrieves supported file types |
-| [getFileFormat()](#getFileFormat--) | File type name e.g. |
-| [getExtension()](#getExtension--) | Filename suffix (including the period ".") e.g. |
+| [getFileFormat()](#getFileFormat--) | File type name e.g. "Microsoft Word Document". |
+| [getExtension()](#getExtension--) | Filename suffix (including the period ".") e.g. ".doc". |
 | [toString()](#toString--) | Returns a String that represents the current object. |
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -493,7 +484,7 @@ public static final FileType CF2
 ```
 
 
-Common File Format File Learn more about this file format [here][].
+Common File Format File. Learn more about this file format [here][].
 
 
 [here]: https://fileinfo.com/extension/cf2
@@ -504,7 +495,7 @@ public static final FileType OBJ
 ```
 
 
-Wavefront 3D Object File (.obj) is 3D image file introduced by Wavefront Technologies Learn more about this file format [here][].
+Wavefront 3D Object File (.obj) is 3D image file introduced by Wavefront Technologies. Learn more about this file format [here][].
 
 
 [here]: https://wiki.fileformat.com/3d/obj/
@@ -515,7 +506,7 @@ public static final FileType HPG
 ```
 
 
-PLT (HPGL) (.hpg)
+PLT (HPGL) (.hpg).
 
 ### IGS {#IGS}
 ```
@@ -523,7 +514,7 @@ public static final FileType IGS
 ```
 
 
-Initial Graphics Exchange Specification (IGES) (.igs)
+Initial Graphics Exchange Specification (IGES) (.igs).
 
 ### VSD {#VSD}
 ```
@@ -1199,7 +1190,7 @@ public static final FileType MBOX
 ```
 
 
-Email Mailbox File (.mbox) Learn more about this file format [here][].
+Email Mailbox File (.mbox). Learn more about this file format [here][].
 
 
 [here]: https://fileinfo.com/extension/mbox

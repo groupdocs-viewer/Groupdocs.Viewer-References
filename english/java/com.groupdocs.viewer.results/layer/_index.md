@@ -33,7 +33,7 @@ public abstract boolean isVisible()
 ```
 
 
-The layer visibility indicator. The CAD drawing layers that are switched off or frozen are invisible. To render layers that are invisible, use ([CadOptions.getLayers](../../com.groupdocs.viewer.options/cadoptions\#getLayers)/[CadOptions.setLayers(List)](../../com.groupdocs.viewer.options/cadoptions\#setLayers-List-) option.
+The layer visibility indicator. The CAD drawing layers that are switched off or frozen are invisible. To render layers that are invisible, use [CadOptions.setLayers(List)](../../com.groupdocs.viewer.options/cadoptions\#setLayers-List-) option.
 
 **Returns:**
 boolean

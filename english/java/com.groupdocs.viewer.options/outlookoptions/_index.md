@@ -22,8 +22,8 @@ Provides options for rendering Outlook data files.
 
 | Method | Description |
 | --- | --- |
-| [getFolder()](#getFolder--) | The name of the folder (e.g. |
-| [setFolder(String value)](#setFolder-java.lang.String-) | The name of the folder (e.g. |
+| [getFolder()](#getFolder--) | The name of the folder (e.g. Inbox, Sent Item or Deleted Items) to render. |
+| [setFolder(String value)](#setFolder-java.lang.String-) | The name of the folder (e.g. Inbox, Sent Item or Deleted Items) to render. |
 | [getTextFilter()](#getTextFilter--) | The keywords used to filter messages. |
 | [setTextFilter(String value)](#setTextFilter-java.lang.String-) | The keywords used to filter messages. |
 | [getAddressFilter()](#getAddressFilter--) | The email-address used to filter messages by sender or recipient. |

@@ -14,4 +14,4 @@ The package provides functionality for using custom models in cache implementati
 
 | Class | Description |
 | --- | --- |
-| [CacheableFactory](../com.groupdocs.viewer.caching.extra/cacheablefactory) | This class helps customising [Cache](../com.groupdocs.viewer.caching/cache).You can implement your custom models for serialization and override methods in this class for return them instead of embedded ones.Just extend CacheableFactory and call [CacheableFactory](../com.groupdocs.viewer.caching.extra/cacheablefactory).setInstance(new YourCustomCacheableFactory())More details in [documentation][][documentation]: https://docs.groupdocs.com/viewer/java/getting-started/ |
+| [CacheableFactory](../com.groupdocs.viewer.caching.extra/cacheablefactory) | This class helps customising [Cache](../com.groupdocs.viewer.caching/cache). |

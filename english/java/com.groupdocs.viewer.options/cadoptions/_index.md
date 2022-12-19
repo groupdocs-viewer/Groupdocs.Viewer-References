@@ -183,7 +183,7 @@ The drawing regions to render.
 
 --------------------
 
-This option supported only for [FileType.DWG](../../com.groupdocs.viewer/filetype\#DWG) and [FileType.DWT](../../com.groupdocs.viewer/filetype\#DWT) file type. The  RenderLayouts (\#isRenderLayouts().isRenderLayouts()/\#setRenderLayouts(boolean).setRenderLayouts(boolean)) and  LayoutName (\#getLayoutName().getLayoutName()/\#setLayoutName(String).setLayoutName(String)) options are ignored when rendering by tiles.
+This option supported only for [FileType.DWG](../../com.groupdocs.viewer/filetype\#DWG) and [FileType.DWT](../../com.groupdocs.viewer/filetype\#DWT) file type. The  RenderLayouts ([isRenderLayouts()](../../com.groupdocs.viewer.options/cadoptions\#isRenderLayouts--)/[setRenderLayouts(boolean)](../../com.groupdocs.viewer.options/cadoptions\#setRenderLayouts-boolean-)) and  LayoutName ([getLayoutName()](../../com.groupdocs.viewer.options/cadoptions\#getLayoutName--)/[setLayoutName(String)](../../com.groupdocs.viewer.options/cadoptions\#setLayoutName-String-)) options are ignored when rendering by tiles.
 
 **Returns:**
 java.util.List<com.groupdocs.viewer.options.Tile>
@@ -197,7 +197,7 @@ The drawing regions to render.
 
 --------------------
 
-This option supported only for [FileType.DWG](../../com.groupdocs.viewer/filetype\#DWG) and [FileType.DWT](../../com.groupdocs.viewer/filetype\#DWT) file type. The  RenderLayouts (\#isRenderLayouts().isRenderLayouts()/\#setRenderLayouts(boolean).setRenderLayouts(boolean)) and  LayoutName (\#getLayoutName().getLayoutName()/\#setLayoutName(String).setLayoutName(String)) options are ignored when rendering by tiles.
+This option supported only for [FileType.DWG](../../com.groupdocs.viewer/filetype\#DWG) and [FileType.DWT](../../com.groupdocs.viewer/filetype\#DWT) file type. The  RenderLayouts ([isRenderLayouts()](../../com.groupdocs.viewer.options/cadoptions\#isRenderLayouts--)/[setRenderLayouts(boolean)](../../com.groupdocs.viewer.options/cadoptions\#setRenderLayouts-boolean-)) and  LayoutName ([getLayoutName()](../../com.groupdocs.viewer.options/cadoptions\#getLayoutName--)/[setLayoutName(String)](../../com.groupdocs.viewer.options/cadoptions\#setLayoutName-String-)) options are ignored when rendering by tiles.
 
 **Parameters:**
 | Parameter | Type | Description |

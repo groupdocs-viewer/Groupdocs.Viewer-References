@@ -1,7 +1,7 @@
 ---
 title: CacheableFactory
 second_title: GroupDocs.Viewer for Java API Reference
-description: This class helps customising . You can implement your custom models for serialization and override methods in this class for return them instead of embedded ones. Just extend CacheableFactory and call .setInstancenew YourCustomCacheableFactory More details in documentation
+description: This class helps customising .
 type: docs
 weight: 10
 url: /java/com.groupdocs.viewer.caching.extra/cacheablefactory/
@@ -12,10 +12,7 @@ java.lang.Object
 public class CacheableFactory
 ```
 
-This class helps customising [Cache](../../com.groupdocs.viewer.caching/cache).
-You can implement your custom models for serialization and override methods in this class for return them instead of embedded ones.
-Just extend CacheableFactory and call [CacheableFactory](../../com.groupdocs.viewer.caching.extra/cacheablefactory).setInstance(new YourCustomCacheableFactory())
-More details in [documentation][]
+This class helps customising [Cache](../../com.groupdocs.viewer.caching/cache). You can implement your custom models for serialization and override methods in this class for return them instead of embedded ones. Just extend CacheableFactory and call:  CacheableFactory.setInstance(new YourCustomCacheableFactory()) . More details in [documentation][]
 
 
 [documentation]: https://docs.groupdocs.com/viewer/java/getting-started/
