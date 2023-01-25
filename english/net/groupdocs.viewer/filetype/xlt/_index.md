@@ -3,7 +3,7 @@ title: XLT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Microsoft Excel Template .xlt are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 972003 supported creating new XLT files as well as opening these. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlt.
 type: docs
-weight: 1810
+weight: 1840
 url: /net/groupdocs.viewer/filetype/xlt/
 ---
 ## FileType.XLT field

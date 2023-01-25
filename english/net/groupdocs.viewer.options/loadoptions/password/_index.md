@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The password for opening encrypted file.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

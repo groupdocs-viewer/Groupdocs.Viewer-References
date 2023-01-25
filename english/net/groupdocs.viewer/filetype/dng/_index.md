@@ -3,7 +3,7 @@ title: DNG
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Digital Negative Specification .dng is a digital camera image format used for the storage of raw files. It has been developed by Adobe in September 2004. It was basically developed for digital photography. Learn more about this file format herehttps//wiki.fileformat.com/image/dng.
 type: docs
-weight: 280
+weight: 290
 url: /net/groupdocs.viewer/filetype/dng/
 ---
 ## FileType.DNG field

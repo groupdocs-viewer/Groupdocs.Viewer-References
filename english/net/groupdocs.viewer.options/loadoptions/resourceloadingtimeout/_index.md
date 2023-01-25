@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The external resources e.g. graphics loading timeout. The default value is 30 seconds. This option is supported for Word Processing documents that contain external resources.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property
