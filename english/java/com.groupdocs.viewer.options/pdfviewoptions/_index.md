@@ -38,6 +38,8 @@ Provides options for rendering documents into PDF format.
 | [setImageHeight(int imageHeight)](#setImageHeight-int-) | The height of an output image in pixels. |
 | [getSecurity()](#getSecurity--) | The output PDF document security options. |
 | [setSecurity(Security value)](#setSecurity-com.groupdocs.viewer.options.Security-) | The output PDF document security options. |
+| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Callback to estimate Words or Email document saving progress |
+| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Callback to estimate Words or Email document saving progress |
 ### PdfViewOptions(CreateFileStream createFileStream) {#PdfViewOptions-com.groupdocs.viewer.interfaces.CreateFileStream-}
 ```
 public PdfViewOptions(CreateFileStream createFileStream)
@@ -240,4 +242,27 @@ The output PDF document security options.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Security](../../com.groupdocs.viewer.options/security) |  |
+
+### getDocumentSavingCallback() {#getDocumentSavingCallback--}
+```
+public IDocumentSavingCallback getDocumentSavingCallback()
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Returns:**
+com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - Callback to estimate document saving progress
+### setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback) {#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-}
+```
+public void setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | Callback to estimate document saving progress |
 

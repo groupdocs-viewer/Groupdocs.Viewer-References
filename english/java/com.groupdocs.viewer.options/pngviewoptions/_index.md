@@ -39,6 +39,8 @@ Provides options for rendering documents into PNG format.
 | [setWidth(int value)](#setWidth-int-) | The width of the output image in pixels. |
 | [getHeight()](#getHeight--) | The height of an output image in pixels. |
 | [setHeight(int value)](#setHeight-int-) | The height of an output image in pixels. |
+| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Callback to estimate Words or Email document saving progress |
+| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Callback to estimate Words or Email document saving progress |
 ### PngViewOptions(CreatePageStream createPageStream) {#PngViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-}
 ```
 public PngViewOptions(CreatePageStream createPageStream)
@@ -226,4 +228,27 @@ The height of an output image in pixels.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getDocumentSavingCallback() {#getDocumentSavingCallback--}
+```
+public IDocumentSavingCallback getDocumentSavingCallback()
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Returns:**
+com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - Callback to estimate document saving progress
+### setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback) {#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-}
+```
+public void setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | Callback to estimate document saving progress |
 

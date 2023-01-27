@@ -26,6 +26,7 @@ Provides rendering options.
 | [setWatermark(Watermark value)](#setWatermark-com.groupdocs.viewer.options.Watermark-) | The text watermark applied to each page. |
 | [rotatePage(int pageNumber, Rotation rotation)](#rotatePage-int-com.groupdocs.viewer.options.Rotation-) | Applies clockwise rotation to the page. |
 | [getPageRotations()](#getPageRotations--) | The page rotations. |
+| [isPageRotationsInitialized_Internal()](#isPageRotationsInitialized-Internal--) | To prevent creating the instance just to check that it is empty |
 ### ViewOptions() {#ViewOptions--}
 ```
 public ViewOptions()
@@ -89,3 +90,13 @@ In case both ([setWatermark(Watermark)](../../com.groupdocs.viewer.options/viewo
 
 **Returns:**
 java.util.Map<java.lang.Integer,com.groupdocs.viewer.options.Rotation>
+### isPageRotationsInitialized_Internal() {#isPageRotationsInitialized-Internal--}
+```
+public boolean isPageRotationsInitialized_Internal()
+```
+
+
+To prevent creating the instance just to check that it is empty
+
+**Returns:**
+boolean
