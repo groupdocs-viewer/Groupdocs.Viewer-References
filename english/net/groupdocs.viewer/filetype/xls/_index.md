@@ -3,7 +3,7 @@ title: XLS
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Excel Spreadsheet .xls represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xls.
 type: docs
-weight: 1770
+weight: 1800
 url: /net/groupdocs.viewer/filetype/xls/
 ---
 ## FileType.XLS field

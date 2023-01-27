@@ -25,7 +25,8 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | The encoding used when opening text-based files or email messages such as [`CSV`](../../groupdocs.viewer/filetype/csv), [`TXT`](../../groupdocs.viewer/filetype/txt), and [`MSG`](../../groupdocs.viewer/filetype/msg). Default value is Default. |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | This option enables [`TXT`](../../groupdocs.viewer/filetype/txt), [`TSV`](../../groupdocs.viewer/filetype/tsv), and [`CSV`](../../groupdocs.viewer/filetype/csv) files encoding detection. In case the encoding can't be detected the default [`Encoding`](./encoding) is used. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | The encoding used when opening text-based files or email messages such as [`CSV`](../../groupdocs.viewer/filetype/csv), [`TXT`](../../groupdocs.viewer/filetype/txt), and [`MSG`](../../groupdocs.viewer/filetype/msg). Default value is UTF8. |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | The type of the file to open. |
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | The password for opening encrypted file. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | The external resources e.g. graphics loading timeout. The default value is 30 seconds. This option is supported for Word Processing documents that contain external resources. |

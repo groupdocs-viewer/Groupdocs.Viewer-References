@@ -3,7 +3,7 @@ title: EMF
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enhanced Windows Metafile .emf represents graphical images deviceindependently. Metafiles of EMF comprises of variablelength records in chronological order that can render the stored image after parsing on any output device. Learn more about this file format herehttps//wiki.fileformat.com/image/emf.
 type: docs
-weight: 390
+weight: 410
 url: /net/groupdocs.viewer/filetype/emf/
 ---
 ## FileType.EMF field

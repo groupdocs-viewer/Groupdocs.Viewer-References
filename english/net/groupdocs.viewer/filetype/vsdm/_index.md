@@ -3,7 +3,7 @@ title: VSDM
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Visio MacroEnabled Drawing .vsdm are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX but also provide the capability to run macros when the file is opened. Learn more about this file format herehttps//wiki.fileformat.com/image/vsdm.
 type: docs
-weight: 1630
+weight: 1660
 url: /net/groupdocs.viewer/filetype/vsdm/
 ---
 ## FileType.VSDM field

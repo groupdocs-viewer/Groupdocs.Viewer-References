@@ -3,7 +3,7 @@ title: DJVU
 second_title: GroupDocs.Viewer for .NET API Reference
 description: DjVu Image .djvu is a graphics file format intended for scanned documents and books especially those which contain the combination of text drawings images and photographs. Learn more about this file format herehttps//wiki.fileformat.com/image/djvu.
 type: docs
-weight: 270
+weight: 280
 url: /net/groupdocs.viewer/filetype/djvu/
 ---
 ## FileType.DJVU field

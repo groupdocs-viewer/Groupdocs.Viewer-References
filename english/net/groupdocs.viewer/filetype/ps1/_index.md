@@ -3,7 +3,7 @@ title: PS1
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PowerShell script file .ps1 a file format for Windows PowerShell Cmdlet files. Learn more about this file format herehttps//fileinfo.com/extension/ps1.
 type: docs
-weight: 1220
+weight: 1250
 url: /net/groupdocs.viewer/filetype/ps1/
 ---
 ## FileType.PS1 field
