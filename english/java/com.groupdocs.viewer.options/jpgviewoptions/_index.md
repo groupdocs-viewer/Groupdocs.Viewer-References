@@ -42,6 +42,8 @@ Provides options for rendering documents into JPG format.
 | [getHeight()](#getHeight--) | The height of an output image in pixels. |
 | [setHeight(int value)](#setHeight-int-) | The height of an output image in pixels. |
 | [getPageStreamFactory()](#getPageStreamFactory--) | The factory which implements methods for creating and releasing output page stream. |
+| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Callback to estimate Words or Email document saving progress |
+| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Callback to estimate Words or Email document saving progress |
 ### JpgViewOptions(CreatePageStream createPageStream) {#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-}
 ```
 public JpgViewOptions(CreatePageStream createPageStream)
@@ -263,3 +265,26 @@ The factory which implements methods for creating and releasing output page stre
 
 **Returns:**
 [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory)
+### getDocumentSavingCallback() {#getDocumentSavingCallback--}
+```
+public IDocumentSavingCallback getDocumentSavingCallback()
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Returns:**
+com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - Callback to estimate document saving progress
+### setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback) {#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-}
+```
+public void setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | Callback to estimate document saving progress |
+

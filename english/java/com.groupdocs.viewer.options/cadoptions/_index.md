@@ -36,6 +36,10 @@ Provides options for rendering CAD drawings.
 | [setLayoutName(String value)](#setLayoutName-java.lang.String-) | The name of the specific layout to render. |
 | [getLayers()](#getLayers--) | The CAD drawing layers to render. |
 | [setLayers(List<Layer> value)](#setLayers-java.util.List-com.groupdocs.viewer.results.Layer--) | The CAD drawing layers to render. |
+| [equals(Object o)](#equals-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
+| [toString()](#toString--) |  |
+| [toString(ToStringStyle style)](#toString-org.apache.commons.lang3.builder.ToStringStyle-) |  |
 ### getPc3File() {#getPc3File--}
 ```
 public String getPc3File()
@@ -297,3 +301,53 @@ By default all layers are rendered; Layer names are case-sensitive.
 | --- | --- | --- |
 | value | java.util.List<com.groupdocs.viewer.results.Layer> |  |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object |  |
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### toString(ToStringStyle style) {#toString-org.apache.commons.lang3.builder.ToStringStyle-}
+```
+public String toString(ToStringStyle style)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | org.apache.commons.lang3.builder.ToStringStyle |  |
+
+**Returns:**
+java.lang.String

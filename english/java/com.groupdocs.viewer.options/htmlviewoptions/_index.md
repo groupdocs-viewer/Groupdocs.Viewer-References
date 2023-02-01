@@ -47,6 +47,8 @@ Provides options for rendering documents into HTML format.
 | [setFontsToExclude(List<String> value)](#setFontsToExclude-java.util.List-java.lang.String--) | The list of font names, to exclude from HTML document. |
 | [isForPrinting()](#isForPrinting--) | Indicates whether to optimize output HTML for printing. |
 | [setForPrinting(boolean value)](#setForPrinting-boolean-) | Indicates whether to optimize output HTML for printing. |
+| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Callback to estimate Words or Email document saving progress |
+| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Callback to estimate Words or Email document saving progress |
 ### getImageMaxWidth() {#getImageMaxWidth--}
 ```
 public int getImageMaxWidth()
@@ -445,4 +447,27 @@ Indicates whether to optimize output HTML for printing.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getDocumentSavingCallback() {#getDocumentSavingCallback--}
+```
+public IDocumentSavingCallback getDocumentSavingCallback()
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Returns:**
+com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - Callback to estimate document saving progress
+### setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback) {#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-}
+```
+public void setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)
+```
+
+
+Callback to estimate Words or Email document saving progress
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | Callback to estimate document saving progress |
 

@@ -30,6 +30,10 @@ Provides options for rendering email messages.
 | [setPageSize(PageSize value)](#setPageSize-com.groupdocs.viewer.options.PageSize-) | The size of the output page. |
 | [getFieldTextMap()](#getFieldTextMap--) | The mapping between email message [Field](../../com.groupdocs.viewer.options/field) and field text representation. |
 | [setFieldTextMap(Map<Field,String> value)](#setFieldTextMap-java.util.Map-com.groupdocs.viewer.options.Field-java.lang.String--) | The mapping between email message [Field](../../com.groupdocs.viewer.options/field) and field text representation. |
+| [equals(Object o)](#equals-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
+| [toString()](#toString--) |  |
+| [toString(ToStringStyle style)](#toString-org.apache.commons.lang3.builder.ToStringStyle-) |  |
 ### EmailOptions() {#EmailOptions--}
 ```
 public EmailOptions()
@@ -130,3 +134,53 @@ The mapping between email message [Field](../../com.groupdocs.viewer.options/fie
 | --- | --- | --- |
 | value | java.util.Map<com.groupdocs.viewer.options.Field,java.lang.String> |  |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object |  |
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### toString(ToStringStyle style) {#toString-org.apache.commons.lang3.builder.ToStringStyle-}
+```
+public String toString(ToStringStyle style)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | org.apache.commons.lang3.builder.ToStringStyle |  |
+
+**Returns:**
+java.lang.String

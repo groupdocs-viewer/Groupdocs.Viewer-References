@@ -35,8 +35,10 @@ Provides base rendering options.
 | [getArchiveOptions()](#getArchiveOptions--) | The archive files view options. |
 | [setArchiveOptions(ArchiveOptions value)](#setArchiveOptions-com.groupdocs.viewer.options.ArchiveOptions-) | The archive files view options. |
 | [getCadOptions()](#getCadOptions--) | The CAD drawing view options. |
+| [isCadOptionsInitialized_Internal()](#isCadOptionsInitialized-Internal--) |  |
 | [setCadOptions(CadOptions value)](#setCadOptions-com.groupdocs.viewer.options.CadOptions-) | The CAD drawing view options. |
 | [getEmailOptions()](#getEmailOptions--) | The email messages view options. |
+| [isEmailOptionsInitialized_Internal()](#isEmailOptionsInitialized-Internal--) |  |
 | [setEmailOptions(EmailOptions value)](#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-) | The email messages view options. |
 | [getOutlookOptions()](#getOutlookOptions--) | The MS Outlook data files view options. |
 | [setOutlookOptions(OutlookOptions value)](#setOutlookOptions-com.groupdocs.viewer.options.OutlookOptions-) | The MS Outlook data files view options. |
@@ -208,6 +210,16 @@ The CAD drawing view options.
 
 **Returns:**
 [CadOptions](../../com.groupdocs.viewer.options/cadoptions)
+### isCadOptionsInitialized_Internal() {#isCadOptionsInitialized-Internal--}
+```
+public boolean isCadOptionsInitialized_Internal()
+```
+
+
+
+
+**Returns:**
+boolean
 ### setCadOptions(CadOptions value) {#setCadOptions-com.groupdocs.viewer.options.CadOptions-}
 ```
 public final void setCadOptions(CadOptions value)
@@ -231,6 +243,16 @@ The email messages view options.
 
 **Returns:**
 [EmailOptions](../../com.groupdocs.viewer.options/emailoptions)
+### isEmailOptionsInitialized_Internal() {#isEmailOptionsInitialized-Internal--}
+```
+public boolean isEmailOptionsInitialized_Internal()
+```
+
+
+
+
+**Returns:**
+boolean
 ### setEmailOptions(EmailOptions value) {#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-}
 ```
 public final void setEmailOptions(EmailOptions value)
