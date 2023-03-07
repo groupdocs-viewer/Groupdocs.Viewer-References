@@ -1,14 +1,14 @@
 ---
 title: OST
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: OutlookOfflinedatendatei .ost stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/email/ost .
+description: OutlookOfflinedatendatei .ost stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/email/ost .
 type: docs
-weight: 970
+weight: 1020
 url: /de/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field
 
-Outlook-Offlinedatendatei (.ost) stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/ost) .
+Outlook-Offlinedatendatei (.ost) stellt die Postfachdaten des Benutzers im Offlinemodus auf dem lokalen Computer nach der Registrierung bei Exchange Server mit Microsoft Outlook dar. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/email/ost) .
 
 ```csharp
 public static readonly FileType OST;

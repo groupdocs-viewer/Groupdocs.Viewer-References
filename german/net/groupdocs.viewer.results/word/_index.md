@@ -3,7 +3,7 @@ title: Word
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Stellt ein relativ positioniertes Rechteck dar das ein einzelnes Wort enthält.
 type: docs
-weight: 790
+weight: 800
 url: /de/net/groupdocs.viewer.results/word/
 ---
 ## Word class
@@ -18,18 +18,19 @@ public class Word : TextElement<string>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Word](word)(string, double, double, double, double, IList&lt;Character&gt;) | Initialisiert eine neue Instanz von[`Word`](../word) Klasse. |
+| [Word](word#constructor)() | Initialisiert eine neue Instanz von[`Word`](../word) Klasse. |
+| [Word](word#constructor_1)(string, double, double, double, double, List&lt;Character&gt;) | Initialisiert eine neue Instanz von[`Word`](../word) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Characters](../../groupdocs.viewer.results/word/characters) { get; } | Die im Wort enthaltenen Zeichen. |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Der Elementwert. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Characters](../../groupdocs.viewer.results/word/characters) { get; set; } | Die im Wort enthaltenen Zeichen. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Der Elementwert. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
 
 ## Methoden
 

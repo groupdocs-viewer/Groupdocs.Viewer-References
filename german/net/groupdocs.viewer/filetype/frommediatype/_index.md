@@ -3,7 +3,7 @@ title: FromMediaType
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Ordnet den Medientyp der Datei dem Dateityp zu z. B. wird application/pdf zugeordnetPDFgroupdocs.viewer/filetype/pdf .
 type: docs
-weight: 1890
+weight: 1940
 url: /de/net/groupdocs.viewer/filetype/frommediatype/
 ---
 ## FileType.FromMediaType method

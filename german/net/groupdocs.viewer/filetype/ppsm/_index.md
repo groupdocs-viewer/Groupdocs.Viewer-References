@@ -1,14 +1,14 @@
 ---
 title: PPSM
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: PowerPoint Open XML MacroEnabled Slide .ppsm stellt ein Makrofähiges DiashowDateiformat dar das mit Microsoft PowerPoint 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/ppsm .
+description: PowerPoint Open XML MacroEnabled Slide .ppsm stellt ein Makrofähiges DiashowDateiformat dar das mit Microsoft PowerPoint 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/ppsm .
 type: docs
-weight: 1130
+weight: 1180
 url: /de/net/groupdocs.viewer/filetype/ppsm/
 ---
 ## FileType.PPSM field
 
-PowerPoint Open XML Macro-Enabled Slide (.ppsm) stellt ein Makro-fähiges Diashow-Dateiformat dar, das mit Microsoft PowerPoint 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/ppsm) .
+PowerPoint Open XML Macro-Enabled Slide (.ppsm) stellt ein Makro-fähiges Diashow-Dateiformat dar, das mit Microsoft PowerPoint 2007 oder höher erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/ppsm) .
 
 ```csharp
 public static readonly FileType PPSM;

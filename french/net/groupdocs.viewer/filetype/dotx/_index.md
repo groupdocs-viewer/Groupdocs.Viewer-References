@@ -3,7 +3,7 @@ title: DOTX
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Word Open XML Document Template .dotx sont des fichiers modèles créés par Microsoft Word pour avoir des paramètres préformatés pour la génération dautres fichiers DOCX. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 330
+weight: 350
 url: /fr/net/groupdocs.viewer/filetype/dotx/
 ---
 ## FileType.DOTX field

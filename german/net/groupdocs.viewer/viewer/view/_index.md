@@ -29,7 +29,7 @@ public void View(ViewOptions options)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu verschiedenen Anzeigeoptionen finden Sie in dieser Anleitung: [So passen Sie die Dokumentanzeigeausgabe mit GroupDocs.Viewer an](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -66,7 +66,7 @@ public void View(ViewOptions options, CancellationToken cancellationToken)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu verschiedenen Anzeigeoptionen finden Sie in dieser Anleitung: [So passen Sie die Dokumentanzeigeausgabe mit GroupDocs.Viewer an](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -105,7 +105,7 @@ public void View(ViewOptions options, params int[] pageNumbers)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu verschiedenen Anzeigeoptionen finden Sie in dieser Anleitung: [So passen Sie die Dokumentanzeigeausgabe mit GroupDocs.Viewer an](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -145,7 +145,7 @@ public void View(ViewOptions options, CancellationToken cancellationToken, param
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu verschiedenen Anzeigeoptionen finden Sie in dieser Anleitung: [So passen Sie die Dokumentanzeigeausgabe mit GroupDocs.Viewer an](https://docs.groupdocs.com/display/viewernet/Viewing)
 

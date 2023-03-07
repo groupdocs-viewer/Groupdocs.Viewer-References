@@ -1,14 +1,14 @@
 ---
 title: VB
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Visual BasicProjektelementdatei .vb ist eine in Visual BasicSprache erstellte Quellcodedatei die von Microsoft für die Entwicklung von .NETAnwendungen erstellt wurde. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/programming/vb .
+description: Visual BasicProjektelementdatei .vb ist eine in Visual BasicSprache erstellte Quellcodedatei die von Microsoft für die Entwicklung von .NETAnwendungen erstellt wurde. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/programming/vb .
 type: docs
-weight: 1550
+weight: 1600
 url: /de/net/groupdocs.viewer/filetype/vb/
 ---
 ## FileType.VB field
 
-Visual Basic-Projektelementdatei (.vb) ist eine in Visual Basic-Sprache erstellte Quellcodedatei, die von Microsoft für die Entwicklung von .NET-Anwendungen erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/programming/vb) .
+Visual Basic-Projektelementdatei (.vb) ist eine in Visual Basic-Sprache erstellte Quellcodedatei, die von Microsoft für die Entwicklung von .NET-Anwendungen erstellt wurde. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/programming/vb) .
 
 ```csharp
 public static readonly FileType VB;

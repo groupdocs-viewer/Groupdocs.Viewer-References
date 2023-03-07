@@ -3,7 +3,7 @@ title: FromMediaType
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Mappe le type de support de fichier au type de fichier par exemple application/pdf sera mappé àPDFgroupdocs.viewer/filetype/pdf .
 type: docs
-weight: 1890
+weight: 1940
 url: /fr/net/groupdocs.viewer/filetype/frommediatype/
 ---
 ## FileType.FromMediaType method

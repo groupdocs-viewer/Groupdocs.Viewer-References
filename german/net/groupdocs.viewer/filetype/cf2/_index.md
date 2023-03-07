@@ -1,14 +1,14 @@
 ---
 title: CF2
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Gängiges Dateiformat File Erfahren Sie mehr über dieses Dateiformathierhttps//fileinfo.com/extension/cf2 .
+description: Gängiges Dateiformat File Erfahren Sie mehr über dieses DateiformatHierhttps//fileinfo.com/extension/cf2 .
 type: docs
-weight: 120
+weight: 130
 url: /de/net/groupdocs.viewer/filetype/cf2/
 ---
 ## FileType.CF2 field
 
-Gängiges Dateiformat File Erfahren Sie mehr über dieses Dateiformat[hier](https://fileinfo.com/extension/cf2) .
+Gängiges Dateiformat File Erfahren Sie mehr über dieses Dateiformat[Hier](https://fileinfo.com/extension/cf2) .
 
 ```csharp
 public static readonly FileType CF2;

@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Externe Ressourcen z. B. Zeitüberschreitung beim Laden von Grafiken. Der Standardwert ist 30 Sekunden. Diese Option wird für Textverarbeitungsdokumente unterstützt die externe Ressourcen enthalten.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property

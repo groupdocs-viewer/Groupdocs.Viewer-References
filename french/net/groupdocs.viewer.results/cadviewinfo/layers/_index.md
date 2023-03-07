@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/cadviewinfo/layers/
 La liste des calques contenus par le dessin CAO.
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### Voir également

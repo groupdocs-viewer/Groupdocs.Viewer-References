@@ -3,7 +3,7 @@ title: TARXZ
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Consolidated Unix File Archive .txz .tar.xz sont des archives créées avec un utilitaire basé sur Unix pour collecter un ou plusieurs fichiers. En savoir plus sur ce format de fichiericihttps//fileinfo.com/extension/txz .
 type: docs
-weight: 1450
+weight: 1500
 url: /fr/net/groupdocs.viewer/filetype/tarxz/
 ---
 ## FileType.TARXZ field

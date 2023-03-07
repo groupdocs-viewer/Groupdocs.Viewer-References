@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/attachment/size/
 Dateigröße des Anhangs in Byte.
 
 ```csharp
-public long Size { get; }
+public long Size { get; set; }
 ```
 
 ### Siehe auch

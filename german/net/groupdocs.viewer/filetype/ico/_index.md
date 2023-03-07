@@ -1,14 +1,14 @@
 ---
 title: ICO
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Symboldateien .ico sind Bilddateitypen die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/ico .
+description: Symboldateien .ico sind Bilddateitypen die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 590
+weight: 630
 url: /de/net/groupdocs.viewer/filetype/ico/
 ---
 ## FileType.ICO field
 
-Symboldateien (.ico) sind Bilddateitypen, die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/ico) .
+Symboldateien (.ico) sind Bilddateitypen, die als Symbol zur Darstellung einer Anwendung unter Microsoft Windows verwendet werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/ico) .
 
 ```csharp
 public static readonly FileType ICO;

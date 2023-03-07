@@ -3,7 +3,7 @@ title: POTX
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: PowerPoint Open XML Presentation Template .potx représente les modèles de présentation Microsoft PowerPoint créés avec Microsoft PowerPoint 2007 et versions ultérieures. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/presentation/potx .
 type: docs
-weight: 1110
+weight: 1160
 url: /fr/net/groupdocs.viewer/filetype/potx/
 ---
 ## FileType.POTX field

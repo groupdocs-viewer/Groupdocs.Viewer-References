@@ -1,14 +1,14 @@
 ---
 title: XLTM
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Makroaktivierte Microsoft ExcelVorlage .xltm stellt Dateien dar die von Microsoft Excel als makroaktivierte Vorlagendateien generiert werden. XLTMDateien ähneln XLTX in ihrer Struktur abgesehen davon dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/xltm .
+description: Makroaktivierte Microsoft ExcelVorlage .xltm stellt Dateien dar die von Microsoft Excel als makroaktivierte Vorlagendateien generiert werden. XLTMDateien ähneln XLTX in ihrer Struktur abgesehen davon dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
-weight: 1800
+weight: 1850
 url: /de/net/groupdocs.viewer/filetype/xltm/
 ---
 ## FileType.XLTM field
 
-Makroaktivierte Microsoft Excel-Vorlage (.xltm) stellt Dateien dar, die von Microsoft Excel als makroaktivierte Vorlagendateien generiert werden. XLTM-Dateien ähneln XLTX in ihrer Struktur, abgesehen davon, dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/xltm) .
+Makroaktivierte Microsoft Excel-Vorlage (.xltm) stellt Dateien dar, die von Microsoft Excel als makroaktivierte Vorlagendateien generiert werden. XLTM-Dateien ähneln XLTX in ihrer Struktur, abgesehen davon, dass letztere das Erstellen von Vorlagendateien mit Makros nicht unterstützen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/xltm) .
 
 ```csharp
 public static readonly FileType XLTM;

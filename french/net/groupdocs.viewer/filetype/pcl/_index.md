@@ -3,7 +3,7 @@ title: PCL
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Document de langage de commande dimprimante .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /fr/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field

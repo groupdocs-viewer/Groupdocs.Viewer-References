@@ -1,17 +1,42 @@
 ---
 title: Encoding
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
-description: Le codage utilisé lors de louverture de fichiers texte ou demails tels queCSVgroupdocs.viewer/filetype/csv TXTgroupdocs.viewer/filetype/txt  etMSGgroupdocs.viewer/filetype/msg . La valeur par défaut estDefault .
+description: Le codage utilisé lors de louverture de fichiers texte ou demails tels que CSVgroupdocs.viewer/filetype/csv  TXTgroupdocs.viewer/filetype/txt  etMSGgroupdocs.viewer/filetype/msg . La valeur par défaut estUTF8 .
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/groupdocs.viewer.options/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-Le codage utilisé lors de l'ouverture de fichiers texte ou d'e-mails tels que[`CSV`](../../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../../groupdocs.viewer/filetype/txt) , et[`MSG`](../../../groupdocs.viewer/filetype/msg) . La valeur par défaut estDefault .
+Le codage utilisé lors de l'ouverture de fichiers texte ou d'e-mails tels que [`CSV`](../../../groupdocs.viewer/filetype/csv) , [`TXT`](../../../groupdocs.viewer/filetype/txt) , et[`MSG`](../../../groupdocs.viewer/filetype/msg) . La valeur par défaut estUTF8 .
 
 ```csharp
 public Encoding Encoding { get; set; }
+```
+
+### Remarques
+
+**Apprendre encore plus**
+
+* [Rendu des feuilles de calcul Excel et Apple Numbers sous forme de fichiers HTML, PDF et image](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
+* [Rendre des documents texte sous forme de fichiers HTML, PDF et image](https://docs.groupdocs.com/viewer/net/render-text-files)
+* [Affichez les e-mails sous forme de fichiers HTML, PDF, PNG et JPEG](https://docs.groupdocs.com/viewer/net/render-email-messages/)
+
+### Exemples
+
+L'exemple illustre une utilisation typique de cette option.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Encoding = Encoding.ASCII; // Définir l'encodage
+
+using (Viewer viewer = new Viewer("message.txt", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### Voir également

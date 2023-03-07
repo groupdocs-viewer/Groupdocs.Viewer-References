@@ -3,7 +3,7 @@ title: EMZ
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Le métafichier Windows amélioré compressé .emz représente des images graphiques compressées indépendamment du périphérique par GZIP. Les métafichiers dEMF comprennent des enregistrements de longueur variable dans lordre chronologique qui peuvent restituer limage stockée après analyse sur nimporte quel périphérique de sortie. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/emz .
 type: docs
-weight: 410
+weight: 440
 url: /fr/net/groupdocs.viewer/filetype/emz/
 ---
 ## FileType.EMZ field

@@ -1,14 +1,14 @@
 ---
 title: DWG
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: AutoCADZeichnungsdatenbankdatei .dwg stellt proprietäre Binärdateien dar die zum Speichern von 2D und 3DKonstruktionsdaten verwendet werden. Wie DXF bei denen es sich um ASCIIDateien handelt repräsentiert DWG das binäre Dateiformat für CADZeichnungen Computer Aided Design. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/cad/dwg .
+description: AutoCADZeichnungsdatenbankdatei .dwg stellt proprietäre Binärdateien dar die zum Speichern von 2D und 3DKonstruktionsdaten verwendet werden. Wie DXF bei denen es sich um ASCIIDateien handelt repräsentiert DWG das binäre Dateiformat für CADZeichnungen Computer Aided Design. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/cad/dwg .
 type: docs
-weight: 350
+weight: 380
 url: /de/net/groupdocs.viewer/filetype/dwg/
 ---
 ## FileType.DWG field
 
-AutoCAD-Zeichnungsdatenbankdatei (.dwg) stellt proprietäre Binärdateien dar, die zum Speichern von 2D- und 3D-Konstruktionsdaten verwendet werden. Wie DXF, bei denen es sich um ASCII-Dateien handelt, repräsentiert DWG das binäre Dateiformat für CAD-Zeichnungen (Computer Aided Design). Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/cad/dwg) .
+AutoCAD-Zeichnungsdatenbankdatei (.dwg) stellt proprietäre Binärdateien dar, die zum Speichern von 2D- und 3D-Konstruktionsdaten verwendet werden. Wie DXF, bei denen es sich um ASCII-Dateien handelt, repräsentiert DWG das binäre Dateiformat für CAD-Zeichnungen (Computer Aided Design). Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/cad/dwg) .
 
 ```csharp
 public static readonly FileType DWG;

@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/layout/height/
 La hauteur de la mise en page.
 
 ```csharp
-public float Height { get; }
+public float Height { get; set; }
 ```
 
 ### Voir également

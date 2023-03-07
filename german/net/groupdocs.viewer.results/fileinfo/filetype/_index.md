@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/fileinfo/filetype/
 Der Typ der Datei.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### Siehe auch

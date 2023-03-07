@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Bestimmt ob der StromFolderFontSourcegroupdocs.viewer.fonts/folderfontsourceist genauso wie angegebenFolderFontSourcegroupdocs.viewer.fonts/folderfontsource Objekt.
+description: Bestimmt ob der StromFolderFontSourcegroupdocs.viewer.fonts/folderfontsource ist genauso wie angegebenFolderFontSourcegroupdocs.viewer.fonts/folderfontsource Objekt.
 type: docs
 weight: 40
 url: /de/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-Bestimmt, ob der Strom[`FolderFontSource`](../../folderfontsource)ist genauso wie angegeben[`FolderFontSource`](../../folderfontsource) Objekt.
+Bestimmt, ob der Strom[`FolderFontSource`](../../folderfontsource) ist genauso wie angegeben[`FolderFontSource`](../../folderfontsource) Objekt.
 
 ```csharp
 public bool Equals(FolderFontSource other)
@@ -20,7 +20,7 @@ public bool Equals(FolderFontSource other)
 
 ### Rückgabewert
 
-wenn beides[`FolderFontSource`](../../folderfontsource) Objekte sind gleich; Andernfalls,
+wenn beides[`FolderFontSource`](../../folderfontsource) Objekte sind gleich; ansonsten,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Rückgabewert
 
-wenn Parameter ist[`FolderFontSource`](../../folderfontsource) und ist das gleiche wie Strom[`FolderFontSource`](../../folderfontsource) Objekt; Andernfalls,
+Wenn Parameter ist[`FolderFontSource`](../../folderfontsource) und ist das gleiche wie Strom[`FolderFontSource`](../../folderfontsource) Objekt; ansonsten,
 
 ```csharp
 true

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
-description: Détermine si le courantLayergroupdocs.viewer.results/layerest le même que celui spécifiéLayergroupdocs.viewer.results/layer objet.
+description: Détermine si le courantLayergroupdocs.viewer.results/layer est le même que celui spécifiéLayergroupdocs.viewer.results/layer objet.
 type: docs
 weight: 40
 url: /fr/net/groupdocs.viewer.results/layer/equals/
 ---
 ## Equals(Layer) {#equals}
 
-Détermine si le courant[`Layer`](../../layer)est le même que celui spécifié[`Layer`](../../layer) objet.
+Détermine si le courant[`Layer`](../../layer) est le même que celui spécifié[`Layer`](../../layer) objet.
 
 ```csharp
 public bool Equals(Layer other)
@@ -20,7 +20,7 @@ public bool Equals(Layer other)
 
 ### Return_Value
 
-si les deux[`Layer`](../../layer) les objets sont les mêmes; Par ailleurs,
+si les deux[`Layer`](../../layer) les objets sont les mêmes; sinon,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Return_Value
 
-si le paramètre est[`Layer`](../../layer) et est le même que le courant[`Layer`](../../layer) objet; Par ailleurs,
+si le paramètre est[`Layer`](../../layer) et est le même que le courant[`Layer`](../../layer) objet; sinon,
 
 ```csharp
 true

@@ -3,7 +3,7 @@ title: ImageQuality
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Gibt die Ausgabebildqualität für Bildressourcen beim Rendern in HTML an. Der Standardwert ist Niedrig.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/groupdocs.viewer.options/pdfoptions/imagequality/
 ---
 ## PdfOptions.ImageQuality property

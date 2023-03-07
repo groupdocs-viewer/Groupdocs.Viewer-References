@@ -3,7 +3,7 @@ title: XLT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Les modèles Microsoft Excel .xlt sont des fichiers modèles créés avec Microsoft Excel un tableur faisant partie de la suite Microsoft Office. Microsoft Office 972003 prenait en charge la création de nouveaux fichiers XLT ainsi que leur ouverture. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/spreadsheet/xlt .
 type: docs
-weight: 1790
+weight: 1840
 url: /fr/net/groupdocs.viewer/filetype/xlt/
 ---
 ## FileType.XLT field

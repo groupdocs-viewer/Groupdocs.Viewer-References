@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/fileinfo/fileinfo/
 ---
-## FileInfo constructor
+## FileInfo() {#constructor}
+
+Initialisiert eine neue Instanz von[`FileType`](../filetype) Klasse.
+
+```csharp
+public FileInfo()
+```
+
+### Siehe auch
+
+* class [FileInfo](../../fileinfo)
+* namensraum [GroupDocs.Viewer.Results](../../fileinfo)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## FileInfo(FileType) {#constructor_1}
 
 Initialisiert eine neue Instanz von[`FileType`](../filetype) Klasse.
 

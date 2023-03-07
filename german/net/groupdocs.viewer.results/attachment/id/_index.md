@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/attachment/id/
 Eindeutiger Bezeichner des Anhangs im Kontext einer einzelnen Datei, die diesen Anhang enthält.
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### Siehe auch

@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Dateinamensuffix einschließlich Punkt . zB .doc.
 type: docs
-weight: 1910
+weight: 1960
 url: /de/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer/filetype/extension/
 Dateinamensuffix (einschließlich Punkt „.“) zB „.doc“.
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### Siehe auch

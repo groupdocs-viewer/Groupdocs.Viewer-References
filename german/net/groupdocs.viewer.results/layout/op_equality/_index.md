@@ -17,11 +17,11 @@ public static bool operator ==(Layout left, Layout right)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | left | Layout | Links[`Layout`](../../layout) Objekt. |
-| right | Layout | Recht[`Layout`](../../layout) Objekt. |
+| right | Layout | Rechts[`Layout`](../../layout) Objekt. |
 
 ### Rückgabewert
 
-wenn beides[`Layout`](../../layout) Objekte sind gleich; Andernfalls,
+wenn beides[`Layout`](../../layout) Objekte sind gleich; ansonsten,
 
 ```csharp
 true

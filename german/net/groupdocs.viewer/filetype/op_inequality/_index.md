@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Bestimmt ob zweiFileTypegroupdocs.viewer/filetype Objekte sind nicht gleich.
 type: docs
-weight: 1980
+weight: 2040
 url: /de/net/groupdocs.viewer/filetype/op_inequality/
 ---
 ## FileType Inequality operator
@@ -17,11 +17,11 @@ public static bool operator !=(FileType left, FileType right)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | left | FileType | Links[`FileType`](../../filetype) Objekt. |
-| right | FileType | Recht[`FileType`](../../filetype) Objekt. |
+| right | FileType | Rechts[`FileType`](../../filetype) Objekt. |
 
 ### Rückgabewert
 
-wenn beides[`FileType`](../../filetype) Objekte sind nicht gleich; Andernfalls,
+wenn beides[`FileType`](../../filetype) Objekte sind nicht gleich; ansonsten,
 
 ```csharp
 true

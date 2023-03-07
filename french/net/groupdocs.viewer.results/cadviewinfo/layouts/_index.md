@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/cadviewinfo/layouts/
 La liste des mises en page contenues par le dessin CAO.
 
 ```csharp
-public IList<Layout> Layouts { get; }
+public List<Layout> Layouts { get; set; }
 ```
 
 ### Voir également

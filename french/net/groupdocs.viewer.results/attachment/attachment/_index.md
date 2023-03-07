@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /fr/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+Initialise la nouvelle instance de[`Attachment`](../../attachment) classe.
+
+```csharp
+public Attachment()
+```
+
+### Voir également
+
+* class [Attachment](../../attachment)
+* espace de noms [GroupDocs.Viewer.Results](../../attachment)
+* Assemblée [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 Initialise la nouvelle instance de[`Attachment`](../../attachment) classe.
 
@@ -17,7 +33,7 @@ public Attachment(string fileName, string filePath)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | fileName | String | Nom du fichier joint. |
-| filePath | String | Chemin relatif de la pièce jointe, par exempledossier/fichier.docxou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
+| filePath | String | Chemin relatif de la pièce jointe, par exempledossier/fichier.docx ou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
 
 ### Exceptions
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 Initialise la nouvelle instance de[`Attachment`](../../attachment) classe.
 
@@ -46,7 +62,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | Identifiant unique (dans le contexte d'un fichier unique) de la pièce jointe. |
 | fileName | String | Nom du fichier joint. |
-| filePath | String | Chemin relatif de la pièce jointe, par exempledossier/fichier.docxou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
+| filePath | String | Chemin relatif de la pièce jointe, par exempledossier/fichier.docx ou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
 | size | Int64 | Taille du fichier joint en octets. |
 
 ### Exceptions
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 Initialise la nouvelle instance de[`Attachment`](../../attachment) classe.
 
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | Identifiant unique (dans le contexte d'un fichier unique) de la pièce jointe. |
 | fileName | String | Nom du fichier joint. |
-| filePath | String | Chemin relatif de la pièce jointe, par exempledossier/fichier.docxou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
+| filePath | String | Chemin relatif de la pièce jointe, par exempledossier/fichier.docx ou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
 | fileType | FileType | Type de fichier joint. |
 | size | Int64 | Taille du fichier joint en octets. |
 

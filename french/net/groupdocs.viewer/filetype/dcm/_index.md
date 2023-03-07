@@ -3,7 +3,7 @@ title: DCM
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Image DICOM .dcm représente une image numérique qui stocke les informations médicales des patients telles que les IRM les tomodensitogrammes et les images échographiques. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/dcm .
 type: docs
-weight: 220
+weight: 240
 url: /fr/net/groupdocs.viewer/filetype/dcm/
 ---
 ## FileType.DCM field

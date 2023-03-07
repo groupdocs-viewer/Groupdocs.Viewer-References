@@ -3,7 +3,7 @@ title: VSTM
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Visio MacroEnabled Drawing Template .vstm sont des fichiers modèles créés avec Microsoft Visio qui prennent en charge les macros. Contrairement aux fichiers VSDX les fichiers créés à partir de modèles VSTM peuvent exécuter des macros développées dans le code Visual Basic pour Applications VBA. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/vstm .
 type: docs
-weight: 1670
+weight: 1720
 url: /fr/net/groupdocs.viewer/filetype/vstm/
 ---
 ## FileType.VSTM field

@@ -1,14 +1,14 @@
 ---
 title: DWF
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Design Web Format File .dwf stellt 2D/3DZeichnungen in komprimiertem Format zum Anzeigen Überprüfen oder Drucken von Designdateien dar. Es enthält Grafiken und Text als Teil der Designdaten und reduziert die Dateigröße aufgrund seines komprimierten Formats. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/cad/dwf .
+description: Design Web Format File .dwf stellt 2D/3DZeichnungen in komprimiertem Format zum Anzeigen Überprüfen oder Drucken von Designdateien dar. Es enthält Grafiken und Text als Teil der Designdaten und reduziert die Dateigröße aufgrund seines komprimierten Formats. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/cad/dwf .
 type: docs
-weight: 340
+weight: 360
 url: /de/net/groupdocs.viewer/filetype/dwf/
 ---
 ## FileType.DWF field
 
-Design Web Format File (.dwf) stellt 2D/3D-Zeichnungen in komprimiertem Format zum Anzeigen, Überprüfen oder Drucken von Designdateien dar. Es enthält Grafiken und Text als Teil der Designdaten und reduziert die Dateigröße aufgrund seines komprimierten Formats. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/cad/dwf) .
+Design Web Format File (.dwf) stellt 2D/3D-Zeichnungen in komprimiertem Format zum Anzeigen, Überprüfen oder Drucken von Designdateien dar. Es enthält Grafiken und Text als Teil der Designdaten und reduziert die Dateigröße aufgrund seines komprimierten Formats. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/cad/dwf) .
 
 ```csharp
 public static readonly FileType DWF;

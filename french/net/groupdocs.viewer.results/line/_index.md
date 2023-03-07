@@ -18,18 +18,19 @@ public class Line : TextElement<string>
 
 | Nom | La description |
 | --- | --- |
-| [Line](line)(string, double, double, double, double, IList&lt;Word&gt;) | Initialise la nouvelle instance de[`Line`](../line) classe. |
+| [Line](line#constructor)() | Initialise la nouvelle instance de[`Line`](../line) classe. |
+| [Line](line#constructor_1)(string, double, double, double, double, List&lt;Word&gt;) | Initialise la nouvelle instance de[`Line`](../line) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | La hauteur du rectangle qui contient l'élément (en pixels). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | La valeur de l'élément. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | La largeur du rectangle qui contient l'élément (en pixels). |
-| [Words](../../groupdocs.viewer.results/line/words) { get; } | Les mots contenus par la ligne. |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Coordonnée X du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Coordonnée Y du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | La hauteur du rectangle qui contient l'élément (en pixels). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | La valeur de l'élément. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | La largeur du rectangle qui contient l'élément (en pixels). |
+| [Words](../../groupdocs.viewer.results/line/words) { get; set; } | Les mots contenus par la ligne. |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Coordonnée X du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Coordonnée Y du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
 
 ## Méthodes
 

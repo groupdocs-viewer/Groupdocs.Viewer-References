@@ -3,7 +3,7 @@ title: FODG
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Le modèle ODF XML plat .fodg est utilisé par lapplication Draw dApache OpenOffice pour stocker les éléments de dessin sous forme dimage vectorielle. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/fodg .
 type: docs
-weight: 460
+weight: 500
 url: /fr/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field

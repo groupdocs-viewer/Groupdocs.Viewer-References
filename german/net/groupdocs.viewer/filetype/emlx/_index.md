@@ -1,14 +1,14 @@
 ---
 title: EMLX
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Apple Mail Message .emlx wird von Apple implementiert und entwickelt. Die Apple MailAnwendung verwendet das EMLXDateiformat zum Exportieren der EMails. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/email/emlx .
+description: Apple Mail Message .emlx wird von Apple implementiert und entwickelt. Die Apple MailAnwendung verwendet das EMLXDateiformat zum Exportieren der EMails. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/email/emlx .
 type: docs
-weight: 400
+weight: 430
 url: /de/net/groupdocs.viewer/filetype/emlx/
 ---
 ## FileType.EMLX field
 
-Apple Mail Message (.emlx) wird von Apple implementiert und entwickelt. Die Apple Mail-Anwendung verwendet das EMLX-Dateiformat zum Exportieren der E-Mails. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/emlx) .
+Apple Mail Message (.emlx) wird von Apple implementiert und entwickelt. Die Apple Mail-Anwendung verwendet das EMLX-Dateiformat zum Exportieren der E-Mails. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/email/emlx) .
 
 ```csharp
 public static readonly FileType EMLX;

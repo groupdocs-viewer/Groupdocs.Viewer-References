@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Bestimmt ob der StromLayoutgroupdocs.viewer.results/layoutist genauso wie angegebenLayoutgroupdocs.viewer.results/layout Objekt.
+description: Bestimmt ob der StromLayoutgroupdocs.viewer.results/layout ist genauso wie angegebenLayoutgroupdocs.viewer.results/layout Objekt.
 type: docs
 weight: 50
 url: /de/net/groupdocs.viewer.results/layout/equals/
 ---
 ## Equals(Layout) {#equals}
 
-Bestimmt, ob der Strom[`Layout`](../../layout)ist genauso wie angegeben[`Layout`](../../layout) Objekt.
+Bestimmt, ob der Strom[`Layout`](../../layout) ist genauso wie angegeben[`Layout`](../../layout) Objekt.
 
 ```csharp
 public bool Equals(Layout other)
@@ -20,7 +20,7 @@ public bool Equals(Layout other)
 
 ### Rückgabewert
 
-wenn beides[`Layout`](../../layout) Objekte sind gleich; Andernfalls,
+wenn beides[`Layout`](../../layout) Objekte sind gleich; ansonsten,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Rückgabewert
 
-wenn Parameter ist[`Layout`](../../layout) und ist das gleiche wie Strom[`Layout`](../../layout) Objekt; Andernfalls,
+Wenn Parameter ist[`Layout`](../../layout) und ist das gleiche wie Strom[`Layout`](../../layout) Objekt; ansonsten,
 
 ```csharp
 true

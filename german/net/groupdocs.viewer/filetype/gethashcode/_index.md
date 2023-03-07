@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Gibt den HashCode für den Strom zurückFileTypegroupdocs.viewer/filetype Objekt.
 type: docs
-weight: 1940
+weight: 1990
 url: /de/net/groupdocs.viewer/filetype/gethashcode/
 ---
 ## FileType.GetHashCode method

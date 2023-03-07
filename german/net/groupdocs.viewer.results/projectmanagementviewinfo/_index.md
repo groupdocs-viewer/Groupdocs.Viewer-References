@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Repräsentiert Ansichtsinformationen für MS ProjectDokumente.
 type: docs
-weight: 750
+weight: 760
 url: /de/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Initialisiert eine neue Instanz von[`ProjectManagementViewInfo`](../projectmanagementviewinfo) Klasse. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Initialisiert eine neue Instanz von[`ProjectManagementViewInfo`](../projectmanagementviewinfo) Klasse. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Initialisiert eine neue Instanz von[`ProjectManagementViewInfo`](../projectmanagementviewinfo) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | Datum und Uhrzeit, wann das Projekt abgeschlossen werden soll. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Der Typ der Datei. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Die Liste der anzuzeigenden Seiten. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | Die Datumszeit, ab der das Projekt gestartet wurde. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | Datum und Uhrzeit, wann das Projekt abgeschlossen werden soll. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Der Typ der Datei. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Die Liste der anzuzeigenden Seiten. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | Die Datumszeit, ab der das Projekt gestartet wurde. |
 
 ## Methoden
 

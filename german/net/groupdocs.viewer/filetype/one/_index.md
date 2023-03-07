@@ -1,14 +1,14 @@
 ---
 title: ONE
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: OneNoteDokument .one wird von der Microsoft OneNoteAnwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/notetaking/one .
+description: OneNoteDokument .one wird von der Microsoft OneNoteAnwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/notetaking/one .
 type: docs
-weight: 960
+weight: 1010
 url: /de/net/groupdocs.viewer/filetype/one/
 ---
 ## FileType.ONE field
 
-OneNote-Dokument (.one) wird von der Microsoft OneNote-Anwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln, als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/note-taking/one) .
+OneNote-Dokument (.one) wird von der Microsoft OneNote-Anwendung erstellt. Mit OneNote können Sie mithilfe der Anwendung Informationen sammeln, als ob Sie Ihren Zeichenblock zum Aufzeichnen von Notizen verwenden würden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/note-taking/one) .
 
 ```csharp
 public static readonly FileType ONE;

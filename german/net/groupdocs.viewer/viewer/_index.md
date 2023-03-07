@@ -3,7 +3,7 @@ title: Viewer
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Stellt die Hauptklasse dar die den Dokumentwiedergabeprozess steuert.
 type: docs
-weight: 800
+weight: 810
 url: /de/net/groupdocs.viewer/viewer/
 ---
 ## Viewer class

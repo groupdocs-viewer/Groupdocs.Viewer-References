@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Microsoft ExcelVorlage .xlt sind Vorlagendateien die mit Microsoft Excel erstellt wurden einer Tabellenkalkulationsanwendung die Teil der Microsoft OfficeSuite ist. Microsoft Office 972003 unterstützte das Erstellen neuer XLTDateien sowie das Öffnen dieser. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/xlt .
+description: Microsoft ExcelVorlage .xlt sind Vorlagendateien die mit Microsoft Excel erstellt wurden einer Tabellenkalkulationsanwendung die Teil der Microsoft OfficeSuite ist. Microsoft Office 972003 unterstützte das Erstellen neuer XLTDateien sowie das Öffnen dieser. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/xlt .
 type: docs
-weight: 1790
+weight: 1840
 url: /de/net/groupdocs.viewer/filetype/xlt/
 ---
 ## FileType.XLT field
 
-Microsoft Excel-Vorlage (.xlt) sind Vorlagendateien, die mit Microsoft Excel erstellt wurden, einer Tabellenkalkulationsanwendung, die Teil der Microsoft Office-Suite ist. Microsoft Office 97-2003 unterstützte das Erstellen neuer XLT-Dateien sowie das Öffnen dieser. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/xlt) .
+Microsoft Excel-Vorlage (.xlt) sind Vorlagendateien, die mit Microsoft Excel erstellt wurden, einer Tabellenkalkulationsanwendung, die Teil der Microsoft Office-Suite ist. Microsoft Office 97-2003 unterstützte das Erstellen neuer XLT-Dateien sowie das Öffnen dieser. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/xlt) .
 
 ```csharp
 public static readonly FileType XLT;

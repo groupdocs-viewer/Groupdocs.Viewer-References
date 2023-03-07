@@ -1,14 +1,14 @@
 ---
 title: HTM
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Hypertext Markup Language File .htm ist die Erweiterung für Webseiten die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/web/html .
+description: Hypertext Markup Language File .htm ist die Erweiterung für Webseiten die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 570
+weight: 610
 url: /de/net/groupdocs.viewer/filetype/htm/
 ---
 ## FileType.HTM field
 
-Hypertext Markup Language File (.htm) ist die Erweiterung für Webseiten, die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/web/html) .
+Hypertext Markup Language File (.htm) ist die Erweiterung für Webseiten, die für die Anzeige in Browsern erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/web/html) .
 
 ```csharp
 public static readonly FileType HTM;

@@ -1,14 +1,14 @@
 ---
 title: XPS
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: XMLPapierspezifikationsdatei .xps stellt Seitenlayoutdateien dar die auf von Microsoft erstellten XMLPapierspezifikationen basieren. Dieses Format wurde von Microsoft als Ersatz für das EMFDateiformat entwickelt und ähnelt dem PDFDateiformat verwendet jedoch XML für Layout Aussehen und Druckinformationen eines Dokuments. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
+description: XMLPapierspezifikationsdatei .xps stellt Seitenlayoutdateien dar die auf von Microsoft erstellten XMLPapierspezifikationen basieren. Dieses Format wurde von Microsoft als Ersatz für das EMFDateiformat entwickelt und ähnelt dem PDFDateiformat verwendet jedoch XML für Layout Aussehen und Druckinformationen eines Dokuments. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
 type: docs
-weight: 1830
+weight: 1880
 url: /de/net/groupdocs.viewer/filetype/xps/
 ---
 ## FileType.XPS field
 
-XML-Papierspezifikationsdatei (.xps) stellt Seitenlayoutdateien dar, die auf von Microsoft erstellten XML-Papierspezifikationen basieren. Dieses Format wurde von Microsoft als Ersatz für das EMF-Dateiformat entwickelt und ähnelt dem PDF-Dateiformat, verwendet jedoch XML für Layout, Aussehen und Druckinformationen eines Dokuments. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/page-description-language/xps) .
+XML-Papierspezifikationsdatei (.xps) stellt Seitenlayoutdateien dar, die auf von Microsoft erstellten XML-Papierspezifikationen basieren. Dieses Format wurde von Microsoft als Ersatz für das EMF-Dateiformat entwickelt und ähnelt dem PDF-Dateiformat, verwendet jedoch XML für Layout, Aussehen und Druckinformationen eines Dokuments. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/page-description-language/xps) .
 
 ```csharp
 public static readonly FileType XPS;

@@ -3,7 +3,7 @@ title: JPX
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier image JPEG 2000 .jpx
 type: docs
-weight: 710
+weight: 760
 url: /fr/net/groupdocs.viewer/filetype/jpx/
 ---
 ## FileType.JPX field

@@ -16,7 +16,7 @@ public WordProcessingOptions WordProcessingOptions { get; set; }
 
 ### Remarques
 
-Voir aussi  Rendre des documents Word sous forme de fichiers HTML, PDF ou image pour plus de détails et des extraits de code.
+Voir aussi  Rendre des documents Word sous forme de fichiers HTML, PDF ou image  pour plus de détails et des extraits de code.
 
 ### Voir également
 

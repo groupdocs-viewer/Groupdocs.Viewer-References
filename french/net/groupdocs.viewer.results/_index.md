@@ -21,6 +21,7 @@ L'espace de noms fournit des classes qui représentent les résultats de rendu d
 | [Layout](./layout) | Représente la disposition contenue dans le dessin CAO. |
 | [Line](./line) | Représente un rectangle relativement positionné qui contient une seule ligne. |
 | [LotusNotesViewInfo](./lotusnotesviewinfo) | Représente les informations d'affichage pour le stockage de la base de données Lotus notes |
+| [MboxViewInfo](./mboxviewinfo) | Représente les informations d'affichage pour le stockage des fichiers Mbox |
 | [OutlookViewInfo](./outlookviewinfo) | Représente les informations d'affichage pour le fichier de données Outlook. |
 | [Page](./page) | Représente une seule page qui peut être visualisée. |
 | [PdfViewInfo](./pdfviewinfo) | Représente les informations d'affichage du document PDF. |

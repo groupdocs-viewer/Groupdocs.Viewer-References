@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/projectmanagementviewinfo/startdate/
 La date et l'heure à partir de laquelle le projet a démarré.
 
 ```csharp
-public DateTime StartDate { get; }
+public DateTime StartDate { get; set; }
 ```
 
 ### Voir également

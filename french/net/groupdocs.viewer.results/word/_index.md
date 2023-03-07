@@ -3,7 +3,7 @@ title: Word
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Représente un rectangle relativement positionné qui contient un seul mot.
 type: docs
-weight: 790
+weight: 800
 url: /fr/net/groupdocs.viewer.results/word/
 ---
 ## Word class
@@ -18,18 +18,19 @@ public class Word : TextElement<string>
 
 | Nom | La description |
 | --- | --- |
-| [Word](word)(string, double, double, double, double, IList&lt;Character&gt;) | Initialise la nouvelle instance de[`Word`](../word) classe. |
+| [Word](word#constructor)() | Initialise la nouvelle instance de[`Word`](../word) classe. |
+| [Word](word#constructor_1)(string, double, double, double, double, List&lt;Character&gt;) | Initialise la nouvelle instance de[`Word`](../word) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Characters](../../groupdocs.viewer.results/word/characters) { get; } | Les caractères contenus par le mot. |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | La hauteur du rectangle qui contient l'élément (en pixels). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | La valeur de l'élément. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | La largeur du rectangle qui contient l'élément (en pixels). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Coordonnée X du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Coordonnée Y du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
+| [Characters](../../groupdocs.viewer.results/word/characters) { get; set; } | Les caractères contenus par le mot. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | La hauteur du rectangle qui contient l'élément (en pixels). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | La valeur de l'élément. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | La largeur du rectangle qui contient l'élément (en pixels). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Coordonnée X du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Coordonnée Y du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
 
 ## Méthodes
 

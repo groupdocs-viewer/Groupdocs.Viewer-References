@@ -3,7 +3,7 @@ title: PSD
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Adobe Photoshop Document .psd représente le format de fichier natif dAdobe Photoshop utilisé pour la conception et le développement graphiques. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/psd .
 type: docs
-weight: 1220
+weight: 1270
 url: /fr/net/groupdocs.viewer/filetype/psd/
 ---
 ## FileType.PSD field

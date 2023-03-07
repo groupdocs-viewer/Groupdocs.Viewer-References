@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### Remarques
 
-Cette option s'applique uniquement aux dessins CAO prenant en charge les mises en page[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , et[`DWF`](../../../groupdocs.viewer/filetype/dwf) et aussiDWFX ; Par défaut, seul le modèle est rendu.
+Cette option s'applique uniquement aux dessins CAO prenant en charge les mises en page[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , et[`DWF`](../../../groupdocs.viewer/filetype/dwf) et aussi[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ; Par défaut, seul le modèle est rendu.
 
 ### Voir également
 

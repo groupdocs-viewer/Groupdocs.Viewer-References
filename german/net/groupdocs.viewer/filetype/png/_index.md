@@ -1,14 +1,14 @@
 ---
 title: PNG
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Portable Network Graphic .png ist ein RasterbildDateiformat das verlustfreie Komprimierung verwendet. Dieses Dateiformat wurde als Ersatz für das Graphics Interchange Format GIF erstellt und unterliegt keinen Urheberrechtsbeschränkungen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/png .
+description: Portable Network Graphic .png ist ein RasterbildDateiformat das verlustfreie Komprimierung verwendet. Dieses Dateiformat wurde als Ersatz für das Graphics Interchange Format GIF erstellt und unterliegt keinen Urheberrechtsbeschränkungen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/png .
 type: docs
-weight: 1080
+weight: 1130
 url: /de/net/groupdocs.viewer/filetype/png/
 ---
 ## FileType.PNG field
 
-Portable Network Graphic (.png) ist ein Rasterbild-Dateiformat, das verlustfreie Komprimierung verwendet. Dieses Dateiformat wurde als Ersatz für das Graphics Interchange Format (GIF) erstellt und unterliegt keinen Urheberrechtsbeschränkungen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/png) .
+Portable Network Graphic (.png) ist ein Rasterbild-Dateiformat, das verlustfreie Komprimierung verwendet. Dieses Dateiformat wurde als Ersatz für das Graphics Interchange Format (GIF) erstellt und unterliegt keinen Urheberrechtsbeschränkungen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/png) .
 
 ```csharp
 public static readonly FileType PNG;

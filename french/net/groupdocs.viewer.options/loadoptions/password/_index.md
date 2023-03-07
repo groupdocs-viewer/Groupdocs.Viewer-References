@@ -3,7 +3,7 @@ title: Password
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Le mot de passe pour ouvrir le fichier crypté.
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

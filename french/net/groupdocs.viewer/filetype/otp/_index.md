@@ -3,7 +3,7 @@ title: OTP
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: OpenDocument Presentation Template .otp représente les fichiers de modèle de présentation créés par des applications au format standard OASIS OpenDocument. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/presentation/otp .
 type: docs
-weight: 990
+weight: 1040
 url: /fr/net/groupdocs.viewer/filetype/otp/
 ---
 ## FileType.OTP field

@@ -14,12 +14,19 @@ Représente le type de fichier. Fournit des méthodes pour obtenir la liste de t
 public sealed class FileType : IEquatable<FileType>
 ```
 
+## Constructeurs
+
+| Nom | La description |
+| --- | --- |
+| [FileType](filetype#constructor)() | Initialise la nouvelle instance de[`FileType`](../filetype) classe. |
+| [FileType](filetype#constructor_1)(string, string) | Initialise la nouvelle instance de[`FileType`](../filetype) classe. |
+
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Extension](../../groupdocs.viewer/filetype/extension) { get; } | Suffixe du nom de fichier (y compris le point "."), par exemple ".doc". |
-| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; } | Nom du type de fichier, par exemple "Document Microsoft Word". |
+| [Extension](../../groupdocs.viewer/filetype/extension) { get; set; } | Suffixe du nom de fichier (y compris le point "."), par exemple ".doc". |
+| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; set; } | Nom du type de fichier, par exemple "Document Microsoft Word". |
 
 ## Méthodes
 
@@ -32,10 +39,12 @@ public sealed class FileType : IEquatable<FileType>
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_1)(Stream, ILogger) | Détecte le type de fichier en lisant la signature du fichier. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_2)(Stream, string) | Détecte le type de fichier en lisant la signature du fichier. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_3)(Stream, string, ILogger) | Détecte le type de fichier en lisant la signature du fichier. |
-| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Détermine si le courant[`FileType`](../filetype)est le même que celui spécifié[`FileType`](../filetype) objet. |
+| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Détermine si le courant[`FileType`](../filetype) est le même que celui spécifié[`FileType`](../filetype) objet. |
 | override [Equals](../../groupdocs.viewer/filetype/equals#equals_1)(object) | Détermine si le courant[`FileType`](../filetype) est le même que l'objet spécifié. |
 | override [GetHashCode](../../groupdocs.viewer/filetype/gethashcode)() | Renvoie le code de hachage pour le courant[`FileType`](../filetype) objet. |
 | override [ToString](../../groupdocs.viewer/filetype/tostring)() | Renvoie une chaîne qui représente l'objet actuel. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding)(Stream) | Tente de détecter du texte[`TXT`](./txt) ,[`TSV`](./tsv) , et[`CSV`](./csv) encodage de fichier par stream. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding_1)(string) | Tente de détecter du texte[`TXT`](./txt) ,[`TSV`](./tsv) , et[`CSV`](./csv)fichiers encodés par chemin. |
 | static [GetSupportedFileTypes](../../groupdocs.viewer/filetype/getsupportedfiletypes)() | Récupère les types de fichiers pris en charge |
 | [operator ==](../../groupdocs.viewer/filetype/op_equality) | Détermine si deux[`FileType`](../filetype) les objets sont les mêmes. |
 | [operator !=](../../groupdocs.viewer/filetype/op_inequality) | Détermine si deux[`FileType`](../filetype) les objets ne sont pas les mêmes. |
@@ -60,6 +69,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [CHM](../../groupdocs.viewer/filetype/chm) | Microsoft Compiled HTML Help File (.chm) est un format bien connu pour les documents HELP (documentation de certaines applications). En savoir plus sur ce format de fichier[ici](https://docs.fileformat.com/web/chm/) . |
 | static readonly [CMAKE](../../groupdocs.viewer/filetype/cmake) | Fichier CMake (.cmake) |
 | static readonly [CMX](../../groupdocs.viewer/filetype/cmx) | Corel Exchange (.cmx) est un fichier image de dessin qui peut contenir des graphiques vectoriels ainsi que des graphiques bitmap. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/image/cmx) . |
+| static readonly [CPIO](../../groupdocs.viewer/filetype/cpio) | Cpio est un utilitaire général d'archivage de fichiers et son format de fichier associé. Il est principalement installé sur les systèmes d'exploitation informatiques de type Unix. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/compression/cpio) . |
 | static readonly [CPP](../../groupdocs.viewer/filetype/cpp) | Fichier de code source C++ (.cpp) |
 | static readonly [CS](../../groupdocs.viewer/filetype/cs) | C# Source Code File (.cs) est un fichier de code source pour le langage de programmation C#. Introduit par Microsoft pour une utilisation avec le .NET Framework. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/programming/cs) . |
 | static readonly [CSS](../../groupdocs.viewer/filetype/css) | Feuille de style en cascade (.css) |
@@ -78,6 +88,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [DOTM](../../groupdocs.viewer/filetype/dotm) | Word Open XML Macro-Enabled Document Template (.dotm) représente un fichier de modèle créé avec Microsoft Word 2007 ou une version ultérieure. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/word-processing/dotm) . |
 | static readonly [DOTX](../../groupdocs.viewer/filetype/dotx) | Word Open XML Document Template (.dotx) sont des fichiers modèles créés par Microsoft Word pour avoir des paramètres pré-formatés pour la génération d'autres fichiers DOCX. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/word-processing/dotx) . |
 | static readonly [DWF](../../groupdocs.viewer/filetype/dwf) | Design Web Format File (.dwf) représente un dessin 2D/3D au format compressé pour la visualisation, la révision ou l'impression de fichiers de conception. Il contient des graphiques et du texte dans le cadre des données de conception et réduit la taille du fichier en raison de son format compressé. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/cad/dwf) . |
+| static readonly [DWFX](../../groupdocs.viewer/filetype/dwfx) | Design Web Format File XPS (.dwfx) représente un dessin 2D/3D sous forme de document XPS au format compressé pour la visualisation, la révision ou l'impression de fichiers de conception. Il contient des graphiques et du texte dans le cadre des données de conception et réduit la taille du fichier en raison de son format compressé. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/cad/dwfx) . |
 | static readonly [DWG](../../groupdocs.viewer/filetype/dwg) | Le fichier de base de données de dessin AutoCAD (.dwg) représente des fichiers binaires propriétaires utilisés pour contenir des données de conception 2D et 3D. Comme DXF, qui sont des fichiers ASCII, DWG représente le format de fichier binaire pour les dessins CAO (conception assistée par ordinateur). En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/cad/dwg) . |
 | static readonly [DWT](../../groupdocs.viewer/filetype/dwt) | AutoCAD Drawing Template (.dwt) est un fichier de modèle de dessin AutoCAD utilisé comme point de départ pour créer des dessins pouvant être enregistrés en tant que fichiers DWG. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/cad/dwt) . |
 | static readonly [DXF](../../groupdocs.viewer/filetype/dxf) | Drawing Exchange Format File (.dxf) est une représentation de données balisées du fichier de dessin AutoCAD. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/cad/dxf) . |
@@ -89,6 +100,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [EPUB](../../groupdocs.viewer/filetype/epub) | Open eBook File (.epub) est un format de fichier de livre électronique qui fournit un format de publication numérique standard pour les éditeurs et les consommateurs. Le format est maintenant si courant qu'il est pris en charge par de nombreux lecteurs électroniques et applications logicielles. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/ebook/epub) . |
 | static readonly [ERB](../../groupdocs.viewer/filetype/erb) | Ruby ERB Script (.erb) |
 | static readonly [Excel2003XML](../../groupdocs.viewer/filetype/excel2003xml) | Excel 2003 XML (SpreadsheetML) représente le format de fichier binaire Excel. Ces fichiers peuvent être créés par Microsoft Excel ainsi que par d'autres tableurs similaires tels que OpenOffice Calc ou Apple Numbers. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/spreadsheet/xls) . |
+| static readonly [FBX](../../groupdocs.viewer/filetype/fbx) | Autodesk FBX Interchange File (FilmBoX) (.fbx) représente le format de modèle 3D. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/cad/fbx) . |
 | static readonly [FODG](../../groupdocs.viewer/filetype/fodg) | Le modèle ODF XML plat (.fodg) est utilisé par l'application Draw d'Apache OpenOffice pour stocker les éléments de dessin sous forme d'image vectorielle. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/image/fodg) . |
 | static readonly [FODP](../../groupdocs.viewer/filetype/fodp) | OpenDocument Presentation (.fodp) représente OpenDocument Flat XML Presentation. En savoir plus sur ce format de fichier[ici](https://fileinfo.com/extension/fodp) . |
 | static readonly [FODS](../../groupdocs.viewer/filetype/fods) | Feuille de calcul XML plate OpenDocument (.fods) |
@@ -108,6 +120,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | Flux de code JPEG 2000 (.j2c) |
 | static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) est une image qui est compressée à l'aide de la compression par ondelettes au lieu de la compression DCT. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/image/j2k) . |
 | static readonly [JAVA](../../groupdocs.viewer/filetype/java) | Fichier de code source Java (.java) |
+| static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
 | static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) est un système de codage d'image et une norme de compression d'image de pointe. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/image/jp2) . |
 | static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | Flux de code JPEG 2000 (.jpc) |
 | static readonly [JPEG](../../groupdocs.viewer/filetype/jpeg) | Image JPEG (.jpeg) est un type de format d'image enregistré à l'aide de la méthode de compression avec perte. L'image de sortie, résultant de la compression, est un compromis entre la taille de stockage et la qualité de l'image. En savoir plus sur ce format de fichier[ici](https://wiki.fileformat.com/image/jpeg) . |

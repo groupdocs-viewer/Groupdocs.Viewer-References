@@ -3,7 +3,7 @@ title: OTT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: OpenDocument Document Template .ott représente les modèles de documents générés par les applications conformément au format standard OpenDocument dOASIS. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 1010
+weight: 1060
 url: /fr/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field

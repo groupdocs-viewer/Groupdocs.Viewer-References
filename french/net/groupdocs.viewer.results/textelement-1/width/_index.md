@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/textelement-1/width/
 La largeur du rectangle qui contient l'élément (en pixels).
 
 ```csharp
-public double Width { get; }
+public double Width { get; set; }
 ```
 
 ### Voir également

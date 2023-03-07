@@ -3,7 +3,7 @@ title: ODT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Les documents texte OpenDocument .odt sont des types de documents créés avec des applications de traitement de texte basées sur le format de fichier texte OpenDocument. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/odt .
 type: docs
-weight: 950
+weight: 1000
 url: /fr/net/groupdocs.viewer/filetype/odt/
 ---
 ## FileType.ODT field

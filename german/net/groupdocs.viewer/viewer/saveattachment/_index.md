@@ -33,7 +33,7 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Abrufen von Dokumentanhängen in C#: [So erhalten Sie eine Liste der Dokumentanhänge mit GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * Erfahren Sie mehr über das Speichern von Dokumentanhängen in C#: [So speichern Sie Dokumentanhänge mit GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
@@ -72,7 +72,7 @@ public void SaveAttachment(Attachment attachment, Stream destination)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zum Abrufen von Dokumentanhängen in C#: [So erhalten Sie eine Liste der Dokumentanhänge mit GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * Erfahren Sie mehr über das Speichern von Dokumentanhängen in C#: [So speichern Sie Dokumentanhänge mit GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)

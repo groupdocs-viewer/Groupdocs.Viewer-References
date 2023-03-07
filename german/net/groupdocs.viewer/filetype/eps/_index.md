@@ -1,14 +1,14 @@
 ---
 title: EPS
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Encapsulated PostScript File .eps beschreibt ein Encapsulated PostScriptSprachprogramm das das Erscheinungsbild einer einzelnen Seite beschreibt. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/pagedescriptionlanguage/eps .
+description: Encapsulated PostScript File .eps beschreibt ein Encapsulated PostScriptSprachprogramm das das Erscheinungsbild einer einzelnen Seite beschreibt. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/pagedescriptionlanguage/eps .
 type: docs
-weight: 420
+weight: 450
 url: /de/net/groupdocs.viewer/filetype/eps/
 ---
 ## FileType.EPS field
 
-Encapsulated PostScript File (.eps) beschreibt ein Encapsulated PostScript-Sprachprogramm, das das Erscheinungsbild einer einzelnen Seite beschreibt. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/page-description-language/eps) .
+Encapsulated PostScript File (.eps) beschreibt ein Encapsulated PostScript-Sprachprogramm, das das Erscheinungsbild einer einzelnen Seite beschreibt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/page-description-language/eps) .
 
 ```csharp
 public static readonly FileType EPS;

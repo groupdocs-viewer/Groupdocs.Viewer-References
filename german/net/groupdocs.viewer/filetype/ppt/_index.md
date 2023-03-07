@@ -1,14 +1,14 @@
 ---
 title: PPT
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: PowerPointPräsentation .ppt stellt eine PowerPointDatei dar die aus einer Sammlung von Folien zur Anzeige als Diashow besteht. Es gibt das von Microsoft PowerPoint 972003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/ppt .
+description: PowerPointPräsentation .ppt stellt eine PowerPointDatei dar die aus einer Sammlung von Folien zur Anzeige als Diashow besteht. Es gibt das von Microsoft PowerPoint 972003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/ppt .
 type: docs
-weight: 1150
+weight: 1200
 url: /de/net/groupdocs.viewer/filetype/ppt/
 ---
 ## FileType.PPT field
 
-PowerPoint-Präsentation (.ppt) stellt eine PowerPoint-Datei dar, die aus einer Sammlung von Folien zur Anzeige als Diashow besteht. Es gibt das von Microsoft PowerPoint 97-2003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/ppt) .
+PowerPoint-Präsentation (.ppt) stellt eine PowerPoint-Datei dar, die aus einer Sammlung von Folien zur Anzeige als Diashow besteht. Es gibt das von Microsoft PowerPoint 97-2003 verwendete binäre Dateiformat an. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/ppt) .
 
 ```csharp
 public static readonly FileType PPT;

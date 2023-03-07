@@ -18,19 +18,20 @@ public class Attachment
 
 | Name | Beschreibung |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Initialisiert eine neue Instanz von[`Attachment`](../attachment) Klasse. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Initialisiert eine neue Instanz von[`Attachment`](../attachment) Klasse. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Initialisiert eine neue Instanz von[`Attachment`](../attachment) Klasse. |
+| [Attachment](attachment#constructor)() | Initialisiert eine neue Instanz von[`Attachment`](../attachment) Klasse. |
+| [Attachment](attachment#constructor_1)(string, string) | Initialisiert eine neue Instanz von[`Attachment`](../attachment) Klasse. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Initialisiert eine neue Instanz von[`Attachment`](../attachment) Klasse. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Initialisiert eine neue Instanz von[`Attachment`](../attachment) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Dateiname des Anhangs. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Relativer Pfad des Anhangs, zOrdner/Datei.docx oder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Dateityp des Anhangs. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Eindeutiger Bezeichner des Anhangs im Kontext einer einzelnen Datei, die diesen Anhang enthält. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Dateigröße des Anhangs in Byte. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Dateiname des Anhangs. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Relativer Pfad des Anhangs, zOrdner/Datei.docx oder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Dateityp des Anhangs. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Eindeutiger Bezeichner des Anhangs im Kontext einer einzelnen Datei, die diesen Anhang enthält. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Dateigröße des Anhangs in Byte. |
 
 ## Methoden
 

@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/attachment/filetype/
 Type de fichier joint.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### Voir également

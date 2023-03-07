@@ -17,11 +17,11 @@ public static bool operator ==(Layer left, Layer right)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | left | Layer | Links[`Layer`](../../layer) Objekt. |
-| right | Layer | Recht[`Layer`](../../layer) Objekt. |
+| right | Layer | Rechts[`Layer`](../../layer) Objekt. |
 
 ### Rückgabewert
 
-wenn beides[`Layer`](../../layer) Objekte sind gleich; Andernfalls,
+wenn beides[`Layer`](../../layer) Objekte sind gleich; ansonsten,
 
 ```csharp
 true

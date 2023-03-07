@@ -3,7 +3,7 @@ title: SML
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de code source ML standard .sml
 type: docs
-weight: 1370
+weight: 1420
 url: /fr/net/groupdocs.viewer/filetype/sml/
 ---
 ## FileType.SML field

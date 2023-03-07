@@ -1,14 +1,14 @@
 ---
 title: POT
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: PowerPointVorlage .pot stellt Microsoft PowerPointVorlagendateien dar die von PowerPoint 972003Versionen erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/pot .
+description: PowerPointVorlage .pot stellt Microsoft PowerPointVorlagendateien dar die von PowerPoint 972003Versionen erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/pot .
 type: docs
-weight: 1090
+weight: 1140
 url: /de/net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field
 
-PowerPoint-Vorlage (.pot) stellt Microsoft PowerPoint-Vorlagendateien dar, die von PowerPoint 97-2003-Versionen erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/pot) .
+PowerPoint-Vorlage (.pot) stellt Microsoft PowerPoint-Vorlagendateien dar, die von PowerPoint 97-2003-Versionen erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/pot) .
 
 ```csharp
 public static readonly FileType POT;

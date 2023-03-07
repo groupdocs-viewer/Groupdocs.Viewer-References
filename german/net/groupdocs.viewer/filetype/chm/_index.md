@@ -1,14 +1,14 @@
 ---
 title: CHM
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Microsoft Compiled HTML Help File .chm ist ein bekanntes Format für HILFEDokumente Dokumentation zu einigen Anwendungen. Erfahren Sie mehr über dieses Dateiformathierhttps//docs.fileformat.com/web/chm/ .
+description: Microsoft Compiled HTML Help File .chm ist ein bekanntes Format für HILFEDokumente Dokumentation zu einigen Anwendungen. Erfahren Sie mehr über dieses DateiformatHierhttps//docs.fileformat.com/web/chm/ .
 type: docs
-weight: 140
+weight: 150
 url: /de/net/groupdocs.viewer/filetype/chm/
 ---
 ## FileType.CHM field
 
-Microsoft Compiled HTML Help File (.chm) ist ein bekanntes Format für HILFE-Dokumente (Dokumentation zu einigen Anwendungen). Erfahren Sie mehr über dieses Dateiformat[hier](https://docs.fileformat.com/web/chm/) .
+Microsoft Compiled HTML Help File (.chm) ist ein bekanntes Format für HILFE-Dokumente (Dokumentation zu einigen Anwendungen). Erfahren Sie mehr über dieses Dateiformat[Hier](https://docs.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly FileType CHM;

@@ -3,7 +3,7 @@ title: J2K
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: JPEG 2000 Code Stream .j2k est une image qui est compressée à laide de la compression par ondelettes au lieu de la compression DCT. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/j2k .
 type: docs
-weight: 630
+weight: 670
 url: /fr/net/groupdocs.viewer/filetype/j2k/
 ---
 ## FileType.J2K field

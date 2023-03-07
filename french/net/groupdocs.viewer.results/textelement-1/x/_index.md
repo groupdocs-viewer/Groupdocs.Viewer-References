@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/textelement-1/x/
 Coordonnée X du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### Voir également

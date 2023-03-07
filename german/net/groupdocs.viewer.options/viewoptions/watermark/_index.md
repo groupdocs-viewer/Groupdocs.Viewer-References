@@ -16,7 +16,7 @@ public Watermark Watermark { get; set; }
 
 ### Bemerkungen
 
-Falls beides`Watermark` und[`PageRotations`](../pagerotations) angegeben sind, wird das Wasserzeichen auf die gedrehten Seiten angewendet.
+Falls beides`Watermark` Und[`PageRotations`](../pagerotations) angegeben sind, wird das Wasserzeichen auf die gedrehten Seiten angewendet.
 
 ### Siehe auch
 

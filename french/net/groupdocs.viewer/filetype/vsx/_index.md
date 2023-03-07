@@ -3,7 +3,7 @@ title: VSX
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Visio Stencil XML File .vsx fait référence à des gabarits constitués de dessins et de formes utilisés pour créer des diagrammes dans Microsoft Visio. Les fichiers VSX sont enregistrés au format de fichier XML et étaient pris en charge jusquà Visio 2013. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/vsx .
 type: docs
-weight: 1690
+weight: 1740
 url: /fr/net/groupdocs.viewer/filetype/vsx/
 ---
 ## FileType.VSX field

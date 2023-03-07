@@ -3,7 +3,7 @@ title: DOT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Modèle de document Word .dot sont des fichiers modèles créés par Microsoft Word pour avoir des paramètres préformatés pour la génération dautres fichiers DOC ou DOCX. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 310
+weight: 330
 url: /fr/net/groupdocs.viewer/filetype/dot/
 ---
 ## FileType.DOT field

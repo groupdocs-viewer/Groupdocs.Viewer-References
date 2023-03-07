@@ -1,14 +1,14 @@
 ---
 title: EMF
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Enhanced Windows Metafile .emf stellt grafische Bilder geräteunabhängig dar. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/emf .
+description: Enhanced Windows Metafile .emf stellt grafische Bilder geräteunabhängig dar. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 380
+weight: 410
 url: /de/net/groupdocs.viewer/filetype/emf/
 ---
 ## FileType.EMF field
 
-Enhanced Windows Metafile (.emf) stellt grafische Bilder geräteunabhängig dar. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge, die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/emf) .
+Enhanced Windows Metafile (.emf) stellt grafische Bilder geräteunabhängig dar. Metadateien von EMF bestehen aus Datensätzen variabler Länge in chronologischer Reihenfolge, die das gespeicherte Bild nach dem Parsen auf jedem Ausgabegerät wiedergeben können. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/emf) .
 
 ```csharp
 public static readonly FileType EMF;

@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/textelement-1/x/
 Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### Siehe auch

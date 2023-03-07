@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Extrahiert die Dateierweiterung und ordnet sie dem Dateityp zu.
 type: docs
-weight: 1880
+weight: 1930
 url: /de/net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method

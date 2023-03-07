@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | Nom | La description |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Initialise la nouvelle instance de[`Layer`](../layer) classe. |
-| [Layer](layer#constructor_1)(string, bool) | Initialise la nouvelle instance de[`Layer`](../layer) classe. |
+| [Layer](layer#constructor)() | Initialise la nouvelle instance de[`Layer`](../layer) classe. |
+| [Layer](layer#constructor_1)(string) | Initialise la nouvelle instance de[`Layer`](../layer) classe. |
+| [Layer](layer#constructor_2)(string, bool) | Initialise la nouvelle instance de[`Layer`](../layer) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | Le nom du calque. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | L'indicateur de visibilité du calque. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | Le nom du calque. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | L'indicateur de visibilité du calque. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Détermine si le courant[`Layer`](../layer)est le même que celui spécifié[`Layer`](../layer) objet. |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Détermine si le courant[`Layer`](../layer) est le même que celui spécifié[`Layer`](../layer) objet. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | Détermine si le courant[`Layer`](../layer) est le même que l'objet spécifié. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | Renvoie le code de hachage pour le courant[`Layer`](../layer) objet. |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | Renvoie une chaîne qui représente l'objet actuel. |

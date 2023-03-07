@@ -16,12 +16,12 @@ public static bool operator !=(Layout left, Layout right)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| left | Layout | La gauche[`Layout`](../../layout) objet. |
-| right | Layout | Droit[`Layout`](../../layout) objet. |
+| left | Layout | Gauche[`Layout`](../../layout) objet. |
+| right | Layout | Droite[`Layout`](../../layout) objet. |
 
 ### Return_Value
 
-si les deux[`Layout`](../../layout) les objets ne sont pas les mêmes ; Par ailleurs,
+si les deux[`Layout`](../../layout) les objets ne sont pas les mêmes ; sinon,
 
 ```csharp
 true

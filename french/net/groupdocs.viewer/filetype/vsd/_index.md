@@ -3,7 +3,7 @@ title: VSD
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Les fichiers de dessin Visio .vsd sont des dessins créés avec lapplication Microsoft Visio pour représenter une variété dobjets graphiques et linterconnexion entre ceuxci. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/vsd .
 type: docs
-weight: 1600
+weight: 1650
 url: /fr/net/groupdocs.viewer/filetype/vsd/
 ---
 ## FileType.VSD field

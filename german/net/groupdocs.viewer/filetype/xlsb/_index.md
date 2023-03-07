@@ -1,14 +1,14 @@
 ---
 title: XLSB
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: ExcelBinärtabelle .xlsb gibt das ExcelBinärdateiformat an bei dem es sich um eine Sammlung von Datensätzen und Strukturen handelt die den Inhalt von ExcelArbeitsmappen angeben. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/xlsb .
+description: ExcelBinärtabelle .xlsb gibt das ExcelBinärdateiformat an bei dem es sich um eine Sammlung von Datensätzen und Strukturen handelt die den Inhalt von ExcelArbeitsmappen angeben. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/xlsb .
 type: docs
-weight: 1760
+weight: 1810
 url: /de/net/groupdocs.viewer/filetype/xlsb/
 ---
 ## FileType.XLSB field
 
-Excel-Binärtabelle (.xlsb) gibt das Excel-Binärdateiformat an, bei dem es sich um eine Sammlung von Datensätzen und Strukturen handelt, die den Inhalt von Excel-Arbeitsmappen angeben. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/xlsb) .
+Excel-Binärtabelle (.xlsb) gibt das Excel-Binärdateiformat an, bei dem es sich um eine Sammlung von Datensätzen und Strukturen handelt, die den Inhalt von Excel-Arbeitsmappen angeben. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/xlsb) .
 
 ```csharp
 public static readonly FileType XLSB;

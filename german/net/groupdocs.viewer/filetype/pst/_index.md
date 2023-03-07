@@ -1,14 +1,14 @@
 ---
 title: PST
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Persönliche OutlookInformationsspeicherdatei .pst stellt persönliche OutlookSpeicherdateien auch persönliche Speichertabelle genannt dar die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/email/pst .
+description: Persönliche OutlookInformationsspeicherdatei .pst stellt persönliche OutlookSpeicherdateien auch persönliche Speichertabelle genannt dar die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /de/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field
 
-Persönliche Outlook-Informationsspeicherdatei (.pst) stellt persönliche Outlook-Speicherdateien (auch persönliche Speichertabelle genannt) dar, die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/pst) .
+Persönliche Outlook-Informationsspeicherdatei (.pst) stellt persönliche Outlook-Speicherdateien (auch persönliche Speichertabelle genannt) dar, die verschiedene Benutzerinformationen speichern. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/email/pst) .
 
 ```csharp
 public static readonly FileType PST;

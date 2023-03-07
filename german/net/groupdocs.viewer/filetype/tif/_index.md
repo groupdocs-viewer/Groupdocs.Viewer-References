@@ -1,14 +1,14 @@
 ---
 title: TIF
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Tagged Image File .tif stellt Rasterbilder dar die für die Verwendung auf einer Vielzahl von Geräten gedacht sind die diesem Dateiformatstandard entsprechen. Es ist in der Lage Bilevel Graustufen Palettenfarben und VollfarbenBilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/tiff .
+description: Tagged Image File .tif stellt Rasterbilder dar die für die Verwendung auf einer Vielzahl von Geräten gedacht sind die diesem Dateiformatstandard entsprechen. Es ist in der Lage Bilevel Graustufen Palettenfarben und VollfarbenBilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 1490
+weight: 1540
 url: /de/net/groupdocs.viewer/filetype/tif/
 ---
 ## FileType.TIF field
 
-Tagged Image File (.tif) stellt Rasterbilder dar, die für die Verwendung auf einer Vielzahl von Geräten gedacht sind, die diesem Dateiformatstandard entsprechen. Es ist in der Lage, Bilevel-, Graustufen-, Palettenfarben- und Vollfarben-Bilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/tiff) .
+Tagged Image File (.tif) stellt Rasterbilder dar, die für die Verwendung auf einer Vielzahl von Geräten gedacht sind, die diesem Dateiformatstandard entsprechen. Es ist in der Lage, Bilevel-, Graustufen-, Palettenfarben- und Vollfarben-Bilddaten in mehreren Farbräumen zu beschreiben. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/tiff) .
 
 ```csharp
 public static readonly FileType TIF;

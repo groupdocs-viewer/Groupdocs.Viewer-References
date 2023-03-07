@@ -3,7 +3,7 @@ title: Security
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Die Sicherheitsoptionen für das PDFAusgabedokument.
 type: docs
-weight: 70
+weight: 80
 url: /de/net/groupdocs.viewer.options/pdfviewoptions/security/
 ---
 ## PdfViewOptions.Security property

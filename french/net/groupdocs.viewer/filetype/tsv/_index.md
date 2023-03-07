@@ -3,7 +3,7 @@ title: TSV
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de valeurs séparées par des tabulations .tsv représente les données séparées par des tabulations au format texte brut. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/spreadsheet/tsv .
 type: docs
-weight: 1510
+weight: 1560
 url: /fr/net/groupdocs.viewer/filetype/tsv/
 ---
 ## FileType.TSV field

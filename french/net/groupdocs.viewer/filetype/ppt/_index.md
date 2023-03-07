@@ -3,7 +3,7 @@ title: PPT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Présentation PowerPoint .ppt représente un fichier PowerPoint composé dune collection de diapositives à afficher sous forme de diaporama. Il spécifie le format de fichier binaire utilisé par Microsoft PowerPoint 972003. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/presentation/ppt .
 type: docs
-weight: 1150
+weight: 1200
 url: /fr/net/groupdocs.viewer/filetype/ppt/
 ---
 ## FileType.PPT field

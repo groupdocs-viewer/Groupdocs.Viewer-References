@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Default_Constructor
+description: Initialisiert eine neue Instanz vonTextOptionsgroupdocs.viewer.options/textoptions Klasse.
 type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-Default_Constructor
+Initialisiert eine neue Instanz von[`TextOptions`](../../textoptions) Klasse.
 
 ```csharp
 public TextOptions()

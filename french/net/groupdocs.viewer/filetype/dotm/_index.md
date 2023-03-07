@@ -3,7 +3,7 @@ title: DOTM
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Word Open XML MacroEnabled Document Template .dotm représente un fichier de modèle créé avec Microsoft Word 2007 ou une version ultérieure. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 320
+weight: 340
 url: /fr/net/groupdocs.viewer/filetype/dotm/
 ---
 ## FileType.DOTM field

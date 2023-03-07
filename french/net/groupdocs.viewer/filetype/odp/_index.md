@@ -3,7 +3,7 @@ title: ODP
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: OpenDocument Presentation .odp représente le format de fichier de présentation utilisé par OpenOffice.org dans la norme OASISOpen. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/presentation/odp .
 type: docs
-weight: 930
+weight: 980
 url: /fr/net/groupdocs.viewer/filetype/odp/
 ---
 ## FileType.ODP field

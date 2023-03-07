@@ -3,7 +3,7 @@ title: CSV
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de valeurs séparées par des virgules .csv représente des fichiers en texte brut contenant des enregistrements de données avec des valeurs séparées par des virgules. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/spreadsheet/csv .
 type: docs
-weight: 200
+weight: 220
 url: /fr/net/groupdocs.viewer/filetype/csv/
 ---
 ## FileType.CSV field

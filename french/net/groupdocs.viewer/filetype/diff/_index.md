@@ -3,7 +3,7 @@ title: DIFF
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier correctif .diff
 type: docs
-weight: 250
+weight: 270
 url: /fr/net/groupdocs.viewer/filetype/diff/
 ---
 ## FileType.DIFF field

@@ -1,14 +1,14 @@
 ---
 title: PLT
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: PLT HPGL .plt ist eine vektorbasierte Plotterdatei die von Autodesk Inc. eingeführt wurde und Informationen für eine bestimmte CADDatei enthält. Das Plotten von Details erfordert Genauigkeit und Präzision in der Produktion und die Verwendung von PLTDateien garantiert dies da alle Bilder mit Linien anstelle von Punkten gedruckt werden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/cad/plt .
+description: PLT HPGL .plt ist eine vektorbasierte Plotterdatei die von Autodesk Inc. eingeführt wurde und Informationen für eine bestimmte CADDatei enthält. Das Plotten von Details erfordert Genauigkeit und Präzision in der Produktion und die Verwendung von PLTDateien garantiert dies da alle Bilder mit Linien anstelle von Punkten gedruckt werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/cad/plt .
 type: docs
-weight: 1070
+weight: 1120
 url: /de/net/groupdocs.viewer/filetype/plt/
 ---
 ## FileType.PLT field
 
-PLT (HPGL) (.plt) ist eine vektorbasierte Plotterdatei, die von Autodesk, Inc. eingeführt wurde und Informationen für eine bestimmte CAD-Datei enthält. Das Plotten von Details erfordert Genauigkeit und Präzision in der Produktion, und die Verwendung von PLT-Dateien garantiert dies, da alle Bilder mit Linien anstelle von Punkten gedruckt werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/cad/plt) .
+PLT (HPGL) (.plt) ist eine vektorbasierte Plotterdatei, die von Autodesk, Inc. eingeführt wurde und Informationen für eine bestimmte CAD-Datei enthält. Das Plotten von Details erfordert Genauigkeit und Präzision in der Produktion, und die Verwendung von PLT-Dateien garantiert dies, da alle Bilder mit Linien anstelle von Punkten gedruckt werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/cad/plt) .
 
 ```csharp
 public static readonly FileType PLT;

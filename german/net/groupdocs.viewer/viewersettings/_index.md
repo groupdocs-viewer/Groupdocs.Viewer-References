@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Definiert Einstellungen für das CustomizingViewer./viewerVerhalten.
+description: Definiert Einstellungen für das CustomizingViewer./viewer Verhalten.
 type: docs
-weight: 810
+weight: 820
 url: /de/net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class
 
-Definiert Einstellungen für das Customizing[`Viewer`](../viewer)Verhalten.
+Definiert Einstellungen für das Customizing[`Viewer`](../viewer) Verhalten.
 
 ```csharp
 public class ViewerSettings

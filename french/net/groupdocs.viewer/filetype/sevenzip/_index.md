@@ -3,7 +3,7 @@ title: SevenZip
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: 7Zip .7z .7zip est un archiveur open source gratuit avec compression LZMA et LZMA2. En savoir plus sur ce format de fichiericihttps//docs.fileformat.com/compression/7z/ .
 type: docs
-weight: 1350
+weight: 1400
 url: /fr/net/groupdocs.viewer/filetype/sevenzip/
 ---
 ## FileType.SevenZip field

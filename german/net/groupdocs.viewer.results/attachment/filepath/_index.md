@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/attachment/filepath/
 Relativer Pfad des Anhangs, zOrdner/Datei.docx oder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### Siehe auch

@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/archiveviewinfo/archiveviewinfo/
 ---
-## ArchiveViewInfo constructor
+## ArchiveViewInfo() {#constructor}
 
 Initialisiert eine neue Instanz von[`ArchiveViewInfo`](../../archiveviewinfo) Klasse.
 
 ```csharp
-public ArchiveViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public ArchiveViewInfo()
+```
+
+### Siehe auch
+
+* class [ArchiveViewInfo](../../archiveviewinfo)
+* namensraum [GroupDocs.Viewer.Results](../../archiveviewinfo)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## ArchiveViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Initialisiert eine neue Instanz von[`ArchiveViewInfo`](../../archiveviewinfo) Klasse.
+
+```csharp
+public ArchiveViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileType | FileType | Der Typ der Datei. |
-| pages | IList`1 | Die Liste der anzuzeigenden Seiten. |
-| folders | IList`1 | Die Liste der Ordner, die in der Archivdatei enthalten sind. |
+| pages | List`1 | Die Liste der anzuzeigenden Seiten. |
+| folders | List`1 | Die Liste der Ordner, die in der Archivdatei enthalten sind. |
 
 ### Ausnahmen
 

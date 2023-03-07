@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/textelement-1/height/
 Die Höhe des Rechtecks, das das Element enthält (in Pixel).
 
 ```csharp
-public double Height { get; }
+public double Height { get; set; }
 ```
 
 ### Siehe auch

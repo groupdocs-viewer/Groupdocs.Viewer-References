@@ -3,7 +3,7 @@ title: FromExtension
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Mappe lextension de fichier au type de fichier.
 type: docs
-weight: 1870
+weight: 1920
 url: /fr/net/groupdocs.viewer/filetype/fromextension/
 ---
 ## FileType.FromExtension method

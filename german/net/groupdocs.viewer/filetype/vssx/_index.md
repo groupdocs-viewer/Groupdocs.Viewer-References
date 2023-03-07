@@ -1,14 +1,14 @@
 ---
 title: VSSX
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: VisioSchablonendatei .vssx sind Zeichnungsschablonen die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSXDateiformat kann mit Visio 2013 und höher geöffnet werden. VisioDateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt z. B. Sammlung von Formen Konnektoren Flussdiagramme Netzwerklayout UMLDiagramme . Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vssx .
+description: VisioSchablonendatei .vssx sind Zeichnungsschablonen die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSXDateiformat kann mit Visio 2013 und höher geöffnet werden. VisioDateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt z. B. Sammlung von Formen Konnektoren Flussdiagramme Netzwerklayout UMLDiagramme . Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vssx .
 type: docs
-weight: 1650
+weight: 1700
 url: /de/net/groupdocs.viewer/filetype/vssx/
 ---
 ## FileType.VSSX field
 
-Visio-Schablonendatei (.vssx) sind Zeichnungsschablonen, die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSX-Dateiformat kann mit Visio 2013 und höher geöffnet werden. Visio-Dateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt, z. B. Sammlung von Formen, Konnektoren, Flussdiagramme, Netzwerklayout, UML-Diagramme, . Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vssx) .
+Visio-Schablonendatei (.vssx) sind Zeichnungsschablonen, die mit Microsoft Visio 2013 und höher erstellt wurden. Das VSSX-Dateiformat kann mit Visio 2013 und höher geöffnet werden. Visio-Dateien sind für die Darstellung einer Vielzahl von Zeichnungselementen bekannt, z. B. Sammlung von Formen, Konnektoren, Flussdiagramme, Netzwerklayout, UML-Diagramme, . Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vssx) .
 
 ```csharp
 public static readonly FileType VSSX;

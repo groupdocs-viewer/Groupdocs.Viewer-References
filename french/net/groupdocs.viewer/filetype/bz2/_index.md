@@ -3,7 +3,7 @@ title: BZ2
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Les fichiers compressés Bzip2 .bz2 sont des fichiers compressés générés à laide de la méthode de compression open source BZIP2 principalement sur les systèmes UNIX ou Linux. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/compression/bz2 .
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/groupdocs.viewer/filetype/bz2/
 ---
 ## FileType.BZ2 field

@@ -196,7 +196,7 @@ public Viewer(Stream stream, bool leaveOpen)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | stream | Stream | Le flux de fichiers. |
-| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; Par ailleurs,faux. |
+| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; sinon,FAUX. |
 
 ### Exceptions
 
@@ -268,7 +268,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Le flux de fichiers. |
 | loadOptions | LoadOptions | Les options de chargement des documents. |
-| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; Par ailleurs,faux. |
+| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; sinon,FAUX. |
 
 ### Exceptions
 
@@ -342,7 +342,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Le flux de fichiers. |
 | settings | ViewerSettings | Les paramètres de la visionneuse. |
-| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; Par ailleurs,faux. |
+| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; sinon,FAUX. |
 
 ### Exceptions
 
@@ -420,7 +420,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 | stream | Stream | Le flux de fichiers. |
 | loadOptions | LoadOptions | Les options de chargement des documents. |
 | settings | ViewerSettings | Les paramètres de la visionneuse. |
-| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; Par ailleurs,faux. |
+| leaveOpen | Boolean | vrai pour laisser le flux ouvert après la suppression de l'objet Viewer ; sinon,FAUX. |
 
 ### Exceptions
 

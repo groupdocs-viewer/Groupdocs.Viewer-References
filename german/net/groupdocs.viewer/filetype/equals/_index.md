@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Bestimmt ob der StromFileTypegroupdocs.viewer/filetypeist genauso wie angegebenFileTypegroupdocs.viewer/filetype Objekt.
+description: Bestimmt ob der StromFileTypegroupdocs.viewer/filetype ist genauso wie angegebenFileTypegroupdocs.viewer/filetype Objekt.
 type: docs
-weight: 1930
+weight: 1980
 url: /de/net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Bestimmt, ob der Strom[`FileType`](../../filetype)ist genauso wie angegeben[`FileType`](../../filetype) Objekt.
+Bestimmt, ob der Strom[`FileType`](../../filetype) ist genauso wie angegeben[`FileType`](../../filetype) Objekt.
 
 ```csharp
 public bool Equals(FileType other)
@@ -20,7 +20,7 @@ public bool Equals(FileType other)
 
 ### Rückgabewert
 
-wenn beides[`FileType`](../../filetype) Objekte sind gleich; Andernfalls,
+wenn beides[`FileType`](../../filetype) Objekte sind gleich; ansonsten,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Rückgabewert
 
-wenn Parameter ist[`FileType`](../../filetype) und ist das gleiche wie Strom[`FileType`](../../filetype) Objekt; Andernfalls,
+Wenn Parameter ist[`FileType`](../../filetype) und ist das gleiche wie Strom[`FileType`](../../filetype) Objekt; ansonsten,
 
 ```csharp
 true

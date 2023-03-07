@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/outlookviewinfo/outlookviewinfo/
 ---
-## OutlookViewInfo constructor
+## OutlookViewInfo() {#constructor}
 
 Initialisiert eine neue Instanz von[`OutlookViewInfo`](../../outlookviewinfo) Klasse.
 
 ```csharp
-public OutlookViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public OutlookViewInfo()
+```
+
+### Siehe auch
+
+* class [OutlookViewInfo](../../outlookviewinfo)
+* namensraum [GroupDocs.Viewer.Results](../../outlookviewinfo)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## OutlookViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Initialisiert eine neue Instanz von[`OutlookViewInfo`](../../outlookviewinfo) Klasse.
+
+```csharp
+public OutlookViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileType | FileType | Der Typ der Datei. |
-| pages | IList`1 | Die Liste der anzuzeigenden Seiten. |
-| folders | IList`1 | Die Liste der Ordner, die in der Outlook-Datendatei enthalten sind. |
+| pages | List`1 | Die Liste der anzuzeigenden Seiten. |
+| folders | List`1 | Die Liste der Ordner, die in der Outlook-Datendatei enthalten sind. |
 
 ### Ausnahmen
 

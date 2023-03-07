@@ -1,14 +1,14 @@
 ---
 title: PS1
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: PowerShellSkriptdatei .ps1 ein Dateiformat für Windows PowerShellCmdletDateien. Weitere Informationen zu diesem Dateiformathierhttps//fileinfo.com/extension/ps1 .
+description: PowerShellSkriptdatei .ps1 ein Dateiformat für Windows PowerShellCmdletDateien. Weitere Informationen zu diesem DateiformatHierhttps//fileinfo.com/extension/ps1 .
 type: docs
-weight: 1200
+weight: 1250
 url: /de/net/groupdocs.viewer/filetype/ps1/
 ---
 ## FileType.PS1 field
 
-PowerShell-Skriptdatei (.ps1) ein Dateiformat für Windows PowerShell-Cmdlet-Dateien. Weitere Informationen zu diesem Dateiformat[hier](https://fileinfo.com/extension/ps1) .
+PowerShell-Skriptdatei (.ps1) ein Dateiformat für Windows PowerShell-Cmdlet-Dateien. Weitere Informationen zu diesem Dateiformat[Hier](https://fileinfo.com/extension/ps1) .
 
 ```csharp
 public static readonly FileType PS1;

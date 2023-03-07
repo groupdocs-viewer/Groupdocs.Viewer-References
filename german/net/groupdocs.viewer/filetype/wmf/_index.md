@@ -1,14 +1,14 @@
 ---
 title: WMF
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Windows Metafile .wmf steht für Microsoft Windows Metafile WMF zum Speichern von Bilddaten im Vektor und BitmapFormat. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/wmf .
+description: Windows Metafile .wmf steht für Microsoft Windows Metafile WMF zum Speichern von Bilddaten im Vektor und BitmapFormat. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/wmf .
 type: docs
-weight: 1720
+weight: 1770
 url: /de/net/groupdocs.viewer/filetype/wmf/
 ---
 ## FileType.WMF field
 
-Windows Metafile (.wmf) steht für Microsoft Windows Metafile (WMF) zum Speichern von Bilddaten im Vektor- und Bitmap-Format. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/wmf) .
+Windows Metafile (.wmf) steht für Microsoft Windows Metafile (WMF) zum Speichern von Bilddaten im Vektor- und Bitmap-Format. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/wmf) .
 
 ```csharp
 public static readonly FileType WMF;

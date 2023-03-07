@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/resource/filename/
 Le nom du fichier de ressources.
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### Voir également

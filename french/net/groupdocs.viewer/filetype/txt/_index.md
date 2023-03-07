@@ -3,7 +3,7 @@ title: TXT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de texte brut .txt représente un document texte contenant du texte brut sous forme de lignes. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 1520
+weight: 1570
 url: /fr/net/groupdocs.viewer/filetype/txt/
 ---
 ## FileType.TXT field

@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/attachment/filepath/
 Chemin relatif de la pièce jointe, par exempledossier/fichier.docx ou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### Voir également

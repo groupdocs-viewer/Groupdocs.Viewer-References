@@ -3,7 +3,7 @@ title: FODS
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: OpenDocument Flat XMLTabelle .fods
 type: docs
-weight: 480
+weight: 520
 url: /de/net/groupdocs.viewer/filetype/fods/
 ---
 ## FileType.FODS field

@@ -3,7 +3,7 @@ title: PPS
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Les diaporamas PowerPoint .pps sont créés à laide de Microsoft PowerPoint à des fins de diaporama. La lecture et la création de fichiers PPS sont prises en charge par Microsoft PowerPoint 972003. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/presentation/pps .
 type: docs
-weight: 1120
+weight: 1170
 url: /fr/net/groupdocs.viewer/filetype/pps/
 ---
 ## FileType.PPS field

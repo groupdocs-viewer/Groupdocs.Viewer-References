@@ -39,7 +39,7 @@ public class HtmlViewOptions : ViewOptions
 | [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Aktiviert das Rendern versteckter Seiten. |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | Aktiviert das Rendern von Notizen. |
 | [RenderResponsive](../../groupdocs.viewer.options/htmlviewoptions/renderresponsive) { get; set; } | Aktiviert responsives Rendering; Responsive Webseiten werden auf Geräten mit unterschiedlicher Bildschirmgröße gut gerendert. |
-| [RenderToSinglePage](../../groupdocs.viewer.options/htmlviewoptions/rendertosinglepage) { get; set; } | Aktiviert, dass HTML-Inhalt auf einer einzelnen Seite gerendert wird |
+| [RenderToSinglePage](../../groupdocs.viewer.options/htmlviewoptions/rendertosinglepage) { get; set; } | Ermöglicht das Rendern eines gesamten Dokuments in eine HTML-Datei. |
 | [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | Die Anzeigeoptionen für Tabellenkalkulationsdateien. |
 | [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | Optionen zum Aufteilen von Textdateien in Seiten. |
 | [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | Die Optionen für die Ansicht von Visio-Dateien, die Dokumente verarbeiten. |

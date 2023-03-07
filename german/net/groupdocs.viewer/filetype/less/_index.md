@@ -3,7 +3,7 @@ title: LESS
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: LESSStylesheet .less
 type: docs
-weight: 740
+weight: 790
 url: /de/net/groupdocs.viewer/filetype/less/
 ---
 ## FileType.LESS field

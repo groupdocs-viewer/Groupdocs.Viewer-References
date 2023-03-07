@@ -16,7 +16,7 @@ public WordProcessingOptions WordProcessingOptions { get; set; }
 
 ### Bemerkungen
 
-Siehe auch  Word-Dokumente als HTML-, PDF- oder Bilddateien wiedergeben für weitere Details und Codeschnipsel.
+Siehe auch  Word-Dokumente als HTML-, PDF- oder Bilddateien wiedergeben  für weitere Details und Codeschnipsel.
 
 ### Siehe auch
 

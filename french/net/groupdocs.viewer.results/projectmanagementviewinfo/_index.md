@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Représente les informations daffichage pour le document MS Project.
 type: docs
-weight: 750
+weight: 760
 url: /fr/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | Nom | La description |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Initialise la nouvelle instance de[`ProjectManagementViewInfo`](../projectmanagementviewinfo) classe. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Initialise la nouvelle instance de[`ProjectManagementViewInfo`](../projectmanagementviewinfo) classe. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Initialise la nouvelle instance de[`ProjectManagementViewInfo`](../projectmanagementviewinfo) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | La date et l'heure auxquelles le projet doit être terminé. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Le type du fichier. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | La liste des pages à afficher. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | La date et l'heure à partir de laquelle le projet a démarré. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | La date et l'heure auxquelles le projet doit être terminé. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Le type du fichier. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | La liste des pages à afficher. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | La date et l'heure à partir de laquelle le projet a démarré. |
 
 ## Méthodes
 

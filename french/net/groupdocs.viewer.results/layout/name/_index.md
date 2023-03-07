@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/layout/name/
 Le nom de la mise en page.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Voir également

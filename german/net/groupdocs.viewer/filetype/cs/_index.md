@@ -1,14 +1,14 @@
 ---
 title: CS
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: CQuellcodedatei .cs ist eine Quellcodedatei für die Programmiersprache C. Eingeführt von Microsoft zur Verwendung mit .NET Framework. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/programming/cs .
+description: CQuellcodedatei .cs ist eine Quellcodedatei für die Programmiersprache C. Eingeführt von Microsoft zur Verwendung mit .NET Framework. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/programming/cs .
 type: docs
-weight: 180
+weight: 200
 url: /de/net/groupdocs.viewer/filetype/cs/
 ---
 ## FileType.CS field
 
-C#-Quellcodedatei (.cs) ist eine Quellcodedatei für die Programmiersprache C#. Eingeführt von Microsoft zur Verwendung mit .NET Framework. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/programming/cs) .
+C#-Quellcodedatei (.cs) ist eine Quellcodedatei für die Programmiersprache C#. Eingeführt von Microsoft zur Verwendung mit .NET Framework. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/programming/cs) .
 
 ```csharp
 public static readonly FileType CS;
