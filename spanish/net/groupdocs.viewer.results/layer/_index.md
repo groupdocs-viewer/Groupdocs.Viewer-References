@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Inicializa una nueva instancia de[`Layer`](../layer) clase. |
-| [Layer](layer#constructor_1)(string, bool) | Inicializa una nueva instancia de[`Layer`](../layer) clase. |
+| [Layer](layer#constructor)() | Inicializa una nueva instancia de[`Layer`](../layer) clase. |
+| [Layer](layer#constructor_1)(string) | Inicializa una nueva instancia de[`Layer`](../layer) clase. |
+| [Layer](layer#constructor_2)(string, bool) | Inicializa una nueva instancia de[`Layer`](../layer) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | El nombre de la capa. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | El indicador de visibilidad de la capa. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | El nombre de la capa. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | El indicador de visibilidad de la capa. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Determina si la corriente[`Layer`](../layer)es igual a lo especificado[`Layer`](../layer) objeto. |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Determina si la corriente[`Layer`](../layer) es igual a lo especificado[`Layer`](../layer) objeto. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | Determina si la corriente[`Layer`](../layer) es el mismo que el objeto especificado. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | Devuelve el código hash para el actual[`Layer`](../layer) objeto. |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | Devuelve una cadena que representa el objeto actual. |

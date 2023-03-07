@@ -21,7 +21,7 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 ### Возвращаемое значение
 
-Новый экземпляр[`CadOptions`](../../cadoptions) класс для рендеринга по ширине и высоте.
+Новый экземпляр[`CadOptions`](../../cadoptions)класс для рендеринга по ширине и высоте.
 
 ### Исключения
 

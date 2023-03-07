@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/cadviewinfo/layers/
 Список слоев, содержащихся в чертеже САПР.
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### Смотрите также

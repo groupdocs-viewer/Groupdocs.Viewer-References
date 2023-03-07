@@ -3,7 +3,7 @@ title: XLTM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон Microsoft Excel с поддержкой макросов .xltm представляет файлы созданные Microsoft Excel как файлы шаблонов с поддержкой макросов. Файлы XLTM аналогичны XLTX по структуре за исключением того что последний не поддерживает создание файлов шаблонов с макросами. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
-weight: 1800
+weight: 1850
 url: /ru/net/groupdocs.viewer/filetype/xltm/
 ---
 ## FileType.XLTM field

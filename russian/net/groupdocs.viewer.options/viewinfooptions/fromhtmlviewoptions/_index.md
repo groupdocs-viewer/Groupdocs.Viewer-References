@@ -20,7 +20,7 @@ public static ViewInfoOptions FromHtmlViewOptions(HtmlViewOptions options)
 
 ### Возвращаемое значение
 
-Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) учебный класс.
+Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) сорт.
 
 ### Исключения
 

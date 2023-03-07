@@ -3,7 +3,7 @@ title: POTX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон презентации PowerPoint Open XML .potx представляет собой шаблон презентации Microsoft PowerPoint созданный с помощью Microsoft PowerPoint 2007 и более поздних версий. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/presentation/potx .
 type: docs
-weight: 1110
+weight: 1160
 url: /ru/net/groupdocs.viewer/filetype/potx/
 ---
 ## FileType.POTX field

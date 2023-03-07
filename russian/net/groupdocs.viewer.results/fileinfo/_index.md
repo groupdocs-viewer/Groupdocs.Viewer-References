@@ -18,14 +18,15 @@ public class FileInfo
 
 | Имя | Описание |
 | --- | --- |
-| [FileInfo](fileinfo)(FileType) | Инициализирует новый экземпляр[`FileType`](./filetype) класс. |
+| [FileInfo](fileinfo#constructor)() | Инициализирует новый экземпляр[`FileType`](./filetype) класс. |
+| [FileInfo](fileinfo#constructor_1)(FileType) | Инициализирует новый экземпляр[`FileType`](./filetype) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Encrypted](../../groupdocs.viewer.results/fileinfo/encrypted) { get; set; } | Указывает, что файл зашифрован. |
-| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; } | Тип файла. |
+| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; set; } | Тип файла. |
 
 ## Методы
 

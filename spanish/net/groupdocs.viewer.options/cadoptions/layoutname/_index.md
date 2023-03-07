@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### Observaciones
 
-Esta opción se aplica solo a dibujos CAD que admiten diseños[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , y[`DWF`](../../../groupdocs.viewer/filetype/dwf) y tambiénDWFX ; Por defecto solo se renderiza Model.
+Esta opción se aplica solo a dibujos CAD que admiten diseños[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , y[`DWF`](../../../groupdocs.viewer/filetype/dwf) y también[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ; Por defecto solo se renderiza Model.
 
 ### Ver también
 

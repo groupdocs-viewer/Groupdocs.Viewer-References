@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/layer/name/
 El nombre de la capa.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Observaciones

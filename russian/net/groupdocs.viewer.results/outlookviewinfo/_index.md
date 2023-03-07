@@ -3,7 +3,7 @@ title: OutlookViewInfo
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Представляет информацию о просмотре файла данных Outlook.
 type: docs
-weight: 720
+weight: 730
 url: /ru/net/groupdocs.viewer.results/outlookviewinfo/
 ---
 ## OutlookViewInfo class
@@ -18,15 +18,16 @@ public class OutlookViewInfo : ViewInfo
 
 | Имя | Описание |
 | --- | --- |
-| [OutlookViewInfo](outlookviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Инициализирует новый экземпляр[`OutlookViewInfo`](../outlookviewinfo) класс. |
+| [OutlookViewInfo](outlookviewinfo#constructor)() | Инициализирует новый экземпляр[`OutlookViewInfo`](../outlookviewinfo) класс. |
+| [OutlookViewInfo](outlookviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Инициализирует новый экземпляр[`OutlookViewInfo`](../outlookviewinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Тип файла. |
-| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; } | Список папок, содержащихся в файле данных Outlook. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Список страниц для просмотра. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Тип файла. |
+| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; set; } | Список папок, содержащихся в файле данных Outlook. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Список страниц для просмотра. |
 
 ## Методы
 

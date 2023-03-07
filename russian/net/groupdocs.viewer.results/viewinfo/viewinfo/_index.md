@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/viewinfo/viewinfo/
 ---
-## ViewInfo constructor
+## ViewInfo() {#constructor}
 
 Инициализирует новый экземпляр[`ViewInfo`](../../viewinfo) класс.
 
 ```csharp
-public ViewInfo(FileType fileType, IList<Page> pages)
+public ViewInfo()
+```
+
+### Смотрите также
+
+* class [ViewInfo](../../viewinfo)
+* пространство имен [GroupDocs.Viewer.Results](../../viewinfo)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## ViewInfo(FileType, List&lt;Page&gt;) {#constructor_1}
+
+Инициализирует новый экземпляр[`ViewInfo`](../../viewinfo) класс.
+
+```csharp
+public ViewInfo(FileType fileType, List<Page> pages)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileType | FileType | Тип файла. |
-| pages | IList`1 | Список страниц для просмотра. |
+| pages | List`1 | Список страниц для просмотра. |
 
 ### Исключения
 

@@ -6,13 +6,29 @@ type: docs
 weight: 10
 url: /es/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
+
+Inicializa una nueva instancia de[`Word`](../../word) clase.
+
+```csharp
+public Word()
+```
+
+### Ver también
+
+* class [Word](../../word)
+* espacio de nombres [GroupDocs.Viewer.Results](../../word)
+* asamblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
 
 Inicializa una nueva instancia de[`Word`](../../word) clase.
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | Parámetro | Escribe | Descripción |
@@ -22,7 +38,7 @@ public Word(string word, double x, double y, double width, double height,
 | y | Double | La coordenada Y del punto más alto a la izquierda en el diseño de la página donde comienza el rectángulo que contiene la palabra. |
 | width | Double | El ancho del rectángulo que contiene la palabra. |
 | height | Double | La altura del rectángulo que contiene la palabra. |
-| characters | IList`1 | Los caracteres contenidos en la palabra. |
+| characters | List`1 | Los caracteres contenidos en la palabra. |
 
 ### Excepciones
 

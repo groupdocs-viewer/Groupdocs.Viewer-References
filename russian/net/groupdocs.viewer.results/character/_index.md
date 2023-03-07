@@ -18,17 +18,18 @@ public class Character : TextElement<char>
 
 | Имя | Описание |
 | --- | --- |
-| [Character](character)(char, double, double, double, double) | Инициализирует новый экземпляр[`Character`](../character) класс. |
+| [Character](character#constructor)() | Инициализирует новый экземпляр[`Character`](../character) класс. |
+| [Character](character#constructor_1)(char, double, double, double, double) | Инициализирует новый экземпляр[`Character`](../character) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Высота прямоугольника, содержащего элемент (в пикселях). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Значение элемента. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Ширина прямоугольника, содержащего элемент (в пикселях). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Координата X верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Координата Y верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Высота прямоугольника, содержащего элемент (в пикселях). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Значение элемента. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Ширина прямоугольника, содержащего элемент (в пикселях). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Координата X верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Координата Y верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
 
 ## Методы
 

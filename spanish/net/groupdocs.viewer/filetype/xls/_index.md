@@ -3,7 +3,7 @@ title: XLS
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Hoja de cálculo de Excel .xls representa el formato de archivo binario de Excel. Estos archivos pueden crearse con Microsoft Excel así como con otros programas de hojas de cálculo similares como OpenOffice Calc o Apple Numbers. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
-weight: 1750
+weight: 1800
 url: /es/net/groupdocs.viewer/filetype/xls/
 ---
 ## FileType.XLS field

@@ -3,7 +3,7 @@ title: GZ
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Gnu Zipped File .gz son archivos comprimidos creados con la aplicación de compresión gzip. Puede contener múltiples archivos comprimidos y se usa comúnmente en sistemas UNIX y Linux. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/compression/gz .
 type: docs
-weight: 510
+weight: 550
 url: /es/net/groupdocs.viewer/filetype/gz/
 ---
 ## FileType.GZ field

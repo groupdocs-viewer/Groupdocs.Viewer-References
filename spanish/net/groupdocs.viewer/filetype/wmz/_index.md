@@ -3,7 +3,7 @@ title: WMZ
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El metarchivo de Windows comprimido .wmz representa el metarchivo de Microsoft Windows WMF comprimido en el archivo GZIP para almacenar datos de imágenes en formato vectorial y de mapa de bits. Más información sobre este formato de archivoaquíhttps//fileinfo.com/extension/wmzcompressed_windows_metafile .
 type: docs
-weight: 1730
+weight: 1780
 url: /es/net/groupdocs.viewer/filetype/wmz/
 ---
 ## FileType.WMZ field

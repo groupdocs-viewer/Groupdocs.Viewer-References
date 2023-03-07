@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API GroupDocs.Viewer для .NET
-description: Определяет является ли текущийLayergroupdocs.viewer.results/layerтакое же как указаноLayergroupdocs.viewer.results/layer объект.
+description: Определяет является ли текущийLayergroupdocs.viewer.results/layer такое же как указаноLayergroupdocs.viewer.results/layer объект.
 type: docs
 weight: 40
 url: /ru/net/groupdocs.viewer.results/layer/equals/
 ---
 ## Equals(Layer) {#equals}
 
-Определяет, является ли текущий[`Layer`](../../layer)такое же, как указано[`Layer`](../../layer) объект.
+Определяет, является ли текущий[`Layer`](../../layer) такое же, как указано[`Layer`](../../layer) объект.
 
 ```csharp
 public bool Equals(Layer other)

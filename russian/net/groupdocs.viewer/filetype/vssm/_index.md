@@ -3,7 +3,7 @@ title: VSSM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл шаблона Visio с поддержкой макросов .vssm  это файлы шаблона Microsoft Visio поддерживающие поддержку макросов. Файл VSSM при открытии позволяет запускать макросы для достижения желаемого форматирования и размещения фигур на диаграмме. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/vssm .
 type: docs
-weight: 1640
+weight: 1690
 url: /ru/net/groupdocs.viewer/filetype/vssm/
 ---
 ## FileType.VSSM field

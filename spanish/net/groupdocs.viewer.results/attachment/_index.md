@@ -18,19 +18,20 @@ public class Attachment
 
 | Nombre | Descripción |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Inicializa una nueva instancia de[`Attachment`](../attachment) clase. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Inicializa una nueva instancia de[`Attachment`](../attachment) clase. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Inicializa una nueva instancia de[`Attachment`](../attachment) clase. |
+| [Attachment](attachment#constructor)() | Inicializa una nueva instancia de[`Attachment`](../attachment) clase. |
+| [Attachment](attachment#constructor_1)(string, string) | Inicializa una nueva instancia de[`Attachment`](../attachment) clase. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Inicializa una nueva instancia de[`Attachment`](../attachment) clase. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Inicializa una nueva instancia de[`Attachment`](../attachment) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Nombre del archivo adjunto. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Ruta relativa del archivo adjunto, por ejemplocarpeta/archivo.docx o nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Tipo de archivo adjunto. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Identificador único del archivo adjunto en el contexto de un solo archivo que contiene este archivo adjunto. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Tamaño del archivo adjunto en bytes. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Nombre del archivo adjunto. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Ruta relativa del archivo adjunto, por ejemplocarpeta/archivo.docx o nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Tipo de archivo adjunto. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Identificador único del archivo adjunto en el contexto de un solo archivo que contiene este archivo adjunto. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Tamaño del archivo adjunto en bytes. |
 
 ## Métodos
 

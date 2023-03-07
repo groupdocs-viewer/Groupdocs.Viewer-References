@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/fileinfo/fileinfo/
 ---
-## FileInfo constructor
+## FileInfo() {#constructor}
+
+Инициализирует новый экземпляр[`FileType`](../filetype) класс.
+
+```csharp
+public FileInfo()
+```
+
+### Смотрите также
+
+* class [FileInfo](../../fileinfo)
+* пространство имен [GroupDocs.Viewer.Results](../../fileinfo)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## FileInfo(FileType) {#constructor_1}
 
 Инициализирует новый экземпляр[`FileType`](../filetype) класс.
 

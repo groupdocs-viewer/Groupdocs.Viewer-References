@@ -3,7 +3,7 @@ title: ZIP
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo comprimido .zip representa archivos comprimidos que pueden contener uno o más archivos o directorios. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/compression/zip .
 type: docs
-weight: 1860
+weight: 1910
 url: /es/net/groupdocs.viewer/filetype/zip/
 ---
 ## FileType.ZIP field

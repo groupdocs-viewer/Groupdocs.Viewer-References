@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/attachment/id/
 Уникальный идентификатор вложения в контексте одного файла, содержащего это вложение.
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### Смотрите также

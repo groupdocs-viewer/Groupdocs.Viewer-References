@@ -18,15 +18,16 @@ public class LotusNotesViewInfo : ViewInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [LotusNotesViewInfo](lotusnotesviewinfo)(FileType, IList&lt;Page&gt;, int) | Inicializa una nueva instancia de[`LotusNotesViewInfo`](../lotusnotesviewinfo) clase. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor)() | Inicializa una nueva instancia de[`LotusNotesViewInfo`](../lotusnotesviewinfo) clase. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | Inicializa una nueva instancia de[`LotusNotesViewInfo`](../lotusnotesviewinfo) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | El tipo de archivo. |
-| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; } | Recuento de billetes en almacenamiento |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | La lista de páginas para ver. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | El tipo de archivo. |
+| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; set; } | Recuento de billetes en almacenamiento |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | La lista de páginas para ver. |
 
 ## Métodos
 

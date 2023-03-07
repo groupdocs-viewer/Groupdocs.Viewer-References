@@ -3,7 +3,7 @@ title: VSDX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Чертеж Visio .vsdx представляет формат файлов Microsoft Visio появившийся в Microsoft Office 2013 и более поздних версиях. Он был разработан для замены двоичного формата файла .VSD который поддерживается более ранними версиями Microsoft Visio. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/vsdx .
 type: docs
-weight: 1620
+weight: 1670
 url: /ru/net/groupdocs.viewer/filetype/vsdx/
 ---
 ## FileType.VSDX field

@@ -3,7 +3,7 @@ title: HTM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл языка гипертекстовой разметки .htm  это расширение для вебстраниц созданных для отображения в браузерах. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 570
+weight: 610
 url: /ru/net/groupdocs.viewer/filetype/htm/
 ---
 ## FileType.HTM field

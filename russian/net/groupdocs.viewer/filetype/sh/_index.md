@@ -3,7 +3,7 @@ title: SH
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Сценарий оболочки Bash .sh
 type: docs
-weight: 1360
+weight: 1410
 url: /ru/net/groupdocs.viewer/filetype/sh/
 ---
 ## FileType.SH field

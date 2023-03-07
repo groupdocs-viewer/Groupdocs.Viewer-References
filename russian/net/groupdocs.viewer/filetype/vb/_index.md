@@ -3,7 +3,7 @@ title: VB
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл элемента проекта Visual Basic .vb  это файл исходного кода созданный на языке Visual Basic который был создан Microsoft для разработки приложений .NET. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/programming/vb .
 type: docs
-weight: 1550
+weight: 1600
 url: /ru/net/groupdocs.viewer/filetype/vb/
 ---
 ## FileType.VB field

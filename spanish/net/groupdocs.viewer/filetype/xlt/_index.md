@@ -3,7 +3,7 @@ title: XLT
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla de Microsoft Excel .xlt son archivos de plantilla creados con Microsoft Excel que es una aplicación de hoja de cálculo que forma parte de la suite de Microsoft Office. Microsoft Office 972003 admitía la creación de nuevos archivos XLT y su apertura. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/xlt .
 type: docs
-weight: 1790
+weight: 1840
 url: /es/net/groupdocs.viewer/filetype/xlt/
 ---
 ## FileType.XLT field

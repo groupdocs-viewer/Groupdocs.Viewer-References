@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Determina si la corrienteFileTypegroupdocs.viewer/filetypees igual a lo especificadoFileTypegroupdocs.viewer/filetype objeto.
+description: Determina si la corrienteFileTypegroupdocs.viewer/filetype es igual a lo especificadoFileTypegroupdocs.viewer/filetype objeto.
 type: docs
-weight: 1930
+weight: 1980
 url: /es/net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Determina si la corriente[`FileType`](../../filetype)es igual a lo especificado[`FileType`](../../filetype) objeto.
+Determina si la corriente[`FileType`](../../filetype) es igual a lo especificado[`FileType`](../../filetype) objeto.
 
 ```csharp
 public bool Equals(FileType other)

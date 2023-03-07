@@ -1,14 +1,14 @@
 ---
 title: RenderTextAsImage
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Cuando esta opción se establece enverdadero  el texto se representa como una imagen en el HTML de salida. Habilite esta opción para que el texto no se pueda seleccionar o para corregir la representación de caracteres y hacer que el HTML parezca PDF. El valor predeterminado esfalso .
+description: Cuando esta opción se establece enverdadero  el texto se representa como una imagen en el HTML de salida. Habilite esta opción para que el texto no se pueda seleccionar o para corregir la representación de caracteres y hacer que el HTML parezca PDF. El valor predeterminado esFALSO .
 type: docs
-weight: 70
+weight: 80
 url: /es/net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property
 
-Cuando esta opción se establece enverdadero , el texto se representa como una imagen en el HTML de salida. Habilite esta opción para que el texto no se pueda seleccionar o para corregir la representación de caracteres y hacer que el HTML parezca PDF. El valor predeterminado esfalso .
+Cuando esta opción se establece enverdadero , el texto se representa como una imagen en el HTML de salida. Habilite esta opción para que el texto no se pueda seleccionar o para corregir la representación de caracteres y hacer que el HTML parezca PDF. El valor predeterminado esFALSO .
 
 ```csharp
 public bool RenderTextAsImage { get; set; }

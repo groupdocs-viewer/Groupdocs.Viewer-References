@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/pdfviewinfo/printingallowed/
 Указывает, разрешена ли печать документа.
 
 ```csharp
-public bool PrintingAllowed { get; }
+public bool PrintingAllowed { get; set; }
 ```
 
 ### Смотрите также

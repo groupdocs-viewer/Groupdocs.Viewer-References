@@ -3,7 +3,7 @@ title: DWT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон чертежа AutoCAD .dwt  это файл шаблона чертежа AutoCAD который используется в качестве основы для создания чертежей которые можно сохранить в виде файлов DWG. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/cad/dwt .
 type: docs
-weight: 360
+weight: 390
 url: /ru/net/groupdocs.viewer/filetype/dwt/
 ---
 ## FileType.DWT field

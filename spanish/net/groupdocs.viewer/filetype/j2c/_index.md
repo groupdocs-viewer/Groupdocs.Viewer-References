@@ -3,7 +3,7 @@ title: J2C
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Secuencia de código JPEG 2000 .j2c
 type: docs
-weight: 620
+weight: 660
 url: /es/net/groupdocs.viewer/filetype/j2c/
 ---
 ## FileType.J2C field

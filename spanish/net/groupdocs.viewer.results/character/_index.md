@@ -18,17 +18,18 @@ public class Character : TextElement<char>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Character](character)(char, double, double, double, double) | Inicializa una nueva instancia de[`Character`](../character) clase. |
+| [Character](character#constructor)() | Inicializa una nueva instancia de[`Character`](../character) clase. |
+| [Character](character#constructor_1)(char, double, double, double, double) | Inicializa una nueva instancia de[`Character`](../character) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | La altura del rectángulo que contiene el elemento (en píxeles). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | El valor del elemento. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | El ancho del rectángulo que contiene el elemento (en píxeles). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | La coordenada X del punto más alto a la izquierda en el diseño de la página donde comienza el rectángulo que contiene el elemento. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | La coordenada Y del punto más alto a la izquierda en el diseño de página donde comienza el rectángulo que contiene el elemento. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | La altura del rectángulo que contiene el elemento (en píxeles). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | El valor del elemento. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | El ancho del rectángulo que contiene el elemento (en píxeles). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | La coordenada X del punto más alto a la izquierda en el diseño de la página donde comienza el rectángulo que contiene el elemento. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | La coordenada Y del punto más alto a la izquierda en el diseño de página donde comienza el rectángulo que contiene el elemento. |
 
 ## Métodos
 

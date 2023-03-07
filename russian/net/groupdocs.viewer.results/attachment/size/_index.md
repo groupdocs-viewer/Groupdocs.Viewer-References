@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/attachment/size/
 Размер файла вложения в байтах.
 
 ```csharp
-public long Size { get; }
+public long Size { get; set; }
 ```
 
 ### Смотрите также

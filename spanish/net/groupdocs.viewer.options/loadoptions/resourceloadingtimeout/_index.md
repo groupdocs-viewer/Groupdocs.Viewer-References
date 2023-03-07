@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Los recursos externos por ejemplo tiempo de espera de carga de gráficos. El valor predeterminado es 30 segundos. Esta opción es compatible con documentos de procesamiento de texto que contienen recursos externos.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property

@@ -3,7 +3,7 @@ title: TGZ
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Объединенный файловый архив Unix .tgz .tar.gz  это архивы созданные с помощью утилиты на основе Unix для сбора одного или нескольких файлов. Узнайте больше об этом формате файлаздесьhttps//fileinfo.com/extension/tgz .
 type: docs
-weight: 1480
+weight: 1530
 url: /ru/net/groupdocs.viewer/filetype/tgz/
 ---
 ## FileType.TGZ field

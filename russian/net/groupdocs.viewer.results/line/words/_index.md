@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/line/words/
 Слова, содержащиеся в строке.
 
 ```csharp
-public IList<Word> Words { get; }
+public List<Word> Words { get; set; }
 ```
 
 ### Смотрите также

@@ -3,7 +3,7 @@ title: FromStream
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Определяет тип файла читая подпись файла.
 type: docs
-weight: 1900
+weight: 1950
 url: /ru/net/groupdocs.viewer/filetype/fromstream/
 ---
 ## FromStream(Stream) {#fromstream}

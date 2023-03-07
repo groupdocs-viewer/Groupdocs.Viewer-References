@@ -26,7 +26,7 @@ public Viewer(Func<Stream> getFileStream)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -61,7 +61,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -98,7 +98,7 @@ public Viewer(Func<Stream> getFileStream, ViewerSettings settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -136,7 +136,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions, View
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -172,7 +172,7 @@ public Viewer(Stream stream)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -206,7 +206,7 @@ public Viewer(Stream stream, bool leaveOpen)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -241,7 +241,7 @@ public Viewer(Stream stream, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -279,7 +279,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -316,7 +316,7 @@ public Viewer(Stream stream, ViewerSettings settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -353,7 +353,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -391,7 +391,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -432,7 +432,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -468,7 +468,7 @@ public Viewer(string filePath)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -503,7 +503,7 @@ public Viewer(string filePath, ViewerSettings settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -539,7 +539,7 @@ public Viewer(string filePath, LoadOptions loadOptions)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -578,7 +578,7 @@ public Viewer(string filePath, LoadOptions loadOptions, ViewerSettings settings)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о типах файлов, поддерживаемых GroupDocs.Viewer: [Форматы документов, поддерживаемые GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Подробнее о возможностях GroupDocs.Viewer для .NET: [Руководство для разработчиков](https://docs.groupdocs.com/display/viewernet/Developer+Guide)

@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/textelement-1/y/
 La coordenada Y del punto más alto a la izquierda en el diseño de página donde comienza el rectángulo que contiene el elemento.
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### Ver también

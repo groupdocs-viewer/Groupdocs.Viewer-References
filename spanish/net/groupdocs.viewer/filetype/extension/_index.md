@@ -3,7 +3,7 @@ title: Extension
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Sufijo de nombre de archivo incluido el punto . por ejemplo .doc.
 type: docs
-weight: 1910
+weight: 1960
 url: /es/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer/filetype/extension/
 Sufijo de nombre de archivo (incluido el punto "."), por ejemplo, ".doc".
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### Ver también

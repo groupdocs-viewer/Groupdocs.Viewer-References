@@ -3,7 +3,7 @@ title: PNG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Portable Network Graphics .png  это формат файла растрового изображения в котором используется сжатие без потерь. Этот формат файла был создан в качестве замены формата обмена графикой GIF и не имеет ограничений авторского права. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/png .
 type: docs
-weight: 1080
+weight: 1130
 url: /ru/net/groupdocs.viewer/filetype/png/
 ---
 ## FileType.PNG field

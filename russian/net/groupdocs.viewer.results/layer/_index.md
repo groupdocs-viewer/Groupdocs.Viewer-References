@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | Имя | Описание |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Инициализирует новый экземпляр[`Layer`](../layer) класс. |
-| [Layer](layer#constructor_1)(string, bool) | Инициализирует новый экземпляр[`Layer`](../layer) класс. |
+| [Layer](layer#constructor)() | Инициализирует новый экземпляр[`Layer`](../layer) класс. |
+| [Layer](layer#constructor_1)(string) | Инициализирует новый экземпляр[`Layer`](../layer) класс. |
+| [Layer](layer#constructor_2)(string, bool) | Инициализирует новый экземпляр[`Layer`](../layer) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | Имя слоя. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | Индикатор видимости слоя. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | Имя слоя. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | Индикатор видимости слоя. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Определяет, является ли текущий[`Layer`](../layer)такое же, как указано[`Layer`](../layer) объект. |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Определяет, является ли текущий[`Layer`](../layer) такое же, как указано[`Layer`](../layer) объект. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | Определяет, является ли текущий[`Layer`](../layer) совпадает с указанным объектом. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | Возвращает хеш-код для текущего[`Layer`](../layer) объект. |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | Возвращает строку, представляющую текущий объект. |

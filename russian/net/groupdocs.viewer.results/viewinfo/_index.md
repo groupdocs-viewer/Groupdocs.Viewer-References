@@ -3,7 +3,7 @@ title: ViewInfo
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Представляет информацию о представлении для общего документа.
 type: docs
-weight: 780
+weight: 790
 url: /ru/net/groupdocs.viewer.results/viewinfo/
 ---
 ## ViewInfo class
@@ -18,14 +18,15 @@ public class ViewInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ViewInfo](viewinfo)(FileType, IList&lt;Page&gt;) | Инициализирует новый экземпляр[`ViewInfo`](../viewinfo) класс. |
+| [ViewInfo](viewinfo#constructor)() | Инициализирует новый экземпляр[`ViewInfo`](../viewinfo) класс. |
+| [ViewInfo](viewinfo#constructor_1)(FileType, List&lt;Page&gt;) | Инициализирует новый экземпляр[`ViewInfo`](../viewinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Тип файла. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Список страниц для просмотра. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Тип файла. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Список страниц для просмотра. |
 
 ## Методы
 

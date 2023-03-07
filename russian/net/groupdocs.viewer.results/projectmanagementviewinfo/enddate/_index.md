@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/projectmanagementviewinfo/enddate/
 Дата и время завершения проекта.
 
 ```csharp
-public DateTime EndDate { get; }
+public DateTime EndDate { get; set; }
 ```
 
 ### Смотрите также

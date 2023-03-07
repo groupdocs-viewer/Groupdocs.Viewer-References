@@ -1,14 +1,14 @@
 ---
 title: VB
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: El archivo de elemento de proyecto de Visual Basic .vb es un archivo de código fuente creado en lenguaje Visual Basic creado por Microsoft para el desarrollo de aplicaciones .NET. Obtenga más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/programming/vb .
+description: El archivo de elemento de proyecto de Visual Basic .vb es un archivo de código fuente creado en lenguaje Visual Basic creado por Microsoft para el desarrollo de aplicaciones .NET. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/programming/vb .
 type: docs
-weight: 1550
+weight: 1600
 url: /es/net/groupdocs.viewer/filetype/vb/
 ---
 ## FileType.VB field
 
-El archivo de elemento de proyecto de Visual Basic (.vb) es un archivo de código fuente creado en lenguaje Visual Basic creado por Microsoft para el desarrollo de aplicaciones .NET. Obtenga más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/programming/vb) .
+El archivo de elemento de proyecto de Visual Basic (.vb) es un archivo de código fuente creado en lenguaje Visual Basic creado por Microsoft para el desarrollo de aplicaciones .NET. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/programming/vb) .
 
 ```csharp
 public static readonly FileType VB;

@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/layout/width/
 El ancho del diseño.
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### Ver también

@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/page/number/
 Номер страницы.
 
 ```csharp
-public int Number { get; }
+public int Number { get; set; }
 ```
 
 ### Смотрите также

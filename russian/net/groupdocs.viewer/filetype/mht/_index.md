@@ -3,7 +3,7 @@ title: MHT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Вебархив MHTML .mht
 type: docs
-weight: 800
+weight: 850
 url: /ru/net/groupdocs.viewer/filetype/mht/
 ---
 ## FileType.MHT field

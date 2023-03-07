@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/attachment/filename/
 Имя файла вложения.
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### Смотрите также

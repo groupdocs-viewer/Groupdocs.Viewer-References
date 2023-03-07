@@ -3,7 +3,7 @@ title: XLTX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон электронной таблицы Excel Open XML .xltx представляет собой шаблон Microsoft Excel основанный на спецификациях формата файлов Office OpenXML. Он используется для создания стандартного файла шаблона который можно использовать для создания файлов XLSX с теми же настройками что и в файле XLTX. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/xltx .
 type: docs
-weight: 1810
+weight: 1860
 url: /ru/net/groupdocs.viewer/filetype/xltx/
 ---
 ## FileType.XLTX field

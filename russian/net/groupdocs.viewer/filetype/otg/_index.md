@@ -3,7 +3,7 @@ title: OTG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Графический шаблон OpenDocument .otg
 type: docs
-weight: 980
+weight: 1030
 url: /ru/net/groupdocs.viewer/filetype/otg/
 ---
 ## FileType.OTG field

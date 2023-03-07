@@ -3,7 +3,7 @@ title: TEX
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: LaTeX Source Document .tex es un lenguaje que se compone de funciones de programación y marcado que se utiliza para componer documentos. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
 type: docs
-weight: 1460
+weight: 1510
 url: /es/net/groupdocs.viewer/filetype/tex/
 ---
 ## FileType.TEX field

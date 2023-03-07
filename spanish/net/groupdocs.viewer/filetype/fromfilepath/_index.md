@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Extrae la extensión del archivo y la asigna al tipo de archivo.
 type: docs
-weight: 1880
+weight: 1930
 url: /es/net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method

@@ -29,7 +29,7 @@ public class License
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о лицензировании: [Часто задаваемые вопросы о лицензировании GroupDocs](https://purchase.groupdocs.com/faqs/licensing)
 * Подробнее о лицензировании GroupDocs.Viewer: [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/viewernet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Viewer)

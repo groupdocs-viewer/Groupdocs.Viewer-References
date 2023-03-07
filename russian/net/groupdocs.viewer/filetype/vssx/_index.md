@@ -3,7 +3,7 @@ title: VSSX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл шаблона Visio .vssx  это наборы элементов для рисования созданные с помощью Microsoft Visio 2013 и более поздних версий. Формат файла VSSX можно открыть с помощью Visio 2013 и более поздних версий. Файлы Visio известны тем что представляют различные элементы рисования такие как набор фигур соединители блоксхемы макет сети диаграммы UML Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/vssx .
 type: docs
-weight: 1650
+weight: 1700
 url: /ru/net/groupdocs.viewer/filetype/vssx/
 ---
 ## FileType.VSSX field

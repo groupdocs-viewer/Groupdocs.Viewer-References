@@ -3,7 +3,7 @@ title: JSON
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo de notación de objetos de JavaScript .json
 type: docs
-weight: 730
+weight: 780
 url: /es/net/groupdocs.viewer/filetype/json/
 ---
 ## FileType.JSON field

@@ -3,7 +3,7 @@ title: SQL
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл данных языка структурированных запросов .sql
 type: docs
-weight: 1380
+weight: 1430
 url: /ru/net/groupdocs.viewer/filetype/sql/
 ---
 ## FileType.SQL field

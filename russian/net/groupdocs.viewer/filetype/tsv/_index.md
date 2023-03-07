@@ -3,7 +3,7 @@ title: TSV
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл значений разделенных табуляцией .tsv представляет данные разделенные табуляцией в текстовом формате. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/tsv .
 type: docs
-weight: 1510
+weight: 1560
 url: /ru/net/groupdocs.viewer/filetype/tsv/
 ---
 ## FileType.TSV field

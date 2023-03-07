@@ -21,6 +21,7 @@ url: /ru/net/groupdocs.viewer.results/
 | [Layout](./layout) | Представляет компоновку, содержащуюся в чертеже САПР. |
 | [Line](./line) | Представляет прямоугольник с относительной позицией, содержащий одну линию. |
 | [LotusNotesViewInfo](./lotusnotesviewinfo) | Представляет информацию о представлении для базы данных Lotus notes storage |
+| [MboxViewInfo](./mboxviewinfo) | Представляет информацию о просмотре файлов Mbox storage |
 | [OutlookViewInfo](./outlookviewinfo) | Представляет информацию о просмотре файла данных Outlook. |
 | [Page](./page) | Представляет одну страницу, которую можно просмотреть. |
 | [PdfViewInfo](./pdfviewinfo) | Представляет информацию о просмотре документа PDF. |

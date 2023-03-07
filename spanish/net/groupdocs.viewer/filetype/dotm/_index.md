@@ -3,7 +3,7 @@ title: DOTM
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla de documento de Word Open XML habilitado para macros .dotm representa un archivo de plantilla creado con Microsoft Word 2007 o superior. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 320
+weight: 340
 url: /es/net/groupdocs.viewer/filetype/dotm/
 ---
 ## FileType.DOTM field

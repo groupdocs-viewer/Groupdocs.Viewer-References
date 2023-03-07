@@ -3,7 +3,7 @@ title: PPTX
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: PowerPoint Open XML Presentation .pptx son archivos de presentación creados con la popular aplicación Microsoft PowerPoint. A diferencia de la versión anterior del formato de archivo de presentación PPT que era binario el formato PPTX se basa en el formato de archivo de presentación XML abierto de Microsoft PowerPoint. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/presentation/pptx .
 type: docs
-weight: 1170
+weight: 1220
 url: /es/net/groupdocs.viewer/filetype/pptx/
 ---
 ## FileType.PPTX field

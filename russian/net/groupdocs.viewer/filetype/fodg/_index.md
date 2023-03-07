@@ -3,7 +3,7 @@ title: FODG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон Flat XML ODF .fodg используется приложением Apache OpenOffice Draw для хранения элементов чертежа в виде векторного изображения. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/fodg .
 type: docs
-weight: 460
+weight: 500
 url: /ru/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field

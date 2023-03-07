@@ -34,7 +34,7 @@ public class WordProcessingOptions
 
 ### Observaciones
 
-Ver también  Representar documentos de Word como archivos HTML, PDF o de imagen para más detalles y fragmentos de código.
+Ver también  Representar documentos de Word como archivos HTML, PDF o de imagen  para más detalles y fragmentos de código.
 
 ### Ver también
 

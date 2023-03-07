@@ -3,7 +3,7 @@ title: BZ2
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Сжатый файл Bzip2 .bz2  это сжатые файлы созданные с использованием метода сжатия с открытым исходным кодом BZIP2 в основном в системах UNIX или Linux. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/compression/bz2 .
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/groupdocs.viewer/filetype/bz2/
 ---
 ## FileType.BZ2 field

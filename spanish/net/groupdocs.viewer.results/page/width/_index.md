@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/page/width/
 El ancho de la página en píxeles cuando se ve como JPG o PNG.
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### Ver también

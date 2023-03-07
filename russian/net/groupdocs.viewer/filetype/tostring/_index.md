@@ -3,7 +3,7 @@ title: ToString
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Возвращает строку представляющую текущий объект.
 type: docs
-weight: 1950
+weight: 2000
 url: /ru/net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method

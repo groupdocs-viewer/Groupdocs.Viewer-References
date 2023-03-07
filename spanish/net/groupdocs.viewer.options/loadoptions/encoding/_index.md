@@ -1,17 +1,42 @@
 ---
 title: Encoding
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: La codificación utilizada al abrir archivos basados en texto o mensajes de correo electrónico comoCSVgroupdocs.viewer/filetype/csv TXTgroupdocs.viewer/filetype/txt  yMSGgroupdocs.viewer/filetype/msg . El valor predeterminado esDefault .
+description: La codificación utilizada al abrir archivos basados en texto o mensajes de correo electrónico como CSVgroupdocs.viewer/filetype/csv  TXTgroupdocs.viewer/filetype/txt  yMSGgroupdocs.viewer/filetype/msg . El valor predeterminado esUTF8 .
 type: docs
-weight: 20
+weight: 30
 url: /es/net/groupdocs.viewer.options/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-La codificación utilizada al abrir archivos basados en texto o mensajes de correo electrónico como[`CSV`](../../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../../groupdocs.viewer/filetype/txt) , y[`MSG`](../../../groupdocs.viewer/filetype/msg) . El valor predeterminado esDefault .
+La codificación utilizada al abrir archivos basados en texto o mensajes de correo electrónico como [`CSV`](../../../groupdocs.viewer/filetype/csv) , [`TXT`](../../../groupdocs.viewer/filetype/txt) , y[`MSG`](../../../groupdocs.viewer/filetype/msg) . El valor predeterminado esUTF8 .
 
 ```csharp
 public Encoding Encoding { get; set; }
+```
+
+### Observaciones
+
+**Aprende más**
+
+* [Renderice hojas de cálculo de Excel y Apple Numbers como archivos HTML, PDF y de imagen](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
+* [Renderice documentos de texto como HTML, PDF y archivos de imagen](https://docs.groupdocs.com/viewer/net/render-text-files)
+* [Procesar mensajes de correo electrónico como archivos HTML, PDF, PNG y JPEG](https://docs.groupdocs.com/viewer/net/render-email-messages/)
+
+### Ejemplos
+
+El ejemplo demuestra un uso típico de esta opción.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Encoding = Encoding.ASCII; // Establecer la codificación
+
+using (Viewer viewer = new Viewer("message.txt", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### Ver también

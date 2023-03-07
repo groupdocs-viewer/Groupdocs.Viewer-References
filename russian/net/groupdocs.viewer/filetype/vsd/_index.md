@@ -3,7 +3,7 @@ title: VSD
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл чертежа Visio .vsd  это чертежи созданные с помощью приложения Microsoft Visio для представления различных графических объектов и взаимосвязей между ними. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/vsd .
 type: docs
-weight: 1600
+weight: 1650
 url: /ru/net/groupdocs.viewer/filetype/vsd/
 ---
 ## FileType.VSD field

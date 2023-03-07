@@ -3,7 +3,7 @@ title: Viewer
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Представляет основной класс управляющий процессом рендеринга документа.
 type: docs
-weight: 800
+weight: 810
 url: /ru/net/groupdocs.viewer/viewer/
 ---
 ## Viewer class

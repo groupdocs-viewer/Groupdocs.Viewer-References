@@ -3,7 +3,7 @@ title: PSB
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Формат больших документов Photoshop .psb представляет собой формат больших документов Photoshop используемый для проектирования и разработки графики. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/psb .
 type: docs
-weight: 1210
+weight: 1260
 url: /ru/net/groupdocs.viewer/filetype/psb/
 ---
 ## FileType.PSB field

@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /es/net/groupdocs.viewer.results/layout/layout/
 ---
-## Layout constructor
+## Layout() {#constructor}
+
+Inicializa una nueva instancia de[`Layout`](../../layout) clase.
+
+```csharp
+public Layout()
+```
+
+### Ver también
+
+* class [Layout](../../layout)
+* espacio de nombres [GroupDocs.Viewer.Results](../../layout)
+* asamblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Layout(string, float, float) {#constructor_1}
 
 Inicializa una nueva instancia de[`Layout`](../../layout) clase.
 

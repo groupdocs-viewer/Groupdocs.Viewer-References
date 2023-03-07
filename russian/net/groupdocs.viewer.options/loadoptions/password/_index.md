@@ -3,7 +3,7 @@ title: Password
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Пароль для открытия зашифрованного файла.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

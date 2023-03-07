@@ -3,7 +3,7 @@ title: VSS
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo de plantilla de Visio .vss son archivos de plantilla creados con Microsoft Visio 2007 y versiones anteriores. Los archivos de plantilla proporcionan objetos de dibujo que se pueden incluir en un dibujo de Visio .VSD. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/vss .
 type: docs
-weight: 1630
+weight: 1680
 url: /es/net/groupdocs.viewer/filetype/vss/
 ---
 ## FileType.VSS field

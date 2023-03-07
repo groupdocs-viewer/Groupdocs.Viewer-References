@@ -3,7 +3,7 @@ title: OTS
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla de hoja de cálculo de OpenDocument .ots
 type: docs
-weight: 1000
+weight: 1050
 url: /es/net/groupdocs.viewer/filetype/ots/
 ---
 ## FileType.OTS field

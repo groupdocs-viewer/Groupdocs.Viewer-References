@@ -3,7 +3,7 @@ title: PST
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El archivo de almacenamiento de información personal de Outlook .pst representa los archivos de almacenamiento personal de Outlook también llamados tabla de almacenamiento personal que almacenan una variedad de información del usuario. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /es/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field

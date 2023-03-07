@@ -3,7 +3,7 @@ title: PST
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл хранилища личной информации Outlook .pst представляет файлы личного хранилища Outlook также называемые таблицей личного хранилища в которых хранится разнообразная информация о пользователе. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /ru/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field

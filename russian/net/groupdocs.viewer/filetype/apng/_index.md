@@ -3,7 +3,7 @@ title: APNG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Анимированная переносимая сетевая графика .apng  это расширение формата PNG поддерживающее анимацию. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/apng .
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/groupdocs.viewer/filetype/apng/
 ---
 ## FileType.APNG field

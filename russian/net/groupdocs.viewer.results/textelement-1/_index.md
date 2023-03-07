@@ -3,7 +3,7 @@ title: TextElementT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Представляет универсальный текстовый элемент.
 type: docs
-weight: 770
+weight: 780
 url: /ru/net/groupdocs.viewer.results/textelement-1/
 ---
 ## TextElement&lt;T&gt; class
@@ -22,17 +22,18 @@ public class TextElement<T>
 
 | Имя | Описание |
 | --- | --- |
-| [TextElement](textelement)(T, double, double, double, double) | Инициализирует новый экземпляр[`TextElement`](../textelement-1) класс. |
+| [TextElement](textelement#constructor)() | Инициализирует новый экземпляр[`TextElement`](../textelement-1) класс. |
+| [TextElement](textelement#constructor_1)(T, double, double, double, double) | Инициализирует новый экземпляр[`TextElement`](../textelement-1) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Высота прямоугольника, содержащего элемент (в пикселях). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Значение элемента. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Ширина прямоугольника, содержащего элемент (в пикселях). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Координата X верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Координата Y верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Высота прямоугольника, содержащего элемент (в пикселях). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Значение элемента. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Ширина прямоугольника, содержащего элемент (в пикселях). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Координата X верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Координата Y верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент. |
 
 ## Методы
 

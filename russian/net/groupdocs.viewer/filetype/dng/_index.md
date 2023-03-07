@@ -3,7 +3,7 @@ title: DNG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Спецификация цифрового негатива .dng  это формат изображения цифровой камеры используемый для хранения необработанных файлов. Он был разработан Adobe в сентябре 2004 года. Он был в основном разработан для цифровой фотографии. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 270
+weight: 290
 url: /ru/net/groupdocs.viewer/filetype/dng/
 ---
 ## FileType.DNG field

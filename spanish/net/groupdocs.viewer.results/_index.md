@@ -21,6 +21,7 @@ El espacio de nombres proporciona clases que representan los resultados de la re
 | [Layout](./layout) | Representa el diseño contenido en el dibujo CAD. |
 | [Line](./line) | Representa un rectángulo relativamente posicionado que contiene una sola línea. |
 | [LotusNotesViewInfo](./lotusnotesviewinfo) | Representa la información de vista para el almacenamiento de la base de datos de Lotus Notes |
+| [MboxViewInfo](./mboxviewinfo) | Representa la información de vista para el almacenamiento de archivos Mbox |
 | [OutlookViewInfo](./outlookviewinfo) | Representa la información de visualización del archivo de datos de Outlook. |
 | [Page](./page) | Representa una sola página que se puede ver. |
 | [PdfViewInfo](./pdfviewinfo) | Representa la información de visualización del documento PDF. |

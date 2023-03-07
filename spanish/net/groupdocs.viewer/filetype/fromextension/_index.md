@@ -3,7 +3,7 @@ title: FromExtension
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Asigna la extensión del archivo al tipo de archivo.
 type: docs
-weight: 1870
+weight: 1920
 url: /es/net/groupdocs.viewer/filetype/fromextension/
 ---
 ## FileType.FromExtension method

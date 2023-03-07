@@ -3,7 +3,7 @@ title: Excel2003XML
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Excel 2003 XML SpreadsheetML представляет собой формат двоичных файлов Excel. Такие файлы могут быть созданы Microsoft Excel а также другими подобными программами для работы с электронными таблицами такими как OpenOffice Calc или Apple Numbers. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
-weight: 450
+weight: 480
 url: /ru/net/groupdocs.viewer/filetype/excel2003xml/
 ---
 ## FileType.Excel2003XML field

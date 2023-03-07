@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/page/name/
 La hoja de cálculo o el nombre de la página.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Ver también

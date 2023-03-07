@@ -31,7 +31,7 @@ public sealed class FolderFontSource : IEquatable<FolderFontSource>, IFontSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Determina si la corriente[`FolderFontSource`](../folderfontsource)es igual a lo especificado[`FolderFontSource`](../folderfontsource) objeto. |
+| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Determina si la corriente[`FolderFontSource`](../folderfontsource) es igual a lo especificado[`FolderFontSource`](../folderfontsource) objeto. |
 | override [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals_1)(object) | Determina si la corriente[`FolderFontSource`](../folderfontsource) es el mismo que el objeto especificado. |
 | override [GetHashCode](../../groupdocs.viewer.fonts/folderfontsource/gethashcode)() | Devuelve el código hash para el actual[`FolderFontSource`](../folderfontsource) objeto. |
 | override [ToString](../../groupdocs.viewer.fonts/folderfontsource/tostring)() | Devuelve una cadena que representa el objeto actual. |

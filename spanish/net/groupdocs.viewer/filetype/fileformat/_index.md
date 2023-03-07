@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Nombre del tipo de archivo por ejemplo Documento de Microsoft Word.
 type: docs
-weight: 1920
+weight: 1970
 url: /es/net/groupdocs.viewer/filetype/fileformat/
 ---
 ## FileType.FileFormat property
@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer/filetype/fileformat/
 Nombre del tipo de archivo, por ejemplo, "Documento de Microsoft Word".
 
 ```csharp
-public string FileFormat { get; }
+public string FileFormat { get; set; }
 ```
 
 ### Ver también

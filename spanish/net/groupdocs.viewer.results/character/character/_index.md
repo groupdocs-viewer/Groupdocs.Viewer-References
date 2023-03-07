@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /es/net/groupdocs.viewer.results/character/character/
 ---
-## Character constructor
+## Character() {#constructor}
+
+Inicializa una nueva instancia de[`Character`](../../character) clase.
+
+```csharp
+public Character()
+```
+
+### Ver también
+
+* class [Character](../../character)
+* espacio de nombres [GroupDocs.Viewer.Results](../../character)
+* asamblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Character(char, double, double, double, double) {#constructor_1}
 
 Inicializa una nueva instancia de[`Character`](../../character) clase.
 

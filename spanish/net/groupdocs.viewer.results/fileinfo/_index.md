@@ -18,14 +18,15 @@ public class FileInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [FileInfo](fileinfo)(FileType) | Inicializa una nueva instancia de[`FileType`](./filetype) clase. |
+| [FileInfo](fileinfo#constructor)() | Inicializa una nueva instancia de[`FileType`](./filetype) clase. |
+| [FileInfo](fileinfo#constructor_1)(FileType) | Inicializa una nueva instancia de[`FileType`](./filetype) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
 | [Encrypted](../../groupdocs.viewer.results/fileinfo/encrypted) { get; set; } | Indica que el archivo está encriptado. |
-| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; } | El tipo de archivo. |
+| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; set; } | El tipo de archivo. |
 
 ## Métodos
 

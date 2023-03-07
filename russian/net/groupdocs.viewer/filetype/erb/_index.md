@@ -3,7 +3,7 @@ title: ERB
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Скрипт Ruby ERB .erb
 type: docs
-weight: 440
+weight: 470
 url: /ru/net/groupdocs.viewer/filetype/erb/
 ---
 ## FileType.ERB field

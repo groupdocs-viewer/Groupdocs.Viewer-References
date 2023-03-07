@@ -3,7 +3,7 @@ title: TGA
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Truevision TGA Truevision Advanced Raster Adapter  TARGA se utiliza para almacenar imágenes digitales de mapa de bits desarrolladas por TRUEVISION. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/tga .
 type: docs
-weight: 1470
+weight: 1520
 url: /es/net/groupdocs.viewer/filetype/tga/
 ---
 ## FileType.TGA field

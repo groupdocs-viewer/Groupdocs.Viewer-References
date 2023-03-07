@@ -3,7 +3,7 @@ title: HTM
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El archivo de lenguaje de marcado de hipertexto .htm es la extensión para las páginas web creadas para mostrarse en los navegadores. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 570
+weight: 610
 url: /es/net/groupdocs.viewer/filetype/htm/
 ---
 ## FileType.HTM field

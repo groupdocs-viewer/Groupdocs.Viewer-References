@@ -3,7 +3,7 @@ title: PSD1
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Манифест модуля сценария PowerShell .psd1  формат файла для сценариев манифеста модуля PowerShell. Подробнее об этом формате файлаздесьhttps//fileinfo.com/extension/psd1 .
 type: docs
-weight: 1230
+weight: 1280
 url: /ru/net/groupdocs.viewer/filetype/psd1/
 ---
 ## FileType.PSD1 field

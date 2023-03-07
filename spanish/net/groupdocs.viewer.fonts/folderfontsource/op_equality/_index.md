@@ -17,7 +17,7 @@ public static bool operator ==(FolderFontSource left, FolderFontSource right)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | left | FolderFontSource | Izquierda[`FolderFontSource`](../../folderfontsource) objeto. |
-| right | FolderFontSource | Derecha[`FolderFontSource`](../../folderfontsource) objeto. |
+| right | FolderFontSource | Bien[`FolderFontSource`](../../folderfontsource) objeto. |
 
 ### Valor_devuelto
 

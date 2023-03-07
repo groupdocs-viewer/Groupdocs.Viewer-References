@@ -3,7 +3,7 @@ title: VST
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla de dibujo de Visio .vst son archivos de imagen vectorial creados con Microsoft Visio y actúan como plantilla para crear más archivos. Estos archivos de plantilla están en formato de archivo binario y contienen el diseño y la configuración predeterminados que se utilizan para la creación de nuevos dibujos de Visio. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/vst .
 type: docs
-weight: 1660
+weight: 1710
 url: /es/net/groupdocs.viewer/filetype/vst/
 ---
 ## FileType.VST field

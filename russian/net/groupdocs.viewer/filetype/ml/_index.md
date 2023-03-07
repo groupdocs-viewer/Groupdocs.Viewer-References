@@ -3,7 +3,7 @@ title: ML
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл исходного кода ML .ml
 type: docs
-weight: 820
+weight: 870
 url: /ru/net/groupdocs.viewer/filetype/ml/
 ---
 ## FileType.ML field

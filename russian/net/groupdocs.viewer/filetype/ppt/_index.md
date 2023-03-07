@@ -3,7 +3,7 @@ title: PPT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Презентация PowerPoint .ppt представляет собой файл PowerPoint состоящий из набора слайдов для отображения в виде слайдшоу. Он указывает формат двоичного файла используемый Microsoft PowerPoint 972003. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/presentation/ppt .
 type: docs
-weight: 1150
+weight: 1200
 url: /ru/net/groupdocs.viewer/filetype/ppt/
 ---
 ## FileType.PPT field

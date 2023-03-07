@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/outlookviewinfo/folders/
 Список папок, содержащихся в файле данных Outlook.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Смотрите также

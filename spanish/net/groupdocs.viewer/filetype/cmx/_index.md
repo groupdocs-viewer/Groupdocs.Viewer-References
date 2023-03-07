@@ -3,7 +3,7 @@ title: CMX
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Corel Exchange .cmx es un archivo de imagen de dibujo que puede contener gráficos vectoriales y gráficos de mapa de bits. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 160
+weight: 170
 url: /es/net/groupdocs.viewer/filetype/cmx/
 ---
 ## FileType.CMX field

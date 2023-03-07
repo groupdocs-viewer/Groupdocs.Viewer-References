@@ -3,7 +3,7 @@ title: CSS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Каскадная таблица стилей .css
 type: docs
-weight: 190
+weight: 210
 url: /ru/net/groupdocs.viewer/filetype/css/
 ---
 ## FileType.CSS field

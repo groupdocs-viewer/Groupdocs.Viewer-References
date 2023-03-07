@@ -3,7 +3,7 @@ title: SML
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Стандартный файл исходного кода машинного обучения .sml
 type: docs
-weight: 1370
+weight: 1420
 url: /ru/net/groupdocs.viewer/filetype/sml/
 ---
 ## FileType.SML field

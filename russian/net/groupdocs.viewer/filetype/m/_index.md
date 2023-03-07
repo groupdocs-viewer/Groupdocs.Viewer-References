@@ -3,7 +3,7 @@ title: M
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл реализации ObjectiveC .m
 type: docs
-weight: 760
+weight: 810
 url: /ru/net/groupdocs.viewer/filetype/m/
 ---
 ## FileType.M field

@@ -3,7 +3,7 @@ title: GZ
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Сжатый файл Gnu .gz  это сжатые файлы созданные с помощью приложения сжатия gzip. Он может содержать несколько сжатых файлов и обычно используется в системах UNIX и Linux. Узнайте больше об этом формате файла.здесьhttps//wiki.fileformat.com/compression/gz .
 type: docs
-weight: 510
+weight: 550
 url: /ru/net/groupdocs.viewer/filetype/gz/
 ---
 ## FileType.GZ field

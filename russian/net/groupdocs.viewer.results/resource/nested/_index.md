@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/resource/nested/
 Указывает, находится ли ресурс внутри другого ресурса, например, ресурс шрифта, который находится в ресурсе CSS или SVG.
 
 ```csharp
-public bool Nested { get; }
+public bool Nested { get; set; }
 ```
 
 ### Смотрите также

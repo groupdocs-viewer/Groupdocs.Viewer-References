@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Inicializa una nueva instancia de[`Layout`](../layout) clase. |
+| [Layout](layout#constructor)() | Inicializa una nueva instancia de[`Layout`](../layout) clase. |
+| [Layout](layout#constructor_1)(string, float, float) | Inicializa una nueva instancia de[`Layout`](../layout) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | La altura del diseño. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | El nombre del diseño. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | El ancho del diseño. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | La altura del diseño. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | El nombre del diseño. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | El ancho del diseño. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Determina si la corriente[`Layout`](../layout)es igual a lo especificado[`Layout`](../layout) objeto. |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Determina si la corriente[`Layout`](../layout) es igual a lo especificado[`Layout`](../layout) objeto. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | Determina si la corriente[`Layout`](../layout) es el mismo que el objeto especificado. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | Devuelve el código hash para el actual[`Layout`](../layout) objeto. |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | Devuelve una cadena que representa el objeto actual. |

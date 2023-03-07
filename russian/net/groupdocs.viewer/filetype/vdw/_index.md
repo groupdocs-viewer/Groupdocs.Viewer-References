@@ -3,7 +3,7 @@ title: VDW
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Вебдокумент Visio .vdw представляет собой формат файла определяющий потоки и хранилища необходимые для визуализации вебдокумента. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/web/vdw .
 type: docs
-weight: 1570
+weight: 1620
 url: /ru/net/groupdocs.viewer/filetype/vdw/
 ---
 ## FileType.VDW field

@@ -3,7 +3,7 @@ title: FromExtension
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Сопоставляет расширение файла с типом файла.
 type: docs
-weight: 1870
+weight: 1920
 url: /ru/net/groupdocs.viewer/filetype/fromextension/
 ---
 ## FileType.FromExtension method

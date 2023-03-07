@@ -38,6 +38,7 @@ public class PdfViewOptions : ViewOptions
 | [ImageWidth](../../groupdocs.viewer.options/pdfviewoptions/imagewidth) { get; set; } | Ширина выходного изображения в пикселях. (только при преобразовании одного изображения в HTML) |
 | [JpgQuality](../../groupdocs.viewer.options/pdfviewoptions/jpgquality) { get; set; } | Качество изображений JPG, содержащихся в выходном PDF-документе; Допустимые значения от 1 до 100; Значение по умолчанию: 90. |
 | [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | Параметры просмотра файлов данных почтового хранилища. |
+| [Optimize](../../groupdocs.viewer.options/pdfviewoptions/optimize) { get; set; } | Уменьшите размер выходного файла, исключив распространенные шрифты, такие как Times New Roman и Arial, и применив другие методы оптимизации. |
 | [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | Параметры просмотра файлов данных MS Outlook. |
 | [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | Параметры просмотра PDF-документов. |
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | Параметры просмотра документов обработки презентации. |

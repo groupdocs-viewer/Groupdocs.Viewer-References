@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Determina si la corrienteLayergroupdocs.viewer.results/layeres igual a lo especificadoLayergroupdocs.viewer.results/layer objeto.
+description: Determina si la corrienteLayergroupdocs.viewer.results/layer es igual a lo especificadoLayergroupdocs.viewer.results/layer objeto.
 type: docs
 weight: 40
 url: /es/net/groupdocs.viewer.results/layer/equals/
 ---
 ## Equals(Layer) {#equals}
 
-Determina si la corriente[`Layer`](../../layer)es igual a lo especificado[`Layer`](../../layer) objeto.
+Determina si la corriente[`Layer`](../../layer) es igual a lo especificado[`Layer`](../../layer) objeto.
 
 ```csharp
 public bool Equals(Layer other)

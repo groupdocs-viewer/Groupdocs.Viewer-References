@@ -3,7 +3,7 @@ title: BMP
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл растрового изображения .bmp используется для хранения растровых цифровых изображений. Эти изображения не зависят от графического адаптера и также называются форматом файла DIB независимым от устройства. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/bmp .
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/groupdocs.viewer/filetype/bmp/
 ---
 ## FileType.BMP field

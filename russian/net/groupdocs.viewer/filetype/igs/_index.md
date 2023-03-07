@@ -3,7 +3,7 @@ title: IGS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Начальная спецификация обмена графикой IGES .igs
 type: docs
-weight: 610
+weight: 650
 url: /ru/net/groupdocs.viewer/filetype/igs/
 ---
 ## FileType.IGS field

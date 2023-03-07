@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /es/net/groupdocs.viewer.results/textelement-1/textelement/
 ---
-## TextElement&lt;T&gt; constructor
+## TextElement() {#constructor}
+
+Inicializa una nueva instancia de[`TextElement`](../../textelement-1) clase.
+
+```csharp
+public TextElement()
+```
+
+### Ver también
+
+* class [TextElement&lt;T&gt;](../../textelement-1)
+* espacio de nombres [GroupDocs.Viewer.Results](../../textelement-1)
+* asamblea [GroupDocs.Viewer](../../../)
+
+---
+
+## TextElement(T, double, double, double, double) {#constructor_1}
 
 Inicializa una nueva instancia de[`TextElement`](../../textelement-1) clase.
 

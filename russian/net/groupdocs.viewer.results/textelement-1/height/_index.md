@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/textelement-1/height/
 Высота прямоугольника, содержащего элемент (в пикселях).
 
 ```csharp
-public double Height { get; }
+public double Height { get; set; }
 ```
 
 ### Смотрите также

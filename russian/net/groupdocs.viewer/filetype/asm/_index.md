@@ -3,7 +3,7 @@ title: ASM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл исходного кода на языке ассемблера .asm
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/groupdocs.viewer/filetype/asm/
 ---
 ## FileType.ASM field

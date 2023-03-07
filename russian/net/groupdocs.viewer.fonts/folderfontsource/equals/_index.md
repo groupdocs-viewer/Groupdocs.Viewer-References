@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API GroupDocs.Viewer для .NET
-description: Определяет является ли текущийFolderFontSourcegroupdocs.viewer.fonts/folderfontsourceтакое же как указаноFolderFontSourcegroupdocs.viewer.fonts/folderfontsource объект.
+description: Определяет является ли текущийFolderFontSourcegroupdocs.viewer.fonts/folderfontsource такое же как указаноFolderFontSourcegroupdocs.viewer.fonts/folderfontsource объект.
 type: docs
 weight: 40
 url: /ru/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-Определяет, является ли текущий[`FolderFontSource`](../../folderfontsource)такое же, как указано[`FolderFontSource`](../../folderfontsource) объект.
+Определяет, является ли текущий[`FolderFontSource`](../../folderfontsource) такое же, как указано[`FolderFontSource`](../../folderfontsource) объект.
 
 ```csharp
 public bool Equals(FolderFontSource other)

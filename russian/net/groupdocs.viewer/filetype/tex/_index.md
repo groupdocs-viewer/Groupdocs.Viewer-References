@@ -3,7 +3,7 @@ title: TEX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Исходный документ LaTeX .tex  это язык который включает в себя программирование а также функции разметки используемые для набора документов. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
 type: docs
-weight: 1460
+weight: 1510
 url: /ru/net/groupdocs.viewer/filetype/tex/
 ---
 ## FileType.TEX field

@@ -3,7 +3,7 @@ title: PSM1
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Módulo de secuencias de comandos de PowerShell .psm1 un formato de archivo para las secuencias de comandos del módulo de PowerShell. Más información sobre este formato de archivoaquíhttps//fileinfo.com/extension/psm1 .
 type: docs
-weight: 1240
+weight: 1290
 url: /es/net/groupdocs.viewer/filetype/psm1/
 ---
 ## FileType.PSM1 field

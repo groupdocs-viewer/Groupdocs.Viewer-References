@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/lotusnotesviewinfo/notescount/
 Recuento de billetes en almacenamiento
 
 ```csharp
-public int NotesCount { get; }
+public int NotesCount { get; set; }
 ```
 
 ### Ver también

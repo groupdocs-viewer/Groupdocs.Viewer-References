@@ -30,7 +30,7 @@ public class Metered
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее об ограниченном лицензировании: [Часто задаваемые вопросы об ограниченном лицензировании](https://purchase.groupdocs.com/faqs/licensing/metered)
 * Подробнее о лицензировании GroupDocs.Viewer: [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/viewernet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Viewer)

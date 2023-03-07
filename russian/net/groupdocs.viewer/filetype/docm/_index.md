@@ -3,7 +3,7 @@ title: DOCM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Документ Word Open XML с поддержкой макросов .docm  это документ созданный в Microsoft Word 2007 или более поздней версии с возможностью запуска макросов. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/docm .
 type: docs
-weight: 290
+weight: 310
 url: /ru/net/groupdocs.viewer/filetype/docm/
 ---
 ## FileType.DOCM field

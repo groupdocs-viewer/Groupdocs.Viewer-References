@@ -3,7 +3,7 @@ title: ONE
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Документ OneNote .one создается приложением Microsoft OneNote. OneNote позволяет собирать информацию с помощью приложения как если бы вы использовали черновик для создания заметок. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/notetaking/one .
 type: docs
-weight: 960
+weight: 1010
 url: /ru/net/groupdocs.viewer/filetype/one/
 ---
 ## FileType.ONE field

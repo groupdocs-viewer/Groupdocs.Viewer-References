@@ -3,7 +3,7 @@ title: ODS
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Hoja de cálculo OpenDocument .ods significa formato de documento de hoja de cálculo OpenDocument que puede editar el usuario. Los datos se almacenan dentro del archivo ODF en filas y columnas. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
-weight: 940
+weight: 990
 url: /es/net/groupdocs.viewer/filetype/ods/
 ---
 ## FileType.ODS field

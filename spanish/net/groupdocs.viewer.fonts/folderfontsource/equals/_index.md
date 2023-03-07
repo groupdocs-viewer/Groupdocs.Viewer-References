@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Determina si la corrienteFolderFontSourcegroupdocs.viewer.fonts/folderfontsourcees igual a lo especificadoFolderFontSourcegroupdocs.viewer.fonts/folderfontsource objeto.
+description: Determina si la corrienteFolderFontSourcegroupdocs.viewer.fonts/folderfontsource es igual a lo especificadoFolderFontSourcegroupdocs.viewer.fonts/folderfontsource objeto.
 type: docs
 weight: 40
 url: /es/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-Determina si la corriente[`FolderFontSource`](../../folderfontsource)es igual a lo especificado[`FolderFontSource`](../../folderfontsource) objeto.
+Determina si la corriente[`FolderFontSource`](../../folderfontsource) es igual a lo especificado[`FolderFontSource`](../../folderfontsource) objeto.
 
 ```csharp
 public bool Equals(FolderFontSource other)

@@ -3,7 +3,7 @@ title: DOTX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон документа Word Open XML .dotx  это файлы шаблонов созданные Microsoft Word для предварительно отформатированных настроек для создания дополнительных файлов DOCX. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 330
+weight: 350
 url: /ru/net/groupdocs.viewer/filetype/dotx/
 ---
 ## FileType.DOTX field

@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/projectmanagementviewinfo/projectmanagementviewinfo/
 ---
-## ProjectManagementViewInfo constructor
+## ProjectManagementViewInfo() {#constructor}
 
 Инициализирует новый экземпляр[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) класс.
 
 ```csharp
-public ProjectManagementViewInfo(FileType fileType, IList<Page> pages, DateTime startDate, 
+public ProjectManagementViewInfo()
+```
+
+### Смотрите также
+
+* class [ProjectManagementViewInfo](../../projectmanagementviewinfo)
+* пространство имен [GroupDocs.Viewer.Results](../../projectmanagementviewinfo)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## ProjectManagementViewInfo(FileType, List&lt;Page&gt;, DateTime, DateTime) {#constructor_1}
+
+Инициализирует новый экземпляр[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) класс.
+
+```csharp
+public ProjectManagementViewInfo(FileType fileType, List<Page> pages, DateTime startDate, 
     DateTime endDate)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileType | FileType | Тип файла. |
-| pages | IList`1 | Список страниц для просмотра. |
+| pages | List`1 | Список страниц для просмотра. |
 | startDate | DateTime | Дата и время, с которого начался проект. |
 | endDate | DateTime | Дата и время, когда проект должен быть завершен. |
 

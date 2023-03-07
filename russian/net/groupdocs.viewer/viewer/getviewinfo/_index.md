@@ -32,7 +32,7 @@ public ViewInfo GetViewInfo(ViewInfoOptions options)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о документе — типе файла, количестве страниц и других свойствах формата: [Как получить информацию о файле с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 
@@ -73,7 +73,7 @@ public ViewInfo GetViewInfo(ViewInfoOptions options, CancellationToken cancellat
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о документе — типе файла, количестве страниц и других свойствах формата: [Как получить информацию о файле с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 

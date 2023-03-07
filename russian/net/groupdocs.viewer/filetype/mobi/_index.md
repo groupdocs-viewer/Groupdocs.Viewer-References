@@ -3,7 +3,7 @@ title: MOBI
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Электронная книга Mobipocket .mobi  один из наиболее широко используемых форматов файлов электронных книг. Этот формат является усовершенствованием старого формата OEB Open Ebook Format и использовался в качестве собственного формата для Mobipocket Reader. Узнайте больше об этом формате файла.здесьhttps//wiki.fileformat.com/ebook/mobi .
 type: docs
-weight: 840
+weight: 890
 url: /ru/net/groupdocs.viewer/filetype/mobi/
 ---
 ## FileType.MOBI field

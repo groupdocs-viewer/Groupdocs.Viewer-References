@@ -3,7 +3,7 @@ title: DOCM
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Word Open XML MacroEnabled Document .docm es un documento generado por Microsoft Word 2007 o superior con la capacidad de ejecutar macros. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/docm .
 type: docs
-weight: 290
+weight: 310
 url: /es/net/groupdocs.viewer/filetype/docm/
 ---
 ## FileType.DOCM field

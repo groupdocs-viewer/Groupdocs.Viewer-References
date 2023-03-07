@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/character/character/
 ---
-## Character constructor
+## Character() {#constructor}
+
+Инициализирует новый экземпляр[`Character`](../../character) класс.
+
+```csharp
+public Character()
+```
+
+### Смотрите также
+
+* class [Character](../../character)
+* пространство имен [GroupDocs.Viewer.Results](../../character)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## Character(char, double, double, double, double) {#constructor_1}
 
 Инициализирует новый экземпляр[`Character`](../../character) класс.
 

@@ -3,7 +3,7 @@ title: PdfViewInfo
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Представляет информацию о просмотре документа PDF.
 type: docs
-weight: 740
+weight: 750
 url: /ru/net/groupdocs.viewer.results/pdfviewinfo/
 ---
 ## PdfViewInfo class
@@ -18,15 +18,16 @@ public class PdfViewInfo : ViewInfo
 
 | Имя | Описание |
 | --- | --- |
-| [PdfViewInfo](pdfviewinfo)(FileType, IList&lt;Page&gt;, bool) | Инициализирует новый экземпляр[`PdfViewInfo`](../pdfviewinfo) класс. |
+| [PdfViewInfo](pdfviewinfo#constructor)() | Инициализирует новый экземпляр[`PdfViewInfo`](../pdfviewinfo) класс. |
+| [PdfViewInfo](pdfviewinfo#constructor_1)(FileType, List&lt;Page&gt;, bool) | Инициализирует новый экземпляр[`PdfViewInfo`](../pdfviewinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Тип файла. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Список страниц для просмотра. |
-| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; } | Указывает, разрешена ли печать документа. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Тип файла. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Список страниц для просмотра. |
+| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; set; } | Указывает, разрешена ли печать документа. |
 
 ## Методы
 

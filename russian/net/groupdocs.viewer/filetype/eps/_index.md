@@ -3,7 +3,7 @@ title: EPS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл Encapsulated PostScript .eps описывает языковую программу Encapsulated PostScript которая описывает внешний вид отдельной страницы. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/pagedescriptionlanguage/eps .
 type: docs
-weight: 420
+weight: 450
 url: /ru/net/groupdocs.viewer/filetype/eps/
 ---
 ## FileType.EPS field

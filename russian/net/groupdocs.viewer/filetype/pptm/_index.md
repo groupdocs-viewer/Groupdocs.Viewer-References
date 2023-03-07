@@ -3,7 +3,7 @@ title: PPTM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Презентация PowerPoint Open XML с поддержкой макросов  это файлы презентаций с поддержкой макросов созданные с помощью Microsoft PowerPoint 2007 или более поздних версий. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/presentation/pptm .
 type: docs
-weight: 1160
+weight: 1210
 url: /ru/net/groupdocs.viewer/filetype/pptm/
 ---
 ## FileType.PPTM field

@@ -18,15 +18,16 @@ public class LotusNotesViewInfo : ViewInfo
 
 | Имя | Описание |
 | --- | --- |
-| [LotusNotesViewInfo](lotusnotesviewinfo)(FileType, IList&lt;Page&gt;, int) | Инициализирует новый экземпляр[`LotusNotesViewInfo`](../lotusnotesviewinfo) класс. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor)() | Инициализирует новый экземпляр[`LotusNotesViewInfo`](../lotusnotesviewinfo) класс. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | Инициализирует новый экземпляр[`LotusNotesViewInfo`](../lotusnotesviewinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Тип файла. |
-| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; } | Количество заметок в хранилище |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Список страниц для просмотра. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Тип файла. |
+| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; set; } | Количество заметок в хранилище |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Список страниц для просмотра. |
 
 ## Методы
 

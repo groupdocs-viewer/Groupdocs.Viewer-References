@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### Примечания
 
-Этот параметр применяется только к чертежам САПР, поддерживающим макеты.[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , а также[`DWF`](../../../groupdocs.viewer/filetype/dwf) а такжеDWFX ; По умолчанию визуализируется только Модель.
+Этот параметр применяется только к чертежам САПР, поддерживающим макеты.[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , и[`DWF`](../../../groupdocs.viewer/filetype/dwf) а также[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ; По умолчанию визуализируется только Модель.
 
 ### Смотрите также
 

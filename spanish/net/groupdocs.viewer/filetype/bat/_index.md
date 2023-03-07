@@ -3,7 +3,7 @@ title: BAT
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo por lotes de DOS .bat
 type: docs
-weight: 60
+weight: 70
 url: /es/net/groupdocs.viewer/filetype/bat/
 ---
 ## FileType.BAT field

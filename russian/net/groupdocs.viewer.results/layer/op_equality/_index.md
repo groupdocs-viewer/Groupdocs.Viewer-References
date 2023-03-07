@@ -16,7 +16,7 @@ public static bool operator ==(Layer left, Layer right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | Layer | Оставил[`Layer`](../../layer) объект. |
+| left | Layer | Левый[`Layer`](../../layer) объект. |
 | right | Layer | Верно[`Layer`](../../layer) объект. |
 
 ### Возвращаемое значение

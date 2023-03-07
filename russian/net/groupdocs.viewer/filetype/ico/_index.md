@@ -3,7 +3,7 @@ title: ICO
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл значка .ico  это типы файлов изображений используемые в качестве значка для представления приложения в Microsoft Windows. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 590
+weight: 630
 url: /ru/net/groupdocs.viewer/filetype/ico/
 ---
 ## FileType.ICO field

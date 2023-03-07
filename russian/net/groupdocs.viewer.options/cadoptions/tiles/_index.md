@@ -16,7 +16,7 @@ public IList<Tile> Tiles { get; set; }
 
 ### Примечания
 
-Эта опция поддерживается только для[`DWG`](../../../groupdocs.viewer/filetype/dwg) а также[`DWT`](../../../groupdocs.viewer/filetype/dwt) типы файлов. [`RenderLayouts`](../renderlayouts) а также[`LayoutName`](../layoutname) параметры игнорируются при рендеринге тайлами.
+Эта опция поддерживается только для[`DWG`](../../../groupdocs.viewer/filetype/dwg) и[`DWT`](../../../groupdocs.viewer/filetype/dwt) типы файлов. [`RenderLayouts`](../renderlayouts) и[`LayoutName`](../layoutname) параметры игнорируются при рендеринге тайлами.
 
 ### Смотрите также
 

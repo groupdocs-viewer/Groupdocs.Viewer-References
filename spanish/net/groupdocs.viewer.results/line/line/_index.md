@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /es/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
 Inicializa una nueva instancia de[`Line`](../../line) clase.
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### Ver también
+
+* class [Line](../../line)
+* espacio de nombres [GroupDocs.Viewer.Results](../../line)
+* asamblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+Inicializa una nueva instancia de[`Line`](../../line) clase.
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | Parámetro | Escribe | Descripción |
@@ -21,7 +37,7 @@ public Line(string line, double x, double y, double width, double height, IList<
 | y | Double | La coordenada Y del punto más alto a la izquierda en el diseño de página donde comienza el rectángulo que contiene la línea. |
 | width | Double | El ancho del rectángulo que contiene la línea (en píxeles). |
 | height | Double | La altura del rectángulo que contiene la línea (en píxeles). |
-| words | IList`1 | Las palabras contenidas por la línea. |
+| words | List`1 | Las palabras contenidas por la línea. |
 
 ### Excepciones
 

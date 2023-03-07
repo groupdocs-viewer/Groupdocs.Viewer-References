@@ -3,7 +3,7 @@ title: TXT
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo de texto sin formato .txt representa un documento de texto que contiene texto sin formato en forma de líneas. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 1520
+weight: 1570
 url: /es/net/groupdocs.viewer/filetype/txt/
 ---
 ## FileType.TXT field

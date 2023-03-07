@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/textelement-1/x/
 La coordenada X del punto más alto a la izquierda en el diseño de la página donde comienza el rectángulo que contiene el elemento.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### Ver también

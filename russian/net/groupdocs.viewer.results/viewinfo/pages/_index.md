@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/viewinfo/pages/
 Список страниц для просмотра.
 
 ```csharp
-public IList<Page> Pages { get; }
+public List<Page> Pages { get; set; }
 ```
 
 ### Смотрите также

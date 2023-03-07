@@ -3,7 +3,7 @@ title: POT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон PowerPoint .pot представляет собой файлы шаблонов Microsoft PowerPoint созданные версиями PowerPoint 972003. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/presentation/pot .
 type: docs
-weight: 1090
+weight: 1140
 url: /ru/net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field

@@ -3,7 +3,7 @@ title: PS1
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл сценария PowerShell .ps1  формат файла для файлов командлетов Windows PowerShell. Подробнее об этом формате файлаздесьhttps//fileinfo.com/extension/ps1 .
 type: docs
-weight: 1200
+weight: 1250
 url: /ru/net/groupdocs.viewer/filetype/ps1/
 ---
 ## FileType.PS1 field

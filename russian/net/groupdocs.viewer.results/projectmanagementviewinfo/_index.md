@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Представляет информацию о представлении для документа MS Project.
 type: docs
-weight: 750
+weight: 760
 url: /ru/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Инициализирует новый экземпляр[`ProjectManagementViewInfo`](../projectmanagementviewinfo) класс. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Инициализирует новый экземпляр[`ProjectManagementViewInfo`](../projectmanagementviewinfo) класс. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Инициализирует новый экземпляр[`ProjectManagementViewInfo`](../projectmanagementviewinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | Дата и время завершения проекта. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Тип файла. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Список страниц для просмотра. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | Дата и время начала проекта. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | Дата и время завершения проекта. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Тип файла. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Список страниц для просмотра. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | Дата и время начала проекта. |
 
 ## Методы
 

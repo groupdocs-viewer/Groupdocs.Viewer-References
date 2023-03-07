@@ -3,7 +3,7 @@ title: FromMediaType
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Сопоставляет тип носителя файла с типом файла например application/pdf будет сопоставлен сPDFgroupdocs.viewer/filetype/pdf .
 type: docs
-weight: 1890
+weight: 1940
 url: /ru/net/groupdocs.viewer/filetype/frommediatype/
 ---
 ## FileType.FromMediaType method

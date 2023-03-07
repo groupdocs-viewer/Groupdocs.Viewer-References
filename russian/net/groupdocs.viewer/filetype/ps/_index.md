@@ -3,7 +3,7 @@ title: PS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл PostScript .ps
 type: docs
-weight: 1190
+weight: 1240
 url: /ru/net/groupdocs.viewer/filetype/ps/
 ---
 ## FileType.PS field

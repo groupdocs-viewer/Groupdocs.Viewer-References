@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/layer/layer/
 ---
-## Layer(string) {#constructor}
+## Layer() {#constructor}
+
+Инициализирует новый экземпляр[`Layer`](../../layer) класс.
+
+```csharp
+public Layer()
+```
+
+### Смотрите также
+
+* class [Layer](../../layer)
+* пространство имен [GroupDocs.Viewer.Results](../../layer)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## Layer(string) {#constructor_1}
 
 Инициализирует новый экземпляр[`Layer`](../../layer) класс.
 
@@ -32,7 +48,7 @@ public Layer(string name)
 
 ---
 
-## Layer(string, bool) {#constructor_1}
+## Layer(string, bool) {#constructor_2}
 
 Инициализирует новый экземпляр[`Layer`](../../layer) класс.
 

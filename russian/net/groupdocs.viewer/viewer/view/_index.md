@@ -29,7 +29,7 @@ public void View(ViewOptions options)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о различных параметрах просмотра в этом руководстве: [Как настроить вывод просмотра документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -66,7 +66,7 @@ public void View(ViewOptions options, CancellationToken cancellationToken)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о различных параметрах просмотра в этом руководстве: [Как настроить вывод просмотра документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -98,14 +98,14 @@ public void View(ViewOptions options, params int[] pageNumbers)
 | --- | --- |
 | ArgumentNullException | Брошен, когда*options* нулевой. |
 | ArgumentNullException | Брошен, когда*pageNumbers* нулевой. |
-| ArgumentException | Брошен, когда*pageNumbers* пустой. |
+| ArgumentException | Брошен, когда*pageNumbers* пусто. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Генерируется, когда для открытия документа требуется пароль. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Генерируется, когда указанный пароль неверен. |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Брошен, когда вложение не может быть найдено. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о различных параметрах просмотра в этом руководстве: [Как настроить вывод просмотра документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -138,14 +138,14 @@ public void View(ViewOptions options, CancellationToken cancellationToken, param
 | --- | --- |
 | ArgumentNullException | Брошен, когда*options* нулевой. |
 | ArgumentNullException | Брошен, когда*pageNumbers* нулевой. |
-| ArgumentException | Брошен, когда*pageNumbers* пустой. |
+| ArgumentException | Брошен, когда*pageNumbers* пусто. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Генерируется, когда для открытия документа требуется пароль. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Генерируется, когда указанный пароль неверен. |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Брошен, когда вложение не может быть найдено. |
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о различных параметрах просмотра в этом руководстве: [Как настроить вывод просмотра документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 

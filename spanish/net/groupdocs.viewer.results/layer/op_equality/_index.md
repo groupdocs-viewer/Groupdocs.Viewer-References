@@ -17,7 +17,7 @@ public static bool operator ==(Layer left, Layer right)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | left | Layer | Izquierda[`Layer`](../../layer) objeto. |
-| right | Layer | Derecha[`Layer`](../../layer) objeto. |
+| right | Layer | Bien[`Layer`](../../layer) objeto. |
 
 ### Valor_devuelto
 

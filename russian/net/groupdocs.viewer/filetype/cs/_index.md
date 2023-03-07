@@ -3,7 +3,7 @@ title: CS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл исходного кода C .cs  это файл исходного кода для языка программирования C. Представлен Microsoft для использования с .NET Framework. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/programming/cs .
 type: docs
-weight: 180
+weight: 200
 url: /ru/net/groupdocs.viewer/filetype/cs/
 ---
 ## FileType.CS field
