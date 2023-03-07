@@ -1,0 +1,146 @@
+---
+title: ForEmbeddedResources
+second_title: GroupDocs.Viewer untuk Referensi .NET API
+description: Menginisialisasi instance baruHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions kelas untuk merender ke dalam HTML dengan sumber daya tersemat.
+type: docs
+weight: 10
+url: /id/net/groupdocs.viewer.options/htmlviewoptions/forembeddedresources/
+---
+## ForEmbeddedResources(CreatePageStream) {#forembeddedresources_1}
+
+Menginisialisasi instance baru[`HtmlViewOptions`](../../htmlviewoptions) kelas untuk merender ke dalam HTML dengan sumber daya tersemat.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| createPageStream | CreatePageStream | Metode yang menginisiasi aliran yang digunakan untuk menulis data halaman keluaran. |
+
+### Nilai Pengembalian
+
+Contoh baru dari[`HtmlViewOptions`](../../htmlviewoptions) kelas untuk merender ke dalam HTML dengan sumber daya tersemat.
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException | Dilempar kapan*createPageStream* adalah nol. |
+
+### Lihat juga
+
+* delegate [CreatePageStream](../../../groupdocs.viewer.interfaces/createpagestream)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* ruang nama [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* perakitan [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(CreatePageStream, ReleasePageStream) {#forembeddedresources_2}
+
+Menginisialisasi instance baru[`HtmlViewOptions`](../../htmlviewoptions) kelas untuk merender ke dalam HTML dengan sumber daya tersemat.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream, 
+    ReleasePageStream releasePageStream)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| createPageStream | CreatePageStream | Metode yang menginisiasi aliran yang digunakan untuk menulis data halaman keluaran. |
+| releasePageStream | ReleasePageStream | Metode yang melepaskan aliran yang dibuat oleh metode yang ditetapkan untuk mendelegasikan yang diteruskan ke*createPageStream* parameter. |
+
+### Nilai Pengembalian
+
+Contoh baru dari[`HtmlViewOptions`](../../htmlviewoptions) kelas untuk merender ke dalam HTML dengan sumber daya tersemat.
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException | Dilempar kapan*createPageStream* adalah nol. |
+| ArgumentNullException | Dilempar kapan*releasePageStream* adalah nol. |
+
+### Lihat juga
+
+* delegate [CreatePageStream](../../../groupdocs.viewer.interfaces/createpagestream)
+* delegate [ReleasePageStream](../../../groupdocs.viewer.interfaces/releasepagestream)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* ruang nama [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* perakitan [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(IPageStreamFactory) {#forembeddedresources_3}
+
+Menginisialisasi instance baru[`HtmlViewOptions`](../../htmlviewoptions) kelas untuk merender ke dalam HTML dengan sumber daya tersemat.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStreamFactory)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| pageStreamFactory | IPageStreamFactory | Pabrik yang mengimplementasikan metode untuk membuat dan merilis aliran halaman keluaran. |
+
+### Nilai Pengembalian
+
+Contoh baru dari[`HtmlViewOptions`](../../htmlviewoptions) kelas untuk merender ke dalam HTML dengan sumber daya tersemat.
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException | Dilempar kapan*pageStreamFactory* adalah nol. |
+
+### Lihat juga
+
+* interface [IPageStreamFactory](../../../groupdocs.viewer.interfaces/ipagestreamfactory)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* ruang nama [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* perakitan [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources() {#forembeddedresources}
+
+Menginisialisasi instance baru[`HtmlViewOptions`](../../htmlviewoptions) kelas.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources()
+```
+
+### Lihat juga
+
+* class [HtmlViewOptions](../../htmlviewoptions)
+* ruang nama [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* perakitan [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(string) {#forembeddedresources_4}
+
+Menginisialisasi instance baru[`HtmlViewOptions`](../../htmlviewoptions) kelas.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)
+```
+
+| Parameter | Jenis | Keterangan |
+| --- | --- | --- |
+| filePathFormat | String | Format jalur file misalnya 'page_{0}.html'. |
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentException | Dilempar kapan*filePathFormat* adalah null atau kosong. |
+
+### Lihat juga
+
+* class [HtmlViewOptions](../../htmlviewoptions)
+* ruang nama [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* perakitan [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
