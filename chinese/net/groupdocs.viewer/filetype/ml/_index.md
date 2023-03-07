@@ -3,7 +3,7 @@ title: ML
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 机器学习源代码文件 .ml
 type: docs
-weight: 820
+weight: 870
 url: /zh/net/groupdocs.viewer/filetype/ml/
 ---
 ## FileType.ML field

@@ -3,7 +3,7 @@ title: BMP
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف الصورة النقطية .bmp يُستخدم لتخزين الصور الرقمية للصور النقطية. هذه الصور مستقلة عن محول الرسومات وتسمى أيضًا تنسيق ملف الصورة النقطية المستقلة عن الجهاز DIB . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/bmp .
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/groupdocs.viewer/filetype/bmp/
 ---
 ## FileType.BMP field

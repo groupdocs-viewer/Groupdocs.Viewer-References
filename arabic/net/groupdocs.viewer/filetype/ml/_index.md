@@ -3,7 +3,7 @@ title: ML
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف التعليمات البرمجية المصدر ML .ml
 type: docs
-weight: 820
+weight: 870
 url: /ar/net/groupdocs.viewer/filetype/ml/
 ---
 ## FileType.ML field

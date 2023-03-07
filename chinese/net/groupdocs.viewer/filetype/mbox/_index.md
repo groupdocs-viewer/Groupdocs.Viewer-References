@@ -3,7 +3,7 @@ title: MBOX
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 电子邮件邮箱文件 .mbox 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/mbox
 type: docs
-weight: 780
+weight: 830
 url: /zh/net/groupdocs.viewer/filetype/mbox/
 ---
 ## FileType.MBOX field

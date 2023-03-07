@@ -1,14 +1,14 @@
 ---
 title: ZIP
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 压缩文件 .zip 表示可以保存一个或多个文件或目录的档案 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/compression/zip
+description: Zipped File .zip 表示可以保存一个或多个文件或目录的档案 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/compression/zip
 type: docs
-weight: 1860
+weight: 1910
 url: /zh/net/groupdocs.viewer/filetype/zip/
 ---
 ## FileType.ZIP field
 
-压缩文件 (.zip) 表示可以保存一个或多个文件或目录的档案。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/compression/zip)
+Zipped File (.zip) 表示可以保存一个或多个文件或目录的档案。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/compression/zip)
 
 ```csharp
 public static readonly FileType ZIP;

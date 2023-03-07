@@ -3,7 +3,7 @@ title: RAR
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Roshal ARchive .rar 是使用 RAR WINRAR 压缩方法生成的压缩文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/compression/rar
 type: docs
-weight: 1270
+weight: 1320
 url: /zh/net/groupdocs.viewer/filetype/rar/
 ---
 ## FileType.RAR field

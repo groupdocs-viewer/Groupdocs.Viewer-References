@@ -1,14 +1,14 @@
 ---
 title: FolderFontSource
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例FolderFontSourcegroupdocs.viewer.fonts/folderfontsource类.
+description: 初始化新实例FolderFontSourcegroupdocs.viewer.fonts/folderfontsource类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.fonts/folderfontsource/folderfontsource/
 ---
 ## FolderFontSource constructor
 
-初始化的新实例[`FolderFontSource`](../../folderfontsource)类.
+初始化新实例[`FolderFontSource`](../../folderfontsource)类.
 
 ```csharp
 public FolderFontSource(string folderPath, SearchOption searchOption)
@@ -23,8 +23,8 @@ public FolderFontSource(string folderPath, SearchOption searchOption)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*folderPath*一片空白。 |
-| DirectoryNotFoundException | 指定路径时抛出*folderPath*无法定位。 |
+| ArgumentNullException | 抛出时*folderPath*一片空白。 |
+| DirectoryNotFoundException | 在中指定路径时抛出*folderPath*无法定位。 |
 
 ### 也可以看看
 

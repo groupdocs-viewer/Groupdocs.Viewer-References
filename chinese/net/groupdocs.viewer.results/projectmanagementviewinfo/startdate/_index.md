@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/projectmanagementviewinfo/startdate/
 项目开始的日期时间。
 
 ```csharp
-public DateTime StartDate { get; }
+public DateTime StartDate { get; set; }
 ```
 
 ### 也可以看看

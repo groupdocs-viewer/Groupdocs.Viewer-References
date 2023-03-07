@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/layout/width/
 布局的宽度。
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### 也可以看看

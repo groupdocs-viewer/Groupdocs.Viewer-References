@@ -1,14 +1,14 @@
 ---
 title: BusinessFax
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是商务传真
+description: 默认字段文本为商务传真
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.options/field/businessfax/
 ---
 ## Field.BusinessFax field
 
-默认字段文本是“商务传真”。
+默认字段文本为“商务传真”。
 
 ```csharp
 public static readonly Field BusinessFax;

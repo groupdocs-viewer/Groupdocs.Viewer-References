@@ -3,7 +3,7 @@ title: DOCM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: مستند Word Open XML MacroEnabled .docm هو مستند Microsoft Word 2007 أو إصدار أحدث مع إمكانية تشغيل وحدات الماكرو . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/docm .
 type: docs
-weight: 290
+weight: 310
 url: /ar/net/groupdocs.viewer/filetype/docm/
 ---
 ## FileType.DOCM field

@@ -3,7 +3,7 @@ title: POTX
 second_title: GroupDocs.Viewer for .NET API 参考
 description: PowerPoint Open XML 演示文稿模板 .potx 表示使用 Microsoft PowerPoint 2007 及更高版本创建的 Microsoft PowerPoint 模板演示文稿 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/potx
 type: docs
-weight: 1110
+weight: 1160
 url: /zh/net/groupdocs.viewer/filetype/potx/
 ---
 ## FileType.POTX field

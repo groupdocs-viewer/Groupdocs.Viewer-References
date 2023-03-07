@@ -3,7 +3,7 @@ title: CHM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Microsoft Compiled HTML Help File .chm هو تنسيق معروف لمستندات HELP وثائق بعض التطبيقات . تعرف على المزيد حول تنسيق الملف هذاهناhttps//docs.fileformat.com/web/chm/ .
 type: docs
-weight: 140
+weight: 150
 url: /ar/net/groupdocs.viewer/filetype/chm/
 ---
 ## FileType.CHM field

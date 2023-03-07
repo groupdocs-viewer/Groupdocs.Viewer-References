@@ -3,7 +3,7 @@ title: TGA
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يستخدم Truevision TGA محول Truevision Advanced Raster  TARGA لتخزين الصور الرقمية النقطية التي طورتها TRUEVISION. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/tga .
 type: docs
-weight: 1470
+weight: 1520
 url: /ar/net/groupdocs.viewer/filetype/tga/
 ---
 ## FileType.TGA field

@@ -39,7 +39,7 @@ public class HtmlViewOptions : ViewOptions
 | [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | تمكين عرض الصفحات المخفية. |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | تمكين عرض الملاحظات . |
 | [RenderResponsive](../../groupdocs.viewer.options/htmlviewoptions/renderresponsive) { get; set; } | تمكين العرض سريع الاستجابة ؛ عرض صفحات الويب المتجاوبة جيدًا على أجهزة ذات حجم شاشة مختلف . |
-| [RenderToSinglePage](../../groupdocs.viewer.options/htmlviewoptions/rendertosinglepage) { get; set; } | تمكين عرض محتوى HTML لصفحة واحدة |
+| [RenderToSinglePage](../../groupdocs.viewer.options/htmlviewoptions/rendertosinglepage) { get; set; } | يتيح عرض مستند بأكمله إلى ملف HTML واحد. |
 | [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | خيارات عرض ملفات جدول البيانات. |
 | [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | تقسيم الملفات النصية إلى خيارات الصفحات. |
 | [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | خيارات عرض مستندات معالجة ملفات Visio. |

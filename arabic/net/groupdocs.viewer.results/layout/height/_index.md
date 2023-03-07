@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/layout/height/
 ارتفاع التخطيط .
 
 ```csharp
-public float Height { get; }
+public float Height { get; set; }
 ```
 
 ### أنظر أيضا

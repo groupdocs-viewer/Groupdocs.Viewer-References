@@ -1,14 +1,14 @@
 ---
 title: BZ2
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Bzip2 压缩文件 .bz2 是使用 BZIP2 开源压缩方法生成的压缩文件主要在 UNIX 或 Linux 系统上 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/compression/bz2
+description: Bzip2 Compressed File .bz2 是使用BZIP2开源压缩方式生成的压缩文件多用于UNIX或Linux系统 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/compression/bz2
 type: docs
-weight: 80
+weight: 90
 url: /zh/net/groupdocs.viewer/filetype/bz2/
 ---
 ## FileType.BZ2 field
 
-Bzip2 压缩文件 (.bz2) 是使用 BZIP2 开源压缩方法生成的压缩文件，主要在 UNIX 或 Linux 系统上。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/compression/bz2)
+Bzip2 Compressed File (.bz2) 是使用BZIP2开源压缩方式生成的压缩文件，多用于UNIX或Linux系统。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/compression/bz2)
 
 ```csharp
 public static readonly FileType BZ2;

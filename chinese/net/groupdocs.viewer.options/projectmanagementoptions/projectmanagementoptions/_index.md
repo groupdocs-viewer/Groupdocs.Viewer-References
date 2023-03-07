@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 创建新的实例ProjectManagementOptionsgroupdocs.viewer.options/projectmanagementoptions类.
+description: 创建新实例ProjectManagementOptionsgroupdocs.viewer.options/projectmanagementoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/projectmanagementoptions/projectmanagementoptions/
 ---
 ## ProjectManagementOptions constructor
 
-创建新的实例[`ProjectManagementOptions`](../../projectmanagementoptions)类.
+创建新实例[`ProjectManagementOptions`](../../projectmanagementoptions)类.
 
 ```csharp
 public ProjectManagementOptions()

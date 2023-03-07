@@ -1,14 +1,14 @@
 ---
 title: ReleaseResourceStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 释放由创建的流CreateResourceStreamgroupdocs.viewer.interfaces/iresourcestreamfactory/createresourcestream方法.
+description: 释放创建的流CreateResourceStreamgroupdocs.viewer.interfaces/iresourcestreamfactory/createresourcestream方法.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.interfaces/iresourcestreamfactory/releaseresourcestream/
 ---
 ## IResourceStreamFactory.ReleaseResourceStream method
 
-释放由创建的流[`CreateResourceStream`](../createresourcestream)方法.
+释放创建的流[`CreateResourceStream`](../createresourcestream)方法.
 
 ```csharp
 public void ReleaseResourceStream(int pageNumber, Resource resource, Stream resourceStream)
@@ -16,7 +16,7 @@ public void ReleaseResourceStream(int pageNumber, Resource resource, Stream reso
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页数。 |
+| pageNumber | Int32 | 页码。 |
 | resource | Resource | HTML 资源，例如字体、样式、图像或图形。 |
 | resourceStream | Stream | 流创建者[`CreateResourceStream`](../createresourcestream)方法。 |
 

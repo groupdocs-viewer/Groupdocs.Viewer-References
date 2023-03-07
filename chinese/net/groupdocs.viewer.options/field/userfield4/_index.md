@@ -1,14 +1,14 @@
 ---
 title: UserField4
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是用户字段 4
+description: 默认字段文本为用户字段 4
 type: docs
 weight: 480
 url: /zh/net/groupdocs.viewer.options/field/userfield4/
 ---
 ## Field.UserField4 field
 
-默认字段文本是“用户字段 4”。
+默认字段文本为“用户字段 4”。
 
 ```csharp
 public static readonly Field UserField4;

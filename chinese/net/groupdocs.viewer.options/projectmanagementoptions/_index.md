@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 提供用于渲染项目管理文件的选项
+description: 提供渲染项目管理文件的选项
 type: docs
 weight: 470
 url: /zh/net/groupdocs.viewer.options/projectmanagementoptions/
 ---
 ## ProjectManagementOptions class
 
-提供用于渲染项目管理文件的选项。
+提供渲染项目管理文件的选项。
 
 ```csharp
 public class ProjectManagementOptions
@@ -18,7 +18,7 @@ public class ProjectManagementOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ProjectManagementOptions](projectmanagementoptions)() | 创建新的实例[`ProjectManagementOptions`](../projectmanagementoptions)类. |
+| [ProjectManagementOptions](projectmanagementoptions)() | 创建新实例[`ProjectManagementOptions`](../projectmanagementoptions)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public class ProjectManagementOptions
 | [EndDate](../../groupdocs.viewer.options/projectmanagementoptions/enddate) { get; set; } | 要包含在输出中的甘特图视图的结束日期。 |
 | [PageSize](../../groupdocs.viewer.options/projectmanagementoptions/pagesize) { get; set; } | 输出页面大小。 |
 | [StartDate](../../groupdocs.viewer.options/projectmanagementoptions/startdate) { get; set; } | 要包含在输出中的甘特图视图的开始日期。 |
-| [TimeUnit](../../groupdocs.viewer.options/projectmanagementoptions/timeunit) { get; set; } | 时间单位。 |
+| [TimeUnit](../../groupdocs.viewer.options/projectmanagementoptions/timeunit) { get; set; } | 时间单位. |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: CSS
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ورقة الأنماط المتتالية .css
 type: docs
-weight: 190
+weight: 210
 url: /ar/net/groupdocs.viewer/filetype/css/
 ---
 ## FileType.CSS field

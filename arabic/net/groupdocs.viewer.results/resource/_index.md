@@ -3,7 +3,7 @@ title: Resource
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل مصدر HTML مثل الخط أو النمط أو الصورة أو الرسومات.
 type: docs
-weight: 760
+weight: 770
 url: /ar/net/groupdocs.viewer.results/resource/
 ---
 ## Resource class
@@ -18,14 +18,15 @@ public class Resource
 
 | اسم | وصف |
 | --- | --- |
-| [Resource](resource)(string, bool) | إنشاء مثيل جديد من[`Resource`](../resource) فئة . |
+| [Resource](resource#constructor)() | إنشاء مثيل جديد من[`Resource`](../resource) فئة . |
+| [Resource](resource#constructor_1)(string, bool) | إنشاء مثيل جديد من[`Resource`](../resource) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/resource/filename) { get; } | اسم ملف المورد. |
-| [Nested](../../groupdocs.viewer.results/resource/nested) { get; } | يشير إلى ما إذا كان المورد موجودًا داخل مورد آخر ، على سبيل المثال ، مورد الخط الموجود في مورد CSS أو SVG. |
+| [FileName](../../groupdocs.viewer.results/resource/filename) { get; set; } | اسم ملف المورد. |
+| [Nested](../../groupdocs.viewer.results/resource/nested) { get; set; } | يشير إلى ما إذا كان المورد موجودًا داخل مورد آخر ، على سبيل المثال ، مورد الخط الموجود في مورد CSS أو SVG. |
 
 ## طُرق
 

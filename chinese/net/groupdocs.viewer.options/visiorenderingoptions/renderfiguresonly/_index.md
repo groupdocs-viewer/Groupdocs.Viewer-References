@@ -1,14 +1,14 @@
 ---
 title: RenderFiguresOnly
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 仅渲染 Visio 图形而不是图表
+description: 仅呈现 Visio 图形而不是图表
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/visiorenderingoptions/renderfiguresonly/
 ---
 ## VisioRenderingOptions.RenderFiguresOnly property
 
-仅渲染 Visio 图形，而不是图表。
+仅呈现 Visio 图形，而不是图表。
 
 ```csharp
 public bool RenderFiguresOnly { get; set; }

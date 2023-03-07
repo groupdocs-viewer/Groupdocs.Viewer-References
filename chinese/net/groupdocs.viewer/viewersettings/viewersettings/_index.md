@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例ViewerSettingsgroupdocs.viewer/viewersettings类.
+description: 初始化新实例ViewerSettingsgroupdocs.viewer/viewersettings类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer/viewersettings/viewersettings/
 ---
 ## ViewerSettings(ICache, ILogger) {#constructor_1}
 
-初始化的新实例[`ViewerSettings`](../../viewersettings)类.
+初始化新实例[`ViewerSettings`](../../viewersettings)类.
 
 ```csharp
 public ViewerSettings(ICache cache, ILogger logger)
@@ -23,7 +23,7 @@ public ViewerSettings(ICache cache, ILogger logger)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*cache*一片空白。 |
+| ArgumentNullException | 抛出时*cache*一片空白。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public ViewerSettings(ICache cache, ILogger logger)
 
 ## ViewerSettings(ICache) {#constructor}
 
-初始化的新实例[`ViewerSettings`](../../viewersettings)类.
+初始化新实例[`ViewerSettings`](../../viewersettings)类.
 
 ```csharp
 public ViewerSettings(ICache cache)
@@ -51,7 +51,7 @@ public ViewerSettings(ICache cache)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*cache*一片空白。 |
+| ArgumentNullException | 抛出时*cache*一片空白。 |
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public ViewerSettings(ICache cache)
 
 ## ViewerSettings(ILogger) {#constructor_2}
 
-初始化的新实例[`ViewerSettings`](../../viewersettings)类.
+初始化新实例[`ViewerSettings`](../../viewersettings)类.
 
 ```csharp
 public ViewerSettings(ILogger logger)
@@ -78,7 +78,7 @@ public ViewerSettings(ILogger logger)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*logger*一片空白。 |
+| ArgumentNullException | 抛出时*logger*一片空白。 |
 
 ### 也可以看看
 

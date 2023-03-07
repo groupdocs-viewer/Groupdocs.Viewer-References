@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/resource/filename/
 资源文件名。
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### 也可以看看

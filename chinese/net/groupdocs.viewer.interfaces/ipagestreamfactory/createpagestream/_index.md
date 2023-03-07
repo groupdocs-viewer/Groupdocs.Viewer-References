@@ -16,11 +16,11 @@ public Stream CreatePageStream(int pageNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页数。 |
+| pageNumber | Int32 | 页码。 |
 
 ### 返回值
 
-Stream 用于写入输出页面数据。
+用于写入输出页面数据的流。
 
 ### 也可以看看
 

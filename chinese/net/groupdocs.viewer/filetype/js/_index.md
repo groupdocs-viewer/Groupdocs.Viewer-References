@@ -3,7 +3,7 @@ title: JS
 second_title: GroupDocs.Viewer for .NET API 参考
 description: JavaScript 文件 .js
 type: docs
-weight: 720
+weight: 770
 url: /zh/net/groupdocs.viewer/filetype/js/
 ---
 ## FileType.JS field

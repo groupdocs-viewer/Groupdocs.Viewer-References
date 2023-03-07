@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 提取文件扩展名并将其映射到文件类型
 type: docs
-weight: 1880
+weight: 1930
 url: /zh/net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method
@@ -20,7 +20,7 @@ public static FileType FromFilePath(string filePath)
 
 ### 返回值
 
-支持文件类型时返回，否则返回默认值[`Unknown`](../unknown)文件类型。
+当支持文件类型时返回它，否则返回默认值[`Unknown`](../unknown)文件类型。
 
 ### 也可以看看
 

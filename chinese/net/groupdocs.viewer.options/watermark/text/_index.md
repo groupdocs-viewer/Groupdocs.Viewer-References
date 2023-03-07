@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 水印文字
+description: 水印文字.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.options/watermark/text/
 ---
 ## Watermark.Text property
 
-水印文字。
+水印文字.
 
 ```csharp
 public string Text { get; }

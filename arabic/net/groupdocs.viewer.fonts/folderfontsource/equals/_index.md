@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer لمرجع .NET API
-description: يحدد ما إذا كان التيارFolderFontSourcegroupdocs.viewer.fonts/folderfontsourceهو نفسه كما هو محددFolderFontSourcegroupdocs.viewer.fonts/folderfontsource الكائن .
+description: يحدد ما إذا كان التيارFolderFontSourcegroupdocs.viewer.fonts/folderfontsource هو نفسه كما هو محددFolderFontSourcegroupdocs.viewer.fonts/folderfontsource الكائن .
 type: docs
 weight: 40
 url: /ar/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-يحدد ما إذا كان التيار[`FolderFontSource`](../../folderfontsource)هو نفسه كما هو محدد[`FolderFontSource`](../../folderfontsource) الكائن .
+يحدد ما إذا كان التيار[`FolderFontSource`](../../folderfontsource) هو نفسه كما هو محدد[`FolderFontSource`](../../folderfontsource) الكائن .
 
 ```csharp
 public bool Equals(FolderFontSource other)
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-إذا المعلمة[`FolderFontSource`](../../folderfontsource) وهو نفس التيار[`FolderFontSource`](../../folderfontsource) هدف؛ خلاف ذلك،
+لو المعلمة[`FolderFontSource`](../../folderfontsource) وهو نفس التيار[`FolderFontSource`](../../folderfontsource) هدف؛ خلاف ذلك،
 
 ```csharp
 true

@@ -3,7 +3,7 @@ title: FromStream
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يكتشف نوع الملف من خلال قراءة توقيع الملف.
 type: docs
-weight: 1900
+weight: 1950
 url: /ar/net/groupdocs.viewer/filetype/fromstream/
 ---
 ## FromStream(Stream) {#fromstream}

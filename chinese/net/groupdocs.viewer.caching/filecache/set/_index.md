@@ -1,14 +1,14 @@
 ---
 title: Set
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 将数据序列化到本地磁盘
+description: 序列化数据到本地磁盘
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.caching/filecache/set/
 ---
 ## FileCache.Set method
 
-将数据序列化到本地磁盘。
+序列化数据到本地磁盘。
 
 ```csharp
 public void Set(string key, object value)

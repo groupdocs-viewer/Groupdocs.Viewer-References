@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 提供申请方法计量的https//purchase.groupdocs.com/faqs/licensing/metered许可证.
+description: 提供应用方法计量的https//purchase.groupdocs.com/faqs/licensing/metered许可证.
 type: docs
 weight: 260
 url: /zh/net/groupdocs.viewer/metered/
 ---
 ## Metered class
 
-提供申请方法[计量的](https://purchase.groupdocs.com/faqs/licensing/metered)许可证.
+提供应用方法[计量的](https://purchase.groupdocs.com/faqs/licensing/metered)许可证.
 
 ```csharp
 public class Metered
@@ -24,13 +24,13 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../groupdocs.viewer/metered/setmeteredkey)(string, string) | 使用计量键激活产品。 |
-| static [GetConsumptionCredit](../../groupdocs.viewer/metered/getconsumptioncredit)() | 检索消耗的积分计数。 |
+| [SetMeteredKey](../../groupdocs.viewer/metered/setmeteredkey)(string, string) | 使用计量密钥激活产品。 |
+| static [GetConsumptionCredit](../../groupdocs.viewer/metered/getconsumptioncredit)() | 检索消耗的积分数。 |
 | static [GetConsumptionQuantity](../../groupdocs.viewer/metered/getconsumptionquantity)() | 检索已处理的 MB 数量。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关计量许可的更多信息： [计量许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing/metered)
 * 有关 GroupDocs.Viewer 许可的更多信息： [评估限制和许可](https://docs.groupdocs.com/display/viewernet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Viewer)

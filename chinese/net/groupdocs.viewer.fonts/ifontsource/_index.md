@@ -1,14 +1,14 @@
 ---
 title: IFontSource
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 字体源的标记界面
+description: 字体源的标记接口
 type: docs
 weight: 100
 url: /zh/net/groupdocs.viewer.fonts/ifontsource/
 ---
 ## IFontSource interface
 
-字体源的标记界面。
+字体源的标记接口。
 
 ```csharp
 public interface IFontSource

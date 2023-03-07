@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/textelement-1/height/
 ارتفاع المستطيل الذي يحتوي على العنصر (بالبكسل) .
 
 ```csharp
-public double Height { get; }
+public double Height { get; set; }
 ```
 
 ### أنظر أيضا

@@ -3,7 +3,7 @@ title: SH
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Bash Shell 脚本 .sh
 type: docs
-weight: 1360
+weight: 1410
 url: /zh/net/groupdocs.viewer/filetype/sh/
 ---
 ## FileType.SH field

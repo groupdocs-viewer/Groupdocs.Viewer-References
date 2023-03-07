@@ -22,7 +22,7 @@ public enum Permissions
 | AllowAll | `0` | 允许打印、修改和数据提取。 |
 | DenyPrinting | `1` | 拒绝打印 |
 | DenyModification | `2` | 拒绝修改内容、填写表格、添加或修改注释。 |
-| DenyDataExtraction | `4` | 拒绝提取文本和图形。 |
+| DenyDataExtraction | `4` | 拒绝文本和图形提取。 |
 | DenyAll | `7` | 拒绝打印、修改和数据提取。 |
 
 ### 也可以看看

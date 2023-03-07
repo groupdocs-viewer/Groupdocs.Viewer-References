@@ -18,14 +18,14 @@ public class Security
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Security](security)() | 初始化的新实例[`Security`](../security)类. |
+| [Security](security)() | 初始化新实例[`Security`](../security)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DocumentOpenPassword](../../groupdocs.viewer.options/security/documentopenpassword) { get; set; } | 打开 PDF 文档所需的密码。 |
-| [Permissions](../../groupdocs.viewer.options/security/permissions) { get; set; } | PDF文档的打印、修改、数据提取等权限。 |
+| [DocumentOpenPassword](../../groupdocs.viewer.options/security/documentopenpassword) { get; set; } | 打开PDF文档所需的密码。 |
+| [Permissions](../../groupdocs.viewer.options/security/permissions) { get; set; } | PDF文档打印、修改、数据提取等权限。 |
 | [PermissionsPassword](../../groupdocs.viewer.options/security/permissionspassword) { get; set; } | 更改权限设置所需的密码； 使用权限密码可以限制打印、修改和数据提取。 |
 
 ### 也可以看看

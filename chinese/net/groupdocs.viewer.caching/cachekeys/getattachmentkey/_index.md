@@ -1,14 +1,14 @@
 ---
 title: GetAttachmentKey
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回代表附件文件的缓存条目的唯一标识符
+description: 返回表示附件文件的缓存条目的唯一标识符
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.caching/cachekeys/getattachmentkey/
 ---
 ## CacheKeys.GetAttachmentKey method
 
-返回代表附件文件的缓存条目的唯一标识符。
+返回表示附件文件的缓存条目的唯一标识符。
 
 ```csharp
 public static string GetAttachmentKey(string attachmentId)
@@ -26,7 +26,7 @@ public static string GetAttachmentKey(string attachmentId)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*attachmentId*为空或为空。 |
+| ArgumentException | 抛出时*attachmentId*为 null 或空。 |
 
 ### 也可以看看
 

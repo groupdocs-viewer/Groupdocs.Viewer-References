@@ -1,14 +1,14 @@
 ---
 title: LayoutName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 要渲染的特定布局的名称布局名称区分大小写
+description: 要呈现的特定布局的名称布局名称区分大小写
 type: docs
 weight: 80
 url: /zh/net/groupdocs.viewer.options/cadoptions/layoutname/
 ---
 ## CadOptions.LayoutName property
 
-要渲染的特定布局的名称。布局名称区分大小写。
+要呈现的特定布局的名称。布局名称区分大小写。
 
 ```csharp
 public string LayoutName { get; set; }
@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### 评论
 
-此选项仅适用于支持布局的 CAD 图纸[`DXF`](../../../groupdocs.viewer/filetype/dxf),[`DWG`](../../../groupdocs.viewer/filetype/dwg),[`DWT`](../../../groupdocs.viewer/filetype/dwt) ， 和[`DWF`](../../../groupdocs.viewer/filetype/dwf)并且DWFX; 默认情况下只渲染模型。
+此选项仅适用于支持布局的 CAD 图纸[`DXF`](../../../groupdocs.viewer/filetype/dxf),[`DWG`](../../../groupdocs.viewer/filetype/dwg),[`DWT`](../../../groupdocs.viewer/filetype/dwt) ， 和[`DWF`](../../../groupdocs.viewer/filetype/dwf)并且[`DWFX`](../../../groupdocs.viewer/filetype/dwfx); 默认情况下只渲染模型。
 
 ### 也可以看看
 

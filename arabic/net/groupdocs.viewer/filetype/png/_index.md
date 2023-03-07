@@ -3,7 +3,7 @@ title: PNG
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Portable Network Graphic .png هو نوع من تنسيق ملف الصورة النقطية الذي يستخدم ضغط بدون فقدان. تم إنشاء تنسيق الملف هذا كبديل لتنسيق تبادل الرسومات GIF وليس له قيود على حقوق النشر . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/png .
 type: docs
-weight: 1080
+weight: 1130
 url: /ar/net/groupdocs.viewer/filetype/png/
 ---
 ## FileType.PNG field

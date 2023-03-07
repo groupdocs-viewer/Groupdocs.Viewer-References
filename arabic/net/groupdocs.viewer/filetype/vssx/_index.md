@@ -3,7 +3,7 @@ title: VSSX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف استنسل Visio .vssx يرسم قوالب استنسل تم إنشاؤها باستخدام Microsoft Visio 2013 وما بعده. يمكن فتح تنسيق ملف VSSX باستخدام Visio 2013 وما فوق. تُعرف ملفات Visio بتمثيل مجموعة متنوعة من عناصر الرسم مثل مجموعة الأشكال والموصلات والمخططات الانسيابية وتخطيط الشبكة ومخططات UML و تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vssx .
 type: docs
-weight: 1650
+weight: 1700
 url: /ar/net/groupdocs.viewer/filetype/vssx/
 ---
 ## FileType.VSSX field

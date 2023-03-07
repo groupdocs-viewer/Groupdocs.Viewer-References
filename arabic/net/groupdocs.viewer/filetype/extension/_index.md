@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: لاحقة اسم الملف بما في ذلك النقطة . مثل .doc .
 type: docs
-weight: 1910
+weight: 1960
 url: /ar/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer/filetype/extension/
 لاحقة اسم الملف (بما في ذلك النقطة ".") مثل ".doc" .
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### أنظر أيضا

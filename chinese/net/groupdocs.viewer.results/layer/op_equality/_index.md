@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 判断两个Layergroupdocs.viewer.results/layer对象是相同的
+description: 判断是否两个Layergroupdocs.viewer.results/layer对象是相同的
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.results/layer/op_equality/
 ---
 ## Layer Equality operator
 
-判断两个[`Layer`](../../layer)对象是相同的。
+判断是否两个[`Layer`](../../layer)对象是相同的。
 
 ```csharp
 public static bool operator ==(Layer left, Layer right)
@@ -16,7 +16,7 @@ public static bool operator ==(Layer left, Layer right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Layer | 剩下[`Layer`](../../layer)目的。 |
+| left | Layer | 左边[`Layer`](../../layer)目的。 |
 | right | Layer | 正确的[`Layer`](../../layer)目的。 |
 
 ### 返回值

@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/lotusnotesviewinfo/lotusnotesviewinfo/
 ---
-## LotusNotesViewInfo constructor
+## LotusNotesViewInfo() {#constructor}
 
 تهيئة مثيل جديد لـ[`LotusNotesViewInfo`](../../lotusnotesviewinfo) فئة .
 
 ```csharp
-public LotusNotesViewInfo(FileType fileType, IList<Page> pages, int notesCount)
+public LotusNotesViewInfo()
+```
+
+### أنظر أيضا
+
+* class [LotusNotesViewInfo](../../lotusnotesviewinfo)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../lotusnotesviewinfo)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## LotusNotesViewInfo(FileType, List&lt;Page&gt;, int) {#constructor_1}
+
+تهيئة مثيل جديد لـ[`LotusNotesViewInfo`](../../lotusnotesviewinfo) فئة .
+
+```csharp
+public LotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fileType | FileType | نوع الملف. |
-| pages | IList`1 | قائمة الصفحات لعرضها. |
+| pages | List`1 | قائمة الصفحات لعرضها. |
 | notesCount | Int32 | عدد الملاحظات المضمن في ملف تخزين قاعدة بيانات Lotus. |
 
 ### استثناءات

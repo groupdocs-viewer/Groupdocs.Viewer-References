@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/character/character/
 ---
-## Character constructor
+## Character() {#constructor}
+
+تهيئة مثيل جديد لـ[`Character`](../../character) فئة .
+
+```csharp
+public Character()
+```
+
+### أنظر أيضا
+
+* class [Character](../../character)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../character)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Character(char, double, double, double, double) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`Character`](../../character) فئة .
 

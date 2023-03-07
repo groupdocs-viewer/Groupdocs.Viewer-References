@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: إرجاع سلسلة تمثل الكائن الحالي.
 type: docs
-weight: 1950
+weight: 2000
 url: /ar/net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method

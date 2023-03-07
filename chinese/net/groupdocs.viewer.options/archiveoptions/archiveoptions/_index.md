@@ -1,14 +1,14 @@
 ---
 title: ArchiveOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例ArchiveOptionsgroupdocs.viewer.options/archiveoptions类.
+description: 初始化新实例ArchiveOptionsgroupdocs.viewer.options/archiveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/archiveoptions/archiveoptions/
 ---
 ## ArchiveOptions constructor
 
-初始化的新实例[`ArchiveOptions`](../../archiveoptions)类.
+初始化新实例[`ArchiveOptions`](../../archiveoptions)类.
 
 ```csharp
 public ArchiveOptions()

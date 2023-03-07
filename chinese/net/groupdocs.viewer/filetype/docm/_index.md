@@ -3,7 +3,7 @@ title: DOCM
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Word Open XML MacroEnabled Document .docm 是 Microsoft Word 2007 或更高版本生成的文档能够运行宏 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/docm
 type: docs
-weight: 290
+weight: 310
 url: /zh/net/groupdocs.viewer/filetype/docm/
 ---
 ## FileType.DOCM field

@@ -1,14 +1,14 @@
 ---
 title: J2K
 second_title: GroupDocs.Viewer for .NET API 参考
-description: JPEG 2000 码流 .j2k 是使用小波压缩而不是 DCT 压缩压缩的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/j2k
+description: JPEG 2000 代码流 .j2k 是使用小波压缩而非 DCT 压缩进行压缩的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/j2k
 type: docs
-weight: 630
+weight: 670
 url: /zh/net/groupdocs.viewer/filetype/j2k/
 ---
 ## FileType.J2K field
 
-JPEG 2000 码流 (.j2k) 是使用小波压缩而不是 DCT 压缩压缩的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/j2k)
+JPEG 2000 代码流 (.j2k) 是使用小波压缩而非 DCT 压缩进行压缩的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/j2k)
 
 ```csharp
 public static readonly FileType J2K;

@@ -3,7 +3,7 @@ title: OutlookViewInfo
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 表示 Outlook 数据文件的视图信息
 type: docs
-weight: 720
+weight: 730
 url: /zh/net/groupdocs.viewer.results/outlookviewinfo/
 ---
 ## OutlookViewInfo class
@@ -18,21 +18,22 @@ public class OutlookViewInfo : ViewInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OutlookViewInfo](outlookviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | 初始化的新实例[`OutlookViewInfo`](../outlookviewinfo)类. |
+| [OutlookViewInfo](outlookviewinfo#constructor)() | 初始化新实例[`OutlookViewInfo`](../outlookviewinfo)类. |
+| [OutlookViewInfo](outlookviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | 初始化新实例[`OutlookViewInfo`](../outlookviewinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | 文件的类型。 |
-| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; } | Outlook 数据文件包含的文件夹列表。 |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | 要查看的页面列表。 |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | 文件的类型。 |
+| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; set; } | Outlook 数据文件包含的文件夹列表。 |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | 要查看的页面列表。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LotusNotesViewInfo
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示 Lotus notes 数据库 storage 的视图信息
+description: 表示Lotus notes数据库存储的视图信息
 type: docs
 weight: 710
 url: /zh/net/groupdocs.viewer.results/lotusnotesviewinfo/
 ---
 ## LotusNotesViewInfo class
 
-表示 Lotus notes 数据库 storage 的视图信息
+表示Lotus notes数据库存储的视图信息
 
 ```csharp
 public class LotusNotesViewInfo : ViewInfo
@@ -18,21 +18,22 @@ public class LotusNotesViewInfo : ViewInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LotusNotesViewInfo](lotusnotesviewinfo)(FileType, IList&lt;Page&gt;, int) | 初始化的新实例[`LotusNotesViewInfo`](../lotusnotesviewinfo)类. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor)() | 初始化新实例[`LotusNotesViewInfo`](../lotusnotesviewinfo)类. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | 初始化新实例[`LotusNotesViewInfo`](../lotusnotesviewinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | 文件的类型。 |
-| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; } | 存储中的笔记计数 |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | 要查看的页面列表。 |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | 文件的类型。 |
+| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; set; } | 存储中的笔记数 |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | 要查看的页面列表。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

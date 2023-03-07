@@ -1,14 +1,30 @@
 ---
 title: TextElement
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例TextElementgroupdocs.viewer.results/textelement1类.
+description: 初始化新实例TextElementgroupdocs.viewer.results/textelement1类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/textelement-1/textelement/
 ---
-## TextElement&lt;T&gt; constructor
+## TextElement() {#constructor}
 
-初始化的新实例[`TextElement`](../../textelement-1)类.
+初始化新实例[`TextElement`](../../textelement-1)类.
+
+```csharp
+public TextElement()
+```
+
+### 也可以看看
+
+* class [TextElement&lt;T&gt;](../../textelement-1)
+* 命名空间 [GroupDocs.Viewer.Results](../../textelement-1)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## TextElement(T, double, double, double, double) {#constructor_1}
+
+初始化新实例[`TextElement`](../../textelement-1)类.
 
 ```csharp
 public TextElement(T value, double x, double y, double width, double height)
@@ -17,8 +33,8 @@ public TextElement(T value, double x, double y, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | T | 文本元素值。 |
-| x | Double | 页面布局上左最高点的 X 坐标，其中包含元素的矩形开始。 |
-| y | Double | 页面布局上左最高点的 Y 坐标，其中包含元素的矩形开始。 |
+| x | Double | 包含元素的矩形开始的页面布局左最高点的 X 坐标。 |
+| y | Double | 包含元素的矩形开始的页面布局左最高点的 Y 坐标。 |
 | width | Double | 包含元素的矩形的宽度（以像素为单位）。 |
 | height | Double | 包含元素的矩形的高度（以像素为单位）。 |
 
@@ -26,9 +42,9 @@ public TextElement(T value, double x, double y, double width, double height)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*value*一片空白。 |
-| ArgumentException | 何时抛出*width*小于或等于零。 |
-| ArgumentException | 何时抛出*height*小于或等于零。 |
+| ArgumentNullException | 抛出时*value*一片空白。 |
+| ArgumentException | 抛出时*width*小于或等于零。 |
+| ArgumentException | 抛出时*height*小于或等于零。 |
 
 ### 也可以看看
 

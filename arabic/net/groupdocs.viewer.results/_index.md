@@ -21,6 +21,7 @@ url: /ar/net/groupdocs.viewer.results/
 | [Layout](./layout) | يمثل التخطيط المضمن في رسم CAD. |
 | [Line](./line) | يمثل مستطيلًا متوضعًا نسبيًا يحتوي على سطر واحد. |
 | [LotusNotesViewInfo](./lotusnotesviewinfo) | يمثل عرض المعلومات لتخزين قاعدة بيانات Lotus Notes |
+| [MboxViewInfo](./mboxviewinfo) | يمثل عرض المعلومات لتخزين ملفات Mbox |
 | [OutlookViewInfo](./outlookviewinfo) | يمثل عرض المعلومات لملف بيانات Outlook. |
 | [Page](./page) | يمثل صفحة واحدة يمكن مشاهدتها. |
 | [PdfViewInfo](./pdfviewinfo) | يمثل عرض المعلومات لمستند PDF . |

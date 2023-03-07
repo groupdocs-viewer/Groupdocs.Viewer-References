@@ -3,7 +3,7 @@ title: POTX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: PowerPoint Open XML Presentation Template .potx يمثل العروض التقديمية لقالب Microsoft PowerPoint التي تم إنشاؤها باستخدام Microsoft PowerPoint 2007 والإصدارات الأحدث. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/presentation/potx .
 type: docs
-weight: 1110
+weight: 1160
 url: /ar/net/groupdocs.viewer/filetype/potx/
 ---
 ## FileType.POTX field

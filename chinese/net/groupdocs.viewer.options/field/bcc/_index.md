@@ -1,14 +1,14 @@
 ---
 title: Bcc
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本为密件抄送
+description: 默认字段文本为Bcc
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/field/bcc/
 ---
 ## Field.Bcc field
 
-默认字段文本为“密件抄送”。
+默认字段文本为“Bcc”。
 
 ```csharp
 public static readonly Field Bcc;

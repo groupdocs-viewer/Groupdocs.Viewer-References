@@ -3,7 +3,7 @@ title: PSM1
 second_title: GroupDocs.Viewer for .NET API 参考
 description: PowerShell 脚本模块 .psm1 PowerShell 模块脚本的文件格式 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/psm1
 type: docs
-weight: 1240
+weight: 1290
 url: /zh/net/groupdocs.viewer/filetype/psm1/
 ---
 ## FileType.PSM1 field

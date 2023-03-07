@@ -18,13 +18,13 @@ public enum Position
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Diagonal | `0` | 对角线位置。 |
-| TopLeft | `1` | 左上角位置。 |
+| Diagonal | `0` | 对角线位置. |
+| TopLeft | `1` | 左上位置. |
 | TopCenter | `2` | 顶部中心位置。 |
-| TopRight | `3` | 右上角位置。 |
-| BottomLeft | `4` | 左下位置。 |
-| BottomCenter | `5` | 底部中心位置。 |
-| BottomRight | `6` | 右下位置。 |
+| TopRight | `3` | 右上位置. |
+| BottomLeft | `4` | 左下位置. |
+| BottomCenter | `5` | 底部中心位置. |
+| BottomRight | `6` | 右下位置. |
 
 ### 也可以看看
 

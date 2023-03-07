@@ -3,7 +3,7 @@ title: Excel2003XML
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل Excel 2003 XML SpreadsheetML تنسيق ملف Excel الثنائي. يمكن إنشاء مثل هذه الملفات بواسطة Microsoft Excel بالإضافة إلى برامج جداول البيانات المماثلة الأخرى مثل OpenOffice Calc أو Apple Numbers. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
-weight: 450
+weight: 480
 url: /ar/net/groupdocs.viewer/filetype/excel2003xml/
 ---
 ## FileType.Excel2003XML field

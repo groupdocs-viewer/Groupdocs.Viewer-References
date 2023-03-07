@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 返回当前的哈希码FileTypegroupdocs.viewer/filetype对象.
 type: docs
-weight: 1940
+weight: 1990
 url: /zh/net/groupdocs.viewer/filetype/gethashcode/
 ---
 ## FileType.GetHashCode method

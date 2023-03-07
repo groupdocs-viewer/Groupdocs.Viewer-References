@@ -1,14 +1,14 @@
 ---
 title: WEBP
 second_title: GroupDocs.Viewer for .NET API 参考
-description: WebP 图像 .webp 是一种基于无损和有损压缩的现代光栅 Web 图像文件格式它提供相同的图像质量同时大大减小了图像尺寸 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/webp
+description: WebP 图像 .webp 是一种基于无损和有损压缩的现代光栅网络图像文件格式它提供相同的图像质量同时显着减小图像尺寸 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/webp
 type: docs
-weight: 1710
+weight: 1760
 url: /zh/net/groupdocs.viewer/filetype/webp/
 ---
 ## FileType.WEBP field
 
-WebP 图像 (.webp) 是一种基于无损和有损压缩的现代光栅 Web 图像文件格式。它提供相同的图像质量，同时大大减小了图像尺寸。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/webp)
+WebP 图像 (.webp) 是一种基于无损和有损压缩的现代光栅网络图像文件格式。它提供相同的图像质量，同时显着减小图像尺寸。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/webp)
 
 ```csharp
 public static readonly FileType WEBP;

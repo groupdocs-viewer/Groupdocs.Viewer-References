@@ -18,7 +18,7 @@ public class FileLogger : ILogger
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileLogger](filelogger)(string) | 创建记录器到文件。 |
+| [FileLogger](filelogger)(string) | 创建记录器到文件. |
 
 ## 方法
 

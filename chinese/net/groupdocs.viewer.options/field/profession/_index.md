@@ -1,14 +1,14 @@
 ---
 title: Profession
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是职业
+description: 默认字段文本为专业
 type: docs
 weight: 350
 url: /zh/net/groupdocs.viewer.options/field/profession/
 ---
 ## Field.Profession field
 
-默认字段文本是“职业”。
+默认字段文本为“专业”。
 
 ```csharp
 public static readonly Field Profession;

@@ -16,15 +16,15 @@ public void Error(string message, Exception exception)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 错误消息。 |
+| message | String | 错误信息。 |
 | exception | Exception | 例外。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*message*一片空白。 |
-| ArgumentNullException | 何时抛出*exception*一片空白。 |
+| ArgumentNullException | 抛出时*message*一片空白。 |
+| ArgumentNullException | 抛出时*exception*一片空白。 |
 
 ### 也可以看看
 

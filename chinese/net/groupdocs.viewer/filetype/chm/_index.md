@@ -3,7 +3,7 @@ title: CHM
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Microsoft 编译的 HTML 帮助文件 .chm 是一种众所周知的 HELP某些应用程序的文档文档格式 了解有关此文件格式的更多信息这里https//docs.fileformat.com/web/chm/
 type: docs
-weight: 140
+weight: 150
 url: /zh/net/groupdocs.viewer/filetype/chm/
 ---
 ## FileType.CHM field

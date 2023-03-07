@@ -1,14 +1,14 @@
 ---
 title: FirstName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是名字
+description: 默认字段文本为名字.
 type: docs
 weight: 190
 url: /zh/net/groupdocs.viewer.options/field/firstname/
 ---
 ## Field.FirstName field
 
-默认字段文本是“名字”。
+默认字段文本为“名字”.
 
 ```csharp
 public static readonly Field FirstName;

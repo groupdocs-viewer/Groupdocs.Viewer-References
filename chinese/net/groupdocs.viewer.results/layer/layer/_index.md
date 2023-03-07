@@ -1,28 +1,18 @@
 ---
 title: Layer
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Layergroupdocs.viewer.results/layer类.
+description: 初始化新实例Layergroupdocs.viewer.results/layer类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/layer/layer/
 ---
-## Layer(string) {#constructor}
+## Layer() {#constructor}
 
-初始化的新实例[`Layer`](../../layer)类.
+初始化新实例[`Layer`](../../layer)类.
 
 ```csharp
-public Layer(string name)
+public Layer()
 ```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| name | String | 图层的名称。 |
-
-### 例外
-
-| 例外 | （健康）状况 |
-| --- | --- |
-| ArgumentException | 何时抛出*name*为空或为空。 |
 
 ### 也可以看看
 
@@ -32,9 +22,35 @@ public Layer(string name)
 
 ---
 
-## Layer(string, bool) {#constructor_1}
+## Layer(string) {#constructor_1}
 
-初始化的新实例[`Layer`](../../layer)类.
+初始化新实例[`Layer`](../../layer)类.
+
+```csharp
+public Layer(string name)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 层的名称。 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentException | 抛出时*name*为 null 或空。 |
+
+### 也可以看看
+
+* class [Layer](../../layer)
+* 命名空间 [GroupDocs.Viewer.Results](../../layer)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Layer(string, bool) {#constructor_2}
+
+初始化新实例[`Layer`](../../layer)类.
 
 ```csharp
 public Layer(string name, bool visible)
@@ -42,14 +58,14 @@ public Layer(string name, bool visible)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 图层的名称。 |
+| name | String | 层的名称。 |
 | visible | Boolean | 图层可见性指示器。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*name*为空或为空。 |
+| ArgumentException | 抛出时*name*为 null 或空。 |
 
 ### 也可以看看
 

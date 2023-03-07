@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 外部资源例如图形加载超时 默认值为 30 秒 包含外部资源的文字处理文档支持此选项
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property

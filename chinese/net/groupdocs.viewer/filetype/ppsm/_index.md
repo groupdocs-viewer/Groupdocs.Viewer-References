@@ -1,14 +1,14 @@
 ---
 title: PPSM
 second_title: GroupDocs.Viewer for .NET API 参考
-description: PowerPoint Open XML 启用宏的幻灯片 .ppsm 表示使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppsm
+description: PowerPoint Open XML 启用宏的幻灯片 .ppsm 表示使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片放映文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppsm
 type: docs
-weight: 1130
+weight: 1180
 url: /zh/net/groupdocs.viewer/filetype/ppsm/
 ---
 ## FileType.PPSM field
 
-PowerPoint Open XML 启用宏的幻灯片 (.ppsm) 表示使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppsm)
+PowerPoint Open XML 启用宏的幻灯片 (.ppsm) 表示使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的幻灯片放映文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppsm)
 
 ```csharp
 public static readonly FileType PPSM;

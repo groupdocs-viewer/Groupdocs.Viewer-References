@@ -16,7 +16,7 @@ public static ViewInfoOptions ForHtmlView()
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) صف دراسي.
+مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) فصل.
 
 ### أنظر أيضا
 
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForHtmlView(bool renderSinglePage)
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) صف دراسي.
+مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) فصل.
 
 ### أنظر أيضا
 

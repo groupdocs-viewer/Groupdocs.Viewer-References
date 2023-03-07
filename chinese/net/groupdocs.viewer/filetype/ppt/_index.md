@@ -1,14 +1,14 @@
 ---
 title: PPT
 second_title: GroupDocs.Viewer for .NET API 参考
-description: PowerPoint 演示文稿 .ppt 表示 PowerPoint 文件该文件由一组幻灯片组成用于显示为幻灯片它指定 Microsoft PowerPoint 972003 使用的二进制文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppt
+description: PowerPoint 演示文稿 .ppt 代表 PowerPoint 文件该文件由一组幻灯片组成用于显示为 SlideShow它指定 Microsoft PowerPoint 972003 使用的二进制文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/ppt
 type: docs
-weight: 1150
+weight: 1200
 url: /zh/net/groupdocs.viewer/filetype/ppt/
 ---
 ## FileType.PPT field
 
-PowerPoint 演示文稿 (.ppt) 表示 PowerPoint 文件，该文件由一组幻灯片组成，用于显示为幻灯片。它指定 Microsoft PowerPoint 97-2003 使用的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppt)
+PowerPoint 演示文稿 (.ppt) 代表 PowerPoint 文件，该文件由一组幻灯片组成，用于显示为 SlideShow。它指定 Microsoft PowerPoint 97-2003 使用的二进制文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/ppt)
 
 ```csharp
 public static readonly FileType PPT;

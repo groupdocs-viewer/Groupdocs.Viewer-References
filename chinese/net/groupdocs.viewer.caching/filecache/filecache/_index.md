@@ -1,14 +1,14 @@
 ---
 title: FileCache
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 创建新的实例FileCachegroupdocs.viewer.caching/filecache类.
+description: 创建新实例FileCachegroupdocs.viewer.caching/filecache类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.caching/filecache/filecache/
 ---
 ## FileCache(string) {#constructor}
 
-创建新的实例[`FileCache`](../../filecache)类.
+创建新实例[`FileCache`](../../filecache)类.
 
 ```csharp
 public FileCache(string cachePath)
@@ -22,7 +22,7 @@ public FileCache(string cachePath)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*cachePath*一片空白。 |
+| ArgumentNullException | 抛出时*cachePath*一片空白。 |
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public FileCache(string cachePath)
 
 ## FileCache(string, string) {#constructor_1}
 
-创建新的实例[`FileCache`](../../filecache)类.
+创建新实例[`FileCache`](../../filecache)类.
 
 ```csharp
 public FileCache(string cachePath, string cacheSubFolder)
@@ -49,8 +49,8 @@ public FileCache(string cachePath, string cacheSubFolder)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*cachePath*一片空白。 |
-| ArgumentNullException | 何时抛出*cacheSubFolder*一片空白。 |
+| ArgumentNullException | 抛出时*cachePath*一片空白。 |
+| ArgumentNullException | 抛出时*cacheSubFolder*一片空白。 |
 
 ### 也可以看看
 

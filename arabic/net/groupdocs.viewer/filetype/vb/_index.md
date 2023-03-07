@@ -3,7 +3,7 @@ title: VB
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف عنصر مشروع Visual Basic .vb هو ملف تعليمات برمجية مصدر تم إنشاؤه بلغة Visual Basic تم إنشاؤه بواسطة Microsoft لتطوير تطبيقات .NET . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/programming/vb .
 type: docs
-weight: 1550
+weight: 1600
 url: /ar/net/groupdocs.viewer/filetype/vb/
 ---
 ## FileType.VB field

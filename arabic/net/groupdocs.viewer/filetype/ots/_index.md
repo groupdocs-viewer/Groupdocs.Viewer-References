@@ -3,7 +3,7 @@ title: OTS
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب جدول بيانات OpenDocument .ots
 type: docs
-weight: 1000
+weight: 1050
 url: /ar/net/groupdocs.viewer/filetype/ots/
 ---
 ## FileType.OTS field

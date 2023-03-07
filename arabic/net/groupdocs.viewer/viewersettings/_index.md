@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: GroupDocs.Viewer لمرجع .NET API
-description: يحدد إعدادات التخصيصViewer./viewerالسلوك .
+description: يحدد إعدادات التخصيصViewer./viewer السلوك .
 type: docs
-weight: 810
+weight: 820
 url: /ar/net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class
 
-يحدد إعدادات التخصيص[`Viewer`](../viewer)السلوك .
+يحدد إعدادات التخصيص[`Viewer`](../viewer) السلوك .
 
 ```csharp
 public class ViewerSettings

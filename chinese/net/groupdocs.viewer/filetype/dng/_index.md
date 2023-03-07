@@ -1,14 +1,14 @@
 ---
 title: DNG
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 数字负片规范 .dng 是一种用于存储原始文件的数码相机图像格式它是由 Adobe 于 2004 年 9 月开发的它基本上是为数码摄影而开发的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/dng
+description: Digital Negative Specification .dng 是一种用于存储原始文件的数码相机图像格式它由Adobe于2004年9月开发它基本上是为数码摄影而开发的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/dng
 type: docs
-weight: 270
+weight: 290
 url: /zh/net/groupdocs.viewer/filetype/dng/
 ---
 ## FileType.DNG field
 
-数字负片规范 (.dng) 是一种用于存储原始文件的数码相机图像格式。它是由 Adobe 于 2004 年 9 月开发的。它基本上是为数码摄影而开发的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/dng)
+Digital Negative Specification (.dng) 是一种用于存储原始文件的数码相机图像格式。它由Adobe于2004年9月开发。它基本上是为数码摄影而开发的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/dng)
 
 ```csharp
 public static readonly FileType DNG;

@@ -3,7 +3,7 @@ title: ODT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: OpenDocument Text Document .odt هو نوع من المستندات التي تم إنشاؤها باستخدام تطبيقات معالجة الكلمات التي تعتمد على تنسيق OpenDocument Text File. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/odt .
 type: docs
-weight: 950
+weight: 1000
 url: /ar/net/groupdocs.viewer/filetype/odt/
 ---
 ## FileType.ODT field

@@ -1,14 +1,14 @@
 ---
 title: EmailOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 电子邮件消息视图选项
+description: 电子邮件消息查看选项
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/emailoptions/
 ---
 ## BaseViewOptions.EmailOptions property
 
-电子邮件消息视图选项。
+电子邮件消息查看选项。
 
 ```csharp
 public EmailOptions EmailOptions { get; set; }

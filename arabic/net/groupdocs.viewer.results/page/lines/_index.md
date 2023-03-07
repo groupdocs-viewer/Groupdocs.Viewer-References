@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/page/lines/
 الأسطر التي تحتويها الصفحة عند عرضها بتنسيق JPG أو PNG مع تمكين استخراج النص.
 
 ```csharp
-public IList<Line> Lines { get; }
+public List<Line> Lines { get; set; }
 ```
 
 ### أنظر أيضا

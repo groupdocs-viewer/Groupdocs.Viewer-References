@@ -1,17 +1,17 @@
 ---
 title: Extension
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 文件名后缀包括句点. 例如.doc.
+description: 文件名后缀包括句点.例如.doc.
 type: docs
-weight: 1910
+weight: 1960
 url: /zh/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
 
-文件名后缀（包括句点“.”） 例如“.doc”.
+文件名后缀（包括句点“.”）例如“.doc”.
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### 也可以看看

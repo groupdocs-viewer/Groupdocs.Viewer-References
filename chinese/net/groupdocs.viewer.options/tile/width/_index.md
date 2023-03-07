@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 平铺的宽度以像素为单位
+description: 瓦片的宽度以像素为单位
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.options/tile/width/
 ---
 ## Tile.Width property
 
-平铺的宽度（以像素为单位）。
+瓦片的宽度（以像素为单位）。
 
 ```csharp
 public int Width { get; }

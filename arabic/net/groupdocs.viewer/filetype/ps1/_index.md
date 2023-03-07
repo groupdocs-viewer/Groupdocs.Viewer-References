@@ -3,7 +3,7 @@ title: PS1
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف البرنامج النصي PowerShell .ps1 تنسيق ملف لملفات Windows PowerShell Cmdlet . تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/ps1 .
 type: docs
-weight: 1200
+weight: 1250
 url: /ar/net/groupdocs.viewer/filetype/ps1/
 ---
 ## FileType.PS1 field

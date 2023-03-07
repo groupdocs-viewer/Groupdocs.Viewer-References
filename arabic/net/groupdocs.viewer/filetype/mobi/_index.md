@@ -3,7 +3,7 @@ title: MOBI
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Mobipocket eBook .mobi هو أحد أكثر تنسيقات ملفات الكتب الإلكترونية استخدامًا. يعد التنسيق تحسينًا للتنسيق القديم OEB تنسيق Open Ebook وقد تم استخدامه كتنسيق خاص لـ Mobipocket Reader . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/ebook/mobi .
 type: docs
-weight: 840
+weight: 890
 url: /ar/net/groupdocs.viewer/filetype/mobi/
 ---
 ## FileType.MOBI field

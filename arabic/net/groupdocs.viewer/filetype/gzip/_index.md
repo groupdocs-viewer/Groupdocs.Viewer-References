@@ -3,7 +3,7 @@ title: GZIP
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: تم تقديم ملف مضغوط Gnu .gzip كأداة مساعدة مجانية لاستبدال برنامج الضغط المستخدم في أنظمة Unix. يمكن فتح هذه الملفات واستخراجها باستخدام العديد من التطبيقات مثل WinZip المتوفر على كل من Windows و MacOS. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/compression/gz .
 type: docs
-weight: 520
+weight: 560
 url: /ar/net/groupdocs.viewer/filetype/gzip/
 ---
 ## FileType.GZIP field

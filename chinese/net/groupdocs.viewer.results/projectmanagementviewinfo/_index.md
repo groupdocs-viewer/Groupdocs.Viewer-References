@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 表示 MS Project 文档的视图信息
 type: docs
-weight: 750
+weight: 760
 url: /zh/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,22 +18,23 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | 初始化的新实例[`ProjectManagementViewInfo`](../projectmanagementviewinfo)类. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | 初始化新实例[`ProjectManagementViewInfo`](../projectmanagementviewinfo)类. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | 初始化新实例[`ProjectManagementViewInfo`](../projectmanagementviewinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | 项目完成的日期时间。 |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | 文件的类型。 |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | 要查看的页面列表。 |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | 项目开始的日期时间。 |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | 项目完成的日期时间。 |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | 文件的类型。 |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | 要查看的页面列表。 |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | 项目开始的日期时间。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

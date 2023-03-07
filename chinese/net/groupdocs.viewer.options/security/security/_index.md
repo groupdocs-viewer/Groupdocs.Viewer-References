@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Securitygroupdocs.viewer.options/security类.
+description: 初始化新实例Securitygroupdocs.viewer.options/security类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/security/security/
 ---
 ## Security constructor
 
-初始化的新实例[`Security`](../../security)类.
+初始化新实例[`Security`](../../security)类.
 
 ```csharp
 public Security()

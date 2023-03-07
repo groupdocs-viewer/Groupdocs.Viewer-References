@@ -16,12 +16,12 @@ public Stream CreateResourceStream(int pageNumber, Resource resource)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页数。 |
+| pageNumber | Int32 | 页码。 |
 | resource | Resource | HTML 资源，例如字体、样式、图像或图形。 |
 
 ### 返回值
 
-Stream 用于写入输出资源数据。
+用于写入输出资源数据的流。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: IFC
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف فئات مؤسسة الصناعة .ifc هو تنسيق ملف يحدد المعايير الدولية لاستيراد وتصدير كائنات البناء وخصائصها. يوفر تنسيق الملف هذا إمكانية التشغيل البيني بين تطبيقات البرامج المختلفة. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/cad/ifc .
 type: docs
-weight: 600
+weight: 640
 url: /ar/net/groupdocs.viewer/filetype/ifc/
 ---
 ## FileType.IFC field

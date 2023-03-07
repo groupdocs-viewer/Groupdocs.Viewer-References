@@ -1,14 +1,14 @@
 ---
 title: RequiredAttendees
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是必需的与会者
+description: 默认字段文本为必填参与者
 type: docs
 weight: 380
 url: /zh/net/groupdocs.viewer.options/field/requiredattendees/
 ---
 ## Field.RequiredAttendees field
 
-默认字段文本是“必需的与会者”。
+默认字段文本为“必填参与者”。
 
 ```csharp
 public static readonly Field RequiredAttendees;

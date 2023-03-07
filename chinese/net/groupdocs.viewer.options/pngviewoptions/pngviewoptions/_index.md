@@ -1,14 +1,14 @@
 ---
 title: PngViewOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例PngViewOptionsgroupdocs.viewer.options/pngviewoptions类.
+description: 初始化新实例PngViewOptionsgroupdocs.viewer.options/pngviewoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/pngviewoptions/pngviewoptions/
 ---
 ## PngViewOptions(CreatePageStream) {#constructor_1}
 
-初始化的新实例[`PngViewOptions`](../../pngviewoptions)类.
+初始化新实例[`PngViewOptions`](../../pngviewoptions)类.
 
 ```csharp
 public PngViewOptions(CreatePageStream createPageStream)
@@ -22,7 +22,7 @@ public PngViewOptions(CreatePageStream createPageStream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*createPageStream*一片空白。 |
+| ArgumentNullException | 抛出时*createPageStream*一片空白。 |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public PngViewOptions(CreatePageStream createPageStream)
 
 ## PngViewOptions(CreatePageStream, ReleasePageStream) {#constructor_2}
 
-初始化的新实例[`PngViewOptions`](../../pngviewoptions)类.
+初始化新实例[`PngViewOptions`](../../pngviewoptions)类.
 
 ```csharp
 public PngViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
@@ -44,14 +44,14 @@ public PngViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | createPageStream | CreatePageStream | 实例化用于写入输出页面数据的流的方法。 |
-| releasePageStream | ReleasePageStream | 释放由分配给委托的方法创建的流的方法，该委托传递给*createPageStream*范围。 |
+| releasePageStream | ReleasePageStream | 释放由分配给传递给委托的方法创建的流的方法*createPageStream*范围。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*createPageStream*一片空白。 |
-| ArgumentNullException | 何时抛出*releasePageStream*一片空白。 |
+| ArgumentNullException | 抛出时*createPageStream*一片空白。 |
+| ArgumentNullException | 抛出时*releasePageStream*一片空白。 |
 
 ### 也可以看看
 
@@ -65,7 +65,7 @@ public PngViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 
 ## PngViewOptions(IPageStreamFactory) {#constructor_3}
 
-初始化的新实例[`PngViewOptions`](../../pngviewoptions)类.
+初始化新实例[`PngViewOptions`](../../pngviewoptions)类.
 
 ```csharp
 public PngViewOptions(IPageStreamFactory pageStreamFactory)
@@ -79,7 +79,7 @@ public PngViewOptions(IPageStreamFactory pageStreamFactory)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*pageStreamFactory*一片空白。 |
+| ArgumentNullException | 抛出时*pageStreamFactory*一片空白。 |
 
 ### 也可以看看
 
@@ -92,7 +92,7 @@ public PngViewOptions(IPageStreamFactory pageStreamFactory)
 
 ## PngViewOptions() {#constructor}
 
-初始化的新实例[`PngViewOptions`](../../pngviewoptions)类.
+初始化新实例[`PngViewOptions`](../../pngviewoptions)类.
 
 ```csharp
 public PngViewOptions()
@@ -100,7 +100,7 @@ public PngViewOptions()
 
 ### 评论
 
-此构造函数初始化[`PngViewOptions`](../../pngviewoptions) 使用“p_{0}.png”作为输出文件的文件路径格式。 输出文件将被放置到应用程序的当前工作目录中。
+此构造函数初始化的新实例[`PngViewOptions`](../../pngviewoptions) 以“p_{0}.png”作为输出文件的文件路径格式。 输出文件将放置到应用程序的当前工作目录中。
 
 ### 也可以看看
 
@@ -112,7 +112,7 @@ public PngViewOptions()
 
 ## PngViewOptions(string) {#constructor_4}
 
-初始化的新实例[`PngViewOptions`](../../pngviewoptions)类.
+初始化新实例[`PngViewOptions`](../../pngviewoptions)类.
 
 ```csharp
 public PngViewOptions(string filePathFormat)
@@ -126,7 +126,7 @@ public PngViewOptions(string filePathFormat)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*filePathFormat*为空或为空。 |
+| ArgumentException | 抛出时*filePathFormat*为 null 或空。 |
 
 ### 也可以看看
 

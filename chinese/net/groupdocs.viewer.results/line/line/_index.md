@@ -1,34 +1,50 @@
 ---
 title: Line
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Linegroupdocs.viewer.results/line类.
+description: 初始化新实例Linegroupdocs.viewer.results/line类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
-初始化的新实例[`Line`](../../line)类.
+初始化新实例[`Line`](../../line)类.
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### 也可以看看
+
+* class [Line](../../line)
+* 命名空间 [GroupDocs.Viewer.Results](../../line)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+初始化新实例[`Line`](../../line)类.
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | line | String | 线。 |
-| x | Double | 页面布局上左最高点的 X 坐标，其中包含线条的矩形开始。 |
-| y | Double | 页面布局上左最高点的 Y 坐标，其中包含线条的矩形开始。 |
+| x | Double | 包含行的矩形开始的页面布局上左最高点的 X 坐标。 |
+| y | Double | 包含行的矩形开始的页面布局上最左点的 Y 坐标。 |
 | width | Double | 包含线条的矩形的宽度（以像素为单位）。 |
 | height | Double | 包含线条的矩形的高度（以像素为单位）。 |
-| words | IList`1 | 该行包含的单词。 |
+| words | List`1 | 该行包含的单词。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*line*为空或为空。 |
-| ArgumentNullException | 何时抛出*words*一片空白。 |
+| ArgumentException | 抛出时*line*为 null 或空。 |
+| ArgumentNullException | 抛出时*words*一片空白。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: Page
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل صفحة واحدة يمكن مشاهدتها.
 type: docs
-weight: 730
+weight: 740
 url: /ar/net/groupdocs.viewer.results/page/
 ---
 ## Page class
@@ -18,23 +18,24 @@ public class Page
 
 | اسم | وصف |
 | --- | --- |
-| [Page](page#constructor)(int, bool) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
-| [Page](page#constructor_3)(int, string, bool) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
-| [Page](page#constructor_1)(int, bool, int, int) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
-| [Page](page#constructor_2)(int, bool, int, int, IList&lt;Line&gt;) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
-| [Page](page#constructor_4)(int, string, bool, int, int) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
-| [Page](page#constructor_5)(int, string, bool, int, int, IList&lt;Line&gt;) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
+| [Page](page#constructor)() | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
+| [Page](page#constructor_1)(int, bool) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
+| [Page](page#constructor_4)(int, string, bool) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
+| [Page](page#constructor_2)(int, bool, int, int) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
+| [Page](page#constructor_3)(int, bool, int, int, List&lt;Line&gt;) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
+| [Page](page#constructor_5)(int, string, bool, int, int) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
+| [Page](page#constructor_6)(int, string, bool, int, int, List&lt;Line&gt;) | تهيئة مثيل جديد لـ[`Page`](../page) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/page/height) { get; } | ارتفاع الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG . |
-| [Lines](../../groupdocs.viewer.results/page/lines) { get; } | الأسطر التي تحتويها الصفحة عند عرضها بتنسيق JPG أو PNG مع تمكين استخراج النص. |
-| [Name](../../groupdocs.viewer.results/page/name) { get; } | ورقة العمل أو اسم الصفحة . |
-| [Number](../../groupdocs.viewer.results/page/number) { get; } | رقم الصفحة . |
-| [Visible](../../groupdocs.viewer.results/page/visible) { get; } | مؤشر رؤية الصفحة . |
-| [Width](../../groupdocs.viewer.results/page/width) { get; } | عرض الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG . |
+| [Height](../../groupdocs.viewer.results/page/height) { get; set; } | ارتفاع الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG . |
+| [Lines](../../groupdocs.viewer.results/page/lines) { get; set; } | الأسطر التي تحتويها الصفحة عند عرضها بتنسيق JPG أو PNG مع تمكين استخراج النص. |
+| [Name](../../groupdocs.viewer.results/page/name) { get; set; } | ورقة العمل أو اسم الصفحة . |
+| [Number](../../groupdocs.viewer.results/page/number) { get; set; } | رقم الصفحة . |
+| [Visible](../../groupdocs.viewer.results/page/visible) { get; set; } | مؤشر رؤية الصفحة . |
+| [Width](../../groupdocs.viewer.results/page/width) { get; set; } | عرض الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG . |
 
 ## طُرق
 

@@ -3,7 +3,7 @@ title: SQL
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف بيانات لغة الاستعلام المنظم .sql
 type: docs
-weight: 1380
+weight: 1430
 url: /ar/net/groupdocs.viewer/filetype/sql/
 ---
 ## FileType.SQL field

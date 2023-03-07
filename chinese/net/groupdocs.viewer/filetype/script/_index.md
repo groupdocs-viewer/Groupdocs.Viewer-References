@@ -3,7 +3,7 @@ title: SCRIPT
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 通用脚本文件 .script
 type: docs
-weight: 1340
+weight: 1390
 url: /zh/net/groupdocs.viewer/filetype/script/
 ---
 ## FileType.SCRIPT field

@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BottomMargin](../../groupdocs.viewer.options/webdocumentoptions/bottommargin) { get; set; } | 页面底部边缘和正文底部边界之间的距离（以磅为单位）。 默认值为 72 磅。 |
+| [BottomMargin](../../groupdocs.viewer.options/webdocumentoptions/bottommargin) { get; set; } | 页面底部边缘与正文底部边界之间的距离（以磅为单位）。 默认值为 72 磅。 |
 | [LeftMargin](../../groupdocs.viewer.options/webdocumentoptions/leftmargin) { get; set; } | 页面左边缘与正文左边界之间的距离（以磅为单位）。 默认值为 5 磅。 |
-| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | 输出页面的大小。 默认值为Letter792 x 612 点。  当内容不适合时，设置更大的页面大小，例如A3. |
+| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | 输出页面的大小。 默认值为Letter792 x 612 点.  当内容不适合时设置更大的页面大小，例如A3. |
 | [RightMargin](../../groupdocs.viewer.options/webdocumentoptions/rightmargin) { get; set; } | 页面右边缘与正文右边界之间的距离（以磅为单位）。 默认值为 5 磅。 |
-| [TopMargin](../../groupdocs.viewer.options/webdocumentoptions/topmargin) { get; set; } | 页面上边缘与正文上边界之间的距离（以磅为单位）。 默认值为 72 磅。 |
+| [TopMargin](../../groupdocs.viewer.options/webdocumentoptions/topmargin) { get; set; } | 页面上边缘与正文顶部边界之间的距离（以磅为单位）。 默认值为 72 磅。 |
 
 ### 也可以看看
 

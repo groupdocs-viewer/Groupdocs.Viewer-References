@@ -3,7 +3,7 @@ title: DXF
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف تنسيق تبادل الرسم .dxf هو تمثيل بيانات ذو علامات لملف رسم AutoCAD . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/cad/dxf .
 type: docs
-weight: 370
+weight: 400
 url: /ar/net/groupdocs.viewer/filetype/dxf/
 ---
 ## FileType.DXF field

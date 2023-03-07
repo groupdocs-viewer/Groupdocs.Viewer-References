@@ -16,7 +16,7 @@ public static ViewInfoOptions ForJpgView()
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) صف دراسي.
+مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) فصل.
 
 ### أنظر أيضا
 
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForJpgView(bool extractText)
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) صف دراسي.
+مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) فصل.
 
 ### أنظر أيضا
 

@@ -3,7 +3,7 @@ title: BMP
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 位图图像文件 .bmp 用于存储位图数字图像这些图像独立于图形适配器也称为设备独立位图 DIB 文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/bmp
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/groupdocs.viewer/filetype/bmp/
 ---
 ## FileType.BMP field

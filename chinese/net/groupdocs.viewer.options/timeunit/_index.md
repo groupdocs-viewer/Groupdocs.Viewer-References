@@ -1,14 +1,14 @@
 ---
 title: TimeUnit
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 项目工期的时间单位
+description: 项目持续时间的时间单位
 type: docs
 weight: 560
 url: /zh/net/groupdocs.viewer.options/timeunit/
 ---
 ## TimeUnit enumeration
 
-项目工期的时间单位。
+项目持续时间的时间单位。
 
 ```csharp
 public enum TimeUnit
@@ -19,9 +19,9 @@ public enum TimeUnit
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Unspecified | `0` | 未知的、未指定的时间尺度。 |
-| Days | `1` | 一天的间隔。 |
-| ThirdsOfMonths | `10` | 月的三分之一。 |
-| Months | `30` | 一个月的间隔。 |
+| Days | `1` | 一天间隔。 |
+| ThirdsOfMonths | `10` | 这个月的三分之一。 |
+| Months | `30` | 一个月间隔。 |
 
 ### 也可以看看
 

@@ -12,13 +12,13 @@ url: /zh/net/groupdocs.viewer.interfaces/
 
 | 班级 | 描述 |
 | --- | --- |
-| [CreateFileStream](./createfilestream) | 表示实例化用于写入输出文件数据的流的方法。 |
-| [CreatePageStream](./createpagestream) | 表示实例化用于写入输出页面数据的流的方法。 |
+| [CreateFileStream](./createfilestream) | 表示实例化stream的方法，用于写入输出文件数据。 |
+| [CreatePageStream](./createpagestream) | 表示实例化用于写入输出页数据的流的方法。 |
 | [CreateResourceStream](./createresourcestream) | 表示实例化用于写入输出 HTML 资源数据的流的方法。 |
 | [CreateResourceUrl](./createresourceurl) | 表示为 HTML 资源创建 URL 的方法。 |
-| [ReleaseFileStream](./releasefilestream) | 释放由与关联的方法实例化的流[`CreateFileStream`](../groupdocs.viewer.interfaces/createfilestream)委托. |
-| [ReleasePageStream](./releasepagestream) | 释放由与关联的方法实例化的流[`CreatePageStream`](../groupdocs.viewer.interfaces/createpagestream)委托. |
-| [ReleaseResourceStream](./releaseresourcestream) | 释放由与关联的方法实例化的流[`CreateResourceStream`](../groupdocs.viewer.interfaces/createresourcestream)委托. |
+| [ReleaseFileStream](./releasefilestream) | 释放由与关联的方法实例化的流[`CreateFileStream`](../groupdocs.viewer.interfaces/createfilestream)代表. |
+| [ReleasePageStream](./releasepagestream) | 释放由与关联的方法实例化的流[`CreatePageStream`](../groupdocs.viewer.interfaces/createpagestream)代表. |
+| [ReleaseResourceStream](./releaseresourcestream) | 释放由与关联的方法实例化的流[`CreateResourceStream`](../groupdocs.viewer.interfaces/createresourcestream)代表. |
 ## 接口
 
 | 界面 | 描述 |

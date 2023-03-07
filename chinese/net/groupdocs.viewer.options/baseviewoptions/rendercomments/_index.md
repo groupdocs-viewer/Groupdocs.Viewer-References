@@ -1,14 +1,14 @@
 ---
 title: RenderComments
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 启用呈现评论
+description: 启用渲染注释
 type: docs
 weight: 100
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/rendercomments/
 ---
 ## BaseViewOptions.RenderComments property
 
-启用呈现评论。
+启用渲染注释。
 
 ```csharp
 public bool RenderComments { get; set; }

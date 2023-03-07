@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 在标题中显示的文件名 默认显示源文件的名称
+description: 要在标题中显示的文件名 默认显示源文件的名称
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/archiveoptions/filename/
 ---
 ## ArchiveOptions.FileName property
 
-在标题中显示的文件名。 默认显示源文件的名称。
+要在标题中显示的文件名。 默认显示源文件的名称。
 
 ```csharp
 public FileName FileName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MPP
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Microsoft Project 文件 .mpp 是 Microsoft Project 数据文件它以集成方式存储与项目管理相关的信息 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/projectmanagement/mpp
+description: Microsoft Project 文件 .mpp 是 Microsoft Project 数据文件以集成方式存储与项目管理相关的信息 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/projectmanagement/mpp
 type: docs
-weight: 850
+weight: 900
 url: /zh/net/groupdocs.viewer/filetype/mpp/
 ---
 ## FileType.MPP field
 
-Microsoft Project 文件 (.mpp) 是 Microsoft Project 数据文件，它以集成方式存储与项目管理相关的信息。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/project-management/mpp)
+Microsoft Project 文件 (.mpp) 是 Microsoft Project 数据文件，以集成方式存储与项目管理相关的信息。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/project-management/mpp)
 
 ```csharp
 public static readonly FileType MPP;

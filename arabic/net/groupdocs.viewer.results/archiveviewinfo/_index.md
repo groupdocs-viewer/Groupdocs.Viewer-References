@@ -18,15 +18,16 @@ public class ArchiveViewInfo : ViewInfo
 
 | اسم | وصف |
 | --- | --- |
-| [ArchiveViewInfo](archiveviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | تهيئة مثيل جديد لـ[`ArchiveViewInfo`](../archiveviewinfo) فئة . |
+| [ArchiveViewInfo](archiveviewinfo#constructor)() | تهيئة مثيل جديد لـ[`ArchiveViewInfo`](../archiveviewinfo) فئة . |
+| [ArchiveViewInfo](archiveviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | تهيئة مثيل جديد لـ[`ArchiveViewInfo`](../archiveviewinfo) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | نوع الملف. |
-| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; } | المجلدات التي يحتوي عليها ملف الأرشيف. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | قائمة الصفحات المراد عرضها . |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | نوع الملف. |
+| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; set; } | المجلدات التي يحتوي عليها ملف الأرشيف. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | قائمة الصفحات المراد عرضها . |
 
 ## طُرق
 

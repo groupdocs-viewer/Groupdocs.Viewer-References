@@ -1,14 +1,14 @@
 ---
 title: TimeUnit
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 时间单位
+description: 时间单位.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.options/projectmanagementoptions/timeunit/
 ---
 ## ProjectManagementOptions.TimeUnit property
 
-时间单位。
+时间单位.
 
 ```csharp
 public TimeUnit TimeUnit { get; set; }

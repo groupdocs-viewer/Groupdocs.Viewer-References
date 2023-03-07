@@ -1,14 +1,14 @@
 ---
 title: Layer
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示 CAD 绘图所包含的图层
+description: 表示 CAD 绘图包含的图层
 type: docs
 weight: 680
 url: /zh/net/groupdocs.viewer.results/layer/
 ---
 ## Layer class
 
-表示 CAD 绘图所包含的图层。
+表示 CAD 绘图包含的图层。
 
 ```csharp
 public sealed class Layer : IEquatable<Layer>
@@ -18,15 +18,16 @@ public sealed class Layer : IEquatable<Layer>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Layer](layer#constructor)(string) | 初始化的新实例[`Layer`](../layer)类. |
-| [Layer](layer#constructor_1)(string, bool) | 初始化的新实例[`Layer`](../layer)类. |
+| [Layer](layer#constructor)() | 初始化新实例[`Layer`](../layer)类. |
+| [Layer](layer#constructor_1)(string) | 初始化新实例[`Layer`](../layer)类. |
+| [Layer](layer#constructor_2)(string, bool) | 初始化新实例[`Layer`](../layer)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | 图层的名称。 |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | 图层可见性指示器。 |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | 层的名称。 |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | 图层可见性指示器。 |
 
 ## 方法
 
@@ -35,9 +36,9 @@ public sealed class Layer : IEquatable<Layer>
 | [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | 判断当前是否[`Layer`](../layer)与指定的相同[`Layer`](../layer)对象. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | 判断当前是否[`Layer`](../layer)与指定对象相同。 |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | 返回当前的哈希码[`Layer`](../layer)对象. |
-| override [ToString](../../groupdocs.viewer.results/layer/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../groupdocs.viewer.results/layer/op_equality) | 判断两个[`Layer`](../layer)对象是相同的。 |
-| [operator !=](../../groupdocs.viewer.results/layer/op_inequality) | 判断两个[`Layer`](../layer)对象不一样。 |
+| override [ToString](../../groupdocs.viewer.results/layer/tostring)() | 返回表示当前对象的字符串。 |
+| [operator ==](../../groupdocs.viewer.results/layer/op_equality) | 判断是否两个[`Layer`](../layer)对象是相同的。 |
+| [operator !=](../../groupdocs.viewer.results/layer/op_inequality) | 判断是否两个[`Layer`](../layer)对象不一样. |
 
 ### 也可以看看
 

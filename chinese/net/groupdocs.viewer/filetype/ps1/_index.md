@@ -1,14 +1,14 @@
 ---
 title: PS1
 second_title: GroupDocs.Viewer for .NET API 参考
-description: PowerShell 脚本文件 .ps1 一种用于 Windows PowerShell Cmdlet 文件的文件格式 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/ps1
+description: PowerShell 脚本文件 .ps1 Windows PowerShell Cmdlet 文件的一种文件格式 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/ps1
 type: docs
-weight: 1200
+weight: 1250
 url: /zh/net/groupdocs.viewer/filetype/ps1/
 ---
 ## FileType.PS1 field
 
-PowerShell 脚本文件 (.ps1) 一种用于 Windows PowerShell Cmdlet 文件的文件格式。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/ps1)
+PowerShell 脚本文件 (.ps1) Windows PowerShell Cmdlet 文件的一种文件格式。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/ps1)
 
 ```csharp
 public static readonly FileType PS1;

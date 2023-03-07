@@ -1,14 +1,14 @@
 ---
 title: ExcludeFonts
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 启用后会阻止将任何字体添加到 HTML 文档中
+description: 启用后可防止将任何字体添加到 HTML 文档中
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/htmlviewoptions/excludefonts/
 ---
 ## HtmlViewOptions.ExcludeFonts property
 
-启用后会阻止将任何字体添加到 HTML 文档中。
+启用后可防止将任何字体添加到 HTML 文档中。
 
 ```csharp
 public bool ExcludeFonts { get; set; }

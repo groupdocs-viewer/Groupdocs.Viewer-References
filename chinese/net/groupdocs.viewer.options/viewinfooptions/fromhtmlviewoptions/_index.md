@@ -1,14 +1,14 @@
 ---
 title: FromHtmlViewOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions基于类HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions对象.
+description: 初始化新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions类基于HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions对象.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions/
 ---
 ## ViewInfoOptions.FromHtmlViewOptions method
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)基于类[`HtmlViewOptions`](../../htmlviewoptions)对象.
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类基于[`HtmlViewOptions`](../../htmlviewoptions)对象.
 
 ```csharp
 public static ViewInfoOptions FromHtmlViewOptions(HtmlViewOptions options)
@@ -26,7 +26,7 @@ public static ViewInfoOptions FromHtmlViewOptions(HtmlViewOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
 
 ### 也可以看看
 

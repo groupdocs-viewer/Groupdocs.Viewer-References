@@ -1,14 +1,14 @@
 ---
 title: GetAttachments
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回文档包含的附件
+description: 返回文档中包含的附件
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer/viewer/getattachments/
 ---
 ## GetAttachments() {#getattachments}
 
-返回文档包含的附件。
+返回文档中包含的附件。
 
 ```csharp
 public IList<Attachment> GetAttachments()
@@ -22,12 +22,12 @@ public IList<Attachment> GetAttachments()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 了解有关在 C# 中获取文档附件的更多信息： [如何使用 GroupDocs.Viewer 获取文档附件列表](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * 了解有关在 C# 中保存文档附件的更多信息： [如何使用 GroupDocs.Viewer 保存文档附件](https://docs.groupdocs.com/display/viewernet/Save+attachments)
@@ -43,7 +43,7 @@ public IList<Attachment> GetAttachments()
 
 ## GetAttachments(CancellationToken) {#getattachments_1}
 
-返回文档包含的附件。
+返回文档中包含的附件。
 
 ```csharp
 public IList<Attachment> GetAttachments(CancellationToken cancellationToken)
@@ -61,12 +61,12 @@ public IList<Attachment> GetAttachments(CancellationToken cancellationToken)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 了解有关在 C# 中获取文档附件的更多信息： [如何使用 GroupDocs.Viewer 获取文档附件列表](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * 了解有关在 C# 中保存文档附件的更多信息： [如何使用 GroupDocs.Viewer 保存文档附件](https://docs.groupdocs.com/display/viewernet/Save+attachments)

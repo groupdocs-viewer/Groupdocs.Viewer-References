@@ -1,14 +1,14 @@
 ---
 title: HomeAddress
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是家庭地址
+description: 默认字段文本为家庭地址
 type: docs
 weight: 250
 url: /zh/net/groupdocs.viewer.options/field/homeaddress/
 ---
 ## Field.HomeAddress field
 
-默认字段文本是“家庭地址”。
+默认字段文本为“家庭地址”。
 
 ```csharp
 public static readonly Field HomeAddress;

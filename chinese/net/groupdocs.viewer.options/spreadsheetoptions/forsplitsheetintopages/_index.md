@@ -1,14 +1,14 @@
 ---
 title: ForSplitSheetIntoPages
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions用于将工作表渲染到页面中
+description: 初始化新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions用于将工作表渲染成页面.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages/
 ---
 ## ForSplitSheetIntoPages(int) {#forsplitsheetintopages}
 
-初始化的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于将工作表渲染到页面中。
+初始化新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于将工作表渲染成页面.
 
 ```csharp
 public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| countRowsPerPage | Int32 | 行计数以包含到每个页面中。 |
+| countRowsPerPage | Int32 | 行计数以包含在每个页面中。 |
 
 ### 返回值
 
@@ -26,7 +26,7 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*countRowsPerPage*等于或小于零。 |
+| ArgumentException | 抛出时*countRowsPerPage*等于或小于零。 |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
 
 ## ForSplitSheetIntoPages(int, int) {#forsplitsheetintopages_1}
 
-初始化的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于将工作表渲染到页面中。
+初始化新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于将工作表渲染成页面.
 
 ```csharp
 public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage, 
@@ -47,7 +47,7 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| countRowsPerPage | Int32 | 行计数以包含到每个页面中。 |
+| countRowsPerPage | Int32 | 行计数以包含在每个页面中。 |
 | countColumnsPerPage | Int32 | 列计数以包含在每个页面中。 |
 
 ### 返回值
@@ -58,8 +58,8 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*countRowsPerPage*等于或小于零。 |
-| ArgumentException | 何时抛出*countColumnsPerPage*等于或小于零。 |
+| ArgumentException | 抛出时*countRowsPerPage*等于或小于零。 |
+| ArgumentException | 抛出时*countColumnsPerPage*等于或小于零。 |
 
 ### 也可以看看
 

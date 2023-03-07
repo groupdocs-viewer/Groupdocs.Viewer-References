@@ -3,7 +3,7 @@ title: VSS
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف Visio Stencil File .vss عبارة عن ملفات استنسل تم إنشاؤها باستخدام Microsoft Visio 2007 والإصدارات الأقدم. توفر ملفات الاستنسل كائنات رسومية يمكن تضمينها في رسم .VSD Visio . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vss .
 type: docs
-weight: 1630
+weight: 1680
 url: /ar/net/groupdocs.viewer/filetype/vss/
 ---
 ## FileType.VSS field

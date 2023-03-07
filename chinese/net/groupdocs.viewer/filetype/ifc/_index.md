@@ -1,14 +1,14 @@
 ---
 title: IFC
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 工业基础类文件 .ifc 是一种文件格式它建立了用于导入和导出建筑对象及其属性的国际标准这种文件格式提供了不同软件应用程序之间的互操作性 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/ifc.
+description: 行业基础类文件 .ifc 是一种文件格式它建立了导入和导出建筑对象及其属性的国际标准此文件格式提供不同软件应用程序之间的互操作性 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/ifc.
 type: docs
-weight: 600
+weight: 640
 url: /zh/net/groupdocs.viewer/filetype/ifc/
 ---
 ## FileType.IFC field
 
-工业基础类文件 (.ifc) 是一种文件格式，它建立了用于导入和导出建筑对象及其属性的国际标准。这种文件格式提供了不同软件应用程序之间的互操作性。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/ifc).
+行业基础类文件 (.ifc) 是一种文件格式，它建立了导入和导出建筑对象及其属性的国际标准。此文件格式提供不同软件应用程序之间的互操作性。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/ifc).
 
 ```csharp
 public static readonly FileType IFC;

@@ -3,7 +3,7 @@ title: PY
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Python 脚本 .py
 type: docs
-weight: 1260
+weight: 1310
 url: /zh/net/groupdocs.viewer/filetype/py/
 ---
 ## FileType.PY field

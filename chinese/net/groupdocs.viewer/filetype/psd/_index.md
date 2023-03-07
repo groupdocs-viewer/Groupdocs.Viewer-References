@@ -1,14 +1,14 @@
 ---
 title: PSD
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Adobe Photoshop 文档 .psd 代表 Adobe Photoshop 用于图形设计和开发的原生文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/psd
+description: Adobe Photoshop 文档 .psd 代表 Adobe Photoshop 用于图形设计和开发的本机文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/psd
 type: docs
-weight: 1220
+weight: 1270
 url: /zh/net/groupdocs.viewer/filetype/psd/
 ---
 ## FileType.PSD field
 
-Adobe Photoshop 文档 (.psd) 代表 Adobe Photoshop 用于图形设计和开发的原生文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/psd)
+Adobe Photoshop 文档 (.psd) 代表 Adobe Photoshop 用于图形设计和开发的本机文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/psd)
 
 ```csharp
 public static readonly FileType PSD;

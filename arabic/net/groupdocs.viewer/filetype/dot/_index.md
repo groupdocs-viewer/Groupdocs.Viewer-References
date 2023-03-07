@@ -3,7 +3,7 @@ title: DOT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب مستند Word .dot عبارة عن ملفات قوالب تم إنشاؤها بواسطة Microsoft Word للحصول على إعدادات مهيأة مسبقًا لإنشاء ملفات DOC أو DOCX أخرى. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 310
+weight: 330
 url: /ar/net/groupdocs.viewer/filetype/dot/
 ---
 ## FileType.DOT field

@@ -1,17 +1,17 @@
 ---
 title: Layouts
 second_title: GroupDocs.Viewer for .NET API 参考
-description: CAD 绘图包含的布局列表
+description: CAD 图纸包含的布局列表
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.results/cadviewinfo/layouts/
 ---
 ## CadViewInfo.Layouts property
 
-CAD 绘图包含的布局列表。
+CAD 图纸包含的布局列表。
 
 ```csharp
-public IList<Layout> Layouts { get; }
+public List<Layout> Layouts { get; set; }
 ```
 
 ### 也可以看看

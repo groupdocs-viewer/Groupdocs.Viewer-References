@@ -21,7 +21,7 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`CadOptions`](../../cadoptions) فئة للعرض والارتفاع.
+مثيل جديد من[`CadOptions`](../../cadoptions)فئة للعرض والارتفاع.
 
 ### استثناءات
 

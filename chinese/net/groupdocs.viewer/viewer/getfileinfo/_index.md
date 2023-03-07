@@ -1,14 +1,14 @@
 ---
 title: GetFileInfo
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回有关文件的信息例如指示文件是否已加密的文件类型和标志
+description: 返回有关文件的信息例如文件类型和指示文件是否已加密的标志
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer/viewer/getfileinfo/
 ---
 ## Viewer.GetFileInfo method
 
-返回有关文件的信息，例如指示文件是否已加密的文件类型和标志。
+返回有关文件的信息，例如文件类型和指示文件是否已加密的标志。
 
 ```csharp
 public FileInfo GetFileInfo()
@@ -20,7 +20,7 @@ public FileInfo GetFileInfo()
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 了解更多文件信息： [如何检查文件是否加密](https://docs.groupdocs.com/viewer/net/how-to-check-if-file-is-encrypted/)
 

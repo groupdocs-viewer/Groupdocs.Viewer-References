@@ -3,7 +3,7 @@ title: VSTX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب رسم Visio .vstx عبارة عن ملفات قالب رسم تم إنشاؤها باستخدام Microsoft Visio 2013 وما بعده. توفر ملفات VSTX هذه نقطة بداية لإنشاء رسومات Visio  المحفوظة كملفات .VSDX  مع التخطيط والإعدادات الافتراضية. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vstx .
 type: docs
-weight: 1680
+weight: 1730
 url: /ar/net/groupdocs.viewer/filetype/vstx/
 ---
 ## FileType.VSTX field

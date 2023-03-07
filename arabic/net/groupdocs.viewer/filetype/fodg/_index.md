@@ -3,7 +3,7 @@ title: FODG
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يتم استخدام قالب ODF XML المسطح .fodg بواسطة تطبيق رسم Apache OpenOffice لتخزين عناصر الرسم كصورة متجهة. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/fodg .
 type: docs
-weight: 460
+weight: 500
 url: /ar/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field

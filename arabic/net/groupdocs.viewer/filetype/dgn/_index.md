@@ -3,7 +3,7 @@ title: DGN
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف تصميم MicroStation .dgn عبارة عن رسومات تم إنشاؤها بواسطة تطبيقات CAD ودعمها مثل MicroStation و Intergraph Interactive Graphics Design System. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/cad/dgn .
 type: docs
-weight: 230
+weight: 250
 url: /ar/net/groupdocs.viewer/filetype/dgn/
 ---
 ## FileType.DGN field

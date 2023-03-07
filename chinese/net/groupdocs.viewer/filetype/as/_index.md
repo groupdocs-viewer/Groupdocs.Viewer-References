@@ -1,14 +1,14 @@
 ---
 title: AS
 second_title: GroupDocs.Viewer for .NET API 参考
-description: ActionScript 文件 .as
+description: 动作脚本文件 .as
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/groupdocs.viewer/filetype/as/
 ---
 ## FileType.AS field
 
-ActionScript 文件 (.as)
+动作脚本文件 (.as)
 
 ```csharp
 public static readonly FileType AS;

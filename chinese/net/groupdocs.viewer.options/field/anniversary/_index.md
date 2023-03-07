@@ -1,14 +1,14 @@
 ---
 title: Anniversary
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本为周年纪念日
+description: 默认字段文本为周年纪念
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/field/anniversary/
 ---
 ## Field.Anniversary field
 
-默认字段文本为“周年纪念日”。
+默认字段文本为“周年纪念”。
 
 ```csharp
 public static readonly Field Anniversary;

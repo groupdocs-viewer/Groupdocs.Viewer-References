@@ -18,24 +18,24 @@ public class CadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundColor](../../groupdocs.viewer.options/cadoptions/backgroundcolor) { get; set; } | 图像背景颜色 |
+| [BackgroundColor](../../groupdocs.viewer.options/cadoptions/backgroundcolor) { get; set; } | 图片背景颜色 |
 | [Height](../../groupdocs.viewer.options/cadoptions/height) { get; } | 输出结果的高度，以像素为单位。 |
-| [Layers](../../groupdocs.viewer.options/cadoptions/layers) { get; set; } | 要渲染的 CAD 绘图图层。 |
-| [LayoutName](../../groupdocs.viewer.options/cadoptions/layoutname) { get; set; } | 要渲染的特定布局的名称。布局名称区分大小写。 |
+| [Layers](../../groupdocs.viewer.options/cadoptions/layers) { get; set; } | 要渲染的 CAD 绘图层。 |
+| [LayoutName](../../groupdocs.viewer.options/cadoptions/layoutname) { get; set; } | 要呈现的特定布局的名称。布局名称区分大小写。 |
 | [Pc3File](../../groupdocs.viewer.options/cadoptions/pc3file) { get; set; } | PC3 - 绘图仪配置文件 |
-| [RenderLayouts](../../groupdocs.viewer.options/cadoptions/renderlayouts) { get; set; } | 指示是否应呈现 CAD 文档中的布局。 |
-| [ScaleFactor](../../groupdocs.viewer.options/cadoptions/scalefactor) { get; } | 大于 1 的值会放大输出结果； 0 和 1 之间的值将使输出结果更小。 |
+| [RenderLayouts](../../groupdocs.viewer.options/cadoptions/renderlayouts) { get; set; } | 指示是否应呈现来自 CAD 文档的布局。 |
+| [ScaleFactor](../../groupdocs.viewer.options/cadoptions/scalefactor) { get; } | 大于1的值会放大输出结果； 0 和 1 之间的值将使输出结果更小。 |
 | [Tiles](../../groupdocs.viewer.options/cadoptions/tiles) { get; set; } | 要渲染的绘图区域。 |
-| [Width](../../groupdocs.viewer.options/cadoptions/width) { get; } | 输出结果的宽度，以像素为单位。 |
+| [Width](../../groupdocs.viewer.options/cadoptions/width) { get; } | 输出结果的宽度（以像素为单位）。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ForRenderingByHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbyheight)(int) | 初始化的新实例[`CadOptions`](../cadoptions)按高度渲染的类。 |
-| static [ForRenderingByScaleFactor](../../groupdocs.viewer.options/cadoptions/forrenderingbyscalefactor)(float) | 初始化的新实例[`CadOptions`](../cadoptions)按比例因子渲染的类。 |
-| static [ForRenderingByWidth](../../groupdocs.viewer.options/cadoptions/forrenderingbywidth)(int) | 初始化的新实例[`CadOptions`](../cadoptions)按宽度渲染的类。 |
-| static [ForRenderingByWidthAndHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbywidthandheight)(int, int) | 初始化的新实例[`CadOptions`](../cadoptions)按宽度和高度渲染的类。 |
+| static [ForRenderingByHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbyheight)(int) | 初始化新实例[`CadOptions`](../cadoptions)按高度渲染的类. |
+| static [ForRenderingByScaleFactor](../../groupdocs.viewer.options/cadoptions/forrenderingbyscalefactor)(float) | 初始化新实例[`CadOptions`](../cadoptions)按比例因子渲染的类. |
+| static [ForRenderingByWidth](../../groupdocs.viewer.options/cadoptions/forrenderingbywidth)(int) | 初始化新实例[`CadOptions`](../cadoptions)按宽度渲染的类. |
+| static [ForRenderingByWidthAndHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbywidthandheight)(int, int) | 初始化新实例[`CadOptions`](../cadoptions)按宽度和高度渲染的类. |
 
 ### 也可以看看
 

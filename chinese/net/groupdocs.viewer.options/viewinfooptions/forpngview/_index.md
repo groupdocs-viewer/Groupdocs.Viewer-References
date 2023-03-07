@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions类以在渲染为 PNG. 时检索有关视图的信息
+description: 初始化新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions类以在呈现为 PNG. 时检索有关视图的信息
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)类以在渲染为 PNG. 时检索有关视图的信息
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 PNG. 时检索有关视图的信息
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -28,7 +28,7 @@ public static ViewInfoOptions ForPngView()
 
 ## ForPngView(bool) {#forpngview_1}
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)类以在渲染为 PNG. 时检索有关视图的信息
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 PNG. 时检索有关视图的信息
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)

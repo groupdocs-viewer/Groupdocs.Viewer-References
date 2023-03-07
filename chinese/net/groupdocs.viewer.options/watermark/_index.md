@@ -18,7 +18,7 @@ public class Watermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Watermark](watermark)(string) | 初始化的新实例[`Watermark`](../watermark)类. |
+| [Watermark](watermark)(string) | 初始化新实例[`Watermark`](../watermark)类. |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public class Watermark
 | [FontName](../../groupdocs.viewer.options/watermark/fontname) { get; set; } | 用于水印的字体名称。 |
 | [Position](../../groupdocs.viewer.options/watermark/position) { get; set; } | 水印位置。 默认值为Diagonal. |
 | [Size](../../groupdocs.viewer.options/watermark/size) { get; set; } | 水印大小。 默认值为[`FullSize`](../size/fullsize). |
-| [Text](../../groupdocs.viewer.options/watermark/text) { get; } | 水印文字。 |
+| [Text](../../groupdocs.viewer.options/watermark/text) { get; } | 水印文字. |
 
 ### 也可以看看
 

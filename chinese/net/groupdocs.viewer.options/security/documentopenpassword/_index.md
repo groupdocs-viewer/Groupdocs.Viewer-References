@@ -1,14 +1,14 @@
 ---
 title: DocumentOpenPassword
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 打开 PDF 文档所需的密码
+description: 打开PDF文档所需的密码
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/security/documentopenpassword/
 ---
 ## Security.DocumentOpenPassword property
 
-打开 PDF 文档所需的密码。
+打开PDF文档所需的密码。
 
 ```csharp
 public string DocumentOpenPassword { get; set; }

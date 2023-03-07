@@ -1,14 +1,14 @@
 ---
 title: EnableOpenTypeFeatures
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 此选项在渲染阿拉伯语希伯来语印度脚本拉丁语或西里尔语脚本时启用字距调整和其他 OpenType 功能
+description: 此选项在呈现阿拉伯语希伯来语印度语脚本基于拉丁语或基于西里尔语的脚本时启用字距调整和其他 OpenType 功能
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures/
 ---
 ## WordProcessingOptions.EnableOpenTypeFeatures property
 
-此选项在渲染阿拉伯语、希伯来语、印度脚本、拉丁语或西里尔语脚本时启用字距调整和其他 OpenType 功能。
+此选项在呈现阿拉伯语、希伯来语、印度语脚本、基于拉丁语或基于西里尔语的脚本时启用字距调整和其他 OpenType 功能。
 
 ```csharp
 public bool EnableOpenTypeFeatures { get; set; }

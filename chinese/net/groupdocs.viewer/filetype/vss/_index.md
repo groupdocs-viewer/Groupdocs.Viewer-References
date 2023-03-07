@@ -1,14 +1,14 @@
 ---
 title: VSS
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Visio 模具文件 .vss 是使用 Microsoft Visio 2007 及更早版本创建的模具文件模板文件提供可包含在 .VSD Visio 绘图中的绘图对象 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vss.
+description: Visio 模板文件 .vss 是使用 Microsoft Visio 2007 及更早版本创建的模板文件模板文件提供可包含在 .VSD Visio 绘图中的绘图对象 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vss.
 type: docs
-weight: 1630
+weight: 1680
 url: /zh/net/groupdocs.viewer/filetype/vss/
 ---
 ## FileType.VSS field
 
-Visio 模具文件 (.vss) 是使用 Microsoft Visio 2007 及更早版本创建的模具文件。模板文件提供可包含在 .VSD Visio 绘图中的绘图对象。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vss).
+Visio 模板文件 (.vss) 是使用 Microsoft Visio 2007 及更早版本创建的模板文件。模板文件提供可包含在 .VSD Visio 绘图中的绘图对象。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vss).
 
 ```csharp
 public static readonly FileType VSS;

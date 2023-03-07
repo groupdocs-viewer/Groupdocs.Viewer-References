@@ -1,17 +1,17 @@
 ---
 title: FileFormat
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 文件类型名称例如Microsoft Word 文档
+description: 文件类型名称例如Microsoft Word 文档.
 type: docs
-weight: 1920
+weight: 1970
 url: /zh/net/groupdocs.viewer/filetype/fileformat/
 ---
 ## FileType.FileFormat property
 
-文件类型名称，例如“Microsoft Word 文档”。
+文件类型名称，例如“Microsoft Word 文档”.
 
 ```csharp
-public string FileFormat { get; }
+public string FileFormat { get; set; }
 ```
 
 ### 也可以看看

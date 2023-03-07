@@ -1,14 +1,14 @@
 ---
 title: Folder
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 存档内要渲染的文件夹
+description: 存档中要呈现的文件夹
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/archiveoptions/folder/
 ---
 ## ArchiveOptions.Folder property
 
-存档内要渲染的文件夹。
+存档中要呈现的文件夹。
 
 ```csharp
 public string Folder { get; set; }

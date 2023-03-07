@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/layout/height/
 布局的高度。
 
 ```csharp
-public float Height { get; }
+public float Height { get; set; }
 ```
 
 ### 也可以看看

@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`SpreadsheetOptions`](../../spreadsheetoptions)للعرض بواسطة فواصل الصفحات. السلوك مشابه للطباعة في Excel.
+مثيل جديد من[`SpreadsheetOptions`](../../spreadsheetoptions) للعرض بواسطة فواصل الصفحات. السلوك مشابه للطباعة في Excel.
 
 ### أنظر أيضا
 

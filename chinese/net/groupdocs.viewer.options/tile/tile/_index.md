@@ -1,14 +1,14 @@
 ---
 title: Tile
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化Tilegroupdocs.viewer.options/tile类.
+description: 初始化一个新的实例Tilegroupdocs.viewer.options/tile类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/tile/tile/
 ---
 ## Tile constructor
 
-初始化[`Tile`](../../tile)类.
+初始化一个新的实例[`Tile`](../../tile)类.
 
 ```csharp
 public Tile(int startPointX, int startPointY, int width, int height)
@@ -16,10 +16,10 @@ public Tile(int startPointX, int startPointY, int width, int height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startPointX | Int32 | 平铺开始的绘图左下角的 X 坐标 |
-| startPointY | Int32 | 平铺开始的绘图左下角的 Y 坐标。 |
-| width | Int32 | 瓦片的宽度（以像素为单位）。 |
-| height | Int32 | 瓦片的高度（以像素为单位）。 |
+| startPointX | Int32 | 图块开始处左下角的 X 坐标 |
+| startPointY | Int32 | 图块开始处左下角的 Y 坐标。 |
+| width | Int32 | 图块的宽度（以像素为单位）。 |
+| height | Int32 | 图块的高度（以像素为单位）。 |
 
 ### 也可以看看
 

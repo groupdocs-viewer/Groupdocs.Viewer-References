@@ -1,14 +1,30 @@
 ---
 title: FileInfo
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例FileTypegroupdocs.viewer.results/fileinfo/filetype类.
+description: 初始化新实例FileTypegroupdocs.viewer.results/fileinfo/filetype类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/fileinfo/fileinfo/
 ---
-## FileInfo constructor
+## FileInfo() {#constructor}
 
-初始化的新实例[`FileType`](../filetype)类.
+初始化新实例[`FileType`](../filetype)类.
+
+```csharp
+public FileInfo()
+```
+
+### 也可以看看
+
+* class [FileInfo](../../fileinfo)
+* 命名空间 [GroupDocs.Viewer.Results](../../fileinfo)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## FileInfo(FileType) {#constructor_1}
+
+初始化新实例[`FileType`](../filetype)类.
 
 ```csharp
 public FileInfo(FileType fileType)
@@ -22,7 +38,7 @@ public FileInfo(FileType fileType)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*fileType*一片空白。 |
+| ArgumentNullException | 抛出时*fileType*一片空白。 |
 
 ### 也可以看看
 

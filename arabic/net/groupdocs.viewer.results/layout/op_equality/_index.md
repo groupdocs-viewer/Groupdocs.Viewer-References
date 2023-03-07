@@ -16,8 +16,8 @@ public static bool operator ==(Layout left, Layout right)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| left | Layout | اليسار[`Layout`](../../layout) هدف. |
-| right | Layout | الصحيح[`Layout`](../../layout) هدف. |
+| left | Layout | غادر[`Layout`](../../layout) هدف. |
+| right | Layout | يمين[`Layout`](../../layout) هدف. |
 
 ### قيمة الإرجاع
 

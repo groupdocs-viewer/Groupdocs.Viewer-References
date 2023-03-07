@@ -3,7 +3,7 @@ title: JAVA
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Java 源代码文件 .java
 type: docs
-weight: 640
+weight: 680
 url: /zh/net/groupdocs.viewer/filetype/java/
 ---
 ## FileType.JAVA field

@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/word/characters/
 الأحرف التي تحتوي عليها الكلمة .
 
 ```csharp
-public IList<Character> Characters { get; }
+public List<Character> Characters { get; set; }
 ```
 
 ### أنظر أيضا

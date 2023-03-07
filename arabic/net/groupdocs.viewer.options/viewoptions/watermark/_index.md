@@ -16,7 +16,7 @@ public Watermark Watermark { get; set; }
 
 ### ملاحظات
 
-في حالة كلاهما`Watermark` و[`PageRotations`](../pagerotations) تم تحديد مما سيتم تطبيق العلامة المائية على الصفحات التي تم تدويرها.
+في حالة كلاهما`Watermark` و[`PageRotations`](../pagerotations)تم تحديد مما سيتم تطبيق العلامة المائية على الصفحات التي تم تدويرها.
 
 ### أنظر أيضا
 

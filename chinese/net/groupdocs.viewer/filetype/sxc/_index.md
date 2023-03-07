@@ -3,7 +3,7 @@ title: SXC
 second_title: GroupDocs.Viewer for .NET API 参考
 description: StarSuite Calc 电子表格 .sxc
 type: docs
-weight: 1420
+weight: 1470
 url: /zh/net/groupdocs.viewer/filetype/sxc/
 ---
 ## FileType.SXC field

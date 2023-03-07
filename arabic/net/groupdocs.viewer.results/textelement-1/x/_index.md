@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/textelement-1/x/
 إحداثي X لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر .
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### أنظر أيضا

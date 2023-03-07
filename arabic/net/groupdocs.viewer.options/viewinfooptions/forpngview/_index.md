@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: GroupDocs.Viewer لمرجع .NET API
-description: تهيئة مثيل جديد لـViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsفئة لاسترداد معلومات حول العرض عند التقديم إلى PNG.
+description: تهيئة مثيل جديد لـViewInfoOptionsgroupdocs.viewer.options/viewinfooptions فئة لاسترداد معلومات حول العرض عند التقديم إلى PNG.
 type: docs
 weight: 30
 url: /ar/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-تهيئة مثيل جديد لـ[`ViewInfoOptions`](../../viewinfooptions)فئة لاسترداد معلومات حول العرض عند التقديم إلى PNG.
+تهيئة مثيل جديد لـ[`ViewInfoOptions`](../../viewinfooptions) فئة لاسترداد معلومات حول العرض عند التقديم إلى PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -16,7 +16,7 @@ public static ViewInfoOptions ForPngView()
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) صف دراسي.
+مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) فصل.
 
 ### أنظر أيضا
 
@@ -28,7 +28,7 @@ public static ViewInfoOptions ForPngView()
 
 ## ForPngView(bool) {#forpngview_1}
 
-تهيئة مثيل جديد لـ[`ViewInfoOptions`](../../viewinfooptions)فئة لاسترداد معلومات حول العرض عند التقديم إلى PNG.
+تهيئة مثيل جديد لـ[`ViewInfoOptions`](../../viewinfooptions) فئة لاسترداد معلومات حول العرض عند التقديم إلى PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForPngView(bool extractText)
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) صف دراسي.
+مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) فصل.
 
 ### أنظر أيضا
 

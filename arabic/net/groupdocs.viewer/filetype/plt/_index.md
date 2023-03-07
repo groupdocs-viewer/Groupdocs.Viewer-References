@@ -3,7 +3,7 @@ title: PLT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: PLT HPGL .plt هو ملف رسام يعتمد على المتجهات مقدم من شركة Autodesk Inc. ويحتوي على معلومات لملف CAD معين. تتطلب تفاصيل التخطيط الدقة والدقة في الإنتاج  ويضمن استخدام ملف PLT ذلك حيث تتم طباعة جميع الصور باستخدام خطوط بدلاً من النقاط. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/cad/plt .
 type: docs
-weight: 1070
+weight: 1120
 url: /ar/net/groupdocs.viewer/filetype/plt/
 ---
 ## FileType.PLT field

@@ -1,14 +1,14 @@
 ---
 title: RenderResponsive
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 启用响应式渲染 响应式网页可以在具有不同屏幕尺寸的设备上很好地渲染
+description: 启用响应式渲染 响应式网页在具有不同屏幕尺寸的设备上呈现良好
 type: docs
 weight: 110
 url: /zh/net/groupdocs.viewer.options/htmlviewoptions/renderresponsive/
 ---
 ## HtmlViewOptions.RenderResponsive property
 
-启用响应式渲染； 响应式网页可以在具有不同屏幕尺寸的设备上很好地渲染。
+启用响应式渲染； 响应式网页在具有不同屏幕尺寸的设备上呈现良好。
 
 ```csharp
 public bool RenderResponsive { get; set; }

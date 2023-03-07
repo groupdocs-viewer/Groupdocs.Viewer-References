@@ -1,14 +1,30 @@
 ---
 title: Layout
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Layoutgroupdocs.viewer.results/layout类.
+description: 初始化新实例Layoutgroupdocs.viewer.results/layout类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/layout/layout/
 ---
-## Layout constructor
+## Layout() {#constructor}
 
-初始化的新实例[`Layout`](../../layout)类.
+初始化新实例[`Layout`](../../layout)类.
+
+```csharp
+public Layout()
+```
+
+### 也可以看看
+
+* class [Layout](../../layout)
+* 命名空间 [GroupDocs.Viewer.Results](../../layout)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Layout(string, float, float) {#constructor_1}
+
+初始化新实例[`Layout`](../../layout)类.
 
 ```csharp
 public Layout(string name, float width, float height)
@@ -24,7 +40,7 @@ public Layout(string name, float width, float height)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*name*为空或为空。 |
+| ArgumentException | 抛出时*name*为 null 或空。 |
 
 ### 也可以看看
 

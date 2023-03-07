@@ -27,9 +27,10 @@ public class PdfOptions
 | [DisableCharsGrouping](../../groupdocs.viewer.options/pdfoptions/disablecharsgrouping) { get; set; } | تعطيل تجميع الأحرف للاحتفاظ بأقصى قدر من الدقة أثناء وضع الأحرف عند عرض الصفحة. |
 | [EnableFontHinting](../../groupdocs.viewer.options/pdfoptions/enablefonthinting) { get; set; } | تمكين تلميح الخط. يعمل تلميح الخط على ضبط عرض خط المخطط التفصيلي. يتم دعمه فقط لخطوط TTF عند استخدام هذه الخطوط في المستند المصدر. |
 | [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | تمكين عرض النص والرسومات وفقًا لترتيب z في مستند PDF الأصلي عند التقديم بتنسيق HTML. |
+| [FixedLayout](../../groupdocs.viewer.options/pdfoptions/fixedlayout) { get; set; } | يعد PDF تنسيقًا ثابتًا بحيث يكون لجميع العناصر مكان محدد على الصفحة . للتأكد من أن ملف HTML الناتج يشبه ملف PDF المصدر ، يتم تقديم المستندات إلى HTML بتخطيط ثابت افتراضيًا . عند التقديم باستخدام التنسيق الثابت ، يكون حجم HTML الناتج ثابتًا ، لذا ستبقى العناصر في نفس المكان بغض النظر عن حجم النافذة.`خطأ شنيع` . |
 | [ImageQuality](../../groupdocs.viewer.options/pdfoptions/imagequality) { get; set; } | يحدد جودة صورة الإخراج لموارد الصورة عند التقديم إلى HTML . القيمة الافتراضية هي Low . |
 | [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | عند تمكين هذا الخيار ، سيكون لصفحات الإخراج نفس الحجم بالبكسل مثل حجم الصفحة في مستند PDF المصدر. |
-| [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | عند ضبط هذا الخيار علىحقيقي ، يتم تقديم النص كصورة في الناتج HTML. قم بتمكين هذا الخيار لجعل النص غير قابل للتحديد أو لإصلاح عرض الأحرف وجعل HTML يبدو مثل PDF. القيمة الافتراضية هيخاطئة . |
+| [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | عند ضبط هذا الخيار علىحقيقي ، يتم تقديم النص كصورة في الناتج HTML. قم بتمكين هذا الخيار لجعل النص غير قابل للتحديد أو لإصلاح عرض الأحرف وجعل HTML يبدو مثل PDF. القيمة الافتراضية هيخطأ شنيع . |
 
 ### أنظر أيضا
 

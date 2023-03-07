@@ -1,14 +1,14 @@
 ---
 title: RenderLayouts
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 指示是否应呈现 CAD 文档中的布局
+description: 指示是否应呈现来自 CAD 文档的布局
 type: docs
 weight: 100
 url: /zh/net/groupdocs.viewer.options/cadoptions/renderlayouts/
 ---
 ## CadOptions.RenderLayouts property
 
-指示是否应呈现 CAD 文档中的布局。
+指示是否应呈现来自 CAD 文档的布局。
 
 ```csharp
 public bool RenderLayouts { get; set; }
@@ -16,7 +16,7 @@ public bool RenderLayouts { get; set; }
 
 ### 评论
 
-此选项仅适用于支持布局的 CAD 图纸[`DXF`](../../../groupdocs.viewer/filetype/dxf),[`DWG`](../../../groupdocs.viewer/filetype/dwg),[`DWT`](../../../groupdocs.viewer/filetype/dwt) ， 和[`DWF`](../../../groupdocs.viewer/filetype/dwf)并且DWFX; 默认情况下只渲染模型。
+此选项仅适用于支持布局的 CAD 图纸[`DXF`](../../../groupdocs.viewer/filetype/dxf),[`DWG`](../../../groupdocs.viewer/filetype/dwg),[`DWT`](../../../groupdocs.viewer/filetype/dwt) ， 和[`DWF`](../../../groupdocs.viewer/filetype/dwf)并且[`DWFX`](../../../groupdocs.viewer/filetype/dwfx); 默认情况下只渲染模型。
 
 ### 也可以看看
 

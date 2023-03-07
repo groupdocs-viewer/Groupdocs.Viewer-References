@@ -1,14 +1,14 @@
 ---
 title: Organizer
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是组织者
+description: 默认字段文本为组织者
 type: docs
 weight: 320
 url: /zh/net/groupdocs.viewer.options/field/organizer/
 ---
 ## Field.Organizer field
 
-默认字段文本是“组织者”。
+默认字段文本为“组织者”。
 
 ```csharp
 public static readonly Field Organizer;

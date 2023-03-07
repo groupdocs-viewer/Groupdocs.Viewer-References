@@ -1,14 +1,14 @@
 ---
 title: FromJpgViewOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions基于类JpgViewOptionsgroupdocs.viewer.options/jpgviewoptions对象.
+description: 初始化新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions类基于JpgViewOptionsgroupdocs.viewer.options/jpgviewoptions对象.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions/
 ---
 ## ViewInfoOptions.FromJpgViewOptions method
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)基于类[`JpgViewOptions`](../../jpgviewoptions)对象.
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类基于[`JpgViewOptions`](../../jpgviewoptions)对象.
 
 ```csharp
 public static ViewInfoOptions FromJpgViewOptions(JpgViewOptions options)
@@ -26,7 +26,7 @@ public static ViewInfoOptions FromJpgViewOptions(JpgViewOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SASS
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 语法很棒的样式表文件 .sass
+description: 语法上很棒的样式表文件 .sass
 type: docs
-weight: 1310
+weight: 1360
 url: /zh/net/groupdocs.viewer/filetype/sass/
 ---
 ## FileType.SASS field
 
-语法很棒的样式表文件 (.sass)
+语法上很棒的样式表文件 (.sass)
 
 ```csharp
 public static readonly FileType SASS;

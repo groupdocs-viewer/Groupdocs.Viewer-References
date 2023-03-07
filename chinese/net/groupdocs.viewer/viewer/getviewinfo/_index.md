@@ -20,21 +20,21 @@ public ViewInfo GetViewInfo(ViewInfoOptions options)
 
 ### 返回值
 
-有关查看和记录特定信息的信息。
+有关查看和文档特定信息的信息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 了解有关文档 - 文件类型、页数和其他格式特定属性的更多信息： [如何使用 GroupDocs.Viewer 获取文件信息](https://docs.groupdocs.com/display/viewernet/Get+file+information)
+* 了解有关文档的更多信息 - 文件类型、页数和其他格式特定属性： [如何使用 GroupDocs.Viewer 获取文件信息](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 
 ### 也可以看看
 
@@ -61,21 +61,21 @@ public ViewInfo GetViewInfo(ViewInfoOptions options, CancellationToken cancellat
 
 ### 返回值
 
-有关查看和记录特定信息的信息。
+有关查看和文档特定信息的信息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 了解有关文档 - 文件类型、页数和其他格式特定属性的更多信息： [如何使用 GroupDocs.Viewer 获取文件信息](https://docs.groupdocs.com/display/viewernet/Get+file+information)
+* 了解有关文档的更多信息 - 文件类型、页数和其他格式特定属性： [如何使用 GroupDocs.Viewer 获取文件信息](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByHeight
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例CadOptionsgroupdocs.viewer.options/cadoptions按高度渲染的类
+description: 初始化新实例CadOptionsgroupdocs.viewer.options/cadoptions按高度渲染的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/cadoptions/forrenderingbyheight/
 ---
 ## CadOptions.ForRenderingByHeight method
 
-初始化的新实例[`CadOptions`](../../cadoptions)按高度渲染的类。
+初始化新实例[`CadOptions`](../../cadoptions)按高度渲染的类.
 
 ```csharp
 public static CadOptions ForRenderingByHeight(int height)
@@ -26,7 +26,7 @@ public static CadOptions ForRenderingByHeight(int height)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*height*小于或等于零。 |
+| ArgumentException | 抛出时*height*小于或等于零。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: CC
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف التعليمات البرمجية المصدر C  .cc
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/groupdocs.viewer/filetype/cc/
 ---
 ## FileType.CC field

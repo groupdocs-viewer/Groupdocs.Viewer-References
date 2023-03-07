@@ -1,14 +1,14 @@
 ---
 title: RenderTextAsImage
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 当此选项设置为真的文本在输出 HTML 中呈现为图像 启用此选项以使文本无法选择或修复字符呈现并使 HTML 看起来像 PDF 默认值为错误的.
+description: 当这个选项设置为真的文本在输出 HTML 中呈现为图像 启用此选项可使文本不可选择或修复字符呈现并使 HTML 看起来像 PDF 默认值为错误的.
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property
 
-当此选项设置为真的，文本在输出 HTML 中呈现为图像。 启用此选项以使文本无法选择或修复字符呈现并使 HTML 看起来像 PDF。 默认值为错误的.
+当这个选项设置为真的，文本在输出 HTML 中呈现为图像。 启用此选项可使文本不可选择或修复字符呈现并使 HTML 看起来像 PDF。 默认值为错误的.
 
 ```csharp
 public bool RenderTextAsImage { get; set; }
@@ -16,7 +16,7 @@ public bool RenderTextAsImage { get; set; }
 
 ### 评论
 
-渲染成 HTML 时支持此选项。
+呈现为 HTML 时支持此选项。
 
 ### 也可以看看
 

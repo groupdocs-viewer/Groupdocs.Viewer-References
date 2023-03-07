@@ -3,7 +3,7 @@ title: Word
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل مستطيلًا متوضعًا نسبيًا يحتوي على كلمة واحدة.
 type: docs
-weight: 790
+weight: 800
 url: /ar/net/groupdocs.viewer.results/word/
 ---
 ## Word class
@@ -18,18 +18,19 @@ public class Word : TextElement<string>
 
 | اسم | وصف |
 | --- | --- |
-| [Word](word)(string, double, double, double, double, IList&lt;Character&gt;) | تهيئة مثيل جديد لـ[`Word`](../word) فئة . |
+| [Word](word#constructor)() | تهيئة مثيل جديد لـ[`Word`](../word) فئة . |
+| [Word](word#constructor_1)(string, double, double, double, double, List&lt;Character&gt;) | تهيئة مثيل جديد لـ[`Word`](../word) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Characters](../../groupdocs.viewer.results/word/characters) { get; } | الأحرف التي تحتوي عليها الكلمة . |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | ارتفاع المستطيل الذي يحتوي على العنصر (بالبكسل) . |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | قيمة العنصر . |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | عرض المستطيل الذي يحتوي على العنصر (بالبكسل) . |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | إحداثي X لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | الإحداثي Y لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
+| [Characters](../../groupdocs.viewer.results/word/characters) { get; set; } | الأحرف التي تحتوي عليها الكلمة . |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | ارتفاع المستطيل الذي يحتوي على العنصر (بالبكسل) . |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | قيمة العنصر . |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | عرض المستطيل الذي يحتوي على العنصر (بالبكسل) . |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | إحداثي X لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | الإحداثي Y لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
 
 ## طُرق
 

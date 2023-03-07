@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/layout/name/
 اسم التخطيط .
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### أنظر أيضا

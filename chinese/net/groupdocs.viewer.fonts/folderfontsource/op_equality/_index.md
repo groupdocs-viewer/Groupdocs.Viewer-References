@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 判断两个FolderFontSourcegroupdocs.viewer.fonts/folderfontsource对象是相同的
+description: 判断是否两个FolderFontSourcegroupdocs.viewer.fonts/folderfontsource对象是相同的
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.fonts/folderfontsource/op_equality/
 ---
 ## FolderFontSource Equality operator
 
-判断两个[`FolderFontSource`](../../folderfontsource)对象是相同的。
+判断是否两个[`FolderFontSource`](../../folderfontsource)对象是相同的。
 
 ```csharp
 public static bool operator ==(FolderFontSource left, FolderFontSource right)
@@ -16,7 +16,7 @@ public static bool operator ==(FolderFontSource left, FolderFontSource right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | FolderFontSource | 剩下[`FolderFontSource`](../../folderfontsource)目的。 |
+| left | FolderFontSource | 左边[`FolderFontSource`](../../folderfontsource)目的。 |
 | right | FolderFontSource | 正确的[`FolderFontSource`](../../folderfontsource)目的。 |
 
 ### 返回值

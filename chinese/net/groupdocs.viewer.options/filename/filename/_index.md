@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例FileNamegroupdocs.viewer.options/filename类.
+description: 初始化新实例FileNamegroupdocs.viewer.options/filename类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/filename/filename/
 ---
 ## FileName constructor
 
-初始化的新实例[`FileName`](../../filename)类.
+初始化新实例[`FileName`](../../filename)类.
 
 ```csharp
 public FileName(string fileName)
@@ -22,7 +22,7 @@ public FileName(string fileName)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*fileName*一片空白。 |
+| ArgumentNullException | 抛出时*fileName*一片空白。 |
 
 ### 也可以看看
 

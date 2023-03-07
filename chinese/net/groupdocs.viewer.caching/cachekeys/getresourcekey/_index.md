@@ -1,14 +1,14 @@
 ---
 title: GetResourceKey
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回代表缓存条目的唯一标识符Resourcegroupdocs.viewer.results/resource对象.
+description: 返回表示缓存条目的唯一标识符Resourcegroupdocs.viewer.results/resource对象.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.caching/cachekeys/getresourcekey/
 ---
 ## CacheKeys.GetResourceKey method
 
-返回代表缓存条目的唯一标识符[`Resource`](../../../groupdocs.viewer.results/resource)对象.
+返回表示缓存条目的唯一标识符[`Resource`](../../../groupdocs.viewer.results/resource)对象.
 
 ```csharp
 public static string GetResourceKey(int pageNumber, Resource resource)
@@ -16,19 +16,19 @@ public static string GetResourceKey(int pageNumber, Resource resource)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页数。 |
+| pageNumber | Int32 | 页码。 |
 | resource | Resource | HTML 资源。 |
 
 ### 返回值
 
-表示缓存条目的唯一标识符[`Resource`](../../../groupdocs.viewer.results/resource)目的。
+代表缓存条目的唯一标识符[`Resource`](../../../groupdocs.viewer.results/resource)目的。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*pageNumber*小于或等于零。 |
-| ArgumentNullException | 何时抛出*resource*一片空白。 |
+| ArgumentException | 抛出时*pageNumber*小于或等于零。 |
+| ArgumentNullException | 抛出时*resource*一片空白。 |
 
 ### 也可以看看
 

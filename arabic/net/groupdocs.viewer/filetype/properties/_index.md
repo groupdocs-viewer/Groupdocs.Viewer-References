@@ -3,7 +3,7 @@ title: PROPERTIES
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف خصائص Java .properties
 type: docs
-weight: 1180
+weight: 1230
 url: /ar/net/groupdocs.viewer/filetype/properties/
 ---
 ## FileType.PROPERTIES field

@@ -38,6 +38,7 @@ public class PdfViewOptions : ViewOptions
 | [ImageWidth](../../groupdocs.viewer.options/pdfviewoptions/imagewidth) { get; set; } | عرض صورة الإخراج بالبكسل. (عند تحويل صورة واحدة إلى HTML فقط) |
 | [JpgQuality](../../groupdocs.viewer.options/pdfviewoptions/jpgquality) { get; set; } | جودة صور JPG التي يحتوي عليها مستند PDF الناتج ؛ القيم الصالحة بين 1 و 100 ؛ القيمة الافتراضية هي 90. |
 | [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | خيارات عرض ملفات بيانات تخزين البريد . |
+| [Optimize](../../groupdocs.viewer.options/pdfviewoptions/optimize) { get; set; } | تقليل حجم ملف الإخراج عن طريق استبعاد الخطوط الشائعة مثل Times New Roman و Arial ، وتطبيق تقنيات التحسين الأخرى. |
 | [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | خيارات عرض ملفات بيانات MS Outlook . |
 | [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | خيارات عرض مستندات PDF . |
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | خيارات عرض مستندات معالجة العرض التقديمي. |

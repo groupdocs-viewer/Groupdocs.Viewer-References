@@ -18,18 +18,19 @@ public class PdfOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfOptions](pdfoptions)() | 初始化的新实例[`PdfOptions`](../pdfoptions)类. |
+| [PdfOptions](pdfoptions)() | 初始化新实例[`PdfOptions`](../pdfoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisableCharsGrouping](../../groupdocs.viewer.options/pdfoptions/disablecharsgrouping) { get; set; } | 在渲染页面时禁用字符分组以在字符定位期间保持最大精度。 |
+| [DisableCharsGrouping](../../groupdocs.viewer.options/pdfoptions/disablecharsgrouping) { get; set; } | 在呈现页面时禁用字符分组以在字符定位期间保持最大精度。 |
 | [EnableFontHinting](../../groupdocs.viewer.options/pdfoptions/enablefonthinting) { get; set; } | 启用字体提示。字体提示调整轮廓字体的显示。 仅在源文档中使用 TTF 字体时支持这些字体。 |
-| [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | 在呈现为 HTML 时，根据原始 PDF 文档中的 z 顺序启用文本和图形的呈现。 |
+| [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | 在呈现为 HTML 时，根据原始 PDF 文档中的 z 顺序启用文本和图形呈现。 |
+| [FixedLayout](../../groupdocs.viewer.options/pdfoptions/fixedlayout) { get; set; } | PDF 是一种固定格式，因此所有元素在页面上都有特定位置。 为确保输出 HTML 看起来与源 PDF 相同，默认情况下文档以固定布局呈现为 HTML。 呈现时固定布局 输出 HTML 具有固定大小，因此无论窗口大小如何，元素都将保留在同一位置。 要使用流体布局呈现 HTML，请将此属性设置为`错误的`. |
 | [ImageQuality](../../groupdocs.viewer.options/pdfoptions/imagequality) { get; set; } | 指定渲染成 HTML 时图像资源的输出图像质量。 默认值为低。 |
-| [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | 启用此选项后，输出页面将具有与源 PDF 文档中页面大小相同的 size （以像素为单位）。 默认情况下，GroupDocs.Viewer 计算输出图像页面大小以获得更好的渲染质量。 |
-| [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | 当此选项设置为真的，文本在输出 HTML 中呈现为图像。 启用此选项以使文本无法选择或修复字符呈现并使 HTML 看起来像 PDF。 默认值为错误的. |
+| [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | 启用此选项后，输出页面的大小将与源 PDF 文档中的页面大小相同 （以像素为单位）。 默认情况下，GroupDocs.Viewer 计算输出图像页面大小以获得更好的渲染质量。 |
+| [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | 当这个选项设置为真的，文本在输出 HTML 中呈现为图像。 启用此选项可使文本不可选择或修复字符呈现并使 HTML 看起来像 PDF。 默认值为错误的. |
 
 ### 也可以看看
 

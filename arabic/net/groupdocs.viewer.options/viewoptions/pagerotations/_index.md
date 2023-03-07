@@ -16,7 +16,7 @@ public readonly Dictionary<int, Rotation> PageRotations;
 
 ### ملاحظات
 
-في حالة كلاهما[`Watermark`](../watermark) و`PageRotations` تم تحديد مما سيتم تطبيق العلامة المائية على الصفحات التي تم تدويرها.
+في حالة كلاهما[`Watermark`](../watermark) و`PageRotations`تم تحديد مما سيتم تطبيق العلامة المائية على الصفحات التي تم تدويرها.
 
 ### أنظر أيضا
 

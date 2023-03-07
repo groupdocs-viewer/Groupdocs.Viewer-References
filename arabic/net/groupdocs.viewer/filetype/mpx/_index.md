@@ -3,7 +3,7 @@ title: MPX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف Microsoft Project Exchange .mpx هو تنسيق ملف ASCII لنقل معلومات المشروع بين Microsoft Project MSP والتطبيقات الأخرى التي تدعم تنسيق ملف MPX مثل Primavera Project Planner و Sciforma و Timerline Precision Estimating . تعرف على المزيد حول هذا تنسيق الملفهناhttps//wiki.fileformat.com/projectmanagement/mpx .
 type: docs
-weight: 870
+weight: 920
 url: /ar/net/groupdocs.viewer/filetype/mpx/
 ---
 ## FileType.MPX field

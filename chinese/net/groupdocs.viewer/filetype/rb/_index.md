@@ -3,7 +3,7 @@ title: RB
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Ruby 源代码 .rb
 type: docs
-weight: 1280
+weight: 1330
 url: /zh/net/groupdocs.viewer/filetype/rb/
 ---
 ## FileType.RB field

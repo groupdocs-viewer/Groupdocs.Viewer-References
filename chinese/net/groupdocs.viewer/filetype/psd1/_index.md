@@ -3,7 +3,7 @@ title: PSD1
 second_title: GroupDocs.Viewer for .NET API 参考
 description: PowerShell 脚本模块清单 .psd1 PowerShell 模块清单脚本的文件格式 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/psd1
 type: docs
-weight: 1230
+weight: 1280
 url: /zh/net/groupdocs.viewer/filetype/psd1/
 ---
 ## FileType.PSD1 field

@@ -3,7 +3,7 @@ title: FODG
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Apache OpenOffice 的 Draw 应用程序使用平面 XML ODF 模板 .fodg 将绘图元素存储为矢量图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/fodg
 type: docs
-weight: 460
+weight: 500
 url: /zh/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field

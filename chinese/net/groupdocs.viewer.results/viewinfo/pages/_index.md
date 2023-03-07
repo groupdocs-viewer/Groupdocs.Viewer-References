@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/viewinfo/pages/
 要查看的页面列表。
 
 ```csharp
-public IList<Page> Pages { get; }
+public List<Page> Pages { get; set; }
 ```
 
 ### 也可以看看

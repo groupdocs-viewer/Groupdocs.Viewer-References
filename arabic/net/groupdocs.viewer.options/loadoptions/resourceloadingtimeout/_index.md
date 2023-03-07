@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: الموارد الخارجية  مثل مهلة تحميل الرسومات . القيمة الافتراضية هي 30 ثانية . هذا الخيار مدعوم لمستندات معالجة الكلمات التي تحتوي على موارد خارجية.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property

@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/word/characters/
 单词包含的字符。
 
 ```csharp
-public IList<Character> Characters { get; }
+public List<Character> Characters { get; set; }
 ```
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Gender
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是性别
+description: 默认字段文本为性别
 type: docs
 weight: 220
 url: /zh/net/groupdocs.viewer.options/field/gender/
 ---
 ## Field.Gender field
 
-默认字段文本是“性别”。
+默认字段文本为“性别”。
 
 ```csharp
 public static readonly Field Gender;

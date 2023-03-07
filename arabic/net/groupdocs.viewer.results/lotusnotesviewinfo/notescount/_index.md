@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/lotusnotesviewinfo/notescount/
 عدد الملاحظات في التخزين
 
 ```csharp
-public int NotesCount { get; }
+public int NotesCount { get; set; }
 ```
 
 ### أنظر أيضا

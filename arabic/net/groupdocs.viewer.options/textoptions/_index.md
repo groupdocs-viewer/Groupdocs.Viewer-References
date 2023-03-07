@@ -18,7 +18,7 @@ public class TextOptions
 
 | اسم | وصف |
 | --- | --- |
-| [TextOptions](textoptions)() | Default_Constructor |
+| [TextOptions](textoptions)() | تهيئة مثيل جديد لـ[`TextOptions`](../textoptions) فئة . |
 
 ## الخصائص
 

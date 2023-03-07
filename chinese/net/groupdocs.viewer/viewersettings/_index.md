@@ -3,7 +3,7 @@ title: ViewerSettings
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 定义自定义设置Viewer./viewer行为.
 type: docs
-weight: 810
+weight: 820
 url: /zh/net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class
@@ -18,9 +18,9 @@ public class ViewerSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ViewerSettings](viewersettings#constructor)(ICache) | 初始化的新实例[`ViewerSettings`](../viewersettings)类. |
-| [ViewerSettings](viewersettings#constructor_2)(ILogger) | 初始化的新实例[`ViewerSettings`](../viewersettings)类. |
-| [ViewerSettings](viewersettings#constructor_1)(ICache, ILogger) | 初始化的新实例[`ViewerSettings`](../viewersettings)类. |
+| [ViewerSettings](viewersettings#constructor)(ICache) | 初始化新实例[`ViewerSettings`](../viewersettings)类. |
+| [ViewerSettings](viewersettings#constructor_2)(ILogger) | 初始化新实例[`ViewerSettings`](../viewersettings)类. |
+| [ViewerSettings](viewersettings#constructor_1)(ICache, ILogger) | 初始化新实例[`ViewerSettings`](../viewersettings)类. |
 
 ## 特性
 

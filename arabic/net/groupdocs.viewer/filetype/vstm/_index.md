@@ -3,7 +3,7 @@ title: VSTM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب الرسم الممكّن بماكرو Visio .vstm عبارة عن ملفات قوالب تم إنشاؤها باستخدام Microsoft Visio التي تدعم وحدات الماكرو. بخلاف ملفات VSDX  يمكن للملفات التي تم إنشاؤها من قوالب VSTM تشغيل وحدات الماكرو التي تم تطويرها في التعليمات البرمجية لـ Visual Basic for Applications VBA. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vstm .
 type: docs
-weight: 1670
+weight: 1720
 url: /ar/net/groupdocs.viewer/filetype/vstm/
 ---
 ## FileType.VSTM field

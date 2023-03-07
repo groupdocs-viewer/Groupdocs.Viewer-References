@@ -3,7 +3,7 @@ title: MAKE
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Xcode Makefile 脚本 .make
 type: docs
-weight: 770
+weight: 820
 url: /zh/net/groupdocs.viewer/filetype/make/
 ---
 ## FileType.MAKE field

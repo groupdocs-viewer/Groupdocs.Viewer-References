@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 空文件名
+description: 空文件名.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/filename/empty/
 ---
 ## FileName.Empty field
 
-空文件名。
+空文件名.
 
 ```csharp
 public static readonly FileName Empty;

@@ -1,14 +1,14 @@
 ---
 title: FigureWidth
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 图形宽度高度将自动计算默认值为 100.
+description: 自动计算图形宽度高度默认值为 100.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/visiorenderingoptions/figurewidth/
 ---
 ## VisioRenderingOptions.FigureWidth property
 
-图形宽度、高度将自动计算。默认值为 100.
+自动计算图形宽度、高度。默认值为 100.
 
 ```csharp
 public int FigureWidth { get; set; }

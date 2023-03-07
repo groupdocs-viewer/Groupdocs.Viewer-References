@@ -1,14 +1,14 @@
 ---
 title: VSDM
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Visio 启用宏的绘图 .vsdm 是使用支持宏的 Microsoft Visio 应用程序创建的绘图文件 VSDM 文件是类似于 VSDX 的 OPC/XML 工程图但也提供了在打开文件时运行宏的能力 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vsdm.
+description: Visio 宏启用绘图 .vsdm 是使用支持宏的 Microsoft Visio 应用程序创建的绘图文件 VSDM 文件是类似于 VSDX 的 OPC/XML 绘图但也提供了在文件打开时运行宏的功能 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vsdm.
 type: docs
-weight: 1610
+weight: 1660
 url: /zh/net/groupdocs.viewer/filetype/vsdm/
 ---
 ## FileType.VSDM field
 
-Visio 启用宏的绘图 (.vsdm) 是使用支持宏的 Microsoft Visio 应用程序创建的绘图文件。 VSDM 文件是类似于 VSDX 的 OPC/XML 工程图，但也提供了在打开文件时运行宏的能力。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vsdm).
+Visio 宏启用绘图 (.vsdm) 是使用支持宏的 Microsoft Visio 应用程序创建的绘图文件。 VSDM 文件是类似于 VSDX 的 OPC/XML 绘图，但也提供了在文件打开时运行宏的功能。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vsdm).
 
 ```csharp
 public static readonly FileType VSDM;

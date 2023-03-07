@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/textelement-1/width/
 包含元素的矩形的宽度（以像素为单位）。
 
 ```csharp
-public double Width { get; }
+public double Width { get; set; }
 ```
 
 ### 也可以看看

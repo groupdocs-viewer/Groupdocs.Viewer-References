@@ -3,7 +3,7 @@ title: DWT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب رسم AutoCAD .dwt هو ملف قالب رسم AutoCAD يُستخدم كبداية لإنشاء رسومات يمكن حفظها كملفات DWG . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/cad/dwt .
 type: docs
-weight: 360
+weight: 390
 url: /ar/net/groupdocs.viewer/filetype/dwt/
 ---
 ## FileType.DWT field

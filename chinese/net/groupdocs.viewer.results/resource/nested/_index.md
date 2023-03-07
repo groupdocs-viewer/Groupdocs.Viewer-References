@@ -1,17 +1,17 @@
 ---
 title: Nested
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 指示资源是否位于另一个资源中 例如位于 CSS 或 SVG 资源中的字体资源
+description: 指示资源是否驻留在另一个资源中 例如驻留在 CSS 或 SVG 资源中的字体资源
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.results/resource/nested/
 ---
 ## Resource.Nested property
 
-指示资源是否位于另一个资源中， 例如位于 CSS 或 SVG 资源中的字体资源。
+指示资源是否驻留在另一个资源中， 例如驻留在 CSS 或 SVG 资源中的字体资源。
 
 ```csharp
-public bool Nested { get; }
+public bool Nested { get; set; }
 ```
 
 ### 也可以看看

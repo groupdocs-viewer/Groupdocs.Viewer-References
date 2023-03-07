@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/page/height/
 以 JPG 或 PNG 格式查看时页面的高度（以像素为单位）。
 
 ```csharp
-public int Height { get; }
+public int Height { get; set; }
 ```
 
 ### 也可以看看

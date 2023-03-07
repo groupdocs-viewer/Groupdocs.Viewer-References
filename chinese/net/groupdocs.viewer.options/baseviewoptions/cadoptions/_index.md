@@ -1,14 +1,14 @@
 ---
 title: CadOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: CAD 工程图视图选项
+description: CAD 绘图视图选项
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/cadoptions/
 ---
 ## BaseViewOptions.CadOptions property
 
-CAD 工程图视图选项。
+CAD 绘图视图选项。
 
 ```csharp
 public CadOptions CadOptions { get; set; }

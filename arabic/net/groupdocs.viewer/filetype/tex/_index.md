@@ -3,7 +3,7 @@ title: TEX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: وثيقة مصدر LaTeX .tex هي لغة تتكون من ميزات البرمجة والترميز المستخدمة في طباعة المستندات. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
 type: docs
-weight: 1460
+weight: 1510
 url: /ar/net/groupdocs.viewer/filetype/tex/
 ---
 ## FileType.TEX field

@@ -1,14 +1,14 @@
 ---
 title: WordProcessingOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 此渲染选项使您能够在渲染 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观
+description: 此呈现选项使您能够在呈现 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观
 type: docs
 weight: 170
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/wordprocessingoptions/
 ---
 ## BaseViewOptions.WordProcessingOptions property
 
-此渲染选项使您能够在渲染 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。
+此呈现选项使您能够在呈现 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。
 
 ```csharp
 public WordProcessingOptions WordProcessingOptions { get; set; }
@@ -16,7 +16,7 @@ public WordProcessingOptions WordProcessingOptions { get; set; }
 
 ### 评论
 
-另见  将 Word 文档呈现为 HTML、PDF 或图像文件 有关更多详细信息和代码片段。
+另见  将 Word 文档呈现为 HTML、PDF 或图像文件 了解更多详情和代码片段。
 
 ### 也可以看看
 

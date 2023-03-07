@@ -1,14 +1,14 @@
 ---
 title: EmailOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 提供用于呈现电子邮件消息的选项
+description: 提供用于呈现电子邮件的选项
 type: docs
 weight: 300
 url: /zh/net/groupdocs.viewer.options/emailoptions/
 ---
 ## EmailOptions class
 
-提供用于呈现电子邮件消息的选项。
+提供用于呈现电子邮件的选项。
 
 ```csharp
 public class EmailOptions
@@ -18,16 +18,16 @@ public class EmailOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailOptions](emailoptions)() | 初始化的新实例[`EmailOptions`](../emailoptions)类. |
+| [EmailOptions](emailoptions)() | 初始化新实例[`EmailOptions`](../emailoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [DateTimeFormat](../../groupdocs.viewer.options/emailoptions/datetimeformat) { get; set; } | 时间格式（可以包括时区） 例如：'MM d yyyy HH:mm tt'，如果未设置 - 使用当前系统格式 |
-| [FieldTextMap](../../groupdocs.viewer.options/emailoptions/fieldtextmap) { get; set; } | 邮件信息之间的映射[`Field`](../field)和字段文本表示。 |
+| [FieldTextMap](../../groupdocs.viewer.options/emailoptions/fieldtextmap) { get; set; } | 电子邮件之间的映射[`Field`](../field)和字段文本表示. |
 | [PageSize](../../groupdocs.viewer.options/emailoptions/pagesize) { get; set; } | 输出页面的大小。 |
-| [TimeZoneOffset](../../groupdocs.viewer.options/emailoptions/timezoneoffset) { get; set; } | 消息时区偏移 |
+| [TimeZoneOffset](../../groupdocs.viewer.options/emailoptions/timezoneoffset) { get; set; } | 消息时区偏移量 |
 
 ### 也可以看看
 

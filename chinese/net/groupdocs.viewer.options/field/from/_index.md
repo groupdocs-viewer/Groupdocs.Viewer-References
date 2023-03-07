@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是发件人
+description: 默认字段文本为发件人
 type: docs
 weight: 200
 url: /zh/net/groupdocs.viewer.options/field/from/
 ---
 ## Field.From field
 
-默认字段文本是“发件人”。
+默认字段文本为“发件人”。
 
 ```csharp
 public static readonly Field From;

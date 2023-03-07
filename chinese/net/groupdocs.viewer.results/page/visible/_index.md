@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/page/visible/
 页面可见性指示器。
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### 也可以看看

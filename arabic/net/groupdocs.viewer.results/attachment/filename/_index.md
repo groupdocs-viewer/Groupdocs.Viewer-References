@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/attachment/filename/
 اسم ملف المرفق.
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### أنظر أيضا

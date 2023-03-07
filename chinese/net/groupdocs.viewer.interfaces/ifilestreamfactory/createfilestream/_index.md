@@ -16,7 +16,7 @@ public Stream CreateFileStream()
 
 ### 返回值
 
-Stream 用于写入输出文件数据。
+用于写入输出文件数据的流。
 
 ### 也可以看看
 

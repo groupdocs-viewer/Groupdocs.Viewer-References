@@ -1,14 +1,14 @@
 ---
 title: ICO
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 图标文件 .ico 是用作在 Microsoft Windows 上表示应用程序的图标的图像文件类型 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/ico
+description: 图标文件 .ico 是用作图标的图像文件类型用于表示 Microsoft Windows 上的应用程序 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/ico
 type: docs
-weight: 590
+weight: 630
 url: /zh/net/groupdocs.viewer/filetype/ico/
 ---
 ## FileType.ICO field
 
-图标文件 (.ico) 是用作在 Microsoft Windows 上表示应用程序的图标的图像文件类型。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/ico)
+图标文件 (.ico) 是用作图标的图像文件类型，用于表示 Microsoft Windows 上的应用程序。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/ico)
 
 ```csharp
 public static readonly FileType ICO;

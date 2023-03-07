@@ -1,14 +1,14 @@
 ---
 title: ForHtmlView
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions类以在呈现为 HTML. 时检索有关视图的信息
+description: 初始化新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions类以在呈现为 HTML. 时检索有关视图的信息
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/viewinfooptions/forhtmlview/
 ---
 ## ForHtmlView() {#forhtmlview}
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息
 
 ```csharp
 public static ViewInfoOptions ForHtmlView()
@@ -28,7 +28,7 @@ public static ViewInfoOptions ForHtmlView()
 
 ## ForHtmlView(bool) {#forhtmlview_1}
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息
 
 ```csharp
 public static ViewInfoOptions ForHtmlView(bool renderSinglePage)
@@ -36,7 +36,7 @@ public static ViewInfoOptions ForHtmlView(bool renderSinglePage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| renderSinglePage | Boolean | 启用 HTML 内容将呈现到单个页面。 |
+| renderSinglePage | Boolean | 启用 HTML 内容将呈现为单个页面。 |
 
 ### 返回值
 

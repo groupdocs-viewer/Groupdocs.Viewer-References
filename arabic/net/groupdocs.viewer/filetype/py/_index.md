@@ -3,7 +3,7 @@ title: PY
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: نص بايثون .py
 type: docs
-weight: 1260
+weight: 1310
 url: /ar/net/groupdocs.viewer/filetype/py/
 ---
 ## FileType.PY field

@@ -1,32 +1,48 @@
 ---
 title: OutlookViewInfo
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例OutlookViewInfogroupdocs.viewer.results/outlookviewinfo类.
+description: 初始化新实例OutlookViewInfogroupdocs.viewer.results/outlookviewinfo类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/outlookviewinfo/outlookviewinfo/
 ---
-## OutlookViewInfo constructor
+## OutlookViewInfo() {#constructor}
 
-初始化的新实例[`OutlookViewInfo`](../../outlookviewinfo)类.
+初始化新实例[`OutlookViewInfo`](../../outlookviewinfo)类.
 
 ```csharp
-public OutlookViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public OutlookViewInfo()
+```
+
+### 也可以看看
+
+* class [OutlookViewInfo](../../outlookviewinfo)
+* 命名空间 [GroupDocs.Viewer.Results](../../outlookviewinfo)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## OutlookViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+初始化新实例[`OutlookViewInfo`](../../outlookviewinfo)类.
+
+```csharp
+public OutlookViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileType | FileType | 文件的类型。 |
-| pages | IList`1 | 要查看的页面列表。 |
-| folders | IList`1 | Outlook 数据文件包含的文件夹列表。 |
+| pages | List`1 | 要查看的页面列表。 |
+| folders | List`1 | Outlook 数据文件包含的文件夹列表。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*fileType*一片空白。 |
-| ArgumentNullException | 何时抛出*pages*一片空白。 |
-| ArgumentNullException | 何时抛出*folders*一片空白。 |
+| ArgumentNullException | 抛出时*fileType*一片空白。 |
+| ArgumentNullException | 抛出时*pages*一片空白。 |
+| ArgumentNullException | 抛出时*folders*一片空白。 |
 
 ### 也可以看看
 

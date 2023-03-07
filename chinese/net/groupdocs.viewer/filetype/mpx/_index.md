@@ -1,14 +1,14 @@
 ---
 title: MPX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Microsoft Project Exchange 文件 .mpx 是一种 ASCII 文件格式用于在 Microsoft Project MSP 和其他支持 MPX 文件格式的应用程序如 Primavera Project PlannerSciforma 和 Timerline Precision Estimating之间传输项目信息 了解有关这种文件格式这里https//wiki.fileformat.com/projectmanagement/mpx
+description: Microsoft Project Exchange 文件 .mpx 是一种 ASCII 文件格式用于在 Microsoft Project MSP 和其他支持 MPX 文件格式的应用程序例如 Primavera Project PlannerSciforma 和 Timerline Precision Estimating之间传输项目信息 了解更多信息这种文件格式这里https//wiki.fileformat.com/projectmanagement/mpx
 type: docs
-weight: 870
+weight: 920
 url: /zh/net/groupdocs.viewer/filetype/mpx/
 ---
 ## FileType.MPX field
 
-Microsoft Project Exchange 文件 (.mpx) 是一种 ASCII 文件格式，用于在 Microsoft Project (MSP) 和其他支持 MPX 文件格式的应用程序（如 Primavera Project Planner、Sciforma 和 Timerline Precision Estimating）之间传输项目信息。 了解有关这种文件格式[这里](https://wiki.fileformat.com/project-management/mpx)
+Microsoft Project Exchange 文件 (.mpx) 是一种 ASCII 文件格式，用于在 Microsoft Project (MSP) 和其他支持 MPX 文件格式的应用程序（例如 Primavera Project Planner、Sciforma 和 Timerline Precision Estimating）之间传输项目信息。 了解更多信息这种文件格式[这里](https://wiki.fileformat.com/project-management/mpx)
 
 ```csharp
 public static readonly FileType MPX;

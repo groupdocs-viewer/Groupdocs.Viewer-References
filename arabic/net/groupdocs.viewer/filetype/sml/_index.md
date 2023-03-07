@@ -3,7 +3,7 @@ title: SML
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف كود مصدر ML القياسي .sml
 type: docs
-weight: 1370
+weight: 1420
 url: /ar/net/groupdocs.viewer/filetype/sml/
 ---
 ## FileType.SML field

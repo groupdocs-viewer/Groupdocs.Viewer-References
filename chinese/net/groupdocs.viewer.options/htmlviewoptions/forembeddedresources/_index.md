@@ -1,14 +1,14 @@
 ---
 title: ForEmbeddedResources
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions用于渲染成带有嵌入资源的 HTML 的类
+description: 初始化新实例HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions用于呈现为具有嵌入式资源的 HTML 的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/htmlviewoptions/forembeddedresources/
 ---
 ## ForEmbeddedResources(CreatePageStream) {#forembeddedresources_1}
 
-初始化的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于渲染成带有嵌入资源的 HTML 的类。
+初始化新实例[`HtmlViewOptions`](../../htmlviewoptions)用于呈现为具有嵌入式资源的 HTML 的类。
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream)
@@ -20,13 +20,13 @@ public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageSt
 
 ### 返回值
 
-的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于渲染成带有嵌入资源的 HTML 的类。
+的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于呈现为具有嵌入式资源的 HTML 的类。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*createPageStream*一片空白。 |
+| ArgumentNullException | 抛出时*createPageStream*一片空白。 |
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageSt
 
 ## ForEmbeddedResources(CreatePageStream, ReleasePageStream) {#forembeddedresources_2}
 
-初始化的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于渲染成带有嵌入资源的 HTML 的类。
+初始化新实例[`HtmlViewOptions`](../../htmlviewoptions)用于呈现为具有嵌入式资源的 HTML 的类。
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream, 
@@ -49,18 +49,18 @@ public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageSt
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | createPageStream | CreatePageStream | 实例化用于写入输出页面数据的流的方法。 |
-| releasePageStream | ReleasePageStream | 释放由分配给委托的方法创建的流的方法，该委托传递给*createPageStream*范围。 |
+| releasePageStream | ReleasePageStream | 释放由分配给传递给委托的方法创建的流的方法*createPageStream*范围。 |
 
 ### 返回值
 
-的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于渲染成带有嵌入资源的 HTML 的类。
+的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于呈现为具有嵌入式资源的 HTML 的类。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*createPageStream*一片空白。 |
-| ArgumentNullException | 何时抛出*releasePageStream*一片空白。 |
+| ArgumentNullException | 抛出时*createPageStream*一片空白。 |
+| ArgumentNullException | 抛出时*releasePageStream*一片空白。 |
 
 ### 也可以看看
 
@@ -74,7 +74,7 @@ public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageSt
 
 ## ForEmbeddedResources(IPageStreamFactory) {#forembeddedresources_3}
 
-初始化的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于渲染成带有嵌入资源的 HTML 的类。
+初始化新实例[`HtmlViewOptions`](../../htmlviewoptions)用于呈现为具有嵌入式资源的 HTML 的类。
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStreamFactory)
@@ -86,13 +86,13 @@ public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStream
 
 ### 返回值
 
-的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于渲染成带有嵌入资源的 HTML 的类。
+的新实例[`HtmlViewOptions`](../../htmlviewoptions)用于呈现为具有嵌入式资源的 HTML 的类。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*pageStreamFactory*一片空白。 |
+| ArgumentNullException | 抛出时*pageStreamFactory*一片空白。 |
 
 ### 也可以看看
 
@@ -105,7 +105,7 @@ public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStream
 
 ## ForEmbeddedResources() {#forembeddedresources}
 
-初始化的新实例[`HtmlViewOptions`](../../htmlviewoptions)类.
+初始化新实例[`HtmlViewOptions`](../../htmlviewoptions)类.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources()
@@ -121,7 +121,7 @@ public static HtmlViewOptions ForEmbeddedResources()
 
 ## ForEmbeddedResources(string) {#forembeddedresources_4}
 
-初始化的新实例[`HtmlViewOptions`](../../htmlviewoptions)类.
+初始化新实例[`HtmlViewOptions`](../../htmlviewoptions)类.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)
@@ -135,7 +135,7 @@ public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*filePathFormat*为空或为空。 |
+| ArgumentException | 抛出时*filePathFormat*为 null 或空。 |
 
 ### 也可以看看
 

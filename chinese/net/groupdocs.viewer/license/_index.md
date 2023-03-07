@@ -29,7 +29,7 @@ public class License
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关许可的更多信息： [GroupDocs 许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing)
 * 有关 GroupDocs.Viewer 许可的更多信息： [评估限制和许可](https://docs.groupdocs.com/display/viewernet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Viewer)

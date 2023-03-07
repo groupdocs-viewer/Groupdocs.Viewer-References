@@ -1,14 +1,14 @@
 ---
 title: VSTX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Visio 绘图模板 .vstx 是使用 Microsoft Visio 2013 及更高版本创建的绘图模板文件这些 VSTX 文件为创建 Visio 绘图提供了起点保存为 .VSDX 文件具有默认布局和设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vstx.
+description: Visio 绘图模板 .vstx 是使用 Microsoft Visio 2013 及更高版本创建的绘图模板文件这些 VSTX 文件为创建 Visio 绘图提供起点保存为 .VSDX 文件具有默认布局和设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vstx.
 type: docs
-weight: 1680
+weight: 1730
 url: /zh/net/groupdocs.viewer/filetype/vstx/
 ---
 ## FileType.VSTX field
 
-Visio 绘图模板 (.vstx) 是使用 Microsoft Visio 2013 及更高版本创建的绘图模板文件。这些 VSTX 文件为创建 Visio 绘图提供了起点，保存为 .VSDX 文件，具有默认布局和设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vstx).
+Visio 绘图模板 (.vstx) 是使用 Microsoft Visio 2013 及更高版本创建的绘图模板文件。这些 VSTX 文件为创建 Visio 绘图提供起点，保存为 .VSDX 文件，具有默认布局和设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vstx).
 
 ```csharp
 public static readonly FileType VSTX;

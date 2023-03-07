@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/textelement-1/textelement/
 ---
-## TextElement&lt;T&gt; constructor
+## TextElement() {#constructor}
+
+تهيئة مثيل جديد لـ[`TextElement`](../../textelement-1) فئة .
+
+```csharp
+public TextElement()
+```
+
+### أنظر أيضا
+
+* class [TextElement&lt;T&gt;](../../textelement-1)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../textelement-1)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## TextElement(T, double, double, double, double) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`TextElement`](../../textelement-1) فئة .
 

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer لمرجع .NET API
-description: يحدد ما إذا كان التيارLayergroupdocs.viewer.results/layerهو نفسه كما هو محددLayergroupdocs.viewer.results/layer الكائن .
+description: يحدد ما إذا كان التيارLayergroupdocs.viewer.results/layer هو نفسه كما هو محددLayergroupdocs.viewer.results/layer الكائن .
 type: docs
 weight: 40
 url: /ar/net/groupdocs.viewer.results/layer/equals/
 ---
 ## Equals(Layer) {#equals}
 
-يحدد ما إذا كان التيار[`Layer`](../../layer)هو نفسه كما هو محدد[`Layer`](../../layer) الكائن .
+يحدد ما إذا كان التيار[`Layer`](../../layer) هو نفسه كما هو محدد[`Layer`](../../layer) الكائن .
 
 ```csharp
 public bool Equals(Layer other)
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-إذا المعلمة[`Layer`](../../layer) وهو نفس التيار[`Layer`](../../layer) هدف؛ خلاف ذلك،
+لو المعلمة[`Layer`](../../layer) وهو نفس التيار[`Layer`](../../layer) هدف؛ خلاف ذلك،
 
 ```csharp
 true

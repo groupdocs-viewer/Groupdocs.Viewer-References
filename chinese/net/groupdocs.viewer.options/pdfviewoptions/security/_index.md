@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 输出 PDF 文档的安全选项
+description: 输出PDF文档的安全选项
 type: docs
-weight: 70
+weight: 80
 url: /zh/net/groupdocs.viewer.options/pdfviewoptions/security/
 ---
 ## PdfViewOptions.Security property
 
-输出 PDF 文档的安全选项。
+输出PDF文档的安全选项。
 
 ```csharp
 public Security Security { get; set; }

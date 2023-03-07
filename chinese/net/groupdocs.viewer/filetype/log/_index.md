@@ -3,7 +3,7 @@ title: LOG
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 日志文件 .log
 type: docs
-weight: 750
+weight: 800
 url: /zh/net/groupdocs.viewer/filetype/log/
 ---
 ## FileType.LOG field

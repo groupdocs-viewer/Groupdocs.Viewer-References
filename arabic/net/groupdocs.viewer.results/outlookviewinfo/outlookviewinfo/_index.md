@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/outlookviewinfo/outlookviewinfo/
 ---
-## OutlookViewInfo constructor
+## OutlookViewInfo() {#constructor}
 
 تهيئة مثيل جديد لـ[`OutlookViewInfo`](../../outlookviewinfo) فئة .
 
 ```csharp
-public OutlookViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public OutlookViewInfo()
+```
+
+### أنظر أيضا
+
+* class [OutlookViewInfo](../../outlookviewinfo)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../outlookviewinfo)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## OutlookViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+تهيئة مثيل جديد لـ[`OutlookViewInfo`](../../outlookviewinfo) فئة .
+
+```csharp
+public OutlookViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fileType | FileType | نوع الملف. |
-| pages | IList`1 | قائمة الصفحات لعرضها. |
-| folders | IList`1 | قائمة المجلدات التي يحتوي عليها ملف بيانات Outlook. |
+| pages | List`1 | قائمة الصفحات لعرضها. |
+| folders | List`1 | قائمة المجلدات التي يحتوي عليها ملف بيانات Outlook. |
 
 ### استثناءات
 

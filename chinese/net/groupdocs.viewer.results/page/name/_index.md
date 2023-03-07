@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/page/name/
 工作表或页面名称。
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### 也可以看看

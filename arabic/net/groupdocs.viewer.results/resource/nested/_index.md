@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/resource/nested/
 يشير إلى ما إذا كان المورد موجودًا داخل مورد آخر ، على سبيل المثال ، مورد الخط الموجود في مورد CSS أو SVG.
 
 ```csharp
-public bool Nested { get; }
+public bool Nested { get; set; }
 ```
 
 ### أنظر أيضا

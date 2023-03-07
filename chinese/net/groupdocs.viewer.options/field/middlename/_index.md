@@ -1,14 +1,14 @@
 ---
 title: MiddleName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是中间名
+description: 默认字段文本为中间名
 type: docs
 weight: 300
 url: /zh/net/groupdocs.viewer.options/field/middlename/
 ---
 ## Field.MiddleName field
 
-默认字段文本是“中间名”。
+默认字段文本为“中间名”。
 
 ```csharp
 public static readonly Field MiddleName;

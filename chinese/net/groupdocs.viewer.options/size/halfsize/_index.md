@@ -1,14 +1,14 @@
 ---
 title: HalfSize
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 适合页面的水印文本最大大小的一半
+description: 适合页面的最大水印文本大小的一半
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/size/halfsize/
 ---
 ## Size.HalfSize field
 
-适合页面的水印文本最大大小的一半。
+适合页面的最大水印文本大小的一半。
 
 ```csharp
 public static readonly Size HalfSize;

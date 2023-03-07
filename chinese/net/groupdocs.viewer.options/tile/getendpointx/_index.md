@@ -1,14 +1,14 @@
 ---
 title: GetEndPointX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回图块结束处的绘图右最高点的 X 坐标
+description: 返回图形上图块结束处最高点的 X 坐标
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.options/tile/getendpointx/
 ---
 ## Tile.GetEndPointX method
 
-返回图块结束处的绘图右最高点的 X 坐标。
+返回图形上图块结束处最高点的 X 坐标。
 
 ```csharp
 public int GetEndPointX()

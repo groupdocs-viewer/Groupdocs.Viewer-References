@@ -1,14 +1,14 @@
 ---
 title: EML
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 电子邮件 .eml 表示使用 Outlook 和其他相关应用程序保存的电子邮件几乎所有的电子邮件客户端都支持这种文件格式因为它符合 RFC822 Internet 消息格式标准 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/email/eml
+description: 电子邮件消息 .eml 表示使用 Outlook 和其他相关应用程序保存的电子邮件消息几乎所有电子邮件客户端都支持此文件格式因为它符合 RFC822 Internet 消息格式标准 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/email/eml
 type: docs
-weight: 390
+weight: 420
 url: /zh/net/groupdocs.viewer/filetype/eml/
 ---
 ## FileType.EML field
 
-电子邮件 (.eml) 表示使用 Outlook 和其他相关应用程序保存的电子邮件。几乎所有的电子邮件客户端都支持这种文件格式，因为它符合 RFC-822 Internet 消息格式标准。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/eml)
+电子邮件消息 (.eml) 表示使用 Outlook 和其他相关应用程序保存的电子邮件消息。几乎所有电子邮件客户端都支持此文件格式，因为它符合 RFC-822 Internet 消息格式标准。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/eml)
 
 ```csharp
 public static readonly FileType EML;

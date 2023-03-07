@@ -3,7 +3,7 @@ title: DCM
 second_title: GroupDocs.Viewer for .NET API 参考
 description: DICOM 图像 .dcm 表示存储患者医疗信息的数字图像例如 MRICT 扫描和超声图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/dcm
 type: docs
-weight: 220
+weight: 240
 url: /zh/net/groupdocs.viewer/filetype/dcm/
 ---
 ## FileType.DCM field

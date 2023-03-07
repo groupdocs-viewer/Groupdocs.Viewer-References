@@ -3,7 +3,7 @@ title: CDR
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: CorelDraw Vector Graphic Drawing .cdr هو ملف صورة رسم متجه تم إنشاؤه أصلاً باستخدام CorelDRAW لتخزين الصور الرقمية المشفرة والمضغوطة. يحتوي ملف الرسم هذا على نص وخطوط وأشكال وصور وألوان وتأثيرات للتمثيل المتجه لمحتويات الصورة. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/cdr .
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/groupdocs.viewer/filetype/cdr/
 ---
 ## FileType.CDR field

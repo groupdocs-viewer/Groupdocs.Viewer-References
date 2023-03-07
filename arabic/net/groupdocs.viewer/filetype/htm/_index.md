@@ -3,7 +3,7 @@ title: HTM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف لغة ترميز النص التشعبي .htm هو امتداد لصفحات الويب التي تم إنشاؤها للعرض في المستعرضات. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 570
+weight: 610
 url: /ar/net/groupdocs.viewer/filetype/htm/
 ---
 ## FileType.HTM field

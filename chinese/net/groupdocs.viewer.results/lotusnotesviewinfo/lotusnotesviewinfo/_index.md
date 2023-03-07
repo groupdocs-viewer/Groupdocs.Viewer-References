@@ -1,32 +1,48 @@
 ---
 title: LotusNotesViewInfo
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例LotusNotesViewInfogroupdocs.viewer.results/lotusnotesviewinfo类.
+description: 初始化新实例LotusNotesViewInfogroupdocs.viewer.results/lotusnotesviewinfo类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/lotusnotesviewinfo/lotusnotesviewinfo/
 ---
-## LotusNotesViewInfo constructor
+## LotusNotesViewInfo() {#constructor}
 
-初始化的新实例[`LotusNotesViewInfo`](../../lotusnotesviewinfo)类.
+初始化新实例[`LotusNotesViewInfo`](../../lotusnotesviewinfo)类.
 
 ```csharp
-public LotusNotesViewInfo(FileType fileType, IList<Page> pages, int notesCount)
+public LotusNotesViewInfo()
+```
+
+### 也可以看看
+
+* class [LotusNotesViewInfo](../../lotusnotesviewinfo)
+* 命名空间 [GroupDocs.Viewer.Results](../../lotusnotesviewinfo)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## LotusNotesViewInfo(FileType, List&lt;Page&gt;, int) {#constructor_1}
+
+初始化新实例[`LotusNotesViewInfo`](../../lotusnotesviewinfo)类.
+
+```csharp
+public LotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileType | FileType | 文件的类型。 |
-| pages | IList`1 | 要查看的页面列表。 |
-| notesCount | Int32 | Lotus 数据库存储文件包含的注释计数。 |
+| pages | List`1 | 要查看的页面列表。 |
+| notesCount | Int32 | Lotus 数据库存储文件中包含的注释计数。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*fileType*一片空白。 |
-| ArgumentNullException | 何时抛出*pages*一片空白。 |
-| ArgumentNullException | 何时抛出*notesCount*一片空白。 |
+| ArgumentNullException | 抛出时*fileType*一片空白。 |
+| ArgumentNullException | 抛出时*pages*一片空白。 |
+| ArgumentNullException | 抛出时*notesCount*一片空白。 |
 
 ### 也可以看看
 

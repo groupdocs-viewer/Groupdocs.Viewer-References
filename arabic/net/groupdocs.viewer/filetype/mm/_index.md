@@ -3,7 +3,7 @@ title: MM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف مصدر ObjectiveC  .mm
 type: docs
-weight: 830
+weight: 880
 url: /ar/net/groupdocs.viewer/filetype/mm/
 ---
 ## FileType.MM field

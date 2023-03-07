@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 要打开的文件类型
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/groupdocs.viewer.options/loadoptions/filetype/
 ---
 ## LoadOptions.FileType property

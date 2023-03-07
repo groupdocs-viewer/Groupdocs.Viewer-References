@@ -1,14 +1,14 @@
 ---
 title: PdfOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例PdfOptionsgroupdocs.viewer.options/pdfoptions类.
+description: 初始化新实例PdfOptionsgroupdocs.viewer.options/pdfoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/pdfoptions/pdfoptions/
 ---
 ## PdfOptions constructor
 
-初始化的新实例[`PdfOptions`](../../pdfoptions)类.
+初始化新实例[`PdfOptions`](../../pdfoptions)类.
 
 ```csharp
 public PdfOptions()

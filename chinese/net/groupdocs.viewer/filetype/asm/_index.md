@@ -3,7 +3,7 @@ title: ASM
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 汇编语言源代码文件 .asm
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/groupdocs.viewer/filetype/asm/
 ---
 ## FileType.ASM field

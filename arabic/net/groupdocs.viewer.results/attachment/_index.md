@@ -18,19 +18,20 @@ public class Attachment
 
 | اسم | وصف |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | تهيئة مثيل جديد لـ[`Attachment`](../attachment) فئة . |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | تهيئة مثيل جديد لـ[`Attachment`](../attachment) فئة . |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | تهيئة مثيل جديد لـ[`Attachment`](../attachment) فئة . |
+| [Attachment](attachment#constructor)() | تهيئة مثيل جديد لـ[`Attachment`](../attachment) فئة . |
+| [Attachment](attachment#constructor_1)(string, string) | تهيئة مثيل جديد لـ[`Attachment`](../attachment) فئة . |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | تهيئة مثيل جديد لـ[`Attachment`](../attachment) فئة . |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | تهيئة مثيل جديد لـ[`Attachment`](../attachment) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | اسم ملف المرفق. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docx أو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | نوع الملف المرفق. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | معرّف فريد للمرفق في سياق ملف واحد يحتوي على هذا المرفق . |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | حجم ملف المرفق بالبايت. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | اسم ملف المرفق. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docx أو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | نوع الملف المرفق. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | معرّف فريد للمرفق في سياق ملف واحد يحتوي على هذا المرفق . |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | حجم ملف المرفق بالبايت. |
 
 ## طُرق
 

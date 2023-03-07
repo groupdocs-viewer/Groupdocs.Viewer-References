@@ -3,7 +3,7 @@ title: FromExtension
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 将文件扩展名映射到文件类型
 type: docs
-weight: 1870
+weight: 1920
 url: /zh/net/groupdocs.viewer/filetype/fromextension/
 ---
 ## FileType.FromExtension method
@@ -20,7 +20,7 @@ public static FileType FromExtension(string extension)
 
 ### 返回值
 
-支持文件类型时返回，否则返回默认值[`Unknown`](../unknown)文件类型。
+当支持文件类型时返回它，否则返回默认值[`Unknown`](../unknown)文件类型。
 
 ### 也可以看看
 

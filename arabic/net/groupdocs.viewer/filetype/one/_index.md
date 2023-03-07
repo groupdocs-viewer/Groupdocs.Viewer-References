@@ -3,7 +3,7 @@ title: ONE
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: تم إنشاء مستند OneNote .one بواسطة تطبيق Microsoft OneNote. يتيح لك OneNote جمع المعلومات باستخدام التطبيق كما لو كنت تستخدم لوحة المسودة لتدوين الملاحظات . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/notetaking/one .
 type: docs
-weight: 960
+weight: 1010
 url: /ar/net/groupdocs.viewer/filetype/one/
 ---
 ## FileType.ONE field

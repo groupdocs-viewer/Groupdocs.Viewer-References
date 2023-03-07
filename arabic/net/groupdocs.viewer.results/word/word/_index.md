@@ -6,13 +6,29 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
+
+تهيئة مثيل جديد لـ[`Word`](../../word) فئة .
+
+```csharp
+public Word()
+```
+
+### أنظر أيضا
+
+* class [Word](../../word)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../word)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`Word`](../../word) فئة .
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | معامل | يكتب | وصف |
@@ -22,7 +38,7 @@ public Word(string word, double x, double y, double width, double height,
 | y | Double | إحداثي Y لأعلى نقطة يسرى على تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على كلمة. |
 | width | Double | عرض المستطيل الذي يحتوي على الكلمة. |
 | height | Double | ارتفاع المستطيل الذي يحتوي على الكلمة. |
-| characters | IList`1 | الأحرف التي تحتويها الكلمة. |
+| characters | List`1 | الأحرف التي تحتويها الكلمة. |
 
 ### استثناءات
 

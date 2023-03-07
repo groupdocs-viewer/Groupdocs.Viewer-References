@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 判断两个Layoutgroupdocs.viewer.results/layout对象是相同的
+description: 判断是否两个Layoutgroupdocs.viewer.results/layout对象是相同的
 type: docs
 weight: 80
 url: /zh/net/groupdocs.viewer.results/layout/op_equality/
 ---
 ## Layout Equality operator
 
-判断两个[`Layout`](../../layout)对象是相同的。
+判断是否两个[`Layout`](../../layout)对象是相同的。
 
 ```csharp
 public static bool operator ==(Layout left, Layout right)
@@ -16,7 +16,7 @@ public static bool operator ==(Layout left, Layout right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Layout | 剩下[`Layout`](../../layout)目的。 |
+| left | Layout | 左边[`Layout`](../../layout)目的。 |
 | right | Layout | 正确的[`Layout`](../../layout)目的。 |
 
 ### 返回值

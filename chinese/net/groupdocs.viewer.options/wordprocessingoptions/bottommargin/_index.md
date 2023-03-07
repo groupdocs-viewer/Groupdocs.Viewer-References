@@ -1,14 +1,14 @@
 ---
 title: BottomMargin
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 页面底部边缘和正文底部边界之间的距离以磅为单位
+description: 页面底部边缘与正文底部边界之间的距离以磅为单位
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/wordprocessingoptions/bottommargin/
 ---
 ## WordProcessingOptions.BottomMargin property
 
-页面底部边缘和正文底部边界之间的距离（以磅为单位）。
+页面底部边缘与正文底部边界之间的距离（以磅为单位）。
 
 ```csharp
 public float? BottomMargin { get; set; }

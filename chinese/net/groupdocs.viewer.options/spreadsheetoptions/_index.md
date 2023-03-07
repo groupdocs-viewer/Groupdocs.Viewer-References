@@ -20,11 +20,11 @@ public class SpreadsheetOptions
 | --- | --- |
 | [CountColumnsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countcolumnsperpage) { get; } | 将工作表拆分为页面时要包含在每个页面中的列数。 |
 | [CountRowsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countrowsperpage) { get; } | 将工作表拆分为页面时要包含在每个页面中的行数。 |
-| [DetectSeparator](../../groupdocs.viewer.options/spreadsheetoptions/detectseparator) { get; set; } | 检测分隔符（用于 CSV/TSV 文件）。 |
+| [DetectSeparator](../../groupdocs.viewer.options/spreadsheetoptions/detectseparator) { get; set; } | 检测分隔符（对于 CSV/TSV 文件）。 |
 | [RenderGridLines](../../groupdocs.viewer.options/spreadsheetoptions/rendergridlines) { get; set; } | 启用网格线渲染。 |
 | [RenderHeadings](../../groupdocs.viewer.options/spreadsheetoptions/renderheadings) { get; set; } | 启用标题渲染。 |
-| [RenderHiddenColumns](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddencolumns) { get; set; } | 启用隐藏列渲染。 |
-| [RenderHiddenRows](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddenrows) { get; set; } | 启用隐藏行渲染。 |
+| [RenderHiddenColumns](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddencolumns) { get; set; } | 启用隐藏列呈现。 |
+| [RenderHiddenRows](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddenrows) { get; set; } | 启用隐藏行呈现。 |
 | [SkipEmptyColumns](../../groupdocs.viewer.options/spreadsheetoptions/skipemptycolumns) { get; set; } | 禁用空列渲染。 |
 | [SkipEmptyRows](../../groupdocs.viewer.options/spreadsheetoptions/skipemptyrows) { get; set; } | 禁用空行渲染。 |
 | [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | 将电子表格文档呈现为 HTML 的文本溢出模式。 |
@@ -33,11 +33,11 @@ public class SpreadsheetOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | 初始化的新实例[`SpreadsheetOptions`](../spreadsheetoptions)用于将整个工作表渲染到页面中的类。 |
-| static [ForRenderingByPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks)() | 初始化的新实例[`SpreadsheetOptions`](../spreadsheetoptions)仅用于渲染打印区域。 |
-| static [ForRenderingPrintArea](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea)() | 初始化的新实例[`SpreadsheetOptions`](../spreadsheetoptions)仅用于渲染打印区域。 |
-| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages)(int) | 初始化的新实例[`SpreadsheetOptions`](../spreadsheetoptions)用于将工作表渲染到页面中。 |
-| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages_1)(int, int) | 初始化的新实例[`SpreadsheetOptions`](../spreadsheetoptions)用于将工作表渲染到页面中。 |
+| static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | 初始化新实例[`SpreadsheetOptions`](../spreadsheetoptions)将整张纸渲染成页面的类. |
+| static [ForRenderingByPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks)() | 初始化新实例[`SpreadsheetOptions`](../spreadsheetoptions)仅用于渲染打印区域。 |
+| static [ForRenderingPrintArea](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea)() | 初始化新实例[`SpreadsheetOptions`](../spreadsheetoptions)仅用于渲染打印区域。 |
+| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages)(int) | 初始化新实例[`SpreadsheetOptions`](../spreadsheetoptions)用于将工作表渲染成页面. |
+| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages_1)(int, int) | 初始化新实例[`SpreadsheetOptions`](../spreadsheetoptions)用于将工作表渲染成页面. |
 
 ### 也可以看看
 

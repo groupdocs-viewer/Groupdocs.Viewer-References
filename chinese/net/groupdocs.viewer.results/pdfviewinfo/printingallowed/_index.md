@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/pdfviewinfo/printingallowed/
 指示是否允许打印文档。
 
 ```csharp
-public bool PrintingAllowed { get; }
+public bool PrintingAllowed { get; set; }
 ```
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ItemsPerPage
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 每页的记录数仅用于呈现为 HTML
+description: 每页记录数仅用于呈现为 HTML
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/archiveoptions/itemsperpage/
 ---
 ## ArchiveOptions.ItemsPerPage property
 
-每页的记录数（仅用于呈现为 HTML）
+每页记录数（仅用于呈现为 HTML）
 
 ```csharp
 public int ItemsPerPage { get; set; }

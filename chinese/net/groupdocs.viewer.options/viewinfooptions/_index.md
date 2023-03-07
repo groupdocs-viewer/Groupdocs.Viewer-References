@@ -18,42 +18,42 @@ public class ViewInfoOptions : BaseViewOptions, IMaxSizeOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ArchiveOptions](../../groupdocs.viewer.options/baseviewoptions/archiveoptions) { get; set; } | 存档文件查看选项。 |
-| [CadOptions](../../groupdocs.viewer.options/baseviewoptions/cadoptions) { get; set; } | CAD 工程图视图选项。 |
+| [ArchiveOptions](../../groupdocs.viewer.options/baseviewoptions/archiveoptions) { get; set; } | 存档文件视图选项。 |
+| [CadOptions](../../groupdocs.viewer.options/baseviewoptions/cadoptions) { get; set; } | CAD 绘图视图选项。 |
 | [DefaultFontName](../../groupdocs.viewer.options/baseviewoptions/defaultfontname) { get; set; } | 找不到文档中使用的特定字体时使用的默认字体。 |
-| [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | 电子邮件消息视图选项。 |
-| [ExtractText](../../groupdocs.viewer.options/viewinfooptions/extracttext) { get; set; } | 表示启用文本提取。 |
+| [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | 电子邮件消息查看选项。 |
+| [ExtractText](../../groupdocs.viewer.options/viewinfooptions/extracttext) { get; set; } | 表示文本提取已启用。 |
 | [Height](../../groupdocs.viewer.options/viewinfooptions/height) { get; set; } | 图像高度（仅用于渲染为 PNG/JPG） |
 | [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | 邮件存储数据文件查看选项。 |
 | [MaxHeight](../../groupdocs.viewer.options/viewinfooptions/maxheight) { get; set; } | 输出图像的最大高度（仅用于渲染为 PNG/JPG） |
 | [MaxWidth](../../groupdocs.viewer.options/viewinfooptions/maxwidth) { get; set; } | 输出图像的最大宽度（仅用于渲染为 PNG/JPG） |
-| [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | MS Outlook 数据文件查看选项。 |
+| [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | MS Outlook 数据文件视图选项。 |
 | [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | PDF 文档查看选项。 |
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | 演示文稿处理文档视图选项。 |
-| [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | 项目管理文件查看选项。 |
-| [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | 启用呈现评论。 |
+| [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | 项目管理文件视图选项。 |
+| [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | 启用渲染注释。 |
 | [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | 启用隐藏页面的呈现。 |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | 启用渲染注释。 |
-| [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | 电子表格文件查看选项。 |
-| [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | 文本文件拆分到页面选项。 |
+| [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | 电子表格文件视图选项。 |
+| [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | 文本文件拆分为页面选项。 |
 | [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | Visio 文件处理文档视图选项。 |
 | [WebDocumentOptions](../../groupdocs.viewer.options/baseviewoptions/webdocumentoptions) { get; set; } | 此呈现选项使您能够在呈现 Web 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。 |
 | [Width](../../groupdocs.viewer.options/viewinfooptions/width) { get; set; } | 图像宽度（仅用于渲染为 PNG/JPG） |
-| [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | 此渲染选项使您能够在渲染 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。 |
+| [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | 此呈现选项使您能够在呈现 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview)() | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息 |
-| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview_1)(bool) | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息 |
-| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview)() | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)渲染成 JPG. 时检索视图信息的类 |
-| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview_1)(bool) | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)渲染成 JPG. 时检索视图信息的类 |
-| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview)() | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)类以在渲染为 PNG. 时检索有关视图的信息 |
-| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview_1)(bool) | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)类以在渲染为 PNG. 时检索有关视图的信息 |
-| static [FromHtmlViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions)(HtmlViewOptions) | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)基于类[`HtmlViewOptions`](../htmlviewoptions)对象. |
-| static [FromJpgViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions)(JpgViewOptions) | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)基于类[`JpgViewOptions`](../jpgviewoptions)对象. |
-| static [FromPngViewOptions](../../groupdocs.viewer.options/viewinfooptions/frompngviewoptions)(PngViewOptions) | 初始化的新实例[`ViewInfoOptions`](../viewinfooptions)基于类[`PngViewOptions`](../pngviewoptions)对象. |
+| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview)() | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息 |
+| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview_1)(bool) | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 HTML. 时检索有关视图的信息 |
+| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview)() | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 JPG. 时检索有关视图的信息 |
+| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview_1)(bool) | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 JPG. 时检索有关视图的信息 |
+| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview)() | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 PNG. 时检索有关视图的信息 |
+| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview_1)(bool) | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类以在呈现为 PNG. 时检索有关视图的信息 |
+| static [FromHtmlViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions)(HtmlViewOptions) | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类基于[`HtmlViewOptions`](../htmlviewoptions)对象. |
+| static [FromJpgViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions)(JpgViewOptions) | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类基于[`JpgViewOptions`](../jpgviewoptions)对象. |
+| static [FromPngViewOptions](../../groupdocs.viewer.options/viewinfooptions/frompngviewoptions)(PngViewOptions) | 初始化新实例[`ViewInfoOptions`](../viewinfooptions)类基于[`PngViewOptions`](../pngviewoptions)对象. |
 
 ### 也可以看看
 

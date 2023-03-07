@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 水印大小
+description: 水印大小.
 type: docs
 weight: 510
 url: /zh/net/groupdocs.viewer.options/size/
 ---
 ## Size class
 
-水印大小。
+水印大小.
 
 ```csharp
 public class Size
@@ -18,7 +18,7 @@ public class Size
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Size](size)(byte) | 初始化的新实例[`Size`](../size)类. |
+| [Size](size)(byte) | 初始化新实例[`Size`](../size)类. |
 
 ## 特性
 
@@ -30,9 +30,9 @@ public class Size
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [FullSize](../../groupdocs.viewer.options/size/fullsize) | 适合页面的水印文本的最大大小。 |
-| static readonly [HalfSize](../../groupdocs.viewer.options/size/halfsize) | 适合页面的水印文本最大大小的一半。 |
-| static readonly [OneThird](../../groupdocs.viewer.options/size/onethird) | 适合页面的水印文本最大尺寸的三分之一。 |
+| static readonly [FullSize](../../groupdocs.viewer.options/size/fullsize) | 适合页面的最大水印文本大小。 |
+| static readonly [HalfSize](../../groupdocs.viewer.options/size/halfsize) | 适合页面的最大水印文本大小的一半。 |
+| static readonly [OneThird](../../groupdocs.viewer.options/size/onethird) | 适合页面的最大水印文本大小的三分之一。 |
 
 ### 也可以看看
 

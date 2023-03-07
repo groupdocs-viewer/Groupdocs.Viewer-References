@@ -3,7 +3,7 @@ title: JSON
 second_title: GroupDocs.Viewer for .NET API 参考
 description: JavaScript 对象表示法文件 .json
 type: docs
-weight: 730
+weight: 780
 url: /zh/net/groupdocs.viewer/filetype/json/
 ---
 ## FileType.JSON field

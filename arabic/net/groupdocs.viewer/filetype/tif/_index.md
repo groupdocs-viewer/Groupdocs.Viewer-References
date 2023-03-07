@@ -3,7 +3,7 @@ title: TIF
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف الصور ذي العلامات .tif يمثل الصور النقطية المخصصة للاستخدام على مجموعة متنوعة من الأجهزة التي تتوافق مع معيار تنسيق الملف هذا. إنه قادر على وصف بيانات الصورة ذات المستوى الثنائي  والرمادي  واللون الملون  وبيانات الصور كاملة الألوان في العديد من مساحات الألوان. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 1490
+weight: 1540
 url: /ar/net/groupdocs.viewer/filetype/tif/
 ---
 ## FileType.TIF field

@@ -1,14 +1,14 @@
 ---
 title: Layers
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 要渲染的 CAD 绘图图层
+description: 要渲染的 CAD 绘图层
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.options/cadoptions/layers/
 ---
 ## CadOptions.Layers property
 
-要渲染的 CAD 绘图图层。
+要渲染的 CAD 绘图层。
 
 ```csharp
 public IList<Layer> Layers { get; set; }
@@ -16,7 +16,7 @@ public IList<Layer> Layers { get; set; }
 
 ### 评论
 
-默认情况下所有图层都被渲染； 图层名称区分大小写。
+默认情况下渲染所有图层； 图层名称区分大小写。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: OBJ
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Wavefront 3D Object File .obj 是 Wavefront Technologies 推出的 3D 图像文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/3d/obj/.
 type: docs
-weight: 910
+weight: 960
 url: /zh/net/groupdocs.viewer/filetype/obj/
 ---
 ## FileType.OBJ field

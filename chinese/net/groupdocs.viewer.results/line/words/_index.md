@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/line/words/
 该行包含的单词。
 
 ```csharp
-public IList<Word> Words { get; }
+public List<Word> Words { get; set; }
 ```
 
 ### 也可以看看

@@ -3,7 +3,7 @@ title: XLS
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: جدول بيانات Excel .xls يمثل تنسيق ملف Excel الثنائي. يمكن إنشاء مثل هذه الملفات بواسطة Microsoft Excel بالإضافة إلى برامج جداول البيانات المماثلة الأخرى مثل OpenOffice Calc أو Apple Numbers. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
-weight: 1750
+weight: 1800
 url: /ar/net/groupdocs.viewer/filetype/xls/
 ---
 ## FileType.XLS field

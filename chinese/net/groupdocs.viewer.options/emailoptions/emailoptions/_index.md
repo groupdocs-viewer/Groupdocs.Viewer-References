@@ -1,14 +1,14 @@
 ---
 title: EmailOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例EmailOptionsgroupdocs.viewer.options/emailoptions类.
+description: 初始化新实例EmailOptionsgroupdocs.viewer.options/emailoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/emailoptions/emailoptions/
 ---
 ## EmailOptions constructor
 
-初始化的新实例[`EmailOptions`](../../emailoptions)类.
+初始化新实例[`EmailOptions`](../../emailoptions)类.
 
 ```csharp
 public EmailOptions()

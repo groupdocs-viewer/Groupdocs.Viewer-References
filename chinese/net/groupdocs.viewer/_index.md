@@ -1,20 +1,20 @@
 ---
 title: GroupDocs.Viewer
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 命名空间提供了用于以 HTML5图像或 PDF 模式快速且高质量地呈现文档的类
+description: 命名空间提供用于以 HTML5图像或 PDF 模式快速且高质量地呈现文档的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer/
 ---
-命名空间提供了用于以 HTML5、图像或 PDF 模式快速且高质量地呈现文档的类。
+命名空间提供用于以 HTML5、图像或 PDF 模式快速且高质量地呈现文档的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [FileType](./filetype) | 表示文件类型。提供方法来获取所支持的所有文件类型的列表**GroupDocs.Viewer**. |
+| [FileType](./filetype) | 表示文件类型。提供获取所有支持的文件类型列表的方法**GroupDocs.查看器**. |
 | [License](./license) | 提供许可组件的方法。了解有关许可的更多信息[这里](https://purchase.groupdocs.com/faqs/licensing). |
-| [Metered](./metered) | 提供申请方法[计量的](https://purchase.groupdocs.com/faqs/licensing/metered)许可证. |
+| [Metered](./metered) | 提供应用方法[计量的](https://purchase.groupdocs.com/faqs/licensing/metered)许可证. |
 | [Viewer](./viewer) | 表示控制文档渲染过程的主类。 |
 | [ViewerSettings](./viewersettings) | 定义自定义设置[`Viewer`](../groupdocs.viewer/viewer)行为. |
 

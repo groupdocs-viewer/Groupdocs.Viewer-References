@@ -3,7 +3,7 @@ title: JPEG
 second_title: GroupDocs.Viewer for .NET API 参考
 description: JPEG 图像 .jpeg 是一种使用有损压缩方法保存的图像格式作为压缩的结果输出图像是存储大小和图像质量之间的权衡 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/jpeg
 type: docs
-weight: 670
+weight: 720
 url: /zh/net/groupdocs.viewer/filetype/jpeg/
 ---
 ## FileType.JPEG field

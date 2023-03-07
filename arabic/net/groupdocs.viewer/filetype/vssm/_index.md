@@ -3,7 +3,7 @@ title: VSSM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف الاستنسل الممكّن بماكرو Visio .vssm هي ملفات Microsoft Visio Stencil التي تدعم توفير الدعم لوحدات الماكرو. يسمح ملف VSSM عند فتحه بتشغيل وحدات الماكرو لتحقيق التنسيق المطلوب ووضع الأشكال في رسم تخطيطي . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vssm .
 type: docs
-weight: 1640
+weight: 1690
 url: /ar/net/groupdocs.viewer/filetype/vssm/
 ---
 ## FileType.VSSM field

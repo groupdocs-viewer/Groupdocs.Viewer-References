@@ -1,30 +1,18 @@
 ---
 title: Attachment
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Attachmentgroupdocs.viewer.results/attachment类.
+description: 初始化新实例Attachmentgroupdocs.viewer.results/attachment类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
 
-初始化的新实例[`Attachment`](../../attachment)类.
+初始化新实例[`Attachment`](../../attachment)类.
 
 ```csharp
-public Attachment(string fileName, string filePath)
+public Attachment()
 ```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| fileName | String | 附件文件名。 |
-| filePath | String | 附件相对路径，例如文件夹/文件.docx或文件名（当文件位于存档根目录、电子邮件消息或数据文件中时）。 |
-
-### 例外
-
-| 例外 | （健康）状况 |
-| --- | --- |
-| ArgumentException | 何时抛出*fileName*为空或为空。 |
-| ArgumentException | 何时抛出*filePath*为空或为空。 |
 
 ### 也可以看看
 
@@ -34,9 +22,37 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string) {#constructor_1}
 
-初始化的新实例[`Attachment`](../../attachment)类.
+初始化新实例[`Attachment`](../../attachment)类.
+
+```csharp
+public Attachment(string fileName, string filePath)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| fileName | String | 附件文件名。 |
+| filePath | String | 附件相对路径例如文件夹/文件.docx或文件名，当文件位于存档的根目录、电子邮件或数据文件中时。 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentException | 抛出时*fileName*为 null 或空。 |
+| ArgumentException | 抛出时*filePath*为 null 或空。 |
+
+### 也可以看看
+
+* class [Attachment](../../attachment)
+* 命名空间 [GroupDocs.Viewer.Results](../../attachment)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string, string, long) {#constructor_3}
+
+初始化新实例[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(string id, string fileName, string filePath, long size)
@@ -46,16 +62,16 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | 附件的唯一（在单个文件的上下文中）标识符。 |
 | fileName | String | 附件文件名。 |
-| filePath | String | 附件相对路径，例如文件夹/文件.docx或文件名（当文件位于存档根目录、电子邮件消息或数据文件中时）。 |
+| filePath | String | 附件相对路径例如文件夹/文件.docx或文件名，当文件位于存档的根目录、电子邮件或数据文件中时。 |
 | size | Int64 | 附件文件大小（以字节为单位）。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*id*为空或为空。 |
-| ArgumentException | 何时抛出*fileName*为空或为空。 |
-| ArgumentException | 何时抛出*filePath*为空或为空。 |
+| ArgumentException | 抛出时*id*为 null 或空。 |
+| ArgumentException | 抛出时*fileName*为 null 或空。 |
+| ArgumentException | 抛出时*filePath*为 null 或空。 |
 
 ### 也可以看看
 
@@ -65,9 +81,9 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
-初始化的新实例[`Attachment`](../../attachment)类.
+初始化新实例[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(string id, string fileName, string filePath, FileType fileType, long size)
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | 附件的唯一（在单个文件的上下文中）标识符。 |
 | fileName | String | 附件文件名。 |
-| filePath | String | 附件相对路径，例如文件夹/文件.docx或文件名（当文件位于存档根目录、电子邮件消息或数据文件中时）。 |
+| filePath | String | 附件相对路径例如文件夹/文件.docx或文件名，当文件位于存档的根目录、电子邮件或数据文件中时。 |
 | fileType | FileType | 附件文件类型。 |
 | size | Int64 | 附件文件大小（以字节为单位）。 |
 
@@ -85,10 +101,10 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*id*为空或为空。 |
-| ArgumentException | 何时抛出*fileName*为空或为空。 |
-| ArgumentException | 何时抛出*filePath*为空或为空。 |
-| ArgumentNullException | 何时抛出*fileType*一片空白。 |
+| ArgumentException | 抛出时*id*为 null 或空。 |
+| ArgumentException | 抛出时*fileName*为 null 或空。 |
+| ArgumentException | 抛出时*filePath*为 null 或空。 |
+| ArgumentNullException | 抛出时*fileType*一片空白。 |
 
 ### 也可以看看
 

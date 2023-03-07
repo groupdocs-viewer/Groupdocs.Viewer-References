@@ -3,7 +3,7 @@ title: VDW
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Visio Web 绘图 .vdw 表示指定呈现 Web 绘图所需的流和存储的文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/web/vdw.
 type: docs
-weight: 1570
+weight: 1620
 url: /zh/net/groupdocs.viewer/filetype/vdw/
 ---
 ## FileType.VDW field

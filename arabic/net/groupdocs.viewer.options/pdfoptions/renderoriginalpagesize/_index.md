@@ -3,7 +3,7 @@ title: RenderOriginalPageSize
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: عند تمكين هذا الخيار  سيكون لصفحات الإخراج نفس الحجم بالبكسل مثل حجم الصفحة في مستند PDF المصدر.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/groupdocs.viewer.options/pdfoptions/renderoriginalpagesize/
 ---
 ## PdfOptions.RenderOriginalPageSize property

@@ -1,14 +1,14 @@
 ---
 title: Email2
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是Email2
+description: 默认字段文本为Email2
 type: docs
 weight: 130
 url: /zh/net/groupdocs.viewer.options/field/email2/
 ---
 ## Field.Email2 field
 
-默认字段文本是“Email2”。
+默认字段文本为“Email2”。
 
 ```csharp
 public static readonly Field Email2;

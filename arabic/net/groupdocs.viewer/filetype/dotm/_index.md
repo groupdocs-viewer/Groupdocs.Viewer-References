@@ -3,7 +3,7 @@ title: DOTM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب مستند Word Open XML ممكّن بماكرو .dotm يمثل ملف قالب تم إنشاؤه باستخدام Microsoft Word 2007 أو أعلى . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 320
+weight: 340
 url: /ar/net/groupdocs.viewer/filetype/dotm/
 ---
 ## FileType.DOTM field

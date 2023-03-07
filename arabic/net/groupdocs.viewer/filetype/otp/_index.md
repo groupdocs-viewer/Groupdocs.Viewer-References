@@ -3,7 +3,7 @@ title: OTP
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب العرض التقديمي OpenDocument .otp يمثل ملفات قالب العرض التقديمي التي تم إنشاؤها بواسطة تطبيقات بتنسيق OASIS OpenDocument القياسي . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/presentation/otp .
 type: docs
-weight: 990
+weight: 1040
 url: /ar/net/groupdocs.viewer/filetype/otp/
 ---
 ## FileType.OTP field

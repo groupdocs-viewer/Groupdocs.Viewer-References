@@ -19,7 +19,7 @@ public interface IPageStreamFactory
 | 姓名 | 描述 |
 | --- | --- |
 | [CreatePageStream](../../groupdocs.viewer.interfaces/ipagestreamfactory/createpagestream)(int) | 创建用于写入输出页面数据的流。 |
-| [ReleasePageStream](../../groupdocs.viewer.interfaces/ipagestreamfactory/releasepagestream)(int, Stream) | 释放由创建的流[`CreatePageStream`](./createpagestream)方法. |
+| [ReleasePageStream](../../groupdocs.viewer.interfaces/ipagestreamfactory/releasepagestream)(int, Stream) | 释放创建的流[`CreatePageStream`](./createpagestream)方法. |
 
 ### 也可以看看
 

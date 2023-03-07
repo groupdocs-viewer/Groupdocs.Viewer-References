@@ -3,7 +3,7 @@ title: XLSM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Excel Open XML MacroEnabled Spreadsheet .xlsm هو نوع من ملفات Spreasheet التي تدعم وحدات الماكرو . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
-weight: 1770
+weight: 1820
 url: /ar/net/groupdocs.viewer/filetype/xlsm/
 ---
 ## FileType.XLSM field

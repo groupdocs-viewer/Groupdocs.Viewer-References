@@ -3,7 +3,7 @@ title: SevenZip
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: 7Zip .7z .7zip هو أرشيفي مجاني مفتوح المصدر بضغط LZMA و LZMA2 . تعرف على المزيد حول تنسيق الملف هذاهناhttps//docs.fileformat.com/compression/7z/ .
 type: docs
-weight: 1350
+weight: 1400
 url: /ar/net/groupdocs.viewer/filetype/sevenzip/
 ---
 ## FileType.SevenZip field

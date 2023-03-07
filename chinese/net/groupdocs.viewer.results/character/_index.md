@@ -1,14 +1,14 @@
 ---
 title: Character
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示相对定位的包含单个字符的矩形
+description: 表示包含单个字符的相对定位的矩形
 type: docs
 weight: 660
 url: /zh/net/groupdocs.viewer.results/character/
 ---
 ## Character class
 
-表示相对定位的包含单个字符的矩形。
+表示包含单个字符的相对定位的矩形。
 
 ```csharp
 public class Character : TextElement<char>
@@ -18,23 +18,24 @@ public class Character : TextElement<char>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Character](character)(char, double, double, double, double) | 初始化的新实例[`Character`](../character)类. |
+| [Character](character#constructor)() | 初始化新实例[`Character`](../character)类. |
+| [Character](character#constructor_1)(char, double, double, double, double) | 初始化新实例[`Character`](../character)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | 包含元素的矩形的高度（以像素为单位）。 |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | 元素值。 |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | 包含元素的矩形的宽度（以像素为单位）。 |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | 页面布局上左最高点的 X 坐标，其中包含元素的矩形开始。 |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | 包含元素的矩形开始的页面布局左最高点的 Y 坐标。 |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | 包含元素的矩形的高度（以像素为单位）。 |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | 元素值。 |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | 包含元素的矩形的宽度（以像素为单位）。 |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | 包含元素的矩形开始的页面布局左最高点的 X 坐标。 |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | 包含元素的矩形开始的页面布局上最左点的 Y 坐标。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/character/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/character/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

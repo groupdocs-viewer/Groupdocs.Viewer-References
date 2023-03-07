@@ -1,17 +1,17 @@
 ---
 title: Name
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 图层的名称
+description: 层的名称
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.results/layer/name/
 ---
 ## Layer.Name property
 
-图层的名称。
+层的名称。
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### 评论

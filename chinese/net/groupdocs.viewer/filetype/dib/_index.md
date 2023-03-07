@@ -3,7 +3,7 @@ title: DIB
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 设备独立位图文件 .dib
 type: docs
-weight: 240
+weight: 260
 url: /zh/net/groupdocs.viewer/filetype/dib/
 ---
 ## FileType.DIB field

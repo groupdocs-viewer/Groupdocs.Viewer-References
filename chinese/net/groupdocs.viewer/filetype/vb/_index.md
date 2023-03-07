@@ -3,12 +3,12 @@ title: VB
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Visual Basic 项目项文件 .vb 是用 Visual Basic 语言创建的源代码文件由 Microsoft 创建用于开发 .NET 应用程序 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/programming/vb
 type: docs
-weight: 1550
+weight: 1600
 url: /zh/net/groupdocs.viewer/filetype/vb/
 ---
 ## FileType.VB field
 
-Visual Basic 项目项文件 (.vb) 是用 Visual Basic 语言创建的源代码文件，由 Microsoft 创建，用于开发 .NET 应用程序。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/programming/vb)
+Visual Basic 项目项文件 (.vb) 是用 Visual Basic 语言创建的源代码文件，由 Microsoft 创建用于开发 .NET 应用程序。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/programming/vb)
 
 ```csharp
 public static readonly FileType VB;

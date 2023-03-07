@@ -3,7 +3,7 @@ title: CSV
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل ملف القيم المفصولة بفواصل .csv ملفات نصية عادية تحتوي على سجلات بيانات بقيم مفصولة بفواصل . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/csv .
 type: docs
-weight: 200
+weight: 220
 url: /ar/net/groupdocs.viewer/filetype/csv/
 ---
 ## FileType.CSV field

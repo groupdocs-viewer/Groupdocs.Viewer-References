@@ -1,14 +1,14 @@
 ---
 title: GZIP
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Gnu 压缩文件 .gzip 是作为免费实用程序引入的用于替换 Unix 系统中使用的压缩程序可以使用多个应用程序打开和提取此类文件例如在 Windows 和 MacOS 上都可用的 WinZip 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/compression/gz.
+description: Gnu Zipped File .gzip 是作为免费实用程序引入的用于替换 Unix 系统中使用的 Compress 程序此类文件可以使用多种应用程序打开和提取例如在 Windows 和 MacOS 上都可用的 WinZip 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/compression/gz.
 type: docs
-weight: 520
+weight: 560
 url: /zh/net/groupdocs.viewer/filetype/gzip/
 ---
 ## FileType.GZIP field
 
-Gnu 压缩文件 (.gzip) 是作为免费实用程序引入的，用于替换 Unix 系统中使用的压缩程序。可以使用多个应用程序打开和提取此类文件，例如在 Windows 和 MacOS 上都可用的 WinZip。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/compression/gz).
+Gnu Zipped File (.gzip) 是作为免费实用程序引入的，用于替换 Unix 系统中使用的 Compress 程序。此类文件可以使用多种应用程序打开和提取，例如在 Windows 和 MacOS 上都可用的 WinZip。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/compression/gz).
 
 ```csharp
 public static readonly FileType GZIP;

@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Viewer لمرجع .NET API
-description: Default_Constructor
+description: تهيئة مثيل جديد لـTextOptionsgroupdocs.viewer.options/textoptions فئة .
 type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-Default_Constructor
+تهيئة مثيل جديد لـ[`TextOptions`](../../textoptions) فئة .
 
 ```csharp
 public TextOptions()

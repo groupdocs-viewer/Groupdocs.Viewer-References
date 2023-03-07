@@ -3,7 +3,7 @@ title: PdfViewInfo
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل عرض المعلومات لمستند PDF .
 type: docs
-weight: 740
+weight: 750
 url: /ar/net/groupdocs.viewer.results/pdfviewinfo/
 ---
 ## PdfViewInfo class
@@ -18,15 +18,16 @@ public class PdfViewInfo : ViewInfo
 
 | اسم | وصف |
 | --- | --- |
-| [PdfViewInfo](pdfviewinfo)(FileType, IList&lt;Page&gt;, bool) | تهيئة مثيل جديد لـ[`PdfViewInfo`](../pdfviewinfo) فئة . |
+| [PdfViewInfo](pdfviewinfo#constructor)() | تهيئة مثيل جديد لـ[`PdfViewInfo`](../pdfviewinfo) فئة . |
+| [PdfViewInfo](pdfviewinfo#constructor_1)(FileType, List&lt;Page&gt;, bool) | تهيئة مثيل جديد لـ[`PdfViewInfo`](../pdfviewinfo) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | نوع الملف. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | قائمة الصفحات المراد عرضها . |
-| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; } | يشير إلى ما إذا كان يُسمح بطباعة المستند . |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | نوع الملف. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | قائمة الصفحات المراد عرضها . |
+| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; set; } | يشير إلى ما إذا كان يُسمح بطباعة المستند . |
 
 ## طُرق
 

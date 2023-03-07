@@ -3,7 +3,7 @@ title: XLSB
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يحدد جدول بيانات Excel الثنائي .xlsb تنسيق ملف Excel الثنائي  وهو عبارة عن مجموعة من السجلات والهياكل التي تحدد محتوى مصنف Excel. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/xlsb .
 type: docs
-weight: 1760
+weight: 1810
 url: /ar/net/groupdocs.viewer/filetype/xlsb/
 ---
 ## FileType.XLSB field

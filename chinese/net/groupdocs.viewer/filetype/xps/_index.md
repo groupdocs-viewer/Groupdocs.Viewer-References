@@ -1,14 +1,14 @@
 ---
 title: XPS
 second_title: GroupDocs.Viewer for .NET API 参考
-description: XML 纸张规范文件 .xps 表示基于 Microsoft 创建的 XML 纸张规范的页面布局文件此格式由 Microsoft 开发用于替代 EMF 文件格式类似于 PDF 文件格式但在文档的布局外观和打印信息中使用 XML 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/pagedescriptionlanguage/xps
+description: XML 纸张规格文件 .xps 表示基于 Microsoft 创建的 XML 纸张规格的页面布局文件此格式由 Microsoft 开发用于替代 EMF 文件格式类似于 PDF 文件格式但在文档的布局外观和打印信息中使用 XML 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/pagedescriptionlanguage/xps
 type: docs
-weight: 1830
+weight: 1880
 url: /zh/net/groupdocs.viewer/filetype/xps/
 ---
 ## FileType.XPS field
 
-XML 纸张规范文件 (.xps) 表示基于 Microsoft 创建的 XML 纸张规范的页面布局文件。此格式由 Microsoft 开发，用于替代 EMF 文件格式，类似于 PDF 文件格式，但在文档的布局、外观和打印信息中使用 XML。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/page-description-language/xps)
+XML 纸张规格文件 (.xps) 表示基于 Microsoft 创建的 XML 纸张规格的页面布局文件。此格式由 Microsoft 开发，用于替代 EMF 文件格式，类似于 PDF 文件格式，但在文档的布局、外观和打印信息中使用 XML。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/page-description-language/xps)
 
 ```csharp
 public static readonly FileType XPS;

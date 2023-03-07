@@ -1,14 +1,14 @@
 ---
 title: BusinessAddress
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是公司地址
+description: 默认字段文本为公司地址
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.options/field/businessaddress/
 ---
 ## Field.BusinessAddress field
 
-默认字段文本是“公司地址”。
+默认字段文本为“公司地址”。
 
 ```csharp
 public static readonly Field BusinessAddress;

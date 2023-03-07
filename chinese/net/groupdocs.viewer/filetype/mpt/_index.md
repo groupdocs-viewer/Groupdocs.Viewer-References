@@ -3,7 +3,7 @@ title: MPT
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Microsoft 项目模板 .mpt 包含基本信息和结构以及用于创建 .MPP 文件的文档设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/projectmanagement/mpt
 type: docs
-weight: 860
+weight: 910
 url: /zh/net/groupdocs.viewer/filetype/mpt/
 ---
 ## FileType.MPT field

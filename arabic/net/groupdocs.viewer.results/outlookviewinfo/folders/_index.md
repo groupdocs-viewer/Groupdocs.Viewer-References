@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/outlookviewinfo/folders/
 قائمة المجلدات التي يحتوي عليها ملف بيانات Outlook.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### أنظر أيضا

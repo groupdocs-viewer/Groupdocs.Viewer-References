@@ -1,14 +1,14 @@
 ---
 title: PdfViewOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions类.
+description: 初始化新实例PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/pdfviewoptions/pdfviewoptions/
 ---
 ## PdfViewOptions(CreateFileStream) {#constructor_1}
 
-初始化的新实例[`PdfViewOptions`](../../pdfviewoptions)类.
+初始化新实例[`PdfViewOptions`](../../pdfviewoptions)类.
 
 ```csharp
 public PdfViewOptions(CreateFileStream createFileStream)
@@ -22,7 +22,7 @@ public PdfViewOptions(CreateFileStream createFileStream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*createFileStream*一片空白。 |
+| ArgumentNullException | 抛出时*createFileStream*一片空白。 |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public PdfViewOptions(CreateFileStream createFileStream)
 
 ## PdfViewOptions(CreateFileStream, ReleaseFileStream) {#constructor_2}
 
-初始化的新实例[`PdfViewOptions`](../../pdfviewoptions)类.
+初始化新实例[`PdfViewOptions`](../../pdfviewoptions)类.
 
 ```csharp
 public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream releaseFileStream)
@@ -44,14 +44,14 @@ public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream relea
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | createFileStream | CreateFileStream | 实例化用于写入输出文件数据的流的方法。 |
-| releaseFileStream | ReleaseFileStream | 释放由分配给委托的方法创建的流的方法，该委托传递给*createFileStream*范围。 |
+| releaseFileStream | ReleaseFileStream | 释放由分配给传递给委托的方法创建的流的方法*createFileStream*范围。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*createFileStream*一片空白。 |
-| ArgumentNullException | 何时抛出*releaseFileStream*一片空白。 |
+| ArgumentNullException | 抛出时*createFileStream*一片空白。 |
+| ArgumentNullException | 抛出时*releaseFileStream*一片空白。 |
 
 ### 也可以看看
 
@@ -65,7 +65,7 @@ public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream relea
 
 ## PdfViewOptions(IFileStreamFactory) {#constructor_3}
 
-初始化的新实例[`PdfViewOptions`](../../pdfviewoptions)类.
+初始化新实例[`PdfViewOptions`](../../pdfviewoptions)类.
 
 ```csharp
 public PdfViewOptions(IFileStreamFactory fileStreamFactory)
@@ -79,7 +79,7 @@ public PdfViewOptions(IFileStreamFactory fileStreamFactory)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*fileStreamFactory*一片空白。 |
+| ArgumentNullException | 抛出时*fileStreamFactory*一片空白。 |
 
 ### 也可以看看
 
@@ -92,7 +92,7 @@ public PdfViewOptions(IFileStreamFactory fileStreamFactory)
 
 ## PdfViewOptions() {#constructor}
 
-初始化的新实例[`PdfViewOptions`](../../pdfviewoptions)类.
+初始化新实例[`PdfViewOptions`](../../pdfviewoptions)类.
 
 ```csharp
 public PdfViewOptions()
@@ -100,7 +100,7 @@ public PdfViewOptions()
 
 ### 评论
 
-此构造函数初始化[`PdfViewOptions`](../../pdfviewoptions) 使用“output.pdf”作为输出文件的文件路径格式。 输出文件将被放置到应用程序的当前工作目录中。
+此构造函数初始化的新实例[`PdfViewOptions`](../../pdfviewoptions) 以“output.pdf”作为输出文件的文件路径格式。 输出文件将放置在应用程序的当前工作目录中。
 
 ### 也可以看看
 
@@ -112,7 +112,7 @@ public PdfViewOptions()
 
 ## PdfViewOptions(string) {#constructor_4}
 
-初始化的新实例[`PdfViewOptions`](../../pdfviewoptions)类.
+初始化新实例[`PdfViewOptions`](../../pdfviewoptions)类.
 
 ```csharp
 public PdfViewOptions(string outputFilePath)
@@ -126,7 +126,7 @@ public PdfViewOptions(string outputFilePath)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*outputFilePath*为空或为空。 |
+| ArgumentException | 抛出时*outputFilePath*为 null 或空。 |
 
 ### 也可以看看
 

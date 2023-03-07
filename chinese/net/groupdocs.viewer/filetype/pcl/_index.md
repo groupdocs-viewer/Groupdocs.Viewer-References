@@ -3,7 +3,7 @@ title: PCL
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 打印机命令语言文档 .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /zh/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field

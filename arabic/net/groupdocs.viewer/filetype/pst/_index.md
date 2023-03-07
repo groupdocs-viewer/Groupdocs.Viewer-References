@@ -3,7 +3,7 @@ title: PST
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف مخزن المعلومات الشخصية في Outlook .pst يمثل ملفات التخزين الشخصية لـ Outlook تسمى أيضًا جدول التخزين الشخصي التي تخزن مجموعة متنوعة من معلومات المستخدم. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /ar/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field

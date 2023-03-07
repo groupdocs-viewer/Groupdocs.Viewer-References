@@ -1,14 +1,14 @@
 ---
 title: ShowTimeAs
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是时间显示为
+description: 默认字段文本为将时间显示为
 type: docs
 weight: 400
 url: /zh/net/groupdocs.viewer.options/field/showtimeas/
 ---
 ## Field.ShowTimeAs field
 
-默认字段文本是“时间显示为”。
+默认字段文本为“将时间显示为”。
 
 ```csharp
 public static readonly Field ShowTimeAs;

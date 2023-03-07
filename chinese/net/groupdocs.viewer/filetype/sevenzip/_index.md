@@ -1,14 +1,14 @@
 ---
 title: SevenZip
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 7Zip .7z .7zip 是具有 LZMA 和 LZMA2 压缩的免费开源存档器 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/7z/.
+description: 7Zip .7z .7zip 是免费的开源压缩器采用 LZMA 和 LZMA2 压缩 了解有关此文件格式的更多信息这里https//docs.fileformat.com/compression/7z/.
 type: docs
-weight: 1350
+weight: 1400
 url: /zh/net/groupdocs.viewer/filetype/sevenzip/
 ---
 ## FileType.SevenZip field
 
-7Zip (.7z, .7zip) 是具有 LZMA 和 LZMA2 压缩的免费开源存档器。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/7z/).
+7Zip (.7z, .7zip) 是免费的开源压缩器，采用 LZMA 和 LZMA2 压缩。 了解有关此文件格式的更多信息[这里](https://docs.fileformat.com/compression/7z/).
 
 ```csharp
 public static readonly FileType SevenZip;

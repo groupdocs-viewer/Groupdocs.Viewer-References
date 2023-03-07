@@ -1,14 +1,30 @@
 ---
 title: Character
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Charactergroupdocs.viewer.results/character类.
+description: 初始化新实例Charactergroupdocs.viewer.results/character类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/character/character/
 ---
-## Character constructor
+## Character() {#constructor}
 
-初始化的新实例[`Character`](../../character)类.
+初始化新实例[`Character`](../../character)类.
+
+```csharp
+public Character()
+```
+
+### 也可以看看
+
+* class [Character](../../character)
+* 命名空间 [GroupDocs.Viewer.Results](../../character)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Character(char, double, double, double, double) {#constructor_1}
+
+初始化新实例[`Character`](../../character)类.
 
 ```csharp
 public Character(char character, double x, double y, double width, double height)
@@ -16,9 +32,9 @@ public Character(char character, double x, double y, double width, double height
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| character | Char | 性格。 |
-| x | Double | 页面布局上左最高点的 X 坐标，其中包含字符的矩形开始。 |
-| y | Double | 包含字符的矩形开始的页面布局上左最高点的 Y 坐标。 |
+| character | Char | 人物。 |
+| x | Double | 包含字符的矩形开始的页面布局左最高点的 X 坐标。 |
+| y | Double | 包含字符的矩形开始的页面布局上最左点的 Y 坐标。 |
 | width | Double | 包含单个字符的矩形的宽度（以像素为单位）。 |
 | height | Double | 包含单个字符的矩形的高度（以像素为单位）。 |
 

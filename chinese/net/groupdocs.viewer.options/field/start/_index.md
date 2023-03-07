@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是开始
+description: 默认字段文本为开始
 type: docs
 weight: 420
 url: /zh/net/groupdocs.viewer.options/field/start/
 ---
 ## Field.Start field
 
-默认字段文本是“开始”。
+默认字段文本为“开始”。
 
 ```csharp
 public static readonly Field Start;

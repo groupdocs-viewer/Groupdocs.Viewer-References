@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/page/name/
 ورقة العمل أو اسم الصفحة .
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### أنظر أيضا

@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认构造函数
+description: 初始化新实例TextOptionsgroupdocs.viewer.options/textoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-默认构造函数。
+初始化新实例[`TextOptions`](../../textoptions)类.
 
 ```csharp
 public TextOptions()

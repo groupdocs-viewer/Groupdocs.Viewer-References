@@ -1,14 +1,14 @@
 ---
 title: Resolution
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 提供为输出文档中的图像设置分辨率的选项
+description: 提供设置输出文档中图像分辨率的选项
 type: docs
 weight: 480
 url: /zh/net/groupdocs.viewer.options/resolution/
 ---
 ## Resolution class
 
-提供为输出文档中的图像设置分辨率的选项。
+提供设置输出文档中图像分辨率的选项。
 
 ```csharp
 public class Resolution
@@ -30,10 +30,10 @@ public class Resolution
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [DocumentResolution](../../groupdocs.viewer.options/resolution/documentresolution) | 默认压缩级别 - 如文档中所示。 |
+| static readonly [DocumentResolution](../../groupdocs.viewer.options/resolution/documentresolution) | 默认压缩级别 - 如文档中所述。 |
 | static readonly [Dpi150](../../groupdocs.viewer.options/resolution/dpi150) | 适用于网页和投影仪。 |
-| static readonly [Dpi220](../../groupdocs.viewer.options/resolution/dpi220) | 在大多数打印机和屏幕上都表现出色。 |
-| static readonly [Dpi330](../../groupdocs.viewer.options/resolution/dpi330) | 高质量的高清 (HD) 显示器。 |
+| static readonly [Dpi220](../../groupdocs.viewer.options/resolution/dpi220) | 在大多数打印机和屏幕上质量都很好。 |
+| static readonly [Dpi330](../../groupdocs.viewer.options/resolution/dpi330) | 高清 (HD) 显示器的良好质量。 |
 | static readonly [Dpi72](../../groupdocs.viewer.options/resolution/dpi72) | 默认压缩级别。 |
 | static readonly [Dpi96](../../groupdocs.viewer.options/resolution/dpi96) | 适用于网页和投影仪。 |
 

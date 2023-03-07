@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | اسم | وصف |
 | --- | --- |
-| [Layout](layout)(string, float, float) | تهيئة مثيل جديد لـ[`Layout`](../layout) فئة . |
+| [Layout](layout#constructor)() | تهيئة مثيل جديد لـ[`Layout`](../layout) فئة . |
+| [Layout](layout#constructor_1)(string, float, float) | تهيئة مثيل جديد لـ[`Layout`](../layout) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | ارتفاع التخطيط . |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | اسم التخطيط . |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | عرض التخطيط . |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | ارتفاع التخطيط . |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | اسم التخطيط . |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | عرض التخطيط . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | يحدد ما إذا كان التيار[`Layout`](../layout)هو نفسه كما هو محدد[`Layout`](../layout) الكائن . |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | يحدد ما إذا كان التيار[`Layout`](../layout) هو نفسه كما هو محدد[`Layout`](../layout) الكائن . |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | يحدد ما إذا كان التيار[`Layout`](../layout) هو نفس الكائن المحدد. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | إرجاع كود التجزئة الحالي[`Layout`](../layout) الكائن . |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | إرجاع سلسلة تمثل الكائن الحالي. |

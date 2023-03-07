@@ -1,14 +1,14 @@
 ---
 title: ONE
 second_title: GroupDocs.Viewer for .NET API 参考
-description: OneNote 文档 .one 由 Microsoft OneNote 应用程序创建 OneNote 让您可以使用应用程序收集信息就像使用草稿板记笔记一样 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/notetaking/one
+description: OneNote 文档 .one 由 Microsoft OneNote 应用程序创建 OneNote 让您可以使用该应用程序收集信息就像您使用草稿本做笔记一样 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/notetaking/one
 type: docs
-weight: 960
+weight: 1010
 url: /zh/net/groupdocs.viewer/filetype/one/
 ---
 ## FileType.ONE field
 
-OneNote 文档 (.one) 由 Microsoft OneNote 应用程序创建。 OneNote 让您可以使用应用程序收集信息，就像使用草稿板记笔记一样。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/note-taking/one)
+OneNote 文档 (.one) 由 Microsoft OneNote 应用程序创建。 OneNote 让您可以使用该应用程序收集信息，就像您使用草稿本做笔记一样。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/note-taking/one)
 
 ```csharp
 public static readonly FileType ONE;

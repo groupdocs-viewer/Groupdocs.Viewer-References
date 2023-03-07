@@ -23,8 +23,8 @@ public void RotatePage(int pageNumber, Rotation rotation)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*pageNumber*小于或等于零。 |
-| ArgumentException | 旋转带有数字的页面时抛出*pageNumber*已经添加。 |
+| ArgumentException | 抛出时*pageNumber*小于或等于零。 |
+| ArgumentException | 旋转带有编号的页面时抛出*pageNumber*已经添加了。 |
 
 ### 也可以看看
 

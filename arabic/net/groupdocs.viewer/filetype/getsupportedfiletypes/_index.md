@@ -3,7 +3,7 @@ title: GetSupportedFileTypes
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: استرداد أنواع الملفات المدعومة
 type: docs
-weight: 1960
+weight: 2020
 url: /ar/net/groupdocs.viewer/filetype/getsupportedfiletypes/
 ---
 ## FileType.GetSupportedFileTypes method
