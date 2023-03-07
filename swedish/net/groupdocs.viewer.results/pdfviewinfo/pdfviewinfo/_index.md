@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/pdfviewinfo/pdfviewinfo/
 ---
-## PdfViewInfo constructor
+## PdfViewInfo() {#constructor}
 
 Initierar ny instans av[`PdfViewInfo`](../../pdfviewinfo) class.
 
 ```csharp
-public PdfViewInfo(FileType fileType, IList<Page> pages, bool printingAllowed)
+public PdfViewInfo()
+```
+
+### Se även
+
+* class [PdfViewInfo](../../pdfviewinfo)
+* namnutrymme [GroupDocs.Viewer.Results](../../pdfviewinfo)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewInfo(FileType, List&lt;Page&gt;, bool) {#constructor_1}
+
+Initierar ny instans av[`PdfViewInfo`](../../pdfviewinfo) class.
+
+```csharp
+public PdfViewInfo(FileType fileType, List<Page> pages, bool printingAllowed)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileType | FileType | Typen av fil. |
-| pages | IList`1 | Listan över sidor att visa. |
+| pages | List`1 | Listan över sidor att visa. |
 | printingAllowed | Boolean | Indikatorn för utskriftstillstånd. |
 
 ### Undantag

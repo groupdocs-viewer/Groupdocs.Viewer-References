@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/archiveviewinfo/archiveviewinfo/
 ---
-## ArchiveViewInfo constructor
+## ArchiveViewInfo() {#constructor}
 
 Initierar ny instans av[`ArchiveViewInfo`](../../archiveviewinfo) class.
 
 ```csharp
-public ArchiveViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public ArchiveViewInfo()
+```
+
+### Se även
+
+* class [ArchiveViewInfo](../../archiveviewinfo)
+* namnutrymme [GroupDocs.Viewer.Results](../../archiveviewinfo)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## ArchiveViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Initierar ny instans av[`ArchiveViewInfo`](../../archiveviewinfo) class.
+
+```csharp
+public ArchiveViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileType | FileType | Typen av fil. |
-| pages | IList`1 | Listan över sidor att visa. |
-| folders | IList`1 | Listan över mappar som finns i arkivfilen. |
+| pages | List`1 | Listan över sidor att visa. |
+| folders | List`1 | Listan över mappar som finns i arkivfilen. |
 
 ### Undantag
 

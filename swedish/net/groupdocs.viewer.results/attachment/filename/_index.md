@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/attachment/filename/
 Bifogad filnamn.
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### Se även

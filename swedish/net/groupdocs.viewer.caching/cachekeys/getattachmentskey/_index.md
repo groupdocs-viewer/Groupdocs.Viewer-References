@@ -16,7 +16,7 @@ public static string GetAttachmentsKey()
 
 ### Returvärde
 
-Unik identifierare för cache-posten som representerar insamling av[`Attachment`](../../../groupdocs.viewer.results/attachment) objekt.
+Unik identifierare för cache-posten som representerar insamling av[`Attachment`](../../../groupdocs.viewer.results/attachment) föremål.
 
 ### Se även
 

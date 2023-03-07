@@ -3,7 +3,7 @@ title: CHM
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Compiled HTML Help File .chm är ett välkänt format för HELPdokument dokumentation till vissa program. Läs mer om detta filformathärhttps//docs.fileformat.com/web/chm/ .
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/groupdocs.viewer/filetype/chm/
 ---
 ## FileType.CHM field

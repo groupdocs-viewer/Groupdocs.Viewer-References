@@ -3,7 +3,7 @@ title: MPX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Project Exchangefil .mpx är ett ASCIIfilformat för överföring av projektinformation mellan Microsoft Project MSP och andra applikationer som stöder MPXfilformatet som Primavera Project Planner Sciforma och Timerline Precision Estimating. Läs mer om detta filformathärhttps//wiki.fileformat.com/projectmanagement/mpx .
 type: docs
-weight: 870
+weight: 920
 url: /sv/net/groupdocs.viewer/filetype/mpx/
 ---
 ## FileType.MPX field

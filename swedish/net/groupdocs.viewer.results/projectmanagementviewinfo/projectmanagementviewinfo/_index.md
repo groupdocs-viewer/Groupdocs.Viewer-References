@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/projectmanagementviewinfo/projectmanagementviewinfo/
 ---
-## ProjectManagementViewInfo constructor
+## ProjectManagementViewInfo() {#constructor}
 
 Initierar ny instans av[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) class.
 
 ```csharp
-public ProjectManagementViewInfo(FileType fileType, IList<Page> pages, DateTime startDate, 
+public ProjectManagementViewInfo()
+```
+
+### Se även
+
+* class [ProjectManagementViewInfo](../../projectmanagementviewinfo)
+* namnutrymme [GroupDocs.Viewer.Results](../../projectmanagementviewinfo)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## ProjectManagementViewInfo(FileType, List&lt;Page&gt;, DateTime, DateTime) {#constructor_1}
+
+Initierar ny instans av[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) class.
+
+```csharp
+public ProjectManagementViewInfo(FileType fileType, List<Page> pages, DateTime startDate, 
     DateTime endDate)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileType | FileType | Typen av fil. |
-| pages | IList`1 | Listan över sidor att visa. |
+| pages | List`1 | Listan över sidor att visa. |
 | startDate | DateTime | Datumet från vilket projektet startade. |
 | endDate | DateTime | Datum tid då projektet ska slutföras. |
 

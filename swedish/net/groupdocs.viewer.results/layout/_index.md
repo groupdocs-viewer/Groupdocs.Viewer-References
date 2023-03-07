@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Initierar ny instans av[`Layout`](../layout) class. |
+| [Layout](layout#constructor)() | Initierar ny instans av[`Layout`](../layout) class. |
+| [Layout](layout#constructor_1)(string, float, float) | Initierar ny instans av[`Layout`](../layout) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | Layoutens höjd. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | Namnet på layouten. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | Layoutens bredd. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | Layoutens höjd. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | Namnet på layouten. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | Layoutens bredd. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Bestämmer om strömmen[`Layout`](../layout)är samma som specificerats[`Layout`](../layout) objekt. |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Bestämmer om strömmen[`Layout`](../layout) är samma som specificerat[`Layout`](../layout) objekt. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | Bestämmer om strömmen[`Layout`](../layout) är samma som specificerat objekt. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | Returnerar hashkoden för den aktuella[`Layout`](../layout) objekt. |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | Returnerar en sträng som representerar det aktuella objektet. |

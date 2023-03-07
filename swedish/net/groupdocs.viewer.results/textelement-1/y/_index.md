@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/textelement-1/y/
 Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar.
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### Se även

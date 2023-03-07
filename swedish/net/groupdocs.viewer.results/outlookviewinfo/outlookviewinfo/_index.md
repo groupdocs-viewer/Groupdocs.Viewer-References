@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/outlookviewinfo/outlookviewinfo/
 ---
-## OutlookViewInfo constructor
+## OutlookViewInfo() {#constructor}
 
 Initierar ny instans av[`OutlookViewInfo`](../../outlookviewinfo) class.
 
 ```csharp
-public OutlookViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public OutlookViewInfo()
+```
+
+### Se även
+
+* class [OutlookViewInfo](../../outlookviewinfo)
+* namnutrymme [GroupDocs.Viewer.Results](../../outlookviewinfo)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## OutlookViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Initierar ny instans av[`OutlookViewInfo`](../../outlookviewinfo) class.
+
+```csharp
+public OutlookViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileType | FileType | Typen av fil. |
-| pages | IList`1 | Listan över sidor att visa. |
-| folders | IList`1 | Listan över mappar som finns i Outlook-datafilen. |
+| pages | List`1 | Listan över sidor att visa. |
+| folders | List`1 | Listan över mappar som finns i Outlook-datafilen. |
 
 ### Undantag
 

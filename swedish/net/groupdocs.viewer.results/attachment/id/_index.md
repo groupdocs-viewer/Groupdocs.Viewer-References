@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/attachment/id/
 Unik identifierare för bilagan i sammanhanget för en enskild fil som innehåller denna bilaga.
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### Se även

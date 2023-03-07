@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/layout/width/
 Layoutens bredd.
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### Se även

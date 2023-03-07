@@ -3,7 +3,7 @@ title: WMZ
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Komprimerad Windows Metafile .wmz representerar Microsoft Windows Metafile WMF komprimerad i GZIP archvive  för att lagra vektor och bitmappsbilddata. Läs mer om detta filformathärhttps//fileinfo.com/extension/wmzcompressed_windows_metafile .
 type: docs
-weight: 1730
+weight: 1780
 url: /sv/net/groupdocs.viewer/filetype/wmz/
 ---
 ## FileType.WMZ field

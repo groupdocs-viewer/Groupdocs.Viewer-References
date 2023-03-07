@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/viewinfo/viewinfo/
 ---
-## ViewInfo constructor
+## ViewInfo() {#constructor}
 
 Initierar ny instans av[`ViewInfo`](../../viewinfo) class.
 
 ```csharp
-public ViewInfo(FileType fileType, IList<Page> pages)
+public ViewInfo()
+```
+
+### Se även
+
+* class [ViewInfo](../../viewinfo)
+* namnutrymme [GroupDocs.Viewer.Results](../../viewinfo)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## ViewInfo(FileType, List&lt;Page&gt;) {#constructor_1}
+
+Initierar ny instans av[`ViewInfo`](../../viewinfo) class.
+
+```csharp
+public ViewInfo(FileType fileType, List<Page> pages)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileType | FileType | Typen av fil. |
-| pages | IList`1 | Listan över sidor att visa. |
+| pages | List`1 | Listan över sidor att visa. |
 
 ### Undantag
 

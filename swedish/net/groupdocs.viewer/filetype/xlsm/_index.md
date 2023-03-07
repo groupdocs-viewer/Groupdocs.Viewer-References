@@ -3,7 +3,7 @@ title: XLSM
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Excel Open XML MacroEnabled Spreadsheet .xlsm är en typ av kalkylbladsfiler som stöder makron. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
-weight: 1770
+weight: 1820
 url: /sv/net/groupdocs.viewer/filetype/xlsm/
 ---
 ## FileType.XLSM field

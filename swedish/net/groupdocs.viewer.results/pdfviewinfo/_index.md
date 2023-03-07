@@ -3,7 +3,7 @@ title: PdfViewInfo
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar vyinformation för PDFdokument.
 type: docs
-weight: 740
+weight: 750
 url: /sv/net/groupdocs.viewer.results/pdfviewinfo/
 ---
 ## PdfViewInfo class
@@ -18,15 +18,16 @@ public class PdfViewInfo : ViewInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [PdfViewInfo](pdfviewinfo)(FileType, IList&lt;Page&gt;, bool) | Initierar ny instans av[`PdfViewInfo`](../pdfviewinfo) class. |
+| [PdfViewInfo](pdfviewinfo#constructor)() | Initierar ny instans av[`PdfViewInfo`](../pdfviewinfo) class. |
+| [PdfViewInfo](pdfviewinfo#constructor_1)(FileType, List&lt;Page&gt;, bool) | Initierar ny instans av[`PdfViewInfo`](../pdfviewinfo) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Typen av fil. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Listan över sidor att visa. |
-| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; } | Indikerar om utskrift av dokumentet är tillåtet. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Typen av fil. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Listan över sidor att visa. |
+| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; set; } | Indikerar om utskrift av dokumentet är tillåtet. |
 
 ## Metoder
 

@@ -18,14 +18,15 @@ public class FileInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileInfo](fileinfo)(FileType) | Initierar ny instans av[`FileType`](./filetype) class. |
+| [FileInfo](fileinfo#constructor)() | Initierar ny instans av[`FileType`](./filetype) class. |
+| [FileInfo](fileinfo#constructor_1)(FileType) | Initierar ny instans av[`FileType`](./filetype) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
 | [Encrypted](../../groupdocs.viewer.results/fileinfo/encrypted) { get; set; } | Indikerar att filen är krypterad. |
-| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; } | Typen av fil. |
+| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; set; } | Typen av fil. |
 
 ## Metoder
 

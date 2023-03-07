@@ -3,7 +3,7 @@ title: ViewInfo
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar vyinformation för generiskt dokument.
 type: docs
-weight: 780
+weight: 790
 url: /sv/net/groupdocs.viewer.results/viewinfo/
 ---
 ## ViewInfo class
@@ -18,14 +18,15 @@ public class ViewInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [ViewInfo](viewinfo)(FileType, IList&lt;Page&gt;) | Initierar ny instans av[`ViewInfo`](../viewinfo) class. |
+| [ViewInfo](viewinfo#constructor)() | Initierar ny instans av[`ViewInfo`](../viewinfo) class. |
+| [ViewInfo](viewinfo#constructor_1)(FileType, List&lt;Page&gt;) | Initierar ny instans av[`ViewInfo`](../viewinfo) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Typen av fil. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Listan över sidor att visa. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Typen av fil. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Listan över sidor att visa. |
 
 ## Metoder
 

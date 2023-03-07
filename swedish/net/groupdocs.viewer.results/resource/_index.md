@@ -3,7 +3,7 @@ title: Resource
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar HTMLresurs som typsnitt stil bild eller grafik.
 type: docs
-weight: 760
+weight: 770
 url: /sv/net/groupdocs.viewer.results/resource/
 ---
 ## Resource class
@@ -18,14 +18,15 @@ public class Resource
 
 | namn | Beskrivning |
 | --- | --- |
-| [Resource](resource)(string, bool) | Skapar ny instans av[`Resource`](../resource) class. |
+| [Resource](resource#constructor)() | Skapar ny instans av[`Resource`](../resource) class. |
+| [Resource](resource#constructor_1)(string, bool) | Skapar ny instans av[`Resource`](../resource) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/resource/filename) { get; } | Resursfilens namn. |
-| [Nested](../../groupdocs.viewer.results/resource/nested) { get; } | Anger om resursen finns i en annan resurs, t.ex. teckensnittsresurs som finns i CSS- eller SVG-resurs. |
+| [FileName](../../groupdocs.viewer.results/resource/filename) { get; set; } | Resursfilens namn. |
+| [Nested](../../groupdocs.viewer.results/resource/nested) { get; set; } | Anger om resursen finns i en annan resurs, t.ex. teckensnittsresurs som finns i CSS- eller SVG-resurs. |
 
 ## Metoder
 

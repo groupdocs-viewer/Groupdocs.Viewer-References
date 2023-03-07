@@ -3,7 +3,7 @@ title: GZIP
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Gnu Zipped File .gzip introducerades som ett gratis verktyg för att ersätta Compressprogrammet som används i Unixsystem. Sådana filer kan öppnas och extraheras med ett flertal applikationer som WinZip som är tillgängligt på både Windows och MacOS. Läs mer om detta filformathärhttps//wiki.fileformat.com/compression/gz .
 type: docs
-weight: 520
+weight: 560
 url: /sv/net/groupdocs.viewer/filetype/gzip/
 ---
 ## FileType.GZIP field

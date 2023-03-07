@@ -3,7 +3,7 @@ title: EMF
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Enhanced Windows Metafile .emf representerar grafiska bilder enhetsoberoende. Metafiler av EMF består av poster med variabel längd i kronologisk ordning som kan återge den lagrade bilden efter analys på valfri utenhet. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 380
+weight: 410
 url: /sv/net/groupdocs.viewer/filetype/emf/
 ---
 ## FileType.EMF field

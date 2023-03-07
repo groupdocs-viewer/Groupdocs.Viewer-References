@@ -3,7 +3,7 @@ title: TEX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: LaTeX källdokument .tex är ett språk som består av både programmering och uppmärkningsfunktioner som används för att sätta in dokument. Läs mer om detta filformathärhttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
 type: docs
-weight: 1460
+weight: 1510
 url: /sv/net/groupdocs.viewer/filetype/tex/
 ---
 ## FileType.TEX field

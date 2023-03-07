@@ -3,7 +3,7 @@ title: XLTM
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Excel MacroEnabled Mall .xltm representerar filer som genereras av Microsoft Excel som makroaktiverade mallfiler. XLTMfiler liknar XLTX i annan struktur än att de senare inte stöder att skapa mallfiler med makron. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
-weight: 1800
+weight: 1850
 url: /sv/net/groupdocs.viewer/filetype/xltm/
 ---
 ## FileType.XLTM field

@@ -3,7 +3,7 @@ title: PST
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Outlook Personal Information Store File .pst representerar Outlook Personal Storage Files även kallad Personal Storage Table som lagrar olika användarinformation. Läs mer om detta filformathärhttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /sv/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field

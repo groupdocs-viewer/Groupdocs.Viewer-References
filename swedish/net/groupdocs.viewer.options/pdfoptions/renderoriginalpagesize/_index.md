@@ -3,7 +3,7 @@ title: RenderOriginalPageSize
 second_title: GroupDocs.Viewer för .NET API-referens
 description: När det här alternativet är aktiverat kommer utgående sidor att ha samma storlek i pixlar som sidstorleken i ett PDFkälldokument. Som standard beräknar GroupDocs.Viewer utdatabildens sidstorlek för bättre renderingskvalitet.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/groupdocs.viewer.options/pdfoptions/renderoriginalpagesize/
 ---
 ## PdfOptions.RenderOriginalPageSize property

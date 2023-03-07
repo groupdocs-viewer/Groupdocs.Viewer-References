@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Lösenordet för att öppna krypterad fil.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

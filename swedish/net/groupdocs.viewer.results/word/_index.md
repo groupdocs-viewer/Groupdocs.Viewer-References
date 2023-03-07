@@ -3,7 +3,7 @@ title: Word
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar relativt placerad rektangel som innehåller ett enda ord.
 type: docs
-weight: 790
+weight: 800
 url: /sv/net/groupdocs.viewer.results/word/
 ---
 ## Word class
@@ -18,18 +18,19 @@ public class Word : TextElement<string>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Word](word)(string, double, double, double, double, IList&lt;Character&gt;) | Initierar ny instans av[`Word`](../word) class. |
+| [Word](word#constructor)() | Initierar ny instans av[`Word`](../word) class. |
+| [Word](word#constructor_1)(string, double, double, double, double, List&lt;Character&gt;) | Initierar ny instans av[`Word`](../word) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Characters](../../groupdocs.viewer.results/word/characters) { get; } | Tecken som ordet innehåller. |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Höjden på rektangeln som innehåller elementet (i pixlar). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Elementvärdet. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Bredden på rektangeln som innehåller elementet (i pixlar). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | X-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
+| [Characters](../../groupdocs.viewer.results/word/characters) { get; set; } | Tecken som ordet innehåller. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Höjden på rektangeln som innehåller elementet (i pixlar). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Elementvärdet. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Bredden på rektangeln som innehåller elementet (i pixlar). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | X-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
 
 ## Metoder
 

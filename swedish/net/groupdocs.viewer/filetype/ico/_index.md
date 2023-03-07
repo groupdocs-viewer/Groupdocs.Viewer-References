@@ -3,7 +3,7 @@ title: ICO
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Icon File .ico är bildfiltyper som används som ikon för representation av ett program på Microsoft Windows. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 590
+weight: 630
 url: /sv/net/groupdocs.viewer/filetype/ico/
 ---
 ## FileType.ICO field

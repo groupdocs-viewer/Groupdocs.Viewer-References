@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Bestämmer om tvåFileTypegroupdocs.viewer/filetype objekt är inte samma sak.
 type: docs
-weight: 1980
+weight: 2040
 url: /sv/net/groupdocs.viewer/filetype/op_inequality/
 ---
 ## FileType Inequality operator

@@ -3,7 +3,7 @@ title: DOT
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Worddokumentmall .dot är mallfiler skapade av Microsoft Word för att ha förformaterade inställningar för generering av ytterligare DOC eller DOCXfiler. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/dot .
 type: docs
-weight: 310
+weight: 330
 url: /sv/net/groupdocs.viewer/filetype/dot/
 ---
 ## FileType.DOT field

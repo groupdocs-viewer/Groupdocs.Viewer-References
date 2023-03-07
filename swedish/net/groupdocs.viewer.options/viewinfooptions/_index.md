@@ -37,7 +37,7 @@ public class ViewInfoOptions : BaseViewOptions, IMaxSizeOptions
 | [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | Visningsalternativen för kalkylarksfiler. |
 | [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | Textfiler som delar upp till sidoralternativ. |
 | [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | Visio-filer som behandlar dokumentvyalternativ. |
-| [WebDocumentOptions](../../groupdocs.viewer.options/baseviewoptions/webdocumentoptions) { get; set; } | De här renderingsalternativen gör att du kan anpassa utseendet på HTML/PDF/PNG/JPEG-utdata när du renderar webbdokument. |
+| [WebDocumentOptions](../../groupdocs.viewer.options/baseviewoptions/webdocumentoptions) { get; set; } | Med de här renderingsalternativen kan du anpassa utseendet på utdata HTML/PDF/PNG/JPEG när du renderar webbdokument. |
 | [Width](../../groupdocs.viewer.options/viewinfooptions/width) { get; set; } | Bildbredd (endast för rendering till PNG/JPG) |
 | [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | Med de här renderingsalternativen kan du anpassa utseendet på utdata HTML/PDF/PNG/JPEG när du renderar Word-dokument. |
 
@@ -49,8 +49,8 @@ public class ViewInfoOptions : BaseViewOptions, IMaxSizeOptions
 | static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview_1)(bool) | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass för att hämta information om vy vid rendering till HTML. |
 | static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview)() | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass för att hämta information om visning vid rendering till JPG. |
 | static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview_1)(bool) | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass för att hämta information om visning vid rendering till JPG. |
-| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview)() | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions)klass för att hämta information om vy vid rendering till PNG. |
-| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview_1)(bool) | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions)klass för att hämta information om vy vid rendering till PNG. |
+| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview)() | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass för att hämta information om vy vid rendering till PNG. |
+| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview_1)(bool) | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass för att hämta information om vy vid rendering till PNG. |
 | static [FromHtmlViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions)(HtmlViewOptions) | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass baserat på[`HtmlViewOptions`](../htmlviewoptions) objekt. |
 | static [FromJpgViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions)(JpgViewOptions) | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass baserat på[`JpgViewOptions`](../jpgviewoptions) objekt. |
 | static [FromPngViewOptions](../../groupdocs.viewer.options/viewinfooptions/frompngviewoptions)(PngViewOptions) | Initierar ny instans av[`ViewInfoOptions`](../viewinfooptions) klass baserat på[`PngViewOptions`](../pngviewoptions) objekt. |

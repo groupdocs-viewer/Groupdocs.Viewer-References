@@ -3,7 +3,7 @@ title: TAR
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Consolidated Unix File Archive .tar är arkiv skapade med Unixbaserat verktyg för att samla in en eller flera filer. Läs mer om detta filformathärhttps//wiki.fileformat.com/compression/tar .
 type: docs
-weight: 1430
+weight: 1480
 url: /sv/net/groupdocs.viewer/filetype/tar/
 ---
 ## FileType.TAR field

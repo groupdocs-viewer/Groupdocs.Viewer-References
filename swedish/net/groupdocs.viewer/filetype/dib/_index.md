@@ -3,7 +3,7 @@ title: DIB
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Enhetsoberoende bitmappsfil .dib
 type: docs
-weight: 240
+weight: 260
 url: /sv/net/groupdocs.viewer/filetype/dib/
 ---
 ## FileType.DIB field

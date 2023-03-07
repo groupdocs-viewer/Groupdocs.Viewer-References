@@ -3,7 +3,7 @@ title: DOTM
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Word Open XML MacroEnabled Document Template .dotm representerar mallfil skapad med Microsoft Word 2007 eller högre. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/dotm .
 type: docs
-weight: 320
+weight: 340
 url: /sv/net/groupdocs.viewer/filetype/dotm/
 ---
 ## FileType.DOTM field

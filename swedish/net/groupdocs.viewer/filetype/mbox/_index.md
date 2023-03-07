@@ -3,7 +3,7 @@ title: MBOX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Email Mailbox File .mbox Läs mer om detta filformathärhttps//fileinfo.com/extension/mbox .
 type: docs
-weight: 780
+weight: 830
 url: /sv/net/groupdocs.viewer/filetype/mbox/
 ---
 ## FileType.MBOX field

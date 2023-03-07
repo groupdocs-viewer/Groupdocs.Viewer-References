@@ -18,17 +18,18 @@ public class Character : TextElement<char>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Character](character)(char, double, double, double, double) | Initierar ny instans av[`Character`](../character) class. |
+| [Character](character#constructor)() | Initierar ny instans av[`Character`](../character) class. |
+| [Character](character#constructor_1)(char, double, double, double, double) | Initierar ny instans av[`Character`](../character) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Höjden på rektangeln som innehåller elementet (i pixlar). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Elementvärdet. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Bredden på rektangeln som innehåller elementet (i pixlar). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | X-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Höjden på rektangeln som innehåller elementet (i pixlar). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Elementvärdet. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Bredden på rektangeln som innehåller elementet (i pixlar). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | X-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
 
 ## Metoder
 

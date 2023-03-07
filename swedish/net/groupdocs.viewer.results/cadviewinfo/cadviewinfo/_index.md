@@ -11,15 +11,15 @@ url: /sv/net/groupdocs.viewer.results/cadviewinfo/cadviewinfo/
 Initierar ny instans av[`CadViewInfo`](../../cadviewinfo) class.
 
 ```csharp
-public CadViewInfo(FileType fileType, IList<Page> pages, IList<Layer> layers, IList<Layout> layouts)
+public CadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileType | FileType | Typen av fil. |
-| pages | IList`1 | Listan över sidor att visa. |
-| layers | IList`1 | Listan över lager som ingår i CAD-ritningen. |
-| layouts | IList`1 | Listan över lager som ingår i CAD-ritningen. |
+| pages | List`1 | Listan över sidor att visa. |
+| layers | List`1 | Listan över lager som ingår i CAD-ritningen. |
+| layouts | List`1 | Listan över lager som ingår i CAD-ritningen. |
 
 ### Undantag
 

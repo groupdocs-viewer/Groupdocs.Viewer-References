@@ -3,7 +3,7 @@ title: SCM
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Schemekällkodsfil .scm
 type: docs
-weight: 1330
+weight: 1380
 url: /sv/net/groupdocs.viewer/filetype/scm/
 ---
 ## FileType.SCM field

@@ -3,7 +3,7 @@ title: DWT
 second_title: GroupDocs.Viewer för .NET API-referens
 description: AutoCAD Drawing Template .dwt är en AutoCAD ritmallsfil som används som start för att skapa ritningar som kan sparas som DWGfiler. Läs mer om detta filformathärhttps//wiki.fileformat.com/cad/dwt .
 type: docs
-weight: 360
+weight: 390
 url: /sv/net/groupdocs.viewer/filetype/dwt/
 ---
 ## FileType.DWT field

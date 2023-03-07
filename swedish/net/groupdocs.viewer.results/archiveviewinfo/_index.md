@@ -18,15 +18,16 @@ public class ArchiveViewInfo : ViewInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [ArchiveViewInfo](archiveviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Initierar ny instans av[`ArchiveViewInfo`](../archiveviewinfo) class. |
+| [ArchiveViewInfo](archiveviewinfo#constructor)() | Initierar ny instans av[`ArchiveViewInfo`](../archiveviewinfo) class. |
+| [ArchiveViewInfo](archiveviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Initierar ny instans av[`ArchiveViewInfo`](../archiveviewinfo) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Typen av fil. |
-| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; } | Mapparna som finns i arkivfilen. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Listan över sidor att visa. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Typen av fil. |
+| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; set; } | Mapparna som finns i arkivfilen. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Listan över sidor att visa. |
 
 ## Metoder
 

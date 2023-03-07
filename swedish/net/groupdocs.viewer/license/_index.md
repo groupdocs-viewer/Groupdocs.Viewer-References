@@ -31,7 +31,7 @@ public class License
 
 **Läs mer**
 
-* Mer om licensiering: [Vanliga frågor om GroupDocs-licensering](https://purchase.groupdocs.com/faqs/licensing)
+* Mer om licensiering: [Vanliga frågor om GroupDocs-licensiering](https://purchase.groupdocs.com/faqs/licensing)
 * Mer om GroupDocs.Viewer-licensiering: [Utvärderingsbegränsningar och licensiering](https://docs.groupdocs.com/display/viewernet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Viewer)
 
 ### Se även

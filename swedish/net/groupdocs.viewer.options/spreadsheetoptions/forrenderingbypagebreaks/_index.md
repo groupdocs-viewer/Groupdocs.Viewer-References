@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### Returvärde
 
-Ny instans av[`SpreadsheetOptions`](../../spreadsheetoptions)för rendering genom sidbrytningar. Beteende som liknar utskrift i Excel.
+Ny instans av[`SpreadsheetOptions`](../../spreadsheetoptions) för rendering genom sidbrytningar. Beteende som liknar utskrift i Excel.
 
 ### Se även
 

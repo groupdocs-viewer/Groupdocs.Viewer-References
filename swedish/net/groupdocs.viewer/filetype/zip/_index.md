@@ -3,7 +3,7 @@ title: ZIP
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Zippad fil .zip representerar arkiv som kan innehålla en eller flera filer eller kataloger. Läs mer om detta filformathärhttps//wiki.fileformat.com/compression/zip .
 type: docs
-weight: 1860
+weight: 1910
 url: /sv/net/groupdocs.viewer/filetype/zip/
 ---
 ## FileType.ZIP field

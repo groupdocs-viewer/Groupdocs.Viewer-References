@@ -3,7 +3,7 @@ title: Page
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar en sida som kan visas.
 type: docs
-weight: 730
+weight: 740
 url: /sv/net/groupdocs.viewer.results/page/
 ---
 ## Page class
@@ -18,23 +18,24 @@ public class Page
 
 | namn | Beskrivning |
 | --- | --- |
-| [Page](page#constructor)(int, bool) | Initierar ny instans av[`Page`](../page) class. |
-| [Page](page#constructor_3)(int, string, bool) | Initierar ny instans av[`Page`](../page) class. |
-| [Page](page#constructor_1)(int, bool, int, int) | Initierar ny instans av[`Page`](../page) class. |
-| [Page](page#constructor_2)(int, bool, int, int, IList&lt;Line&gt;) | Initierar ny instans av[`Page`](../page) class. |
-| [Page](page#constructor_4)(int, string, bool, int, int) | Initierar ny instans av[`Page`](../page) class. |
-| [Page](page#constructor_5)(int, string, bool, int, int, IList&lt;Line&gt;) | Initierar ny instans av[`Page`](../page) class. |
+| [Page](page#constructor)() | Initierar ny instans av[`Page`](../page) class. |
+| [Page](page#constructor_1)(int, bool) | Initierar ny instans av[`Page`](../page) class. |
+| [Page](page#constructor_4)(int, string, bool) | Initierar ny instans av[`Page`](../page) class. |
+| [Page](page#constructor_2)(int, bool, int, int) | Initierar ny instans av[`Page`](../page) class. |
+| [Page](page#constructor_3)(int, bool, int, int, List&lt;Line&gt;) | Initierar ny instans av[`Page`](../page) class. |
+| [Page](page#constructor_5)(int, string, bool, int, int) | Initierar ny instans av[`Page`](../page) class. |
+| [Page](page#constructor_6)(int, string, bool, int, int, List&lt;Line&gt;) | Initierar ny instans av[`Page`](../page) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/page/height) { get; } | Höjden på sidan i pixlar när den visas som JPG eller PNG. |
-| [Lines](../../groupdocs.viewer.results/page/lines) { get; } | Raderna som sidan innehåller när den visas som JPG eller PNG med aktiverad textextraktion. |
-| [Name](../../groupdocs.viewer.results/page/name) { get; } | Kalkylbladet eller sidnamnet. |
-| [Number](../../groupdocs.viewer.results/page/number) { get; } | Sidnumret. |
-| [Visible](../../groupdocs.viewer.results/page/visible) { get; } | Sidans synlighetsindikator. |
-| [Width](../../groupdocs.viewer.results/page/width) { get; } | Sidans bredd i pixlar när den visas som JPG eller PNG. |
+| [Height](../../groupdocs.viewer.results/page/height) { get; set; } | Höjden på sidan i pixlar när den visas som JPG eller PNG. |
+| [Lines](../../groupdocs.viewer.results/page/lines) { get; set; } | Raderna som sidan innehåller när den visas som JPG eller PNG med aktiverad textextraktion. |
+| [Name](../../groupdocs.viewer.results/page/name) { get; set; } | Kalkylbladet eller sidnamnet. |
+| [Number](../../groupdocs.viewer.results/page/number) { get; set; } | Sidnumret. |
+| [Visible](../../groupdocs.viewer.results/page/visible) { get; set; } | Sidans synlighetsindikator. |
+| [Width](../../groupdocs.viewer.results/page/width) { get; set; } | Sidans bredd i pixlar när den visas som JPG eller PNG. |
 
 ## Metoder
 

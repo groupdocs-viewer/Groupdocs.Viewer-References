@@ -14,12 +14,19 @@ Representerar filtyp. Ger metoder för att få en lista över alla filtyper som 
 public sealed class FileType : IEquatable<FileType>
 ```
 
+## Konstruktörer
+
+| namn | Beskrivning |
+| --- | --- |
+| [FileType](filetype#constructor)() | Initierar ny instans av[`FileType`](../filetype) class. |
+| [FileType](filetype#constructor_1)(string, string) | Initierar ny instans av[`FileType`](../filetype) class. |
+
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Extension](../../groupdocs.viewer/filetype/extension) { get; } | Filnamnssuffix (inklusive perioden ".") t.ex. ".doc". |
-| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; } | Filtypsnamn t.ex. "Microsoft Word Document". |
+| [Extension](../../groupdocs.viewer/filetype/extension) { get; set; } | Filnamnssuffix (inklusive perioden ".") t.ex. ".doc". |
+| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; set; } | Filtypsnamn t.ex. "Microsoft Word Document". |
 
 ## Metoder
 
@@ -32,10 +39,12 @@ public sealed class FileType : IEquatable<FileType>
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_1)(Stream, ILogger) | Upptäcker filtyp genom att läsa filsignaturen. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_2)(Stream, string) | Upptäcker filtyp genom att läsa filsignaturen. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_3)(Stream, string, ILogger) | Upptäcker filtyp genom att läsa filsignaturen. |
-| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Bestämmer om strömmen[`FileType`](../filetype)är samma som specificerats[`FileType`](../filetype) objekt. |
+| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Bestämmer om strömmen[`FileType`](../filetype) är samma som specificerat[`FileType`](../filetype) objekt. |
 | override [Equals](../../groupdocs.viewer/filetype/equals#equals_1)(object) | Bestämmer om strömmen[`FileType`](../filetype) är samma som specificerat objekt. |
 | override [GetHashCode](../../groupdocs.viewer/filetype/gethashcode)() | Returnerar hashkoden för den aktuella[`FileType`](../filetype) objekt. |
 | override [ToString](../../groupdocs.viewer/filetype/tostring)() | Returnerar en sträng som representerar det aktuella objektet. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding)(Stream) | Försök att upptäcka text[`TXT`](./txt) ,[`TSV`](./tsv) , och[`CSV`](./csv) filkodning efter stream. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding_1)(string) | Försök att upptäcka text[`TXT`](./txt) ,[`TSV`](./tsv) , och[`CSV`](./csv)filer som kodar efter sökväg. |
 | static [GetSupportedFileTypes](../../groupdocs.viewer/filetype/getsupportedfiletypes)() | Hämtar filtyper som stöds |
 | [operator ==](../../groupdocs.viewer/filetype/op_equality) | Bestämmer om två[`FileType`](../filetype) objekten är desamma. |
 | [operator !=](../../groupdocs.viewer/filetype/op_inequality) | Bestämmer om två[`FileType`](../filetype) objekt är inte samma sak. |
@@ -60,6 +69,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [CHM](../../groupdocs.viewer/filetype/chm) | Microsoft Compiled HTML Help File (.chm) är ett välkänt format för HELP-dokument (dokumentation till vissa program). Läs mer om detta filformat[här](https://docs.fileformat.com/web/chm/) . |
 | static readonly [CMAKE](../../groupdocs.viewer/filetype/cmake) | CMake-fil (.cmake) |
 | static readonly [CMX](../../groupdocs.viewer/filetype/cmx) | Corel Exchange (.cmx) är en ritbildsfil som kan innehålla såväl vektorgrafik som bitmappsgrafik. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/cmx) . |
+| static readonly [CPIO](../../groupdocs.viewer/filetype/cpio) | Cpio är ett allmänt filarkiveringsverktyg och dess tillhörande filformat. Det är främst installerat på Unix-liknande datoroperativsystem. Läs mer om detta filformat[här](https://wiki.fileformat.com/compression/cpio) . |
 | static readonly [CPP](../../groupdocs.viewer/filetype/cpp) | C++ källkodsfil (.cpp) |
 | static readonly [CS](../../groupdocs.viewer/filetype/cs) | C# källkodsfil (.cs) är en källkodsfil för programmeringsspråket C#. Introducerad av Microsoft för användning med .NET Framework. Läs mer om detta filformat[här](https://wiki.fileformat.com/programming/cs) . |
 | static readonly [CSS](../../groupdocs.viewer/filetype/css) | Cascading Style Sheet (.css) |
@@ -78,6 +88,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [DOTM](../../groupdocs.viewer/filetype/dotm) | Word Open XML Macro-Enabled Document Template (.dotm) representerar mallfil skapad med Microsoft Word 2007 eller högre. Läs mer om detta filformat[här](https://wiki.fileformat.com/word-processing/dotm) . |
 | static readonly [DOTX](../../groupdocs.viewer/filetype/dotx) | Word Open XML Document Template (.dotx) är mallfiler skapade av Microsoft Word för att ha förformaterade inställningar för generering av ytterligare DOCX-filer. Läs mer om detta filformat[här](https://wiki.fileformat.com/word-processing/dotx) . |
 | static readonly [DWF](../../groupdocs.viewer/filetype/dwf) | Design Web Format File (.dwf) representerar 2D/3D-ritning i komprimerat format för att visa, granska eller skriva ut designfiler. Den innehåller grafik och text som en del av designdata och minskar storleken på filen på grund av dess komprimerade format. Läs mer om detta filformat[här](https://wiki.fileformat.com/cad/dwf) . |
+| static readonly [DWFX](../../groupdocs.viewer/filetype/dwfx) | Design Web Format File XPS (.dwfx) representerar 2D/3D-ritning som XPS-dokument i komprimerat format för att visa, granska eller skriva ut designfiler. Den innehåller grafik och text som en del av designdata och minskar storleken på filen på grund av dess komprimerade format. Läs mer om detta filformat[här](https://wiki.fileformat.com/cad/dwfx) . |
 | static readonly [DWG](../../groupdocs.viewer/filetype/dwg) | AutoCAD Drawing Database File (.dwg) representerar proprietära binära filer som används för att innehålla 2D- och 3D-designdata. Liksom DXF, som är ASCII-filer, representerar DWG det binära filformatet för CAD-ritningar (Computer Aided Design). Läs mer om detta filformat[här](https://wiki.fileformat.com/cad/dwg) . |
 | static readonly [DWT](../../groupdocs.viewer/filetype/dwt) | AutoCAD Drawing Template (.dwt) är en AutoCAD ritmallsfil som används som start för att skapa ritningar som kan sparas som DWG-filer. Läs mer om detta filformat[här](https://wiki.fileformat.com/cad/dwt) . |
 | static readonly [DXF](../../groupdocs.viewer/filetype/dxf) | Drawing Exchange Format File (.dxf) är en taggad datarepresentation av AutoCAD-ritningsfil. Läs mer om detta filformat[här](https://wiki.fileformat.com/cad/dxf) . |
@@ -89,6 +100,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [EPUB](../../groupdocs.viewer/filetype/epub) | Open eBook File (.epub) är ett e-boksfilformat som tillhandahåller ett standardformat för digitala publikationer för förlag och konsumenter. Formatet har varit så vanligt vid det här laget att det stöds av många e-läsare och program. Läs mer om detta filformat[här](https://wiki.fileformat.com/ebook/epub) . |
 | static readonly [ERB](../../groupdocs.viewer/filetype/erb) | Ruby ERB Script (.erb) |
 | static readonly [Excel2003XML](../../groupdocs.viewer/filetype/excel2003xml) | Excel 2003 XML (SpreadsheetML) representerar Excel Binary File Format. Sådana filer kan skapas av Microsoft Excel såväl som andra liknande kalkylprogram som OpenOffice Calc eller Apple Numbers. Läs mer om detta filformat[här](https://wiki.fileformat.com/spreadsheet/xls) . |
+| static readonly [FBX](../../groupdocs.viewer/filetype/fbx) | Autodesk FBX Interchange File (FilmBoX) (.fbx) representerar 3D-modellformat. Läs mer om detta filformat[här](https://wiki.fileformat.com/cad/fbx) . |
 | static readonly [FODG](../../groupdocs.viewer/filetype/fodg) | Platt XML ODF-mall (.fodg) används av Apache OpenOffices Draw-applikation för att lagra ritelement som en vektorbild. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/fodg) . |
 | static readonly [FODP](../../groupdocs.viewer/filetype/fodp) | OpenDocument Presentation (.fodp) representerar OpenDocument Flat XML Presentation. Läs mer om detta filformat[här](https://fileinfo.com/extension/fodp) . |
 | static readonly [FODS](../../groupdocs.viewer/filetype/fods) | OpenDocument Flat XML-kalkylblad (.fods) |
@@ -108,6 +120,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | JPEG 2000 Code Stream (.j2c) |
 | static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) är en bild som komprimeras med hjälp av wavelet-komprimering istället för DCT-komprimering. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/j2k) . |
 | static readonly [JAVA](../../groupdocs.viewer/filetype/java) | Java-källkodsfil (.java) |
+| static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
 | static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) är ett bildkodningssystem och en toppmodern bildkomprimeringsstandard. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/jp2) . |
 | static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | JPEG 2000 Code Stream (.jpc) |
 | static readonly [JPEG](../../groupdocs.viewer/filetype/jpeg) | JPEG-bild (.jpeg) är en typ av bildformat som sparas med metoden för förlustkomprimering. Utdatabilden, som ett resultat av komprimering, är en kompromiss mellan lagringsstorlek och bildkvalitet. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/jpeg) . |
@@ -153,7 +166,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [PLT](../../groupdocs.viewer/filetype/plt) | PLT (HPGL) (.plt) är en vektorbaserad plotterfil introducerad av Autodesk, Inc. och innehåller information för en viss CAD-fil. Plottdetaljer kräver noggrannhet och precision i produktionen, och användning av PLT-fil garanterar detta eftersom alla bilder skrivs ut med linjer istället för prickar. Läs mer om detta filformat[här](https://wiki.fileformat.com/cad/plt) . |
 | static readonly [PNG](../../groupdocs.viewer/filetype/png) | Portable Network Graphic (.png) är en typ av rasterbildsfilformat som använder förlustfri komprimering. Det här filformatet skapades som en ersättning för Graphics Interchange Format (GIF) och har inga upphovsrättsliga begränsningar. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/png) . |
 | static readonly [POT](../../groupdocs.viewer/filetype/pot) | PowerPoint-mall (.pot) representerar Microsoft PowerPoint-mallfiler skapade av PowerPoint 97-2003-versioner. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/pot) . |
-| static readonly [POTM](../../groupdocs.viewer/filetype/potm) | PowerPoint Open XML Makro-aktiverad presentationsmall (.potm) är Microsoft PowerPoint-mallfiler med stöd för makron. POTM-filer skapas med PowerPoint 2007 eller högre och innehåller standardinställningar som kan användas för att skapa ytterligare presentationsfiler. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/potm) . |
+| static readonly [POTM](../../groupdocs.viewer/filetype/potm) | PowerPoint Open XML Makro-aktiverad presentationsmall (.potm) är Microsoft PowerPoint-mallfiler med stöd för makron. POTM-filer skapas med PowerPoint 2007 eller senare och innehåller standardinställningar som kan användas för att skapa ytterligare presentationsfiler. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/potm) . |
 | static readonly [POTX](../../groupdocs.viewer/filetype/potx) | PowerPoint Open XML-presentationsmall (.potx) representerar Microsoft PowerPoint-mallpresentationer som skapats med Microsoft PowerPoint 2007 och senare. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/potx) . |
 | static readonly [PPS](../../groupdocs.viewer/filetype/pps) | PowerPoint-bildspel (.pps) skapas med Microsoft PowerPoint för bildspel. PPS-filläsning och skapande stöds av Microsoft PowerPoint 97-2003. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/pps) . |
 | static readonly [PPSM](../../groupdocs.viewer/filetype/ppsm) | PowerPoint Open XML Macro-Enabled Slide (.ppsm) representerar Macro-enabled Slide Show-filformat skapat med Microsoft PowerPoint 2007 eller högre. Läs mer om detta filformat[här](https://wiki.fileformat.com/presentation/ppsm) . |
@@ -214,7 +227,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [VSTX](../../groupdocs.viewer/filetype/vstx) | Visio Drawing Template (.vstx) är ritmallsfiler skapade med Microsoft Visio 2013 och senare. Dessa VSTX-filer ger en startpunkt för att skapa Visio-ritningar, sparade som .VSDX-filer, med standardlayout och inställningar. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/vstx) . |
 | static readonly [VSX](../../groupdocs.viewer/filetype/vsx) | Visio Stencil XML File (.vsx) hänvisar till schabloner som består av ritningar och former som används för att skapa diagram i Microsoft Visio. VSX-filer sparas i XML-filformat och stöddes till Visio 2013. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/vsx) . |
 | static readonly [VTX](../../groupdocs.viewer/filetype/vtx) | Visio Template XML File (.vtx) är en Microsoft Visio ritmall som sparas på skiva i XML-filformat. Mallen syftar till att tillhandahålla en fil med grundläggande inställningar som kan användas för att skapa flera Visio-filer med samma inställningar. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/vtx) . |
-| static readonly [WEBP](../../groupdocs.viewer/filetype/webp) | WebP Image (.webp) är ett modernt rasterwebbbildsfilformat som är baserat på förlustfri och förlustfri komprimering. Det ger samma bildkvalitet samtidigt som det minskar bildstorleken avsevärt. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/webp) . |
+| static readonly [WEBP](../../groupdocs.viewer/filetype/webp) | WebP Image (.webp) är ett modernt rasterwebbbildfilformat som är baserat på förlustfri och förlustfri komprimering. Den ger samma bildkvalitet samtidigt som den minskar bildstorleken avsevärt. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/webp) . |
 | static readonly [WMF](../../groupdocs.viewer/filetype/wmf) | Windows Metafile (.wmf) representerar Microsoft Windows Metafile (WMF) för lagring av vektor- och bitmappsbilddata. Läs mer om detta filformat[här](https://wiki.fileformat.com/image/wmf) . |
 | static readonly [WMZ](../../groupdocs.viewer/filetype/wmz) | Komprimerad Windows Metafile (.wmz) representerar Microsoft Windows Metafile (WMF) komprimerad i GZIP archvive - för att lagra vektor- och bitmappsbilddata. Läs mer om detta filformat[här](https://fileinfo.com/extension/wmz#compressed_windows_metafile) . |
 | static readonly [XLAM](../../groupdocs.viewer/filetype/xlam) | Microsoft Excel-tillägg (.xlam) |

@@ -3,7 +3,7 @@ title: MPP
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Project File .mpp är Microsoft Projectdatafil som lagrar information relaterad till projektledning på ett integrerat sätt. Läs mer om detta filformathärhttps//wiki.fileformat.com/projectmanagement/mpp .
 type: docs
-weight: 850
+weight: 900
 url: /sv/net/groupdocs.viewer/filetype/mpp/
 ---
 ## FileType.MPP field

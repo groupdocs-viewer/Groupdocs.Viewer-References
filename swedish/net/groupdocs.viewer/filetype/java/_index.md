@@ -3,7 +3,7 @@ title: JAVA
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Javakällkodsfil .java
 type: docs
-weight: 640
+weight: 680
 url: /sv/net/groupdocs.viewer/filetype/java/
 ---
 ## FileType.JAVA field

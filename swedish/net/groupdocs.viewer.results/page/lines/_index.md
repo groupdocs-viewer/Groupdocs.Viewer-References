@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/page/lines/
 Raderna som sidan innehåller när den visas som JPG eller PNG med aktiverad textextraktion.
 
 ```csharp
-public IList<Line> Lines { get; }
+public List<Line> Lines { get; set; }
 ```
 
 ### Se även

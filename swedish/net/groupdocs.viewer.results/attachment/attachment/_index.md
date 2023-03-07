@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+Initierar ny instans av[`Attachment`](../../attachment) class.
+
+```csharp
+public Attachment()
+```
+
+### Se även
+
+* class [Attachment](../../attachment)
+* namnutrymme [GroupDocs.Viewer.Results](../../attachment)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 Initierar ny instans av[`Attachment`](../../attachment) class.
 
@@ -17,7 +33,7 @@ public Attachment(string fileName, string filePath)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Bifogad filnamn. |
-| filePath | String | Anknytningsrelativ väg t.exmapp/fil.docxeller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
+| filePath | String | Anknytningsrelativ väg t.exmapp/fil.docx eller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
 
 ### Undantag
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 Initierar ny instans av[`Attachment`](../../attachment) class.
 
@@ -46,7 +62,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | Unik (i samband med en enda fil) identifierare för bilagan. |
 | fileName | String | Bifogad filnamn. |
-| filePath | String | Anknytningsrelativ väg t.exmapp/fil.docxeller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
+| filePath | String | Anknytningsrelativ väg t.exmapp/fil.docx eller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
 | size | Int64 | Bifogad filstorlek i byte. |
 
 ### Undantag
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 Initierar ny instans av[`Attachment`](../../attachment) class.
 
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | Unik (i samband med en enda fil) identifierare för bilagan. |
 | fileName | String | Bifogad filnamn. |
-| filePath | String | Anknytningsrelativ väg t.exmapp/fil.docxeller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
+| filePath | String | Anknytningsrelativ väg t.exmapp/fil.docx eller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
 | fileType | FileType | Bilaga filtyp. |
 | size | Int64 | Bifogad filstorlek i byte. |
 

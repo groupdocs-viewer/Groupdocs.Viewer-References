@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/lotusnotesviewinfo/notescount/
 Anteckningar räknas i lagringsutrymme
 
 ```csharp
-public int NotesCount { get; }
+public int NotesCount { get; set; }
 ```
 
 ### Se även

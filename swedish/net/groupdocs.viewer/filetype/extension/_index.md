@@ -3,7 +3,7 @@ title: Extension
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Filnamnssuffix inklusive perioden . t.ex. .doc.
 type: docs
-weight: 1910
+weight: 1960
 url: /sv/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer/filetype/extension/
 Filnamnssuffix (inklusive perioden ".") t.ex. ".doc".
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### Se även

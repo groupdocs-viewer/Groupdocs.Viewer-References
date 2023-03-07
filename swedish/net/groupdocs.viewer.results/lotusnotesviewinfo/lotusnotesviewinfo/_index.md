@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/lotusnotesviewinfo/lotusnotesviewinfo/
 ---
-## LotusNotesViewInfo constructor
+## LotusNotesViewInfo() {#constructor}
 
 Initierar ny instans av[`LotusNotesViewInfo`](../../lotusnotesviewinfo) class.
 
 ```csharp
-public LotusNotesViewInfo(FileType fileType, IList<Page> pages, int notesCount)
+public LotusNotesViewInfo()
+```
+
+### Se även
+
+* class [LotusNotesViewInfo](../../lotusnotesviewinfo)
+* namnutrymme [GroupDocs.Viewer.Results](../../lotusnotesviewinfo)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## LotusNotesViewInfo(FileType, List&lt;Page&gt;, int) {#constructor_1}
+
+Initierar ny instans av[`LotusNotesViewInfo`](../../lotusnotesviewinfo) class.
+
+```csharp
+public LotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileType | FileType | Typen av fil. |
-| pages | IList`1 | Listan över sidor att visa. |
+| pages | List`1 | Listan över sidor att visa. |
 | notesCount | Int32 | Antalet anteckningar som finns i Lotus-databaslagringsfilen. |
 
 ### Undantag

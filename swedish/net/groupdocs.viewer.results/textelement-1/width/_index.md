@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/textelement-1/width/
 Bredden på rektangeln som innehåller elementet (i pixlar).
 
 ```csharp
-public double Width { get; }
+public double Width { get; set; }
 ```
 
 ### Se även

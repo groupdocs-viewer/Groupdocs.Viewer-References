@@ -3,7 +3,7 @@ title: SASS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Syntactically Awesome StyleSheetsfil .sass
 type: docs
-weight: 1310
+weight: 1360
 url: /sv/net/groupdocs.viewer/filetype/sass/
 ---
 ## FileType.SASS field

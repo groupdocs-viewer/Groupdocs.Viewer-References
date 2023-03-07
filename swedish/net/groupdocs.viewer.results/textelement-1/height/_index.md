@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/textelement-1/height/
 Höjden på rektangeln som innehåller elementet (i pixlar).
 
 ```csharp
-public double Height { get; }
+public double Height { get; set; }
 ```
 
 ### Se även

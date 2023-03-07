@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/attachment/filetype/
 Bilaga filtyp.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### Se även

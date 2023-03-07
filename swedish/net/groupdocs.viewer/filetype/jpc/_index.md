@@ -3,7 +3,7 @@ title: JPC
 second_title: GroupDocs.Viewer för .NET API-referens
 description: JPEG 2000 Code Stream .jpc
 type: docs
-weight: 660
+weight: 710
 url: /sv/net/groupdocs.viewer/filetype/jpc/
 ---
 ## FileType.JPC field

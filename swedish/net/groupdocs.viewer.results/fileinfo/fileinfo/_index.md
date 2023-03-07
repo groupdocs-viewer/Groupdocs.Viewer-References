@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/fileinfo/fileinfo/
 ---
-## FileInfo constructor
+## FileInfo() {#constructor}
+
+Initierar ny instans av[`FileType`](../filetype) class.
+
+```csharp
+public FileInfo()
+```
+
+### Se även
+
+* class [FileInfo](../../fileinfo)
+* namnutrymme [GroupDocs.Viewer.Results](../../fileinfo)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## FileInfo(FileType) {#constructor_1}
 
 Initierar ny instans av[`FileType`](../filetype) class.
 

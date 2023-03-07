@@ -3,7 +3,7 @@ title: ONE
 second_title: GroupDocs.Viewer för .NET API-referens
 description: OneNotedokument .one skapas av Microsoft OneNoteapplikationen. OneNote låter dig samla in information med applikationen som om du använder din kladdplatta för att göra anteckningar. Läs mer om detta filformathärhttps//wiki.fileformat.com/notetaking/one .
 type: docs
-weight: 960
+weight: 1010
 url: /sv/net/groupdocs.viewer/filetype/one/
 ---
 ## FileType.ONE field

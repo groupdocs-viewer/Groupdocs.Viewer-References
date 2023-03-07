@@ -21,6 +21,7 @@ Namnutrymmet tillhandahåller klasser som representerar dokumentåtergivningsres
 | [Layout](./layout) | Representerar layouten som finns i CAD-ritningen. |
 | [Line](./line) | Representerar relativt placerad rektangel som innehåller en enda linje. |
 | [LotusNotesViewInfo](./lotusnotesviewinfo) | Representerar vyinformation för Lotus Notes-databaslagring |
+| [MboxViewInfo](./mboxviewinfo) | Representerar vyinformation för Mbox-filer storage |
 | [OutlookViewInfo](./outlookviewinfo) | Representerar vyinformation för Outlook-datafil. |
 | [Page](./page) | Representerar en sida som kan visas. |
 | [PdfViewInfo](./pdfviewinfo) | Representerar vyinformation för PDF-dokument. |

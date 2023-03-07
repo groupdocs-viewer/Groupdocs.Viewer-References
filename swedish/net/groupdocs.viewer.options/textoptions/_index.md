@@ -18,7 +18,7 @@ public class TextOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [TextOptions](textoptions)() | Default_Constructor |
+| [TextOptions](textoptions)() | Initierar ny instans av[`TextOptions`](../textoptions) class. |
 
 ## Egenskaper
 

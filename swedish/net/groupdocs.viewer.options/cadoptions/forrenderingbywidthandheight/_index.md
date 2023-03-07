@@ -21,7 +21,7 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 ### Returvärde
 
-Ny instans av[`CadOptions`](../../cadoptions) klass för återgivning efter bredd och höjd.
+Ny instans av[`CadOptions`](../../cadoptions)klass för återgivning efter bredd och höjd.
 
 ### Undantag
 

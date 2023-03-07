@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Viewer för .NET API-referens
-description: Default_Constructor
+description: Initierar ny instans avTextOptionsgroupdocs.viewer.options/textoptions class.
 type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-Default_Constructor
+Initierar ny instans av[`TextOptions`](../../textoptions) class.
 
 ```csharp
 public TextOptions()

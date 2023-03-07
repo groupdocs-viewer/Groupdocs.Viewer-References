@@ -3,7 +3,7 @@ title: VTX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Visio Template XML File .vtx är en Microsoft Visio ritmall som sparas på skiva i XMLfilformat. Mallen syftar till att tillhandahålla en fil med grundläggande inställningar som kan användas för att skapa flera Visiofiler med samma inställningar. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/vtx .
 type: docs
-weight: 1700
+weight: 1750
 url: /sv/net/groupdocs.viewer/filetype/vtx/
 ---
 ## FileType.VTX field

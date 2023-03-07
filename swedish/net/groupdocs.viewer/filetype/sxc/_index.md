@@ -3,7 +3,7 @@ title: SXC
 second_title: GroupDocs.Viewer för .NET API-referens
 description: StarOffice Calckalkylblad .sxc
 type: docs
-weight: 1420
+weight: 1470
 url: /sv/net/groupdocs.viewer/filetype/sxc/
 ---
 ## FileType.SXC field

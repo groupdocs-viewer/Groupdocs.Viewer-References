@@ -3,7 +3,7 @@ title: BMP
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Bitmappsbildfil .bmp används för att lagra digitala bitmappsbilder. Dessa bilder är oberoende av grafikkort och kallas även enhetsoberoende bitmapps DIB filformat. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/bmp .
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/groupdocs.viewer/filetype/bmp/
 ---
 ## FileType.BMP field

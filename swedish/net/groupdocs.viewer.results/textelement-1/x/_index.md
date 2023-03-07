@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/textelement-1/x/
 X-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### Se även

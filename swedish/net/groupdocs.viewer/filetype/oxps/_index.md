@@ -3,7 +3,7 @@ title: OXPS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Öppna XPSfil .oxps
 type: docs
-weight: 1020
+weight: 1070
 url: /sv/net/groupdocs.viewer/filetype/oxps/
 ---
 ## FileType.OXPS field

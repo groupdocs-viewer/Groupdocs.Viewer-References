@@ -31,7 +31,7 @@ public sealed class FolderFontSource : IEquatable<FolderFontSource>, IFontSource
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Bestämmer om strömmen[`FolderFontSource`](../folderfontsource)är samma som specificerats[`FolderFontSource`](../folderfontsource) objekt. |
+| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Bestämmer om strömmen[`FolderFontSource`](../folderfontsource) är samma som specificerat[`FolderFontSource`](../folderfontsource) objekt. |
 | override [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals_1)(object) | Bestämmer om strömmen[`FolderFontSource`](../folderfontsource) är samma som specificerat objekt. |
 | override [GetHashCode](../../groupdocs.viewer.fonts/folderfontsource/gethashcode)() | Returnerar hashkoden för den aktuella[`FolderFontSource`](../folderfontsource) objekt. |
 | override [ToString](../../groupdocs.viewer.fonts/folderfontsource/tostring)() | Returnerar en sträng som representerar det aktuella objektet. |

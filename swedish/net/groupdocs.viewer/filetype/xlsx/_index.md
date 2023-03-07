@@ -3,7 +3,7 @@ title: XLSX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Excel Open XMLkalkylblad .xlsx är ett välkänt format för Microsoft Exceldokument som introducerades av Microsoft i och med lanseringen av Microsoft Office 2007. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/xlsx .
 type: docs
-weight: 1780
+weight: 1830
 url: /sv/net/groupdocs.viewer/filetype/xlsx/
 ---
 ## FileType.XLSX field

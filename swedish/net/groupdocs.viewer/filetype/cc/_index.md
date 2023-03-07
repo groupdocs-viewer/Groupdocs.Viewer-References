@@ -3,7 +3,7 @@ title: CC
 second_title: GroupDocs.Viewer för .NET API-referens
 description: C källkodsfil .cc
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/groupdocs.viewer/filetype/cc/
 ---
 ## FileType.CC field

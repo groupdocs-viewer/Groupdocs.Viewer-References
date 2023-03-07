@@ -3,7 +3,7 @@ title: TARGZ
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Consolidated Unix File Archive .tgz .tar.gz är arkiv skapade med Unixbaserat verktyg för att samla in en eller flera filer. Läs mer om detta filformathärhttps//fileinfo.com/extension/tgz .
 type: docs
-weight: 1440
+weight: 1490
 url: /sv/net/groupdocs.viewer/filetype/targz/
 ---
 ## FileType.TARGZ field

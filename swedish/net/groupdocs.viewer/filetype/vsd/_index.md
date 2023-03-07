@@ -3,7 +3,7 @@ title: VSD
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Visio Drawing File .vsd är ritningar skapade med Microsoft Visioapplikationen för att representera olika grafiska objekt och sammankopplingen mellan dessa. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/vsd .
 type: docs
-weight: 1600
+weight: 1650
 url: /sv/net/groupdocs.viewer/filetype/vsd/
 ---
 ## FileType.VSD field

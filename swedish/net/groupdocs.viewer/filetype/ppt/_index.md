@@ -3,7 +3,7 @@ title: PPT
 second_title: GroupDocs.Viewer för .NET API-referens
 description: PowerPointpresentation .ppt representerar en PowerPointfil som består av en samling bilder för visning som bildspel. Den anger det binära filformatet som används av Microsoft PowerPoint 972003. Läs mer om detta filformathärhttps//wiki.fileformat.com/presentation/ppt .
 type: docs
-weight: 1150
+weight: 1200
 url: /sv/net/groupdocs.viewer/filetype/ppt/
 ---
 ## FileType.PPT field

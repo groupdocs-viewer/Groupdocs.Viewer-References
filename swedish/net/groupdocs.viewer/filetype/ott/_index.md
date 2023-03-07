@@ -3,7 +3,7 @@ title: OTT
 second_title: GroupDocs.Viewer för .NET API-referens
 description: OpenDocument Document Template .ott representerar malldokument som genereras av applikationer i enlighet med OASIS OpenDocumentstandardformat. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 1010
+weight: 1060
 url: /sv/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field

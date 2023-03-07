@@ -3,7 +3,7 @@ title: VSTX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Visio Drawing Template .vstx är ritmallsfiler skapade med Microsoft Visio 2013 och senare. Dessa VSTXfiler ger en startpunkt för att skapa Visioritningar sparade som .VSDXfiler med standardlayout och inställningar. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/vstx .
 type: docs
-weight: 1680
+weight: 1730
 url: /sv/net/groupdocs.viewer/filetype/vstx/
 ---
 ## FileType.VSTX field

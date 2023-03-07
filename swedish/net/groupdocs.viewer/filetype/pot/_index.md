@@ -3,7 +3,7 @@ title: POT
 second_title: GroupDocs.Viewer för .NET API-referens
 description: PowerPointmall .pot representerar Microsoft PowerPointmallfiler skapade av PowerPoint 972003versioner. Läs mer om detta filformathärhttps//wiki.fileformat.com/presentation/pot .
 type: docs
-weight: 1090
+weight: 1140
 url: /sv/net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field

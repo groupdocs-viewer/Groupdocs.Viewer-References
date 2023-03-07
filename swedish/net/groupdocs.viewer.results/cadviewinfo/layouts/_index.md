@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/cadviewinfo/layouts/
 Listan över layouter som finns i CAD-ritningen.
 
 ```csharp
-public IList<Layout> Layouts { get; }
+public List<Layout> Layouts { get; set; }
 ```
 
 ### Se även

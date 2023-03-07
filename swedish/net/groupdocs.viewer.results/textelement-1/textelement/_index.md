@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/textelement-1/textelement/
 ---
-## TextElement&lt;T&gt; constructor
+## TextElement() {#constructor}
+
+Initierar ny instans av[`TextElement`](../../textelement-1) class.
+
+```csharp
+public TextElement()
+```
+
+### Se även
+
+* class [TextElement&lt;T&gt;](../../textelement-1)
+* namnutrymme [GroupDocs.Viewer.Results](../../textelement-1)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## TextElement(T, double, double, double, double) {#constructor_1}
 
 Initierar ny instans av[`TextElement`](../../textelement-1) class.
 

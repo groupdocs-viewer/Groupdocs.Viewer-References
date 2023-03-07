@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/layer/visible/
 Lagersynlighetsindikatorn.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Anmärkningar

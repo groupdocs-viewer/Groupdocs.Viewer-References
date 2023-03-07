@@ -3,7 +3,7 @@ title: VST
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Visio Drawing Template .vst är vektorbildfiler skapade med Microsoft Visio och fungerar som mall för att skapa ytterligare filer. Dessa mallfiler är i binärt filformat och innehåller standardlayout och inställningar som används för att skapa nya Visioritningar. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/vst .
 type: docs
-weight: 1660
+weight: 1710
 url: /sv/net/groupdocs.viewer/filetype/vst/
 ---
 ## FileType.VST field

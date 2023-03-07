@@ -18,15 +18,16 @@ public class LotusNotesViewInfo : ViewInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [LotusNotesViewInfo](lotusnotesviewinfo)(FileType, IList&lt;Page&gt;, int) | Initierar ny instans av[`LotusNotesViewInfo`](../lotusnotesviewinfo) class. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor)() | Initierar ny instans av[`LotusNotesViewInfo`](../lotusnotesviewinfo) class. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | Initierar ny instans av[`LotusNotesViewInfo`](../lotusnotesviewinfo) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Typen av fil. |
-| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; } | Anteckningar räknas i lagringsutrymme |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Listan över sidor att visa. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Typen av fil. |
+| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; set; } | Anteckningar räknas i lagringsutrymme |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Listan över sidor att visa. |
 
 ## Metoder
 

@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/character/character/
 ---
-## Character constructor
+## Character() {#constructor}
+
+Initierar ny instans av[`Character`](../../character) class.
+
+```csharp
+public Character()
+```
+
+### Se även
+
+* class [Character](../../character)
+* namnutrymme [GroupDocs.Viewer.Results](../../character)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Character(char, double, double, double, double) {#constructor_1}
 
 Initierar ny instans av[`Character`](../../character) class.
 

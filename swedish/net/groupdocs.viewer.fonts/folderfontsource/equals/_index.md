@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer för .NET API-referens
-description: Bestämmer om strömmenFolderFontSourcegroupdocs.viewer.fonts/folderfontsourceär samma som specificeratsFolderFontSourcegroupdocs.viewer.fonts/folderfontsource objekt.
+description: Bestämmer om strömmenFolderFontSourcegroupdocs.viewer.fonts/folderfontsource är samma som specificeratFolderFontSourcegroupdocs.viewer.fonts/folderfontsource objekt.
 type: docs
 weight: 40
 url: /sv/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-Bestämmer om strömmen[`FolderFontSource`](../../folderfontsource)är samma som specificerats[`FolderFontSource`](../../folderfontsource) objekt.
+Bestämmer om strömmen[`FolderFontSource`](../../folderfontsource) är samma som specificerat[`FolderFontSource`](../../folderfontsource) objekt.
 
 ```csharp
 public bool Equals(FolderFontSource other)

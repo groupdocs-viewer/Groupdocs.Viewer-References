@@ -3,7 +3,7 @@ title: DNG
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Digital Negative Specification .dng är ett digitalkamerabildformat som används för lagring av råfiler. Den har utvecklats av Adobe i september 2004. Den utvecklades i princip för digital fotografering. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 270
+weight: 290
 url: /sv/net/groupdocs.viewer/filetype/dng/
 ---
 ## FileType.DNG field

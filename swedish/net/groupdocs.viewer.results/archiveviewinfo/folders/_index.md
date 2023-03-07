@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/archiveviewinfo/folders/
 Mapparna som finns i arkivfilen.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Se även

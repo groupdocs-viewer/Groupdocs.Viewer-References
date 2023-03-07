@@ -3,7 +3,7 @@ title: VSS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Visio Stencil File.vss är stencilfiler skapade med Microsoft Visio 2007 och tidigare. Stencilfiler tillhandahåller ritobjekt som kan inkluderas i en .VSD Visioritning. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/vss .
 type: docs
-weight: 1630
+weight: 1680
 url: /sv/net/groupdocs.viewer/filetype/vss/
 ---
 ## FileType.VSS field

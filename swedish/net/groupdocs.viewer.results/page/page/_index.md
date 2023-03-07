@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/page/page/
 ---
-## Page(int, bool) {#constructor}
+## Page() {#constructor}
+
+Initierar ny instans av[`Page`](../../page) class.
+
+```csharp
+public Page()
+```
+
+### Se även
+
+* class [Page](../../page)
+* namnutrymme [GroupDocs.Viewer.Results](../../page)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool) {#constructor_1}
 
 Initierar ny instans av[`Page`](../../page) class.
 
@@ -33,7 +49,7 @@ public Page(int number, bool visible)
 
 ---
 
-## Page(int, string, bool) {#constructor_3}
+## Page(int, string, bool) {#constructor_4}
 
 Initierar ny instans av[`Page`](../../page) class.
 
@@ -61,7 +77,7 @@ public Page(int number, string name, bool visible)
 
 ---
 
-## Page(int, bool, int, int) {#constructor_1}
+## Page(int, bool, int, int) {#constructor_2}
 
 Initierar ny instans av[`Page`](../../page) class.
 
@@ -92,7 +108,7 @@ public Page(int number, bool visible, int width, int height)
 
 ---
 
-## Page(int, string, bool, int, int) {#constructor_4}
+## Page(int, string, bool, int, int) {#constructor_5}
 
 Initierar ny instans av[`Page`](../../page) class.
 
@@ -124,12 +140,12 @@ public Page(int number, string name, bool visible, int width, int height)
 
 ---
 
-## Page(int, bool, int, int, IList&lt;Line&gt;) {#constructor_2}
+## Page(int, bool, int, int, List&lt;Line&gt;) {#constructor_3}
 
 Initierar ny instans av[`Page`](../../page) class.
 
 ```csharp
-public Page(int number, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Parameter | Typ | Beskrivning |
@@ -138,7 +154,7 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 | visible | Boolean | Sidans synlighetsindikator. |
 | width | Int32 | Sidans bredd i pixlar när den visas som JPG eller PNG. |
 | height | Int32 | Sidans höjd i pixlar när den visas som JPG eller PNG. |
-| lines | IList`1 | Raderna som finns på sidan när den visas som JPG eller PNG med aktiverad textextraktion. |
+| lines | List`1 | Raderna som finns på sidan när den visas som JPG eller PNG med aktiverad textextraktion. |
 
 ### Undantag
 
@@ -158,12 +174,12 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 
 ---
 
-## Page(int, string, bool, int, int, IList&lt;Line&gt;) {#constructor_5}
+## Page(int, string, bool, int, int, List&lt;Line&gt;) {#constructor_6}
 
 Initierar ny instans av[`Page`](../../page) class.
 
 ```csharp
-public Page(int number, string name, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, string name, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Parameter | Typ | Beskrivning |
@@ -173,7 +189,7 @@ public Page(int number, string name, bool visible, int width, int height, IList<
 | visible | Boolean | Sidans synlighetsindikator. |
 | width | Int32 | Sidans bredd i pixlar när den visas som JPG eller PNG. |
 | height | Int32 | Sidans höjd i pixlar när den visas som JPG eller PNG. |
-| lines | IList`1 | Raderna som finns på sidan när den visas som JPG eller PNG med aktiverad textextraktion. |
+| lines | List`1 | Raderna som finns på sidan när den visas som JPG eller PNG med aktiverad textextraktion. |
 
 ### Undantag
 

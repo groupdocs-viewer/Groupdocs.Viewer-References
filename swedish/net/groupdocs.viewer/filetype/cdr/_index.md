@@ -3,7 +3,7 @@ title: CDR
 second_title: GroupDocs.Viewer för .NET API-referens
 description: CorelDraw Vector Graphic Drawing .cdr är en vektorritningsbildfil som skapas med CorelDRAW för att lagra digitala bilder kodade och komprimerade. En sådan ritfil innehåller text linjer former bilder färger och effekter för vektorrepresentation av bildinnehåll. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/cdr .
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/groupdocs.viewer/filetype/cdr/
 ---
 ## FileType.CDR field

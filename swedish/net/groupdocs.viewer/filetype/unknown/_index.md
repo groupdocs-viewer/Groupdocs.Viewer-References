@@ -3,7 +3,7 @@ title: Unknown
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar okänd filtyp.
 type: docs
-weight: 1540
+weight: 1590
 url: /sv/net/groupdocs.viewer/filetype/unknown/
 ---
 ## FileType.Unknown field

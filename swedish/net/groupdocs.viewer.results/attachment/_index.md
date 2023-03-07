@@ -18,19 +18,20 @@ public class Attachment
 
 | namn | Beskrivning |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Initierar ny instans av[`Attachment`](../attachment) class. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Initierar ny instans av[`Attachment`](../attachment) class. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Initierar ny instans av[`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor)() | Initierar ny instans av[`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_1)(string, string) | Initierar ny instans av[`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Initierar ny instans av[`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Initierar ny instans av[`Attachment`](../attachment) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Bifogad filnamn. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Bilags relativ sökväg t.exmapp/fil.docx eller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Bilaga filtyp. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Unik identifierare för bilagan i sammanhanget för en enskild fil som innehåller denna bilaga. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Bifogad filstorlek i byte. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Bifogad filnamn. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Bilags relativ sökväg t.exmapp/fil.docx eller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Bilaga filtyp. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Unik identifierare för bilagan i sammanhanget för en enskild fil som innehåller denna bilaga. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Bifogad filstorlek i byte. |
 
 ## Metoder
 
