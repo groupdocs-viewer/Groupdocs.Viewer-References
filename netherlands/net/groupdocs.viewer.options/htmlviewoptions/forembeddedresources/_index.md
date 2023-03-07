@@ -1,0 +1,146 @@
+---
+title: ForEmbeddedResources
+second_title: GroupDocs.Viewer voor .NET API-referentie
+description: Initialiseert nieuw exemplaar vanHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions klasse voor weergave in HTML met ingesloten bronnen.
+type: docs
+weight: 10
+url: /nl/net/groupdocs.viewer.options/htmlviewoptions/forembeddedresources/
+---
+## ForEmbeddedResources(CreatePageStream) {#forembeddedresources_1}
+
+Initialiseert nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse voor weergave in HTML met ingesloten bronnen.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| createPageStream | CreatePageStream | De methode die stream instantiseert die wordt gebruikt om uitvoerpaginagegevens te schrijven. |
+
+### Winstwaarde
+
+Nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse voor weergave in HTML met ingesloten bronnen.
+
+### Uitzonderingen
+
+| uitzondering | voorwaarde |
+| --- | --- |
+| ArgumentNullException | Wanneer gegooid*createPageStream* is niets. |
+
+### Zie ook
+
+* delegate [CreatePageStream](../../../groupdocs.viewer.interfaces/createpagestream)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* naamruimte [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* montage [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(CreatePageStream, ReleasePageStream) {#forembeddedresources_2}
+
+Initialiseert nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse voor weergave in HTML met ingesloten bronnen.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream, 
+    ReleasePageStream releasePageStream)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| createPageStream | CreatePageStream | De methode die stream instantiseert die wordt gebruikt om uitvoerpaginagegevens te schrijven. |
+| releasePageStream | ReleasePageStream | De methode die een stream vrijgeeft die is gemaakt door een methode die is toegewezen aan delegeren en waaraan is doorgegeven*createPageStream* parameter. |
+
+### Winstwaarde
+
+Nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse voor weergave in HTML met ingesloten bronnen.
+
+### Uitzonderingen
+
+| uitzondering | voorwaarde |
+| --- | --- |
+| ArgumentNullException | Wanneer gegooid*createPageStream* is niets. |
+| ArgumentNullException | Wanneer gegooid*releasePageStream* is niets. |
+
+### Zie ook
+
+* delegate [CreatePageStream](../../../groupdocs.viewer.interfaces/createpagestream)
+* delegate [ReleasePageStream](../../../groupdocs.viewer.interfaces/releasepagestream)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* naamruimte [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* montage [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(IPageStreamFactory) {#forembeddedresources_3}
+
+Initialiseert nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse voor weergave in HTML met ingesloten bronnen.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStreamFactory)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| pageStreamFactory | IPageStreamFactory | De fabriek die methoden implementeert voor het maken en vrijgeven van uitvoerpaginastreams. |
+
+### Winstwaarde
+
+Nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse voor weergave in HTML met ingesloten bronnen.
+
+### Uitzonderingen
+
+| uitzondering | voorwaarde |
+| --- | --- |
+| ArgumentNullException | Wanneer gegooid*pageStreamFactory* is niets. |
+
+### Zie ook
+
+* interface [IPageStreamFactory](../../../groupdocs.viewer.interfaces/ipagestreamfactory)
+* class [HtmlViewOptions](../../htmlviewoptions)
+* naamruimte [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* montage [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources() {#forembeddedresources}
+
+Initialiseert nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources()
+```
+
+### Zie ook
+
+* class [HtmlViewOptions](../../htmlviewoptions)
+* naamruimte [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* montage [GroupDocs.Viewer](../../../)
+
+---
+
+## ForEmbeddedResources(string) {#forembeddedresources_4}
+
+Initialiseert nieuw exemplaar van[`HtmlViewOptions`](../../htmlviewoptions) klasse.
+
+```csharp
+public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| filePathFormat | String | De indeling van het bestandspad, bijvoorbeeld 'page_{0}.html'. |
+
+### Uitzonderingen
+
+| uitzondering | voorwaarde |
+| --- | --- |
+| ArgumentException | Wanneer gegooid*filePathFormat* is null of leeg. |
+
+### Zie ook
+
+* class [HtmlViewOptions](../../htmlviewoptions)
+* naamruimte [GroupDocs.Viewer.Options](../../htmlviewoptions)
+* montage [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
