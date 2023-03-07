@@ -1,0 +1,159 @@
+---
+title: View
+second_title: GroupDocs.Viewer for .NET API リファレンス
+description: すべてのドキュメント ページのビューを作成します
+type: docs
+weight: 70
+url: /ja/net/groupdocs.viewer/viewer/view/
+---
+## View(ViewOptions) {#view}
+
+すべてのドキュメント ページのビューを作成します。
+
+```csharp
+public void View(ViewOptions options)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| options | ViewOptions | 表示オプション。 |
+
+### 例外
+
+| 例外 | 調子 |
+| --- | --- |
+| ArgumentNullException | スローされるタイミング*options*無効である。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | ドキュメントを開くためにパスワードが必要な場合にスローされます。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 指定されたパスワードが正しくない場合にスローされます。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 添付ファイルが見つからない場合にスローされます。 |
+
+### 備考
+
+**もっと詳しく知る**
+
+* このガイドに従うさまざまな表示オプションの詳細: [GroupDocs.Viewer を使用してドキュメント表示出力をカスタマイズする方法](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 関連項目
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* 名前空間 [GroupDocs.Viewer](../../viewer)
+* 組み立て [GroupDocs.Viewer](../../../)
+
+---
+
+## View(ViewOptions, CancellationToken) {#view_2}
+
+すべてのドキュメント ページのビューを作成します。
+
+```csharp
+public void View(ViewOptions options, CancellationToken cancellationToken)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| options | ViewOptions | 表示オプション。 |
+| cancellationToken | CancellationToken | 現在のビュー プロセスをキャンセルするリクエストを送信するためのキャンセル トークン。 |
+
+### 例外
+
+| 例外 | 調子 |
+| --- | --- |
+| ArgumentNullException | スローされるタイミング*options*無効である。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | ドキュメントを開くためにパスワードが必要な場合にスローされます。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 指定されたパスワードが正しくない場合にスローされます。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 添付ファイルが見つからない場合にスローされます。 |
+
+### 備考
+
+**もっと詳しく知る**
+
+* このガイドに従うさまざまな表示オプションの詳細: [GroupDocs.Viewer を使用してドキュメント表示出力をカスタマイズする方法](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 関連項目
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* 名前空間 [GroupDocs.Viewer](../../viewer)
+* 組み立て [GroupDocs.Viewer](../../../)
+
+---
+
+## View(ViewOptions, params int[]) {#view_1}
+
+特定のドキュメント ページのビューを作成します。
+
+```csharp
+public void View(ViewOptions options, params int[] pageNumbers)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| options | ViewOptions | 表示オプション。 |
+| pageNumbers | Int32[] | 表示するページ番号。 |
+
+### 例外
+
+| 例外 | 調子 |
+| --- | --- |
+| ArgumentNullException | スローされるタイミング*options*無効である。 |
+| ArgumentNullException | スローされるタイミング*pageNumbers*無効である。 |
+| ArgumentException | スローされるタイミング*pageNumbers*空です。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | ドキュメントを開くためにパスワードが必要な場合にスローされます。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 指定されたパスワードが正しくない場合にスローされます。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 添付ファイルが見つからない場合にスローされます。 |
+
+### 備考
+
+**もっと詳しく知る**
+
+* このガイドに従うさまざまな表示オプションの詳細: [GroupDocs.Viewer を使用してドキュメント表示出力をカスタマイズする方法](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 関連項目
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* 名前空間 [GroupDocs.Viewer](../../viewer)
+* 組み立て [GroupDocs.Viewer](../../../)
+
+---
+
+## View(ViewOptions, CancellationToken, params int[]) {#view_3}
+
+特定のドキュメント ページのビューを作成します。
+
+```csharp
+public void View(ViewOptions options, CancellationToken cancellationToken, params int[] pageNumbers)
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| options | ViewOptions | 表示オプション。 |
+| pageNumbers | CancellationToken | 表示するページ番号。 |
+| cancellationToken | Int32[] | 処理をキャンセルするキャンセルトークン。 |
+
+### 例外
+
+| 例外 | 調子 |
+| --- | --- |
+| ArgumentNullException | スローされるタイミング*options*無効である。 |
+| ArgumentNullException | スローされるタイミング*pageNumbers*無効である。 |
+| ArgumentException | スローされるタイミング*pageNumbers*空です。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | ドキュメントを開くためにパスワードが必要な場合にスローされます。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 指定されたパスワードが正しくない場合にスローされます。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 添付ファイルが見つからない場合にスローされます。 |
+
+### 備考
+
+**もっと詳しく知る**
+
+* このガイドに従うさまざまな表示オプションの詳細: [GroupDocs.Viewer を使用してドキュメント表示出力をカスタマイズする方法](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 関連項目
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* 名前空間 [GroupDocs.Viewer](../../viewer)
+* 組み立て [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
