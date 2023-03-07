@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/attachment/filepath/
 Percorso relativo dell'allegato escartella/file.docx o nome file quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### Guarda anche

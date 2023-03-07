@@ -1,14 +1,14 @@
 ---
 title: ImageWidth
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La larghezza dellimmagine di output in pixel. Quando si converte una singola immagine solo in HTML
+description: La larghezza dellimmagine di output in pixel. Quando si converte solo una singola immagine in HTML
 type: docs
 weight: 50
 url: /it/net/groupdocs.viewer.options/pdfviewoptions/imagewidth/
 ---
 ## PdfViewOptions.ImageWidth property
 
-La larghezza dell'immagine di output in pixel. (Quando si converte una singola immagine solo in HTML)
+La larghezza dell'immagine di output in pixel. (Quando si converte solo una singola immagine in HTML)
 
 ```csharp
 public int ImageWidth { get; set; }

@@ -3,7 +3,7 @@ title: JPM
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File immagine JPEG 2000 .jpm
 type: docs
-weight: 700
+weight: 750
 url: /it/net/groupdocs.viewer/filetype/jpm/
 ---
 ## FileType.JPM field

@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Inizializza la nuova istanza di[`Layer`](../layer) classe. |
-| [Layer](layer#constructor_1)(string, bool) | Inizializza la nuova istanza di[`Layer`](../layer) classe. |
+| [Layer](layer#constructor)() | Inizializza una nuova istanza di[`Layer`](../layer) classe. |
+| [Layer](layer#constructor_1)(string) | Inizializza una nuova istanza di[`Layer`](../layer) classe. |
+| [Layer](layer#constructor_2)(string, bool) | Inizializza una nuova istanza di[`Layer`](../layer) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | Il nome del livello. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | L'indicatore di visibilità del livello. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | Il nome del livello. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | L'indicatore di visibilità del livello. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Determina se la corrente[`Layer`](../layer)è uguale a quanto specificato[`Layer`](../layer) oggetto. |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Determina se la corrente[`Layer`](../layer) è uguale a quanto specificato[`Layer`](../layer) oggetto. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | Determina se la corrente[`Layer`](../layer) è uguale all'oggetto specificato. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | Restituisce il codice hash per la corrente[`Layer`](../layer) oggetto. |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | Restituisce una stringa che rappresenta l'oggetto corrente. |

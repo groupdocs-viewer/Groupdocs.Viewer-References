@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rilascia il flusso che è stato istanziato dal metodo associato aCreatePageStream./createpagestream delegato.
+description: Rilascia il flusso di cui è stata creata unistanza dal metodo associato aCreatePageStream./createpagestream delegato.
 type: docs
 weight: 200
 url: /it/net/groupdocs.viewer.interfaces/releasepagestream/
 ---
 ## ReleasePageStream delegate
 
-Rilascia il flusso che è stato istanziato dal metodo associato a[`CreatePageStream`](../createpagestream) delegato.
+Rilascia il flusso di cui è stata creata un'istanza dal metodo associato a[`CreatePageStream`](../createpagestream) delegato.
 
 ```csharp
 public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
@@ -17,7 +17,7 @@ public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | pageNumber | Int32 | Numero della pagina. |
-| pageStream | Stream | Il flusso creato dal metodo associato a[`CreatePageStream`](../createpagestream) delegare. |
+| pageStream | Stream | Flusso creato dal metodo associato a[`CreatePageStream`](../createpagestream) delegare. |
 
 ### Guarda anche
 

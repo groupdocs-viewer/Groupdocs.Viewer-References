@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/archiveviewinfo/folders/
 Le cartelle contenute nel file di archivio.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Guarda anche

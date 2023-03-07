@@ -1,14 +1,14 @@
 ---
 title: VB
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Visual Basic Project Item File .vb è un file di codice sorgente creato in linguaggio Visual Basic che è stato creato da Microsoft per lo sviluppo di applicazioni .NET. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/programming/vb .
+description: Visual Basic Project Item File .vb è un file di codice sorgente creato in linguaggio Visual Basic creato da Microsoft per lo sviluppo di applicazioni .NET. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/programming/vb .
 type: docs
-weight: 1550
+weight: 1600
 url: /it/net/groupdocs.viewer/filetype/vb/
 ---
 ## FileType.VB field
 
-Visual Basic Project Item File (.vb) è un file di codice sorgente creato in linguaggio Visual Basic che è stato creato da Microsoft per lo sviluppo di applicazioni .NET. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/programming/vb) .
+Visual Basic Project Item File (.vb) è un file di codice sorgente creato in linguaggio Visual Basic creato da Microsoft per lo sviluppo di applicazioni .NET. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/programming/vb) .
 
 ```csharp
 public static readonly FileType VB;

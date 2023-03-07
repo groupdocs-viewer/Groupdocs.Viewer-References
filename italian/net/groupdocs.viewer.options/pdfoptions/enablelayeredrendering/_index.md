@@ -16,7 +16,7 @@ public bool EnableLayeredRendering { get; set; }
 
 ### Osservazioni
 
-Per impostazione predefinita, testo e grafica vengono visualizzati in HTML come un unico livello.
+Per impostazione predefinita, il testo e la grafica vengono visualizzati in HTML come un singolo livello.
 
 ### Guarda anche
 

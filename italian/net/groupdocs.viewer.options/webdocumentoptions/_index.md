@@ -26,7 +26,7 @@ public class WebDocumentOptions
 | --- | --- |
 | [BottomMargin](../../groupdocs.viewer.options/webdocumentoptions/bottommargin) { get; set; } | La distanza (in punti) tra il bordo inferiore della pagina e il limite inferiore del corpo del testo. Il valore predefinito è 72 punti. |
 | [LeftMargin](../../groupdocs.viewer.options/webdocumentoptions/leftmargin) { get; set; } | La distanza (in punti) tra il bordo sinistro della pagina e il limite sinistro del corpo del testo. Il valore predefinito è 5 punti. |
-| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | La dimensione della pagina di output. Il valore predefinito èLetter 792 x 612 punti.  Quando il contenuto non si adatta, impostare una dimensione della pagina più grande, ad esA3 . |
+| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | La dimensione della pagina di output. Il valore predefinito èLetter 792 x 612 punti.  Quando i contenuti non si adattano, imposta una dimensione della pagina più grande, ad esA3 . |
 | [RightMargin](../../groupdocs.viewer.options/webdocumentoptions/rightmargin) { get; set; } | La distanza (in punti) tra il bordo destro della pagina e il limite destro del corpo del testo. Il valore predefinito è 5 punti. |
 | [TopMargin](../../groupdocs.viewer.options/webdocumentoptions/topmargin) { get; set; } | La distanza (in punti) tra il bordo superiore della pagina e il limite superiore del corpo del testo. Il valore predefinito è 72 punti. |
 

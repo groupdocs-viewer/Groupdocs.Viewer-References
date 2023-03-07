@@ -1,14 +1,14 @@
 ---
 title: IFontSource
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Interfaccia marker per le sorgenti dei font.
+description: Interfaccia marker per le fonti dei font.
 type: docs
 weight: 100
 url: /it/net/groupdocs.viewer.fonts/ifontsource/
 ---
 ## IFontSource interface
 
-Interfaccia marker per le sorgenti dei font.
+Interfaccia marker per le fonti dei font.
 
 ```csharp
 public interface IFontSource

@@ -18,19 +18,20 @@ public class Attachment
 
 | Nome | Descrizione |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Inizializza la nuova istanza di[`Attachment`](../attachment) classe. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Inizializza la nuova istanza di[`Attachment`](../attachment) classe. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Inizializza la nuova istanza di[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor)() | Inizializza una nuova istanza di[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor_1)(string, string) | Inizializza una nuova istanza di[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Inizializza una nuova istanza di[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Inizializza una nuova istanza di[`Attachment`](../attachment) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Nome file allegato. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Percorso relativo dell'allegato escartella/file.docx o nome file quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Tipo file allegato. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Identificatore univoco dell'allegato nel contesto di un singolo file che contiene questo allegato. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Dimensione file allegato in byte. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Nome file allegato. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Percorso relativo dell'allegato escartella/file.docx o nome file quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Tipo file allegato. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Identificatore univoco dell'allegato nel contesto di un singolo file che contiene questo allegato. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Dimensione file allegato in byte. |
 
 ## Metodi
 

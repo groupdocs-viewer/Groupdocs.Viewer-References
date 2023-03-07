@@ -19,8 +19,8 @@ public interface ILogger
 | Nome | Descrizione |
 | --- | --- |
 | [Error](../../groupdocs.viewer.logging/ilogger/error)(string, Exception) | Scrive un messaggio di errore. I messaggi di log degli errori forniscono informazioni sugli eventi irreversibili nel flusso dell'applicazione. |
-| [Trace](../../groupdocs.viewer.logging/ilogger/trace)(string) | Scrive un messaggio di traccia. I messaggi del registro di traccia forniscono informazioni generalmente utili sul flusso dell'applicazione. |
-| [Warning](../../groupdocs.viewer.logging/ilogger/warning)(string) | Scrive un messaggio di avviso. I messaggi del registro di avviso forniscono informazioni su eventi imprevisti e recuperabili nel flusso dell'applicazione. |
+| [Trace](../../groupdocs.viewer.logging/ilogger/trace)(string) | Scrive un messaggio di traccia. I messaggi di registro di traccia forniscono informazioni generalmente utili sul flusso dell'applicazione. |
+| [Warning](../../groupdocs.viewer.logging/ilogger/warning)(string) | Scrive un messaggio di avviso. I messaggi di registro di avviso forniscono informazioni sugli eventi imprevisti e recuperabili nel flusso dell'applicazione. |
 
 ### Guarda anche
 

@@ -3,7 +3,7 @@ title: MHTML
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File HTML MIME .mhtml
 type: docs
-weight: 810
+weight: 860
 url: /it/net/groupdocs.viewer/filetype/mhtml/
 ---
 ## FileType.MHTML field

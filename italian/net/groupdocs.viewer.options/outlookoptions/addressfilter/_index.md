@@ -1,14 +1,14 @@
 ---
 title: AddressFilter
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Lindirizzo email utilizzato per filtrare i messaggi per mittente o destinatario.
+description: Lindirizzo email utilizzato per filtrare i messaggi in base al mittente o al destinatario.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/outlookoptions/addressfilter/
 ---
 ## OutlookOptions.AddressFilter property
 
-L'indirizzo e-mail utilizzato per filtrare i messaggi per mittente o destinatario.
+L'indirizzo email utilizzato per filtrare i messaggi in base al mittente o al destinatario.
 
 ```csharp
 public string AddressFilter { get; set; }

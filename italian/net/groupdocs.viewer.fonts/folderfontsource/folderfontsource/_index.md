@@ -1,14 +1,14 @@
 ---
 title: FolderFontSource
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diFolderFontSourcegroupdocs.viewer.fonts/folderfontsource classe.
+description: Inizializza una nuova istanza diFolderFontSourcegroupdocs.viewer.fonts/folderfontsource classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.fonts/folderfontsource/folderfontsource/
 ---
 ## FolderFontSource constructor
 
-Inizializza la nuova istanza di[`FolderFontSource`](../../folderfontsource) classe.
+Inizializza una nuova istanza di[`FolderFontSource`](../../folderfontsource) classe.
 
 ```csharp
 public FolderFontSource(string folderPath, SearchOption searchOption)
@@ -17,7 +17,7 @@ public FolderFontSource(string folderPath, SearchOption searchOption)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | folderPath | String | Percorso della cartella che contiene i caratteri TrueType. |
-| searchOption | SearchOption | Specifica se eseguire la ricerca nella cartella corrente o nella cartella corrente e in tutte le sottocartelle. |
+| searchOption | SearchOption | Specifica se cercare nella cartella corrente o nella cartella corrente e in tutte le sottocartelle. |
 
 ### Eccezioni
 

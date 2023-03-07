@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/cadviewinfo/layers/
 L'elenco dei layer contenuti nel disegno CAD.
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### Guarda anche

@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByPageBreaks
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions solo per il rendering delle aree di stampa.
+description: Inizializza una nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions solo per il rendering delle aree di stampa.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks/
 ---
 ## SpreadsheetOptions.ForRenderingByPageBreaks method
 
-Inizializza la nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) solo per il rendering delle aree di stampa.
+Inizializza una nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) solo per il rendering delle aree di stampa.
 
 ```csharp
 public static SpreadsheetOptions ForRenderingByPageBreaks()
@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### Valore di ritorno
 
-Nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions)per il rendering tramite interruzioni di pagina. Il comportamento è simile alla stampa in Excel.
+Nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) per il rendering tramite interruzioni di pagina. Il comportamento è simile alla stampa in Excel.
 
 ### Guarda anche
 

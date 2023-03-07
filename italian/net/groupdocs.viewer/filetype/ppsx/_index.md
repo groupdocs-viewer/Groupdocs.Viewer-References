@@ -1,14 +1,14 @@
 ---
 title: PPSX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: I file PowerPoint Open XML Slide Show .ppsx vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/ppsx .
+description: I file PowerPoint Open XML Slide Show .ppsx vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/ppsx .
 type: docs
-weight: 1140
+weight: 1190
 url: /it/net/groupdocs.viewer/filetype/ppsx/
 ---
 ## FileType.PPSX field
 
-I file PowerPoint Open XML Slide Show (.ppsx) vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/ppsx) .
+I file PowerPoint Open XML Slide Show (.ppsx) vengono creati utilizzando Microsoft PowerPoint 2007 e versioni successive a scopo di presentazione. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/ppsx) .
 
 ```csharp
 public static readonly FileType PPSX;

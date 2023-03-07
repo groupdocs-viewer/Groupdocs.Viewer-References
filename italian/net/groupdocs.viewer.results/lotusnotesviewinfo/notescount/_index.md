@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/lotusnotesviewinfo/notescount/
 Conteggio note in memoria
 
 ```csharp
-public int NotesCount { get; }
+public int NotesCount { get; set; }
 ```
 
 ### Guarda anche

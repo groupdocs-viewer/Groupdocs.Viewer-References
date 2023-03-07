@@ -16,7 +16,7 @@ public IList<Tile> Tiles { get; set; }
 
 ### Osservazioni
 
-Questa opzione è supportata solo per[`DWG`](../../../groupdocs.viewer/filetype/dwg) e[`DWT`](../../../groupdocs.viewer/filetype/dwt) tipi di file. Il file[`RenderLayouts`](../renderlayouts) e[`LayoutName`](../layoutname) le opzioni vengono ignorate durante il rendering per riquadri.
+Questa opzione è supportata solo per[`DWG`](../../../groupdocs.viewer/filetype/dwg) E[`DWT`](../../../groupdocs.viewer/filetype/dwt) tipi di file. Il file[`RenderLayouts`](../renderlayouts) E[`LayoutName`](../layoutname) le opzioni vengono ignorate durante il rendering per riquadri.
 
 ### Guarda anche
 

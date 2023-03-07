@@ -13,12 +13,12 @@ Lo spazio dei nomi fornisce le interfacce per istanziare e rilasciare il documen
 | Classe | Descrizione |
 | --- | --- |
 | [CreateFileStream](./createfilestream) | Rappresenta il metodo che istanzia il flusso utilizzato per scrivere i dati del file di output. |
-| [CreatePageStream](./createpagestream) | Rappresenta il metodo che istanzia il flusso utilizzato per scrivere i dati della pagina di output. |
-| [CreateResourceStream](./createresourcestream) | Rappresenta il metodo che istanzia il flusso utilizzato per scrivere i dati della risorsa HTML di output. |
+| [CreatePageStream](./createpagestream) | Rappresenta il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della pagina di output. |
+| [CreateResourceStream](./createresourcestream) | Rappresenta il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della risorsa HTML di output. |
 | [CreateResourceUrl](./createresourceurl) | Rappresenta il metodo che crea l'URL per la risorsa HTML. |
-| [ReleaseFileStream](./releasefilestream) | Rilascia il flusso che è stato istanziato dal metodo associato a[`CreateFileStream`](../groupdocs.viewer.interfaces/createfilestream) delegato. |
-| [ReleasePageStream](./releasepagestream) | Rilascia il flusso che è stato istanziato dal metodo associato a[`CreatePageStream`](../groupdocs.viewer.interfaces/createpagestream) delegato. |
-| [ReleaseResourceStream](./releaseresourcestream) | Rilascia il flusso che è stato istanziato dal metodo associato a[`CreateResourceStream`](../groupdocs.viewer.interfaces/createresourcestream) delegato. |
+| [ReleaseFileStream](./releasefilestream) | Rilascia il flusso di cui è stata creata un'istanza dal metodo associato a[`CreateFileStream`](../groupdocs.viewer.interfaces/createfilestream) delegato. |
+| [ReleasePageStream](./releasepagestream) | Rilascia il flusso di cui è stata creata un'istanza dal metodo associato a[`CreatePageStream`](../groupdocs.viewer.interfaces/createpagestream) delegato. |
+| [ReleaseResourceStream](./releaseresourcestream) | Rilascia il flusso di cui è stata creata un'istanza dal metodo associato a[`CreateResourceStream`](../groupdocs.viewer.interfaces/createresourcestream) delegato. |
 ## Interfacce
 
 | Interfaccia | Descrizione |

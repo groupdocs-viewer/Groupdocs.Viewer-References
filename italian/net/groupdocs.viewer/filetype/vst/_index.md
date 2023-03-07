@@ -1,14 +1,14 @@
 ---
 title: VST
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Visio Drawing Template .vst sono file di immagine vettoriale creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Questi file modello sono in formato file binario e contengono il layout e le impostazioni predefiniti utilizzati per la creazione di nuovi disegni di Visio. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vst .
+description: Visio Drawing Template .vst sono file di immagini vettoriali creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Questi file modello sono in formato di file binario e contengono il layout e le impostazioni predefiniti utilizzati per la creazione di nuovi disegni di Visio. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vst .
 type: docs
-weight: 1660
+weight: 1710
 url: /it/net/groupdocs.viewer/filetype/vst/
 ---
 ## FileType.VST field
 
-Visio Drawing Template (.vst) sono file di immagine vettoriale creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Questi file modello sono in formato file binario e contengono il layout e le impostazioni predefiniti utilizzati per la creazione di nuovi disegni di Visio. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vst) .
+Visio Drawing Template (.vst) sono file di immagini vettoriali creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Questi file modello sono in formato di file binario e contengono il layout e le impostazioni predefiniti utilizzati per la creazione di nuovi disegni di Visio. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vst) .
 
 ```csharp
 public static readonly FileType VST;

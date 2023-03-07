@@ -1,14 +1,14 @@
 ---
 title: SVG
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File di grafica vettoriale scalare .svg è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML per descrivere laspetto di unimmagine. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/pagedescriptionlanguage/svg .
+description: File di grafica vettoriale scalare .svg è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML per descrivere laspetto di unimmagine. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/pagedescriptionlanguage/svg .
 type: docs
-weight: 1400
+weight: 1450
 url: /it/net/groupdocs.viewer/filetype/svg/
 ---
 ## FileType.SVG field
 
-File di grafica vettoriale scalare (.svg) è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML per descrivere l'aspetto di un'immagine. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/page-description-language/svg) .
+File di grafica vettoriale scalare (.svg) è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML per descrivere l'aspetto di un'immagine. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/page-description-language/svg) .
 
 ```csharp
 public static readonly FileType SVG;

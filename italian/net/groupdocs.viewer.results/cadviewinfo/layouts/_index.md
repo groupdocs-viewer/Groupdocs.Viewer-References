@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/cadviewinfo/layouts/
 L'elenco dei layout contenuti nel disegno CAD.
 
 ```csharp
-public IList<Layout> Layouts { get; }
+public List<Layout> Layouts { get; set; }
 ```
 
 ### Guarda anche

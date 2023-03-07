@@ -1,14 +1,14 @@
 ---
 title: JpgViewOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diJpgViewOptionsgroupdocs.viewer.options/jpgviewoptions classe.
+description: Inizializza una nuova istanza diJpgViewOptionsgroupdocs.viewer.options/jpgviewoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/jpgviewoptions/jpgviewoptions/
 ---
 ## JpgViewOptions(CreatePageStream) {#constructor_1}
 
-Inizializza la nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
+Inizializza una nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
 
 ```csharp
 public JpgViewOptions(CreatePageStream createPageStream)
@@ -35,7 +35,7 @@ public JpgViewOptions(CreatePageStream createPageStream)
 
 ## JpgViewOptions(CreatePageStream, ReleasePageStream) {#constructor_2}
 
-Inizializza la nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
+Inizializza una nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
 
 ```csharp
 public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
@@ -44,7 +44,7 @@ public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | createPageStream | CreatePageStream | Il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della pagina di output. |
-| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato a cui è passato*createPageStream* parametro. |
+| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato passato a*createPageStream* parametro. |
 
 ### Eccezioni
 
@@ -65,7 +65,7 @@ public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 
 ## JpgViewOptions(IPageStreamFactory) {#constructor_3}
 
-Inizializza la nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
+Inizializza una nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
 
 ```csharp
 public JpgViewOptions(IPageStreamFactory pageStreamFactory)
@@ -73,7 +73,7 @@ public JpgViewOptions(IPageStreamFactory pageStreamFactory)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per creare e rilasciare il flusso di pagine di output. |
+| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per la creazione e il rilascio del flusso della pagina di output. |
 
 ### Eccezioni
 
@@ -92,7 +92,7 @@ public JpgViewOptions(IPageStreamFactory pageStreamFactory)
 
 ## JpgViewOptions() {#constructor}
 
-Inizializza la nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
+Inizializza una nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
 
 ```csharp
 public JpgViewOptions()
@@ -112,7 +112,7 @@ Questo costruttore inizializza una nuova istanza di[`JpgViewOptions`](../../jpgv
 
 ## JpgViewOptions(string) {#constructor_4}
 
-Inizializza la nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
+Inizializza una nuova istanza di[`JpgViewOptions`](../../jpgviewoptions) classe.
 
 ```csharp
 public JpgViewOptions(string filePathFormat)

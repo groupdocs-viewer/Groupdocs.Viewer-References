@@ -1,14 +1,14 @@
 ---
 title: XLTM
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Modello abilitato per macro di Microsoft Excel .xltm rappresenta i file generati da Microsoft Excel come file di modello abilitato per macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xltm .
+description: Il modello con attivazione macro di Microsoft Excel .xltm rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
-weight: 1800
+weight: 1850
 url: /it/net/groupdocs.viewer/filetype/xltm/
 ---
 ## FileType.XLTM field
 
-Modello abilitato per macro di Microsoft Excel (.xltm) rappresenta i file generati da Microsoft Excel come file di modello abilitato per macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xltm) .
+Il modello con attivazione macro di Microsoft Excel (.xltm) rappresenta i file generati da Microsoft Excel come file modello con attivazione macro. I file XLTM sono simili a XLTX nella struttura diversa da quella successiva non supporta la creazione di file modello con macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xltm) .
 
 ```csharp
 public static readonly FileType XLTM;

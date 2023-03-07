@@ -3,7 +3,7 @@ title: SH
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Script shell Bash .sh
 type: docs
-weight: 1360
+weight: 1410
 url: /it/net/groupdocs.viewer/filetype/sh/
 ---
 ## FileType.SH field

@@ -1,14 +1,14 @@
 ---
 title: PST
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il file di archiviazione delle informazioni personali di Outlook .pst rappresenta i file di archiviazione personale di Outlook chiamati anche tabella di archiviazione personale che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/email/pst .
+description: Il file di archiviazione delle informazioni personali di Outlook .pst rappresenta i file di archiviazione personale di Outlook chiamati anche tabella di archiviazione personale che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /it/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field
 
-Il file di archiviazione delle informazioni personali di Outlook (.pst) rappresenta i file di archiviazione personale di Outlook (chiamati anche tabella di archiviazione personale) che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/email/pst) .
+Il file di archiviazione delle informazioni personali di Outlook (.pst) rappresenta i file di archiviazione personale di Outlook (chiamati anche tabella di archiviazione personale) che memorizzano una varietà di informazioni utente. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/email/pst) .
 
 ```csharp
 public static readonly FileType PST;

@@ -1,14 +1,14 @@
 ---
 title: ForJpgView
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions classe per recuperare informazioni sulla visualizzazione durante il rendering in JPG.
+description: Inizializza una nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class per recuperare informazioni sulla visualizzazione durante il rendering in JPG.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/viewinfooptions/forjpgview/
 ---
 ## ForJpgView() {#forjpgview}
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in JPG.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in JPG.
 
 ```csharp
 public static ViewInfoOptions ForJpgView()
@@ -28,7 +28,7 @@ Nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ## ForJpgView(bool) {#forjpgview_1}
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in JPG.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in JPG.
 
 ```csharp
 public static ViewInfoOptions ForJpgView(bool extractText)

@@ -18,7 +18,7 @@ public class Watermark
 
 | Nome | Descrizione |
 | --- | --- |
-| [Watermark](watermark)(string) | Inizializza la nuova istanza di[`Watermark`](../watermark) classe. |
+| [Watermark](watermark)(string) | Inizializza una nuova istanza di[`Watermark`](../watermark) classe. |
 
 ## Proprietà
 

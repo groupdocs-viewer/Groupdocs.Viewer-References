@@ -3,7 +3,7 @@ title: MD
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File di documentazione Markdown .md
 type: docs
-weight: 790
+weight: 840
 url: /it/net/groupdocs.viewer/filetype/md/
 ---
 ## FileType.MD field

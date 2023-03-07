@@ -1,14 +1,14 @@
 ---
 title: DIFF
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File di patch .diff
+description: File patch .diff
 type: docs
-weight: 250
+weight: 270
 url: /it/net/groupdocs.viewer/filetype/diff/
 ---
 ## FileType.DIFF field
 
-File di patch (.diff)
+File patch (.diff)
 
 ```csharp
 public static readonly FileType DIFF;

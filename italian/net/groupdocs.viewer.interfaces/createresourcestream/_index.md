@@ -1,14 +1,14 @@
 ---
 title: CreateResourceStream
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rappresenta il metodo che istanzia il flusso utilizzato per scrivere i dati della risorsa HTML di output.
+description: Rappresenta il metodo che crea unistanza del flusso utilizzato per scrivere i dati della risorsa HTML di output.
 type: docs
 weight: 140
 url: /it/net/groupdocs.viewer.interfaces/createresourcestream/
 ---
 ## CreateResourceStream delegate
 
-Rappresenta il metodo che istanzia il flusso utilizzato per scrivere i dati della risorsa HTML di output.
+Rappresenta il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della risorsa HTML di output.
 
 ```csharp
 public delegate Stream CreateResourceStream(int pageNumber, Resource resource);

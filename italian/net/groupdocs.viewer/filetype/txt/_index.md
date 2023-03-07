@@ -1,14 +1,14 @@
 ---
 title: TXT
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Plain Text File .txt rappresenta un documento di testo che contiene testo normale sotto forma di righe. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/txt .
+description: Plain Text File .txt rappresenta un documento di testo che contiene testo normale sotto forma di righe. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 1520
+weight: 1570
 url: /it/net/groupdocs.viewer/filetype/txt/
 ---
 ## FileType.TXT field
 
-Plain Text File (.txt) rappresenta un documento di testo che contiene testo normale sotto forma di righe. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/txt) .
+Plain Text File (.txt) rappresenta un documento di testo che contiene testo normale sotto forma di righe. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/txt) .
 
 ```csharp
 public static readonly FileType TXT;

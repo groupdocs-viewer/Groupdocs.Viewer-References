@@ -26,7 +26,7 @@ public class ProjectManagementOptions
 | --- | --- |
 | [EndDate](../../groupdocs.viewer.options/projectmanagementoptions/enddate) { get; set; } | La data di fine della visualizzazione del diagramma di Gantt da includere nell'output. |
 | [PageSize](../../groupdocs.viewer.options/projectmanagementoptions/pagesize) { get; set; } | La dimensione della pagina di output. |
-| [StartDate](../../groupdocs.viewer.options/projectmanagementoptions/startdate) { get; set; } | La data di inizio della visualizzazione diagramma di Gantt da includere nell'output. |
+| [StartDate](../../groupdocs.viewer.options/projectmanagementoptions/startdate) { get; set; } | La data di inizio della visualizzazione del diagramma di Gantt da includere nell'output. |
 | [TimeUnit](../../groupdocs.viewer.options/projectmanagementoptions/timeunit) { get; set; } | L'unità di tempo. |
 
 ### Guarda anche

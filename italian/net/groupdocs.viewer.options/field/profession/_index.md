@@ -1,14 +1,14 @@
 ---
 title: Profession
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Professione.
+description: Il campo di testo predefinito è Professione.
 type: docs
 weight: 350
 url: /it/net/groupdocs.viewer.options/field/profession/
 ---
 ## Field.Profession field
 
-Il testo del campo predefinito è "Professione".
+Il campo di testo predefinito è "Professione".
 
 ```csharp
 public static readonly Field Profession;

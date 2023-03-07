@@ -1,14 +1,14 @@
 ---
 title: MiddleName
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Secondo nome.
+description: Il campo di testo predefinito è Secondo nome.
 type: docs
 weight: 300
 url: /it/net/groupdocs.viewer.options/field/middlename/
 ---
 ## Field.MiddleName field
 
-Il testo del campo predefinito è "Secondo nome".
+Il campo di testo predefinito è "Secondo nome".
 
 ```csharp
 public static readonly Field MiddleName;

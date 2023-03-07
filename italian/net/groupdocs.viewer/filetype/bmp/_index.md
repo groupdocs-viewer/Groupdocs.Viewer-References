@@ -1,14 +1,14 @@
 ---
 title: BMP
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Bitmap Image File .bmp viene utilizzato per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dalla scheda grafica e sono anche chiamate formato di file bitmap indipendente dal dispositivo DIB. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/bmp .
+description: Bitmap Image File .bmp viene utilizzato per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dalla scheda grafica e sono anche chiamate formato di file bitmap indipendente dal dispositivo DIB. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/bmp .
 type: docs
-weight: 70
+weight: 80
 url: /it/net/groupdocs.viewer/filetype/bmp/
 ---
 ## FileType.BMP field
 
-Bitmap Image File (.bmp) viene utilizzato per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dalla scheda grafica e sono anche chiamate formato di file bitmap indipendente dal dispositivo (DIB). Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/bmp) .
+Bitmap Image File (.bmp) viene utilizzato per memorizzare immagini digitali bitmap. Queste immagini sono indipendenti dalla scheda grafica e sono anche chiamate formato di file bitmap indipendente dal dispositivo (DIB). Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/bmp) .
 
 ```csharp
 public static readonly FileType BMP;

@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La password per lapertura del file crittografato.
+description: La password per aprire il file crittografato.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-La password per l'apertura del file crittografato.
+La password per aprire il file crittografato.
 
 ```csharp
 public string Password { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: StartPointX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La coordinata X del punto in basso a sinistra sul disegno in cui inizia la tessera.
+description: La coordinata X del punto in basso a sinistra sul disegno in cui inizia la piastrella.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.options/tile/startpointx/
 ---
 ## Tile.StartPointX property
 
-La coordinata X del punto in basso a sinistra sul disegno in cui inizia la tessera.
+La coordinata X del punto in basso a sinistra sul disegno in cui inizia la piastrella.
 
 ```csharp
 public int StartPointX { get; }

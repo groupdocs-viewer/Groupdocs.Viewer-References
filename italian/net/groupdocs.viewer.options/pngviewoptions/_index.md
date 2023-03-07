@@ -1,14 +1,14 @@
 ---
 title: PngViewOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Fornisce opzioni per il rendering di documenti in formato PNG.
+description: Fornisce opzioni per il rendering dei documenti in formato PNG.
 type: docs
 weight: 440
 url: /it/net/groupdocs.viewer.options/pngviewoptions/
 ---
 ## PngViewOptions class
 
-Fornisce opzioni per il rendering di documenti in formato PNG.
+Fornisce opzioni per il rendering dei documenti in formato PNG.
 
 ```csharp
 public class PngViewOptions : ViewOptions, IMaxSizeOptions
@@ -18,11 +18,11 @@ public class PngViewOptions : ViewOptions, IMaxSizeOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [PngViewOptions](pngviewoptions#constructor)() | Inizializza la nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
-| [PngViewOptions](pngviewoptions#constructor_1)(CreatePageStream) | Inizializza la nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
-| [PngViewOptions](pngviewoptions#constructor_3)(IPageStreamFactory) | Inizializza la nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
-| [PngViewOptions](pngviewoptions#constructor_4)(string) | Inizializza la nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
-| [PngViewOptions](pngviewoptions#constructor_2)(CreatePageStream, ReleasePageStream) | Inizializza la nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
+| [PngViewOptions](pngviewoptions#constructor)() | Inizializza una nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
+| [PngViewOptions](pngviewoptions#constructor_1)(CreatePageStream) | Inizializza una nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
+| [PngViewOptions](pngviewoptions#constructor_3)(IPageStreamFactory) | Inizializza una nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
+| [PngViewOptions](pngviewoptions#constructor_4)(string) | Inizializza una nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
+| [PngViewOptions](pngviewoptions#constructor_2)(CreatePageStream, ReleasePageStream) | Inizializza una nuova istanza di[`PngViewOptions`](../pngviewoptions) classe. |
 
 ## Proprietà
 
@@ -42,7 +42,7 @@ public class PngViewOptions : ViewOptions, IMaxSizeOptions
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | Le opzioni di visualizzazione dei documenti di elaborazione della presentazione. |
 | [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | I file di gestione del progetto visualizzano le opzioni. |
 | [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | Abilita il rendering dei commenti. |
-| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering di pagine nascoste. |
+| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering delle pagine nascoste. |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | Abilita il rendering delle note. |
 | [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | I file del foglio di calcolo visualizzano le opzioni. |
 | [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | Opzioni di suddivisione dei file di testo in pagine. |

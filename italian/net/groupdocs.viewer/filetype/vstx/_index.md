@@ -1,14 +1,14 @@
 ---
 title: VSTX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Visio Drawing Template .vstx sono file modello di disegno creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni di Visio salvati come file .VSDX con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vstx .
+description: Visio Drawing Template .vstx sono file modello di disegno creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni Visio salvati come file .VSDX con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vstx .
 type: docs
-weight: 1680
+weight: 1730
 url: /it/net/groupdocs.viewer/filetype/vstx/
 ---
 ## FileType.VSTX field
 
-Visio Drawing Template (.vstx) sono file modello di disegno creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni di Visio, salvati come file .VSDX, con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vstx) .
+Visio Drawing Template (.vstx) sono file modello di disegno creati con Microsoft Visio 2013 e versioni successive. Questi file VSTX forniscono il punto di partenza per la creazione di disegni Visio, salvati come file .VSDX, con layout e impostazioni predefiniti. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vstx) .
 
 ```csharp
 public static readonly FileType VSTX;

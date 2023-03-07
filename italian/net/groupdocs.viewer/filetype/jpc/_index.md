@@ -1,14 +1,14 @@
 ---
 title: JPC
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Flusso di codice JPEG 2000 .jpc
+description: Stream codice JPEG 2000 .jpc
 type: docs
-weight: 660
+weight: 710
 url: /it/net/groupdocs.viewer/filetype/jpc/
 ---
 ## FileType.JPC field
 
-Flusso di codice JPEG 2000 (.jpc)
+Stream codice JPEG 2000 (.jpc)
 
 ```csharp
 public static readonly FileType JPC;

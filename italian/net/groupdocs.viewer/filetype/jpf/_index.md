@@ -3,7 +3,7 @@ title: JPF
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File immagine JPEG 2000 .jpf
 type: docs
-weight: 680
+weight: 730
 url: /it/net/groupdocs.viewer/filetype/jpf/
 ---
 ## FileType.JPF field

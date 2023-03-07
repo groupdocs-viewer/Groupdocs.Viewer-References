@@ -1,23 +1,39 @@
 ---
 title: PdfViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diPdfViewInfogroupdocs.viewer.results/pdfviewinfo classe.
+description: Inizializza una nuova istanza diPdfViewInfogroupdocs.viewer.results/pdfviewinfo classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/pdfviewinfo/pdfviewinfo/
 ---
-## PdfViewInfo constructor
+## PdfViewInfo() {#constructor}
 
-Inizializza la nuova istanza di[`PdfViewInfo`](../../pdfviewinfo) classe.
+Inizializza una nuova istanza di[`PdfViewInfo`](../../pdfviewinfo) classe.
 
 ```csharp
-public PdfViewInfo(FileType fileType, IList<Page> pages, bool printingAllowed)
+public PdfViewInfo()
+```
+
+### Guarda anche
+
+* class [PdfViewInfo](../../pdfviewinfo)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../pdfviewinfo)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewInfo(FileType, List&lt;Page&gt;, bool) {#constructor_1}
+
+Inizializza una nuova istanza di[`PdfViewInfo`](../../pdfviewinfo) classe.
+
+```csharp
+public PdfViewInfo(FileType fileType, List<Page> pages, bool printingAllowed)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileType | FileType | Il tipo di file. |
-| pages | IList`1 | L'elenco delle pagine da visualizzare. |
+| pages | List`1 | L'elenco delle pagine da visualizzare. |
 | printingAllowed | Boolean | L'indicatore di autorizzazione alla stampa. |
 
 ### Eccezioni

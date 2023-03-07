@@ -1,14 +1,14 @@
 ---
 title: XPS
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File delle specifiche della carta XML .xps rappresenta i file di layout di pagina basati sulle specifiche della carta XML create da Microsoft. Questo formato è stato sviluppato da Microsoft in sostituzione del formato di file EMF ed è simile al formato di file PDF ma utilizza XML nel layout nellaspetto e nelle informazioni di stampa di un documento. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
+description: XML Paper Specification File .xps rappresenta i file di layout di pagina basati su XML Paper Specifications creati da Microsoft. Questo formato è stato sviluppato da Microsoft in sostituzione del formato di file EMF ed è simile al formato di file PDF ma utilizza XML nel layout nellaspetto e nelle informazioni di stampa di un documento. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
 type: docs
-weight: 1830
+weight: 1880
 url: /it/net/groupdocs.viewer/filetype/xps/
 ---
 ## FileType.XPS field
 
-File delle specifiche della carta XML (.xps) rappresenta i file di layout di pagina basati sulle specifiche della carta XML create da Microsoft. Questo formato è stato sviluppato da Microsoft in sostituzione del formato di file EMF ed è simile al formato di file PDF, ma utilizza XML nel layout, nell'aspetto e nelle informazioni di stampa di un documento. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/page-description-language/xps) .
+XML Paper Specification File (.xps) rappresenta i file di layout di pagina basati su XML Paper Specifications creati da Microsoft. Questo formato è stato sviluppato da Microsoft in sostituzione del formato di file EMF ed è simile al formato di file PDF, ma utilizza XML nel layout, nell'aspetto e nelle informazioni di stampa di un documento. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/page-description-language/xps) .
 
 ```csharp
 public static readonly FileType XPS;

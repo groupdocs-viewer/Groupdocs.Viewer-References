@@ -1,14 +1,30 @@
 ---
 title: Attachment
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diAttachmentgroupdocs.viewer.results/attachment classe.
+description: Inizializza una nuova istanza diAttachmentgroupdocs.viewer.results/attachment classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
 
-Inizializza la nuova istanza di[`Attachment`](../../attachment) classe.
+Inizializza una nuova istanza di[`Attachment`](../../attachment) classe.
+
+```csharp
+public Attachment()
+```
+
+### Guarda anche
+
+* class [Attachment](../../attachment)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../attachment)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
+
+Inizializza una nuova istanza di[`Attachment`](../../attachment) classe.
 
 ```csharp
 public Attachment(string fileName, string filePath)
@@ -17,7 +33,7 @@ public Attachment(string fileName, string filePath)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileName | String | Nome file allegato. |
-| filePath | String | Percorso relativo dell'allegato escartella/file.docx nomefile quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
+| filePath | String | Percorso relativo dell'allegato escartella/file.docx o nomefile quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
 
 ### Eccezioni
 
@@ -34,9 +50,9 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
-Inizializza la nuova istanza di[`Attachment`](../../attachment) classe.
+Inizializza una nuova istanza di[`Attachment`](../../attachment) classe.
 
 ```csharp
 public Attachment(string id, string fileName, string filePath, long size)
@@ -46,7 +62,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | Identificatore univoco (nel contesto di un singolo file) dell'allegato. |
 | fileName | String | Nome file allegato. |
-| filePath | String | Percorso relativo dell'allegato escartella/file.docx nomefile quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
+| filePath | String | Percorso relativo dell'allegato escartella/file.docx o nomefile quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
 | size | Int64 | Dimensioni del file allegato in byte. |
 
 ### Eccezioni
@@ -65,9 +81,9 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
-Inizializza la nuova istanza di[`Attachment`](../../attachment) classe.
+Inizializza una nuova istanza di[`Attachment`](../../attachment) classe.
 
 ```csharp
 public Attachment(string id, string fileName, string filePath, FileType fileType, long size)
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | Identificatore univoco (nel contesto di un singolo file) dell'allegato. |
 | fileName | String | Nome file allegato. |
-| filePath | String | Percorso relativo dell'allegato escartella/file.docx nomefile quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
+| filePath | String | Percorso relativo dell'allegato escartella/file.docx o nomefile quando il file si trova nella radice di un archivio, in un messaggio di posta elettronica o in un file di dati. |
 | fileType | FileType | Tipo di file allegato. |
 | size | Int64 | Dimensioni del file allegato in byte. |
 

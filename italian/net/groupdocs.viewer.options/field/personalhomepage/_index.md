@@ -1,14 +1,14 @@
 ---
 title: PersonalHomepage
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Home page personale.
+description: Il campo di testo predefinito è Home page personale.
 type: docs
 weight: 340
 url: /it/net/groupdocs.viewer.options/field/personalhomepage/
 ---
 ## Field.PersonalHomepage field
 
-Il testo del campo predefinito è "Home page personale".
+Il campo di testo predefinito è "Home page personale".
 
 ```csharp
 public static readonly Field PersonalHomepage;

@@ -1,14 +1,14 @@
 ---
 title: ReleaseFileStream
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rilascia il flusso che è stato istanziato dal metodo associato aCreateFileStream./createfilestream delegato.
+description: Rilascia il flusso di cui è stata creata unistanza dal metodo associato aCreateFileStream./createfilestream delegato.
 type: docs
 weight: 190
 url: /it/net/groupdocs.viewer.interfaces/releasefilestream/
 ---
 ## ReleaseFileStream delegate
 
-Rilascia il flusso che è stato istanziato dal metodo associato a[`CreateFileStream`](../createfilestream) delegato.
+Rilascia il flusso di cui è stata creata un'istanza dal metodo associato a[`CreateFileStream`](../createfilestream) delegato.
 
 ```csharp
 public delegate void ReleaseFileStream(Stream fileStream);
@@ -16,7 +16,7 @@ public delegate void ReleaseFileStream(Stream fileStream);
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileStream | Stream | Il flusso creato dal metodo associato a[`CreateFileStream`](../createfilestream) delegare. |
+| fileStream | Stream | Flusso creato dal metodo associato a[`CreateFileStream`](../createfilestream) delegare. |
 
 ### Guarda anche
 

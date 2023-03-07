@@ -1,24 +1,40 @@
 ---
 title: OutlookViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diOutlookViewInfogroupdocs.viewer.results/outlookviewinfo classe.
+description: Inizializza una nuova istanza diOutlookViewInfogroupdocs.viewer.results/outlookviewinfo classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/outlookviewinfo/outlookviewinfo/
 ---
-## OutlookViewInfo constructor
+## OutlookViewInfo() {#constructor}
 
-Inizializza la nuova istanza di[`OutlookViewInfo`](../../outlookviewinfo) classe.
+Inizializza una nuova istanza di[`OutlookViewInfo`](../../outlookviewinfo) classe.
 
 ```csharp
-public OutlookViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public OutlookViewInfo()
+```
+
+### Guarda anche
+
+* class [OutlookViewInfo](../../outlookviewinfo)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../outlookviewinfo)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## OutlookViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Inizializza una nuova istanza di[`OutlookViewInfo`](../../outlookviewinfo) classe.
+
+```csharp
+public OutlookViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileType | FileType | Il tipo di file. |
-| pages | IList`1 | L'elenco delle pagine da visualizzare. |
-| folders | IList`1 | L'elenco delle cartelle contenute nel file di dati di Outlook. |
+| pages | List`1 | L'elenco delle pagine da visualizzare. |
+| folders | List`1 | L'elenco delle cartelle contenute nel file di dati di Outlook. |
 
 ### Eccezioni
 

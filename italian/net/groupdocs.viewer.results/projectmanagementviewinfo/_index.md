@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Rappresenta le informazioni di visualizzazione per il documento MS Project.
 type: docs
-weight: 750
+weight: 760
 url: /it/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Inizializza la nuova istanza di[`ProjectManagementViewInfo`](../projectmanagementviewinfo) classe. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Inizializza una nuova istanza di[`ProjectManagementViewInfo`](../projectmanagementviewinfo) classe. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Inizializza una nuova istanza di[`ProjectManagementViewInfo`](../projectmanagementviewinfo) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | La data e l'ora in cui il progetto deve essere completato. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Il tipo di file. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | L'elenco delle pagine da visualizzare. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | La data e l'ora da cui è iniziato il progetto. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | La data e l'ora in cui il progetto deve essere completato. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Il tipo di file. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | L'elenco delle pagine da visualizzare. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | La data e l'ora da cui è iniziato il progetto. |
 
 ## Metodi
 

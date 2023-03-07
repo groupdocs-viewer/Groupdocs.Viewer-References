@@ -1,14 +1,30 @@
 ---
 title: Page
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diPagegroupdocs.viewer.results/page classe.
+description: Inizializza una nuova istanza diPagegroupdocs.viewer.results/page classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/page/page/
 ---
-## Page(int, bool) {#constructor}
+## Page() {#constructor}
 
-Inizializza la nuova istanza di[`Page`](../../page) classe.
+Inizializza una nuova istanza di[`Page`](../../page) classe.
+
+```csharp
+public Page()
+```
+
+### Guarda anche
+
+* class [Page](../../page)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../page)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool) {#constructor_1}
+
+Inizializza una nuova istanza di[`Page`](../../page) classe.
 
 ```csharp
 public Page(int number, bool visible)
@@ -33,9 +49,9 @@ public Page(int number, bool visible)
 
 ---
 
-## Page(int, string, bool) {#constructor_3}
+## Page(int, string, bool) {#constructor_4}
 
-Inizializza la nuova istanza di[`Page`](../../page) classe.
+Inizializza una nuova istanza di[`Page`](../../page) classe.
 
 ```csharp
 public Page(int number, string name, bool visible)
@@ -61,9 +77,9 @@ public Page(int number, string name, bool visible)
 
 ---
 
-## Page(int, bool, int, int) {#constructor_1}
+## Page(int, bool, int, int) {#constructor_2}
 
-Inizializza la nuova istanza di[`Page`](../../page) classe.
+Inizializza una nuova istanza di[`Page`](../../page) classe.
 
 ```csharp
 public Page(int number, bool visible, int width, int height)
@@ -92,9 +108,9 @@ public Page(int number, bool visible, int width, int height)
 
 ---
 
-## Page(int, string, bool, int, int) {#constructor_4}
+## Page(int, string, bool, int, int) {#constructor_5}
 
-Inizializza la nuova istanza di[`Page`](../../page) classe.
+Inizializza una nuova istanza di[`Page`](../../page) classe.
 
 ```csharp
 public Page(int number, string name, bool visible, int width, int height)
@@ -124,12 +140,12 @@ public Page(int number, string name, bool visible, int width, int height)
 
 ---
 
-## Page(int, bool, int, int, IList&lt;Line&gt;) {#constructor_2}
+## Page(int, bool, int, int, List&lt;Line&gt;) {#constructor_3}
 
-Inizializza la nuova istanza di[`Page`](../../page) classe.
+Inizializza una nuova istanza di[`Page`](../../page) classe.
 
 ```csharp
-public Page(int number, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Parametro | Tipo | Descrizione |
@@ -138,7 +154,7 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 | visible | Boolean | L'indicatore di visibilità della pagina. |
 | width | Int32 | La larghezza della pagina in pixel durante la visualizzazione in formato JPG o PNG. |
 | height | Int32 | L'altezza della pagina in pixel quando viene visualizzata come JPG o PNG. |
-| lines | IList`1 | Le righe contenute nella pagina durante la visualizzazione in formato JPG o PNG con Estrazione testo abilitata. |
+| lines | List`1 | Le righe contenute nella pagina durante la visualizzazione in formato JPG o PNG con Estrazione testo abilitata. |
 
 ### Eccezioni
 
@@ -158,12 +174,12 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 
 ---
 
-## Page(int, string, bool, int, int, IList&lt;Line&gt;) {#constructor_5}
+## Page(int, string, bool, int, int, List&lt;Line&gt;) {#constructor_6}
 
-Inizializza la nuova istanza di[`Page`](../../page) classe.
+Inizializza una nuova istanza di[`Page`](../../page) classe.
 
 ```csharp
-public Page(int number, string name, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, string name, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Parametro | Tipo | Descrizione |
@@ -173,7 +189,7 @@ public Page(int number, string name, bool visible, int width, int height, IList<
 | visible | Boolean | L'indicatore di visibilità della pagina. |
 | width | Int32 | La larghezza della pagina in pixel durante la visualizzazione in formato JPG o PNG. |
 | height | Int32 | L'altezza della pagina in pixel quando viene visualizzata come JPG o PNG. |
-| lines | IList`1 | Le righe contenute nella pagina durante la visualizzazione in formato JPG o PNG con Estrazione testo abilitata. |
+| lines | List`1 | Le righe contenute nella pagina durante la visualizzazione in formato JPG o PNG con Estrazione testo abilitata. |
 
 ### Eccezioni
 

@@ -1,14 +1,14 @@
 ---
 title: VisioRenderingOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diVisioRenderingOptionsgroupdocs.viewer.options/visiorenderingoptions classe.
+description: Inizializza una nuova istanza diVisioRenderingOptionsgroupdocs.viewer.options/visiorenderingoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/visiorenderingoptions/visiorenderingoptions/
 ---
 ## VisioRenderingOptions constructor
 
-Inizializza la nuova istanza di[`VisioRenderingOptions`](../../visiorenderingoptions) classe.
+Inizializza una nuova istanza di[`VisioRenderingOptions`](../../visiorenderingoptions) classe.
 
 ```csharp
 public VisioRenderingOptions()

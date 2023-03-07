@@ -1,17 +1,17 @@
 ---
 title: Words
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Le parole contenute nella riga.
+description: Le parole contenute dalla riga.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.results/line/words/
 ---
 ## Line.Words property
 
-Le parole contenute nella riga.
+Le parole contenute dalla riga.
 
 ```csharp
-public IList<Word> Words { get; }
+public List<Word> Words { get; set; }
 ```
 
 ### Guarda anche

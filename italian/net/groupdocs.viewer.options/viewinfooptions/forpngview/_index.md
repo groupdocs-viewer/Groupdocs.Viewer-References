@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsclasse per recuperare informazioni sulla visualizzazione durante il rendering in PNG.
+description: Inizializza una nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class per recuperare informazioni sulla visualizzazione durante il rendering in PNG.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions)classe per recuperare informazioni sulla visualizzazione durante il rendering in PNG.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -28,7 +28,7 @@ Nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ## ForPngView(bool) {#forpngview_1}
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions)classe per recuperare informazioni sulla visualizzazione durante il rendering in PNG.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)

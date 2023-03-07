@@ -1,14 +1,14 @@
 ---
 title: Mobile
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Mobile.
+description: Il campo di testo predefinito è Cellulare.
 type: docs
 weight: 310
 url: /it/net/groupdocs.viewer.options/field/mobile/
 ---
 ## Field.Mobile field
 
-Il testo del campo predefinito è "Mobile".
+Il campo di testo predefinito è "Cellulare".
 
 ```csharp
 public static readonly Field Mobile;

@@ -1,14 +1,14 @@
 ---
 title: SearchOption
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Specifica se eseguire la ricerca nella cartella corrente o nella cartella corrente e in tutte le sottocartelle.
+description: Specifica se cercare nella cartella corrente o nella cartella corrente e in tutte le sottocartelle.
 type: docs
 weight: 110
 url: /it/net/groupdocs.viewer.fonts/searchoption/
 ---
 ## SearchOption enumeration
 
-Specifica se eseguire la ricerca nella cartella corrente o nella cartella corrente e in tutte le sottocartelle.
+Specifica se cercare nella cartella corrente o nella cartella corrente e in tutte le sottocartelle.
 
 ```csharp
 public enum SearchOption

@@ -1,14 +1,14 @@
 ---
 title: ExcludeFonts
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Quando abilitato impedisce laggiunta di caratteri nel documento HTML.
+description: Se abilitato impedisce laggiunta di caratteri nel documento HTML.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.options/htmlviewoptions/excludefonts/
 ---
 ## HtmlViewOptions.ExcludeFonts property
 
-Quando abilitato impedisce l'aggiunta di caratteri nel documento HTML.
+Se abilitato impedisce l'aggiunta di caratteri nel documento HTML.
 
 ```csharp
 public bool ExcludeFonts { get; set; }

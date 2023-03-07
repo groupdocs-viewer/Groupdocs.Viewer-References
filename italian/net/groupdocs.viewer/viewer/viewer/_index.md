@@ -1,14 +1,14 @@
 ---
 title: Viewer
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewergroupdocs.viewer/viewer classe.
+description: Inizializza una nuova istanza diViewergroupdocs.viewer/viewer classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer/viewer/viewer/
 ---
 ## Viewer(Func&lt;Stream&gt;) {#constructor}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Func<Stream> getFileStream)
@@ -26,7 +26,7 @@ public Viewer(Func<Stream> getFileStream)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -41,7 +41,7 @@ public Viewer(Func<Stream> getFileStream)
 
 ## Viewer(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;) {#constructor_2}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions)
@@ -61,7 +61,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -78,7 +78,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions)
 
 ## Viewer(Func&lt;Stream&gt;, ViewerSettings) {#constructor_1}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Func<Stream> getFileStream, ViewerSettings settings)
@@ -98,7 +98,7 @@ public Viewer(Func<Stream> getFileStream, ViewerSettings settings)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -114,7 +114,7 @@ public Viewer(Func<Stream> getFileStream, ViewerSettings settings)
 
 ## Viewer(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;, ViewerSettings) {#constructor_3}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions, ViewerSettings settings)
@@ -136,7 +136,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions, View
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -154,7 +154,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions, View
 
 ## Viewer(Stream) {#constructor_4}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream)
@@ -172,7 +172,7 @@ public Viewer(Stream stream)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -187,7 +187,7 @@ public Viewer(Stream stream)
 
 ## Viewer(Stream, bool) {#constructor_5}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream, bool leaveOpen)
@@ -196,7 +196,7 @@ public Viewer(Stream stream, bool leaveOpen)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | stream | Stream | Il flusso di file. |
-| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; altrimenti,falso. |
+| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; Altrimenti,falso. |
 
 ### Eccezioni
 
@@ -206,7 +206,7 @@ public Viewer(Stream stream, bool leaveOpen)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -221,7 +221,7 @@ public Viewer(Stream stream, bool leaveOpen)
 
 ## Viewer(Stream, LoadOptions) {#constructor_6}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream, LoadOptions loadOptions)
@@ -241,7 +241,7 @@ public Viewer(Stream stream, LoadOptions loadOptions)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -258,7 +258,7 @@ public Viewer(Stream stream, LoadOptions loadOptions)
 
 ## Viewer(Stream, LoadOptions, bool) {#constructor_7}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
@@ -268,7 +268,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Il flusso di file. |
 | loadOptions | LoadOptions | Le opzioni di caricamento del documento. |
-| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; altrimenti,falso. |
+| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; Altrimenti,falso. |
 
 ### Eccezioni
 
@@ -279,7 +279,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -296,7 +296,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 
 ## Viewer(Stream, ViewerSettings) {#constructor_10}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream, ViewerSettings settings)
@@ -316,7 +316,7 @@ public Viewer(Stream stream, ViewerSettings settings)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -332,7 +332,7 @@ public Viewer(Stream stream, ViewerSettings settings)
 
 ## Viewer(Stream, ViewerSettings, bool) {#constructor_11}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
@@ -342,7 +342,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Il flusso di file. |
 | settings | ViewerSettings | Le impostazioni del visualizzatore. |
-| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; altrimenti,falso. |
+| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; Altrimenti,falso. |
 
 ### Eccezioni
 
@@ -353,7 +353,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -369,7 +369,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 
 ## Viewer(Stream, LoadOptions, ViewerSettings) {#constructor_8}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings)
@@ -391,7 +391,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -409,7 +409,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings)
 
 ## Viewer(Stream, LoadOptions, ViewerSettings, bool) {#constructor_9}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, bool leaveOpen)
@@ -420,7 +420,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 | stream | Stream | Il flusso di file. |
 | loadOptions | LoadOptions | Le opzioni di caricamento del documento. |
 | settings | ViewerSettings | Le impostazioni del visualizzatore. |
-| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; altrimenti,falso. |
+| leaveOpen | Boolean | VERO per lasciare il flusso aperto dopo l'eliminazione dell'oggetto Viewer; Altrimenti,falso. |
 
 ### Eccezioni
 
@@ -432,7 +432,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -450,7 +450,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 
 ## Viewer(string) {#constructor_12}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(string filePath)
@@ -468,7 +468,7 @@ public Viewer(string filePath)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -483,7 +483,7 @@ public Viewer(string filePath)
 
 ## Viewer(string, ViewerSettings) {#constructor_15}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(string filePath, ViewerSettings settings)
@@ -503,7 +503,7 @@ public Viewer(string filePath, ViewerSettings settings)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -519,7 +519,7 @@ public Viewer(string filePath, ViewerSettings settings)
 
 ## Viewer(string, LoadOptions) {#constructor_13}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(string filePath, LoadOptions loadOptions)
@@ -539,7 +539,7 @@ public Viewer(string filePath, LoadOptions loadOptions)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -556,7 +556,7 @@ public Viewer(string filePath, LoadOptions loadOptions)
 
 ## Viewer(string, LoadOptions, ViewerSettings) {#constructor_14}
 
-Inizializza la nuova istanza di[`Viewer`](../../viewer) classe.
+Inizializza una nuova istanza di[`Viewer`](../../viewer) classe.
 
 ```csharp
 public Viewer(string filePath, LoadOptions loadOptions, ViewerSettings settings)
@@ -578,7 +578,7 @@ public Viewer(string filePath, LoadOptions loadOptions, ViewerSettings settings)
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui tipi di file supportati da GroupDocs.Viewer: [Formati di documenti supportati da GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su GroupDocs.Viewer per le funzionalità .NET: [Guida per sviluppatori](https://docs.groupdocs.com/display/viewernet/Developer+Guide)

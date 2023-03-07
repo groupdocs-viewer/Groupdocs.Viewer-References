@@ -1,14 +1,14 @@
 ---
 title: PageSize
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La dimensione della pagina di output. Il valore predefinito èLetter 792 x 612 punti.  Quando il contenuto non si adatta impostare una dimensione della pagina più grande ad esA3 .
+description: La dimensione della pagina di output. Il valore predefinito èLetter 792 x 612 punti.  Quando i contenuti non si adattano imposta una dimensione della pagina più grande ad esA3 .
 type: docs
 weight: 40
 url: /it/net/groupdocs.viewer.options/webdocumentoptions/pagesize/
 ---
 ## WebDocumentOptions.PageSize property
 
-La dimensione della pagina di output. Il valore predefinito èLetter 792 x 612 punti.  Quando il contenuto non si adatta, impostare una dimensione della pagina più grande, ad esA3 .
+La dimensione della pagina di output. Il valore predefinito èLetter 792 x 612 punti.  Quando i contenuti non si adattano, imposta una dimensione della pagina più grande, ad esA3 .
 
 ```csharp
 public PageSize PageSize { get; set; }

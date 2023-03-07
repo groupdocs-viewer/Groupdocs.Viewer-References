@@ -1,14 +1,14 @@
 ---
 title: POT
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Modello PowerPoint .pot rappresenta i file modello Microsoft PowerPoint creati dalle versioni PowerPoint 972003. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/pot .
+description: Modello PowerPoint .pot rappresenta i file modello Microsoft PowerPoint creati dalle versioni PowerPoint 972003. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/pot .
 type: docs
-weight: 1090
+weight: 1140
 url: /it/net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field
 
-Modello PowerPoint (.pot) rappresenta i file modello Microsoft PowerPoint creati dalle versioni PowerPoint 97-2003. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/pot) .
+Modello PowerPoint (.pot) rappresenta i file modello Microsoft PowerPoint creati dalle versioni PowerPoint 97-2003. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/pot) .
 
 ```csharp
 public static readonly FileType POT;

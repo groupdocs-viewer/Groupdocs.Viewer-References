@@ -32,10 +32,10 @@ public class CadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| static [ForRenderingByHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbyheight)(int) | Inizializza la nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering in base all'altezza. |
-| static [ForRenderingByScaleFactor](../../groupdocs.viewer.options/cadoptions/forrenderingbyscalefactor)(float) | Inizializza la nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering in base al fattore di scala. |
-| static [ForRenderingByWidth](../../groupdocs.viewer.options/cadoptions/forrenderingbywidth)(int) | Inizializza la nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering in base alla larghezza. |
-| static [ForRenderingByWidthAndHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbywidthandheight)(int, int) | Inizializza la nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering per larghezza e altezza. |
+| static [ForRenderingByHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbyheight)(int) | Inizializza una nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering in base all'altezza. |
+| static [ForRenderingByScaleFactor](../../groupdocs.viewer.options/cadoptions/forrenderingbyscalefactor)(float) | Inizializza una nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering per fattore di scala. |
+| static [ForRenderingByWidth](../../groupdocs.viewer.options/cadoptions/forrenderingbywidth)(int) | Inizializza una nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering in base alla larghezza. |
+| static [ForRenderingByWidthAndHeight](../../groupdocs.viewer.options/cadoptions/forrenderingbywidthandheight)(int, int) | Inizializza una nuova istanza di[`CadOptions`](../cadoptions) classe per il rendering in base alla larghezza e all'altezza. |
 
 ### Guarda anche
 

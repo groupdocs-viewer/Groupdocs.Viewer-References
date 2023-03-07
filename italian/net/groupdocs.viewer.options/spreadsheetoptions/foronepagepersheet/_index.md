@@ -1,14 +1,14 @@
 ---
 title: ForOnePagePerSheet
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions classe per il rendering dellintero foglio nella pagina.
+description: Inizializza una nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions classe per il rendering dellintero foglio nella pagina.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet/
 ---
 ## SpreadsheetOptions.ForOnePagePerSheet method
 
-Inizializza la nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) classe per il rendering dell'intero foglio nella pagina.
+Inizializza una nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) classe per il rendering dell'intero foglio nella pagina.
 
 ```csharp
 public static SpreadsheetOptions ForOnePagePerSheet()

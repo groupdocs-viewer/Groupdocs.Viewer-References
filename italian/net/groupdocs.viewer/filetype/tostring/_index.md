@@ -3,7 +3,7 @@ title: ToString
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Restituisce una stringa che rappresenta loggetto corrente.
 type: docs
-weight: 1950
+weight: 2000
 url: /it/net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method

@@ -18,17 +18,18 @@ public class LoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | Inizializza la nuova istanza di[`LoadOptions`](../loadoptions) classe. |
-| [LoadOptions](loadoptions#constructor_1)(FileType) | Inizializza la nuova istanza di[`LoadOptions`](../loadoptions) classe. |
+| [LoadOptions](loadoptions#constructor)() | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) classe. |
+| [LoadOptions](loadoptions#constructor_1)(FileType) | Inizializza una nuova istanza di[`LoadOptions`](../loadoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | La codifica utilizzata quando si aprono file di testo o messaggi di posta elettronica come[`CSV`](../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../groupdocs.viewer/filetype/txt) , e[`MSG`](../../groupdocs.viewer/filetype/msg) . Il valore predefinito èDefault . |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | Questa opzione abilita[`TXT`](../../groupdocs.viewer/filetype/txt) ,[`TSV`](../../groupdocs.viewer/filetype/tsv) , E[`CSV`](../../groupdocs.viewer/filetype/csv)rilevamento della codifica dei file. Nel caso in cui la codifica non possa essere rilevata, l'impostazione predefinita[`Encoding`](./encoding) viene utilizzato. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | La codifica utilizzata durante l'apertura di file di testo o messaggi e-mail come [`CSV`](../../groupdocs.viewer/filetype/csv) , [`TXT`](../../groupdocs.viewer/filetype/txt) , e[`MSG`](../../groupdocs.viewer/filetype/msg) . Il valore predefinito èUTF8 . |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | Il tipo di file da aprire. |
-| [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | La password per l'apertura del file crittografato. |
-| [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | Le risorse esterne, ad esempio il timeout di caricamento della grafica. Il valore predefinito è 30 secondi. Questa opzione è supportata per i documenti di Elaborazione di testi che contengono risorse esterne. |
+| [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | La password per aprire il file crittografato. |
+| [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | Le risorse esterne, ad esempio il timeout di caricamento della grafica. Il valore predefinito è 30 secondi. Questa opzione è supportata per i documenti di elaborazione testi che contengono risorse esterne. |
 
 ### Guarda anche
 

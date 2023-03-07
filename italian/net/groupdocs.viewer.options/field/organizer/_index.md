@@ -1,14 +1,14 @@
 ---
 title: Organizer
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Organizer.
+description: Il campo di testo predefinito è Organizer.
 type: docs
 weight: 320
 url: /it/net/groupdocs.viewer.options/field/organizer/
 ---
 ## Field.Organizer field
 
-Il testo del campo predefinito è "Organizer".
+Il campo di testo predefinito è "Organizer".
 
 ```csharp
 public static readonly Field Organizer;

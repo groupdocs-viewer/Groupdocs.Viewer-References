@@ -1,14 +1,14 @@
 ---
 title: CXX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File del codice sorgente C .cxx
+description: File codice sorgente C .cxx
 type: docs
-weight: 210
+weight: 230
 url: /it/net/groupdocs.viewer/filetype/cxx/
 ---
 ## FileType.CXX field
 
-File del codice sorgente C++ (.cxx)
+File codice sorgente C++ (.cxx)
 
 ```csharp
 public static readonly FileType CXX;

@@ -1,14 +1,14 @@
 ---
 title: ODS
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: OpenDocument Spreadsheet .ods sta per OpenDocument Spreadsheet Document formato modificabile dallutente. I dati vengono archiviati allinterno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/ods .
+description: OpenDocument Spreadsheet .ods sta per OpenDocument Spreadsheet Formato del documento modificabile dallutente. I dati vengono memorizzati allinterno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
-weight: 940
+weight: 990
 url: /it/net/groupdocs.viewer/filetype/ods/
 ---
 ## FileType.ODS field
 
-OpenDocument Spreadsheet (.ods) sta per OpenDocument Spreadsheet Document formato modificabile dall'utente. I dati vengono archiviati all'interno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/ods) .
+OpenDocument Spreadsheet (.ods) sta per OpenDocument Spreadsheet Formato del documento modificabile dall'utente. I dati vengono memorizzati all'interno del file ODF in righe e colonne. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/ods) .
 
 ```csharp
 public static readonly FileType ODS;

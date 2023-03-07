@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diFileNamegroupdocs.viewer.options/filename classe.
+description: Inizializza una nuova istanza diFileNamegroupdocs.viewer.options/filename classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/filename/filename/
 ---
 ## FileName constructor
 
-Inizializza la nuova istanza di[`FileName`](../../filename) classe.
+Inizializza una nuova istanza di[`FileName`](../../filename) classe.
 
 ```csharp
 public FileName(string fileName)

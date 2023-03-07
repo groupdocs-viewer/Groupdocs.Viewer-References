@@ -3,7 +3,7 @@ title: FileType
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Il tipo di file da aprire.
 type: docs
-weight: 30
+weight: 40
 url: /it/net/groupdocs.viewer.options/loadoptions/filetype/
 ---
 ## LoadOptions.FileType property

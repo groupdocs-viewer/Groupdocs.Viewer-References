@@ -3,7 +3,7 @@ title: Page
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Rappresenta una singola pagina che può essere visualizzata.
 type: docs
-weight: 730
+weight: 740
 url: /it/net/groupdocs.viewer.results/page/
 ---
 ## Page class
@@ -18,23 +18,24 @@ public class Page
 
 | Nome | Descrizione |
 | --- | --- |
-| [Page](page#constructor)(int, bool) | Inizializza la nuova istanza di[`Page`](../page) classe. |
-| [Page](page#constructor_3)(int, string, bool) | Inizializza la nuova istanza di[`Page`](../page) classe. |
-| [Page](page#constructor_1)(int, bool, int, int) | Inizializza la nuova istanza di[`Page`](../page) classe. |
-| [Page](page#constructor_2)(int, bool, int, int, IList&lt;Line&gt;) | Inizializza la nuova istanza di[`Page`](../page) classe. |
-| [Page](page#constructor_4)(int, string, bool, int, int) | Inizializza la nuova istanza di[`Page`](../page) classe. |
-| [Page](page#constructor_5)(int, string, bool, int, int, IList&lt;Line&gt;) | Inizializza la nuova istanza di[`Page`](../page) classe. |
+| [Page](page#constructor)() | Inizializza una nuova istanza di[`Page`](../page) classe. |
+| [Page](page#constructor_1)(int, bool) | Inizializza una nuova istanza di[`Page`](../page) classe. |
+| [Page](page#constructor_4)(int, string, bool) | Inizializza una nuova istanza di[`Page`](../page) classe. |
+| [Page](page#constructor_2)(int, bool, int, int) | Inizializza una nuova istanza di[`Page`](../page) classe. |
+| [Page](page#constructor_3)(int, bool, int, int, List&lt;Line&gt;) | Inizializza una nuova istanza di[`Page`](../page) classe. |
+| [Page](page#constructor_5)(int, string, bool, int, int) | Inizializza una nuova istanza di[`Page`](../page) classe. |
+| [Page](page#constructor_6)(int, string, bool, int, int, List&lt;Line&gt;) | Inizializza una nuova istanza di[`Page`](../page) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/page/height) { get; } | L'altezza della pagina in pixel quando viene visualizzata come JPG o PNG. |
-| [Lines](../../groupdocs.viewer.results/page/lines) { get; } | Le righe contenute nella pagina durante la visualizzazione in formato JPG o PNG con Estrazione testo abilitata. |
-| [Name](../../groupdocs.viewer.results/page/name) { get; } | Il foglio di lavoro o il nome della pagina. |
-| [Number](../../groupdocs.viewer.results/page/number) { get; } | Il numero di pagina. |
-| [Visible](../../groupdocs.viewer.results/page/visible) { get; } | L'indicatore di visibilità della pagina. |
-| [Width](../../groupdocs.viewer.results/page/width) { get; } | La larghezza della pagina in pixel quando viene visualizzata come JPG o PNG. |
+| [Height](../../groupdocs.viewer.results/page/height) { get; set; } | L'altezza della pagina in pixel quando viene visualizzata come JPG o PNG. |
+| [Lines](../../groupdocs.viewer.results/page/lines) { get; set; } | Le righe contenute nella pagina durante la visualizzazione in formato JPG o PNG con Estrazione testo abilitata. |
+| [Name](../../groupdocs.viewer.results/page/name) { get; set; } | Il foglio di lavoro o il nome della pagina. |
+| [Number](../../groupdocs.viewer.results/page/number) { get; set; } | Il numero di pagina. |
+| [Visible](../../groupdocs.viewer.results/page/visible) { get; set; } | L'indicatore di visibilità della pagina. |
+| [Width](../../groupdocs.viewer.results/page/width) { get; set; } | La larghezza della pagina in pixel quando viene visualizzata come JPG o PNG. |
 
 ## Metodi
 

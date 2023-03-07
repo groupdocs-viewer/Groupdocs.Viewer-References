@@ -1,14 +1,14 @@
 ---
 title: Character
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rappresenta un rettangolo relativamente posizionato che contiene un singolo carattere.
+description: Rappresenta un rettangolo posizionato relativamente che contiene un singolo carattere.
 type: docs
 weight: 660
 url: /it/net/groupdocs.viewer.results/character/
 ---
 ## Character class
 
-Rappresenta un rettangolo relativamente posizionato che contiene un singolo carattere.
+Rappresenta un rettangolo posizionato relativamente che contiene un singolo carattere.
 
 ```csharp
 public class Character : TextElement<char>
@@ -18,17 +18,18 @@ public class Character : TextElement<char>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Character](character)(char, double, double, double, double) | Inizializza la nuova istanza di[`Character`](../character) classe. |
+| [Character](character#constructor)() | Inizializza una nuova istanza di[`Character`](../character) classe. |
+| [Character](character#constructor_1)(char, double, double, double, double) | Inizializza una nuova istanza di[`Character`](../character) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Il valore dell'elemento. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | La coordinata X del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Il valore dell'elemento. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | La coordinata X del punto in alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
 
 ## Metodi
 

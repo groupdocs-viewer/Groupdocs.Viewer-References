@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByScaleFactor
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diCadOptionsgroupdocs.viewer.options/cadoptions classe per il rendering in base al fattore di scala.
+description: Inizializza una nuova istanza diCadOptionsgroupdocs.viewer.options/cadoptions classe per il rendering per fattore di scala.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/cadoptions/forrenderingbyscalefactor/
 ---
 ## CadOptions.ForRenderingByScaleFactor method
 
-Inizializza la nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering in base al fattore di scala.
+Inizializza una nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering per fattore di scala.
 
 ```csharp
 public static CadOptions ForRenderingByScaleFactor(float scaleFactor)
@@ -16,11 +16,11 @@ public static CadOptions ForRenderingByScaleFactor(float scaleFactor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| scaleFactor | Single | I valori superiori a 1 ingrandiranno il risultato dell'output; valori compresi tra 0 e 1 ridurranno il risultato di output. |
+| scaleFactor | Single | I valori superiori a 1 ingrandiranno il risultato dell'output; i valori compresi tra 0 e 1 ridurranno il risultato dell'output. |
 
 ### Valore di ritorno
 
-Nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering per fattore di scala.
+Nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering in base al fattore di scala.
 
 ### Guarda anche
 

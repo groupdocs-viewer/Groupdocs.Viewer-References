@@ -1,14 +1,14 @@
 ---
 title: ArchiveOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diArchiveOptionsgroupdocs.viewer.options/archiveoptions classe.
+description: Inizializza una nuova istanza diArchiveOptionsgroupdocs.viewer.options/archiveoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/archiveoptions/archiveoptions/
 ---
 ## ArchiveOptions constructor
 
-Inizializza la nuova istanza di[`ArchiveOptions`](../../archiveoptions) classe.
+Inizializza una nuova istanza di[`ArchiveOptions`](../../archiveoptions) classe.
 
 ```csharp
 public ArchiveOptions()

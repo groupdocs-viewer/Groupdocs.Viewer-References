@@ -1,14 +1,14 @@
 ---
 title: PSD
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Adobe Photoshop Document .psd rappresenta il formato di file nativo di Adobe Photoshop utilizzato per la progettazione e lo sviluppo della grafica. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/psd .
+description: Adobe Photoshop Document .psd rappresenta il formato di file nativo di Adobe Photoshop utilizzato per la progettazione e lo sviluppo di grafica. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/psd .
 type: docs
-weight: 1220
+weight: 1270
 url: /it/net/groupdocs.viewer/filetype/psd/
 ---
 ## FileType.PSD field
 
-Adobe Photoshop Document (.psd) rappresenta il formato di file nativo di Adobe Photoshop utilizzato per la progettazione e lo sviluppo della grafica. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/psd) .
+Adobe Photoshop Document (.psd) rappresenta il formato di file nativo di Adobe Photoshop utilizzato per la progettazione e lo sviluppo di grafica. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/psd) .
 
 ```csharp
 public static readonly FileType PSD;

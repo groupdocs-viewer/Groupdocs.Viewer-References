@@ -24,7 +24,7 @@ public class OutlookOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddressFilter](../../groupdocs.viewer.options/outlookoptions/addressfilter) { get; set; } | L'indirizzo e-mail utilizzato per filtrare i messaggi per mittente o destinatario. |
+| [AddressFilter](../../groupdocs.viewer.options/outlookoptions/addressfilter) { get; set; } | L'indirizzo email utilizzato per filtrare i messaggi in base al mittente o al destinatario. |
 | [Folder](../../groupdocs.viewer.options/outlookoptions/folder) { get; set; } | Il nome della cartella (ad esempio Posta in arrivo, Posta inviata o Posta eliminata) di cui eseguire il rendering. |
 | [MaxItemsInFolder](../../groupdocs.viewer.options/outlookoptions/maxitemsinfolder) { get; set; } | Il numero massimo di messaggi o elementi che possono essere visualizzati da una cartella. |
 | [TextFilter](../../groupdocs.viewer.options/outlookoptions/textfilter) { get; set; } | Le parole chiave utilizzate per filtrare i messaggi. |

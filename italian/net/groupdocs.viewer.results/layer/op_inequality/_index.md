@@ -16,12 +16,12 @@ public static bool operator !=(Layer left, Layer right)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| left | Layer | Sono partiti[`Layer`](../../layer) oggetto. |
-| right | Layer | Destra[`Layer`](../../layer) oggetto. |
+| left | Layer | Sinistra[`Layer`](../../layer) oggetto. |
+| right | Layer | Giusto[`Layer`](../../layer) oggetto. |
 
 ### Valore di ritorno
 
-se entrambi[`Layer`](../../layer) gli oggetti non sono gli stessi; altrimenti,
+se entrambi[`Layer`](../../layer) gli oggetti non sono gli stessi; Altrimenti,
 
 ```csharp
 true

@@ -1,14 +1,14 @@
 ---
 title: PPSM
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La diapositiva PowerPoint Open XML con attivazione macro .ppsm rappresenta il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/presentation/ppsm .
+description: La diapositiva PowerPoint Open XML con attivazione macro .ppsm rappresenta il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/presentation/ppsm .
 type: docs
-weight: 1130
+weight: 1180
 url: /it/net/groupdocs.viewer/filetype/ppsm/
 ---
 ## FileType.PPSM field
 
-La diapositiva PowerPoint Open XML con attivazione macro (.ppsm) rappresenta il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/presentation/ppsm) .
+La diapositiva PowerPoint Open XML con attivazione macro (.ppsm) rappresenta il formato di file di presentazione con attivazione macro creato con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/presentation/ppsm) .
 
 ```csharp
 public static readonly FileType PPSM;

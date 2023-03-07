@@ -1,14 +1,14 @@
 ---
 title: ReleaseResourceStream
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rilascia il flusso che è stato istanziato dal metodo associato aCreateResourceStream./createresourcestream delegato.
+description: Rilascia il flusso di cui è stata creata unistanza dal metodo associato aCreateResourceStream./createresourcestream delegato.
 type: docs
 weight: 210
 url: /it/net/groupdocs.viewer.interfaces/releaseresourcestream/
 ---
 ## ReleaseResourceStream delegate
 
-Rilascia il flusso che è stato istanziato dal metodo associato a[`CreateResourceStream`](../createresourcestream) delegato.
+Rilascia il flusso di cui è stata creata un'istanza dal metodo associato a[`CreateResourceStream`](../createresourcestream) delegato.
 
 ```csharp
 public delegate void ReleaseResourceStream(int pageNumber, Resource resource, 
@@ -19,7 +19,7 @@ public delegate void ReleaseResourceStream(int pageNumber, Resource resource,
 | --- | --- | --- |
 | pageNumber | Int32 | Numero della pagina. |
 | resource | Resource | Risorsa HTML come carattere, stile, immagine o grafica. |
-| resourceStream | Stream | Il flusso creato dal metodo associato a[`CreateResourceStream`](../createresourcestream) delegare. |
+| resourceStream | Stream | Flusso creato dal metodo associato a[`CreateResourceStream`](../createresourcestream) delegare. |
 
 ### Guarda anche
 

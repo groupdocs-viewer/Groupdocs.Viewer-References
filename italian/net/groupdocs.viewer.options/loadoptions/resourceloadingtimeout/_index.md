@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingTimeout
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Le risorse esterne ad esempio il timeout di caricamento della grafica. Il valore predefinito è 30 secondi. Questa opzione è supportata per i documenti di Elaborazione di testi che contengono risorse esterne.
+description: Le risorse esterne ad esempio il timeout di caricamento della grafica. Il valore predefinito è 30 secondi. Questa opzione è supportata per i documenti di elaborazione testi che contengono risorse esterne.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property
 
-Le risorse esterne, ad esempio il timeout di caricamento della grafica. Il valore predefinito è 30 secondi. Questa opzione è supportata per i documenti di Elaborazione di testi che contengono risorse esterne.
+Le risorse esterne, ad esempio il timeout di caricamento della grafica. Il valore predefinito è 30 secondi. Questa opzione è supportata per i documenti di elaborazione testi che contengono risorse esterne.
 
 ```csharp
 public TimeSpan ResourceLoadingTimeout { get; set; }

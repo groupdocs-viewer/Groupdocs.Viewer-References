@@ -1,14 +1,14 @@
 ---
 title: TIF
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File immagine con tag .tif rappresenta immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. È in grado di descrivere i dati dellimmagine a due livelli in scala di grigi a colori tavolozza ea colori in diversi spazi colore. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/tiff .
+description: File immagine con tag .tif rappresenta immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. È in grado di descrivere i dati dellimmagine a due livelli in scala di grigi a colori tavolozza ea colori in diversi spazi colore. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/tiff .
 type: docs
-weight: 1490
+weight: 1540
 url: /it/net/groupdocs.viewer/filetype/tif/
 ---
 ## FileType.TIF field
 
-File immagine con tag (.tif) rappresenta immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. È in grado di descrivere i dati dell'immagine a due livelli, in scala di grigi, a colori tavolozza ea colori in diversi spazi colore. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/tiff) .
+File immagine con tag (.tif) rappresenta immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. È in grado di descrivere i dati dell'immagine a due livelli, in scala di grigi, a colori tavolozza ea colori in diversi spazi colore. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/tiff) .
 
 ```csharp
 public static readonly FileType TIF;

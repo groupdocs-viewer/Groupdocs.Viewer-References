@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rappresenta il metodo che istanzia il flusso utilizzato per scrivere i dati della pagina di output.
+description: Rappresenta il metodo che crea unistanza del flusso utilizzato per scrivere i dati della pagina di output.
 type: docs
 weight: 130
 url: /it/net/groupdocs.viewer.interfaces/createpagestream/
 ---
 ## CreatePageStream delegate
 
-Rappresenta il metodo che istanzia il flusso utilizzato per scrivere i dati della pagina di output.
+Rappresenta il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della pagina di output.
 
 ```csharp
 public delegate Stream CreatePageStream(int pageNumber);
@@ -16,7 +16,7 @@ public delegate Stream CreatePageStream(int pageNumber);
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageNumber | Int32 | Il |
+| pageNumber | Int32 | IL |
 
 ### Valore di ritorno
 

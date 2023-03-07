@@ -3,7 +3,7 @@ title: DIB
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File bitmap indipendente dal dispositivo .dib
 type: docs
-weight: 240
+weight: 260
 url: /it/net/groupdocs.viewer/filetype/dib/
 ---
 ## FileType.DIB field

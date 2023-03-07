@@ -16,7 +16,7 @@ public WordProcessingOptions WordProcessingOptions { get; set; }
 
 ### Osservazioni
 
-Vedi anche  Rendering di documenti Word come file HTML, PDF o immagine per maggiori dettagli e frammenti di codice.
+Vedi anche  Rendering di documenti Word come file HTML, PDF o immagine  per maggiori dettagli e frammenti di codice.
 
 ### Guarda anche
 

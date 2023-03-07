@@ -1,14 +1,14 @@
 ---
 title: PS1
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File di script di PowerShell .ps1 un formato di file per i file Cmdlet di Windows PowerShell. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/ps1 .
+description: File di script di PowerShell .ps1 un formato di file per i file Cmdlet di Windows PowerShell. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/ps1 .
 type: docs
-weight: 1200
+weight: 1250
 url: /it/net/groupdocs.viewer/filetype/ps1/
 ---
 ## FileType.PS1 field
 
-File di script di PowerShell (.ps1) un formato di file per i file Cmdlet di Windows PowerShell. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/ps1) .
+File di script di PowerShell (.ps1) un formato di file per i file Cmdlet di Windows PowerShell. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/ps1) .
 
 ```csharp
 public static readonly FileType PS1;

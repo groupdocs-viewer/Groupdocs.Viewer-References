@@ -1,14 +1,14 @@
 ---
 title: ResetFontSources
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Reimposta le origini dei caratteri che sono state impostate in precedenza.
+description: Ripristina le origini dei caratteri impostate in precedenza.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.fonts/fontsettings/resetfontsources/
 ---
 ## FontSettings.ResetFontSources method
 
-Reimposta le origini dei caratteri che sono state impostate in precedenza.
+Ripristina le origini dei caratteri impostate in precedenza.
 
 ```csharp
 public static void ResetFontSources()

@@ -18,20 +18,20 @@ public sealed class FolderFontSource : IEquatable<FolderFontSource>, IFontSource
 
 | Nome | Descrizione |
 | --- | --- |
-| [FolderFontSource](folderfontsource)(string, SearchOption) | Inizializza la nuova istanza di[`FolderFontSource`](../folderfontsource) classe. |
+| [FolderFontSource](folderfontsource)(string, SearchOption) | Inizializza una nuova istanza di[`FolderFontSource`](../folderfontsource) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
 | [FolderPath](../../groupdocs.viewer.fonts/folderfontsource/folderpath) { get; } | Percorso della cartella che contiene i font TrueType. |
-| [SearchOption](../../groupdocs.viewer.fonts/folderfontsource/searchoption) { get; } | Specifica se eseguire la ricerca nella cartella corrente o nella cartella corrente e in tutte le sottocartelle. |
+| [SearchOption](../../groupdocs.viewer.fonts/folderfontsource/searchoption) { get; } | Specifica se cercare nella cartella corrente o nella cartella corrente e in tutte le sottocartelle. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Determina se la corrente[`FolderFontSource`](../folderfontsource)è uguale a quanto specificato[`FolderFontSource`](../folderfontsource) oggetto. |
+| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Determina se la corrente[`FolderFontSource`](../folderfontsource) è uguale a quanto specificato[`FolderFontSource`](../folderfontsource) oggetto. |
 | override [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals_1)(object) | Determina se la corrente[`FolderFontSource`](../folderfontsource) è uguale all'oggetto specificato. |
 | override [GetHashCode](../../groupdocs.viewer.fonts/folderfontsource/gethashcode)() | Restituisce il codice hash per la corrente[`FolderFontSource`](../folderfontsource) oggetto. |
 | override [ToString](../../groupdocs.viewer.fonts/folderfontsource/tostring)() | Restituisce una stringa che rappresenta l'oggetto corrente. |

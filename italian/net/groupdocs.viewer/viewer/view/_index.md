@@ -25,11 +25,11 @@ public void View(ViewOptions options)
 | ArgumentNullException | Lanciato quando*options* è zero. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Generato quando è richiesta la password per aprire il documento. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Generato quando la password specificata non è corretta. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Generato quando non è stato possibile trovare l'allegato. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Lanciato quando non è stato possibile trovare l'allegato. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle diverse opzioni di visualizzazione seguendo questa guida: [Come personalizzare l'output di visualizzazione dei documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -62,11 +62,11 @@ public void View(ViewOptions options, CancellationToken cancellationToken)
 | ArgumentNullException | Lanciato quando*options* è zero. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Generato quando è richiesta la password per aprire il documento. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Generato quando la password specificata non è corretta. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Generato quando non è stato possibile trovare l'allegato. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Lanciato quando non è stato possibile trovare l'allegato. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle diverse opzioni di visualizzazione seguendo questa guida: [Come personalizzare l'output di visualizzazione dei documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -101,11 +101,11 @@ public void View(ViewOptions options, params int[] pageNumbers)
 | ArgumentException | Lanciato quando*pageNumbers* è vuoto. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Generato quando è richiesta la password per aprire il documento. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Generato quando la password specificata non è corretta. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Generato quando non è stato possibile trovare l'allegato. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Lanciato quando non è stato possibile trovare l'allegato. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle diverse opzioni di visualizzazione seguendo questa guida: [Come personalizzare l'output di visualizzazione dei documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 
@@ -141,11 +141,11 @@ public void View(ViewOptions options, CancellationToken cancellationToken, param
 | ArgumentException | Lanciato quando*pageNumbers* è vuoto. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Generato quando è richiesta la password per aprire il documento. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Generato quando la password specificata non è corretta. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Generato quando non è stato possibile trovare l'allegato. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Lanciato quando non è stato possibile trovare l'allegato. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle diverse opzioni di visualizzazione seguendo questa guida: [Come personalizzare l'output di visualizzazione dei documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
 

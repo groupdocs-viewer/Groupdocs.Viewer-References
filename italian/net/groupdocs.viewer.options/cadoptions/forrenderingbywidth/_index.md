@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByWidth
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diCadOptionsgroupdocs.viewer.options/cadoptions classe per il rendering in base alla larghezza.
+description: Inizializza una nuova istanza diCadOptionsgroupdocs.viewer.options/cadoptions classe per il rendering in base alla larghezza.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.options/cadoptions/forrenderingbywidth/
 ---
 ## CadOptions.ForRenderingByWidth method
 
-Inizializza la nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering in base alla larghezza.
+Inizializza una nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering in base alla larghezza.
 
 ```csharp
 public static CadOptions ForRenderingByWidth(int width)
@@ -16,7 +16,7 @@ public static CadOptions ForRenderingByWidth(int width)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| width | Int32 | La larghezza dell'output risulta in pixel. |
+| width | Int32 | La larghezza del risultato dell'output in pixel. |
 
 ### Valore di ritorno
 

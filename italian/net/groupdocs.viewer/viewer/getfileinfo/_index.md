@@ -20,7 +20,7 @@ Le informazioni sul file.
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle informazioni sui file: [Come verificare se il file è crittografato](https://docs.groupdocs.com/viewer/net/how-to-check-if-file-is-encrypted/)
 

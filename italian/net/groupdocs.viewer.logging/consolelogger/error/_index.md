@@ -1,14 +1,14 @@
 ---
 title: Error
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Scrive un messaggio di errore nella console. I messaggi del registro errori forniscono informazioni sugli eventi irreversibili nel flusso dellapplicazione.
+description: Scrive un messaggio di errore nella console. I messaggi del registro degli errori forniscono informazioni sugli eventi irreversibili nel flusso dellapplicazione.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.logging/consolelogger/error/
 ---
 ## ConsoleLogger.Error method
 
-Scrive un messaggio di errore nella console. I messaggi del registro errori forniscono informazioni sugli eventi irreversibili nel flusso dell'applicazione.
+Scrive un messaggio di errore nella console. I messaggi del registro degli errori forniscono informazioni sugli eventi irreversibili nel flusso dell'applicazione.
 
 ```csharp
 public void Error(string message, Exception exception)

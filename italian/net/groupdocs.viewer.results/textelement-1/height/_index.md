@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/textelement-1/height/
 L'altezza del rettangolo che contiene l'elemento (in pixel).
 
 ```csharp
-public double Height { get; }
+public double Height { get; set; }
 ```
 
 ### Guarda anche

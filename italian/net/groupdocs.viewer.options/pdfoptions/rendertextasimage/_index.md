@@ -3,7 +3,7 @@ title: RenderTextAsImage
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Quando questa opzione è impostata suVERO  il testo viene visualizzato come immagine nellHTML di output. Abilita questa opzione per rendere il testo non selezionabile o per correggere il rendering dei caratteri e rendere lHTML simile a PDF. Il valore predefinito èfalso .
 type: docs
-weight: 70
+weight: 80
 url: /it/net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property

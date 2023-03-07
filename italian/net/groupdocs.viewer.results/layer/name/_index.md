@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/layer/name/
 Il nome del livello.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Osservazioni

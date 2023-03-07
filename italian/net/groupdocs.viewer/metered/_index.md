@@ -30,7 +30,7 @@ public class Metered
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle licenze misurate: [Domande frequenti sulle licenze misurate](https://purchase.groupdocs.com/faqs/licensing/metered)
 * Ulteriori informazioni sulla licenza GroupDocs.Viewer: [Limiti di valutazione e licenza](https://docs.groupdocs.com/display/viewernet/Evaluation+Limitations+and+Licensing+of+GroupDocs.Viewer)

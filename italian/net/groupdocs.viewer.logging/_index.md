@@ -13,7 +13,7 @@ Lo spazio dei nomi fornisce classi per personalizzare il comportamento di regist
 | Classe | Descrizione |
 | --- | --- |
 | [ConsoleLogger](./consolelogger) | Scrive i messaggi di log nella console. |
-| [FileLogger](./filelogger) | Scrive i messaggi di registro nel file. |
+| [FileLogger](./filelogger) | Scrive i messaggi di log nel file. |
 ## Interfacce
 
 | Interfaccia | Descrizione |

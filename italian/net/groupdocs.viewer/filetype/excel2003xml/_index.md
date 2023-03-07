@@ -1,14 +1,14 @@
 ---
 title: Excel2003XML
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Excel 2003 XML SpreadsheetML rappresenta il formato di file binario di Excel. Tali file possono essere creati da Microsoft Excel e da altri programmi di fogli di calcolo simili come OpenOffice Calc o Apple Numbers. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xls .
+description: Excel 2003 XML SpreadsheetML rappresenta il formato di file binario di Excel. Tali file possono essere creati da Microsoft Excel e da altri programmi di fogli di calcolo simili come OpenOffice Calc o Apple Numbers. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
-weight: 450
+weight: 480
 url: /it/net/groupdocs.viewer/filetype/excel2003xml/
 ---
 ## FileType.Excel2003XML field
 
-Excel 2003 XML (SpreadsheetML) rappresenta il formato di file binario di Excel. Tali file possono essere creati da Microsoft Excel e da altri programmi di fogli di calcolo simili come OpenOffice Calc o Apple Numbers. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xls) .
+Excel 2003 XML (SpreadsheetML) rappresenta il formato di file binario di Excel. Tali file possono essere creati da Microsoft Excel e da altri programmi di fogli di calcolo simili come OpenOffice Calc o Apple Numbers. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xls) .
 
 ```csharp
 public static readonly FileType Excel2003XML;

@@ -1,14 +1,14 @@
 ---
 title: FODP
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: OpenDocument Presentation .fodp rappresenta OpenDocument Flat XML Presentation. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/fodp .
+description: OpenDocument Presentation .fodp rappresenta OpenDocument Flat XML Presentation. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/fodp .
 type: docs
-weight: 470
+weight: 510
 url: /it/net/groupdocs.viewer/filetype/fodp/
 ---
 ## FileType.FODP field
 
-OpenDocument Presentation (.fodp) rappresenta OpenDocument Flat XML Presentation. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/fodp) .
+OpenDocument Presentation (.fodp) rappresenta OpenDocument Flat XML Presentation. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/fodp) .
 
 ```csharp
 public static readonly FileType FODP;

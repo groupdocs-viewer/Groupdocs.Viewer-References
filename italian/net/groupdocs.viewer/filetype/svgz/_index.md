@@ -1,14 +1,14 @@
 ---
 title: SVGZ
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File di grafica vettoriale scalare .svgz è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML compresso da GZIP per descrivere laspetto di unimmagine. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/svgz .
+description: File di grafica vettoriale scalare .svgz è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML compresso da GZIP per descrivere laspetto di unimmagine. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/svgz .
 type: docs
-weight: 1410
+weight: 1460
 url: /it/net/groupdocs.viewer/filetype/svgz/
 ---
 ## FileType.SVGZ field
 
-File di grafica vettoriale scalare (.svgz) è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML, compresso da GZIP per descrivere l'aspetto di un'immagine. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/svgz) .
+File di grafica vettoriale scalare (.svgz) è un file di grafica vettoriale scalare che utilizza un formato di testo basato su XML, compresso da GZIP per descrivere l'aspetto di un'immagine. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/svgz) .
 
 ```csharp
 public static readonly FileType SVGZ;

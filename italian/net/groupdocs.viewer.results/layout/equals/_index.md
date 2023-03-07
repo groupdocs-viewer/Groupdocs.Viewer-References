@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Determina se la correnteLayoutgroupdocs.viewer.results/layoutè uguale a quanto specificatoLayoutgroupdocs.viewer.results/layout oggetto.
+description: Determina se la correnteLayoutgroupdocs.viewer.results/layout è uguale a quanto specificatoLayoutgroupdocs.viewer.results/layout oggetto.
 type: docs
 weight: 50
 url: /it/net/groupdocs.viewer.results/layout/equals/
 ---
 ## Equals(Layout) {#equals}
 
-Determina se la corrente[`Layout`](../../layout)è uguale a quanto specificato[`Layout`](../../layout) oggetto.
+Determina se la corrente[`Layout`](../../layout) è uguale a quanto specificato[`Layout`](../../layout) oggetto.
 
 ```csharp
 public bool Equals(Layout other)
@@ -20,7 +20,7 @@ public bool Equals(Layout other)
 
 ### Valore di ritorno
 
-se entrambi[`Layout`](../../layout) gli oggetti sono gli stessi; altrimenti,
+se entrambi[`Layout`](../../layout) gli oggetti sono gli stessi; Altrimenti,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Valore di ritorno
 
-Se parametro è[`Layout`](../../layout) ed è uguale alla corrente[`Layout`](../../layout) oggetto; altrimenti,
+Se parametro è[`Layout`](../../layout) ed è uguale alla corrente[`Layout`](../../layout) oggetto; Altrimenti,
 
 ```csharp
 true

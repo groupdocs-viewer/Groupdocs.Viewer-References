@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Determina se la correnteFolderFontSourcegroupdocs.viewer.fonts/folderfontsourceè uguale a quanto specificatoFolderFontSourcegroupdocs.viewer.fonts/folderfontsource oggetto.
+description: Determina se la correnteFolderFontSourcegroupdocs.viewer.fonts/folderfontsource è uguale a quanto specificatoFolderFontSourcegroupdocs.viewer.fonts/folderfontsource oggetto.
 type: docs
 weight: 40
 url: /it/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-Determina se la corrente[`FolderFontSource`](../../folderfontsource)è uguale a quanto specificato[`FolderFontSource`](../../folderfontsource) oggetto.
+Determina se la corrente[`FolderFontSource`](../../folderfontsource) è uguale a quanto specificato[`FolderFontSource`](../../folderfontsource) oggetto.
 
 ```csharp
 public bool Equals(FolderFontSource other)
@@ -20,7 +20,7 @@ public bool Equals(FolderFontSource other)
 
 ### Valore di ritorno
 
-se entrambi[`FolderFontSource`](../../folderfontsource) gli oggetti sono gli stessi; altrimenti,
+se entrambi[`FolderFontSource`](../../folderfontsource) gli oggetti sono gli stessi; Altrimenti,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Valore di ritorno
 
-Se parametro è[`FolderFontSource`](../../folderfontsource) ed è uguale alla corrente[`FolderFontSource`](../../folderfontsource) oggetto; altrimenti,
+Se parametro è[`FolderFontSource`](../../folderfontsource) ed è uguale alla corrente[`FolderFontSource`](../../folderfontsource) oggetto; Altrimenti,
 
 ```csharp
 true

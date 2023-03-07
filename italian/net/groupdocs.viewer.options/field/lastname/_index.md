@@ -1,14 +1,14 @@
 ---
 title: LastName
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Cognome.
+description: Il campo di testo predefinito è Cognome.
 type: docs
 weight: 280
 url: /it/net/groupdocs.viewer.options/field/lastname/
 ---
 ## Field.LastName field
 
-Il testo del campo predefinito è "Cognome".
+Il campo di testo predefinito è "Cognome".
 
 ```csharp
 public static readonly Field LastName;

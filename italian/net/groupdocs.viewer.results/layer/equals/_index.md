@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Determina se la correnteLayergroupdocs.viewer.results/layerè uguale a quanto specificatoLayergroupdocs.viewer.results/layer oggetto.
+description: Determina se la correnteLayergroupdocs.viewer.results/layer è uguale a quanto specificatoLayergroupdocs.viewer.results/layer oggetto.
 type: docs
 weight: 40
 url: /it/net/groupdocs.viewer.results/layer/equals/
 ---
 ## Equals(Layer) {#equals}
 
-Determina se la corrente[`Layer`](../../layer)è uguale a quanto specificato[`Layer`](../../layer) oggetto.
+Determina se la corrente[`Layer`](../../layer) è uguale a quanto specificato[`Layer`](../../layer) oggetto.
 
 ```csharp
 public bool Equals(Layer other)
@@ -20,7 +20,7 @@ public bool Equals(Layer other)
 
 ### Valore di ritorno
 
-se entrambi[`Layer`](../../layer) gli oggetti sono gli stessi; altrimenti,
+se entrambi[`Layer`](../../layer) gli oggetti sono gli stessi; Altrimenti,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Valore di ritorno
 
-Se parametro è[`Layer`](../../layer) ed è uguale alla corrente[`Layer`](../../layer) oggetto; altrimenti,
+Se parametro è[`Layer`](../../layer) ed è uguale alla corrente[`Layer`](../../layer) oggetto; Altrimenti,
 
 ```csharp
 true

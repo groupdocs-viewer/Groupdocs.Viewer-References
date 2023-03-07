@@ -18,7 +18,7 @@ public class FileName
 
 | Nome | Descrizione |
 | --- | --- |
-| [FileName](filename)(string) | Inizializza la nuova istanza di[`FileName`](../filename) classe. |
+| [FileName](filename)(string) | Inizializza una nuova istanza di[`FileName`](../filename) classe. |
 
 ## Metodi
 

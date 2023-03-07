@@ -3,7 +3,7 @@ title: PL
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Script Perl .pl
 type: docs
-weight: 1060
+weight: 1110
 url: /it/net/groupdocs.viewer/filetype/pl/
 ---
 ## FileType.PL field

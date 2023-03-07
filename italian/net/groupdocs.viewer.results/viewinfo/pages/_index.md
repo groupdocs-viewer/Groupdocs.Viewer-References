@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/viewinfo/pages/
 L'elenco delle pagine da visualizzare.
 
 ```csharp
-public IList<Page> Pages { get; }
+public List<Page> Pages { get; set; }
 ```
 
 ### Guarda anche

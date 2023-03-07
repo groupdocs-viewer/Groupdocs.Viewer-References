@@ -1,14 +1,14 @@
 ---
 title: FigureWidth
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Larghezza della figura laltezza verrà calcolata automaticamente. Il valore predefinito è 100.
+description: La larghezza della figura laltezza verrà calcolata automaticamente. Il valore predefinito è 100.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/visiorenderingoptions/figurewidth/
 ---
 ## VisioRenderingOptions.FigureWidth property
 
-Larghezza della figura, l'altezza verrà calcolata automaticamente. Il valore predefinito è 100.
+La larghezza della figura, l'altezza verrà calcolata automaticamente. Il valore predefinito è 100.
 
 ```csharp
 public int FigureWidth { get; set; }

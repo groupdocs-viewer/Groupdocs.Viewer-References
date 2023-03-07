@@ -1,14 +1,14 @@
 ---
 title: PdfOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diPdfOptionsgroupdocs.viewer.options/pdfoptions classe.
+description: Inizializza una nuova istanza diPdfOptionsgroupdocs.viewer.options/pdfoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/pdfoptions/pdfoptions/
 ---
 ## PdfOptions constructor
 
-Inizializza la nuova istanza di[`PdfOptions`](../../pdfoptions) classe.
+Inizializza una nuova istanza di[`PdfOptions`](../../pdfoptions) classe.
 
 ```csharp
 public PdfOptions()

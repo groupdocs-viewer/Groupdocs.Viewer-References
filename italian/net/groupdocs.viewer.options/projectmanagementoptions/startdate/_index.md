@@ -1,14 +1,14 @@
 ---
 title: StartDate
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La data di inizio della visualizzazione diagramma di Gantt da includere nelloutput.
+description: La data di inizio della visualizzazione del diagramma di Gantt da includere nelloutput.
 type: docs
 weight: 40
 url: /it/net/groupdocs.viewer.options/projectmanagementoptions/startdate/
 ---
 ## ProjectManagementOptions.StartDate property
 
-La data di inizio della visualizzazione diagramma di Gantt da includere nell'output.
+La data di inizio della visualizzazione del diagramma di Gantt da includere nell'output.
 
 ```csharp
 public DateTime StartDate { get; set; }

@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/word/characters/
 I caratteri contenuti dalla parola.
 
 ```csharp
-public IList<Character> Characters { get; }
+public List<Character> Characters { get; set; }
 ```
 
 ### Guarda anche

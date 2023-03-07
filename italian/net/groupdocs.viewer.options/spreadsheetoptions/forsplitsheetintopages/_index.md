@@ -1,14 +1,14 @@
 ---
 title: ForSplitSheetIntoPages
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions per rendere il foglio in pagine.
+description: Inizializza una nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions per rendere il foglio in pagine.
 type: docs
 weight: 40
 url: /it/net/groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages/
 ---
 ## ForSplitSheetIntoPages(int) {#forsplitsheetintopages}
 
-Inizializza la nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) per rendere il foglio in pagine.
+Inizializza una nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) per rendere il foglio in pagine.
 
 ```csharp
 public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
@@ -38,7 +38,7 @@ Nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) per rendere il 
 
 ## ForSplitSheetIntoPages(int, int) {#forsplitsheetintopages_1}
 
-Inizializza la nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) per rendere il foglio in pagine.
+Inizializza una nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) per rendere il foglio in pagine.
 
 ```csharp
 public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage, 

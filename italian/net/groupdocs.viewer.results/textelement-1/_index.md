@@ -3,7 +3,7 @@ title: TextElementT
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Rappresenta un elemento di testo generico.
 type: docs
-weight: 770
+weight: 780
 url: /it/net/groupdocs.viewer.results/textelement-1/
 ---
 ## TextElement&lt;T&gt; class
@@ -22,17 +22,18 @@ public class TextElement<T>
 
 | Nome | Descrizione |
 | --- | --- |
-| [TextElement](textelement)(T, double, double, double, double) | Inizializza la nuova istanza di[`TextElement`](../textelement-1) classe. |
+| [TextElement](textelement#constructor)() | Inizializza una nuova istanza di[`TextElement`](../textelement-1) classe. |
+| [TextElement](textelement#constructor_1)(T, double, double, double, double) | Inizializza una nuova istanza di[`TextElement`](../textelement-1) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Il valore dell'elemento. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | La coordinata X del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Il valore dell'elemento. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | La coordinata X del punto in alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
 
 ## Metodi
 

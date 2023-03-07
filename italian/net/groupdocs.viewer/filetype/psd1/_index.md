@@ -1,14 +1,14 @@
 ---
 title: PSD1
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Manifesto del modulo di script di PowerShell .psd1 un formato di file per gli script del manifesto del modulo di PowerShell. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/psd1 .
+description: Manifesto del modulo di script di PowerShell .psd1 un formato di file per gli script del manifesto del modulo di PowerShell. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/psd1 .
 type: docs
-weight: 1230
+weight: 1280
 url: /it/net/groupdocs.viewer/filetype/psd1/
 ---
 ## FileType.PSD1 field
 
-Manifesto del modulo di script di PowerShell (.psd1) un formato di file per gli script del manifesto del modulo di PowerShell. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/psd1) .
+Manifesto del modulo di script di PowerShell (.psd1) un formato di file per gli script del manifesto del modulo di PowerShell. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/psd1) .
 
 ```csharp
 public static readonly FileType PSD1;

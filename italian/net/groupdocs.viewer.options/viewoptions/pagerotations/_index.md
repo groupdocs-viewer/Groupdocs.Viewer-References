@@ -16,7 +16,7 @@ public readonly Dictionary<int, Rotation> PageRotations;
 
 ### Osservazioni
 
-Nel caso entrambi[`Watermark`](../watermark) e`PageRotations` sono specificati che la filigrana verrà applicata alle pagine ruotate.
+Nel caso entrambi[`Watermark`](../watermark) E`PageRotations` è specificato che la filigrana verrà applicata alle pagine ruotate.
 
 ### Guarda anche
 

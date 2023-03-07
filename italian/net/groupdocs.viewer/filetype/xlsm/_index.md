@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Excel Open XML MacroEnabled Spreadsheet .xlsm è un tipo di file Spreasheet che supporta le macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/xlsm .
+description: Excel Open XML MacroEnabled Spreadsheet .xlsm è un tipo di file Spreasheet che supporta le macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
-weight: 1770
+weight: 1820
 url: /it/net/groupdocs.viewer/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-Excel Open XML Macro-Enabled Spreadsheet (.xlsm) è un tipo di file Spreasheet che supporta le macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/xlsm) .
+Excel Open XML Macro-Enabled Spreadsheet (.xlsm) è un tipo di file Spreasheet che supporta le macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/xlsm) .
 
 ```csharp
 public static readonly FileType XLSM;

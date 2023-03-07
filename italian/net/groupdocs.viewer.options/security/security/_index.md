@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diSecuritygroupdocs.viewer.options/security classe.
+description: Inizializza una nuova istanza diSecuritygroupdocs.viewer.options/security classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/security/security/
 ---
 ## Security constructor
 
-Inizializza la nuova istanza di[`Security`](../../security) classe.
+Inizializza una nuova istanza di[`Security`](../../security) classe.
 
 ```csharp
 public Security()

@@ -1,14 +1,14 @@
 ---
 title: Resource
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rappresenta una risorsa HTML come font stile immagine o grafica.
+description: Rappresenta una risorsa HTML come carattere stile immagine o grafica.
 type: docs
-weight: 760
+weight: 770
 url: /it/net/groupdocs.viewer.results/resource/
 ---
 ## Resource class
 
-Rappresenta una risorsa HTML come font, stile, immagine o grafica.
+Rappresenta una risorsa HTML come carattere, stile, immagine o grafica.
 
 ```csharp
 public class Resource
@@ -18,14 +18,15 @@ public class Resource
 
 | Nome | Descrizione |
 | --- | --- |
-| [Resource](resource)(string, bool) | Crea una nuova istanza di[`Resource`](../resource) classe. |
+| [Resource](resource#constructor)() | Crea una nuova istanza di[`Resource`](../resource) classe. |
+| [Resource](resource#constructor_1)(string, bool) | Crea una nuova istanza di[`Resource`](../resource) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/resource/filename) { get; } | Il nome del file di risorse. |
-| [Nested](../../groupdocs.viewer.results/resource/nested) { get; } | Indica se la risorsa risiede all'interno di un'altra risorsa, es. risorsa font che risiede nella risorsa CSS o SVG. |
+| [FileName](../../groupdocs.viewer.results/resource/filename) { get; set; } | Il nome del file di risorse. |
+| [Nested](../../groupdocs.viewer.results/resource/nested) { get; set; } | Indica se la risorsa risiede all'interno di un'altra risorsa, ad es. risorsa font che risiede nella risorsa CSS o SVG. |
 
 ## Metodi
 

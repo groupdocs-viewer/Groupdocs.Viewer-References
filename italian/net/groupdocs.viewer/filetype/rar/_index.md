@@ -1,14 +1,14 @@
 ---
 title: RAR
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Roshal ARchive .rar sono file compressi generati utilizzando il metodo di compressione RAR WINRAR. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/compression/rar .
+description: Roshal ARchive .rar sono file compressi generati utilizzando il metodo di compressione RAR WINRAR. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/compression/rar .
 type: docs
-weight: 1270
+weight: 1320
 url: /it/net/groupdocs.viewer/filetype/rar/
 ---
 ## FileType.RAR field
 
-Roshal ARchive (.rar) sono file compressi generati utilizzando il metodo di compressione RAR (WINRAR). Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/compression/rar) .
+Roshal ARchive (.rar) sono file compressi generati utilizzando il metodo di compressione RAR (WINRAR). Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/compression/rar) .
 
 ```csharp
 public static readonly FileType RAR;

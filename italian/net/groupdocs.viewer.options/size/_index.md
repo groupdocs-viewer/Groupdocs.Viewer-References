@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Dimensioni filigrana.
+description: Dimensione filigrana.
 type: docs
 weight: 510
 url: /it/net/groupdocs.viewer.options/size/
 ---
 ## Size class
 
-Dimensioni filigrana.
+Dimensione filigrana.
 
 ```csharp
 public class Size
@@ -18,7 +18,7 @@ public class Size
 
 | Nome | Descrizione |
 | --- | --- |
-| [Size](size)(byte) | Inizializza la nuova istanza di[`Size`](../size) classe. |
+| [Size](size)(byte) | Inizializza una nuova istanza di[`Size`](../size) classe. |
 
 ## Proprietà
 

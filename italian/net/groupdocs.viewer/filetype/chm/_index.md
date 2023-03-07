@@ -1,14 +1,14 @@
 ---
 title: CHM
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il file della Guida HTML compilato da Microsoft .chm è un formato noto per i documenti HELP documentation to some application. Ulteriori informazioni su questo formato di filequihttps//docs.fileformat.com/web/chm/ .
+description: Il file della Guida HTML compilato da Microsoft .chm è un formato ben noto per i documenti HELP documentazione per alcune applicazioni. Ulteriori informazioni su questo formato di fileQuihttps//docs.fileformat.com/web/chm/ .
 type: docs
-weight: 140
+weight: 150
 url: /it/net/groupdocs.viewer/filetype/chm/
 ---
 ## FileType.CHM field
 
-Il file della Guida HTML compilato da Microsoft (.chm) è un formato noto per i documenti HELP (documentation to some application). Ulteriori informazioni su questo formato di file[qui](https://docs.fileformat.com/web/chm/) .
+Il file della Guida HTML compilato da Microsoft (.chm) è un formato ben noto per i documenti HELP (documentazione per alcune applicazioni). Ulteriori informazioni su questo formato di file[Qui](https://docs.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly FileType CHM;

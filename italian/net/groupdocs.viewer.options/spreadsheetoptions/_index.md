@@ -33,11 +33,11 @@ public class SpreadsheetOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | Inizializza la nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) classe per il rendering dell'intero foglio nella pagina. |
-| static [ForRenderingByPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks)() | Inizializza la nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) solo per il rendering delle aree di stampa. |
-| static [ForRenderingPrintArea](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea)() | Inizializza la nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) solo per il rendering delle aree di stampa. |
-| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages)(int) | Inizializza la nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) per rendere il foglio in pagine. |
-| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages_1)(int, int) | Inizializza la nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) per rendere il foglio in pagine. |
+| static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | Inizializza una nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) classe per il rendering dell'intero foglio nella pagina. |
+| static [ForRenderingByPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks)() | Inizializza una nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) solo per il rendering delle aree di stampa. |
+| static [ForRenderingPrintArea](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea)() | Inizializza una nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) solo per il rendering delle aree di stampa. |
+| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages)(int) | Inizializza una nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) per rendere il foglio in pagine. |
+| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages_1)(int, int) | Inizializza una nuova istanza di[`SpreadsheetOptions`](../spreadsheetoptions) per rendere il foglio in pagine. |
 
 ### Guarda anche
 

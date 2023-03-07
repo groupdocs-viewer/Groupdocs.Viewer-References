@@ -23,7 +23,7 @@ public class ViewInfoOptions : BaseViewOptions, IMaxSizeOptions
 | [DefaultFontName](../../groupdocs.viewer.options/baseviewoptions/defaultfontname) { get; set; } | Carattere predefinito da utilizzare quando non è possibile trovare un determinato carattere utilizzato nel documento. |
 | [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | Le opzioni di visualizzazione dei messaggi e-mail. |
 | [ExtractText](../../groupdocs.viewer.options/viewinfooptions/extracttext) { get; set; } | Indica che l'estrazione del testo è abilitata. |
-| [Height](../../groupdocs.viewer.options/viewinfooptions/height) { get; set; } | Altezza immagine (solo per il rendering in PNG/JPG) |
+| [Height](../../groupdocs.viewer.options/viewinfooptions/height) { get; set; } | Altezza dell'immagine (solo per il rendering in PNG/JPG) |
 | [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | Opzioni di visualizzazione dei file di dati di archiviazione della posta. |
 | [MaxHeight](../../groupdocs.viewer.options/viewinfooptions/maxheight) { get; set; } | Altezza massima dell'immagine di output (solo per il rendering in PNG/JPG) |
 | [MaxWidth](../../groupdocs.viewer.options/viewinfooptions/maxwidth) { get; set; } | Larghezza massima dell'immagine di output (solo per il rendering in PNG/JPG) |
@@ -32,7 +32,7 @@ public class ViewInfoOptions : BaseViewOptions, IMaxSizeOptions
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | Le opzioni di visualizzazione dei documenti di elaborazione della presentazione. |
 | [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | I file di gestione del progetto visualizzano le opzioni. |
 | [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | Abilita il rendering dei commenti. |
-| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering di pagine nascoste. |
+| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering delle pagine nascoste. |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | Abilita il rendering delle note. |
 | [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | I file del foglio di calcolo visualizzano le opzioni. |
 | [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | Opzioni di suddivisione dei file di testo in pagine. |
@@ -45,15 +45,15 @@ public class ViewInfoOptions : BaseViewOptions, IMaxSizeOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview)() | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in HTML. |
-| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview_1)(bool) | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in HTML. |
-| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview)() | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in JPG. |
-| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview_1)(bool) | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in JPG. |
-| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview)() | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions)classe per recuperare informazioni sulla visualizzazione durante il rendering in PNG. |
-| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview_1)(bool) | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions)classe per recuperare informazioni sulla visualizzazione durante il rendering in PNG. |
-| static [FromHtmlViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions)(HtmlViewOptions) | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe basata su[`HtmlViewOptions`](../htmlviewoptions) oggetto. |
-| static [FromJpgViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions)(JpgViewOptions) | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe basata su[`JpgViewOptions`](../jpgviewoptions) oggetto. |
-| static [FromPngViewOptions](../../groupdocs.viewer.options/viewinfooptions/frompngviewoptions)(PngViewOptions) | Inizializza la nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe basata su[`PngViewOptions`](../pngviewoptions) oggetto. |
+| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview)() | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in HTML. |
+| static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview_1)(bool) | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in HTML. |
+| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview)() | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in JPG. |
+| static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview_1)(bool) | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in JPG. |
+| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview)() | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in PNG. |
+| static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview_1)(bool) | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in PNG. |
+| static [FromHtmlViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions)(HtmlViewOptions) | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe basata su[`HtmlViewOptions`](../htmlviewoptions) oggetto. |
+| static [FromJpgViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions)(JpgViewOptions) | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe basata su[`JpgViewOptions`](../jpgviewoptions) oggetto. |
+| static [FromPngViewOptions](../../groupdocs.viewer.options/viewinfooptions/frompngviewoptions)(PngViewOptions) | Inizializza una nuova istanza di[`ViewInfoOptions`](../viewinfooptions) classe basata su[`PngViewOptions`](../pngviewoptions) oggetto. |
 
 ### Guarda anche
 

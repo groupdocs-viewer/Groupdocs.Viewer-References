@@ -1,23 +1,39 @@
 ---
 title: ViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewInfogroupdocs.viewer.results/viewinfo classe.
+description: Inizializza una nuova istanza diViewInfogroupdocs.viewer.results/viewinfo classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/viewinfo/viewinfo/
 ---
-## ViewInfo constructor
+## ViewInfo() {#constructor}
 
-Inizializza la nuova istanza di[`ViewInfo`](../../viewinfo) classe.
+Inizializza una nuova istanza di[`ViewInfo`](../../viewinfo) classe.
 
 ```csharp
-public ViewInfo(FileType fileType, IList<Page> pages)
+public ViewInfo()
+```
+
+### Guarda anche
+
+* class [ViewInfo](../../viewinfo)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../viewinfo)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## ViewInfo(FileType, List&lt;Page&gt;) {#constructor_1}
+
+Inizializza una nuova istanza di[`ViewInfo`](../../viewinfo) classe.
+
+```csharp
+public ViewInfo(FileType fileType, List<Page> pages)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileType | FileType | Il tipo di file. |
-| pages | IList`1 | L'elenco delle pagine da visualizzare. |
+| pages | List`1 | L'elenco delle pagine da visualizzare. |
 
 ### Eccezioni
 

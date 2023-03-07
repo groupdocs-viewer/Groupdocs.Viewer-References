@@ -1,14 +1,14 @@
 ---
 title: H
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File di intestazione C/C/ObiettivoC .h
+description: File di intestazione C/C/ObjectiveC .h
 type: docs
-weight: 530
+weight: 570
 url: /it/net/groupdocs.viewer/filetype/h/
 ---
 ## FileType.H field
 
-File di intestazione C/C++/Obiettivo-C (.h)
+File di intestazione C/C++/Objective-C (.h)
 
 ```csharp
 public static readonly FileType H;

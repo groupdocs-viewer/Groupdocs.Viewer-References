@@ -1,14 +1,14 @@
 ---
 title: MBOX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File casella di posta elettronica .mbox Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/mbox .
+description: File casella di posta elettronica .mbox Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/mbox .
 type: docs
-weight: 780
+weight: 830
 url: /it/net/groupdocs.viewer/filetype/mbox/
 ---
 ## FileType.MBOX field
 
-File casella di posta elettronica (.mbox) Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/mbox) .
+File casella di posta elettronica (.mbox) Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/mbox) .
 
 ```csharp
 public static readonly FileType MBOX;

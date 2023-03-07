@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/attachment/id/
 Identificatore univoco dell'allegato nel contesto di un singolo file che contiene questo allegato.
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### Guarda anche

@@ -18,15 +18,16 @@ public class ArchiveViewInfo : ViewInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [ArchiveViewInfo](archiveviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Inizializza la nuova istanza di[`ArchiveViewInfo`](../archiveviewinfo) classe. |
+| [ArchiveViewInfo](archiveviewinfo#constructor)() | Inizializza una nuova istanza di[`ArchiveViewInfo`](../archiveviewinfo) classe. |
+| [ArchiveViewInfo](archiveviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Inizializza una nuova istanza di[`ArchiveViewInfo`](../archiveviewinfo) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Il tipo di file. |
-| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; } | Le cartelle contenute nel file di archivio. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | L'elenco delle pagine da visualizzare. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Il tipo di file. |
+| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; set; } | Le cartelle contenute nel file di archivio. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | L'elenco delle pagine da visualizzare. |
 
 ## Metodi
 

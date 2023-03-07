@@ -1,14 +1,14 @@
 ---
 title: OST
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il file di dati offline di Outlook .ost rappresenta i dati della casella di posta dellutente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/email/ost .
+description: Il file di dati offline di Outlook .ost rappresenta i dati della casella di posta dellutente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/email/ost .
 type: docs
-weight: 970
+weight: 1020
 url: /it/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field
 
-Il file di dati offline di Outlook (.ost) rappresenta i dati della casella di posta dell'utente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/email/ost) .
+Il file di dati offline di Outlook (.ost) rappresenta i dati della casella di posta dell'utente in modalità offline sul computer locale al momento della registrazione con Exchange Server utilizzando Microsoft Outlook. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/email/ost) .
 
 ```csharp
 public static readonly FileType OST;

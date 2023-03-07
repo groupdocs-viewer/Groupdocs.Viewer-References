@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Posizione.
+description: Il campo di testo predefinito è Posizione.
 type: docs
 weight: 290
 url: /it/net/groupdocs.viewer.options/field/location/
 ---
 ## Field.Location field
 
-Il testo del campo predefinito è "Posizione".
+Il campo di testo predefinito è "Posizione".
 
 ```csharp
 public static readonly Field Location;
