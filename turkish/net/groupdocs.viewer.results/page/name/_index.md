@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/page/name/
 Çalışma sayfası veya sayfa adı.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Ayrıca bakınız

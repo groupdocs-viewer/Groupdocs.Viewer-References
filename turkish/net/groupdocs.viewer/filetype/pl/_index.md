@@ -3,7 +3,7 @@ title: PL
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Perl Komut Dosyası .pl
 type: docs
-weight: 1060
+weight: 1110
 url: /tr/net/groupdocs.viewer/filetype/pl/
 ---
 ## FileType.PL field

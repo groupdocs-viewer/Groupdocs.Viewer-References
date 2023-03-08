@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/attachment/filetype/
 Ek dosya türü.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### Ayrıca bakınız

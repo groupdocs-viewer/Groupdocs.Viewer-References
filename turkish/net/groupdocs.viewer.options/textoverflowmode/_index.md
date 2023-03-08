@@ -1,14 +1,14 @@
 ---
 title: TextOverflowMode
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Elektronik tablo belgelerini HTMLye dönüştürmek için metin taşması modunu tanımlar.
+description: Elektronik tablo belgelerini HTMLye dönüştürmek için metin taşma modunu tanımlar.
 type: docs
 weight: 540
 url: /tr/net/groupdocs.viewer.options/textoverflowmode/
 ---
 ## TextOverflowMode enumeration
 
-Elektronik tablo belgelerini HTML'ye dönüştürmek için metin taşması modunu tanımlar.
+Elektronik tablo belgelerini HTML'ye dönüştürmek için metin taşma modunu tanımlar.
 
 ```csharp
 public enum TextOverflowMode
@@ -18,10 +18,10 @@ public enum TextOverflowMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Overlay | `0` | Boş olmasalar bile sonraki hücreleri kaplayın. |
-| OverlayIfNextIsEmpty | `1` | Sonraki hücreleri yalnızca boşlarsa kaplayın. |
-| AutoFitColumn | `2` | Sütunları metne uyacak şekilde genişletin. |
-| HideText | `3` | Taşma metnini gizle. |
+| Overlay | `0` | Boş olmasalar bile sonraki hücreleri kapla. |
+| OverlayIfNextIsEmpty | `1` | Yalnızca boşlarsa sonraki hücreleri kapla. |
+| AutoFitColumn | `2` | Metni sığdırmak için sütunları genişletin. |
+| HideText | `3` | Taşan metni gizle. |
 
 ### Ayrıca bakınız
 

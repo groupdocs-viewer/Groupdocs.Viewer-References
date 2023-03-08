@@ -1,14 +1,14 @@
 ---
 title: RTF
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Zengin Metin Biçimi Dosyası .rtf uygulamalarda kullanılmak üzere biçimlendirilmiş metin ve grafikleri kodlama yöntemini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/rtf .
+description: Zengin Metin Biçimi Dosyası .rtf uygulamalarda kullanılmak üzere biçimlendirilmiş metin ve grafikleri kodlama yöntemini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/rtf .
 type: docs
-weight: 1300
+weight: 1350
 url: /tr/net/groupdocs.viewer/filetype/rtf/
 ---
 ## FileType.RTF field
 
-Zengin Metin Biçimi Dosyası (.rtf), uygulamalarda kullanılmak üzere biçimlendirilmiş metin ve grafikleri kodlama yöntemini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/rtf) .
+Zengin Metin Biçimi Dosyası (.rtf), uygulamalarda kullanılmak üzere biçimlendirilmiş metin ve grafikleri kodlama yöntemini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/rtf) .
 
 ```csharp
 public static readonly FileType RTF;

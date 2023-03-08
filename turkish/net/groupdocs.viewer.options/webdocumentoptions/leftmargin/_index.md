@@ -1,14 +1,14 @@
 ---
 title: LeftMargin
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafe nokta olarak. Varsayılan değer 5 noktadır.
+description: Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafe puan olarak. Varsayılan değer 5 puntodur.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.options/webdocumentoptions/leftmargin/
 ---
 ## WebDocumentOptions.LeftMargin property
 
-Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafe (nokta olarak). Varsayılan değer 5 noktadır.
+Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafe (puan olarak). Varsayılan değer 5 puntodur.
 
 ```csharp
 public float LeftMargin { get; set; }

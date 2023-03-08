@@ -22,7 +22,7 @@ public Watermark(string text)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*text* null veya boş. |
+| ArgumentException | Ne zaman atıldı*text* null veya boş. |
 
 ### Ayrıca bakınız
 

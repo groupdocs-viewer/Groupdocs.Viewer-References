@@ -1,14 +1,14 @@
 ---
 title: GetResourceKey
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Temsil eden önbellek girişi için benzersiz tanımlayıcı döndürürResourcegroupdocs.viewer.results/resource nesne.
+description: Temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürürResourcegroupdocs.viewer.results/resource nesne.
 type: docs
 weight: 70
 url: /tr/net/groupdocs.viewer.caching/cachekeys/getresourcekey/
 ---
 ## CacheKeys.GetResourceKey method
 
-Temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür[`Resource`](../../../groupdocs.viewer.results/resource) nesne.
+Temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür[`Resource`](../../../groupdocs.viewer.results/resource) nesne.
 
 ```csharp
 public static string GetResourceKey(int pageNumber, Resource resource)
@@ -16,7 +16,7 @@ public static string GetResourceKey(int pageNumber, Resource resource)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pageNumber | Int32 | Sayfa numarası. |
+| pageNumber | Int32 | Sayfanın numarası. |
 | resource | Resource | HTML kaynağı. |
 
 ### Geri dönüş değeri
@@ -27,8 +27,8 @@ Temsil eden önbellek girişi için benzersiz tanımlayıcı[`Resource`](../../.
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*pageNumber* sıfıra eşit veya küçüktür. |
-| ArgumentNullException | ne zaman atıldı*resource* boş. |
+| ArgumentException | Ne zaman atıldı*pageNumber* sıfırdan küçük veya eşittir. |
+| ArgumentNullException | Ne zaman atıldı*resource* boş. |
 
 ### Ayrıca bakınız
 

@@ -22,7 +22,7 @@ public Size(byte relativeSize)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*relativeSize* sıfır veya 100'den büyük. |
+| ArgumentException | Ne zaman atıldı*relativeSize* sıfır veya 100'den büyük. |
 
 ### Ayrıca bakınız
 

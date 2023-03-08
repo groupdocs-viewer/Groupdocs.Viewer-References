@@ -25,8 +25,8 @@ public class WebDocumentOptions
 | İsim | Tanım |
 | --- | --- |
 | [BottomMargin](../../groupdocs.viewer.options/webdocumentoptions/bottommargin) { get; set; } | Sayfanın alt kenarı ile gövde metninin alt sınırı arasındaki mesafe (puan cinsinden). Varsayılan değer 72 puntodur. |
-| [LeftMargin](../../groupdocs.viewer.options/webdocumentoptions/leftmargin) { get; set; } | Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafe (nokta olarak). Varsayılan değer 5 noktadır. |
-| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | Çıktı sayfasının boyutu. Varsayılan değerLetter 792 x 612 puan.  İçerik sığmadığında daha büyük bir sayfa boyutu ayarlayın örn.A3 . |
+| [LeftMargin](../../groupdocs.viewer.options/webdocumentoptions/leftmargin) { get; set; } | Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafe (puan olarak). Varsayılan değer 5 puntodur. |
+| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | Çıktı sayfasının boyutu. Varsayılan değer:Letter 792 x 612 puan.  İçerikler sığmadığında daha büyük bir sayfa boyutu ayarlayın, örn.A3 . |
 | [RightMargin](../../groupdocs.viewer.options/webdocumentoptions/rightmargin) { get; set; } | Sayfanın sağ kenarı ile gövde metninin sağ sınırı arasındaki mesafe (puan olarak). Varsayılan değer 5 puntodur. |
 | [TopMargin](../../groupdocs.viewer.options/webdocumentoptions/topmargin) { get; set; } | Sayfanın üst kenarı ile gövde metninin üst sınırı arasındaki mesafe (puan olarak). Varsayılan değer 72 puntodur. |
 

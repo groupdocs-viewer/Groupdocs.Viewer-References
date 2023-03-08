@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: OpenDocument Belge Şablonu .ott OASISin OpenDocument standart formatına uygun uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/ott .
+description: OpenDocument Belge Şablonu .ott OASISin OpenDocument standart formatına uygun uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 1010
+weight: 1060
 url: /tr/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field
 
-OpenDocument Belge Şablonu (.ott), OASIS'in OpenDocument standart formatına uygun uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/ott) .
+OpenDocument Belge Şablonu (.ott), OASIS'in OpenDocument standart formatına uygun uygulamalar tarafından oluşturulan şablon belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/ott) .
 
 ```csharp
 public static readonly FileType OTT;

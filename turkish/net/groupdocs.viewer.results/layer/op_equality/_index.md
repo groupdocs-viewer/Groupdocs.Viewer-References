@@ -16,12 +16,12 @@ public static bool operator ==(Layer left, Layer right)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| left | Layer | Ayrıldı[`Layer`](../../layer) nesne. |
-| right | Layer | Doğru[`Layer`](../../layer) nesne. |
+| left | Layer | Sol[`Layer`](../../layer) nesne. |
+| right | Layer | Sağ[`Layer`](../../layer) nesne. |
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`Layer`](../../layer) nesneler aynıdır; aksi halde,
+ikisi de olursa[`Layer`](../../layer) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true

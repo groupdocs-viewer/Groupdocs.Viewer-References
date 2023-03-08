@@ -1,14 +1,14 @@
 ---
 title: TGZ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Konsolide Unix Dosya Arşivi .tgz .tar.gz bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/tgz .
+description: Birleştirilmiş Unix Dosya Arşivi .tgz .tar.gz bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/tgz .
 type: docs
-weight: 1480
+weight: 1530
 url: /tr/net/groupdocs.viewer/filetype/tgz/
 ---
 ## FileType.TGZ field
 
-Konsolide Unix Dosya Arşivi (.tgz, .tar.gz), bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/tgz) .
+Birleştirilmiş Unix Dosya Arşivi (.tgz, .tar.gz), bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/tgz) .
 
 ```csharp
 public static readonly FileType TGZ;

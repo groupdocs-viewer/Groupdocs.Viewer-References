@@ -3,7 +3,7 @@ title: HH
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: C Başlık Dosyası .hh
 type: docs
-weight: 550
+weight: 590
 url: /tr/net/groupdocs.viewer/filetype/hh/
 ---
 ## FileType.HH field

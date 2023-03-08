@@ -3,7 +3,7 @@ title: ERB
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Yakut ERB Komut Dosyası .erb
 type: docs
-weight: 440
+weight: 470
 url: /tr/net/groupdocs.viewer/filetype/erb/
 ---
 ## FileType.ERB field

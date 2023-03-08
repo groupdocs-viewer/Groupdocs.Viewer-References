@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
 Yeni örneğini başlatır[`Line`](../../line) sınıf.
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### Ayrıca bakınız
+
+* class [Line](../../line)
+* ad alanı [GroupDocs.Viewer.Results](../../line)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+Yeni örneğini başlatır[`Line`](../../line) sınıf.
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | Parametre | Tip | Tanım |
@@ -21,14 +37,14 @@ public Line(string line, double x, double y, double width, double height, IList<
 | y | Double | Sayfa düzeninde çizgi içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
 | width | Double | Çizgiyi içeren dikdörtgenin genişliği (piksel olarak). |
 | height | Double | Çizgiyi içeren dikdörtgenin yüksekliği (piksel olarak). |
-| words | IList`1 | Satırın içerdiği kelimeler. |
+| words | List`1 | Satırın içerdiği kelimeler. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*line* null veya boş. |
-| ArgumentNullException | ne zaman atıldı*words* boş. |
+| ArgumentException | Ne zaman atıldı*line* null veya boş. |
+| ArgumentNullException | Ne zaman atıldı*words* boş. |
 
 ### Ayrıca bakınız
 

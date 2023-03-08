@@ -1,14 +1,14 @@
 ---
 title: RAR
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Roshal Arşivi .rar RAR WINRAR sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/compression/rar .
+description: Roshal ARchive .rar RAR WINRAR sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/compression/rar .
 type: docs
-weight: 1270
+weight: 1320
 url: /tr/net/groupdocs.viewer/filetype/rar/
 ---
 ## FileType.RAR field
 
-Roshal Arşivi (.rar), RAR (WINRAR) sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/compression/rar) .
+Roshal ARchive (.rar), RAR (WINRAR) sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/compression/rar) .
 
 ```csharp
 public static readonly FileType RAR;

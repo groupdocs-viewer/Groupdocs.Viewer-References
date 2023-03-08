@@ -1,14 +1,14 @@
 ---
 title: GZ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Gnu Sıkıştırılmış Dosyası .gz gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Birden çok sıkıştırılmış dosya içerebilir ve genellikle UNIX ve Linux sistemlerinde kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/compression/gz .
+description: Gnu Sıkıştırılmış Dosyası .gz gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Birden çok sıkıştırılmış dosya içerebilir ve genellikle UNIX ve Linux sistemlerinde kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/compression/gz .
 type: docs
-weight: 510
+weight: 550
 url: /tr/net/groupdocs.viewer/filetype/gz/
 ---
 ## FileType.GZ field
 
-Gnu Sıkıştırılmış Dosyası (.gz), gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Birden çok sıkıştırılmış dosya içerebilir ve genellikle UNIX ve Linux sistemlerinde kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/compression/gz) .
+Gnu Sıkıştırılmış Dosyası (.gz), gzip sıkıştırma uygulamasıyla oluşturulan sıkıştırılmış dosyalardır. Birden çok sıkıştırılmış dosya içerebilir ve genellikle UNIX ve Linux sistemlerinde kullanılır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/compression/gz) .
 
 ```csharp
 public static readonly FileType GZ;

@@ -1,14 +1,14 @@
 ---
 title: MPP
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Microsoft Project Dosyası .mpp proje yönetimiyle ilgili bilgileri entegre bir şekilde depolayan Microsoft Project veri dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/projectmanagement/mpp .
+description: Microsoft Project Dosyası .mpp proje yönetimiyle ilgili bilgileri entegre bir şekilde depolayan Microsoft Project veri dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/projectmanagement/mpp .
 type: docs
-weight: 850
+weight: 900
 url: /tr/net/groupdocs.viewer/filetype/mpp/
 ---
 ## FileType.MPP field
 
-Microsoft Project Dosyası (.mpp), proje yönetimiyle ilgili bilgileri entegre bir şekilde depolayan Microsoft Project veri dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/project-management/mpp) .
+Microsoft Project Dosyası (.mpp), proje yönetimiyle ilgili bilgileri entegre bir şekilde depolayan Microsoft Project veri dosyasıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/project-management/mpp) .
 
 ```csharp
 public static readonly FileType MPP;

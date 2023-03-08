@@ -1,14 +1,14 @@
 ---
 title: PPT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: PowerPoint Sunumu .ppt SlideShow olarak görüntülemek için bir slayt koleksiyonundan oluşan PowerPoint dosyasını temsil eder. Microsoft PowerPoint 972003 tarafından kullanılan İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/ppt .
+description: PowerPoint Sunumu .ppt SlideShow olarak görüntülemek için bir slayt koleksiyonundan oluşan PowerPoint dosyasını temsil eder. Microsoft PowerPoint 972003 tarafından kullanılan İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/ppt .
 type: docs
-weight: 1150
+weight: 1200
 url: /tr/net/groupdocs.viewer/filetype/ppt/
 ---
 ## FileType.PPT field
 
-PowerPoint Sunumu (.ppt), SlideShow olarak görüntülemek için bir slayt koleksiyonundan oluşan PowerPoint dosyasını temsil eder. Microsoft PowerPoint 97-2003 tarafından kullanılan İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/ppt) .
+PowerPoint Sunumu (.ppt), SlideShow olarak görüntülemek için bir slayt koleksiyonundan oluşan PowerPoint dosyasını temsil eder. Microsoft PowerPoint 97-2003 tarafından kullanılan İkili Dosya Biçimini belirtir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/ppt) .
 
 ```csharp
 public static readonly FileType PPT;

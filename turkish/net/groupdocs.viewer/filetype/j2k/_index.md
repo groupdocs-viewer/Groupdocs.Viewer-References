@@ -1,14 +1,14 @@
 ---
 title: J2K
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: JPEG 2000 Kod Akışı .j2k DCT sıkıştırması yerine dalgacık sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/j2k .
+description: JPEG 2000 Kod Akışı .j2k DCT sıkıştırması yerine dalgacık sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/j2k .
 type: docs
-weight: 630
+weight: 670
 url: /tr/net/groupdocs.viewer/filetype/j2k/
 ---
 ## FileType.J2K field
 
-JPEG 2000 Kod Akışı (.j2k), DCT sıkıştırması yerine dalgacık sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/j2k) .
+JPEG 2000 Kod Akışı (.j2k), DCT sıkıştırması yerine dalgacık sıkıştırması kullanılarak sıkıştırılan bir görüntüdür. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/j2k) .
 
 ```csharp
 public static readonly FileType J2K;

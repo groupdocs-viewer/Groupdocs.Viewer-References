@@ -16,8 +16,8 @@ public void ReleasePageStream(int pageNumber, Stream pageStream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pageNumber | Int32 | Bir sayfa numarası. |
-| pageStream | Stream | Akış tarafından oluşturulan[`CreatePageStream`](../createpagestream) yöntem. |
+| pageNumber | Int32 | Bir sayfanın numarası. |
+| pageStream | Stream | Akışı oluşturan[`CreatePageStream`](../createpagestream) yöntem. |
 
 ### Ayrıca bakınız
 

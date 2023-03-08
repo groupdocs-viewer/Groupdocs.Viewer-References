@@ -1,14 +1,14 @@
 ---
 title: GetFileInfoKey
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Temsil eden önbellek girişi için benzersiz tanımlayıcı döndürürViewInfogroupdocs.viewer.results/viewinfo nesne.
+description: Temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürürViewInfogroupdocs.viewer.results/viewinfo nesne.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.caching/cachekeys/getfileinfokey/
 ---
 ## CacheKeys.GetFileInfoKey method
 
-Temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür[`ViewInfo`](../../../groupdocs.viewer.results/viewinfo) nesne.
+Temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür[`ViewInfo`](../../../groupdocs.viewer.results/viewinfo) nesne.
 
 ```csharp
 public static string GetFileInfoKey()

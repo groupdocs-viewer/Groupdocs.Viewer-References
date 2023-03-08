@@ -3,7 +3,7 @@ title: CMAKE
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: CDosya Yap .cmake
 type: docs
-weight: 150
+weight: 160
 url: /tr/net/groupdocs.viewer/filetype/cmake/
 ---
 ## FileType.CMAKE field

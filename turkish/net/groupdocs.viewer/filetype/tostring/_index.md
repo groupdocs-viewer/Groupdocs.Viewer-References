@@ -3,7 +3,7 @@ title: ToString
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Geçerli nesneyi temsil eden bir dize döndürür.
 type: docs
-weight: 1950
+weight: 2000
 url: /tr/net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method

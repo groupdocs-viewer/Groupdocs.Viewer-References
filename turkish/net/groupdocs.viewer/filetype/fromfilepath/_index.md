@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Dosya uzantısını çıkarır ve onu dosya türüyle eşler.
 type: docs
-weight: 1880
+weight: 1930
 url: /tr/net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method

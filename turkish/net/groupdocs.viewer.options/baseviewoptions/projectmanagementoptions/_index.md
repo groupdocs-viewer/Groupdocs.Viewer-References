@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Proje yönetimi dosyaları seçenekleri görüntüler.
+description: Proje yönetimi dosyaları görüntüleme seçenekleri.
 type: docs
 weight: 90
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/projectmanagementoptions/
 ---
 ## BaseViewOptions.ProjectManagementOptions property
 
-Proje yönetimi dosyaları seçenekleri görüntüler.
+Proje yönetimi dosyaları görüntüleme seçenekleri.
 
 ```csharp
 public ProjectManagementOptions ProjectManagementOptions { get; set; }

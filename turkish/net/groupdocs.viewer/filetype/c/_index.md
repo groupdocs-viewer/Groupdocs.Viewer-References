@@ -3,7 +3,7 @@ title: C
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: C/C Kaynak Kodu Dosyası .c
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/groupdocs.viewer/filetype/c/
 ---
 ## FileType.C field

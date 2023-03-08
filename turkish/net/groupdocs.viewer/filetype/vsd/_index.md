@@ -1,14 +1,14 @@
 ---
 title: VSD
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Visio Çizim Dosyası .vsd çeşitli grafik nesneleri ve bunlar arasındaki bağlantıyı temsil etmek için Microsoft Visio uygulamasıyla oluşturulan çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vsd .
+description: Visio Çizim Dosyası .vsd çeşitli grafik nesneleri ve bunlar arasındaki bağlantıyı temsil etmek için Microsoft Visio uygulamasıyla oluşturulan çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vsd .
 type: docs
-weight: 1600
+weight: 1650
 url: /tr/net/groupdocs.viewer/filetype/vsd/
 ---
 ## FileType.VSD field
 
-Visio Çizim Dosyası (.vsd), çeşitli grafik nesneleri ve bunlar arasındaki bağlantıyı temsil etmek için Microsoft Visio uygulamasıyla oluşturulan çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vsd) .
+Visio Çizim Dosyası (.vsd), çeşitli grafik nesneleri ve bunlar arasındaki bağlantıyı temsil etmek için Microsoft Visio uygulamasıyla oluşturulan çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vsd) .
 
 ```csharp
 public static readonly FileType VSD;

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Mevcut olup olmadığını belirler.FolderFontSourcegroupdocs.viewer.fonts/folderfontsourcebelirtilenle aynıFolderFontSourcegroupdocs.viewer.fonts/folderfontsource nesne.
+description: Mevcut olup olmadığını belirler.FolderFontSourcegroupdocs.viewer.fonts/folderfontsource belirtilenle aynıFolderFontSourcegroupdocs.viewer.fonts/folderfontsource nesne.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-Mevcut olup olmadığını belirler.[`FolderFontSource`](../../folderfontsource)belirtilenle aynı[`FolderFontSource`](../../folderfontsource) nesne.
+Mevcut olup olmadığını belirler.[`FolderFontSource`](../../folderfontsource) belirtilenle aynı[`FolderFontSource`](../../folderfontsource) nesne.
 
 ```csharp
 public bool Equals(FolderFontSource other)
@@ -20,7 +20,7 @@ public bool Equals(FolderFontSource other)
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`FolderFontSource`](../../folderfontsource) nesneler aynıdır; aksi halde,
+ikisi de olursa[`FolderFontSource`](../../folderfontsource) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Geri dönüş değeri
 
-eğer parametre[`FolderFontSource`](../../folderfontsource) ve şu anki ile aynı[`FolderFontSource`](../../folderfontsource) nesne; aksi halde,
+eğer parametre[`FolderFontSource`](../../folderfontsource) ve şu anki ile aynı[`FolderFontSource`](../../folderfontsource) nesne; aksi takdirde,
 
 ```csharp
 true

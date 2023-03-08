@@ -1,14 +1,14 @@
 ---
 title: GetResourceFilter
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Temsil eden önbellek girişlerini aramak için filtre dizesini döndürürResourcegroupdocs.viewer.results/resource nesneler.
+description: Şunları temsil eden önbellek girişlerini aramak için filtre dizesi döndürürResourcegroupdocs.viewer.results/resource nesneler.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.viewer.caching/cachekeys/getresourcefilter/
 ---
 ## CacheKeys.GetResourceFilter method
 
-Temsil eden önbellek girişlerini aramak için filtre dizesini döndürür[`Resource`](../../../groupdocs.viewer.results/resource) nesneler.
+Şunları temsil eden önbellek girişlerini aramak için filtre dizesi döndürür:[`Resource`](../../../groupdocs.viewer.results/resource) nesneler.
 
 ```csharp
 public static string GetResourceFilter(int pageNumber)
@@ -26,7 +26,7 @@ Temsil eden önbellek girişlerini aramak için filtre dizesi[`Resource`](../../
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*pageNumber* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*pageNumber* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 

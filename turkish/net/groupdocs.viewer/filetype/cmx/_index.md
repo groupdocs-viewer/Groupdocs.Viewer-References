@@ -1,14 +1,14 @@
 ---
 title: CMX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Corel Exchange .cmx bitmap grafiklerinin yanı sıra vektör grafiklerini de içerebilen bir çizim resim dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/cmx .
+description: Corel Exchange .cmx bitmap grafiklerinin yanı sıra vektör grafiklerini de içerebilen bir çizim resim dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 160
+weight: 170
 url: /tr/net/groupdocs.viewer/filetype/cmx/
 ---
 ## FileType.CMX field
 
-Corel Exchange (.cmx), bitmap grafiklerinin yanı sıra vektör grafiklerini de içerebilen bir çizim resim dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/cmx) .
+Corel Exchange (.cmx), bitmap grafiklerinin yanı sıra vektör grafiklerini de içerebilen bir çizim resim dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/cmx) .
 
 ```csharp
 public static readonly FileType CMX;

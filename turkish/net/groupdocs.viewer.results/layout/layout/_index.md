@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/layout/layout/
 ---
-## Layout constructor
+## Layout() {#constructor}
+
+Yeni örneğini başlatır[`Layout`](../../layout) sınıf.
+
+```csharp
+public Layout()
+```
+
+### Ayrıca bakınız
+
+* class [Layout](../../layout)
+* ad alanı [GroupDocs.Viewer.Results](../../layout)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Layout(string, float, float) {#constructor_1}
 
 Yeni örneğini başlatır[`Layout`](../../layout) sınıf.
 
@@ -24,7 +40,7 @@ public Layout(string name, float width, float height)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*name* null veya boş. |
+| ArgumentException | Ne zaman atıldı*name* null veya boş. |
 
 ### Ayrıca bakınız
 

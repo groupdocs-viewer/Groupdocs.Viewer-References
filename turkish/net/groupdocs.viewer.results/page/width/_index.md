@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/page/width/
 JPG veya PNG olarak görüntülerken sayfanın piksel cinsinden genişliği.
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### Ayrıca bakınız

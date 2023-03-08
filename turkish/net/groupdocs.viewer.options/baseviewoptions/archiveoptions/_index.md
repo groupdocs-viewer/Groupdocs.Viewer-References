@@ -1,14 +1,14 @@
 ---
 title: ArchiveOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Arşiv dosyaları seçenekleri görüntüleme.
+description: Arşiv dosyaları görüntüleme seçenekleri.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/archiveoptions/
 ---
 ## BaseViewOptions.ArchiveOptions property
 
-Arşiv dosyaları seçenekleri görüntüleme.
+Arşiv dosyaları görüntüleme seçenekleri.
 
 ```csharp
 public ArchiveOptions ArchiveOptions { get; set; }

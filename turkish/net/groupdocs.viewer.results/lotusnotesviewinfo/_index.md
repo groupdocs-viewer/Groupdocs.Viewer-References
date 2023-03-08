@@ -18,15 +18,16 @@ public class LotusNotesViewInfo : ViewInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [LotusNotesViewInfo](lotusnotesviewinfo)(FileType, IList&lt;Page&gt;, int) | Yeni örneğini başlatır[`LotusNotesViewInfo`](../lotusnotesviewinfo) sınıf. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor)() | Yeni örneğini başlatır[`LotusNotesViewInfo`](../lotusnotesviewinfo) sınıf. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | Yeni örneğini başlatır[`LotusNotesViewInfo`](../lotusnotesviewinfo) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Dosyanın türü. |
-| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; } | Notlar depolama alanında sayılır |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Görüntülenecek sayfaların listesi. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Dosyanın türü. |
+| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; set; } | Notlar depolama alanında sayılır |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Görüntülenecek sayfaların listesi. |
 
 ## yöntemler
 

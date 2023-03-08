@@ -1,14 +1,14 @@
 ---
 title: PSM1
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: PowerShell betik modülü .psm1 PowerShell modülü betikleri için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/psm1 .
+description: PowerShell betik modülü .psm1 PowerShell modülü betikleri için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/psm1 .
 type: docs
-weight: 1240
+weight: 1290
 url: /tr/net/groupdocs.viewer/filetype/psm1/
 ---
 ## FileType.PSM1 field
 
-PowerShell betik modülü (.psm1), PowerShell modülü betikleri için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/psm1) .
+PowerShell betik modülü (.psm1), PowerShell modülü betikleri için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/psm1) .
 
 ```csharp
 public static readonly FileType PSM1;

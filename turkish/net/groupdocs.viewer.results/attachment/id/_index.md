@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/attachment/id/
 Bu eki içeren tek bir dosya bağlamında ekin benzersiz tanımlayıcısı.
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### Ayrıca bakınız

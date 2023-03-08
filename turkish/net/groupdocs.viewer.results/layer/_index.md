@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | İsim | Tanım |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Yeni örneğini başlatır[`Layer`](../layer) sınıf. |
-| [Layer](layer#constructor_1)(string, bool) | Yeni örneğini başlatır[`Layer`](../layer) sınıf. |
+| [Layer](layer#constructor)() | Yeni örneğini başlatır[`Layer`](../layer) sınıf. |
+| [Layer](layer#constructor_1)(string) | Yeni örneğini başlatır[`Layer`](../layer) sınıf. |
+| [Layer](layer#constructor_2)(string, bool) | Yeni örneğini başlatır[`Layer`](../layer) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | Katmanın adı. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | Katman görünürlük göstergesi. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | Katmanın adı. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | Katman görünürlük göstergesi. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Mevcut olup olmadığını belirler.[`Layer`](../layer)belirtilenle aynı[`Layer`](../layer) nesne. |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Mevcut olup olmadığını belirler.[`Layer`](../layer) belirtilenle aynı[`Layer`](../layer) nesne. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | Mevcut olup olmadığını belirler.[`Layer`](../layer) belirtilen nesneyle aynı. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | Mevcut için hash kodunu döndürür[`Layer`](../layer) nesne. |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | Geçerli nesneyi temsil eden bir dize döndürür. |

@@ -1,14 +1,14 @@
 ---
 title: RenderTextAsImage
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Bu seçenek olarak ayarlandığındadoğru  metin çıktı HTMLsinde bir resim olarak işlenir. Metni seçilemez yapmak veya karakter oluşturmayı düzeltmek ve HTMLnin PDF gibi görünmesini sağlamak için bu seçeneği etkinleştirin. Varsayılan değeryanlış .
+description: Bu seçenek olarak ayarlandığındadoğru  metin çıktıda bir görüntü olarak işlenir HTML. Metni seçilemez yapmak veya karakterlerin işlenmesini düzeltmek ve HTMLnin PDF gibi görünmesini sağlamak için bu seçeneği etkinleştirin. Varsayılan değerYANLIŞ .
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property
 
-Bu seçenek olarak ayarlandığındadoğru , metin çıktı HTML'sinde bir resim olarak işlenir. Metni seçilemez yapmak veya karakter oluşturmayı düzeltmek ve HTML'nin PDF gibi görünmesini sağlamak için bu seçeneği etkinleştirin. Varsayılan değeryanlış .
+Bu seçenek olarak ayarlandığındadoğru , metin çıktıda bir görüntü olarak işlenir HTML. Metni seçilemez yapmak veya karakterlerin işlenmesini düzeltmek ve HTML'nin PDF gibi görünmesini sağlamak için bu seçeneği etkinleştirin. Varsayılan değer:YANLIŞ .
 
 ```csharp
 public bool RenderTextAsImage { get; set; }

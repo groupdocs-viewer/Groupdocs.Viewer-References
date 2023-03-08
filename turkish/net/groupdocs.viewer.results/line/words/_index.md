@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/line/words/
 Satırın içerdiği kelimeler.
 
 ```csharp
-public IList<Word> Words { get; }
+public List<Word> Words { get; set; }
 ```
 
 ### Ayrıca bakınız

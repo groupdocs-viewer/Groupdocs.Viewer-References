@@ -21,14 +21,14 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 ### Geri dönüş değeri
 
-Yeni örneği[`CadOptions`](../../cadoptions) genişlik ve yüksekliğe göre işleme için sınıf.
+Yeni örneği[`CadOptions`](../../cadoptions)genişlik ve yüksekliğe göre işleme için sınıf.
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*width* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*height* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*width* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*height* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 

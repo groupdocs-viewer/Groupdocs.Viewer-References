@@ -6,27 +6,43 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/outlookviewinfo/outlookviewinfo/
 ---
-## OutlookViewInfo constructor
+## OutlookViewInfo() {#constructor}
 
 Yeni örneğini başlatır[`OutlookViewInfo`](../../outlookviewinfo) sınıf.
 
 ```csharp
-public OutlookViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public OutlookViewInfo()
+```
+
+### Ayrıca bakınız
+
+* class [OutlookViewInfo](../../outlookviewinfo)
+* ad alanı [GroupDocs.Viewer.Results](../../outlookviewinfo)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## OutlookViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Yeni örneğini başlatır[`OutlookViewInfo`](../../outlookviewinfo) sınıf.
+
+```csharp
+public OutlookViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileType | FileType | Dosyanın türü. |
-| pages | IList`1 | Görüntülenecek sayfaların listesi. |
-| folders | IList`1 | Outlook Veri dosyasının içerdiği klasörlerin listesi. |
+| pages | List`1 | Görüntülenecek sayfaların listesi. |
+| folders | List`1 | Outlook Veri dosyasının içerdiği klasörlerin listesi. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
-| ArgumentNullException | ne zaman atıldı*pages* boş. |
-| ArgumentNullException | ne zaman atıldı*folders* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*pages* boş. |
+| ArgumentNullException | Ne zaman atıldı*folders* boş. |
 
 ### Ayrıca bakınız
 

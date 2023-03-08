@@ -3,7 +3,7 @@ title: JAVA
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Java Kaynak Kodu Dosyası .java
 type: docs
-weight: 640
+weight: 680
 url: /tr/net/groupdocs.viewer/filetype/java/
 ---
 ## FileType.JAVA field

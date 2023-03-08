@@ -1,14 +1,14 @@
 ---
 title: MSG
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Outlook Posta İletisi .msg Microsoft Outlook ve Exchange tarafından eposta iletilerini kişileri randevuları veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/email/msg .
+description: Outlook Posta İletisi .msg Microsoft Outlook ve Exchange tarafından eposta iletilerini kişileri randevuları veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/email/msg .
 type: docs
-weight: 880
+weight: 930
 url: /tr/net/groupdocs.viewer/filetype/msg/
 ---
 ## FileType.MSG field
 
-Outlook Posta İletisi (.msg), Microsoft Outlook ve Exchange tarafından e-posta iletilerini, kişileri, randevuları veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email/msg) .
+Outlook Posta İletisi (.msg), Microsoft Outlook ve Exchange tarafından e-posta iletilerini, kişileri, randevuları veya diğer görevleri depolamak için kullanılan bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/email/msg) .
 
 ```csharp
 public static readonly FileType MSG;

@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/resource/filename/
 Kaynak dosya adı.
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### Ayrıca bakınız

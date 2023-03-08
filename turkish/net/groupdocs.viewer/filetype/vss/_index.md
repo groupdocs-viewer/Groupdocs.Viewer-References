@@ -1,14 +1,14 @@
 ---
 title: VSS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Visio Kalıp Dosyası.vss Microsoft Visio 2007 ve öncesi ile oluşturulan kalıp dosyalarıdır. Kalıp dosyaları bir .VSD Visio çizimine dahil edilebilecek çizim nesneleri sağlar. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vss .
+description: Visio Kalıp Dosyası.vss Microsoft Visio 2007 ve öncesi ile oluşturulan kalıp dosyalarıdır. Kalıp dosyaları bir .VSD Visio çizimine dahil edilebilecek çizim nesneleri sağlar. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vss .
 type: docs
-weight: 1630
+weight: 1680
 url: /tr/net/groupdocs.viewer/filetype/vss/
 ---
 ## FileType.VSS field
 
-Visio Kalıp Dosyası(.vss), Microsoft Visio 2007 ve öncesi ile oluşturulan kalıp dosyalarıdır. Kalıp dosyaları, bir .VSD Visio çizimine dahil edilebilecek çizim nesneleri sağlar. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vss) .
+Visio Kalıp Dosyası(.vss), Microsoft Visio 2007 ve öncesi ile oluşturulan kalıp dosyalarıdır. Kalıp dosyaları, bir .VSD Visio çizimine dahil edilebilecek çizim nesneleri sağlar. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vss) .
 
 ```csharp
 public static readonly FileType VSS;

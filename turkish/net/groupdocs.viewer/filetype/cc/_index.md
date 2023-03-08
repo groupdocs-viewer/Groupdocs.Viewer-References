@@ -3,7 +3,7 @@ title: CC
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: C Kaynak Kodu Dosyası .cc
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/groupdocs.viewer/filetype/cc/
 ---
 ## FileType.CC field

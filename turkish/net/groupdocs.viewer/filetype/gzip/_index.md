@@ -1,14 +1,14 @@
 ---
 title: GZIP
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Gnu Sıkıştırılmış Dosya .gzip Unix sistemlerinde kullanılan Sıkıştır programının yerini almak için ücretsiz bir yardımcı program olarak tanıtıldı. Bu tür dosyalar hem Windows hem de MacOSta bulunan WinZip gibi çeşitli uygulamalarla açılıp ayıklanabilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/compression/gz .
+description: Gnu Sıkıştırılmış Dosya .gzip Unix sistemlerinde kullanılan Sıkıştır programının yerini almak için ücretsiz bir yardımcı program olarak tanıtıldı. Bu tür dosyalar hem Windows hem de MacOSta bulunan WinZip gibi çeşitli uygulamalarla açılıp ayıklanabilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/compression/gz .
 type: docs
-weight: 520
+weight: 560
 url: /tr/net/groupdocs.viewer/filetype/gzip/
 ---
 ## FileType.GZIP field
 
-Gnu Sıkıştırılmış Dosya (.gzip), Unix sistemlerinde kullanılan Sıkıştır programının yerini almak için ücretsiz bir yardımcı program olarak tanıtıldı. Bu tür dosyalar, hem Windows hem de MacOS'ta bulunan WinZip gibi çeşitli uygulamalarla açılıp ayıklanabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/compression/gz) .
+Gnu Sıkıştırılmış Dosya (.gzip), Unix sistemlerinde kullanılan Sıkıştır programının yerini almak için ücretsiz bir yardımcı program olarak tanıtıldı. Bu tür dosyalar, hem Windows hem de MacOS'ta bulunan WinZip gibi çeşitli uygulamalarla açılıp ayıklanabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/compression/gz) .
 
 ```csharp
 public static readonly FileType GZIP;

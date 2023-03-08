@@ -1,14 +1,14 @@
 ---
 title: GroupDocsViewerException
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Yeni bir örneğini başlatırGroupDocsViewerExceptiongroupdocs.viewer.exceptions/groupdocsviewerexception belirtilen bir hata mesajına sahip sınıf.
+description: Yeni bir örneğini başlatır.GroupDocsViewerExceptiongroupdocs.viewer.exceptions/groupdocsviewerexception belirtilen bir hata mesajına sahip sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.exceptions/groupdocsviewerexception/groupdocsviewerexception/
 ---
 ## GroupDocsViewerException constructor
 
-Yeni bir örneğini başlatır[`GroupDocsViewerException`](../../groupdocsviewerexception) belirtilen bir hata mesajına sahip sınıf.
+Yeni bir örneğini başlatır.[`GroupDocsViewerException`](../../groupdocsviewerexception) belirtilen bir hata mesajına sahip sınıf.
 
 ```csharp
 public GroupDocsViewerException(string message)

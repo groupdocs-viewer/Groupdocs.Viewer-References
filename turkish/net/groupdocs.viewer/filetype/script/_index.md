@@ -3,7 +3,7 @@ title: SCRIPT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Genel Komut Dosyası .script
 type: docs
-weight: 1340
+weight: 1390
 url: /tr/net/groupdocs.viewer/filetype/script/
 ---
 ## FileType.SCRIPT field

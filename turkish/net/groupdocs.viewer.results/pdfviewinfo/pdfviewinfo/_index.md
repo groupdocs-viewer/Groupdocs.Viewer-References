@@ -6,25 +6,41 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/pdfviewinfo/pdfviewinfo/
 ---
-## PdfViewInfo constructor
+## PdfViewInfo() {#constructor}
 
 Yeni örneğini başlatır[`PdfViewInfo`](../../pdfviewinfo) sınıf.
 
 ```csharp
-public PdfViewInfo(FileType fileType, IList<Page> pages, bool printingAllowed)
+public PdfViewInfo()
+```
+
+### Ayrıca bakınız
+
+* class [PdfViewInfo](../../pdfviewinfo)
+* ad alanı [GroupDocs.Viewer.Results](../../pdfviewinfo)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewInfo(FileType, List&lt;Page&gt;, bool) {#constructor_1}
+
+Yeni örneğini başlatır[`PdfViewInfo`](../../pdfviewinfo) sınıf.
+
+```csharp
+public PdfViewInfo(FileType fileType, List<Page> pages, bool printingAllowed)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileType | FileType | Dosyanın türü. |
-| pages | IList`1 | Görüntülenecek sayfaların listesi. |
+| pages | List`1 | Görüntülenecek sayfaların listesi. |
 | printingAllowed | Boolean | Yazdırma izni göstergesi. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*pages* boş. |
+| ArgumentNullException | Ne zaman atıldı*pages* boş. |
 
 ### Ayrıca bakınız
 

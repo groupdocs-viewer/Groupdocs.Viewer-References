@@ -1,14 +1,14 @@
 ---
 title: Organizer
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsayılan alan metni Düzenleyicidir.
+description: Varsayılan alan metni Düzenleyici şeklindedir.
 type: docs
 weight: 320
 url: /tr/net/groupdocs.viewer.options/field/organizer/
 ---
 ## Field.Organizer field
 
-Varsayılan alan metni "Düzenleyici"dir.
+Varsayılan alan metni "Düzenleyici" şeklindedir.
 
 ```csharp
 public static readonly Field Organizer;

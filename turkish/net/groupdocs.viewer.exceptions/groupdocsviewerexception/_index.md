@@ -18,7 +18,7 @@ public class GroupDocsViewerException : Exception
 
 | İsim | Tanım |
 | --- | --- |
-| [GroupDocsViewerException](groupdocsviewerexception)(string) | Yeni bir örneğini başlatır[`GroupDocsViewerException`](../groupdocsviewerexception) belirtilen bir hata mesajına sahip sınıf. |
+| [GroupDocsViewerException](groupdocsviewerexception)(string) | Yeni bir örneğini başlatır.[`GroupDocsViewerException`](../groupdocsviewerexception) belirtilen bir hata mesajına sahip sınıf. |
 
 ### Ayrıca bakınız
 

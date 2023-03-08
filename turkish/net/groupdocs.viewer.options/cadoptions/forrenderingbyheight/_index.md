@@ -26,7 +26,7 @@ Yeni örneği[`CadOptions`](../../cadoptions) yüksekliğe göre işleme için s
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*height* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*height* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 

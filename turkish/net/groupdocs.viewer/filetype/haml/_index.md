@@ -3,7 +3,7 @@ title: HAML
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Haml Kaynak Kodu Dosyası .haml
 type: docs
-weight: 540
+weight: 580
 url: /tr/net/groupdocs.viewer/filetype/haml/
 ---
 ## FileType.HAML field

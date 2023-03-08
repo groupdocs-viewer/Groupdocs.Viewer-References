@@ -1,14 +1,14 @@
 ---
 title: Recurrence
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsayılan alan metni Yinelenmedir
+description: Varsayılan alan metni Yinelenme dir
 type: docs
 weight: 360
 url: /tr/net/groupdocs.viewer.options/field/recurrence/
 ---
 ## Field.Recurrence field
 
-Varsayılan alan metni "Yinelenme"dir
+Varsayılan alan metni "Yinelenme" 'dir
 
 ```csharp
 public static readonly Field Recurrence;

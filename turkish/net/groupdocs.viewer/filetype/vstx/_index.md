@@ -1,14 +1,14 @@
 ---
 title: VSTX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Visio Çizim Şablonu .vstx Microsoft Visio 2013 ve üzeri sürümlerle oluşturulan çizim şablonu dosyalarıdır. Bu VSTX dosyaları varsayılan düzen ve ayarlarla .VSDX dosyaları olarak kaydedilen Visio çizimleri oluşturmak için başlangıç noktası sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vstx .
+description: Visio Çizim Şablonu .vstx Microsoft Visio 2013 ve üzeri sürümlerle oluşturulan çizim şablonu dosyalarıdır. Bu VSTX dosyaları varsayılan düzen ve ayarlarla .VSDX dosyaları olarak kaydedilen Visio çizimleri oluşturmak için başlangıç noktası sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vstx .
 type: docs
-weight: 1680
+weight: 1730
 url: /tr/net/groupdocs.viewer/filetype/vstx/
 ---
 ## FileType.VSTX field
 
-Visio Çizim Şablonu (.vstx), Microsoft Visio 2013 ve üzeri sürümlerle oluşturulan çizim şablonu dosyalarıdır. Bu VSTX dosyaları, varsayılan düzen ve ayarlarla .VSDX dosyaları olarak kaydedilen Visio çizimleri oluşturmak için başlangıç noktası sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vstx) .
+Visio Çizim Şablonu (.vstx), Microsoft Visio 2013 ve üzeri sürümlerle oluşturulan çizim şablonu dosyalarıdır. Bu VSTX dosyaları, varsayılan düzen ve ayarlarla .VSDX dosyaları olarak kaydedilen Visio çizimleri oluşturmak için başlangıç noktası sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vstx) .
 
 ```csharp
 public static readonly FileType VSTX;

@@ -1,14 +1,14 @@
 ---
 title: GetFileKey
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Dosyayı temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.
+description: Dosyayı temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.viewer.caching/cachekeys/getfilekey/
 ---
 ## CacheKeys.GetFileKey method
 
-Dosyayı temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.
+Dosyayı temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.
 
 ```csharp
 public static string GetFileKey(string extension)
@@ -16,7 +16,7 @@ public static string GetFileKey(string extension)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| extension | String | Dosya adı soneki ("." işareti dahil) örneğin ".doc". |
+| extension | String | Dosya adı soneki ("." noktası dahil), örneğin ".doc". |
 
 ### Geri dönüş değeri
 
@@ -26,7 +26,7 @@ Dosyayı temsil eden önbellek girişi için benzersiz tanımlayıcı.
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*extension* null veya boş. |
+| ArgumentException | Ne zaman atıldı*extension* null veya boş. |
 
 ### Ayrıca bakınız
 

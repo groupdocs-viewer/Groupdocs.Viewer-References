@@ -1,14 +1,14 @@
 ---
 title: VDW
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Visio Web Çizimi .vdw bir Web çizimi oluşturmak için gereken akışları ve depoları belirten dosya formatını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/web/vdw .
+description: Visio Web Çizimi .vdw bir Web çizimi oluşturmak için gereken akışları ve depoları belirten dosya formatını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/web/vdw .
 type: docs
-weight: 1570
+weight: 1620
 url: /tr/net/groupdocs.viewer/filetype/vdw/
 ---
 ## FileType.VDW field
 
-Visio Web Çizimi (.vdw), bir Web çizimi oluşturmak için gereken akışları ve depoları belirten dosya formatını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/web/vdw) .
+Visio Web Çizimi (.vdw), bir Web çizimi oluşturmak için gereken akışları ve depoları belirten dosya formatını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/web/vdw) .
 
 ```csharp
 public static readonly FileType VDW;

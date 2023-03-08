@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsayılan alan metni Yineleme Modelidir.
+description: Varsayılan alan metni Yinelenme Modelidir.
 type: docs
 weight: 370
 url: /tr/net/groupdocs.viewer.options/field/recurrencepattern/
 ---
 ## Field.RecurrencePattern field
 
-Varsayılan alan metni "Yineleme Modeli"dir.
+Varsayılan alan metni "Yinelenme Modeli"dir.
 
 ```csharp
 public static readonly Field RecurrencePattern;

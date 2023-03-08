@@ -1,14 +1,14 @@
 ---
 title: StartPointX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çizimde döşemenin başladığı en düşük sol noktanın X koordinatı.
+description: Çizimde karonun başladığı en alt sol noktanın X koordinatı.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.options/tile/startpointx/
 ---
 ## Tile.StartPointX property
 
-Çizimde döşemenin başladığı en düşük sol noktanın X koordinatı.
+Çizimde karonun başladığı en alt sol noktanın X koordinatı.
 
 ```csharp
 public int StartPointX { get; }

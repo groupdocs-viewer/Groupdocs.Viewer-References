@@ -1,14 +1,14 @@
 ---
 title: TGA
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Truevision TGA Truevision Advanced Raster Adapter  TARGA TRUEVISION tarafından geliştirilen bitmap dijital görüntüleri depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/tga .
+description: Truevision TGA Truevision Advanced Raster Adapter  TARGA TRUEVISION tarafından geliştirilen bitmap dijital görüntüleri depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/tga .
 type: docs
-weight: 1470
+weight: 1520
 url: /tr/net/groupdocs.viewer/filetype/tga/
 ---
 ## FileType.TGA field
 
-Truevision TGA (Truevision Advanced Raster Adapter - TARGA), TRUEVISION tarafından geliştirilen bitmap dijital görüntüleri depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/tga) .
+Truevision TGA (Truevision Advanced Raster Adapter - TARGA), TRUEVISION tarafından geliştirilen bitmap dijital görüntüleri depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/tga) .
 
 ```csharp
 public static readonly FileType TGA;

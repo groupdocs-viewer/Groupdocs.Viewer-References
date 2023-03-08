@@ -1,14 +1,14 @@
 ---
 title: AI
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Adobe Illustrator .ai Adobe Illustrator çizimleri için bir dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/aiadobe_illustrator_file .
+description: Adobe Illustrator .ai Adobe Illustrator çizimleri için bir dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/aiadobe_illustrator_file .
 type: docs
-weight: 10
+weight: 20
 url: /tr/net/groupdocs.viewer/filetype/ai/
 ---
 ## FileType.AI field
 
-Adobe Illustrator (.ai), Adobe Illustrator çizimleri için bir dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/ai#adobe_illustrator_file) .
+Adobe Illustrator (.ai), Adobe Illustrator çizimleri için bir dosya formatıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/ai#adobe_illustrator_file) .
 
 ```csharp
 public static readonly FileType AI;

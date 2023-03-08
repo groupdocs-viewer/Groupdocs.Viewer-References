@@ -23,7 +23,7 @@ public FolderFontSource(string folderPath, SearchOption searchOption)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*folderPath* boş. |
+| ArgumentNullException | Ne zaman atıldı*folderPath* boş. |
 | DirectoryNotFoundException | Yol belirtildiğinde atılır*folderPath* yer olamaz. |
 
 ### Ayrıca bakınız

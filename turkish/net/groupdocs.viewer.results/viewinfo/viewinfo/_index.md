@@ -6,25 +6,41 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/viewinfo/viewinfo/
 ---
-## ViewInfo constructor
+## ViewInfo() {#constructor}
 
 Yeni örneğini başlatır[`ViewInfo`](../../viewinfo) sınıf.
 
 ```csharp
-public ViewInfo(FileType fileType, IList<Page> pages)
+public ViewInfo()
+```
+
+### Ayrıca bakınız
+
+* class [ViewInfo](../../viewinfo)
+* ad alanı [GroupDocs.Viewer.Results](../../viewinfo)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## ViewInfo(FileType, List&lt;Page&gt;) {#constructor_1}
+
+Yeni örneğini başlatır[`ViewInfo`](../../viewinfo) sınıf.
+
+```csharp
+public ViewInfo(FileType fileType, List<Page> pages)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileType | FileType | Dosyanın türü. |
-| pages | IList`1 | Görüntülenecek sayfaların listesi. |
+| pages | List`1 | Görüntülenecek sayfaların listesi. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
-| ArgumentNullException | ne zaman atıldı*pages* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*pages* boş. |
 
 ### Ayrıca bakınız
 

@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/textelement-1/y/
 Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı.
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### Ayrıca bakınız

@@ -3,7 +3,7 @@ title: Security
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Çıktı PDF belgesi güvenlik seçenekleri.
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/groupdocs.viewer.options/pdfviewoptions/security/
 ---
 ## PdfViewOptions.Security property

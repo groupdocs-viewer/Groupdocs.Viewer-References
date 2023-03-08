@@ -1,14 +1,14 @@
 ---
 title: PasswordRequiredException
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Belgeyi yüklemek için parola gerektiğinde oluşturulan istisna.
+description: Belgeyi yüklemek için parola gerektiğinde atılan istisna.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.viewer.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class
 
-Belgeyi yüklemek için parola gerektiğinde oluşturulan istisna.
+Belgeyi yüklemek için parola gerektiğinde atılan istisna.
 
 ```csharp
 public class PasswordRequiredException : GroupDocsViewerException

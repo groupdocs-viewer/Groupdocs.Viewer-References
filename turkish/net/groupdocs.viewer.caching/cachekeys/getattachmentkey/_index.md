@@ -1,14 +1,14 @@
 ---
 title: GetAttachmentKey
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Ek dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.
+description: Ek dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.caching/cachekeys/getattachmentkey/
 ---
 ## CacheKeys.GetAttachmentKey method
 
-Ek dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.
+Ek dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.
 
 ```csharp
 public static string GetAttachmentKey(string attachmentId)
@@ -26,7 +26,7 @@ Ek dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı.
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*attachmentId* null veya boş. |
+| ArgumentException | Ne zaman atıldı*attachmentId* null veya boş. |
 
 ### Ayrıca bakınız
 

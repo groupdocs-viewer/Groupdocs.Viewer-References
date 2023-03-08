@@ -3,7 +3,7 @@ title: JSON
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: JavaScript Nesne Gösterim Dosyası .json
 type: docs
-weight: 730
+weight: 780
 url: /tr/net/groupdocs.viewer/filetype/json/
 ---
 ## FileType.JSON field

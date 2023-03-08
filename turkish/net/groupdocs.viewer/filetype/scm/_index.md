@@ -3,7 +3,7 @@ title: SCM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Şema Kaynak Kodu Dosyası .scm
 type: docs
-weight: 1330
+weight: 1380
 url: /tr/net/groupdocs.viewer/filetype/scm/
 ---
 ## FileType.SCM field

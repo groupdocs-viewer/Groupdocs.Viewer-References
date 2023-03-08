@@ -1,14 +1,14 @@
 ---
 title: MailStorageOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Posta depolama veri dosyaları seçenekleri görüntüleme.
+description: Posta depolama veri dosyaları görüntüleme seçenekleri.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/mailstorageoptions/
 ---
 ## BaseViewOptions.MailStorageOptions property
 
-Posta depolama veri dosyaları seçenekleri görüntüleme.
+Posta depolama veri dosyaları görüntüleme seçenekleri.
 
 ```csharp
 public MailStorageOptions MailStorageOptions { get; set; }

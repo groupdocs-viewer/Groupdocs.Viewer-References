@@ -1,14 +1,14 @@
 ---
 title: TARXZ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Konsolide Unix Dosya Arşivi .txz .tar.xz bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/txz .
+description: Birleştirilmiş Unix Dosya Arşivi .txz .tar.xz bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/txz .
 type: docs
-weight: 1450
+weight: 1500
 url: /tr/net/groupdocs.viewer/filetype/tarxz/
 ---
 ## FileType.TARXZ field
 
-Konsolide Unix Dosya Arşivi (.txz, .tar.xz), bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/txz) .
+Birleştirilmiş Unix Dosya Arşivi (.txz, .tar.xz), bir veya daha fazla dosya toplamak için Unix tabanlı yardımcı programla oluşturulan arşivlerdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/txz) .
 
 ```csharp
 public static readonly FileType TARXZ;

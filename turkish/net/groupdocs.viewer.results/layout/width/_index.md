@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/layout/width/
 Düzenin genişliği.
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### Ayrıca bakınız

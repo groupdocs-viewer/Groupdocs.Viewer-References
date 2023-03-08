@@ -1,14 +1,14 @@
 ---
 title: CS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: C Kaynak Kod Dosyası .cs C programlama dili için bir kaynak kod dosyasıdır. .NET Framework ile kullanım için Microsoft tarafından sunulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/programming/cs .
+description: C Kaynak Kod Dosyası .cs C programlama dili için bir kaynak kod dosyasıdır. .NET Framework ile kullanım için Microsoft tarafından sunulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/programming/cs .
 type: docs
-weight: 180
+weight: 200
 url: /tr/net/groupdocs.viewer/filetype/cs/
 ---
 ## FileType.CS field
 
-C# Kaynak Kod Dosyası (.cs), C# programlama dili için bir kaynak kod dosyasıdır. .NET Framework ile kullanım için Microsoft tarafından sunulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/programming/cs) .
+C# Kaynak Kod Dosyası (.cs), C# programlama dili için bir kaynak kod dosyasıdır. .NET Framework ile kullanım için Microsoft tarafından sunulmuştur. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/programming/cs) .
 
 ```csharp
 public static readonly FileType CS;

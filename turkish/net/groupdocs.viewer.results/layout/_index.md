@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | İsim | Tanım |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Yeni örneğini başlatır[`Layout`](../layout) sınıf. |
+| [Layout](layout#constructor)() | Yeni örneğini başlatır[`Layout`](../layout) sınıf. |
+| [Layout](layout#constructor_1)(string, float, float) | Yeni örneğini başlatır[`Layout`](../layout) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | Düzenin yüksekliği. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | Düzenin adı. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | Düzenin genişliği. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | Düzenin yüksekliği. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | Düzenin adı. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | Düzenin genişliği. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Mevcut olup olmadığını belirler.[`Layout`](../layout)belirtilenle aynı[`Layout`](../layout) nesne. |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Mevcut olup olmadığını belirler.[`Layout`](../layout) belirtilenle aynı[`Layout`](../layout) nesne. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | Mevcut olup olmadığını belirler.[`Layout`](../layout) belirtilen nesneyle aynı. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | Mevcut için hash kodunu döndürür[`Layout`](../layout) nesne. |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | Geçerli nesneyi temsil eden bir dize döndürür. |

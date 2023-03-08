@@ -1,14 +1,14 @@
 ---
 title: IPageStreamFactory
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çıktı sayfası akışını başlatmak ve serbest bırakmak için gerekli yöntemleri tanımlar.
+description: Çıktı sayfası akışını başlatmak ve serbest bırakmak için gerekli olan yöntemleri tanımlar.
 type: docs
 weight: 170
 url: /tr/net/groupdocs.viewer.interfaces/ipagestreamfactory/
 ---
 ## IPageStreamFactory interface
 
-Çıktı sayfası akışını başlatmak ve serbest bırakmak için gerekli yöntemleri tanımlar.
+Çıktı sayfası akışını başlatmak ve serbest bırakmak için gerekli olan yöntemleri tanımlar.
 
 ```csharp
 public interface IPageStreamFactory
@@ -18,7 +18,7 @@ public interface IPageStreamFactory
 
 | İsim | Tanım |
 | --- | --- |
-| [CreatePageStream](../../groupdocs.viewer.interfaces/ipagestreamfactory/createpagestream)(int) | Çıkış sayfası verilerini yazmak için kullanılan akışı oluşturur. |
+| [CreatePageStream](../../groupdocs.viewer.interfaces/ipagestreamfactory/createpagestream)(int) | Çıktı sayfası verilerini yazmak için kullanılan akışı oluşturur. |
 | [ReleasePageStream](../../groupdocs.viewer.interfaces/ipagestreamfactory/releasepagestream)(int, Stream) | Tarafından oluşturulan akışı serbest bırakır[`CreatePageStream`](./createpagestream) yöntem. |
 
 ### Ayrıca bakınız

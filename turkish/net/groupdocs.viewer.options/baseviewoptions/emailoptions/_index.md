@@ -1,14 +1,14 @@
 ---
 title: EmailOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Eposta mesajları seçenekleri görüntüler.
+description: Eposta mesajları görüntüleme seçenekleri.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/emailoptions/
 ---
 ## BaseViewOptions.EmailOptions property
 
-E-posta mesajları seçenekleri görüntüler.
+E-posta mesajları görüntüleme seçenekleri.
 
 ```csharp
 public EmailOptions EmailOptions { get; set; }

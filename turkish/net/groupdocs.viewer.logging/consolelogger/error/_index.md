@@ -23,8 +23,8 @@ public void Error(string message, Exception exception)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*message* boş. |
-| ArgumentNullException | ne zaman atıldı*exception* boş. |
+| ArgumentNullException | Ne zaman atıldı*message* boş. |
+| ArgumentNullException | Ne zaman atıldı*exception* boş. |
 
 ### Ayrıca bakınız
 

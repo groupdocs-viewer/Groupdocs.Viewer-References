@@ -22,14 +22,14 @@ public Viewer(Func<Stream> getFileStream)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*getFileStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*getFileStream* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -56,16 +56,16 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*getFileStream* boş. |
-| ArgumentNullException | ne zaman atıldı*getLoadOptions* boş. |
+| ArgumentNullException | Ne zaman atıldı*getFileStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*getLoadOptions* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 
@@ -93,15 +93,15 @@ public Viewer(Func<Stream> getFileStream, ViewerSettings settings)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*getFileStream* boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentNullException | Ne zaman atıldı*getFileStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -130,17 +130,17 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions, View
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*getFileStream* boş. |
-| ArgumentNullException | ne zaman atıldı*getLoadOptions* boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentNullException | Ne zaman atıldı*getFileStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*getLoadOptions* boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 
@@ -168,14 +168,14 @@ public Viewer(Stream stream)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -196,20 +196,20 @@ public Viewer(Stream stream, bool leaveOpen)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | stream | Stream | Dosya akışı. |
-| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi halde,yanlış. |
+| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi takdirde,YANLIŞ. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -236,16 +236,16 @@ public Viewer(Stream stream, LoadOptions loadOptions)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
-| ArgumentNullException | ne zaman atıldı*loadOptions* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*loadOptions* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 
@@ -268,22 +268,22 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Dosya akışı. |
 | loadOptions | LoadOptions | Belge yükleme seçenekleri. |
-| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi halde,yanlış. |
+| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi takdirde,YANLIŞ. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
-| ArgumentNullException | ne zaman atıldı*loadOptions* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*loadOptions* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 
@@ -311,15 +311,15 @@ public Viewer(Stream stream, ViewerSettings settings)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -342,21 +342,21 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Dosya akışı. |
 | settings | ViewerSettings | Görüntüleyici ayarları. |
-| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi halde,yanlış. |
+| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi takdirde,YANLIŞ. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -385,17 +385,17 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
-| ArgumentNullException | ne zaman atıldı*loadOptions* boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*loadOptions* boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 
@@ -420,23 +420,23 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 | stream | Stream | Dosya akışı. |
 | loadOptions | LoadOptions | Belge yükleme seçenekleri. |
 | settings | ViewerSettings | Görüntüleyici ayarları. |
-| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi halde,yanlış. |
+| leaveOpen | Boolean | doğru Viewer nesnesi atıldıktan sonra akışı açık bırakmak; aksi takdirde,YANLIŞ. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*stream* boş. |
-| ArgumentNullException | ne zaman atıldı*loadOptions* boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentNullException | Ne zaman atıldı*stream* boş. |
+| ArgumentNullException | Ne zaman atıldı*loadOptions* boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 
@@ -458,20 +458,20 @@ public Viewer(string filePath)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| filePath | String | İşlenecek dosyanın yolu. |
+| filePath | String | Oluşturulacak dosyanın yolu. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*filePath* null veya boş. |
+| ArgumentException | Ne zaman atıldı*filePath* null veya boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -491,22 +491,22 @@ public Viewer(string filePath, ViewerSettings settings)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| filePath | String | İşlenecek dosyanın yolu. |
+| filePath | String | Oluşturulacak dosyanın yolu. |
 | settings | ViewerSettings | Görüntüleyici ayarları. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*filePath* null veya boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentException | Ne zaman atıldı*filePath* null veya boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
 
 ### Ayrıca bakınız
 
@@ -527,23 +527,23 @@ public Viewer(string filePath, LoadOptions loadOptions)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| filePath | String | İşlenecek dosyanın yolu. |
+| filePath | String | Oluşturulacak dosyanın yolu. |
 | loadOptions | LoadOptions | Dosyayı açmak için kullanılan seçenekler. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*filePath* null veya boş. |
-| ArgumentNullException | ne zaman atıldı*loadOptions* boş. |
+| ArgumentException | Ne zaman atıldı*filePath* null veya boş. |
+| ArgumentNullException | Ne zaman atıldı*loadOptions* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 
@@ -564,7 +564,7 @@ public Viewer(string filePath, LoadOptions loadOptions, ViewerSettings settings)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| filePath | String | İşlenecek dosyanın yolu. |
+| filePath | String | Oluşturulacak dosyanın yolu. |
 | loadOptions | LoadOptions | Dosyayı açmak için kullanılan seçenekler. |
 | settings | ViewerSettings | Görüntüleyici ayarları. |
 
@@ -572,17 +572,17 @@ public Viewer(string filePath, LoadOptions loadOptions, ViewerSettings settings)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*filePath* null veya boş. |
-| ArgumentNullException | ne zaman atıldı*loadOptions* boş. |
-| ArgumentNullException | ne zaman atıldı*settings* boş. |
+| ArgumentException | Ne zaman atıldı*filePath* null veya boş. |
+| ArgumentNullException | Ne zaman atıldı*loadOptions* boş. |
+| ArgumentNullException | Ne zaman atıldı*settings* boş. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
 * GroupDocs.Viewer tarafından desteklenen dosya türleri hakkında daha fazla bilgi: [GroupDocs.Viewer tarafından desteklenen belge biçimleri](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
-* .NET özellikleri için GroupDocs.Viewer hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
-* .NET için GroupDocs.Viewer ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi: [GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
+* GroupDocs.Viewer for .NET özellikleri hakkında daha fazla bilgi: [Geliştirici Kılavuzu](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
+* GroupDocs.Viewer for .NET: ile şifrelenmiş belgeleri yükleme ve üçüncü taraf depolardaki dosyaları görüntüleme hakkında daha fazla bilgi[GroupDocs.Viewer ile belge nasıl yüklenir ve görüntülenir?](https://docs.groupdocs.com/display/viewernet/Loading)
 
 ### Ayrıca bakınız
 

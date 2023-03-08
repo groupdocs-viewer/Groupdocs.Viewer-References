@@ -1,14 +1,14 @@
 ---
 title: POTM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: PowerPoint Açık XML Makro Etkin Sunum Şablonu .potm Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM dosyaları PowerPoint 2007 veya üzeri ile oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/potm .
+description: PowerPoint Açık XML Makro Etkin Sunum Şablonu .potm Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM dosyaları PowerPoint 2007 veya üzeri sürümlerle oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/potm .
 type: docs
-weight: 1100
+weight: 1150
 url: /tr/net/groupdocs.viewer/filetype/potm/
 ---
 ## FileType.POTM field
 
-PowerPoint Açık XML Makro Etkin Sunum Şablonu (.potm), Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM dosyaları PowerPoint 2007 veya üzeri ile oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/potm) .
+PowerPoint Açık XML Makro Etkin Sunum Şablonu (.potm), Makroları destekleyen Microsoft PowerPoint şablon dosyalarıdır. POTM dosyaları, PowerPoint 2007 veya üzeri sürümlerle oluşturulur ve daha fazla sunum dosyası oluşturmak için kullanılabilecek varsayılan ayarları içerir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/potm) .
 
 ```csharp
 public static readonly FileType POTM;

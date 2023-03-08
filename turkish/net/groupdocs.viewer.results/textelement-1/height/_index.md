@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/textelement-1/height/
 Öğeyi içeren dikdörtgenin yüksekliği (piksel cinsinden).
 
 ```csharp
-public double Height { get; }
+public double Height { get; set; }
 ```
 
 ### Ayrıca bakınız

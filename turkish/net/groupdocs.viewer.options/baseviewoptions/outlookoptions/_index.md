@@ -1,14 +1,14 @@
 ---
 title: OutlookOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: MS Outlook veri dosyaları seçenekleri görüntüleme.
+description: MS Outlook veri dosyaları görüntüleme seçenekleri.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/outlookoptions/
 ---
 ## BaseViewOptions.OutlookOptions property
 
-MS Outlook veri dosyaları seçenekleri görüntüleme.
+MS Outlook veri dosyaları görüntüleme seçenekleri.
 
 ```csharp
 public OutlookOptions OutlookOptions { get; set; }

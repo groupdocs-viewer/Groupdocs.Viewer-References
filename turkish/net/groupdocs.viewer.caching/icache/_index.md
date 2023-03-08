@@ -1,14 +1,14 @@
 ---
 title: ICache
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: İşlenmiş belgeyi ve belge kaynaklarını depolamak için gerekli yöntemleri tanımlar сache.
+description: İşlenen belgeyi ve belge kaynaklarını depolamak için gerekli yöntemleri tanımlar сache.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.caching/icache/
 ---
 ## ICache interface
 
-İşlenmiş belgeyi ve belge kaynaklarını depolamak için gerekli yöntemleri tanımlar сache.
+İşlenen belgeyi ve belge kaynaklarını depolamak için gerekli yöntemleri tanımlar сache.
 
 ```csharp
 public interface ICache
@@ -18,7 +18,7 @@ public interface ICache
 
 | İsim | Tanım |
 | --- | --- |
-| [GetKeys](../../groupdocs.viewer.caching/icache/getkeys)(string) | Filtreyle eşleşen tüm anahtarları döndürür. |
+| [GetKeys](../../groupdocs.viewer.caching/icache/getkeys)(string) | filter. ile eşleşen tüm anahtarları döndürür |
 | [Set](../../groupdocs.viewer.caching/icache/set)(string, object) | Önbelleğe bir önbellek girişi ekler. |
 | [TryGetValue&lt;TEntry&gt;](../../groupdocs.viewer.caching/icache/trygetvalue)(string, out TEntry) | Varsa, bu anahtarla ilişkili girişi alır. |
 

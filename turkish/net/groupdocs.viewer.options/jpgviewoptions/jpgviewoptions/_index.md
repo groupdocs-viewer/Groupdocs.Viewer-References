@@ -22,7 +22,7 @@ public JpgViewOptions(CreatePageStream createPageStream)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*createPageStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createPageStream* boş. |
 
 ### Ayrıca bakınız
 
@@ -50,8 +50,8 @@ public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*createPageStream* boş. |
-| ArgumentNullException | ne zaman atıldı*releasePageStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createPageStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*releasePageStream* boş. |
 
 ### Ayrıca bakınız
 
@@ -79,7 +79,7 @@ public JpgViewOptions(IPageStreamFactory pageStreamFactory)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*pageStreamFactory* boş. |
+| ArgumentNullException | Ne zaman atıldı*pageStreamFactory* boş. |
 
 ### Ayrıca bakınız
 
@@ -126,7 +126,7 @@ public JpgViewOptions(string filePathFormat)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*filePathFormat* null veya boş. |
+| ArgumentException | Ne zaman atıldı*filePathFormat* null veya boş. |
 
 ### Ayrıca bakınız
 

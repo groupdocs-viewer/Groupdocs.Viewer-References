@@ -1,14 +1,14 @@
 ---
 title: FODP
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: OpenDocument Sunumu .fodp OpenDocument Düz XML Sunumunu temsil eder. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/fodp .
+description: OpenDocument Sunumu .fodp OpenDocument Düz XML Sunumunu temsil eder. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/fodp .
 type: docs
-weight: 470
+weight: 510
 url: /tr/net/groupdocs.viewer/filetype/fodp/
 ---
 ## FileType.FODP field
 
-OpenDocument Sunumu (.fodp), OpenDocument Düz XML Sunumunu temsil eder. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/fodp) .
+OpenDocument Sunumu (.fodp), OpenDocument Düz XML Sunumunu temsil eder. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/fodp) .
 
 ```csharp
 public static readonly FileType FODP;

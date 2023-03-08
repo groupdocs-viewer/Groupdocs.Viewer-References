@@ -1,14 +1,14 @@
 ---
 title: GetViewInfo
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Görünüm ve belgeye özel bilgilerle ilgili bilgileri döndürür.
+description: Görünümle ilgili bilgileri ve belgeye özgü bilgileri döndürür.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer/viewer/getviewinfo/
 ---
 ## GetViewInfo(ViewInfoOptions) {#getviewinfo}
 
-Görünüm ve belgeye özel bilgilerle ilgili bilgileri döndürür.
+Görünümle ilgili bilgileri ve belgeye özgü bilgileri döndürür.
 
 ```csharp
 public ViewInfo GetViewInfo(ViewInfoOptions options)
@@ -20,21 +20,21 @@ public ViewInfo GetViewInfo(ViewInfoOptions options)
 
 ### Geri dönüş değeri
 
-Görünüm ve belgeye özel bilgiler hakkında bilgi.
+Özel bilgileri görüntüleme ve belgeleme hakkında bilgiler.
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* Belge - dosya türü, sayfa sayısı ve biçime özgü diğer özellikler hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanarak dosya bilgileri nasıl alınır](https://docs.groupdocs.com/display/viewernet/Get+file+information)
+* Belge - dosya türü, sayfa sayısı ve biçime özgü diğer özellikler hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak dosya bilgileri nasıl alınır?](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 
 ### Ayrıca bakınız
 
@@ -48,7 +48,7 @@ Görünüm ve belgeye özel bilgiler hakkında bilgi.
 
 ## GetViewInfo(ViewInfoOptions, CancellationToken) {#getviewinfo_1}
 
-Görünüm ve belgeye özel bilgilerle ilgili bilgileri döndürür.
+Görünümle ilgili bilgileri ve belgeye özgü bilgileri döndürür.
 
 ```csharp
 public ViewInfo GetViewInfo(ViewInfoOptions options, CancellationToken cancellationToken)
@@ -61,21 +61,21 @@ public ViewInfo GetViewInfo(ViewInfoOptions options, CancellationToken cancellat
 
 ### Geri dönüş değeri
 
-Görünüm ve belgeye özel bilgiler hakkında bilgi.
+Özel bilgileri görüntüleme ve belgeleme hakkında bilgiler.
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* Belge - dosya türü, sayfa sayısı ve biçime özgü diğer özellikler hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanarak dosya bilgileri nasıl alınır](https://docs.groupdocs.com/display/viewernet/Get+file+information)
+* Belge - dosya türü, sayfa sayısı ve biçime özgü diğer özellikler hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak dosya bilgileri nasıl alınır?](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 
 ### Ayrıca bakınız
 

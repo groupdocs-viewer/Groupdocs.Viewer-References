@@ -1,14 +1,14 @@
 ---
 title: MaxCharsPerRow
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sayfadaki satır başına maksimum karakter. Varsayılan değer 85. dir
+description: Sayfadaki satır başına maksimum karakter. Varsayılan değer 85. dir.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.viewer.options/textoptions/maxcharsperrow/
 ---
 ## TextOptions.MaxCharsPerRow property
 
-Sayfadaki satır başına maksimum karakter. Varsayılan değer 85. 'dir
+Sayfadaki satır başına maksimum karakter. Varsayılan değer 85. 'dir.
 
 ```csharp
 public int MaxCharsPerRow { get; set; }

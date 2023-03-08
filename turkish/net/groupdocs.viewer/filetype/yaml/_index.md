@@ -3,7 +3,7 @@ title: YAML
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: YAML Belgesi .yaml
 type: docs
-weight: 1850
+weight: 1900
 url: /tr/net/groupdocs.viewer/filetype/yaml/
 ---
 ## FileType.YAML field

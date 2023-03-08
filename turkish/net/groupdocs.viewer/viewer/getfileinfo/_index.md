@@ -1,14 +1,14 @@
 ---
 title: GetFileInfo
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Dosya türü ve dosyanın şifreli olup olmadığını gösteren işaret gibi dosya hakkında bilgi verir.
+description: Dosya türü ve dosyanın şifrelenip şifrelenmediğini gösteren bayrak gibi dosya hakkında bilgi verir.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.viewer/viewer/getfileinfo/
 ---
 ## Viewer.GetFileInfo method
 
-Dosya türü ve dosyanın şifreli olup olmadığını gösteren işaret gibi dosya hakkında bilgi verir.
+Dosya türü ve dosyanın şifrelenip şifrelenmediğini gösteren bayrak gibi dosya hakkında bilgi verir.
 
 ```csharp
 public FileInfo GetFileInfo()
@@ -22,7 +22,7 @@ Dosya bilgileri.
 
 **Daha fazla bilgi edin**
 
-* Dosya bilgileri hakkında daha fazla bilgi edinin: [Dosyanın şifreli olup olmadığı nasıl kontrol edilir](https://docs.groupdocs.com/viewer/net/how-to-check-if-file-is-encrypted/)
+* Dosya bilgileri hakkında daha fazla bilgi edinin: [Dosyanın şifrelenip şifrelenmediği nasıl kontrol edilir](https://docs.groupdocs.com/viewer/net/how-to-check-if-file-is-encrypted/)
 
 ### Ayrıca bakınız
 

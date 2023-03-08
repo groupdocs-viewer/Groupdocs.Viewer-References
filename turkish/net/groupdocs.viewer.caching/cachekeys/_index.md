@@ -18,14 +18,14 @@ public static class CacheKeys
 
 | İsim | Tanım |
 | --- | --- |
-| static [GetAttachmentKey](../../groupdocs.viewer.caching/cachekeys/getattachmentkey)(string) | Ek dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür. |
-| static [GetAttachmentsKey](../../groupdocs.viewer.caching/cachekeys/getattachmentskey)() | Şunların koleksiyonunu temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.[`Attachment`](../../groupdocs.viewer.results/attachment) nesneler. |
-| static [GetFileInfoKey](../../groupdocs.viewer.caching/cachekeys/getfileinfokey)() | Temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür[`ViewInfo`](../../groupdocs.viewer.results/viewinfo) nesne. |
-| static [GetFileKey](../../groupdocs.viewer.caching/cachekeys/getfilekey)(string) | Dosyayı temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür. |
-| static [GetPageKey](../../groupdocs.viewer.caching/cachekeys/getpagekey)(int, string) | Sayfa dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür. |
-| static [GetResourceFilter](../../groupdocs.viewer.caching/cachekeys/getresourcefilter)(int) | Temsil eden önbellek girişlerini aramak için filtre dizesini döndürür[`Resource`](../../groupdocs.viewer.results/resource) nesneler. |
-| static [GetResourceKey](../../groupdocs.viewer.caching/cachekeys/getresourcekey)(int, Resource) | Temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür[`Resource`](../../groupdocs.viewer.results/resource) nesne. |
-| static [GetViewInfoKey](../../groupdocs.viewer.caching/cachekeys/getviewinfokey)() | Temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür[`ViewInfo`](../../groupdocs.viewer.results/viewinfo) nesne. |
+| static [GetAttachmentKey](../../groupdocs.viewer.caching/cachekeys/getattachmentkey)(string) | Ek dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür. |
+| static [GetAttachmentsKey](../../groupdocs.viewer.caching/cachekeys/getattachmentskey)() | Koleksiyonunu temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.[`Attachment`](../../groupdocs.viewer.results/attachment) nesneler. |
+| static [GetFileInfoKey](../../groupdocs.viewer.caching/cachekeys/getfileinfokey)() | Temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür[`ViewInfo`](../../groupdocs.viewer.results/viewinfo) nesne. |
+| static [GetFileKey](../../groupdocs.viewer.caching/cachekeys/getfilekey)(string) | Dosyayı temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür. |
+| static [GetPageKey](../../groupdocs.viewer.caching/cachekeys/getpagekey)(int, string) | Sayfa dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür. |
+| static [GetResourceFilter](../../groupdocs.viewer.caching/cachekeys/getresourcefilter)(int) | Şunları temsil eden önbellek girişlerini aramak için filtre dizesi döndürür:[`Resource`](../../groupdocs.viewer.results/resource) nesneler. |
+| static [GetResourceKey](../../groupdocs.viewer.caching/cachekeys/getresourcekey)(int, Resource) | Temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür[`Resource`](../../groupdocs.viewer.results/resource) nesne. |
+| static [GetViewInfoKey](../../groupdocs.viewer.caching/cachekeys/getviewinfokey)() | Temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür[`ViewInfo`](../../groupdocs.viewer.results/viewinfo) nesne. |
 
 ### Ayrıca bakınız
 

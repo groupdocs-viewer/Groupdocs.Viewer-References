@@ -3,7 +3,7 @@ title: RB
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Yakut Kaynak Kodu .rb
 type: docs
-weight: 1280
+weight: 1330
 url: /tr/net/groupdocs.viewer/filetype/rb/
 ---
 ## FileType.RB field

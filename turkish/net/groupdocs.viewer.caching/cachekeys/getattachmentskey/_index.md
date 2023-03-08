@@ -1,14 +1,14 @@
 ---
 title: GetAttachmentsKey
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Şunların koleksiyonunu temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.Attachmentgroupdocs.viewer.results/attachment nesneler.
+description: Koleksiyonunu temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.Attachmentgroupdocs.viewer.results/attachment nesneler.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.viewer.caching/cachekeys/getattachmentskey/
 ---
 ## CacheKeys.GetAttachmentsKey method
 
-Şunların koleksiyonunu temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.[`Attachment`](../../../groupdocs.viewer.results/attachment) nesneler.
+Koleksiyonunu temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.[`Attachment`](../../../groupdocs.viewer.results/attachment) nesneler.
 
 ```csharp
 public static string GetAttachmentsKey()

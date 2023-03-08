@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/fileinfo/fileinfo/
 ---
-## FileInfo constructor
+## FileInfo() {#constructor}
+
+Yeni örneğini başlatır[`FileType`](../filetype) sınıf.
+
+```csharp
+public FileInfo()
+```
+
+### Ayrıca bakınız
+
+* class [FileInfo](../../fileinfo)
+* ad alanı [GroupDocs.Viewer.Results](../../fileinfo)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## FileInfo(FileType) {#constructor_1}
 
 Yeni örneğini başlatır[`FileType`](../filetype) sınıf.
 
@@ -22,7 +38,7 @@ public FileInfo(FileType fileType)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
 
 ### Ayrıca bakınız
 

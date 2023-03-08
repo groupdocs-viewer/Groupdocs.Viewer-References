@@ -18,14 +18,15 @@ public class FileInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [FileInfo](fileinfo)(FileType) | Yeni örneğini başlatır[`FileType`](./filetype) sınıf. |
+| [FileInfo](fileinfo#constructor)() | Yeni örneğini başlatır[`FileType`](./filetype) sınıf. |
+| [FileInfo](fileinfo#constructor_1)(FileType) | Yeni örneğini başlatır[`FileType`](./filetype) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
 | [Encrypted](../../groupdocs.viewer.results/fileinfo/encrypted) { get; set; } | Dosyanın şifreli olduğunu gösterir. |
-| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; } | Dosyanın türü. |
+| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; set; } | Dosyanın türü. |
 
 ## yöntemler
 

@@ -3,7 +3,7 @@ title: FromMediaType
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Dosya ortam türünü dosya türüyle eşler örneğin application/pdf ile eşlenirPDFgroupdocs.viewer/filetype/pdf .
 type: docs
-weight: 1890
+weight: 1940
 url: /tr/net/groupdocs.viewer/filetype/frommediatype/
 ---
 ## FileType.FromMediaType method

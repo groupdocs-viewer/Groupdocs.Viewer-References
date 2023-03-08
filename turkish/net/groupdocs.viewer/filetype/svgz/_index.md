@@ -1,14 +1,14 @@
 ---
 title: SVGZ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Ölçeklenebilir Vektör Grafik Dosyası .svgz bir görüntünün görünümünü açıklamak için GZIP tarafından sıkıştırılmış XML tabanlı metin biçimini kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/svgz .
+description: Ölçeklenebilir Vektör Grafik Dosyası .svgz bir görüntünün görünümünü açıklamak için GZIP tarafından sıkıştırılmış XML tabanlı metin biçimini kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/svgz .
 type: docs
-weight: 1410
+weight: 1460
 url: /tr/net/groupdocs.viewer/filetype/svgz/
 ---
 ## FileType.SVGZ field
 
-Ölçeklenebilir Vektör Grafik Dosyası (.svgz), bir görüntünün görünümünü açıklamak için GZIP tarafından sıkıştırılmış, XML tabanlı metin biçimini kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/svgz) .
+Ölçeklenebilir Vektör Grafik Dosyası (.svgz), bir görüntünün görünümünü açıklamak için GZIP tarafından sıkıştırılmış, XML tabanlı metin biçimini kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/svgz) .
 
 ```csharp
 public static readonly FileType SVGZ;

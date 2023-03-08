@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/page/lines/
 Metin Çıkarma etkinken JPG veya PNG olarak görüntülerken sayfanın içerdiği satırlar.
 
 ```csharp
-public IList<Line> Lines { get; }
+public List<Line> Lines { get; set; }
 ```
 
 ### Ayrıca bakınız

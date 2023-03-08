@@ -16,7 +16,7 @@ public readonly Dictionary<int, Rotation> PageRotations;
 
 ### Notlar
 
-Her ikisinin de olması durumunda[`Watermark`](../watermark) ve`PageRotations` belirtilirse, döndürülen sayfalara filigran uygulanacaktır.
+Her ikisinin de olması durumunda[`Watermark`](../watermark) Ve`PageRotations` belirtilirse, döndürülen sayfalara filigran uygulanacaktır.
 
 ### Ayrıca bakınız
 

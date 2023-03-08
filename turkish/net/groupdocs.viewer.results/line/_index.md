@@ -18,18 +18,19 @@ public class Line : TextElement<string>
 
 | İsim | Tanım |
 | --- | --- |
-| [Line](line)(string, double, double, double, double, IList&lt;Word&gt;) | Yeni örneğini başlatır[`Line`](../line) sınıf. |
+| [Line](line#constructor)() | Yeni örneğini başlatır[`Line`](../line) sınıf. |
+| [Line](line#constructor_1)(string, double, double, double, double, List&lt;Word&gt;) | Yeni örneğini başlatır[`Line`](../line) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Öğeyi içeren dikdörtgenin yüksekliği (piksel cinsinden). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Öğe değeri. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Öğeyi içeren dikdörtgenin genişliği (piksel cinsinden). |
-| [Words](../../groupdocs.viewer.results/line/words) { get; } | Satırın içerdiği kelimeler. |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Öğeyi içeren dikdörtgenin başladığı sayfa düzeninde soldaki en yüksek noktanın X koordinatı. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Öğeyi içeren dikdörtgenin yüksekliği (piksel cinsinden). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Öğe değeri. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Öğeyi içeren dikdörtgenin genişliği (piksel olarak). |
+| [Words](../../groupdocs.viewer.results/line/words) { get; set; } | Satırın içerdiği kelimeler. |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın X koordinatı. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
 
 ## yöntemler
 

@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/layer/visible/
 Katman görünürlük göstergesi.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Notlar

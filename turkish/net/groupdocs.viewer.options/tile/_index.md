@@ -18,15 +18,15 @@ public class Tile
 
 | İsim | Tanım |
 | --- | --- |
-| [Tile](tile)(int, int, int, int) | Yeni bir örneğini başlatır[`Tile`](../tile) sınıf. |
+| [Tile](tile)(int, int, int, int) | Yeni bir örneğini başlatır.[`Tile`](../tile) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
 | [Height](../../groupdocs.viewer.options/tile/height) { get; } | Döşemenin piksel cinsinden yüksekliği. |
-| [StartPointX](../../groupdocs.viewer.options/tile/startpointx) { get; } | Çizimde döşemenin başladığı en düşük sol noktanın X koordinatı. |
-| [StartPointY](../../groupdocs.viewer.options/tile/startpointy) { get; } | Çizimde döşemenin başladığı en düşük sol noktanın Y koordinatı. |
+| [StartPointX](../../groupdocs.viewer.options/tile/startpointx) { get; } | Çizimde karonun başladığı en alt sol noktanın X koordinatı. |
+| [StartPointY](../../groupdocs.viewer.options/tile/startpointy) { get; } | Çizimde döşemenin başladığı en alt sol noktanın Y koordinatı. |
 | [Width](../../groupdocs.viewer.options/tile/width) { get; } | Döşemenin piksel cinsinden genişliği. |
 
 ## yöntemler

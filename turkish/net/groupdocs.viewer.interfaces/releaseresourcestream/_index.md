@@ -18,7 +18,7 @@ public delegate void ReleaseResourceStream(int pageNumber, Resource resource,
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pageNumber | Int32 | Sayfa numarası. |
-| resource | Resource | Yazı tipi, stil, resim veya grafikler gibi HTML kaynakları. |
+| resource | Resource | Yazı tipi, stil, resim veya grafik gibi HTML kaynakları. |
 | resourceStream | Stream | İlişkili yöntem tarafından oluşturulan akış[`CreateResourceStream`](../createresourcestream) temsilci. |
 
 ### Ayrıca bakınız

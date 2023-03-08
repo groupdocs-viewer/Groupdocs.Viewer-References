@@ -1,14 +1,14 @@
 ---
 title: TEX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: LaTeX Kaynak Belgesi .tex belgeleri dizmek için kullanılan programlama ve biçimlendirme özelliklerinden oluşan bir dildir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
+description: LaTeX Kaynak Belgesi .tex belgeleri dizmek için kullanılan programlama ve biçimlendirme özelliklerinden oluşan bir dildir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
 type: docs
-weight: 1460
+weight: 1510
 url: /tr/net/groupdocs.viewer/filetype/tex/
 ---
 ## FileType.TEX field
 
-LaTeX Kaynak Belgesi (.tex), belgeleri dizmek için kullanılan programlama ve biçimlendirme özelliklerinden oluşan bir dildir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/tex) .
+LaTeX Kaynak Belgesi (.tex), belgeleri dizmek için kullanılan programlama ve biçimlendirme özelliklerinden oluşan bir dildir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/page-description-language/tex) .
 
 ```csharp
 public static readonly FileType TEX;

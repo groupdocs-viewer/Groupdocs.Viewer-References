@@ -25,7 +25,7 @@ public class FileCache : ICache
 
 | İsim | Tanım |
 | --- | --- |
-| [CachePath](../../groupdocs.viewer.caching/filecache/cachepath) { get; } | Önbellek klasörünün Göreli veya mutlak yolu. |
+| [CachePath](../../groupdocs.viewer.caching/filecache/cachepath) { get; } | Önbellek klasörüne giden Göreceli veya mutlak yol. |
 | [CacheSubFolder](../../groupdocs.viewer.caching/filecache/cachesubfolder) { get; } | Eklenecek alt klasör[`CachePath`](./cachepath) . |
 
 ## yöntemler
@@ -34,7 +34,7 @@ public class FileCache : ICache
 | --- | --- |
 | [GetKeys](../../groupdocs.viewer.caching/filecache/getkeys)(string) | Dosya adında filtre içeren tüm dosya adlarını döndürür. |
 | [Set](../../groupdocs.viewer.caching/filecache/set)(string, object) | Verileri yerel diske seri hale getirir. |
-| [TryGetValue&lt;T&gt;](../../groupdocs.viewer.caching/filecache/trygetvalue)(string, out T) | Varsa, bu anahtarla ilişkili verileri seri durumdan çıkarır. |
+| [TryGetValue&lt;T&gt;](../../groupdocs.viewer.caching/filecache/trygetvalue)(string, out T) | Varsa, bu anahtarla ilişkili verilerin serisini kaldırır. |
 
 ### Ayrıca bakınız
 

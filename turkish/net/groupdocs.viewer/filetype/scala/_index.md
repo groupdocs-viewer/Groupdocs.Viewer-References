@@ -3,7 +3,7 @@ title: SCALA
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Scala Kaynak Kodu Dosyası .scala
 type: docs
-weight: 1320
+weight: 1370
 url: /tr/net/groupdocs.viewer/filetype/scala/
 ---
 ## FileType.SCALA field

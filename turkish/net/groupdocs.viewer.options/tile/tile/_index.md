@@ -1,14 +1,14 @@
 ---
 title: Tile
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Yeni bir örneğini başlatırTilegroupdocs.viewer.options/tile sınıf.
+description: Yeni bir örneğini başlatır.Tilegroupdocs.viewer.options/tile sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.options/tile/tile/
 ---
 ## Tile constructor
 
-Yeni bir örneğini başlatır[`Tile`](../../tile) sınıf.
+Yeni bir örneğini başlatır.[`Tile`](../../tile) sınıf.
 
 ```csharp
 public Tile(int startPointX, int startPointY, int width, int height)

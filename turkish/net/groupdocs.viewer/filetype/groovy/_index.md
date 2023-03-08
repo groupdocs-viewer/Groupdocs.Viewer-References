@@ -3,7 +3,7 @@ title: GROOVY
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Harika Kaynak Kodu Dosyası .groovy
 type: docs
-weight: 500
+weight: 540
 url: /tr/net/groupdocs.viewer/filetype/groovy/
 ---
 ## FileType.GROOVY field

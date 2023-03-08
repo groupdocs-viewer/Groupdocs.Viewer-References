@@ -29,9 +29,9 @@ Yeni örneği[`HtmlViewOptions`](../../htmlviewoptions) harici kaynaklarla HTML'
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*createPageStream* boş. |
-| ArgumentNullException | ne zaman atıldı*createResourceStream* boş. |
-| ArgumentNullException | ne zaman atıldı*createResourceUrl* boş. |
+| ArgumentNullException | Ne zaman atıldı*createPageStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createResourceStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createResourceUrl* boş. |
 
 ### Ayrıca bakınız
 
@@ -70,11 +70,11 @@ Yeni örneği[`HtmlViewOptions`](../../htmlviewoptions) harici kaynaklarla HTML'
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*createPageStream* boş. |
-| ArgumentNullException | ne zaman atıldı*createResourceStream* boş. |
-| ArgumentNullException | ne zaman atıldı*createResourceUrl* boş. |
-| ArgumentNullException | ne zaman atıldı*releasePageStream* boş. |
-| ArgumentNullException | ne zaman atıldı*releaseResourceStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createPageStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createResourceStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createResourceUrl* boş. |
+| ArgumentNullException | Ne zaman atıldı*releasePageStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*releaseResourceStream* boş. |
 
 ### Ayrıca bakınız
 
@@ -111,8 +111,8 @@ Yeni örneği[`HtmlViewOptions`](../../htmlviewoptions) harici kaynaklarla HTML'
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*pageStreamFactory* boş. |
-| ArgumentNullException | ne zaman atıldı*resourceStreamFactory* boş. |
+| ArgumentNullException | Ne zaman atıldı*pageStreamFactory* boş. |
+| ArgumentNullException | Ne zaman atıldı*resourceStreamFactory* boş. |
 
 ### Ayrıca bakınız
 
@@ -163,9 +163,9 @@ public static HtmlViewOptions ForExternalResources(string filePathFormat,
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*filePathFormat* null veya boş. |
-| ArgumentException | ne zaman atıldı*resourceFilePathFormat* null veya boş. |
-| ArgumentException | ne zaman atıldı*resourceUrlFormat* null veya boş. |
+| ArgumentException | Ne zaman atıldı*filePathFormat* null veya boş. |
+| ArgumentException | Ne zaman atıldı*resourceFilePathFormat* null veya boş. |
+| ArgumentException | Ne zaman atıldı*resourceUrlFormat* null veya boş. |
 
 ### Ayrıca bakınız
 

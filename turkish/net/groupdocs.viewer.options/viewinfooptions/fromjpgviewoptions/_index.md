@@ -16,7 +16,7 @@ public static ViewInfoOptions FromJpgViewOptions(JpgViewOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| options | JpgViewOptions | JPG görüntüleme seçenekleri. |
+| options | JpgViewOptions | JPG görünüm seçenekleri. |
 
 ### Geri dönüş değeri
 
@@ -26,7 +26,7 @@ Yeni örneği[`ViewInfoOptions`](../../viewinfooptions) sınıf.
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
 
 ### Ayrıca bakınız
 

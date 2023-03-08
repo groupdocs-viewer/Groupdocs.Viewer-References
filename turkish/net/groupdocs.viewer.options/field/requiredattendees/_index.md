@@ -1,14 +1,14 @@
 ---
 title: RequiredAttendees
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsayılan alan metni Gerekli Katılımcılardır.
+description: Varsayılan alan metni Gerekli Katılımcılar şeklindedir.
 type: docs
 weight: 380
 url: /tr/net/groupdocs.viewer.options/field/requiredattendees/
 ---
 ## Field.RequiredAttendees field
 
-Varsayılan alan metni "Gerekli Katılımcılar"dır.
+Varsayılan alan metni "Gerekli Katılımcılar" şeklindedir.
 
 ```csharp
 public static readonly Field RequiredAttendees;

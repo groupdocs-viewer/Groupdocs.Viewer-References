@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/textelement-1/textelement/
 ---
-## TextElement&lt;T&gt; constructor
+## TextElement() {#constructor}
+
+Yeni örneğini başlatır[`TextElement`](../../textelement-1) sınıf.
+
+```csharp
+public TextElement()
+```
+
+### Ayrıca bakınız
+
+* class [TextElement&lt;T&gt;](../../textelement-1)
+* ad alanı [GroupDocs.Viewer.Results](../../textelement-1)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## TextElement(T, double, double, double, double) {#constructor_1}
 
 Yeni örneğini başlatır[`TextElement`](../../textelement-1) sınıf.
 
@@ -26,9 +42,9 @@ public TextElement(T value, double x, double y, double width, double height)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*value* boş. |
-| ArgumentException | ne zaman atıldı*width* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*height* sıfıra eşit veya küçüktür. |
+| ArgumentNullException | Ne zaman atıldı*value* boş. |
+| ArgumentException | Ne zaman atıldı*width* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*height* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 

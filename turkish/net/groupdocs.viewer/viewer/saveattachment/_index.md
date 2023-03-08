@@ -17,7 +17,7 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| attachment | Attachment | Ek. |
+| attachment | Attachment | ek. |
 | destination | Stream | Yazılabilir akış. |
 | cancellationToken | CancellationToken | İptal jetonu. |
 
@@ -25,18 +25,18 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*attachment* boş. |
-| ArgumentNullException | ne zaman atıldı*destination* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*attachment* boş. |
+| ArgumentNullException | Ne zaman atıldı*destination* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Ek bulunamadığında atılır. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Eklenti bulunamadığında atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* C#: içinde belge ekleri alma hakkında daha fazla bilgi edinin[GroupDocs.Viewer kullanarak belge eklerinin listesi nasıl alınır](https://docs.groupdocs.com/display/viewernet/Get+attachments)
-* Belge eklerini C#'a kaydetme hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge ekleri nasıl kaydedilir?](https://docs.groupdocs.com/display/viewernet/Save+attachments)
+* C#: 'de belge ekleri alma hakkında daha fazla bilgi edinin[GroupDocs.Viewer kullanılarak belge eklerinin listesi nasıl alınır?](https://docs.groupdocs.com/display/viewernet/Get+attachments)
+* Belge eklerini C# dilinde kaydetme hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge ekleri nasıl kaydedilir?](https://docs.groupdocs.com/display/viewernet/Save+attachments)
 
 ### Ayrıca bakınız
 
@@ -57,25 +57,25 @@ public void SaveAttachment(Attachment attachment, Stream destination)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| attachment | Attachment | Ek. |
+| attachment | Attachment | ek. |
 | destination | Stream | Yazılabilir akış. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*attachment* boş. |
-| ArgumentNullException | ne zaman atıldı*destination* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*attachment* boş. |
+| ArgumentNullException | Ne zaman atıldı*destination* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Ek bulunamadığında atılır. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Eklenti bulunamadığında atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* C#: içinde belge ekleri alma hakkında daha fazla bilgi edinin[GroupDocs.Viewer kullanarak belge eklerinin listesi nasıl alınır](https://docs.groupdocs.com/display/viewernet/Get+attachments)
-* Belge eklerini C#'a kaydetme hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge ekleri nasıl kaydedilir?](https://docs.groupdocs.com/display/viewernet/Save+attachments)
+* C#: 'de belge ekleri alma hakkında daha fazla bilgi edinin[GroupDocs.Viewer kullanılarak belge eklerinin listesi nasıl alınır?](https://docs.groupdocs.com/display/viewernet/Get+attachments)
+* Belge eklerini C# dilinde kaydetme hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge ekleri nasıl kaydedilir?](https://docs.groupdocs.com/display/viewernet/Save+attachments)
 
 ### Ayrıca bakınız
 

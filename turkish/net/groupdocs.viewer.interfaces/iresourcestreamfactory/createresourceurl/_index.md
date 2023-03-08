@@ -16,7 +16,7 @@ public string CreateResourceUrl(int pageNumber, Resource resource)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pageNumber | Int32 | Bir sayfa numarası. |
+| pageNumber | Int32 | Bir sayfanın numarası. |
 | resource | Resource | Yazı tipi, stil, resim veya grafikler gibi HTML kaynakları. |
 
 ### Geri dönüş değeri

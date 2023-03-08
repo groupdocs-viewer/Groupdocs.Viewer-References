@@ -1,14 +1,14 @@
 ---
 title: FODG
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Düz XML ODF Şablonu .fodg Apache OpenOfficein Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/fodg .
+description: Düz XML ODF Şablonu .fodg Apache OpenOfficein Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/fodg .
 type: docs
-weight: 460
+weight: 500
 url: /tr/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field
 
-Düz XML ODF Şablonu (.fodg), Apache OpenOffice'in Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/fodg) .
+Düz XML ODF Şablonu (.fodg), Apache OpenOffice'in Draw uygulaması tarafından çizim öğelerini bir vektör görüntüsü olarak depolamak için kullanılır. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/fodg) .
 
 ```csharp
 public static readonly FileType FODG;

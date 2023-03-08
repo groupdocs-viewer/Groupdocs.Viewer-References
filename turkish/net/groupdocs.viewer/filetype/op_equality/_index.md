@@ -3,7 +3,7 @@ title: op_Equality
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: İki olup olmadığını belirlerFileTypegroupdocs.viewer/filetype nesneler aynıdır.
 type: docs
-weight: 1970
+weight: 2030
 url: /tr/net/groupdocs.viewer/filetype/op_equality/
 ---
 ## FileType Equality operator
@@ -16,12 +16,12 @@ public static bool operator ==(FileType left, FileType right)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| left | FileType | Ayrıldı[`FileType`](../../filetype) nesne. |
-| right | FileType | Doğru[`FileType`](../../filetype) nesne. |
+| left | FileType | Sol[`FileType`](../../filetype) nesne. |
+| right | FileType | Sağ[`FileType`](../../filetype) nesne. |
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`FileType`](../../filetype) nesneler aynıdır; aksi halde,
+ikisi de olursa[`FileType`](../../filetype) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true

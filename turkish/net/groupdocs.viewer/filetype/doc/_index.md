@@ -1,14 +1,14 @@
 ---
 title: DOC
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Microsoft Word Belgesi .doc Microsoft Word veya diğer kelime işlem belgeleri tarafından ikili dosya biçiminde oluşturulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/doc .
+description: Microsoft Word Belgesi .doc Microsoft Word veya diğer kelime işlem belgeleri tarafından ikili dosya biçiminde oluşturulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 280
+weight: 300
 url: /tr/net/groupdocs.viewer/filetype/doc/
 ---
 ## FileType.DOC field
 
-Microsoft Word Belgesi (.doc), Microsoft Word veya diğer kelime işlem belgeleri tarafından ikili dosya biçiminde oluşturulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/doc) .
+Microsoft Word Belgesi (.doc), Microsoft Word veya diğer kelime işlem belgeleri tarafından ikili dosya biçiminde oluşturulan belgeleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/doc) .
 
 ```csharp
 public static readonly FileType DOC;

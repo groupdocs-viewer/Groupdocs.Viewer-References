@@ -3,7 +3,7 @@ title: FromStream
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Dosya imzasını okuyarak dosya türünü algılar.
 type: docs
-weight: 1900
+weight: 1950
 url: /tr/net/groupdocs.viewer/filetype/fromstream/
 ---
 ## FromStream(Stream) {#fromstream}

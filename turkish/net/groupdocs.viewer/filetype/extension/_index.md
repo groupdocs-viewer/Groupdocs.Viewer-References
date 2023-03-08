@@ -1,17 +1,17 @@
 ---
 title: Extension
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Dosya adı son eki . noktası dahil ör. .doc.
+description: Dosya adı soneki . noktası dahil ör. .doc.
 type: docs
-weight: 1910
+weight: 1960
 url: /tr/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
 
-Dosya adı son eki ("." noktası dahil) ör. ".doc".
+Dosya adı soneki ("." noktası dahil) ör. ".doc".
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### Ayrıca bakınız

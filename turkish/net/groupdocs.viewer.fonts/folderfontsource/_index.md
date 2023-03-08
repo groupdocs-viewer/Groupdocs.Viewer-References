@@ -31,7 +31,7 @@ public sealed class FolderFontSource : IEquatable<FolderFontSource>, IFontSource
 
 | İsim | Tanım |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Mevcut olup olmadığını belirler.[`FolderFontSource`](../folderfontsource)belirtilenle aynı[`FolderFontSource`](../folderfontsource) nesne. |
+| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Mevcut olup olmadığını belirler.[`FolderFontSource`](../folderfontsource) belirtilenle aynı[`FolderFontSource`](../folderfontsource) nesne. |
 | override [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals_1)(object) | Mevcut olup olmadığını belirler.[`FolderFontSource`](../folderfontsource) belirtilen nesneyle aynı. |
 | override [GetHashCode](../../groupdocs.viewer.fonts/folderfontsource/gethashcode)() | Mevcut için hash kodunu döndürür[`FolderFontSource`](../folderfontsource) nesne. |
 | override [ToString](../../groupdocs.viewer.fonts/folderfontsource/tostring)() | Geçerli nesneyi temsil eden bir dize döndürür. |

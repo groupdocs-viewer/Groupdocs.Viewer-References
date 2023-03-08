@@ -1,14 +1,14 @@
 ---
 title: TryGetValue
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsa bu anahtarla ilişkili verileri seri durumdan çıkarır.
+description: Varsa bu anahtarla ilişkili verilerin serisini kaldırır.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.viewer.caching/filecache/trygetvalue/
 ---
 ## FileCache.TryGetValue&lt;T&gt; method
 
-Varsa, bu anahtarla ilişkili verileri seri durumdan çıkarır.
+Varsa, bu anahtarla ilişkili verilerin serisini kaldırır.
 
 ```csharp
 public bool TryGetValue<T>(string key, out T value)
@@ -21,7 +21,7 @@ public bool TryGetValue<T>(string key, out T value)
 
 ### Geri dönüş değeri
 
-eğer anahtar bulunursa.
+anahtar bulunduysa.
 
 ```csharp
 True

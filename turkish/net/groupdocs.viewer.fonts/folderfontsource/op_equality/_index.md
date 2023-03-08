@@ -16,12 +16,12 @@ public static bool operator ==(FolderFontSource left, FolderFontSource right)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| left | FolderFontSource | Ayrıldı[`FolderFontSource`](../../folderfontsource) nesne. |
-| right | FolderFontSource | Doğru[`FolderFontSource`](../../folderfontsource) nesne. |
+| left | FolderFontSource | Sol[`FolderFontSource`](../../folderfontsource) nesne. |
+| right | FolderFontSource | Sağ[`FolderFontSource`](../../folderfontsource) nesne. |
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`FolderFontSource`](../../folderfontsource) nesneler aynıdır; aksi halde,
+ikisi de olursa[`FolderFontSource`](../../folderfontsource) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true

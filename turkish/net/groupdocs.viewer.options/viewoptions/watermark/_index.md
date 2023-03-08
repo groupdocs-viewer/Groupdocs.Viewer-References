@@ -16,7 +16,7 @@ public Watermark Watermark { get; set; }
 
 ### Notlar
 
-Her ikisinin de olması durumunda`Watermark` ve[`PageRotations`](../pagerotations) belirtilirse, döndürülen sayfalara filigran uygulanacaktır.
+Her ikisinin de olması durumunda`Watermark` Ve[`PageRotations`](../pagerotations) belirtilirse, döndürülen sayfalara filigran uygulanacaktır.
 
 ### Ayrıca bakınız
 

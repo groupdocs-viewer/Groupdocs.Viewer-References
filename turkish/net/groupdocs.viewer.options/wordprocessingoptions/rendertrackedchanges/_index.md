@@ -1,14 +1,14 @@
 ---
 title: RenderTrackedChanges
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: İzlenen değişikliklerin revizyonların oluşturulmasını sağlar.
+description: İzlenen değişikliklerin revizyonların oluşturulmasını etkinleştirir.
 type: docs
 weight: 60
 url: /tr/net/groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges/
 ---
 ## WordProcessingOptions.RenderTrackedChanges property
 
-İzlenen değişikliklerin (revizyonların) oluşturulmasını sağlar.
+İzlenen değişikliklerin (revizyonların) oluşturulmasını etkinleştirir.
 
 ```csharp
 public bool RenderTrackedChanges { get; set; }

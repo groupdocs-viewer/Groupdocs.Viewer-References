@@ -1,14 +1,14 @@
 ---
 title: POTX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: PowerPoint Açık XML Sunum Şablonu .potx Microsoft PowerPoint 2007 ve sonraki sürümlerle oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/presentation/potx .
+description: PowerPoint Açık XML Sunum Şablonu .potx Microsoft PowerPoint 2007 ve üstü ile oluşturulan Microsoft PowerPoint şablonu sunumlarını temsil eder. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/presentation/potx .
 type: docs
-weight: 1110
+weight: 1160
 url: /tr/net/groupdocs.viewer/filetype/potx/
 ---
 ## FileType.POTX field
 
-PowerPoint Açık XML Sunum Şablonu (.potx), Microsoft PowerPoint 2007 ve sonraki sürümlerle oluşturulan Microsoft PowerPoint şablon sunumlarını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/presentation/potx) .
+PowerPoint Açık XML Sunum Şablonu (.potx), Microsoft PowerPoint 2007 ve üstü ile oluşturulan Microsoft PowerPoint şablonu sunumlarını temsil eder. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/presentation/potx) .
 
 ```csharp
 public static readonly FileType POTX;

@@ -16,13 +16,13 @@ public bool TryGetValue<TEntry>(string key, out TEntry value)
 
 | Parametre | Tanım |
 | --- | --- |
-| TEntry | Giriş türü. |
+| TEntry | giriş türü. |
 | key | İstenen girişi tanımlayan bir anahtar. |
 | value | Bulunan değer veya null. |
 
 ### Geri dönüş değeri
 
-eğer anahtar bulunursa.
+anahtar bulunduysa.
 
 ```csharp
 True

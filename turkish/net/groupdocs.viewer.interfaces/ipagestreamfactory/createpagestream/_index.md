@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çıkış sayfası verilerini yazmak için kullanılan akışı oluşturur.
+description: Çıktı sayfası verilerini yazmak için kullanılan akışı oluşturur.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.interfaces/ipagestreamfactory/createpagestream/
 ---
 ## IPageStreamFactory.CreatePageStream method
 
-Çıkış sayfası verilerini yazmak için kullanılan akışı oluşturur.
+Çıktı sayfası verilerini yazmak için kullanılan akışı oluşturur.
 
 ```csharp
 public Stream CreatePageStream(int pageNumber)
@@ -16,7 +16,7 @@ public Stream CreatePageStream(int pageNumber)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pageNumber | Int32 | Bir sayfa numarası. |
+| pageNumber | Int32 | Bir sayfanın numarası. |
 
 ### Geri dönüş değeri
 

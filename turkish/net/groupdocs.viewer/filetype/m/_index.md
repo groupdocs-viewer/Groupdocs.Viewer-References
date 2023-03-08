@@ -3,7 +3,7 @@ title: M
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: ObjectiveC Uygulama Dosyası .m
 type: docs
-weight: 760
+weight: 810
 url: /tr/net/groupdocs.viewer/filetype/m/
 ---
 ## FileType.M field

@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/archiveviewinfo/folders/
 Arşiv dosyasının içerdiği klasörler.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Ayrıca bakınız

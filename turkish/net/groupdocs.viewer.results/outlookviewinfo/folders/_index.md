@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/outlookviewinfo/folders/
 Outlook Veri dosyasının içerdiği klasörlerin listesi.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Ayrıca bakınız

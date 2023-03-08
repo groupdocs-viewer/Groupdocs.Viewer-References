@@ -3,7 +3,7 @@ title: OutlookViewInfo
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Outlook Veri dosyası için görüntüleme bilgilerini temsil eder.
 type: docs
-weight: 720
+weight: 730
 url: /tr/net/groupdocs.viewer.results/outlookviewinfo/
 ---
 ## OutlookViewInfo class
@@ -18,15 +18,16 @@ public class OutlookViewInfo : ViewInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [OutlookViewInfo](outlookviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Yeni örneğini başlatır[`OutlookViewInfo`](../outlookviewinfo) sınıf. |
+| [OutlookViewInfo](outlookviewinfo#constructor)() | Yeni örneğini başlatır[`OutlookViewInfo`](../outlookviewinfo) sınıf. |
+| [OutlookViewInfo](outlookviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Yeni örneğini başlatır[`OutlookViewInfo`](../outlookviewinfo) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Dosyanın türü. |
-| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; } | Outlook Veri dosyasının içerdiği klasörlerin listesi. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Görüntülenecek sayfaların listesi. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Dosyanın türü. |
+| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; set; } | Outlook Veri dosyasının içerdiği klasörlerin listesi. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Görüntülenecek sayfaların listesi. |
 
 ## yöntemler
 

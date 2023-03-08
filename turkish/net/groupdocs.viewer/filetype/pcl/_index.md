@@ -3,7 +3,7 @@ title: PCL
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Yazıcı Komut Dili Belgesi .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /tr/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field
