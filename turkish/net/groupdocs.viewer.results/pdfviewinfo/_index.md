@@ -3,7 +3,7 @@ title: PdfViewInfo
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: PDF belgesi için görüntüleme bilgilerini temsil eder.
 type: docs
-weight: 740
+weight: 750
 url: /tr/net/groupdocs.viewer.results/pdfviewinfo/
 ---
 ## PdfViewInfo class
@@ -18,15 +18,16 @@ public class PdfViewInfo : ViewInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [PdfViewInfo](pdfviewinfo)(FileType, IList&lt;Page&gt;, bool) | Yeni örneğini başlatır[`PdfViewInfo`](../pdfviewinfo) sınıf. |
+| [PdfViewInfo](pdfviewinfo#constructor)() | Yeni örneğini başlatır[`PdfViewInfo`](../pdfviewinfo) sınıf. |
+| [PdfViewInfo](pdfviewinfo#constructor_1)(FileType, List&lt;Page&gt;, bool) | Yeni örneğini başlatır[`PdfViewInfo`](../pdfviewinfo) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Dosyanın türü. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Görüntülenecek sayfaların listesi. |
-| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; } | Belgenin yazdırılmasına izin verilip verilmediğini gösterir. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Dosyanın türü. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Görüntülenecek sayfaların listesi. |
+| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; set; } | Belgenin yazdırılmasına izin verilip verilmediğini gösterir. |
 
 ## yöntemler
 

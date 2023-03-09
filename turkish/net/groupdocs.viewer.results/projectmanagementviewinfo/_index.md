@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: MS Project belgesi için görüntüleme bilgilerini temsil eder.
 type: docs
-weight: 750
+weight: 760
 url: /tr/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Yeni örneğini başlatır[`ProjectManagementViewInfo`](../projectmanagementviewinfo) sınıf. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Yeni örneğini başlatır[`ProjectManagementViewInfo`](../projectmanagementviewinfo) sınıf. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Yeni örneğini başlatır[`ProjectManagementViewInfo`](../projectmanagementviewinfo) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | Projenin tamamlanacağı tarih saat. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Dosyanın türü. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Görüntülenecek sayfaların listesi. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | Projenin başladığı tarih saat. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | Projenin tamamlanacağı tarih saat. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Dosyanın türü. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Görüntülenecek sayfaların listesi. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | Projenin başladığı tarih saat. |
 
 ## yöntemler
 

@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: Справочник по API GroupDocs.Viewer для .NET
-description: Инициализирует новый экземплярViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsкласс для получения информации о представлении при рендеринге в PNG.
+description: Инициализирует новый экземплярViewInfoOptionsgroupdocs.viewer.options/viewinfooptions класс для получения информации о представлении при рендеринге в PNG.
 type: docs
 weight: 30
 url: /ru/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-Инициализирует новый экземпляр[`ViewInfoOptions`](../../viewinfooptions)класс для получения информации о представлении при рендеринге в PNG.
+Инициализирует новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) класс для получения информации о представлении при рендеринге в PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -16,7 +16,7 @@ public static ViewInfoOptions ForPngView()
 
 ### Возвращаемое значение
 
-Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) учебный класс.
+Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) сорт.
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public static ViewInfoOptions ForPngView()
 
 ## ForPngView(bool) {#forpngview_1}
 
-Инициализирует новый экземпляр[`ViewInfoOptions`](../../viewinfooptions)класс для получения информации о представлении при рендеринге в PNG.
+Инициализирует новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) класс для получения информации о представлении при рендеринге в PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForPngView(bool extractText)
 
 ### Возвращаемое значение
 
-Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) учебный класс.
+Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) сорт.
 
 ### Смотрите также
 

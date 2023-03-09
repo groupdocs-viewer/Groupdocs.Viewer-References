@@ -3,7 +3,7 @@ title: FODP
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Презентация OpenDocument .fodp представляет презентацию OpenDocument Flat XML. Узнайте больше об этом формате файлаздесьhttps//fileinfo.com/extension/fodp .
 type: docs
-weight: 470
+weight: 510
 url: /ru/net/groupdocs.viewer/filetype/fodp/
 ---
 ## FileType.FODP field

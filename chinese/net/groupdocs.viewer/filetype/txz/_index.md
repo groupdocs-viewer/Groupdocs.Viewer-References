@@ -1,14 +1,14 @@
 ---
 title: TXZ
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 统一的 Unix 文件存档.txz.tar.xz是使用基于 Unix 的实用程序创建的存档用于收集一个或多个文件 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/txz
+description: 统一 Unix 文件存档.txz.tar.xz是使用基于 Unix 的实用程序创建的存档用于收集一个或多个文件 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/txz
 type: docs
-weight: 1530
+weight: 1580
 url: /zh/net/groupdocs.viewer/filetype/txz/
 ---
 ## FileType.TXZ field
 
-统一的 Unix 文件存档（.txz、.tar.xz）是使用基于 Unix 的实用程序创建的存档，用于收集一个或多个文件。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/txz)
+统一 Unix 文件存档（.txz、.tar.xz）是使用基于 Unix 的实用程序创建的存档，用于收集一个或多个文件。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/txz)
 
 ```csharp
 public static readonly FileType TXZ;

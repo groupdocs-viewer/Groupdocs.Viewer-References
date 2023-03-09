@@ -1,14 +1,14 @@
 ---
 title: PdfViewInfo
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示 PDF 文档的视图信息
+description: 代表PDF文档的查看信息
 type: docs
-weight: 740
+weight: 750
 url: /zh/net/groupdocs.viewer.results/pdfviewinfo/
 ---
 ## PdfViewInfo class
 
-表示 PDF 文档的视图信息。
+代表PDF文档的查看信息。
 
 ```csharp
 public class PdfViewInfo : ViewInfo
@@ -18,21 +18,22 @@ public class PdfViewInfo : ViewInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfViewInfo](pdfviewinfo)(FileType, IList&lt;Page&gt;, bool) | 初始化的新实例[`PdfViewInfo`](../pdfviewinfo)类. |
+| [PdfViewInfo](pdfviewinfo#constructor)() | 初始化新实例[`PdfViewInfo`](../pdfviewinfo)类. |
+| [PdfViewInfo](pdfviewinfo#constructor_1)(FileType, List&lt;Page&gt;, bool) | 初始化新实例[`PdfViewInfo`](../pdfviewinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | 文件的类型。 |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | 要查看的页面列表。 |
-| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; } | 指示是否允许打印文档。 |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | 文件的类型。 |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | 要查看的页面列表。 |
+| [PrintingAllowed](../../groupdocs.viewer.results/pdfviewinfo/printingallowed) { get; set; } | 指示是否允许打印文档。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

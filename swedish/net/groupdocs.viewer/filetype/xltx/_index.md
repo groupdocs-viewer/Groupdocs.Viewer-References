@@ -3,7 +3,7 @@ title: XLTX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Excel Open XMLkalkylbladsmall .xltx representerar Microsoft Excelmall som är baserad på Office OpenXMLfilformatspecifikationerna. Den används för att skapa en standardmallfil som kan användas för att generera XLSXfiler som uppvisar samma inställningar som anges i XLTXfilen. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/xltx .
 type: docs
-weight: 1810
+weight: 1860
 url: /sv/net/groupdocs.viewer/filetype/xltx/
 ---
 ## FileType.XLTX field

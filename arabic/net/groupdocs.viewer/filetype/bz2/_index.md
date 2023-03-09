@@ -3,7 +3,7 @@ title: BZ2
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: الملف المضغوط Bzip2 .bz2 عبارة عن ملفات مضغوطة تم إنشاؤها باستخدام طريقة ضغط المصدر المفتوح BZIP2  ومعظمها على نظام UNIX أو Linux. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/compression/bz2 .
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/groupdocs.viewer/filetype/bz2/
 ---
 ## FileType.BZ2 field

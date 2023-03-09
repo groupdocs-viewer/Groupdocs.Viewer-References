@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+Initialisiert eine neue Instanz von[`Attachment`](../../attachment) Klasse.
+
+```csharp
+public Attachment()
+```
+
+### Siehe auch
+
+* class [Attachment](../../attachment)
+* namensraum [GroupDocs.Viewer.Results](../../attachment)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 Initialisiert eine neue Instanz von[`Attachment`](../../attachment) Klasse.
 
@@ -17,7 +33,7 @@ public Attachment(string fileName, string filePath)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Dateiname des Anhangs. |
-| filePath | String | Relativer Pfad des Anhangs, zOrdner/Datei.docxoder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
+| filePath | String | Relativer Pfad des Anhangs, zOrdner/Datei.docx oder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
 
 ### Ausnahmen
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 Initialisiert eine neue Instanz von[`Attachment`](../../attachment) Klasse.
 
@@ -46,7 +62,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | Eindeutiger (im Kontext einer einzelnen Datei) Bezeichner des Anhangs. |
 | fileName | String | Dateiname des Anhangs. |
-| filePath | String | Relativer Pfad des Anhangs, zOrdner/Datei.docxoder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
+| filePath | String | Relativer Pfad des Anhangs, zOrdner/Datei.docx oder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
 | size | Int64 | Dateigröße des Anhangs in Byte. |
 
 ### Ausnahmen
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 Initialisiert eine neue Instanz von[`Attachment`](../../attachment) Klasse.
 
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | Eindeutiger (im Kontext einer einzelnen Datei) Bezeichner des Anhangs. |
 | fileName | String | Dateiname des Anhangs. |
-| filePath | String | Relativer Pfad des Anhangs, zOrdner/Datei.docxoder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
+| filePath | String | Relativer Pfad des Anhangs, zOrdner/Datei.docx oder Dateiname, wenn sich die Datei im Stammverzeichnis eines Archivs, in einer E-Mail-Nachricht oder einer Datendatei befindet. |
 | fileType | FileType | Dateityp des Anhangs. |
 | size | Int64 | Dateigröße des Anhangs in Byte. |
 

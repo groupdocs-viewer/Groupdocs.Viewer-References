@@ -3,7 +3,7 @@ title: OTS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон электронной таблицы OpenDocument .ots
 type: docs
-weight: 1000
+weight: 1050
 url: /ru/net/groupdocs.viewer/filetype/ots/
 ---
 ## FileType.OTS field

@@ -3,7 +3,7 @@ title: JAVA
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف شفرة مصدر Java .java
 type: docs
-weight: 640
+weight: 680
 url: /ar/net/groupdocs.viewer/filetype/java/
 ---
 ## FileType.JAVA field

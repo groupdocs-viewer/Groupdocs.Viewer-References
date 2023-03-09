@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewerSettingsgroupdocs.viewer/viewersettings classe.
+description: Inizializza una nuova istanza diViewerSettingsgroupdocs.viewer/viewersettings classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer/viewersettings/viewersettings/
 ---
 ## ViewerSettings(ICache, ILogger) {#constructor_1}
 
-Inizializza la nuova istanza di[`ViewerSettings`](../../viewersettings) classe.
+Inizializza una nuova istanza di[`ViewerSettings`](../../viewersettings) classe.
 
 ```csharp
 public ViewerSettings(ICache cache, ILogger logger)
@@ -37,7 +37,7 @@ public ViewerSettings(ICache cache, ILogger logger)
 
 ## ViewerSettings(ICache) {#constructor}
 
-Inizializza la nuova istanza di[`ViewerSettings`](../../viewersettings) classe.
+Inizializza una nuova istanza di[`ViewerSettings`](../../viewersettings) classe.
 
 ```csharp
 public ViewerSettings(ICache cache)
@@ -64,7 +64,7 @@ public ViewerSettings(ICache cache)
 
 ## ViewerSettings(ILogger) {#constructor_2}
 
-Inizializza la nuova istanza di[`ViewerSettings`](../../viewersettings) classe.
+Inizializza una nuova istanza di[`ViewerSettings`](../../viewersettings) classe.
 
 ```csharp
 public ViewerSettings(ILogger logger)

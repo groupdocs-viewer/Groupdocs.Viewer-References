@@ -3,7 +3,7 @@ title: PCL
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Druckerbefehlssprachendokument .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /de/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field

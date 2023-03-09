@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/cadviewinfo/layouts/
 CAD çiziminin içerdiği düzenlerin listesi.
 
 ```csharp
-public IList<Layout> Layouts { get; }
+public List<Layout> Layouts { get; set; }
 ```
 
 ### Ayrıca bakınız

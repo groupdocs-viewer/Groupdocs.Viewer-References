@@ -16,7 +16,7 @@ public Stream CreateFileStream()
 
 ### Geri dönüş değeri
 
-Çıktı dosyası verilerini yazmak için kullanılan akış.
+Çıkış dosyası verilerini yazmak için kullanılan akış.
 
 ### Ayrıca bakınız
 

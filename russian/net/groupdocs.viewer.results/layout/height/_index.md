@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/layout/height/
 Высота макета.
 
 ```csharp
-public float Height { get; }
+public float Height { get; set; }
 ```
 
 ### Смотрите также

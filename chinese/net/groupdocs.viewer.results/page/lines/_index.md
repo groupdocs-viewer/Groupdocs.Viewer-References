@@ -1,17 +1,17 @@
 ---
 title: Lines
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 在启用文本提取的情况下以 JPG 或 PNG 格式查看时页面包含的行
+description: 在启用文本提取的情况下查看为 JPG 或 PNG 时页面包含的行
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.results/page/lines/
 ---
 ## Page.Lines property
 
-在启用文本提取的情况下以 JPG 或 PNG 格式查看时页面包含的行。
+在启用文本提取的情况下查看为 JPG 或 PNG 时页面包含的行。
 
 ```csharp
-public IList<Line> Lines { get; }
+public List<Line> Lines { get; set; }
 ```
 
 ### 也可以看看

@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
 Инициализирует новый экземпляр[`Line`](../../line) класс.
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### Смотрите также
+
+* class [Line](../../line)
+* пространство имен [GroupDocs.Viewer.Results](../../line)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+Инициализирует новый экземпляр[`Line`](../../line) класс.
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | Параметр | Тип | Описание |
@@ -21,7 +37,7 @@ public Line(string line, double x, double y, double width, double height, IList<
 | y | Double | Координата Y верхней левой точки макета страницы, где начинается прямоугольник, содержащий линию. |
 | width | Double | Ширина прямоугольника, содержащего линию (в пикселях). |
 | height | Double | Высота прямоугольника, содержащего линию (в пикселях). |
-| words | IList`1 | Слова, содержащиеся в строке. |
+| words | List`1 | Слова, содержащиеся в строке. |
 
 ### Исключения
 

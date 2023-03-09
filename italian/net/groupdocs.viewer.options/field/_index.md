@@ -57,17 +57,17 @@ public class Field
 | static readonly [HomeAddress](../../groupdocs.viewer.options/field/homeaddress) | Il campo di testo predefinito è "Indirizzo di casa". |
 | static readonly [Importance](../../groupdocs.viewer.options/field/importance) | Il campo di testo predefinito è "Importanza". |
 | static readonly [JobTitle](../../groupdocs.viewer.options/field/jobtitle) | Il testo del campo predefinito è "Titolo di lavoro". |
-| static readonly [LastName](../../groupdocs.viewer.options/field/lastname) | Il testo del campo predefinito è "Cognome". |
-| static readonly [Location](../../groupdocs.viewer.options/field/location) | Il testo del campo predefinito è "Posizione". |
-| static readonly [MiddleName](../../groupdocs.viewer.options/field/middlename) | Il testo del campo predefinito è "Secondo nome". |
-| static readonly [Mobile](../../groupdocs.viewer.options/field/mobile) | Il testo del campo predefinito è "Mobile". |
-| static readonly [Organizer](../../groupdocs.viewer.options/field/organizer) | Il testo del campo predefinito è "Organizer". |
-| static readonly [OtherAddress](../../groupdocs.viewer.options/field/otheraddress) | Il testo del campo predefinito è "Altro indirizzo". |
-| static readonly [PersonalHomepage](../../groupdocs.viewer.options/field/personalhomepage) | Il testo del campo predefinito è "Home page personale". |
-| static readonly [Profession](../../groupdocs.viewer.options/field/profession) | Il testo del campo predefinito è "Professione". |
+| static readonly [LastName](../../groupdocs.viewer.options/field/lastname) | Il campo di testo predefinito è "Cognome". |
+| static readonly [Location](../../groupdocs.viewer.options/field/location) | Il campo di testo predefinito è "Posizione". |
+| static readonly [MiddleName](../../groupdocs.viewer.options/field/middlename) | Il campo di testo predefinito è "Secondo nome". |
+| static readonly [Mobile](../../groupdocs.viewer.options/field/mobile) | Il campo di testo predefinito è "Cellulare". |
+| static readonly [Organizer](../../groupdocs.viewer.options/field/organizer) | Il campo di testo predefinito è "Organizer". |
+| static readonly [OtherAddress](../../groupdocs.viewer.options/field/otheraddress) | Il campo di testo predefinito è "Altro indirizzo". |
+| static readonly [PersonalHomepage](../../groupdocs.viewer.options/field/personalhomepage) | Il campo di testo predefinito è "Home page personale". |
+| static readonly [Profession](../../groupdocs.viewer.options/field/profession) | Il campo di testo predefinito è "Professione". |
 | static readonly [Recurrence](../../groupdocs.viewer.options/field/recurrence) | Il testo del campo predefinito è "Ricorrenza" |
-| static readonly [RecurrencePattern](../../groupdocs.viewer.options/field/recurrencepattern) | Il testo del campo predefinito è "Modello di ricorrenza". |
-| static readonly [RequiredAttendees](../../groupdocs.viewer.options/field/requiredattendees) | Il testo del campo predefinito è "Partecipanti obbligatori". |
+| static readonly [RecurrencePattern](../../groupdocs.viewer.options/field/recurrencepattern) | Il campo di testo predefinito è "Pattern di ricorrenza". |
+| static readonly [RequiredAttendees](../../groupdocs.viewer.options/field/requiredattendees) | Il campo di testo predefinito è "Partecipanti obbligatori". |
 | static readonly [Sent](../../groupdocs.viewer.options/field/sent) | Il campo di testo predefinito è "Inviato". |
 | static readonly [ShowTimeAs](../../groupdocs.viewer.options/field/showtimeas) | Il campo di testo predefinito è "Mostra ora come". |
 | static readonly [SpousePartner](../../groupdocs.viewer.options/field/spousepartner) | Il campo di testo predefinito è "Coniuge/Partner". |

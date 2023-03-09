@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API GroupDocs.Viewer для .NET
-description: Определяет является ли текущийFileTypegroupdocs.viewer/filetypeтакое же как указаноFileTypegroupdocs.viewer/filetype объект.
+description: Определяет является ли текущийFileTypegroupdocs.viewer/filetype такое же как указаноFileTypegroupdocs.viewer/filetype объект.
 type: docs
-weight: 1930
+weight: 1980
 url: /ru/net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Определяет, является ли текущий[`FileType`](../../filetype)такое же, как указано[`FileType`](../../filetype) объект.
+Определяет, является ли текущий[`FileType`](../../filetype) такое же, как указано[`FileType`](../../filetype) объект.
 
 ```csharp
 public bool Equals(FileType other)

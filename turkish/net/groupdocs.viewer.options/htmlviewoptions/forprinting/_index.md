@@ -1,14 +1,14 @@
 ---
 title: ForPrinting
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çıktı HTMLsinin yazdırma için optimize edilip edilmeyeceğini belirtir.
+description: Çıktı HTMLsinin yazdırma için optimize edilip edilmeyeceğini gösterir.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.options/htmlviewoptions/forprinting/
 ---
 ## HtmlViewOptions.ForPrinting property
 
-Çıktı HTML'sinin yazdırma için optimize edilip edilmeyeceğini belirtir.
+Çıktı HTML'sinin yazdırma için optimize edilip edilmeyeceğini gösterir.
 
 ```csharp
 public bool ForPrinting { get; set; }

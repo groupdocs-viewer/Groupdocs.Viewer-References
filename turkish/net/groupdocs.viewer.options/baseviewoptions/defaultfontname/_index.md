@@ -1,14 +1,14 @@
 ---
 title: DefaultFontName
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Belgede kullanılan belirli bir yazı tipi bulunamadığında kullanılacak varsayılan yazı tipi.
+description: Belgede kullanılan belirli yazı tipi bulunamadığında kullanılacak varsayılan yazı tipi.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/defaultfontname/
 ---
 ## BaseViewOptions.DefaultFontName property
 
-Belgede kullanılan belirli bir yazı tipi bulunamadığında kullanılacak varsayılan yazı tipi.
+Belgede kullanılan belirli yazı tipi bulunamadığında kullanılacak varsayılan yazı tipi.
 
 ```csharp
 public string DefaultFontName { get; set; }

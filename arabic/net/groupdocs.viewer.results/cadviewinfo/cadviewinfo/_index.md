@@ -11,15 +11,15 @@ url: /ar/net/groupdocs.viewer.results/cadviewinfo/cadviewinfo/
 تهيئة مثيل جديد لـ[`CadViewInfo`](../../cadviewinfo) فئة .
 
 ```csharp
-public CadViewInfo(FileType fileType, IList<Page> pages, IList<Layer> layers, IList<Layout> layouts)
+public CadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fileType | FileType | نوع الملف. |
-| pages | IList`1 | قائمة الصفحات لعرضها. |
-| layers | IList`1 | قائمة الطبقات التي يحتويها رسم CAD. |
-| layouts | IList`1 | قائمة الطبقات التي يحتويها رسم CAD. |
+| pages | List`1 | قائمة الصفحات لعرضها. |
+| layers | List`1 | قائمة الطبقات التي يحتويها رسم CAD. |
+| layouts | List`1 | قائمة الطبقات التي يحتويها رسم CAD. |
 
 ### استثناءات
 

@@ -1,14 +1,14 @@
 ---
 title: JobTitle
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是职位
+description: 默认字段文本为职位
 type: docs
 weight: 270
 url: /zh/net/groupdocs.viewer.options/field/jobtitle/
 ---
 ## Field.JobTitle field
 
-默认字段文本是“职位”。
+默认字段文本为“职位”。
 
 ```csharp
 public static readonly Field JobTitle;

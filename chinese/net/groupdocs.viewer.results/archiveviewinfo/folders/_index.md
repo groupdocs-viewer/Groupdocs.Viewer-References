@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/archiveviewinfo/folders/
 存档文件包含的文件夹。
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### 也可以看看

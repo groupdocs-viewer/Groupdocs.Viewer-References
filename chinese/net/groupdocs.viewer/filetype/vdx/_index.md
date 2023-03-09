@@ -1,14 +1,14 @@
 ---
 title: VDX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Visio 绘图 XML 文件 .vdx 表示在 Microsoft Visio 中创建但以 XML 格式保存的具有 .VDX 扩展名的任何绘图或图表 Visio 绘图 XML 文件是在 Microsoft 开发的 Visio 软件中创建的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vdx.
+description: Visio 绘图 XML 文件 .vdx 表示在 Microsoft Visio 中创建的任何绘图或图表但以 XML 格式保存并具有 .VDX 扩展名 Visio 绘图 XML 文件是在 Microsoft 开发的 Visio 软件中创建的 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vdx.
 type: docs
-weight: 1580
+weight: 1630
 url: /zh/net/groupdocs.viewer/filetype/vdx/
 ---
 ## FileType.VDX field
 
-Visio 绘图 XML 文件 (.vdx) 表示在 Microsoft Visio 中创建但以 XML 格式保存的具有 .VDX 扩展名的任何绘图或图表。 Visio 绘图 XML 文件是在 Microsoft 开发的 Visio 软件中创建的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vdx).
+Visio 绘图 XML 文件 (.vdx) 表示在 Microsoft Visio 中创建的任何绘图或图表，但以 XML 格式保存并具有 .VDX 扩展名。 Visio 绘图 XML 文件是在 Microsoft 开发的 Visio 软件中创建的。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vdx).
 
 ```csharp
 public static readonly FileType VDX;

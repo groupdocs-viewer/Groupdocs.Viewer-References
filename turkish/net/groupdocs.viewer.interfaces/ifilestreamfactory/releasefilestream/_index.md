@@ -16,7 +16,7 @@ public void ReleaseFileStream(Stream fileStream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileStream | Stream | Akış tarafından oluşturulan[`CreateFileStream`](../createfilestream) yöntem. |
+| fileStream | Stream | Akışı oluşturan[`CreateFileStream`](../createfilestream) yöntem. |
 
 ### Ayrıca bakınız
 

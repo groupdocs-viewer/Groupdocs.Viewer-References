@@ -16,7 +16,7 @@ public Watermark Watermark { get; set; }
 
 ### Примечания
 
-В случае, если оба`Watermark` а также[`PageRotations`](../pagerotations) , то водяной знак будет применяться к перевернутым страницам.
+В случае, если оба`Watermark` и[`PageRotations`](../pagerotations) , то водяной знак будет применяться к перевернутым страницам.
 
 ### Смотрите также
 

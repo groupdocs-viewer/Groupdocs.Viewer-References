@@ -3,7 +3,7 @@ title: DOC
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Worddokument .doc representerar dokument som genererats av Microsoft Word eller andra ordbehandlingsdokument i binärt filformat. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 280
+weight: 300
 url: /sv/net/groupdocs.viewer/filetype/doc/
 ---
 ## FileType.DOC field

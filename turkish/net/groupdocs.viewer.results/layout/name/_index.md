@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/layout/name/
 Düzenin adı.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Ayrıca bakınız

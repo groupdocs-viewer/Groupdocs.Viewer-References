@@ -3,7 +3,7 @@ title: MPT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Microsoft Project Template .mpt يحتوي على معلومات أساسية وهيكل إلى جانب إعدادات المستند لإنشاء ملفات .MPP. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/projectmanagement/mpt .
 type: docs
-weight: 860
+weight: 910
 url: /ar/net/groupdocs.viewer/filetype/mpt/
 ---
 ## FileType.MPT field

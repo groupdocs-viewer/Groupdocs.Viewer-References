@@ -16,7 +16,7 @@ public bool RenderLayouts { get; set; }
 
 ### Osservazioni
 
-Questa opzione si applica solo ai disegni CAD che supportano i layout[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , e[`DWF`](../../../groupdocs.viewer/filetype/dwf) e ancheDWFX ; Per impostazione predefinita viene visualizzato solo il modello.
+Questa opzione si applica solo ai disegni CAD che supportano i layout[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , E[`DWF`](../../../groupdocs.viewer/filetype/dwf) e anche[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ; Per impostazione predefinita viene visualizzato solo il modello.
 
 ### Guarda anche
 

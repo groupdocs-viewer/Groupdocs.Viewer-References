@@ -1,17 +1,17 @@
 ---
 title: X
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La coordinata X del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene lelemento.
+description: La coordinata X del punto in alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene lelemento.
 type: docs
 weight: 50
 url: /it/net/groupdocs.viewer.results/textelement-1/x/
 ---
 ## TextElement&lt;T&gt;.X property
 
-La coordinata X del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento.
+La coordinata X del punto in alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### Guarda anche

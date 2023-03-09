@@ -3,7 +3,7 @@ title: DOCX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Word Open XML Document .docx är ett välkänt format för Microsoft Worddokument. Introducerad från 2007 med lanseringen av Microsoft Office 2007 ändrades strukturen för detta nya dokumentformat från vanligt binärt till en kombination av XML och binära filer. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
-weight: 300
+weight: 320
 url: /sv/net/groupdocs.viewer/filetype/docx/
 ---
 ## FileType.DOCX field

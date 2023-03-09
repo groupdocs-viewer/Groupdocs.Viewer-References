@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/page/visible/
 Sayfa görünürlük göstergesi.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Ayrıca bakınız

@@ -3,7 +3,7 @@ title: ODG
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف رسومي OpenDocument .odg يستخدم بواسطة تطبيق رسم Apache OpenOffice لتخزين عناصر الرسم كصورة متجهة . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/odg .
 type: docs
-weight: 920
+weight: 970
 url: /ar/net/groupdocs.viewer/filetype/odg/
 ---
 ## FileType.ODG field

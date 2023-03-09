@@ -16,13 +16,13 @@ public FileCache(string cachePath)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| cachePath | String | Belge önbelleğinin depolanacağı göreceli veya mutlak yol. |
+| cachePath | String | Belge önbelleğinin depolanacağı göreli veya mutlak yol. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*cachePath* boş. |
+| ArgumentNullException | Ne zaman atıldı*cachePath* boş. |
 
 ### Ayrıca bakınız
 
@@ -42,15 +42,15 @@ public FileCache(string cachePath, string cacheSubFolder)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| cachePath | String | Belge önbelleğinin depolanacağı göreceli veya mutlak yol. |
+| cachePath | String | Belge önbelleğinin depolanacağı göreli veya mutlak yol. |
 | cacheSubFolder | String | Eklenecek alt klasör*cachePath*. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*cachePath* boş. |
-| ArgumentNullException | ne zaman atıldı*cacheSubFolder* boş. |
+| ArgumentNullException | Ne zaman atıldı*cachePath* boş. |
+| ArgumentNullException | Ne zaman atıldı*cacheSubFolder* boş. |
 
 ### Ayrıca bakınız
 

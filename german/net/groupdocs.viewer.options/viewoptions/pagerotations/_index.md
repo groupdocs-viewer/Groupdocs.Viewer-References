@@ -16,7 +16,7 @@ public readonly Dictionary<int, Rotation> PageRotations;
 
 ### Bemerkungen
 
-Falls beides[`Watermark`](../watermark) und`PageRotations` angegeben sind, wird das Wasserzeichen auf die gedrehten Seiten angewendet.
+Falls beides[`Watermark`](../watermark) Und`PageRotations` angegeben sind, wird das Wasserzeichen auf die gedrehten Seiten angewendet.
 
 ### Siehe auch
 

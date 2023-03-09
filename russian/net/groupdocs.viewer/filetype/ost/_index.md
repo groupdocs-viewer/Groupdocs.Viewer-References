@@ -3,7 +3,7 @@ title: OST
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Автономный файл данных Outlook .ost представляет данные почтового ящика пользователя в автономном режиме на локальном компьютере после регистрации на сервере Exchange с помощью Microsoft Outlook. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/email/ost .
 type: docs
-weight: 970
+weight: 1020
 url: /ru/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field

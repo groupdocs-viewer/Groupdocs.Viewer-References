@@ -3,7 +3,7 @@ title: APNG
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Animated Portable Network Graphic .apng هو امتداد لتنسيق PNG يدعم الرسوم المتحركة. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/apng .
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/groupdocs.viewer/filetype/apng/
 ---
 ## FileType.APNG field

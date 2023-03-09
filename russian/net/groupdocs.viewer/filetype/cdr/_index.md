@@ -3,7 +3,7 @@ title: CDR
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Векторный графический рисунок CorelDraw .cdr  это файл изображения векторного рисунка изначально созданный в CorelDRAW для хранения закодированных и сжатых цифровых изображений. Такой файл чертежа содержит текст линии формы изображения цвета и эффекты для векторного представления содержимого изображения. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/cdr .
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/groupdocs.viewer/filetype/cdr/
 ---
 ## FileType.CDR field

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Bestimmt ob der StromLayergroupdocs.viewer.results/layerist genauso wie angegebenLayergroupdocs.viewer.results/layer Objekt.
+description: Bestimmt ob der StromLayergroupdocs.viewer.results/layer ist genauso wie angegebenLayergroupdocs.viewer.results/layer Objekt.
 type: docs
 weight: 40
 url: /de/net/groupdocs.viewer.results/layer/equals/
 ---
 ## Equals(Layer) {#equals}
 
-Bestimmt, ob der Strom[`Layer`](../../layer)ist genauso wie angegeben[`Layer`](../../layer) Objekt.
+Bestimmt, ob der Strom[`Layer`](../../layer) ist genauso wie angegeben[`Layer`](../../layer) Objekt.
 
 ```csharp
 public bool Equals(Layer other)
@@ -20,7 +20,7 @@ public bool Equals(Layer other)
 
 ### Rückgabewert
 
-wenn beides[`Layer`](../../layer) Objekte sind gleich; Andernfalls,
+wenn beides[`Layer`](../../layer) Objekte sind gleich; ansonsten,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Rückgabewert
 
-wenn Parameter ist[`Layer`](../../layer) und ist das gleiche wie Strom[`Layer`](../../layer) Objekt; Andernfalls,
+Wenn Parameter ist[`Layer`](../../layer) und ist das gleiche wie Strom[`Layer`](../../layer) Objekt; ansonsten,
 
 ```csharp
 true

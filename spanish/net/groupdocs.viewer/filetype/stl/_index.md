@@ -3,7 +3,7 @@ title: STL
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El archivo de estereolitografía .stl es un formato de archivo intercambiable que representa geometría de superficie tridimensional. El formato de archivo encuentra su uso en varios campos como la creación rápida de prototipos la impresión 3D y la fabricación asistida por computadora. Obtenga más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/cad/stl .
 type: docs
-weight: 1390
+weight: 1440
 url: /es/net/groupdocs.viewer/filetype/stl/
 ---
 ## FileType.STL field

@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### Возвращаемое значение
 
-Новый экземпляр[`SpreadsheetOptions`](../../spreadsheetoptions)для рендеринга разрывами страниц. Поведение аналогично печати в Excel.
+Новый экземпляр[`SpreadsheetOptions`](../../spreadsheetoptions) для рендеринга разрывами страниц. Поведение аналогично печати в Excel.
 
 ### Смотрите также
 

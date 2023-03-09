@@ -3,7 +3,7 @@ title: OutlookViewInfo
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Representa la información de visualización del archivo de datos de Outlook.
 type: docs
-weight: 720
+weight: 730
 url: /es/net/groupdocs.viewer.results/outlookviewinfo/
 ---
 ## OutlookViewInfo class
@@ -18,15 +18,16 @@ public class OutlookViewInfo : ViewInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [OutlookViewInfo](outlookviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Inicializa una nueva instancia de[`OutlookViewInfo`](../outlookviewinfo) clase. |
+| [OutlookViewInfo](outlookviewinfo#constructor)() | Inicializa una nueva instancia de[`OutlookViewInfo`](../outlookviewinfo) clase. |
+| [OutlookViewInfo](outlookviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Inicializa una nueva instancia de[`OutlookViewInfo`](../outlookviewinfo) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | El tipo de archivo. |
-| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; } | La lista de carpetas contenidas en el archivo de datos de Outlook. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | La lista de páginas para ver. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | El tipo de archivo. |
+| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; set; } | La lista de carpetas contenidas en el archivo de datos de Outlook. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | La lista de páginas para ver. |
 
 ## Métodos
 

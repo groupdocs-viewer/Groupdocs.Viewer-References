@@ -58,16 +58,16 @@ public class Field
 | static readonly [Importance](../../groupdocs.viewer.options/field/importance) | Varsayılan alan metni "Önem"dir. |
 | static readonly [JobTitle](../../groupdocs.viewer.options/field/jobtitle) | Varsayılan alan metni "İş Unvanı"dır. |
 | static readonly [LastName](../../groupdocs.viewer.options/field/lastname) | Varsayılan alan metni "Soyadı"dır. |
-| static readonly [Location](../../groupdocs.viewer.options/field/location) | Varsayılan alan metni "Konum"dur. |
-| static readonly [MiddleName](../../groupdocs.viewer.options/field/middlename) | Varsayılan alan metni "Göbek Adı"dır. |
+| static readonly [Location](../../groupdocs.viewer.options/field/location) | Varsayılan alan metni "Konum" şeklindedir. |
+| static readonly [MiddleName](../../groupdocs.viewer.options/field/middlename) | Varsayılan alan metni "İkinci Ad" şeklindedir. |
 | static readonly [Mobile](../../groupdocs.viewer.options/field/mobile) | Varsayılan alan metni "Mobil"dir. |
-| static readonly [Organizer](../../groupdocs.viewer.options/field/organizer) | Varsayılan alan metni "Düzenleyici"dir. |
-| static readonly [OtherAddress](../../groupdocs.viewer.options/field/otheraddress) | Varsayılan alan metni "Diğer Adres"tir. |
+| static readonly [Organizer](../../groupdocs.viewer.options/field/organizer) | Varsayılan alan metni "Düzenleyici" şeklindedir. |
+| static readonly [OtherAddress](../../groupdocs.viewer.options/field/otheraddress) | Varsayılan alan metni "Diğer Adres" şeklindedir. |
 | static readonly [PersonalHomepage](../../groupdocs.viewer.options/field/personalhomepage) | Varsayılan alan metni "Kişisel Ana Sayfa"dır. |
-| static readonly [Profession](../../groupdocs.viewer.options/field/profession) | Varsayılan alan metni "Meslek"tir. |
-| static readonly [Recurrence](../../groupdocs.viewer.options/field/recurrence) | Varsayılan alan metni "Yinelenme"dir |
-| static readonly [RecurrencePattern](../../groupdocs.viewer.options/field/recurrencepattern) | Varsayılan alan metni "Yineleme Modeli"dir. |
-| static readonly [RequiredAttendees](../../groupdocs.viewer.options/field/requiredattendees) | Varsayılan alan metni "Gerekli Katılımcılar"dır. |
+| static readonly [Profession](../../groupdocs.viewer.options/field/profession) | Varsayılan alan metni "Meslek" şeklindedir. |
+| static readonly [Recurrence](../../groupdocs.viewer.options/field/recurrence) | Varsayılan alan metni "Yinelenme" 'dir |
+| static readonly [RecurrencePattern](../../groupdocs.viewer.options/field/recurrencepattern) | Varsayılan alan metni "Yinelenme Modeli"dir. |
+| static readonly [RequiredAttendees](../../groupdocs.viewer.options/field/requiredattendees) | Varsayılan alan metni "Gerekli Katılımcılar" şeklindedir. |
 | static readonly [Sent](../../groupdocs.viewer.options/field/sent) | Varsayılan alan metni "Gönderildi" şeklindedir. |
 | static readonly [ShowTimeAs](../../groupdocs.viewer.options/field/showtimeas) | Varsayılan alan metni "Zamanı Farklı Göster" şeklindedir. |
 | static readonly [SpousePartner](../../groupdocs.viewer.options/field/spousepartner) | Varsayılan alan metni "Eş/Partner" şeklindedir. |

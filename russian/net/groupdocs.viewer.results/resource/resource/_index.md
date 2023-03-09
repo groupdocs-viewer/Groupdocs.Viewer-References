@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/resource/resource/
 ---
-## Resource constructor
+## Resource() {#constructor}
+
+Создает новый экземпляр[`Resource`](../../resource) класс.
+
+```csharp
+public Resource()
+```
+
+### Смотрите также
+
+* class [Resource](../../resource)
+* пространство имен [GroupDocs.Viewer.Results](../../resource)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## Resource(string, bool) {#constructor_1}
 
 Создает новый экземпляр[`Resource`](../../resource) класс.
 

@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByScaleFactor
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例CadOptionsgroupdocs.viewer.options/cadoptions按比例因子渲染的类
+description: 初始化新实例CadOptionsgroupdocs.viewer.options/cadoptions按比例因子渲染的类.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/cadoptions/forrenderingbyscalefactor/
 ---
 ## CadOptions.ForRenderingByScaleFactor method
 
-初始化的新实例[`CadOptions`](../../cadoptions)按比例因子渲染的类。
+初始化新实例[`CadOptions`](../../cadoptions)按比例因子渲染的类.
 
 ```csharp
 public static CadOptions ForRenderingByScaleFactor(float scaleFactor)
@@ -16,7 +16,7 @@ public static CadOptions ForRenderingByScaleFactor(float scaleFactor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| scaleFactor | Single | 大于 1 的值会放大输出结果； 0 到 1 之间的值将使输出结果更小。 |
+| scaleFactor | Single | 大于 1 的值将放大输出结果； 0 到 1 之间的值将使输出结果更小。 |
 
 ### 返回值
 

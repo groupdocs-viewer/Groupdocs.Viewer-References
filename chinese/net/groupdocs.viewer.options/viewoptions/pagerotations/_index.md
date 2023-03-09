@@ -16,7 +16,7 @@ public readonly Dictionary<int, Rotation> PageRotations;
 
 ### 评论
 
-如果两者都有[`Watermark`](../watermark)和`PageRotations` 被指定，水印将应用于旋转的页面。
+万一[`Watermark`](../watermark)和`PageRotations` 指定水印将应用于旋转的页面。
 
 ### 也可以看看
 

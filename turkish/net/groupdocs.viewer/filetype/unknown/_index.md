@@ -3,7 +3,7 @@ title: Unknown
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Bilinmeyen dosya türünü temsil eder.
 type: docs
-weight: 1540
+weight: 1590
 url: /tr/net/groupdocs.viewer/filetype/unknown/
 ---
 ## FileType.Unknown field

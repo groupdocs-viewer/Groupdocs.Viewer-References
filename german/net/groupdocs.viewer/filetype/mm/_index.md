@@ -3,7 +3,7 @@ title: MM
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: ZielCQuelldatei .mm
 type: docs
-weight: 830
+weight: 880
 url: /de/net/groupdocs.viewer/filetype/mm/
 ---
 ## FileType.MM field

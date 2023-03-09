@@ -1,14 +1,14 @@
 ---
 title: STL
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Stereolitografi Dosyası .stl 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya formatıdır. Dosya formatı hızlı prototip oluşturma 3D baskı ve bilgisayar destekli üretim gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/stl .
+description: Stereolitografi Dosyası .stl 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya biçimidir. Dosya formatı hızlı prototipleme 3D baskı ve bilgisayar destekli imalat gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/stl .
 type: docs
-weight: 1390
+weight: 1440
 url: /tr/net/groupdocs.viewer/filetype/stl/
 ---
 ## FileType.STL field
 
-Stereolitografi Dosyası (.stl), 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya formatıdır. Dosya formatı, hızlı prototip oluşturma, 3D baskı ve bilgisayar destekli üretim gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/stl) .
+Stereolitografi Dosyası (.stl), 3 boyutlu yüzey geometrisini temsil eden değiştirilebilir bir dosya biçimidir. Dosya formatı, hızlı prototipleme, 3D baskı ve bilgisayar destekli imalat gibi çeşitli alanlarda kullanım alanı bulur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/stl) .
 
 ```csharp
 public static readonly FileType STL;

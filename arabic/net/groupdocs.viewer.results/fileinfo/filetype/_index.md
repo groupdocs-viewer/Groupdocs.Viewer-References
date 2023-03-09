@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/fileinfo/filetype/
 نوع الملف.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### أنظر أيضا

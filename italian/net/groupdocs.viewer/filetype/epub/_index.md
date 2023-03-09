@@ -1,14 +1,14 @@
 ---
 title: EPUB
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Open eBook File .epub è un formato di file di ebook che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Il formato è ormai così comune che è supportato da molti ereader e applicazioni software. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/ebook/epub .
+description: Open eBook File .epub è un formato di file di ebook che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Il formato è ormai così comune che è supportato da molti ereader e applicazioni software. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/ebook/epub .
 type: docs
-weight: 430
+weight: 460
 url: /it/net/groupdocs.viewer/filetype/epub/
 ---
 ## FileType.EPUB field
 
-Open eBook File (.epub) è un formato di file di e-book che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Il formato è ormai così comune che è supportato da molti e-reader e applicazioni software. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/ebook/epub) .
+Open eBook File (.epub) è un formato di file di e-book che fornisce un formato di pubblicazione digitale standard per editori e consumatori. Il formato è ormai così comune che è supportato da molti e-reader e applicazioni software. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/ebook/epub) .
 
 ```csharp
 public static readonly FileType EPUB;

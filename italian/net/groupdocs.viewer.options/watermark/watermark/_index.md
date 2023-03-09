@@ -1,14 +1,14 @@
 ---
 title: Watermark
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diWatermarkgroupdocs.viewer.options/watermark classe.
+description: Inizializza una nuova istanza diWatermarkgroupdocs.viewer.options/watermark classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/watermark/watermark/
 ---
 ## Watermark constructor
 
-Inizializza la nuova istanza di[`Watermark`](../../watermark) classe.
+Inizializza una nuova istanza di[`Watermark`](../../watermark) classe.
 
 ```csharp
 public Watermark(string text)
@@ -16,7 +16,7 @@ public Watermark(string text)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| text | String | Testo filigrana. |
+| text | String | Testo in filigrana. |
 
 ### Eccezioni
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回代表当前对象的字符串
+description: 返回表示当前对象的字符串
 type: docs
-weight: 1950
+weight: 2000
 url: /zh/net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method
 
-返回代表当前对象的字符串。
+返回表示当前对象的字符串。
 
 ```csharp
 public override string ToString()

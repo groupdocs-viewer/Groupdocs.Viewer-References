@@ -3,7 +3,7 @@ title: JPEG
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Image JPEG .jpeg est un type de format dimage enregistré à laide de la méthode de compression avec perte. Limage de sortie résultant de la compression est un compromis entre la taille de stockage et la qualité de limage. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 670
+weight: 720
 url: /fr/net/groupdocs.viewer/filetype/jpeg/
 ---
 ## FileType.JPEG field

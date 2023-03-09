@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Внешние ресурсы например таймаут загрузки графики. Значение по умолчанию  30 секунд. Этот параметр поддерживается для документов Word Processing содержащих внешние ресурсы.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property

@@ -1,17 +1,17 @@
 ---
 title: FilePath
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 附件相对路径 例如文件夹/文件.docx或文件名当文件位于存档根目录电子邮件消息或数据文件中时
+description: 附件相对路径 例如文件夹/文件.docx或文件名当文件位于存档的根目录电子邮件或数据文件中时
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.results/attachment/filepath/
 ---
 ## Attachment.FilePath property
 
-附件相对路径 例如文件夹/文件.docx或文件名（当文件位于存档根目录、电子邮件消息或数据文件中时）。
+附件相对路径 例如文件夹/文件.docx或文件名，当文件位于存档的根目录、电子邮件或数据文件中时。
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### 也可以看看

@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/textelement-1/value/
 Elementvärdet.
 
 ```csharp
-public T Value { get; }
+public T Value { get; set; }
 ```
 
 ### Se även

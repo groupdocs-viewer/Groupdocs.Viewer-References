@@ -3,7 +3,7 @@ title: JPM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: JPEG 2000 Görüntü Dosyası .jpm
 type: docs
-weight: 700
+weight: 750
 url: /tr/net/groupdocs.viewer/filetype/jpm/
 ---
 ## FileType.JPM field

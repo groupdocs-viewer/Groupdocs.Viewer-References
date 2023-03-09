@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/attachment/size/
 حجم ملف المرفق بالبايت.
 
 ```csharp
-public long Size { get; }
+public long Size { get; set; }
 ```
 
 ### أنظر أيضا

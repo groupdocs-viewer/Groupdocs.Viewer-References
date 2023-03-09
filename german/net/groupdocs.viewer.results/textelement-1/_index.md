@@ -3,7 +3,7 @@ title: TextElementT
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Repräsentiert ein generisches Textelement.
 type: docs
-weight: 770
+weight: 780
 url: /de/net/groupdocs.viewer.results/textelement-1/
 ---
 ## TextElement&lt;T&gt; class
@@ -22,17 +22,18 @@ public class TextElement<T>
 
 | Name | Beschreibung |
 | --- | --- |
-| [TextElement](textelement)(T, double, double, double, double) | Initialisiert eine neue Instanz von[`TextElement`](../textelement-1) Klasse. |
+| [TextElement](textelement#constructor)() | Initialisiert eine neue Instanz von[`TextElement`](../textelement-1) Klasse. |
+| [TextElement](textelement#constructor_1)(T, double, double, double, double) | Initialisiert eine neue Instanz von[`TextElement`](../textelement-1) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Der Elementwert. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Der Elementwert. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
 
 ## Methoden
 

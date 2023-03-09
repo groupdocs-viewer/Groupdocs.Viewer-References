@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 图像背景颜色
+description: 图片背景颜色
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.options/cadoptions/backgroundcolor/
 ---
 ## CadOptions.BackgroundColor property
 
-图像背景颜色
+图片背景颜色
 
 ```csharp
 public Color BackgroundColor { get; set; }

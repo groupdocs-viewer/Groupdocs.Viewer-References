@@ -1,14 +1,14 @@
 ---
 title: SetMeteredKey
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 使用计量键激活产品
+description: 使用计量密钥激活产品
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-使用计量键激活产品。
+使用计量密钥激活产品。
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -21,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 ### 例子
 
-以下示例演示了如何使用计量密钥激活产品。
+以下示例演示了如何使用 Metered 密钥激活产品。
 
 ```csharp
 string publicKey = "Public Key";

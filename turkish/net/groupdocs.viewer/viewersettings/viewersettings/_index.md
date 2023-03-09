@@ -23,7 +23,7 @@ public ViewerSettings(ICache cache, ILogger logger)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*cache* boş. |
+| ArgumentNullException | Ne zaman atıldı*cache* boş. |
 
 ### Ayrıca bakınız
 
@@ -51,7 +51,7 @@ public ViewerSettings(ICache cache)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*cache* boş. |
+| ArgumentNullException | Ne zaman atıldı*cache* boş. |
 
 ### Ayrıca bakınız
 
@@ -78,7 +78,7 @@ public ViewerSettings(ILogger logger)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*logger* boş. |
+| ArgumentNullException | Ne zaman atıldı*logger* boş. |
 
 ### Ayrıca bakınız
 

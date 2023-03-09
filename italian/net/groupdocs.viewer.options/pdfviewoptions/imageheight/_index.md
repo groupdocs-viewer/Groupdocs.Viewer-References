@@ -1,14 +1,14 @@
 ---
 title: ImageHeight
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Laltezza di unimmagine di output in pixel. Quando si converte una singola immagine solo in HTML
+description: Laltezza di unimmagine di output in pixel. Quando si converte solo una singola immagine in HTML
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/pdfviewoptions/imageheight/
 ---
 ## PdfViewOptions.ImageHeight property
 
-L'altezza di un'immagine di output in pixel. (Quando si converte una singola immagine solo in HTML)
+L'altezza di un'immagine di output in pixel. (Quando si converte solo una singola immagine in HTML)
 
 ```csharp
 public int ImageHeight { get; set; }

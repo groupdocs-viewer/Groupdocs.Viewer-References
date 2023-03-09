@@ -23,7 +23,7 @@ public void RotatePage(int pageNumber, Rotation rotation)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*pageNumber* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*pageNumber* sıfırdan küçük veya eşittir. |
 | ArgumentException | Numaralı sayfa için dönüş yapıldığında fırlatılır*pageNumber* zaten eklendi. |
 
 ### Ayrıca bakınız

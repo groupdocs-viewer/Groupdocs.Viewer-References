@@ -3,7 +3,7 @@ title: CS
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: C Source Code File .cs est un fichier de code source pour le langage de programmation C. Introduit par Microsoft pour une utilisation avec le .NET Framework. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/programming/cs .
 type: docs
-weight: 180
+weight: 200
 url: /fr/net/groupdocs.viewer/filetype/cs/
 ---
 ## FileType.CS field

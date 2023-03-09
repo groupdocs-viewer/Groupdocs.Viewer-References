@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 文本文件拆分到页面选项
+description: 文本文件拆分为页面选项
 type: docs
 weight: 530
 url: /zh/net/groupdocs.viewer.options/textoptions/
 ---
 ## TextOptions class
 
-文本文件拆分到页面选项。
+文本文件拆分为页面选项。
 
 ```csharp
 public class TextOptions
@@ -18,7 +18,7 @@ public class TextOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextOptions](textoptions)() | 默认构造函数。 |
+| [TextOptions](textoptions)() | 初始化新实例[`TextOptions`](../textoptions)类. |
 
 ## 特性
 

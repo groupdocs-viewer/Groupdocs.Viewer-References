@@ -1,14 +1,14 @@
 ---
 title: CachePath
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Önbellek klasörünün Göreli veya mutlak yolu.
+description: Önbellek klasörüne giden Göreceli veya mutlak yol.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.viewer.caching/filecache/cachepath/
 ---
 ## FileCache.CachePath property
 
-Önbellek klasörünün Göreli veya mutlak yolu.
+Önbellek klasörüne giden Göreceli veya mutlak yol.
 
 ```csharp
 public string CachePath { get; }

@@ -3,7 +3,7 @@ title: EMZ
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Enhanced Windows Metafile komprimerad .emz representerar grafiska bilder enhetsoberoende komprimerade av GZIP. Metafiler av EMF består av poster med variabel längd i kronologisk ordning som kan återge den lagrade bilden efter analys på valfri utenhet. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/emz .
 type: docs
-weight: 410
+weight: 440
 url: /sv/net/groupdocs.viewer/filetype/emz/
 ---
 ## FileType.EMZ field

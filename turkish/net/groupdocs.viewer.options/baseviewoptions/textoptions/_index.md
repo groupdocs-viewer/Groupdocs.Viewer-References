@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sayfa seçeneklerine ayrılan metin dosyaları.
+description: Sayfa seçeneklerine bölünen metin dosyaları.
 type: docs
 weight: 140
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/textoptions/
 ---
 ## BaseViewOptions.TextOptions property
 
-Sayfa seçeneklerine ayrılan metin dosyaları.
+Sayfa seçeneklerine bölünen metin dosyaları.
 
 ```csharp
 public TextOptions TextOptions { get; set; }

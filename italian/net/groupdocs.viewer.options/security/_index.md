@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Fornisce opzioni di sicurezza per i documenti PDF.
+description: Fornisce opzioni di protezione dei documenti PDF.
 type: docs
 weight: 500
 url: /it/net/groupdocs.viewer.options/security/
 ---
 ## Security class
 
-Fornisce opzioni di sicurezza per i documenti PDF.
+Fornisce opzioni di protezione dei documenti PDF.
 
 ```csharp
 public class Security
@@ -18,7 +18,7 @@ public class Security
 
 | Nome | Descrizione |
 | --- | --- |
-| [Security](security)() | Inizializza la nuova istanza di[`Security`](../security) classe. |
+| [Security](security)() | Inizializza una nuova istanza di[`Security`](../security) classe. |
 
 ## Proprietà
 

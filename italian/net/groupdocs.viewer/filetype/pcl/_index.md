@@ -1,14 +1,14 @@
 ---
 title: PCL
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Documento del linguaggio dei comandi della stampante .pcl
+description: Documento linguaggio comando stampante .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /it/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field
 
-Documento del linguaggio dei comandi della stampante (.pcl)
+Documento linguaggio comando stampante (.pcl)
 
 ```csharp
 public static readonly FileType PCL;

@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /es/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+Inicializa una nueva instancia de[`Attachment`](../../attachment) clase.
+
+```csharp
+public Attachment()
+```
+
+### Ver también
+
+* class [Attachment](../../attachment)
+* espacio de nombres [GroupDocs.Viewer.Results](../../attachment)
+* asamblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 Inicializa una nueva instancia de[`Attachment`](../../attachment) clase.
 
@@ -17,7 +33,7 @@ public Attachment(string fileName, string filePath)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fileName | String | Nombre del archivo adjunto. |
-| filePath | String | Adjunto ruta relativa, por ejemplocarpeta/archivo.docx nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
+| filePath | String | Adjunto ruta relativa, por ejemplocarpeta/archivo.docx o nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
 
 ### Excepciones
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 Inicializa una nueva instancia de[`Attachment`](../../attachment) clase.
 
@@ -46,7 +62,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | Identificador único (en el contexto de un solo archivo) del archivo adjunto. |
 | fileName | String | Nombre del archivo adjunto. |
-| filePath | String | Adjunto ruta relativa, por ejemplocarpeta/archivo.docx nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
+| filePath | String | Adjunto ruta relativa, por ejemplocarpeta/archivo.docx o nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
 | size | Int64 | Tamaño del archivo adjunto en bytes. |
 
 ### Excepciones
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 Inicializa una nueva instancia de[`Attachment`](../../attachment) clase.
 
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | Identificador único (en el contexto de un solo archivo) del archivo adjunto. |
 | fileName | String | Nombre del archivo adjunto. |
-| filePath | String | Adjunto ruta relativa, por ejemplocarpeta/archivo.docx nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
+| filePath | String | Adjunto ruta relativa, por ejemplocarpeta/archivo.docx o nombre de archivo cuando el archivo se encuentra en la raíz de un archivo, en un mensaje de correo electrónico o en un archivo de datos. |
 | fileType | FileType | Tipo de archivo adjunto. |
 | size | Int64 | Tamaño del archivo adjunto en bytes. |
 

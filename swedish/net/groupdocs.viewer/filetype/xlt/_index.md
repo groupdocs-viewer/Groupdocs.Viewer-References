@@ -3,7 +3,7 @@ title: XLT
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Microsoft Excelmall .xlt är mallfiler skapade med Microsoft Excel som är ett kalkylprogram som ingår i Microsoft Officepaketet. Microsoft Office 972003 stödde att skapa nya XLTfiler samt att öppna dessa. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/xlt .
 type: docs
-weight: 1790
+weight: 1840
 url: /sv/net/groupdocs.viewer/filetype/xlt/
 ---
 ## FileType.XLT field

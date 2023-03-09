@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Determina se dueFileTypegroupdocs.viewer/filetype gli oggetti sono gli stessi.
 type: docs
-weight: 1970
+weight: 2030
 url: /it/net/groupdocs.viewer/filetype/op_equality/
 ---
 ## FileType Equality operator
@@ -16,12 +16,12 @@ public static bool operator ==(FileType left, FileType right)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| left | FileType | Sono partiti[`FileType`](../../filetype) oggetto. |
-| right | FileType | Destra[`FileType`](../../filetype) oggetto. |
+| left | FileType | Sinistra[`FileType`](../../filetype) oggetto. |
+| right | FileType | Giusto[`FileType`](../../filetype) oggetto. |
 
 ### Valore di ritorno
 
-se entrambi[`FileType`](../../filetype) gli oggetti sono gli stessi; altrimenti,
+se entrambi[`FileType`](../../filetype) gli oggetti sono gli stessi; Altrimenti,
 
 ```csharp
 true

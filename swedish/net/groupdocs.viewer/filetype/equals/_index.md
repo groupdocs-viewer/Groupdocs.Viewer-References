@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer för .NET API-referens
-description: Bestämmer om strömmenFileTypegroupdocs.viewer/filetypeär samma som specificeratsFileTypegroupdocs.viewer/filetype objekt.
+description: Bestämmer om strömmenFileTypegroupdocs.viewer/filetype är samma som specificeratFileTypegroupdocs.viewer/filetype objekt.
 type: docs
-weight: 1930
+weight: 1980
 url: /sv/net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Bestämmer om strömmen[`FileType`](../../filetype)är samma som specificerats[`FileType`](../../filetype) objekt.
+Bestämmer om strömmen[`FileType`](../../filetype) är samma som specificerat[`FileType`](../../filetype) objekt.
 
 ```csharp
 public bool Equals(FileType other)

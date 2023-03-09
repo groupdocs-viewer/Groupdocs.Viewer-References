@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar vyinformation för MS Projectdokument.
 type: docs
-weight: 750
+weight: 760
 url: /sv/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Initierar ny instans av[`ProjectManagementViewInfo`](../projectmanagementviewinfo) class. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Initierar ny instans av[`ProjectManagementViewInfo`](../projectmanagementviewinfo) class. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Initierar ny instans av[`ProjectManagementViewInfo`](../projectmanagementviewinfo) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | Datum och tid då projektet ska slutföras. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Typen av fil. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Listan över sidor att visa. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | Datum och tid från vilken projektet startade. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | Datum och tid då projektet ska slutföras. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Typen av fil. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Listan över sidor att visa. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | Datum och tid från vilken projektet startade. |
 
 ## Metoder
 

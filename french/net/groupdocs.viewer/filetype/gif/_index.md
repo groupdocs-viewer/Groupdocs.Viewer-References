@@ -3,7 +3,7 @@ title: GIF
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Graphical Interchange Format File .gif est un type dimage hautement compressée. Pour chaque image le GIF autorise généralement jusquà 8 bits par pixel et jusquà 256 couleurs sont autorisées sur limage. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 490
+weight: 530
 url: /fr/net/groupdocs.viewer/filetype/gif/
 ---
 ## FileType.GIF field

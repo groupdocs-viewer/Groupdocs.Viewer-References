@@ -1,14 +1,14 @@
 ---
 title: ReleaseFileStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 释放由与关联的方法实例化的流CreateFileStream./createfilestream委托.
+description: 释放由与关联的方法实例化的流CreateFileStream./createfilestream代表.
 type: docs
 weight: 190
 url: /zh/net/groupdocs.viewer.interfaces/releasefilestream/
 ---
 ## ReleaseFileStream delegate
 
-释放由与关联的方法实例化的流[`CreateFileStream`](../createfilestream)委托.
+释放由与关联的方法实例化的流[`CreateFileStream`](../createfilestream)代表.
 
 ```csharp
 public delegate void ReleaseFileStream(Stream fileStream);
@@ -16,7 +16,7 @@ public delegate void ReleaseFileStream(Stream fileStream);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileStream | Stream | 由关联的方法创建的流[`CreateFileStream`](../createfilestream)代表。 |
+| fileStream | Stream | 由与关联的方法创建的流[`CreateFileStream`](../createfilestream)代表。 |
 
 ### 也可以看看
 

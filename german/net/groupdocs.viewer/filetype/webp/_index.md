@@ -1,14 +1,14 @@
 ---
 title: WEBP
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: WebP Image .webp ist ein modernes RasterWebbildDateiformat das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität während die Bildgröße erheblich reduziert wird. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/webp .
+description: WebP Image .webp ist ein modernes RasterWebbildDateiformat das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität während die Bildgröße erheblich reduziert wird. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/webp .
 type: docs
-weight: 1710
+weight: 1760
 url: /de/net/groupdocs.viewer/filetype/webp/
 ---
 ## FileType.WEBP field
 
-WebP Image (.webp) ist ein modernes Raster-Webbild-Dateiformat, das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität, während die Bildgröße erheblich reduziert wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/webp) .
+WebP Image (.webp) ist ein modernes Raster-Webbild-Dateiformat, das auf verlustfreier und verlustbehafteter Komprimierung basiert. Es bietet die gleiche Bildqualität, während die Bildgröße erheblich reduziert wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/webp) .
 
 ```csharp
 public static readonly FileType WEBP;

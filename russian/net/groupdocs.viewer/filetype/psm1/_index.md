@@ -3,7 +3,7 @@ title: PSM1
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Модуль сценария PowerShell .psm1  формат файла для сценариев модуля PowerShell. Подробнее об этом формате файлаздесьhttps//fileinfo.com/extension/psm1 .
 type: docs
-weight: 1240
+weight: 1290
 url: /ru/net/groupdocs.viewer/filetype/psm1/
 ---
 ## FileType.PSM1 field

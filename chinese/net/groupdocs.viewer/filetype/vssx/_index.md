@@ -1,14 +1,14 @@
 ---
 title: VSSX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Visio 模具文件 .vssx 是使用 Microsoft Visio 2013 及更高版本创建的绘图模具 VSSX 文件格式可以用 Visio 2013 及更高版本打开 Visio 文件以表示各种绘图元素而闻名例如形状集合连接器流程图网络布局UML 图 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vssx.
+description: Visio 模板文件 .vssx 是使用 Microsoft Visio 2013 及更高版本创建的绘图模板 VSSX 文件格式可以用 Visio 2013 及更高版本打开 Visio 文件以表示各种绘图元素而闻名例如形状集合连接器流程图网络布局UML 图 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vssx.
 type: docs
-weight: 1650
+weight: 1700
 url: /zh/net/groupdocs.viewer/filetype/vssx/
 ---
 ## FileType.VSSX field
 
-Visio 模具文件 (.vssx) 是使用 Microsoft Visio 2013 及更高版本创建的绘图模具。 VSSX 文件格式可以用 Visio 2013 及更高版本打开。 Visio 文件以表示各种绘图元素而闻名，例如形状集合、连接器、流程图、网络布局、UML 图、 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vssx).
+Visio 模板文件 (.vssx) 是使用 Microsoft Visio 2013 及更高版本创建的绘图模板。 VSSX 文件格式可以用 Visio 2013 及更高版本打开。 Visio 文件以表示各种绘图元素而闻名，例如形状集合、连接器、流程图、网络布局、UML 图、 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vssx).
 
 ```csharp
 public static readonly FileType VSSX;

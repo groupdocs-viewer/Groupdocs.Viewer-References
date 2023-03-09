@@ -24,7 +24,7 @@ public void RotatePage(int pageNumber, Rotation rotation)
 | eccezione | condizione |
 | --- | --- |
 | ArgumentException | Lanciato quando*pageNumber* è minore o uguale a zero. |
-| ArgumentException | Generato durante la rotazione della pagina con il numero*pageNumber* era già stato aggiunto. |
+| ArgumentException | Generato durante la rotazione per la pagina con il numero*pageNumber* era già stato aggiunto. |
 
 ### Guarda anche
 

@@ -18,11 +18,11 @@ public class JpgViewOptions : ViewOptions, IMaxSizeOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [JpgViewOptions](jpgviewoptions#constructor)() | Inizializza la nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
-| [JpgViewOptions](jpgviewoptions#constructor_1)(CreatePageStream) | Inizializza la nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
-| [JpgViewOptions](jpgviewoptions#constructor_3)(IPageStreamFactory) | Inizializza la nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
-| [JpgViewOptions](jpgviewoptions#constructor_4)(string) | Inizializza la nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
-| [JpgViewOptions](jpgviewoptions#constructor_2)(CreatePageStream, ReleasePageStream) | Inizializza la nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
+| [JpgViewOptions](jpgviewoptions#constructor)() | Inizializza una nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
+| [JpgViewOptions](jpgviewoptions#constructor_1)(CreatePageStream) | Inizializza una nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
+| [JpgViewOptions](jpgviewoptions#constructor_3)(IPageStreamFactory) | Inizializza una nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
+| [JpgViewOptions](jpgviewoptions#constructor_4)(string) | Inizializza una nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
+| [JpgViewOptions](jpgviewoptions#constructor_2)(CreatePageStream, ReleasePageStream) | Inizializza una nuova istanza di[`JpgViewOptions`](../jpgviewoptions) classe. |
 
 ## Proprietà
 
@@ -43,7 +43,7 @@ public class JpgViewOptions : ViewOptions, IMaxSizeOptions
 | [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | I file di gestione del progetto visualizzano le opzioni. |
 | [Quality](../../groupdocs.viewer.options/jpgviewoptions/quality) { get; set; } | Qualità dell'immagine di output; I valori validi sono compresi tra 1 e 100; Il valore predefinito è 90. |
 | [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | Abilita il rendering dei commenti. |
-| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering di pagine nascoste. |
+| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering delle pagine nascoste. |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | Abilita il rendering delle note. |
 | [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | I file del foglio di calcolo visualizzano le opzioni. |
 | [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | Opzioni di suddivisione dei file di testo in pagine. |

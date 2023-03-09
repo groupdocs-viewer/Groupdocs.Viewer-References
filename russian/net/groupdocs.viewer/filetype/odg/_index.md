@@ -3,7 +3,7 @@ title: ODG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Графический файл OpenDocument .odg используется приложением Draw Apache OpenOffice для хранения элементов чертежа в виде векторного изображения. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/odg .
 type: docs
-weight: 920
+weight: 970
 url: /ru/net/groupdocs.viewer/filetype/odg/
 ---
 ## FileType.ODG field

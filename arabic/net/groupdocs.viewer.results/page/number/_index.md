@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/page/number/
 رقم الصفحة .
 
 ```csharp
-public int Number { get; }
+public int Number { get; set; }
 ```
 
 ### أنظر أيضا

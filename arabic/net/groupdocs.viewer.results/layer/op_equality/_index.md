@@ -16,8 +16,8 @@ public static bool operator ==(Layer left, Layer right)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| left | Layer | اليسار[`Layer`](../../layer) هدف. |
-| right | Layer | الصحيح[`Layer`](../../layer) هدف. |
+| left | Layer | غادر[`Layer`](../../layer) هدف. |
+| right | Layer | يمين[`Layer`](../../layer) هدف. |
 
 ### قيمة الإرجاع
 

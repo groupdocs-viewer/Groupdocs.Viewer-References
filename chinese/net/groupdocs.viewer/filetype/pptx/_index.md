@@ -1,14 +1,14 @@
 ---
 title: PPTX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: PowerPoint Open XML Presentation .pptx 是使用流行的 Microsoft PowerPoint 应用程序创建的演示文件与以前版本的二进制演示文件格式 PPT 不同PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pptx
+description: PowerPoint Open XML 演示文稿 .pptx 是使用流行的 Microsoft PowerPoint 应用程序创建的演示文稿文件与以前版本的二进制演示文稿文件格式 PPT 不同PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文稿文件格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pptx
 type: docs
-weight: 1170
+weight: 1220
 url: /zh/net/groupdocs.viewer/filetype/pptx/
 ---
 ## FileType.PPTX field
 
-PowerPoint Open XML Presentation (.pptx) 是使用流行的 Microsoft PowerPoint 应用程序创建的演示文件。与以前版本的二进制演示文件格式 PPT 不同，PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pptx)
+PowerPoint Open XML 演示文稿 (.pptx) 是使用流行的 Microsoft PowerPoint 应用程序创建的演示文稿文件。与以前版本的二进制演示文稿文件格式 PPT 不同，PPTX 格式基于 Microsoft PowerPoint 开放 XML 演示文稿文件格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pptx)
 
 ```csharp
 public static readonly FileType PPTX;

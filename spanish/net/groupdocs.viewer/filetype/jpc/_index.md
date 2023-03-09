@@ -3,7 +3,7 @@ title: JPC
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Secuencia de código JPEG 2000 .jpc
 type: docs
-weight: 660
+weight: 710
 url: /es/net/groupdocs.viewer/filetype/jpc/
 ---
 ## FileType.JPC field

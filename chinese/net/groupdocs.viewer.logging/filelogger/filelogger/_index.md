@@ -1,14 +1,14 @@
 ---
 title: FileLogger
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 创建记录器到文件
+description: 创建记录器到文件.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.logging/filelogger/filelogger/
 ---
 ## FileLogger constructor
 
-创建记录器到文件。
+创建记录器到文件.
 
 ```csharp
 public FileLogger(string fileName)

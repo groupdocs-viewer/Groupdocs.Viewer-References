@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+Yeni örneğini başlatır[`Attachment`](../../attachment) sınıf.
+
+```csharp
+public Attachment()
+```
+
+### Ayrıca bakınız
+
+* class [Attachment](../../attachment)
+* ad alanı [GroupDocs.Viewer.Results](../../attachment)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 Yeni örneğini başlatır[`Attachment`](../../attachment) sınıf.
 
@@ -17,14 +33,14 @@ public Attachment(string fileName, string filePath)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileName | String | Ek dosya adı. |
-| filePath | String | Ek göreli yolu örn.klasör/dosya.docxveya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı. |
+| filePath | String | Ek göreli yol örn.klasör/dosya.docx veya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*fileName* null veya boş. |
-| ArgumentException | ne zaman atıldı*filePath* null veya boş. |
+| ArgumentException | Ne zaman atıldı*fileName* null veya boş. |
+| ArgumentException | Ne zaman atıldı*filePath* null veya boş. |
 
 ### Ayrıca bakınız
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 Yeni örneğini başlatır[`Attachment`](../../attachment) sınıf.
 
@@ -46,16 +62,16 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | Ekin benzersiz (tek dosya bağlamında) tanımlayıcısı. |
 | fileName | String | Ek dosya adı. |
-| filePath | String | Ek göreli yolu örn.klasör/dosya.docxveya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı. |
+| filePath | String | Ek göreli yol örn.klasör/dosya.docx veya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı. |
 | size | Int64 | Bayt cinsinden ek dosya boyutu. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*id* null veya boş. |
-| ArgumentException | ne zaman atıldı*fileName* null veya boş. |
-| ArgumentException | ne zaman atıldı*filePath* null veya boş. |
+| ArgumentException | Ne zaman atıldı*id* null veya boş. |
+| ArgumentException | Ne zaman atıldı*fileName* null veya boş. |
+| ArgumentException | Ne zaman atıldı*filePath* null veya boş. |
 
 ### Ayrıca bakınız
 
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 Yeni örneğini başlatır[`Attachment`](../../attachment) sınıf.
 
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | Ekin benzersiz (tek dosya bağlamında) tanımlayıcısı. |
 | fileName | String | Ek dosya adı. |
-| filePath | String | Ek göreli yolu örn.klasör/dosya.docxveya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı. |
+| filePath | String | Ek göreli yol örn.klasör/dosya.docx veya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı. |
 | fileType | FileType | Ek dosya türü. |
 | size | Int64 | Bayt cinsinden ek dosya boyutu. |
 
@@ -85,10 +101,10 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*id* null veya boş. |
-| ArgumentException | ne zaman atıldı*fileName* null veya boş. |
-| ArgumentException | ne zaman atıldı*filePath* null veya boş. |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
+| ArgumentException | Ne zaman atıldı*id* null veya boş. |
+| ArgumentException | Ne zaman atıldı*fileName* null veya boş. |
+| ArgumentException | Ne zaman atıldı*filePath* null veya boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
 
 ### Ayrıca bakınız
 

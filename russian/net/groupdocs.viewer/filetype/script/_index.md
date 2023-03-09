@@ -3,7 +3,7 @@ title: SCRIPT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Общий файл сценария .script
 type: docs
-weight: 1340
+weight: 1390
 url: /ru/net/groupdocs.viewer/filetype/script/
 ---
 ## FileType.SCRIPT field

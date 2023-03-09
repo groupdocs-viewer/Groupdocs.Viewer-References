@@ -196,7 +196,7 @@ public Viewer(Stream stream, bool leaveOpen)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | stream | Stream | دفق الملف. |
-| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خاطئة. |
+| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خطأ شنيع. |
 
 ### استثناءات
 
@@ -268,7 +268,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | دفق الملف. |
 | loadOptions | LoadOptions | خيارات تحميل المستند. |
-| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خاطئة. |
+| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خطأ شنيع. |
 
 ### استثناءات
 
@@ -342,7 +342,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | دفق الملف. |
 | settings | ViewerSettings | إعدادات العارض. |
-| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خاطئة. |
+| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خطأ شنيع. |
 
 ### استثناءات
 
@@ -420,7 +420,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 | stream | Stream | دفق الملف. |
 | loadOptions | LoadOptions | خيارات تحميل المستند. |
 | settings | ViewerSettings | إعدادات العارض. |
-| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خاطئة. |
+| leaveOpen | Boolean | حقيقي لترك الدفق مفتوحًا بعد التخلص من كائن العارض ؛ خلاف ذلك،خطأ شنيع. |
 
 ### استثناءات
 

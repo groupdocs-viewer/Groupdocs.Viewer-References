@@ -3,7 +3,7 @@ title: ODS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Электронная таблица OpenDocument .ods означает формат документа электронной таблицы OpenDocument который может редактировать пользователь. Данные хранятся в файле ODF в виде строк и столбцов. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/ods .
 type: docs
-weight: 940
+weight: 990
 url: /ru/net/groupdocs.viewer/filetype/ods/
 ---
 ## FileType.ODS field

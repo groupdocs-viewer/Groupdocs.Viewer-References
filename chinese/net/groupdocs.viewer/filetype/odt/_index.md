@@ -3,7 +3,7 @@ title: ODT
 second_title: GroupDocs.Viewer for .NET API 参考
 description: OpenDocument 文本文档 .odt 是使用基于 OpenDocument 文本文件格式的文字处理应用程序创建的文档类型 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/odt
 type: docs
-weight: 950
+weight: 1000
 url: /zh/net/groupdocs.viewer/filetype/odt/
 ---
 ## FileType.ODT field

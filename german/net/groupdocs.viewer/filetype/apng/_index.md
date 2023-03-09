@@ -1,14 +1,14 @@
 ---
 title: APNG
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Animated Portable Network Graphic .apng ist eine Erweiterung des PNGFormats die Animationen unterstützt. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/apng .
+description: Animated Portable Network Graphic .apng ist eine Erweiterung des PNGFormats die Animationen unterstützt. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/apng .
 type: docs
-weight: 20
+weight: 30
 url: /de/net/groupdocs.viewer/filetype/apng/
 ---
 ## FileType.APNG field
 
-Animated Portable Network Graphic (.apng) ist eine Erweiterung des PNG-Formats, die Animationen unterstützt. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/apng) .
+Animated Portable Network Graphic (.apng) ist eine Erweiterung des PNG-Formats, die Animationen unterstützt. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/apng) .
 
 ```csharp
 public static readonly FileType APNG;

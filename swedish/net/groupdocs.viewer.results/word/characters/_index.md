@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/word/characters/
 Tecken som ordet innehåller.
 
 ```csharp
-public IList<Character> Characters { get; }
+public List<Character> Characters { get; set; }
 ```
 
 ### Se även

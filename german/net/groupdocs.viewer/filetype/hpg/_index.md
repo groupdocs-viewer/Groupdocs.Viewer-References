@@ -3,7 +3,7 @@ title: HPG
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: PLT HPGL .hpg
 type: docs
-weight: 560
+weight: 600
 url: /de/net/groupdocs.viewer/filetype/hpg/
 ---
 ## FileType.HPG field

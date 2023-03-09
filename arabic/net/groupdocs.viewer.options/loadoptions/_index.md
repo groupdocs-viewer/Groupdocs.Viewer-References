@@ -25,7 +25,8 @@ public class LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | الترميز المستخدم عند فتح ملفات نصية أو رسائل بريد إلكتروني مثل[`CSV`](../../groupdocs.viewer/filetype/csv) و[`TXT`](../../groupdocs.viewer/filetype/txt) ، و[`MSG`](../../groupdocs.viewer/filetype/msg) . القيمة الافتراضية هيDefault . |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | يتيح هذا الخيار[`TXT`](../../groupdocs.viewer/filetype/txt) و[`TSV`](../../groupdocs.viewer/filetype/tsv) ، و[`CSV`](../../groupdocs.viewer/filetype/csv)كشف تشفير الملفات. في حالة تعذر اكتشاف الترميز الافتراضي[`Encoding`](./encoding) يستخدم . |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | الترميز المستخدم عند فتح ملفات نصية أو رسائل بريد إلكتروني مثل [`CSV`](../../groupdocs.viewer/filetype/csv) ، [`TXT`](../../groupdocs.viewer/filetype/txt) و و[`MSG`](../../groupdocs.viewer/filetype/msg) . القيمة الافتراضية هيUTF8 . |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | نوع الملف المراد فتحه . |
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | كلمة المرور لفتح الملف المشفر. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | الموارد الخارجية ، مثل مهلة تحميل الرسومات . القيمة الافتراضية هي 30 ثانية . هذا الخيار مدعوم لمستندات معالجة الكلمات التي تحتوي على موارد خارجية. |

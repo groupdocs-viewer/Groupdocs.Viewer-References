@@ -3,7 +3,7 @@ title: SH
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Bash Kabuğu Komut Dosyası .sh
 type: docs
-weight: 1360
+weight: 1410
 url: /tr/net/groupdocs.viewer/filetype/sh/
 ---
 ## FileType.SH field

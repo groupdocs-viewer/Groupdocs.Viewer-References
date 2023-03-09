@@ -1,14 +1,14 @@
 ---
 title: STL
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Stereolithografiedatei .stl ist ein austauschbares Dateiformat das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping 3DDruck und computergestützte Fertigung. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/cad/stl .
+description: Stereolithografiedatei .stl ist ein austauschbares Dateiformat das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping 3DDruck und computergestützte Fertigung. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/cad/stl .
 type: docs
-weight: 1390
+weight: 1440
 url: /de/net/groupdocs.viewer/filetype/stl/
 ---
 ## FileType.STL field
 
-Stereolithografiedatei (.stl) ist ein austauschbares Dateiformat, das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping, 3D-Druck und computergestützte Fertigung. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/cad/stl) .
+Stereolithografiedatei (.stl) ist ein austauschbares Dateiformat, das dreidimensionale Oberflächengeometrie darstellt. Das Dateiformat findet seine Verwendung in verschiedenen Bereichen wie Rapid Prototyping, 3D-Druck und computergestützte Fertigung. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/cad/stl) .
 
 ```csharp
 public static readonly FileType STL;

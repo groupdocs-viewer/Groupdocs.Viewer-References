@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Modello di ricorrenza.
+description: Il campo di testo predefinito è Pattern di ricorrenza.
 type: docs
 weight: 370
 url: /it/net/groupdocs.viewer.options/field/recurrencepattern/
 ---
 ## Field.RecurrencePattern field
 
-Il testo del campo predefinito è "Modello di ricorrenza".
+Il campo di testo predefinito è "Pattern di ricorrenza".
 
 ```csharp
 public static readonly Field RecurrencePattern;

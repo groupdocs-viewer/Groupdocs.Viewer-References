@@ -3,7 +3,7 @@ title: ZIP
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Заархивированный файл .zip представляет собой архивы которые могут содержать один или несколько файлов или каталогов. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/compression/zip .
 type: docs
-weight: 1860
+weight: 1910
 url: /ru/net/groupdocs.viewer/filetype/zip/
 ---
 ## FileType.ZIP field

@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/cadviewinfo/layouts/
 Список компоновок, содержащихся в чертеже САПР.
 
 ```csharp
-public IList<Layout> Layouts { get; }
+public List<Layout> Layouts { get; set; }
 ```
 
 ### Смотрите также

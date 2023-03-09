@@ -1,14 +1,14 @@
 ---
 title: Word
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Tek kelime içeren göreli olarak konumlandırılmış dikdörtgeni temsil eder.
+description: Tek kelime içeren görece konumlandırılmış dikdörtgeni temsil eder.
 type: docs
-weight: 790
+weight: 800
 url: /tr/net/groupdocs.viewer.results/word/
 ---
 ## Word class
 
-Tek kelime içeren göreli olarak konumlandırılmış dikdörtgeni temsil eder.
+Tek kelime içeren görece konumlandırılmış dikdörtgeni temsil eder.
 
 ```csharp
 public class Word : TextElement<string>
@@ -18,18 +18,19 @@ public class Word : TextElement<string>
 
 | İsim | Tanım |
 | --- | --- |
-| [Word](word)(string, double, double, double, double, IList&lt;Character&gt;) | Yeni örneğini başlatır[`Word`](../word) sınıf. |
+| [Word](word#constructor)() | Yeni örneğini başlatır[`Word`](../word) sınıf. |
+| [Word](word#constructor_1)(string, double, double, double, double, List&lt;Character&gt;) | Yeni örneğini başlatır[`Word`](../word) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Characters](../../groupdocs.viewer.results/word/characters) { get; } | Sözcüğün içerdiği karakterler. |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Öğeyi içeren dikdörtgenin yüksekliği (piksel cinsinden). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Öğe değeri. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Öğeyi içeren dikdörtgenin genişliği (piksel cinsinden). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Öğeyi içeren dikdörtgenin başladığı sayfa düzeninde soldaki en yüksek noktanın X koordinatı. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
+| [Characters](../../groupdocs.viewer.results/word/characters) { get; set; } | Kelimenin içerdiği karakterler. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Öğeyi içeren dikdörtgenin yüksekliği (piksel cinsinden). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Öğe değeri. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Öğeyi içeren dikdörtgenin genişliği (piksel olarak). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın X koordinatı. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
 
 ## yöntemler
 

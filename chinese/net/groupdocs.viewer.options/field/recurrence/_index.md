@@ -1,14 +1,14 @@
 ---
 title: Recurrence
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是重复
+description: 默认字段文本为重复
 type: docs
 weight: 360
 url: /zh/net/groupdocs.viewer.options/field/recurrence/
 ---
 ## Field.Recurrence field
 
-默认字段文本是“重复”
+默认字段文本为“重复”
 
 ```csharp
 public static readonly Field Recurrence;

@@ -18,15 +18,16 @@ public class ArchiveViewInfo : ViewInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [ArchiveViewInfo](archiveviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Yeni örneğini başlatır[`ArchiveViewInfo`](../archiveviewinfo) sınıf. |
+| [ArchiveViewInfo](archiveviewinfo#constructor)() | Yeni örneğini başlatır[`ArchiveViewInfo`](../archiveviewinfo) sınıf. |
+| [ArchiveViewInfo](archiveviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Yeni örneğini başlatır[`ArchiveViewInfo`](../archiveviewinfo) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Dosyanın türü. |
-| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; } | Arşiv dosyasının içerdiği klasörler. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Görüntülenecek sayfaların listesi. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Dosyanın türü. |
+| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; set; } | Arşiv dosyasının içerdiği klasörler. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Görüntülenecek sayfaların listesi. |
 
 ## yöntemler
 

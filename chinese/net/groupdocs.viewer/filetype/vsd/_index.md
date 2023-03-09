@@ -3,7 +3,7 @@ title: VSD
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Visio 绘图文件 .vsd 是使用 Microsoft Visio 应用程序创建的绘图用于表示各种图形对象以及这些对象之间的互连 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vsd.
 type: docs
-weight: 1600
+weight: 1650
 url: /zh/net/groupdocs.viewer/filetype/vsd/
 ---
 ## FileType.VSD field

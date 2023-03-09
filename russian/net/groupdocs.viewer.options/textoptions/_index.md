@@ -18,7 +18,7 @@ public class TextOptions
 
 | Имя | Описание |
 | --- | --- |
-| [TextOptions](textoptions)() | Конструктор по умолчанию. |
+| [TextOptions](textoptions)() | Инициализирует новый экземпляр[`TextOptions`](../textoptions) класс. |
 
 ## Характеристики
 

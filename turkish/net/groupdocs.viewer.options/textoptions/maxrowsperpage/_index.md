@@ -1,14 +1,14 @@
 ---
 title: MaxRowsPerPage
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sayfa başına maksimum satır. Varsayılan değer 55.
+description: Sayfa başına maks. satır sayısı. Varsayılan değer 55. dir.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.options/textoptions/maxrowsperpage/
 ---
 ## TextOptions.MaxRowsPerPage property
 
-Sayfa başına maksimum satır. Varsayılan değer 55.
+Sayfa başına maks. satır sayısı. Varsayılan değer 55. 'dir.
 
 ```csharp
 public int MaxRowsPerPage { get; set; }

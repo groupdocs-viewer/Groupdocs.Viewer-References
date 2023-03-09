@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/page/height/
 ارتفاع الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG .
 
 ```csharp
-public int Height { get; }
+public int Height { get; set; }
 ```
 
 ### أنظر أيضا

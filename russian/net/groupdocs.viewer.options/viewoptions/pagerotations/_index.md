@@ -16,7 +16,7 @@ public readonly Dictionary<int, Rotation> PageRotations;
 
 ### Примечания
 
-В случае, если оба[`Watermark`](../watermark) а также`PageRotations` , то водяной знак будет применяться к перевернутым страницам.
+В случае, если оба[`Watermark`](../watermark) и`PageRotations` , то водяной знак будет применяться к перевернутым страницам.
 
 ### Смотрите также
 

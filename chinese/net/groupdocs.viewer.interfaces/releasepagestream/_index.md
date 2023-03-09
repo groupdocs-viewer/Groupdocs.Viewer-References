@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 释放由与关联的方法实例化的流CreatePageStream./createpagestream委托.
+description: 释放由与关联的方法实例化的流CreatePageStream./createpagestream代表.
 type: docs
 weight: 200
 url: /zh/net/groupdocs.viewer.interfaces/releasepagestream/
 ---
 ## ReleasePageStream delegate
 
-释放由与关联的方法实例化的流[`CreatePageStream`](../createpagestream)委托.
+释放由与关联的方法实例化的流[`CreatePageStream`](../createpagestream)代表.
 
 ```csharp
 public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
@@ -17,7 +17,7 @@ public delegate void ReleasePageStream(int pageNumber, Stream pageStream);
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageNumber | Int32 | 页码。 |
-| pageStream | Stream | 由关联的方法创建的流[`CreatePageStream`](../createpagestream)代表。 |
+| pageStream | Stream | 由与关联的方法创建的流[`CreatePageStream`](../createpagestream)代表。 |
 
 ### 也可以看看
 

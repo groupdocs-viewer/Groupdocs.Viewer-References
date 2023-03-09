@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/attachment/id/
 Identificador único del archivo adjunto en el contexto de un solo archivo que contiene este archivo adjunto.
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### Ver también

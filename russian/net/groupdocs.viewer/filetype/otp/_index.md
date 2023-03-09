@@ -3,7 +3,7 @@ title: OTP
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон презентации OpenDocument .otp представляет собой файлы шаблонов презентаций созданные приложениями в стандартном формате OASIS OpenDocument. Подробнее об этом формате файловздесьhttps//wiki.fileformat.com/presentation/otp .
 type: docs
-weight: 990
+weight: 1040
 url: /ru/net/groupdocs.viewer/filetype/otp/
 ---
 ## FileType.OTP field

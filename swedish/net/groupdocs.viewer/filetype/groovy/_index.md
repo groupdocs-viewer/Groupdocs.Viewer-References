@@ -3,7 +3,7 @@ title: GROOVY
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Groovy källkodsfil .groovy
 type: docs
-weight: 500
+weight: 540
 url: /sv/net/groupdocs.viewer/filetype/groovy/
 ---
 ## FileType.GROOVY field

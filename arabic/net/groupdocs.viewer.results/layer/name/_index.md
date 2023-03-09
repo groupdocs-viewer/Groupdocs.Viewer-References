@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/layer/name/
 اسم الطبقة .
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### ملاحظات

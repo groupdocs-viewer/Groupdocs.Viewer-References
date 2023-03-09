@@ -1,14 +1,14 @@
 ---
 title: NUMBERS
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: I numeri Apple rappresentano Excel come il formato file binario. Tali file possono essere creati dallapplicazione numeri Apple. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/numbers .
+description: I numeri Apple rappresentano Excel come il formato di file binario. Tali file possono essere creati dallapplicazione dei numeri Apple. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/numbers .
 type: docs
-weight: 900
+weight: 950
 url: /it/net/groupdocs.viewer/filetype/numbers/
 ---
 ## FileType.NUMBERS field
 
-I numeri Apple rappresentano Excel come il formato file binario. Tali file possono essere creati dall'applicazione numeri Apple. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/numbers) .
+I numeri Apple rappresentano Excel come il formato di file binario. Tali file possono essere creati dall'applicazione dei numeri Apple. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/numbers) .
 
 ```csharp
 public static readonly FileType NUMBERS;

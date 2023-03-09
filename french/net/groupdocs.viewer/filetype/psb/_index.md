@@ -3,7 +3,7 @@ title: PSB
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Photoshop Large Document Format .psb représente Photoshop Large Document Format utilisé pour la conception et le développement de graphiques. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/psb .
 type: docs
-weight: 1210
+weight: 1260
 url: /fr/net/groupdocs.viewer/filetype/psb/
 ---
 ## FileType.PSB field

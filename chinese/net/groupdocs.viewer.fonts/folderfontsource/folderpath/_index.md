@@ -1,14 +1,14 @@
 ---
 title: FolderPath
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 包含 TrueType 字体的文件夹的路径
+description: 包含 TrueType 字体的文件夹路径
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.fonts/folderfontsource/folderpath/
 ---
 ## FolderFontSource.FolderPath property
 
-包含 TrueType 字体的文件夹的路径。
+包含 TrueType 字体的文件夹路径。
 
 ```csharp
 public string FolderPath { get; }

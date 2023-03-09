@@ -3,7 +3,7 @@ title: TEX
 second_title: GroupDocs.Viewer for .NET API 参考
 description: LaTeX 源文档 .tex 是一种包含编程和标记功能的语言用于排版文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/pagedescriptionlanguage/tex
 type: docs
-weight: 1460
+weight: 1510
 url: /zh/net/groupdocs.viewer/filetype/tex/
 ---
 ## FileType.TEX field

@@ -38,7 +38,7 @@ Namnutrymmet tillhandahåller klasser för att ange ytterligare alternativ vid r
 | [ViewOptions](./viewoptions) | Ger renderingsalternativ. |
 | [VisioRenderingOptions](./visiorenderingoptions) | Visio-filer som behandlar dokumentvyalternativ. |
 | [Watermark](./watermark) | Representerar textvattenstämpel. |
-| [WebDocumentOptions](./webdocumentoptions) | De här renderingsalternativen gör att du kan anpassa utseendet på HTML/PDF/PNG/JPEG-utdata när du renderar webbdokument. |
+| [WebDocumentOptions](./webdocumentoptions) | Med de här renderingsalternativen kan du anpassa utseendet på utdata HTML/PDF/PNG/JPEG när du renderar webbdokument. |
 | [WordProcessingOptions](./wordprocessingoptions) | Med de här renderingsalternativen kan du anpassa utseendet på utdata HTML/PDF/PNG/JPEG när du renderar Word-dokument. |
 ## Gränssnitt
 

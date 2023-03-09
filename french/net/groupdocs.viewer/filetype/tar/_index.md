@@ -3,7 +3,7 @@ title: TAR
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Consolidated Unix File Archive .tar sont des archives créées avec un utilitaire basé sur Unix pour collecter un ou plusieurs fichiers. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/compression/tar .
 type: docs
-weight: 1430
+weight: 1480
 url: /fr/net/groupdocs.viewer/filetype/tar/
 ---
 ## FileType.TAR field

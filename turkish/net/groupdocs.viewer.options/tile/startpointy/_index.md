@@ -1,14 +1,14 @@
 ---
 title: StartPointY
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çizimde döşemenin başladığı en düşük sol noktanın Y koordinatı.
+description: Çizimde döşemenin başladığı en alt sol noktanın Y koordinatı.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.viewer.options/tile/startpointy/
 ---
 ## Tile.StartPointY property
 
-Çizimde döşemenin başladığı en düşük sol noktanın Y koordinatı.
+Çizimde döşemenin başladığı en alt sol noktanın Y koordinatı.
 
 ```csharp
 public int StartPointY { get; }

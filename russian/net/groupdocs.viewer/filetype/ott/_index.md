@@ -3,7 +3,7 @@ title: OTT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон документа OpenDocument .ott представляет шаблоны документов созданные приложениями в соответствии со стандартным форматом OpenDocument OASIS. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 1010
+weight: 1060
 url: /ru/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field

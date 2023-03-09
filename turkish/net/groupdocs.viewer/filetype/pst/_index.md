@@ -1,14 +1,14 @@
 ---
 title: PST
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Outlook Kişisel Bilgi Deposu Dosyası .pst çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını Kişisel Depolama Tablosu olarak da adlandırılır temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/email/pst .
+description: Outlook Kişisel Bilgi Deposu Dosyası .pst çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını Kişisel Depolama Tablosu olarak da adlandırılır temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /tr/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field
 
-Outlook Kişisel Bilgi Deposu Dosyası (.pst), çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını (Kişisel Depolama Tablosu olarak da adlandırılır) temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email/pst) .
+Outlook Kişisel Bilgi Deposu Dosyası (.pst), çeşitli kullanıcı bilgilerini depolayan Outlook Kişisel Depolama Dosyalarını (Kişisel Depolama Tablosu olarak da adlandırılır) temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/email/pst) .
 
 ```csharp
 public static readonly FileType PST;

@@ -1,14 +1,14 @@
 ---
 title: CSS
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Foglio di stile sovrapposto .css
+description: Foglio di stile a cascata .css
 type: docs
-weight: 190
+weight: 210
 url: /it/net/groupdocs.viewer/filetype/css/
 ---
 ## FileType.CSS field
 
-Foglio di stile sovrapposto (.css)
+Foglio di stile a cascata (.css)
 
 ```csharp
 public static readonly FileType CSS;

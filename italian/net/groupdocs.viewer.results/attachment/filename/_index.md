@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/attachment/filename/
 Nome file allegato.
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### Guarda anche

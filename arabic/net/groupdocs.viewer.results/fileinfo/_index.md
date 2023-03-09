@@ -18,14 +18,15 @@ public class FileInfo
 
 | اسم | وصف |
 | --- | --- |
-| [FileInfo](fileinfo)(FileType) | تهيئة مثيل جديد لـ[`FileType`](./filetype) فئة . |
+| [FileInfo](fileinfo#constructor)() | تهيئة مثيل جديد لـ[`FileType`](./filetype) فئة . |
+| [FileInfo](fileinfo#constructor_1)(FileType) | تهيئة مثيل جديد لـ[`FileType`](./filetype) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
 | [Encrypted](../../groupdocs.viewer.results/fileinfo/encrypted) { get; set; } | يشير إلى أن الملف مشفر. |
-| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; } | نوع الملف. |
+| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; set; } | نوع الملف. |
 
 ## طُرق
 

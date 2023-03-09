@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 判断两个Layergroupdocs.viewer.results/layer对象不一样
+description: 判断是否两个Layergroupdocs.viewer.results/layer对象不一样.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.viewer.results/layer/op_inequality/
 ---
 ## Layer Inequality operator
 
-判断两个[`Layer`](../../layer)对象不一样。
+判断是否两个[`Layer`](../../layer)对象不一样.
 
 ```csharp
 public static bool operator !=(Layer left, Layer right)
@@ -16,7 +16,7 @@ public static bool operator !=(Layer left, Layer right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Layer | 剩下[`Layer`](../../layer)目的。 |
+| left | Layer | 左边[`Layer`](../../layer)目的。 |
 | right | Layer | 正确的[`Layer`](../../layer)目的。 |
 
 ### 返回值

@@ -3,7 +3,7 @@ title: MHT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Archives Web MHTML .mht
 type: docs
-weight: 800
+weight: 850
 url: /fr/net/groupdocs.viewer/filetype/mht/
 ---
 ## FileType.MHT field

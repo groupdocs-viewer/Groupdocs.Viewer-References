@@ -1,14 +1,30 @@
 ---
 title: TextElement
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diTextElementgroupdocs.viewer.results/textelement1 classe.
+description: Inizializza una nuova istanza diTextElementgroupdocs.viewer.results/textelement1 classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/textelement-1/textelement/
 ---
-## TextElement&lt;T&gt; constructor
+## TextElement() {#constructor}
 
-Inizializza la nuova istanza di[`TextElement`](../../textelement-1) classe.
+Inizializza una nuova istanza di[`TextElement`](../../textelement-1) classe.
+
+```csharp
+public TextElement()
+```
+
+### Guarda anche
+
+* class [TextElement&lt;T&gt;](../../textelement-1)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../textelement-1)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## TextElement(T, double, double, double, double) {#constructor_1}
+
+Inizializza una nuova istanza di[`TextElement`](../../textelement-1) classe.
 
 ```csharp
 public TextElement(T value, double x, double y, double width, double height)

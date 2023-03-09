@@ -1,14 +1,14 @@
 ---
 title: GZIP
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Gnu Zipped File .gzip è stato introdotto come utility gratuita per sostituire il programma Compress utilizzato nei sistemi Unix. Tali file possono essere aperti ed estratti con diverse applicazioni come WinZip disponibile sia su Windows che su MacOS. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/compression/gz .
+description: Gnu Zipped File .gzip è stato introdotto come utility gratuita per sostituire il programma Compress utilizzato nei sistemi Unix. Tali file possono essere aperti ed estratti con diverse applicazioni come WinZip disponibile sia su Windows che su MacOS. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/compression/gz .
 type: docs
-weight: 520
+weight: 560
 url: /it/net/groupdocs.viewer/filetype/gzip/
 ---
 ## FileType.GZIP field
 
-Gnu Zipped File (.gzip) è stato introdotto come utility gratuita per sostituire il programma Compress utilizzato nei sistemi Unix. Tali file possono essere aperti ed estratti con diverse applicazioni come WinZip, disponibile sia su Windows che su MacOS. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/compression/gz) .
+Gnu Zipped File (.gzip) è stato introdotto come utility gratuita per sostituire il programma Compress utilizzato nei sistemi Unix. Tali file possono essere aperti ed estratti con diverse applicazioni come WinZip, disponibile sia su Windows che su MacOS. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/compression/gz) .
 
 ```csharp
 public static readonly FileType GZIP;

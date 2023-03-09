@@ -1,14 +1,14 @@
 ---
 title: ForJpgView
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions渲染成 JPG. 时检索视图信息的类
+description: 初始化新实例ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions类以在呈现为 JPG. 时检索有关视图的信息
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/viewinfooptions/forjpgview/
 ---
 ## ForJpgView() {#forjpgview}
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)渲染成 JPG. 时检索视图信息的类
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 JPG. 时检索有关视图的信息
 
 ```csharp
 public static ViewInfoOptions ForJpgView()
@@ -28,7 +28,7 @@ public static ViewInfoOptions ForJpgView()
 
 ## ForJpgView(bool) {#forjpgview_1}
 
-初始化的新实例[`ViewInfoOptions`](../../viewinfooptions)渲染成 JPG. 时检索视图信息的类
+初始化新实例[`ViewInfoOptions`](../../viewinfooptions)类以在呈现为 JPG. 时检索有关视图的信息
 
 ```csharp
 public static ViewInfoOptions ForJpgView(bool extractText)

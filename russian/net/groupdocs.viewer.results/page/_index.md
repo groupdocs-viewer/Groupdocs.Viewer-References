@@ -3,7 +3,7 @@ title: Page
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Представляет одну страницу которую можно просмотреть.
 type: docs
-weight: 730
+weight: 740
 url: /ru/net/groupdocs.viewer.results/page/
 ---
 ## Page class
@@ -18,23 +18,24 @@ public class Page
 
 | Имя | Описание |
 | --- | --- |
-| [Page](page#constructor)(int, bool) | Инициализирует новый экземпляр[`Page`](../page) класс. |
-| [Page](page#constructor_3)(int, string, bool) | Инициализирует новый экземпляр[`Page`](../page) класс. |
-| [Page](page#constructor_1)(int, bool, int, int) | Инициализирует новый экземпляр[`Page`](../page) класс. |
-| [Page](page#constructor_2)(int, bool, int, int, IList&lt;Line&gt;) | Инициализирует новый экземпляр[`Page`](../page) класс. |
-| [Page](page#constructor_4)(int, string, bool, int, int) | Инициализирует новый экземпляр[`Page`](../page) класс. |
-| [Page](page#constructor_5)(int, string, bool, int, int, IList&lt;Line&gt;) | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page#constructor)() | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page#constructor_1)(int, bool) | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page#constructor_4)(int, string, bool) | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page#constructor_2)(int, bool, int, int) | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page#constructor_3)(int, bool, int, int, List&lt;Line&gt;) | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page#constructor_5)(int, string, bool, int, int) | Инициализирует новый экземпляр[`Page`](../page) класс. |
+| [Page](page#constructor_6)(int, string, bool, int, int, List&lt;Line&gt;) | Инициализирует новый экземпляр[`Page`](../page) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/page/height) { get; } | Высота страницы в пикселях при просмотре в формате JPG или PNG. |
-| [Lines](../../groupdocs.viewer.results/page/lines) { get; } | Строки, содержащиеся на странице при просмотре в формате JPG или PNG с включенным извлечением текста. |
-| [Name](../../groupdocs.viewer.results/page/name) { get; } | Имя листа или страницы. |
-| [Number](../../groupdocs.viewer.results/page/number) { get; } | Номер страницы. |
-| [Visible](../../groupdocs.viewer.results/page/visible) { get; } | Индикатор видимости страницы. |
-| [Width](../../groupdocs.viewer.results/page/width) { get; } | Ширина страницы в пикселях при просмотре в формате JPG или PNG. |
+| [Height](../../groupdocs.viewer.results/page/height) { get; set; } | Высота страницы в пикселях при просмотре в формате JPG или PNG. |
+| [Lines](../../groupdocs.viewer.results/page/lines) { get; set; } | Строки, содержащиеся на странице при просмотре в формате JPG или PNG с включенным извлечением текста. |
+| [Name](../../groupdocs.viewer.results/page/name) { get; set; } | Имя листа или страницы. |
+| [Number](../../groupdocs.viewer.results/page/number) { get; set; } | Номер страницы. |
+| [Visible](../../groupdocs.viewer.results/page/visible) { get; set; } | Индикатор видимости страницы. |
+| [Width](../../groupdocs.viewer.results/page/width) { get; set; } | Ширина страницы в пикселях при просмотре в формате JPG или PNG. |
 
 ## Методы
 

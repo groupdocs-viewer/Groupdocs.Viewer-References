@@ -1,14 +1,14 @@
 ---
 title: BZ2
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Bzip2 Sıkıştırılmış Dosya .bz2 çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/compression/bz2 .
+description: Bzip2 Sıkıştırılmış Dosya .bz2 çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/compression/bz2 .
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/groupdocs.viewer/filetype/bz2/
 ---
 ## FileType.BZ2 field
 
-Bzip2 Sıkıştırılmış Dosya (.bz2), çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/compression/bz2) .
+Bzip2 Sıkıştırılmış Dosya (.bz2), çoğunlukla UNIX veya Linux sisteminde BZIP2 açık kaynak sıkıştırma yöntemi kullanılarak oluşturulan sıkıştırılmış dosyalardır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/compression/bz2) .
 
 ```csharp
 public static readonly FileType BZ2;

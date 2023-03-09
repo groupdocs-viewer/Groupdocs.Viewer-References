@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Mevcut olup olmadığını belirler.FileTypegroupdocs.viewer/filetypebelirtilenle aynıFileTypegroupdocs.viewer/filetype nesne.
+description: Mevcut olup olmadığını belirler.FileTypegroupdocs.viewer/filetype belirtilenle aynıFileTypegroupdocs.viewer/filetype nesne.
 type: docs
-weight: 1930
+weight: 1980
 url: /tr/net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Mevcut olup olmadığını belirler.[`FileType`](../../filetype)belirtilenle aynı[`FileType`](../../filetype) nesne.
+Mevcut olup olmadığını belirler.[`FileType`](../../filetype) belirtilenle aynı[`FileType`](../../filetype) nesne.
 
 ```csharp
 public bool Equals(FileType other)
@@ -20,7 +20,7 @@ public bool Equals(FileType other)
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`FileType`](../../filetype) nesneler aynıdır; aksi halde,
+ikisi de olursa[`FileType`](../../filetype) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Geri dönüş değeri
 
-eğer parametre[`FileType`](../../filetype) ve şu anki ile aynı[`FileType`](../../filetype) nesne; aksi halde,
+eğer parametre[`FileType`](../../filetype) ve şu anki ile aynı[`FileType`](../../filetype) nesne; aksi takdirde,
 
 ```csharp
 true

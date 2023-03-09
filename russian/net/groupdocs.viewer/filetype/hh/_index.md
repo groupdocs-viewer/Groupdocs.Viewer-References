@@ -3,7 +3,7 @@ title: HH
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Заголовочный файл C .hh
 type: docs
-weight: 550
+weight: 590
 url: /ru/net/groupdocs.viewer/filetype/hh/
 ---
 ## FileType.HH field

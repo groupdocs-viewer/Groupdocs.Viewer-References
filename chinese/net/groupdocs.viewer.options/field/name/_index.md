@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 字段名称
+description: 字段名称.
 type: docs
 weight: 490
 url: /zh/net/groupdocs.viewer.options/field/name/
 ---
 ## Field.Name property
 
-字段名称。
+字段名称.
 
 ```csharp
 public string Name { get; }

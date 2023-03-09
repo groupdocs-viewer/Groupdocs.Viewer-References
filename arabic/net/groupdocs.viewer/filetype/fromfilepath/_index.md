@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: استخراج امتداد الملف وتعيينه إلى نوع الملف.
 type: docs
-weight: 1880
+weight: 1930
 url: /ar/net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method

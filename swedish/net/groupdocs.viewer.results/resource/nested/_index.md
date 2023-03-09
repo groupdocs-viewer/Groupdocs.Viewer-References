@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/resource/nested/
 Anger om resursen finns i en annan resurs, t.ex. teckensnittsresurs som finns i CSS- eller SVG-resurs.
 
 ```csharp
-public bool Nested { get; }
+public bool Nested { get; set; }
 ```
 
 ### Se även

@@ -3,7 +3,7 @@ title: JPG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Изображение JPEG .jpg  это тип формата изображения который сохраняется с использованием метода сжатия с потерями. Выходное изображение полученное в результате сжатия представляет собой компромисс между размером хранилища и качеством изображения. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 690
+weight: 740
 url: /ru/net/groupdocs.viewer/filetype/jpg/
 ---
 ## FileType.JPG field

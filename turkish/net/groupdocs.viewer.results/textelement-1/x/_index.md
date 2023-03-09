@@ -1,17 +1,17 @@
 ---
 title: X
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Öğeyi içeren dikdörtgenin başladığı sayfa düzeninde soldaki en yüksek noktanın X koordinatı.
+description: Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın X koordinatı.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.results/textelement-1/x/
 ---
 ## TextElement&lt;T&gt;.X property
 
-Öğeyi içeren dikdörtgenin başladığı sayfa düzeninde soldaki en yüksek noktanın X koordinatı.
+Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın X koordinatı.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### Ayrıca bakınız

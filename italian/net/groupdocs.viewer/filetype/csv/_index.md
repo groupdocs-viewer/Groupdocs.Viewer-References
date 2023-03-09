@@ -1,14 +1,14 @@
 ---
 title: CSV
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File con valori separati da virgola .csv rappresenta file di testo normale che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/spreadsheet/csv .
+description: Il file con valori separati da virgola .csv rappresenta file di testo semplice che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/spreadsheet/csv .
 type: docs
-weight: 200
+weight: 220
 url: /it/net/groupdocs.viewer/filetype/csv/
 ---
 ## FileType.CSV field
 
-File con valori separati da virgola (.csv) rappresenta file di testo normale che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/spreadsheet/csv) .
+Il file con valori separati da virgola (.csv) rappresenta file di testo semplice che contengono record di dati con valori separati da virgola. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/spreadsheet/csv) .
 
 ```csharp
 public static readonly FileType CSV;

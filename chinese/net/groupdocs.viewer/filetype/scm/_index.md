@@ -3,7 +3,7 @@ title: SCM
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 方案源代码文件 .scm
 type: docs
-weight: 1330
+weight: 1380
 url: /zh/net/groupdocs.viewer/filetype/scm/
 ---
 ## FileType.SCM field

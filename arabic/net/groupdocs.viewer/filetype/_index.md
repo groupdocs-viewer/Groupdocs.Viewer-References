@@ -14,12 +14,19 @@ url: /ar/net/groupdocs.viewer/filetype/
 public sealed class FileType : IEquatable<FileType>
 ```
 
+## المنشئون
+
+| اسم | وصف |
+| --- | --- |
+| [FileType](filetype#constructor)() | تهيئة مثيل جديد لـ[`FileType`](../filetype) فئة . |
+| [FileType](filetype#constructor_1)(string, string) | تهيئة مثيل جديد لـ[`FileType`](../filetype) فئة . |
+
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Extension](../../groupdocs.viewer/filetype/extension) { get; } | لاحقة اسم الملف (بما في ذلك النقطة ".") مثل ".doc" . |
-| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; } | اسم نوع الملف ، مثل "مستند Microsoft Word". |
+| [Extension](../../groupdocs.viewer/filetype/extension) { get; set; } | لاحقة اسم الملف (بما في ذلك النقطة ".") مثل ".doc" . |
+| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; set; } | اسم نوع الملف ، مثل "مستند Microsoft Word". |
 
 ## طُرق
 
@@ -32,10 +39,12 @@ public sealed class FileType : IEquatable<FileType>
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_1)(Stream, ILogger) | يكتشف نوع الملف من خلال قراءة توقيع الملف. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_2)(Stream, string) | يكتشف نوع الملف من خلال قراءة توقيع الملف. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_3)(Stream, string, ILogger) | يكتشف نوع الملف من خلال قراءة توقيع الملف. |
-| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | يحدد ما إذا كان التيار[`FileType`](../filetype)هو نفسه كما هو محدد[`FileType`](../filetype) الكائن . |
+| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | يحدد ما إذا كان التيار[`FileType`](../filetype) هو نفسه كما هو محدد[`FileType`](../filetype) الكائن . |
 | override [Equals](../../groupdocs.viewer/filetype/equals#equals_1)(object) | يحدد ما إذا كان التيار[`FileType`](../filetype) هو نفس الكائن المحدد. |
 | override [GetHashCode](../../groupdocs.viewer/filetype/gethashcode)() | إرجاع كود التجزئة الحالي[`FileType`](../filetype) الكائن . |
 | override [ToString](../../groupdocs.viewer/filetype/tostring)() | إرجاع سلسلة تمثل الكائن الحالي. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding)(Stream) | محاولات لاكتشاف النص[`TXT`](./txt) و[`TSV`](./tsv) ، و[`CSV`](./csv) ترميز الملف عن طريق الدفق. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding_1)(string) | محاولات لاكتشاف النص[`TXT`](./txt) و[`TSV`](./tsv) ، و[`CSV`](./csv)ترميز الملفات عن طريق المسار. |
 | static [GetSupportedFileTypes](../../groupdocs.viewer/filetype/getsupportedfiletypes)() | استرداد أنواع الملفات المدعومة |
 | [operator ==](../../groupdocs.viewer/filetype/op_equality) | تحديد ما إذا كان اثنان[`FileType`](../filetype) الكائنات هي نفسها. |
 | [operator !=](../../groupdocs.viewer/filetype/op_inequality) | تحديد ما إذا كان اثنان[`FileType`](../filetype) الكائنات ليست هي نفسها. |
@@ -60,6 +69,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [CHM](../../groupdocs.viewer/filetype/chm) | Microsoft Compiled HTML Help File (.chm) هو تنسيق معروف لمستندات HELP (وثائق بعض التطبيقات) . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://docs.fileformat.com/web/chm/) . |
 | static readonly [CMAKE](../../groupdocs.viewer/filetype/cmake) | ملف CMake (.cmake) |
 | static readonly [CMX](../../groupdocs.viewer/filetype/cmx) | Corel Exchange (.cmx) هو ملف صورة رسم قد يحتوي على رسومات متجهة بالإضافة إلى رسومات نقطية. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/image/cmx) . |
+| static readonly [CPIO](../../groupdocs.viewer/filetype/cpio) | Cpio هي أداة عامة لأرشيف الملفات وتنسيق الملف المرتبط بها. يتم تثبيته بشكل أساسي على أنظمة تشغيل كمبيوتر تشبه Unix . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/compression/cpio) . |
 | static readonly [CPP](../../groupdocs.viewer/filetype/cpp) | ملف التعليمات البرمجية المصدر C ++ (.cpp) |
 | static readonly [CS](../../groupdocs.viewer/filetype/cs) | C # Source Code File (.cs) هو ملف شفرة مصدر للغة البرمجة C #. مقدمة من Microsoft للاستخدام مع .NET Framework . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/programming/cs) . |
 | static readonly [CSS](../../groupdocs.viewer/filetype/css) | ورقة الأنماط المتتالية (.css) |
@@ -78,6 +88,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [DOTM](../../groupdocs.viewer/filetype/dotm) | قالب مستند Word Open XML ممكّن بماكرو (.dotm) يمثل ملف قالب تم إنشاؤه باستخدام Microsoft Word 2007 أو أعلى . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/word-processing/dotm) . |
 | static readonly [DOTX](../../groupdocs.viewer/filetype/dotx) | Word Open XML Document Template (.dotx) عبارة عن ملفات قوالب تم إنشاؤها بواسطة Microsoft Word للحصول على إعدادات منسقة مسبقًا لإنشاء ملفات DOCX أخرى. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/word-processing/dotx) . |
 | static readonly [DWF](../../groupdocs.viewer/filetype/dwf) | يمثل Design Web Format File (.dwf) رسمًا ثنائي الأبعاد / ثلاثي الأبعاد بتنسيق مضغوط لعرض ملفات التصميم أو مراجعتها أو طباعتها. يحتوي على رسومات ونصوص كجزء من بيانات التصميم وتقليل حجم الملف بسبب تنسيقه المضغوط . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/cad/dwf) . |
+| static readonly [DWFX](../../groupdocs.viewer/filetype/dwfx) | ملف تصميم الويب بتنسيق XPS (.dwfx) يمثل الرسم ثنائي الأبعاد / ثلاثي الأبعاد كمستند XPS بتنسيق مضغوط لعرض ملفات التصميم أو مراجعتها أو طباعتها. يحتوي على رسومات ونصوص كجزء من بيانات التصميم وتقليل حجم الملف بسبب تنسيقه المضغوط . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/cad/dwfx) . |
 | static readonly [DWG](../../groupdocs.viewer/filetype/dwg) | ملف قاعدة بيانات رسم AutoCAD (.dwg) يمثل الملفات الثنائية الخاصة المستخدمة لاحتواء بيانات التصميم ثنائية وثلاثية الأبعاد. مثل DXF ، وهي ملفات ASCII ، تمثل DWG تنسيق الملف الثنائي لرسومات CAD (التصميم بمساعدة الكمبيوتر). تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/cad/dwg) . |
 | static readonly [DWT](../../groupdocs.viewer/filetype/dwt) | قالب رسم AutoCAD (.dwt) هو ملف قالب رسم AutoCAD يُستخدم كبداية لإنشاء رسومات يمكن حفظها كملفات DWG . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/cad/dwt) . |
 | static readonly [DXF](../../groupdocs.viewer/filetype/dxf) | ملف تنسيق تبادل الرسم (.dxf) هو تمثيل بيانات ذو علامات لملف رسم AutoCAD . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/cad/dxf) . |
@@ -89,6 +100,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [EPUB](../../groupdocs.viewer/filetype/epub) | ملف الكتاب الإلكتروني المفتوح (.epub) هو تنسيق ملف كتاب إلكتروني يوفر تنسيقًا قياسيًا للنشر الرقمي للناشرين والمستهلكين. أصبح التنسيق شائعًا جدًا حتى الآن لدرجة أنه مدعوم من قبل العديد من برامج القراءة الإلكترونية وتطبيقات البرامج . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/ebook/epub) . |
 | static readonly [ERB](../../groupdocs.viewer/filetype/erb) | برنامج Ruby ERB النصي (.erb) |
 | static readonly [Excel2003XML](../../groupdocs.viewer/filetype/excel2003xml) | يمثل Excel 2003 XML (SpreadsheetML) تنسيق ملف Excel الثنائي. يمكن إنشاء مثل هذه الملفات بواسطة Microsoft Excel بالإضافة إلى برامج جداول البيانات المماثلة الأخرى مثل OpenOffice Calc أو Apple Numbers. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/spreadsheet/xls) . |
+| static readonly [FBX](../../groupdocs.viewer/filetype/fbx) | Autodesk FBX Interchange File (FilmBoX) (.fbx) يمثل تنسيق نموذج ثلاثي الأبعاد . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/cad/fbx) . |
 | static readonly [FODG](../../groupdocs.viewer/filetype/fodg) | يتم استخدام قالب ODF XML المسطح (.fodg) بواسطة تطبيق رسم Apache OpenOffice لتخزين عناصر الرسم كصورة متجهة. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/image/fodg) . |
 | static readonly [FODP](../../groupdocs.viewer/filetype/fodp) | OpenDocument Presentation (.fodp) يمثل OpenDocument Flat XML Presentation . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://fileinfo.com/extension/fodp) . |
 | static readonly [FODS](../../groupdocs.viewer/filetype/fods) | جدول بيانات XML مسطح OpenDocument (.fods) |
@@ -108,6 +120,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | دفق كود JPEG 2000 (.j2c) |
 | static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) هي صورة يتم ضغطها باستخدام ضغط الموجة بدلاً من ضغط DCT . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/image/j2k) . |
 | static readonly [JAVA](../../groupdocs.viewer/filetype/java) | ملف شفرة مصدر Java (.java) |
+| static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
 | static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) هو نظام ترميز للصور وأحدث معايير ضغط الصور. تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/image/jp2) . |
 | static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | دفق كود JPEG 2000 (.jpc) |
 | static readonly [JPEG](../../groupdocs.viewer/filetype/jpeg) | صورة JPEG (.jpeg) هي نوع من تنسيق الصورة يتم حفظها باستخدام طريقة الضغط مع فقدان البيانات. الصورة الناتجة ، كنتيجة للضغط ، هي مقايضة بين حجم التخزين وجودة الصورة . تعرف على المزيد حول تنسيق الملف هذا[هنا](https://wiki.fileformat.com/image/jpeg) . |

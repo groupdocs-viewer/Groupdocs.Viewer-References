@@ -20,13 +20,13 @@ public static string GetResourceFilter(int pageNumber)
 
 ### 返回值
 
-过滤字符串以搜索表示[`Resource`](../../../groupdocs.viewer.results/resource)对象。
+过滤字符串以搜索代表[`Resource`](../../../groupdocs.viewer.results/resource)对象。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*pageNumber*小于或等于零。 |
+| ArgumentException | 抛出时*pageNumber*小于或等于零。 |
 
 ### 也可以看看
 

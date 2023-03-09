@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Microsoft Excel Şablonu .xlt Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Microsoft Office 972003 yeni XLT dosyaları oluşturmayı ve bunları açmayı destekledi. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xlt .
+description: Microsoft Excel Şablonu .xlt Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Microsoft Office 972003 yeni XLT dosyaları oluşturmayı ve bunları açmayı destekledi. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xlt .
 type: docs
-weight: 1790
+weight: 1840
 url: /tr/net/groupdocs.viewer/filetype/xlt/
 ---
 ## FileType.XLT field
 
-Microsoft Excel Şablonu (.xlt), Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Microsoft Office 97-2003, yeni XLT dosyaları oluşturmayı ve bunları açmayı destekledi. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xlt) .
+Microsoft Excel Şablonu (.xlt), Microsoft Office paketinin bir parçası olarak gelen bir elektronik tablo uygulaması olan Microsoft Excel ile oluşturulan şablon dosyalarıdır. Microsoft Office 97-2003, yeni XLT dosyaları oluşturmayı ve bunları açmayı destekledi. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xlt) .
 
 ```csharp
 public static readonly FileType XLT;

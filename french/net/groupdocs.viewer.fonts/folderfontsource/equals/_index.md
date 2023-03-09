@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
-description: Détermine si le courantFolderFontSourcegroupdocs.viewer.fonts/folderfontsourceest le même que celui spécifiéFolderFontSourcegroupdocs.viewer.fonts/folderfontsource objet.
+description: Détermine si le courantFolderFontSourcegroupdocs.viewer.fonts/folderfontsource est le même que celui spécifiéFolderFontSourcegroupdocs.viewer.fonts/folderfontsource objet.
 type: docs
 weight: 40
 url: /fr/net/groupdocs.viewer.fonts/folderfontsource/equals/
 ---
 ## Equals(FolderFontSource) {#equals}
 
-Détermine si le courant[`FolderFontSource`](../../folderfontsource)est le même que celui spécifié[`FolderFontSource`](../../folderfontsource) objet.
+Détermine si le courant[`FolderFontSource`](../../folderfontsource) est le même que celui spécifié[`FolderFontSource`](../../folderfontsource) objet.
 
 ```csharp
 public bool Equals(FolderFontSource other)
@@ -20,7 +20,7 @@ public bool Equals(FolderFontSource other)
 
 ### Return_Value
 
-si les deux[`FolderFontSource`](../../folderfontsource) les objets sont les mêmes; Par ailleurs,
+si les deux[`FolderFontSource`](../../folderfontsource) les objets sont les mêmes; sinon,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Return_Value
 
-si le paramètre est[`FolderFontSource`](../../folderfontsource) et est le même que le courant[`FolderFontSource`](../../folderfontsource) objet; Par ailleurs,
+si le paramètre est[`FolderFontSource`](../../folderfontsource) et est le même que le courant[`FolderFontSource`](../../folderfontsource) objet; sinon,
 
 ```csharp
 true

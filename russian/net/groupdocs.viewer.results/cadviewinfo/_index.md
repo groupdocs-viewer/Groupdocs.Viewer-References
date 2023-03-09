@@ -18,16 +18,16 @@ public class CadViewInfo : ViewInfo
 
 | Имя | Описание |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | Инициализирует новый экземпляр[`CadViewInfo`](../cadviewinfo) класс. |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | Инициализирует новый экземпляр[`CadViewInfo`](../cadviewinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Тип файла. |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | Список слоев, содержащихся в чертеже САПР. |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | Список компоновок, содержащихся в чертеже САПР. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Список страниц для просмотра. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Тип файла. |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | Список слоев, содержащихся в чертеже САПР. |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | Список компоновок, содержащихся в чертеже САПР. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Список страниц для просмотра. |
 
 ## Методы
 

@@ -3,7 +3,7 @@ title: Extension
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Суффикс имени файла включая точку . например .doc.
 type: docs
-weight: 1910
+weight: 1960
 url: /ru/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer/filetype/extension/
 Суффикс имени файла (включая точку "."), например, ".doc".
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### Смотрите также

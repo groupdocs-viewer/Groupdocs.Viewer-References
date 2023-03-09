@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/fileinfo/fileinfo/
 ---
-## FileInfo constructor
+## FileInfo() {#constructor}
+
+تهيئة مثيل جديد لـ[`FileType`](../filetype) فئة .
+
+```csharp
+public FileInfo()
+```
+
+### أنظر أيضا
+
+* class [FileInfo](../../fileinfo)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../fileinfo)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## FileInfo(FileType) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`FileType`](../filetype) فئة .
 

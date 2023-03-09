@@ -1,14 +1,14 @@
 ---
 title: PdfViewOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diPdfViewOptionsgroupdocs.viewer.options/pdfviewoptions classe.
+description: Inizializza una nuova istanza diPdfViewOptionsgroupdocs.viewer.options/pdfviewoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/pdfviewoptions/pdfviewoptions/
 ---
 ## PdfViewOptions(CreateFileStream) {#constructor_1}
 
-Inizializza la nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
+Inizializza una nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
 
 ```csharp
 public PdfViewOptions(CreateFileStream createFileStream)
@@ -35,7 +35,7 @@ public PdfViewOptions(CreateFileStream createFileStream)
 
 ## PdfViewOptions(CreateFileStream, ReleaseFileStream) {#constructor_2}
 
-Inizializza la nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
+Inizializza una nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
 
 ```csharp
 public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream releaseFileStream)
@@ -44,7 +44,7 @@ public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream relea
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | createFileStream | CreateFileStream | Il metodo che crea un'istanza del flusso utilizzato per scrivere i dati del file di output. |
-| releaseFileStream | ReleaseFileStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato a cui è passato*createFileStream* parametro. |
+| releaseFileStream | ReleaseFileStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato passato a*createFileStream* parametro. |
 
 ### Eccezioni
 
@@ -65,7 +65,7 @@ public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream relea
 
 ## PdfViewOptions(IFileStreamFactory) {#constructor_3}
 
-Inizializza la nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
+Inizializza una nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
 
 ```csharp
 public PdfViewOptions(IFileStreamFactory fileStreamFactory)
@@ -92,7 +92,7 @@ public PdfViewOptions(IFileStreamFactory fileStreamFactory)
 
 ## PdfViewOptions() {#constructor}
 
-Inizializza la nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
+Inizializza una nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
 
 ```csharp
 public PdfViewOptions()
@@ -112,7 +112,7 @@ Questo costruttore inizializza una nuova istanza di[`PdfViewOptions`](../../pdfv
 
 ## PdfViewOptions(string) {#constructor_4}
 
-Inizializza la nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
+Inizializza una nuova istanza di[`PdfViewOptions`](../../pdfviewoptions) classe.
 
 ```csharp
 public PdfViewOptions(string outputFilePath)

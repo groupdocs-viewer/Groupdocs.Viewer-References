@@ -3,7 +3,7 @@ title: MAKE
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Xcode Makefile Komut Dosyası .make
 type: docs
-weight: 770
+weight: 820
 url: /tr/net/groupdocs.viewer/filetype/make/
 ---
 ## FileType.MAKE field

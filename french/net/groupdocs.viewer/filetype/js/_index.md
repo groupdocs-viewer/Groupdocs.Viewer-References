@@ -3,7 +3,7 @@ title: JS
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier JavaScript .js
 type: docs
-weight: 720
+weight: 770
 url: /fr/net/groupdocs.viewer/filetype/js/
 ---
 ## FileType.JS field

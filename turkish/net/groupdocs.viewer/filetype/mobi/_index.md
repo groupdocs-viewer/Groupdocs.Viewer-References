@@ -1,14 +1,14 @@
 ---
 title: MOBI
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Mobipocket eKitap .mobi en yaygın kullanılan ekitap dosya biçimlerinden biridir. Biçim eski OEB Açık EKitap Biçimi biçiminin geliştirilmiş halidir ve Mobipocket Reader için tescilli biçim olarak kullanılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/ebook/mobi .
+description: Mobipocket eKitap .mobi en yaygın kullanılan ekitap dosya biçimlerinden biridir. Biçim eski OEB Açık EKitap Biçimi biçiminin geliştirilmiş halidir ve Mobipocket Reader için tescilli biçim olarak kullanılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/ebook/mobi .
 type: docs
-weight: 840
+weight: 890
 url: /tr/net/groupdocs.viewer/filetype/mobi/
 ---
 ## FileType.MOBI field
 
-Mobipocket eKitap (.mobi), en yaygın kullanılan e-kitap dosya biçimlerinden biridir. Biçim, eski OEB (Açık E-Kitap Biçimi) biçiminin geliştirilmiş halidir ve Mobipocket Reader için tescilli biçim olarak kullanılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/ebook/mobi) .
+Mobipocket eKitap (.mobi), en yaygın kullanılan e-kitap dosya biçimlerinden biridir. Biçim, eski OEB (Açık E-Kitap Biçimi) biçiminin geliştirilmiş halidir ve Mobipocket Reader için tescilli biçim olarak kullanılmıştır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/ebook/mobi) .
 
 ```csharp
 public static readonly FileType MOBI;

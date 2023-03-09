@@ -3,7 +3,7 @@ title: DOCX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Microsoft Word Open XML Document .docx هو تنسيق معروف لمستندات Microsoft Word. تم تقديمه من عام 2007 مع إصدار Microsoft Office 2007  تم تغيير هيكل تنسيق المستند الجديد هذا من ثنائي عادي إلى مجموعة من ملفات XML والملفات الثنائية. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
-weight: 300
+weight: 320
 url: /ar/net/groupdocs.viewer/filetype/docx/
 ---
 ## FileType.DOCX field

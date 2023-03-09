@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/textelement-1/width/
 El ancho del rectángulo que contiene el elemento (en píxeles).
 
 ```csharp
-public double Width { get; }
+public double Width { get; set; }
 ```
 
 ### Ver también

@@ -22,16 +22,16 @@ public void View(ViewOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 找不到附件时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于本指南中不同查看选项的信息： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
+* 更多关于遵循本指南的不同查看选项： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### 也可以看看
 
@@ -53,22 +53,22 @@ public void View(ViewOptions options, CancellationToken cancellationToken)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | options | ViewOptions | 视图选项。 |
-| cancellationToken | CancellationToken | 取消令牌发送取消当前视图进程的请求。 |
+| cancellationToken | CancellationToken | 取消令牌发送取消当前查看进程的请求。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 找不到附件时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于本指南中不同查看选项的信息： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
+* 更多关于遵循本指南的不同查看选项： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### 也可以看看
 
@@ -96,18 +96,18 @@ public void View(ViewOptions options, params int[] pageNumbers)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
-| ArgumentNullException | 何时抛出*pageNumbers*一片空白。 |
-| ArgumentException | 何时抛出*pageNumbers*是空的。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
+| ArgumentNullException | 抛出时*pageNumbers*一片空白。 |
+| ArgumentException | 抛出时*pageNumbers*是空的。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 找不到附件时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于本指南中不同查看选项的信息： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
+* 更多关于遵循本指南的不同查看选项： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### 也可以看看
 
@@ -130,24 +130,24 @@ public void View(ViewOptions options, CancellationToken cancellationToken, param
 | --- | --- | --- |
 | options | ViewOptions | 视图选项。 |
 | pageNumbers | CancellationToken | 要查看的页码。 |
-| cancellationToken | Int32[] | 取消令牌以取消处理。 |
+| cancellationToken | Int32[] | 用于取消处理的取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*options*一片空白。 |
-| ArgumentNullException | 何时抛出*pageNumbers*一片空白。 |
-| ArgumentException | 何时抛出*pageNumbers*是空的。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*options*一片空白。 |
+| ArgumentNullException | 抛出时*pageNumbers*一片空白。 |
+| ArgumentException | 抛出时*pageNumbers*是空的。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 找不到附件时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
-* 更多关于本指南中不同查看选项的信息： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
+* 更多关于遵循本指南的不同查看选项： [如何使用 GroupDocs.Viewer 自定义文档查看输出](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: H
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: C/C/ObjectiveC Başlık Dosyası .h
 type: docs
-weight: 530
+weight: 570
 url: /tr/net/groupdocs.viewer/filetype/h/
 ---
 ## FileType.H field

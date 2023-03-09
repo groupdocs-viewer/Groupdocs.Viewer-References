@@ -3,7 +3,7 @@ title: FODS
 second_title: GroupDocs.Viewer for .NET API 参考
 description: OpenDocument 平面 XML 电子表格 .fods
 type: docs
-weight: 480
+weight: 520
 url: /zh/net/groupdocs.viewer/filetype/fods/
 ---
 ## FileType.FODS field

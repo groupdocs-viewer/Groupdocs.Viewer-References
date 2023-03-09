@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/viewinfo/pages/
 Görüntülenecek sayfaların listesi.
 
 ```csharp
-public IList<Page> Pages { get; }
+public List<Page> Pages { get; set; }
 ```
 
 ### Ayrıca bakınız

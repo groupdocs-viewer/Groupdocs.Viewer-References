@@ -3,7 +3,7 @@ title: PL
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Perl 脚本 .pl
 type: docs
-weight: 1060
+weight: 1110
 url: /zh/net/groupdocs.viewer/filetype/pl/
 ---
 ## FileType.PL field

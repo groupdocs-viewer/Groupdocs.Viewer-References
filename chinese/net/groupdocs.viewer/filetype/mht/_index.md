@@ -1,14 +1,14 @@
 ---
 title: MHT
 second_title: GroupDocs.Viewer for .NET API 参考
-description: MHTML 网络档案 .mht
+description: MHTML 网络存档 .mht
 type: docs
-weight: 800
+weight: 850
 url: /zh/net/groupdocs.viewer/filetype/mht/
 ---
 ## FileType.MHT field
 
-MHTML 网络档案 (.mht)
+MHTML 网络存档 (.mht)
 
 ```csharp
 public static readonly FileType MHT;

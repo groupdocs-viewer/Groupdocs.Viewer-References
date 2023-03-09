@@ -1,14 +1,14 @@
 ---
 title: RST
 second_title: GroupDocs.Viewer for .NET API 参考
-description: reStructuredText 文件 .rst
+description: 重组文本文件 .rst
 type: docs
-weight: 1290
+weight: 1340
 url: /zh/net/groupdocs.viewer/filetype/rst/
 ---
 ## FileType.RST field
 
-reStructuredText 文件 (.rst)
+重组文本文件 (.rst)
 
 ```csharp
 public static readonly FileType RST;

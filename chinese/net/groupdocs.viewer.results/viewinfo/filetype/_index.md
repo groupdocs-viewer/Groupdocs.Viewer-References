@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/viewinfo/filetype/
 文件的类型。
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### 也可以看看

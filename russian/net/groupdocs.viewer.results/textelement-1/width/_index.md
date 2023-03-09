@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/textelement-1/width/
 Ширина прямоугольника, содержащего элемент (в пикселях).
 
 ```csharp
-public double Width { get; }
+public double Width { get; set; }
 ```
 
 ### Смотрите также

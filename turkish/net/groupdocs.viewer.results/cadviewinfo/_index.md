@@ -18,16 +18,16 @@ public class CadViewInfo : ViewInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | Yeni örneğini başlatır[`CadViewInfo`](../cadviewinfo) sınıf. |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | Yeni örneğini başlatır[`CadViewInfo`](../cadviewinfo) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Dosyanın türü. |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | CAD çiziminin içerdiği katmanların listesi. |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | CAD çiziminin içerdiği düzenlerin listesi. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Görüntülenecek sayfaların listesi. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Dosyanın türü. |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | CAD çiziminin içerdiği katmanların listesi. |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | CAD çiziminin içerdiği düzenlerin listesi. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Görüntülenecek sayfaların listesi. |
 
 ## yöntemler
 

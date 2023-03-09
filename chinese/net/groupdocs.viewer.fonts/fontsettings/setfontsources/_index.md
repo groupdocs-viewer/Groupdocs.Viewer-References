@@ -22,7 +22,7 @@ public static void SetFontSources(params IFontSource[] fontSources)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*fontSources*一片空白。 |
+| ArgumentNullException | 抛出时*fontSources*一片空白。 |
 
 ### 也可以看看
 

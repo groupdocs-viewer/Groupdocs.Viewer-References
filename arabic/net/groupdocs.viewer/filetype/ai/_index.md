@@ -3,7 +3,7 @@ title: AI
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Adobe Illustrator .ai هو تنسيق ملف لرسومات Adobe Illustrator . تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/aiadobe_illustrator_file .
 type: docs
-weight: 10
+weight: 20
 url: /ar/net/groupdocs.viewer/filetype/ai/
 ---
 ## FileType.AI field

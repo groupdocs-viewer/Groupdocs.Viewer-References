@@ -1,14 +1,14 @@
 ---
 title: MaxItemsInFolder
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 可以从一个文件夹呈现的消息或项目的最大数量
+description: 可以从一个文件夹呈现的最大消息或项目数
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/outlookoptions/maxitemsinfolder/
 ---
 ## OutlookOptions.MaxItemsInFolder property
 
-可以从一个文件夹呈现的消息或项目的最大数量。
+可以从一个文件夹呈现的最大消息或项目数。
 
 ```csharp
 public int MaxItemsInFolder { get; set; }
@@ -16,7 +16,7 @@ public int MaxItemsInFolder { get; set; }
 
 ### 评论
 
-Outlook 数据文件可能很大，检索所有邮件可能需要很长时间。 此设置限制呈现的邮件或项目（如联系人和任务）的最大数量。 默认值为 50。为了呈现所有邮件，请设置值为 0.
+Outlook 数据文件可能很大，检索所有消息可能需要很长时间。 此设置限制呈现的消息或项目（如联系人和任务）的最大数量。 默认值为 50。为了呈现所有消息，设置值为 0.
 
 ### 也可以看看
 

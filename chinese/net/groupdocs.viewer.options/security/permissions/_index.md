@@ -1,14 +1,14 @@
 ---
 title: Permissions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: PDF文档的打印修改数据提取等权限
+description: PDF文档打印修改数据提取等权限
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/security/permissions/
 ---
 ## Security.Permissions property
 
-PDF文档的打印、修改、数据提取等权限。
+PDF文档打印、修改、数据提取等权限。
 
 ```csharp
 public Permissions Permissions { get; set; }

@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/page/name/
 Имя листа или страницы.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Смотрите также

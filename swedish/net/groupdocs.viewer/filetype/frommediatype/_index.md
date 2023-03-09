@@ -3,7 +3,7 @@ title: FromMediaType
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Mappar filmediatyp till filtyp t.ex. applikation/pdf kommer att mappas tillPDFgroupdocs.viewer/filetype/pdf .
 type: docs
-weight: 1890
+weight: 1940
 url: /sv/net/groupdocs.viewer/filetype/frommediatype/
 ---
 ## FileType.FromMediaType method

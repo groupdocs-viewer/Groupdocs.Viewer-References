@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 打开加密文件的密码
+description: 加密文件打开密码.
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-打开加密文件的密码。
+加密文件打开密码.
 
 ```csharp
 public string Password { get; set; }

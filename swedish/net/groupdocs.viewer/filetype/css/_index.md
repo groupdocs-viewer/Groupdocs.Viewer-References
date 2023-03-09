@@ -3,7 +3,7 @@ title: CSS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Cascading Style Sheet .css
 type: docs
-weight: 190
+weight: 210
 url: /sv/net/groupdocs.viewer/filetype/css/
 ---
 ## FileType.CSS field

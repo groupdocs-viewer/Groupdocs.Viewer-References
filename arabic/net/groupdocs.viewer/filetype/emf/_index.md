@@ -3,7 +3,7 @@ title: EMF
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل ملف تعريف Windows المحسّن .emf الصور الرسومية على حدة. تتكون ملفات تعريف EMF من سجلات متغيرة الطول بترتيب زمني يمكن أن تعرض الصورة المخزنة بعد التحليل على أي جهاز إخراج . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 380
+weight: 410
 url: /ar/net/groupdocs.viewer/filetype/emf/
 ---
 ## FileType.EMF field

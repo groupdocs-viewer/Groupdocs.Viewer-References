@@ -1,14 +1,14 @@
 ---
 title: JpgQuality
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 输出PDF文档所包含的JPG图像的质量 有效值在1到100之间 默认值为90
+description: 输出 PDF 文档包含的 JPG 图像的质量 有效值介于 1 和 100 之间 默认值为 90.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.options/pdfviewoptions/jpgquality/
 ---
 ## PdfViewOptions.JpgQuality property
 
-输出PDF文档所包含的JPG图像的质量； 有效值在1到100之间； 默认值为90。
+输出 PDF 文档包含的 JPG 图像的质量； 有效值介于 1 和 100 之间； 默认值为 90.
 
 ```csharp
 public byte JpgQuality { get; set; }

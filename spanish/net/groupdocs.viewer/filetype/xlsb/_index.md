@@ -3,7 +3,7 @@ title: XLSB
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Hoja de cálculo binaria de Excel .xlsb especifica el formato de archivo binario de Excel que es una colección de registros y estructuras que especifican el contenido del libro de Excel. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/xlsb .
 type: docs
-weight: 1760
+weight: 1810
 url: /es/net/groupdocs.viewer/filetype/xlsb/
 ---
 ## FileType.XLSB field

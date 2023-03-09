@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
-description: Initialise la nouvelle instance deViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsclasse pour récupérer des informations sur la vue lors du rendu en PNG.
+description: Initialise la nouvelle instance deViewInfoOptionsgroupdocs.viewer.options/viewinfooptions classe pour récupérer des informations sur la vue lors du rendu en PNG.
 type: docs
 weight: 30
 url: /fr/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-Initialise la nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions)classe pour récupérer des informations sur la vue lors du rendu en PNG.
+Initialise la nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe pour récupérer des informations sur la vue lors du rendu en PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -16,7 +16,7 @@ public static ViewInfoOptions ForPngView()
 
 ### Return_Value
 
-Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classer.
+Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ### Voir également
 
@@ -28,7 +28,7 @@ Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classer.
 
 ## ForPngView(bool) {#forpngview_1}
 
-Initialise la nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions)classe pour récupérer des informations sur la vue lors du rendu en PNG.
+Initialise la nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe pour récupérer des informations sur la vue lors du rendu en PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForPngView(bool extractText)
 
 ### Return_Value
 
-Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classer.
+Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ### Voir également
 

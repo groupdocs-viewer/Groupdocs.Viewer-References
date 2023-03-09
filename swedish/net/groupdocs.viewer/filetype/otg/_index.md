@@ -3,7 +3,7 @@ title: OTG
 second_title: GroupDocs.Viewer för .NET API-referens
 description: OpenDocument grafisk mall .otg
 type: docs
-weight: 980
+weight: 1030
 url: /sv/net/groupdocs.viewer/filetype/otg/
 ---
 ## FileType.OTG field

@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
 Initialisiert eine neue Instanz von[`Line`](../../line) Klasse.
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### Siehe auch
+
+* class [Line](../../line)
+* namensraum [GroupDocs.Viewer.Results](../../line)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+Initialisiert eine neue Instanz von[`Line`](../../line) Klasse.
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | Parameter | Typ | Beschreibung |
@@ -21,7 +37,7 @@ public Line(string line, double x, double y, double width, double height, IList<
 | y | Double | Die Y-Koordinate des höchsten linken Punktes im Seitenlayout, wo das Rechteck mit der Linie beginnt. |
 | width | Double | Die Breite des Rechtecks, das die Linie enthält (in Pixel). |
 | height | Double | Die Höhe des Rechtecks, das die Linie enthält (in Pixel). |
-| words | IList`1 | Die in der Zeile enthaltenen Wörter. |
+| words | List`1 | Die in der Zeile enthaltenen Wörter. |
 
 ### Ausnahmen
 

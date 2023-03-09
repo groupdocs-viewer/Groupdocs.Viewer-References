@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/attachment/filepath/
 Bilags relativ sökväg t.exmapp/fil.docx eller filnamn när filen finns i roten av ett arkiv, i e-postmeddelande eller datafil.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### Se även

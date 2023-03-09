@@ -1,25 +1,25 @@
 ---
 title: CadViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diCadViewInfogroupdocs.viewer.results/cadviewinfo classe.
+description: Inizializza una nuova istanza diCadViewInfogroupdocs.viewer.results/cadviewinfo classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/cadviewinfo/cadviewinfo/
 ---
 ## CadViewInfo constructor
 
-Inizializza la nuova istanza di[`CadViewInfo`](../../cadviewinfo) classe.
+Inizializza una nuova istanza di[`CadViewInfo`](../../cadviewinfo) classe.
 
 ```csharp
-public CadViewInfo(FileType fileType, IList<Page> pages, IList<Layer> layers, IList<Layout> layouts)
+public CadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileType | FileType | Il tipo di file. |
-| pages | IList`1 | L'elenco delle pagine da visualizzare. |
-| layers | IList`1 | L'elenco dei layer contenuti nel disegno CAD. |
-| layouts | IList`1 | L'elenco dei layer contenuti nel disegno CAD. |
+| pages | List`1 | L'elenco delle pagine da visualizzare. |
+| layers | List`1 | L'elenco dei layer contenuti nel disegno CAD. |
+| layouts | List`1 | L'elenco dei layer contenuti nel disegno CAD. |
 
 ### Eccezioni
 

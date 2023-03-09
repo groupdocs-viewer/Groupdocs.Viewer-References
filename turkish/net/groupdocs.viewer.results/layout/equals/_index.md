@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Mevcut olup olmadığını belirler.Layoutgroupdocs.viewer.results/layoutbelirtilenle aynıLayoutgroupdocs.viewer.results/layout nesne.
+description: Mevcut olup olmadığını belirler.Layoutgroupdocs.viewer.results/layout belirtilenle aynıLayoutgroupdocs.viewer.results/layout nesne.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.results/layout/equals/
 ---
 ## Equals(Layout) {#equals}
 
-Mevcut olup olmadığını belirler.[`Layout`](../../layout)belirtilenle aynı[`Layout`](../../layout) nesne.
+Mevcut olup olmadığını belirler.[`Layout`](../../layout) belirtilenle aynı[`Layout`](../../layout) nesne.
 
 ```csharp
 public bool Equals(Layout other)
@@ -20,7 +20,7 @@ public bool Equals(Layout other)
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`Layout`](../../layout) nesneler aynıdır; aksi halde,
+ikisi de olursa[`Layout`](../../layout) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Geri dönüş değeri
 
-eğer parametre[`Layout`](../../layout) ve şu anki ile aynı[`Layout`](../../layout) nesne; aksi halde,
+eğer parametre[`Layout`](../../layout) ve şu anki ile aynı[`Layout`](../../layout) nesne; aksi takdirde,
 
 ```csharp
 true

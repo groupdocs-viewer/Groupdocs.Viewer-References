@@ -1,14 +1,14 @@
 ---
 title: NSF
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Lotus Notes Veritabanı .nsf Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/nsf .
+description: Lotus Notes Veritabanı .nsf Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/nsf .
 type: docs
-weight: 890
+weight: 940
 url: /tr/net/groupdocs.viewer/filetype/nsf/
 ---
 ## FileType.NSF field
 
-Lotus Notes Veritabanı (.nsf) Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/nsf) .
+Lotus Notes Veritabanı (.nsf) Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/nsf) .
 
 ```csharp
 public static readonly FileType NSF;

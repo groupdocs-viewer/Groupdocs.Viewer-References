@@ -16,7 +16,7 @@ public IList<Tile> Tiles { get; set; }
 
 ### Notlar
 
-Bu seçenek yalnızca şunlar için desteklenir:[`DWG`](../../../groupdocs.viewer/filetype/dwg) ve[`DWT`](../../../groupdocs.viewer/filetype/dwt) dosya türleri. [`RenderLayouts`](../renderlayouts) ve[`LayoutName`](../layoutname) döşemelerle oluşturulurken seçenekler göz ardı edilir.
+Bu seçenek yalnızca şunlar için desteklenir:[`DWG`](../../../groupdocs.viewer/filetype/dwg) Ve[`DWT`](../../../groupdocs.viewer/filetype/dwt) dosya türleri. [`RenderLayouts`](../renderlayouts) Ve[`LayoutName`](../layoutname) döşemelerle oluşturulurken seçenekler göz ardı edilir.
 
 ### Ayrıca bakınız
 

@@ -20,7 +20,7 @@ public static ViewInfoOptions FromPngViewOptions(PngViewOptions options)
 
 ### Return_Value
 
-Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classer.
+Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ### Exceptions
 

@@ -18,15 +18,16 @@ public class LotusNotesViewInfo : ViewInfo
 
 | اسم | وصف |
 | --- | --- |
-| [LotusNotesViewInfo](lotusnotesviewinfo)(FileType, IList&lt;Page&gt;, int) | تهيئة مثيل جديد لـ[`LotusNotesViewInfo`](../lotusnotesviewinfo) فئة . |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor)() | تهيئة مثيل جديد لـ[`LotusNotesViewInfo`](../lotusnotesviewinfo) فئة . |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | تهيئة مثيل جديد لـ[`LotusNotesViewInfo`](../lotusnotesviewinfo) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | نوع الملف. |
-| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; } | عدد الملاحظات في التخزين |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | قائمة الصفحات المراد عرضها . |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | نوع الملف. |
+| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; set; } | عدد الملاحظات في التخزين |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | قائمة الصفحات المراد عرضها . |
 
 ## طُرق
 

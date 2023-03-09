@@ -1,14 +1,14 @@
 ---
 title: APNG
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Hareketli Taşınabilir Ağ Grafiği .apng PNG formatının animasyonu destekleyen uzantısıdır. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/apng .
+description: Animasyonlu Taşınabilir Ağ Grafiği .apng animasyonu destekleyen PNG biçiminin uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/apng .
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/groupdocs.viewer/filetype/apng/
 ---
 ## FileType.APNG field
 
-Hareketli Taşınabilir Ağ Grafiği (.apng), PNG formatının animasyonu destekleyen uzantısıdır. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/apng) .
+Animasyonlu Taşınabilir Ağ Grafiği (.apng), animasyonu destekleyen PNG biçiminin uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/apng) .
 
 ```csharp
 public static readonly FileType APNG;

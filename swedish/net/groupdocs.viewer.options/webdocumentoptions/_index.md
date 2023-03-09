@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
 second_title: GroupDocs.Viewer för .NET API-referens
-description: De här renderingsalternativen gör att du kan anpassa utseendet på HTML/PDF/PNG/JPEGutdata när du renderar webbdokument.
+description: Med de här renderingsalternativen kan du anpassa utseendet på utdata HTML/PDF/PNG/JPEG när du renderar webbdokument.
 type: docs
 weight: 610
 url: /sv/net/groupdocs.viewer.options/webdocumentoptions/
 ---
 ## WebDocumentOptions class
 
-De här renderingsalternativen gör att du kan anpassa utseendet på HTML/PDF/PNG/JPEG-utdata när du renderar webbdokument.
+Med de här renderingsalternativen kan du anpassa utseendet på utdata HTML/PDF/PNG/JPEG när du renderar webbdokument.
 
 ```csharp
 public class WebDocumentOptions

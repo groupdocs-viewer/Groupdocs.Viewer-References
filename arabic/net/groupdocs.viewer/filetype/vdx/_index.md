@@ -3,7 +3,7 @@ title: VDX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل ملف Visio Drawing XML .vdx أي رسم أو مخطط تم إنشاؤه في Microsoft Visio  ولكن تم حفظه بتنسيق XML بامتداد .VDX. يتم إنشاء ملف Visio للرسم XML في برنامج Visio  الذي تم تطويره بواسطة Microsoft . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vdx .
 type: docs
-weight: 1580
+weight: 1630
 url: /ar/net/groupdocs.viewer/filetype/vdx/
 ---
 ## FileType.VDX field

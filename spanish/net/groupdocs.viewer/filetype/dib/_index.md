@@ -3,7 +3,7 @@ title: DIB
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo de mapa de bits independiente del dispositivo .dib
 type: docs
-weight: 240
+weight: 260
 url: /es/net/groupdocs.viewer/filetype/dib/
 ---
 ## FileType.DIB field

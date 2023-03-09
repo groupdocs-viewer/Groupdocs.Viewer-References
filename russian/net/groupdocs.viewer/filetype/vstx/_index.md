@@ -3,7 +3,7 @@ title: VSTX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон чертежа Visio .vstx  это файлы шаблонов чертежей созданные с помощью Microsoft Visio 2013 и более поздних версий. Эти файлы VSTX служат отправной точкой для создания рисунков Visio сохраненных в виде файлов .VSDX с макетом и настройками по умолчанию. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/vstx .
 type: docs
-weight: 1680
+weight: 1730
 url: /ru/net/groupdocs.viewer/filetype/vstx/
 ---
 ## FileType.VSTX field

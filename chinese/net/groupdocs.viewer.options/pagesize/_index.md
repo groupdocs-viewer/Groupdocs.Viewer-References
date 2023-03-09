@@ -1,14 +1,14 @@
 ---
 title: PageSize
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 页面大小
+description: 页面的大小
 type: docs
 weight: 400
 url: /zh/net/groupdocs.viewer.options/pagesize/
 ---
 ## PageSize enumeration
 
-页面大小。
+页面的大小。
 
 ```csharp
 public enum PageSize
@@ -18,14 +18,14 @@ public enum PageSize
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Unspecified | `0` | 默认的、未指定的页面大小。 |
+| Unspecified | `0` | 默认的未指定页面大小。 |
 | Letter | `1` | Letter 页面的大小（以磅为单位）为 792 x 612 |
-| Ledger | `2` | Ledger 页面的大小（以磅为单位）为 1224 x 792 |
-| A0 | `3` | A0 页面的大小为 3371 x 2384 |
-| A1 | `4` | A1 页面大小为 2384 x 1685 |
-| A2 | `5` | A2 页面大小为 1684 x 1190 |
-| A3 | `6` | A3 页面大小为 1190 x 842 |
-| A4 | `7` | A4 页面大小为 842 x 595 |
+| Ledger | `2` | Ledger 页面的大小为 1224 x 792 |
+| A0 | `3` | A0 页的点数为 3371 x 2384 |
+| A1 | `4` | A1 页面的点数为 2384 x 1685 |
+| A2 | `5` | A2 页面的点数为 1684 x 1190 |
+| A3 | `6` | A3 页面的点数为 1190 x 842 |
+| A4 | `7` | A4 页面的点数为 842 x 595 |
 
 ### 也可以看看
 

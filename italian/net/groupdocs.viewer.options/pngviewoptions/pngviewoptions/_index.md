@@ -1,14 +1,14 @@
 ---
 title: PngViewOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diPngViewOptionsgroupdocs.viewer.options/pngviewoptions classe.
+description: Inizializza una nuova istanza diPngViewOptionsgroupdocs.viewer.options/pngviewoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/pngviewoptions/pngviewoptions/
 ---
 ## PngViewOptions(CreatePageStream) {#constructor_1}
 
-Inizializza la nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
+Inizializza una nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
 
 ```csharp
 public PngViewOptions(CreatePageStream createPageStream)
@@ -35,7 +35,7 @@ public PngViewOptions(CreatePageStream createPageStream)
 
 ## PngViewOptions(CreatePageStream, ReleasePageStream) {#constructor_2}
 
-Inizializza la nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
+Inizializza una nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
 
 ```csharp
 public PngViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
@@ -44,7 +44,7 @@ public PngViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | createPageStream | CreatePageStream | Il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della pagina di output. |
-| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato a cui è passato*createPageStream* parametro. |
+| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato passato a*createPageStream* parametro. |
 
 ### Eccezioni
 
@@ -65,7 +65,7 @@ public PngViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 
 ## PngViewOptions(IPageStreamFactory) {#constructor_3}
 
-Inizializza la nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
+Inizializza una nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
 
 ```csharp
 public PngViewOptions(IPageStreamFactory pageStreamFactory)
@@ -73,7 +73,7 @@ public PngViewOptions(IPageStreamFactory pageStreamFactory)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per creare e rilasciare il flusso di pagine di output. |
+| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per la creazione e il rilascio del flusso della pagina di output. |
 
 ### Eccezioni
 
@@ -92,7 +92,7 @@ public PngViewOptions(IPageStreamFactory pageStreamFactory)
 
 ## PngViewOptions() {#constructor}
 
-Inizializza la nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
+Inizializza una nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
 
 ```csharp
 public PngViewOptions()
@@ -112,7 +112,7 @@ Questo costruttore inizializza una nuova istanza di[`PngViewOptions`](../../pngv
 
 ## PngViewOptions(string) {#constructor_4}
 
-Inizializza la nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
+Inizializza una nuova istanza di[`PngViewOptions`](../../pngviewoptions) classe.
 
 ```csharp
 public PngViewOptions(string filePathFormat)
@@ -120,7 +120,7 @@ public PngViewOptions(string filePathFormat)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| filePathFormat | String | Il formato del percorso del file, ad esempio 'page_{0}.png'. |
+| filePathFormat | String | Il formato del percorso del file, ad esempio "page_{0}.png". |
 
 ### Eccezioni
 

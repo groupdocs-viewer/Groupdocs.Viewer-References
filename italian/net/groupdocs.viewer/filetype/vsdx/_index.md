@@ -1,14 +1,14 @@
 ---
 title: VSDX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Visio Drawing .vsdx rappresenta il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario .VSD supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vsdx .
+description: Visio Drawing .vsdx rappresenta il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario .VSD supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vsdx .
 type: docs
-weight: 1620
+weight: 1670
 url: /it/net/groupdocs.viewer/filetype/vsdx/
 ---
 ## FileType.VSDX field
 
-Visio Drawing (.vsdx) rappresenta il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario, .VSD, supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vsdx) .
+Visio Drawing (.vsdx) rappresenta il formato di file Microsoft Visio introdotto da Microsoft Office 2013 in poi. È stato sviluppato per sostituire il formato di file binario, .VSD, supportato dalle versioni precedenti di Microsoft Visio. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vsdx) .
 
 ```csharp
 public static readonly FileType VSDX;

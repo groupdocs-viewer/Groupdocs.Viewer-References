@@ -1,14 +1,14 @@
 ---
 title: Dpi330
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 高质量的高清 HD 显示器
+description: 高清 HD 显示器的良好质量
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.options/resolution/dpi330/
 ---
 ## Resolution.Dpi330 field
 
-高质量的高清 (HD) 显示器。
+高清 (HD) 显示器的良好质量。
 
 ```csharp
 public static readonly Resolution Dpi330;

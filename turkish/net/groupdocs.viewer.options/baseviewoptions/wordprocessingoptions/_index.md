@@ -16,7 +16,7 @@ public WordProcessingOptions WordProcessingOptions { get; set; }
 
 ### Notlar
 
-Ayrıca bkz.  Word belgelerini HTML, PDF veya görüntü dosyaları olarak oluşturun daha fazla ayrıntı ve kod parçacıkları için.
+Ayrıca bkz.  Word belgelerini HTML, PDF veya resim dosyaları olarak işleyin  daha fazla ayrıntı ve kod parçacıkları için.
 
 ### Ayrıca bakınız
 

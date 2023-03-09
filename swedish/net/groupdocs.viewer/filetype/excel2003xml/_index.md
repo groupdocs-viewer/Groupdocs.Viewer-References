@@ -3,7 +3,7 @@ title: Excel2003XML
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Excel 2003 XML SpreadsheetML representerar Excel Binary File Format. Sådana filer kan skapas av Microsoft Excel såväl som andra liknande kalkylprogram som OpenOffice Calc eller Apple Numbers. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
-weight: 450
+weight: 480
 url: /sv/net/groupdocs.viewer/filetype/excel2003xml/
 ---
 ## FileType.Excel2003XML field

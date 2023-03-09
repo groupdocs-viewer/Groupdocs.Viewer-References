@@ -3,7 +3,7 @@ title: TXZ
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: أرشيف ملفات Unix الموحدة .txz  .tar.xz عبارة عن أرشيفات تم إنشاؤها باستخدام أداة مساعدة تستند إلى Unix لتجميع ملف واحد أو أكثر. تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/txz .
 type: docs
-weight: 1530
+weight: 1580
 url: /ar/net/groupdocs.viewer/filetype/txz/
 ---
 ## FileType.TXZ field

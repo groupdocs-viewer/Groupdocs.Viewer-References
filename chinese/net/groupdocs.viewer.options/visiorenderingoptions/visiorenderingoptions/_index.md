@@ -1,14 +1,14 @@
 ---
 title: VisioRenderingOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例VisioRenderingOptionsgroupdocs.viewer.options/visiorenderingoptions类.
+description: 初始化新实例VisioRenderingOptionsgroupdocs.viewer.options/visiorenderingoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/visiorenderingoptions/visiorenderingoptions/
 ---
 ## VisioRenderingOptions constructor
 
-初始化的新实例[`VisioRenderingOptions`](../../visiorenderingoptions)类.
+初始化新实例[`VisioRenderingOptions`](../../visiorenderingoptions)类.
 
 ```csharp
 public VisioRenderingOptions()

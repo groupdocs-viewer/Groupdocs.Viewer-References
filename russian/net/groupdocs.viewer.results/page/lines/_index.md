@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/page/lines/
 Строки, содержащиеся на странице при просмотре в формате JPG или PNG с включенным извлечением текста.
 
 ```csharp
-public IList<Line> Lines { get; }
+public List<Line> Lines { get; set; }
 ```
 
 ### Смотрите также

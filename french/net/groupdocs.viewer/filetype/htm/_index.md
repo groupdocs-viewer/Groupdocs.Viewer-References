@@ -3,7 +3,7 @@ title: HTM
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Hypertext Markup Language File .htm est lextension des pages Web créées pour être affichées dans les navigateurs. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 570
+weight: 610
 url: /fr/net/groupdocs.viewer/filetype/htm/
 ---
 ## FileType.HTM field

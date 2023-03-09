@@ -3,7 +3,7 @@ title: JP2
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: JPEG 2000 Core Image File .jp2  это система кодирования изображений и современный стандарт сжатия изображений. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/jp2 .
 type: docs
-weight: 650
+weight: 700
 url: /ru/net/groupdocs.viewer/filetype/jp2/
 ---
 ## FileType.JP2 field

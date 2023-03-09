@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是重复模式
+description: 默认字段文本为重复模式
 type: docs
 weight: 370
 url: /zh/net/groupdocs.viewer.options/field/recurrencepattern/
 ---
 ## Field.RecurrencePattern field
 
-默认字段文本是“重复模式”。
+默认字段文本为“重复模式”。
 
 ```csharp
 public static readonly Field RecurrencePattern;

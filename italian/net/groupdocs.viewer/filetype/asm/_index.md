@@ -3,7 +3,7 @@ title: ASM
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File del codice sorgente in linguaggio assembly .asm
 type: docs
-weight: 50
+weight: 60
 url: /it/net/groupdocs.viewer/filetype/asm/
 ---
 ## FileType.ASM field

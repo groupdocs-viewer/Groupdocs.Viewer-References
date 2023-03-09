@@ -3,7 +3,7 @@ title: VST
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон чертежа Visio .vst  это файлы векторных изображений созданные с помощью Microsoft Visio и выступающие в качестве шаблона для создания дополнительных файлов. Эти файлы шаблонов имеют двоичный формат и содержат макет и параметры по умолчанию которые используются для создания новых чертежей Visio. Подробнее об этом формате файловздесьhttps//wiki.fileformat.com/image/vst .
 type: docs
-weight: 1660
+weight: 1710
 url: /ru/net/groupdocs.viewer/filetype/vst/
 ---
 ## FileType.VST field

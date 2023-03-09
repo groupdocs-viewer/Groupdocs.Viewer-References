@@ -38,6 +38,7 @@ public class PdfViewOptions : ViewOptions
 | [ImageWidth](../../groupdocs.viewer.options/pdfviewoptions/imagewidth) { get; set; } | La largeur de l'image de sortie en pixels. (Lors de la conversion d'une seule image en HTML uniquement) |
 | [JpgQuality](../../groupdocs.viewer.options/pdfviewoptions/jpgquality) { get; set; } | La qualité des images JPG contenues dans le document PDF de sortie ; Les valeurs valides sont comprises entre 1 et 100 ; La valeur par défaut est 90. |
 | [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | Options d'affichage des fichiers de données de stockage de courrier. |
+| [Optimize](../../groupdocs.viewer.options/pdfviewoptions/optimize) { get; set; } | Réduisez la taille du fichier de sortie en excluant les polices courantes telles que Times New Roman et Arial, et en appliquant d'autres techniques d'optimisation. |
 | [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | Les options d'affichage des fichiers de données MS Outlook. |
 | [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | Les options d'affichage des documents PDF. |
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | Les options d'affichage des documents de traitement de présentation. |

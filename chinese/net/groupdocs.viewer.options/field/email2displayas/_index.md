@@ -1,14 +1,14 @@
 ---
 title: Email2DisplayAs
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是Email2 显示为
+description: 默认字段文本为Email2 显示为
 type: docs
 weight: 140
 url: /zh/net/groupdocs.viewer.options/field/email2displayas/
 ---
 ## Field.Email2DisplayAs field
 
-默认字段文本是“Email2 显示为”。
+默认字段文本为“Email2 显示为”。
 
 ```csharp
 public static readonly Field Email2DisplayAs;

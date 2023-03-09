@@ -3,7 +3,7 @@ title: DWG
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El archivo de base de datos de dibujo de AutoCAD .dwg representa archivos binarios propietarios que se utilizan para contener datos de diseño 2D y 3D. Al igual que DXF que son archivos ASCII DWG representa el formato de archivo binario para dibujos CAD diseño asistido por computadora. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/cad/dwg .
 type: docs
-weight: 350
+weight: 380
 url: /es/net/groupdocs.viewer/filetype/dwg/
 ---
 ## FileType.DWG field

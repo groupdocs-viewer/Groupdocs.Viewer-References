@@ -1,14 +1,14 @@
 ---
 title: TimeZoneOffset
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 消息时区偏移
+description: 消息时区偏移量
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.options/emailoptions/timezoneoffset/
 ---
 ## EmailOptions.TimeZoneOffset property
 
-消息时区偏移
+消息时区偏移量
 
 ```csharp
 public TimeSpan TimeZoneOffset { get; set; }

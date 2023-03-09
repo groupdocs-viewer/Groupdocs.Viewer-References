@@ -3,7 +3,7 @@ title: HH
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier dentête C .hh
 type: docs
-weight: 550
+weight: 590
 url: /fr/net/groupdocs.viewer/filetype/hh/
 ---
 ## FileType.HH field

@@ -1,14 +1,14 @@
 ---
 title: XPS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: XML Kağıt Belirtim Dosyası .xps Microsoft tarafından oluşturulan XML Kağıt Belirtimlerine dayalı sayfa düzeni dosyalarını temsil eder. Bu biçim EMF dosya biçiminin yerine Microsoft tarafından geliştirilmiştir ve PDF dosya biçimine benzer ancak bir belgenin düzeni görünümü ve yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
+description: XML Kağıt Belirtim Dosyası .xps Microsoft tarafından oluşturulan XML Kağıt Belirtimlerini temel alan sayfa düzeni dosyalarını temsil eder. Bu biçim Microsoft tarafından EMF dosya biçiminin yerini alması için geliştirilmiştir ve PDF dosya biçimine benzer ancak bir belgenin düzeninde görünümünde ve yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
 type: docs
-weight: 1830
+weight: 1880
 url: /tr/net/groupdocs.viewer/filetype/xps/
 ---
 ## FileType.XPS field
 
-XML Kağıt Belirtim Dosyası (.xps), Microsoft tarafından oluşturulan XML Kağıt Belirtimlerine dayalı sayfa düzeni dosyalarını temsil eder. Bu biçim, EMF dosya biçiminin yerine Microsoft tarafından geliştirilmiştir ve PDF dosya biçimine benzer, ancak bir belgenin düzeni, görünümü ve yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/xps) .
+XML Kağıt Belirtim Dosyası (.xps), Microsoft tarafından oluşturulan XML Kağıt Belirtimlerini temel alan sayfa düzeni dosyalarını temsil eder. Bu biçim, Microsoft tarafından EMF dosya biçiminin yerini alması için geliştirilmiştir ve PDF dosya biçimine benzer, ancak bir belgenin düzeninde, görünümünde ve yazdırma bilgilerinde XML kullanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/page-description-language/xps) .
 
 ```csharp
 public static readonly FileType XPS;

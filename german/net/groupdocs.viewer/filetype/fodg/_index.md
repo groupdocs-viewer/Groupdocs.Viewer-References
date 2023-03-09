@@ -1,14 +1,14 @@
 ---
 title: FODG
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Flat XML ODF Template .fodg wird von der DrawAnwendung von Apache OpenOffice verwendet um Zeichnungselemente als Vektorbild zu speichern. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/fodg .
+description: Flat XML ODF Template .fodg wird von der DrawAnwendung von Apache OpenOffice verwendet um Zeichnungselemente als Vektorbild zu speichern. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/fodg .
 type: docs
-weight: 460
+weight: 500
 url: /de/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field
 
-Flat XML ODF Template (.fodg) wird von der Draw-Anwendung von Apache OpenOffice verwendet, um Zeichnungselemente als Vektorbild zu speichern. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/fodg) .
+Flat XML ODF Template (.fodg) wird von der Draw-Anwendung von Apache OpenOffice verwendet, um Zeichnungselemente als Vektorbild zu speichern. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/fodg) .
 
 ```csharp
 public static readonly FileType FODG;

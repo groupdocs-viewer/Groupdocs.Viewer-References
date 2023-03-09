@@ -3,7 +3,7 @@ title: Page
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Representa una sola página que se puede ver.
 type: docs
-weight: 730
+weight: 740
 url: /es/net/groupdocs.viewer.results/page/
 ---
 ## Page class
@@ -18,23 +18,24 @@ public class Page
 
 | Nombre | Descripción |
 | --- | --- |
-| [Page](page#constructor)(int, bool) | Inicializa una nueva instancia de[`Page`](../page) clase. |
-| [Page](page#constructor_3)(int, string, bool) | Inicializa una nueva instancia de[`Page`](../page) clase. |
-| [Page](page#constructor_1)(int, bool, int, int) | Inicializa una nueva instancia de[`Page`](../page) clase. |
-| [Page](page#constructor_2)(int, bool, int, int, IList&lt;Line&gt;) | Inicializa una nueva instancia de[`Page`](../page) clase. |
-| [Page](page#constructor_4)(int, string, bool, int, int) | Inicializa una nueva instancia de[`Page`](../page) clase. |
-| [Page](page#constructor_5)(int, string, bool, int, int, IList&lt;Line&gt;) | Inicializa una nueva instancia de[`Page`](../page) clase. |
+| [Page](page#constructor)() | Inicializa una nueva instancia de[`Page`](../page) clase. |
+| [Page](page#constructor_1)(int, bool) | Inicializa una nueva instancia de[`Page`](../page) clase. |
+| [Page](page#constructor_4)(int, string, bool) | Inicializa una nueva instancia de[`Page`](../page) clase. |
+| [Page](page#constructor_2)(int, bool, int, int) | Inicializa una nueva instancia de[`Page`](../page) clase. |
+| [Page](page#constructor_3)(int, bool, int, int, List&lt;Line&gt;) | Inicializa una nueva instancia de[`Page`](../page) clase. |
+| [Page](page#constructor_5)(int, string, bool, int, int) | Inicializa una nueva instancia de[`Page`](../page) clase. |
+| [Page](page#constructor_6)(int, string, bool, int, int, List&lt;Line&gt;) | Inicializa una nueva instancia de[`Page`](../page) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/page/height) { get; } | La altura de la página en píxeles cuando se ve como JPG o PNG. |
-| [Lines](../../groupdocs.viewer.results/page/lines) { get; } | Las líneas contenidas por la página cuando se ve como JPG o PNG con Extracción de texto habilitada. |
-| [Name](../../groupdocs.viewer.results/page/name) { get; } | La hoja de cálculo o el nombre de la página. |
-| [Number](../../groupdocs.viewer.results/page/number) { get; } | El número de página. |
-| [Visible](../../groupdocs.viewer.results/page/visible) { get; } | El indicador de visibilidad de la página. |
-| [Width](../../groupdocs.viewer.results/page/width) { get; } | El ancho de la página en píxeles cuando se ve como JPG o PNG. |
+| [Height](../../groupdocs.viewer.results/page/height) { get; set; } | La altura de la página en píxeles cuando se ve como JPG o PNG. |
+| [Lines](../../groupdocs.viewer.results/page/lines) { get; set; } | Las líneas contenidas por la página cuando se ve como JPG o PNG con Extracción de texto habilitada. |
+| [Name](../../groupdocs.viewer.results/page/name) { get; set; } | La hoja de cálculo o el nombre de la página. |
+| [Number](../../groupdocs.viewer.results/page/number) { get; set; } | El número de página. |
+| [Visible](../../groupdocs.viewer.results/page/visible) { get; set; } | El indicador de visibilidad de la página. |
+| [Width](../../groupdocs.viewer.results/page/width) { get; set; } | El ancho de la página en píxeles cuando se ve como JPG o PNG. |
 
 ## Métodos
 

@@ -1,14 +1,14 @@
 ---
 title: PSB
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Photoshop 大文档格式 .psb 表示用于图形设计和开发的 Photoshop 大文档格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/psb
+description: Photoshop 大型文档格式 .psb 表示用于图形设计和开发的 Photoshop 大型文档格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/psb
 type: docs
-weight: 1210
+weight: 1260
 url: /zh/net/groupdocs.viewer/filetype/psb/
 ---
 ## FileType.PSB field
 
-Photoshop 大文档格式 (.psb) 表示用于图形设计和开发的 Photoshop 大文档格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/psb)
+Photoshop 大型文档格式 (.psb) 表示用于图形设计和开发的 Photoshop 大型文档格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/psb)
 
 ```csharp
 public static readonly FileType PSB;

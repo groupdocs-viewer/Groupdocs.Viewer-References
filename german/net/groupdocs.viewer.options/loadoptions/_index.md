@@ -25,7 +25,8 @@ public class LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Die Codierung, die beim Öffnen textbasierter Dateien oder E-Mail-Nachrichten verwendet wird, z[`CSV`](../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../groupdocs.viewer/filetype/txt) , und[`MSG`](../../groupdocs.viewer/filetype/msg) . Standardwert istDefault . |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | Diese Option aktiviert[`TXT`](../../groupdocs.viewer/filetype/txt) ,[`TSV`](../../groupdocs.viewer/filetype/tsv) , Und[`CSV`](../../groupdocs.viewer/filetype/csv)Dateicodierungserkennung. Falls die Codierung nicht erkannt werden kann, wird die Standardeinstellung verwendet[`Encoding`](./encoding) wird verwendet. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Die Codierung, die beim Öffnen textbasierter Dateien oder E-Mail-Nachrichten wie verwendet wird.[`CSV`](../../groupdocs.viewer/filetype/csv) , [`TXT`](../../groupdocs.viewer/filetype/txt) , und[`MSG`](../../groupdocs.viewer/filetype/msg) . Standardwert istUTF8 . |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | Der Typ der zu öffnenden Datei. |
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | Das Passwort zum Öffnen der verschlüsselten Datei. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | Externe Ressourcen, z. B. Zeitüberschreitung beim Laden von Grafiken. Der Standardwert ist 30 Sekunden. Diese Option wird für Textverarbeitungsdokumente unterstützt, die externe Ressourcen enthalten. |

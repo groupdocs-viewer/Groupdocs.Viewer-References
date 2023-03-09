@@ -32,7 +32,7 @@ Informationen zu ansichts- und dokumentspezifischen Informationen.
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Erfahren Sie mehr über Dokumente – Dateityp, Seitenanzahl und andere formatspezifische Eigenschaften: [So erhalten Sie Dateiinformationen mit GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 
@@ -73,7 +73,7 @@ Informationen zu ansichts- und dokumentspezifischen Informationen.
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Erfahren Sie mehr über Dokumente – Dateityp, Seitenanzahl und andere formatspezifische Eigenschaften: [So erhalten Sie Dateiinformationen mit GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 

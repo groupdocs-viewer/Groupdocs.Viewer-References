@@ -6,27 +6,43 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/archiveviewinfo/archiveviewinfo/
 ---
-## ArchiveViewInfo constructor
+## ArchiveViewInfo() {#constructor}
 
 Yeni örneğini başlatır[`ArchiveViewInfo`](../../archiveviewinfo) sınıf.
 
 ```csharp
-public ArchiveViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public ArchiveViewInfo()
+```
+
+### Ayrıca bakınız
+
+* class [ArchiveViewInfo](../../archiveviewinfo)
+* ad alanı [GroupDocs.Viewer.Results](../../archiveviewinfo)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## ArchiveViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Yeni örneğini başlatır[`ArchiveViewInfo`](../../archiveviewinfo) sınıf.
+
+```csharp
+public ArchiveViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileType | FileType | Dosyanın türü. |
-| pages | IList`1 | Görüntülenecek sayfaların listesi. |
-| folders | IList`1 | Arşiv dosyasının içerdiği klasörlerin listesi. |
+| pages | List`1 | Görüntülenecek sayfaların listesi. |
+| folders | List`1 | Arşiv dosyasının içerdiği klasörlerin listesi. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
-| ArgumentNullException | ne zaman atıldı*pages* boş. |
-| ArgumentNullException | ne zaman atıldı*folders* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*pages* boş. |
+| ArgumentNullException | Ne zaman atıldı*folders* boş. |
 
 ### Ayrıca bakınız
 

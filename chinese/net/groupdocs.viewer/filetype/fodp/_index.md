@@ -1,14 +1,14 @@
 ---
 title: FODP
 second_title: GroupDocs.Viewer for .NET API 参考
-description: OpenDocument 演示文稿 .fodp 表示 OpenDocument 平面 XML 演示文稿 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/fodp
+description: OpenDocument Presentation .fodp 表示 OpenDocument Flat XML Presentation 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/fodp
 type: docs
-weight: 470
+weight: 510
 url: /zh/net/groupdocs.viewer/filetype/fodp/
 ---
 ## FileType.FODP field
 
-OpenDocument 演示文稿 (.fodp) 表示 OpenDocument 平面 XML 演示文稿。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/fodp)
+OpenDocument Presentation (.fodp) 表示 OpenDocument Flat XML Presentation。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/fodp)
 
 ```csharp
 public static readonly FileType FODP;

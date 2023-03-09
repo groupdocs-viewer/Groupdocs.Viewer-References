@@ -18,18 +18,19 @@ public class Line : TextElement<string>
 
 | اسم | وصف |
 | --- | --- |
-| [Line](line)(string, double, double, double, double, IList&lt;Word&gt;) | تهيئة مثيل جديد لـ[`Line`](../line) فئة . |
+| [Line](line#constructor)() | تهيئة مثيل جديد لـ[`Line`](../line) فئة . |
+| [Line](line#constructor_1)(string, double, double, double, double, List&lt;Word&gt;) | تهيئة مثيل جديد لـ[`Line`](../line) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | ارتفاع المستطيل الذي يحتوي على العنصر (بالبكسل) . |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | قيمة العنصر . |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | عرض المستطيل الذي يحتوي على العنصر (بالبكسل) . |
-| [Words](../../groupdocs.viewer.results/line/words) { get; } | الكلمات التي يحتويها السطر . |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | إحداثي X لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | الإحداثي Y لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | ارتفاع المستطيل الذي يحتوي على العنصر (بالبكسل) . |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | قيمة العنصر . |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | عرض المستطيل الذي يحتوي على العنصر (بالبكسل) . |
+| [Words](../../groupdocs.viewer.results/line/words) { get; set; } | الكلمات التي يحتويها السطر . |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | إحداثي X لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | الإحداثي Y لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر . |
 
 ## طُرق
 

@@ -3,7 +3,7 @@ title: RST
 second_title: GroupDocs.Viewer för .NET API-referens
 description: reStructuredText File .rst
 type: docs
-weight: 1290
+weight: 1340
 url: /sv/net/groupdocs.viewer/filetype/rst/
 ---
 ## FileType.RST field

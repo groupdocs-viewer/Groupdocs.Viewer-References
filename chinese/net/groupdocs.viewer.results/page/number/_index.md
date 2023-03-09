@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/page/number/
 页码。
 
 ```csharp
-public int Number { get; }
+public int Number { get; set; }
 ```
 
 ### 也可以看看

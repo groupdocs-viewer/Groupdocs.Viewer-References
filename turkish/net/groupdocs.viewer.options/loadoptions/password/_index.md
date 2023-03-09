@@ -3,7 +3,7 @@ title: Password
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Şifrelenmiş dosyayı açmak için kullanılan parola.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

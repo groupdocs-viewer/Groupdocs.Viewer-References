@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | Nom | La description |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Initialise la nouvelle instance de[`Layout`](../layout) classe. |
+| [Layout](layout#constructor)() | Initialise la nouvelle instance de[`Layout`](../layout) classe. |
+| [Layout](layout#constructor_1)(string, float, float) | Initialise la nouvelle instance de[`Layout`](../layout) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | La hauteur de la mise en page. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | Le nom de la mise en page. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | La largeur de la mise en page. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | La hauteur de la mise en page. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | Le nom de la mise en page. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | La largeur de la mise en page. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Détermine si le courant[`Layout`](../layout)est le même que celui spécifié[`Layout`](../layout) objet. |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Détermine si le courant[`Layout`](../layout) est le même que celui spécifié[`Layout`](../layout) objet. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | Détermine si le courant[`Layout`](../layout) est le même que l'objet spécifié. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | Renvoie le code de hachage pour le courant[`Layout`](../layout) objet. |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | Renvoie une chaîne qui représente l'objet actuel. |

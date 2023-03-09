@@ -3,7 +3,7 @@ title: ViewInfo
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Représente les informations de vue pour le document générique.
 type: docs
-weight: 780
+weight: 790
 url: /fr/net/groupdocs.viewer.results/viewinfo/
 ---
 ## ViewInfo class
@@ -18,14 +18,15 @@ public class ViewInfo
 
 | Nom | La description |
 | --- | --- |
-| [ViewInfo](viewinfo)(FileType, IList&lt;Page&gt;) | Initialise la nouvelle instance de[`ViewInfo`](../viewinfo) classe. |
+| [ViewInfo](viewinfo#constructor)() | Initialise la nouvelle instance de[`ViewInfo`](../viewinfo) classe. |
+| [ViewInfo](viewinfo#constructor_1)(FileType, List&lt;Page&gt;) | Initialise la nouvelle instance de[`ViewInfo`](../viewinfo) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Le type du fichier. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | La liste des pages à afficher. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Le type du fichier. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | La liste des pages à afficher. |
 
 ## Méthodes
 

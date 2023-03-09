@@ -3,7 +3,7 @@ title: Viewer
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Belge oluşturma sürecini kontrol eden ana sınıfı temsil eder.
 type: docs
-weight: 800
+weight: 810
 url: /tr/net/groupdocs.viewer/viewer/
 ---
 ## Viewer class
@@ -42,9 +42,9 @@ public class Viewer : IDisposable
 | [Dispose](../../groupdocs.viewer/viewer/dispose)() | Dosya akışını ve yönetilen dahili kaynakları serbest bırakır. |
 | [GetAttachments](../../groupdocs.viewer/viewer/getattachments#getattachments)() | Belgenin içerdiği ekleri döndürür. |
 | [GetAttachments](../../groupdocs.viewer/viewer/getattachments#getattachments_1)(CancellationToken) | Belgenin içerdiği ekleri döndürür. |
-| [GetFileInfo](../../groupdocs.viewer/viewer/getfileinfo)() | Dosya türü ve dosyanın şifreli olup olmadığını gösteren işaret gibi dosya hakkında bilgi verir. |
-| [GetViewInfo](../../groupdocs.viewer/viewer/getviewinfo#getviewinfo)(ViewInfoOptions) | Görünüm ve belgeye özel bilgilerle ilgili bilgileri döndürür. |
-| [GetViewInfo](../../groupdocs.viewer/viewer/getviewinfo#getviewinfo_1)(ViewInfoOptions, CancellationToken) | Görünüm ve belgeye özel bilgilerle ilgili bilgileri döndürür. |
+| [GetFileInfo](../../groupdocs.viewer/viewer/getfileinfo)() | Dosya türü ve dosyanın şifrelenip şifrelenmediğini gösteren bayrak gibi dosya hakkında bilgi verir. |
+| [GetViewInfo](../../groupdocs.viewer/viewer/getviewinfo#getviewinfo)(ViewInfoOptions) | Görünümle ilgili bilgileri ve belgeye özgü bilgileri döndürür. |
+| [GetViewInfo](../../groupdocs.viewer/viewer/getviewinfo#getviewinfo_1)(ViewInfoOptions, CancellationToken) | Görünümle ilgili bilgileri ve belgeye özgü bilgileri döndürür. |
 | [SaveAttachment](../../groupdocs.viewer/viewer/saveattachment#saveattachment)(Attachment, Stream) | Ek dosyasını şuraya kaydeder:*destination* akış. |
 | [SaveAttachment](../../groupdocs.viewer/viewer/saveattachment#saveattachment_1)(Attachment, Stream, CancellationToken) | Ek dosyasını şuraya kaydeder:*destination* akış. |
 | [View](../../groupdocs.viewer/viewer/view#view)(ViewOptions) | Tüm belge sayfalarının görünümünü oluşturur. |

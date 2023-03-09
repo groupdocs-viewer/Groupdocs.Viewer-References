@@ -3,7 +3,7 @@ title: CSV
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Comma Separated Values File .csv representerar vanliga textfiler som innehåller dataposter med kommaseparerade värden. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/csv .
 type: docs
-weight: 200
+weight: 220
 url: /sv/net/groupdocs.viewer/filetype/csv/
 ---
 ## FileType.CSV field

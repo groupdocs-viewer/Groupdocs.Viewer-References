@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çıktının genişliği piksel cinsinden sonuçlanır.
+description: Çıktının genişliği piksel olarak sonuçlanır.
 type: docs
 weight: 130
 url: /tr/net/groupdocs.viewer.options/cadoptions/width/
 ---
 ## CadOptions.Width property
 
-Çıktının genişliği piksel cinsinden sonuçlanır.
+Çıktının genişliği piksel olarak sonuçlanır.
 
 ```csharp
 public int Width { get; }

@@ -3,7 +3,7 @@ title: RST
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: yeniden Yapılandırılmış Metin Dosyası .rst
 type: docs
-weight: 1290
+weight: 1340
 url: /tr/net/groupdocs.viewer/filetype/rst/
 ---
 ## FileType.RST field

@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/lotusnotesviewinfo/notescount/
 Количество заметок в хранилище
 
 ```csharp
-public int NotesCount { get; }
+public int NotesCount { get; set; }
 ```
 
 ### Смотрите также

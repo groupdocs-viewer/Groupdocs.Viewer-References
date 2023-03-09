@@ -3,7 +3,7 @@ title: GIF
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف تنسيق التبادل الرسومي .gif هو نوع من الصور شديدة الضغط. لكل صورة  يسمح GIF عادةً بما يصل إلى 8 بت لكل بكسل وما يصل إلى 256 لونًا مسموح به عبر الصورة. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 490
+weight: 530
 url: /ar/net/groupdocs.viewer/filetype/gif/
 ---
 ## FileType.GIF field

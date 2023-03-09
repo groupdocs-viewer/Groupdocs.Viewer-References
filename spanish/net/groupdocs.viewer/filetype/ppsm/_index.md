@@ -3,7 +3,7 @@ title: PPSM
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: La diapositiva de PowerPoint Open XML habilitada para macros .ppsm representa el formato de archivo de presentación de diapositivas habilitada para macros creado con Microsoft PowerPoint 2007 o superior. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/presentation/ppsm .
 type: docs
-weight: 1130
+weight: 1180
 url: /es/net/groupdocs.viewer/filetype/ppsm/
 ---
 ## FileType.PPSM field

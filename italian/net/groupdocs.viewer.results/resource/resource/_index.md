@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/resource/resource/
 ---
-## Resource constructor
+## Resource() {#constructor}
+
+Crea una nuova istanza di[`Resource`](../../resource) classe.
+
+```csharp
+public Resource()
+```
+
+### Guarda anche
+
+* class [Resource](../../resource)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../resource)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Resource(string, bool) {#constructor_1}
 
 Crea una nuova istanza di[`Resource`](../../resource) classe.
 
@@ -17,7 +33,7 @@ public Resource(string fileName, bool nested)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileName | String | Nome del file di risorse. |
-| nested | Boolean | Indica se la risorsa risiede all'interno di un'altra risorsa, ad esempio la risorsa del carattere che risiede nella risorsa CSS o SVG. |
+| nested | Boolean | Indica se la risorsa risiede all'interno di un'altra risorsa, ad esempio una risorsa font che risiede in una risorsa CSS o SVG. |
 
 ### Eccezioni
 

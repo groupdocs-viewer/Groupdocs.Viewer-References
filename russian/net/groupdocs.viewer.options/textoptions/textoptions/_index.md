@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: Справочник по API GroupDocs.Viewer для .NET
-description: Конструктор по умолчанию.
+description: Инициализирует новый экземплярTextOptionsgroupdocs.viewer.options/textoptions класс.
 type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-Конструктор по умолчанию.
+Инициализирует новый экземпляр[`TextOptions`](../../textoptions) класс.
 
 ```csharp
 public TextOptions()

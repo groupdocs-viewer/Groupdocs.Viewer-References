@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/outlookviewinfo/folders/
 Outlook 数据文件包含的文件夹列表。
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### 也可以看看

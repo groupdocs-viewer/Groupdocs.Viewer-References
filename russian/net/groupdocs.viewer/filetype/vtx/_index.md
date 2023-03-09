@@ -3,7 +3,7 @@ title: VTX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: XMLфайл шаблона Visio .vtx  это шаблон чертежа Microsoft Visio который сохраняется на диск в формате XMLфайла. Шаблон предназначен для предоставления файла с основными настройками который можно использовать для создания нескольких файлов Visio с одинаковыми настройками. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/vtx .
 type: docs
-weight: 1700
+weight: 1750
 url: /ru/net/groupdocs.viewer/filetype/vtx/
 ---
 ## FileType.VTX field

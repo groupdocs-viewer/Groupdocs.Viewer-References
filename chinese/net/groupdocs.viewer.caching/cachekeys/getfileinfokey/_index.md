@@ -1,14 +1,14 @@
 ---
 title: GetFileInfoKey
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回代表缓存条目的唯一标识符ViewInfogroupdocs.viewer.results/viewinfo对象.
+description: 返回表示缓存条目的唯一标识符ViewInfogroupdocs.viewer.results/viewinfo对象.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.caching/cachekeys/getfileinfokey/
 ---
 ## CacheKeys.GetFileInfoKey method
 
-返回代表缓存条目的唯一标识符[`ViewInfo`](../../../groupdocs.viewer.results/viewinfo)对象.
+返回表示缓存条目的唯一标识符[`ViewInfo`](../../../groupdocs.viewer.results/viewinfo)对象.
 
 ```csharp
 public static string GetFileInfoKey()
@@ -16,7 +16,7 @@ public static string GetFileInfoKey()
 
 ### 返回值
 
-表示缓存条目的唯一标识符[`ViewInfo`](../../../groupdocs.viewer.results/viewinfo)目的。
+代表缓存条目的唯一标识符[`ViewInfo`](../../../groupdocs.viewer.results/viewinfo)目的。
 
 ### 也可以看看
 

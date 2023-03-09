@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/resource/resource/
 ---
-## Resource constructor
+## Resource() {#constructor}
+
+Yeni örneğini oluşturur[`Resource`](../../resource) sınıf.
+
+```csharp
+public Resource()
+```
+
+### Ayrıca bakınız
+
+* class [Resource](../../resource)
+* ad alanı [GroupDocs.Viewer.Results](../../resource)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Resource(string, bool) {#constructor_1}
 
 Yeni örneğini oluşturur[`Resource`](../../resource) sınıf.
 
@@ -17,13 +33,13 @@ public Resource(string fileName, bool nested)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileName | String | Kaynak dosya adı. |
-| nested | Boolean | Kaynağın, örneğin CSS veya SVG kaynağında bulunan yazı tipi kaynağı gibi başka bir kaynağın içinde olup olmadığını gösterir. |
+| nested | Boolean | Kaynağın başka bir kaynağın içinde olup olmadığını gösterir, örneğin CSS veya SVG kaynağında bulunan yazı tipi kaynağı. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*fileName* null veya boş. |
+| ArgumentException | Ne zaman atıldı*fileName* null veya boş. |
 
 ### Ayrıca bakınız
 

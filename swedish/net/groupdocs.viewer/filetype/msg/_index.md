@@ -3,7 +3,7 @@ title: MSG
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Outlook Mail Message .msg är ett filformat som används av Microsoft Outlook och Exchange för att lagra epostmeddelanden kontakter möten eller andra uppgifter. Läs mer om detta filformathärhttps//wiki.fileformat.com/email/msg .
 type: docs
-weight: 880
+weight: 930
 url: /sv/net/groupdocs.viewer/filetype/msg/
 ---
 ## FileType.MSG field

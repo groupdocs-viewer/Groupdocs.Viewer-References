@@ -3,7 +3,7 @@ title: XLTX
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla de hoja de cálculo XML abierta de Excel .xltx representa la plantilla de Microsoft Excel que se basa en las especificaciones de formato de archivo OpenXML de Office. Se utiliza para crear un archivo de plantilla estándar que se puede utilizar para generar archivos XLSX que muestren la misma configuración que se especifica en el archivo XLTX. Obtenga más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/xltx .
 type: docs
-weight: 1810
+weight: 1860
 url: /es/net/groupdocs.viewer/filetype/xltx/
 ---
 ## FileType.XLTX field

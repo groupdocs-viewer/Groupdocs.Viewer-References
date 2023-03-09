@@ -18,16 +18,16 @@ public class CadViewInfo : ViewInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | Initialisiert eine neue Instanz von[`CadViewInfo`](../cadviewinfo) Klasse. |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | Initialisiert eine neue Instanz von[`CadViewInfo`](../cadviewinfo) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Der Typ der Datei. |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | Die Liste der Layer, die in der CAD-Zeichnung enthalten sind. |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | Die Liste der in der CAD-Zeichnung enthaltenen Layouts. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Die Liste der anzuzeigenden Seiten. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Der Typ der Datei. |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | Die Liste der Layer, die in der CAD-Zeichnung enthalten sind. |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | Die Liste der in der CAD-Zeichnung enthaltenen Layouts. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Die Liste der anzuzeigenden Seiten. |
 
 ## Methoden
 

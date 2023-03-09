@@ -3,7 +3,7 @@ title: PDF
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Portable Document Format File .pdf är en typ av dokument som skapades av Adobe redan på 1990talet. Syftet med detta filformat var att införa en standard för representation av dokument och annat referensmaterial i ett format som är oberoende av applikationsprogramvara hårdvara samt operativsystem. Läs mer om detta filformathärhttps//wiki.fileformat.com/view/pdf .
 type: docs
-weight: 1040
+weight: 1090
 url: /sv/net/groupdocs.viewer/filetype/pdf/
 ---
 ## FileType.PDF field

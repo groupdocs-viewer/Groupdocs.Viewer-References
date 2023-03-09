@@ -18,8 +18,8 @@ public class FileCache : ICache
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileCache](filecache#constructor)(string) | 创建新的实例[`FileCache`](../filecache)类. |
-| [FileCache](filecache#constructor_1)(string, string) | 创建新的实例[`FileCache`](../filecache)类. |
+| [FileCache](filecache#constructor)(string) | 创建新实例[`FileCache`](../filecache)类. |
+| [FileCache](filecache#constructor_1)(string, string) | 创建新实例[`FileCache`](../filecache)类. |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public class FileCache : ICache
 | 姓名 | 描述 |
 | --- | --- |
 | [GetKeys](../../groupdocs.viewer.caching/filecache/getkeys)(string) | 返回文件名中包含过滤器的所有文件名。 |
-| [Set](../../groupdocs.viewer.caching/filecache/set)(string, object) | 将数据序列化到本地磁盘。 |
+| [Set](../../groupdocs.viewer.caching/filecache/set)(string, object) | 序列化数据到本地磁盘。 |
 | [TryGetValue&lt;T&gt;](../../groupdocs.viewer.caching/filecache/trygetvalue)(string, out T) | 反序列化与此键关联的数据（如果存在）。 |
 
 ### 也可以看看

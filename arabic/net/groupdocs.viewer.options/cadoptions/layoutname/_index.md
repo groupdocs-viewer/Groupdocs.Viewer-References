@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### ملاحظات
 
-ينطبق هذا الخيار فقط على رسومات CAD التي تدعم التخطيطات[`DXF`](../../../groupdocs.viewer/filetype/dxf) و[`DWG`](../../../groupdocs.viewer/filetype/dwg) و[`DWT`](../../../groupdocs.viewer/filetype/dwt) ، و[`DWF`](../../../groupdocs.viewer/filetype/dwf) و أيضاDWFX ؛ بشكل افتراضي يتم تقديم النموذج فقط .
+ينطبق هذا الخيار فقط على رسومات CAD التي تدعم التخطيطات[`DXF`](../../../groupdocs.viewer/filetype/dxf) و[`DWG`](../../../groupdocs.viewer/filetype/dwg) و[`DWT`](../../../groupdocs.viewer/filetype/dwt) ، و[`DWF`](../../../groupdocs.viewer/filetype/dwf) و أيضا[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ؛ بشكل افتراضي يتم تقديم النموذج فقط .
 
 ### أنظر أيضا
 

@@ -18,18 +18,19 @@ public class Line : TextElement<string>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Line](line)(string, double, double, double, double, IList&lt;Word&gt;) | Initierar ny instans av[`Line`](../line) class. |
+| [Line](line#constructor)() | Initierar ny instans av[`Line`](../line) class. |
+| [Line](line#constructor_1)(string, double, double, double, double, List&lt;Word&gt;) | Initierar ny instans av[`Line`](../line) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Höjden på rektangeln som innehåller elementet (i pixlar). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Elementvärdet. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Bredden på rektangeln som innehåller elementet (i pixlar). |
-| [Words](../../groupdocs.viewer.results/line/words) { get; } | Orden som raden innehåller. |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | X-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Höjden på rektangeln som innehåller elementet (i pixlar). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Elementvärdet. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Bredden på rektangeln som innehåller elementet (i pixlar). |
+| [Words](../../groupdocs.viewer.results/line/words) { get; set; } | Orden som raden innehåller. |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | X-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller elementet börjar. |
 
 ## Metoder
 

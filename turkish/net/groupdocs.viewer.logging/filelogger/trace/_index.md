@@ -16,13 +16,13 @@ public void Trace(string message)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| message | String | İz mesajı. |
+| message | String | İzleme mesajı. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*message* boş. |
+| ArgumentNullException | Ne zaman atıldı*message* boş. |
 
 ### Ayrıca bakınız
 

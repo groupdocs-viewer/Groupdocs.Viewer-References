@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Initialisiert eine neue Instanz vonViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsKlasse zum Abrufen von Informationen zur Ansicht beim Rendern in PNG.
+description: Initialisiert eine neue Instanz vonViewInfoOptionsgroupdocs.viewer.options/viewinfooptions Klasse zum Abrufen von Informationen zur Ansicht beim Rendern in PNG.
 type: docs
 weight: 30
 url: /de/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-Initialisiert eine neue Instanz von[`ViewInfoOptions`](../../viewinfooptions)Klasse zum Abrufen von Informationen zur Ansicht beim Rendern in PNG.
+Initialisiert eine neue Instanz von[`ViewInfoOptions`](../../viewinfooptions) Klasse zum Abrufen von Informationen zur Ansicht beim Rendern in PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -28,7 +28,7 @@ Neue Instanz von[`ViewInfoOptions`](../../viewinfooptions) Klasse.
 
 ## ForPngView(bool) {#forpngview_1}
 
-Initialisiert eine neue Instanz von[`ViewInfoOptions`](../../viewinfooptions)Klasse zum Abrufen von Informationen zur Ansicht beim Rendern in PNG.
+Initialisiert eine neue Instanz von[`ViewInfoOptions`](../../viewinfooptions) Klasse zum Abrufen von Informationen zur Ansicht beim Rendern in PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)

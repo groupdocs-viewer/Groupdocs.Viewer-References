@@ -21,6 +21,7 @@ Der Namensraum stellt Klassen bereit, die Ergebnisse der Dokumentwiedergabe dars
 | [Layout](./layout) | Stellt das Layout dar, das in der CAD-Zeichnung enthalten ist. |
 | [Line](./line) | Stellt ein relativ positioniertes Rechteck dar, das eine einzelne Linie enthält. |
 | [LotusNotesViewInfo](./lotusnotesviewinfo) | Repräsentiert Ansichtsinformationen für den Lotus Notes-Datenbankspeicher |
+| [MboxViewInfo](./mboxviewinfo) | Repräsentiert Ansichtsinformationen für Mbox-Dateien storage |
 | [OutlookViewInfo](./outlookviewinfo) | Repräsentiert Ansichtsinformationen für die Outlook-Datendatei. |
 | [Page](./page) | Stellt eine einzelne Seite dar, die angezeigt werden kann. |
 | [PdfViewInfo](./pdfviewinfo) | Repräsentiert Ansichtsinformationen für das PDF-Dokument. |

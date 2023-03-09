@@ -11,12 +11,12 @@ url: /zh/net/groupdocs.viewer.results/layer/visible/
 图层可见性指示器。
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### 评论
 
-关闭或冻结的 CAD 绘图图层不可见。 要渲染不可见的图层，请使用[`Layers`](../../../groupdocs.viewer.options/cadoptions/layers)选项.
+关闭或冻结的 CAD 绘图层不可见。 要渲染不可见的层，请使用[`Layers`](../../../groupdocs.viewer.options/cadoptions/layers)选项.
 
 ### 也可以看看
 

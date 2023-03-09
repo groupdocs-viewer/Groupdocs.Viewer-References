@@ -18,22 +18,22 @@ public class CadViewInfo : ViewInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | 初始化的新实例[`CadViewInfo`](../cadviewinfo)类. |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | 初始化新实例[`CadViewInfo`](../cadviewinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | 文件的类型。 |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | CAD 绘图所包含的图层列表。 |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | CAD 绘图包含的布局列表。 |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | 要查看的页面列表。 |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | 文件的类型。 |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | CAD 绘图包含的图层列表。 |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | CAD 图纸包含的布局列表。 |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | 要查看的页面列表。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

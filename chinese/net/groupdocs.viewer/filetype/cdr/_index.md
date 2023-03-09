@@ -1,14 +1,14 @@
 ---
 title: CDR
 second_title: GroupDocs.Viewer for .NET API 参考
-description: CorelDraw 矢量图形绘图 .cdr 是使用 CorelDRAW 原生创建的矢量绘图图像文件用于存储编码和压缩的数字图像这样的绘图文件包含文本线条形状图像颜色和效果用于图像内容的矢量表示 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/cdr
+description: CorelDraw Vector Graphic Drawing .cdr 是使用 CorelDRAW 原生创建的矢量绘图图像文件用于存储编码和压缩的数字图像这样的绘图文件包含用于图像内容的矢量表示的文本线条形状图像颜色和效果 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/cdr
 type: docs
-weight: 110
+weight: 120
 url: /zh/net/groupdocs.viewer/filetype/cdr/
 ---
 ## FileType.CDR field
 
-CorelDraw 矢量图形绘图 (.cdr) 是使用 CorelDRAW 原生创建的矢量绘图图像文件，用于存储编码和压缩的数字图像。这样的绘图文件包含文本、线条、形状、图像、颜色和效果，用于图像内容的矢量表示。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/cdr)
+CorelDraw Vector Graphic Drawing (.cdr) 是使用 CorelDRAW 原生创建的矢量绘图图像文件，用于存储编码和压缩的数字图像。这样的绘图文件包含用于图像内容的矢量表示的文本、线条、形状、图像、颜色和效果。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/cdr)
 
 ```csharp
 public static readonly FileType CDR;

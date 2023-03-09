@@ -18,15 +18,16 @@ public class ArchiveViewInfo : ViewInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ArchiveViewInfo](archiveviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Инициализирует новый экземпляр[`ArchiveViewInfo`](../archiveviewinfo) класс. |
+| [ArchiveViewInfo](archiveviewinfo#constructor)() | Инициализирует новый экземпляр[`ArchiveViewInfo`](../archiveviewinfo) класс. |
+| [ArchiveViewInfo](archiveviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Инициализирует новый экземпляр[`ArchiveViewInfo`](../archiveviewinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Тип файла. |
-| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; } | Папки, содержащиеся в файле архива. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Список страниц для просмотра. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Тип файла. |
+| [Folders](../../groupdocs.viewer.results/archiveviewinfo/folders) { get; set; } | Папки, содержащиеся в файле архива. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Список страниц для просмотра. |
 
 ## Методы
 

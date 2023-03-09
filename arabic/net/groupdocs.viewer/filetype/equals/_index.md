@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer لمرجع .NET API
-description: يحدد ما إذا كان التيارFileTypegroupdocs.viewer/filetypeهو نفسه كما هو محددFileTypegroupdocs.viewer/filetype الكائن .
+description: يحدد ما إذا كان التيارFileTypegroupdocs.viewer/filetype هو نفسه كما هو محددFileTypegroupdocs.viewer/filetype الكائن .
 type: docs
-weight: 1930
+weight: 1980
 url: /ar/net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-يحدد ما إذا كان التيار[`FileType`](../../filetype)هو نفسه كما هو محدد[`FileType`](../../filetype) الكائن .
+يحدد ما إذا كان التيار[`FileType`](../../filetype) هو نفسه كما هو محدد[`FileType`](../../filetype) الكائن .
 
 ```csharp
 public bool Equals(FileType other)
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-إذا المعلمة[`FileType`](../../filetype) وهو نفس التيار[`FileType`](../../filetype) هدف؛ خلاف ذلك،
+لو المعلمة[`FileType`](../../filetype) وهو نفس التيار[`FileType`](../../filetype) هدف؛ خلاف ذلك،
 
 ```csharp
 true

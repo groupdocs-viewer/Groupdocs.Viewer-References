@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/page/height/
 Höjden på sidan i pixlar när den visas som JPG eller PNG.
 
 ```csharp
-public int Height { get; }
+public int Height { get; set; }
 ```
 
 ### Se även

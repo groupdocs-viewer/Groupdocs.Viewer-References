@@ -16,12 +16,12 @@ public static bool operator ==(FolderFontSource left, FolderFontSource right)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| left | FolderFontSource | Sono partiti[`FolderFontSource`](../../folderfontsource) oggetto. |
-| right | FolderFontSource | Destra[`FolderFontSource`](../../folderfontsource) oggetto. |
+| left | FolderFontSource | Sinistra[`FolderFontSource`](../../folderfontsource) oggetto. |
+| right | FolderFontSource | Giusto[`FolderFontSource`](../../folderfontsource) oggetto. |
 
 ### Valore di ritorno
 
-se entrambi[`FolderFontSource`](../../folderfontsource) gli oggetti sono gli stessi; altrimenti,
+se entrambi[`FolderFontSource`](../../folderfontsource) gli oggetti sono gli stessi; Altrimenti,
 
 ```csharp
 true

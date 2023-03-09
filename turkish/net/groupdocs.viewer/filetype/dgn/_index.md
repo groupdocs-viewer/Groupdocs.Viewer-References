@@ -1,14 +1,14 @@
 ---
 title: DGN
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: MicroStation Tasarım Dosyası .dgn MicroStation ve Intergraph Interactive Graphics Design System gibi CAD uygulamaları tarafından oluşturulan ve desteklenen çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/dgn .
+description: MicroStation Tasarım Dosyası .dgn MicroStation ve Intergraph Interactive Graphics Design System gibi CAD uygulamaları tarafından oluşturulan ve desteklenen çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/dgn .
 type: docs
-weight: 230
+weight: 250
 url: /tr/net/groupdocs.viewer/filetype/dgn/
 ---
 ## FileType.DGN field
 
-MicroStation Tasarım Dosyası (.dgn), MicroStation ve Intergraph Interactive Graphics Design System gibi CAD uygulamaları tarafından oluşturulan ve desteklenen çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/dgn) .
+MicroStation Tasarım Dosyası (.dgn), MicroStation ve Intergraph Interactive Graphics Design System gibi CAD uygulamaları tarafından oluşturulan ve desteklenen çizimlerdir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/dgn) .
 
 ```csharp
 public static readonly FileType DGN;

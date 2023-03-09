@@ -3,7 +3,7 @@ title: STL
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл стереолитографии .stl  взаимозаменяемый формат файла представляющий трехмерную геометрию поверхности. Формат файла находит свое применение в нескольких областях таких как быстрое прототипирование 3Dпечать и автоматизированное производство. Узнайте больше об этом формате файла.здесьhttps//wiki.fileformat.com/cad/stl .
 type: docs
-weight: 1390
+weight: 1440
 url: /ru/net/groupdocs.viewer/filetype/stl/
 ---
 ## FileType.STL field

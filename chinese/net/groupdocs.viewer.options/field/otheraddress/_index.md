@@ -1,14 +1,14 @@
 ---
 title: OtherAddress
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是其他地址
+description: 默认字段文本为其他地址
 type: docs
 weight: 330
 url: /zh/net/groupdocs.viewer.options/field/otheraddress/
 ---
 ## Field.OtherAddress field
 
-默认字段文本是“其他地址”。
+默认字段文本为“其他地址”。
 
 ```csharp
 public static readonly Field OtherAddress;

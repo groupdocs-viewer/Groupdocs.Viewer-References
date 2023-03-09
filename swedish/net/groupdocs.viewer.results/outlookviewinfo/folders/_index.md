@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/outlookviewinfo/folders/
 Listan över mappar som finns i Outlook-datafilen.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Se även

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Determina si la corrienteLayoutgroupdocs.viewer.results/layoutes igual a lo especificadoLayoutgroupdocs.viewer.results/layout objeto.
+description: Determina si la corrienteLayoutgroupdocs.viewer.results/layout es igual a lo especificadoLayoutgroupdocs.viewer.results/layout objeto.
 type: docs
 weight: 50
 url: /es/net/groupdocs.viewer.results/layout/equals/
 ---
 ## Equals(Layout) {#equals}
 
-Determina si la corriente[`Layout`](../../layout)es igual a lo especificado[`Layout`](../../layout) objeto.
+Determina si la corriente[`Layout`](../../layout) es igual a lo especificado[`Layout`](../../layout) objeto.
 
 ```csharp
 public bool Equals(Layout other)

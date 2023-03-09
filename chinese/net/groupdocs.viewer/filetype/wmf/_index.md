@@ -1,14 +1,14 @@
 ---
 title: WMF
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Windows 元文件 .wmf 代表 Microsoft Windows 元文件 WMF用于存储矢量以及位图格式的图像数据 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/wmf
+description: Windows 图元文件 .wmf 表示用于存储矢量和位图格式图像数据的 Microsoft Windows 图元文件 WMF 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/wmf
 type: docs
-weight: 1720
+weight: 1770
 url: /zh/net/groupdocs.viewer/filetype/wmf/
 ---
 ## FileType.WMF field
 
-Windows 元文件 (.wmf) 代表 Microsoft Windows 元文件 (WMF)，用于存储矢量以及位图格式的图像数据。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/wmf)
+Windows 图元文件 (.wmf) 表示用于存储矢量和位图格式图像数据的 Microsoft Windows 图元文件 (WMF)。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/wmf)
 
 ```csharp
 public static readonly FileType WMF;

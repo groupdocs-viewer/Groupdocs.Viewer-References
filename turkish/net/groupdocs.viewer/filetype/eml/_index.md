@@ -1,14 +1,14 @@
 ---
 title: EML
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: EPosta Mesajı .eml Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen eposta mesajlarını temsil eder. Hemen hemen tüm eposta istemcileri RFC822 İnternet İleti Biçimi Standardı ile uyumluluğu nedeniyle bu dosya biçimini destekler. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/email/eml .
+description: EPosta Mesajı .eml Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen eposta mesajlarını temsil eder. Hemen hemen tüm eposta istemcileri RFC822 İnternet İleti Biçimi Standardı ile uyumluluğu nedeniyle bu dosya biçimini destekler. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/email/eml .
 type: docs
-weight: 390
+weight: 420
 url: /tr/net/groupdocs.viewer/filetype/eml/
 ---
 ## FileType.EML field
 
-E-Posta Mesajı (.eml), Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen e-posta mesajlarını temsil eder. Hemen hemen tüm e-posta istemcileri, RFC-822 İnternet İleti Biçimi Standardı ile uyumluluğu nedeniyle bu dosya biçimini destekler. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email/eml) .
+E-Posta Mesajı (.eml), Outlook ve diğer ilgili uygulamalar kullanılarak kaydedilen e-posta mesajlarını temsil eder. Hemen hemen tüm e-posta istemcileri, RFC-822 İnternet İleti Biçimi Standardı ile uyumluluğu nedeniyle bu dosya biçimini destekler. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/email/eml) .
 
 ```csharp
 public static readonly FileType EML;

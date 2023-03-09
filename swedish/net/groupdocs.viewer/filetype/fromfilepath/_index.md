@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Extraherar filtillägget och mappar det till filtyp.
 type: docs
-weight: 1880
+weight: 1930
 url: /sv/net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method

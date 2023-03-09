@@ -3,7 +3,7 @@ title: WMF
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل Windows Metafile .wmf Microsoft Windows Metafile WMF لتخزين بيانات الصور المتجهية وكذلك بصيغة الصور النقطية. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/wmf .
 type: docs
-weight: 1720
+weight: 1770
 url: /ar/net/groupdocs.viewer/filetype/wmf/
 ---
 ## FileType.WMF field

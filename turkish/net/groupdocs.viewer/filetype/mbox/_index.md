@@ -1,14 +1,14 @@
 ---
 title: MBOX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Eposta Posta Kutusu Dosyası .mbox Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/mbox .
+description: Eposta Posta Kutusu Dosyası .mbox Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/mbox .
 type: docs
-weight: 780
+weight: 830
 url: /tr/net/groupdocs.viewer/filetype/mbox/
 ---
 ## FileType.MBOX field
 
-E-posta Posta Kutusu Dosyası (.mbox) Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/mbox) .
+E-posta Posta Kutusu Dosyası (.mbox) Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/mbox) .
 
 ```csharp
 public static readonly FileType MBOX;

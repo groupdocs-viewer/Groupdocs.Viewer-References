@@ -3,7 +3,7 @@ title: XZ
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл XZ .xz представляет собой архив сжатый с помощью алгоритма сжатия с высоким коэффициентом сжатия основанного на алгоритме LZMA. Узнайте больше об этом формате файлаздесьhttps//fileinfo.com/extension/xz .
 type: docs
-weight: 1840
+weight: 1890
 url: /ru/net/groupdocs.viewer/filetype/xz/
 ---
 ## FileType.XZ field

@@ -3,7 +3,7 @@ title: VIM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Vim Ayarları Dosyası .vim
 type: docs
-weight: 1590
+weight: 1640
 url: /tr/net/groupdocs.viewer/filetype/vim/
 ---
 ## FileType.VIM field

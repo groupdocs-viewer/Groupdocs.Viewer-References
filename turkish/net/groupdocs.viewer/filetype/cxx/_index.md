@@ -3,7 +3,7 @@ title: CXX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: C Kaynak Kodu Dosyası .cxx
 type: docs
-weight: 210
+weight: 230
 url: /tr/net/groupdocs.viewer/filetype/cxx/
 ---
 ## FileType.CXX field

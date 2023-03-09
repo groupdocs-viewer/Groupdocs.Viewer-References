@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /fr/net/groupdocs.viewer.results/page/page/
 ---
-## Page(int, bool) {#constructor}
+## Page() {#constructor}
+
+Initialise la nouvelle instance de[`Page`](../../page) classe.
+
+```csharp
+public Page()
+```
+
+### Voir également
+
+* class [Page](../../page)
+* espace de noms [GroupDocs.Viewer.Results](../../page)
+* Assemblée [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool) {#constructor_1}
 
 Initialise la nouvelle instance de[`Page`](../../page) classe.
 
@@ -33,7 +49,7 @@ public Page(int number, bool visible)
 
 ---
 
-## Page(int, string, bool) {#constructor_3}
+## Page(int, string, bool) {#constructor_4}
 
 Initialise la nouvelle instance de[`Page`](../../page) classe.
 
@@ -61,7 +77,7 @@ public Page(int number, string name, bool visible)
 
 ---
 
-## Page(int, bool, int, int) {#constructor_1}
+## Page(int, bool, int, int) {#constructor_2}
 
 Initialise la nouvelle instance de[`Page`](../../page) classe.
 
@@ -92,7 +108,7 @@ public Page(int number, bool visible, int width, int height)
 
 ---
 
-## Page(int, string, bool, int, int) {#constructor_4}
+## Page(int, string, bool, int, int) {#constructor_5}
 
 Initialise la nouvelle instance de[`Page`](../../page) classe.
 
@@ -124,12 +140,12 @@ public Page(int number, string name, bool visible, int width, int height)
 
 ---
 
-## Page(int, bool, int, int, IList&lt;Line&gt;) {#constructor_2}
+## Page(int, bool, int, int, List&lt;Line&gt;) {#constructor_3}
 
 Initialise la nouvelle instance de[`Page`](../../page) classe.
 
 ```csharp
-public Page(int number, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Paramètre | Taper | La description |
@@ -138,7 +154,7 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 | visible | Boolean | L'indicateur de visibilité de la page. |
 | width | Int32 | La largeur de la page en pixels lors de l'affichage au format JPG ou PNG. |
 | height | Int32 | La hauteur de la page en pixels lors de l'affichage au format JPG ou PNG. |
-| lines | IList`1 | Les lignes contenues par la page lors de l'affichage au format JPG ou PNG avec l'extraction de texte activée. |
+| lines | List`1 | Les lignes contenues par la page lors de l'affichage au format JPG ou PNG avec l'extraction de texte activée. |
 
 ### Exceptions
 
@@ -158,12 +174,12 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 
 ---
 
-## Page(int, string, bool, int, int, IList&lt;Line&gt;) {#constructor_5}
+## Page(int, string, bool, int, int, List&lt;Line&gt;) {#constructor_6}
 
 Initialise la nouvelle instance de[`Page`](../../page) classe.
 
 ```csharp
-public Page(int number, string name, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, string name, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Paramètre | Taper | La description |
@@ -173,7 +189,7 @@ public Page(int number, string name, bool visible, int width, int height, IList<
 | visible | Boolean | L'indicateur de visibilité de la page. |
 | width | Int32 | La largeur de la page en pixels lors de l'affichage au format JPG ou PNG. |
 | height | Int32 | La hauteur de la page en pixels lors de l'affichage au format JPG ou PNG. |
-| lines | IList`1 | Les lignes contenues par la page lors de l'affichage au format JPG ou PNG avec l'extraction de texte activée. |
+| lines | List`1 | Les lignes contenues par la page lors de l'affichage au format JPG ou PNG avec l'extraction de texte activée. |
 
 ### Exceptions
 

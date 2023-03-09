@@ -8,7 +8,7 @@ url: /tr/net/groupdocs.viewer.options/watermark/size/
 ---
 ## Watermark.Size property
 
-Filigran boyutu. Varsayılan değer[`FullSize`](../../size/fullsize) .
+Filigran boyutu. Varsayılan değer:[`FullSize`](../../size/fullsize) .
 
 ```csharp
 public Size Size { get; set; }

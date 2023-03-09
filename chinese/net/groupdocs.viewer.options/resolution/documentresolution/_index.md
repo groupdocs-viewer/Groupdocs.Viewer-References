@@ -1,14 +1,14 @@
 ---
 title: DocumentResolution
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认压缩级别  如文档中所示
+description: 默认压缩级别  如文档中所述
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/resolution/documentresolution/
 ---
 ## Resolution.DocumentResolution field
 
-默认压缩级别 - 如文档中所示。
+默认压缩级别 - 如文档中所述。
 
 ```csharp
 public static readonly Resolution DocumentResolution;

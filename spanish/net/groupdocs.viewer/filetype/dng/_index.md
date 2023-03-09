@@ -1,14 +1,14 @@
 ---
 title: DNG
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Especificación negativa digital .dng es un formato de imagen de cámara digital utilizado para el almacenamiento de archivos sin formato. Ha sido desarrollado por Adobe en septiembre de 2004. Fue desarrollado básicamente para fotografía digital. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/dng .
+description: Especificación negativa digital .dng es un formato de imagen de cámara digital utilizado para el almacenamiento de archivos sin procesar. Ha sido desarrollado por Adobe en septiembre de 2004. Fue desarrollado básicamente para fotografía digital. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 270
+weight: 290
 url: /es/net/groupdocs.viewer/filetype/dng/
 ---
 ## FileType.DNG field
 
-Especificación negativa digital (.dng) es un formato de imagen de cámara digital utilizado para el almacenamiento de archivos sin formato. Ha sido desarrollado por Adobe en septiembre de 2004. Fue desarrollado básicamente para fotografía digital. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/dng) .
+Especificación negativa digital (.dng) es un formato de imagen de cámara digital utilizado para el almacenamiento de archivos sin procesar. Ha sido desarrollado por Adobe en septiembre de 2004. Fue desarrollado básicamente para fotografía digital. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/dng) .
 
 ```csharp
 public static readonly FileType DNG;

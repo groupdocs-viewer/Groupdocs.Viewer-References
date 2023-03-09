@@ -27,13 +27,13 @@ public class SpreadsheetOptions
 | [RenderHiddenRows](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddenrows) { get; set; } | Gizli satırların oluşturulmasını etkinleştirir. |
 | [SkipEmptyColumns](../../groupdocs.viewer.options/spreadsheetoptions/skipemptycolumns) { get; set; } | Boş sütunların oluşturulmasını devre dışı bırakır. |
 | [SkipEmptyRows](../../groupdocs.viewer.options/spreadsheetoptions/skipemptyrows) { get; set; } | Boş satırların oluşturulmasını devre dışı bırakır. |
-| [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | Elektronik tablo belgelerini HTML'ye dönüştürmek için metin taşması modu. |
+| [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | Elektronik tablo belgelerini HTML'ye dönüştürmek için metin taşma modu. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | Yeni örneğini başlatır[`SpreadsheetOptions`](../spreadsheetoptions) tüm sayfayı sayfaya dönüştürmek için sınıf. |
+| static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | Yeni örneğini başlatır[`SpreadsheetOptions`](../spreadsheetoptions) tüm sayfayı page. haline getirmek için sınıf |
 | static [ForRenderingByPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks)() | Yeni örneğini başlatır[`SpreadsheetOptions`](../spreadsheetoptions) yalnızca yazdırma alanlarını oluşturmak için. |
 | static [ForRenderingPrintArea](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea)() | Yeni örneğini başlatır[`SpreadsheetOptions`](../spreadsheetoptions) yalnızca yazdırma alanlarını oluşturmak için. |
 | static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages)(int) | Yeni örneğini başlatır[`SpreadsheetOptions`](../spreadsheetoptions) sayfayı sayfalara dönüştürmek için. |

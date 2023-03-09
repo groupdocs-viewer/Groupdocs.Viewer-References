@@ -1,14 +1,14 @@
 ---
 title: SVGZ
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 可缩放矢量图形文件 .svgz 是使用基于 XML 的文本格式的标量矢量图形文件由 GZIP 压缩以描述图像的外观 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/svgz
+description: 可缩放矢量图形文件 .svgz 是一种标量矢量图形文件它使用基于 XML 的文本格式由 GZIP 压缩以描述图像的外观 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/svgz
 type: docs
-weight: 1410
+weight: 1460
 url: /zh/net/groupdocs.viewer/filetype/svgz/
 ---
 ## FileType.SVGZ field
 
-可缩放矢量图形文件 (.svgz) 是使用基于 XML 的文本格式的标量矢量图形文件，由 GZIP 压缩以描述图像的外观。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/svgz)
+可缩放矢量图形文件 (.svgz) 是一种标量矢量图形文件，它使用基于 XML 的文本格式，由 GZIP 压缩以描述图像的外观。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/svgz)
 
 ```csharp
 public static readonly FileType SVGZ;

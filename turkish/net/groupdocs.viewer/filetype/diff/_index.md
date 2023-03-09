@@ -3,7 +3,7 @@ title: DIFF
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Yama Dosyası .diff
 type: docs
-weight: 250
+weight: 270
 url: /tr/net/groupdocs.viewer/filetype/diff/
 ---
 ## FileType.DIFF field

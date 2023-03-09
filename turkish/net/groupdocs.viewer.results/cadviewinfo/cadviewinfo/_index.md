@@ -11,24 +11,24 @@ url: /tr/net/groupdocs.viewer.results/cadviewinfo/cadviewinfo/
 Yeni örneğini başlatır[`CadViewInfo`](../../cadviewinfo) sınıf.
 
 ```csharp
-public CadViewInfo(FileType fileType, IList<Page> pages, IList<Layer> layers, IList<Layout> layouts)
+public CadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileType | FileType | Dosyanın türü. |
-| pages | IList`1 | Görüntülenecek sayfaların listesi. |
-| layers | IList`1 | CAD çiziminin içerdiği katmanların listesi. |
-| layouts | IList`1 | CAD çiziminin içerdiği katmanların listesi. |
+| pages | List`1 | Görüntülenecek sayfaların listesi. |
+| layers | List`1 | CAD çiziminin içerdiği katmanların listesi. |
+| layouts | List`1 | CAD çiziminin içerdiği katmanların listesi. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
-| ArgumentNullException | ne zaman atıldı*pages* boş. |
-| ArgumentNullException | ne zaman atıldı*layers* boş. |
-| ArgumentNullException | ne zaman atıldı*layouts* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*pages* boş. |
+| ArgumentNullException | Ne zaman atıldı*layers* boş. |
+| ArgumentNullException | Ne zaman atıldı*layouts* boş. |
 
 ### Ayrıca bakınız
 

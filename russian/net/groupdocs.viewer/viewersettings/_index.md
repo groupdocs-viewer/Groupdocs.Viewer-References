@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: Справочник по API GroupDocs.Viewer для .NET
-description: Определяет параметры для настройкиViewer./viewerповедение.
+description: Определяет параметры для настройкиViewer./viewer поведение.
 type: docs
-weight: 810
+weight: 820
 url: /ru/net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class
 
-Определяет параметры для настройки[`Viewer`](../viewer)поведение.
+Определяет параметры для настройки[`Viewer`](../viewer) поведение.
 
 ```csharp
 public class ViewerSettings

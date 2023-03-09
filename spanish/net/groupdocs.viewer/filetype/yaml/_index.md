@@ -3,7 +3,7 @@ title: YAML
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Documento YAML .yaml
 type: docs
-weight: 1850
+weight: 1900
 url: /es/net/groupdocs.viewer/filetype/yaml/
 ---
 ## FileType.YAML field

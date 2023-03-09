@@ -3,7 +3,7 @@ title: PLT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: PLT HPGL .plt  это векторный файл плоттера представленный Autodesk Inc. и содержащий информацию для определенного файла САПР. Детали чертежа требуют точности и аккуратности при производстве и использование файла PLT гарантирует это поскольку все изображения печатаются с использованием линий а не точек. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/cad/plt .
 type: docs
-weight: 1070
+weight: 1120
 url: /ru/net/groupdocs.viewer/filetype/plt/
 ---
 ## FileType.PLT field

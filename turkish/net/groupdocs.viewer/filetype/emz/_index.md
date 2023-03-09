@@ -1,14 +1,14 @@
 ---
 title: EMZ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Gelişmiş Windows Meta dosyası sıkıştırılmış .emz GZIP tarafından cihazdan bağımsız olarak sıkıştırılmış grafik görüntüleri temsil eder. EMFnin meta dosyaları herhangi bir çıktı aygıtında ayrıştırıldıktan sonra saklanan görüntüyü işleyebilen kronolojik sırada yer alan değişken uzunluklu kayıtlardan oluşur. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/emz .
+description: Gelişmiş Windows Meta dosyası sıkıştırılmış .emz GZIP tarafından cihazdan bağımsız olarak sıkıştırılmış grafik görüntüleri temsil eder. EMFnin meta dosyaları herhangi bir çıktı aygıtında ayrıştırıldıktan sonra saklanan görüntüyü işleyebilen kronolojik sırada yer alan değişken uzunluklu kayıtlardan oluşur. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/emz .
 type: docs
-weight: 410
+weight: 440
 url: /tr/net/groupdocs.viewer/filetype/emz/
 ---
 ## FileType.EMZ field
 
-Gelişmiş Windows Meta dosyası sıkıştırılmış (.emz), GZIP tarafından cihazdan bağımsız olarak sıkıştırılmış grafik görüntüleri temsil eder. EMF'nin meta dosyaları, herhangi bir çıktı aygıtında ayrıştırıldıktan sonra saklanan görüntüyü işleyebilen, kronolojik sırada yer alan değişken uzunluklu kayıtlardan oluşur. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/emz) .
+Gelişmiş Windows Meta dosyası sıkıştırılmış (.emz), GZIP tarafından cihazdan bağımsız olarak sıkıştırılmış grafik görüntüleri temsil eder. EMF'nin meta dosyaları, herhangi bir çıktı aygıtında ayrıştırıldıktan sonra saklanan görüntüyü işleyebilen, kronolojik sırada yer alan değişken uzunluklu kayıtlardan oluşur. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/emz) .
 
 ```csharp
 public static readonly FileType EMZ;

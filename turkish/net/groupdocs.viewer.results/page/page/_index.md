@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/page/page/
 ---
-## Page(int, bool) {#constructor}
+## Page() {#constructor}
+
+Yeni örneğini başlatır[`Page`](../../page) sınıf.
+
+```csharp
+public Page()
+```
+
+### Ayrıca bakınız
+
+* class [Page](../../page)
+* ad alanı [GroupDocs.Viewer.Results](../../page)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool) {#constructor_1}
 
 Yeni örneğini başlatır[`Page`](../../page) sınıf.
 
@@ -23,7 +39,7 @@ public Page(int number, bool visible)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*number* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*number* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 
@@ -33,7 +49,7 @@ public Page(int number, bool visible)
 
 ---
 
-## Page(int, string, bool) {#constructor_3}
+## Page(int, string, bool) {#constructor_4}
 
 Yeni örneğini başlatır[`Page`](../../page) sınıf.
 
@@ -51,7 +67,7 @@ public Page(int number, string name, bool visible)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*number* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*number* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 
@@ -61,7 +77,7 @@ public Page(int number, string name, bool visible)
 
 ---
 
-## Page(int, bool, int, int) {#constructor_1}
+## Page(int, bool, int, int) {#constructor_2}
 
 Yeni örneğini başlatır[`Page`](../../page) sınıf.
 
@@ -80,9 +96,9 @@ public Page(int number, bool visible, int width, int height)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*number* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*width* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*height* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*number* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*width* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*height* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 
@@ -92,7 +108,7 @@ public Page(int number, bool visible, int width, int height)
 
 ---
 
-## Page(int, string, bool, int, int) {#constructor_4}
+## Page(int, string, bool, int, int) {#constructor_5}
 
 Yeni örneğini başlatır[`Page`](../../page) sınıf.
 
@@ -112,9 +128,9 @@ public Page(int number, string name, bool visible, int width, int height)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*number* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*width* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*height* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*number* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*width* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*height* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 
@@ -124,12 +140,12 @@ public Page(int number, string name, bool visible, int width, int height)
 
 ---
 
-## Page(int, bool, int, int, IList&lt;Line&gt;) {#constructor_2}
+## Page(int, bool, int, int, List&lt;Line&gt;) {#constructor_3}
 
 Yeni örneğini başlatır[`Page`](../../page) sınıf.
 
 ```csharp
-public Page(int number, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Parametre | Tip | Tanım |
@@ -138,16 +154,16 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 | visible | Boolean | Sayfa görünürlüğü göstergesi. |
 | width | Int32 | JPG veya PNG olarak görüntülerken sayfanın piksel cinsinden genişliği. |
 | height | Int32 | JPG veya PNG olarak görüntülerken sayfanın piksel cinsinden yüksekliği. |
-| lines | IList`1 | Metin Çıkarma etkinken JPG veya PNG olarak görüntülerken sayfanın içerdiği satırlar. |
+| lines | List`1 | Metin Çıkarma etkinken JPG veya PNG olarak görüntülerken sayfanın içerdiği satırlar. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*number* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*width* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*height* sıfıra eşit veya küçüktür. |
-| ArgumentNullException | ne zaman atıldı*lines* boş. |
+| ArgumentException | Ne zaman atıldı*number* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*width* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*height* sıfırdan küçük veya eşittir. |
+| ArgumentNullException | Ne zaman atıldı*lines* boş. |
 
 ### Ayrıca bakınız
 
@@ -158,12 +174,12 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 
 ---
 
-## Page(int, string, bool, int, int, IList&lt;Line&gt;) {#constructor_5}
+## Page(int, string, bool, int, int, List&lt;Line&gt;) {#constructor_6}
 
 Yeni örneğini başlatır[`Page`](../../page) sınıf.
 
 ```csharp
-public Page(int number, string name, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, string name, bool visible, int width, int height, List<Line> lines)
 ```
 
 | Parametre | Tip | Tanım |
@@ -173,16 +189,16 @@ public Page(int number, string name, bool visible, int width, int height, IList<
 | visible | Boolean | Sayfa görünürlüğü göstergesi. |
 | width | Int32 | JPG veya PNG olarak görüntülerken sayfanın piksel cinsinden genişliği. |
 | height | Int32 | JPG veya PNG olarak görüntülerken sayfanın piksel cinsinden yüksekliği. |
-| lines | IList`1 | Metin Çıkarma etkinken JPG veya PNG olarak görüntülerken sayfanın içerdiği satırlar. |
+| lines | List`1 | Metin Çıkarma etkinken JPG veya PNG olarak görüntülerken sayfanın içerdiği satırlar. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*number* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*width* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*height* sıfıra eşit veya küçüktür. |
-| ArgumentNullException | ne zaman atıldı*lines* boş. |
+| ArgumentException | Ne zaman atıldı*number* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*width* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*height* sıfırdan küçük veya eşittir. |
+| ArgumentNullException | Ne zaman atıldı*lines* boş. |
 
 ### Ayrıca bakınız
 

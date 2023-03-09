@@ -1,14 +1,14 @@
 ---
 title: VST
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Visio Çizim Şablonu .vst Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablon görevi görür. Bu şablon dosyaları ikili dosya biçimindedir ve yeni Visio çizimlerinin oluşturulması için kullanılan varsayılan düzeni ve ayarları içerir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vst .
+description: Visio Çizim Şablonu .vst Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablon görevi görür. Bu şablon dosyaları ikili dosya biçimindedir ve yeni Visio çizimlerinin oluşturulması için kullanılan varsayılan düzeni ve ayarları içerir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vst .
 type: docs
-weight: 1660
+weight: 1710
 url: /tr/net/groupdocs.viewer/filetype/vst/
 ---
 ## FileType.VST field
 
-Visio Çizim Şablonu (.vst), Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablon görevi görür. Bu şablon dosyaları ikili dosya biçimindedir ve yeni Visio çizimlerinin oluşturulması için kullanılan varsayılan düzeni ve ayarları içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vst) .
+Visio Çizim Şablonu (.vst), Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablon görevi görür. Bu şablon dosyaları ikili dosya biçimindedir ve yeni Visio çizimlerinin oluşturulması için kullanılan varsayılan düzeni ve ayarları içerir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vst) .
 
 ```csharp
 public static readonly FileType VST;

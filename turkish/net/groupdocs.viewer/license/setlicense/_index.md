@@ -22,11 +22,11 @@ public void SetLicense(Stream licenseStream)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*licenseStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*licenseStream* boş. |
 
 ### Örnekler
 
-Aşağıdaki örnek, lisans dosyasının Akışını geçen bir lisans öğesinin nasıl ayarlanacağını gösterir.
+Aşağıdaki örnek, lisans dosyasının Akışını geçen bir license 'nin nasıl ayarlanacağını gösterir.
 
 ```csharp
 using (FileStream licenseStream = File.OpenRead("GroupDocs.Viewer.lic"))
@@ -60,11 +60,11 @@ public void SetLicense(string licensePath)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*licensePath* null veya boş dizedir. |
+| ArgumentException | Ne zaman atıldı*licensePath* null veya boş dizedir. |
 
 ### Örnekler
 
-Aşağıdaki örnek, lisans dosyasının yolunu geçerek bir lisansın nasıl ayarlanacağını gösterir.
+Aşağıdaki örnek, lisans dosyasına bir yol ileten bir lisansın nasıl ayarlanacağını gösterir.
 
 ```csharp
 string licensePath = "GroupDocs.Viewer.lic";

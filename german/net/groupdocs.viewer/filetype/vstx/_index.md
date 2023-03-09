@@ -1,14 +1,14 @@
 ---
 title: VSTX
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: VisioZeichnungsvorlage .vstx sind Zeichnungsvorlagendateien die mit Microsoft Visio 2013 und höher erstellt wurden. Diese VSTXDateien bieten einen Ausgangspunkt zum Erstellen von VisioZeichnungen die als VSDXDateien mit Standardlayout und Standardeinstellungen gespeichert werden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vstx .
+description: VisioZeichnungsvorlage .vstx sind Zeichnungsvorlagendateien die mit Microsoft Visio 2013 und höher erstellt wurden. Diese VSTXDateien bieten einen Ausgangspunkt zum Erstellen von VisioZeichnungen die als VSDXDateien mit Standardlayout und Standardeinstellungen gespeichert werden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vstx .
 type: docs
-weight: 1680
+weight: 1730
 url: /de/net/groupdocs.viewer/filetype/vstx/
 ---
 ## FileType.VSTX field
 
-Visio-Zeichnungsvorlage (.vstx) sind Zeichnungsvorlagendateien, die mit Microsoft Visio 2013 und höher erstellt wurden. Diese VSTX-Dateien bieten einen Ausgangspunkt zum Erstellen von Visio-Zeichnungen, die als VSDX-Dateien mit Standardlayout und Standardeinstellungen gespeichert werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vstx) .
+Visio-Zeichnungsvorlage (.vstx) sind Zeichnungsvorlagendateien, die mit Microsoft Visio 2013 und höher erstellt wurden. Diese VSTX-Dateien bieten einen Ausgangspunkt zum Erstellen von Visio-Zeichnungen, die als VSDX-Dateien mit Standardlayout und Standardeinstellungen gespeichert werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vstx) .
 
 ```csharp
 public static readonly FileType VSTX;

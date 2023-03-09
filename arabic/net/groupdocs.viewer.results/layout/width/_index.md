@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/layout/width/
 عرض التخطيط .
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### أنظر أيضا

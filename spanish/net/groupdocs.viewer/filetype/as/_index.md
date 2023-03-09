@@ -3,7 +3,7 @@ title: AS
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo ActionScript .as
 type: docs
-weight: 30
+weight: 40
 url: /es/net/groupdocs.viewer/filetype/as/
 ---
 ## FileType.AS field

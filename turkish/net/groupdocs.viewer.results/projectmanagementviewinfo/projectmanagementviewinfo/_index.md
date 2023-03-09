@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/projectmanagementviewinfo/projectmanagementviewinfo/
 ---
-## ProjectManagementViewInfo constructor
+## ProjectManagementViewInfo() {#constructor}
 
 Yeni örneğini başlatır[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) sınıf.
 
 ```csharp
-public ProjectManagementViewInfo(FileType fileType, IList<Page> pages, DateTime startDate, 
+public ProjectManagementViewInfo()
+```
+
+### Ayrıca bakınız
+
+* class [ProjectManagementViewInfo](../../projectmanagementviewinfo)
+* ad alanı [GroupDocs.Viewer.Results](../../projectmanagementviewinfo)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## ProjectManagementViewInfo(FileType, List&lt;Page&gt;, DateTime, DateTime) {#constructor_1}
+
+Yeni örneğini başlatır[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) sınıf.
+
+```csharp
+public ProjectManagementViewInfo(FileType fileType, List<Page> pages, DateTime startDate, 
     DateTime endDate)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileType | FileType | Dosyanın türü. |
-| pages | IList`1 | Görüntülenecek sayfaların listesi. |
+| pages | List`1 | Görüntülenecek sayfaların listesi. |
 | startDate | DateTime | Projenin başladığı tarih saat. |
 | endDate | DateTime | Projenin tamamlanacağı tarih saat. |
 
@@ -26,8 +42,8 @@ public ProjectManagementViewInfo(FileType fileType, IList<Page> pages, DateTime 
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
-| ArgumentNullException | ne zaman atıldı*pages* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*pages* boş. |
 
 ### Ayrıca bakınız
 

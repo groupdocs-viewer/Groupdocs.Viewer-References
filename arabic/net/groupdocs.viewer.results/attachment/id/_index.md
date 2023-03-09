@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/attachment/id/
 معرّف فريد للمرفق في سياق ملف واحد يحتوي على هذا المرفق .
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### أنظر أيضا

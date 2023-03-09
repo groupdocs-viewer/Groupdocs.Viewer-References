@@ -3,7 +3,7 @@ title: FileFormat
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Dosya türü adı örneğin Microsoft Word Belgesi.
 type: docs
-weight: 1920
+weight: 1970
 url: /tr/net/groupdocs.viewer/filetype/fileformat/
 ---
 ## FileType.FileFormat property
@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer/filetype/fileformat/
 Dosya türü adı, örneğin "Microsoft Word Belgesi".
 
 ```csharp
-public string FileFormat { get; }
+public string FileFormat { get; set; }
 ```
 
 ### Ayrıca bakınız

@@ -3,7 +3,7 @@ title: JPC
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: JPEG 2000 Kod Akışı .jpc
 type: docs
-weight: 660
+weight: 710
 url: /tr/net/groupdocs.viewer/filetype/jpc/
 ---
 ## FileType.JPC field

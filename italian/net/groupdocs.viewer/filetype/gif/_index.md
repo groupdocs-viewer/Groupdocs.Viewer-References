@@ -1,14 +1,14 @@
 ---
 title: GIF
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il file in formato di interscambio grafico .gif è un tipo di immagine altamente compressa. Per ogni immagine GIF in genere consente fino a 8 bit per pixel e sono consentiti fino a 256 colori nellimmagine. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/gif .
+description: Il file in formato di interscambio grafico .gif è un tipo di immagine altamente compressa. Per ogni immagine GIF in genere consente fino a 8 bit per pixel e sono consentiti fino a 256 colori nellimmagine. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/gif .
 type: docs
-weight: 490
+weight: 530
 url: /it/net/groupdocs.viewer/filetype/gif/
 ---
 ## FileType.GIF field
 
-Il file in formato di interscambio grafico (.gif) è un tipo di immagine altamente compressa. Per ogni immagine GIF in genere consente fino a 8 bit per pixel e sono consentiti fino a 256 colori nell'immagine. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/gif) .
+Il file in formato di interscambio grafico (.gif) è un tipo di immagine altamente compressa. Per ogni immagine GIF in genere consente fino a 8 bit per pixel e sono consentiti fino a 256 colori nell'immagine. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/gif) .
 
 ```csharp
 public static readonly FileType GIF;

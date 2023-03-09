@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/textelement-1/value/
 Значение элемента.
 
 ```csharp
-public T Value { get; }
+public T Value { get; set; }
 ```
 
 ### Смотрите также

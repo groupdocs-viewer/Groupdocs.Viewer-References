@@ -3,7 +3,7 @@ title: PDF
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Portable Document Format File .pdf est un type de document créé par Adobe dans les années 1990. Le but de ce format de fichier était dintroduire une norme pour la représentation des documents et autres documents de référence dans un format indépendant du logiciel dapplication du matériel ainsi que du système dexploitation. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/view/pdf .
 type: docs
-weight: 1040
+weight: 1090
 url: /fr/net/groupdocs.viewer/filetype/pdf/
 ---
 ## FileType.PDF field

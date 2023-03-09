@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/textelement-1/y/
 Координата Y верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент.
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### Смотрите также

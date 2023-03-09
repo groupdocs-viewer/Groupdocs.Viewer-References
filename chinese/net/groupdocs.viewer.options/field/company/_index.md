@@ -1,14 +1,14 @@
 ---
 title: Company
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是公司
+description: 默认字段文本为公司
 type: docs
 weight: 100
 url: /zh/net/groupdocs.viewer.options/field/company/
 ---
 ## Field.Company field
 
-默认字段文本是“公司”。
+默认字段文本为“公司”。
 
 ```csharp
 public static readonly Field Company;

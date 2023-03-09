@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/attachment/size/
 附件文件大小（以字节为单位）。
 
 ```csharp
-public long Size { get; }
+public long Size { get; set; }
 ```
 
 ### 也可以看看

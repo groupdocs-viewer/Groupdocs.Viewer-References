@@ -3,7 +3,7 @@ title: VDX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: XMLфайл чертежа Visio .vdx представляет собой любой рисунок или диаграмму созданные в Microsoft Visio но сохраненные в формате XML с расширением .VDX. XMLфайл чертежа Visio создается в программном обеспечении Visio разработанном Microsoft. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/vdx .
 type: docs
-weight: 1580
+weight: 1630
 url: /ru/net/groupdocs.viewer/filetype/vdx/
 ---
 ## FileType.VDX field

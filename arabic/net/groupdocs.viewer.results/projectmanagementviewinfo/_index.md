@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل عرض المعلومات لمستند MS Project .
 type: docs
-weight: 750
+weight: 760
 url: /ar/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | اسم | وصف |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | تهيئة مثيل جديد لـ[`ProjectManagementViewInfo`](../projectmanagementviewinfo) فئة . |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | تهيئة مثيل جديد لـ[`ProjectManagementViewInfo`](../projectmanagementviewinfo) فئة . |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | تهيئة مثيل جديد لـ[`ProjectManagementViewInfo`](../projectmanagementviewinfo) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | تاريخ وقت اكتمال المشروع. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | نوع الملف. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | قائمة الصفحات المراد عرضها . |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | تاريخ وقت بدء المشروع. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | تاريخ وقت اكتمال المشروع. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | نوع الملف. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | قائمة الصفحات المراد عرضها . |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | تاريخ وقت بدء المشروع. |
 
 ## طُرق
 

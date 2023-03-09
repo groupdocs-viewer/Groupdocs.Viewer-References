@@ -3,7 +3,7 @@ title: VSD
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف رسم Visio .vsd عبارة عن رسومات تم إنشاؤها باستخدام تطبيق Microsoft Visio لتمثيل مجموعة متنوعة من الكائنات الرسومية والترابط بينها. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vsd .
 type: docs
-weight: 1600
+weight: 1650
 url: /ar/net/groupdocs.viewer/filetype/vsd/
 ---
 ## FileType.VSD field

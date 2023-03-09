@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il nome del file da visualizzare nellintestazione. Per impostazione predefinita viene visualizzato il nome del file di origine.
+description: Il nome file da visualizzare nellintestazione. Per impostazione predefinita viene visualizzato il nome del file sorgente.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/archiveoptions/filename/
 ---
 ## ArchiveOptions.FileName property
 
-Il nome del file da visualizzare nell'intestazione. Per impostazione predefinita viene visualizzato il nome del file di origine.
+Il nome file da visualizzare nell'intestazione. Per impostazione predefinita viene visualizzato il nome del file sorgente.
 
 ```csharp
 public FileName FileName { get; set; }

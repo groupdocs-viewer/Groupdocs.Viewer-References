@@ -3,7 +3,7 @@ title: DIFF
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 补丁文件 .diff
 type: docs
-weight: 250
+weight: 270
 url: /zh/net/groupdocs.viewer/filetype/diff/
 ---
 ## FileType.DIFF field

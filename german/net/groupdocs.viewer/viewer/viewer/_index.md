@@ -26,7 +26,7 @@ public Viewer(Func<Stream> getFileStream)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -61,7 +61,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -98,7 +98,7 @@ public Viewer(Func<Stream> getFileStream, ViewerSettings settings)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -136,7 +136,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions, View
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -172,7 +172,7 @@ public Viewer(Stream stream)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -196,7 +196,7 @@ public Viewer(Stream stream, bool leaveOpen)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Der Dateistream. |
-| leaveOpen | Boolean | Stimmt um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; Andernfalls,FALSCH. |
+| leaveOpen | Boolean | WAHR um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; ansonsten,FALSCH. |
 
 ### Ausnahmen
 
@@ -206,7 +206,7 @@ public Viewer(Stream stream, bool leaveOpen)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -241,7 +241,7 @@ public Viewer(Stream stream, LoadOptions loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -268,7 +268,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Der Dateistream. |
 | loadOptions | LoadOptions | Die Optionen zum Laden von Dokumenten. |
-| leaveOpen | Boolean | Stimmt um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; Andernfalls,FALSCH. |
+| leaveOpen | Boolean | WAHR um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; ansonsten,FALSCH. |
 
 ### Ausnahmen
 
@@ -279,7 +279,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -316,7 +316,7 @@ public Viewer(Stream stream, ViewerSettings settings)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -342,7 +342,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | Der Dateistream. |
 | settings | ViewerSettings | Die Viewer-Einstellungen. |
-| leaveOpen | Boolean | Stimmt um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; Andernfalls,FALSCH. |
+| leaveOpen | Boolean | WAHR um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; ansonsten,FALSCH. |
 
 ### Ausnahmen
 
@@ -353,7 +353,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -391,7 +391,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -420,7 +420,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 | stream | Stream | Der Dateistream. |
 | loadOptions | LoadOptions | Die Optionen zum Laden von Dokumenten. |
 | settings | ViewerSettings | Die Viewer-Einstellungen. |
-| leaveOpen | Boolean | Stimmt um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; Andernfalls,FALSCH. |
+| leaveOpen | Boolean | WAHR um den Stream offen zu lassen, nachdem das Viewer-Objekt verworfen wurde; ansonsten,FALSCH. |
 
 ### Ausnahmen
 
@@ -432,7 +432,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -468,7 +468,7 @@ public Viewer(string filePath)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -503,7 +503,7 @@ public Viewer(string filePath, ViewerSettings settings)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -539,7 +539,7 @@ public Viewer(string filePath, LoadOptions loadOptions)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)
@@ -578,7 +578,7 @@ public Viewer(string filePath, LoadOptions loadOptions, ViewerSettings settings)
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr zu den von GroupDocs.Viewer unterstützten Dateitypen: [Von GroupDocs.Viewer unterstützte Dokumentformate](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Mehr über GroupDocs.Viewer für .NET-Funktionen: [Entwicklerhandbuch](https://docs.groupdocs.com/display/viewernet/Developer+Guide)

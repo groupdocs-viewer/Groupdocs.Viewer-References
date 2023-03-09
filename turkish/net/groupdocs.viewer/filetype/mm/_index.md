@@ -3,7 +3,7 @@ title: MM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: ObjectiveC Kaynak Dosyası .mm
 type: docs
-weight: 830
+weight: 880
 url: /tr/net/groupdocs.viewer/filetype/mm/
 ---
 ## FileType.MM field

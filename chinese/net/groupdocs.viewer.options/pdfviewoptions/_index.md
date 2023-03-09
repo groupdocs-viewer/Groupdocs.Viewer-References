@@ -18,40 +18,41 @@ public class PdfViewOptions : ViewOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfViewOptions](pdfviewoptions#constructor)() | 初始化的新实例[`PdfViewOptions`](../pdfviewoptions)类. |
-| [PdfViewOptions](pdfviewoptions#constructor_1)(CreateFileStream) | 初始化的新实例[`PdfViewOptions`](../pdfviewoptions)类. |
-| [PdfViewOptions](pdfviewoptions#constructor_3)(IFileStreamFactory) | 初始化的新实例[`PdfViewOptions`](../pdfviewoptions)类. |
-| [PdfViewOptions](pdfviewoptions#constructor_4)(string) | 初始化的新实例[`PdfViewOptions`](../pdfviewoptions)类. |
-| [PdfViewOptions](pdfviewoptions#constructor_2)(CreateFileStream, ReleaseFileStream) | 初始化的新实例[`PdfViewOptions`](../pdfviewoptions)类. |
+| [PdfViewOptions](pdfviewoptions#constructor)() | 初始化新实例[`PdfViewOptions`](../pdfviewoptions)类. |
+| [PdfViewOptions](pdfviewoptions#constructor_1)(CreateFileStream) | 初始化新实例[`PdfViewOptions`](../pdfviewoptions)类. |
+| [PdfViewOptions](pdfviewoptions#constructor_3)(IFileStreamFactory) | 初始化新实例[`PdfViewOptions`](../pdfviewoptions)类. |
+| [PdfViewOptions](pdfviewoptions#constructor_4)(string) | 初始化新实例[`PdfViewOptions`](../pdfviewoptions)类. |
+| [PdfViewOptions](pdfviewoptions#constructor_2)(CreateFileStream, ReleaseFileStream) | 初始化新实例[`PdfViewOptions`](../pdfviewoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ArchiveOptions](../../groupdocs.viewer.options/baseviewoptions/archiveoptions) { get; set; } | 存档文件查看选项。 |
-| [CadOptions](../../groupdocs.viewer.options/baseviewoptions/cadoptions) { get; set; } | CAD 工程图视图选项。 |
+| [ArchiveOptions](../../groupdocs.viewer.options/baseviewoptions/archiveoptions) { get; set; } | 存档文件视图选项。 |
+| [CadOptions](../../groupdocs.viewer.options/baseviewoptions/cadoptions) { get; set; } | CAD 绘图视图选项。 |
 | [DefaultFontName](../../groupdocs.viewer.options/baseviewoptions/defaultfontname) { get; set; } | 找不到文档中使用的特定字体时使用的默认字体。 |
-| [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | 电子邮件消息视图选项。 |
+| [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | 电子邮件消息查看选项。 |
 | [ImageHeight](../../groupdocs.viewer.options/pdfviewoptions/imageheight) { get; set; } | 输出图像的高度（以像素为单位）。 （仅将单个图像转换为 HTML 时） |
 | [ImageMaxHeight](../../groupdocs.viewer.options/pdfviewoptions/imagemaxheight) { get; set; } | 输出图像的最大高度（以像素为单位）。 （仅将单个图像转换为 HTML 时） |
 | [ImageMaxWidth](../../groupdocs.viewer.options/pdfviewoptions/imagemaxwidth) { get; set; } | 输出图像的最大宽度（以像素为单位）。 （仅将单个图像转换为 HTML 时） |
 | [ImageWidth](../../groupdocs.viewer.options/pdfviewoptions/imagewidth) { get; set; } | 输出图像的宽度（以像素为单位）。 （仅将单个图像转换为 HTML 时） |
-| [JpgQuality](../../groupdocs.viewer.options/pdfviewoptions/jpgquality) { get; set; } | 输出PDF文档所包含的JPG图像的质量； 有效值在1到100之间； 默认值为90。 |
+| [JpgQuality](../../groupdocs.viewer.options/pdfviewoptions/jpgquality) { get; set; } | 输出 PDF 文档包含的 JPG 图像的质量； 有效值介于 1 和 100 之间； 默认值为 90. |
 | [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | 邮件存储数据文件查看选项。 |
-| [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | MS Outlook 数据文件查看选项。 |
+| [Optimize](../../groupdocs.viewer.options/pdfviewoptions/optimize) { get; set; } | 通过排除 Times New Roman 和 Arial 等常见字体并应用其他优化技术来减小输出文件大小。 |
+| [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | MS Outlook 数据文件视图选项。 |
 | [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | PDF 文档查看选项。 |
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | 演示文稿处理文档视图选项。 |
-| [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | 项目管理文件查看选项。 |
-| [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | 启用呈现评论。 |
+| [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | 项目管理文件视图选项。 |
+| [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | 启用渲染注释。 |
 | [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | 启用隐藏页面的呈现。 |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | 启用渲染注释。 |
-| [Security](../../groupdocs.viewer.options/pdfviewoptions/security) { get; set; } | 输出 PDF 文档的安全选项。 |
-| [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | 电子表格文件查看选项。 |
-| [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | 文本文件拆分到页面选项。 |
+| [Security](../../groupdocs.viewer.options/pdfviewoptions/security) { get; set; } | 输出PDF文档的安全选项。 |
+| [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | 电子表格文件视图选项。 |
+| [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | 文本文件拆分为页面选项。 |
 | [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | Visio 文件处理文档视图选项。 |
 | [Watermark](../../groupdocs.viewer.options/viewoptions/watermark) { get; set; } | 应用于每个页面的文本水印。 |
 | [WebDocumentOptions](../../groupdocs.viewer.options/baseviewoptions/webdocumentoptions) { get; set; } | 此呈现选项使您能够在呈现 Web 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。 |
-| [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | 此渲染选项使您能够在渲染 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。 |
+| [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | 此呈现选项使您能够在呈现 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。 |
 
 ## 方法
 

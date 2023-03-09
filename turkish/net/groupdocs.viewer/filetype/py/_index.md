@@ -3,7 +3,7 @@ title: PY
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Python Komut Dosyası .py
 type: docs
-weight: 1260
+weight: 1310
 url: /tr/net/groupdocs.viewer/filetype/py/
 ---
 ## FileType.PY field

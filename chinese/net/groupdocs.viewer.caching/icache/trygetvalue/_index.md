@@ -16,13 +16,13 @@ public bool TryGetValue<TEntry>(string key, out TEntry value)
 
 | 范围 | 描述 |
 | --- | --- |
-| TEntry | 条目类型。 |
+| TEntry | 输入类型。 |
 | key | 标识所请求条目的键。 |
-| value | 定位的值或空值。 |
+| value | 定位的值或 null。 |
 
 ### 返回值
 
-如果找到密钥。
+如果找到钥匙。
 
 ```csharp
 True

@@ -11,9 +11,9 @@ is_root: true
 | Spazio dei nomi | Descrizione |
 | --- | --- |
 | [GroupDocs.Viewer](./groupdocs.viewer) | Lo spazio dei nomi fornisce classi per il rendering di documenti in modalità HTML5, Immagine o PDF veloce e con alta qualità. |
-| [GroupDocs.Viewer.Caching](./groupdocs.viewer.caching) | Lo spazio dei nomi fornisce classi per la personalizzazione del comportamento di memorizzazione nella cache. |
+| [GroupDocs.Viewer.Caching](./groupdocs.viewer.caching) | Lo spazio dei nomi fornisce classi per personalizzare il comportamento della memorizzazione nella cache. |
 | [GroupDocs.Viewer.Exceptions](./groupdocs.viewer.exceptions) | Lo spazio dei nomi fornisce diverse classi di eccezioni. |
-| [GroupDocs.Viewer.Fonts](./groupdocs.viewer.fonts) | Lo spazio dei nomi fornisce classi ed enumerazioni per gestire i font utilizzati durante il processo di rendering. |
+| [GroupDocs.Viewer.Fonts](./groupdocs.viewer.fonts) | Lo spazio dei nomi fornisce classi ed enumerazioni per gestire i caratteri utilizzati durante il processo di rendering. |
 | [GroupDocs.Viewer.Interfaces](./groupdocs.viewer.interfaces) | Lo spazio dei nomi fornisce le interfacce per istanziare e rilasciare il documento di output e le sue risorse. |
 | [GroupDocs.Viewer.Logging](./groupdocs.viewer.logging) | Lo spazio dei nomi fornisce classi per personalizzare il comportamento di registrazione. |
 | [GroupDocs.Viewer.Options](./groupdocs.viewer.options) | Lo spazio dei nomi fornisce classi per specificare opzioni aggiuntive durante il rendering dei documenti. |

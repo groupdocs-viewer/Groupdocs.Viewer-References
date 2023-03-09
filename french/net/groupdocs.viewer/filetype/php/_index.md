@@ -3,7 +3,7 @@ title: PHP
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de code source PHP .php
 type: docs
-weight: 1050
+weight: 1100
 url: /fr/net/groupdocs.viewer/filetype/php/
 ---
 ## FileType.PHP field

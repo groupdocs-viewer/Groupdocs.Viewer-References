@@ -1,14 +1,14 @@
 ---
 title: RenderHiddenPages
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Abilita il rendering di pagine nascoste.
+description: Abilita il rendering delle pagine nascoste.
 type: docs
 weight: 110
 url: /it/net/groupdocs.viewer.options/baseviewoptions/renderhiddenpages/
 ---
 ## BaseViewOptions.RenderHiddenPages property
 
-Abilita il rendering di pagine nascoste.
+Abilita il rendering delle pagine nascoste.
 
 ```csharp
 public bool RenderHiddenPages { get; set; }

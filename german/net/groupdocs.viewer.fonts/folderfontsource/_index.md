@@ -31,7 +31,7 @@ public sealed class FolderFontSource : IEquatable<FolderFontSource>, IFontSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Bestimmt, ob der Strom[`FolderFontSource`](../folderfontsource)ist genauso wie angegeben[`FolderFontSource`](../folderfontsource) Objekt. |
+| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Bestimmt, ob der Strom[`FolderFontSource`](../folderfontsource) ist genauso wie angegeben[`FolderFontSource`](../folderfontsource) Objekt. |
 | override [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals_1)(object) | Bestimmt, ob der Strom[`FolderFontSource`](../folderfontsource) ist das gleiche wie das angegebene Objekt. |
 | override [GetHashCode](../../groupdocs.viewer.fonts/folderfontsource/gethashcode)() | Gibt den Hash-Code für den Strom zurück[`FolderFontSource`](../folderfontsource) Objekt. |
 | override [ToString](../../groupdocs.viewer.fonts/folderfontsource/tostring)() | Gibt eine Zeichenfolge zurück, die das aktuelle Objekt darstellt. |

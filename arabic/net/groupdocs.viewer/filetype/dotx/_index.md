@@ -3,7 +3,7 @@ title: DOTX
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Word Open XML Document Template .dotx عبارة عن ملفات قوالب تم إنشاؤها بواسطة Microsoft Word للحصول على إعدادات منسقة مسبقًا لإنشاء ملفات DOCX أخرى. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/dotx .
 type: docs
-weight: 330
+weight: 350
 url: /ar/net/groupdocs.viewer/filetype/dotx/
 ---
 ## FileType.DOTX field

@@ -3,7 +3,7 @@ title: MHTML
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: MIME HTML Dosyası .mhtml
 type: docs
-weight: 810
+weight: 860
 url: /tr/net/groupdocs.viewer/filetype/mhtml/
 ---
 ## FileType.MHTML field

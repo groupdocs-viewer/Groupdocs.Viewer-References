@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### Notlar
 
-Bu seçenek yalnızca yerleşimleri destekleyen CAD çizimleri için geçerlidir.[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , ve[`DWF`](../../../groupdocs.viewer/filetype/dwf) ve ayrıcaDWFX ; Varsayılan olarak yalnızca Model oluşturulur.
+Bu seçenek yalnızca yerleşimleri destekleyen CAD çizimleri için geçerlidir.[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , Ve[`DWF`](../../../groupdocs.viewer/filetype/dwf) ve ayrıca[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ; Varsayılan olarak yalnızca Model oluşturulur.
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: Profession
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsayılan alan metni Meslektir.
+description: Varsayılan alan metni Meslek şeklindedir.
 type: docs
 weight: 350
 url: /tr/net/groupdocs.viewer.options/field/profession/
 ---
 ## Field.Profession field
 
-Varsayılan alan metni "Meslek"tir.
+Varsayılan alan metni "Meslek" şeklindedir.
 
 ```csharp
 public static readonly Field Profession;

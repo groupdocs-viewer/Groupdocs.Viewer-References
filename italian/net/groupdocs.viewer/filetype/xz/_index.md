@@ -1,14 +1,14 @@
 ---
 title: XZ
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il file XZ .xz è compresso in archivio un algoritmo di compressione ad alto rapporto basato sullalgoritmo LZMA. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/xz .
+description: Il file XZ .xz è un archivio compresso con un algoritmo di compressione ad alto rapporto basato sullalgoritmo LZMA. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/xz .
 type: docs
-weight: 1840
+weight: 1890
 url: /it/net/groupdocs.viewer/filetype/xz/
 ---
 ## FileType.XZ field
 
-Il file XZ (.xz) è compresso in archivio, un algoritmo di compressione ad alto rapporto basato sull'algoritmo LZMA. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/xz) .
+Il file XZ (.xz) è un archivio compresso con un algoritmo di compressione ad alto rapporto basato sull'algoritmo LZMA. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/xz) .
 
 ```csharp
 public static readonly FileType XZ;

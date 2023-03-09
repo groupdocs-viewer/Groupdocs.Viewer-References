@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/layer/name/
 Namnet på lagret.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Anmärkningar

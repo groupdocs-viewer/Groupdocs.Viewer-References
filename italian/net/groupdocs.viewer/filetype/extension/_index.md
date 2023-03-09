@@ -1,17 +1,17 @@
 ---
 title: Extension
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Suffisso del nome file compreso il punto . es. .doc.
+description: Suffisso nome file incluso il punto . ad es. .doc.
 type: docs
-weight: 1910
+weight: 1960
 url: /it/net/groupdocs.viewer/filetype/extension/
 ---
 ## FileType.Extension property
 
-Suffisso del nome file (compreso il punto ".") es. ".doc".
+Suffisso nome file (incluso il punto ".") ad es. ".doc".
 
 ```csharp
-public string Extension { get; }
+public string Extension { get; set; }
 ```
 
 ### Guarda anche

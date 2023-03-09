@@ -18,20 +18,21 @@ public class FileInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileInfo](fileinfo)(FileType) | 初始化的新实例[`FileType`](./filetype)类. |
+| [FileInfo](fileinfo#constructor)() | 初始化新实例[`FileType`](./filetype)类. |
+| [FileInfo](fileinfo#constructor_1)(FileType) | 初始化新实例[`FileType`](./filetype)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Encrypted](../../groupdocs.viewer.results/fileinfo/encrypted) { get; set; } | 表示文件已加密。 |
-| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; } | 文件的类型。 |
+| [FileType](../../groupdocs.viewer.results/fileinfo/filetype) { get; set; } | 文件的类型。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/fileinfo/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/fileinfo/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

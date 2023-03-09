@@ -18,17 +18,18 @@ public class Character : TextElement<char>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Character](character)(char, double, double, double, double) | Initialisiert eine neue Instanz von[`Character`](../character) Klasse. |
+| [Character](character#constructor)() | Initialisiert eine neue Instanz von[`Character`](../character) Klasse. |
+| [Character](character#constructor_1)(char, double, double, double, double) | Initialisiert eine neue Instanz von[`Character`](../character) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Der Elementwert. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Der Elementwert. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
 
 ## Methoden
 

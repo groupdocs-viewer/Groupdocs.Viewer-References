@@ -3,7 +3,7 @@ title: VDW
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل رسم ويب Visio .vdw تنسيق ملف يحدد التدفقات والمخازن المطلوبة لتقديم رسم ويب. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/web/vdw .
 type: docs
-weight: 1570
+weight: 1620
 url: /ar/net/groupdocs.viewer/filetype/vdw/
 ---
 ## FileType.VDW field

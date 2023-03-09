@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/fileinfo/filetype/
 Typen av fil.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### Se även

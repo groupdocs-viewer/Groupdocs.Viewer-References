@@ -1,14 +1,14 @@
 ---
 title: DXF
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Drawing Exchange Format File .dxf ist eine getaggte Datendarstellung der AutoCADZeichnungsdatei. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/cad/dxf .
+description: Drawing Exchange Format File .dxf ist eine getaggte Datendarstellung der AutoCADZeichnungsdatei. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/cad/dxf .
 type: docs
-weight: 370
+weight: 400
 url: /de/net/groupdocs.viewer/filetype/dxf/
 ---
 ## FileType.DXF field
 
-Drawing Exchange Format File (.dxf) ist eine getaggte Datendarstellung der AutoCAD-Zeichnungsdatei. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/cad/dxf) .
+Drawing Exchange Format File (.dxf) ist eine getaggte Datendarstellung der AutoCAD-Zeichnungsdatei. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/cad/dxf) .
 
 ```csharp
 public static readonly FileType DXF;

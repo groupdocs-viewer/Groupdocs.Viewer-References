@@ -1,14 +1,14 @@
 ---
 title: ArchiveOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 提供用于渲染存档文件的选项
+description: 提供渲染存档文件的选项
 type: docs
 weight: 270
 url: /zh/net/groupdocs.viewer.options/archiveoptions/
 ---
 ## ArchiveOptions class
 
-提供用于渲染存档文件的选项。
+提供渲染存档文件的选项。
 
 ```csharp
 public class ArchiveOptions
@@ -18,15 +18,15 @@ public class ArchiveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ArchiveOptions](archiveoptions)() | 初始化的新实例[`ArchiveOptions`](../archiveoptions)类. |
+| [ArchiveOptions](archiveoptions)() | 初始化新实例[`ArchiveOptions`](../archiveoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.options/archiveoptions/filename) { get; set; } | 在标题中显示的文件名。 默认显示源文件的名称。 |
-| [Folder](../../groupdocs.viewer.options/archiveoptions/folder) { get; set; } | 存档内要渲染的文件夹。 |
-| [ItemsPerPage](../../groupdocs.viewer.options/archiveoptions/itemsperpage) { get; set; } | 每页的记录数（仅用于呈现为 HTML） |
+| [FileName](../../groupdocs.viewer.options/archiveoptions/filename) { get; set; } | 要在标题中显示的文件名。 默认显示源文件的名称。 |
+| [Folder](../../groupdocs.viewer.options/archiveoptions/folder) { get; set; } | 存档中要呈现的文件夹。 |
+| [ItemsPerPage](../../groupdocs.viewer.options/archiveoptions/itemsperpage) { get; set; } | 每页记录数（仅用于呈现为 HTML） |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Quality
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 输出图像的质量 有效值在1到100之间 默认值为90
+description: 输出图像的质量 有效值介于 1 和 100 之间 默认值为 90.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.options/jpgviewoptions/quality/
 ---
 ## JpgViewOptions.Quality property
 
-输出图像的质量； 有效值在1到100之间； 默认值为90。
+输出图像的质量； 有效值介于 1 和 100 之间； 默认值为 90.
 
 ```csharp
 public byte Quality { get; set; }

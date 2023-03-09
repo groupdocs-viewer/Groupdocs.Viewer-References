@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer för .NET API-referens
-description: Bestämmer om strömmenLayoutgroupdocs.viewer.results/layoutär samma som specificeratsLayoutgroupdocs.viewer.results/layout objekt.
+description: Bestämmer om strömmenLayoutgroupdocs.viewer.results/layout är samma som specificeratLayoutgroupdocs.viewer.results/layout objekt.
 type: docs
 weight: 50
 url: /sv/net/groupdocs.viewer.results/layout/equals/
 ---
 ## Equals(Layout) {#equals}
 
-Bestämmer om strömmen[`Layout`](../../layout)är samma som specificerats[`Layout`](../../layout) objekt.
+Bestämmer om strömmen[`Layout`](../../layout) är samma som specificerat[`Layout`](../../layout) objekt.
 
 ```csharp
 public bool Equals(Layout other)

@@ -3,7 +3,7 @@ title: BMP
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El archivo de imagen de mapa de bits .bmp se utiliza para almacenar imágenes digitales de mapa de bits. Estas imágenes son independientes del adaptador de gráficos y también se denominan formato de archivo de mapa de bits independiente del dispositivo DIB. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/bmp .
 type: docs
-weight: 70
+weight: 80
 url: /es/net/groupdocs.viewer/filetype/bmp/
 ---
 ## FileType.BMP field

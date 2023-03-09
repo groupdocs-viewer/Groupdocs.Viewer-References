@@ -1,14 +1,14 @@
 ---
 title: SaveAttachment
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Salva il file allegato indestination flusso.
+description: Salva il file allegato indestination streaming.
 type: docs
 weight: 60
 url: /it/net/groupdocs.viewer/viewer/saveattachment/
 ---
 ## SaveAttachment(Attachment, Stream, CancellationToken) {#saveattachment_1}
 
-Salva il file allegato in*destination* flusso.
+Salva il file allegato in*destination* streaming.
 
 ```csharp
 public void SaveAttachment(Attachment attachment, Stream destination, 
@@ -29,14 +29,14 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 | ArgumentNullException | Lanciato quando*destination* è zero. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Generato quando è richiesta la password per aprire il documento. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Generato quando la password specificata non è corretta. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Generato quando non è stato possibile trovare l'allegato. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Lanciato quando non è stato possibile trovare l'allegato. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco degli allegati del documento utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
-* Ulteriori informazioni sul salvataggio degli allegati di documenti in C#: [Come salvare gli allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
+* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco dei documenti allegati utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
+* Ulteriori informazioni sul salvataggio degli allegati dei documenti in C#: [Come salvare allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
 
 ### Guarda anche
 
@@ -49,7 +49,7 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 
 ## SaveAttachment(Attachment, Stream) {#saveattachment}
 
-Salva il file allegato in*destination* flusso.
+Salva il file allegato in*destination* streaming.
 
 ```csharp
 public void SaveAttachment(Attachment attachment, Stream destination)
@@ -68,14 +68,14 @@ public void SaveAttachment(Attachment attachment, Stream destination)
 | ArgumentNullException | Lanciato quando*destination* è zero. |
 | [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Generato quando è richiesta la password per aprire il documento. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Generato quando la password specificata non è corretta. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Generato quando non è stato possibile trovare l'allegato. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Lanciato quando non è stato possibile trovare l'allegato. |
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco degli allegati del documento utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
-* Ulteriori informazioni sul salvataggio degli allegati di documenti in C#: [Come salvare gli allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
+* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco dei documenti allegati utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
+* Ulteriori informazioni sul salvataggio degli allegati dei documenti in C#: [Come salvare allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
 
 ### Guarda anche
 

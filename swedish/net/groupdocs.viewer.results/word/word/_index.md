@@ -6,13 +6,29 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
+
+Initierar ny instans av[`Word`](../../word) class.
+
+```csharp
+public Word()
+```
+
+### Se även
+
+* class [Word](../../word)
+* namnutrymme [GroupDocs.Viewer.Results](../../word)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
 
 Initierar ny instans av[`Word`](../../word) class.
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | Parameter | Typ | Beskrivning |
@@ -22,7 +38,7 @@ public Word(string word, double x, double y, double width, double height,
 | y | Double | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller ordet börjar. |
 | width | Double | Bredden på rektangeln som innehåller ordet. |
 | height | Double | Höjden på rektangeln som innehåller ordet. |
-| characters | IList`1 | Tecken som ordet innehåller. |
+| characters | List`1 | Tecken som ordet innehåller. |
 
 ### Undantag
 

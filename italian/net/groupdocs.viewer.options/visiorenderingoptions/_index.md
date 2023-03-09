@@ -18,14 +18,14 @@ public class VisioRenderingOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [VisioRenderingOptions](visiorenderingoptions)() | Inizializza la nuova istanza di[`VisioRenderingOptions`](../visiorenderingoptions) classe. |
+| [VisioRenderingOptions](visiorenderingoptions)() | Inizializza una nuova istanza di[`VisioRenderingOptions`](../visiorenderingoptions) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [FigureWidth](../../groupdocs.viewer.options/visiorenderingoptions/figurewidth) { get; set; } | Larghezza della figura, l'altezza verrà calcolata automaticamente. Il valore predefinito è 100. |
-| [RenderFiguresOnly](../../groupdocs.viewer.options/visiorenderingoptions/renderfiguresonly) { get; set; } | Visualizza solo le figure di Visio, non un diagramma. |
+| [FigureWidth](../../groupdocs.viewer.options/visiorenderingoptions/figurewidth) { get; set; } | La larghezza della figura, l'altezza verrà calcolata automaticamente. Il valore predefinito è 100. |
+| [RenderFiguresOnly](../../groupdocs.viewer.options/visiorenderingoptions/renderfiguresonly) { get; set; } | Visualizza solo figure Visio, non un diagramma. |
 
 ### Guarda anche
 

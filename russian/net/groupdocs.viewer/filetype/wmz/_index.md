@@ -3,7 +3,7 @@ title: WMZ
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Сжатый метафайл Windows .wmz представляет метафайл Microsoft Windows WMF сжатый в архив GZIP для хранения векторных и растровых изображений. Узнайте больше об этом формате файлаздесьhttps//fileinfo.com/extension/wmzcompressed_windows_metafile .
 type: docs
-weight: 1730
+weight: 1780
 url: /ru/net/groupdocs.viewer/filetype/wmz/
 ---
 ## FileType.WMZ field

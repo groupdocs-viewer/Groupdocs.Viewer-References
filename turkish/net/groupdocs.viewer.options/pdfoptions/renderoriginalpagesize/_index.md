@@ -1,14 +1,14 @@
 ---
 title: RenderOriginalPageSize
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Bu seçenek etkinleştirildiğinde çıktı sayfaları kaynak PDF belgesindeki sayfa boyutuyla aynı piksel boyutuna sahip olacaktır. Varsayılan olarak GroupDocs.Viewer daha iyi oluşturma kalitesi için çıktı resmi sayfa boyutunu hesaplar.
+description: Bu seçenek etkinleştirildiğinde çıktı sayfalarının piksel cinsinden boyutu  kaynak PDF belgesindeki sayfa boyutuyla aynı olacaktır. Varsayılan olarak GroupDocs.Viewer daha iyi işleme kalitesi için çıktı resmi sayfa boyutunu hesaplar.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/groupdocs.viewer.options/pdfoptions/renderoriginalpagesize/
 ---
 ## PdfOptions.RenderOriginalPageSize property
 
-Bu seçenek etkinleştirildiğinde, çıktı sayfaları, kaynak PDF belgesindeki sayfa boyutuyla aynı piksel boyutuna sahip olacaktır. Varsayılan olarak GroupDocs.Viewer, daha iyi oluşturma kalitesi için çıktı resmi sayfa boyutunu hesaplar.
+Bu seçenek etkinleştirildiğinde, çıktı sayfalarının piksel cinsinden boyutu , kaynak PDF belgesindeki sayfa boyutuyla aynı olacaktır. Varsayılan olarak GroupDocs.Viewer, daha iyi işleme kalitesi için çıktı resmi sayfa boyutunu hesaplar.
 
 ```csharp
 public bool RenderOriginalPageSize { get; set; }

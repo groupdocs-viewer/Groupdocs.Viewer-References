@@ -3,7 +3,7 @@ title: PSD1
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: بيان وحدة البرنامج النصي PowerShell .psd1 تنسيق ملف للنصوص البرمجية لبيان وحدة PowerShell . تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/psd1 .
 type: docs
-weight: 1230
+weight: 1280
 url: /ar/net/groupdocs.viewer/filetype/psd1/
 ---
 ## FileType.PSD1 field

@@ -3,7 +3,7 @@ title: VSDX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Visio Drawing .vsdx representerar Microsoft Visiofilformat som introducerats från Microsoft Office 2013 och framåt. Det utvecklades för att ersätta det binära filformatet .VSD som stöds av tidigare versioner av Microsoft Visio. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/vsdx .
 type: docs
-weight: 1620
+weight: 1670
 url: /sv/net/groupdocs.viewer/filetype/vsdx/
 ---
 ## FileType.VSDX field

@@ -1,14 +1,14 @@
 ---
 title: CF2
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 常用文件格式 File 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/cf2.
+description: 通用文件格式 File 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/cf2.
 type: docs
-weight: 120
+weight: 130
 url: /zh/net/groupdocs.viewer/filetype/cf2/
 ---
 ## FileType.CF2 field
 
-常用文件格式 File 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/cf2).
+通用文件格式 File 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/cf2).
 
 ```csharp
 public static readonly FileType CF2;

@@ -3,7 +3,7 @@ title: CPP
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл исходного кода C .cpp
 type: docs
-weight: 170
+weight: 190
 url: /ru/net/groupdocs.viewer/filetype/cpp/
 ---
 ## FileType.CPP field

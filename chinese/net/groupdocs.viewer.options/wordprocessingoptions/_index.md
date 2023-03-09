@@ -1,14 +1,14 @@
 ---
 title: WordProcessingOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 此渲染选项使您能够在渲染 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观
+description: 此呈现选项使您能够在呈现 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观
 type: docs
 weight: 620
 url: /zh/net/groupdocs.viewer.options/wordprocessingoptions/
 ---
 ## WordProcessingOptions class
 
-此渲染选项使您能够在渲染 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。
+此呈现选项使您能够在呈现 Word 文档时自定义 输出 HTML/PDF/PNG/JPEG 的外观。
 
 ```csharp
 public class WordProcessingOptions
@@ -24,17 +24,17 @@ public class WordProcessingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BottomMargin](../../groupdocs.viewer.options/wordprocessingoptions/bottommargin) { get; set; } | 页面底部边缘和正文底部边界之间的距离（以磅为单位）。 |
-| [EnableOpenTypeFeatures](../../groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures) { get; set; } | 此选项在渲染阿拉伯语、希伯来语、印度脚本、拉丁语或西里尔语脚本时启用字距调整和其他 OpenType 功能。 |
+| [BottomMargin](../../groupdocs.viewer.options/wordprocessingoptions/bottommargin) { get; set; } | 页面底部边缘与正文底部边界之间的距离（以磅为单位）。 |
+| [EnableOpenTypeFeatures](../../groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures) { get; set; } | 此选项在呈现阿拉伯语、希伯来语、印度语脚本、基于拉丁语或基于西里尔语的脚本时启用字距调整和其他 OpenType 功能。 |
 | [LeftMargin](../../groupdocs.viewer.options/wordprocessingoptions/leftmargin) { get; set; } | 页面左边缘与正文左边界之间的距离（以磅为单位）。 |
-| [PageSize](../../groupdocs.viewer.options/wordprocessingoptions/pagesize) { get; set; } | 输出页面的大小。 默认值为Unspecified这意味着使用页面设置（Page Setup）中设置的页面大小。  渲染 HTM 和 HTML 文件时，默认页面大小设置为 Letter 792 x 612 点。 因此，某些内容可能不适合页面框架。 设置更大的页面大小，例如A3以适应内容。 |
-| [RenderTrackedChanges](../../groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges) { get; set; } | 启用跟踪更改（修订）渲染。 |
+| [PageSize](../../groupdocs.viewer.options/wordprocessingoptions/pagesize) { get; set; } | 输出页面的大小。 默认值为Unspecified这意味着使用页面设置（页面设置）中设置的页面大小。  呈现 HTM 和 HTML 文件时，默认页面大小设置为 Letter 792 x 612 点。 因此，某些内容可能不适合页面框架。 设置更大的页面大小，例如A3以适应内容. |
+| [RenderTrackedChanges](../../groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges) { get; set; } | 启用跟踪更改（修订）呈现。 |
 | [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | 页面右边缘与正文右边界之间的距离（以磅为单位）。 |
-| [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | 页面上边缘与正文上边界之间的距离（以磅为单位）。 |
+| [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | 页面上边缘与正文文本上边界之间的距离（以磅为单位）。 |
 
 ### 评论
 
-另见  将 Word 文档呈现为 HTML、PDF 或图像文件 有关更多详细信息和代码片段。
+另见  将 Word 文档呈现为 HTML、PDF 或图像文件 了解更多详情和代码片段。
 
 ### 也可以看看
 

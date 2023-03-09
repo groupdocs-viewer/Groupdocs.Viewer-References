@@ -1,14 +1,14 @@
 ---
 title: FontsToExclude
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Lelenco dei nomi dei caratteri da escludere dal documento HTML.
+description: Lelenco dei nomi dei font da escludere dal documento HTML.
 type: docs
 weight: 40
 url: /it/net/groupdocs.viewer.options/htmlviewoptions/fontstoexclude/
 ---
 ## HtmlViewOptions.FontsToExclude property
 
-L'elenco dei nomi dei caratteri, da escludere dal documento HTML.
+L'elenco dei nomi dei font da escludere dal documento HTML.
 
 ```csharp
 public List<string> FontsToExclude { get; set; }
@@ -16,7 +16,7 @@ public List<string> FontsToExclude { get; set; }
 
 ### Osservazioni
 
-Questa opzione è supportata solo per le presentazioni. I caratteri aggiunti nel documento HTML migliorano la stabilità della vista di output, allo stesso tempo aumentano le dimensioni del risultato del rendering. Questa opzione ti permette di trovare un compromesso, tra stabilità e dimensione dell'output. Includi i nomi dei caratteri che sono popolari e installati nella maggior parte dei sistemi. Tieni presente che questa proprietà è attiva solo quando[`ExcludeFonts`](../excludefonts) le opzioni sono disabilitate.
+Questa opzione è supportata solo per le presentazioni. I caratteri che vengono aggiunti nel documento HTML migliorano la stabilità della vista di output, allo stesso tempo aumentano la dimensione del risultato del rendering. Questa opzione, ti consente di trovare un compromesso, tra stabilità e dimensione dell'output. Includi i nomi dei font che sono popolari e installati nella maggior parte dei sistemi. Tieni presente che questa proprietà è attiva solo quando[`ExcludeFonts`](../excludefonts) le opzioni sono disabilitate.
 
 ### Guarda anche
 

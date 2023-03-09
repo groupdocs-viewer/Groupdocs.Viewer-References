@@ -1,14 +1,14 @@
 ---
 title: VSD
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: VisioZeichnungsdatei .vsd sind Zeichnungen die mit der Microsoft VisioAnwendung erstellt wurden um eine Vielzahl von grafischen Objekten und die Verbindung zwischen diesen darzustellen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vsd .
+description: VisioZeichnungsdatei .vsd sind Zeichnungen die mit der Microsoft VisioAnwendung erstellt wurden um eine Vielzahl von grafischen Objekten und die Verbindung zwischen diesen darzustellen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vsd .
 type: docs
-weight: 1600
+weight: 1650
 url: /de/net/groupdocs.viewer/filetype/vsd/
 ---
 ## FileType.VSD field
 
-Visio-Zeichnungsdatei (.vsd) sind Zeichnungen, die mit der Microsoft Visio-Anwendung erstellt wurden, um eine Vielzahl von grafischen Objekten und die Verbindung zwischen diesen darzustellen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vsd) .
+Visio-Zeichnungsdatei (.vsd) sind Zeichnungen, die mit der Microsoft Visio-Anwendung erstellt wurden, um eine Vielzahl von grafischen Objekten und die Verbindung zwischen diesen darzustellen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vsd) .
 
 ```csharp
 public static readonly FileType VSD;

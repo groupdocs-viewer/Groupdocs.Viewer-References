@@ -3,7 +3,7 @@ title: GetSupportedFileTypes
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 检索支持的文件类型
 type: docs
-weight: 1960
+weight: 2020
 url: /zh/net/groupdocs.viewer/filetype/getsupportedfiletypes/
 ---
 ## FileType.GetSupportedFileTypes method
@@ -16,11 +16,11 @@ public static IEnumerable<FileType> GetSupportedFileTypes()
 
 ### 返回值
 
-返回支持的文件类型的序列
+返回支持的文件类型序列
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 了解有关支持的文档格式的更多信息： [支持的文件格式的完整列表](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * 了解有关在 C# 代码中获取支持的文件类型的更多信息： [如何在代码中获取支持的文件类型](https://docs.groupdocs.com/display/viewernet/Get+supported+file+formats)

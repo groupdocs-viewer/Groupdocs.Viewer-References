@@ -3,7 +3,7 @@ title: OTT
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla de documento OpenDocument .ott representa documentos de plantilla generados por aplicaciones de conformidad con el formato estándar OpenDocument de OASIS. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 1010
+weight: 1060
 url: /es/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field

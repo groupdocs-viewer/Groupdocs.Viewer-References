@@ -1,14 +1,14 @@
 ---
 title: ScaleFactor
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: 1den büyük değerler çıktı sonucunu büyütür 0 ile 1 arasındaki değerler çıktı sonucunu küçültür.
+description: 1den büyük değerler çıktı sonucunu büyütür 0 ile 1 arasındaki değerler çıktı sonucunu daha küçük yapacaktır.
 type: docs
 weight: 110
 url: /tr/net/groupdocs.viewer.options/cadoptions/scalefactor/
 ---
 ## CadOptions.ScaleFactor property
 
-1'den büyük değerler çıktı sonucunu büyütür; 0 ile 1 arasındaki değerler çıktı sonucunu küçültür.
+1'den büyük değerler çıktı sonucunu büyütür; 0 ile 1 arasındaki değerler çıktı sonucunu daha küçük yapacaktır.
 
 ```csharp
 public float ScaleFactor { get; }

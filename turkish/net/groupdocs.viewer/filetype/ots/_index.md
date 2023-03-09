@@ -3,7 +3,7 @@ title: OTS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: OpenDocument Elektronik Tablo Şablonu .ots
 type: docs
-weight: 1000
+weight: 1050
 url: /tr/net/groupdocs.viewer/filetype/ots/
 ---
 ## FileType.OTS field

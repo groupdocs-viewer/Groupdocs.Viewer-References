@@ -1,17 +1,17 @@
 ---
 title: Characters
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sözcüğün içerdiği karakterler.
+description: Kelimenin içerdiği karakterler.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.viewer.results/word/characters/
 ---
 ## Word.Characters property
 
-Sözcüğün içerdiği karakterler.
+Kelimenin içerdiği karakterler.
 
 ```csharp
-public IList<Character> Characters { get; }
+public List<Character> Characters { get; set; }
 ```
 
 ### Ayrıca bakınız

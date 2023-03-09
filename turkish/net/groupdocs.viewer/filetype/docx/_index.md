@@ -1,14 +1,14 @@
 ---
 title: DOCX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Microsoft Word Açık XML Belgesi .docx Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007den itibaren Microsoft Office 2007nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/docx .
+description: Microsoft Word Açık XML Belgesi .docx Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007den itibaren Microsoft Office 2007nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
-weight: 300
+weight: 320
 url: /tr/net/groupdocs.viewer/filetype/docx/
 ---
 ## FileType.DOCX field
 
-Microsoft Word Açık XML Belgesi (.docx), Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007'den itibaren Microsoft Office 2007'nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı, düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/docx) .
+Microsoft Word Açık XML Belgesi (.docx), Microsoft Word belgeleri için iyi bilinen bir biçimdir. 2007'den itibaren Microsoft Office 2007'nin piyasaya sürülmesiyle tanıtılan bu yeni Belge biçiminin yapısı, düz ikiliden XML ve ikili dosyaların birleşimine değiştirildi. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/docx) .
 
 ```csharp
 public static readonly FileType DOCX;

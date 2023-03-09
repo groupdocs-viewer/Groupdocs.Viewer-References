@@ -1,17 +1,17 @@
 ---
 title: Width
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 以 JPG 或 PNG 格式查看时的页面宽度以像素为单位
+description: 以 JPG 或 PNG 格式查看时页面的宽度以像素为单位
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.results/page/width/
 ---
 ## Page.Width property
 
-以 JPG 或 PNG 格式查看时的页面宽度（以像素为单位）。
+以 JPG 或 PNG 格式查看时页面的宽度（以像素为单位）。
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### 也可以看看

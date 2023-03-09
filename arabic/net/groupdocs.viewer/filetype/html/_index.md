@@ -3,7 +3,7 @@ title: HTML
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف لغة توصيف النص التشعبي .html هو امتداد لصفحات الويب التي تم إنشاؤها للعرض في المستعرضات. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 580
+weight: 620
 url: /ar/net/groupdocs.viewer/filetype/html/
 ---
 ## FileType.HTML field

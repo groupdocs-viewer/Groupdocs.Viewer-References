@@ -1,14 +1,14 @@
 ---
 title: ImageWidth
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çıktı görüntüsünün piksel cinsinden genişliği. Tek görüntüyü yalnızca HTMLye dönüştürürken
+description: Çıktı görüntüsünün piksel cinsinden genişliği. Yalnızca tek bir görüntüyü HTMLye dönüştürürken
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.options/pdfviewoptions/imagewidth/
 ---
 ## PdfViewOptions.ImageWidth property
 
-Çıktı görüntüsünün piksel cinsinden genişliği. (Tek görüntüyü yalnızca HTML'ye dönüştürürken)
+Çıktı görüntüsünün piksel cinsinden genişliği. (Yalnızca tek bir görüntüyü HTML'ye dönüştürürken)
 
 ```csharp
 public int ImageWidth { get; set; }

@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/archiveviewinfo/folders/
 Папки, содержащиеся в файле архива.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Смотрите также

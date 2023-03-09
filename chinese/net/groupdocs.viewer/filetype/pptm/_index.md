@@ -3,7 +3,7 @@ title: PPTM
 second_title: GroupDocs.Viewer for .NET API 参考
 description: PowerPoint Open XML 启用宏的演示文稿是使用 Microsoft PowerPoint 2007 或更高版本创建的启用宏的演示文稿文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pptm
 type: docs
-weight: 1160
+weight: 1210
 url: /zh/net/groupdocs.viewer/filetype/pptm/
 ---
 ## FileType.PPTM field

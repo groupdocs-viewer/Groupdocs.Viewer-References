@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/layer/visible/
 Индикатор видимости слоя.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Примечания

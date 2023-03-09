@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Harici kaynaklar örneğin grafik yükleme zaman aşımı. Varsayılan değer 30 saniyedir. Bu seçenek harici kaynaklar içeren Kelime İşleme belgeleri için desteklenir.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property

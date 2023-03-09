@@ -1,14 +1,14 @@
 ---
 title: IMaxSizeOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Görüntü boyutu seçenekleri arayüzünün sınırları.
+description: Görüntü boyutu seçenekleri arabiriminin sınırları.
 type: docs
 weight: 340
 url: /tr/net/groupdocs.viewer.options/imaxsizeoptions/
 ---
 ## IMaxSizeOptions interface
 
-Görüntü boyutu seçenekleri arayüzünün sınırları.
+Görüntü boyutu seçenekleri arabiriminin sınırları.
 
 ```csharp
 public interface IMaxSizeOptions

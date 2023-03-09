@@ -23,7 +23,7 @@ public enum Position
 | TopCenter | `2` | La posizione centrale in alto. |
 | TopRight | `3` | La posizione in alto a destra. |
 | BottomLeft | `4` | La posizione in basso a sinistra. |
-| BottomCenter | `5` | La posizione centrale inferiore. |
+| BottomCenter | `5` | La posizione centrale in basso. |
 | BottomRight | `6` | La posizione in basso a destra. |
 
 ### Guarda anche

@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/page/width/
 Sidans bredd i pixlar när den visas som JPG eller PNG.
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### Se även

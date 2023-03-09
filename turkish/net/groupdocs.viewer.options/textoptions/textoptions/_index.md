@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Default_Constructor
+description: Yeni örneğini başlatırTextOptionsgroupdocs.viewer.options/textoptions sınıf.
 type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-Default_Constructor
+Yeni örneğini başlatır[`TextOptions`](../../textoptions) sınıf.
 
 ```csharp
 public TextOptions()

@@ -3,7 +3,7 @@ title: CMAKE
 second_title: GroupDocs.Viewer for .NET API 参考
 description: CMake 文件 .cmake
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/groupdocs.viewer/filetype/cmake/
 ---
 ## FileType.CMAKE field

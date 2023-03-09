@@ -22,7 +22,7 @@ public static void SetFontSources(params IFontSource[] fontSources)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fontSources* boş. |
+| ArgumentNullException | Ne zaman atıldı*fontSources* boş. |
 
 ### Ayrıca bakınız
 

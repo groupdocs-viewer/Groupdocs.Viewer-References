@@ -8,7 +8,7 @@ url: /tr/net/groupdocs.viewer.options/watermark/color/
 ---
 ## Watermark.Color property
 
-Filigran rengi. Varsayılan değerRed .
+Filigran rengi. Varsayılan değer:Red .
 
 ```csharp
 public Color Color { get; set; }

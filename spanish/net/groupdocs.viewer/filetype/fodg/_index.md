@@ -3,7 +3,7 @@ title: FODG
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: La plantilla ODF XML plana .fodg es utilizada por la aplicación Draw de Apache OpenOffice para almacenar elementos de dibujo como una imagen vectorial. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/fodg .
 type: docs
-weight: 460
+weight: 500
 url: /es/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field

@@ -1,14 +1,14 @@
 ---
 title: VDW
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Visio Web Drawing .vdw rappresenta il formato file che specifica i flussi e gli archivi necessari per il rendering di un disegno Web. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/web/vdw .
+description: Visio Web Drawing .vdw rappresenta il formato file che specifica i flussi e gli archivi necessari per il rendering di un disegno Web. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/web/vdw .
 type: docs
-weight: 1570
+weight: 1620
 url: /it/net/groupdocs.viewer/filetype/vdw/
 ---
 ## FileType.VDW field
 
-Visio Web Drawing (.vdw) rappresenta il formato file che specifica i flussi e gli archivi necessari per il rendering di un disegno Web. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/web/vdw) .
+Visio Web Drawing (.vdw) rappresenta il formato file che specifica i flussi e gli archivi necessari per il rendering di un disegno Web. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/web/vdw) .
 
 ```csharp
 public static readonly FileType VDW;

@@ -3,7 +3,7 @@ title: WEBP
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: WebP Image .webp هو تنسيق ملف صورة ويب نقطية حديث يعتمد على ضغط بدون فقد أو فقدان البيانات. إنه يوفر نفس جودة الصورة مع تقليل حجم الصورة بشكل كبير. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/webp .
 type: docs
-weight: 1710
+weight: 1760
 url: /ar/net/groupdocs.viewer/filetype/webp/
 ---
 ## FileType.WEBP field

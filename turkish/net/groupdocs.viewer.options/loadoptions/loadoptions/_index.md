@@ -38,7 +38,7 @@ public LoadOptions(FileType fileType)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
 
 ### Ayrıca bakınız
 

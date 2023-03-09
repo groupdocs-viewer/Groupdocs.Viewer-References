@@ -17,11 +17,11 @@ public static bool operator !=(FolderFontSource left, FolderFontSource right)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | left | FolderFontSource | Links[`FolderFontSource`](../../folderfontsource) Objekt. |
-| right | FolderFontSource | Recht[`FolderFontSource`](../../folderfontsource) Objekt. |
+| right | FolderFontSource | Rechts[`FolderFontSource`](../../folderfontsource) Objekt. |
 
 ### Rückgabewert
 
-wenn beides[`FolderFontSource`](../../folderfontsource) Objekte sind nicht gleich; Andernfalls,
+wenn beides[`FolderFontSource`](../../folderfontsource) Objekte sind nicht gleich; ansonsten,
 
 ```csharp
 true

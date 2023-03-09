@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Inicializa una nueva instancia deViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsclase para recuperar información sobre la vista al renderizar en PNG.
+description: Inicializa una nueva instancia deViewInfoOptionsgroupdocs.viewer.options/viewinfooptions clase para recuperar información sobre la vista al renderizar en PNG.
 type: docs
 weight: 30
 url: /es/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-Inicializa una nueva instancia de[`ViewInfoOptions`](../../viewinfooptions)clase para recuperar información sobre la vista al renderizar en PNG.
+Inicializa una nueva instancia de[`ViewInfoOptions`](../../viewinfooptions) clase para recuperar información sobre la vista al renderizar en PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -28,7 +28,7 @@ Nueva instancia de[`ViewInfoOptions`](../../viewinfooptions) clase.
 
 ## ForPngView(bool) {#forpngview_1}
 
-Inicializa una nueva instancia de[`ViewInfoOptions`](../../viewinfooptions)clase para recuperar información sobre la vista al renderizar en PNG.
+Inicializa una nueva instancia de[`ViewInfoOptions`](../../viewinfooptions) clase para recuperar información sobre la vista al renderizar en PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)

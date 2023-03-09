@@ -3,7 +3,7 @@ title: PSB
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: تنسيق Photoshop Large Document .psb يمثل تنسيق مستند Photoshop الكبير المستخدم لتصميم الرسومات وتطويرها. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/psb .
 type: docs
-weight: 1210
+weight: 1260
 url: /ar/net/groupdocs.viewer/filetype/psb/
 ---
 ## FileType.PSB field

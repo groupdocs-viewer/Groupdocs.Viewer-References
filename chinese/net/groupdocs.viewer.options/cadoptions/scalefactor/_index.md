@@ -1,14 +1,14 @@
 ---
 title: ScaleFactor
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 大于 1 的值会放大输出结果 0 和 1 之间的值将使输出结果更小
+description: 大于1的值会放大输出结果 0 和 1 之间的值将使输出结果更小
 type: docs
 weight: 110
 url: /zh/net/groupdocs.viewer.options/cadoptions/scalefactor/
 ---
 ## CadOptions.ScaleFactor property
 
-大于 1 的值会放大输出结果； 0 和 1 之间的值将使输出结果更小。
+大于1的值会放大输出结果； 0 和 1 之间的值将使输出结果更小。
 
 ```csharp
 public float ScaleFactor { get; }

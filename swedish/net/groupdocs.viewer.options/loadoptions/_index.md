@@ -25,7 +25,8 @@ public class LoadOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Kodningen som används när du öppnar textbaserade filer eller e-postmeddelanden som t.ex[`CSV`](../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../groupdocs.viewer/filetype/txt) , och[`MSG`](../../groupdocs.viewer/filetype/msg) . Standardvärdet ärDefault . |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | Detta alternativ aktiverar[`TXT`](../../groupdocs.viewer/filetype/txt) ,[`TSV`](../../groupdocs.viewer/filetype/tsv) , och[`CSV`](../../groupdocs.viewer/filetype/csv)filer kodningsdetektering. Om kodningen inte kan upptäckas är standardinställningen[`Encoding`](./encoding) används. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Kodningen som används när du öppnar textbaserade filer eller e-postmeddelanden som [`CSV`](../../groupdocs.viewer/filetype/csv) , [`TXT`](../../groupdocs.viewer/filetype/txt) , och[`MSG`](../../groupdocs.viewer/filetype/msg) . Standardvärdet ärUTF8 . |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | Typen av fil som ska öppnas. |
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | Lösenordet för att öppna krypterad fil. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | De externa resurserna t.ex. grafikladdning timeout. Standardvärdet är 30 sekunder. Det här alternativet stöds för ordbehandlingsdokument som innehåller externa resurser. |

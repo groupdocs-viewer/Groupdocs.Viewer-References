@@ -3,7 +3,7 @@ title: ASM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف رمز مصدر لغة التجميع .asm
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/groupdocs.viewer/filetype/asm/
 ---
 ## FileType.ASM field

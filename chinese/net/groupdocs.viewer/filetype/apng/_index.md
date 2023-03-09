@@ -3,7 +3,7 @@ title: APNG
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 动画便携式网络图形 .apng 是支持动画的 PNG 格式的扩展 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/apng
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/groupdocs.viewer/filetype/apng/
 ---
 ## FileType.APNG field

@@ -11,15 +11,15 @@ url: /ru/net/groupdocs.viewer.results/cadviewinfo/cadviewinfo/
 Инициализирует новый экземпляр[`CadViewInfo`](../../cadviewinfo) класс.
 
 ```csharp
-public CadViewInfo(FileType fileType, IList<Page> pages, IList<Layer> layers, IList<Layout> layouts)
+public CadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileType | FileType | Тип файла. |
-| pages | IList`1 | Список страниц для просмотра. |
-| layers | IList`1 | Список слоев, содержащихся в чертеже САПР. |
-| layouts | IList`1 | Список слоев, содержащихся в чертеже САПР. |
+| pages | List`1 | Список страниц для просмотра. |
+| layers | List`1 | Список слоев, содержащихся в чертеже САПР. |
+| layouts | List`1 | Список слоев, содержащихся в чертеже САПР. |
 
 ### Исключения
 

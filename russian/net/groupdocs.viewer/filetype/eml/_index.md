@@ -3,7 +3,7 @@ title: EML
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Сообщение электронной почты .eml представляет собой сообщения электронной почты сохраненные с помощью Outlook и других соответствующих приложений. Почти все клиенты электронной почты поддерживают этот формат файла изза его соответствия стандарту формата интернетсообщений RFC822. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/email/eml .
 type: docs
-weight: 390
+weight: 420
 url: /ru/net/groupdocs.viewer/filetype/eml/
 ---
 ## FileType.EML field

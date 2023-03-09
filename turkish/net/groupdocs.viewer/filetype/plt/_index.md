@@ -1,14 +1,14 @@
 ---
 title: PLT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: PLT HPGL .plt Autodesk Inc. tarafından tanıtılan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığı için PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/plt .
+description: PLT HPGL .plt Autodesk Inc. tarafından sunulan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığından PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/plt .
 type: docs
-weight: 1070
+weight: 1120
 url: /tr/net/groupdocs.viewer/filetype/plt/
 ---
 ## FileType.PLT field
 
-PLT (HPGL) (.plt), Autodesk, Inc. tarafından tanıtılan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları, üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığı için PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/plt) .
+PLT (HPGL) (.plt), Autodesk, Inc. tarafından sunulan vektör tabanlı bir çizici dosyasıdır ve belirli bir CAD dosyası için bilgi içerir. Çizim ayrıntıları, üretimde doğruluk ve kesinlik gerektirir ve tüm görüntüler noktalar yerine çizgiler kullanılarak yazdırıldığından, PLT dosyasının kullanılması bunu garanti eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/plt) .
 
 ```csharp
 public static readonly FileType PLT;

@@ -1,14 +1,14 @@
 ---
 title: OST
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Outlook 脱机数据文件 .ost 表示在使用 Microsoft Outlook 向 Exchange Server 注册后在本地计算机上处于脱机模式的用户邮箱数据 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/email/ost
+description: Outlook 脱机数据文件 .ost 表示在使用 Microsoft Outlook 向 Exchange Server 注册后用户在本地计算机上处于脱机模式的邮箱数据 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/email/ost
 type: docs
-weight: 970
+weight: 1020
 url: /zh/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field
 
-Outlook 脱机数据文件 (.ost) 表示在使用 Microsoft Outlook 向 Exchange Server 注册后，在本地计算机上处于脱机模式的用户邮箱数据。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/ost)
+Outlook 脱机数据文件 (.ost) 表示在使用 Microsoft Outlook 向 Exchange Server 注册后，用户在本地计算机上处于脱机模式的邮箱数据。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/ost)
 
 ```csharp
 public static readonly FileType OST;

@@ -1,14 +1,30 @@
 ---
 title: Layer
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diLayergroupdocs.viewer.results/layer classe.
+description: Inizializza una nuova istanza diLayergroupdocs.viewer.results/layer classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/layer/layer/
 ---
-## Layer(string) {#constructor}
+## Layer() {#constructor}
 
-Inizializza la nuova istanza di[`Layer`](../../layer) classe.
+Inizializza una nuova istanza di[`Layer`](../../layer) classe.
+
+```csharp
+public Layer()
+```
+
+### Guarda anche
+
+* class [Layer](../../layer)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../layer)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Layer(string) {#constructor_1}
+
+Inizializza una nuova istanza di[`Layer`](../../layer) classe.
 
 ```csharp
 public Layer(string name)
@@ -32,9 +48,9 @@ public Layer(string name)
 
 ---
 
-## Layer(string, bool) {#constructor_1}
+## Layer(string, bool) {#constructor_2}
 
-Inizializza la nuova istanza di[`Layer`](../../layer) classe.
+Inizializza una nuova istanza di[`Layer`](../../layer) classe.
 
 ```csharp
 public Layer(string name, bool visible)

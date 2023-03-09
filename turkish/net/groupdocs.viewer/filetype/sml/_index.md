@@ -3,7 +3,7 @@ title: SML
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Standart ML Kaynak Kodu Dosyası .sml
 type: docs
-weight: 1370
+weight: 1420
 url: /tr/net/groupdocs.viewer/filetype/sml/
 ---
 ## FileType.SML field

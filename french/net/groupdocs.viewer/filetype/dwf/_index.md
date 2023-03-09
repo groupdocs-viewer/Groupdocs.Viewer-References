@@ -3,7 +3,7 @@ title: DWF
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Design Web Format File .dwf représente un dessin 2D/3D au format compressé pour la visualisation la révision ou limpression de fichiers de conception. Il contient des graphiques et du texte dans le cadre des données de conception et réduit la taille du fichier en raison de son format compressé. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/cad/dwf .
 type: docs
-weight: 340
+weight: 360
 url: /fr/net/groupdocs.viewer/filetype/dwf/
 ---
 ## FileType.DWF field

@@ -18,7 +18,7 @@ public class TextOptions
 
 | Nom | La description |
 | --- | --- |
-| [TextOptions](textoptions)() | Default_Constructor |
+| [TextOptions](textoptions)() | Initialise la nouvelle instance de[`TextOptions`](../textoptions) classe. |
 
 ## Propriétés
 

@@ -1,14 +1,14 @@
 ---
 title: Excel2003XML
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Excel 2003 XML SpreadsheetML 表示 Excel 二进制文件格式此类文件可以由 Microsoft Excel 以及其他类似的电子表格程序如 OpenOffice Calc 或 Apple Numbers创建 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xls
+description: Excel 2003 XML SpreadsheetML 表示 Excel 二进制文件格式此类文件可以由 Microsoft Excel 以及其他类似的电子表格程序例如 OpenOffice Calc 或 Apple Numbers创建 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xls
 type: docs
-weight: 450
+weight: 480
 url: /zh/net/groupdocs.viewer/filetype/excel2003xml/
 ---
 ## FileType.Excel2003XML field
 
-Excel 2003 XML (SpreadsheetML) 表示 Excel 二进制文件格式。此类文件可以由 Microsoft Excel 以及其他类似的电子表格程序（如 OpenOffice Calc 或 Apple Numbers）创建。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xls)
+Excel 2003 XML (SpreadsheetML) 表示 Excel 二进制文件格式。此类文件可以由 Microsoft Excel 以及其他类似的电子表格程序（例如 OpenOffice Calc 或 Apple Numbers）创建。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xls)
 
 ```csharp
 public static readonly FileType Excel2003XML;

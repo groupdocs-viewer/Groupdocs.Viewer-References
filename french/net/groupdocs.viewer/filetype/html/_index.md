@@ -3,7 +3,7 @@ title: HTML
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Hypertext Markup Language File .html est lextension des pages Web créées pour être affichées dans les navigateurs. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 580
+weight: 620
 url: /fr/net/groupdocs.viewer/filetype/html/
 ---
 ## FileType.HTML field

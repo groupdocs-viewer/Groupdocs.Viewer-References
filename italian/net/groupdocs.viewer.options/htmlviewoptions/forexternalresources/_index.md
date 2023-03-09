@@ -1,14 +1,14 @@
 ---
 title: ForExternalResources
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions classe per il rendering in HTML con risorse esterne.
+description: Inizializza una nuova istanza diHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions classe per il rendering in HTML con risorse esterne.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.options/htmlviewoptions/forexternalresources/
 ---
 ## ForExternalResources(CreatePageStream, CreateResourceStream, CreateResourceUrl) {#forexternalresources_1}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse esterne.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse esterne.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(CreatePageStream createPageStream, 
@@ -46,7 +46,7 @@ Nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il renderi
 
 ## ForExternalResources(CreatePageStream, CreateResourceStream, CreateResourceUrl, ReleasePageStream, ReleaseResourceStream) {#forexternalresources_2}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse esterne.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse esterne.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(CreatePageStream createPageStream, 
@@ -59,8 +59,8 @@ public static HtmlViewOptions ForExternalResources(CreatePageStream createPageSt
 | createPageStream | CreatePageStream | Il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della pagina di output. |
 | createResourceStream | CreateResourceStream | Il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della risorsa HTML di output. |
 | createResourceUrl | CreateResourceUrl | Il metodo che crea l'URL per la risorsa HTML. |
-| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato a cui è passato*createPageStream* parametro. |
-| releaseResourceStream | ReleaseResourceStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato a cui è passato*createResourceStream* parametro. |
+| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato passato a*createPageStream* parametro. |
+| releaseResourceStream | ReleaseResourceStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato passato a*createResourceStream* parametro. |
 
 ### Valore di ritorno
 
@@ -91,7 +91,7 @@ Nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il renderi
 
 ## ForExternalResources(IPageStreamFactory, IResourceStreamFactory) {#forexternalresources_3}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse esterne.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse esterne.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(IPageStreamFactory pageStreamFactory, 
@@ -100,7 +100,7 @@ public static HtmlViewOptions ForExternalResources(IPageStreamFactory pageStream
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per creare e rilasciare il flusso di pagine di output. |
+| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per la creazione e il rilascio del flusso della pagina di output. |
 | resourceStreamFactory | IResourceStreamFactory | La factory che implementa i metodi richiesti per la creazione dell'URL della risorsa, l'istanziazione e il rilascio del flusso di risorse HTML di output. |
 
 ### Valore di ritorno
@@ -126,7 +126,7 @@ Nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il renderi
 
 ## ForExternalResources() {#forexternalresources}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources()
@@ -146,7 +146,7 @@ Questo costruttore inizializza una nuova istanza di[`HtmlViewOptions`](../../htm
 
 ## ForExternalResources(string, string, string) {#forexternalresources_4}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(string filePathFormat, 

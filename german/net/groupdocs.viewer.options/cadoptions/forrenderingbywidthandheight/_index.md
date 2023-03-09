@@ -21,7 +21,7 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 ### Rückgabewert
 
-Neue Instanz von[`CadOptions`](../../cadoptions) Klasse zum Rendern nach Breite und Höhe.
+Neue Instanz von[`CadOptions`](../../cadoptions)Klasse zum Rendern nach Breite und Höhe.
 
 ### Ausnahmen
 

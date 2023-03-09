@@ -16,7 +16,7 @@ public static ViewInfoOptions ForJpgView()
 
 ### Возвращаемое значение
 
-Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) учебный класс.
+Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) сорт.
 
 ### Смотрите также
 
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForJpgView(bool extractText)
 
 ### Возвращаемое значение
 
-Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) учебный класс.
+Новый экземпляр[`ViewInfoOptions`](../../viewinfooptions) сорт.
 
 ### Смотрите также
 

@@ -22,7 +22,7 @@ public void Warning(string message)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*message* boş. |
+| ArgumentNullException | Ne zaman atıldı*message* boş. |
 
 ### Ayrıca bakınız
 

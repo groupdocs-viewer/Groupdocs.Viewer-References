@@ -1,14 +1,14 @@
 ---
 title: XLT
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Microsoft Excel 模板 .xlt 是使用 Microsoft Excel 创建的模板文件Microsoft Excel 是作为 Microsoft Office 套件的一部分提供的电子表格应用程序 Microsoft Office 972003 支持创建新的 XLT 文件以及打开这些文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlt
+description: Microsoft Excel 模板 .xlt 是使用 Microsoft Excel 创建的模板文件Microsoft Excel 是一个电子表格应用程序是 Microsoft Office 套件的一部分 Microsoft Office 972003 支持创建新的 XLT 文件以及打开这些文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlt
 type: docs
-weight: 1790
+weight: 1840
 url: /zh/net/groupdocs.viewer/filetype/xlt/
 ---
 ## FileType.XLT field
 
-Microsoft Excel 模板 (.xlt) 是使用 Microsoft Excel 创建的模板文件，Microsoft Excel 是作为 Microsoft Office 套件的一部分提供的电子表格应用程序。 Microsoft Office 97-2003 支持创建新的 XLT 文件以及打开这些文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlt)
+Microsoft Excel 模板 (.xlt) 是使用 Microsoft Excel 创建的模板文件，Microsoft Excel 是一个电子表格应用程序，是 Microsoft Office 套件的一部分。 Microsoft Office 97-2003 支持创建新的 XLT 文件以及打开这些文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlt)
 
 ```csharp
 public static readonly FileType XLT;

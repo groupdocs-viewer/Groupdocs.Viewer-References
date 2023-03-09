@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/textelement-1/value/
 元素值。
 
 ```csharp
-public T Value { get; }
+public T Value { get; set; }
 ```
 
 ### 也可以看看

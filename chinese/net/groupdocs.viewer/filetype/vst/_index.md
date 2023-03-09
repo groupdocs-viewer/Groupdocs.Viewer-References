@@ -1,14 +1,14 @@
 ---
 title: VST
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Visio 绘图模板 .vst 是使用 Microsoft Visio 创建的矢量图像文件用作创建更多文件的模板这些模板文件为二进制文件格式包含用于创建新 Visio 绘图的默认布局和设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vst.
+description: Visio 绘图模板 .vst 是使用 Microsoft Visio 创建的矢量图像文件可作为创建更多文件的模板这些模板文件采用二进制文件格式包含用于创建新 Visio 绘图的默认布局和设置 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vst.
 type: docs
-weight: 1660
+weight: 1710
 url: /zh/net/groupdocs.viewer/filetype/vst/
 ---
 ## FileType.VST field
 
-Visio 绘图模板 (.vst) 是使用 Microsoft Visio 创建的矢量图像文件，用作创建更多文件的模板。这些模板文件为二进制文件格式，包含用于创建新 Visio 绘图的默认布局和设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vst).
+Visio 绘图模板 (.vst) 是使用 Microsoft Visio 创建的矢量图像文件，可作为创建更多文件的模板。这些模板文件采用二进制文件格式，包含用于创建新 Visio 绘图的默认布局和设置。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vst).
 
 ```csharp
 public static readonly FileType VST;

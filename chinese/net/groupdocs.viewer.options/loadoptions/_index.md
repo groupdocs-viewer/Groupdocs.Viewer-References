@@ -18,16 +18,17 @@ public class LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | 初始化的新实例[`LoadOptions`](../loadoptions)类. |
-| [LoadOptions](loadoptions#constructor_1)(FileType) | 初始化的新实例[`LoadOptions`](../loadoptions)类. |
+| [LoadOptions](loadoptions#constructor)() | 初始化新实例[`LoadOptions`](../loadoptions)类. |
+| [LoadOptions](loadoptions#constructor_1)(FileType) | 初始化新实例[`LoadOptions`](../loadoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | 打开基于文本的文件或电子邮件消息时使用的编码，例如[`CSV`](../../groupdocs.viewer/filetype/csv),[`TXT`](../../groupdocs.viewer/filetype/txt) ， 和[`MSG`](../../groupdocs.viewer/filetype/msg). 默认值为Default. |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | 此选项启用[`TXT`](../../groupdocs.viewer/filetype/txt),[`TSV`](../../groupdocs.viewer/filetype/tsv) ， 和[`CSV`](../../groupdocs.viewer/filetype/csv)文件编码检测. 以防无法检测到默认编码[`Encoding`](./encoding)使用. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | 打开基于文本的文件或电子邮件消息（如 ）时使用的编码[`CSV`](../../groupdocs.viewer/filetype/csv), [`TXT`](../../groupdocs.viewer/filetype/txt) , 和[`MSG`](../../groupdocs.viewer/filetype/msg). 默认值为UTF8. |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | 要打开的文件类型。 |
-| [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | 打开加密文件的密码。 |
+| [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | 加密文件打开密码. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | 外部资源，例如图形加载超时。 默认值为 30 秒。 包含外部资源的文字处理文档支持此选项。 |
 
 ### 也可以看看

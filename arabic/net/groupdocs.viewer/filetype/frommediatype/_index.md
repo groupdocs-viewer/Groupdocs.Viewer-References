@@ -3,7 +3,7 @@ title: FromMediaType
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: نوع وسائط ملف الخرائط إلى نوع الملف  على سبيل المثال  سيتم تعيين application / pdf إلىPDFgroupdocs.viewer/filetype/pdf .
 type: docs
-weight: 1890
+weight: 1940
 url: /ar/net/groupdocs.viewer/filetype/frommediatype/
 ---
 ## FileType.FromMediaType method

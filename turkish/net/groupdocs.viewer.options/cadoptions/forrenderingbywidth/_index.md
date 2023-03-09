@@ -26,7 +26,7 @@ Yeni örneği[`CadOptions`](../../cadoptions) genişliğe göre işleme için s�
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*width* sıfıra eşit veya küçüktür. |
+| ArgumentException | Ne zaman atıldı*width* sıfırdan küçük veya eşittir. |
 
 ### Ayrıca bakınız
 

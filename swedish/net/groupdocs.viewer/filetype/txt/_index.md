@@ -3,7 +3,7 @@ title: TXT
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Vanlig textfil .txt representerar ett textdokument som innehåller ren text i form av rader. Läs mer om detta filformathärhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 1520
+weight: 1570
 url: /sv/net/groupdocs.viewer/filetype/txt/
 ---
 ## FileType.TXT field

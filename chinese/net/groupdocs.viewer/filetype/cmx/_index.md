@@ -1,14 +1,14 @@
 ---
 title: CMX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Corel Exchange .cmx 是一个绘图图像文件它可能包含矢量图形和位图图形 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/cmx
+description: Corel Exchange .cmx 是一种绘图图像文件可能包含矢量图形和位图图形 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/cmx
 type: docs
-weight: 160
+weight: 170
 url: /zh/net/groupdocs.viewer/filetype/cmx/
 ---
 ## FileType.CMX field
 
-Corel Exchange (.cmx) 是一个绘图图像文件，它可能包含矢量图形和位图图形。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/cmx)
+Corel Exchange (.cmx) 是一种绘图图像文件，可能包含矢量图形和位图图形。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/cmx)
 
 ```csharp
 public static readonly FileType CMX;

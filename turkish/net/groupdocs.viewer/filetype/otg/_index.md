@@ -3,7 +3,7 @@ title: OTG
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: OpenDocument Grafik Şablonu .otg
 type: docs
-weight: 980
+weight: 1030
 url: /tr/net/groupdocs.viewer/filetype/otg/
 ---
 ## FileType.OTG field

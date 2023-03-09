@@ -22,7 +22,7 @@ public PdfViewOptions(CreateFileStream createFileStream)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*createFileStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createFileStream* boş. |
 
 ### Ayrıca bakınız
 
@@ -50,8 +50,8 @@ public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream relea
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*createFileStream* boş. |
-| ArgumentNullException | ne zaman atıldı*releaseFileStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*createFileStream* boş. |
+| ArgumentNullException | Ne zaman atıldı*releaseFileStream* boş. |
 
 ### Ayrıca bakınız
 
@@ -79,7 +79,7 @@ public PdfViewOptions(IFileStreamFactory fileStreamFactory)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileStreamFactory* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileStreamFactory* boş. |
 
 ### Ayrıca bakınız
 
@@ -126,7 +126,7 @@ public PdfViewOptions(string outputFilePath)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*outputFilePath* null veya boş. |
+| ArgumentException | Ne zaman atıldı*outputFilePath* null veya boş. |
 
 ### Ayrıca bakınız
 

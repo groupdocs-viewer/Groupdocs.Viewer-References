@@ -25,7 +25,8 @@ public class LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Кодировка, используемая при открытии текстовых файлов или сообщений электронной почты, таких как[`CSV`](../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../groupdocs.viewer/filetype/txt) , а также[`MSG`](../../groupdocs.viewer/filetype/msg) . Значение по умолчанию:Default . |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | Этот параметр включает[`TXT`](../../groupdocs.viewer/filetype/txt) ,[`TSV`](../../groupdocs.viewer/filetype/tsv) , и[`CSV`](../../groupdocs.viewer/filetype/csv)обнаружение кодировки файлов. В случае, если кодировка не может быть обнаружена, по умолчанию[`Encoding`](./encoding) используется. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Кодировка, используемая при открытии текстовых файлов или сообщений электронной почты, таких как [`CSV`](../../groupdocs.viewer/filetype/csv) , [`TXT`](../../groupdocs.viewer/filetype/txt) , и[`MSG`](../../groupdocs.viewer/filetype/msg) . Значение по умолчанию:UTF8 . |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | Тип открываемого файла. |
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | Пароль для открытия зашифрованного файла. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | Внешние ресурсы, например тайм-аут загрузки графики. Значение по умолчанию — 30 секунд. Этот параметр поддерживается для документов Word Processing, содержащих внешние ресурсы. |

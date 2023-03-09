@@ -18,18 +18,19 @@ public class Line : TextElement<string>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Line](line)(string, double, double, double, double, IList&lt;Word&gt;) | Initialisiert eine neue Instanz von[`Line`](../line) Klasse. |
+| [Line](line#constructor)() | Initialisiert eine neue Instanz von[`Line`](../line) Klasse. |
+| [Line](line#constructor_1)(string, double, double, double, double, List&lt;Word&gt;) | Initialisiert eine neue Instanz von[`Line`](../line) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Der Elementwert. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
-| [Words](../../groupdocs.viewer.results/line/words) { get; } | Die in der Zeile enthaltenen Wörter. |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Die Höhe des Rechtecks, das das Element enthält (in Pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Der Elementwert. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Die Breite des Rechtecks, das das Element enthält (in Pixel). |
+| [Words](../../groupdocs.viewer.results/line/words) { get; set; } | Die in der Zeile enthaltenen Wörter. |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Die X-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Die Y-Koordinate des höchsten linken Punkts im Seitenlayout, wo das Rechteck beginnt, das das Element enthält. |
 
 ## Methoden
 

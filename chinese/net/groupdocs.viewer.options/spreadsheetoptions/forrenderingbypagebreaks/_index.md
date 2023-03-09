@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByPageBreaks
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions仅用于渲染打印区域
+description: 初始化新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions仅用于渲染打印区域
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks/
 ---
 ## SpreadsheetOptions.ForRenderingByPageBreaks method
 
-初始化的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)仅用于渲染打印区域。
+初始化新实例[`SpreadsheetOptions`](../../spreadsheetoptions)仅用于渲染打印区域。
 
 ```csharp
 public static SpreadsheetOptions ForRenderingByPageBreaks()
@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### 返回值
 
-的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于按分页符呈现。类似于在 Excel 中打印的行为。
+的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于分页渲染。类似于在 Excel 中打印的行为。
 
 ### 也可以看看
 

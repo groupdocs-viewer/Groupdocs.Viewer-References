@@ -3,7 +3,7 @@ title: HH
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File di intestazione C .hh
 type: docs
-weight: 550
+weight: 590
 url: /it/net/groupdocs.viewer/filetype/hh/
 ---
 ## FileType.HH field

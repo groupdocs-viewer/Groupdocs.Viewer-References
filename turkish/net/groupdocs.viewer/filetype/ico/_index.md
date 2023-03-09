@@ -1,14 +1,14 @@
 ---
 title: ICO
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Simge Dosyası .ico Microsoft Windowsta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/ico .
+description: Simge Dosyası .ico Microsoft Windowsta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/ico .
 type: docs
-weight: 590
+weight: 630
 url: /tr/net/groupdocs.viewer/filetype/ico/
 ---
 ## FileType.ICO field
 
-Simge Dosyası (.ico), Microsoft Windows'ta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/ico) .
+Simge Dosyası (.ico), Microsoft Windows'ta bir uygulamanın temsili için simge olarak kullanılan görüntü dosyası türleridir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/ico) .
 
 ```csharp
 public static readonly FileType ICO;

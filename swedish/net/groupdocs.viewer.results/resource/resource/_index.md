@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/resource/resource/
 ---
-## Resource constructor
+## Resource() {#constructor}
+
+Skapar ny instans av[`Resource`](../../resource) class.
+
+```csharp
+public Resource()
+```
+
+### Se även
+
+* class [Resource](../../resource)
+* namnutrymme [GroupDocs.Viewer.Results](../../resource)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Resource(string, bool) {#constructor_1}
 
 Skapar ny instans av[`Resource`](../../resource) class.
 

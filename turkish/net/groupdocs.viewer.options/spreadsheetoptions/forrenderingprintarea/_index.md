@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingPrintArea()
 
 ### Geri dönüş değeri
 
-Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions) yalnızca baskı alanlarını oluşturmak için.
+Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions) yalnızca baskı alanlarını işlemek için.
 
 ### Ayrıca bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: DWF
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Tasarım Web Format Dosyası .dwf tasarım dosyalarını görüntülemek incelemek veya yazdırmak için sıkıştırılmış formatta 2B/3B çizimi temsil eder. Tasarım verilerinin bir parçası olarak grafik ve metin içerir ve sıkıştırılmış biçimi nedeniyle dosyanın boyutunu azaltır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/dwf .
+description: Tasarım Web Format Dosyası .dwf tasarım dosyalarını görüntülemek incelemek veya yazdırmak için sıkıştırılmış formatta 2B/3B çizimi temsil eder. Tasarım verilerinin bir parçası olarak grafik ve metin içerir ve sıkıştırılmış biçimi nedeniyle dosyanın boyutunu azaltır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/dwf .
 type: docs
-weight: 340
+weight: 360
 url: /tr/net/groupdocs.viewer/filetype/dwf/
 ---
 ## FileType.DWF field
 
-Tasarım Web Format Dosyası (.dwf), tasarım dosyalarını görüntülemek, incelemek veya yazdırmak için sıkıştırılmış formatta 2B/3B çizimi temsil eder. Tasarım verilerinin bir parçası olarak grafik ve metin içerir ve sıkıştırılmış biçimi nedeniyle dosyanın boyutunu azaltır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/dwf) .
+Tasarım Web Format Dosyası (.dwf), tasarım dosyalarını görüntülemek, incelemek veya yazdırmak için sıkıştırılmış formatta 2B/3B çizimi temsil eder. Tasarım verilerinin bir parçası olarak grafik ve metin içerir ve sıkıştırılmış biçimi nedeniyle dosyanın boyutunu azaltır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/dwf) .
 
 ```csharp
 public static readonly FileType DWF;

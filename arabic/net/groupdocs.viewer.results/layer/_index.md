@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | اسم | وصف |
 | --- | --- |
-| [Layer](layer#constructor)(string) | تهيئة مثيل جديد لـ[`Layer`](../layer) فئة . |
-| [Layer](layer#constructor_1)(string, bool) | تهيئة مثيل جديد لـ[`Layer`](../layer) فئة . |
+| [Layer](layer#constructor)() | تهيئة مثيل جديد لـ[`Layer`](../layer) فئة . |
+| [Layer](layer#constructor_1)(string) | تهيئة مثيل جديد لـ[`Layer`](../layer) فئة . |
+| [Layer](layer#constructor_2)(string, bool) | تهيئة مثيل جديد لـ[`Layer`](../layer) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | اسم الطبقة . |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | مؤشر رؤية الطبقة . |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | اسم الطبقة . |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | مؤشر رؤية الطبقة . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | يحدد ما إذا كان التيار[`Layer`](../layer)هو نفسه كما هو محدد[`Layer`](../layer) الكائن . |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | يحدد ما إذا كان التيار[`Layer`](../layer) هو نفسه كما هو محدد[`Layer`](../layer) الكائن . |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | يحدد ما إذا كان التيار[`Layer`](../layer) هو نفس الكائن المحدد. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | إرجاع كود التجزئة الحالي[`Layer`](../layer) الكائن . |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | إرجاع سلسلة تمثل الكائن الحالي. |

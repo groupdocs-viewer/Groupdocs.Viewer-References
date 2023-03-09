@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/layout/width/
 La largeur de la mise en page.
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### Voir également

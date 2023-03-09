@@ -1,14 +1,14 @@
 ---
 title: CHM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Microsoft Derlenmiş HTML Yardım Dosyası .chm HELP bazı uygulamalara yönelik belgeler belgeleri için iyi bilinen bir biçimdir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/web/chm/ .
+description: Microsoft Derlenmiş HTML Yardım Dosyası .chm HELP bazı uygulamalara yönelik belgeler belgeleri için iyi bilinen bir biçimdir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/web/chm/ .
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/groupdocs.viewer/filetype/chm/
 ---
 ## FileType.CHM field
 
-Microsoft Derlenmiş HTML Yardım Dosyası (.chm), HELP (bazı uygulamalara yönelik belgeler) belgeleri için iyi bilinen bir biçimdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/web/chm/) .
+Microsoft Derlenmiş HTML Yardım Dosyası (.chm), HELP (bazı uygulamalara yönelik belgeler) belgeleri için iyi bilinen bir biçimdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/web/chm/) .
 
 ```csharp
 public static readonly FileType CHM;

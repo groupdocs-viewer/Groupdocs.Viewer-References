@@ -20,7 +20,7 @@ Die Dateiinformationen.
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Informationen zu Dateiinformationen: [So überprüfen Sie, ob die Datei verschlüsselt ist](https://docs.groupdocs.com/viewer/net/how-to-check-if-file-is-encrypted/)
 

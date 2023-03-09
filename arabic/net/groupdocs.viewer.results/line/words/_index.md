@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/line/words/
 الكلمات التي يحتويها السطر .
 
 ```csharp
-public IList<Word> Words { get; }
+public List<Word> Words { get; set; }
 ```
 
 ### أنظر أيضا

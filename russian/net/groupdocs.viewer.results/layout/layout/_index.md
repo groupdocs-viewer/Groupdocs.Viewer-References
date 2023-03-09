@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/layout/layout/
 ---
-## Layout constructor
+## Layout() {#constructor}
+
+Инициализирует новый экземпляр[`Layout`](../../layout) класс.
+
+```csharp
+public Layout()
+```
+
+### Смотрите также
+
+* class [Layout](../../layout)
+* пространство имен [GroupDocs.Viewer.Results](../../layout)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## Layout(string, float, float) {#constructor_1}
 
 Инициализирует новый экземпляр[`Layout`](../../layout) класс.
 

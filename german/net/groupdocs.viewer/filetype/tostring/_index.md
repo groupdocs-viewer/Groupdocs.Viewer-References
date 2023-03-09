@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Gibt eine Zeichenfolge zurück die das aktuelle Objekt darstellt.
 type: docs
-weight: 1950
+weight: 2000
 url: /de/net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method

@@ -3,7 +3,7 @@ title: LESS
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ورقة أنماط أقل .less
 type: docs
-weight: 740
+weight: 790
 url: /ar/net/groupdocs.viewer/filetype/less/
 ---
 ## FileType.LESS field

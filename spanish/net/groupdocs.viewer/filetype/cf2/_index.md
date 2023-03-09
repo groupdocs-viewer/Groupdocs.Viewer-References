@@ -3,7 +3,7 @@ title: CF2
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Formato de archivo común Archivo Más información sobre este formato de archivoaquíhttps//fileinfo.com/extension/cf2 .
 type: docs
-weight: 120
+weight: 130
 url: /es/net/groupdocs.viewer/filetype/cf2/
 ---
 ## FileType.CF2 field

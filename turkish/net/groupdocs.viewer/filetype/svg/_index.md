@@ -1,14 +1,14 @@
 ---
 title: SVG
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Ölçeklenebilir Vektör Grafik Dosyası .svg bir görüntünün görünümünü açıklamak için XML tabanlı metin formatı kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/pagedescriptionlanguage/svg .
+description: Ölçeklenebilir Vektör Grafik Dosyası .svg bir görüntünün görünümünü açıklamak için XML tabanlı metin formatı kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/pagedescriptionlanguage/svg .
 type: docs
-weight: 1400
+weight: 1450
 url: /tr/net/groupdocs.viewer/filetype/svg/
 ---
 ## FileType.SVG field
 
-Ölçeklenebilir Vektör Grafik Dosyası (.svg), bir görüntünün görünümünü açıklamak için XML tabanlı metin formatı kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/svg) .
+Ölçeklenebilir Vektör Grafik Dosyası (.svg), bir görüntünün görünümünü açıklamak için XML tabanlı metin formatı kullanan bir Skaler Vektör Grafik dosyasıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/page-description-language/svg) .
 
 ```csharp
 public static readonly FileType SVG;

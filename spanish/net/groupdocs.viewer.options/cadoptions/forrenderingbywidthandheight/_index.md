@@ -21,7 +21,7 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 ### Valor_devuelto
 
-Nueva instancia de[`CadOptions`](../../cadoptions) clase para renderizar por ancho y alto.
+Nueva instancia de[`CadOptions`](../../cadoptions)clase para renderizar por ancho y alto.
 
 ### Excepciones
 

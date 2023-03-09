@@ -21,8 +21,8 @@ public enum Permissions
 | --- | --- | --- |
 | AllowAll | `0` | Consenti stampa, modifica ed estrazione dati. |
 | DenyPrinting | `1` | Nega stampa |
-| DenyModification | `2` | Nega per modificare contenuto, compilare moduli, aggiungere o modificare annotazioni. |
-| DenyDataExtraction | `4` | Nega estrazione di testo e grafica. |
+| DenyModification | `2` | Nega di modificare contenuti, compilare moduli, aggiungere o modificare annotazioni. |
+| DenyDataExtraction | `4` | Nega l'estrazione di testo e grafica. |
 | DenyAll | `7` | Nega stampa, modifica ed estrazione dati. |
 
 ### Guarda anche

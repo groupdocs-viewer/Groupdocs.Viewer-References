@@ -1,14 +1,14 @@
 ---
 title: ForEmbeddedResources
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions classe per il rendering in HTML con risorse incorporate.
+description: Inizializza una nuova istanza diHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions classe per il rendering in HTML con risorse incorporate.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/htmlviewoptions/forembeddedresources/
 ---
 ## ForEmbeddedResources(CreatePageStream) {#forembeddedresources_1}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse incorporate.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse incorporate.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream)
@@ -39,7 +39,7 @@ Nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il renderi
 
 ## ForEmbeddedResources(CreatePageStream, ReleasePageStream) {#forembeddedresources_2}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse incorporate.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse incorporate.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream, 
@@ -49,7 +49,7 @@ public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageSt
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | createPageStream | CreatePageStream | Il metodo che crea un'istanza del flusso utilizzato per scrivere i dati della pagina di output. |
-| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato a cui è passato*createPageStream* parametro. |
+| releasePageStream | ReleasePageStream | Il metodo che rilascia il flusso creato dal metodo assegnato al delegato passato a*createPageStream* parametro. |
 
 ### Valore di ritorno
 
@@ -74,7 +74,7 @@ Nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il renderi
 
 ## ForEmbeddedResources(IPageStreamFactory) {#forembeddedresources_3}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse incorporate.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il rendering in HTML con risorse incorporate.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStreamFactory)
@@ -82,7 +82,7 @@ public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStream
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per creare e rilasciare il flusso di pagine di output. |
+| pageStreamFactory | IPageStreamFactory | La factory che implementa i metodi per la creazione e il rilascio del flusso della pagina di output. |
 
 ### Valore di ritorno
 
@@ -105,7 +105,7 @@ Nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe per il renderi
 
 ## ForEmbeddedResources() {#forembeddedresources}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources()
@@ -121,7 +121,7 @@ public static HtmlViewOptions ForEmbeddedResources()
 
 ## ForEmbeddedResources(string) {#forembeddedresources_4}
 
-Inizializza la nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
+Inizializza una nuova istanza di[`HtmlViewOptions`](../../htmlviewoptions) classe.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)

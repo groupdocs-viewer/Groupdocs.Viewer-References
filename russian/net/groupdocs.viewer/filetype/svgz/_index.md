@@ -3,7 +3,7 @@ title: SVGZ
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл масштабируемой векторной графики .svgz представляет собой файл скалярной векторной графики в котором используется текстовый формат на основе XML сжатый GZIP для описания внешнего вида изображения. Узнайте больше об этом формате файлаздесьhttps//fileinfo.com/extension/svgz .
 type: docs
-weight: 1410
+weight: 1460
 url: /ru/net/groupdocs.viewer/filetype/svgz/
 ---
 ## FileType.SVGZ field

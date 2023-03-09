@@ -1,14 +1,14 @@
 ---
 title: ONE
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: OneNote Belgesi .one Microsoft OneNote uygulaması tarafından oluşturulur. OneNote not almak için taslak defterinizi kullanıyormuşsunuz gibi uygulamayı kullanarak bilgi toplamanıza olanak tanır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/notetaking/one .
+description: OneNote Belgesi .one Microsoft OneNote uygulaması tarafından oluşturulur. OneNote not almak için taslak defterinizi kullanıyormuşsunuz gibi uygulamayı kullanarak bilgi toplamanıza olanak tanır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/notetaking/one .
 type: docs
-weight: 960
+weight: 1010
 url: /tr/net/groupdocs.viewer/filetype/one/
 ---
 ## FileType.ONE field
 
-OneNote Belgesi (.one), Microsoft OneNote uygulaması tarafından oluşturulur. OneNote, not almak için taslak defterinizi kullanıyormuşsunuz gibi uygulamayı kullanarak bilgi toplamanıza olanak tanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/note-taking/one) .
+OneNote Belgesi (.one), Microsoft OneNote uygulaması tarafından oluşturulur. OneNote, not almak için taslak defterinizi kullanıyormuşsunuz gibi uygulamayı kullanarak bilgi toplamanıza olanak tanır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/note-taking/one) .
 
 ```csharp
 public static readonly FileType ONE;

@@ -3,7 +3,7 @@ title: FromExtension
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: امتداد ملف الخرائط لنوع الملف.
 type: docs
-weight: 1870
+weight: 1920
 url: /ar/net/groupdocs.viewer/filetype/fromextension/
 ---
 ## FileType.FromExtension method

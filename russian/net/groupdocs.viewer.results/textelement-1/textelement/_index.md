@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/textelement-1/textelement/
 ---
-## TextElement&lt;T&gt; constructor
+## TextElement() {#constructor}
+
+Инициализирует новый экземпляр[`TextElement`](../../textelement-1) класс.
+
+```csharp
+public TextElement()
+```
+
+### Смотрите также
+
+* class [TextElement&lt;T&gt;](../../textelement-1)
+* пространство имен [GroupDocs.Viewer.Results](../../textelement-1)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## TextElement(T, double, double, double, double) {#constructor_1}
 
 Инициализирует новый экземпляр[`TextElement`](../../textelement-1) класс.
 

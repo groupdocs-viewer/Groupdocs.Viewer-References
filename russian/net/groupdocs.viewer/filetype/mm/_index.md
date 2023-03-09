@@ -3,7 +3,7 @@ title: MM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Исходный файл ObjectiveC .mm
 type: docs
-weight: 830
+weight: 880
 url: /ru/net/groupdocs.viewer/filetype/mm/
 ---
 ## FileType.MM field

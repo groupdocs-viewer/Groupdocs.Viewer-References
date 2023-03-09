@@ -18,16 +18,16 @@ public class CadViewInfo : ViewInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | Inicializa una nueva instancia de[`CadViewInfo`](../cadviewinfo) clase. |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | Inicializa una nueva instancia de[`CadViewInfo`](../cadviewinfo) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | El tipo de archivo. |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | La lista de capas contenidas en el dibujo CAD. |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | La lista de diseños contenidos en el dibujo CAD. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | La lista de páginas para ver. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | El tipo de archivo. |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | La lista de capas contenidas en el dibujo CAD. |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | La lista de diseños contenidos en el dibujo CAD. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | La lista de páginas para ver. |
 
 ## Métodos
 

@@ -12,7 +12,7 @@ url: /zh/net/groupdocs.viewer.caching/
 
 | 班级 | 描述 |
 | --- | --- |
-| [CacheKeys](./cachekeys) | 提供检索缓存条目唯一标识符的方法。 |
+| [CacheKeys](./cachekeys) | 提供方法来检索缓存条目的唯一标识符。 |
 | [FileCache](./filecache) | 表示本地磁盘缓存。 |
 ## 接口
 

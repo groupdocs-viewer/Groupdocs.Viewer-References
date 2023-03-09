@@ -1,17 +1,17 @@
 ---
 title: Y
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 包含元素的矩形开始的页面布局左最高点的 Y 坐标
+description: 包含元素的矩形开始的页面布局上最左点的 Y 坐标
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.results/textelement-1/y/
 ---
 ## TextElement&lt;T&gt;.Y property
 
-包含元素的矩形开始的页面布局左最高点的 Y 坐标。
+包含元素的矩形开始的页面布局上最左点的 Y 坐标。
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### 也可以看看

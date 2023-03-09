@@ -3,7 +3,7 @@ title: VST
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Visio Drawing Template .vst عبارة عن ملفات صور متجهة تم إنشاؤها باستخدام Microsoft Visio وتعمل كقالب لإنشاء المزيد من الملفات. ملفات القوالب هذه بتنسيق ملف ثنائي وتحتوي على التخطيط والإعدادات الافتراضية المستخدمة لإنشاء رسومات Visio الجديدة . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/vst .
 type: docs
-weight: 1660
+weight: 1710
 url: /ar/net/groupdocs.viewer/filetype/vst/
 ---
 ## FileType.VST field

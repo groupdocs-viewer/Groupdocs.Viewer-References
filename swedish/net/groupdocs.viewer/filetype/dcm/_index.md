@@ -3,7 +3,7 @@ title: DCM
 second_title: GroupDocs.Viewer för .NET API-referens
 description: DICOMbild .dcm representerar en digital bild som lagrar medicinsk information om patienter som MRI datortomografi och ultraljudsbilder. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/dcm .
 type: docs
-weight: 220
+weight: 240
 url: /sv/net/groupdocs.viewer/filetype/dcm/
 ---
 ## FileType.DCM field

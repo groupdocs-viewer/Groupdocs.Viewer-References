@@ -3,7 +3,7 @@ title: XML
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: XMLфайл .xml
 type: docs
-weight: 1820
+weight: 1870
 url: /ru/net/groupdocs.viewer/filetype/xml/
 ---
 ## FileType.XML field

@@ -1,14 +1,14 @@
 ---
 title: TextOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sayfa seçeneklerine ayrılan metin dosyaları.
+description: Sayfa seçeneklerine bölünen metin dosyaları.
 type: docs
 weight: 530
 url: /tr/net/groupdocs.viewer.options/textoptions/
 ---
 ## TextOptions class
 
-Sayfa seçeneklerine ayrılan metin dosyaları.
+Sayfa seçeneklerine bölünen metin dosyaları.
 
 ```csharp
 public class TextOptions
@@ -18,14 +18,14 @@ public class TextOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [TextOptions](textoptions)() | Default_Constructor |
+| [TextOptions](textoptions)() | Yeni örneğini başlatır[`TextOptions`](../textoptions) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [MaxCharsPerRow](../../groupdocs.viewer.options/textoptions/maxcharsperrow) { get; set; } | Sayfadaki satır başına maksimum karakter. Varsayılan değer 85. 'dir |
-| [MaxRowsPerPage](../../groupdocs.viewer.options/textoptions/maxrowsperpage) { get; set; } | Sayfa başına maksimum satır. Varsayılan değer 55. |
+| [MaxCharsPerRow](../../groupdocs.viewer.options/textoptions/maxcharsperrow) { get; set; } | Sayfadaki satır başına maksimum karakter. Varsayılan değer 85. 'dir. |
+| [MaxRowsPerPage](../../groupdocs.viewer.options/textoptions/maxrowsperpage) { get; set; } | Sayfa başına maks. satır sayısı. Varsayılan değer 55. 'dir. |
 
 ### Ayrıca bakınız
 

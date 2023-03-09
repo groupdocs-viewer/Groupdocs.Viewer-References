@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/pdfviewinfo/printingallowed/
 Indikerar om utskrift av dokumentet är tillåtet.
 
 ```csharp
-public bool PrintingAllowed { get; }
+public bool PrintingAllowed { get; set; }
 ```
 
 ### Se även

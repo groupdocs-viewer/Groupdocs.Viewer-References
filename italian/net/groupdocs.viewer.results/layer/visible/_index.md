@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/layer/visible/
 L'indicatore di visibilità del livello.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Osservazioni

@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### Bemerkungen
 
-Diese Option gilt nur für CAD-Zeichnungen, die Layouts unterstützen[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , und[`DWF`](../../../groupdocs.viewer/filetype/dwf) und auchDWFX ; Standardmäßig wird nur das Modell gerendert.
+Diese Option gilt nur für CAD-Zeichnungen, die Layouts unterstützen[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , Und[`DWF`](../../../groupdocs.viewer/filetype/dwf) und auch[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ; Standardmäßig wird nur das Modell gerendert.
 
 ### Siehe auch
 

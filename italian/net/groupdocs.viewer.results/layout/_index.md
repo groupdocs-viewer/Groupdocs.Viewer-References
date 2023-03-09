@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Inizializza la nuova istanza di[`Layout`](../layout) classe. |
+| [Layout](layout#constructor)() | Inizializza una nuova istanza di[`Layout`](../layout) classe. |
+| [Layout](layout#constructor_1)(string, float, float) | Inizializza una nuova istanza di[`Layout`](../layout) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | L'altezza del layout. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | Il nome del layout. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | La larghezza del layout. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | L'altezza del layout. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | Il nome del layout. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | La larghezza del layout. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Determina se la corrente[`Layout`](../layout)è uguale a quanto specificato[`Layout`](../layout) oggetto. |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Determina se la corrente[`Layout`](../layout) è uguale a quanto specificato[`Layout`](../layout) oggetto. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | Determina se la corrente[`Layout`](../layout) è uguale all'oggetto specificato. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | Restituisce il codice hash per la corrente[`Layout`](../layout) oggetto. |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | Restituisce una stringa che rappresenta l'oggetto corrente. |

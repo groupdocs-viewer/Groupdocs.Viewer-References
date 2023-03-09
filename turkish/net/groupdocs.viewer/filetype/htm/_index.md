@@ -1,14 +1,14 @@
 ---
 title: HTM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Köprü Metni Biçimlendirme Dili Dosyası .htm tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/web/html .
+description: Köprü Metni Biçimlendirme Dili Dosyası .htm tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 570
+weight: 610
 url: /tr/net/groupdocs.viewer/filetype/htm/
 ---
 ## FileType.HTM field
 
-Köprü Metni Biçimlendirme Dili Dosyası (.htm), tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/web/html) .
+Köprü Metni Biçimlendirme Dili Dosyası (.htm), tarayıcılarda görüntülenmek üzere oluşturulan web sayfalarının uzantısıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/web/html) .
 
 ```csharp
 public static readonly FileType HTM;

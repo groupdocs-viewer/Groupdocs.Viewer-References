@@ -3,7 +3,7 @@ title: OTT
 second_title: GroupDocs.Viewer for .NET API 参考
 description: OpenDocument 文档模板 .ott 表示由应用程序生成的符合 OASIS 的 OpenDocument 标准格式的模板文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/ott
 type: docs
-weight: 1010
+weight: 1060
 url: /zh/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field

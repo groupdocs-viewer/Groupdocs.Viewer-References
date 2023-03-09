@@ -1,27 +1,43 @@
 ---
 title: Line
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diLinegroupdocs.viewer.results/line classe.
+description: Inizializza una nuova istanza diLinegroupdocs.viewer.results/line classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
-Inizializza la nuova istanza di[`Line`](../../line) classe.
+Inizializza una nuova istanza di[`Line`](../../line) classe.
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### Guarda anche
+
+* class [Line](../../line)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../line)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+Inizializza una nuova istanza di[`Line`](../../line) classe.
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | line | String | La linea. |
-| x | Double | La coordinata X del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene la linea. |
-| y | Double | La coordinata Y del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene la linea. |
+| x | Double | La coordinata X del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene la riga. |
+| y | Double | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene la riga. |
 | width | Double | La larghezza del rettangolo che contiene la linea (in pixel). |
 | height | Double | L'altezza del rettangolo che contiene la linea (in pixel). |
-| words | IList`1 | Le parole contenute nella riga. |
+| words | List`1 | Le parole contenute dalla riga. |
 
 ### Eccezioni
 

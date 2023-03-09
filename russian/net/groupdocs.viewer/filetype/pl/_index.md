@@ -3,7 +3,7 @@ title: PL
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Perlскрипт .pl
 type: docs
-weight: 1060
+weight: 1110
 url: /ru/net/groupdocs.viewer/filetype/pl/
 ---
 ## FileType.PL field

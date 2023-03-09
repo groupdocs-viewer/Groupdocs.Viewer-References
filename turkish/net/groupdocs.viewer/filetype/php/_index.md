@@ -3,7 +3,7 @@ title: PHP
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: PHP Kaynak Kodu Dosyası .php
 type: docs
-weight: 1050
+weight: 1100
 url: /tr/net/groupdocs.viewer/filetype/php/
 ---
 ## FileType.PHP field

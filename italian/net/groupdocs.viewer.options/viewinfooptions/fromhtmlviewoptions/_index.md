@@ -1,14 +1,14 @@
 ---
 title: FromHtmlViewOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions classe basata suHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions oggetto.
+description: Inizializza una nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions classe basata suHtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions oggetto.
 type: docs
 weight: 40
 url: /it/net/groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions/
 ---
 ## ViewInfoOptions.FromHtmlViewOptions method
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe basata su[`HtmlViewOptions`](../../htmlviewoptions) oggetto.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe basata su[`HtmlViewOptions`](../../htmlviewoptions) oggetto.
 
 ```csharp
 public static ViewInfoOptions FromHtmlViewOptions(HtmlViewOptions options)

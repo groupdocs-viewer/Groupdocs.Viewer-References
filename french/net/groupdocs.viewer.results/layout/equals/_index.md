@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
-description: Détermine si le courantLayoutgroupdocs.viewer.results/layoutest le même que celui spécifiéLayoutgroupdocs.viewer.results/layout objet.
+description: Détermine si le courantLayoutgroupdocs.viewer.results/layout est le même que celui spécifiéLayoutgroupdocs.viewer.results/layout objet.
 type: docs
 weight: 50
 url: /fr/net/groupdocs.viewer.results/layout/equals/
 ---
 ## Equals(Layout) {#equals}
 
-Détermine si le courant[`Layout`](../../layout)est le même que celui spécifié[`Layout`](../../layout) objet.
+Détermine si le courant[`Layout`](../../layout) est le même que celui spécifié[`Layout`](../../layout) objet.
 
 ```csharp
 public bool Equals(Layout other)
@@ -20,7 +20,7 @@ public bool Equals(Layout other)
 
 ### Return_Value
 
-si les deux[`Layout`](../../layout) les objets sont les mêmes; Par ailleurs,
+si les deux[`Layout`](../../layout) les objets sont les mêmes; sinon,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Return_Value
 
-si le paramètre est[`Layout`](../../layout) et est le même que le courant[`Layout`](../../layout) objet; Par ailleurs,
+si le paramètre est[`Layout`](../../layout) et est le même que le courant[`Layout`](../../layout) objet; sinon,
 
 ```csharp
 true

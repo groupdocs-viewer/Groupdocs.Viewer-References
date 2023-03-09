@@ -1,14 +1,14 @@
 ---
 title: PresentationOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sunum işleme belgeleri seçenekleri görüntüleme.
+description: Sunum işleme belgeleri görüntüleme seçenekleri.
 type: docs
 weight: 80
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/presentationoptions/
 ---
 ## BaseViewOptions.PresentationOptions property
 
-Sunum işleme belgeleri seçenekleri görüntüleme.
+Sunum işleme belgeleri görüntüleme seçenekleri.
 
 ```csharp
 public PresentationOptions PresentationOptions { get; set; }

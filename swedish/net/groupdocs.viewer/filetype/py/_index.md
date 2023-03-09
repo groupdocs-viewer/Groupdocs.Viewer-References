@@ -3,7 +3,7 @@ title: PY
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Python Script .py
 type: docs
-weight: 1260
+weight: 1310
 url: /sv/net/groupdocs.viewer/filetype/py/
 ---
 ## FileType.PY field

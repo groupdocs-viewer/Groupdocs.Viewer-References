@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本为收件人
+description: 默认字段文本为To.
 type: docs
 weight: 440
 url: /zh/net/groupdocs.viewer.options/field/to/
 ---
 ## Field.To field
 
-默认字段文本为“收件人”。
+默认字段文本为“To”.
 
 ```csharp
 public static readonly Field To;

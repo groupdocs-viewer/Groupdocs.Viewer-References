@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/page/number/
 Die Seitenzahl.
 
 ```csharp
-public int Number { get; }
+public int Number { get; set; }
 ```
 
 ### Siehe auch

@@ -3,7 +3,7 @@ title: PL
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: PerlSkript .pl
 type: docs
-weight: 1060
+weight: 1110
 url: /de/net/groupdocs.viewer/filetype/pl/
 ---
 ## FileType.PL field

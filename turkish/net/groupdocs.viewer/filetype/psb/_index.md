@@ -1,14 +1,14 @@
 ---
 title: PSB
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Photoshop Büyük Belge Formatı .psb grafik tasarlama ve geliştirme için kullanılan Photoshop Büyük Belge Formatını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/psb .
+description: Photoshop Büyük Belge Biçimi .psb grafik tasarlama ve geliştirme için kullanılan Photoshop Büyük Belge Biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/psb .
 type: docs
-weight: 1210
+weight: 1260
 url: /tr/net/groupdocs.viewer/filetype/psb/
 ---
 ## FileType.PSB field
 
-Photoshop Büyük Belge Formatı (.psb), grafik tasarlama ve geliştirme için kullanılan Photoshop Büyük Belge Formatını temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/psb) .
+Photoshop Büyük Belge Biçimi (.psb), grafik tasarlama ve geliştirme için kullanılan Photoshop Büyük Belge Biçimini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/psb) .
 
 ```csharp
 public static readonly FileType PSB;

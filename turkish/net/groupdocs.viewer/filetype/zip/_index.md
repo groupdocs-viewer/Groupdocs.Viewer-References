@@ -1,14 +1,14 @@
 ---
 title: ZIP
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sıkıştırılmış Dosya .zip bir veya daha fazla dosya veya dizini tutabilen arşivleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/compression/zip .
+description: Sıkıştırılmış Dosya .zip bir veya daha fazla dosya veya dizini tutabilen arşivleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/compression/zip .
 type: docs
-weight: 1860
+weight: 1910
 url: /tr/net/groupdocs.viewer/filetype/zip/
 ---
 ## FileType.ZIP field
 
-Sıkıştırılmış Dosya (.zip), bir veya daha fazla dosya veya dizini tutabilen arşivleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/compression/zip) .
+Sıkıştırılmış Dosya (.zip), bir veya daha fazla dosya veya dizini tutabilen arşivleri temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/compression/zip) .
 
 ```csharp
 public static readonly FileType ZIP;

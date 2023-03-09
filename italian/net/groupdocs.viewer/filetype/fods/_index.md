@@ -1,14 +1,14 @@
 ---
 title: FODS
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Foglio di calcolo XML piatto OpenDocument .fods
+description: Foglio di calcolo OpenDocument Flat XML .fods
 type: docs
-weight: 480
+weight: 520
 url: /it/net/groupdocs.viewer/filetype/fods/
 ---
 ## FileType.FODS field
 
-Foglio di calcolo XML piatto OpenDocument (.fods)
+Foglio di calcolo OpenDocument Flat XML (.fods)
 
 ```csharp
 public static readonly FileType FODS;

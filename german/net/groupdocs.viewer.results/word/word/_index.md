@@ -6,13 +6,29 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
+
+Initialisiert eine neue Instanz von[`Word`](../../word) Klasse.
+
+```csharp
+public Word()
+```
+
+### Siehe auch
+
+* class [Word](../../word)
+* namensraum [GroupDocs.Viewer.Results](../../word)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
 
 Initialisiert eine neue Instanz von[`Word`](../../word) Klasse.
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | Parameter | Typ | Beschreibung |
@@ -22,7 +38,7 @@ public Word(string word, double x, double y, double width, double height,
 | y | Double | Die Y-Koordinate des höchsten linken Punktes im Seitenlayout, wo das Rechteck beginnt, das das Wort enthält. |
 | width | Double | Die Breite des Rechtecks, das das Wort enthält. |
 | height | Double | Die Höhe des Rechtecks, das das Wort enthält. |
-| characters | IList`1 | Die im Wort enthaltenen Zeichen. |
+| characters | List`1 | Die im Wort enthaltenen Zeichen. |
 
 ### Ausnahmen
 

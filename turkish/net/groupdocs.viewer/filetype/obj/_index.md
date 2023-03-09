@@ -1,14 +1,14 @@
 ---
 title: OBJ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Wavefront 3D Object File .obj Wavefront Technologies tarafından sunulan 3D görüntü dosyasıdır Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/3d/obj/ .
+description: Wavefront 3B Nesne Dosyası .obj Wavefront Technologies tarafından sunulan 3B görüntü dosyasıdır Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/3d/obj/ .
 type: docs
-weight: 910
+weight: 960
 url: /tr/net/groupdocs.viewer/filetype/obj/
 ---
 ## FileType.OBJ field
 
-Wavefront 3D Object File (.obj), Wavefront Technologies tarafından sunulan 3D görüntü dosyasıdır Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/3d/obj/) .
+Wavefront 3B Nesne Dosyası (.obj), Wavefront Technologies tarafından sunulan 3B görüntü dosyasıdır Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/3d/obj/) .
 
 ```csharp
 public static readonly FileType OBJ;

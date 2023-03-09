@@ -18,19 +18,20 @@ public class Attachment
 
 | Имя | Описание |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor)() | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor_1)(string, string) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Имя файла вложения. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Относительный путь к вложению, напримерпапка/файл.docx или имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Тип файла вложения. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Уникальный идентификатор вложения в контексте одного файла, содержащего это вложение. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Размер файла вложения в байтах. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Имя файла вложения. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Относительный путь к вложению, напримерпапка/файл.docx или имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Тип файла вложения. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Уникальный идентификатор вложения в контексте одного файла, содержащего это вложение. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Размер файла вложения в байтах. |
 
 ## Методы
 

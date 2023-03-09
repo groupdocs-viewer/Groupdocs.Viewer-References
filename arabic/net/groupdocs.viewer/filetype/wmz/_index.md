@@ -3,7 +3,7 @@ title: WMZ
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف تعريف Windows المضغوط .wmz يمثل Microsoft Windows Metafile WMF مضغوطًا في أرشيف GZIP  لتخزين بيانات الصور المتجهية وكذلك بصيغة الصور النقطية . تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/wmzcompressed_windows_metafile .
 type: docs
-weight: 1730
+weight: 1780
 url: /ar/net/groupdocs.viewer/filetype/wmz/
 ---
 ## FileType.WMZ field

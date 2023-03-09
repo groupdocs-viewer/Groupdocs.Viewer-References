@@ -3,7 +3,7 @@ title: VSS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл шаблона Visio .vss  это файлы шаблона созданные с помощью Microsoft Visio 2007 и более ранних версий. Файлы трафаретов предоставляют объекты чертежа которые можно включить в чертеж .VSD Visio. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/image/vss .
 type: docs
-weight: 1630
+weight: 1680
 url: /ru/net/groupdocs.viewer/filetype/vss/
 ---
 ## FileType.VSS field

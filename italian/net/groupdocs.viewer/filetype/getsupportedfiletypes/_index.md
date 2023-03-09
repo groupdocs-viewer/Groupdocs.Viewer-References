@@ -3,7 +3,7 @@ title: GetSupportedFileTypes
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Recupera i tipi di file supportati
 type: docs
-weight: 1960
+weight: 2020
 url: /it/net/groupdocs.viewer/filetype/getsupportedfiletypes/
 ---
 ## FileType.GetSupportedFileTypes method
@@ -20,7 +20,7 @@ Restituisce la sequenza dei tipi di file supportati
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sui formati di documenti supportati: [Elenco completo dei formati di file supportati](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
 * Ulteriori informazioni su come ottenere i tipi di file supportati nel codice C#: [Come ottenere i tipi di file supportati nel codice](https://docs.groupdocs.com/display/viewernet/Get+supported+file+formats)

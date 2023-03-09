@@ -1,14 +1,14 @@
 ---
 title: DXF
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 图形交换格式文件 .dxf 是 AutoCAD 图形文件的标记数据表示 了解有关此文件格式的详细信息这里https//wiki.fileformat.com/cad/dxf
+description: 绘图交换格式文件 .dxf 是 AutoCAD 绘图文件的标记数据表示 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/dxf
 type: docs
-weight: 370
+weight: 400
 url: /zh/net/groupdocs.viewer/filetype/dxf/
 ---
 ## FileType.DXF field
 
-图形交换格式文件 (.dxf) 是 AutoCAD 图形文件的标记数据表示。 了解有关此文件格式的详细信息[这里](https://wiki.fileformat.com/cad/dxf)
+绘图交换格式文件 (.dxf) 是 AutoCAD 绘图文件的标记数据表示。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dxf)
 
 ```csharp
 public static readonly FileType DXF;

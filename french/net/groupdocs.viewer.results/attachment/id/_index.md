@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/attachment/id/
 Identifiant unique de la pièce jointe dans le contexte d'un seul fichier contenant cette pièce jointe.
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### Voir également

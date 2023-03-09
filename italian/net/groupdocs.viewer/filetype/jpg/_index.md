@@ -1,14 +1,14 @@
 ---
 title: JPG
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Limmagine JPEG .jpg è un tipo di formato immagine che viene salvato utilizzando il metodo di compressione con perdita. Limmagine di output come risultato della compressione è un compromesso tra le dimensioni di archiviazione e la qualità dellimmagine. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/jpeg .
+description: Limmagine JPEG .jpg è un tipo di formato immagine che viene salvato utilizzando il metodo di compressione con perdita. Limmagine di output come risultato della compressione è un compromesso tra le dimensioni di archiviazione e la qualità dellimmagine. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 690
+weight: 740
 url: /it/net/groupdocs.viewer/filetype/jpg/
 ---
 ## FileType.JPG field
 
-L'immagine JPEG (.jpg) è un tipo di formato immagine che viene salvato utilizzando il metodo di compressione con perdita. L'immagine di output, come risultato della compressione, è un compromesso tra le dimensioni di archiviazione e la qualità dell'immagine. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/jpeg) .
+L'immagine JPEG (.jpg) è un tipo di formato immagine che viene salvato utilizzando il metodo di compressione con perdita. L'immagine di output, come risultato della compressione, è un compromesso tra le dimensioni di archiviazione e la qualità dell'immagine. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/jpeg) .
 
 ```csharp
 public static readonly FileType JPG;

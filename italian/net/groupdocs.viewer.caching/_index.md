@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Viewer.Caching
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Lo spazio dei nomi fornisce classi per la personalizzazione del comportamento di memorizzazione nella cache.
+description: Lo spazio dei nomi fornisce classi per personalizzare il comportamento della memorizzazione nella cache.
 type: docs
 weight: 20
 url: /it/net/groupdocs.viewer.caching/
 ---
-Lo spazio dei nomi fornisce classi per la personalizzazione del comportamento di memorizzazione nella cache.
+Lo spazio dei nomi fornisce classi per personalizzare il comportamento della memorizzazione nella cache.
 
 ## Classi
 

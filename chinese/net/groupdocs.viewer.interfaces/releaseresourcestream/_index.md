@@ -1,14 +1,14 @@
 ---
 title: ReleaseResourceStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 释放由与关联的方法实例化的流CreateResourceStream./createresourcestream委托.
+description: 释放由与关联的方法实例化的流CreateResourceStream./createresourcestream代表.
 type: docs
 weight: 210
 url: /zh/net/groupdocs.viewer.interfaces/releaseresourcestream/
 ---
 ## ReleaseResourceStream delegate
 
-释放由与关联的方法实例化的流[`CreateResourceStream`](../createresourcestream)委托.
+释放由与关联的方法实例化的流[`CreateResourceStream`](../createresourcestream)代表.
 
 ```csharp
 public delegate void ReleaseResourceStream(int pageNumber, Resource resource, 
@@ -19,7 +19,7 @@ public delegate void ReleaseResourceStream(int pageNumber, Resource resource,
 | --- | --- | --- |
 | pageNumber | Int32 | 页码。 |
 | resource | Resource | HTML 资源，例如字体、样式、图像或图形。 |
-| resourceStream | Stream | 由关联的方法创建的流[`CreateResourceStream`](../createresourcestream)代表。 |
+| resourceStream | Stream | 由与关联的方法创建的流[`CreateResourceStream`](../createresourcestream)代表。 |
 
 ### 也可以看看
 

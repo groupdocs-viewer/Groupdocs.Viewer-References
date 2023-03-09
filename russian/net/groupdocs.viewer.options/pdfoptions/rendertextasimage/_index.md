@@ -3,7 +3,7 @@ title: RenderTextAsImage
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Когда для этого параметра установлено значениеистинный  текст отображается как изображение в выходном HTML. Включите этот параметр чтобы сделать текст недоступным для выбора или исправить отображение символов и сделать HTML похожим на PDF. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property

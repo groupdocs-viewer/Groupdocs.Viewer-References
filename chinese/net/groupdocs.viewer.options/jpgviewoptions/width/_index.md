@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.viewer.options/jpgviewoptions/width/
 ---
 ## JpgViewOptions.Width property
 
-输出图像的宽度，以像素为单位。
+输出图像的宽度（以像素为单位）。
 
 ```csharp
 public int Width { get; set; }

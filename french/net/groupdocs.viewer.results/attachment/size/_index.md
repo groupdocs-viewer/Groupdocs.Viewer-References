@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/attachment/size/
 Taille du fichier joint en octets.
 
 ```csharp
-public long Size { get; }
+public long Size { get; set; }
 ```
 
 ### Voir également

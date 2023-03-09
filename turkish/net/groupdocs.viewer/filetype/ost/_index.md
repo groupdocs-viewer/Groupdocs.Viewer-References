@@ -1,14 +1,14 @@
 ---
 title: OST
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Outlook Çevrimdışı Veri Dosyası .ost Microsoft Outlook kullanılarak Exchange Servera kaydolduktan sonra yerel makinede çevrimdışı modda kullanıcının posta kutusu verilerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/email/ost .
+description: Outlook Çevrimdışı Veri Dosyası .ost Microsoft Outlook kullanılarak Exchange Servera kaydolduktan sonra yerel makinede çevrimdışı modda kullanıcının posta kutusu verilerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/email/ost .
 type: docs
-weight: 970
+weight: 1020
 url: /tr/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field
 
-Outlook Çevrimdışı Veri Dosyası (.ost), Microsoft Outlook kullanılarak Exchange Server'a kaydolduktan sonra yerel makinede çevrimdışı modda kullanıcının posta kutusu verilerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/email/ost) .
+Outlook Çevrimdışı Veri Dosyası (.ost), Microsoft Outlook kullanılarak Exchange Server'a kaydolduktan sonra yerel makinede çevrimdışı modda kullanıcının posta kutusu verilerini temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/email/ost) .
 
 ```csharp
 public static readonly FileType OST;

@@ -1,14 +1,14 @@
 ---
 title: TARGZ
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 统一的 Unix 文件存档.tgz.tar.gz是使用基于 Unix 的实用程序创建的存档用于收集一个或多个文件 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/tgz
+description: 统一 Unix 文件存档.tgz.tar.gz是使用基于 Unix 的实用程序创建的存档用于收集一个或多个文件 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/tgz
 type: docs
-weight: 1440
+weight: 1490
 url: /zh/net/groupdocs.viewer/filetype/targz/
 ---
 ## FileType.TARGZ field
 
-统一的 Unix 文件存档（.tgz、.tar.gz）是使用基于 Unix 的实用程序创建的存档，用于收集一个或多个文件。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/tgz)
+统一 Unix 文件存档（.tgz、.tar.gz）是使用基于 Unix 的实用程序创建的存档，用于收集一个或多个文件。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/tgz)
 
 ```csharp
 public static readonly FileType TARGZ;

@@ -1,14 +1,14 @@
 ---
 title: SpousePartner
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是配偶/伴侣
+description: 默认字段文本为配偶/伴侣
 type: docs
 weight: 410
 url: /zh/net/groupdocs.viewer.options/field/spousepartner/
 ---
 ## Field.SpousePartner field
 
-默认字段文本是“配偶/伴侣”。
+默认字段文本为“配偶/伴侣”。
 
 ```csharp
 public static readonly Field SpousePartner;

@@ -3,7 +3,7 @@ title: XLS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Электронная таблица Excel .xls представляет собой формат двоичного файла Excel. Такие файлы могут быть созданы Microsoft Excel а также другими подобными программами для работы с электронными таблицами такими как OpenOffice Calc или Apple Numbers. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/xls .
 type: docs
-weight: 1750
+weight: 1800
 url: /ru/net/groupdocs.viewer/filetype/xls/
 ---
 ## FileType.XLS field

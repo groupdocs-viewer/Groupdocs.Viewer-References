@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例LoadOptionsgroupdocs.viewer.options/loadoptions类.
+description: 初始化新实例LoadOptionsgroupdocs.viewer.options/loadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/loadoptions/loadoptions/
 ---
 ## LoadOptions() {#constructor}
 
-初始化的新实例[`LoadOptions`](../../loadoptions)类.
+初始化新实例[`LoadOptions`](../../loadoptions)类.
 
 ```csharp
 public LoadOptions()
@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(FileType) {#constructor_1}
 
-初始化的新实例[`LoadOptions`](../../loadoptions)类.
+初始化新实例[`LoadOptions`](../../loadoptions)类.
 
 ```csharp
 public LoadOptions(FileType fileType)
@@ -38,7 +38,7 @@ public LoadOptions(FileType fileType)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*fileType*一片空白。 |
+| ArgumentNullException | 抛出时*fileType*一片空白。 |
 
 ### 也可以看看
 

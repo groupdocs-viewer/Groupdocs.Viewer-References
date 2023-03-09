@@ -1,14 +1,14 @@
 ---
 title: FullName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是全名
+description: 默认字段文本为全名
 type: docs
 weight: 210
 url: /zh/net/groupdocs.viewer.options/field/fullname/
 ---
 ## Field.FullName field
 
-默认字段文本是“全名”。
+默认字段文本为“全名”。
 
 ```csharp
 public static readonly Field FullName;

@@ -1,14 +1,14 @@
 ---
 title: CSS
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 层叠样式表 .css
+description: 级联样式表 .css
 type: docs
-weight: 190
+weight: 210
 url: /zh/net/groupdocs.viewer/filetype/css/
 ---
 ## FileType.CSS field
 
-层叠样式表 (.css)
+级联样式表 (.css)
 
 ```csharp
 public static readonly FileType CSS;

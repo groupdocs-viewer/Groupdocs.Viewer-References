@@ -22,7 +22,7 @@ public FileName(string fileName)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileName* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileName* boş. |
 
 ### Ayrıca bakınız
 

@@ -11,12 +11,12 @@ url: /es/net/groupdocs.viewer.results/layer/visible/
 El indicador de visibilidad de la capa.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Observaciones
 
-Las capas de dibujo CAD que están apagadas o congeladas son invisibles. Para renderizar capas que son invisibles, use[`Layers`](../../../groupdocs.viewer.options/cadoptions/layers) opción.
+Las capas de dibujo CAD que están apagadas o congeladas son invisibles. Para renderizar capas que son invisibles, utilice[`Layers`](../../../groupdocs.viewer.options/cadoptions/layers) opción.
 
 ### Ver también
 

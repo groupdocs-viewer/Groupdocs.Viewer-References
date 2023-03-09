@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/viewinfo/viewinfo/
 ---
-## ViewInfo constructor
+## ViewInfo() {#constructor}
 
 تهيئة مثيل جديد لـ[`ViewInfo`](../../viewinfo) فئة .
 
 ```csharp
-public ViewInfo(FileType fileType, IList<Page> pages)
+public ViewInfo()
+```
+
+### أنظر أيضا
+
+* class [ViewInfo](../../viewinfo)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../viewinfo)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## ViewInfo(FileType, List&lt;Page&gt;) {#constructor_1}
+
+تهيئة مثيل جديد لـ[`ViewInfo`](../../viewinfo) فئة .
+
+```csharp
+public ViewInfo(FileType fileType, List<Page> pages)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fileType | FileType | نوع الملف. |
-| pages | IList`1 | قائمة الصفحات لعرضها. |
+| pages | List`1 | قائمة الصفحات لعرضها. |
 
 ### استثناءات
 

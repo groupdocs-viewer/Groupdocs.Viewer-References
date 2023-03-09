@@ -1,14 +1,14 @@
 ---
 title: RenderOriginalPageSize
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 启用此选项后输出页面将具有与源 PDF 文档中页面大小相同的 size 以像素为单位 默认情况下GroupDocs.Viewer 计算输出图像页面大小以获得更好的渲染质量
+description: 启用此选项后输出页面的大小将与源 PDF 文档中的页面大小相同 以像素为单位 默认情况下GroupDocs.Viewer 计算输出图像页面大小以获得更好的渲染质量
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/groupdocs.viewer.options/pdfoptions/renderoriginalpagesize/
 ---
 ## PdfOptions.RenderOriginalPageSize property
 
-启用此选项后，输出页面将具有与源 PDF 文档中页面大小相同的 size （以像素为单位）。 默认情况下，GroupDocs.Viewer 计算输出图像页面大小以获得更好的渲染质量。
+启用此选项后，输出页面的大小将与源 PDF 文档中的页面大小相同 （以像素为单位）。 默认情况下，GroupDocs.Viewer 计算输出图像页面大小以获得更好的渲染质量。
 
 ```csharp
 public bool RenderOriginalPageSize { get; set; }

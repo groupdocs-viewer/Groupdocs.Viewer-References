@@ -3,7 +3,7 @@ title: TSV
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل ملف القيم المفصولة بعلامات جدولة .tsv بيانات مفصولة بعلامات تبويب بتنسيق نص عادي. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/tsv .
 type: docs
-weight: 1510
+weight: 1560
 url: /ar/net/groupdocs.viewer/filetype/tsv/
 ---
 ## FileType.TSV field

@@ -3,7 +3,7 @@ title: FODS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: OpenDocument Flat XMLkalkylblad .fods
 type: docs
-weight: 480
+weight: 520
 url: /sv/net/groupdocs.viewer/filetype/fods/
 ---
 ## FileType.FODS field

@@ -1,14 +1,14 @@
 ---
 title: POTX
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: PowerPoint Open XMLPräsentationsvorlage .potx stellt Microsoft PowerPointPräsentationsvorlagen dar die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/presentation/potx .
+description: PowerPoint Open XMLPräsentationsvorlage .potx stellt Microsoft PowerPointPräsentationsvorlagen dar die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/presentation/potx .
 type: docs
-weight: 1110
+weight: 1160
 url: /de/net/groupdocs.viewer/filetype/potx/
 ---
 ## FileType.POTX field
 
-PowerPoint Open XML-Präsentationsvorlage (.potx) stellt Microsoft PowerPoint-Präsentationsvorlagen dar, die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/presentation/potx) .
+PowerPoint Open XML-Präsentationsvorlage (.potx) stellt Microsoft PowerPoint-Präsentationsvorlagen dar, die mit Microsoft PowerPoint 2007 und höher erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/presentation/potx) .
 
 ```csharp
 public static readonly FileType POTX;

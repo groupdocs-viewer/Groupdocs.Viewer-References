@@ -1,14 +1,14 @@
 ---
 title: PSD1
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: PowerShell komut dosyası modülü bildirimi .psd1 PowerShell modülü bildirim komut dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/psd1 .
+description: PowerShell komut dosyası modülü bildirimi .psd1 PowerShell modülü bildirim komut dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/psd1 .
 type: docs
-weight: 1230
+weight: 1280
 url: /tr/net/groupdocs.viewer/filetype/psd1/
 ---
 ## FileType.PSD1 field
 
-PowerShell komut dosyası modülü bildirimi (.psd1), PowerShell modülü bildirim komut dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/psd1) .
+PowerShell komut dosyası modülü bildirimi (.psd1), PowerShell modülü bildirim komut dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/psd1) .
 
 ```csharp
 public static readonly FileType PSD1;

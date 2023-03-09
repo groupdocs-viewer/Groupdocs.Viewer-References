@@ -3,7 +3,7 @@ title: ResourceLoadingTimeout
 second_title: GroupDocs.Viewer för .NET API-referens
 description: De externa resurserna t.ex. grafikladdning timeout. Standardvärdet är 30 sekunder. Det här alternativet stöds för ordbehandlingsdokument som innehåller externa resurser.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property

@@ -1,14 +1,14 @@
 ---
 title: DOCX
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Microsoft Word Open XML Document .docx ist ein bekanntes Format für Microsoft WordDokumente. Die Struktur dieses neuen Dokumentformats das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde wurde von einer reinen Binärdatei in eine Kombination aus XML und Binärdateien geändert. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/docx .
+description: Microsoft Word Open XML Document .docx ist ein bekanntes Format für Microsoft WordDokumente. Die Struktur dieses neuen Dokumentformats das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde wurde von einer reinen Binärdatei in eine Kombination aus XML und Binärdateien geändert. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/docx .
 type: docs
-weight: 300
+weight: 320
 url: /de/net/groupdocs.viewer/filetype/docx/
 ---
 ## FileType.DOCX field
 
-Microsoft Word Open XML Document (.docx) ist ein bekanntes Format für Microsoft Word-Dokumente. Die Struktur dieses neuen Dokumentformats, das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde, wurde von einer reinen Binärdatei in eine Kombination aus XML- und Binärdateien geändert. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/docx) .
+Microsoft Word Open XML Document (.docx) ist ein bekanntes Format für Microsoft Word-Dokumente. Die Struktur dieses neuen Dokumentformats, das 2007 mit der Veröffentlichung von Microsoft Office 2007 eingeführt wurde, wurde von einer reinen Binärdatei in eine Kombination aus XML- und Binärdateien geändert. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/docx) .
 
 ```csharp
 public static readonly FileType DOCX;

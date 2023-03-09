@@ -1,14 +1,14 @@
 ---
 title: BaseViewOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Fornisce le opzioni di rendering di base.
+description: Fornisce opzioni di rendering di base.
 type: docs
 weight: 280
 url: /it/net/groupdocs.viewer.options/baseviewoptions/
 ---
 ## BaseViewOptions class
 
-Fornisce le opzioni di rendering di base.
+Fornisce opzioni di rendering di base.
 
 ```csharp
 public abstract class BaseViewOptions
@@ -28,7 +28,7 @@ public abstract class BaseViewOptions
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | Le opzioni di visualizzazione dei documenti di elaborazione della presentazione. |
 | [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | I file di gestione del progetto visualizzano le opzioni. |
 | [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | Abilita il rendering dei commenti. |
-| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering di pagine nascoste. |
+| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Abilita il rendering delle pagine nascoste. |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | Abilita il rendering delle note. |
 | [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | I file del foglio di calcolo visualizzano le opzioni. |
 | [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | Opzioni di suddivisione dei file di testo in pagine. |

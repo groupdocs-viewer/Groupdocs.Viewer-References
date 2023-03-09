@@ -3,7 +3,7 @@ title: CHM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Скомпилированный Microsoft HTMLфайл справки .chm  широко известный формат для документов HELP документация к некоторому приложению. Подробнее об этом формате файлаздесьhttps//docs.fileformat.com/web/chm/ .
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/groupdocs.viewer/filetype/chm/
 ---
 ## FileType.CHM field

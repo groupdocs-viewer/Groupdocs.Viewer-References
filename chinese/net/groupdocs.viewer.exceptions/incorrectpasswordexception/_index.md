@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.viewer.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
 
-指定密码错误时抛出的异常
+指定密码错误时抛出的异常。
 
 ```csharp
 public class IncorrectPasswordException : GroupDocsViewerException

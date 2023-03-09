@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/resource/resource/
 ---
-## Resource constructor
+## Resource() {#constructor}
+
+Erstellt eine neue Instanz von[`Resource`](../../resource) Klasse.
+
+```csharp
+public Resource()
+```
+
+### Siehe auch
+
+* class [Resource](../../resource)
+* namensraum [GroupDocs.Viewer.Results](../../resource)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## Resource(string, bool) {#constructor_1}
 
 Erstellt eine neue Instanz von[`Resource`](../../resource) Klasse.
 

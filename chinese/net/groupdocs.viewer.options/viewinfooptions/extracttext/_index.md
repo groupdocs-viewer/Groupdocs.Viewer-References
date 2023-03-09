@@ -1,14 +1,14 @@
 ---
 title: ExtractText
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示启用文本提取
+description: 表示文本提取已启用
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.options/viewinfooptions/extracttext/
 ---
 ## ViewInfoOptions.ExtractText property
 
-表示启用文本提取。
+表示文本提取已启用。
 
 ```csharp
 public bool ExtractText { get; set; }

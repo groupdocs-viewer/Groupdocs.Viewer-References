@@ -3,7 +3,7 @@ title: CXX
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Archivo de código fuente de C .cxx
 type: docs
-weight: 210
+weight: 230
 url: /es/net/groupdocs.viewer/filetype/cxx/
 ---
 ## FileType.CXX field

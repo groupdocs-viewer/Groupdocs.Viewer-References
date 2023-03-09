@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/projectmanagementviewinfo/enddate/
 Datum och tid då projektet ska slutföras.
 
 ```csharp
-public DateTime EndDate { get; }
+public DateTime EndDate { get; set; }
 ```
 
 ### Se även

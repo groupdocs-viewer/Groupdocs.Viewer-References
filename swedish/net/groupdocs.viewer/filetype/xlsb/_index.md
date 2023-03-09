@@ -3,7 +3,7 @@ title: XLSB
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Excel binära kalkylblad .xlsb anger det binära filformatet för Excel som är en samling poster och strukturer som anger innehåll i Excelarbetsboken. Läs mer om detta filformathärhttps//wiki.fileformat.com/spreadsheet/xlsb .
 type: docs
-weight: 1760
+weight: 1810
 url: /sv/net/groupdocs.viewer/filetype/xlsb/
 ---
 ## FileType.XLSB field

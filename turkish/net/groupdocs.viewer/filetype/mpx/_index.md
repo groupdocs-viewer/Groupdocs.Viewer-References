@@ -1,14 +1,14 @@
 ---
 title: MPX
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Microsoft Project Exchange dosyası .mpx Microsoft Project MSP ile Primavera Project Planner Sciforma ve Timerline Precision Estimating gibi MPX dosya formatını destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılması için bir ASCII dosya formatıdır. hakkında daha fazla bilgi edinin bu dosya formatıburadahttps//wiki.fileformat.com/projectmanagement/mpx .
+description: Microsoft Project Exchange dosyası .mpx Microsoft Project MSP ile Primavera Project Planner Sciforma ve Timerline Precision Estimating gibi MPX dosya formatını destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılması için bir ASCII dosya formatıdır. hakkında daha fazla bilgi edinin bu dosya formatıBuradahttps//wiki.fileformat.com/projectmanagement/mpx .
 type: docs
-weight: 870
+weight: 920
 url: /tr/net/groupdocs.viewer/filetype/mpx/
 ---
 ## FileType.MPX field
 
-Microsoft Project Exchange dosyası (.mpx), Microsoft Project (MSP) ile Primavera Project Planner, Sciforma ve Timerline Precision Estimating gibi MPX dosya formatını destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılması için bir ASCII dosya formatıdır. hakkında daha fazla bilgi edinin bu dosya formatı[burada](https://wiki.fileformat.com/project-management/mpx) .
+Microsoft Project Exchange dosyası (.mpx), Microsoft Project (MSP) ile Primavera Project Planner, Sciforma ve Timerline Precision Estimating gibi MPX dosya formatını destekleyen diğer uygulamalar arasında proje bilgilerinin aktarılması için bir ASCII dosya formatıdır. hakkında daha fazla bilgi edinin bu dosya formatı[Burada](https://wiki.fileformat.com/project-management/mpx) .
 
 ```csharp
 public static readonly FileType MPX;

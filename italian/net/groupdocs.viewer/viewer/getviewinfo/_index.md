@@ -32,7 +32,7 @@ Informazioni sulla visualizzazione e informazioni specifiche del documento.
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sul documento: tipo di file, numero di pagine e altre proprietà specifiche del formato: [Come ottenere informazioni sui file utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 
@@ -73,7 +73,7 @@ Informazioni sulla visualizzazione e informazioni specifiche del documento.
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sul documento: tipo di file, numero di pagine e altre proprietà specifiche del formato: [Come ottenere informazioni sui file utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+file+information)
 

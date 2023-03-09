@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | Имя | Описание |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Инициализирует новый экземпляр[`Layout`](../layout) класс. |
+| [Layout](layout#constructor)() | Инициализирует новый экземпляр[`Layout`](../layout) класс. |
+| [Layout](layout#constructor_1)(string, float, float) | Инициализирует новый экземпляр[`Layout`](../layout) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | Высота макета. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | Имя макета. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | Ширина макета. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | Высота макета. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | Имя макета. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | Ширина макета. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Определяет, является ли текущий[`Layout`](../layout)такое же, как указано[`Layout`](../layout) объект. |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Определяет, является ли текущий[`Layout`](../layout) такое же, как указано[`Layout`](../layout) объект. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | Определяет, является ли текущий[`Layout`](../layout) совпадает с указанным объектом. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | Возвращает хеш-код для текущего[`Layout`](../layout) объект. |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | Возвращает строку, представляющую текущий объект. |

@@ -18,7 +18,7 @@ public enum SearchOption
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| TopFolderOnly | `0` | 在搜索中仅包括当前文件夹。 |
+| TopFolderOnly | `0` | 仅包括搜索中的当前文件夹。 |
 | AllFolders | `1` | 在搜索中包括当前文件夹和所有子文件夹。 |
 
 ### 也可以看看

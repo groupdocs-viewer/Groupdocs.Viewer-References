@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Определяет являются ли дваFileTypegroupdocs.viewer/filetype объекты не одинаковы.
 type: docs
-weight: 1980
+weight: 2040
 url: /ru/net/groupdocs.viewer/filetype/op_inequality/
 ---
 ## FileType Inequality operator
@@ -16,7 +16,7 @@ public static bool operator !=(FileType left, FileType right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | FileType | Оставил[`FileType`](../../filetype) объект. |
+| left | FileType | Левый[`FileType`](../../filetype) объект. |
 | right | FileType | Верно[`FileType`](../../filetype) объект. |
 
 ### Возвращаемое значение

@@ -18,7 +18,7 @@ url: /zh/net/groupdocs.viewer.fonts/
 
 | 界面 | 描述 |
 | --- | --- |
-| [IFontSource](./ifontsource) | 字体源的标记界面。 |
+| [IFontSource](./ifontsource) | 字体源的标记接口。 |
 ## 枚举
 
 | 枚举 | 描述 |

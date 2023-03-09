@@ -1,14 +1,14 @@
 ---
 title: Tile
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示绘图区域
+description: 代表绘图区域
 type: docs
 weight: 550
 url: /zh/net/groupdocs.viewer.options/tile/
 ---
 ## Tile class
 
-表示绘图区域。
+代表绘图区域。
 
 ```csharp
 public class Tile
@@ -18,23 +18,23 @@ public class Tile
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Tile](tile)(int, int, int, int) | 初始化[`Tile`](../tile)类. |
+| [Tile](tile)(int, int, int, int) | 初始化一个新的实例[`Tile`](../tile)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Height](../../groupdocs.viewer.options/tile/height) { get; } | 瓦片的高度（以像素为单位）。 |
-| [StartPointX](../../groupdocs.viewer.options/tile/startpointx) { get; } | 平铺开始的绘图左下点的 X 坐标。 |
-| [StartPointY](../../groupdocs.viewer.options/tile/startpointy) { get; } | 平铺开始的绘图左下点的 Y 坐标。 |
-| [Width](../../groupdocs.viewer.options/tile/width) { get; } | 平铺的宽度（以像素为单位）。 |
+| [StartPointX](../../groupdocs.viewer.options/tile/startpointx) { get; } | 图块开始处左下角的 X 坐标。 |
+| [StartPointY](../../groupdocs.viewer.options/tile/startpointy) { get; } | 图块开始处左下角的 Y 坐标。 |
+| [Width](../../groupdocs.viewer.options/tile/width) { get; } | 瓦片的宽度（以像素为单位）。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEndPointX](../../groupdocs.viewer.options/tile/getendpointx)() | 返回图块结束处的绘图右最高点的 X 坐标。 |
-| [GetEndPointY](../../groupdocs.viewer.options/tile/getendpointy)() | 返回图块结束处的绘图右最高点的 Y 坐标。 |
+| [GetEndPointX](../../groupdocs.viewer.options/tile/getendpointx)() | 返回图形上图块结束处最高点的 X 坐标。 |
+| [GetEndPointY](../../groupdocs.viewer.options/tile/getendpointy)() | 返回图形上图块结束处最高点的 Y 坐标。 |
 
 ### 也可以看看
 

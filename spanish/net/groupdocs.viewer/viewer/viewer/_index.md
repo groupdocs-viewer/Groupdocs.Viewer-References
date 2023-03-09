@@ -196,7 +196,7 @@ public Viewer(Stream stream, bool leaveOpen)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | stream | Stream | El flujo de archivos. |
-| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,falso. |
+| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,FALSO. |
 
 ### Excepciones
 
@@ -268,7 +268,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | El flujo de archivos. |
 | loadOptions | LoadOptions | Las opciones de carga de documentos. |
-| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,falso. |
+| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,FALSO. |
 
 ### Excepciones
 
@@ -342,7 +342,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 | --- | --- | --- |
 | stream | Stream | El flujo de archivos. |
 | settings | ViewerSettings | La configuración del visor. |
-| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,falso. |
+| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,FALSO. |
 
 ### Excepciones
 
@@ -420,7 +420,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 | stream | Stream | El flujo de archivos. |
 | loadOptions | LoadOptions | Las opciones de carga de documentos. |
 | settings | ViewerSettings | La configuración del visor. |
-| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,falso. |
+| leaveOpen | Boolean | verdadero para dejar la secuencia abierta después de desechar el objeto Visor; de lo contrario,FALSO. |
 
 ### Excepciones
 

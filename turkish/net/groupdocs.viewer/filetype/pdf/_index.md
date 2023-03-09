@@ -1,14 +1,14 @@
 ---
 title: PDF
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Portable Document Format File .pdf Adobe tarafından 1990larda oluşturulmuş bir belge türüdür. Bu dosya biçiminin amacı belgelerin ve diğer başvuru malzemelerinin uygulama yazılımı donanım ve İşletim Sisteminden bağımsız bir biçimde temsil edilmesi için bir standart getirmekti. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/view/pdf .
+description: Taşınabilir Belge Biçimi Dosyası .pdf Adobe tarafından 1990larda oluşturulmuş bir belge türüdür. Bu dosya formatının amacı uygulama yazılımı donanım ve İşletim Sisteminden bağımsız bir formatta belgelerin ve diğer referans materyallerinin temsili için bir standart getirmekti. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/view/pdf .
 type: docs
-weight: 1040
+weight: 1090
 url: /tr/net/groupdocs.viewer/filetype/pdf/
 ---
 ## FileType.PDF field
 
-Portable Document Format File (.pdf), Adobe tarafından 1990'larda oluşturulmuş bir belge türüdür. Bu dosya biçiminin amacı, belgelerin ve diğer başvuru malzemelerinin uygulama yazılımı, donanım ve İşletim Sisteminden bağımsız bir biçimde temsil edilmesi için bir standart getirmekti. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/view/pdf) .
+Taşınabilir Belge Biçimi Dosyası (.pdf), Adobe tarafından 1990'larda oluşturulmuş bir belge türüdür. Bu dosya formatının amacı, uygulama yazılımı, donanım ve İşletim Sisteminden bağımsız bir formatta belgelerin ve diğer referans materyallerinin temsili için bir standart getirmekti. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/view/pdf) .
 
 ```csharp
 public static readonly FileType PDF;

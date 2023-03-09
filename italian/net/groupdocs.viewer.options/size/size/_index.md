@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diSizegroupdocs.viewer.options/size classe.
+description: Inizializza una nuova istanza diSizegroupdocs.viewer.options/size classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/size/size/
 ---
 ## Size constructor
 
-Inizializza la nuova istanza di[`Size`](../../size) classe.
+Inizializza una nuova istanza di[`Size`](../../size) classe.
 
 ```csharp
 public Size(byte relativeSize)

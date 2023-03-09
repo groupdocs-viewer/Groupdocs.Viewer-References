@@ -1,14 +1,14 @@
 ---
 title: IFC
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Industry Foundation Classes File .ifc yapı nesnelerini ve özelliklerini içe ve dışa aktarmak için uluslararası standartları oluşturan bir dosya biçimidir. Bu dosya biçimi farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/cad/ifc .
+description: Industry Foundation Classes File .ifc yapı nesnelerini ve özelliklerini içe ve dışa aktarmak için uluslararası standartları oluşturan bir dosya biçimidir. Bu dosya biçimi farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/cad/ifc .
 type: docs
-weight: 600
+weight: 640
 url: /tr/net/groupdocs.viewer/filetype/ifc/
 ---
 ## FileType.IFC field
 
-Industry Foundation Classes File (.ifc), yapı nesnelerini ve özelliklerini içe ve dışa aktarmak için uluslararası standartları oluşturan bir dosya biçimidir. Bu dosya biçimi, farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/cad/ifc) .
+Industry Foundation Classes File (.ifc), yapı nesnelerini ve özelliklerini içe ve dışa aktarmak için uluslararası standartları oluşturan bir dosya biçimidir. Bu dosya biçimi, farklı yazılım uygulamaları arasında birlikte çalışabilirlik sağlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/cad/ifc) .
 
 ```csharp
 public static readonly FileType IFC;

@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Excel Açık XML Makro Etkin Elektronik Tablo .xlsm makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/spreadsheet/xlsm .
+description: Excel Açık XML Makro Etkin Elektronik Tablo .xlsm makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
-weight: 1770
+weight: 1820
 url: /tr/net/groupdocs.viewer/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-Excel Açık XML Makro Etkin Elektronik Tablo (.xlsm), makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/spreadsheet/xlsm) .
+Excel Açık XML Makro Etkin Elektronik Tablo (.xlsm), makroları destekleyen bir Elektronik Tablo dosyası türüdür. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/spreadsheet/xlsm) .
 
 ```csharp
 public static readonly FileType XLSM;

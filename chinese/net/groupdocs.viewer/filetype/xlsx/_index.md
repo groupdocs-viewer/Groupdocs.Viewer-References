@@ -1,14 +1,14 @@
 ---
 title: XLSX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Microsoft Excel Open XML 电子表格 .xlsx 是 Microsoft 在 Microsoft Office 2007 版本中引入的一种众所周知的 Microsoft Excel 文档格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsx
+description: Microsoft Excel Open XML 电子表格 .xlsx 是 Microsoft 随 Microsoft Office 2007 发布而引入的一种众所周知的 Microsoft Excel 文档格式 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsx
 type: docs
-weight: 1780
+weight: 1830
 url: /zh/net/groupdocs.viewer/filetype/xlsx/
 ---
 ## FileType.XLSX field
 
-Microsoft Excel Open XML 电子表格 (.xlsx) 是 Microsoft 在 Microsoft Office 2007 版本中引入的一种众所周知的 Microsoft Excel 文档格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsx)
+Microsoft Excel Open XML 电子表格 (.xlsx) 是 Microsoft 随 Microsoft Office 2007 发布而引入的一种众所周知的 Microsoft Excel 文档格式。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsx)
 
 ```csharp
 public static readonly FileType XLSX;

@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/layout/layout/
 ---
-## Layout constructor
+## Layout() {#constructor}
+
+تهيئة مثيل جديد لـ[`Layout`](../../layout) فئة .
+
+```csharp
+public Layout()
+```
+
+### أنظر أيضا
+
+* class [Layout](../../layout)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../layout)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Layout(string, float, float) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`Layout`](../../layout) فئة .
 

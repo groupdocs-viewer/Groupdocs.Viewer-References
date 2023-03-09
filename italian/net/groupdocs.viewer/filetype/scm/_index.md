@@ -3,7 +3,7 @@ title: SCM
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File del codice sorgente dello schema .scm
 type: docs
-weight: 1330
+weight: 1380
 url: /it/net/groupdocs.viewer/filetype/scm/
 ---
 ## FileType.SCM field

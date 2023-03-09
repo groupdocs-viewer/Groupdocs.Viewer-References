@@ -26,7 +26,7 @@ public class OutlookOptions
 | --- | --- |
 | [AddressFilter](../../groupdocs.viewer.options/outlookoptions/addressfilter) { get; set; } | 用于按发件人或收件人过滤邮件的电子邮件地址。 |
 | [Folder](../../groupdocs.viewer.options/outlookoptions/folder) { get; set; } | 要呈现的文件夹的名称（例如收件箱、已发送邮件或已删除邮件）。 |
-| [MaxItemsInFolder](../../groupdocs.viewer.options/outlookoptions/maxitemsinfolder) { get; set; } | 可以从一个文件夹呈现的消息或项目的最大数量。 |
+| [MaxItemsInFolder](../../groupdocs.viewer.options/outlookoptions/maxitemsinfolder) { get; set; } | 可以从一个文件夹呈现的最大消息或项目数。 |
 | [TextFilter](../../groupdocs.viewer.options/outlookoptions/textfilter) { get; set; } | 用于过滤消息的关键字。 |
 
 ### 也可以看看

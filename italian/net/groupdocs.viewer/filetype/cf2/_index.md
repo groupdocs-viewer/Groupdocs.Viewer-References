@@ -1,14 +1,14 @@
 ---
 title: CF2
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File formato file comune Ulteriori informazioni su questo formato filequihttps//fileinfo.com/extension/cf2 .
+description: File formato file comune Ulteriori informazioni su questo formato fileQuihttps//fileinfo.com/extension/cf2 .
 type: docs
-weight: 120
+weight: 130
 url: /it/net/groupdocs.viewer/filetype/cf2/
 ---
 ## FileType.CF2 field
 
-File formato file comune Ulteriori informazioni su questo formato file[qui](https://fileinfo.com/extension/cf2) .
+File formato file comune Ulteriori informazioni su questo formato file[Qui](https://fileinfo.com/extension/cf2) .
 
 ```csharp
 public static readonly FileType CF2;

@@ -14,12 +14,19 @@ url: /ru/net/groupdocs.viewer/filetype/
 public sealed class FileType : IEquatable<FileType>
 ```
 
+## Конструкторы
+
+| Имя | Описание |
+| --- | --- |
+| [FileType](filetype#constructor)() | Инициализирует новый экземпляр[`FileType`](../filetype) класс. |
+| [FileType](filetype#constructor_1)(string, string) | Инициализирует новый экземпляр[`FileType`](../filetype) класс. |
+
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Extension](../../groupdocs.viewer/filetype/extension) { get; } | Суффикс имени файла (включая точку "."), например, ".doc". |
-| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; } | Имя типа файла, например, "Документ Microsoft Word". |
+| [Extension](../../groupdocs.viewer/filetype/extension) { get; set; } | Суффикс имени файла (включая точку "."), например, ".doc". |
+| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; set; } | Имя типа файла, например, "Документ Microsoft Word". |
 
 ## Методы
 
@@ -32,10 +39,12 @@ public sealed class FileType : IEquatable<FileType>
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_1)(Stream, ILogger) | Определяет тип файла, читая подпись файла. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_2)(Stream, string) | Определяет тип файла, читая подпись файла. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_3)(Stream, string, ILogger) | Определяет тип файла, читая подпись файла. |
-| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Определяет, является ли текущий[`FileType`](../filetype)такое же, как указано[`FileType`](../filetype) объект. |
+| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Определяет, является ли текущий[`FileType`](../filetype) такое же, как указано[`FileType`](../filetype) объект. |
 | override [Equals](../../groupdocs.viewer/filetype/equals#equals_1)(object) | Определяет, является ли текущий[`FileType`](../filetype) совпадает с указанным объектом. |
 | override [GetHashCode](../../groupdocs.viewer/filetype/gethashcode)() | Возвращает хеш-код для текущего[`FileType`](../filetype) объект. |
 | override [ToString](../../groupdocs.viewer/filetype/tostring)() | Возвращает строку, представляющую текущий объект. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding)(Stream) | Попытки обнаружить текст[`TXT`](./txt) ,[`TSV`](./tsv) , и[`CSV`](./csv) кодирование файла потоком. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding_1)(string) | Попытки обнаружить текст[`TXT`](./txt) ,[`TSV`](./tsv) , и[`CSV`](./csv)кодировка файлов по пути. |
 | static [GetSupportedFileTypes](../../groupdocs.viewer/filetype/getsupportedfiletypes)() | Извлекает поддерживаемые типы файлов |
 | [operator ==](../../groupdocs.viewer/filetype/op_equality) | Определяет, являются ли два[`FileType`](../filetype) объекты одинаковые. |
 | [operator !=](../../groupdocs.viewer/filetype/op_inequality) | Определяет, являются ли два[`FileType`](../filetype) объекты не одинаковы. |
@@ -60,6 +69,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [CHM](../../groupdocs.viewer/filetype/chm) | Скомпилированный Microsoft HTML-файл справки (.chm) — широко известный формат для документов HELP (документация к некоторому приложению). Подробнее об этом формате файла[здесь](https://docs.fileformat.com/web/chm/) . |
 | static readonly [CMAKE](../../groupdocs.viewer/filetype/cmake) | Файл CMake (.cmake) |
 | static readonly [CMX](../../groupdocs.viewer/filetype/cmx) | Corel Exchange (.cmx) — это файл изображения чертежа, который может содержать как векторную, так и растровую графику. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/image/cmx) . |
+| static readonly [CPIO](../../groupdocs.viewer/filetype/cpio) | Cpio — это обычная утилита архиватора файлов и связанный с ней формат файлов. В основном он устанавливается на Unix-подобные компьютерные операционные системы. Узнайте больше об этом формате файла.[здесь](https://wiki.fileformat.com/compression/cpio) . |
 | static readonly [CPP](../../groupdocs.viewer/filetype/cpp) | Файл исходного кода C++ (.cpp) |
 | static readonly [CS](../../groupdocs.viewer/filetype/cs) | Файл исходного кода C# (.cs) — это файл исходного кода для языка программирования C#. Представлен Microsoft для использования с .NET Framework. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/programming/cs) . |
 | static readonly [CSS](../../groupdocs.viewer/filetype/css) | Каскадная таблица стилей (.css) |
@@ -78,6 +88,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [DOTM](../../groupdocs.viewer/filetype/dotm) | Шаблон документа Word Open XML с поддержкой макросов (.dotm) представляет собой файл шаблона, созданный с помощью Microsoft Word 2007 или более поздней версии. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/word-processing/dotm) . |
 | static readonly [DOTX](../../groupdocs.viewer/filetype/dotx) | Шаблон документа Word Open XML (.dotx) — это файлы шаблонов, созданные Microsoft Word для предварительно отформатированных настроек для создания дополнительных файлов DOCX. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/word-processing/dotx) . |
 | static readonly [DWF](../../groupdocs.viewer/filetype/dwf) | Файл дизайна в веб-формате (.dwf) представляет собой 2D/3D-чертеж в сжатом формате для просмотра, просмотра или печати файлов проекта. Он содержит графику и текст как часть проектных данных и уменьшает размер файла из-за его сжатого формата. Узнайте больше об этом формате файла.[здесь](https://wiki.fileformat.com/cad/dwf) . |
+| static readonly [DWFX](../../groupdocs.viewer/filetype/dwfx) | Файл дизайна в веб-формате XPS (.dwfx) представляет собой 2D/3D-чертеж в виде документа XPS в сжатом формате для просмотра, проверки или печати файлов проекта. Он содержит графику и текст как часть проектных данных и уменьшает размер файла из-за его сжатого формата. Узнайте больше об этом формате файла.[здесь](https://wiki.fileformat.com/cad/dwfx) . |
 | static readonly [DWG](../../groupdocs.viewer/filetype/dwg) | Файл базы данных чертежей AutoCAD (.dwg) представляет собой проприетарные двоичные файлы, используемые для хранения данных 2D- и 3D-проектирования. Как и DXF, которые являются файлами ASCII, DWG представляет собой двоичный формат файла для чертежей CAD (автоматизированного проектирования). Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/cad/dwg) . |
 | static readonly [DWT](../../groupdocs.viewer/filetype/dwt) | Шаблон чертежа AutoCAD (.dwt) — это файл шаблона чертежа AutoCAD, который используется в качестве основы для создания чертежей, которые можно сохранить в виде файлов DWG. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/cad/dwt) . |
 | static readonly [DXF](../../groupdocs.viewer/filetype/dxf) | Файл формата обмена чертежами (.dxf) — это теговое представление данных файла чертежа AutoCAD. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/cad/dxf) . |
@@ -89,6 +100,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [EPUB](../../groupdocs.viewer/filetype/epub) | Open eBook File (.epub) — это формат файла электронной книги, который представляет собой стандартный формат цифровой публикации для издателей и потребителей. К настоящему времени этот формат стал настолько распространенным, что его поддерживают многие электронные книги и программные приложения. Узнайте больше об этом формате файла.[здесь](https://wiki.fileformat.com/ebook/epub) . |
 | static readonly [ERB](../../groupdocs.viewer/filetype/erb) | Скрипт Ruby ERB (.erb) |
 | static readonly [Excel2003XML](../../groupdocs.viewer/filetype/excel2003xml) | Excel 2003 XML (SpreadsheetML) представляет собой формат двоичных файлов Excel. Такие файлы могут быть созданы Microsoft Excel, а также другими подобными программами для работы с электронными таблицами, такими как OpenOffice Calc или Apple Numbers. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/spreadsheet/xls) . |
+| static readonly [FBX](../../groupdocs.viewer/filetype/fbx) | Файл Autodesk FBX Interchange (FilmBoX) (.fbx) представляет собой формат 3D-модели. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/cad/fbx) . |
 | static readonly [FODG](../../groupdocs.viewer/filetype/fodg) | Шаблон Flat XML ODF (.fodg) используется приложением Apache OpenOffice Draw для хранения элементов чертежа в виде векторного изображения. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/image/fodg) . |
 | static readonly [FODP](../../groupdocs.viewer/filetype/fodp) | Презентация OpenDocument (.fodp) представляет презентацию OpenDocument Flat XML. Узнайте больше об этом формате файла[здесь](https://fileinfo.com/extension/fodp) . |
 | static readonly [FODS](../../groupdocs.viewer/filetype/fods) | Плоская XML-таблица OpenDocument (.fods) |
@@ -108,6 +120,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | Кодовый поток JPEG 2000 (.j2c) |
 | static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) — это изображение, сжатое с использованием вейвлет-сжатия вместо сжатия DCT. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/image/j2k) . |
 | static readonly [JAVA](../../groupdocs.viewer/filetype/java) | Файл исходного кода Java (.java) |
+| static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
 | static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) — это система кодирования изображений и современный стандарт сжатия изображений. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/image/jp2) . |
 | static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | Кодовый поток JPEG 2000 (.jpc) |
 | static readonly [JPEG](../../groupdocs.viewer/filetype/jpeg) | Изображение JPEG (.jpeg) — это тип формата изображения, который сохраняется с использованием метода сжатия с потерями. Выходное изображение, полученное в результате сжатия, представляет собой компромисс между размером хранилища и качеством изображения. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/image/jpeg) . |
@@ -192,7 +205,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [TEX](../../groupdocs.viewer/filetype/tex) | Исходный документ LaTeX (.tex) — это язык, который включает в себя программирование, а также функции разметки, используемые для набора документов. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/page-description-language/tex) . |
 | static readonly [TGA](../../groupdocs.viewer/filetype/tga) | Truevision TGA (Truevision Advanced Raster Adapter — TARGA) используется для хранения растровых цифровых изображений, разработанных TRUEVISION. Подробнее об этом формате файла[здесь](https://wiki.fileformat.com/image/tga) . |
 | static readonly [TGZ](../../groupdocs.viewer/filetype/tgz) | Объединенный файловый архив Unix (.tgz, .tar.gz) — это архивы, созданные с помощью утилиты на основе Unix для сбора одного или нескольких файлов. Узнайте больше об этом формате файла[здесь](https://fileinfo.com/extension/tgz) . |
-| static readonly [TIF](../../groupdocs.viewer/filetype/tif) | Файл изображения с тегами (.tif) представляет собой растровые изображения, предназначенные для использования на различных устройствах, соответствующих этому стандарту формата файлов. Он способен описывать двухуровневые, полутоновые, палитры и полноцветные данные изображения в нескольких цветовых пространствах. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/image/tiff) . |
+| static readonly [TIF](../../groupdocs.viewer/filetype/tif) | Файл изображения с тегами (.tif) представляет собой растровые изображения, предназначенные для использования на различных устройствах, соответствующих этому стандарту формата файла. Он способен описывать двухуровневые, полутоновые, палитры и полноцветные данные изображения в нескольких цветовых пространствах. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/image/tiff) . |
 | static readonly [TIFF](../../groupdocs.viewer/filetype/tiff) | Формат файла изображения с тегами (.tiff) представляет растровые изображения, которые предназначены для использования на различных устройствах, соответствующих этому стандарту формата файлов. Он способен описывать двухуровневые, полутоновые, палитры и полноцветные данные изображения в нескольких цветовых пространствах. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/image/tiff) . |
 | static readonly [TSV](../../groupdocs.viewer/filetype/tsv) | Файл значений, разделенных табуляцией (.tsv) представляет данные, разделенные табуляцией, в текстовом формате. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/spreadsheet/tsv) . |
 | static readonly [TXT](../../groupdocs.viewer/filetype/txt) | Файл обычного текста (.txt) представляет собой текстовый документ, содержащий обычный текст в виде строк. Узнайте больше об этом формате файла[здесь](https://wiki.fileformat.com/word-processing/txt) . |

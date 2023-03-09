@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Özelleştirme için ayarları tanımlarViewer./viewerdavranış.
+description: Özelleştirme için ayarları tanımlarViewer./viewer davranış.
 type: docs
-weight: 810
+weight: 820
 url: /tr/net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class
 
-Özelleştirme için ayarları tanımlar[`Viewer`](../viewer)davranış.
+Özelleştirme için ayarları tanımlar[`Viewer`](../viewer) davranış.
 
 ```csharp
 public class ViewerSettings

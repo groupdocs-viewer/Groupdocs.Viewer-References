@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByWidthAndHeight
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例CadOptionsgroupdocs.viewer.options/cadoptions按宽度和高度渲染的类
+description: 初始化新实例CadOptionsgroupdocs.viewer.options/cadoptions按宽度和高度渲染的类.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/cadoptions/forrenderingbywidthandheight/
 ---
 ## CadOptions.ForRenderingByWidthAndHeight method
 
-初始化的新实例[`CadOptions`](../../cadoptions)按宽度和高度渲染的类。
+初始化新实例[`CadOptions`](../../cadoptions)按宽度和高度渲染的类.
 
 ```csharp
 public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
@@ -27,8 +27,8 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*width*小于或等于零。 |
-| ArgumentException | 何时抛出*height*小于或等于零。 |
+| ArgumentException | 抛出时*width*小于或等于零。 |
+| ArgumentException | 抛出时*height*小于或等于零。 |
 
 ### 也可以看看
 

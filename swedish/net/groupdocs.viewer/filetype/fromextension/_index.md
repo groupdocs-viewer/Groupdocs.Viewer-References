@@ -3,7 +3,7 @@ title: FromExtension
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Mappar filtillägget till filtyp.
 type: docs
-weight: 1870
+weight: 1920
 url: /sv/net/groupdocs.viewer/filetype/fromextension/
 ---
 ## FileType.FromExtension method

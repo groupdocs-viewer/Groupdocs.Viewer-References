@@ -1,14 +1,14 @@
 ---
 title: XLTX
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Excel Open XMLTabellenvorlage .xltx stellt eine Microsoft ExcelVorlage dar die auf den Office OpenXMLDateiformatspezifikationen basiert. Es wird verwendet um eine Standardvorlagendatei zu erstellen die zum Generieren von XLSXDateien verwendet werden kann die dieselben Einstellungen wie in der XLTXDatei angegeben aufweisen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/spreadsheet/xltx .
+description: Excel Open XMLTabellenvorlage .xltx stellt eine Microsoft ExcelVorlage dar die auf den Office OpenXMLDateiformatspezifikationen basiert. Es wird verwendet um eine Standardvorlagendatei zu erstellen die zum Generieren von XLSXDateien verwendet werden kann die dieselben Einstellungen wie in der XLTXDatei angegeben aufweisen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/spreadsheet/xltx .
 type: docs
-weight: 1810
+weight: 1860
 url: /de/net/groupdocs.viewer/filetype/xltx/
 ---
 ## FileType.XLTX field
 
-Excel Open XML-Tabellenvorlage (.xltx) stellt eine Microsoft Excel-Vorlage dar, die auf den Office OpenXML-Dateiformatspezifikationen basiert. Es wird verwendet, um eine Standardvorlagendatei zu erstellen, die zum Generieren von XLSX-Dateien verwendet werden kann, die dieselben Einstellungen wie in der XLTX-Datei angegeben aufweisen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/spreadsheet/xltx) .
+Excel Open XML-Tabellenvorlage (.xltx) stellt eine Microsoft Excel-Vorlage dar, die auf den Office OpenXML-Dateiformatspezifikationen basiert. Es wird verwendet, um eine Standardvorlagendatei zu erstellen, die zum Generieren von XLSX-Dateien verwendet werden kann, die dieselben Einstellungen wie in der XLTX-Datei angegeben aufweisen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/spreadsheet/xltx) .
 
 ```csharp
 public static readonly FileType XLTX;

@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
+
+```csharp
+public Attachment()
+```
+
+### Смотрите также
+
+* class [Attachment](../../attachment)
+* пространство имен [GroupDocs.Viewer.Results](../../attachment)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
@@ -17,7 +33,7 @@ public Attachment(string fileName, string filePath)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла вложения. |
-| filePath | String | Относительный путь вложения, напримерпапка/файл.docxили имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
+| filePath | String | Относительный путь вложения, напримерпапка/файл.docx или имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
 
 ### Исключения
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
@@ -46,7 +62,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | Уникальный (в контексте одного файла) идентификатор вложения. |
 | fileName | String | Имя файла вложения. |
-| filePath | String | Относительный путь вложения, напримерпапка/файл.docxили имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
+| filePath | String | Относительный путь вложения, напримерпапка/файл.docx или имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
 | size | Int64 | Размер вложенного файла в байтах. |
 
 ### Исключения
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 Инициализирует новый экземпляр[`Attachment`](../../attachment) класс.
 
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | Уникальный (в контексте одного файла) идентификатор вложения. |
 | fileName | String | Имя файла вложения. |
-| filePath | String | Относительный путь вложения, напримерпапка/файл.docxили имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
+| filePath | String | Относительный путь вложения, напримерпапка/файл.docx или имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных. |
 | fileType | FileType | Тип файла вложения. |
 | size | Int64 | Размер вложенного файла в байтах. |
 

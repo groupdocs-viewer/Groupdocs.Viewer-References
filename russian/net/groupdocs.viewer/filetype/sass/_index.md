@@ -3,7 +3,7 @@ title: SASS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Синтаксически превосходный файл таблиц стилей .sass
 type: docs
-weight: 1310
+weight: 1360
 url: /ru/net/groupdocs.viewer/filetype/sass/
 ---
 ## FileType.SASS field

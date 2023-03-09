@@ -1,23 +1,39 @@
 ---
 title: LotusNotesViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diLotusNotesViewInfogroupdocs.viewer.results/lotusnotesviewinfo classe.
+description: Inizializza una nuova istanza diLotusNotesViewInfogroupdocs.viewer.results/lotusnotesviewinfo classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/lotusnotesviewinfo/lotusnotesviewinfo/
 ---
-## LotusNotesViewInfo constructor
+## LotusNotesViewInfo() {#constructor}
 
-Inizializza la nuova istanza di[`LotusNotesViewInfo`](../../lotusnotesviewinfo) classe.
+Inizializza una nuova istanza di[`LotusNotesViewInfo`](../../lotusnotesviewinfo) classe.
 
 ```csharp
-public LotusNotesViewInfo(FileType fileType, IList<Page> pages, int notesCount)
+public LotusNotesViewInfo()
+```
+
+### Guarda anche
+
+* class [LotusNotesViewInfo](../../lotusnotesviewinfo)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../lotusnotesviewinfo)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## LotusNotesViewInfo(FileType, List&lt;Page&gt;, int) {#constructor_1}
+
+Inizializza una nuova istanza di[`LotusNotesViewInfo`](../../lotusnotesviewinfo) classe.
+
+```csharp
+public LotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileType | FileType | Il tipo di file. |
-| pages | IList`1 | L'elenco delle pagine da visualizzare. |
+| pages | List`1 | L'elenco delle pagine da visualizzare. |
 | notesCount | Int32 | Il conteggio delle note contenute nel file di archiviazione del database Lotus. |
 
 ### Eccezioni

@@ -3,7 +3,7 @@ title: CGM
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Computer Graphics Metafile .cgm est un format de métafichier standard international gratuit et indépendant de la plateforme pour le stockage et léchange de graphiques vectoriels 2D de graphiques raster et de texte. CGM utilise une approche orientée objet et de nombreuses fonctionnalités pour la production dimages. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/pagedescriptionlanguage/cgm .
 type: docs
-weight: 130
+weight: 140
 url: /fr/net/groupdocs.viewer/filetype/cgm/
 ---
 ## FileType.CGM field

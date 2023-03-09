@@ -3,7 +3,7 @@ title: SVG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл масштабируемой векторной графики .svg  это файл скалярной векторной графики который использует текстовый формат на основе XML для описания внешнего вида изображения. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/pagedescriptionlanguage/svg .
 type: docs
-weight: 1400
+weight: 1450
 url: /ru/net/groupdocs.viewer/filetype/svg/
 ---
 ## FileType.SVG field

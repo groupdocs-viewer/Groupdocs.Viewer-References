@@ -1,14 +1,14 @@
 ---
 title: RenderHiddenRows
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 启用隐藏行渲染
+description: 启用隐藏行呈现
 type: docs
 weight: 110
 url: /zh/net/groupdocs.viewer.options/spreadsheetoptions/renderhiddenrows/
 ---
 ## SpreadsheetOptions.RenderHiddenRows property
 
-启用隐藏行渲染。
+启用隐藏行呈现。
 
 ```csharp
 public bool RenderHiddenRows { get; set; }

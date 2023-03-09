@@ -3,7 +3,7 @@ title: JPG
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: صورة JPEG .jpg هي نوع من تنسيق الصورة يتم حفظها باستخدام طريقة الضغط مع فقدان البيانات. الصورة الناتجة  كنتيجة للضغط  هي مقايضة بين حجم التخزين وجودة الصورة . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/jpeg .
 type: docs
-weight: 690
+weight: 740
 url: /ar/net/groupdocs.viewer/filetype/jpg/
 ---
 ## FileType.JPG field

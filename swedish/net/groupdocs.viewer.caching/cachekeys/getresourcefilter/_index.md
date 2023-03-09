@@ -20,7 +20,7 @@ public static string GetResourceFilter(int pageNumber)
 
 ### Returvärde
 
-Filtersträng för att söka efter cacheposter som representerar[`Resource`](../../../groupdocs.viewer.results/resource) objekt.
+Filtersträng för att söka efter cacheposter som representerar[`Resource`](../../../groupdocs.viewer.results/resource) föremål.
 
 ### Undantag
 

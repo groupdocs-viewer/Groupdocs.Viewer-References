@@ -1,14 +1,14 @@
 ---
 title: DisableCharsGrouping
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 在渲染页面时禁用字符分组以在字符定位期间保持最大精度
+description: 在呈现页面时禁用字符分组以在字符定位期间保持最大精度
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/pdfoptions/disablecharsgrouping/
 ---
 ## PdfOptions.DisableCharsGrouping property
 
-在渲染页面时禁用字符分组以在字符定位期间保持最大精度。
+在呈现页面时禁用字符分组以在字符定位期间保持最大精度。
 
 ```csharp
 public bool DisableCharsGrouping { get; set; }

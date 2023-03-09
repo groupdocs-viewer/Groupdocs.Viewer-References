@@ -3,7 +3,7 @@ title: RTF
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل ملف Rich Text Format .rtf طريقة لترميز النص والرسومات المنسقة للاستخدام داخل التطبيقات. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/rtf .
 type: docs
-weight: 1300
+weight: 1350
 url: /ar/net/groupdocs.viewer/filetype/rtf/
 ---
 ## FileType.RTF field

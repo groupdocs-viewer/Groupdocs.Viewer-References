@@ -3,7 +3,7 @@ title: BAT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف دفعي DOS .bat
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/groupdocs.viewer/filetype/bat/
 ---
 ## FileType.BAT field

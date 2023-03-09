@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/line/words/
 Die in der Zeile enthaltenen Wörter.
 
 ```csharp
-public IList<Word> Words { get; }
+public List<Word> Words { get; set; }
 ```
 
 ### Siehe auch

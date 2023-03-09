@@ -3,7 +3,7 @@ title: XLTM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب تم تمكين الماكرو لـ Microsoft Excel .xltm يمثل الملفات التي تم إنشاؤها بواسطة Microsoft Excel كملفات قوالب ممكّنة بماكرو. تتشابه ملفات XLTM مع XLTX من حيث البنية بخلاف أن أحدثها لا يدعم إنشاء ملفات القوالب باستخدام وحدات الماكرو. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
-weight: 1800
+weight: 1850
 url: /ar/net/groupdocs.viewer/filetype/xltm/
 ---
 ## FileType.XLTM field

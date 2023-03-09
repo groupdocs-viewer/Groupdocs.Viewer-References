@@ -3,7 +3,7 @@ title: FODP
 second_title: GroupDocs.Viewer för .NET API-referens
 description: OpenDocument Presentation .fodp representerar OpenDocument Flat XML Presentation. Läs mer om detta filformathärhttps//fileinfo.com/extension/fodp .
 type: docs
-weight: 470
+weight: 510
 url: /sv/net/groupdocs.viewer/filetype/fodp/
 ---
 ## FileType.FODP field

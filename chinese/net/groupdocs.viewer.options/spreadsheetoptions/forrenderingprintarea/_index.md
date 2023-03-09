@@ -1,14 +1,14 @@
 ---
 title: ForRenderingPrintArea
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions仅用于渲染打印区域
+description: 初始化新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions仅用于渲染打印区域
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea/
 ---
 ## SpreadsheetOptions.ForRenderingPrintArea method
 
-初始化的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)仅用于渲染打印区域。
+初始化新实例[`SpreadsheetOptions`](../../spreadsheetoptions)仅用于渲染打印区域。
 
 ```csharp
 public static SpreadsheetOptions ForRenderingPrintArea()

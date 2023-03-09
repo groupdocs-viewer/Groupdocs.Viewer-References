@@ -1,14 +1,14 @@
 ---
 title: GetPageKey
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回代表页面文件的缓存条目的唯一标识符
+description: 返回表示页面文件的缓存条目的唯一标识符
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.caching/cachekeys/getpagekey/
 ---
 ## CacheKeys.GetPageKey method
 
-返回代表页面文件的缓存条目的唯一标识符。
+返回表示页面文件的缓存条目的唯一标识符。
 
 ```csharp
 public static string GetPageKey(int pageNumber, string extension)
@@ -16,8 +16,8 @@ public static string GetPageKey(int pageNumber, string extension)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页数。 |
-| extension | String | 文件名后缀（包括句点“.”）例如“.doc”。 |
+| pageNumber | Int32 | 页码。 |
+| extension | String | 文件名后缀（包括句点“.”），例如“.doc”。 |
 
 ### 返回值
 
@@ -27,8 +27,8 @@ public static string GetPageKey(int pageNumber, string extension)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*pageNumber*小于或等于零。 |
-| ArgumentException | 何时抛出*extension*为空或为空。 |
+| ArgumentException | 抛出时*pageNumber*小于或等于零。 |
+| ArgumentException | 抛出时*extension*为 null 或空。 |
 
 ### 也可以看看
 

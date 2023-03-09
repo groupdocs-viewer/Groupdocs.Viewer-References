@@ -1,14 +1,14 @@
 ---
 title: WMZ
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Compressed Windows Metafile .wmz 表示在 GZIP archvive 中压缩的 Microsoft Windows Metafile WMF  用于存储矢量和位图格式的图像数据 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/wmzcompressed_windows_metafile
+description: Compressed Windows Metafile .wmz 表示在 GZIP archvive 中压缩的 Microsoft Windows 图元文件 WMF  用于存储矢量和位图格式图像数据 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/wmzcompressed_windows_metafile
 type: docs
-weight: 1730
+weight: 1780
 url: /zh/net/groupdocs.viewer/filetype/wmz/
 ---
 ## FileType.WMZ field
 
-Compressed Windows Metafile (.wmz) 表示在 GZIP archvive 中压缩的 Microsoft Windows Metafile (WMF) - 用于存储矢量和位图格式的图像数据。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/wmz#compressed_windows_metafile)
+Compressed Windows Metafile (.wmz) 表示在 GZIP archvive 中压缩的 Microsoft Windows 图元文件 (WMF) - 用于存储矢量和位图格式图像数据。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/wmz#compressed_windows_metafile)
 
 ```csharp
 public static readonly FileType WMZ;

@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/page/width/
 Ширина страницы в пикселях при просмотре в формате JPG или PNG.
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### Смотрите также

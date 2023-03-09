@@ -3,7 +3,7 @@ title: Word
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: Rappresenta un rettangolo posizionato relativamente che contiene una singola parola.
 type: docs
-weight: 790
+weight: 800
 url: /it/net/groupdocs.viewer.results/word/
 ---
 ## Word class
@@ -18,18 +18,19 @@ public class Word : TextElement<string>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Word](word)(string, double, double, double, double, IList&lt;Character&gt;) | Inizializza la nuova istanza di[`Word`](../word) classe. |
+| [Word](word#constructor)() | Inizializza una nuova istanza di[`Word`](../word) classe. |
+| [Word](word#constructor_1)(string, double, double, double, double, List&lt;Character&gt;) | Inizializza una nuova istanza di[`Word`](../word) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Characters](../../groupdocs.viewer.results/word/characters) { get; } | I caratteri contenuti dalla parola. |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Il valore dell'elemento. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | La coordinata X del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Characters](../../groupdocs.viewer.results/word/characters) { get; set; } | I caratteri contenuti dalla parola. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Il valore dell'elemento. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | La coordinata X del punto in alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
 
 ## Metodi
 

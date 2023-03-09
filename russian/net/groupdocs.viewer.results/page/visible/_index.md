@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/page/visible/
 Индикатор видимости страницы.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Смотрите также

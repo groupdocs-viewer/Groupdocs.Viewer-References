@@ -3,7 +3,7 @@ title: EPUB
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Open eBook File .epub är ett eboksfilformat som tillhandahåller ett standardformat för digitala publikationer för förlag och konsumenter. Formatet har varit så vanligt vid det här laget att det stöds av många eläsare och program. Läs mer om detta filformathärhttps//wiki.fileformat.com/ebook/epub .
 type: docs
-weight: 430
+weight: 460
 url: /sv/net/groupdocs.viewer/filetype/epub/
 ---
 ## FileType.EPUB field

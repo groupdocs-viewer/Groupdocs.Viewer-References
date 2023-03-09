@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Viewer.Logging
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 命名空间提供了自定义日志记录行为的类
+description: 命名空间提供类来自定义日志记录行为
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.logging/
 ---
-命名空间提供了自定义日志记录行为的类。
+命名空间提供类来自定义日志记录行为。
 
 ## 课程
 

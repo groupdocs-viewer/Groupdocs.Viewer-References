@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Etablo dosyaları seçenekleri görüntüler.
+description: Elektronik tablo dosyaları görüntüleme seçenekleri.
 type: docs
 weight: 130
 url: /tr/net/groupdocs.viewer.options/baseviewoptions/spreadsheetoptions/
 ---
 ## BaseViewOptions.SpreadsheetOptions property
 
-E-tablo dosyaları seçenekleri görüntüler.
+Elektronik tablo dosyaları görüntüleme seçenekleri.
 
 ```csharp
 public SpreadsheetOptions SpreadsheetOptions { get; set; }

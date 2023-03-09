@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/attachment/filepath/
 المسار النسبي للمرفق على سبيل المثالالمجلد / file.docx أو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### أنظر أيضا

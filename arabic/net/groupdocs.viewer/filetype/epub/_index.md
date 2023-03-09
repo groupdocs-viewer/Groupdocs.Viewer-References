@@ -3,7 +3,7 @@ title: EPUB
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف الكتاب الإلكتروني المفتوح .epub هو تنسيق ملف كتاب إلكتروني يوفر تنسيقًا قياسيًا للنشر الرقمي للناشرين والمستهلكين. أصبح التنسيق شائعًا جدًا حتى الآن لدرجة أنه مدعوم من قبل العديد من برامج القراءة الإلكترونية وتطبيقات البرامج . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/ebook/epub .
 type: docs
-weight: 430
+weight: 460
 url: /ar/net/groupdocs.viewer/filetype/epub/
 ---
 ## FileType.EPUB field

@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是位置
+description: 默认字段文本为位置
 type: docs
 weight: 290
 url: /zh/net/groupdocs.viewer.options/field/location/
 ---
 ## Field.Location field
 
-默认字段文本是“位置”。
+默认字段文本为“位置”。
 
 ```csharp
 public static readonly Field Location;

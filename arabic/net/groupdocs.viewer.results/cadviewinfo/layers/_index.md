@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/cadviewinfo/layers/
 قائمة الطبقات التي يحتوي عليها رسم CAD .
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### أنظر أيضا

@@ -3,7 +3,7 @@ title: RB
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: RubyQuellcode .rb
 type: docs
-weight: 1280
+weight: 1330
 url: /de/net/groupdocs.viewer/filetype/rb/
 ---
 ## FileType.RB field

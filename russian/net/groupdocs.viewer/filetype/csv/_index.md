@@ -3,7 +3,7 @@ title: CSV
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл значений разделенных запятыми .csv представляет собой текстовые файлы содержащие записи данных со значениями разделенными запятыми. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/spreadsheet/csv .
 type: docs
-weight: 200
+weight: 220
 url: /ru/net/groupdocs.viewer/filetype/csv/
 ---
 ## FileType.CSV field

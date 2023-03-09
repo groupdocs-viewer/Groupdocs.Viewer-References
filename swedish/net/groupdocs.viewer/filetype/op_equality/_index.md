@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Bestämmer om tvåFileTypegroupdocs.viewer/filetype objekten är desamma.
 type: docs
-weight: 1970
+weight: 2030
 url: /sv/net/groupdocs.viewer/filetype/op_equality/
 ---
 ## FileType Equality operator

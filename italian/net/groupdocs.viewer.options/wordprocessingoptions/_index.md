@@ -27,14 +27,14 @@ public class WordProcessingOptions
 | [BottomMargin](../../groupdocs.viewer.options/wordprocessingoptions/bottommargin) { get; set; } | La distanza (in punti) tra il bordo inferiore della pagina e il limite inferiore del corpo del testo. |
 | [EnableOpenTypeFeatures](../../groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures) { get; set; } | Questa opzione abilita la crenatura e altre funzioni OpenType durante il rendering di caratteri arabi, ebraici, indiani, caratteri latini o cirillici. |
 | [LeftMargin](../../groupdocs.viewer.options/wordprocessingoptions/leftmargin) { get; set; } | La distanza (in punti) tra il bordo sinistro della pagina e il limite sinistro del corpo del testo. |
-| [PageSize](../../groupdocs.viewer.options/wordprocessingoptions/pagesize) { get; set; } | La dimensione della pagina di output. Il valore predefinito èUnspecified il che significa che una dimensione della pagina è impostata nelle impostazioni di una pagina (Imposta pagina).  Durante il rendering di file HTM e HTML, la dimensione predefinita della pagina è impostata su Lettera 792 x 612 punti. Di conseguenza, parte del contenuto potrebbe non adattarsi alla cornice della pagina. Imposta una dimensione della pagina più grande, ad es.A3 per adattarsi ai contenuti. |
+| [PageSize](../../groupdocs.viewer.options/wordprocessingoptions/pagesize) { get; set; } | La dimensione della pagina di output. Il valore predefinito èUnspecified il che significa che viene utilizzata una dimensione della pagina impostata nelle impostazioni della pagina (Imposta pagina).  Durante il rendering di file HTM e HTML, la dimensione predefinita della pagina è impostata su Lettera 792 x 612 punti. Di conseguenza, parte del contenuto potrebbe non adattarsi alla cornice della pagina. Imposta una dimensione della pagina più grande, ad es.A3 per adattarsi ai contenuti. |
 | [RenderTrackedChanges](../../groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges) { get; set; } | Abilita il rendering delle revisioni (revisioni). |
 | [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | La distanza (in punti) tra il bordo destro della pagina e il limite destro del corpo del testo. |
 | [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | La distanza (in punti) tra il bordo superiore della pagina e il limite superiore del corpo del testo. |
 
 ### Osservazioni
 
-Vedi anche  Rendering di documenti Word come file HTML, PDF o immagine per maggiori dettagli e frammenti di codice.
+Vedi anche  Rendering di documenti Word come file HTML, PDF o immagine  per maggiori dettagli e frammenti di codice.
 
 ### Guarda anche
 

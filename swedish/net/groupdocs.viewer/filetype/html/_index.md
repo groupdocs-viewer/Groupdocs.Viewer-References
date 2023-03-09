@@ -3,7 +3,7 @@ title: HTML
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Hypertext Markup Language File .html är tillägget för webbsidor som skapats för visning i webbläsare. Läs mer om detta filformathärhttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 580
+weight: 620
 url: /sv/net/groupdocs.viewer/filetype/html/
 ---
 ## FileType.HTML field

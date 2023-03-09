@@ -18,25 +18,26 @@ public class Attachment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | 初始化的新实例[`Attachment`](../attachment)类. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | 初始化的新实例[`Attachment`](../attachment)类. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | 初始化的新实例[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor)() | 初始化新实例[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor_1)(string, string) | 初始化新实例[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | 初始化新实例[`Attachment`](../attachment)类. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | 初始化新实例[`Attachment`](../attachment)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | 附件文件名。 |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | 附件相对路径 例如文件夹/文件.docx或文件名（当文件位于存档根目录、电子邮件消息或数据文件中时）。 |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | 附件文件类型。 |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | 包含此附件的单个文件上下文中附件的唯一标识符。 |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | 附件文件大小（以字节为单位）。 |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | 附件文件名. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | 附件相对路径 例如文件夹/文件.docx或文件名，当文件位于存档的根目录、电子邮件或数据文件中时。 |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | 附件文件类型。 |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | 附件在包含此附件的单个文件的上下文中的唯一标识符。 |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | 附件文件大小（以字节为单位）。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/attachment/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/attachment/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/page/height/
 JPG veya PNG olarak görüntülerken sayfanın piksel cinsinden yüksekliği.
 
 ```csharp
-public int Height { get; }
+public int Height { get; set; }
 ```
 
 ### Ayrıca bakınız

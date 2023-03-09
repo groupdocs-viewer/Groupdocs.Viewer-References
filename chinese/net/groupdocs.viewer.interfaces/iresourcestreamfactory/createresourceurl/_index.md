@@ -1,14 +1,14 @@
 ---
 title: CreateResourceUrl
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 创建 HTML 资源的 URL
+description: 为 HTML 资源创建 URL
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.interfaces/iresourcestreamfactory/createresourceurl/
 ---
 ## IResourceStreamFactory.CreateResourceUrl method
 
-创建 HTML 资源的 URL。
+为 HTML 资源创建 URL。
 
 ```csharp
 public string CreateResourceUrl(int pageNumber, Resource resource)
@@ -16,7 +16,7 @@ public string CreateResourceUrl(int pageNumber, Resource resource)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页数。 |
+| pageNumber | Int32 | 页码。 |
 | resource | Resource | HTML 资源，例如字体、样式、图像或图形。 |
 
 ### 返回值

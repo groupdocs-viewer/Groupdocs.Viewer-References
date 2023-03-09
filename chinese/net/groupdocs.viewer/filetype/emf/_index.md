@@ -1,14 +1,14 @@
 ---
 title: EMF
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 增强的 Windows 元文件 .emf 表示独立于设备的图形图像 EMF 的元文件由按时间顺序排列的可变长度记录组成可以在任何输出设备上解析后呈现存储的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/emf
+description: 增强型 Windows 图元文件 .emf 独立于设备表示图形图像 EMF 图元文件由按时间顺序排列的可变长度记录组成可以在任何输出设备上解析后呈现存储的图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/emf
 type: docs
-weight: 380
+weight: 410
 url: /zh/net/groupdocs.viewer/filetype/emf/
 ---
 ## FileType.EMF field
 
-增强的 Windows 元文件 (.emf) 表示独立于设备的图形图像。 EMF 的元文件由按时间顺序排列的可变长度记录组成，可以在任何输出设备上解析后呈现存储的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/emf)
+增强型 Windows 图元文件 (.emf) 独立于设备表示图形图像。 EMF 图元文件由按时间顺序排列的可变长度记录组成，可以在任何输出设备上解析后呈现存储的图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/emf)
 
 ```csharp
 public static readonly FileType EMF;

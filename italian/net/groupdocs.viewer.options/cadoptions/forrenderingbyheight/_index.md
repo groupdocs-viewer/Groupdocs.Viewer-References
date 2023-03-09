@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByHeight
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diCadOptionsgroupdocs.viewer.options/cadoptions classe per il rendering in base allaltezza.
+description: Inizializza una nuova istanza diCadOptionsgroupdocs.viewer.options/cadoptions classe per il rendering in base allaltezza.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/cadoptions/forrenderingbyheight/
 ---
 ## CadOptions.ForRenderingByHeight method
 
-Inizializza la nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering in base all'altezza.
+Inizializza una nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering in base all'altezza.
 
 ```csharp
 public static CadOptions ForRenderingByHeight(int height)
@@ -16,11 +16,11 @@ public static CadOptions ForRenderingByHeight(int height)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| height | Int32 | L'altezza del risultato di output in pixel. |
+| height | Int32 | L'altezza del risultato dell'output in pixel. |
 
 ### Valore di ritorno
 
-Nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering per altezza.
+Nuova istanza di[`CadOptions`](../../cadoptions) classe per il rendering in base all'altezza.
 
 ### Eccezioni
 

@@ -3,7 +3,7 @@ title: NUMBERS
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Les nombres Apple représentent Excel comme le format de fichier binaire. Ces fichiers peuvent être créés par lapplication Apple Numbers. En savoir plus sur ce format de fichiericihttps//fileinfo.com/extension/numbers .
 type: docs
-weight: 900
+weight: 950
 url: /fr/net/groupdocs.viewer/filetype/numbers/
 ---
 ## FileType.NUMBERS field

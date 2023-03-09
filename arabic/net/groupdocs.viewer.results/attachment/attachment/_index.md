@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/attachment/attachment/
 ---
-## Attachment(string, string) {#constructor}
+## Attachment() {#constructor}
+
+تهيئة مثيل جديد لـ[`Attachment`](../../attachment) فئة .
+
+```csharp
+public Attachment()
+```
+
+### أنظر أيضا
+
+* class [Attachment](../../attachment)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../attachment)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Attachment(string, string) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`Attachment`](../../attachment) فئة .
 
@@ -17,7 +33,7 @@ public Attachment(string fileName, string filePath)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fileName | String | اسم ملف المرفق. |
-| filePath | String | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docxأو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
+| filePath | String | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docx أو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
 
 ### استثناءات
 
@@ -34,7 +50,7 @@ public Attachment(string fileName, string filePath)
 
 ---
 
-## Attachment(string, string, string, long) {#constructor_2}
+## Attachment(string, string, string, long) {#constructor_3}
 
 تهيئة مثيل جديد لـ[`Attachment`](../../attachment) فئة .
 
@@ -46,7 +62,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 | --- | --- | --- |
 | id | String | معرف فريد (في سياق ملف واحد) للمرفق. |
 | fileName | String | اسم ملف المرفق. |
-| filePath | String | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docxأو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
+| filePath | String | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docx أو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
 | size | Int64 | حجم ملف المرفق بالبايت. |
 
 ### استثناءات
@@ -65,7 +81,7 @@ public Attachment(string id, string fileName, string filePath, long size)
 
 ---
 
-## Attachment(string, string, string, FileType, long) {#constructor_1}
+## Attachment(string, string, string, FileType, long) {#constructor_2}
 
 تهيئة مثيل جديد لـ[`Attachment`](../../attachment) فئة .
 
@@ -77,7 +93,7 @@ public Attachment(string id, string fileName, string filePath, FileType fileType
 | --- | --- | --- |
 | id | String | معرف فريد (في سياق ملف واحد) للمرفق. |
 | fileName | String | اسم ملف المرفق. |
-| filePath | String | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docxأو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
+| filePath | String | المسار النسبي للمرفق على سبيل المثالالمجلد / file.docx أو اسم الملف عندما يكون الملف موجودًا في جذر الأرشيف ، في رسالة بريد إلكتروني أو ملف بيانات. |
 | fileType | FileType | نوع ملف المرفقات. |
 | size | Int64 | حجم ملف المرفق بالبايت. |
 

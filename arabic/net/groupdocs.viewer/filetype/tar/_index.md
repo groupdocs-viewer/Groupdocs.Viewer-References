@@ -3,7 +3,7 @@ title: TAR
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: أرشيف ملفات Unix الموحدة .tar عبارة عن أرشيفات تم إنشاؤها باستخدام أداة تستند إلى Unix لتجميع ملف واحد أو أكثر. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/compression/tar .
 type: docs
-weight: 1430
+weight: 1480
 url: /ar/net/groupdocs.viewer/filetype/tar/
 ---
 ## FileType.TAR field

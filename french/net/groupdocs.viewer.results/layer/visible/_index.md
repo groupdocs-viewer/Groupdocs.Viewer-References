@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/layer/visible/
 L'indicateur de visibilité du calque.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Remarques

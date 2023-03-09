@@ -1,17 +1,17 @@
 ---
 title: Nested
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Indica se la risorsa risiede allinterno di unaltra risorsa es. risorsa font che risiede nella risorsa CSS o SVG.
+description: Indica se la risorsa risiede allinterno di unaltra risorsa ad es. risorsa font che risiede nella risorsa CSS o SVG.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.results/resource/nested/
 ---
 ## Resource.Nested property
 
-Indica se la risorsa risiede all'interno di un'altra risorsa, es. risorsa font che risiede nella risorsa CSS o SVG.
+Indica se la risorsa risiede all'interno di un'altra risorsa, ad es. risorsa font che risiede nella risorsa CSS o SVG.
 
 ```csharp
-public bool Nested { get; }
+public bool Nested { get; set; }
 ```
 
 ### Guarda anche

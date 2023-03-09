@@ -3,7 +3,7 @@ title: GROOVY
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: GroovyQuellcodedatei .groovy
 type: docs
-weight: 500
+weight: 540
 url: /de/net/groupdocs.viewer/filetype/groovy/
 ---
 ## FileType.GROOVY field

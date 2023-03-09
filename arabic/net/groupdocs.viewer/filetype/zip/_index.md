@@ -3,7 +3,7 @@ title: ZIP
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: الملف المضغوط .zip يمثل أرشيفات يمكنها الاحتفاظ بملف أو مجلد واحد أو أكثر. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/compression/zip .
 type: docs
-weight: 1860
+weight: 1910
 url: /ar/net/groupdocs.viewer/filetype/zip/
 ---
 ## FileType.ZIP field

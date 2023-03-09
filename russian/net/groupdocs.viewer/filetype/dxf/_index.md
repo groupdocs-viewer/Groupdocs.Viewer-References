@@ -3,7 +3,7 @@ title: DXF
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл формата обмена чертежами .dxf  это теговое представление данных файла чертежа AutoCAD. Подробнее об этом формате файлаздесьhttps//wiki.fileformat.com/cad/dxf .
 type: docs
-weight: 370
+weight: 400
 url: /ru/net/groupdocs.viewer/filetype/dxf/
 ---
 ## FileType.DXF field

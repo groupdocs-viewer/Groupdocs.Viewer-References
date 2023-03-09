@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/page/visible/
 مؤشر رؤية الصفحة .
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### أنظر أيضا

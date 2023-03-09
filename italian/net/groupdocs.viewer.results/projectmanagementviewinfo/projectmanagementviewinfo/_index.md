@@ -1,24 +1,40 @@
 ---
 title: ProjectManagementViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diProjectManagementViewInfogroupdocs.viewer.results/projectmanagementviewinfo classe.
+description: Inizializza una nuova istanza diProjectManagementViewInfogroupdocs.viewer.results/projectmanagementviewinfo classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/projectmanagementviewinfo/projectmanagementviewinfo/
 ---
-## ProjectManagementViewInfo constructor
+## ProjectManagementViewInfo() {#constructor}
 
-Inizializza la nuova istanza di[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) classe.
+Inizializza una nuova istanza di[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) classe.
 
 ```csharp
-public ProjectManagementViewInfo(FileType fileType, IList<Page> pages, DateTime startDate, 
+public ProjectManagementViewInfo()
+```
+
+### Guarda anche
+
+* class [ProjectManagementViewInfo](../../projectmanagementviewinfo)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../projectmanagementviewinfo)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## ProjectManagementViewInfo(FileType, List&lt;Page&gt;, DateTime, DateTime) {#constructor_1}
+
+Inizializza una nuova istanza di[`ProjectManagementViewInfo`](../../projectmanagementviewinfo) classe.
+
+```csharp
+public ProjectManagementViewInfo(FileType fileType, List<Page> pages, DateTime startDate, 
     DateTime endDate)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileType | FileType | Il tipo di file. |
-| pages | IList`1 | L'elenco delle pagine da visualizzare. |
+| pages | List`1 | L'elenco delle pagine da visualizzare. |
 | startDate | DateTime | La data e l'ora da cui è iniziato il progetto. |
 | endDate | DateTime | La data e l'ora in cui il progetto deve essere completato. |
 

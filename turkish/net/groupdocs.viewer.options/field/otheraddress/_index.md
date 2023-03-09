@@ -1,14 +1,14 @@
 ---
 title: OtherAddress
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsayılan alan metni Diğer Adrestir.
+description: Varsayılan alan metni Diğer Adres şeklindedir.
 type: docs
 weight: 330
 url: /tr/net/groupdocs.viewer.options/field/otheraddress/
 ---
 ## Field.OtherAddress field
 
-Varsayılan alan metni "Diğer Adres"tir.
+Varsayılan alan metni "Diğer Adres" şeklindedir.
 
 ```csharp
 public static readonly Field OtherAddress;

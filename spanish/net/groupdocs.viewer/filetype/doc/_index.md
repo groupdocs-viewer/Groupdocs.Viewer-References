@@ -3,7 +3,7 @@ title: DOC
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Documento de Microsoft Word .doc representa documentos generados por Microsoft Word u otros documentos de procesamiento de textos en formato de archivo binario. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 280
+weight: 300
 url: /es/net/groupdocs.viewer/filetype/doc/
 ---
 ## FileType.DOC field

@@ -6,13 +6,29 @@ type: docs
 weight: 10
 url: /fr/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
+
+Initialise la nouvelle instance de[`Word`](../../word) classe.
+
+```csharp
+public Word()
+```
+
+### Voir également
+
+* class [Word](../../word)
+* espace de noms [GroupDocs.Viewer.Results](../../word)
+* Assemblée [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
 
 Initialise la nouvelle instance de[`Word`](../../word) classe.
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | Paramètre | Taper | La description |
@@ -22,7 +38,7 @@ public Word(string word, double x, double y, double width, double height,
 | y | Double | Coordonnée Y du point le plus haut à gauche de la mise en page où commence le rectangle contenant le mot. |
 | width | Double | La largeur du rectangle qui contient le mot. |
 | height | Double | La hauteur du rectangle qui contient le mot. |
-| characters | IList`1 | Les caractères contenus par le mot. |
+| characters | List`1 | Les caractères contenus par le mot. |
 
 ### Exceptions
 

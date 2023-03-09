@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/lotusnotesviewinfo/notescount/
 Notlar depolama alanında sayılır
 
 ```csharp
-public int NotesCount { get; }
+public int NotesCount { get; set; }
 ```
 
 ### Ayrıca bakınız

@@ -1,14 +1,14 @@
 ---
 title: ArchiveOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 存档文件查看选项
+description: 存档文件视图选项
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/archiveoptions/
 ---
 ## BaseViewOptions.ArchiveOptions property
 
-存档文件查看选项。
+存档文件视图选项。
 
 ```csharp
 public ArchiveOptions ArchiveOptions { get; set; }

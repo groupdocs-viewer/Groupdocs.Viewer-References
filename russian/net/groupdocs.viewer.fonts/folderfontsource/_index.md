@@ -31,7 +31,7 @@ public sealed class FolderFontSource : IEquatable<FolderFontSource>, IFontSource
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Определяет, является ли текущий[`FolderFontSource`](../folderfontsource)такое же, как указано[`FolderFontSource`](../folderfontsource) объект. |
+| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | Определяет, является ли текущий[`FolderFontSource`](../folderfontsource) такое же, как указано[`FolderFontSource`](../folderfontsource) объект. |
 | override [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals_1)(object) | Определяет, является ли текущий[`FolderFontSource`](../folderfontsource) совпадает с указанным объектом. |
 | override [GetHashCode](../../groupdocs.viewer.fonts/folderfontsource/gethashcode)() | Возвращает хеш-код для текущего[`FolderFontSource`](../folderfontsource) объект. |
 | override [ToString](../../groupdocs.viewer.fonts/folderfontsource/tostring)() | Возвращает строку, представляющую текущий объект. |

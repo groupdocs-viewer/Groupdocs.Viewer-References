@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/textelement-1/x/
 Координата X верхней левой точки макета страницы, где начинается прямоугольник, содержащий элемент.
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### Смотрите также

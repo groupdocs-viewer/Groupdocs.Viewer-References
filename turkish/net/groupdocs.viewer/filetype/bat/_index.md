@@ -3,7 +3,7 @@ title: BAT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: DOS Toplu Dosyası .bat
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/groupdocs.viewer/filetype/bat/
 ---
 ## FileType.BAT field

@@ -3,7 +3,7 @@ title: NUMBERS
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: تمثل أرقام Apple Excel مثل تنسيق الملف الثنائي. يمكن إنشاء مثل هذه الملفات عن طريق تطبيق أرقام Apple. تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/numbers .
 type: docs
-weight: 900
+weight: 950
 url: /ar/net/groupdocs.viewer/filetype/numbers/
 ---
 ## FileType.NUMBERS field

@@ -3,7 +3,7 @@ title: XPS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: XML Paper Specification File .xps representerar sidlayoutfiler som är baserade på XML Paper Specifications skapade av Microsoft. Det här formatet utvecklades av Microsoft som en ersättning för EMFfilformatet och liknar PDFfilformatet men använder XML i layout utseende och utskriftsinformation för ett dokument. Läs mer om detta filformathärhttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
 type: docs
-weight: 1830
+weight: 1880
 url: /sv/net/groupdocs.viewer/filetype/xps/
 ---
 ## FileType.XPS field

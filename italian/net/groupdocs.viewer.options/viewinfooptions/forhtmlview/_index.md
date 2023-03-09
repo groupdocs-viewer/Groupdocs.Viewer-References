@@ -1,14 +1,14 @@
 ---
 title: ForHtmlView
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions classe per recuperare informazioni sulla visualizzazione durante il rendering in HTML.
+description: Inizializza una nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class per recuperare informazioni sulla visualizzazione durante il rendering in HTML.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/viewinfooptions/forhtmlview/
 ---
 ## ForHtmlView() {#forhtmlview}
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in HTML.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in HTML.
 
 ```csharp
 public static ViewInfoOptions ForHtmlView()
@@ -28,7 +28,7 @@ Nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ## ForHtmlView(bool) {#forhtmlview_1}
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe per recuperare informazioni sulla visualizzazione durante il rendering in HTML.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) class per recuperare informazioni sulla visualizzazione durante il rendering in HTML.
 
 ```csharp
 public static ViewInfoOptions ForHtmlView(bool renderSinglePage)
@@ -36,7 +36,7 @@ public static ViewInfoOptions ForHtmlView(bool renderSinglePage)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| renderSinglePage | Boolean | Consente il rendering del contenuto HTML su una singola pagina. |
+| renderSinglePage | Boolean | Abilita il rendering del contenuto HTML su una singola pagina. |
 
 ### Valore di ritorno
 

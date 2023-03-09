@@ -3,7 +3,7 @@ title: FODS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Плоская XMLтаблица OpenDocument .fods
 type: docs
-weight: 480
+weight: 520
 url: /ru/net/groupdocs.viewer/filetype/fods/
 ---
 ## FileType.FODS field

@@ -1,14 +1,14 @@
 ---
 title: AI
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Adobe Illustrator .ai ist ein Dateiformat für Adobe IllustratorZeichnungen. Erfahren Sie mehr über dieses Dateiformathierhttps//fileinfo.com/extension/aiadobe_illustrator_file .
+description: Adobe Illustrator .ai ist ein Dateiformat für Adobe IllustratorZeichnungen. Erfahren Sie mehr über dieses DateiformatHierhttps//fileinfo.com/extension/aiadobe_illustrator_file .
 type: docs
-weight: 10
+weight: 20
 url: /de/net/groupdocs.viewer/filetype/ai/
 ---
 ## FileType.AI field
 
-Adobe Illustrator (.ai) ist ein Dateiformat für Adobe Illustrator-Zeichnungen. Erfahren Sie mehr über dieses Dateiformat[hier](https://fileinfo.com/extension/ai#adobe_illustrator_file) .
+Adobe Illustrator (.ai) ist ein Dateiformat für Adobe Illustrator-Zeichnungen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://fileinfo.com/extension/ai#adobe_illustrator_file) .
 
 ```csharp
 public static readonly FileType AI;

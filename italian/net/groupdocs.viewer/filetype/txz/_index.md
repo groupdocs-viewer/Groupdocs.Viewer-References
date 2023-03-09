@@ -1,14 +1,14 @@
 ---
 title: TXZ
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Consolidated Unix File Archive .txz .tar.xz sono archivi creati con lutilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/txz .
+description: Consolidated Unix File Archive .txz .tar.xz sono archivi creati con utility basate su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/txz .
 type: docs
-weight: 1530
+weight: 1580
 url: /it/net/groupdocs.viewer/filetype/txz/
 ---
 ## FileType.TXZ field
 
-Consolidated Unix File Archive (.txz, .tar.xz) sono archivi creati con l'utilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/txz) .
+Consolidated Unix File Archive (.txz, .tar.xz) sono archivi creati con utility basate su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/txz) .
 
 ```csharp
 public static readonly FileType TXZ;

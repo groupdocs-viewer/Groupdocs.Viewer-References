@@ -16,7 +16,7 @@ public IList<Tile> Tiles { get; set; }
 
 ### Bemerkungen
 
-Diese Option wird nur unterstützt für[`DWG`](../../../groupdocs.viewer/filetype/dwg) und[`DWT`](../../../groupdocs.viewer/filetype/dwt) Dateitypen. Die[`RenderLayouts`](../renderlayouts) und[`LayoutName`](../layoutname) Optionen werden beim Rendern nach Kacheln ignoriert.
+Diese Option wird nur unterstützt für[`DWG`](../../../groupdocs.viewer/filetype/dwg) Und[`DWT`](../../../groupdocs.viewer/filetype/dwt) Dateitypen. Die[`RenderLayouts`](../renderlayouts) Und[`LayoutName`](../layoutname) Optionen werden beim Rendern nach Kacheln ignoriert.
 
 ### Siehe auch
 

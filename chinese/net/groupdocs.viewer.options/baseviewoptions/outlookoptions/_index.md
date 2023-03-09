@@ -1,14 +1,14 @@
 ---
 title: OutlookOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: MS Outlook 数据文件查看选项
+description: MS Outlook 数据文件视图选项
 type: docs
 weight: 60
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/outlookoptions/
 ---
 ## BaseViewOptions.OutlookOptions property
 
-MS Outlook 数据文件查看选项。
+MS Outlook 数据文件视图选项。
 
 ```csharp
 public OutlookOptions OutlookOptions { get; set; }

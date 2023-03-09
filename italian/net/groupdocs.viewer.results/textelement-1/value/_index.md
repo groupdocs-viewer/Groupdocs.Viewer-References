@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/textelement-1/value/
 Il valore dell'elemento.
 
 ```csharp
-public T Value { get; }
+public T Value { get; set; }
 ```
 
 ### Guarda anche

@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: GroupDocs.Viewer för .NET API-referens
-description: Definierar inställningar för anpassningViewer./viewerbeteende.
+description: Definierar inställningar för anpassningViewer./viewer beteende.
 type: docs
-weight: 810
+weight: 820
 url: /sv/net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class
 
-Definierar inställningar för anpassning[`Viewer`](../viewer)beteende.
+Definierar inställningar för anpassning[`Viewer`](../viewer) beteende.
 
 ```csharp
 public class ViewerSettings

@@ -3,7 +3,7 @@ title: Resource
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 表示 HTML 资源例如字体样式图像或图形
 type: docs
-weight: 760
+weight: 770
 url: /zh/net/groupdocs.viewer.results/resource/
 ---
 ## Resource class
@@ -18,20 +18,21 @@ public class Resource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Resource](resource)(string, bool) | 创建新的实例[`Resource`](../resource)类. |
+| [Resource](resource#constructor)() | 创建新实例[`Resource`](../resource)类. |
+| [Resource](resource#constructor_1)(string, bool) | 创建新实例[`Resource`](../resource)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/resource/filename) { get; } | 资源文件名。 |
-| [Nested](../../groupdocs.viewer.results/resource/nested) { get; } | 指示资源是否位于另一个资源中， 例如位于 CSS 或 SVG 资源中的字体资源。 |
+| [FileName](../../groupdocs.viewer.results/resource/filename) { get; set; } | 资源文件名。 |
+| [Nested](../../groupdocs.viewer.results/resource/nested) { get; set; } | 指示资源是否驻留在另一个资源中， 例如驻留在 CSS 或 SVG 资源中的字体资源。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/resource/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/resource/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

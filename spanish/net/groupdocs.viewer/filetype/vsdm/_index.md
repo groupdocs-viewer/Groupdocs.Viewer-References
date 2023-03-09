@@ -3,7 +3,7 @@ title: VSDM
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Los dibujos habilitados para macros de Visio .vsdm son archivos de dibujo creados con la aplicación Microsoft Visio que admite macros. Los archivos VSDM son dibujos OPC/XML que son similares a VSDX pero también brindan la capacidad de ejecutar macros cuando se abre el archivo. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/vsdm .
 type: docs
-weight: 1610
+weight: 1660
 url: /es/net/groupdocs.viewer/filetype/vsdm/
 ---
 ## FileType.VSDM field

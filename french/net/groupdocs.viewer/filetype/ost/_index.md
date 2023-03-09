@@ -3,7 +3,7 @@ title: OST
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Outlook Offline Data File .ost représente les données de la boîte aux lettres de lutilisateur en mode hors connexion sur la machine locale lors de lenregistrement auprès dExchange Server à laide de Microsoft Outlook. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/email/ost .
 type: docs
-weight: 970
+weight: 1020
 url: /fr/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field

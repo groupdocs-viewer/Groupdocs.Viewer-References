@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/layout/width/
 La larghezza del layout.
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### Guarda anche

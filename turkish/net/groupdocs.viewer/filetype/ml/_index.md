@@ -3,7 +3,7 @@ title: ML
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: ML Kaynak Kodu Dosyası .ml
 type: docs
-weight: 820
+weight: 870
 url: /tr/net/groupdocs.viewer/filetype/ml/
 ---
 ## FileType.ML field

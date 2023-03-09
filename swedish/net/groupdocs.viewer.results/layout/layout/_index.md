@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/layout/layout/
 ---
-## Layout constructor
+## Layout() {#constructor}
+
+Initierar ny instans av[`Layout`](../../layout) class.
+
+```csharp
+public Layout()
+```
+
+### Se även
+
+* class [Layout](../../layout)
+* namnutrymme [GroupDocs.Viewer.Results](../../layout)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Layout(string, float, float) {#constructor_1}
 
 Initierar ny instans av[`Layout`](../../layout) class.
 

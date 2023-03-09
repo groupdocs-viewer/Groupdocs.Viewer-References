@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果参数是[`Layer`](../../layer)并且与当前相同[`Layer`](../../layer)目的;否则，
+如果参数是[`Layer`](../../layer)和电流一样[`Layer`](../../layer)目的;否则，
 
 ```csharp
 true

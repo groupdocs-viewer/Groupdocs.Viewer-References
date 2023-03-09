@@ -3,7 +3,7 @@ title: EML
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Epostmeddelande .eml representerar epostmeddelanden som sparats med Outlook och andra relevanta applikationer. Nästan alla epostklienter stöder detta filformat för dess överensstämmelse med RFC822 Internet Message Format Standard. Läs mer om detta filformathärhttps//wiki.fileformat.com/email/eml .
 type: docs
-weight: 390
+weight: 420
 url: /sv/net/groupdocs.viewer/filetype/eml/
 ---
 ## FileType.EML field

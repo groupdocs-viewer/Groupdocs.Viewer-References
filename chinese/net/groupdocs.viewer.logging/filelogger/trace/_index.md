@@ -22,7 +22,7 @@ public void Trace(string message)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*message*一片空白。 |
+| ArgumentNullException | 抛出时*message*一片空白。 |
 
 ### 也可以看看
 

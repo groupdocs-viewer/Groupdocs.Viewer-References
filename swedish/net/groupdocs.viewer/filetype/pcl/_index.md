@@ -3,7 +3,7 @@ title: PCL
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Skrivarkommandospråkdokument .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /sv/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field

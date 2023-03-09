@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/layer/name/
 Katmanın adı.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Notlar

@@ -1,17 +1,42 @@
 ---
 title: RenderToSinglePage
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
-description: Active le contenu HTML sera rendu sur une seule page
+description: Permet de rendre un document entier dans un seul fichier HTML.
 type: docs
 weight: 120
 url: /fr/net/groupdocs.viewer.options/htmlviewoptions/rendertosinglepage/
 ---
 ## HtmlViewOptions.RenderToSinglePage property
 
-Active le contenu HTML sera rendu sur une seule page
+Permet de rendre un document entier dans un seul fichier HTML.
 
 ```csharp
 public bool RenderToSinglePage { get; set; }
+```
+
+### Remarques
+
+**Consultez les rubriques suivantes pour plus d'informations :**
+
+* [Rendu des archives sous forme de fichiers HTML, PDF et image](https://docs.groupdocs.com/viewer/net/render-archive-files/#create-a-single-html-page)
+* [Rendre des documents texte sous forme de fichiers HTML, PDF et image](https://docs.groupdocs.com/viewer/net/render-text-files/#create-a-single-html-page)
+* [Rendu des feuilles de calcul Excel et Apple Numbers sous forme de fichiers HTML, PDF et image](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file)
+* [Rendu des feuilles de calcul Excel et Apple Numbers sous forme de fichiers HTML, PDF et image](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file)
+* [Affichez des documents Web sous forme de fichiers PDF, PNG et JPEG](https://docs.groupdocs.com/viewer/net/render-web-documents/#create-an-html-file-with-embedded-resources)
+
+### Exemples
+
+L'exemple illustre une utilisation typique de cette option.
+
+```csharp
+using (Viewer viewer = new Viewer("invoice.docx"))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+    viewOptions.RenderToSinglePage = true;
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### Voir également

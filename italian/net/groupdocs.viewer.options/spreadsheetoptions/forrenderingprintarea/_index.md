@@ -1,14 +1,14 @@
 ---
 title: ForRenderingPrintArea
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions solo per il rendering delle aree di stampa.
+description: Inizializza una nuova istanza diSpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions solo per il rendering delle aree di stampa.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea/
 ---
 ## SpreadsheetOptions.ForRenderingPrintArea method
 
-Inizializza la nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) solo per il rendering delle aree di stampa.
+Inizializza una nuova istanza di[`SpreadsheetOptions`](../../spreadsheetoptions) solo per il rendering delle aree di stampa.
 
 ```csharp
 public static SpreadsheetOptions ForRenderingPrintArea()

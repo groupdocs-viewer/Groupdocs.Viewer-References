@@ -3,7 +3,7 @@ title: SXC
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Электронная таблица StarOffice Calc .sxc
 type: docs
-weight: 1420
+weight: 1470
 url: /ru/net/groupdocs.viewer/filetype/sxc/
 ---
 ## FileType.SXC field

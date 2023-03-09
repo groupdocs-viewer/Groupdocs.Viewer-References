@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Yeni örneğini başlatırViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsPNG. içine işlerken görünüm hakkında bilgi almak için sınıf
+description: Yeni örneğini başlatırViewInfoOptionsgroupdocs.viewer.options/viewinfooptions PNG. içine işlerken görünüm hakkında bilgi almak için sınıf
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-Yeni örneğini başlatır[`ViewInfoOptions`](../../viewinfooptions)PNG. içine işlerken görünüm hakkında bilgi almak için sınıf
+Yeni örneğini başlatır[`ViewInfoOptions`](../../viewinfooptions) PNG. içine işlerken görünüm hakkında bilgi almak için sınıf
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -28,7 +28,7 @@ Yeni örneği[`ViewInfoOptions`](../../viewinfooptions) sınıf.
 
 ## ForPngView(bool) {#forpngview_1}
 
-Yeni örneğini başlatır[`ViewInfoOptions`](../../viewinfooptions)PNG. içine işlerken görünüm hakkında bilgi almak için sınıf
+Yeni örneğini başlatır[`ViewInfoOptions`](../../viewinfooptions) PNG. içine işlerken görünüm hakkında bilgi almak için sınıf
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)

@@ -3,7 +3,7 @@ title: OTP
 second_title: GroupDocs.Viewer för .NET API-referens
 description: OpenDocument Presentation Template .otp representerar presentationsmallfiler skapade av applikationer i OASIS OpenDocument standardformat. Läs mer om detta filformathärhttps//wiki.fileformat.com/presentation/otp .
 type: docs
-weight: 990
+weight: 1040
 url: /sv/net/groupdocs.viewer/filetype/otp/
 ---
 ## FileType.OTP field

@@ -1,14 +1,14 @@
 ---
 title: VTX
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Visio 模板 XML 文件 .vtx 是一种 Microsoft Visio 绘图模板以 XML 文件格式保存到光盘该模板旨在提供具有基本设置的文件可用于创建具有相同设置的多个 Visio 文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vtx.
+description: Visio 模板 XML 文件 .vtx 是一种以 XML 文件格式保存到光盘的 Microsoft Visio 绘图模板该模板旨在提供具有基本设置的文件可用于创建具有相同设置的多个 Visio 文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vtx.
 type: docs
-weight: 1700
+weight: 1750
 url: /zh/net/groupdocs.viewer/filetype/vtx/
 ---
 ## FileType.VTX field
 
-Visio 模板 XML 文件 (.vtx) 是一种 Microsoft Visio 绘图模板，以 XML 文件格式保存到光盘。该模板旨在提供具有基本设置的文件，可用于创建具有相同设置的多个 Visio 文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vtx).
+Visio 模板 XML 文件 (.vtx) 是一种以 XML 文件格式保存到光盘的 Microsoft Visio 绘图模板。该模板旨在提供具有基本设置的文件，可用于创建具有相同设置的多个 Visio 文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vtx).
 
 ```csharp
 public static readonly FileType VTX;

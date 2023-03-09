@@ -1,17 +1,17 @@
 ---
 title: X
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 页面布局上左最高点的 X 坐标其中包含元素的矩形开始
+description: 包含元素的矩形开始的页面布局左最高点的 X 坐标
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.results/textelement-1/x/
 ---
 ## TextElement&lt;T&gt;.X property
 
-页面布局上左最高点的 X 坐标，其中包含元素的矩形开始。
+包含元素的矩形开始的页面布局左最高点的 X 坐标。
 
 ```csharp
-public double X { get; }
+public double X { get; set; }
 ```
 
 ### 也可以看看

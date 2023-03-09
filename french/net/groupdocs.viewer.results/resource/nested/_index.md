@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/resource/nested/
 Indique si la ressource réside dans une autre ressource, par exemple une ressource de police qui réside dans une ressource CSS ou SVG.
 
 ```csharp
-public bool Nested { get; }
+public bool Nested { get; set; }
 ```
 
 ### Voir également

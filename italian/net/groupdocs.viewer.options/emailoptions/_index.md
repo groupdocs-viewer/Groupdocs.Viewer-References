@@ -1,14 +1,14 @@
 ---
 title: EmailOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Fornisce le opzioni per il rendering dei messaggi di posta elettronica.
+description: Fornisce opzioni per il rendering dei messaggi email.
 type: docs
 weight: 300
 url: /it/net/groupdocs.viewer.options/emailoptions/
 ---
 ## EmailOptions class
 
-Fornisce le opzioni per il rendering dei messaggi di posta elettronica.
+Fornisce opzioni per il rendering dei messaggi e-mail.
 
 ```csharp
 public class EmailOptions
@@ -18,7 +18,7 @@ public class EmailOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [EmailOptions](emailoptions)() | Inizializza la nuova istanza di[`EmailOptions`](../emailoptions) classe. |
+| [EmailOptions](emailoptions)() | Inizializza una nuova istanza di[`EmailOptions`](../emailoptions) classe. |
 
 ## Proprietà
 

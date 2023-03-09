@@ -1,14 +1,14 @@
 ---
 title: ForPngView
 second_title: GroupDocs.Viewer för .NET API-referens
-description: Initierar ny instans avViewInfoOptionsgroupdocs.viewer.options/viewinfooptionsklass för att hämta information om vy vid rendering till PNG.
+description: Initierar ny instans avViewInfoOptionsgroupdocs.viewer.options/viewinfooptions klass för att hämta information om vy vid rendering till PNG.
 type: docs
 weight: 30
 url: /sv/net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}
 
-Initierar ny instans av[`ViewInfoOptions`](../../viewinfooptions)klass för att hämta information om vy vid rendering till PNG.
+Initierar ny instans av[`ViewInfoOptions`](../../viewinfooptions) klass för att hämta information om vy vid rendering till PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView()
@@ -28,7 +28,7 @@ Ny instans av[`ViewInfoOptions`](../../viewinfooptions) klass.
 
 ## ForPngView(bool) {#forpngview_1}
 
-Initierar ny instans av[`ViewInfoOptions`](../../viewinfooptions)klass för att hämta information om vy vid rendering till PNG.
+Initierar ny instans av[`ViewInfoOptions`](../../viewinfooptions) klass för att hämta information om vy vid rendering till PNG.
 
 ```csharp
 public static ViewInfoOptions ForPngView(bool extractText)

@@ -1,14 +1,14 @@
 ---
 title: GetPageKey
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sayfa dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.
+description: Sayfa dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.caching/cachekeys/getpagekey/
 ---
 ## CacheKeys.GetPageKey method
 
-Sayfa dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı döndürür.
+Sayfa dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcıyı döndürür.
 
 ```csharp
 public static string GetPageKey(int pageNumber, string extension)
@@ -16,8 +16,8 @@ public static string GetPageKey(int pageNumber, string extension)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pageNumber | Int32 | Sayfa numarası. |
-| extension | String | Dosya adı soneki ("." işareti dahil) örneğin ".doc". |
+| pageNumber | Int32 | Sayfanın numarası. |
+| extension | String | Dosya adı soneki ("." noktası dahil), örneğin ".doc". |
 
 ### Geri dönüş değeri
 
@@ -27,8 +27,8 @@ Sayfa dosyasını temsil eden önbellek girişi için benzersiz tanımlayıcı.
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*pageNumber* sıfıra eşit veya küçüktür. |
-| ArgumentException | ne zaman atıldı*extension* null veya boş. |
+| ArgumentException | Ne zaman atıldı*pageNumber* sıfırdan küçük veya eşittir. |
+| ArgumentException | Ne zaman atıldı*extension* null veya boş. |
 
 ### Ayrıca bakınız
 

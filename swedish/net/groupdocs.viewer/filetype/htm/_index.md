@@ -3,7 +3,7 @@ title: HTM
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Hypertext Markup Language File .htm är tillägget för webbsidor som skapats för visning i webbläsare. Läs mer om detta filformathärhttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 570
+weight: 610
 url: /sv/net/groupdocs.viewer/filetype/htm/
 ---
 ## FileType.HTM field

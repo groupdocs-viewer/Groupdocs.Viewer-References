@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Varsayılan alan metni Konumdur.
+description: Varsayılan alan metni Konum şeklindedir.
 type: docs
 weight: 290
 url: /tr/net/groupdocs.viewer.options/field/location/
 ---
 ## Field.Location field
 
-Varsayılan alan metni "Konum"dur.
+Varsayılan alan metni "Konum" şeklindedir.
 
 ```csharp
 public static readonly Field Location;

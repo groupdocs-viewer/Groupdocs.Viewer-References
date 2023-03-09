@@ -3,7 +3,7 @@ title: DIB
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف الصور النقطية المستقل عن الجهاز .dib
 type: docs
-weight: 240
+weight: 260
 url: /ar/net/groupdocs.viewer/filetype/dib/
 ---
 ## FileType.DIB field

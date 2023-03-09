@@ -1,14 +1,14 @@
 ---
 title: VCF
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File vCard .vcf è un formato di file digitale per la memorizzazione delle informazioni di contatto. Il formato è ampiamente utilizzato per lo scambio di dati tra le applicazioni di scambio di informazioni più diffuse. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/email/vcf .
+description: File vCard .vcf è un formato di file digitale per la memorizzazione delle informazioni di contatto. Il formato è ampiamente utilizzato per lo scambio di dati tra le applicazioni di scambio di informazioni più diffuse. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/email/vcf .
 type: docs
-weight: 1560
+weight: 1610
 url: /it/net/groupdocs.viewer/filetype/vcf/
 ---
 ## FileType.VCF field
 
-File vCard (.vcf) è un formato di file digitale per la memorizzazione delle informazioni di contatto. Il formato è ampiamente utilizzato per lo scambio di dati tra le applicazioni di scambio di informazioni più diffuse. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/email/vcf) .
+File vCard (.vcf) è un formato di file digitale per la memorizzazione delle informazioni di contatto. Il formato è ampiamente utilizzato per lo scambio di dati tra le applicazioni di scambio di informazioni più diffuse. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/email/vcf) .
 
 ```csharp
 public static readonly FileType VCF;

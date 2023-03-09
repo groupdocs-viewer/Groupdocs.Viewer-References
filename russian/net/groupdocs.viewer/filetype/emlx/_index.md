@@ -3,7 +3,7 @@ title: EMLX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Почтовое сообщение Apple .emlx реализовано и разработано Apple. Приложение Apple Mail использует формат файлов EMLX для экспорта электронных писем. Подробнее об этом формате файловздесьhttps//wiki.fileformat.com/email/emlx .
 type: docs
-weight: 400
+weight: 430
 url: /ru/net/groupdocs.viewer/filetype/emlx/
 ---
 ## FileType.EMLX field

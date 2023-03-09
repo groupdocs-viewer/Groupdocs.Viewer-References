@@ -1,14 +1,14 @@
 ---
 title: IMaxSizeOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 图像大小选项界面的限制
+description: 图像尺寸选项界面的限制
 type: docs
 weight: 340
 url: /zh/net/groupdocs.viewer.options/imaxsizeoptions/
 ---
 ## IMaxSizeOptions interface
 
-图像大小选项界面的限制。
+图像尺寸选项界面的限制。
 
 ```csharp
 public interface IMaxSizeOptions

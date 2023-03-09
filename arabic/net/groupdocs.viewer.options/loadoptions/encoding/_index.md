@@ -1,17 +1,42 @@
 ---
 title: Encoding
 second_title: GroupDocs.Viewer لمرجع .NET API
-description: الترميز المستخدم عند فتح ملفات نصية أو رسائل بريد إلكتروني مثلCSVgroupdocs.viewer/filetype/csv وTXTgroupdocs.viewer/filetype/txt  وMSGgroupdocs.viewer/filetype/msg . القيمة الافتراضية هيDefault .
+description: الترميز المستخدم عند فتح ملفات نصية أو رسائل بريد إلكتروني مثل CSVgroupdocs.viewer/filetype/csv  TXTgroupdocs.viewer/filetype/txt و وMSGgroupdocs.viewer/filetype/msg . القيمة الافتراضية هيUTF8 .
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/groupdocs.viewer.options/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-الترميز المستخدم عند فتح ملفات نصية أو رسائل بريد إلكتروني مثل[`CSV`](../../../groupdocs.viewer/filetype/csv) و[`TXT`](../../../groupdocs.viewer/filetype/txt) ، و[`MSG`](../../../groupdocs.viewer/filetype/msg) . القيمة الافتراضية هيDefault .
+الترميز المستخدم عند فتح ملفات نصية أو رسائل بريد إلكتروني مثل [`CSV`](../../../groupdocs.viewer/filetype/csv) ، [`TXT`](../../../groupdocs.viewer/filetype/txt) و و[`MSG`](../../../groupdocs.viewer/filetype/msg) . القيمة الافتراضية هيUTF8 .
 
 ```csharp
 public Encoding Encoding { get; set; }
+```
+
+### ملاحظات
+
+**يتعلم أكثر**
+
+* [اعرض جداول بيانات Excel و Apple Numbers كملفات HTML و PDF وصورة](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
+* [عرض المستندات النصية بتنسيق HTML و PDF وملفات الصور](https://docs.groupdocs.com/viewer/net/render-text-files)
+* [عرض رسائل البريد الإلكتروني كملفات HTML و PDF و PNG و JPEG](https://docs.groupdocs.com/viewer/net/render-email-messages/)
+
+### أمثلة
+
+يوضح المثال استخدامًا نموذجيًا لهذا الخيار.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Encoding = Encoding.ASCII; // ضبط الترميز
+
+using (Viewer viewer = new Viewer("message.txt", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### أنظر أيضا

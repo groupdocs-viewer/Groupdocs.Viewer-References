@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/attachment/size/
 Bayt cinsinden ek dosya boyutu.
 
 ```csharp
-public long Size { get; }
+public long Size { get; set; }
 ```
 
 ### Ayrıca bakınız

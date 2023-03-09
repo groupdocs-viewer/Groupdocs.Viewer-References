@@ -3,7 +3,7 @@ title: DNG
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: المواصفات السلبية الرقمية .dng هي تنسيق صورة كاميرا رقمية يُستخدم لتخزين الملفات الأولية. تم تطويره بواسطة Adobe في سبتمبر 2004. تم تطويره بشكل أساسي للتصوير الرقمي. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 270
+weight: 290
 url: /ar/net/groupdocs.viewer/filetype/dng/
 ---
 ## FileType.DNG field

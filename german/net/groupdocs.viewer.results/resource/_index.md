@@ -3,7 +3,7 @@ title: Resource
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Repräsentiert eine HTMLRessource wie Schriftart Stil Bild oder Grafik.
 type: docs
-weight: 760
+weight: 770
 url: /de/net/groupdocs.viewer.results/resource/
 ---
 ## Resource class
@@ -18,14 +18,15 @@ public class Resource
 
 | Name | Beschreibung |
 | --- | --- |
-| [Resource](resource)(string, bool) | Erstellt eine neue Instanz von[`Resource`](../resource) Klasse. |
+| [Resource](resource#constructor)() | Erstellt eine neue Instanz von[`Resource`](../resource) Klasse. |
+| [Resource](resource#constructor_1)(string, bool) | Erstellt eine neue Instanz von[`Resource`](../resource) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/resource/filename) { get; } | Der Name der Ressourcendatei. |
-| [Nested](../../groupdocs.viewer.results/resource/nested) { get; } | Gibt an, ob sich die Ressource in einer anderen Ressource befindet, z. B. eine Schriftartressource, die sich in einer CSS- oder SVG-Ressource befindet. |
+| [FileName](../../groupdocs.viewer.results/resource/filename) { get; set; } | Der Name der Ressourcendatei. |
+| [Nested](../../groupdocs.viewer.results/resource/nested) { get; set; } | Gibt an, ob sich die Ressource in einer anderen Ressource befindet, z. B. eine Schriftartressource, die sich in einer CSS- oder SVG-Ressource befindet. |
 
 ## Methoden
 

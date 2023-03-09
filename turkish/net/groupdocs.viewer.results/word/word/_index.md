@@ -6,30 +6,46 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
+
+Yeni örneğini başlatır[`Word`](../../word) sınıf.
+
+```csharp
+public Word()
+```
+
+### Ayrıca bakınız
+
+* class [Word](../../word)
+* ad alanı [GroupDocs.Viewer.Results](../../word)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
 
 Yeni örneğini başlatır[`Word`](../../word) sınıf.
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | word | String | Kelime. |
-| x | Double | Sözcüğü içeren dikdörtgenin başladığı sayfa düzeninde en soldaki noktanın X koordinatı. |
-| y | Double | Sözcüğü içeren dikdörtgenin başladığı sayfa düzeninde en soldaki noktanın Y koordinatı. |
-| width | Double | Sözcüğü içeren dikdörtgenin genişliği. |
-| height | Double | Sözcüğü içeren dikdörtgenin yüksekliği. |
-| characters | IList`1 | Kelimenin içerdiği karakterler. |
+| x | Double | Sayfa düzeninde kelimeyi içeren dikdörtgenin başladığı en yüksek sol noktanın X koordinatı. |
+| y | Double | Sayfa düzeninde kelime içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
+| width | Double | Kelimeyi içeren dikdörtgenin genişliği. |
+| height | Double | Kelimeyi içeren dikdörtgenin yüksekliği. |
+| characters | List`1 | Kelimenin içerdiği karakterler. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*word* null veya boş. |
-| ArgumentNullException | ne zaman atıldı*characters* boş. |
+| ArgumentException | Ne zaman atıldı*word* null veya boş. |
+| ArgumentNullException | Ne zaman atıldı*characters* boş. |
 
 ### Ayrıca bakınız
 

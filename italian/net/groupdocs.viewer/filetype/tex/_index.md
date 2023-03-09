@@ -1,14 +1,14 @@
 ---
 title: TEX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: LaTeX Source Document .tex è un linguaggio che comprende funzionalità di programmazione e markup utilizzate per impaginare documenti. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
+description: LaTeX Source Document .tex è un linguaggio che comprende funzionalità di programmazione e markup utilizzate per impaginare documenti. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/pagedescriptionlanguage/tex .
 type: docs
-weight: 1460
+weight: 1510
 url: /it/net/groupdocs.viewer/filetype/tex/
 ---
 ## FileType.TEX field
 
-LaTeX Source Document (.tex) è un linguaggio che comprende funzionalità di programmazione e markup, utilizzate per impaginare documenti. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/page-description-language/tex) .
+LaTeX Source Document (.tex) è un linguaggio che comprende funzionalità di programmazione e markup, utilizzate per impaginare documenti. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/page-description-language/tex) .
 
 ```csharp
 public static readonly FileType TEX;

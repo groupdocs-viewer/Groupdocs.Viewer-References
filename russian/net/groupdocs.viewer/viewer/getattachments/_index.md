@@ -27,7 +27,7 @@ public IList<Attachment> GetAttachments()
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о получении вложений документов в C#: [Как получить список вложенных документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * Узнайте больше о сохранении вложений документов в C#: [Как сохранить вложения к документам с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
@@ -66,7 +66,7 @@ public IList<Attachment> GetAttachments(CancellationToken cancellationToken)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о получении вложений документов в C#: [Как получить список вложенных документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * Узнайте больше о сохранении вложений документов в C#: [Как сохранить вложения к документам с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)

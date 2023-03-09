@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 电子表格文件查看选项
+description: 电子表格文件视图选项
 type: docs
 weight: 130
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/spreadsheetoptions/
 ---
 ## BaseViewOptions.SpreadsheetOptions property
 
-电子表格文件查看选项。
+电子表格文件视图选项。
 
 ```csharp
 public SpreadsheetOptions SpreadsheetOptions { get; set; }

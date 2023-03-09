@@ -3,7 +3,7 @@ title: Viewer
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل الفئة الرئيسية التي تتحكم في عملية عرض المستند.
 type: docs
-weight: 800
+weight: 810
 url: /ar/net/groupdocs.viewer/viewer/
 ---
 ## Viewer class

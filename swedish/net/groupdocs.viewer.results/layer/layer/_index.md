@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/layer/layer/
 ---
-## Layer(string) {#constructor}
+## Layer() {#constructor}
+
+Initierar ny instans av[`Layer`](../../layer) class.
+
+```csharp
+public Layer()
+```
+
+### Se även
+
+* class [Layer](../../layer)
+* namnutrymme [GroupDocs.Viewer.Results](../../layer)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Layer(string) {#constructor_1}
 
 Initierar ny instans av[`Layer`](../../layer) class.
 
@@ -32,7 +48,7 @@ public Layer(string name)
 
 ---
 
-## Layer(string, bool) {#constructor_1}
+## Layer(string, bool) {#constructor_2}
 
 Initierar ny instans av[`Layer`](../../layer) class.
 

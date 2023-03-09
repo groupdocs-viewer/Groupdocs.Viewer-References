@@ -1,14 +1,14 @@
 ---
 title: FieldTextMap
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 邮件信息之间的映射Fieldgroupdocs.viewer.options/field和字段文本表示
+description: 电子邮件之间的映射Fieldgroupdocs.viewer.options/field和字段文本表示.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.viewer.options/emailoptions/fieldtextmap/
 ---
 ## EmailOptions.FieldTextMap property
 
-邮件信息之间的映射[`Field`](../../field)和字段文本表示。
+电子邮件之间的映射[`Field`](../../field)和字段文本表示.
 
 ```csharp
 public Dictionary<Field, string> FieldTextMap { get; set; }

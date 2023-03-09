@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/layer/name/
 Der Name der Ebene.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Bemerkungen

@@ -19,8 +19,8 @@ public interface IResourceStreamFactory
 | 姓名 | 描述 |
 | --- | --- |
 | [CreateResourceStream](../../groupdocs.viewer.interfaces/iresourcestreamfactory/createresourcestream)(int, Resource) | 创建用于写入输出 HTML 资源数据的流。 |
-| [CreateResourceUrl](../../groupdocs.viewer.interfaces/iresourcestreamfactory/createresourceurl)(int, Resource) | 创建 HTML 资源的 URL。 |
-| [ReleaseResourceStream](../../groupdocs.viewer.interfaces/iresourcestreamfactory/releaseresourcestream)(int, Resource, Stream) | 释放由创建的流[`CreateResourceStream`](./createresourcestream)方法. |
+| [CreateResourceUrl](../../groupdocs.viewer.interfaces/iresourcestreamfactory/createresourceurl)(int, Resource) | 为 HTML 资源创建 URL。 |
+| [ReleaseResourceStream](../../groupdocs.viewer.interfaces/iresourcestreamfactory/releaseresourcestream)(int, Resource, Stream) | 释放创建的流[`CreateResourceStream`](./createresourcestream)方法. |
 
 ### 也可以看看
 

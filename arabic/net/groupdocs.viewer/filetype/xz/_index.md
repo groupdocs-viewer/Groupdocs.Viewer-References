@@ -3,7 +3,7 @@ title: XZ
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف XZ .xz هو أرشيف مضغوط عبارة عن خوارزمية ضغط عالية النسبة تعتمد على خوارزمية LZMA. تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/xz .
 type: docs
-weight: 1840
+weight: 1890
 url: /ar/net/groupdocs.viewer/filetype/xz/
 ---
 ## FileType.XZ field

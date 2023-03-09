@@ -3,7 +3,7 @@ title: CS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: C källkodsfil .cs är en källkodsfil för programmeringsspråket C. Introducerad av Microsoft för användning med .NET Framework. Läs mer om detta filformathärhttps//wiki.fileformat.com/programming/cs .
 type: docs
-weight: 180
+weight: 200
 url: /sv/net/groupdocs.viewer/filetype/cs/
 ---
 ## FileType.CS field

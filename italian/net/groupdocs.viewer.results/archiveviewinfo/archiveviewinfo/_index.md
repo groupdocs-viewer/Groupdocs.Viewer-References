@@ -1,24 +1,40 @@
 ---
 title: ArchiveViewInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diArchiveViewInfogroupdocs.viewer.results/archiveviewinfo classe.
+description: Inizializza una nuova istanza diArchiveViewInfogroupdocs.viewer.results/archiveviewinfo classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/archiveviewinfo/archiveviewinfo/
 ---
-## ArchiveViewInfo constructor
+## ArchiveViewInfo() {#constructor}
 
-Inizializza la nuova istanza di[`ArchiveViewInfo`](../../archiveviewinfo) classe.
+Inizializza una nuova istanza di[`ArchiveViewInfo`](../../archiveviewinfo) classe.
 
 ```csharp
-public ArchiveViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public ArchiveViewInfo()
+```
+
+### Guarda anche
+
+* class [ArchiveViewInfo](../../archiveviewinfo)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../archiveviewinfo)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## ArchiveViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Inizializza una nuova istanza di[`ArchiveViewInfo`](../../archiveviewinfo) classe.
+
+```csharp
+public ArchiveViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileType | FileType | Il tipo di file. |
-| pages | IList`1 | L'elenco delle pagine da visualizzare. |
-| folders | IList`1 | L'elenco delle cartelle contenute nel file di archivio. |
+| pages | List`1 | L'elenco delle pagine da visualizzare. |
+| folders | List`1 | L'elenco delle cartelle contenute nel file di archivio. |
 
 ### Eccezioni
 

@@ -3,7 +3,7 @@ title: PST
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de stockage dinformations personnelles Outlook .pst représente les fichiers de stockage personnels Outlook également appelés table de stockage personnel qui stockent diverses informations utilisateur. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/email/pst .
 type: docs
-weight: 1250
+weight: 1300
 url: /fr/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field

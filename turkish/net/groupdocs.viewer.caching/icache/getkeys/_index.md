@@ -1,14 +1,14 @@
 ---
 title: GetKeys
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Filtreyle eşleşen tüm anahtarları döndürür.
+description: filter. ile eşleşen tüm anahtarları döndürür
 type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.caching/icache/getkeys/
 ---
 ## ICache.GetKeys method
 
-Filtreyle eşleşen tüm anahtarları döndürür.
+filter. ile eşleşen tüm anahtarları döndürür
 
 ```csharp
 public IEnumerable<string> GetKeys(string filter)

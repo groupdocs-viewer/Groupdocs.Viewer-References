@@ -3,7 +3,7 @@ title: SCRIPT
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de script générique .script
 type: docs
-weight: 1340
+weight: 1390
 url: /fr/net/groupdocs.viewer/filetype/script/
 ---
 ## FileType.SCRIPT field

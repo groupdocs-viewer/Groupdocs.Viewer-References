@@ -1,14 +1,14 @@
 ---
 title: PageSize
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çıktı sayfasının boyutu. Varsayılan değerUnspecified bu sayfa ayarlarında Sayfa Düzeni ayarlanan bir sayfa boyutunun kullanıldığı anlamına gelir.  HTM ve HTML dosyalarını oluştururken varsayılan sayfa boyutu Letter 792 x 612 punto olarak ayarlanır. Sonuç olarak içeriğin bir kısmı sayfa çerçevesine sığmayabilir. Daha büyük bir sayfa boyutu ayarlayın örn.A3 içeriği sığdırmak için.
+description: Çıktı sayfasının boyutu. Varsayılan değerUnspecified bu sayfa ayarlarında Sayfa Düzeni ayarlanan bir sayfa boyutunun kullanıldığı anlamına gelir.  HTM ve HTML dosyalarını işlerken varsayılan sayfa boyutu Letter 792 x 612 punto olarak ayarlanmıştır. Sonuç olarak içeriğin bir kısmı sayfa çerçevesine sığmayabilir. Daha büyük bir sayfa boyutu ayarlayın örn.A3 içeriği sığdırmak için.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.options/wordprocessingoptions/pagesize/
 ---
 ## WordProcessingOptions.PageSize property
 
-Çıktı sayfasının boyutu. Varsayılan değerUnspecified bu, sayfa ayarlarında (Sayfa Düzeni) ayarlanan bir sayfa boyutunun kullanıldığı anlamına gelir.  HTM ve HTML dosyalarını oluştururken varsayılan sayfa boyutu Letter 792 x 612 punto olarak ayarlanır. Sonuç olarak, içeriğin bir kısmı sayfa çerçevesine sığmayabilir. Daha büyük bir sayfa boyutu ayarlayın örn.A3 içeriği sığdırmak için.
+Çıktı sayfasının boyutu. Varsayılan değer:Unspecified bu, sayfa ayarlarında (Sayfa Düzeni) ayarlanan bir sayfa boyutunun kullanıldığı anlamına gelir.  HTM ve HTML dosyalarını işlerken, varsayılan sayfa boyutu Letter 792 x 612 punto olarak ayarlanmıştır. Sonuç olarak, içeriğin bir kısmı sayfa çerçevesine sığmayabilir. Daha büyük bir sayfa boyutu ayarlayın, örn.A3 içeriği sığdırmak için.
 
 ```csharp
 public PageSize PageSize { get; set; }

@@ -20,7 +20,7 @@ public static ViewInfoOptions FromJpgViewOptions(JpgViewOptions options)
 
 ### Return_Value
 
-Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classer.
+Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ### Exceptions
 

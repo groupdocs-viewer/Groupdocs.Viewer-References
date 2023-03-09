@@ -3,7 +3,7 @@ title: ASM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Derleme Dili Kaynak Kodu Dosyası .asm
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.viewer/filetype/asm/
 ---
 ## FileType.ASM field

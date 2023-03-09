@@ -1,14 +1,14 @@
 ---
 title: FontsToExclude
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 要从 HTML 文档中排除的字体名称列表
+description: 字体名称列表要从 HTML 文档中排除
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/htmlviewoptions/fontstoexclude/
 ---
 ## HtmlViewOptions.FontsToExclude property
 
-要从 HTML 文档中排除的字体名称列表。
+字体名称列表，要从 HTML 文档中排除。
 
 ```csharp
 public List<string> FontsToExclude { get; set; }
@@ -16,7 +16,7 @@ public List<string> FontsToExclude { get; set; }
 
 ### 评论
 
-仅演示文稿支持此选项。 添加到 HTML 文档中的字体提高了输出视图的稳定性， 同时增加了渲染结果的大小。此选项让 在稳定性和输出大小之间找到折衷方案。包括流行并安装到大多数系统中的字体名称 。 请注意，此属性仅在以下情况下才有效[`ExcludeFonts`](../excludefonts)选项被禁用。
+此选项仅支持演示文稿。 添加到 HTML 文档中的字体提高了输出视图的稳定性， 同时它们增加了渲染结果的大小。这个选项，让 你在稳定性和输出大小之间找到折衷。包括流行并安装到大多数系统中的字体名称 。 请注意，此属性仅在[`ExcludeFonts`](../excludefonts)选项被禁用。
 
 ### 也可以看看
 

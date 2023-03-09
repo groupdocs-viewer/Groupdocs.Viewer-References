@@ -3,7 +3,7 @@ title: CSV
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El archivo de valores separados por comas .csv representa archivos de texto sin formato que contienen registros de datos con valores separados por comas. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/csv .
 type: docs
-weight: 200
+weight: 220
 url: /es/net/groupdocs.viewer/filetype/csv/
 ---
 ## FileType.CSV field

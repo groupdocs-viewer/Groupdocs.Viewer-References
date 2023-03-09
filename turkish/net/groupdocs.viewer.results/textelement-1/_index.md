@@ -3,7 +3,7 @@ title: TextElementT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Genel metin öğesini temsil eder.
 type: docs
-weight: 770
+weight: 780
 url: /tr/net/groupdocs.viewer.results/textelement-1/
 ---
 ## TextElement&lt;T&gt; class
@@ -22,17 +22,18 @@ public class TextElement<T>
 
 | İsim | Tanım |
 | --- | --- |
-| [TextElement](textelement)(T, double, double, double, double) | Yeni örneğini başlatır[`TextElement`](../textelement-1) sınıf. |
+| [TextElement](textelement#constructor)() | Yeni örneğini başlatır[`TextElement`](../textelement-1) sınıf. |
+| [TextElement](textelement#constructor_1)(T, double, double, double, double) | Yeni örneğini başlatır[`TextElement`](../textelement-1) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | Öğeyi içeren dikdörtgenin yüksekliği (piksel cinsinden). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Öğe değeri. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | Öğeyi içeren dikdörtgenin genişliği (piksel cinsinden). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Öğeyi içeren dikdörtgenin başladığı sayfa düzeninde soldaki en yüksek noktanın X koordinatı. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | Öğeyi içeren dikdörtgenin yüksekliği (piksel cinsinden). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Öğe değeri. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | Öğeyi içeren dikdörtgenin genişliği (piksel olarak). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın X koordinatı. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Sayfa düzeninde öğe içeren dikdörtgenin başladığı en yüksek sol noktanın Y koordinatı. |
 
 ## yöntemler
 

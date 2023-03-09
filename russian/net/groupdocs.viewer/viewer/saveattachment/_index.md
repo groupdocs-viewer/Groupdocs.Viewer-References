@@ -17,7 +17,7 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| attachment | Attachment | Прикрепление. |
+| attachment | Attachment | Вложение. |
 | destination | Stream | Доступный для записи поток. |
 | cancellationToken | CancellationToken | Токен отмены. |
 
@@ -33,7 +33,7 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о получении вложений документов в C#: [Как получить список вложенных документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * Узнайте больше о сохранении вложений документов в C#: [Как сохранить вложения к документам с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
@@ -57,7 +57,7 @@ public void SaveAttachment(Attachment attachment, Stream destination)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| attachment | Attachment | Прикрепление. |
+| attachment | Attachment | Вложение. |
 | destination | Stream | Доступный для записи поток. |
 
 ### Исключения
@@ -72,7 +72,7 @@ public void SaveAttachment(Attachment attachment, Stream destination)
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Узнайте больше о получении вложений документов в C#: [Как получить список вложенных документов с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * Узнайте больше о сохранении вложений документов в C#: [Как сохранить вложения к документам с помощью GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)

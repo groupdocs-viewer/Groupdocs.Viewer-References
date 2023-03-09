@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### Rückgabewert
 
-Neue Instanz von[`SpreadsheetOptions`](../../spreadsheetoptions)für das Rendern nach Seitenumbrüchen. Das Verhalten ähnelt dem Drucken in Excel.
+Neue Instanz von[`SpreadsheetOptions`](../../spreadsheetoptions) für das Rendern nach Seitenumbrüchen. Das Verhalten ähnelt dem Drucken in Excel.
 
 ### Siehe auch
 

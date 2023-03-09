@@ -1,14 +1,14 @@
 ---
 title: ViewerSettings
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Definisce le impostazioni per la personalizzazioneViewer./viewercomportamento.
+description: Definisce le impostazioni per la personalizzazioneViewer./viewer comportamento.
 type: docs
-weight: 810
+weight: 820
 url: /it/net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class
 
-Definisce le impostazioni per la personalizzazione[`Viewer`](../viewer)comportamento.
+Definisce le impostazioni per la personalizzazione[`Viewer`](../viewer) comportamento.
 
 ```csharp
 public class ViewerSettings
@@ -18,9 +18,9 @@ public class ViewerSettings
 
 | Nome | Descrizione |
 | --- | --- |
-| [ViewerSettings](viewersettings#constructor)(ICache) | Inizializza la nuova istanza di[`ViewerSettings`](../viewersettings) classe. |
-| [ViewerSettings](viewersettings#constructor_2)(ILogger) | Inizializza la nuova istanza di[`ViewerSettings`](../viewersettings) classe. |
-| [ViewerSettings](viewersettings#constructor_1)(ICache, ILogger) | Inizializza la nuova istanza di[`ViewerSettings`](../viewersettings) classe. |
+| [ViewerSettings](viewersettings#constructor)(ICache) | Inizializza una nuova istanza di[`ViewerSettings`](../viewersettings) classe. |
+| [ViewerSettings](viewersettings#constructor_2)(ILogger) | Inizializza una nuova istanza di[`ViewerSettings`](../viewersettings) classe. |
+| [ViewerSettings](viewersettings#constructor_1)(ICache, ILogger) | Inizializza una nuova istanza di[`ViewerSettings`](../viewersettings) classe. |
 
 ## Proprietà
 

@@ -1,14 +1,14 @@
 ---
 title: NUMBERS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Elma sayıları Excel gibi İkili Dosya Biçimini temsil eder. Bu tür dosyalar Apple numaraları uygulaması tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/numbers .
+description: Elma sayıları Excel gibi İkili Dosya Biçimini temsil eder. Bu tür dosyalar Apple numaraları uygulaması tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/numbers .
 type: docs
-weight: 900
+weight: 950
 url: /tr/net/groupdocs.viewer/filetype/numbers/
 ---
 ## FileType.NUMBERS field
 
-Elma sayıları, Excel gibi İkili Dosya Biçimini temsil eder. Bu tür dosyalar Apple numaraları uygulaması tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/numbers) .
+Elma sayıları, Excel gibi İkili Dosya Biçimini temsil eder. Bu tür dosyalar Apple numaraları uygulaması tarafından oluşturulabilir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/numbers) .
 
 ```csharp
 public static readonly FileType NUMBERS;

@@ -1,17 +1,42 @@
 ---
 title: Encoding
 second_title: GroupDocs.Viewer för .NET API-referens
-description: Kodningen som används när du öppnar textbaserade filer eller epostmeddelanden som t.exCSVgroupdocs.viewer/filetype/csv TXTgroupdocs.viewer/filetype/txt  ochMSGgroupdocs.viewer/filetype/msg . Standardvärdet ärDefault .
+description: Kodningen som används när du öppnar textbaserade filer eller epostmeddelanden som CSVgroupdocs.viewer/filetype/csv  TXTgroupdocs.viewer/filetype/txt  ochMSGgroupdocs.viewer/filetype/msg . Standardvärdet ärUTF8 .
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/groupdocs.viewer.options/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-Kodningen som används när du öppnar textbaserade filer eller e-postmeddelanden som t.ex[`CSV`](../../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../../groupdocs.viewer/filetype/txt) , och[`MSG`](../../../groupdocs.viewer/filetype/msg) . Standardvärdet ärDefault .
+Kodningen som används när du öppnar textbaserade filer eller e-postmeddelanden som [`CSV`](../../../groupdocs.viewer/filetype/csv) , [`TXT`](../../../groupdocs.viewer/filetype/txt) , och[`MSG`](../../../groupdocs.viewer/filetype/msg) . Standardvärdet ärUTF8 .
 
 ```csharp
 public Encoding Encoding { get; set; }
+```
+
+### Anmärkningar
+
+**Läs mer**
+
+* [Återge Excel- och Apple Numbers-kalkylblad som HTML-, PDF- och bildfiler](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
+* [Återge textdokument som HTML-, PDF- och bildfiler](https://docs.groupdocs.com/viewer/net/render-text-files)
+* [Återge e-postmeddelanden som HTML-, PDF-, PNG- och JPEG-filer](https://docs.groupdocs.com/viewer/net/render-email-messages/)
+
+### Exempel
+
+Exemplet visar en typisk användning av detta alternativ.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Encoding = Encoding.ASCII; // Ställ in kodningen
+
+using (Viewer viewer = new Viewer("message.txt", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### Se även

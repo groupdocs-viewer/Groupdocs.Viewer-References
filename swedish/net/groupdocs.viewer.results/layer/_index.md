@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Initierar ny instans av[`Layer`](../layer) class. |
-| [Layer](layer#constructor_1)(string, bool) | Initierar ny instans av[`Layer`](../layer) class. |
+| [Layer](layer#constructor)() | Initierar ny instans av[`Layer`](../layer) class. |
+| [Layer](layer#constructor_1)(string) | Initierar ny instans av[`Layer`](../layer) class. |
+| [Layer](layer#constructor_2)(string, bool) | Initierar ny instans av[`Layer`](../layer) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | Namnet på lagret. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | Lagersynlighetsindikatorn. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | Namnet på lagret. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | Lagersynlighetsindikatorn. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Bestämmer om strömmen[`Layer`](../layer)är samma som specificerats[`Layer`](../layer) objekt. |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Bestämmer om strömmen[`Layer`](../layer) är samma som specificerat[`Layer`](../layer) objekt. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | Bestämmer om strömmen[`Layer`](../layer) är samma som specificerat objekt. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | Returnerar hashkoden för den aktuella[`Layer`](../layer) objekt. |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | Returnerar en sträng som representerar det aktuella objektet. |

@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/page/width/
 عرض الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG .
 
 ```csharp
-public int Width { get; }
+public int Width { get; set; }
 ```
 
 ### أنظر أيضا

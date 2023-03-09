@@ -1,14 +1,14 @@
 ---
 title: MSG
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il messaggio di posta di Outlook .msg è un formato di file utilizzato da Microsoft Outlook ed Exchange per archiviare messaggi di posta elettronica contatti appuntamenti o altre attività. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/email/msg .
+description: Il messaggio di posta di Outlook .msg è un formato di file utilizzato da Microsoft Outlook ed Exchange per archiviare messaggi di posta elettronica contatti appuntamenti o altre attività. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/email/msg .
 type: docs
-weight: 880
+weight: 930
 url: /it/net/groupdocs.viewer/filetype/msg/
 ---
 ## FileType.MSG field
 
-Il messaggio di posta di Outlook (.msg) è un formato di file utilizzato da Microsoft Outlook ed Exchange per archiviare messaggi di posta elettronica, contatti, appuntamenti o altre attività. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/email/msg) .
+Il messaggio di posta di Outlook (.msg) è un formato di file utilizzato da Microsoft Outlook ed Exchange per archiviare messaggi di posta elettronica, contatti, appuntamenti o altre attività. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/email/msg) .
 
 ```csharp
 public static readonly FileType MSG;

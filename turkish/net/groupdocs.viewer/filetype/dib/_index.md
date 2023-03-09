@@ -3,7 +3,7 @@ title: DIB
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Aygıttan Bağımsız Bit Eşlem Dosyası .dib
 type: docs
-weight: 240
+weight: 260
 url: /tr/net/groupdocs.viewer/filetype/dib/
 ---
 ## FileType.DIB field

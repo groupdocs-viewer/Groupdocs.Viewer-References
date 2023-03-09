@@ -24,7 +24,7 @@ public class ConsoleLogger : ILogger
 
 | Nome | Descrizione |
 | --- | --- |
-| [Error](../../groupdocs.viewer.logging/consolelogger/error)(string, Exception) | Scrive un messaggio di errore nella console. I messaggi del registro errori forniscono informazioni sugli eventi irreversibili nel flusso dell'applicazione. |
+| [Error](../../groupdocs.viewer.logging/consolelogger/error)(string, Exception) | Scrive un messaggio di errore nella console. I messaggi del registro degli errori forniscono informazioni sugli eventi irreversibili nel flusso dell'applicazione. |
 | [Trace](../../groupdocs.viewer.logging/consolelogger/trace)(string) | Scrive un messaggio di traccia nella console. I messaggi di registro di traccia forniscono informazioni generalmente utili sul flusso dell'applicazione. |
 | [Warning](../../groupdocs.viewer.logging/consolelogger/warning)(string) | Scrive un messaggio di avviso nella console. I messaggi di registro di avviso forniscono informazioni sugli eventi imprevisti e recuperabili nel flusso dell'applicazione. |
 

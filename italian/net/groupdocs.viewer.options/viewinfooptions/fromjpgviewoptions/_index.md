@@ -1,14 +1,14 @@
 ---
 title: FromJpgViewOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions classe basata suJpgViewOptionsgroupdocs.viewer.options/jpgviewoptions oggetto.
+description: Inizializza una nuova istanza diViewInfoOptionsgroupdocs.viewer.options/viewinfooptions classe basata suJpgViewOptionsgroupdocs.viewer.options/jpgviewoptions oggetto.
 type: docs
 weight: 50
 url: /it/net/groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions/
 ---
 ## ViewInfoOptions.FromJpgViewOptions method
 
-Inizializza la nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe basata su[`JpgViewOptions`](../../jpgviewoptions) oggetto.
+Inizializza una nuova istanza di[`ViewInfoOptions`](../../viewinfooptions) classe basata su[`JpgViewOptions`](../../jpgviewoptions) oggetto.
 
 ```csharp
 public static ViewInfoOptions FromJpgViewOptions(JpgViewOptions options)

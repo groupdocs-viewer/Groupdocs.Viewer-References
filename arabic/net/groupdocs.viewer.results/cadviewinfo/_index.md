@@ -18,16 +18,16 @@ public class CadViewInfo : ViewInfo
 
 | اسم | وصف |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | تهيئة مثيل جديد لـ[`CadViewInfo`](../cadviewinfo) فئة . |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | تهيئة مثيل جديد لـ[`CadViewInfo`](../cadviewinfo) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | نوع الملف. |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | قائمة الطبقات التي يحتوي عليها رسم CAD . |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | قائمة التخطيطات التي يحتوي عليها رسم CAD . |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | قائمة الصفحات المراد عرضها . |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | نوع الملف. |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | قائمة الطبقات التي يحتوي عليها رسم CAD . |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | قائمة التخطيطات التي يحتوي عليها رسم CAD . |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | قائمة الصفحات المراد عرضها . |
 
 ## طُرق
 

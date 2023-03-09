@@ -1,14 +1,14 @@
 ---
 title: FontSettings
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Fornisce metodi per lavorare con le fonti per cercare i font TrueType.
+description: Fornisce metodi per lavorare con le fonti per cercare font TrueType.
 type: docs
 weight: 90
 url: /it/net/groupdocs.viewer.fonts/fontsettings/
 ---
 ## FontSettings class
 
-Fornisce metodi per lavorare con le fonti per cercare i font TrueType.
+Fornisce metodi per lavorare con le fonti per cercare font TrueType.
 
 ```csharp
 public static class FontSettings
@@ -18,8 +18,8 @@ public static class FontSettings
 
 | Nome | Descrizione |
 | --- | --- |
-| static [ResetFontSources](../../groupdocs.viewer.fonts/fontsettings/resetfontsources)() | Reimposta le origini dei caratteri che sono state impostate in precedenza. |
-| static [SetFontSources](../../groupdocs.viewer.fonts/fontsettings/setfontsources)(params IFontSource[]) | Imposta le sorgenti per cercare i font TrueType durante il rendering dei documenti. |
+| static [ResetFontSources](../../groupdocs.viewer.fonts/fontsettings/resetfontsources)() | Ripristina le origini dei caratteri impostate in precedenza. |
+| static [SetFontSources](../../groupdocs.viewer.fonts/fontsettings/setfontsources)(params IFontSource[]) | Imposta le fonti per cercare i font TrueType durante il rendering dei documenti. |
 
 ### Guarda anche
 

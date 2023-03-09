@@ -3,7 +3,7 @@ title: POTM
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: PowerPoint Open XML MacroEnabled Presentation Template .potm sont des fichiers de modèle Microsoft PowerPoint prenant en charge les macros. Les fichiers POTM sont créés avec PowerPoint 2007 ou supérieur et contiennent des paramètres par défaut qui peuvent être utilisés pour créer dautres fichiers de présentation. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/presentation/potm .
 type: docs
-weight: 1100
+weight: 1150
 url: /fr/net/groupdocs.viewer/filetype/potm/
 ---
 ## FileType.POTM field

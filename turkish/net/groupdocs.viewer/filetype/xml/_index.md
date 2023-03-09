@@ -3,7 +3,7 @@ title: XML
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: XML Dosyası .xml
 type: docs
-weight: 1820
+weight: 1870
 url: /tr/net/groupdocs.viewer/filetype/xml/
 ---
 ## FileType.XML field

@@ -18,21 +18,22 @@ public sealed class Layer : IEquatable<Layer>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Layer](layer#constructor)(string) | Initialisiert eine neue Instanz von[`Layer`](../layer) Klasse. |
-| [Layer](layer#constructor_1)(string, bool) | Initialisiert eine neue Instanz von[`Layer`](../layer) Klasse. |
+| [Layer](layer#constructor)() | Initialisiert eine neue Instanz von[`Layer`](../layer) Klasse. |
+| [Layer](layer#constructor_1)(string) | Initialisiert eine neue Instanz von[`Layer`](../layer) Klasse. |
+| [Layer](layer#constructor_2)(string, bool) | Initialisiert eine neue Instanz von[`Layer`](../layer) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Name](../../groupdocs.viewer.results/layer/name) { get; } | Der Name der Ebene. |
-| [Visible](../../groupdocs.viewer.results/layer/visible) { get; } | Der Layer-Sichtbarkeitsindikator. |
+| [Name](../../groupdocs.viewer.results/layer/name) { get; set; } | Der Name der Ebene. |
+| [Visible](../../groupdocs.viewer.results/layer/visible) { get; set; } | Der Layer-Sichtbarkeitsindikator. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Bestimmt, ob der Strom[`Layer`](../layer)ist genauso wie angegeben[`Layer`](../layer) Objekt. |
+| [Equals](../../groupdocs.viewer.results/layer/equals#equals)(Layer) | Bestimmt, ob der Strom[`Layer`](../layer) ist genauso wie angegeben[`Layer`](../layer) Objekt. |
 | override [Equals](../../groupdocs.viewer.results/layer/equals#equals_1)(object) | Bestimmt, ob der Strom[`Layer`](../layer) ist das gleiche wie das angegebene Objekt. |
 | override [GetHashCode](../../groupdocs.viewer.results/layer/gethashcode)() | Gibt den Hash-Code für den Strom zurück[`Layer`](../layer) Objekt. |
 | override [ToString](../../groupdocs.viewer.results/layer/tostring)() | Gibt eine Zeichenfolge zurück, die das aktuelle Objekt darstellt. |

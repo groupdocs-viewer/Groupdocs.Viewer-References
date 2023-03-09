@@ -1,14 +1,14 @@
 ---
 title: DWT
 second_title: GroupDocs.Viewer for .NET API 参考
-description: AutoCAD 工程图模板 .dwt 是一个 AutoCAD 工程图模板文件用作创建可保存为 DWG 文件的工程图的起始文件 了解有关此文件格式的详细信息这里https//wiki.fileformat.com/cad/dwt
+description: AutoCAD 绘图模板 .dwt 是一种 AutoCAD 绘图模板文件用作创建可另存为 DWG 文件的绘图的起始文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/cad/dwt
 type: docs
-weight: 360
+weight: 390
 url: /zh/net/groupdocs.viewer/filetype/dwt/
 ---
 ## FileType.DWT field
 
-AutoCAD 工程图模板 (.dwt) 是一个 AutoCAD 工程图模板文件，用作创建可保存为 DWG 文件的工程图的起始文件。 了解有关此文件格式的详细信息[这里](https://wiki.fileformat.com/cad/dwt)
+AutoCAD 绘图模板 (.dwt) 是一种 AutoCAD 绘图模板文件，用作创建可另存为 DWG 文件的绘图的起始文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/cad/dwt)
 
 ```csharp
 public static readonly FileType DWT;

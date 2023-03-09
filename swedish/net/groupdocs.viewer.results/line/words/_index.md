@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/line/words/
 Orden som raden innehåller.
 
 ```csharp
-public IList<Word> Words { get; }
+public List<Word> Words { get; set; }
 ```
 
 ### Se även

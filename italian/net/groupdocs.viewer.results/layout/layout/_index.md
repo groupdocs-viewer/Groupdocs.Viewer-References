@@ -1,14 +1,30 @@
 ---
 title: Layout
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diLayoutgroupdocs.viewer.results/layout classe.
+description: Inizializza una nuova istanza diLayoutgroupdocs.viewer.results/layout classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/layout/layout/
 ---
-## Layout constructor
+## Layout() {#constructor}
 
-Inizializza la nuova istanza di[`Layout`](../../layout) classe.
+Inizializza una nuova istanza di[`Layout`](../../layout) classe.
+
+```csharp
+public Layout()
+```
+
+### Guarda anche
+
+* class [Layout](../../layout)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../layout)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## Layout(string, float, float) {#constructor_1}
+
+Inizializza una nuova istanza di[`Layout`](../../layout) classe.
 
 ```csharp
 public Layout(string name, float width, float height)

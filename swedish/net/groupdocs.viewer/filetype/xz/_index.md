@@ -3,7 +3,7 @@ title: XZ
 second_title: GroupDocs.Viewer för .NET API-referens
 description: XZfil .xz är arkivkomprimerad en komprimeringsalgoritm med hög kvot baserad på LZMAalgoritmen. Läs mer om detta filformathärhttps//fileinfo.com/extension/xz .
 type: docs
-weight: 1840
+weight: 1890
 url: /sv/net/groupdocs.viewer/filetype/xz/
 ---
 ## FileType.XZ field

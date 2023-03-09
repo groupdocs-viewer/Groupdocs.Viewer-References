@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/layout/name/
 布局的名称。
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### 也可以看看

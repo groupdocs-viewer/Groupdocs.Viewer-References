@@ -3,7 +3,7 @@ title: LOG
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Günlük Dosyası .log
 type: docs
-weight: 750
+weight: 800
 url: /tr/net/groupdocs.viewer/filetype/log/
 ---
 ## FileType.LOG field

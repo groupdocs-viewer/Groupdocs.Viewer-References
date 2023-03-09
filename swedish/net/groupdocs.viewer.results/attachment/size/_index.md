@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/attachment/size/
 Bifogad filstorlek i byte.
 
 ```csharp
-public long Size { get; }
+public long Size { get; set; }
 ```
 
 ### Se även

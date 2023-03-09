@@ -1,14 +1,14 @@
 ---
 title: GROOVY
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: File di codice sorgente Groovy .groovy
+description: File codice sorgente Groovy .groovy
 type: docs
-weight: 500
+weight: 540
 url: /it/net/groupdocs.viewer/filetype/groovy/
 ---
 ## FileType.GROOVY field
 
-File di codice sorgente Groovy (.groovy)
+File codice sorgente Groovy (.groovy)
 
 ```csharp
 public static readonly FileType GROOVY;

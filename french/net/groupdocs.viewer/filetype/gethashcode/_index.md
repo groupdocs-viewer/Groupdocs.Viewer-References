@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Renvoie le code de hachage pour le courantFileTypegroupdocs.viewer/filetype objet.
 type: docs
-weight: 1940
+weight: 1990
 url: /fr/net/groupdocs.viewer/filetype/gethashcode/
 ---
 ## FileType.GetHashCode method

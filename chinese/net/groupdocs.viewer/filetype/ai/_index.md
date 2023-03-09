@@ -3,7 +3,7 @@ title: AI
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Adobe Illustrator .ai 是一种用于 Adobe Illustrator 绘图的文件格式 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/aiadobe_illustrator_file
 type: docs
-weight: 10
+weight: 20
 url: /zh/net/groupdocs.viewer/filetype/ai/
 ---
 ## FileType.AI field

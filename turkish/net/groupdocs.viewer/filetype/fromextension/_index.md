@@ -3,7 +3,7 @@ title: FromExtension
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Dosya uzantısını dosya türüyle eşler.
 type: docs
-weight: 1870
+weight: 1920
 url: /tr/net/groupdocs.viewer/filetype/fromextension/
 ---
 ## FileType.FromExtension method

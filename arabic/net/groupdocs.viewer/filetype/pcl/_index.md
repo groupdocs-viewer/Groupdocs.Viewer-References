@@ -3,7 +3,7 @@ title: PCL
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: مستند لغة أوامر الطابعة .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /ar/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field

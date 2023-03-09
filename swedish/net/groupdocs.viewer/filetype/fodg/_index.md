@@ -3,7 +3,7 @@ title: FODG
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Platt XML ODFmall .fodg används av Apache OpenOffices Drawapplikation för att lagra ritelement som en vektorbild. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/fodg .
 type: docs
-weight: 460
+weight: 500
 url: /sv/net/groupdocs.viewer/filetype/fodg/
 ---
 ## FileType.FODG field

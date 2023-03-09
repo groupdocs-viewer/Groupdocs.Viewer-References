@@ -8,7 +8,7 @@ url: /tr/net/groupdocs.viewer.options/watermark/position/
 ---
 ## Watermark.Position property
 
-Filigran konumu. Varsayılan değerDiagonal .
+Filigran konumu. Varsayılan değer:Diagonal .
 
 ```csharp
 public Position Position { get; set; }

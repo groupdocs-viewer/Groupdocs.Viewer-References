@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/cadviewinfo/layers/
 La lista de capas contenidas en el dibujo CAD.
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### Ver también

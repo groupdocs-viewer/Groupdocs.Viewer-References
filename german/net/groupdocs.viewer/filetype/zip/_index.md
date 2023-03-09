@@ -1,14 +1,14 @@
 ---
 title: ZIP
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Gezippte Datei .zip stellt Archive dar die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/compression/zip .
+description: Gezippte Datei .zip stellt Archive dar die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/compression/zip .
 type: docs
-weight: 1860
+weight: 1910
 url: /de/net/groupdocs.viewer/filetype/zip/
 ---
 ## FileType.ZIP field
 
-Gezippte Datei (.zip) stellt Archive dar, die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/compression/zip) .
+Gezippte Datei (.zip) stellt Archive dar, die eine oder mehrere Dateien oder Verzeichnisse enthalten können. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/compression/zip) .
 
 ```csharp
 public static readonly FileType ZIP;

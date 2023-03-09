@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/resource/resource/
 ---
-## Resource constructor
+## Resource() {#constructor}
+
+إنشاء مثيل جديد من[`Resource`](../../resource) فئة .
+
+```csharp
+public Resource()
+```
+
+### أنظر أيضا
+
+* class [Resource](../../resource)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../resource)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Resource(string, bool) {#constructor_1}
 
 إنشاء مثيل جديد من[`Resource`](../../resource) فئة .
 

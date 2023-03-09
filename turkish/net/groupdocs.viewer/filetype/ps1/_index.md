@@ -1,14 +1,14 @@
 ---
 title: PS1
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: PowerShell komut dosyası dosyası .ps1 Windows PowerShell Cmdlet dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/ps1 .
+description: PowerShell komut dosyası dosyası .ps1 Windows PowerShell Cmdlet dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/ps1 .
 type: docs
-weight: 1200
+weight: 1250
 url: /tr/net/groupdocs.viewer/filetype/ps1/
 ---
 ## FileType.PS1 field
 
-PowerShell komut dosyası dosyası (.ps1), Windows PowerShell Cmdlet dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/ps1) .
+PowerShell komut dosyası dosyası (.ps1), Windows PowerShell Cmdlet dosyaları için bir dosya biçimidir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/ps1) .
 
 ```csharp
 public static readonly FileType PS1;

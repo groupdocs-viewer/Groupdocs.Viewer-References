@@ -1,14 +1,14 @@
 ---
 title: OTT
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: OpenDocument Document Template .ott stellt Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/wordprocessing/ott .
+description: OpenDocument Document Template .ott stellt Vorlagendokumente dar die von Anwendungen in Übereinstimmung mit dem OpenDocumentStandardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 1010
+weight: 1060
 url: /de/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field
 
-OpenDocument Document Template (.ott) stellt Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/word-processing/ott) .
+OpenDocument Document Template (.ott) stellt Vorlagendokumente dar, die von Anwendungen in Übereinstimmung mit dem OpenDocument-Standardformat von OASIS generiert wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/word-processing/ott) .
 
 ```csharp
 public static readonly FileType OTT;

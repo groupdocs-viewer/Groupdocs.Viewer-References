@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /sv/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
 Initierar ny instans av[`Line`](../../line) class.
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### Se även
+
+* class [Line](../../line)
+* namnutrymme [GroupDocs.Viewer.Results](../../line)
+* hopsättning [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+Initierar ny instans av[`Line`](../../line) class.
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | Parameter | Typ | Beskrivning |
@@ -21,7 +37,7 @@ public Line(string line, double x, double y, double width, double height, IList<
 | y | Double | Y-koordinaten för den högsta vänstra punkten på sidlayouten där rektangeln som innehåller linjen börjar. |
 | width | Double | Bredden på rektangeln som innehåller linjen (i pixlar). |
 | height | Double | Höjden på rektangeln som innehåller linjen (i pixlar). |
-| words | IList`1 | Orden som raden innehåller. |
+| words | List`1 | Orden som raden innehåller. |
 
 ### Undantag
 

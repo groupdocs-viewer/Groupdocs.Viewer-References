@@ -3,7 +3,7 @@ title: CPP
 second_title: Riferimento API GroupDocs.Viewer per .NET
 description: File codice sorgente C .cpp
 type: docs
-weight: 170
+weight: 190
 url: /it/net/groupdocs.viewer/filetype/cpp/
 ---
 ## FileType.CPP field

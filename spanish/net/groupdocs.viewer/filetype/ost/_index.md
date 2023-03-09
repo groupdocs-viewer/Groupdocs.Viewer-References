@@ -3,7 +3,7 @@ title: OST
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El archivo de datos sin conexión de Outlook .ost representa los datos del buzón del usuario en modo sin conexión en la máquina local al registrarse con Exchange Server usando Microsoft Outlook. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/email/ost .
 type: docs
-weight: 970
+weight: 1020
 url: /es/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field

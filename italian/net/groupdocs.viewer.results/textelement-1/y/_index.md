@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/textelement-1/y/
 La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento.
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### Guarda anche

@@ -1,14 +1,14 @@
 ---
 title: TGA
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Truevision TGA Truevision Advanced Raster Adapter  TARGA 用于存储由 TRUEVISION 开发的位图数字图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/tga
+description: Truevision TGATruevision Advanced Raster Adapter  TARGA用于存储由 TRUEVISION 开发的位图数字图像 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/tga
 type: docs
-weight: 1470
+weight: 1520
 url: /zh/net/groupdocs.viewer/filetype/tga/
 ---
 ## FileType.TGA field
 
-Truevision TGA (Truevision Advanced Raster Adapter - TARGA) 用于存储由 TRUEVISION 开发的位图数字图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/tga)
+Truevision TGA（Truevision Advanced Raster Adapter - TARGA）用于存储由 TRUEVISION 开发的位图数字图像。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/tga)
 
 ```csharp
 public static readonly FileType TGA;

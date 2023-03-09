@@ -1,14 +1,14 @@
 ---
 title: FODP
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: OpenDocument Presentation .fodp steht für OpenDocument Flat XML Presentation. Erfahren Sie mehr über dieses Dateiformathierhttps//fileinfo.com/extension/fodp .
+description: OpenDocument Presentation .fodp steht für OpenDocument Flat XML Presentation. Erfahren Sie mehr über dieses DateiformatHierhttps//fileinfo.com/extension/fodp .
 type: docs
-weight: 470
+weight: 510
 url: /de/net/groupdocs.viewer/filetype/fodp/
 ---
 ## FileType.FODP field
 
-OpenDocument Presentation (.fodp) steht für OpenDocument Flat XML Presentation. Erfahren Sie mehr über dieses Dateiformat[hier](https://fileinfo.com/extension/fodp) .
+OpenDocument Presentation (.fodp) steht für OpenDocument Flat XML Presentation. Erfahren Sie mehr über dieses Dateiformat[Hier](https://fileinfo.com/extension/fodp) .
 
 ```csharp
 public static readonly FileType FODP;

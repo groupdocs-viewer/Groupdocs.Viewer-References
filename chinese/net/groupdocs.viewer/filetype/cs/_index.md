@@ -3,7 +3,7 @@ title: CS
 second_title: GroupDocs.Viewer for .NET API 参考
 description: C 源代码文件 .cs 是 C 编程语言的源代码文件由 Microsoft 引入用于 .NET Framework 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/programming/cs
 type: docs
-weight: 180
+weight: 200
 url: /zh/net/groupdocs.viewer/filetype/cs/
 ---
 ## FileType.CS field

@@ -12,25 +12,25 @@ Lo spazio dei nomi fornisce classi per specificare opzioni aggiuntive durante il
 
 | Classe | Descrizione |
 | --- | --- |
-| [ArchiveOptions](./archiveoptions) | Fornisce le opzioni per il rendering dei file di archivio. |
-| [BaseViewOptions](./baseviewoptions) | Fornisce le opzioni di rendering di base. |
+| [ArchiveOptions](./archiveoptions) | Fornisce opzioni per il rendering dei file di archivio. |
+| [BaseViewOptions](./baseviewoptions) | Fornisce opzioni di rendering di base. |
 | [CadOptions](./cadoptions) | Fornisce opzioni per il rendering di disegni CAD. |
-| [EmailOptions](./emailoptions) | Fornisce le opzioni per il rendering dei messaggi di posta elettronica. |
+| [EmailOptions](./emailoptions) | Fornisce opzioni per il rendering dei messaggi e-mail. |
 | [Field](./field) | Rappresenta il campo del messaggio e-mail, ad esempio Da, A, Oggetto ecc. |
 | [FileName](./filename) | Il nome del file. |
 | [HtmlViewOptions](./htmlviewoptions) | Fornisce opzioni per il rendering dei documenti in formato HTML. |
 | [JpgViewOptions](./jpgviewoptions) | Fornisce opzioni per il rendering dei documenti in formato JPG. |
 | [LoadOptions](./loadoptions) | Fornisce le opzioni utilizzate per aprire il file. |
-| [MailStorageOptions](./mailstorageoptions) | Fornisce le opzioni per il rendering dei file di dati di archiviazione della posta (Lotus Notes, MBox). |
+| [MailStorageOptions](./mailstorageoptions) | Fornisce opzioni per il rendering dei file di dati dell'archivio di posta (Lotus Notes, MBox). |
 | [OutlookOptions](./outlookoptions) | Fornisce opzioni per il rendering dei file di dati di Outlook. |
 | [PdfOptions](./pdfoptions) | Fornisce opzioni per il rendering di documenti PDF. |
 | [PdfViewOptions](./pdfviewoptions) | Fornisce opzioni per il rendering dei documenti in formato PDF. |
-| [PngViewOptions](./pngviewoptions) | Fornisce opzioni per il rendering di documenti in formato PNG. |
-| [PresentationOptions](./presentationoptions) | Fornisce le opzioni per il rendering delle opzioni di presentazione. |
+| [PngViewOptions](./pngviewoptions) | Fornisce opzioni per il rendering dei documenti in formato PNG. |
+| [PresentationOptions](./presentationoptions) | Fornisce opzioni per il rendering delle opzioni di presentazione. |
 | [ProjectManagementOptions](./projectmanagementoptions) | Fornisce opzioni per il rendering dei file di gestione del progetto. |
 | [Resolution](./resolution) | Fornisce l'opzione per impostare la risoluzione per le immagini nel documento di output. |
-| [Security](./security) | Fornisce opzioni di sicurezza per i documenti PDF. |
-| [Size](./size) | Dimensioni filigrana. |
+| [Security](./security) | Fornisce opzioni di protezione dei documenti PDF. |
+| [Size](./size) | Dimensione filigrana. |
 | [SpreadsheetOptions](./spreadsheetoptions) | Fornisce opzioni per il rendering dei fogli di calcolo. |
 | [TextOptions](./textoptions) | Opzioni di suddivisione dei file di testo in pagine. |
 | [Tile](./tile) | Rappresenta l'area del disegno. |

@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/pdfviewinfo/printingallowed/
 Belgenin yazdırılmasına izin verilip verilmediğini gösterir.
 
 ```csharp
-public bool PrintingAllowed { get; }
+public bool PrintingAllowed { get; set; }
 ```
 
 ### Ayrıca bakınız

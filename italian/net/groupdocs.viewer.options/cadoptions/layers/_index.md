@@ -16,7 +16,7 @@ public IList<Layer> Layers { get; set; }
 
 ### Osservazioni
 
-Per impostazione predefinita, tutti i livelli vengono visualizzati; I nomi dei livelli fanno distinzione tra maiuscole e minuscole.
+Per impostazione predefinita, viene eseguito il rendering di tutti i livelli; I nomi dei livelli fanno distinzione tra maiuscole e minuscole.
 
 ### Guarda anche
 

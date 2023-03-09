@@ -3,7 +3,7 @@ title: FileType
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Açılacak dosyanın türü.
 type: docs
-weight: 30
+weight: 40
 url: /tr/net/groupdocs.viewer.options/loadoptions/filetype/
 ---
 ## LoadOptions.FileType property

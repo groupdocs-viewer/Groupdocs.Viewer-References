@@ -3,7 +3,7 @@ title: OTS
 second_title: GroupDocs.Viewer för .NET API-referens
 description: OpenDocument Spreadsheet Mall .ots
 type: docs
-weight: 1000
+weight: 1050
 url: /sv/net/groupdocs.viewer/filetype/ots/
 ---
 ## FileType.OTS field

@@ -3,7 +3,7 @@ title: PCL
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Документ языка управления принтером .pcl
 type: docs
-weight: 1030
+weight: 1080
 url: /ru/net/groupdocs.viewer/filetype/pcl/
 ---
 ## FileType.PCL field

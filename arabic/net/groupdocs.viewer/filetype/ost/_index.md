@@ -3,7 +3,7 @@ title: OST
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف بيانات Outlook Offline .ost يمثل بيانات صندوق بريد المستخدم في وضع عدم الاتصال على الجهاز المحلي عند التسجيل مع Exchange Server باستخدام Microsoft Outlook. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/email/ost .
 type: docs
-weight: 970
+weight: 1020
 url: /ar/net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field

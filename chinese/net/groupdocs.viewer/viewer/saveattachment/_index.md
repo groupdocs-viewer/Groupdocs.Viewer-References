@@ -25,15 +25,15 @@ public void SaveAttachment(Attachment attachment, Stream destination,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*attachment*一片空白。 |
-| ArgumentNullException | 何时抛出*destination*一片空白。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*attachment*一片空白。 |
+| ArgumentNullException | 抛出时*destination*一片空白。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 找不到附件时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 了解有关在 C# 中获取文档附件的更多信息： [如何使用 GroupDocs.Viewer 获取文档附件列表](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * 了解有关在 C# 中保存文档附件的更多信息： [如何使用 GroupDocs.Viewer 保存文档附件](https://docs.groupdocs.com/display/viewernet/Save+attachments)
@@ -64,15 +64,15 @@ public void SaveAttachment(Attachment attachment, Stream destination)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 何时抛出*attachment*一片空白。 |
-| ArgumentNullException | 何时抛出*destination*一片空白。 |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当需要密码才能打开文档时抛出。 |
+| ArgumentNullException | 抛出时*attachment*一片空白。 |
+| ArgumentNullException | 抛出时*destination*一片空白。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出。 |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出。 |
 | [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 找不到附件时抛出。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 了解有关在 C# 中获取文档附件的更多信息： [如何使用 GroupDocs.Viewer 获取文档附件列表](https://docs.groupdocs.com/display/viewernet/Get+attachments)
 * 了解有关在 C# 中保存文档附件的更多信息： [如何使用 GroupDocs.Viewer 保存文档附件](https://docs.groupdocs.com/display/viewernet/Save+attachments)

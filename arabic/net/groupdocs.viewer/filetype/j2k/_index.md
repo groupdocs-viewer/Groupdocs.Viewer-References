@@ -3,7 +3,7 @@ title: J2K
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: JPEG 2000 Code Stream .j2k هي صورة يتم ضغطها باستخدام ضغط الموجة بدلاً من ضغط DCT . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/j2k .
 type: docs
-weight: 630
+weight: 670
 url: /ar/net/groupdocs.viewer/filetype/j2k/
 ---
 ## FileType.J2K field

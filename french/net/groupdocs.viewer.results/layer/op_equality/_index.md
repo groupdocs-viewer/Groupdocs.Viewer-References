@@ -16,12 +16,12 @@ public static bool operator ==(Layer left, Layer right)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| left | Layer | La gauche[`Layer`](../../layer) objet. |
-| right | Layer | Droit[`Layer`](../../layer) objet. |
+| left | Layer | Gauche[`Layer`](../../layer) objet. |
+| right | Layer | Droite[`Layer`](../../layer) objet. |
 
 ### Return_Value
 
-si les deux[`Layer`](../../layer) les objets sont les mêmes; Par ailleurs,
+si les deux[`Layer`](../../layer) les objets sont les mêmes; sinon,
 
 ```csharp
 true

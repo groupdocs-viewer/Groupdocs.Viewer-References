@@ -18,16 +18,16 @@ public class CadViewInfo : ViewInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | Initierar ny instans av[`CadViewInfo`](../cadviewinfo) class. |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | Initierar ny instans av[`CadViewInfo`](../cadviewinfo) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Typen av fil. |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | Listan över lager som ingår i CAD-ritningen. |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | Listan över layouter som finns i CAD-ritningen. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Listan över sidor att visa. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Typen av fil. |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | Listan över lager som ingår i CAD-ritningen. |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | Listan över layouter som finns i CAD-ritningen. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Listan över sidor att visa. |
 
 ## Metoder
 

@@ -3,7 +3,7 @@ title: NUMBERS
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Числа Apple представляют Excel как двоичный формат файла. Такие файлы могут быть созданы приложением номеров Apple. Узнайте больше об этом формате файлаздесьhttps//fileinfo.com/extension/numbers .
 type: docs
-weight: 900
+weight: 950
 url: /ru/net/groupdocs.viewer/filetype/numbers/
 ---
 ## FileType.NUMBERS field

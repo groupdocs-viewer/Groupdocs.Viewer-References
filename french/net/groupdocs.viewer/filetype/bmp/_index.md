@@ -3,7 +3,7 @@ title: BMP
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Bitmap Image File .bmp est utilisé pour stocker des images numériques bitmap. Ces images sont indépendantes de la carte graphique et sont également appelées format de fichier bitmap indépendant du périphérique DIB. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/bmp .
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/groupdocs.viewer/filetype/bmp/
 ---
 ## FileType.BMP field

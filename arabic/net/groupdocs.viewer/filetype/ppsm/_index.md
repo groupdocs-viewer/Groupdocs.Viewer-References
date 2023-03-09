@@ -3,7 +3,7 @@ title: PPSM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: PowerPoint Open XML MacroEnabled Slide .ppsm يمثل تنسيق ملف عرض الشرائح الذي تم تمكينه بماكرو والذي تم إنشاؤه باستخدام Microsoft PowerPoint 2007 أو أعلى . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/presentation/ppsm .
 type: docs
-weight: 1130
+weight: 1180
 url: /ar/net/groupdocs.viewer/filetype/ppsm/
 ---
 ## FileType.PPSM field

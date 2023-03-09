@@ -1,17 +1,42 @@
 ---
 title: RenderToSinglePage
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: HTML içeriğinin tek sayfaya dönüştürülmesini etkinleştirir
+description: Belgenin tamamını tek bir HTML dosyasına dönüştürmeyi etkinleştirir.
 type: docs
 weight: 120
 url: /tr/net/groupdocs.viewer.options/htmlviewoptions/rendertosinglepage/
 ---
 ## HtmlViewOptions.RenderToSinglePage property
 
-HTML içeriğinin tek sayfaya dönüştürülmesini etkinleştirir
+Belgenin tamamını tek bir HTML dosyasına dönüştürmeyi etkinleştirir.
 
 ```csharp
 public bool RenderToSinglePage { get; set; }
+```
+
+### Notlar
+
+**Daha fazla bilgi için aşağıdaki konulara bakın:**
+
+* [Arşivleri HTML, PDF ve resim dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-archive-files/#create-a-single-html-page)
+* [Metin belgelerini HTML, PDF ve görüntü dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-text-files/#create-a-single-html-page)
+* [Excel ve Apple Numbers elektronik tablolarını HTML, PDF ve görüntü dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file)
+* [Excel ve Apple Numbers elektronik tablolarını HTML, PDF ve görüntü dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file)
+* [Web belgelerini PDF, PNG ve JPEG dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-web-documents/#create-an-html-file-with-embedded-resources)
+
+### Örnekler
+
+Örnek, bu seçeneğin tipik bir kullanımını göstermektedir.
+
+```csharp
+using (Viewer viewer = new Viewer("invoice.docx"))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+    viewOptions.RenderToSinglePage = true;
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### Ayrıca bakınız

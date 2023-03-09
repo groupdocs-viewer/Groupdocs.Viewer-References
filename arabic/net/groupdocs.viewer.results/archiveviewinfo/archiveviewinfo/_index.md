@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/archiveviewinfo/archiveviewinfo/
 ---
-## ArchiveViewInfo constructor
+## ArchiveViewInfo() {#constructor}
 
 تهيئة مثيل جديد لـ[`ArchiveViewInfo`](../../archiveviewinfo) فئة .
 
 ```csharp
-public ArchiveViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public ArchiveViewInfo()
+```
+
+### أنظر أيضا
+
+* class [ArchiveViewInfo](../../archiveviewinfo)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../archiveviewinfo)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## ArchiveViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+تهيئة مثيل جديد لـ[`ArchiveViewInfo`](../../archiveviewinfo) فئة .
+
+```csharp
+public ArchiveViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | fileType | FileType | نوع الملف. |
-| pages | IList`1 | قائمة الصفحات لعرضها. |
-| folders | IList`1 | قائمة المجلدات التي يحتوي عليها ملف الأرشيف. |
+| pages | List`1 | قائمة الصفحات لعرضها. |
+| folders | List`1 | قائمة المجلدات التي يحتوي عليها ملف الأرشيف. |
 
 ### استثناءات
 

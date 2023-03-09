@@ -1,14 +1,14 @@
 ---
 title: DNG
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Dijital Negatif Spesifikasyonu .dng ham dosyaların depolanması için kullanılan bir dijital kamera görüntü formatıdır. Eylül 2004te Adobe tarafından geliştirilmiştir. Temel olarak dijital fotoğrafçılık için geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/dng .
+description: Dijital Negatif Spesifikasyonu .dng ham dosyaların depolanması için kullanılan bir dijital kamera görüntü formatıdır. Eylül 2004te Adobe tarafından geliştirilmiştir. Temel olarak dijital fotoğrafçılık için geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/dng .
 type: docs
-weight: 270
+weight: 290
 url: /tr/net/groupdocs.viewer/filetype/dng/
 ---
 ## FileType.DNG field
 
-Dijital Negatif Spesifikasyonu (.dng), ham dosyaların depolanması için kullanılan bir dijital kamera görüntü formatıdır. Eylül 2004'te Adobe tarafından geliştirilmiştir. Temel olarak dijital fotoğrafçılık için geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/dng) .
+Dijital Negatif Spesifikasyonu (.dng), ham dosyaların depolanması için kullanılan bir dijital kamera görüntü formatıdır. Eylül 2004'te Adobe tarafından geliştirilmiştir. Temel olarak dijital fotoğrafçılık için geliştirilmiştir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/dng) .
 
 ```csharp
 public static readonly FileType DNG;

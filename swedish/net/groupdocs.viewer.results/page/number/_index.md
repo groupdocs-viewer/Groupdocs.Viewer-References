@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/page/number/
 Sidnumret.
 
 ```csharp
-public int Number { get; }
+public int Number { get; set; }
 ```
 
 ### Se även

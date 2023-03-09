@@ -3,7 +3,7 @@ title: DWG
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл базы данных чертежей AutoCAD .dwg представляет собой проприетарные двоичные файлы используемые для хранения данных 2D и 3Dпроектирования. Как и DXF которые являются файлами ASCII DWG представляет собой двоичный формат файла для чертежей CAD автоматизированного проектирования. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/cad/dwg .
 type: docs
-weight: 350
+weight: 380
 url: /ru/net/groupdocs.viewer/filetype/dwg/
 ---
 ## FileType.DWG field

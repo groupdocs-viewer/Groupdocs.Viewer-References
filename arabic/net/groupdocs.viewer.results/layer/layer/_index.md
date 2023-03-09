@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/layer/layer/
 ---
-## Layer(string) {#constructor}
+## Layer() {#constructor}
+
+تهيئة مثيل جديد لـ[`Layer`](../../layer) فئة .
+
+```csharp
+public Layer()
+```
+
+### أنظر أيضا
+
+* class [Layer](../../layer)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../layer)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Layer(string) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`Layer`](../../layer) فئة .
 
@@ -32,7 +48,7 @@ public Layer(string name)
 
 ---
 
-## Layer(string, bool) {#constructor_1}
+## Layer(string, bool) {#constructor_2}
 
 تهيئة مثيل جديد لـ[`Layer`](../../layer) فئة .
 

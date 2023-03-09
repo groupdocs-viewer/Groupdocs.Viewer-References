@@ -19,7 +19,7 @@ public interface IFileStreamFactory
 | 姓名 | 描述 |
 | --- | --- |
 | [CreateFileStream](../../groupdocs.viewer.interfaces/ifilestreamfactory/createfilestream)() | 创建用于写入输出文件数据的流。 |
-| [ReleaseFileStream](../../groupdocs.viewer.interfaces/ifilestreamfactory/releasefilestream)(Stream) | 释放由创建的流[`CreateFileStream`](./createfilestream)方法. |
+| [ReleaseFileStream](../../groupdocs.viewer.interfaces/ifilestreamfactory/releasefilestream)(Stream) | 释放创建的流[`CreateFileStream`](./createfilestream)方法. |
 
 ### 也可以看看
 

@@ -1,14 +1,30 @@
 ---
 title: Resource
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 创建新的实例Resourcegroupdocs.viewer.results/resource类.
+description: 创建新实例Resourcegroupdocs.viewer.results/resource类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/resource/resource/
 ---
-## Resource constructor
+## Resource() {#constructor}
 
-创建新的实例[`Resource`](../../resource)类.
+创建新实例[`Resource`](../../resource)类.
+
+```csharp
+public Resource()
+```
+
+### 也可以看看
+
+* class [Resource](../../resource)
+* 命名空间 [GroupDocs.Viewer.Results](../../resource)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Resource(string, bool) {#constructor_1}
+
+创建新实例[`Resource`](../../resource)类.
 
 ```csharp
 public Resource(string fileName, bool nested)
@@ -17,13 +33,13 @@ public Resource(string fileName, bool nested)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 资源文件名。 |
-| nested | Boolean | 指示资源是否位于另一个资源中，例如位于 CSS 或 SVG 资源中的字体资源。 |
+| nested | Boolean | 指示资源是否驻留在另一个资源中，例如驻留在 CSS 或 SVG 资源中的字体资源。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*fileName*为空或为空。 |
+| ArgumentException | 抛出时*fileName*为 null 或空。 |
 
 ### 也可以看看
 

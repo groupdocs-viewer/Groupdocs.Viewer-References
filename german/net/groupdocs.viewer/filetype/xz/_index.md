@@ -1,14 +1,14 @@
 ---
 title: XZ
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: XZDatei .xz ist archivkomprimiert ein Komprimierungsalgorithmus mit hohem Verhältnis der auf dem LZMAAlgorithmus basiert. Erfahren Sie mehr über dieses Dateiformathierhttps//fileinfo.com/extension/xz .
+description: XZDatei .xz ist archivkomprimiert ein Komprimierungsalgorithmus mit hohem Verhältnis der auf dem LZMAAlgorithmus basiert. Erfahren Sie mehr über dieses DateiformatHierhttps//fileinfo.com/extension/xz .
 type: docs
-weight: 1840
+weight: 1890
 url: /de/net/groupdocs.viewer/filetype/xz/
 ---
 ## FileType.XZ field
 
-XZ-Datei (.xz) ist archivkomprimiert, ein Komprimierungsalgorithmus mit hohem Verhältnis, der auf dem LZMA-Algorithmus basiert. Erfahren Sie mehr über dieses Dateiformat[hier](https://fileinfo.com/extension/xz) .
+XZ-Datei (.xz) ist archivkomprimiert, ein Komprimierungsalgorithmus mit hohem Verhältnis, der auf dem LZMA-Algorithmus basiert. Erfahren Sie mehr über dieses Dateiformat[Hier](https://fileinfo.com/extension/xz) .
 
 ```csharp
 public static readonly FileType XZ;

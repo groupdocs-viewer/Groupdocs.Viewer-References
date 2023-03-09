@@ -3,7 +3,7 @@ title: APNG
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: El gráfico de red portátil animado .apng es una extensión del formato PNG que admite animación. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/apng .
 type: docs
-weight: 20
+weight: 30
 url: /es/net/groupdocs.viewer/filetype/apng/
 ---
 ## FileType.APNG field

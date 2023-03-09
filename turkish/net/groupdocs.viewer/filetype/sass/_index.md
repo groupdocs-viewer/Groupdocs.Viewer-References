@@ -3,7 +3,7 @@ title: SASS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Sözdizimsel Olarak Harika Stil Sayfaları Dosyası .sass
 type: docs
-weight: 1310
+weight: 1360
 url: /tr/net/groupdocs.viewer/filetype/sass/
 ---
 ## FileType.SASS field

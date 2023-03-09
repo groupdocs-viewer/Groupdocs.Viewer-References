@@ -26,7 +26,7 @@ Yeni örneği[`ViewInfoOptions`](../../viewinfooptions) sınıf.
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
 
 ### Ayrıca bakınız
 

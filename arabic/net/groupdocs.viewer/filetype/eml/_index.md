@@ -3,7 +3,7 @@ title: EML
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: رسالة البريد الإلكتروني .eml تمثل رسائل البريد الإلكتروني المحفوظة باستخدام Outlook والتطبيقات الأخرى ذات الصلة. يدعم جميع عملاء البريد الإلكتروني تقريبًا تنسيق الملف هذا لتوافقه مع معيار تنسيق رسائل الإنترنت RFC822. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/email/eml .
 type: docs
-weight: 390
+weight: 420
 url: /ar/net/groupdocs.viewer/filetype/eml/
 ---
 ## FileType.EML field

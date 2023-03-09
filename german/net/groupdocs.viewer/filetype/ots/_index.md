@@ -3,7 +3,7 @@ title: OTS
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: OpenDocumentTabellenvorlage .ots
 type: docs
-weight: 1000
+weight: 1050
 url: /de/net/groupdocs.viewer/filetype/ots/
 ---
 ## FileType.OTS field

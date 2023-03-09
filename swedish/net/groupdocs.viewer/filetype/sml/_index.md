@@ -3,7 +3,7 @@ title: SML
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Standard ML källkodsfil .sml
 type: docs
-weight: 1370
+weight: 1420
 url: /sv/net/groupdocs.viewer/filetype/sml/
 ---
 ## FileType.SML field

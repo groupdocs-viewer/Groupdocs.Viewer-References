@@ -18,17 +18,18 @@ public class Character : TextElement<char>
 
 | Nom | La description |
 | --- | --- |
-| [Character](character)(char, double, double, double, double) | Initialise la nouvelle instance de[`Character`](../character) classe. |
+| [Character](character#constructor)() | Initialise la nouvelle instance de[`Character`](../character) classe. |
+| [Character](character#constructor_1)(char, double, double, double, double) | Initialise la nouvelle instance de[`Character`](../character) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | La hauteur du rectangle qui contient l'élément (en pixels). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | La valeur de l'élément. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | La largeur du rectangle qui contient l'élément (en pixels). |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | Coordonnée X du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | Coordonnée Y du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | La hauteur du rectangle qui contient l'élément (en pixels). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | La valeur de l'élément. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | La largeur du rectangle qui contient l'élément (en pixels). |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | Coordonnée X du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | Coordonnée Y du point le plus haut à gauche de la mise en page où commence le rectangle contenant l'élément. |
 
 ## Méthodes
 

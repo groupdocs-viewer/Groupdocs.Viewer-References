@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: كلمة المرور لفتح الملف المشفر.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

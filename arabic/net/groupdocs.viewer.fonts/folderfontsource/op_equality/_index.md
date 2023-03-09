@@ -16,8 +16,8 @@ public static bool operator ==(FolderFontSource left, FolderFontSource right)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| left | FolderFontSource | اليسار[`FolderFontSource`](../../folderfontsource) هدف. |
-| right | FolderFontSource | الصحيح[`FolderFontSource`](../../folderfontsource) هدف. |
+| left | FolderFontSource | غادر[`FolderFontSource`](../../folderfontsource) هدف. |
+| right | FolderFontSource | يمين[`FolderFontSource`](../../folderfontsource) هدف. |
 
 ### قيمة الإرجاع
 

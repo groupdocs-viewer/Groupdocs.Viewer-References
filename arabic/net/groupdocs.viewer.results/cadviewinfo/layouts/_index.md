@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/cadviewinfo/layouts/
 قائمة التخطيطات التي يحتوي عليها رسم CAD .
 
 ```csharp
-public IList<Layout> Layouts { get; }
+public List<Layout> Layouts { get; set; }
 ```
 
 ### أنظر أيضا

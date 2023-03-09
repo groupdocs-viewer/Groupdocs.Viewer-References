@@ -3,7 +3,7 @@ title: RTF
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Rich Text Format File .rtf représente une méthode dencodage de texte et de graphiques formatés à utiliser dans les applications. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/wordprocessing/rtf .
 type: docs
-weight: 1300
+weight: 1350
 url: /fr/net/groupdocs.viewer/filetype/rtf/
 ---
 ## FileType.RTF field

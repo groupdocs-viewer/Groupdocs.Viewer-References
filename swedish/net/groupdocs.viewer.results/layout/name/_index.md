@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/layout/name/
 Namnet på layouten.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Se även

@@ -1,14 +1,14 @@
 ---
 title: WMZ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Sıkıştırılmış Windows Meta Dosyası .wmz GZIP arşivinde sıkıştırılmış Microsoft Windows Meta Dosyasını WMF temsil eder  vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/wmzcompressed_windows_metafile .
+description: Sıkıştırılmış Windows Meta Dosyası .wmz GZIP arşivinde sıkıştırılmış Microsoft Windows Meta Dosyasını WMF temsil eder  vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/wmzcompressed_windows_metafile .
 type: docs
-weight: 1730
+weight: 1780
 url: /tr/net/groupdocs.viewer/filetype/wmz/
 ---
 ## FileType.WMZ field
 
-Sıkıştırılmış Windows Meta Dosyası (.wmz), GZIP arşivinde sıkıştırılmış Microsoft Windows Meta Dosyasını (WMF) temsil eder - vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/wmz#compressed_windows_metafile) .
+Sıkıştırılmış Windows Meta Dosyası (.wmz), GZIP arşivinde sıkıştırılmış Microsoft Windows Meta Dosyasını (WMF) temsil eder - vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/wmz#compressed_windows_metafile) .
 
 ```csharp
 public static readonly FileType WMZ;

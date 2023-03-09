@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /de/net/groupdocs.viewer.results/layer/layer/
 ---
-## Layer(string) {#constructor}
+## Layer() {#constructor}
+
+Initialisiert eine neue Instanz von[`Layer`](../../layer) Klasse.
+
+```csharp
+public Layer()
+```
+
+### Siehe auch
+
+* class [Layer](../../layer)
+* namensraum [GroupDocs.Viewer.Results](../../layer)
+* Montage [GroupDocs.Viewer](../../../)
+
+---
+
+## Layer(string) {#constructor_1}
 
 Initialisiert eine neue Instanz von[`Layer`](../../layer) Klasse.
 
@@ -32,7 +48,7 @@ public Layer(string name)
 
 ---
 
-## Layer(string, bool) {#constructor_1}
+## Layer(string, bool) {#constructor_2}
 
 Initialisiert eine neue Instanz von[`Layer`](../../layer) Klasse.
 

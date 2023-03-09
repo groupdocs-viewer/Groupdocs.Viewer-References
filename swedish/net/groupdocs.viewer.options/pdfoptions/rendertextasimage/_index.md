@@ -3,7 +3,7 @@ title: RenderTextAsImage
 second_title: GroupDocs.Viewer för .NET API-referens
 description: När det här alternativet är inställt påSann  renderas texten som en bild i utdata HTML. Aktivera det här alternativet för att göra text ovalbar eller för att fixa teckenrendering och få HTML att se ut som PDF. Standardvärdet ärfalsk .
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property

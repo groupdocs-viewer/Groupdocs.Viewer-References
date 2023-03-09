@@ -1,14 +1,14 @@
 ---
 title: CreateFileStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示实例化用于写入输出文件数据的流的方法
+description: 表示实例化stream的方法用于写入输出文件数据
 type: docs
 weight: 120
 url: /zh/net/groupdocs.viewer.interfaces/createfilestream/
 ---
 ## CreateFileStream delegate
 
-表示实例化用于写入输出文件数据的流的方法。
+表示实例化stream的方法，用于写入输出文件数据。
 
 ```csharp
 public delegate Stream CreateFileStream();

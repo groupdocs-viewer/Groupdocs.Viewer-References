@@ -1,14 +1,14 @@
 ---
 title: POT
 second_title: GroupDocs.Viewer for .NET API 参考
-description: PowerPoint 模板 .pot 代表由 PowerPoint 972003 版本创建的 Microsoft PowerPoint 模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pot
+description: PowerPoint 模板 .pot 表示由 PowerPoint 972003 版本创建的 Microsoft PowerPoint 模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/presentation/pot
 type: docs
-weight: 1090
+weight: 1140
 url: /zh/net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field
 
-PowerPoint 模板 (.pot) 代表由 PowerPoint 97-2003 版本创建的 Microsoft PowerPoint 模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pot)
+PowerPoint 模板 (.pot) 表示由 PowerPoint 97-2003 版本创建的 Microsoft PowerPoint 模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/presentation/pot)
 
 ```csharp
 public static readonly FileType POT;

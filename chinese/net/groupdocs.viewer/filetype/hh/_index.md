@@ -3,7 +3,7 @@ title: HH
 second_title: GroupDocs.Viewer for .NET API 参考
 description: C 头文件 .hh
 type: docs
-weight: 550
+weight: 590
 url: /zh/net/groupdocs.viewer/filetype/hh/
 ---
 ## FileType.HH field

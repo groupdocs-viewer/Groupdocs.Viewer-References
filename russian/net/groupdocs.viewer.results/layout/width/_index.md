@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/layout/width/
 Ширина макета.
 
 ```csharp
-public float Width { get; }
+public float Width { get; set; }
 ```
 
 ### Смотрите также

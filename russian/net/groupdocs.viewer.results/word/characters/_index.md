@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/word/characters/
 Символы, содержащиеся в слове.
 
 ```csharp
-public IList<Character> Characters { get; }
+public List<Character> Characters { get; set; }
 ```
 
 ### Смотрите также

@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/layout/name/
 Имя макета.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Смотрите также

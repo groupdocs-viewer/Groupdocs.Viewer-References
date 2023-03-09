@@ -1,14 +1,14 @@
 ---
 title: MPT
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il modello Microsoft Project .mpt contiene informazioni e struttura di base insieme alle impostazioni del documento per la creazione di file .MPP. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/projectmanagement/mpt .
+description: Il modello Microsoft Project .mpt contiene informazioni e struttura di base insieme alle impostazioni del documento per la creazione di file .MPP. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/projectmanagement/mpt .
 type: docs
-weight: 860
+weight: 910
 url: /it/net/groupdocs.viewer/filetype/mpt/
 ---
 ## FileType.MPT field
 
-Il modello Microsoft Project (.mpt) contiene informazioni e struttura di base insieme alle impostazioni del documento per la creazione di file .MPP. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/project-management/mpt) .
+Il modello Microsoft Project (.mpt) contiene informazioni e struttura di base insieme alle impostazioni del documento per la creazione di file .MPP. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/project-management/mpt) .
 
 ```csharp
 public static readonly FileType MPT;

@@ -1,14 +1,14 @@
 ---
 title: Line
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Rappresenta un rettangolo relativamente posizionato che contiene una singola linea.
+description: Rappresenta un rettangolo posizionato relativamente che contiene una singola riga.
 type: docs
 weight: 700
 url: /it/net/groupdocs.viewer.results/line/
 ---
 ## Line class
 
-Rappresenta un rettangolo relativamente posizionato che contiene una singola linea.
+Rappresenta un rettangolo posizionato relativamente che contiene una singola riga.
 
 ```csharp
 public class Line : TextElement<string>
@@ -18,18 +18,19 @@ public class Line : TextElement<string>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Line](line)(string, double, double, double, double, IList&lt;Word&gt;) | Inizializza la nuova istanza di[`Line`](../line) classe. |
+| [Line](line#constructor)() | Inizializza una nuova istanza di[`Line`](../line) classe. |
+| [Line](line#constructor_1)(string, double, double, double, double, List&lt;Word&gt;) | Inizializza una nuova istanza di[`Line`](../line) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | Il valore dell'elemento. |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
-| [Words](../../groupdocs.viewer.results/line/words) { get; } | Le parole contenute nella riga. |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | La coordinata X del punto più alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | L'altezza del rettangolo che contiene l'elemento (in pixel). |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | Il valore dell'elemento. |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | La larghezza del rettangolo che contiene l'elemento (in pixel). |
+| [Words](../../groupdocs.viewer.results/line/words) { get; set; } | Le parole contenute dalla riga. |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | La coordinata X del punto in alto a sinistra del layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | La coordinata Y del punto in alto a sinistra nel layout di pagina in cui inizia il rettangolo che contiene l'elemento. |
 
 ## Metodi
 

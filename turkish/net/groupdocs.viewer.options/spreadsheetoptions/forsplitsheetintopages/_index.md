@@ -16,17 +16,17 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| countRowsPerPage | Int32 | Satırlar, her sayfaya dahil edilecek sayılır. |
+| countRowsPerPage | Int32 | Her sayfaya eklenecek satır sayısı. |
 
 ### Geri dönüş değeri
 
-Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions) Sayfayı sayfalara dönüştürmek için.
+Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions) sayfayı sayfalara dönüştürmek için.
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*countRowsPerPage* eşittir veya sıfırdan küçüktür. |
+| ArgumentException | Ne zaman atıldı*countRowsPerPage* eşittir veya sıfırdan küçüktür. |
 
 ### Ayrıca bakınız
 
@@ -47,19 +47,19 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage,
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| countRowsPerPage | Int32 | Satırlar, her sayfaya dahil edilecek sayılır. |
-| countColumnsPerPage | Int32 | Sütunlar, her sayfaya dahil edilecek sayılır. |
+| countRowsPerPage | Int32 | Her sayfaya eklenecek satır sayısı. |
+| countColumnsPerPage | Int32 | Sütunlar her sayfaya eklenecek sayılır. |
 
 ### Geri dönüş değeri
 
-Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions) Sayfayı sayfalara dönüştürmek için.
+Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions) sayfayı sayfalara dönüştürmek için.
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*countRowsPerPage* eşittir veya sıfırdan küçüktür. |
-| ArgumentException | ne zaman atıldı*countColumnsPerPage* eşittir veya sıfırdan küçüktür. |
+| ArgumentException | Ne zaman atıldı*countRowsPerPage* eşittir veya sıfırdan küçüktür. |
+| ArgumentException | Ne zaman atıldı*countColumnsPerPage* eşittir veya sıfırdan küçüktür. |
 
 ### Ayrıca bakınız
 

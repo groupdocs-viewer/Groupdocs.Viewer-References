@@ -3,7 +3,7 @@ title: MHT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: MHTML Web Arşivi .mht
 type: docs
-weight: 800
+weight: 850
 url: /tr/net/groupdocs.viewer/filetype/mht/
 ---
 ## FileType.MHT field

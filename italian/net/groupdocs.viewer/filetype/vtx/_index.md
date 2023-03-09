@@ -1,14 +1,14 @@
 ---
 title: VTX
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Visio Template XML File .vtx è un modello di disegno di Microsoft Visio che viene salvato su disco in formato file XML. Il modello ha lo scopo di fornire un file con le impostazioni di base che possono essere utilizzate per creare più file Visio con le stesse impostazioni. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vtx .
+description: Visio Template XML File .vtx è un modello di disegno di Microsoft Visio che viene salvato su disco in formato file XML. Il modello ha lo scopo di fornire un file con impostazioni di base che possono essere utilizzate per creare più file Visio con le stesse impostazioni. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vtx .
 type: docs
-weight: 1700
+weight: 1750
 url: /it/net/groupdocs.viewer/filetype/vtx/
 ---
 ## FileType.VTX field
 
-Visio Template XML File (.vtx) è un modello di disegno di Microsoft Visio che viene salvato su disco in formato file XML. Il modello ha lo scopo di fornire un file con le impostazioni di base che possono essere utilizzate per creare più file Visio con le stesse impostazioni. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vtx) .
+Visio Template XML File (.vtx) è un modello di disegno di Microsoft Visio che viene salvato su disco in formato file XML. Il modello ha lo scopo di fornire un file con impostazioni di base che possono essere utilizzate per creare più file Visio con le stesse impostazioni. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vtx) .
 
 ```csharp
 public static readonly FileType VTX;

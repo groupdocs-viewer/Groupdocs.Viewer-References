@@ -3,7 +3,7 @@ title: GROOVY
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Groovy 源代码文件 .groovy
 type: docs
-weight: 500
+weight: 540
 url: /zh/net/groupdocs.viewer/filetype/groovy/
 ---
 ## FileType.GROOVY field

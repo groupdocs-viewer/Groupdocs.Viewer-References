@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/projectmanagementviewinfo/enddate/
 项目完成的日期时间。
 
 ```csharp
-public DateTime EndDate { get; }
+public DateTime EndDate { get; set; }
 ```
 
 ### 也可以看看

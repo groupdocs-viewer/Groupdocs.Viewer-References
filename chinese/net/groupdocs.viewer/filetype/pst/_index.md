@@ -3,7 +3,7 @@ title: PST
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Outlook 个人信息存储文件 .pst 表示存储各种用户信息的 Outlook 个人存储文件也称为个人存储表 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/email/pst
 type: docs
-weight: 1250
+weight: 1300
 url: /zh/net/groupdocs.viewer/filetype/pst/
 ---
 ## FileType.PST field

@@ -3,7 +3,7 @@ title: DCM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Изображение DICOM .dcm представляет собой цифровое изображение в котором хранится медицинская информация о пациентах такая как МРТ компьютерная томография и ультразвуковые изображения. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/dcm .
 type: docs
-weight: 220
+weight: 240
 url: /ru/net/groupdocs.viewer/filetype/dcm/
 ---
 ## FileType.DCM field

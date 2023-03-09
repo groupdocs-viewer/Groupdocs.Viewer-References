@@ -1,14 +1,14 @@
 ---
 title: FullSize
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 适合页面的水印文本的最大大小
+description: 适合页面的最大水印文本大小
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/size/fullsize/
 ---
 ## Size.FullSize field
 
-适合页面的水印文本的最大大小。
+适合页面的最大水印文本大小。
 
 ```csharp
 public static readonly Size FullSize;

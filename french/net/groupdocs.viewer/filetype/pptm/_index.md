@@ -3,7 +3,7 @@ title: PPTM
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: PowerPoint Open XML MacroEnabled Presentation sont des fichiers de présentation prenant en charge les macros qui sont créés avec Microsoft PowerPoint 2007 ou des versions supérieures. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/presentation/pptm .
 type: docs
-weight: 1160
+weight: 1210
 url: /fr/net/groupdocs.viewer/filetype/pptm/
 ---
 ## FileType.PPTM field

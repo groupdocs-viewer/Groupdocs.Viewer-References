@@ -1,14 +1,14 @@
 ---
 title: EnableFontHinting
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Abilita il suggerimento sui caratteri. Il suggerimento sui caratteri regola la visualizzazione di un carattere di contorno. Supportato solo per i caratteri TTF quando questi caratteri vengono utilizzati nel documento di origine.
+description: Abilita i suggerimenti sui caratteri. Il suggerimento sui caratteri regola la visualizzazione di un carattere di contorno. Supportato solo per i caratteri TTF quando questi caratteri sono utilizzati nel documento di origine.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.options/pdfoptions/enablefonthinting/
 ---
 ## PdfOptions.EnableFontHinting property
 
-Abilita il suggerimento sui caratteri. Il suggerimento sui caratteri regola la visualizzazione di un carattere di contorno. Supportato solo per i caratteri TTF quando questi caratteri vengono utilizzati nel documento di origine.
+Abilita i suggerimenti sui caratteri. Il suggerimento sui caratteri regola la visualizzazione di un carattere di contorno. Supportato solo per i caratteri TTF quando questi caratteri sono utilizzati nel documento di origine.
 
 ```csharp
 public bool EnableFontHinting { get; set; }

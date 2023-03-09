@@ -3,7 +3,7 @@ title: POT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب PowerPoint .pot يمثل ملفات قوالب Microsoft PowerPoint التي تم إنشاؤها بواسطة إصدارات PowerPoint 972003. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/presentation/pot .
 type: docs
-weight: 1090
+weight: 1140
 url: /ar/net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field

@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/projectmanagementviewinfo/enddate/
 تاريخ وقت اكتمال المشروع.
 
 ```csharp
-public DateTime EndDate { get; }
+public DateTime EndDate { get; set; }
 ```
 
 ### أنظر أيضا

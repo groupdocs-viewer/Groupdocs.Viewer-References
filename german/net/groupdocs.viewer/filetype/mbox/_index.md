@@ -1,14 +1,14 @@
 ---
 title: MBOX
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: EMailPostfachdatei .mbox Erfahren Sie mehr über dieses Dateiformathierhttps//fileinfo.com/extension/mbox .
+description: EMailPostfachdatei .mbox Erfahren Sie mehr über dieses DateiformatHierhttps//fileinfo.com/extension/mbox .
 type: docs
-weight: 780
+weight: 830
 url: /de/net/groupdocs.viewer/filetype/mbox/
 ---
 ## FileType.MBOX field
 
-E-Mail-Postfachdatei (.mbox) Erfahren Sie mehr über dieses Dateiformat[hier](https://fileinfo.com/extension/mbox) .
+E-Mail-Postfachdatei (.mbox) Erfahren Sie mehr über dieses Dateiformat[Hier](https://fileinfo.com/extension/mbox) .
 
 ```csharp
 public static readonly FileType MBOX;

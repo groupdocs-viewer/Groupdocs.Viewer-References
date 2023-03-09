@@ -3,7 +3,7 @@ title: CMX
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Corel Exchange .cmx är en ritbildsfil som kan innehålla såväl vektorgrafik som bitmappsgrafik. Läs mer om detta filformathärhttps//wiki.fileformat.com/image/cmx .
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/groupdocs.viewer/filetype/cmx/
 ---
 ## FileType.CMX field

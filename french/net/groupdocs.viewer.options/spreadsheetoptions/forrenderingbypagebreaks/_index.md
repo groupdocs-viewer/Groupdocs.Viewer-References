@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### Return_Value
 
-Nouvelle instance de[`SpreadsheetOptions`](../../spreadsheetoptions)pour le rendu par sauts de page. Le comportement similaire à l'impression dans Excel.
+Nouvelle instance de[`SpreadsheetOptions`](../../spreadsheetoptions) pour le rendu par sauts de page. Le comportement similaire à l'impression dans Excel.
 
 ### Voir également
 

@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/page/page/
 ---
-## Page(int, bool) {#constructor}
+## Page() {#constructor}
+
+تهيئة مثيل جديد لـ[`Page`](../../page) فئة .
+
+```csharp
+public Page()
+```
+
+### أنظر أيضا
+
+* class [Page](../../page)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../page)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool) {#constructor_1}
 
 تهيئة مثيل جديد لـ[`Page`](../../page) فئة .
 
@@ -33,7 +49,7 @@ public Page(int number, bool visible)
 
 ---
 
-## Page(int, string, bool) {#constructor_3}
+## Page(int, string, bool) {#constructor_4}
 
 تهيئة مثيل جديد لـ[`Page`](../../page) فئة .
 
@@ -61,7 +77,7 @@ public Page(int number, string name, bool visible)
 
 ---
 
-## Page(int, bool, int, int) {#constructor_1}
+## Page(int, bool, int, int) {#constructor_2}
 
 تهيئة مثيل جديد لـ[`Page`](../../page) فئة .
 
@@ -92,7 +108,7 @@ public Page(int number, bool visible, int width, int height)
 
 ---
 
-## Page(int, string, bool, int, int) {#constructor_4}
+## Page(int, string, bool, int, int) {#constructor_5}
 
 تهيئة مثيل جديد لـ[`Page`](../../page) فئة .
 
@@ -124,12 +140,12 @@ public Page(int number, string name, bool visible, int width, int height)
 
 ---
 
-## Page(int, bool, int, int, IList&lt;Line&gt;) {#constructor_2}
+## Page(int, bool, int, int, List&lt;Line&gt;) {#constructor_3}
 
 تهيئة مثيل جديد لـ[`Page`](../../page) فئة .
 
 ```csharp
-public Page(int number, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, bool visible, int width, int height, List<Line> lines)
 ```
 
 | معامل | يكتب | وصف |
@@ -138,7 +154,7 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 | visible | Boolean | مؤشر رؤية الصفحة. |
 | width | Int32 | عرض الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG. |
 | height | Int32 | ارتفاع الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG. |
-| lines | IList`1 | الأسطر التي تحتويها الصفحة عند عرضها بتنسيق JPG أو PNG مع تمكين استخراج النص. |
+| lines | List`1 | الأسطر التي تحتويها الصفحة عند عرضها بتنسيق JPG أو PNG مع تمكين استخراج النص. |
 
 ### استثناءات
 
@@ -158,12 +174,12 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 
 ---
 
-## Page(int, string, bool, int, int, IList&lt;Line&gt;) {#constructor_5}
+## Page(int, string, bool, int, int, List&lt;Line&gt;) {#constructor_6}
 
 تهيئة مثيل جديد لـ[`Page`](../../page) فئة .
 
 ```csharp
-public Page(int number, string name, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, string name, bool visible, int width, int height, List<Line> lines)
 ```
 
 | معامل | يكتب | وصف |
@@ -173,7 +189,7 @@ public Page(int number, string name, bool visible, int width, int height, IList<
 | visible | Boolean | مؤشر رؤية الصفحة. |
 | width | Int32 | عرض الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG. |
 | height | Int32 | ارتفاع الصفحة بالبكسل عند عرضها بتنسيق JPG أو PNG. |
-| lines | IList`1 | الأسطر التي تحتويها الصفحة عند عرضها بتنسيق JPG أو PNG مع تمكين استخراج النص. |
+| lines | List`1 | الأسطر التي تحتويها الصفحة عند عرضها بتنسيق JPG أو PNG مع تمكين استخراج النص. |
 
 ### استثناءات
 

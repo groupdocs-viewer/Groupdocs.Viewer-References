@@ -24,10 +24,10 @@ public class Watermark
 
 | İsim | Tanım |
 | --- | --- |
-| [Color](../../groupdocs.viewer.options/watermark/color) { get; set; } | Filigran rengi. Varsayılan değerRed . |
+| [Color](../../groupdocs.viewer.options/watermark/color) { get; set; } | Filigran rengi. Varsayılan değer:Red . |
 | [FontName](../../groupdocs.viewer.options/watermark/fontname) { get; set; } | Filigran için kullanılan yazı tipi adı. |
-| [Position](../../groupdocs.viewer.options/watermark/position) { get; set; } | Filigran konumu. Varsayılan değerDiagonal . |
-| [Size](../../groupdocs.viewer.options/watermark/size) { get; set; } | Filigran boyutu. Varsayılan değer[`FullSize`](../size/fullsize) . |
+| [Position](../../groupdocs.viewer.options/watermark/position) { get; set; } | Filigran konumu. Varsayılan değer:Diagonal . |
+| [Size](../../groupdocs.viewer.options/watermark/size) { get; set; } | Filigran boyutu. Varsayılan değer:[`FullSize`](../size/fullsize) . |
 | [Text](../../groupdocs.viewer.options/watermark/text) { get; } | Filigran metni. |
 
 ### Ayrıca bakınız

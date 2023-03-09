@@ -25,7 +25,8 @@ public class LoadOptions
 
 | Nom | La description |
 | --- | --- |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Le codage utilisé lors de l'ouverture de fichiers texte ou d'e-mails tels que[`CSV`](../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../groupdocs.viewer/filetype/txt) , et[`MSG`](../../groupdocs.viewer/filetype/msg) . La valeur par défaut estDefault . |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | Cette option active[`TXT`](../../groupdocs.viewer/filetype/txt) ,[`TSV`](../../groupdocs.viewer/filetype/tsv) , et[`CSV`](../../groupdocs.viewer/filetype/csv)détection de l'encodage des fichiers. Si l'encodage ne peut pas être détecté, la valeur par défaut[`Encoding`](./encoding) est utilisé. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Le codage utilisé lors de l'ouverture de fichiers texte ou d'e-mails tels que [`CSV`](../../groupdocs.viewer/filetype/csv) , [`TXT`](../../groupdocs.viewer/filetype/txt) , et[`MSG`](../../groupdocs.viewer/filetype/msg) . La valeur par défaut estUTF8 . |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | Le type de fichier à ouvrir. |
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | Le mot de passe pour ouvrir le fichier crypté. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | Les ressources externes, par exemple le délai de chargement des graphiques. La valeur par défaut est de 30 secondes. Cette option est prise en charge pour les documents de traitement de texte contenant des ressources externes. |

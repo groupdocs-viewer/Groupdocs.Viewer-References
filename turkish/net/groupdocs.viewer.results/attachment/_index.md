@@ -1,14 +1,14 @@
 ---
 title: Attachment
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Eposta mesajı arşiv PDF belgesi veya Outlook veri dosyasında bulunan ek dosyasını temsil eder.
+description: Eposta mesajı arşiv PDF belgesi veya Outlook veri dosyasının içerdiği ek dosyasını temsil eder.
 type: docs
 weight: 640
 url: /tr/net/groupdocs.viewer.results/attachment/
 ---
 ## Attachment class
 
-E-posta mesajı, arşiv, PDF belgesi veya Outlook veri dosyasında bulunan ek dosyasını temsil eder.
+E-posta mesajı, arşiv, PDF belgesi veya Outlook veri dosyasının içerdiği ek dosyasını temsil eder.
 
 ```csharp
 public class Attachment
@@ -18,19 +18,20 @@ public class Attachment
 
 | İsim | Tanım |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Yeni örneğini başlatır[`Attachment`](../attachment) sınıf. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Yeni örneğini başlatır[`Attachment`](../attachment) sınıf. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Yeni örneğini başlatır[`Attachment`](../attachment) sınıf. |
+| [Attachment](attachment#constructor)() | Yeni örneğini başlatır[`Attachment`](../attachment) sınıf. |
+| [Attachment](attachment#constructor_1)(string, string) | Yeni örneğini başlatır[`Attachment`](../attachment) sınıf. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Yeni örneğini başlatır[`Attachment`](../attachment) sınıf. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Yeni örneğini başlatır[`Attachment`](../attachment) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Ek dosya adı. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Ek göreli yolu örn.klasör/dosya.docx veya dosya bir arşivin kökünde, e-posta mesajında veya veri dosyasında bulunduğunda dosya adı. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Ek dosya türü. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Bu eki içeren tek bir dosya bağlamında ekin benzersiz tanımlayıcısı. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Bayt cinsinden ek dosya boyutu. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Ek dosya adı. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Ek göreli yol örn.klasör/dosya.docx veya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Ek dosya türü. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Bu eki içeren tek bir dosya bağlamında ekin benzersiz tanımlayıcısı. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Bayt cinsinden ek dosya boyutu. |
 
 ## yöntemler
 

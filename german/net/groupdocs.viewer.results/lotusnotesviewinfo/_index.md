@@ -18,15 +18,16 @@ public class LotusNotesViewInfo : ViewInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [LotusNotesViewInfo](lotusnotesviewinfo)(FileType, IList&lt;Page&gt;, int) | Initialisiert eine neue Instanz von[`LotusNotesViewInfo`](../lotusnotesviewinfo) Klasse. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor)() | Initialisiert eine neue Instanz von[`LotusNotesViewInfo`](../lotusnotesviewinfo) Klasse. |
+| [LotusNotesViewInfo](lotusnotesviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | Initialisiert eine neue Instanz von[`LotusNotesViewInfo`](../lotusnotesviewinfo) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Der Typ der Datei. |
-| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; } | Anzahl Notizen im Speicher |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Die Liste der anzuzeigenden Seiten. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Der Typ der Datei. |
+| [NotesCount](../../groupdocs.viewer.results/lotusnotesviewinfo/notescount) { get; set; } | Anzahl Notizen im Speicher |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Die Liste der anzuzeigenden Seiten. |
 
 ## Methoden
 

@@ -1,14 +1,14 @@
 ---
 title: DetectSeparator
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 检测分隔符用于 CSV/TSV 文件
+description: 检测分隔符对于 CSV/TSV 文件
 type: docs
 weight: 70
 url: /zh/net/groupdocs.viewer.options/spreadsheetoptions/detectseparator/
 ---
 ## SpreadsheetOptions.DetectSeparator property
 
-检测分隔符（用于 CSV/TSV 文件）。
+检测分隔符（对于 CSV/TSV 文件）。
 
 ```csharp
 public bool DetectSeparator { get; set; }

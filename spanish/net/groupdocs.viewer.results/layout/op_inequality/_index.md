@@ -17,7 +17,7 @@ public static bool operator !=(Layout left, Layout right)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | left | Layout | Izquierda[`Layout`](../../layout) objeto. |
-| right | Layout | Derecha[`Layout`](../../layout) objeto. |
+| right | Layout | Bien[`Layout`](../../layout) objeto. |
 
 ### Valor_devuelto
 

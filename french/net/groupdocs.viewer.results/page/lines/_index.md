@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/page/lines/
 Les lignes contenues par la page lors de l'affichage au format JPG ou PNG avec l'extraction de texte activée.
 
 ```csharp
-public IList<Line> Lines { get; }
+public List<Line> Lines { get; set; }
 ```
 
 ### Voir également

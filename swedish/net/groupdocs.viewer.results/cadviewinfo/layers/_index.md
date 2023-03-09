@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/cadviewinfo/layers/
 Listan över lager som ingår i CAD-ritningen.
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### Se även

@@ -1,35 +1,51 @@
 ---
 title: Word
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Wordgroupdocs.viewer.results/word类.
+description: 初始化新实例Wordgroupdocs.viewer.results/word类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
 
-初始化的新实例[`Word`](../../word)类.
+初始化新实例[`Word`](../../word)类.
+
+```csharp
+public Word()
+```
+
+### 也可以看看
+
+* class [Word](../../word)
+* 命名空间 [GroupDocs.Viewer.Results](../../word)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
+
+初始化新实例[`Word`](../../word)类.
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | word | String | 这个单词。 |
-| x | Double | 包含单词的矩形开始的页面布局上左最高点的 X 坐标。 |
-| y | Double | 页面布局上左最高点的 Y 坐标，其中包含单词的矩形开始。 |
+| x | Double | 包含单词的矩形开始的页面布局左最高点的 X 坐标。 |
+| y | Double | 包含单词的矩形开始的页面布局上最左点的 Y 坐标。 |
 | width | Double | 包含单词的矩形的宽度。 |
 | height | Double | 包含单词的矩形的高度。 |
-| characters | IList`1 | 单词包含的字符。 |
+| characters | List`1 | 单词包含的字符。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*word*为空或为空。 |
-| ArgumentNullException | 何时抛出*characters*一片空白。 |
+| ArgumentException | 抛出时*word*为 null 或空。 |
+| ArgumentNullException | 抛出时*characters*一片空白。 |
 
 ### 也可以看看
 

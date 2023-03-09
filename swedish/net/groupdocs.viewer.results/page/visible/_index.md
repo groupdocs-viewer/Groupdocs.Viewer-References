@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/page/visible/
 Sidans synlighetsindikator.
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### Se även

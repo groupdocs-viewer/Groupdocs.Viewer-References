@@ -3,7 +3,7 @@ title: XLAM
 second_title: GroupDocs.Viewer for .NET API 参考
 description: Microsoft Excel 加载项 .xlam
 type: docs
-weight: 1740
+weight: 1790
 url: /zh/net/groupdocs.viewer/filetype/xlam/
 ---
 ## FileType.XLAM field

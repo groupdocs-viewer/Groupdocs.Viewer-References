@@ -18,14 +18,14 @@ public class VisioRenderingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VisioRenderingOptions](visiorenderingoptions)() | 初始化的新实例[`VisioRenderingOptions`](../visiorenderingoptions)类. |
+| [VisioRenderingOptions](visiorenderingoptions)() | 初始化新实例[`VisioRenderingOptions`](../visiorenderingoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FigureWidth](../../groupdocs.viewer.options/visiorenderingoptions/figurewidth) { get; set; } | 图形宽度、高度将自动计算。默认值为 100. |
-| [RenderFiguresOnly](../../groupdocs.viewer.options/visiorenderingoptions/renderfiguresonly) { get; set; } | 仅渲染 Visio 图形，而不是图表。 |
+| [FigureWidth](../../groupdocs.viewer.options/visiorenderingoptions/figurewidth) { get; set; } | 自动计算图形宽度、高度。默认值为 100. |
+| [RenderFiguresOnly](../../groupdocs.viewer.options/visiorenderingoptions/renderfiguresonly) { get; set; } | 仅呈现 Visio 图形，而不是图表。 |
 
 ### 也可以看看
 

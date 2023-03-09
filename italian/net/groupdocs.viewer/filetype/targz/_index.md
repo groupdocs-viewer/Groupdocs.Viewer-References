@@ -1,14 +1,14 @@
 ---
 title: TARGZ
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Consolidated Unix File Archive .tgz .tar.gz sono archivi creati con lutilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di filequihttps//fileinfo.com/extension/tgz .
+description: Consolidated Unix File Archive .tgz .tar.gz sono archivi creati con utility basate su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di fileQuihttps//fileinfo.com/extension/tgz .
 type: docs
-weight: 1440
+weight: 1490
 url: /it/net/groupdocs.viewer/filetype/targz/
 ---
 ## FileType.TARGZ field
 
-Consolidated Unix File Archive (.tgz, .tar.gz) sono archivi creati con l'utilità basata su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file[qui](https://fileinfo.com/extension/tgz) .
+Consolidated Unix File Archive (.tgz, .tar.gz) sono archivi creati con utility basate su Unix per la raccolta di uno o più file. Ulteriori informazioni su questo formato di file[Qui](https://fileinfo.com/extension/tgz) .
 
 ```csharp
 public static readonly FileType TARGZ;

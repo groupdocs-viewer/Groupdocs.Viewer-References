@@ -20,7 +20,7 @@ public FileInfo GetFileInfo()
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о файлах: [Как проверить, зашифрован ли файл](https://docs.groupdocs.com/viewer/net/how-to-check-if-file-is-encrypted/)
 

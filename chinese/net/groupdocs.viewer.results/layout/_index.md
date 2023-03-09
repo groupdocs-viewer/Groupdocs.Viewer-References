@@ -1,14 +1,14 @@
 ---
 title: Layout
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示 CAD 绘图包含的布局
+description: 表示 CAD 图纸中包含的布局
 type: docs
 weight: 690
 url: /zh/net/groupdocs.viewer.results/layout/
 ---
 ## Layout class
 
-表示 CAD 绘图包含的布局。
+表示 CAD 图纸中包含的布局。
 
 ```csharp
 public sealed class Layout : IEquatable<Layout>
@@ -18,15 +18,16 @@ public sealed class Layout : IEquatable<Layout>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Layout](layout)(string, float, float) | 初始化的新实例[`Layout`](../layout)类. |
+| [Layout](layout#constructor)() | 初始化新实例[`Layout`](../layout)类. |
+| [Layout](layout#constructor_1)(string, float, float) | 初始化新实例[`Layout`](../layout)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | 布局的高度。 |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | 布局的名称。 |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | 布局的宽度。 |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | 布局的高度。 |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | 布局的名称。 |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | 布局的宽度。 |
 
 ## 方法
 
@@ -35,9 +36,9 @@ public sealed class Layout : IEquatable<Layout>
 | [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | 判断当前是否[`Layout`](../layout)与指定的相同[`Layout`](../layout)对象. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | 判断当前是否[`Layout`](../layout)与指定对象相同。 |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | 返回当前的哈希码[`Layout`](../layout)对象. |
-| override [ToString](../../groupdocs.viewer.results/layout/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../groupdocs.viewer.results/layout/op_equality) | 判断两个[`Layout`](../layout)对象是相同的。 |
-| [operator !=](../../groupdocs.viewer.results/layout/op_inequality) | 判断两个[`Layout`](../layout)对象不一样。 |
+| override [ToString](../../groupdocs.viewer.results/layout/tostring)() | 返回表示当前对象的字符串。 |
+| [operator ==](../../groupdocs.viewer.results/layout/op_equality) | 判断是否两个[`Layout`](../layout)对象是相同的。 |
+| [operator !=](../../groupdocs.viewer.results/layout/op_inequality) | 判断是否两个[`Layout`](../layout)对象不一样. |
 
 ### 也可以看看
 

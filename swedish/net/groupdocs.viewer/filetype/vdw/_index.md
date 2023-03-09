@@ -3,7 +3,7 @@ title: VDW
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Visio Web Drawing .vdw representerar filformat som anger de strömmar och lagringar som krävs för att rendera en webbritning. Läs mer om detta filformathärhttps//wiki.fileformat.com/web/vdw .
 type: docs
-weight: 1570
+weight: 1620
 url: /sv/net/groupdocs.viewer/filetype/vdw/
 ---
 ## FileType.VDW field

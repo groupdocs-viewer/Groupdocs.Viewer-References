@@ -3,7 +3,7 @@ title: ImageQuality
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 指定渲染成 HTML 时图像资源的输出图像质量 默认值为低
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/groupdocs.viewer.options/pdfoptions/imagequality/
 ---
 ## PdfOptions.ImageQuality property

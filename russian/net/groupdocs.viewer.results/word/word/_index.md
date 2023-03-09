@@ -6,13 +6,29 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/word/word/
 ---
-## Word constructor
+## Word() {#constructor}
+
+Инициализирует новый экземпляр[`Word`](../../word) класс.
+
+```csharp
+public Word()
+```
+
+### Смотрите также
+
+* class [Word](../../word)
+* пространство имен [GroupDocs.Viewer.Results](../../word)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## Word(string, double, double, double, double, List&lt;Character&gt;) {#constructor_1}
 
 Инициализирует новый экземпляр[`Word`](../../word) класс.
 
 ```csharp
 public Word(string word, double x, double y, double width, double height, 
-    IList<Character> characters)
+    List<Character> characters)
 ```
 
 | Параметр | Тип | Описание |
@@ -22,7 +38,7 @@ public Word(string word, double x, double y, double width, double height,
 | y | Double | Координата Y верхней левой точки макета страницы, где начинается прямоугольник, содержащий слово. |
 | width | Double | Ширина прямоугольника, содержащего слово. |
 | height | Double | Высота прямоугольника, содержащего слово. |
-| characters | IList`1 | Символы, содержащиеся в слове. |
+| characters | List`1 | Символы, содержащиеся в слове. |
 
 ### Исключения
 

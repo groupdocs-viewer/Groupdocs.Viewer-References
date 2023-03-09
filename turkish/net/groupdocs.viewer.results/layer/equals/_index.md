@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Mevcut olup olmadığını belirler.Layergroupdocs.viewer.results/layerbelirtilenle aynıLayergroupdocs.viewer.results/layer nesne.
+description: Mevcut olup olmadığını belirler.Layergroupdocs.viewer.results/layer belirtilenle aynıLayergroupdocs.viewer.results/layer nesne.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.viewer.results/layer/equals/
 ---
 ## Equals(Layer) {#equals}
 
-Mevcut olup olmadığını belirler.[`Layer`](../../layer)belirtilenle aynı[`Layer`](../../layer) nesne.
+Mevcut olup olmadığını belirler.[`Layer`](../../layer) belirtilenle aynı[`Layer`](../../layer) nesne.
 
 ```csharp
 public bool Equals(Layer other)
@@ -20,7 +20,7 @@ public bool Equals(Layer other)
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`Layer`](../../layer) nesneler aynıdır; aksi halde,
+ikisi de olursa[`Layer`](../../layer) nesneler aynıdır; aksi takdirde,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Geri dönüş değeri
 
-eğer parametre[`Layer`](../../layer) ve şu anki ile aynı[`Layer`](../../layer) nesne; aksi halde,
+eğer parametre[`Layer`](../../layer) ve şu anki ile aynı[`Layer`](../../layer) nesne; aksi takdirde,
 
 ```csharp
 true

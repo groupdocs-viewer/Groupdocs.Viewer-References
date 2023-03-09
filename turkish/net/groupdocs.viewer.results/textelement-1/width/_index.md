@@ -1,17 +1,17 @@
 ---
 title: Width
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Öğeyi içeren dikdörtgenin genişliği piksel cinsinden.
+description: Öğeyi içeren dikdörtgenin genişliği piksel olarak.
 type: docs
 weight: 40
 url: /tr/net/groupdocs.viewer.results/textelement-1/width/
 ---
 ## TextElement&lt;T&gt;.Width property
 
-Öğeyi içeren dikdörtgenin genişliği (piksel cinsinden).
+Öğeyi içeren dikdörtgenin genişliği (piksel olarak).
 
 ```csharp
-public double Width { get; }
+public double Width { get; set; }
 ```
 
 ### Ayrıca bakınız

@@ -1,14 +1,14 @@
 ---
 title: OneThird
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 适合页面的水印文本最大尺寸的三分之一
+description: 适合页面的最大水印文本大小的三分之一
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/size/onethird/
 ---
 ## Size.OneThird field
 
-适合页面的水印文本最大尺寸的三分之一。
+适合页面的最大水印文本大小的三分之一。
 
 ```csharp
 public static readonly Size OneThird;

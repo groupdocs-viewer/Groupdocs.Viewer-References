@@ -3,7 +3,7 @@ title: FODS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: OpenDocument Düz XML Hesap Tablosu .fods
 type: docs
-weight: 480
+weight: 520
 url: /tr/net/groupdocs.viewer/filetype/fods/
 ---
 ## FileType.FODS field

@@ -3,7 +3,7 @@ title: DXF
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Drawing Exchange Format File .dxf est une représentation de données balisées du fichier de dessin AutoCAD. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/cad/dxf .
 type: docs
-weight: 370
+weight: 400
 url: /fr/net/groupdocs.viewer/filetype/dxf/
 ---
 ## FileType.DXF field

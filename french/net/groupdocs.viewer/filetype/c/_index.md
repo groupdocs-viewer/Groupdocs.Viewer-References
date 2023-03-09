@@ -3,7 +3,7 @@ title: C
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de code source C/C .c
 type: docs
-weight: 90
+weight: 100
 url: /fr/net/groupdocs.viewer/filetype/c/
 ---
 ## FileType.C field

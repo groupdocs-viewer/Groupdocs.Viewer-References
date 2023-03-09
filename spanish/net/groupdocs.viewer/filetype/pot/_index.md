@@ -3,7 +3,7 @@ title: POT
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla de PowerPoint .pot representa los archivos de plantilla de Microsoft PowerPoint creados por las versiones de PowerPoint 972003. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/presentation/pot .
 type: docs
-weight: 1090
+weight: 1140
 url: /es/net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field

@@ -3,7 +3,7 @@ title: ViewInfo
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 表示通用文档的视图信息
 type: docs
-weight: 780
+weight: 790
 url: /zh/net/groupdocs.viewer.results/viewinfo/
 ---
 ## ViewInfo class
@@ -18,20 +18,21 @@ public class ViewInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ViewInfo](viewinfo)(FileType, IList&lt;Page&gt;) | 初始化的新实例[`ViewInfo`](../viewinfo)类. |
+| [ViewInfo](viewinfo#constructor)() | 初始化新实例[`ViewInfo`](../viewinfo)类. |
+| [ViewInfo](viewinfo#constructor_1)(FileType, List&lt;Page&gt;) | 初始化新实例[`ViewInfo`](../viewinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | 文件的类型。 |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | 要查看的页面列表。 |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | 文件的类型。 |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | 要查看的页面列表。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/viewinfo/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

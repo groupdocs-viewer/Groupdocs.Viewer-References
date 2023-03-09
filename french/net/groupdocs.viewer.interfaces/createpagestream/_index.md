@@ -16,7 +16,7 @@ public delegate Stream CreatePageStream(int pageNumber);
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| pageNumber | Int32 | La |
+| pageNumber | Int32 | Le |
 
 ### Return_Value
 

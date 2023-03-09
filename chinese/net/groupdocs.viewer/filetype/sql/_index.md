@@ -3,7 +3,7 @@ title: SQL
 second_title: GroupDocs.Viewer for .NET API 参考
 description: 结构化查询语言数据文件 .sql
 type: docs
-weight: 1380
+weight: 1430
 url: /zh/net/groupdocs.viewer/filetype/sql/
 ---
 ## FileType.SQL field

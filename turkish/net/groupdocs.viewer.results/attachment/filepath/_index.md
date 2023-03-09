@@ -1,17 +1,17 @@
 ---
 title: FilePath
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Ek göreli yolu örn.klasör/dosya.docx veya dosya bir arşivin kökünde eposta mesajında veya veri dosyasında bulunduğunda dosya adı.
+description: Ek göreli yol örn.klasör/dosya.docx veya dosya bir arşivin kökünde eposta iletisinde veya veri dosyasında bulunduğunda dosya adı.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.results/attachment/filepath/
 ---
 ## Attachment.FilePath property
 
-Ek göreli yolu örn.klasör/dosya.docx veya dosya bir arşivin kökünde, e-posta mesajında veya veri dosyasında bulunduğunda dosya adı.
+Ek göreli yol örn.klasör/dosya.docx veya dosya bir arşivin kökünde, e-posta iletisinde veya veri dosyasında bulunduğunda dosya adı.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### Ayrıca bakınız

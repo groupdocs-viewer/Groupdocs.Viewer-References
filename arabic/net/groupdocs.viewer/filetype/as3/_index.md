@@ -3,7 +3,7 @@ title: AS3
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف ActionScript .as
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/groupdocs.viewer/filetype/as3/
 ---
 ## FileType.AS3 field

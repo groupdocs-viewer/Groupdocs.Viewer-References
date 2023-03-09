@@ -11,7 +11,7 @@ url: /zh/net/groupdocs.viewer.results/textelement-1/height/
 包含元素的矩形的高度（以像素为单位）。
 
 ```csharp
-public double Height { get; }
+public double Height { get; set; }
 ```
 
 ### 也可以看看

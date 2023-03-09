@@ -6,19 +6,35 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/archiveviewinfo/archiveviewinfo/
 ---
-## ArchiveViewInfo constructor
+## ArchiveViewInfo() {#constructor}
 
 Инициализирует новый экземпляр[`ArchiveViewInfo`](../../archiveviewinfo) класс.
 
 ```csharp
-public ArchiveViewInfo(FileType fileType, IList<Page> pages, IList<string> folders)
+public ArchiveViewInfo()
+```
+
+### Смотрите также
+
+* class [ArchiveViewInfo](../../archiveviewinfo)
+* пространство имен [GroupDocs.Viewer.Results](../../archiveviewinfo)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## ArchiveViewInfo(FileType, List&lt;Page&gt;, List&lt;string&gt;) {#constructor_1}
+
+Инициализирует новый экземпляр[`ArchiveViewInfo`](../../archiveviewinfo) класс.
+
+```csharp
+public ArchiveViewInfo(FileType fileType, List<Page> pages, List<string> folders)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileType | FileType | Тип файла. |
-| pages | IList`1 | Список страниц для просмотра. |
-| folders | IList`1 | Список папок, содержащихся в файле архива. |
+| pages | List`1 | Список страниц для просмотра. |
+| folders | List`1 | Список папок, содержащихся в файле архива. |
 
 ### Исключения
 

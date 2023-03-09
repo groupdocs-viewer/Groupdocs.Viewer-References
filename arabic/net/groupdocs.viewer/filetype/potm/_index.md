@@ -3,7 +3,7 @@ title: POTM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب العرض التقديمي لـ PowerPoint Open XML مع تمكين ماكرو .potm عبارة عن ملفات قالب Microsoft PowerPoint مع دعم لوحدات الماكرو. يتم إنشاء ملفات POTM باستخدام PowerPoint 2007 أو إصدار أحدث وتحتوي على الإعدادات الافتراضية التي يمكن استخدامها لإنشاء المزيد من ملفات العروض التقديمية . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/presentation/potm .
 type: docs
-weight: 1100
+weight: 1150
 url: /ar/net/groupdocs.viewer/filetype/potm/
 ---
 ## FileType.POTM field

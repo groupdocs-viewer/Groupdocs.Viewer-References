@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diLoadOptionsgroupdocs.viewer.options/loadoptions classe.
+description: Inizializza una nuova istanza diLoadOptionsgroupdocs.viewer.options/loadoptions classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.options/loadoptions/loadoptions/
 ---
 ## LoadOptions() {#constructor}
 
-Inizializza la nuova istanza di[`LoadOptions`](../../loadoptions) classe.
+Inizializza una nuova istanza di[`LoadOptions`](../../loadoptions) classe.
 
 ```csharp
 public LoadOptions()
@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(FileType) {#constructor_1}
 
-Inizializza la nuova istanza di[`LoadOptions`](../../loadoptions) classe.
+Inizializza una nuova istanza di[`LoadOptions`](../../loadoptions) classe.
 
 ```csharp
 public LoadOptions(FileType fileType)

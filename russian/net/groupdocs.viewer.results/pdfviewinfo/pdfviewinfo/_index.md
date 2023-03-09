@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /ru/net/groupdocs.viewer.results/pdfviewinfo/pdfviewinfo/
 ---
-## PdfViewInfo constructor
+## PdfViewInfo() {#constructor}
 
 Инициализирует новый экземпляр[`PdfViewInfo`](../../pdfviewinfo) класс.
 
 ```csharp
-public PdfViewInfo(FileType fileType, IList<Page> pages, bool printingAllowed)
+public PdfViewInfo()
+```
+
+### Смотрите также
+
+* class [PdfViewInfo](../../pdfviewinfo)
+* пространство имен [GroupDocs.Viewer.Results](../../pdfviewinfo)
+* сборка [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewInfo(FileType, List&lt;Page&gt;, bool) {#constructor_1}
+
+Инициализирует новый экземпляр[`PdfViewInfo`](../../pdfviewinfo) класс.
+
+```csharp
+public PdfViewInfo(FileType fileType, List<Page> pages, bool printingAllowed)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileType | FileType | Тип файла. |
-| pages | IList`1 | Список страниц для просмотра. |
+| pages | List`1 | Список страниц для просмотра. |
 | printingAllowed | Boolean | Индикатор разрешения печати. |
 
 ### Исключения

@@ -3,7 +3,7 @@ title: CGM
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: Computer Graphics Metafile .cgm هو تنسيق ملف تعريف قياسي دولي مجاني ومستقل عن النظام الأساسي لتخزين وتبادل الرسومات المتجهة 2D والرسومات النقطية والنص. يستخدم CGM نهجًا موجهًا للكائنات والعديد من أحكام الوظائف لإنتاج الصور. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/pagedescriptionlanguage/cgm .
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/groupdocs.viewer/filetype/cgm/
 ---
 ## FileType.CGM field

@@ -25,7 +25,7 @@ public class Tile
 | Nome | Descrizione |
 | --- | --- |
 | [Height](../../groupdocs.viewer.options/tile/height) { get; } | L'altezza del riquadro in pixel. |
-| [StartPointX](../../groupdocs.viewer.options/tile/startpointx) { get; } | La coordinata X del punto in basso a sinistra sul disegno in cui inizia la tessera. |
+| [StartPointX](../../groupdocs.viewer.options/tile/startpointx) { get; } | La coordinata X del punto in basso a sinistra sul disegno in cui inizia la piastrella. |
 | [StartPointY](../../groupdocs.viewer.options/tile/startpointy) { get; } | La coordinata Y del punto in basso a sinistra sul disegno in cui inizia la tessera. |
 | [Width](../../groupdocs.viewer.options/tile/width) { get; } | La larghezza del riquadro in pixel. |
 

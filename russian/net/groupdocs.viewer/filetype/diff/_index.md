@@ -3,7 +3,7 @@ title: DIFF
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл исправления .diff
 type: docs
-weight: 250
+weight: 270
 url: /ru/net/groupdocs.viewer/filetype/diff/
 ---
 ## FileType.DIFF field

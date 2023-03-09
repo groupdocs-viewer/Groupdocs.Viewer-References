@@ -3,7 +3,7 @@ title: MBOX
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Fichier de boîte aux lettres électronique .mbox En savoir plus sur ce format de fichiericihttps//fileinfo.com/extension/mbox .
 type: docs
-weight: 780
+weight: 830
 url: /fr/net/groupdocs.viewer/filetype/mbox/
 ---
 ## FileType.MBOX field

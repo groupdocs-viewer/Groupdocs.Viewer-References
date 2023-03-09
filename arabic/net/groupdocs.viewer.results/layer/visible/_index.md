@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/layer/visible/
 مؤشر رؤية الطبقة .
 
 ```csharp
-public bool Visible { get; }
+public bool Visible { get; set; }
 ```
 
 ### ملاحظات

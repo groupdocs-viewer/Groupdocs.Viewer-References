@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Sizegroupdocs.viewer.options/size类.
+description: 初始化新实例Sizegroupdocs.viewer.options/size类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/size/size/
 ---
 ## Size constructor
 
-初始化的新实例[`Size`](../../size)类.
+初始化新实例[`Size`](../../size)类.
 
 ```csharp
 public Size(byte relativeSize)
@@ -22,7 +22,7 @@ public Size(byte relativeSize)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*relativeSize*为零或大于 100。 |
+| ArgumentException | 抛出时*relativeSize*为零或高于 100。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: J2C
 second_title: GroupDocs.Viewer for .NET API 参考
-description: JPEG 2000 码流 .j2c
+description: JPEG 2000 代码流 .j2c
 type: docs
-weight: 620
+weight: 660
 url: /zh/net/groupdocs.viewer/filetype/j2c/
 ---
 ## FileType.J2C field
 
-JPEG 2000 码流 (.j2c)
+JPEG 2000 代码流 (.j2c)
 
 ```csharp
 public static readonly FileType J2C;

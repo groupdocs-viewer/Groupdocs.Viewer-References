@@ -24,9 +24,9 @@ public class CadOptions
 | [LayoutName](../../groupdocs.viewer.options/cadoptions/layoutname) { get; set; } | Oluşturulacak belirli düzenin adı. Düzen adı büyük/küçük harfe duyarlıdır. |
 | [Pc3File](../../groupdocs.viewer.options/cadoptions/pc3file) { get; set; } | PC3 - çizici yapılandırma dosyası |
 | [RenderLayouts](../../groupdocs.viewer.options/cadoptions/renderlayouts) { get; set; } | CAD belgesindeki paftaların işlenip işlenmeyeceğini belirtir. |
-| [ScaleFactor](../../groupdocs.viewer.options/cadoptions/scalefactor) { get; } | 1'den büyük değerler çıktı sonucunu büyütür; 0 ile 1 arasındaki değerler çıktı sonucunu küçültür. |
+| [ScaleFactor](../../groupdocs.viewer.options/cadoptions/scalefactor) { get; } | 1'den büyük değerler çıktı sonucunu büyütür; 0 ile 1 arasındaki değerler çıktı sonucunu daha küçük yapacaktır. |
 | [Tiles](../../groupdocs.viewer.options/cadoptions/tiles) { get; set; } | Oluşturulacak çizim bölgeleri. |
-| [Width](../../groupdocs.viewer.options/cadoptions/width) { get; } | Çıktının genişliği piksel cinsinden sonuçlanır. |
+| [Width](../../groupdocs.viewer.options/cadoptions/width) { get; } | Çıktının genişliği piksel olarak sonuçlanır. |
 
 ## yöntemler
 

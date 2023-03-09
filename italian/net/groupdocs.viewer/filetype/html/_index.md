@@ -1,14 +1,14 @@
 ---
 title: HTML
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Hypertext Markup Language File .html è lestensione per le pagine Web create per la visualizzazione nei browser. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/web/html .
+description: Hypertext Markup Language File .html è lestensione per le pagine Web create per la visualizzazione nei browser. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/web/html .
 type: docs
-weight: 580
+weight: 620
 url: /it/net/groupdocs.viewer/filetype/html/
 ---
 ## FileType.HTML field
 
-Hypertext Markup Language File (.html) è l'estensione per le pagine Web create per la visualizzazione nei browser. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/web/html) .
+Hypertext Markup Language File (.html) è l'estensione per le pagine Web create per la visualizzazione nei browser. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/web/html) .
 
 ```csharp
 public static readonly FileType HTML;

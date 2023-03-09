@@ -3,7 +3,7 @@ title: EMF
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Metarchivo de Windows mejorado .emf representa imágenes gráficas de forma independiente del dispositivo. Los metarchivos de EMF se componen de registros de longitud variable en orden cronológico que pueden representar la imagen almacenada después de analizarla en cualquier dispositivo de salida. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/image/emf .
 type: docs
-weight: 380
+weight: 410
 url: /es/net/groupdocs.viewer/filetype/emf/
 ---
 ## FileType.EMF field

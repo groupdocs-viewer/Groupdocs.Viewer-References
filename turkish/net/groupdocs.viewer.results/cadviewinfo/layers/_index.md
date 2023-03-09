@@ -11,7 +11,7 @@ url: /tr/net/groupdocs.viewer.results/cadviewinfo/layers/
 CAD çiziminin içerdiği katmanların listesi.
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### Ayrıca bakınız

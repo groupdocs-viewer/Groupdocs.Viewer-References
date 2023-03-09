@@ -6,18 +6,34 @@ type: docs
 weight: 10
 url: /fr/net/groupdocs.viewer.results/lotusnotesviewinfo/lotusnotesviewinfo/
 ---
-## LotusNotesViewInfo constructor
+## LotusNotesViewInfo() {#constructor}
 
 Initialise la nouvelle instance de[`LotusNotesViewInfo`](../../lotusnotesviewinfo) classe.
 
 ```csharp
-public LotusNotesViewInfo(FileType fileType, IList<Page> pages, int notesCount)
+public LotusNotesViewInfo()
+```
+
+### Voir également
+
+* class [LotusNotesViewInfo](../../lotusnotesviewinfo)
+* espace de noms [GroupDocs.Viewer.Results](../../lotusnotesviewinfo)
+* Assemblée [GroupDocs.Viewer](../../../)
+
+---
+
+## LotusNotesViewInfo(FileType, List&lt;Page&gt;, int) {#constructor_1}
+
+Initialise la nouvelle instance de[`LotusNotesViewInfo`](../../lotusnotesviewinfo) classe.
+
+```csharp
+public LotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount)
 ```
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | fileType | FileType | Le type de fichier. |
-| pages | IList`1 | La liste des pages à afficher. |
+| pages | List`1 | La liste des pages à afficher. |
 | notesCount | Int32 | Le nombre de notes contenues dans le fichier de stockage de la base de données Lotus. |
 
 ### Exceptions

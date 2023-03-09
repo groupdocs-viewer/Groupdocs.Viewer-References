@@ -1,14 +1,14 @@
 ---
 title: XZ
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: XZ dosyası .xz LZMA algoritmasına dayalı yüksek oranlı bir sıkıştırma algoritmasıyla sıkıştırılmış arşivdir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//fileinfo.com/extension/xz .
+description: XZ dosyası .xz LZMA algoritmasına dayalı yüksek oranlı bir sıkıştırma algoritmasıyla sıkıştırılmış arşivdir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//fileinfo.com/extension/xz .
 type: docs
-weight: 1840
+weight: 1890
 url: /tr/net/groupdocs.viewer/filetype/xz/
 ---
 ## FileType.XZ field
 
-XZ dosyası (.xz), LZMA algoritmasına dayalı yüksek oranlı bir sıkıştırma algoritmasıyla sıkıştırılmış arşivdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://fileinfo.com/extension/xz) .
+XZ dosyası (.xz), LZMA algoritmasına dayalı, yüksek oranlı bir sıkıştırma algoritmasıyla sıkıştırılmış arşivdir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://fileinfo.com/extension/xz) .
 
 ```csharp
 public static readonly FileType XZ;

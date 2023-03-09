@@ -1,14 +1,14 @@
 ---
 title: GroupDocsViewerException
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示文档处理期间发生的一般错误
+description: 表示文档处理过程中发生的一般错误
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.exceptions/groupdocsviewerexception/
 ---
 ## GroupDocsViewerException class
 
-表示文档处理期间发生的一般错误。
+表示文档处理过程中发生的一般错误。
 
 ```csharp
 public class GroupDocsViewerException : Exception
@@ -18,7 +18,7 @@ public class GroupDocsViewerException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GroupDocsViewerException](groupdocsviewerexception)(string) | 初始化[`GroupDocsViewerException`](../groupdocsviewerexception)具有指定错误消息的类。 |
+| [GroupDocsViewerException](groupdocsviewerexception)(string) | 初始化一个新的实例[`GroupDocsViewerException`](../groupdocsviewerexception)带有指定错误消息的类。 |
 
 ### 也可以看看
 

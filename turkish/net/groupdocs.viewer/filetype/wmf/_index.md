@@ -1,14 +1,14 @@
 ---
 title: WMF
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Windows Meta Dosyası .wmf vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için Microsoft Windows Meta Dosyasını WMF temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/wmf .
+description: Windows Meta Dosyası .wmf vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için Microsoft Windows Meta Dosyasını WMF temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/wmf .
 type: docs
-weight: 1720
+weight: 1770
 url: /tr/net/groupdocs.viewer/filetype/wmf/
 ---
 ## FileType.WMF field
 
-Windows Meta Dosyası (.wmf), vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için Microsoft Windows Meta Dosyasını (WMF) temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/wmf) .
+Windows Meta Dosyası (.wmf), vektörün yanı sıra bitmap biçimli görüntü verilerini depolamak için Microsoft Windows Meta Dosyasını (WMF) temsil eder. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/wmf) .
 
 ```csharp
 public static readonly FileType WMF;

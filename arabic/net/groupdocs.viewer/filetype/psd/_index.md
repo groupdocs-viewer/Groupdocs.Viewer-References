@@ -3,7 +3,7 @@ title: PSD
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل Adobe Photoshop Document .psd تنسيق ملف Adobe Photoshop الأصلي المستخدم في تصميم الرسومات وتطويرها. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/psd .
 type: docs
-weight: 1220
+weight: 1270
 url: /ar/net/groupdocs.viewer/filetype/psd/
 ---
 ## FileType.PSD field

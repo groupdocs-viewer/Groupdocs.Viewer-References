@@ -16,12 +16,12 @@ public static bool operator !=(Layout left, Layout right)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| left | Layout | Ayrıldı[`Layout`](../../layout) nesne. |
-| right | Layout | Doğru[`Layout`](../../layout) nesne. |
+| left | Layout | Sol[`Layout`](../../layout) nesne. |
+| right | Layout | Sağ[`Layout`](../../layout) nesne. |
 
 ### Geri dönüş değeri
 
-ikisi de olursa[`Layout`](../../layout) nesneler aynı değildir; aksi halde,
+ikisi de olursa[`Layout`](../../layout) nesneler aynı değildir; aksi takdirde,
 
 ```csharp
 true

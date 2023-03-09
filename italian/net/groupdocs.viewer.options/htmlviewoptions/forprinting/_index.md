@@ -1,14 +1,14 @@
 ---
 title: ForPrinting
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Indica se ottimizzare lHTML di output per la stampa.
+description: Indica se ottimizzare loutput HTML per la stampa.
 type: docs
 weight: 50
 url: /it/net/groupdocs.viewer.options/htmlviewoptions/forprinting/
 ---
 ## HtmlViewOptions.ForPrinting property
 
-Indica se ottimizzare l'HTML di output per la stampa.
+Indica se ottimizzare l'output HTML per la stampa.
 
 ```csharp
 public bool ForPrinting { get; set; }

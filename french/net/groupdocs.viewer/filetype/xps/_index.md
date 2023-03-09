@@ -3,7 +3,7 @@ title: XPS
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: XML Paper Specification File .xps représente les fichiers de mise en page basés sur les spécifications papier XML créées par Microsoft. Ce format a été développé par Microsoft en remplacement du format de fichier EMF et est similaire au format de fichier PDF mais utilise XML dans la mise en page lapparence et les informations dimpression dun document. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/pagedescriptionlanguage/xps .
 type: docs
-weight: 1830
+weight: 1880
 url: /fr/net/groupdocs.viewer/filetype/xps/
 ---
 ## FileType.XPS field

@@ -3,7 +3,7 @@ title: VSS
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Visio Stencil File .vss sont des fichiers de gabarit créés avec Microsoft Visio 2007 et versions antérieures. Les fichiers Stencil fournissent des objets de dessin qui peuvent être inclus dans un dessin .VSD Visio. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/image/vss .
 type: docs
-weight: 1630
+weight: 1680
 url: /fr/net/groupdocs.viewer/filetype/vss/
 ---
 ## FileType.VSS field

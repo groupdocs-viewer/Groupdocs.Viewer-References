@@ -1,14 +1,14 @@
 ---
 title: RenderHiddenColumns
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 启用隐藏列渲染
+description: 启用隐藏列呈现
 type: docs
 weight: 100
 url: /zh/net/groupdocs.viewer.options/spreadsheetoptions/renderhiddencolumns/
 ---
 ## SpreadsheetOptions.RenderHiddenColumns property
 
-启用隐藏列渲染。
+启用隐藏列呈现。
 
 ```csharp
 public bool RenderHiddenColumns { get; set; }

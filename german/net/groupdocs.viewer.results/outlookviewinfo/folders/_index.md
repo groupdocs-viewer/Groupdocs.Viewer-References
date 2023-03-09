@@ -11,7 +11,7 @@ url: /de/net/groupdocs.viewer.results/outlookviewinfo/folders/
 Die Liste der Ordner, die in der Outlook-Datendatei enthalten sind.
 
 ```csharp
-public IList<string> Folders { get; }
+public List<string> Folders { get; set; }
 ```
 
 ### Siehe auch

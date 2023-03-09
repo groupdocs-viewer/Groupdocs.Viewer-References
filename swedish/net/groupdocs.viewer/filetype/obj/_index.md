@@ -3,7 +3,7 @@ title: OBJ
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Wavefront 3D Object File .obj är en 3Dbildfil introducerad av Wavefront Technologies Läs mer om detta filformathärhttps//wiki.fileformat.com/3d/obj/ .
 type: docs
-weight: 910
+weight: 960
 url: /sv/net/groupdocs.viewer/filetype/obj/
 ---
 ## FileType.OBJ field

@@ -1,14 +1,14 @@
 ---
 title: NUMBERS
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Apple 数字代表 Excel 之类的二进制文件格式此类文件可以通过 Apple 号码应用程序创建 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/numbers
+description: Apple 数字表示像二进制文件格式一样的 Excel此类文件可以由 Apple 号码应用程序创建 了解有关此文件格式的更多信息这里https//fileinfo.com/extension/numbers
 type: docs
-weight: 900
+weight: 950
 url: /zh/net/groupdocs.viewer/filetype/numbers/
 ---
 ## FileType.NUMBERS field
 
-Apple 数字代表 Excel 之类的二进制文件格式。此类文件可以通过 Apple 号码应用程序创建。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/numbers)
+Apple 数字表示像二进制文件格式一样的 Excel。此类文件可以由 Apple 号码应用程序创建。 了解有关此文件格式的更多信息[这里](https://fileinfo.com/extension/numbers)
 
 ```csharp
 public static readonly FileType NUMBERS;

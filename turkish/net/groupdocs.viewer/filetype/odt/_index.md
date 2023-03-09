@@ -1,14 +1,14 @@
 ---
 title: ODT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: OpenDocument Metin Belgesi .odt OpenDocument Metin Dosyası biçimini temel alan kelime işlem uygulamalarıyla oluşturulan belge türleridir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/wordprocessing/odt .
+description: OpenDocument Metin Belgesi .odt OpenDocument Metin Dosyası biçimini temel alan kelime işlem uygulamalarıyla oluşturulan belge türleridir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/wordprocessing/odt .
 type: docs
-weight: 950
+weight: 1000
 url: /tr/net/groupdocs.viewer/filetype/odt/
 ---
 ## FileType.ODT field
 
-OpenDocument Metin Belgesi (.odt), OpenDocument Metin Dosyası biçimini temel alan kelime işlem uygulamalarıyla oluşturulan belge türleridir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/word-processing/odt) .
+OpenDocument Metin Belgesi (.odt), OpenDocument Metin Dosyası biçimini temel alan kelime işlem uygulamalarıyla oluşturulan belge türleridir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/word-processing/odt) .
 
 ```csharp
 public static readonly FileType ODT;

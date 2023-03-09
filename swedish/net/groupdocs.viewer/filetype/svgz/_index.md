@@ -3,7 +3,7 @@ title: SVGZ
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Scalable Vector Graphics File .svgz är en Scalar Vector Graphicsfil som använder XMLbaserat textformat komprimerat av GZIP för att beskriva utseendet på en bild. Läs mer om detta filformathärhttps//fileinfo.com/extension/svgz .
 type: docs
-weight: 1410
+weight: 1460
 url: /sv/net/groupdocs.viewer/filetype/svgz/
 ---
 ## FileType.SVGZ field

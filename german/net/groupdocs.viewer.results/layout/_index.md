@@ -18,21 +18,22 @@ public sealed class Layout : IEquatable<Layout>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Layout](layout)(string, float, float) | Initialisiert eine neue Instanz von[`Layout`](../layout) Klasse. |
+| [Layout](layout#constructor)() | Initialisiert eine neue Instanz von[`Layout`](../layout) Klasse. |
+| [Layout](layout#constructor_1)(string, float, float) | Initialisiert eine neue Instanz von[`Layout`](../layout) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/layout/height) { get; } | Die Höhe des Layouts. |
-| [Name](../../groupdocs.viewer.results/layout/name) { get; } | Der Name des Layouts. |
-| [Width](../../groupdocs.viewer.results/layout/width) { get; } | Die Breite des Layouts. |
+| [Height](../../groupdocs.viewer.results/layout/height) { get; set; } | Die Höhe des Layouts. |
+| [Name](../../groupdocs.viewer.results/layout/name) { get; set; } | Der Name des Layouts. |
+| [Width](../../groupdocs.viewer.results/layout/width) { get; set; } | Die Breite des Layouts. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Bestimmt, ob der Strom[`Layout`](../layout)ist genauso wie angegeben[`Layout`](../layout) Objekt. |
+| [Equals](../../groupdocs.viewer.results/layout/equals#equals)(Layout) | Bestimmt, ob der Strom[`Layout`](../layout) ist genauso wie angegeben[`Layout`](../layout) Objekt. |
 | override [Equals](../../groupdocs.viewer.results/layout/equals#equals_1)(object) | Bestimmt, ob der Strom[`Layout`](../layout) ist das gleiche wie das angegebene Objekt. |
 | override [GetHashCode](../../groupdocs.viewer.results/layout/gethashcode)() | Gibt den Hash-Code für den Strom zurück[`Layout`](../layout) Objekt. |
 | override [ToString](../../groupdocs.viewer.results/layout/tostring)() | Gibt eine Zeichenfolge zurück, die das aktuelle Objekt darstellt. |

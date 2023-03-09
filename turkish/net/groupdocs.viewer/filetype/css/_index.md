@@ -3,7 +3,7 @@ title: CSS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Basamaklı Stil Sayfası .css
 type: docs
-weight: 190
+weight: 210
 url: /tr/net/groupdocs.viewer/filetype/css/
 ---
 ## FileType.CSS field

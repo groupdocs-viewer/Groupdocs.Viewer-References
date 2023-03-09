@@ -3,7 +3,7 @@ title: CS
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: C  Source Code File .cs هو ملف شفرة مصدر للغة البرمجة C . مقدمة من Microsoft للاستخدام مع .NET Framework . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/programming/cs .
 type: docs
-weight: 180
+weight: 200
 url: /ar/net/groupdocs.viewer/filetype/cs/
 ---
 ## FileType.CS field

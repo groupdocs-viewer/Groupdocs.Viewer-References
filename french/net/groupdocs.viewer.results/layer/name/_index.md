@@ -11,7 +11,7 @@ url: /fr/net/groupdocs.viewer.results/layer/name/
 Le nom du calque.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Remarques

@@ -6,27 +6,43 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/lotusnotesviewinfo/lotusnotesviewinfo/
 ---
-## LotusNotesViewInfo constructor
+## LotusNotesViewInfo() {#constructor}
 
 Yeni örneğini başlatır[`LotusNotesViewInfo`](../../lotusnotesviewinfo) sınıf.
 
 ```csharp
-public LotusNotesViewInfo(FileType fileType, IList<Page> pages, int notesCount)
+public LotusNotesViewInfo()
+```
+
+### Ayrıca bakınız
+
+* class [LotusNotesViewInfo](../../lotusnotesviewinfo)
+* ad alanı [GroupDocs.Viewer.Results](../../lotusnotesviewinfo)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## LotusNotesViewInfo(FileType, List&lt;Page&gt;, int) {#constructor_1}
+
+Yeni örneğini başlatır[`LotusNotesViewInfo`](../../lotusnotesviewinfo) sınıf.
+
+```csharp
+public LotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileType | FileType | Dosyanın türü. |
-| pages | IList`1 | Görüntülenecek sayfaların listesi. |
+| pages | List`1 | Görüntülenecek sayfaların listesi. |
 | notesCount | Int32 | Lotus veritabanı depolama dosyası tarafından içerilen notlar sayılır. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*fileType* boş. |
-| ArgumentNullException | ne zaman atıldı*pages* boş. |
-| ArgumentNullException | ne zaman atıldı*notesCount* boş. |
+| ArgumentNullException | Ne zaman atıldı*fileType* boş. |
+| ArgumentNullException | Ne zaman atıldı*pages* boş. |
+| ArgumentNullException | Ne zaman atıldı*notesCount* boş. |
 
 ### Ayrıca bakınız
 

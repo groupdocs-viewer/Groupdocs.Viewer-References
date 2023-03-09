@@ -1,17 +1,42 @@
 ---
 title: Encoding
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: gibi metin tabanlı dosyaları veya eposta mesajlarını açarken kullanılan kodlamaCSVgroupdocs.viewer/filetype/csv TXTgroupdocs.viewer/filetype/txt  veMSGgroupdocs.viewer/filetype/msg . Varsayılan değerDefault .
+description: Metin tabanlı dosyaları veya gibi eposta mesajlarını açarken kullanılan kodlamaCSVgroupdocs.viewer/filetype/csv  TXTgroupdocs.viewer/filetype/txt  veMSGgroupdocs.viewer/filetype/msg . Varsayılan değerUTF8 .
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/groupdocs.viewer.options/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-gibi metin tabanlı dosyaları veya e-posta mesajlarını açarken kullanılan kodlama[`CSV`](../../../groupdocs.viewer/filetype/csv) ,[`TXT`](../../../groupdocs.viewer/filetype/txt) , ve[`MSG`](../../../groupdocs.viewer/filetype/msg) . Varsayılan değer:Default .
+Metin tabanlı dosyaları veya gibi e-posta mesajlarını açarken kullanılan kodlama[`CSV`](../../../groupdocs.viewer/filetype/csv) , [`TXT`](../../../groupdocs.viewer/filetype/txt) , ve[`MSG`](../../../groupdocs.viewer/filetype/msg) . Varsayılan değer:UTF8 .
 
 ```csharp
 public Encoding Encoding { get; set; }
+```
+
+### Notlar
+
+**Daha fazla bilgi edin**
+
+* [Excel ve Apple Numbers elektronik tablolarını HTML, PDF ve görüntü dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
+* [Metin belgelerini HTML, PDF ve görüntü dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-text-files)
+* [E-posta mesajlarını HTML, PDF, PNG ve JPEG dosyaları olarak işleyin](https://docs.groupdocs.com/viewer/net/render-email-messages/)
+
+### Örnekler
+
+Örnek, bu seçeneğin tipik bir kullanımını göstermektedir.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Encoding = Encoding.ASCII; // kodlamayı ayarla
+
+using (Viewer viewer = new Viewer("message.txt", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### Ayrıca bakınız

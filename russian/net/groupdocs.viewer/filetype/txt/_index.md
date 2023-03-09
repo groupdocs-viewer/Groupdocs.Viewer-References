@@ -3,7 +3,7 @@ title: TXT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл обычного текста .txt представляет собой текстовый документ содержащий обычный текст в виде строк. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/wordprocessing/txt .
 type: docs
-weight: 1520
+weight: 1570
 url: /ru/net/groupdocs.viewer/filetype/txt/
 ---
 ## FileType.TXT field

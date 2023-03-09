@@ -1,14 +1,14 @@
 ---
 title: SevenZip
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: 7Zip .7z .7zip LZMA ve LZMA2 sıkıştırmalı ücretsiz bir açık kaynak arşivleyicidir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//docs.fileformat.com/compression/7z/ .
+description: 7Zip .7z .7zip LZMA ve LZMA2 sıkıştırmalı ücretsiz bir açık kaynak arşivleyicidir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//docs.fileformat.com/compression/7z/ .
 type: docs
-weight: 1350
+weight: 1400
 url: /tr/net/groupdocs.viewer/filetype/sevenzip/
 ---
 ## FileType.SevenZip field
 
-7Zip (.7z, .7zip), LZMA ve LZMA2 sıkıştırmalı ücretsiz bir açık kaynak arşivleyicidir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://docs.fileformat.com/compression/7z/) .
+7Zip (.7z, .7zip), LZMA ve LZMA2 sıkıştırmalı ücretsiz bir açık kaynak arşivleyicidir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://docs.fileformat.com/compression/7z/) .
 
 ```csharp
 public static readonly FileType SevenZip;

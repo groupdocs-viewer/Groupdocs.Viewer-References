@@ -1,17 +1,17 @@
 ---
 title: Nested
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Kaynağın başka bir kaynağın içinde olup olmadığını gösterir ör. CSS veya SVG kaynağında bulunan yazı tipi kaynağı.
+description: Kaynağın başka bir kaynağın içinde olup olmadığını gösterir örn. CSS veya SVG kaynağında bulunan yazı tipi kaynağı.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.viewer.results/resource/nested/
 ---
 ## Resource.Nested property
 
-Kaynağın başka bir kaynağın içinde olup olmadığını gösterir, ör. CSS veya SVG kaynağında bulunan yazı tipi kaynağı.
+Kaynağın başka bir kaynağın içinde olup olmadığını gösterir, örn. CSS veya SVG kaynağında bulunan yazı tipi kaynağı.
 
 ```csharp
-public bool Nested { get; }
+public bool Nested { get; set; }
 ```
 
 ### Ayrıca bakınız

@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 释放由创建的流CreatePageStreamgroupdocs.viewer.interfaces/ipagestreamfactory/createpagestream方法.
+description: 释放创建的流CreatePageStreamgroupdocs.viewer.interfaces/ipagestreamfactory/createpagestream方法.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.interfaces/ipagestreamfactory/releasepagestream/
 ---
 ## IPageStreamFactory.ReleasePageStream method
 
-释放由创建的流[`CreatePageStream`](../createpagestream)方法.
+释放创建的流[`CreatePageStream`](../createpagestream)方法.
 
 ```csharp
 public void ReleasePageStream(int pageNumber, Stream pageStream)
@@ -16,7 +16,7 @@ public void ReleasePageStream(int pageNumber, Stream pageStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumber | Int32 | 页数。 |
+| pageNumber | Int32 | 页码。 |
 | pageStream | Stream | 流创建者[`CreatePageStream`](../createpagestream)方法。 |
 
 ### 也可以看看

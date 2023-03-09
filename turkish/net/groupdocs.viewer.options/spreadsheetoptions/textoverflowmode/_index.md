@@ -1,14 +1,14 @@
 ---
 title: TextOverflowMode
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Elektronik tablo belgelerini HTMLye dönüştürmek için metin taşması modu.
+description: Elektronik tablo belgelerini HTMLye dönüştürmek için metin taşma modu.
 type: docs
 weight: 140
 url: /tr/net/groupdocs.viewer.options/spreadsheetoptions/textoverflowmode/
 ---
 ## SpreadsheetOptions.TextOverflowMode property
 
-Elektronik tablo belgelerini HTML'ye dönüştürmek için metin taşması modu.
+Elektronik tablo belgelerini HTML'ye dönüştürmek için metin taşma modu.
 
 ```csharp
 public TextOverflowMode TextOverflowMode { get; set; }

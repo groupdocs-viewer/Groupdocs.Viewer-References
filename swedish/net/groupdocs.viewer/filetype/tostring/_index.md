@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Returnerar en sträng som representerar det aktuella objektet.
 type: docs
-weight: 1950
+weight: 2000
 url: /sv/net/groupdocs.viewer/filetype/tostring/
 ---
 ## FileType.ToString method

@@ -1,14 +1,14 @@
 ---
 title: ReleaseFileStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 释放由创建的流CreateFileStreamgroupdocs.viewer.interfaces/ifilestreamfactory/createfilestream方法.
+description: 释放创建的流CreateFileStreamgroupdocs.viewer.interfaces/ifilestreamfactory/createfilestream方法.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.interfaces/ifilestreamfactory/releasefilestream/
 ---
 ## IFileStreamFactory.ReleaseFileStream method
 
-释放由创建的流[`CreateFileStream`](../createfilestream)方法.
+释放创建的流[`CreateFileStream`](../createfilestream)方法.
 
 ```csharp
 public void ReleaseFileStream(Stream fileStream)

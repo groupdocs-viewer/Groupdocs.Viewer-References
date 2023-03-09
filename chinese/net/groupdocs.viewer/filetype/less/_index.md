@@ -3,7 +3,7 @@ title: LESS
 second_title: GroupDocs.Viewer for .NET API 参考
 description: LESS 样式表 .less
 type: docs
-weight: 740
+weight: 790
 url: /zh/net/groupdocs.viewer/filetype/less/
 ---
 ## FileType.LESS field

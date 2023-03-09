@@ -3,7 +3,7 @@ title: CXX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл исходного кода C .cxx
 type: docs
-weight: 210
+weight: 230
 url: /ru/net/groupdocs.viewer/filetype/cxx/
 ---
 ## FileType.CXX field

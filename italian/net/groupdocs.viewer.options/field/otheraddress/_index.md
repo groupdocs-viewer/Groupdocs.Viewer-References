@@ -1,14 +1,14 @@
 ---
 title: OtherAddress
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Altro indirizzo.
+description: Il campo di testo predefinito è Altro indirizzo.
 type: docs
 weight: 330
 url: /it/net/groupdocs.viewer.options/field/otheraddress/
 ---
 ## Field.OtherAddress field
 
-Il testo del campo predefinito è "Altro indirizzo".
+Il campo di testo predefinito è "Altro indirizzo".
 
 ```csharp
 public static readonly Field OtherAddress;

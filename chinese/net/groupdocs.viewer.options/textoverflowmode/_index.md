@@ -18,9 +18,9 @@ public enum TextOverflowMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Overlay | `0` | 覆盖下一个单元格，即使它们不是空的。 |
-| OverlayIfNextIsEmpty | `1` | 仅当它们为空时才覆盖下一个单元格。 |
-| AutoFitColumn | `2` | 扩展列以适应文本。 |
+| Overlay | `0` | 覆盖下一个单元格，即使它们不为空。 |
+| OverlayIfNextIsEmpty | `1` | 仅在下一个单元格为空时覆盖它们。 |
+| AutoFitColumn | `2` | 展开列以适合文本。 |
 | HideText | `3` | 隐藏溢出文本。 |
 
 ### 也可以看看

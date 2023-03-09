@@ -18,16 +18,16 @@ public class CadViewInfo : ViewInfo
 
 | Nom | La description |
 | --- | --- |
-| [CadViewInfo](cadviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;Layer&gt;, IList&lt;Layout&gt;) | Initialise la nouvelle instance de[`CadViewInfo`](../cadviewinfo) classe. |
+| [CadViewInfo](cadviewinfo)(FileType, List&lt;Page&gt;, List&lt;Layer&gt;, List&lt;Layout&gt;) | Initialise la nouvelle instance de[`CadViewInfo`](../cadviewinfo) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Le type du fichier. |
-| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; } | La liste des calques contenus par le dessin CAO. |
-| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; } | La liste des mises en page contenues par le dessin CAO. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | La liste des pages à afficher. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Le type du fichier. |
+| [Layers](../../groupdocs.viewer.results/cadviewinfo/layers) { get; set; } | La liste des calques contenus par le dessin CAO. |
+| [Layouts](../../groupdocs.viewer.results/cadviewinfo/layouts) { get; set; } | La liste des mises en page contenues par le dessin CAO. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | La liste des pages à afficher. |
 
 ## Méthodes
 

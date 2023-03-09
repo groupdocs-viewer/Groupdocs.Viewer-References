@@ -3,7 +3,7 @@ title: DWG
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف قاعدة بيانات رسم AutoCAD .dwg يمثل الملفات الثنائية الخاصة المستخدمة لاحتواء بيانات التصميم ثنائية وثلاثية الأبعاد. مثل DXF  وهي ملفات ASCII  تمثل DWG تنسيق الملف الثنائي لرسومات CAD التصميم بمساعدة الكمبيوتر. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/cad/dwg .
 type: docs
-weight: 350
+weight: 380
 url: /ar/net/groupdocs.viewer/filetype/dwg/
 ---
 ## FileType.DWG field

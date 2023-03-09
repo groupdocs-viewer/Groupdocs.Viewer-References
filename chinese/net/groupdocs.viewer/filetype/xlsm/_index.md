@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Excel Open XML 启用宏的电子表格 .xlsm 是一种支持宏的电子表格文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsm
+description: Excel Open XML MacroEnabled Spreadsheet .xlsm 是一种支持宏的 Spreasheet 文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/spreadsheet/xlsm
 type: docs
-weight: 1770
+weight: 1820
 url: /zh/net/groupdocs.viewer/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-Excel Open XML 启用宏的电子表格 (.xlsm) 是一种支持宏的电子表格文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsm)
+Excel Open XML Macro-Enabled Spreadsheet (.xlsm) 是一种支持宏的 Spreasheet 文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/spreadsheet/xlsm)
 
 ```csharp
 public static readonly FileType XLSM;

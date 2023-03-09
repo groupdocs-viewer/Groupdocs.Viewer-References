@@ -3,7 +3,7 @@ title: Password
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: La contraseña para abrir el archivo cifrado.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property

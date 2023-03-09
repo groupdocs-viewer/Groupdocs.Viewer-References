@@ -16,12 +16,12 @@ public static bool operator !=(FolderFontSource left, FolderFontSource right)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| left | FolderFontSource | La gauche[`FolderFontSource`](../../folderfontsource) objet. |
-| right | FolderFontSource | Droit[`FolderFontSource`](../../folderfontsource) objet. |
+| left | FolderFontSource | Gauche[`FolderFontSource`](../../folderfontsource) objet. |
+| right | FolderFontSource | Droite[`FolderFontSource`](../../folderfontsource) objet. |
 
 ### Return_Value
 
-si les deux[`FolderFontSource`](../../folderfontsource) les objets ne sont pas les mêmes ; Par ailleurs,
+si les deux[`FolderFontSource`](../../folderfontsource) les objets ne sont pas les mêmes ; sinon,
 
 ```csharp
 true

@@ -3,7 +3,7 @@ title: MPP
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف Microsoft Project .mpp هو ملف بيانات Microsoft Project يقوم بتخزين المعلومات المتعلقة بإدارة المشروع بطريقة متكاملة. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/projectmanagement/mpp .
 type: docs
-weight: 850
+weight: 900
 url: /ar/net/groupdocs.viewer/filetype/mpp/
 ---
 ## FileType.MPP field

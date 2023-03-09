@@ -17,7 +17,7 @@ public delegate string CreateResourceUrl(int pageNumber, Resource resource);
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | pageNumber | Int32 | Sayfa numarası. |
-| resource | Resource | Yazı tipi, stil, resim veya grafikler gibi HTML kaynakları. |
+| resource | Resource | Yazı tipi, stil, resim veya grafik gibi HTML kaynakları. |
 
 ### Geri dönüş değeri
 

@@ -1,14 +1,14 @@
 ---
 title: JPC
 second_title: GroupDocs.Viewer for .NET API 参考
-description: JPEG 2000 码流 .jpc
+description: JPEG 2000 代码流 .jpc
 type: docs
-weight: 660
+weight: 710
 url: /zh/net/groupdocs.viewer/filetype/jpc/
 ---
 ## FileType.JPC field
 
-JPEG 2000 码流 (.jpc)
+JPEG 2000 代码流 (.jpc)
 
 ```csharp
 public static readonly FileType JPC;

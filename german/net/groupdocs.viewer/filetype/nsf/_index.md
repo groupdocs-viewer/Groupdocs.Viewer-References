@@ -1,14 +1,14 @@
 ---
 title: NSF
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: Lotus NotesDatenbank .nsf Weitere Informationen zu diesem Dateiformathierhttps//fileinfo.com/extension/nsf .
+description: Lotus NotesDatenbank .nsf Weitere Informationen zu diesem DateiformatHierhttps//fileinfo.com/extension/nsf .
 type: docs
-weight: 890
+weight: 940
 url: /de/net/groupdocs.viewer/filetype/nsf/
 ---
 ## FileType.NSF field
 
-Lotus Notes-Datenbank (.nsf) Weitere Informationen zu diesem Dateiformat[hier](https://fileinfo.com/extension/nsf) .
+Lotus Notes-Datenbank (.nsf) Weitere Informationen zu diesem Dateiformat[Hier](https://fileinfo.com/extension/nsf) .
 
 ```csharp
 public static readonly FileType NSF;

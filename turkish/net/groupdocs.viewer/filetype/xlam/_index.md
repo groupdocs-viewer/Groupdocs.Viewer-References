@@ -3,7 +3,7 @@ title: XLAM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Microsoft Excel Eklentisi .xlam
 type: docs
-weight: 1740
+weight: 1790
 url: /tr/net/groupdocs.viewer/filetype/xlam/
 ---
 ## FileType.XLAM field

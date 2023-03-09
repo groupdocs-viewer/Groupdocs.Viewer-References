@@ -3,7 +3,7 @@ title: DWG
 second_title: GroupDocs.Viewer för .NET API-referens
 description: AutoCAD Drawing Database File .dwg representerar proprietära binära filer som används för att innehålla 2D och 3Ddesigndata. Liksom DXF som är ASCIIfiler representerar DWG det binära filformatet för CADritningar Computer Aided Design. Läs mer om detta filformathärhttps//wiki.fileformat.com/cad/dwg .
 type: docs
-weight: 350
+weight: 380
 url: /sv/net/groupdocs.viewer/filetype/dwg/
 ---
 ## FileType.DWG field

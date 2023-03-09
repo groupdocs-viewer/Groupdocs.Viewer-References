@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
-description: Détermine si le courantFileTypegroupdocs.viewer/filetypeest le même que celui spécifiéFileTypegroupdocs.viewer/filetype objet.
+description: Détermine si le courantFileTypegroupdocs.viewer/filetype est le même que celui spécifiéFileTypegroupdocs.viewer/filetype objet.
 type: docs
-weight: 1930
+weight: 1980
 url: /fr/net/groupdocs.viewer/filetype/equals/
 ---
 ## Equals(FileType) {#equals}
 
-Détermine si le courant[`FileType`](../../filetype)est le même que celui spécifié[`FileType`](../../filetype) objet.
+Détermine si le courant[`FileType`](../../filetype) est le même que celui spécifié[`FileType`](../../filetype) objet.
 
 ```csharp
 public bool Equals(FileType other)
@@ -20,7 +20,7 @@ public bool Equals(FileType other)
 
 ### Return_Value
 
-si les deux[`FileType`](../../filetype) les objets sont les mêmes; Par ailleurs,
+si les deux[`FileType`](../../filetype) les objets sont les mêmes; sinon,
 
 ```csharp
 true
@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### Return_Value
 
-si le paramètre est[`FileType`](../../filetype) et est le même que le courant[`FileType`](../../filetype) objet; Par ailleurs,
+si le paramètre est[`FileType`](../../filetype) et est le même que le courant[`FileType`](../../filetype) objet; sinon,
 
 ```csharp
 true

@@ -1,14 +1,14 @@
 ---
 title: OBJ
 second_title: Referencia de API de GroupDocs.Viewer para .NET
-description: Wavefront 3D Object File .obj es un archivo de imagen 3D introducido por Wavefront Technologies Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/3d/obj/ .
+description: Wavefront 3D Object File .obj es un archivo de imagen 3D presentado por Wavefront Technologies Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/3d/obj/ .
 type: docs
-weight: 910
+weight: 960
 url: /es/net/groupdocs.viewer/filetype/obj/
 ---
 ## FileType.OBJ field
 
-Wavefront 3D Object File (.obj) es un archivo de imagen 3D introducido por Wavefront Technologies Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/3d/obj/) .
+Wavefront 3D Object File (.obj) es un archivo de imagen 3D presentado por Wavefront Technologies Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/3d/obj/) .
 
 ```csharp
 public static readonly FileType OBJ;

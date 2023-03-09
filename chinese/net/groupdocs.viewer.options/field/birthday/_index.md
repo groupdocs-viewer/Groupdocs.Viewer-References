@@ -1,14 +1,14 @@
 ---
 title: Birthday
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是生日
+description: 默认字段文本为生日
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.options/field/birthday/
 ---
 ## Field.Birthday field
 
-默认字段文本是“生日”。
+默认字段文本为“生日”。
 
 ```csharp
 public static readonly Field Birthday;

@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /ar/net/groupdocs.viewer.results/line/line/
 ---
-## Line constructor
+## Line() {#constructor}
 
 تهيئة مثيل جديد لـ[`Line`](../../line) فئة .
 
 ```csharp
-public Line(string line, double x, double y, double width, double height, IList<Word> words)
+public Line()
+```
+
+### أنظر أيضا
+
+* class [Line](../../line)
+* مساحة الاسم [GroupDocs.Viewer.Results](../../line)
+* المجسم [GroupDocs.Viewer](../../../)
+
+---
+
+## Line(string, double, double, double, double, List&lt;Word&gt;) {#constructor_1}
+
+تهيئة مثيل جديد لـ[`Line`](../../line) فئة .
+
+```csharp
+public Line(string line, double x, double y, double width, double height, List<Word> words)
 ```
 
 | معامل | يكتب | وصف |
@@ -21,7 +37,7 @@ public Line(string line, double x, double y, double width, double height, IList<
 | y | Double | إحداثي Y لأعلى نقطة يسرى على تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على خط. |
 | width | Double | عرض المستطيل الذي يحتوي على الخط (بالبكسل). |
 | height | Double | ارتفاع المستطيل الذي يحتوي على الخط (بالبكسل). |
-| words | IList`1 | الكلمات التي يحتويها السطر. |
+| words | List`1 | الكلمات التي يحتويها السطر. |
 
 ### استثناءات
 

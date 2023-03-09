@@ -1,14 +1,30 @@
 ---
 title: FileInfo
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Inizializza la nuova istanza diFileTypegroupdocs.viewer.results/fileinfo/filetype classe.
+description: Inizializza una nuova istanza diFileTypegroupdocs.viewer.results/fileinfo/filetype classe.
 type: docs
 weight: 10
 url: /it/net/groupdocs.viewer.results/fileinfo/fileinfo/
 ---
-## FileInfo constructor
+## FileInfo() {#constructor}
 
-Inizializza la nuova istanza di[`FileType`](../filetype) classe.
+Inizializza una nuova istanza di[`FileType`](../filetype) classe.
+
+```csharp
+public FileInfo()
+```
+
+### Guarda anche
+
+* class [FileInfo](../../fileinfo)
+* spazio dei nomi [GroupDocs.Viewer.Results](../../fileinfo)
+* assemblea [GroupDocs.Viewer](../../../)
+
+---
+
+## FileInfo(FileType) {#constructor_1}
+
+Inizializza una nuova istanza di[`FileType`](../filetype) classe.
 
 ```csharp
 public FileInfo(FileType fileType)

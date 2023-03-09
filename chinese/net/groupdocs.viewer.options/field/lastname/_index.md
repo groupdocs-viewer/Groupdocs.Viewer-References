@@ -1,14 +1,14 @@
 ---
 title: LastName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是姓氏
+description: 默认字段文本为姓氏
 type: docs
 weight: 280
 url: /zh/net/groupdocs.viewer.options/field/lastname/
 ---
 ## Field.LastName field
 
-默认字段文本是“姓氏”。
+默认字段文本为“姓氏”。
 
 ```csharp
 public static readonly Field LastName;

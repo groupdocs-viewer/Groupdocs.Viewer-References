@@ -22,16 +22,16 @@ public void View(ViewOptions options)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Ek bulunamadığında atılır. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Eklenti bulunamadığında atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
+* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### Ayrıca bakınız
 
@@ -53,22 +53,22 @@ public void View(ViewOptions options, CancellationToken cancellationToken)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | options | ViewOptions | Görünüm seçenekleri. |
-| cancellationToken | CancellationToken | Geçerli görüntüleme işlemini iptal etme isteği göndermek için iptal belirteci. |
+| cancellationToken | CancellationToken | Geçerli görüntüleme sürecini iptal etmek için bir istek göndermek için iptal belirteci. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Ek bulunamadığında atılır. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Eklenti bulunamadığında atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
+* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### Ayrıca bakınız
 
@@ -96,18 +96,18 @@ public void View(ViewOptions options, params int[] pageNumbers)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
-| ArgumentNullException | ne zaman atıldı*pageNumbers* boş. |
-| ArgumentException | ne zaman atıldı*pageNumbers* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
+| ArgumentNullException | Ne zaman atıldı*pageNumbers* boş. |
+| ArgumentException | Ne zaman atıldı*pageNumbers* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Ek bulunamadığında atılır. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Eklenti bulunamadığında atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
+* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### Ayrıca bakınız
 
@@ -136,18 +136,18 @@ public void View(ViewOptions options, CancellationToken cancellationToken, param
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | ne zaman atıldı*options* boş. |
-| ArgumentNullException | ne zaman atıldı*pageNumbers* boş. |
-| ArgumentException | ne zaman atıldı*pageNumbers* boş. |
-| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için şifre gerektiğinde atılır. |
+| ArgumentNullException | Ne zaman atıldı*options* boş. |
+| ArgumentNullException | Ne zaman atıldı*pageNumbers* boş. |
+| ArgumentException | Ne zaman atıldı*pageNumbers* boş. |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | Belgeyi açmak için parola gerektiğinde atılır. |
 | [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | Belirtilen şifre yanlış olduğunda atılır. |
-| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Ek bulunamadığında atılır. |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | Eklenti bulunamadığında atılır. |
 
 ### Notlar
 
 **Daha fazla bilgi edin**
 
-* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
+* Bu kılavuzu izleyerek farklı görüntüleme seçenekleri hakkında daha fazla bilgi edinin: [GroupDocs.Viewer kullanılarak belge görüntüleme çıktısı nasıl özelleştirilir](https://docs.groupdocs.com/display/viewernet/Viewing)
 
 ### Ayrıca bakınız
 

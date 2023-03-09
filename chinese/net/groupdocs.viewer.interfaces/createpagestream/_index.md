@@ -1,14 +1,14 @@
 ---
 title: CreatePageStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示实例化用于写入输出页面数据的流的方法
+description: 表示实例化用于写入输出页数据的流的方法
 type: docs
 weight: 130
 url: /zh/net/groupdocs.viewer.interfaces/createpagestream/
 ---
 ## CreatePageStream delegate
 
-表示实例化用于写入输出页面数据的流的方法。
+表示实例化用于写入输出页数据的流的方法。
 
 ```csharp
 public delegate Stream CreatePageStream(int pageNumber);

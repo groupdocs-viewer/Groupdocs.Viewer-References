@@ -1,14 +1,14 @@
 ---
 title: Word
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 表示相对定位的包含单个单词的矩形
+description: 表示包含单个单词的相对定位的矩形
 type: docs
-weight: 790
+weight: 800
 url: /zh/net/groupdocs.viewer.results/word/
 ---
 ## Word class
 
-表示相对定位的包含单个单词的矩形。
+表示包含单个单词的相对定位的矩形。
 
 ```csharp
 public class Word : TextElement<string>
@@ -18,24 +18,25 @@ public class Word : TextElement<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Word](word)(string, double, double, double, double, IList&lt;Character&gt;) | 初始化的新实例[`Word`](../word)类. |
+| [Word](word#constructor)() | 初始化新实例[`Word`](../word)类. |
+| [Word](word#constructor_1)(string, double, double, double, double, List&lt;Character&gt;) | 初始化新实例[`Word`](../word)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Characters](../../groupdocs.viewer.results/word/characters) { get; } | 单词包含的字符。 |
-| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; } | 包含元素的矩形的高度（以像素为单位）。 |
-| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; } | 元素值。 |
-| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; } | 包含元素的矩形的宽度（以像素为单位）。 |
-| [X](../../groupdocs.viewer.results/textelement-1/x) { get; } | 页面布局上左最高点的 X 坐标，其中包含元素的矩形开始。 |
-| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; } | 包含元素的矩形开始的页面布局左最高点的 Y 坐标。 |
+| [Characters](../../groupdocs.viewer.results/word/characters) { get; set; } | 单词包含的字符。 |
+| [Height](../../groupdocs.viewer.results/textelement-1/height) { get; set; } | 包含元素的矩形的高度（以像素为单位）。 |
+| [Value](../../groupdocs.viewer.results/textelement-1/value) { get; set; } | 元素值。 |
+| [Width](../../groupdocs.viewer.results/textelement-1/width) { get; set; } | 包含元素的矩形的宽度（以像素为单位）。 |
+| [X](../../groupdocs.viewer.results/textelement-1/x) { get; set; } | 包含元素的矩形开始的页面布局左最高点的 X 坐标。 |
+| [Y](../../groupdocs.viewer.results/textelement-1/y) { get; set; } | 包含元素的矩形开始的页面布局上最左点的 Y 坐标。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.results/word/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.results/word/tostring)() | 返回表示当前对象的字符串。 |
 
 ### 也可以看看
 

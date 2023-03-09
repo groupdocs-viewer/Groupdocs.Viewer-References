@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Извлекает расширение файла и сопоставляет его с типом файла.
 type: docs
-weight: 1880
+weight: 1930
 url: /ru/net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method

@@ -16,7 +16,7 @@ public IList<Tile> Tiles { get; set; }
 
 ### 评论
 
-此选项仅支持[`DWG`](../../../groupdocs.viewer/filetype/dwg)和[`DWT`](../../../groupdocs.viewer/filetype/dwt)文件类型. [`RenderLayouts`](../renderlayouts)和[`LayoutName`](../layoutname)通过tiles. 渲染时选项被忽略
+此选项仅支持[`DWG`](../../../groupdocs.viewer/filetype/dwg)和[`DWT`](../../../groupdocs.viewer/filetype/dwt)文件类型. [`RenderLayouts`](../renderlayouts)和[`LayoutName`](../layoutname)通过 tiles. 渲染时选项被忽略
 
 ### 也可以看看
 

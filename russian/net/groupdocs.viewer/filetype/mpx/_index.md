@@ -3,7 +3,7 @@ title: MPX
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл Microsoft Project Exchange .mpx  это файл формата ASCII для передачи информации о проекте между Microsoft Project MSP и другими приложениями поддерживающими формат файлов MPX такими как Primavera Project Planner Sciforma и Timerline Precision Estimating. Подробнее о этот формат файлаздесьhttps//wiki.fileformat.com/projectmanagement/mpx .
 type: docs
-weight: 870
+weight: 920
 url: /ru/net/groupdocs.viewer/filetype/mpx/
 ---
 ## FileType.MPX field

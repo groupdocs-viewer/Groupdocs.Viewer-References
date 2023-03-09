@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/layer/name/
 Имя слоя.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Примечания

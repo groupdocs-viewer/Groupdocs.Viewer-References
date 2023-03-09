@@ -11,7 +11,7 @@ url: /it/net/groupdocs.viewer.results/page/height/
 L'altezza della pagina in pixel quando viene visualizzata come JPG o PNG.
 
 ```csharp
-public int Height { get; }
+public int Height { get; set; }
 ```
 
 ### Guarda anche

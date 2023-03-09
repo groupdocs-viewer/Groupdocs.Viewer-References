@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### Geri dönüş değeri
 
-Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions)sayfa sonlarına göre işleme için. Excel'de yazdırmaya benzer davranış.
+Yeni örneği[`SpreadsheetOptions`](../../spreadsheetoptions) sayfa sonlarına göre oluşturmak için. Excel'de yazdırmaya benzer davranış.
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: OTT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: قالب مستند OpenDocument .ott يمثل مستندات نموذجية تم إنشاؤها بواسطة التطبيقات وفقًا للتنسيق القياسي OpenDocument الخاص بـ OASIS. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/wordprocessing/ott .
 type: docs
-weight: 1010
+weight: 1060
 url: /ar/net/groupdocs.viewer/filetype/ott/
 ---
 ## FileType.OTT field

@@ -3,7 +3,7 @@ title: LESS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: DAHA AZ Stil Sayfası .less
 type: docs
-weight: 740
+weight: 790
 url: /tr/net/groupdocs.viewer/filetype/less/
 ---
 ## FileType.LESS field

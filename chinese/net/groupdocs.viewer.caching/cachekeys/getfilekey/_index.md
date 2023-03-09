@@ -1,14 +1,14 @@
 ---
 title: GetFileKey
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回代表文件的缓存条目的唯一标识符
+description: 返回表示文件的缓存条目的唯一标识符
 type: docs
 weight: 40
 url: /zh/net/groupdocs.viewer.caching/cachekeys/getfilekey/
 ---
 ## CacheKeys.GetFileKey method
 
-返回代表文件的缓存条目的唯一标识符。
+返回表示文件的缓存条目的唯一标识符。
 
 ```csharp
 public static string GetFileKey(string extension)
@@ -16,7 +16,7 @@ public static string GetFileKey(string extension)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| extension | String | 文件名后缀（包括句点“.”）例如“.doc”。 |
+| extension | String | 文件名后缀（包括句点“.”），例如“.doc”。 |
 
 ### 返回值
 
@@ -26,7 +26,7 @@ public static string GetFileKey(string extension)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*extension*为空或为空。 |
+| ArgumentException | 抛出时*extension*为 null 或空。 |
 
 ### 也可以看看
 

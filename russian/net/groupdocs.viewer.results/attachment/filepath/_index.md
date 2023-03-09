@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/attachment/filepath/
 Относительный путь к вложению, напримерпапка/файл.docx или имя файла, если файл находится в корне архива, в сообщении электронной почты или в файле данных.
 
 ```csharp
-public string FilePath { get; }
+public string FilePath { get; set; }
 ```
 
 ### Смотрите также

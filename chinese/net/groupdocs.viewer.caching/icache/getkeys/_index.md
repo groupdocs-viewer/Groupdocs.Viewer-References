@@ -1,14 +1,14 @@
 ---
 title: GetKeys
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 返回所有匹配过滤器的键
+description: 返回匹配过滤器的所有键
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.caching/icache/getkeys/
 ---
 ## ICache.GetKeys method
 
-返回所有匹配过滤器的键。
+返回匹配过滤器的所有键。
 
 ```csharp
 public IEnumerable<string> GetKeys(string filter)

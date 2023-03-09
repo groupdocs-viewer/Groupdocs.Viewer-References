@@ -1,14 +1,14 @@
 ---
 title: PageSize
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: La dimensione della pagina di output. Il valore predefinito èUnspecified il che significa che una dimensione della pagina è impostata nelle impostazioni di una pagina Imposta pagina.  Durante il rendering di file HTM e HTML la dimensione predefinita della pagina è impostata su Lettera 792 x 612 punti. Di conseguenza parte del contenuto potrebbe non adattarsi alla cornice della pagina. Imposta una dimensione della pagina più grande ad es.A3 per adattarsi ai contenuti.
+description: La dimensione della pagina di output. Il valore predefinito èUnspecified il che significa che viene utilizzata una dimensione della pagina impostata nelle impostazioni della pagina Imposta pagina.  Durante il rendering di file HTM e HTML la dimensione predefinita della pagina è impostata su Lettera 792 x 612 punti. Di conseguenza parte del contenuto potrebbe non adattarsi alla cornice della pagina. Imposta una dimensione della pagina più grande ad es.A3 per adattarsi ai contenuti.
 type: docs
 weight: 50
 url: /it/net/groupdocs.viewer.options/wordprocessingoptions/pagesize/
 ---
 ## WordProcessingOptions.PageSize property
 
-La dimensione della pagina di output. Il valore predefinito èUnspecified il che significa che una dimensione della pagina è impostata nelle impostazioni di una pagina (Imposta pagina).  Durante il rendering di file HTM e HTML, la dimensione predefinita della pagina è impostata su Lettera 792 x 612 punti. Di conseguenza, parte del contenuto potrebbe non adattarsi alla cornice della pagina. Imposta una dimensione della pagina più grande, ad es.A3 per adattarsi ai contenuti.
+La dimensione della pagina di output. Il valore predefinito èUnspecified il che significa che viene utilizzata una dimensione della pagina impostata nelle impostazioni della pagina (Imposta pagina).  Durante il rendering di file HTM e HTML, la dimensione predefinita della pagina è impostata su Lettera 792 x 612 punti. Di conseguenza, parte del contenuto potrebbe non adattarsi alla cornice della pagina. Imposta una dimensione della pagina più grande, ad es.A3 per adattarsi ai contenuti.
 
 ```csharp
 public PageSize PageSize { get; set; }

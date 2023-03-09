@@ -1,14 +1,14 @@
 ---
 title: ForOnePagePerSheet
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions用于将整个工作表渲染到页面中的类
+description: 初始化新实例SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions将整张纸渲染成页面的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet/
 ---
 ## SpreadsheetOptions.ForOnePagePerSheet method
 
-初始化的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于将整个工作表渲染到页面中的类。
+初始化新实例[`SpreadsheetOptions`](../../spreadsheetoptions)将整张纸渲染成页面的类.
 
 ```csharp
 public static SpreadsheetOptions ForOnePagePerSheet()
@@ -16,7 +16,7 @@ public static SpreadsheetOptions ForOnePagePerSheet()
 
 ### 返回值
 
-的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)用于将一张纸呈现为一页的类。
+的新实例[`SpreadsheetOptions`](../../spreadsheetoptions)将一张纸渲染成一页的类。
 
 ### 也可以看看
 

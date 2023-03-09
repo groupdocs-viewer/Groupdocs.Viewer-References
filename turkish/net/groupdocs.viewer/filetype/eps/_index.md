@@ -1,14 +1,14 @@
 ---
 title: EPS
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Encapsulated PostScript File .eps tek bir sayfanın görünümünü tanımlayan Encapsulated PostScript dil programını tanımlar. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/pagedescriptionlanguage/eps .
+description: Encapsulated PostScript Dosyası .eps tek bir sayfanın görünümünü açıklayan Encapsulated PostScript dil programını tanımlar. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/pagedescriptionlanguage/eps .
 type: docs
-weight: 420
+weight: 450
 url: /tr/net/groupdocs.viewer/filetype/eps/
 ---
 ## FileType.EPS field
 
-Encapsulated PostScript File (.eps), tek bir sayfanın görünümünü tanımlayan Encapsulated PostScript dil programını tanımlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/page-description-language/eps) .
+Encapsulated PostScript Dosyası (.eps), tek bir sayfanın görünümünü açıklayan Encapsulated PostScript dil programını tanımlar. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/page-description-language/eps) .
 
 ```csharp
 public static readonly FileType EPS;

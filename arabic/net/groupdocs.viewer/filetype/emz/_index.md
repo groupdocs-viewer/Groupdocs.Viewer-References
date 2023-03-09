@@ -3,7 +3,7 @@ title: EMZ
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: يمثل ملف Windows Metafile المضغوط المحسن .emz صورًا رسومية مضغوطة بواسطة جهاز GZIP بشكل مستقل. تتكون ملفات تعريف EMF من سجلات متغيرة الطول بترتيب زمني يمكن أن تعرض الصورة المخزنة بعد التحليل على أي جهاز إخراج . تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/emz .
 type: docs
-weight: 410
+weight: 440
 url: /ar/net/groupdocs.viewer/filetype/emz/
 ---
 ## FileType.EMZ field

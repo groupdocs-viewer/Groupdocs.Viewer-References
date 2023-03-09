@@ -1,17 +1,17 @@
 ---
 title: Layers
 second_title: GroupDocs.Viewer for .NET API 参考
-description: CAD 绘图所包含的图层列表
+description: CAD 绘图包含的图层列表
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.results/cadviewinfo/layers/
 ---
 ## CadViewInfo.Layers property
 
-CAD 绘图所包含的图层列表。
+CAD 绘图包含的图层列表。
 
 ```csharp
-public IList<Layer> Layers { get; }
+public List<Layer> Layers { get; set; }
 ```
 
 ### 也可以看看

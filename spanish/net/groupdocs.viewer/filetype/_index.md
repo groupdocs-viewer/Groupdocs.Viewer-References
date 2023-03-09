@@ -14,12 +14,19 @@ Representa el tipo de archivo. Proporciona métodos para obtener una lista de to
 public sealed class FileType : IEquatable<FileType>
 ```
 
+## Constructores
+
+| Nombre | Descripción |
+| --- | --- |
+| [FileType](filetype#constructor)() | Inicializa una nueva instancia de[`FileType`](../filetype) clase. |
+| [FileType](filetype#constructor_1)(string, string) | Inicializa una nueva instancia de[`FileType`](../filetype) clase. |
+
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Extension](../../groupdocs.viewer/filetype/extension) { get; } | Sufijo de nombre de archivo (incluido el punto "."), por ejemplo, ".doc". |
-| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; } | Nombre del tipo de archivo, por ejemplo, "Documento de Microsoft Word". |
+| [Extension](../../groupdocs.viewer/filetype/extension) { get; set; } | Sufijo de nombre de archivo (incluido el punto "."), por ejemplo, ".doc". |
+| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; set; } | Nombre del tipo de archivo, por ejemplo, "Documento de Microsoft Word". |
 
 ## Métodos
 
@@ -32,10 +39,12 @@ public sealed class FileType : IEquatable<FileType>
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_1)(Stream, ILogger) | Detecta el tipo de archivo leyendo la firma del archivo. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_2)(Stream, string) | Detecta el tipo de archivo leyendo la firma del archivo. |
 | static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_3)(Stream, string, ILogger) | Detecta el tipo de archivo leyendo la firma del archivo. |
-| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Determina si la corriente[`FileType`](../filetype)es igual a lo especificado[`FileType`](../filetype) objeto. |
+| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Determina si la corriente[`FileType`](../filetype) es igual a lo especificado[`FileType`](../filetype) objeto. |
 | override [Equals](../../groupdocs.viewer/filetype/equals#equals_1)(object) | Determina si la corriente[`FileType`](../filetype) es el mismo que el objeto especificado. |
 | override [GetHashCode](../../groupdocs.viewer/filetype/gethashcode)() | Devuelve el código hash para el actual[`FileType`](../filetype) objeto. |
 | override [ToString](../../groupdocs.viewer/filetype/tostring)() | Devuelve una cadena que representa el objeto actual. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding)(Stream) | Intentos de detectar texto[`TXT`](./txt) ,[`TSV`](./tsv) , y[`CSV`](./csv) codificación de archivos por stream. |
+| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding_1)(string) | Intentos de detectar texto[`TXT`](./txt) ,[`TSV`](./tsv) , y[`CSV`](./csv)codificación de archivos por ruta. |
 | static [GetSupportedFileTypes](../../groupdocs.viewer/filetype/getsupportedfiletypes)() | Recupera tipos de archivo admitidos |
 | [operator ==](../../groupdocs.viewer/filetype/op_equality) | Determina si dos[`FileType`](../filetype) los objetos son iguales. |
 | [operator !=](../../groupdocs.viewer/filetype/op_inequality) | Determina si dos[`FileType`](../filetype) los objetos no son iguales. |
@@ -60,6 +69,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [CHM](../../groupdocs.viewer/filetype/chm) | El archivo de ayuda HTML compilado de Microsoft (.chm) es un formato muy conocido para documentos de AYUDA (documentación para alguna aplicación). Más información sobre este formato de archivo[aquí](https://docs.fileformat.com/web/chm/) . |
 | static readonly [CMAKE](../../groupdocs.viewer/filetype/cmake) | Archivo CMake (.cmake) |
 | static readonly [CMX](../../groupdocs.viewer/filetype/cmx) | Corel Exchange (.cmx) es un archivo de imagen de dibujo que puede contener gráficos vectoriales y gráficos de mapa de bits. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/cmx) . |
+| static readonly [CPIO](../../groupdocs.viewer/filetype/cpio) | Cpio es una utilidad general de archivado de archivos y su formato de archivo asociado. Se instala principalmente en sistemas operativos de computadora similares a Unix. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/compression/cpio) . |
 | static readonly [CPP](../../groupdocs.viewer/filetype/cpp) | Archivo de código fuente de C++ (.cpp) |
 | static readonly [CS](../../groupdocs.viewer/filetype/cs) | C# Source Code File (.cs) es un archivo de código fuente para el lenguaje de programación C#. Presentado por Microsoft para su uso con .NET Framework. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/programming/cs) . |
 | static readonly [CSS](../../groupdocs.viewer/filetype/css) | Hoja de estilos en cascada (.css) |
@@ -70,7 +80,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [DIB](../../groupdocs.viewer/filetype/dib) | Archivo de mapa de bits independiente del dispositivo (.dib) |
 | static readonly [DIFF](../../groupdocs.viewer/filetype/diff) | Archivo de parche (.diff) |
 | static readonly [DJVU](../../groupdocs.viewer/filetype/djvu) | DjVu Image (.djvu) es un formato de archivo de gráficos diseñado para documentos escaneados y libros, especialmente aquellos que contienen una combinación de texto, dibujos, imágenes y fotografías. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/djvu) . |
-| static readonly [DNG](../../groupdocs.viewer/filetype/dng) | Especificación negativa digital (.dng) es un formato de imagen de cámara digital utilizado para el almacenamiento de archivos sin formato. Ha sido desarrollado por Adobe en septiembre de 2004. Fue desarrollado básicamente para fotografía digital. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/dng) . |
+| static readonly [DNG](../../groupdocs.viewer/filetype/dng) | Especificación negativa digital (.dng) es un formato de imagen de cámara digital utilizado para el almacenamiento de archivos sin procesar. Ha sido desarrollado por Adobe en septiembre de 2004. Fue desarrollado básicamente para fotografía digital. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/dng) . |
 | static readonly [DOC](../../groupdocs.viewer/filetype/doc) | Documento de Microsoft Word (.doc) representa documentos generados por Microsoft Word u otros documentos de procesamiento de textos en formato de archivo binario. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/word-processing/doc) . |
 | static readonly [DOCM](../../groupdocs.viewer/filetype/docm) | Word Open XML Macro-Enabled Document (.docm) es un documento generado por Microsoft Word 2007 o superior con la capacidad de ejecutar macros. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/word-processing/docm) . |
 | static readonly [DOCX](../../groupdocs.viewer/filetype/docx) | El documento XML abierto de Microsoft Word (.docx) es un formato muy conocido para los documentos de Microsoft Word. Introducido a partir de 2007 con el lanzamiento de Microsoft Office 2007, la estructura de este nuevo formato de documento se cambió de binario simple a una combinación de XML y archivos binarios. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/word-processing/docx) . |
@@ -78,6 +88,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [DOTM](../../groupdocs.viewer/filetype/dotm) | Plantilla de documento de Word Open XML habilitado para macros (.dotm) representa un archivo de plantilla creado con Microsoft Word 2007 o superior. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/word-processing/dotm) . |
 | static readonly [DOTX](../../groupdocs.viewer/filetype/dotx) | Plantilla de documento XML abierto de Word (.dotx) son archivos de plantilla creados por Microsoft Word para tener configuraciones preformateadas para la generación de más archivos DOCX. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/word-processing/dotx) . |
 | static readonly [DWF](../../groupdocs.viewer/filetype/dwf) | El archivo de formato web de diseño (.dwf) representa un dibujo 2D/3D en formato comprimido para ver, revisar o imprimir archivos de diseño. Contiene gráficos y texto como parte de los datos de diseño y reduce el tamaño del archivo debido a su formato comprimido. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/cad/dwf) . |
+| static readonly [DWFX](../../groupdocs.viewer/filetype/dwfx) | Design Web Format File XPS (.dwfx) representa dibujos 2D/3D como documento XPS en formato comprimido para ver, revisar o imprimir archivos de diseño. Contiene gráficos y texto como parte de los datos de diseño y reduce el tamaño del archivo debido a su formato comprimido. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/cad/dwfx) . |
 | static readonly [DWG](../../groupdocs.viewer/filetype/dwg) | El archivo de base de datos de dibujo de AutoCAD (.dwg) representa archivos binarios propietarios que se utilizan para contener datos de diseño 2D y 3D. Al igual que DXF, que son archivos ASCII, DWG representa el formato de archivo binario para dibujos CAD (diseño asistido por computadora). Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/cad/dwg) . |
 | static readonly [DWT](../../groupdocs.viewer/filetype/dwt) | Plantilla de dibujo de AutoCAD (.dwt) es un archivo de plantilla de dibujo de AutoCAD que se utiliza como iniciador para crear dibujos que se pueden guardar como archivos DWG. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/cad/dwt) . |
 | static readonly [DXF](../../groupdocs.viewer/filetype/dxf) | El archivo de formato de intercambio de dibujo (.dxf) es una representación de datos etiquetados del archivo de dibujo de AutoCAD. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/cad/dxf) . |
@@ -89,6 +100,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [EPUB](../../groupdocs.viewer/filetype/epub) | Open eBook File (.epub) es un formato de archivo de libro electrónico que proporciona un formato de publicación digital estándar para editores y consumidores. El formato ya es tan común que es compatible con muchos lectores electrónicos y aplicaciones de software. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/ebook/epub) . |
 | static readonly [ERB](../../groupdocs.viewer/filetype/erb) | Guión Ruby ERB (.erb) |
 | static readonly [Excel2003XML](../../groupdocs.viewer/filetype/excel2003xml) | Excel 2003 XML (SpreadsheetML) representa el formato de archivo binario de Excel. Estos archivos pueden crearse con Microsoft Excel, así como con otros programas de hojas de cálculo similares, como OpenOffice Calc o Apple Numbers. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/spreadsheet/xls) . |
+| static readonly [FBX](../../groupdocs.viewer/filetype/fbx) | El archivo de intercambio Autodesk FBX (FilmBoX) (.fbx) representa el formato de modelo 3D. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/cad/fbx) . |
 | static readonly [FODG](../../groupdocs.viewer/filetype/fodg) | La plantilla ODF XML plana (.fodg) es utilizada por la aplicación Draw de Apache OpenOffice para almacenar elementos de dibujo como una imagen vectorial. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/fodg) . |
 | static readonly [FODP](../../groupdocs.viewer/filetype/fodp) | La presentación de OpenDocument (.fodp) representa la presentación XML plana de OpenDocument. Más información sobre este formato de archivo[aquí](https://fileinfo.com/extension/fodp) . |
 | static readonly [FODS](../../groupdocs.viewer/filetype/fods) | Hoja de cálculo XML plana OpenDocument (.fods) |
@@ -108,6 +120,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | Secuencia de código JPEG 2000 (.j2c) |
 | static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) es una imagen que se comprime usando la compresión wavelet en lugar de la compresión DCT. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/j2k) . |
 | static readonly [JAVA](../../groupdocs.viewer/filetype/java) | Archivo de código fuente de Java (.java) |
+| static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
 | static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) es un sistema de codificación de imágenes y un estándar de compresión de imágenes de última generación. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/jp2) . |
 | static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | Secuencia de código JPEG 2000 (.jpc) |
 | static readonly [JPEG](../../groupdocs.viewer/filetype/jpeg) | Imagen JPEG (.jpeg) es un tipo de formato de imagen que se guarda mediante el método de compresión con pérdida. La imagen de salida, como resultado de la compresión, es una compensación entre el tamaño de almacenamiento y la calidad de la imagen. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/jpeg) . |
@@ -134,7 +147,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [MSG](../../groupdocs.viewer/filetype/msg) | Outlook Mail Message (.msg) es un formato de archivo utilizado por Microsoft Outlook y Exchange para almacenar mensajes de correo electrónico, contactos, citas u otras tareas. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/email/msg) . |
 | static readonly [NSF](../../groupdocs.viewer/filetype/nsf) | Base de datos de Lotus Notes (.nsf) Más información sobre este formato de archivo[aquí](https://fileinfo.com/extension/nsf) . |
 | static readonly [NUMBERS](../../groupdocs.viewer/filetype/numbers) | Los números de Apple representan Excel como formato de archivo binario. Dichos archivos pueden ser creados por la aplicación de números de Apple. Más información sobre este formato de archivo[aquí](https://fileinfo.com/extension/numbers) . |
-| static readonly [OBJ](../../groupdocs.viewer/filetype/obj) | Wavefront 3D Object File (.obj) es un archivo de imagen 3D introducido por Wavefront Technologies Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/3d/obj/) . |
+| static readonly [OBJ](../../groupdocs.viewer/filetype/obj) | Wavefront 3D Object File (.obj) es un archivo de imagen 3D presentado por Wavefront Technologies Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/3d/obj/) . |
 | static readonly [ODG](../../groupdocs.viewer/filetype/odg) | El archivo gráfico OpenDocument (.odg) es utilizado por la aplicación Draw de Apache OpenOffice para almacenar elementos de dibujo como una imagen vectorial. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/odg) . |
 | static readonly [ODP](../../groupdocs.viewer/filetype/odp) | OpenDocument Presentation (.odp) representa el formato de archivo de presentación utilizado por OpenOffice.org en el estándar OASISOpen. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/presentation/odp) . |
 | static readonly [ODS](../../groupdocs.viewer/filetype/ods) | Hoja de cálculo OpenDocument (.ods) significa formato de documento de hoja de cálculo OpenDocument que puede editar el usuario. Los datos se almacenan dentro del archivo ODF en filas y columnas. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/spreadsheet/ods) . |
@@ -198,7 +211,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [TXT](../../groupdocs.viewer/filetype/txt) | Archivo de texto sin formato (.txt) representa un documento de texto que contiene texto sin formato en forma de líneas. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/word-processing/txt) . |
 | static readonly [TXZ](../../groupdocs.viewer/filetype/txz) | El archivo de archivo Unix consolidado (.txz, .tar.xz) son archivos creados con una utilidad basada en Unix para recopilar uno o más archivos. Más información sobre este formato de archivo[aquí](https://fileinfo.com/extension/txz) . |
 | static readonly [Unknown](../../groupdocs.viewer/filetype/unknown) | Representa un tipo de archivo desconocido. |
-| static readonly [VB](../../groupdocs.viewer/filetype/vb) | El archivo de elemento de proyecto de Visual Basic (.vb) es un archivo de código fuente creado en lenguaje Visual Basic creado por Microsoft para el desarrollo de aplicaciones .NET. Obtenga más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/programming/vb) . |
+| static readonly [VB](../../groupdocs.viewer/filetype/vb) | El archivo de elemento de proyecto de Visual Basic (.vb) es un archivo de código fuente creado en lenguaje Visual Basic creado por Microsoft para el desarrollo de aplicaciones .NET. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/programming/vb) . |
 | static readonly [VCF](../../groupdocs.viewer/filetype/vcf) | vCard File (.vcf) es un formato de archivo digital para almacenar información de contacto. El formato es ampliamente utilizado para el intercambio de datos entre aplicaciones populares de intercambio de información. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/email/vcf) . |
 | static readonly [VDW](../../groupdocs.viewer/filetype/vdw) | Dibujo web de Visio (.vdw) representa un formato de archivo que especifica las secuencias y los almacenamientos necesarios para representar un dibujo web. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/web/vdw) . |
 | static readonly [VDX](../../groupdocs.viewer/filetype/vdx) | El archivo XML de dibujo de Visio (.vdx) representa cualquier dibujo o gráfico creado en Microsoft Visio, pero guardado en formato XML con extensión .VDX. Se crea un archivo XML de dibujo de Visio en el software Visio, desarrollado por Microsoft. Más información sobre este formato de archivo[aquí](https://wiki.fileformat.com/image/vdx) . |

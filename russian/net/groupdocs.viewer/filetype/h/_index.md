@@ -3,7 +3,7 @@ title: H
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Заголовочный файл C/C/ObjectiveC .h
 type: docs
-weight: 530
+weight: 570
 url: /ru/net/groupdocs.viewer/filetype/h/
 ---
 ## FileType.H field

@@ -1,14 +1,14 @@
 ---
 title: Watermark
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Watermarkgroupdocs.viewer.options/watermark类.
+description: 初始化新实例Watermarkgroupdocs.viewer.options/watermark类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.options/watermark/watermark/
 ---
 ## Watermark constructor
 
-初始化的新实例[`Watermark`](../../watermark)类.
+初始化新实例[`Watermark`](../../watermark)类.
 
 ```csharp
 public Watermark(string text)
@@ -22,7 +22,7 @@ public Watermark(string text)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*text*为空或为空。 |
+| ArgumentException | 抛出时*text*为 null 或空。 |
 
 ### 也可以看看
 

@@ -11,7 +11,7 @@ url: /es/net/groupdocs.viewer.results/attachment/filetype/
 Tipo de archivo adjunto.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### Ver también

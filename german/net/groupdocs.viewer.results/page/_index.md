@@ -3,7 +3,7 @@ title: Page
 second_title: GroupDocs.Viewer für .NET-API-Referenz
 description: Stellt eine einzelne Seite dar die angezeigt werden kann.
 type: docs
-weight: 730
+weight: 740
 url: /de/net/groupdocs.viewer.results/page/
 ---
 ## Page class
@@ -18,23 +18,24 @@ public class Page
 
 | Name | Beschreibung |
 | --- | --- |
-| [Page](page#constructor)(int, bool) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
-| [Page](page#constructor_3)(int, string, bool) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
-| [Page](page#constructor_1)(int, bool, int, int) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
-| [Page](page#constructor_2)(int, bool, int, int, IList&lt;Line&gt;) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
-| [Page](page#constructor_4)(int, string, bool, int, int) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
-| [Page](page#constructor_5)(int, string, bool, int, int, IList&lt;Line&gt;) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page#constructor)() | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page#constructor_1)(int, bool) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page#constructor_4)(int, string, bool) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page#constructor_2)(int, bool, int, int) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page#constructor_3)(int, bool, int, int, List&lt;Line&gt;) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page#constructor_5)(int, string, bool, int, int) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
+| [Page](page#constructor_6)(int, string, bool, int, int, List&lt;Line&gt;) | Initialisiert eine neue Instanz von[`Page`](../page) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Height](../../groupdocs.viewer.results/page/height) { get; } | Die Höhe der Seite in Pixeln bei der Anzeige als JPG oder PNG. |
-| [Lines](../../groupdocs.viewer.results/page/lines) { get; } | Die auf der Seite enthaltenen Zeilen bei der Anzeige als JPG oder PNG mit aktivierter Textextraktion. |
-| [Name](../../groupdocs.viewer.results/page/name) { get; } | Der Arbeitsblatt- oder Seitenname. |
-| [Number](../../groupdocs.viewer.results/page/number) { get; } | Die Seitenzahl. |
-| [Visible](../../groupdocs.viewer.results/page/visible) { get; } | Die Sichtbarkeitsanzeige der Seite. |
-| [Width](../../groupdocs.viewer.results/page/width) { get; } | Die Breite der Seite in Pixeln bei der Anzeige als JPG oder PNG. |
+| [Height](../../groupdocs.viewer.results/page/height) { get; set; } | Die Höhe der Seite in Pixeln bei der Anzeige als JPG oder PNG. |
+| [Lines](../../groupdocs.viewer.results/page/lines) { get; set; } | Die auf der Seite enthaltenen Zeilen bei der Anzeige als JPG oder PNG mit aktivierter Textextraktion. |
+| [Name](../../groupdocs.viewer.results/page/name) { get; set; } | Der Arbeitsblatt- oder Seitenname. |
+| [Number](../../groupdocs.viewer.results/page/number) { get; set; } | Die Seitenzahl. |
+| [Visible](../../groupdocs.viewer.results/page/visible) { get; set; } | Die Sichtbarkeitsanzeige der Seite. |
+| [Width](../../groupdocs.viewer.results/page/width) { get; set; } | Die Breite der Seite in Pixeln bei der Anzeige als JPG oder PNG. |
 
 ## Methoden
 

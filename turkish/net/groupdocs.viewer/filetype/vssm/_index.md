@@ -1,14 +1,14 @@
 ---
 title: VSSM
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Visio Makro Etkin Şablon Dosyası .vssm makrolar için destek sağlayan Microsoft Visio Şablon dosyalarıdır. Bir VSSM dosyası açıldığında istenen biçimlendirmeyi ve şekillerin bir diyagramda yerleştirilmesini sağlamak için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vssm .
+description: Visio MacroEnabled Stencil File .vssm makro desteği sağlayan Microsoft Visio Stencil dosyalarıdır. Açıldığında bir VSSM dosyası istenen biçimlendirmeyi ve şekillerin bir şemaya yerleştirilmesini sağlamak için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vssm .
 type: docs
-weight: 1640
+weight: 1690
 url: /tr/net/groupdocs.viewer/filetype/vssm/
 ---
 ## FileType.VSSM field
 
-Visio Makro Etkin Şablon Dosyası (.vssm), makrolar için destek sağlayan Microsoft Visio Şablon dosyalarıdır. Bir VSSM dosyası açıldığında, istenen biçimlendirmeyi ve şekillerin bir diyagramda yerleştirilmesini sağlamak için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vssm) .
+Visio Macro-Enabled Stencil File (.vssm), makro desteği sağlayan Microsoft Visio Stencil dosyalarıdır. Açıldığında bir VSSM dosyası, istenen biçimlendirmeyi ve şekillerin bir şemaya yerleştirilmesini sağlamak için makroların çalıştırılmasına izin verir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vssm) .
 
 ```csharp
 public static readonly FileType VSSM;

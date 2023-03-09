@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.viewer.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class
 
-加载文档需要密码时抛出的异常
+加载文档需要密码时抛出的异常。
 
 ```csharp
 public class PasswordRequiredException : GroupDocsViewerException

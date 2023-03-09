@@ -1,17 +1,17 @@
 ---
 title: FileName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 附件文件名
+description: 附件文件名.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.results/attachment/filename/
 ---
 ## Attachment.FileName property
 
-附件文件名。
+附件文件名.
 
 ```csharp
-public string FileName { get; }
+public string FileName { get; set; }
 ```
 
 ### 也可以看看

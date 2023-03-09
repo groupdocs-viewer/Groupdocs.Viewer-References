@@ -1,14 +1,14 @@
 ---
 title: FileLogger
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Scrive i messaggi di registro nel file.
+description: Scrive i messaggi di log nel file.
 type: docs
 weight: 240
 url: /it/net/groupdocs.viewer.logging/filelogger/
 ---
 ## FileLogger class
 
-Scrive i messaggi di registro nel file.
+Scrive i messaggi di log nel file.
 
 ```csharp
 public class FileLogger : ILogger
@@ -24,7 +24,7 @@ public class FileLogger : ILogger
 
 | Nome | Descrizione |
 | --- | --- |
-| [Error](../../groupdocs.viewer.logging/filelogger/error)(string, Exception) | Scrive un messaggio di errore nella console. I messaggi del registro errori forniscono informazioni sugli eventi irreversibili nel flusso dell'applicazione. |
+| [Error](../../groupdocs.viewer.logging/filelogger/error)(string, Exception) | Scrive un messaggio di errore nella console. I messaggi del registro degli errori forniscono informazioni sugli eventi irreversibili nel flusso dell'applicazione. |
 | [Trace](../../groupdocs.viewer.logging/filelogger/trace)(string) | Scrive un messaggio di traccia nella console. I messaggi di registro di traccia forniscono informazioni generalmente utili sul flusso dell'applicazione. |
 | [Warning](../../groupdocs.viewer.logging/filelogger/warning)(string) | Scrive un messaggio di avviso nella console. I messaggi di registro di avviso forniscono informazioni sugli eventi imprevisti e recuperabili nel flusso dell'applicazione. |
 

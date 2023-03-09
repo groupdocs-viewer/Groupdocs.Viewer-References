@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 项目管理文件查看选项
+description: 项目管理文件视图选项
 type: docs
 weight: 90
 url: /zh/net/groupdocs.viewer.options/baseviewoptions/projectmanagementoptions/
 ---
 ## BaseViewOptions.ProjectManagementOptions property
 
-项目管理文件查看选项。
+项目管理文件视图选项。
 
 ```csharp
 public ProjectManagementOptions ProjectManagementOptions { get; set; }

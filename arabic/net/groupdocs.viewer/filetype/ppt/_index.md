@@ -3,7 +3,7 @@ title: PPT
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: PowerPoint Presentation .ppt يمثل ملف PowerPoint يتكون من مجموعة من الشرائح لعرضها على هيئة SlideShow. تحدد تنسيق الملف الثنائي المستخدم بواسطة Microsoft PowerPoint 972003. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/presentation/ppt .
 type: docs
-weight: 1150
+weight: 1200
 url: /ar/net/groupdocs.viewer/filetype/ppt/
 ---
 ## FileType.PPT field

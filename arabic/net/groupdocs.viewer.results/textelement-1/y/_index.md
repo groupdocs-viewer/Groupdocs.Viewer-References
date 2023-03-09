@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/textelement-1/y/
 الإحداثي Y لأعلى نقطة يسرى في تخطيط الصفحة حيث يبدأ المستطيل الذي يحتوي على عنصر .
 
 ```csharp
-public double Y { get; }
+public double Y { get; set; }
 ```
 
 ### أنظر أيضا

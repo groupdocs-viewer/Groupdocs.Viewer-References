@@ -1,14 +1,14 @@
 ---
 title: FromStream
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 通过读取文件签名检测文件类型
+description: 通过读取文件签名来检测文件类型
 type: docs
-weight: 1900
+weight: 1950
 url: /zh/net/groupdocs.viewer/filetype/fromstream/
 ---
 ## FromStream(Stream) {#fromstream}
 
-通过读取文件签名检测文件类型。
+通过读取文件签名来检测文件类型。
 
 ```csharp
 public static FileType FromStream(Stream stream)
@@ -28,7 +28,7 @@ public static FileType FromStream(Stream stream)
 
 ## FromStream(Stream, string) {#fromstream_2}
 
-通过读取文件签名检测文件类型。
+通过读取文件签名来检测文件类型。
 
 ```csharp
 public static FileType FromStream(Stream stream, string password)
@@ -49,7 +49,7 @@ public static FileType FromStream(Stream stream, string password)
 
 ## FromStream(Stream, ILogger) {#fromstream_1}
 
-通过读取文件签名检测文件类型。
+通过读取文件签名来检测文件类型。
 
 ```csharp
 public static FileType FromStream(Stream stream, ILogger logger)
@@ -62,7 +62,7 @@ public static FileType FromStream(Stream stream, ILogger logger)
 
 ### 返回值
 
-如果成功检测到文件类型，则返回文件类型，否则返回默认值[`Unknown`](../unknown)文件类型。
+如果成功检测则返回文件类型，否则返回默认值[`Unknown`](../unknown)文件类型。
 
 ### 也可以看看
 
@@ -75,7 +75,7 @@ public static FileType FromStream(Stream stream, ILogger logger)
 
 ## FromStream(Stream, string, ILogger) {#fromstream_3}
 
-通过读取文件签名检测文件类型。
+通过读取文件签名来检测文件类型。
 
 ```csharp
 public static FileType FromStream(Stream stream, string password, ILogger logger)
@@ -89,7 +89,7 @@ public static FileType FromStream(Stream stream, string password, ILogger logger
 
 ### 返回值
 
-如果成功检测到文件类型，则返回文件类型，否则返回默认值[`Unknown`](../unknown)文件类型。
+如果成功检测则返回文件类型，否则返回默认值[`Unknown`](../unknown)文件类型。
 
 ### 也可以看看
 

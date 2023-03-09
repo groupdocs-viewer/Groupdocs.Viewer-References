@@ -3,7 +3,7 @@ title: MPT
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон Microsoft Project .mpt содержит основную информацию и структуру а также параметры документа для создания файлов .MPP. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/projectmanagement/mpt .
 type: docs
-weight: 860
+weight: 910
 url: /ru/net/groupdocs.viewer/filetype/mpt/
 ---
 ## FileType.MPT field

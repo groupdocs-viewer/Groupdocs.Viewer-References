@@ -11,7 +11,7 @@ url: /ar/net/groupdocs.viewer.results/textelement-1/width/
 عرض المستطيل الذي يحتوي على العنصر (بالبكسل) .
 
 ```csharp
-public double Width { get; }
+public double Width { get; set; }
 ```
 
 ### أنظر أيضا

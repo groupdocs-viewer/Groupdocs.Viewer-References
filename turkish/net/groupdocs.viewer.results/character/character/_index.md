@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/character/character/
 ---
-## Character constructor
+## Character() {#constructor}
+
+Yeni örneğini başlatır[`Character`](../../character) sınıf.
+
+```csharp
+public Character()
+```
+
+### Ayrıca bakınız
+
+* class [Character](../../character)
+* ad alanı [GroupDocs.Viewer.Results](../../character)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Character(char, double, double, double, double) {#constructor_1}
 
 Yeni örneğini başlatır[`Character`](../../character) sınıf.
 

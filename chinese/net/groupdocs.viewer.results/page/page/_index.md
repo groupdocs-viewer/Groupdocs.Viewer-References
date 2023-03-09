@@ -1,14 +1,30 @@
 ---
 title: Page
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 初始化的新实例Pagegroupdocs.viewer.results/page类.
+description: 初始化新实例Pagegroupdocs.viewer.results/page类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.viewer.results/page/page/
 ---
-## Page(int, bool) {#constructor}
+## Page() {#constructor}
 
-初始化的新实例[`Page`](../../page)类.
+初始化新实例[`Page`](../../page)类.
+
+```csharp
+public Page()
+```
+
+### 也可以看看
+
+* class [Page](../../page)
+* 命名空间 [GroupDocs.Viewer.Results](../../page)
+* 部件 [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool) {#constructor_1}
+
+初始化新实例[`Page`](../../page)类.
 
 ```csharp
 public Page(int number, bool visible)
@@ -23,7 +39,7 @@ public Page(int number, bool visible)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*number*小于或等于零。 |
+| ArgumentException | 抛出时*number*小于或等于零。 |
 
 ### 也可以看看
 
@@ -33,9 +49,9 @@ public Page(int number, bool visible)
 
 ---
 
-## Page(int, string, bool) {#constructor_3}
+## Page(int, string, bool) {#constructor_4}
 
-初始化的新实例[`Page`](../../page)类.
+初始化新实例[`Page`](../../page)类.
 
 ```csharp
 public Page(int number, string name, bool visible)
@@ -51,7 +67,7 @@ public Page(int number, string name, bool visible)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*number*小于或等于零。 |
+| ArgumentException | 抛出时*number*小于或等于零。 |
 
 ### 也可以看看
 
@@ -61,9 +77,9 @@ public Page(int number, string name, bool visible)
 
 ---
 
-## Page(int, bool, int, int) {#constructor_1}
+## Page(int, bool, int, int) {#constructor_2}
 
-初始化的新实例[`Page`](../../page)类.
+初始化新实例[`Page`](../../page)类.
 
 ```csharp
 public Page(int number, bool visible, int width, int height)
@@ -73,16 +89,16 @@ public Page(int number, bool visible, int width, int height)
 | --- | --- | --- |
 | number | Int32 | 页码。 |
 | visible | Boolean | 页面可见性指示器。 |
-| width | Int32 | 以 JPG 或 PNG 格式查看时的页面宽度（以像素为单位）。 |
+| width | Int32 | 以 JPG 或 PNG 格式查看时页面的宽度（以像素为单位）。 |
 | height | Int32 | 以 JPG 或 PNG 格式查看时页面的高度（以像素为单位）。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*number*小于或等于零。 |
-| ArgumentException | 何时抛出*width*小于或等于零。 |
-| ArgumentException | 何时抛出*height*小于或等于零。 |
+| ArgumentException | 抛出时*number*小于或等于零。 |
+| ArgumentException | 抛出时*width*小于或等于零。 |
+| ArgumentException | 抛出时*height*小于或等于零。 |
 
 ### 也可以看看
 
@@ -92,9 +108,9 @@ public Page(int number, bool visible, int width, int height)
 
 ---
 
-## Page(int, string, bool, int, int) {#constructor_4}
+## Page(int, string, bool, int, int) {#constructor_5}
 
-初始化的新实例[`Page`](../../page)类.
+初始化新实例[`Page`](../../page)类.
 
 ```csharp
 public Page(int number, string name, bool visible, int width, int height)
@@ -105,16 +121,16 @@ public Page(int number, string name, bool visible, int width, int height)
 | number | Int32 | 页码。 |
 | name | String | 工作表或页面名称。 |
 | visible | Boolean | 页面可见性指示器。 |
-| width | Int32 | 以 JPG 或 PNG 格式查看时的页面宽度（以像素为单位）。 |
+| width | Int32 | 以 JPG 或 PNG 格式查看时页面的宽度（以像素为单位）。 |
 | height | Int32 | 以 JPG 或 PNG 格式查看时页面的高度（以像素为单位）。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*number*小于或等于零。 |
-| ArgumentException | 何时抛出*width*小于或等于零。 |
-| ArgumentException | 何时抛出*height*小于或等于零。 |
+| ArgumentException | 抛出时*number*小于或等于零。 |
+| ArgumentException | 抛出时*width*小于或等于零。 |
+| ArgumentException | 抛出时*height*小于或等于零。 |
 
 ### 也可以看看
 
@@ -124,30 +140,30 @@ public Page(int number, string name, bool visible, int width, int height)
 
 ---
 
-## Page(int, bool, int, int, IList&lt;Line&gt;) {#constructor_2}
+## Page(int, bool, int, int, List&lt;Line&gt;) {#constructor_3}
 
-初始化的新实例[`Page`](../../page)类.
+初始化新实例[`Page`](../../page)类.
 
 ```csharp
-public Page(int number, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, bool visible, int width, int height, List<Line> lines)
 ```
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | number | Int32 | 页码。 |
 | visible | Boolean | 页面可见性指示器。 |
-| width | Int32 | 以 JPG 或 PNG 格式查看时的页面宽度（以像素为单位）。 |
+| width | Int32 | 以 JPG 或 PNG 格式查看时页面的宽度（以像素为单位）。 |
 | height | Int32 | 以 JPG 或 PNG 格式查看时页面的高度（以像素为单位）。 |
-| lines | IList`1 | 在启用文本提取的情况下以 JPG 或 PNG 格式查看时页面包含的行。 |
+| lines | List`1 | 在启用文本提取的情况下查看为 JPG 或 PNG 时页面包含的行。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*number*小于或等于零。 |
-| ArgumentException | 何时抛出*width*小于或等于零。 |
-| ArgumentException | 何时抛出*height*小于或等于零。 |
-| ArgumentNullException | 何时抛出*lines*一片空白。 |
+| ArgumentException | 抛出时*number*小于或等于零。 |
+| ArgumentException | 抛出时*width*小于或等于零。 |
+| ArgumentException | 抛出时*height*小于或等于零。 |
+| ArgumentNullException | 抛出时*lines*一片空白。 |
 
 ### 也可以看看
 
@@ -158,12 +174,12 @@ public Page(int number, bool visible, int width, int height, IList<Line> lines)
 
 ---
 
-## Page(int, string, bool, int, int, IList&lt;Line&gt;) {#constructor_5}
+## Page(int, string, bool, int, int, List&lt;Line&gt;) {#constructor_6}
 
-初始化的新实例[`Page`](../../page)类.
+初始化新实例[`Page`](../../page)类.
 
 ```csharp
-public Page(int number, string name, bool visible, int width, int height, IList<Line> lines)
+public Page(int number, string name, bool visible, int width, int height, List<Line> lines)
 ```
 
 | 范围 | 类型 | 描述 |
@@ -171,18 +187,18 @@ public Page(int number, string name, bool visible, int width, int height, IList<
 | number | Int32 | 页码。 |
 | name | String | 工作表或页面名称。 |
 | visible | Boolean | 页面可见性指示器。 |
-| width | Int32 | 以 JPG 或 PNG 格式查看时的页面宽度（以像素为单位）。 |
+| width | Int32 | 以 JPG 或 PNG 格式查看时页面的宽度（以像素为单位）。 |
 | height | Int32 | 以 JPG 或 PNG 格式查看时页面的高度（以像素为单位）。 |
-| lines | IList`1 | 在启用文本提取的情况下以 JPG 或 PNG 格式查看时页面包含的行。 |
+| lines | List`1 | 在启用文本提取的情况下查看为 JPG 或 PNG 时页面包含的行。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 何时抛出*number*小于或等于零。 |
-| ArgumentException | 何时抛出*width*小于或等于零。 |
-| ArgumentException | 何时抛出*height*小于或等于零。 |
-| ArgumentNullException | 何时抛出*lines*一片空白。 |
+| ArgumentException | 抛出时*number*小于或等于零。 |
+| ArgumentException | 抛出时*width*小于或等于零。 |
+| ArgumentException | 抛出时*height*小于或等于零。 |
+| ArgumentNullException | 抛出时*lines*一片空白。 |
 
 ### 也可以看看
 

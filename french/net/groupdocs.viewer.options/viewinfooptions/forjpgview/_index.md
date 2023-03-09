@@ -16,7 +16,7 @@ public static ViewInfoOptions ForJpgView()
 
 ### Return_Value
 
-Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classer.
+Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ### Voir également
 
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForJpgView(bool extractText)
 
 ### Return_Value
 
-Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classer.
+Nouvelle instance de[`ViewInfoOptions`](../../viewinfooptions) classe.
 
 ### Voir également
 

@@ -3,7 +3,7 @@ title: RB
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: كود مصدر روبي .rb
 type: docs
-weight: 1280
+weight: 1330
 url: /ar/net/groupdocs.viewer/filetype/rb/
 ---
 ## FileType.RB field

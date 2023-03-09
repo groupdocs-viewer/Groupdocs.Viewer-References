@@ -1,14 +1,14 @@
 ---
 title: ImageQuality
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: HTML olarak oluşturulurken görüntü kaynakları için çıktı görüntü kalitesini belirtir. Varsayılan değer Düşüktür.
+description: HTMLye dönüştürülürken görüntü kaynakları için çıktı görüntü kalitesini belirtir. Varsayılan değer Düşüktür.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.viewer.options/pdfoptions/imagequality/
 ---
 ## PdfOptions.ImageQuality property
 
-HTML olarak oluşturulurken görüntü kaynakları için çıktı görüntü kalitesini belirtir. Varsayılan değer Düşük'tür.
+HTML'ye dönüştürülürken görüntü kaynakları için çıktı görüntü kalitesini belirtir. Varsayılan değer Düşük'tür.
 
 ```csharp
 public ImageQuality ImageQuality { get; set; }

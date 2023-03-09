@@ -3,7 +3,7 @@ title: SQL
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Yapılandırılmış Sorgu Dili Veri Dosyası .sql
 type: docs
-weight: 1380
+weight: 1430
 url: /tr/net/groupdocs.viewer/filetype/sql/
 ---
 ## FileType.SQL field

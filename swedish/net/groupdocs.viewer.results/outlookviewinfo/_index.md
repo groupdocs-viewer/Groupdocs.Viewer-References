@@ -3,7 +3,7 @@ title: OutlookViewInfo
 second_title: GroupDocs.Viewer för .NET API-referens
 description: Representerar vyinformation för Outlookdatafil.
 type: docs
-weight: 720
+weight: 730
 url: /sv/net/groupdocs.viewer.results/outlookviewinfo/
 ---
 ## OutlookViewInfo class
@@ -18,15 +18,16 @@ public class OutlookViewInfo : ViewInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [OutlookViewInfo](outlookviewinfo)(FileType, IList&lt;Page&gt;, IList&lt;string&gt;) | Initierar ny instans av[`OutlookViewInfo`](../outlookviewinfo) class. |
+| [OutlookViewInfo](outlookviewinfo#constructor)() | Initierar ny instans av[`OutlookViewInfo`](../outlookviewinfo) class. |
+| [OutlookViewInfo](outlookviewinfo#constructor_1)(FileType, List&lt;Page&gt;, List&lt;string&gt;) | Initierar ny instans av[`OutlookViewInfo`](../outlookviewinfo) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Typen av fil. |
-| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; } | Listan över mappar som finns i Outlook-datafilen. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Listan över sidor att visa. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Typen av fil. |
+| [Folders](../../groupdocs.viewer.results/outlookviewinfo/folders) { get; set; } | Listan över mappar som finns i Outlook-datafilen. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Listan över sidor att visa. |
 
 ## Metoder
 

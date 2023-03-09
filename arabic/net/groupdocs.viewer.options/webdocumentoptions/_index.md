@@ -26,7 +26,7 @@ public class WebDocumentOptions
 | --- | --- |
 | [BottomMargin](../../groupdocs.viewer.options/webdocumentoptions/bottommargin) { get; set; } | المسافة (بالنقاط) بين الحافة السفلية للصفحة والحد السفلي للنص الأساسي . القيمة الافتراضية هي 72 نقطة . |
 | [LeftMargin](../../groupdocs.viewer.options/webdocumentoptions/leftmargin) { get; set; } | المسافة (بالنقاط) بين الحافة اليسرى للصفحة والحد الأيسر للنص الأساسي . القيمة الافتراضية هي 5 نقاط . |
-| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | حجم صفحة الإخراج . القيمة الافتراضية هيLetter 792 × 612 نقطة . عندما لا تناسب المحتويات ، قم بتعيين حجم صفحة أكبر على سبيل المثالA3 . |
+| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | حجم صفحة الإخراج . القيمة الافتراضية هيLetter 792 × 612 نقطة .  عندما لا تناسب المحتويات ، قم بتعيين حجم صفحة أكبر على سبيل المثالA3 . |
 | [RightMargin](../../groupdocs.viewer.options/webdocumentoptions/rightmargin) { get; set; } | المسافة (بالنقاط) بين الحافة اليمنى للصفحة والحد الأيمن للنص الأساسي . القيمة الافتراضية هي 5 نقاط . |
 | [TopMargin](../../groupdocs.viewer.options/webdocumentoptions/topmargin) { get; set; } | المسافة (بالنقاط) بين الحافة العلوية للصفحة والحد الأعلى للنص الأساسي . القيمة الافتراضية هي 72 نقطة . |
 

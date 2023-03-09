@@ -1,17 +1,17 @@
 ---
 title: Id
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 包含此附件的单个文件上下文中附件的唯一标识符
+description: 附件在包含此附件的单个文件的上下文中的唯一标识符
 type: docs
 weight: 50
 url: /zh/net/groupdocs.viewer.results/attachment/id/
 ---
 ## Attachment.Id property
 
-包含此附件的单个文件上下文中附件的唯一标识符。
+附件在包含此附件的单个文件的上下文中的唯一标识符。
 
 ```csharp
-public string Id { get; }
+public string Id { get; set; }
 ```
 
 ### 也可以看看

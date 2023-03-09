@@ -1,14 +1,14 @@
 ---
 title: MPT
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Microsoft Proje Şablonu .mpt .MPP dosyaları oluşturmak için belge ayarlarının yanı sıra temel bilgileri ve yapıyı içerir. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/projectmanagement/mpt .
+description: Microsoft Proje Şablonu .mpt .MPP dosyaları oluşturmak için belge ayarlarının yanı sıra temel bilgileri ve yapıyı içerir. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/projectmanagement/mpt .
 type: docs
-weight: 860
+weight: 910
 url: /tr/net/groupdocs.viewer/filetype/mpt/
 ---
 ## FileType.MPT field
 
-Microsoft Proje Şablonu (.mpt), .MPP dosyaları oluşturmak için belge ayarlarının yanı sıra temel bilgileri ve yapıyı içerir. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/project-management/mpt) .
+Microsoft Proje Şablonu (.mpt), .MPP dosyaları oluşturmak için belge ayarlarının yanı sıra temel bilgileri ve yapıyı içerir. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/project-management/mpt) .
 
 ```csharp
 public static readonly FileType MPT;

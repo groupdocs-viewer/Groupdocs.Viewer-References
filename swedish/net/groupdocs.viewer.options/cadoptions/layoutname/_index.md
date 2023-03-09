@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### Anmärkningar
 
-Det här alternativet gäller endast för CAD-ritningar som stöder layouter[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , och[`DWF`](../../../groupdocs.viewer/filetype/dwf) och ävenDWFX ; Som standard renderas endast modellen.
+Det här alternativet gäller endast för CAD-ritningar som stöder layouter[`DXF`](../../../groupdocs.viewer/filetype/dxf) ,[`DWG`](../../../groupdocs.viewer/filetype/dwg) ,[`DWT`](../../../groupdocs.viewer/filetype/dwt) , och[`DWF`](../../../groupdocs.viewer/filetype/dwf) och även[`DWFX`](../../../groupdocs.viewer/filetype/dwfx) ; Som standard renderas endast modellen.
 
 ### Se även
 

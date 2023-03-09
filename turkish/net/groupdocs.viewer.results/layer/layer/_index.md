@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /tr/net/groupdocs.viewer.results/layer/layer/
 ---
-## Layer(string) {#constructor}
+## Layer() {#constructor}
+
+Yeni örneğini başlatır[`Layer`](../../layer) sınıf.
+
+```csharp
+public Layer()
+```
+
+### Ayrıca bakınız
+
+* class [Layer](../../layer)
+* ad alanı [GroupDocs.Viewer.Results](../../layer)
+* toplantı [GroupDocs.Viewer](../../../)
+
+---
+
+## Layer(string) {#constructor_1}
 
 Yeni örneğini başlatır[`Layer`](../../layer) sınıf.
 
@@ -22,7 +38,7 @@ public Layer(string name)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*name* null veya boş. |
+| ArgumentException | Ne zaman atıldı*name* null veya boş. |
 
 ### Ayrıca bakınız
 
@@ -32,7 +48,7 @@ public Layer(string name)
 
 ---
 
-## Layer(string, bool) {#constructor_1}
+## Layer(string, bool) {#constructor_2}
 
 Yeni örneğini başlatır[`Layer`](../../layer) sınıf.
 
@@ -49,7 +65,7 @@ public Layer(string name, bool visible)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentException | ne zaman atıldı*name* null veya boş. |
+| ArgumentException | Ne zaman atıldı*name* null veya boş. |
 
 ### Ayrıca bakınız
 

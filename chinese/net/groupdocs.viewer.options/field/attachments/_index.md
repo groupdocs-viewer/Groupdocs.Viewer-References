@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 默认字段文本是附件
+description: 默认字段文本为附件
 type: docs
 weight: 20
 url: /zh/net/groupdocs.viewer.options/field/attachments/
 ---
 ## Field.Attachments field
 
-默认字段文本是“附件”。
+默认字段文本为“附件”。
 
 ```csharp
 public static readonly Field Attachments;

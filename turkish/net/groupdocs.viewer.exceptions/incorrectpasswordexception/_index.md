@@ -1,14 +1,14 @@
 ---
 title: IncorrectPasswordException
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Belirtilen parola yanlış olduğunda oluşturulan özel durum.
+description: Belirtilen şifre yanlış olduğunda atılan istisna.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.viewer.exceptions/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class
 
-Belirtilen parola yanlış olduğunda oluşturulan özel durum.
+Belirtilen şifre yanlış olduğunda atılan istisna.
 
 ```csharp
 public class IncorrectPasswordException : GroupDocsViewerException

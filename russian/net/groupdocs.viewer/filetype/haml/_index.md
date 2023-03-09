@@ -3,7 +3,7 @@ title: HAML
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Файл исходного кода Haml .haml
 type: docs
-weight: 540
+weight: 580
 url: /ru/net/groupdocs.viewer/filetype/haml/
 ---
 ## FileType.HAML field

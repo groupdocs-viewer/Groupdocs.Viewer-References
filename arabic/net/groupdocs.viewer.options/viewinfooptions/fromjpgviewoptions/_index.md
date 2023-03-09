@@ -20,7 +20,7 @@ public static ViewInfoOptions FromJpgViewOptions(JpgViewOptions options)
 
 ### قيمة الإرجاع
 
-مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) صف دراسي.
+مثيل جديد من[`ViewInfoOptions`](../../viewinfooptions) فصل.
 
 ### استثناءات
 

@@ -3,7 +3,7 @@ title: CF2
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: ملف تنسيق الملف العام تعرف على المزيد حول تنسيق الملف هذاهناhttps//fileinfo.com/extension/cf2 .
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/groupdocs.viewer/filetype/cf2/
 ---
 ## FileType.CF2 field

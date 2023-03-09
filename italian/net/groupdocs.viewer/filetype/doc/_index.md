@@ -1,14 +1,14 @@
 ---
 title: DOC
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Documento Microsoft Word .doc rappresenta documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato file binario. Ulteriori informazioni su questo formato filequihttps//wiki.fileformat.com/wordprocessing/doc .
+description: Il documento Microsoft Word .doc rappresenta i documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato di file binario. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/doc .
 type: docs
-weight: 280
+weight: 300
 url: /it/net/groupdocs.viewer/filetype/doc/
 ---
 ## FileType.DOC field
 
-Documento Microsoft Word (.doc) rappresenta documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato file binario. Ulteriori informazioni su questo formato file[qui](https://wiki.fileformat.com/word-processing/doc) .
+Il documento Microsoft Word (.doc) rappresenta i documenti generati da Microsoft Word o altri documenti di elaborazione testi in formato di file binario. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/doc) .
 
 ```csharp
 public static readonly FileType DOC;

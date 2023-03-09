@@ -11,7 +11,7 @@ url: /sv/net/groupdocs.viewer.results/page/name/
 Kalkylbladet eller sidnamnet.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Se även

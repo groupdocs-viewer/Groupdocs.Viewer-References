@@ -16,7 +16,7 @@ public Watermark Watermark { get; set; }
 
 ### Osservazioni
 
-Nel caso entrambi`Watermark` e[`PageRotations`](../pagerotations) sono specificati che la filigrana verrà applicata alle pagine ruotate.
+Nel caso entrambi`Watermark` E[`PageRotations`](../pagerotations) è specificato che la filigrana verrà applicata alle pagine ruotate.
 
 ### Guarda anche
 

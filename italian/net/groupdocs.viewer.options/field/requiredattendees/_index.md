@@ -1,14 +1,14 @@
 ---
 title: RequiredAttendees
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Il testo del campo predefinito è Partecipanti obbligatori.
+description: Il campo di testo predefinito è Partecipanti obbligatori.
 type: docs
 weight: 380
 url: /it/net/groupdocs.viewer.options/field/requiredattendees/
 ---
 ## Field.RequiredAttendees field
 
-Il testo del campo predefinito è "Partecipanti obbligatori".
+Il campo di testo predefinito è "Partecipanti obbligatori".
 
 ```csharp
 public static readonly Field RequiredAttendees;

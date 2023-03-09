@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/page/height/
 Высота страницы в пикселях при просмотре в формате JPG или PNG.
 
 ```csharp
-public int Height { get; }
+public int Height { get; set; }
 ```
 
 ### Смотрите также

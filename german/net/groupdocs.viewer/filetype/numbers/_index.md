@@ -1,14 +1,14 @@
 ---
 title: NUMBERS
 second_title: GroupDocs.Viewer für .NET-API-Referenz
-description: AppleZahlen stehen für Excelähnliches Binärdateiformat. Solche Dateien können mit der Apple NumbersAnwendung erstellt werden. Erfahren Sie mehr über dieses Dateiformathierhttps//fileinfo.com/extension/numbers .
+description: AppleZahlen stehen für Excelähnliches Binärdateiformat. Solche Dateien können mit der Apple NumbersAnwendung erstellt werden. Erfahren Sie mehr über dieses DateiformatHierhttps//fileinfo.com/extension/numbers .
 type: docs
-weight: 900
+weight: 950
 url: /de/net/groupdocs.viewer/filetype/numbers/
 ---
 ## FileType.NUMBERS field
 
-Apple-Zahlen stehen für Excel-ähnliches Binärdateiformat. Solche Dateien können mit der Apple Numbers-Anwendung erstellt werden. Erfahren Sie mehr über dieses Dateiformat[hier](https://fileinfo.com/extension/numbers) .
+Apple-Zahlen stehen für Excel-ähnliches Binärdateiformat. Solche Dateien können mit der Apple Numbers-Anwendung erstellt werden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://fileinfo.com/extension/numbers) .
 
 ```csharp
 public static readonly FileType NUMBERS;

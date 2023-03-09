@@ -16,12 +16,12 @@ public static bool operator ==(Layout left, Layout right)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| left | Layout | Sono partiti[`Layout`](../../layout) oggetto. |
-| right | Layout | Destra[`Layout`](../../layout) oggetto. |
+| left | Layout | Sinistra[`Layout`](../../layout) oggetto. |
+| right | Layout | Giusto[`Layout`](../../layout) oggetto. |
 
 ### Valore di ritorno
 
-se entrambi[`Layout`](../../layout) gli oggetti sono gli stessi; altrimenti,
+se entrambi[`Layout`](../../layout) gli oggetti sono gli stessi; Altrimenti,
 
 ```csharp
 true

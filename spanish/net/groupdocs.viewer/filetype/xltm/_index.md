@@ -3,7 +3,7 @@ title: XLTM
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Plantilla habilitada para macros de Microsoft Excel .xltm representa archivos generados por Microsoft Excel como archivos de plantilla habilitada para macros. Los archivos XLTM son similares a XLTX en estructura excepto que el último no admite la creación de archivos de plantilla con macros. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/xltm .
 type: docs
-weight: 1800
+weight: 1850
 url: /es/net/groupdocs.viewer/filetype/xltm/
 ---
 ## FileType.XLTM field

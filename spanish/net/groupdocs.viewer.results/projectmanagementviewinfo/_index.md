@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Representa la información de vista para el documento de MS Project.
 type: docs
-weight: 750
+weight: 760
 url: /es/net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
@@ -18,16 +18,17 @@ public class ProjectManagementViewInfo : ViewInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [ProjectManagementViewInfo](projectmanagementviewinfo)(FileType, IList&lt;Page&gt;, DateTime, DateTime) | Inicializa una nueva instancia de[`ProjectManagementViewInfo`](../projectmanagementviewinfo) clase. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor)() | Inicializa una nueva instancia de[`ProjectManagementViewInfo`](../projectmanagementviewinfo) clase. |
+| [ProjectManagementViewInfo](projectmanagementviewinfo#constructor_1)(FileType, List&lt;Page&gt;, DateTime, DateTime) | Inicializa una nueva instancia de[`ProjectManagementViewInfo`](../projectmanagementviewinfo) clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; } | La fecha y hora en que se completará el proyecto. |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | El tipo de archivo. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | La lista de páginas para ver. |
-| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; } | La fecha y hora a partir de la cual se inició el proyecto. |
+| [EndDate](../../groupdocs.viewer.results/projectmanagementviewinfo/enddate) { get; set; } | La fecha y hora en que se completará el proyecto. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | El tipo de archivo. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | La lista de páginas para ver. |
+| [StartDate](../../groupdocs.viewer.results/projectmanagementviewinfo/startdate) { get; set; } | La fecha y hora a partir de la cual se inició el proyecto. |
 
 ## Métodos
 

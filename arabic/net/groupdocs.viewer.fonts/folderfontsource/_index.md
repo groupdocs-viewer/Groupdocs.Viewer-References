@@ -31,7 +31,7 @@ public sealed class FolderFontSource : IEquatable<FolderFontSource>, IFontSource
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | يحدد ما إذا كان التيار[`FolderFontSource`](../folderfontsource)هو نفسه كما هو محدد[`FolderFontSource`](../folderfontsource) الكائن . |
+| [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals)(FolderFontSource) | يحدد ما إذا كان التيار[`FolderFontSource`](../folderfontsource) هو نفسه كما هو محدد[`FolderFontSource`](../folderfontsource) الكائن . |
 | override [Equals](../../groupdocs.viewer.fonts/folderfontsource/equals#equals_1)(object) | يحدد ما إذا كان التيار[`FolderFontSource`](../folderfontsource) هو نفس الكائن المحدد. |
 | override [GetHashCode](../../groupdocs.viewer.fonts/folderfontsource/gethashcode)() | إرجاع كود التجزئة الحالي[`FolderFontSource`](../folderfontsource) الكائن . |
 | override [ToString](../../groupdocs.viewer.fonts/folderfontsource/tostring)() | إرجاع سلسلة تمثل الكائن الحالي. |

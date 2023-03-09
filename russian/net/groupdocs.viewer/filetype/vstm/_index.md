@@ -3,7 +3,7 @@ title: VSTM
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Шаблон чертежа Visio с поддержкой макросов .vstm  это файлы шаблонов созданные с помощью Microsoft Visio и поддерживающие макросы. В отличие от файлов VSDX файлы созданные из шаблонов VSTM могут запускать макросы разработанные в коде Visual Basic для приложений VBA. Узнайте больше об этом формате файлаздесьhttps//wiki.fileformat.com/image/vstm .
 type: docs
-weight: 1670
+weight: 1720
 url: /ru/net/groupdocs.viewer/filetype/vstm/
 ---
 ## FileType.VSTM field

@@ -18,19 +18,20 @@ public class Attachment
 
 | Nom | La description |
 | --- | --- |
-| [Attachment](attachment#constructor)(string, string) | Initialise la nouvelle instance de[`Attachment`](../attachment) classe. |
-| [Attachment](attachment#constructor_2)(string, string, string, long) | Initialise la nouvelle instance de[`Attachment`](../attachment) classe. |
-| [Attachment](attachment#constructor_1)(string, string, string, FileType, long) | Initialise la nouvelle instance de[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor)() | Initialise la nouvelle instance de[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor_1)(string, string) | Initialise la nouvelle instance de[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor_3)(string, string, string, long) | Initialise la nouvelle instance de[`Attachment`](../attachment) classe. |
+| [Attachment](attachment#constructor_2)(string, string, string, FileType, long) | Initialise la nouvelle instance de[`Attachment`](../attachment) classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; } | Nom du fichier joint. |
-| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; } | Chemin relatif de la pièce jointe, par exempledossier/fichier.docx ou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
-| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; } | Type de fichier joint. |
-| [Id](../../groupdocs.viewer.results/attachment/id) { get; } | Identifiant unique de la pièce jointe dans le contexte d'un seul fichier contenant cette pièce jointe. |
-| [Size](../../groupdocs.viewer.results/attachment/size) { get; } | Taille du fichier joint en octets. |
+| [FileName](../../groupdocs.viewer.results/attachment/filename) { get; set; } | Nom du fichier joint. |
+| [FilePath](../../groupdocs.viewer.results/attachment/filepath) { get; set; } | Chemin relatif de la pièce jointe, par exempledossier/fichier.docx ou nom de fichier lorsque le fichier se trouve à la racine d'une archive, dans un message électronique ou un fichier de données. |
+| [FileType](../../groupdocs.viewer.results/attachment/filetype) { get; set; } | Type de fichier joint. |
+| [Id](../../groupdocs.viewer.results/attachment/id) { get; set; } | Identifiant unique de la pièce jointe dans le contexte d'un seul fichier contenant cette pièce jointe. |
+| [Size](../../groupdocs.viewer.results/attachment/size) { get; set; } | Taille du fichier joint en octets. |
 
 ## Méthodes
 

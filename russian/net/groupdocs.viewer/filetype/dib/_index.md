@@ -3,7 +3,7 @@ title: DIB
 second_title: Справочник по API GroupDocs.Viewer для .NET
 description: Независимый от устройства растровый файл .dib
 type: docs
-weight: 240
+weight: 260
 url: /ru/net/groupdocs.viewer/filetype/dib/
 ---
 ## FileType.DIB field

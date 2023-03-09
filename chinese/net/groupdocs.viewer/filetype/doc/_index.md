@@ -1,14 +1,14 @@
 ---
 title: DOC
 second_title: GroupDocs.Viewer for .NET API 参考
-description: Microsoft Word 文档 .doc 表示由 Microsoft Word 或其他二进制文件格式的文字处理文档生成的文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/doc
+description: Microsoft Word 文档 .doc 表示由 Microsoft Word 或其他文字处理文档以二进制文件格式生成的文档 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/wordprocessing/doc
 type: docs
-weight: 280
+weight: 300
 url: /zh/net/groupdocs.viewer/filetype/doc/
 ---
 ## FileType.DOC field
 
-Microsoft Word 文档 (.doc) 表示由 Microsoft Word 或其他二进制文件格式的文字处理文档生成的文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/doc)
+Microsoft Word 文档 (.doc) 表示由 Microsoft Word 或其他文字处理文档以二进制文件格式生成的文档。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/word-processing/doc)
 
 ```csharp
 public static readonly FileType DOC;

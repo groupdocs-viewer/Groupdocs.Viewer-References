@@ -3,7 +3,7 @@ title: XLSM
 second_title: Referencia de API de GroupDocs.Viewer para .NET
 description: Excel Open XML MacroEnabled Spreadsheet .xlsm es un tipo de archivo de hoja de cálculo que admite macros. Más información sobre este formato de archivoaquíhttps//wiki.fileformat.com/spreadsheet/xlsm .
 type: docs
-weight: 1770
+weight: 1820
 url: /es/net/groupdocs.viewer/filetype/xlsm/
 ---
 ## FileType.XLSM field

@@ -3,7 +3,7 @@ title: JPC
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: دفق كود JPEG 2000 .jpc
 type: docs
-weight: 660
+weight: 710
 url: /ar/net/groupdocs.viewer/filetype/jpc/
 ---
 ## FileType.JPC field

@@ -3,7 +3,7 @@ title: IFC
 second_title: Référence de l'API GroupDocs.Viewer pour .NET
 description: Industry Foundation Classes File .ifc est un format de fichier qui établit des normes internationales pour importer et exporter des objets de construction et leurs propriétés. Ce format de fichier permet linteropérabilité entre différentes applications logicielles. En savoir plus sur ce format de fichiericihttps//wiki.fileformat.com/cad/ifc .
 type: docs
-weight: 600
+weight: 640
 url: /fr/net/groupdocs.viewer/filetype/ifc/
 ---
 ## FileType.IFC field

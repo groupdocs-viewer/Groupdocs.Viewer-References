@@ -3,7 +3,7 @@ title: ViewInfo
 second_title: .NET API Başvurusu için GroupDocs.Viewer
 description: Genel belge için görüntüleme bilgilerini temsil eder.
 type: docs
-weight: 780
+weight: 790
 url: /tr/net/groupdocs.viewer.results/viewinfo/
 ---
 ## ViewInfo class
@@ -18,14 +18,15 @@ public class ViewInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [ViewInfo](viewinfo)(FileType, IList&lt;Page&gt;) | Yeni örneğini başlatır[`ViewInfo`](../viewinfo) sınıf. |
+| [ViewInfo](viewinfo#constructor)() | Yeni örneğini başlatır[`ViewInfo`](../viewinfo) sınıf. |
+| [ViewInfo](viewinfo#constructor_1)(FileType, List&lt;Page&gt;) | Yeni örneğini başlatır[`ViewInfo`](../viewinfo) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; } | Dosyanın türü. |
-| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; } | Görüntülenecek sayfaların listesi. |
+| [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | Dosyanın türü. |
+| [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | Görüntülenecek sayfaların listesi. |
 
 ## yöntemler
 

@@ -1,14 +1,14 @@
 ---
 title: RenderFiguresOnly
 second_title: Riferimento API GroupDocs.Viewer per .NET
-description: Visualizza solo le figure di Visio non un diagramma.
+description: Visualizza solo figure Visio non un diagramma.
 type: docs
 weight: 30
 url: /it/net/groupdocs.viewer.options/visiorenderingoptions/renderfiguresonly/
 ---
 ## VisioRenderingOptions.RenderFiguresOnly property
 
-Visualizza solo le figure di Visio, non un diagramma.
+Visualizza solo figure Visio, non un diagramma.
 
 ```csharp
 public bool RenderFiguresOnly { get; set; }

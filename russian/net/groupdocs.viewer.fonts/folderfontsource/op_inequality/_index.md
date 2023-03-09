@@ -16,7 +16,7 @@ public static bool operator !=(FolderFontSource left, FolderFontSource right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | FolderFontSource | Оставил[`FolderFontSource`](../../folderfontsource) объект. |
+| left | FolderFontSource | Левый[`FolderFontSource`](../../folderfontsource) объект. |
 | right | FolderFontSource | Верно[`FolderFontSource`](../../folderfontsource) объект. |
 
 ### Возвращаемое значение

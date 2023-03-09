@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 文件名.
+description: 文件名
 type: docs
 weight: 320
 url: /zh/net/groupdocs.viewer.options/filename/
 ---
 ## FileName class
 
-文件名.
+文件名。
 
 ```csharp
 public class FileName
@@ -18,19 +18,19 @@ public class FileName
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileName](filename)(string) | 初始化的新实例[`FileName`](../filename)类. |
+| [FileName](filename)(string) | 初始化新实例[`FileName`](../filename)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../groupdocs.viewer.options/filename/tostring)() | 返回代表当前对象的字符串。 |
+| override [ToString](../../groupdocs.viewer.options/filename/tostring)() | 返回表示当前对象的字符串。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [Empty](../../groupdocs.viewer.options/filename/empty) | 空文件名。 |
+| static readonly [Empty](../../groupdocs.viewer.options/filename/empty) | 空文件名. |
 | static readonly [Source](../../groupdocs.viewer.options/filename/source) | 源文件的名称。 |
 
 ### 也可以看看

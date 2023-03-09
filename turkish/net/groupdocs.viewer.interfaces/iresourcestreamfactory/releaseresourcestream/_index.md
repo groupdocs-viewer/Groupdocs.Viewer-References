@@ -16,9 +16,9 @@ public void ReleaseResourceStream(int pageNumber, Resource resource, Stream reso
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| pageNumber | Int32 | Bir sayfa numarası. |
+| pageNumber | Int32 | Bir sayfanın numarası. |
 | resource | Resource | Yazı tipi, stil, resim veya grafikler gibi HTML kaynakları. |
-| resourceStream | Stream | Akış tarafından oluşturulan[`CreateResourceStream`](../createresourcestream) yöntem. |
+| resourceStream | Stream | Akışı oluşturan[`CreateResourceStream`](../createresourcestream) yöntem. |
 
 ### Ayrıca bakınız
 

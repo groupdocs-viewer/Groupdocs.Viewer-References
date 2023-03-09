@@ -11,7 +11,7 @@ url: /ru/net/groupdocs.viewer.results/attachment/filetype/
 Тип файла вложения.
 
 ```csharp
-public FileType FileType { get; }
+public FileType FileType { get; set; }
 ```
 
 ### Смотрите также

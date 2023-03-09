@@ -1,14 +1,14 @@
 ---
 title: ImageHeight
 second_title: .NET API Başvurusu için GroupDocs.Viewer
-description: Çıktı görüntüsünün piksel cinsinden yüksekliği. Tek görüntüyü yalnızca HTMLye dönüştürürken
+description: Çıktı görüntüsünün piksel cinsinden yüksekliği. Yalnızca tek bir görüntüyü HTMLye dönüştürürken
 type: docs
 weight: 60
 url: /tr/net/groupdocs.viewer.options/htmlviewoptions/imageheight/
 ---
 ## HtmlViewOptions.ImageHeight property
 
-Çıktı görüntüsünün piksel cinsinden yüksekliği. (Tek görüntüyü yalnızca HTML'ye dönüştürürken)
+Çıktı görüntüsünün piksel cinsinden yüksekliği. (Yalnızca tek bir görüntüyü HTML'ye dönüştürürken)
 
 ```csharp
 public int ImageHeight { get; set; }

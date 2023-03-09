@@ -1,17 +1,42 @@
 ---
 title: Encoding
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 打开基于文本的文件或电子邮件消息时使用的编码例如CSVgroupdocs.viewer/filetype/csvTXTgroupdocs.viewer/filetype/txt  和MSGgroupdocs.viewer/filetype/msg. 默认值为Default.
+description: 打开基于文本的文件或电子邮件消息如 时使用的编码CSVgroupdocs.viewer/filetype/csv TXTgroupdocs.viewer/filetype/txt  和MSGgroupdocs.viewer/filetype/msg. 默认值为UTF8.
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/groupdocs.viewer.options/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-打开基于文本的文件或电子邮件消息时使用的编码，例如[`CSV`](../../../groupdocs.viewer/filetype/csv),[`TXT`](../../../groupdocs.viewer/filetype/txt) ， 和[`MSG`](../../../groupdocs.viewer/filetype/msg). 默认值为Default.
+打开基于文本的文件或电子邮件消息（如 ）时使用的编码[`CSV`](../../../groupdocs.viewer/filetype/csv), [`TXT`](../../../groupdocs.viewer/filetype/txt) , 和[`MSG`](../../../groupdocs.viewer/filetype/msg). 默认值为UTF8.
 
 ```csharp
 public Encoding Encoding { get; set; }
+```
+
+### 评论
+
+**了解更多**
+
+* [将 Excel 和 Apple Numbers 电子表格呈现为 HTML、PDF 和图像文件](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
+* [将文本文档呈现为 HTML、PDF 和图像文件](https://docs.groupdocs.com/viewer/net/render-text-files)
+* [将电子邮件呈现为 HTML、PDF、PNG 和 JPEG 文件](https://docs.groupdocs.com/viewer/net/render-email-messages/)
+
+### 例子
+
+该示例演示了此选项的典型用法。
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Encoding = Encoding.ASCII; //设置编码
+
+using (Viewer viewer = new Viewer("message.txt", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
 ```
 
 ### 也可以看看

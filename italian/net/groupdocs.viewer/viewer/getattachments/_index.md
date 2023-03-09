@@ -27,10 +27,10 @@ Allegati contenuti nel documento.
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco degli allegati del documento utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
-* Ulteriori informazioni sul salvataggio degli allegati di documenti in C#: [Come salvare gli allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
+* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco dei documenti allegati utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
+* Ulteriori informazioni sul salvataggio degli allegati dei documenti in C#: [Come salvare allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
 
 ### Guarda anche
 
@@ -66,10 +66,10 @@ Allegati contenuti nel documento.
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
-* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco degli allegati del documento utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
-* Ulteriori informazioni sul salvataggio degli allegati di documenti in C#: [Come salvare gli allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
+* Ulteriori informazioni su come ottenere allegati di documenti in C#: [Come ottenere l'elenco dei documenti allegati utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Get+attachments)
+* Ulteriori informazioni sul salvataggio degli allegati dei documenti in C#: [Come salvare allegati di documenti utilizzando GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Save+attachments)
 
 ### Guarda anche
 

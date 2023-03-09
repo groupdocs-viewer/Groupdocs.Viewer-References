@@ -1,14 +1,14 @@
 ---
 title: PresentationOptions
 second_title: GroupDocs.Viewer for .NET API 参考
-description: 提供用于呈现演示选项的选项
+description: 提供渲染演示选项的选项
 type: docs
 weight: 460
 url: /zh/net/groupdocs.viewer.options/presentationoptions/
 ---
 ## PresentationOptions class
 
-提供用于呈现演示选项的选项。
+提供渲染演示选项的选项。
 
 ```csharp
 public class PresentationOptions

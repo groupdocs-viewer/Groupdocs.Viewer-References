@@ -16,7 +16,7 @@ public static bool operator ==(Layout left, Layout right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | Layout | Оставил[`Layout`](../../layout) объект. |
+| left | Layout | Левый[`Layout`](../../layout) объект. |
 | right | Layout | Верно[`Layout`](../../layout) объект. |
 
 ### Возвращаемое значение

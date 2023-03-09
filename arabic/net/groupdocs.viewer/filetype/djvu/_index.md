@@ -3,7 +3,7 @@ title: DJVU
 second_title: GroupDocs.Viewer لمرجع .NET API
 description: DjVu Image .djvu هو تنسيق ملف رسومي مخصص للمستندات والكتب الممسوحة ضوئيًا وخاصة تلك التي تحتوي على مجموعة من النصوص والرسومات والصور والصور الفوتوغرافية. تعرف على المزيد حول تنسيق الملف هذاهناhttps//wiki.fileformat.com/image/djvu .
 type: docs
-weight: 260
+weight: 280
 url: /ar/net/groupdocs.viewer/filetype/djvu/
 ---
 ## FileType.DJVU field
