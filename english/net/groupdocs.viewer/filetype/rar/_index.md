@@ -3,7 +3,7 @@ title: RAR
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Roshal ARchive .rar are compressed files generated using the RAR WINRAR compression method. Learn more about this file format herehttps//wiki.fileformat.com/compression/rar.
 type: docs
-weight: 1320
+weight: 1330
 url: /net/groupdocs.viewer/filetype/rar/
 ---
 ## FileType.RAR field

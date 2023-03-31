@@ -3,7 +3,7 @@ title: PSM1
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PowerShell script module .psm1 a file format for PowerShell module scripts. Learn more about this file format herehttps//fileinfo.com/extension/psm1.
 type: docs
-weight: 1290
+weight: 1300
 url: /net/groupdocs.viewer/filetype/psm1/
 ---
 ## FileType.PSM1 field

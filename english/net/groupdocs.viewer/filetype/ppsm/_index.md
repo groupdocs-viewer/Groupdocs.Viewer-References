@@ -3,7 +3,7 @@ title: PPSM
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PowerPoint Open XML MacroEnabled Slide .ppsm represents Macroenabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Learn more about this file format herehttps//wiki.fileformat.com/presentation/ppsm.
 type: docs
-weight: 1180
+weight: 1190
 url: /net/groupdocs.viewer/filetype/ppsm/
 ---
 ## FileType.PPSM field

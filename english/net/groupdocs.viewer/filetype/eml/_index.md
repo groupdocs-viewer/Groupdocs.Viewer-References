@@ -3,7 +3,7 @@ title: EML
 second_title: GroupDocs.Viewer for .NET API Reference
 description: EMail Message .eml represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC822 Internet Message Format Standard. Learn more about this file format herehttps//wiki.fileformat.com/email/eml.
 type: docs
-weight: 420
+weight: 430
 url: /net/groupdocs.viewer/filetype/eml/
 ---
 ## FileType.EML field

@@ -3,7 +3,7 @@ title: STL
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Stereolithography File .stl is an interchangeable file format that represents 3dimensional surface geometry. The file format finds its usage in several fields such as rapid prototyping 3D printing and computeraided manufacturing. Learn more about this file format herehttps//wiki.fileformat.com/cad/stl.
 type: docs
-weight: 1440
+weight: 1450
 url: /net/groupdocs.viewer/filetype/stl/
 ---
 ## FileType.STL field

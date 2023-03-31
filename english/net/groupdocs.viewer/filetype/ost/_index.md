@@ -3,7 +3,7 @@ title: OST
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Outlook Offline Data File .ost represents users mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format herehttps//wiki.fileformat.com/email/ost.
 type: docs
-weight: 1020
+weight: 1030
 url: /net/groupdocs.viewer/filetype/ost/
 ---
 ## FileType.OST field
