@@ -3,7 +3,7 @@ title: VB
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Visual Basic Project Item File .vb is a source code file created in Visual Basic language that was created by Microsoft for development of .NET applications. Learn more about this file format herehttps//wiki.fileformat.com/programming/vb.
 type: docs
-weight: 1600
+weight: 1610
 url: /net/groupdocs.viewer/filetype/vb/
 ---
 ## FileType.VB field

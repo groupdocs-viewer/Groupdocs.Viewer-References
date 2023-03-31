@@ -58,6 +58,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [AS](../../groupdocs.viewer/filetype/as) | ActionScript File (.as) |
 | static readonly [AS3](../../groupdocs.viewer/filetype/as3) | ActionScript File (.as) |
 | static readonly [ASM](../../groupdocs.viewer/filetype/asm) | Assembly Language Source Code File (.asm) |
+| static readonly [AZW3](../../groupdocs.viewer/filetype/azw3) | Amazon Kindle Format 8 (KF8) ebook is the digital file format developed for Amazon Kindle devices. The format is an enhancement to older AZW files and is used on Kindle Fire devices only with backward compatibility for the ancestor file format i.e. MOBI and AZW. Learn more about this file format [here](https://wiki.fileformat.com/ebook/azw3). |
 | static readonly [BAT](../../groupdocs.viewer/filetype/bat) | DOS Batch File (.bat) |
 | static readonly [BMP](../../groupdocs.viewer/filetype/bmp) | Bitmap Image File (.bmp) is used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. Learn more about this file format [here](https://wiki.fileformat.com/image/bmp). |
 | static readonly [BZ2](../../groupdocs.viewer/filetype/bz2) | Bzip2 Compressed File (.bz2) are compressed files generated using the BZIP2 open source compression method, mostly on UNIX or Linux system. Learn more about this file format [here](https://wiki.fileformat.com/compression/bz2). |

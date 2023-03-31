@@ -3,7 +3,7 @@ title: POT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PowerPoint Template .pot represents Microsoft PowerPoint template files created by PowerPoint 972003 versions. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pot.
 type: docs
-weight: 1140
+weight: 1150
 url: /net/groupdocs.viewer/filetype/pot/
 ---
 ## FileType.POT field

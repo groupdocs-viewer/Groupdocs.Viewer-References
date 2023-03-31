@@ -3,7 +3,7 @@ title: PSD1
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PowerShell script module manifest .psd1 a file format for PowerShell module manifest scripts. Learn more about this file format herehttps//fileinfo.com/extension/psd1.
 type: docs
-weight: 1280
+weight: 1290
 url: /net/groupdocs.viewer/filetype/psd1/
 ---
 ## FileType.PSD1 field

@@ -3,7 +3,7 @@ title: CSV
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Comma Separated Values File .csv represents plain text files that contain records of data with comma separated values. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/csv.
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.viewer/filetype/csv/
 ---
 ## FileType.CSV field

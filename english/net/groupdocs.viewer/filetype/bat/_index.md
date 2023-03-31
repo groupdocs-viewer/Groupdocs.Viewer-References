@@ -3,7 +3,7 @@ title: BAT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: DOS Batch File .bat
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.viewer/filetype/bat/
 ---
 ## FileType.BAT field
