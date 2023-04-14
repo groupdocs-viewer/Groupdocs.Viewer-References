@@ -38,6 +38,7 @@ This class helps customising [Cache](../../com.groupdocs.viewer.caching/cache). 
 | [newLine(String line, double x, double y, double width, double height, List<Word> words)](#newLine-java.lang.String-double-double-double-double-java.util.List-com.groupdocs.viewer.results.Word--) | Creates implementation of Line interface |
 | [newAttachment(String fileName, String filePath)](#newAttachment-java.lang.String-java.lang.String-) | Creates implementation of LotusNotesViewInfo interface |
 | [newAttachment(String id, String fileName, String filePath, long size)](#newAttachment-java.lang.String-java.lang.String-java.lang.String-long-) | Creates implementation of LotusNotesViewInfo interface |
+| [newAttachment(String id, String fileName, Path filePath, long size)](#newAttachment-java.lang.String-java.lang.String-java.nio.file.Path-long-) | Creates implementation of LotusNotesViewInfo interface |
 | [newAttachment(String id, String fileName, String filePath, FileType fileType, long size)](#newAttachment-java.lang.String-java.lang.String-java.lang.String-com.groupdocs.viewer.FileType-long-) | Creates implementation of LotusNotesViewInfo interface |
 | [newOutlookViewInfo(FileType fileType, List<Page> pages, List<String> folders)](#newOutlookViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--java.util.List-java.lang.String--) | Creates implementation of LotusNotesViewInfo interface |
 | [newPage(int number, boolean visible)](#newPage-int-boolean-) | Creates implementation of LotusNotesViewInfo interface |
@@ -263,6 +264,24 @@ Creates implementation of LotusNotesViewInfo interface
 | id | java.lang.String | id |
 | fileName | java.lang.String | file name |
 | filePath | java.lang.String | Attachment relative path e.g. folder/file.docx or filename when the file is located in the root of an archive, in e-mail message or data file. |
+| size | long | size |
+
+**Returns:**
+[Attachment](../../com.groupdocs.viewer.results/attachment) - new instance of [Attachment](../../com.groupdocs.viewer.results/attachment) implementation
+### newAttachment(String id, String fileName, Path filePath, long size) {#newAttachment-java.lang.String-java.lang.String-java.nio.file.Path-long-}
+```
+public Attachment newAttachment(String id, String fileName, Path filePath, long size)
+```
+
+
+Creates implementation of LotusNotesViewInfo interface
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | id |
+| fileName | java.lang.String | file name |
+| filePath | java.nio.file.Path | Attachment relative path e.g. folder/file.docx or filename when the file is located in the root of an archive, in e-mail message or data file. |
 | size | long | size |
 
 **Returns:**

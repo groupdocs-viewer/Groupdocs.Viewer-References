@@ -20,6 +20,7 @@ Defines settings for customizing [Viewer](../../com.groupdocs.viewer/viewer) beh
 | [ViewerSettings(Cache cache, ILogger logger)](#ViewerSettings-com.groupdocs.viewer.caching.Cache-com.groupdocs.foundation.logging.ILogger-) | Initializes new instance of [ViewerSettings](../../com.groupdocs.viewer/viewersettings) class. |
 | [ViewerSettings(ILogger logger)](#ViewerSettings-com.groupdocs.foundation.logging.ILogger-) | Initializes new instance of [ViewerSettings](../../com.groupdocs.viewer/viewersettings) class. |
 | [ViewerSettings(Cache cache)](#ViewerSettings-com.groupdocs.viewer.caching.Cache-) | Initializes new instance of [ViewerSettings](../../com.groupdocs.viewer/viewersettings) class. |
+| [ViewerSettings()](#ViewerSettings--) | Initializes new instance of [ViewerSettings](../../com.groupdocs.viewer/viewersettings) class. |
 ## Methods
 
 | Method | Description |
@@ -65,6 +66,14 @@ Initializes new instance of [ViewerSettings](../../com.groupdocs.viewer/viewerse
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cache | [Cache](../../com.groupdocs.viewer.caching/cache) | The cache. |
+
+### ViewerSettings() {#ViewerSettings--}
+```
+public ViewerSettings()
+```
+
+
+Initializes new instance of [ViewerSettings](../../com.groupdocs.viewer/viewersettings) class.
 
 ### getLogger() {#getLogger--}
 ```

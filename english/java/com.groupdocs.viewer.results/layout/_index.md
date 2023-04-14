@@ -5,8 +5,11 @@ description: Represents layout contained by the CAD drawing.
 type: docs
 weight: 17
 url: /java/com.groupdocs.viewer.results/layout/
----```
-public interface Layout
+---
+**All Implemented Interfaces:**
+java.io.Serializable
+```
+public interface Layout extends Serializable
 ```
 
 Represents layout contained by the CAD drawing. Default implementation is LayoutImpl

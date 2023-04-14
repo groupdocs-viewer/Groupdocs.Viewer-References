@@ -5,8 +5,11 @@ description: Represents layer contained by the CAD drawing.
 type: docs
 weight: 16
 url: /java/com.groupdocs.viewer.results/layer/
----```
-public interface Layer
+---
+**All Implemented Interfaces:**
+java.io.Serializable
+```
+public interface Layer extends Serializable
 ```
 
 Represents layer contained by the CAD drawing. Default implementation is LayerImpl

@@ -32,7 +32,7 @@ Represents file type. Provides methods to obtain list of all file types supporte
 | [RAR](#RAR) | Roshal ARchive (.rar) are compressed files generated using the RAR (WINRAR version 4) compression method. |
 | [GZ](#GZ) | Gnu Zipped File (.gz) are compressed files created with gzip compression application. |
 | [GZIP](#GZIP) | Gnu Zipped File (.gzip) was introduced as a free utility for replacing the Compress program used in Unix systems. |
-| [SevenZip](#SevenZip) | 7Zip (.7z, .7zip) is free open source archiver with LZMA and LZMA2 compression. |
+| [SEVEN_ZIP](#SEVEN-ZIP) | 7Zip (.7z, .7zip) is free open source archiver with LZMA and LZMA2 compression. |
 | [DXF](#DXF) | Drawing Exchange Format File (.dxf) is a tagged data representation of AutoCAD drawing file. |
 | [DWG](#DWG) | AutoCAD Drawing Database File (.dwg) represents proprietary binary files used for containing 2D and 3D design data. |
 | [DWT](#DWT) | AutoCAD Drawing Template (.dwt) is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. |
@@ -355,9 +355,9 @@ Gnu Zipped File (.gzip) was introduced as a free utility for replacing the Compr
 
 [here]: https://wiki.fileformat.com/compression/gz
 
-### SevenZip {#SevenZip}
+### SEVEN_ZIP {#SEVEN-ZIP}
 ```
-public static final FileType SevenZip
+public static final FileType SEVEN_ZIP
 ```
 
 

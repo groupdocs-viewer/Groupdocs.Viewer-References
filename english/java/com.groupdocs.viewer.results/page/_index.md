@@ -5,8 +5,11 @@ description: Represents single page that can be viewed.
 type: docs
 weight: 21
 url: /java/com.groupdocs.viewer.results/page/
----```
-public interface Page
+---
+**All Implemented Interfaces:**
+java.io.Serializable
+```
+public interface Page extends Serializable
 ```
 
 Represents single page that can be viewed. Default implementation is PageImpl

@@ -7,9 +7,9 @@ weight: 14
 url: /java/com.groupdocs.viewer.results/character/
 ---
 **All Implemented Interfaces:**
-com.groupdocs.viewer.results.TextElement
+com.groupdocs.viewer.results.TextElement, java.io.Serializable
 ```
-public interface Character extends TextElement<Character>
+public interface Character extends TextElement<Character>, Serializable
 ```
 
 Represents relatively positioned rectangle which contains single character. Default implementation is CharacterImpl

@@ -21,7 +21,14 @@ Represents a local on-disk cache.
 | Constructor | Description |
 | --- | --- |
 | [FileCache(String cachePath)](#FileCache-java.lang.String-) | Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache) class. |
+| [FileCache(Path cachePath)](#FileCache-java.nio.file.Path-) | Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache) class. |
 | [FileCache(String cachePath, String cacheSubFolder)](#FileCache-java.lang.String-java.lang.String-) | Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache) class. |
+| [FileCache(Path cachePath, String cacheSubFolder)](#FileCache-java.nio.file.Path-java.lang.String-) | Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache) class. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [CACHE_PATH](#CACHE-PATH) |  |
 ## Methods
 
 | Method | Description |
@@ -46,6 +53,19 @@ Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache
 | --- | --- | --- |
 | cachePath | java.lang.String | Relative or absolute path where document cache will be stored. |
 
+### FileCache(Path cachePath) {#FileCache-java.nio.file.Path-}
+```
+public FileCache(Path cachePath)
+```
+
+
+Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cachePath | java.nio.file.Path | Relative or absolute path where document cache will be stored. |
+
 ### FileCache(String cachePath, String cacheSubFolder) {#FileCache-java.lang.String-java.lang.String-}
 ```
 public FileCache(String cachePath, String cacheSubFolder)
@@ -59,6 +79,26 @@ Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache
 | --- | --- | --- |
 | cachePath | java.lang.String | Relative or absolute path where document cache will be stored. |
 | cacheSubFolder | java.lang.String | The sub-folder to append to  cachePath . |
+
+### FileCache(Path cachePath, String cacheSubFolder) {#FileCache-java.nio.file.Path-java.lang.String-}
+```
+public FileCache(Path cachePath, String cacheSubFolder)
+```
+
+
+Creates new instance of [FileCache](../../com.groupdocs.viewer.caching/filecache) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cachePath | java.nio.file.Path | Relative or absolute path where document cache will be stored. |
+| cacheSubFolder | java.lang.String | The sub-folder to append to  cachePath . |
+
+### CACHE_PATH {#CACHE-PATH}
+```
+public static final String CACHE_PATH
+```
+
 
 ### getCachePath() {#getCachePath--}
 ```

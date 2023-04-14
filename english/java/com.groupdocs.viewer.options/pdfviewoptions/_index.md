@@ -22,6 +22,7 @@ Provides options for rendering documents into PDF format.
 | [PdfViewOptions(FileStreamFactory fileStreamFactory)](#PdfViewOptions-com.groupdocs.viewer.interfaces.FileStreamFactory-) | Initializes new instance of [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions) class. |
 | [PdfViewOptions()](#PdfViewOptions--) | Initializes new instance of [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions) class. |
 | [PdfViewOptions(String outputFilePath)](#PdfViewOptions-java.lang.String-) | Initializes new instance of [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions) class. |
+| [PdfViewOptions(Path outputFilePath)](#PdfViewOptions-java.nio.file.Path-) | Initializes new instance of [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions) class. |
 ## Methods
 
 | Method | Description |
@@ -104,6 +105,19 @@ Initializes new instance of [PdfViewOptions](../../com.groupdocs.viewer.options/
 | Parameter | Type | Description |
 | --- | --- | --- |
 | outputFilePath | java.lang.String | The path for output PDF file. |
+
+### PdfViewOptions(Path outputFilePath) {#PdfViewOptions-java.nio.file.Path-}
+```
+public PdfViewOptions(Path outputFilePath)
+```
+
+
+Initializes new instance of [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputFilePath | java.nio.file.Path | The path for output PDF file. |
 
 ### getJpgQuality() {#getJpgQuality--}
 ```

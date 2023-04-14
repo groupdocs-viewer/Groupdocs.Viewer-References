@@ -17,7 +17,7 @@ Provides options for rendering word processing documents.
 
 | Constructor | Description |
 | --- | --- |
-| [WordProcessingOptions()](#WordProcessingOptions--) | Provides options for rendering word processing documents. |
+| [WordProcessingOptions()](#WordProcessingOptions--) |  |
 ## Methods
 
 | Method | Description |
@@ -25,20 +25,22 @@ Provides options for rendering word processing documents.
 | [isRenderTrackedChanges()](#isRenderTrackedChanges--) | Enables tracked changes (revisions) rendering. |
 | [setRenderTrackedChanges(boolean value)](#setRenderTrackedChanges-boolean-) | Enables tracked changes (revisions) rendering. |
 | [getLeftMargin()](#getLeftMargin--) | Left page margin (for HTML rendering only) |
-| [setLeftMargin(float leftMargin)](#setLeftMargin-float-) | Left page margin (for HTML rendering only) |
+| [setLeftMargin(Float leftMargin)](#setLeftMargin-java.lang.Float-) | Left page margin (for HTML rendering only) |
 | [getRightMargin()](#getRightMargin--) | Right page margin (for HTML rendering only) |
-| [setRightMargin(float rightMargin)](#setRightMargin-float-) | Right page margin (for HTML rendering only) |
+| [setRightMargin(Float rightMargin)](#setRightMargin-java.lang.Float-) | Right page margin (for HTML rendering only) |
 | [getTopMargin()](#getTopMargin--) | Top page margin (for HTML rendering only) |
-| [setTopMargin(float topMargin)](#setTopMargin-float-) | Top page margin (for HTML rendering only) |
+| [setTopMargin(Float topMargin)](#setTopMargin-java.lang.Float-) | Top page margin (for HTML rendering only) |
+| [isEnableOpenTypeFeatures()](#isEnableOpenTypeFeatures--) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
+| [setEnableOpenTypeFeatures(boolean enableOpenTypeFeatures)](#setEnableOpenTypeFeatures-boolean-) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
 | [getBottomMargin()](#getBottomMargin--) | Bottom page margin (for HTML rendering only) |
-| [setBottomMargin(float bottomMargin)](#setBottomMargin-float-) | Bottom page margin (for HTML rendering only) |
+| [setBottomMargin(Float bottomMargin)](#setBottomMargin-java.lang.Float-) | Bottom page margin (for HTML rendering only) |
+| [equals(Object o)](#equals-java.lang.Object-) | Check options are changed |
+| [hashCode()](#hashCode--) |  |
 ### WordProcessingOptions() {#WordProcessingOptions--}
 ```
 public WordProcessingOptions()
 ```
 
-
-Provides options for rendering word processing documents.
 
 ### isRenderTrackedChanges() {#isRenderTrackedChanges--}
 ```
@@ -65,17 +67,17 @@ Enables tracked changes (revisions) rendering.
 
 ### getLeftMargin() {#getLeftMargin--}
 ```
-public float getLeftMargin()
+public Float getLeftMargin()
 ```
 
 
 Left page margin (for HTML rendering only)
 
 **Returns:**
-float
-### setLeftMargin(float leftMargin) {#setLeftMargin-float-}
+java.lang.Float
+### setLeftMargin(Float leftMargin) {#setLeftMargin-java.lang.Float-}
 ```
-public void setLeftMargin(float leftMargin)
+public void setLeftMargin(Float leftMargin)
 ```
 
 
@@ -84,21 +86,21 @@ Left page margin (for HTML rendering only)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| leftMargin | float |  |
+| leftMargin | java.lang.Float |  |
 
 ### getRightMargin() {#getRightMargin--}
 ```
-public float getRightMargin()
+public Float getRightMargin()
 ```
 
 
 Right page margin (for HTML rendering only)
 
 **Returns:**
-float
-### setRightMargin(float rightMargin) {#setRightMargin-float-}
+java.lang.Float
+### setRightMargin(Float rightMargin) {#setRightMargin-java.lang.Float-}
 ```
-public void setRightMargin(float rightMargin)
+public void setRightMargin(Float rightMargin)
 ```
 
 
@@ -107,21 +109,21 @@ Right page margin (for HTML rendering only)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rightMargin | float |  |
+| rightMargin | java.lang.Float |  |
 
 ### getTopMargin() {#getTopMargin--}
 ```
-public float getTopMargin()
+public Float getTopMargin()
 ```
 
 
 Top page margin (for HTML rendering only)
 
 **Returns:**
-float
-### setTopMargin(float topMargin) {#setTopMargin-float-}
+java.lang.Float
+### setTopMargin(Float topMargin) {#setTopMargin-java.lang.Float-}
 ```
-public void setTopMargin(float topMargin)
+public void setTopMargin(Float topMargin)
 ```
 
 
@@ -130,21 +132,44 @@ Top page margin (for HTML rendering only)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| topMargin | float |  |
+| topMargin | java.lang.Float |  |
+
+### isEnableOpenTypeFeatures() {#isEnableOpenTypeFeatures--}
+```
+public boolean isEnableOpenTypeFeatures()
+```
+
+
+This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts.
+
+**Returns:**
+boolean
+### setEnableOpenTypeFeatures(boolean enableOpenTypeFeatures) {#setEnableOpenTypeFeatures-boolean-}
+```
+public void setEnableOpenTypeFeatures(boolean enableOpenTypeFeatures)
+```
+
+
+This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| enableOpenTypeFeatures | boolean |  |
 
 ### getBottomMargin() {#getBottomMargin--}
 ```
-public float getBottomMargin()
+public Float getBottomMargin()
 ```
 
 
 Bottom page margin (for HTML rendering only)
 
 **Returns:**
-float
-### setBottomMargin(float bottomMargin) {#setBottomMargin-float-}
+java.lang.Float
+### setBottomMargin(Float bottomMargin) {#setBottomMargin-java.lang.Float-}
 ```
-public void setBottomMargin(float bottomMargin)
+public void setBottomMargin(Float bottomMargin)
 ```
 
 
@@ -153,5 +178,30 @@ Bottom page margin (for HTML rendering only)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bottomMargin | float |  |
+| bottomMargin | java.lang.Float |  |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check options are changed
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object |  |
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int

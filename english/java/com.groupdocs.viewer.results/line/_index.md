@@ -7,9 +7,9 @@ weight: 18
 url: /java/com.groupdocs.viewer.results/line/
 ---
 **All Implemented Interfaces:**
-com.groupdocs.viewer.results.TextElement
+com.groupdocs.viewer.results.TextElement, java.io.Serializable
 ```
-public interface Line extends TextElement<String>
+public interface Line extends TextElement<String>, Serializable
 ```
 
 Represents relatively positioned rectangle which contains single line. Default implementation is LineImpl

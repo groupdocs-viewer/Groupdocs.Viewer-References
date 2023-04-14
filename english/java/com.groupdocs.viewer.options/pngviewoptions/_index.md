@@ -25,6 +25,7 @@ Provides options for rendering documents into PNG format.
 | [PngViewOptions(PageStreamFactory pageStreamFactory)](#PngViewOptions-com.groupdocs.viewer.interfaces.PageStreamFactory-) | Initializes new instance of [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) class. |
 | [PngViewOptions()](#PngViewOptions--) | Initializes new instance of [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) class. |
 | [PngViewOptions(String filePathFormat)](#PngViewOptions-java.lang.String-) | Initializes new instance of [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) class. |
+| [PngViewOptions(Path filePathFormat)](#PngViewOptions-java.nio.file.Path-) | Initializes new instance of [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) class. |
 ## Methods
 
 | Method | Description |
@@ -105,6 +106,19 @@ Initializes new instance of [PngViewOptions](../../com.groupdocs.viewer.options/
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePathFormat | java.lang.String | The file path format e.g. 'page\_\{0\}.png'. |
+
+### PngViewOptions(Path filePathFormat) {#PngViewOptions-java.nio.file.Path-}
+```
+public PngViewOptions(Path filePathFormat)
+```
+
+
+Initializes new instance of [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePathFormat | java.nio.file.Path | The file path format e.g. 'page\_\{0\}.png'. |
 
 ### getMaxWidth() {#getMaxWidth--}
 ```

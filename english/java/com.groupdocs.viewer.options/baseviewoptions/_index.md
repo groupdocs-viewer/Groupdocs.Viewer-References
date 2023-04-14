@@ -50,8 +50,8 @@ Provides base rendering options.
 | [setProjectManagementOptions(ProjectManagementOptions projectManagementOptions)](#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-) | The project management files view options. |
 | [getSpreadsheetOptions()](#getSpreadsheetOptions--) | The spreadsheet files view options. |
 | [setSpreadsheetOptions(SpreadsheetOptions value)](#setSpreadsheetOptions-com.groupdocs.viewer.options.SpreadsheetOptions-) | The spreadsheet files view options. |
-| [getWordProcessingOptions()](#getWordProcessingOptions--) | The word processing documents view options. |
-| [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | The word processing documents view options. |
+| [getWordProcessingOptions()](#getWordProcessingOptions--) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
+| [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
 | [getVisioRenderingOptions()](#getVisioRenderingOptions--) | The Visio files processing documents view options. |
 | [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) | Sets the Visio files processing documents view options. |
 | [getPresentationOptions()](#getPresentationOptions--) | The presentation processing documents view options. |
@@ -387,7 +387,12 @@ public final WordProcessingOptions getWordProcessingOptions()
 ```
 
 
-The word processing documents view options.
+This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+
+Note: See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]
+
+
+[Render Word documents as HTML_ PDF_ or image files]: https://docs.groupdocs.com/viewer/java/how-to-view-word-documents-using-java/
 
 **Returns:**
 [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions)
@@ -397,7 +402,12 @@ public final void setWordProcessingOptions(WordProcessingOptions wordProcessingO
 ```
 
 
-The word processing documents view options.
+This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+
+Note: See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]
+
+
+[Render Word documents as HTML_ PDF_ or image files]: https://docs.groupdocs.com/viewer/java/how-to-view-word-documents-using-java/
 
 **Parameters:**
 | Parameter | Type | Description |

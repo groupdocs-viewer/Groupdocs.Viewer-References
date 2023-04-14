@@ -7,9 +7,9 @@ weight: 26
 url: /java/com.groupdocs.viewer.results/word/
 ---
 **All Implemented Interfaces:**
-com.groupdocs.viewer.results.TextElement
+com.groupdocs.viewer.results.TextElement, java.io.Serializable
 ```
-public interface Word extends TextElement<String>
+public interface Word extends TextElement<String>, Serializable
 ```
 
 Represents relatively positioned rectangle which contains single word. Default implementation is WordImpl
