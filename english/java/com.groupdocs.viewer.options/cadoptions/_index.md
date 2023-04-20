@@ -3,7 +3,7 @@ title: CadOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering CAD drawings.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.viewer.options/cadoptions/
 ---
 **Inheritance:**

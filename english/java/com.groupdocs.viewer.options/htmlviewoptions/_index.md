@@ -3,7 +3,7 @@ title: HtmlViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering documents into HTML format.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.viewer.options/htmlviewoptions/
 ---
 **Inheritance:**

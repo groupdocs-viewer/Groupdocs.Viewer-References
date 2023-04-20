@@ -3,7 +3,7 @@ title: JpgViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering documents into JPG format.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.viewer.options/jpgviewoptions/
 ---
 **Inheritance:**

@@ -36,7 +36,7 @@ Represents a local on-disk cache.
 | [getCachePath()](#getCachePath--) | The Relative or absolute path to the cache folder. |
 | [getCacheSubFolder()](#getCacheSubFolder--) | The sub-folder to append to the \#getCachePath().getCachePath(). |
 | [set(String key, Object value)](#set-java.lang.String-java.lang.Object-) | Serializes data to the local disk. |
-| [<T>get(String key)](#-T-get-java.lang.String-) | Deserializes data associated with this key if present. |
+| [<T>get(String key, Class<T> clazz)](#-T-get-java.lang.String-java.lang.Class-T--) | Deserializes data associated with this key if present. |
 | [getKeys(String filter)](#getKeys-java.lang.String-) | Returns all file names that contains filter in filename. |
 | [getWaitTimeout()](#getWaitTimeout--) |  |
 | [setWaitTimeout(System.TimeSpan waitTimeout)](#setWaitTimeout-com.aspose.ms.System.TimeSpan-) |  |
@@ -134,9 +134,9 @@ Serializes data to the local disk.
 | key | java.lang.String | An unique identifier for the cache entry. |
 | value | java.lang.Object | The object to serialize. |
 
-### <T>get(String key) {#-T-get-java.lang.String-}
+### <T>get(String key, Class<T> clazz) {#-T-get-java.lang.String-java.lang.Class-T--}
 ```
-public final T <T>get(String key)
+public final T <T>get(String key, Class<T> clazz)
 ```
 
 
@@ -146,6 +146,7 @@ Deserializes data associated with this key if present.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | java.lang.String | A key identifying the requested entry. |
+| clazz | java.lang.Class<T> |  |
 
 **Returns:**
 T - The located value or null.

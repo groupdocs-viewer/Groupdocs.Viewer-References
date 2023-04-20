@@ -24,14 +24,14 @@ Represents main class that controls document rendering process.
 | [Viewer(InputStream fileStream, boolean leaveOpen)](#Viewer-java.io.InputStream-boolean-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
 | [Viewer(InputStream fileStream, LoadOptions loadOptions)](#Viewer-java.io.InputStream-com.groupdocs.viewer.options.LoadOptions-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
 | [Viewer(InputStream fileStream, LoadOptions loadOptions, boolean leaveOpen)](#Viewer-java.io.InputStream-com.groupdocs.viewer.options.LoadOptions-boolean-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
-| [Viewer(InputStream inputStream, LoadOptions loadOptions, ViewerSettings settings)](#Viewer-java.io.InputStream-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
-| [Viewer(InputStream inputStream, LoadOptions loadOptions, ViewerSettings settings, boolean leaveOpen)](#Viewer-java.io.InputStream-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-boolean-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
-| [Viewer(URL url)](#Viewer-java.net.URL-) |  |
-| [Viewer(URL url, LoadOptions loadOptions)](#Viewer-java.net.URL-com.groupdocs.viewer.options.LoadOptions-) |  |
-| [Viewer(URL url, ViewerSettings settings)](#Viewer-java.net.URL-com.groupdocs.viewer.ViewerSettings-) |  |
-| [Viewer(URL url, LoadOptions loadOptions, ViewerSettings settings)](#Viewer-java.net.URL-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-) |  |
 | [Viewer(InputStream inputStream, ViewerSettings settings)](#Viewer-java.io.InputStream-com.groupdocs.viewer.ViewerSettings-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
 | [Viewer(InputStream inputStream, ViewerSettings settings, boolean leaveOpen)](#Viewer-java.io.InputStream-com.groupdocs.viewer.ViewerSettings-boolean-) | Initializes new instance of  class. |
+| [Viewer(InputStream inputStream, LoadOptions loadOptions, ViewerSettings settings)](#Viewer-java.io.InputStream-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
+| [Viewer(InputStream inputStream, LoadOptions loadOptions, ViewerSettings settings, boolean leaveOpen)](#Viewer-java.io.InputStream-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-boolean-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
+| [Viewer(URL url)](#Viewer-java.net.URL-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
+| [Viewer(URL url, LoadOptions loadOptions)](#Viewer-java.net.URL-com.groupdocs.viewer.options.LoadOptions-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
+| [Viewer(URL url, ViewerSettings settings)](#Viewer-java.net.URL-com.groupdocs.viewer.ViewerSettings-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
+| [Viewer(URL url, LoadOptions loadOptions, ViewerSettings settings)](#Viewer-java.net.URL-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
 | [Viewer(FileReader fileReader, ViewerSettings settings)](#Viewer-com.groupdocs.viewer.interfaces.FileReader-com.groupdocs.viewer.ViewerSettings-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
 | [Viewer(FileReader fileReader, LoadOptions loadOptions, ViewerSettings settings)](#Viewer-com.groupdocs.viewer.interfaces.FileReader-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
 | [Viewer(String filePath)](#Viewer-java.lang.String-) | Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class. |
@@ -157,6 +157,46 @@ Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class.
 | loadOptions | [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) | The document load options. |
 | leaveOpen | boolean | true to leave the stream open after the Viewer object is disposed; otherwise, false |
 
+### Viewer(InputStream inputStream, ViewerSettings settings) {#Viewer-java.io.InputStream-com.groupdocs.viewer.ViewerSettings-}
+```
+public Viewer(InputStream inputStream, ViewerSettings settings)
+```
+
+
+Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class.
+
+**Learn more**
+
+ *  More about file types supported by GroupDocs.Viewer: [Document formats supported by GroupDocs.Viewer][]
+ *  More about GroupDocs.Viewer for Java features: [Developer Guide][]
+ *  More about loading encrypted documents and viewing files from third-party storages with GroupDocs.Viewer for Java: [How to load and view document with GroupDocs.Viewer][]
+
+
+[Document formats supported by GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/display/viewerjava/Developer+Guide
+[How to load and view document with GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Loading
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream | The file stream |
+| settings | [ViewerSettings](../../com.groupdocs.viewer/viewersettings) | The Viewer settings. |
+
+### Viewer(InputStream inputStream, ViewerSettings settings, boolean leaveOpen) {#Viewer-java.io.InputStream-com.groupdocs.viewer.ViewerSettings-boolean-}
+```
+public Viewer(InputStream inputStream, ViewerSettings settings, boolean leaveOpen)
+```
+
+
+Initializes new instance of  class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | java.io.InputStream | The file stream. |
+| settings | [ViewerSettings](../../com.groupdocs.viewer/viewersettings) | The Viewer settings. |
+| leaveOpen | boolean | true to leave the stream open after the Viewer object is disposed; otherwise, false |
+
 ### Viewer(InputStream inputStream, LoadOptions loadOptions, ViewerSettings settings) {#Viewer-java.io.InputStream-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-}
 ```
 public Viewer(InputStream inputStream, LoadOptions loadOptions, ViewerSettings settings)
@@ -216,51 +256,21 @@ public Viewer(URL url)
 ```
 
 
+Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class.
+
+More about file types supported by GroupDocs.Viewer: [Document formats supported by GroupDocs.Viewer][]
+
+
+[Document formats supported by GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Supported+Document+Formats
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| url | java.net.URL |  |
+| url | java.net.URL | A url to a file that should be loaded into Viewer. |
 
 ### Viewer(URL url, LoadOptions loadOptions) {#Viewer-java.net.URL-com.groupdocs.viewer.options.LoadOptions-}
 ```
 public Viewer(URL url, LoadOptions loadOptions)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| url | java.net.URL |  |
-| loadOptions | [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) |  |
-
-### Viewer(URL url, ViewerSettings settings) {#Viewer-java.net.URL-com.groupdocs.viewer.ViewerSettings-}
-```
-public Viewer(URL url, ViewerSettings settings)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| url | java.net.URL |  |
-| settings | [ViewerSettings](../../com.groupdocs.viewer/viewersettings) |  |
-
-### Viewer(URL url, LoadOptions loadOptions, ViewerSettings settings) {#Viewer-java.net.URL-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-}
-```
-public Viewer(URL url, LoadOptions loadOptions, ViewerSettings settings)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| url | java.net.URL |  |
-| loadOptions | [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) |  |
-| settings | [ViewerSettings](../../com.groupdocs.viewer/viewersettings) |  |
-
-### Viewer(InputStream inputStream, ViewerSettings settings) {#Viewer-java.io.InputStream-com.groupdocs.viewer.ViewerSettings-}
-```
-public Viewer(InputStream inputStream, ViewerSettings settings)
 ```
 
 
@@ -280,23 +290,59 @@ Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | java.io.InputStream | The file stream |
-| settings | [ViewerSettings](../../com.groupdocs.viewer/viewersettings) | The Viewer settings. |
+| url | java.net.URL | A url to a file that should be loaded into Viewer. |
+| loadOptions | [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) | The document load options. |
 
-### Viewer(InputStream inputStream, ViewerSettings settings, boolean leaveOpen) {#Viewer-java.io.InputStream-com.groupdocs.viewer.ViewerSettings-boolean-}
+### Viewer(URL url, ViewerSettings settings) {#Viewer-java.net.URL-com.groupdocs.viewer.ViewerSettings-}
 ```
-public Viewer(InputStream inputStream, ViewerSettings settings, boolean leaveOpen)
+public Viewer(URL url, ViewerSettings settings)
 ```
 
 
-Initializes new instance of  class.
+Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class.
+
+**Learn more**
+
+ *  More about file types supported by GroupDocs.Viewer: [Document formats supported by GroupDocs.Viewer][]
+ *  More about GroupDocs.Viewer for Java features: [Developer Guide][]
+ *  More about loading encrypted documents and viewing files from third-party storages with GroupDocs.Viewer for Java: [How to load and view document with GroupDocs.Viewer][]
+
+
+[Document formats supported by GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/display/viewerjava/Developer+Guide
+[How to load and view document with GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Loading
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| inputStream | java.io.InputStream | The file stream. |
+| url | java.net.URL | A url to a file that should be loaded into Viewer. |
 | settings | [ViewerSettings](../../com.groupdocs.viewer/viewersettings) | The Viewer settings. |
-| leaveOpen | boolean | true to leave the stream open after the Viewer object is disposed; otherwise, false |
+
+### Viewer(URL url, LoadOptions loadOptions, ViewerSettings settings) {#Viewer-java.net.URL-com.groupdocs.viewer.options.LoadOptions-com.groupdocs.viewer.ViewerSettings-}
+```
+public Viewer(URL url, LoadOptions loadOptions, ViewerSettings settings)
+```
+
+
+Initializes new instance of [Viewer](../../com.groupdocs.viewer/viewer) class.
+
+**Learn more**
+
+ *  More about file types supported by GroupDocs.Viewer: [Document formats supported by GroupDocs.Viewer][]
+ *  More about GroupDocs.Viewer for Java features: [Developer Guide][]
+ *  More about loading encrypted documents and viewing files from third-party storages with GroupDocs.Viewer for Java: [How to load and view document with GroupDocs.Viewer][]
+
+
+[Document formats supported by GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Supported+Document+Formats
+[Developer Guide]: https://docs.groupdocs.com/display/viewerjava/Developer+Guide
+[How to load and view document with GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Loading
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| url | java.net.URL | A url to a file that should be loaded into Viewer. |
+| loadOptions | [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) | The document load options. |
+| settings | [ViewerSettings](../../com.groupdocs.viewer/viewersettings) | The Viewer settings. |
 
 ### Viewer(FileReader fileReader, ViewerSettings settings) {#Viewer-com.groupdocs.viewer.interfaces.FileReader-com.groupdocs.viewer.ViewerSettings-}
 ```

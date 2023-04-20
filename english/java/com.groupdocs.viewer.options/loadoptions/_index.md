@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options that used to open the file.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.viewer.options/loadoptions/
 ---
 **Inheritance:**
@@ -41,8 +41,8 @@ Provides options that used to open the file.
 | [setUrlConnectTimeout(int urlConnectTimeout)](#setUrlConnectTimeout-int-) | Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds |
 | [getUrlReadTimeout()](#getUrlReadTimeout--) | Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds |
 | [setUrlReadTimeout(int urlReadTimeout)](#setUrlReadTimeout-int-) | Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds |
-| [getArchiveSecurityOptions()](#getArchiveSecurityOptions--) |  |
-| [setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)](#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-) |  |
+| [getArchiveSecurityOptions()](#getArchiveSecurityOptions--) | Security options to control the process of extracting archives. |
+| [setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)](#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-) | Security options to control the process of extracting archives. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -220,20 +220,20 @@ public ArchiveSecurityOptions getArchiveSecurityOptions()
 ```
 
 
-
+Security options to control the process of extracting archives. Not each archive type supports all options.
 
 **Returns:**
-com.groupdocs.viewer.options.ArchiveSecurityOptions
+com.groupdocs.viewer.options.ArchiveSecurityOptions - The options object to configure the process of extracting archives.
 ### setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions) {#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-}
 ```
 public void setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)
 ```
 
 
-
+Security options to control the process of extracting archives. Not each archive type supports all options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| archiveSecurityOptions | com.groupdocs.viewer.options.ArchiveSecurityOptions |  |
+| archiveSecurityOptions | com.groupdocs.viewer.options.ArchiveSecurityOptions | The options object to configure the process of extracting archives. |
 

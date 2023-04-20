@@ -3,7 +3,7 @@ title: ImageQuality
 second_title: GroupDocs.Viewer for Java API Reference
 description: The quality of images in the output HTML contained by the PDF documents.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.groupdocs.viewer.options/imagequality/
 ---
 **Inheritance:**

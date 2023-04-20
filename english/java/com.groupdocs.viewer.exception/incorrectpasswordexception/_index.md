@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: GroupDocs.Viewer for Java API Reference
 description: The exception that is thrown when specified password is incorrect.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.viewer.exception/incorrectpasswordexception/
 ---
 **Inheritance:**

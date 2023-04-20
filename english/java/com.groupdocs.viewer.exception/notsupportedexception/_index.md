@@ -3,7 +3,7 @@ title: NotSupportedException
 second_title: GroupDocs.Viewer for Java API Reference
 description: The exception that is thrown when the operation is not supported.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.viewer.exception/notsupportedexception/
 ---
 **Inheritance:**

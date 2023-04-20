@@ -3,7 +3,7 @@ title: Watermark
 second_title: GroupDocs.Viewer for Java API Reference
 description: Represents text watermark.
 type: docs
-weight: 33
+weight: 34
 url: /java/com.groupdocs.viewer.options/watermark/
 ---
 **Inheritance:**

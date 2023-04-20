@@ -3,7 +3,7 @@ title: MailStorageOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering Mail storage Lotus Notes MBox data files.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.groupdocs.viewer.options/mailstorageoptions/
 ---
 **Inheritance:**

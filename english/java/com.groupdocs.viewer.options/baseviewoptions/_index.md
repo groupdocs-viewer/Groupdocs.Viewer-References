@@ -3,7 +3,7 @@ title: BaseViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides base rendering options.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.viewer.options/baseviewoptions/
 ---
 **Inheritance:**

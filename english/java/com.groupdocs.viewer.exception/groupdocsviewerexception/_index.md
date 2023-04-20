@@ -3,7 +3,7 @@ title: GroupDocsViewerException
 second_title: GroupDocs.Viewer for Java API Reference
 description: Represents the generic errors that occur during document processing.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.viewer.exception/groupdocsviewerexception/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PngViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering documents into PNG format.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.viewer.options/pngviewoptions/
 ---
 **Inheritance:**

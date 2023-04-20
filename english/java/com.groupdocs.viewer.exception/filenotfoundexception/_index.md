@@ -3,7 +3,7 @@ title: FileNotFoundException
 second_title: GroupDocs.Viewer for Java API Reference
 description: Represents the the exception that throws when file or directory was not found.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.viewer.exception/filenotfoundexception/
 ---
 **Inheritance:**
