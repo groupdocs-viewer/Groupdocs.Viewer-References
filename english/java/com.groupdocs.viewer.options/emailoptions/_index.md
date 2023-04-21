@@ -3,7 +3,7 @@ title: EmailOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering email messages.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.groupdocs.viewer.options/emailoptions/
 ---
 **Inheritance:**

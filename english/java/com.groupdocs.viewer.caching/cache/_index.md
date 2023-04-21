@@ -15,7 +15,7 @@ Defines methods required for storing rendered document and document resources \\
 | Method | Description |
 | --- | --- |
 | [set(String key, Object value)](#set-java.lang.String-java.lang.Object-) | Inserts a cache entry into the cache. |
-| [<T>get(String key)](#-T-get-java.lang.String-) | Gets the entry associated with this key if present and null otherwise. |
+| [<T>get(String key, Class<T> clazz)](#-T-get-java.lang.String-java.lang.Class-T--) | Gets the entry associated with this key if present and null otherwise. |
 | [getKeys(String filter)](#getKeys-java.lang.String-) | Returns all keys matching filter. |
 ### set(String key, Object value) {#set-java.lang.String-java.lang.Object-}
 ```
@@ -31,9 +31,9 @@ Inserts a cache entry into the cache.
 | key | java.lang.String | A unique identifier for the cache entry. |
 | value | java.lang.Object | The object to insert. |
 
-### <T>get(String key) {#-T-get-java.lang.String-}
+### <T>get(String key, Class<T> clazz) {#-T-get-java.lang.String-java.lang.Class-T--}
 ```
-public abstract T <T>get(String key)
+public abstract T <T>get(String key, Class<T> clazz)
 ```
 
 
@@ -43,6 +43,7 @@ Gets the entry associated with this key if present and null otherwise.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | java.lang.String | A key identifying the requested entry. |
+| clazz | java.lang.Class<T> |  |
 
 **Returns:**
 T - Object if the key was found and null otherwise.

@@ -3,7 +3,7 @@ title: HtmlViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering documents into HTML format.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.groupdocs.viewer.options/htmlviewoptions/
 ---
 **Inheritance:**
@@ -13,6 +13,12 @@ public class HtmlViewOptions extends ViewOptions
 ```
 
 Provides options for rendering documents into HTML format.
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [CREATE_PAGE_STREAM](#CREATE-PAGE-STREAM) |  |
+| [FILE_PATH_FORMAT](#FILE-PATH-FORMAT) |  |
 ## Methods
 
 | Method | Description |
@@ -30,6 +36,7 @@ Provides options for rendering documents into HTML format.
 | [forEmbeddedResources(PageStreamFactory pageStreamFactory)](#forEmbeddedResources-com.groupdocs.viewer.interfaces.PageStreamFactory-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources. |
 | [forEmbeddedResources()](#forEmbeddedResources--) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
 | [forEmbeddedResources(String filePathFormat)](#forEmbeddedResources-java.lang.String-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
+| [forEmbeddedResources(Path filePathFormat)](#forEmbeddedResources-java.nio.file.Path-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
 | [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
 | [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-com.groupdocs.viewer.interfaces.ReleasePageStream-com.groupdocs.viewer.interfaces.ReleaseResourceStream-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
 | [forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory)](#forExternalResources-com.groupdocs.viewer.interfaces.PageStreamFactory-com.groupdocs.viewer.interfaces.ResourceStreamFactory-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
@@ -49,6 +56,18 @@ Provides options for rendering documents into HTML format.
 | [setForPrinting(boolean value)](#setForPrinting-boolean-) | Indicates whether to optimize output HTML for printing. |
 | [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Callback to estimate Words or Email document saving progress |
 | [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Callback to estimate Words or Email document saving progress |
+### CREATE_PAGE_STREAM {#CREATE-PAGE-STREAM}
+```
+public static final String CREATE_PAGE_STREAM
+```
+
+
+### FILE_PATH_FORMAT {#FILE-PATH-FORMAT}
+```
+public static final String FILE_PATH_FORMAT
+```
+
+
 ### getImageMaxWidth() {#getImageMaxWidth--}
 ```
 public int getImageMaxWidth()
@@ -209,6 +228,21 @@ Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePathFormat | java.lang.String | The file path format e.g. 'page\_\{0\}.html'. |
+
+**Returns:**
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
+### forEmbeddedResources(Path filePathFormat) {#forEmbeddedResources-java.nio.file.Path-}
+```
+public static HtmlViewOptions forEmbeddedResources(Path filePathFormat)
+```
+
+
+Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePathFormat | java.nio.file.Path | The file path format e.g. 'page\_\{0\}.html'. |
 
 **Returns:**
 [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)

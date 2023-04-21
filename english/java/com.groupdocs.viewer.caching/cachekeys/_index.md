@@ -13,11 +13,11 @@ public class CacheKeys
 ```
 
 Provides methods to retrieve unique identifier for the cache entry.
-## Constructors
+## Fields
 
-| Constructor | Description |
+| Field | Description |
 | --- | --- |
-| [CacheKeys()](#CacheKeys--) |  |
+| [PAGE_NUMBER](#PAGE-NUMBER) |  |
 ## Methods
 
 | Method | Description |
@@ -30,9 +30,9 @@ Provides methods to retrieve unique identifier for the cache entry.
 | [getPageKey(int pageNumber, String extension)](#getPageKey-int-java.lang.String-) | Returns unique identifier for the cache entry that represents page file. |
 | [getResourceKey(int pageNumber, Resource resource)](#getResourceKey-int-com.groupdocs.viewer.results.Resource-) | Returns unique identifier for the cache entry that represents [Resource](../../com.groupdocs.viewer.results/resource) object. |
 | [getResourceFilter(int pageNumber)](#getResourceFilter-int-) | Returns filter string to search for cache entries that represents [Resource](../../com.groupdocs.viewer.results/resource) objects. |
-### CacheKeys() {#CacheKeys--}
+### PAGE_NUMBER {#PAGE-NUMBER}
 ```
-public CacheKeys()
+public static final String PAGE_NUMBER
 ```
 
 

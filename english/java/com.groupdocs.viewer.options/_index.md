@@ -15,6 +15,7 @@ The package provides classes to specify additional options when rendering docume
 | Class | Description |
 | --- | --- |
 | [ArchiveOptions](../com.groupdocs.viewer.options/archiveoptions) | Provides options for rendering archive files. |
+| [ArchiveSecurityOptions](../com.groupdocs.viewer.options/archivesecurityoptions) | Class that can be used to limit archives extraction process. |
 | [BaseViewOptions](../com.groupdocs.viewer.options/baseviewoptions) | Provides base rendering options. |
 | [CadOptions](../com.groupdocs.viewer.options/cadoptions) | Provides options for rendering CAD drawings. |
 | [EmailOptions](../com.groupdocs.viewer.options/emailoptions) | Provides options for rendering email messages. |

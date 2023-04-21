@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering PDF documents.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.groupdocs.viewer.options/pdfoptions/
 ---
 **Inheritance:**

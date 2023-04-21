@@ -14,6 +14,7 @@ The package provides classes for exceptions which can occur while working with a
 
 | Class | Description |
 | --- | --- |
+| [ArchiveSecurityException](../com.groupdocs.viewer.exception/archivesecurityexception) | The exception that is thrown when archive that is being opened exceeds any of the limits specified in com.groupdocs.viewer.options.ArchiveSecurityOptions. |
 | [FileNotFoundException](../com.groupdocs.viewer.exception/filenotfoundexception) | Represents the the exception that throws when file or directory was not found. |
 | [GroupDocsViewerException](../com.groupdocs.viewer.exception/groupdocsviewerexception) | Represents the generic errors that occur during document processing. |
 | [IncorrectPasswordException](../com.groupdocs.viewer.exception/incorrectpasswordexception) | The exception that is thrown when specified password is incorrect. |

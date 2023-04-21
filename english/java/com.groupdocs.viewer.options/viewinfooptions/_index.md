@@ -3,7 +3,7 @@ title: ViewInfoOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options used for retrieving information about view.
 type: docs
-weight: 30
+weight: 31
 url: /java/com.groupdocs.viewer.options/viewinfooptions/
 ---
 **Inheritance:**
@@ -16,6 +16,11 @@ public class ViewInfoOptions extends BaseViewOptions implements IMaxSizeOptions
 ```
 
 Provides options used for retrieving information about view.
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [OPTIONS](#OPTIONS) |  |
 ## Methods
 
 | Method | Description |
@@ -39,6 +44,12 @@ Provides options used for retrieving information about view.
 | [fromHtmlViewOptions(HtmlViewOptions options)](#fromHtmlViewOptions-com.groupdocs.viewer.options.HtmlViewOptions-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) object. |
 | [fromPngViewOptions(PngViewOptions options)](#fromPngViewOptions-com.groupdocs.viewer.options.PngViewOptions-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) object. |
 | [fromJpgViewOptions(JpgViewOptions options)](#fromJpgViewOptions-com.groupdocs.viewer.options.JpgViewOptions-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) object. |
+### OPTIONS {#OPTIONS}
+```
+public static final String OPTIONS
+```
+
+
 ### isExtractText() {#isExtractText--}
 ```
 public boolean isExtractText()

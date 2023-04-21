@@ -22,6 +22,12 @@ Writes log messages to the file.
 | --- | --- |
 | [FileLogger(String fileName)](#FileLogger-java.lang.String-) | Create logger to file. |
 | [FileLogger(String fileName, boolean isTraceEnabled, boolean isDebugEnabled, boolean isWarningEnabled, boolean isErrorEnabled)](#FileLogger-java.lang.String-boolean-boolean-boolean-boolean-) | Create logger to file. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [MESSAGE](#MESSAGE) |  |
+| [EXCEPTION](#EXCEPTION) |  |
 ## Methods
 
 | Method | Description |
@@ -67,6 +73,18 @@ Create logger to file.
 | isDebugEnabled | boolean |  |
 | isWarningEnabled | boolean |  |
 | isErrorEnabled | boolean |  |
+
+### MESSAGE {#MESSAGE}
+```
+public static final String MESSAGE
+```
+
+
+### EXCEPTION {#EXCEPTION}
+```
+public static final String EXCEPTION
+```
+
 
 ### trace(String message, Object[] arguments) {#trace-java.lang.String-java.lang.Object...-}
 ```

@@ -3,7 +3,7 @@ title: JpgViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering documents into JPG format.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.groupdocs.viewer.options/jpgviewoptions/
 ---
 **Inheritance:**
@@ -25,6 +25,7 @@ Provides options for rendering documents into JPG format.
 | [JpgViewOptions(PageStreamFactory pageStreamFactory)](#JpgViewOptions-com.groupdocs.viewer.interfaces.PageStreamFactory-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
 | [JpgViewOptions()](#JpgViewOptions--) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
 | [JpgViewOptions(String filePathFormat)](#JpgViewOptions-java.lang.String-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
+| [JpgViewOptions(Path filePathFormat)](#JpgViewOptions-java.nio.file.Path-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
 ## Methods
 
 | Method | Description |
@@ -108,6 +109,19 @@ Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/
 | Parameter | Type | Description |
 | --- | --- | --- |
 | filePathFormat | java.lang.String | The file path format e.g. 'page\_\{0\}.jpg'. |
+
+### JpgViewOptions(Path filePathFormat) {#JpgViewOptions-java.nio.file.Path-}
+```
+public JpgViewOptions(Path filePathFormat)
+```
+
+
+Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePathFormat | java.nio.file.Path | The file path format e.g. 'page\_\{0\}.jpg'. |
 
 ### getMaxWidth() {#getMaxWidth--}
 ```

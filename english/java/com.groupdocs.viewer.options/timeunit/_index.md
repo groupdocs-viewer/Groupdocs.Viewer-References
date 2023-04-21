@@ -3,7 +3,7 @@ title: TimeUnit
 second_title: GroupDocs.Viewer for Java API Reference
 description: Time unit of the project duration.
 type: docs
-weight: 42
+weight: 43
 url: /java/com.groupdocs.viewer.options/timeunit/
 ---
 **Inheritance:**

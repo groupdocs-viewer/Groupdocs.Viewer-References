@@ -3,7 +3,7 @@ title: FileName
 second_title: GroupDocs.Viewer for Java API Reference
 description: Represents name of simple file
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.viewer.options/filename/
 ---
 **Inheritance:**

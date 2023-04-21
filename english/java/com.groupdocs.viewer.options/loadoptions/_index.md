@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options that used to open the file.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.groupdocs.viewer.options/loadoptions/
 ---
 **Inheritance:**
@@ -19,6 +19,12 @@ Provides options that used to open the file.
 | --- | --- |
 | [LoadOptions()](#LoadOptions--) | Initializes new instance of [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) class. |
 | [LoadOptions(FileType fileType)](#LoadOptions-com.groupdocs.viewer.FileType-) | Initializes new instance of [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) class. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [DEFAULT_URL_CONNECT_TIMEOUT](#DEFAULT-URL-CONNECT-TIMEOUT) |  |
+| [DEFAULT_URL_READ_TIMEOUT](#DEFAULT-URL-READ-TIMEOUT) |  |
 ## Methods
 
 | Method | Description |
@@ -31,6 +37,12 @@ Provides options that used to open the file.
 | [setCharset(Charset value)](#setCharset-java.nio.charset.Charset-) | The Charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
 | [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | The external resources e.g. graphics loading timeout. |
 | [setResourceLoadingTimeout(int resourceLoadingTimeout)](#setResourceLoadingTimeout-int-) | The external resources e.g. graphics loading timeout. |
+| [getUrlConnectTimeout()](#getUrlConnectTimeout--) | Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds |
+| [setUrlConnectTimeout(int urlConnectTimeout)](#setUrlConnectTimeout-int-) | Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds |
+| [getUrlReadTimeout()](#getUrlReadTimeout--) | Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds |
+| [setUrlReadTimeout(int urlReadTimeout)](#setUrlReadTimeout-int-) | Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds |
+| [getArchiveSecurityOptions()](#getArchiveSecurityOptions--) | Security options to control the process of extracting archives. |
+| [setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)](#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-) | Security options to control the process of extracting archives. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -51,6 +63,18 @@ Initializes new instance of [LoadOptions](../../com.groupdocs.viewer.options/loa
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileType | [FileType](../../com.groupdocs.viewer/filetype) | The type of the file to open. |
+
+### DEFAULT_URL_CONNECT_TIMEOUT {#DEFAULT-URL-CONNECT-TIMEOUT}
+```
+public static final int DEFAULT_URL_CONNECT_TIMEOUT
+```
+
+
+### DEFAULT_URL_READ_TIMEOUT {#DEFAULT-URL-READ-TIMEOUT}
+```
+public static final int DEFAULT_URL_READ_TIMEOUT
+```
+
 
 ### getFileType() {#getFileType--}
 ```
@@ -143,4 +167,73 @@ The external resources e.g. graphics loading timeout. The default value is 30 se
 | Parameter | Type | Description |
 | --- | --- | --- |
 | resourceLoadingTimeout | int | loading timeout |
+
+### getUrlConnectTimeout() {#getUrlConnectTimeout--}
+```
+public int getUrlConnectTimeout()
+```
+
+
+Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds
+
+**Returns:**
+int - connect timeout
+### setUrlConnectTimeout(int urlConnectTimeout) {#setUrlConnectTimeout-int-}
+```
+public void setUrlConnectTimeout(int urlConnectTimeout)
+```
+
+
+Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| urlConnectTimeout | int | connect timeout |
+
+### getUrlReadTimeout() {#getUrlReadTimeout--}
+```
+public int getUrlReadTimeout()
+```
+
+
+Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds
+
+**Returns:**
+int - read timeout
+### setUrlReadTimeout(int urlReadTimeout) {#setUrlReadTimeout-int-}
+```
+public void setUrlReadTimeout(int urlReadTimeout)
+```
+
+
+Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| urlReadTimeout | int | read timeout |
+
+### getArchiveSecurityOptions() {#getArchiveSecurityOptions--}
+```
+public ArchiveSecurityOptions getArchiveSecurityOptions()
+```
+
+
+Security options to control the process of extracting archives. Not each archive type supports all options.
+
+**Returns:**
+com.groupdocs.viewer.options.ArchiveSecurityOptions - The options object to configure the process of extracting archives.
+### setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions) {#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-}
+```
+public void setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)
+```
+
+
+Security options to control the process of extracting archives. Not each archive type supports all options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| archiveSecurityOptions | com.groupdocs.viewer.options.ArchiveSecurityOptions | The options object to configure the process of extracting archives. |
 

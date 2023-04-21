@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Viewer for Java API Reference
 description: The exception that is thrown when password is required to load the document.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.groupdocs.viewer.exception/passwordrequiredexception/
 ---
 **Inheritance:**

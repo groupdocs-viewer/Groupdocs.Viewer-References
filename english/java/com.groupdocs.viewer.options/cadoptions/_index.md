@@ -3,7 +3,7 @@ title: CadOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering CAD drawings.
 type: docs
-weight: 12
+weight: 13
 url: /java/com.groupdocs.viewer.options/cadoptions/
 ---
 **Inheritance:**
@@ -13,6 +13,12 @@ public class CadOptions
 ```
 
 Provides options for rendering CAD drawings.
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [WIDTH](#WIDTH) |  |
+| [HEIGHT](#HEIGHT) |  |
 ## Methods
 
 | Method | Description |
@@ -40,6 +46,18 @@ Provides options for rendering CAD drawings.
 | [hashCode()](#hashCode--) |  |
 | [toString()](#toString--) |  |
 | [toString(ToStringStyle style)](#toString-org.apache.commons.lang3.builder.ToStringStyle-) |  |
+### WIDTH {#WIDTH}
+```
+public static final String WIDTH
+```
+
+
+### HEIGHT {#HEIGHT}
+```
+public static final String HEIGHT
+```
+
+
 ### getPc3File() {#getPc3File--}
 ```
 public String getPc3File()
