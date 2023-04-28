@@ -18,16 +18,20 @@ public class SpreadsheetOptions
 
 | Name | Description |
 | --- | --- |
+| [BottomMargin](../../groupdocs.viewer.options/spreadsheetoptions/bottommargin) { get; set; } | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 | [CountColumnsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countcolumnsperpage) { get; } | The columns count to include into each page when splitting worksheet into pages. |
 | [CountRowsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countrowsperpage) { get; } | The rows count to include into each page when splitting worksheet into pages. |
 | [DetectSeparator](../../groupdocs.viewer.options/spreadsheetoptions/detectseparator) { get; set; } | Detect separator (for CSV/TSV files). |
+| [LeftMargin](../../groupdocs.viewer.options/spreadsheetoptions/leftmargin) { get; set; } | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 | [RenderGridLines](../../groupdocs.viewer.options/spreadsheetoptions/rendergridlines) { get; set; } | Enables grid lines rendering. |
 | [RenderHeadings](../../groupdocs.viewer.options/spreadsheetoptions/renderheadings) { get; set; } | Enables headings rendering. |
 | [RenderHiddenColumns](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddencolumns) { get; set; } | Enables hidden columns rendering. |
 | [RenderHiddenRows](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddenrows) { get; set; } | Enables hidden rows rendering. |
+| [RightMargin](../../groupdocs.viewer.options/spreadsheetoptions/rightmargin) { get; set; } | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 | [SkipEmptyColumns](../../groupdocs.viewer.options/spreadsheetoptions/skipemptycolumns) { get; set; } | Disables empty columns rendering. |
 | [SkipEmptyRows](../../groupdocs.viewer.options/spreadsheetoptions/skipemptyrows) { get; set; } | Disables empty rows rendering. |
 | [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | The text overflow mode for rendering spreadsheet documents into HTML. |
+| [TopMargin](../../groupdocs.viewer.options/spreadsheetoptions/topmargin) { get; set; } | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 
 ## Methods
 
