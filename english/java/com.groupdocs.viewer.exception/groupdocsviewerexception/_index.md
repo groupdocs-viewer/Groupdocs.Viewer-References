@@ -1,7 +1,7 @@
 ---
 title: GroupDocsViewerException
 second_title: GroupDocs.Viewer for Java API Reference
-description: Represents the generic errors that occur during document processing.
+description: This exception represents generic errors that can occur during document processing.
 type: docs
 weight: 12
 url: /java/com.groupdocs.viewer.exception/groupdocsviewerexception/
@@ -12,14 +12,14 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class GroupDocsViewerException extends GroupDocsException
 ```
 
-Represents the generic errors that occur during document processing.
+This exception represents generic errors that can occur during document processing. It is a broad exception that indicates an error or failure, but does not provide specific details about the nature of the error.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GroupDocsViewerException(String message)](#GroupDocsViewerException-java.lang.String-) | Initializes a new instance of the [GroupDocsViewerException](../../com.groupdocs.viewer.exception/groupdocsviewerexception) class with a specified error message. |
-| [GroupDocsViewerException(Throwable cause)](#GroupDocsViewerException-java.lang.Throwable-) | Instantiates a new Group docs exception. |
-| [GroupDocsViewerException(String message, Throwable throwable)](#GroupDocsViewerException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the [GroupDocsViewerException](../../com.groupdocs.viewer.exception/groupdocsviewerexception) class with a specified error message. |
+| [GroupDocsViewerException(String message)](#GroupDocsViewerException-java.lang.String-) | Initializes a new instance of the GroupDocsViewerException class with a specified error message. |
+| [GroupDocsViewerException(Throwable cause)](#GroupDocsViewerException-java.lang.Throwable-) | Instantiates a new GroupDocsViewerException. |
+| [GroupDocsViewerException(String message, Throwable throwable)](#GroupDocsViewerException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the  GroupDocsViewerException  class with a specified error message. |
 ## Methods
 
 | Method | Description |
@@ -31,7 +31,7 @@ public GroupDocsViewerException(String message)
 ```
 
 
-Initializes a new instance of the [GroupDocsViewerException](../../com.groupdocs.viewer.exception/groupdocsviewerexception) class with a specified error message.
+Initializes a new instance of the GroupDocsViewerException class with a specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -44,12 +44,12 @@ public GroupDocsViewerException(Throwable cause)
 ```
 
 
-Instantiates a new Group docs exception.
+Instantiates a new GroupDocsViewerException.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cause | java.lang.Throwable | the cause |
+| cause | java.lang.Throwable | The cause of the exception. |
 
 ### GroupDocsViewerException(String message, Throwable throwable) {#GroupDocsViewerException-java.lang.String-java.lang.Throwable-}
 ```
@@ -57,13 +57,13 @@ public GroupDocsViewerException(String message, Throwable throwable)
 ```
 
 
-Initializes a new instance of the [GroupDocsViewerException](../../com.groupdocs.viewer.exception/groupdocsviewerexception) class with a specified error message.
+Initializes a new instance of the  GroupDocsViewerException  class with a specified error message.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message. |
-| throwable | java.lang.Throwable | The throwable. |
+| message | java.lang.String | The message that describes the error. |
+| throwable | java.lang.Throwable | The throwable that caused the exception. |
 
 ### toString() {#toString--}
 ```

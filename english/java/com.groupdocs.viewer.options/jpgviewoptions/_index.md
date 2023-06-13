@@ -16,47 +16,68 @@ public class JpgViewOptions extends ViewOptions implements IMaxSizeOptions
 ```
 
 Provides options for rendering documents into JPG format.
+
+The JpgViewOptions class encapsulates additional settings and parameters that can be used to control the rendering of documents into JPG format in the GroupDocs.Viewer component.
+
+Example usage:
+
+```
+
+ JpgViewOptions options = new JpgViewOptions();
+ options.setMaxWidth(1920);
+ options.setMaxHeight(1080);
+ options.setQuality((byte) 96);
+ options.setRenderComments(true);
+
+ try (Viewer viewer = new Viewer("document.docx")) {
+     viewer.view(options);
+     // Use the viewer object for further operations
+ }
+ 
+```
+
+Note: The JpgViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output JPG images.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [JpgViewOptions(CreatePageStream createPageStream)](#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
-| [JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)](#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
-| [JpgViewOptions(PageStreamFactory pageStreamFactory)](#JpgViewOptions-com.groupdocs.viewer.interfaces.PageStreamFactory-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
-| [JpgViewOptions()](#JpgViewOptions--) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
-| [JpgViewOptions(String filePathFormat)](#JpgViewOptions-java.lang.String-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
-| [JpgViewOptions(Path filePathFormat)](#JpgViewOptions-java.nio.file.Path-) | Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class. |
+| [JpgViewOptions(CreatePageStream createPageStream)](#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-) | Initializes a new instance of the  JpgViewOptions  class. |
+| [JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)](#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-) | Initializes a new instance of the  JpgViewOptions  class. |
+| [JpgViewOptions(PageStreamFactory pageStreamFactory)](#JpgViewOptions-com.groupdocs.viewer.interfaces.PageStreamFactory-) | Initializes a new instance of the  JpgViewOptions  class. |
+| [JpgViewOptions()](#JpgViewOptions--) | Initializes a new instance of  JpgViewOptions  with "p\_\{0\}.jpg" as the file path format for the output files. |
+| [JpgViewOptions(String filePathFormat)](#JpgViewOptions-java.lang.String-) | Initializes a new instance of the  JpgViewOptions  class. |
+| [JpgViewOptions(Path filePathFormat)](#JpgViewOptions-java.nio.file.Path-) | Initializes a new instance of the  JpgViewOptions  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getMaxWidth()](#getMaxWidth--) | Max width of an output image in pixels. |
-| [setMaxWidth(int maxWidth)](#setMaxWidth-int-) | Max width of an output image in pixels. |
-| [getMaxHeight()](#getMaxHeight--) | Max height of an output image in pixels. |
-| [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | Max height of an output image in pixels. |
-| [getQuality()](#getQuality--) | Quality of the output image; Valid values are between 1 and 100; Default value is 90. |
-| [setQuality(byte value)](#setQuality-byte-) | Quality of the output image; Valid values are between 1 and 100; Default value is 90. |
+| [getMaxWidth()](#getMaxWidth--) | Gets the maximum width of an output image in pixels. |
+| [setMaxWidth(int maxWidth)](#setMaxWidth-int-) | Sets the maximum width of an output image in pixels. |
+| [getMaxHeight()](#getMaxHeight--) | Gets the maximum height of an output image in pixels. |
+| [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | Sets the maximum height of an output image in pixels. |
+| [getQuality()](#getQuality--) | Gets the quality of the output image. |
+| [setQuality(byte value)](#setQuality-byte-) | Sets the quality of the output image. |
 | [isExtractText()](#isExtractText--) | Enables text extraction. |
-| [setExtractText(boolean value)](#setExtractText-boolean-) | Enables text extraction. |
-| [getWidth()](#getWidth--) | The width of the output image in pixels. |
-| [setWidth(int value)](#setWidth-int-) | The width of the output image in pixels. |
-| [getHeight()](#getHeight--) | The height of an output image in pixels. |
-| [setHeight(int value)](#setHeight-int-) | The height of an output image in pixels. |
-| [getPageStreamFactory()](#getPageStreamFactory--) | The factory which implements methods for creating and releasing output page stream. |
-| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Callback to estimate Words or Email document saving progress |
-| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Callback to estimate Words or Email document saving progress |
+| [setExtractText(boolean value)](#setExtractText-boolean-) | Enables or disables text extraction. |
+| [getWidth()](#getWidth--) | Gets the width of the output image in pixels. |
+| [setWidth(int value)](#setWidth-int-) | Sets the width of the output image in pixels. |
+| [getHeight()](#getHeight--) | Gets the height of the output image in pixels. |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of the output image in pixels. |
+| [getPageStreamFactory()](#getPageStreamFactory--) | Gets the factory that implements methods for creating and releasing the output page stream. |
+| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Gets the callback to estimate the saving progress of a Words or Email document. |
+| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Sets the callback to estimate the saving progress of a Words or Email document. |
 ### JpgViewOptions(CreatePageStream createPageStream) {#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-}
 ```
 public JpgViewOptions(CreatePageStream createPageStream)
 ```
 
 
-Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class.
+Initializes a new instance of the  JpgViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates stream used to write output page data. |
+| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates the stream used to write the output page data. |
 
 ### JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream) {#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-}
 ```
@@ -64,13 +85,13 @@ public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 ```
 
 
-Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class.
+Initializes a new instance of the  JpgViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates stream used to write output page data. |
-| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases stream created by method assigned to delegate that passed to createPageStream parameter. |
+| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates the stream used to write the output page data. |
+| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases the stream created by the method assigned to the delegate passed to the  createPageStream  parameter. |
 
 ### JpgViewOptions(PageStreamFactory pageStreamFactory) {#JpgViewOptions-com.groupdocs.viewer.interfaces.PageStreamFactory-}
 ```
@@ -78,12 +99,12 @@ public JpgViewOptions(PageStreamFactory pageStreamFactory)
 ```
 
 
-Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class.
+Initializes a new instance of the  JpgViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | The factory which implements methods for creating and releasing output page stream. |
+| pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | The factory that implements methods for creating and releasing the output page stream. |
 
 ### JpgViewOptions() {#JpgViewOptions--}
 ```
@@ -91,11 +112,7 @@ public JpgViewOptions()
 ```
 
 
-Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class.
-
---------------------
-
-This constructor initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) with "p\_\{0\}.jpg" as file path format for the output files. The output files will be placed into current working directory of the application.
+Initializes a new instance of  JpgViewOptions  with "p\_\{0\}.jpg" as the file path format for the output files. The output files will be placed into the current working directory of the application.
 
 ### JpgViewOptions(String filePathFormat) {#JpgViewOptions-java.lang.String-}
 ```
@@ -103,12 +120,12 @@ public JpgViewOptions(String filePathFormat)
 ```
 
 
-Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class.
+Initializes a new instance of the  JpgViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePathFormat | java.lang.String | The file path format e.g. 'page\_\{0\}.jpg'. |
+| filePathFormat | java.lang.String | The file path format, e.g., 'page\_\{0\}.jpg'. |
 
 ### JpgViewOptions(Path filePathFormat) {#JpgViewOptions-java.nio.file.Path-}
 ```
@@ -116,12 +133,12 @@ public JpgViewOptions(Path filePathFormat)
 ```
 
 
-Initializes new instance of [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) class.
+Initializes a new instance of the  JpgViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePathFormat | java.nio.file.Path | The file path format e.g. 'page\_\{0\}.jpg'. |
+| filePathFormat | java.nio.file.Path | The file path format, e.g., 'page\_\{0\}.jpg'. |
 
 ### getMaxWidth() {#getMaxWidth--}
 ```
@@ -129,22 +146,22 @@ public int getMaxWidth()
 ```
 
 
-Max width of an output image in pixels.
+Gets the maximum width of an output image in pixels.
 
 **Returns:**
-int
+int - the maximum width of an output image.
 ### setMaxWidth(int maxWidth) {#setMaxWidth-int-}
 ```
 public void setMaxWidth(int maxWidth)
 ```
 
 
-Max width of an output image in pixels.
+Sets the maximum width of an output image in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxWidth | int |  |
+| maxWidth | int | The maximum width of an output image. |
 
 ### getMaxHeight() {#getMaxHeight--}
 ```
@@ -152,22 +169,22 @@ public int getMaxHeight()
 ```
 
 
-Max height of an output image in pixels.
+Gets the maximum height of an output image in pixels.
 
 **Returns:**
-int
+int - the maximum height of an output image.
 ### setMaxHeight(int maxHeight) {#setMaxHeight-int-}
 ```
 public void setMaxHeight(int maxHeight)
 ```
 
 
-Max height of an output image in pixels.
+Sets the maximum height of an output image in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxHeight | int |  |
+| maxHeight | int | The maximum height of an output image. |
 
 ### getQuality() {#getQuality--}
 ```
@@ -175,22 +192,26 @@ public final byte getQuality()
 ```
 
 
-Quality of the output image; Valid values are between 1 and 100; Default value is 90.
+Gets the quality of the output image.
+
+***Note:** Valid values are between 1 and 100. The default value is 90.*
 
 **Returns:**
-byte
+byte - the quality of the output image.
 ### setQuality(byte value) {#setQuality-byte-}
 ```
 public final void setQuality(byte value)
 ```
 
 
-Quality of the output image; Valid values are between 1 and 100; Default value is 90.
+Sets the quality of the output image.
+
+***Note:** Valid values are between 1 and 100. The default value is 90.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte |  |
+| value | byte | The quality of the output image. |
 
 ### isExtractText() {#isExtractText--}
 ```
@@ -200,28 +221,24 @@ public final boolean isExtractText()
 
 Enables text extraction.
 
---------------------
-
-This option might be useful when you want to add selectable text layer over the image.
+***Note:** This option might be useful when you want to add a selectable text layer over the image.*
 
 **Returns:**
-boolean
+boolean -  true  if text extraction is enabled,  false  otherwise.
 ### setExtractText(boolean value) {#setExtractText-boolean-}
 ```
 public final void setExtractText(boolean value)
 ```
 
 
-Enables text extraction.
+Enables or disables text extraction.
 
---------------------
-
-This option might be useful when you want to add selectable text layer over the image.
+***Note:** This option might be useful when you want to add a selectable text layer over the image.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to enable text extraction,  false  to disable it. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -229,22 +246,22 @@ public final int getWidth()
 ```
 
 
-The width of the output image in pixels.
+Gets the width of the output image in pixels.
 
 **Returns:**
-int
+int - the width of the output image.
 ### setWidth(int value) {#setWidth-int-}
 ```
 public final void setWidth(int value)
 ```
 
 
-The width of the output image in pixels.
+Sets the width of the output image in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The width of the output image. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -252,22 +269,22 @@ public final int getHeight()
 ```
 
 
-The height of an output image in pixels.
+Gets the height of the output image in pixels.
 
 **Returns:**
-int
+int - the height of the output image.
 ### setHeight(int value) {#setHeight-int-}
 ```
 public final void setHeight(int value)
 ```
 
 
-The height of an output image in pixels.
+Sets the height of the output image in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The height of the output image. |
 
 ### getPageStreamFactory() {#getPageStreamFactory--}
 ```
@@ -275,30 +292,30 @@ public final PageStreamFactory getPageStreamFactory()
 ```
 
 
-The factory which implements methods for creating and releasing output page stream.
+Gets the factory that implements methods for creating and releasing the output page stream.
 
 **Returns:**
-[PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory)
+[PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) - the factory for the output page stream.
 ### getDocumentSavingCallback() {#getDocumentSavingCallback--}
 ```
 public IDocumentSavingCallback getDocumentSavingCallback()
 ```
 
 
-Callback to estimate Words or Email document saving progress
+Gets the callback to estimate the saving progress of a Words or Email document.
 
 **Returns:**
-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - Callback to estimate document saving progress
+com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - the callback to estimate the document saving progress.
 ### setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback) {#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-}
 ```
 public void setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)
 ```
 
 
-Callback to estimate Words or Email document saving progress
+Sets the callback to estimate the saving progress of a Words or Email document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | Callback to estimate document saving progress |
+| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | The callback to estimate the document saving progress. |
 

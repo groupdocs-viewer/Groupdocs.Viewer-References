@@ -13,14 +13,31 @@ public enum TimeUnit extends Enum<TimeUnit>
 ```
 
 Time unit of the project duration.
+
+The TimeUnit enum represents different time units for specifying the duration of a project in the GroupDocs.Viewer component. It provides a set of predefined time units that can be used to represent and calculate the duration of a project, such as days, months and so on.
+
+Example usage:
+
+```
+
+ HtmlViewOptions pdfViewOptions = HtmlViewOptions.forEmbeddedResources();
+ ProjectManagementOptions projectManagementOptions = pdfViewOptions.getProjectManagementOptions();
+ projectManagementOptions.setTimeUnit(TimeUnit.MONTHS);
+
+ try (Viewer viewer = new Viewer("document.mpp")) {
+     viewer.view(pdfViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [UNSPECIFIED](#UNSPECIFIED) | The unknown, unspecified time scale. |
-| [DAYS](#DAYS) | The one day interval. |
-| [THIRDS_OF_MONTHS](#THIRDS-OF-MONTHS) | The one third of the month. |
-| [MONTHS](#MONTHS) | The one month interval. |
+| [UNSPECIFIED](#UNSPECIFIED) | The unknown time scale. |
+| [DAYS](#DAYS) | Days time scale. |
+| [THIRDS_OF_MONTHS](#THIRDS-OF-MONTHS) | Thirds of months time scale. |
+| [MONTHS](#MONTHS) | Months time scale. |
 ## Methods
 
 | Method | Description |
@@ -33,7 +50,7 @@ public static final TimeUnit UNSPECIFIED
 ```
 
 
-The unknown, unspecified time scale.
+The unknown time scale. This time unit represents an unknown or unspecified time scale.
 
 ### DAYS {#DAYS}
 ```
@@ -41,7 +58,7 @@ public static final TimeUnit DAYS
 ```
 
 
-The one day interval.
+Days time scale. This time unit represents a one-day interval.
 
 ### THIRDS_OF_MONTHS {#THIRDS-OF-MONTHS}
 ```
@@ -49,7 +66,7 @@ public static final TimeUnit THIRDS_OF_MONTHS
 ```
 
 
-The one third of the month.
+Thirds of months time scale. This time unit represents a one-third of the month interval.
 
 ### MONTHS {#MONTHS}
 ```
@@ -57,7 +74,7 @@ public static final TimeUnit MONTHS
 ```
 
 
-The one month interval.
+Months time scale. This time unit represents a one-month interval.
 
 ### values() {#values--}
 ```

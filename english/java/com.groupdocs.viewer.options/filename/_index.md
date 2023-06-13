@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: GroupDocs.Viewer for Java API Reference
-description: Represents name of simple file
+description: Represents the name of a file in an archive.
 type: docs
 weight: 15
 url: /java/com.groupdocs.viewer.options/filename/
@@ -12,31 +12,50 @@ java.lang.Object
 public class FileName
 ```
 
-Represents name of simple file
+Represents the name of a file in an archive.
+
+The FileName class encapsulates the name of a file without any path or directory information. It provides methods to manipulate and retrieve information about the file name.
+
+Example usage:
+
+```
+
+ HtmlViewOptions options = HtmlViewOptions.forEmbeddedResources();
+ options.getArchiveOptions().setFileName(new FileName("my-file-name"));
+
+ final LoadOptions loadOptions = new LoadOptions(FileType.ZIP);
+ try (final Viewer viewer = new Viewer(documentPath, loadOptions)) {
+     viewer.view(options);
+     // Use the viewer object for archive document rendering
+ }
+ 
+```
+
+Note: The FileName class is used to work with file names and does not handle file operations or manipulation.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FileName(String fileName)](#FileName-java.lang.String-) | Initializes new instance of [FileName](../../com.groupdocs.viewer.options/filename) class. |
+| [FileName(String fileName)](#FileName-java.lang.String-) | Initializes a new instance of the  FileName  class. |
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [EMPTY](#EMPTY) | The empty filename. |
-| [SOURCE](#SOURCE) | The name of the source file. |
+| [EMPTY](#EMPTY) | Represents an empty filename. |
+| [SOURCE](#SOURCE) | Represents the name of the source file. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getText()](#getText--) |  |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [toString()](#toString--) | Returns a string representation of the current object. |
 ### FileName(String fileName) {#FileName-java.lang.String-}
 ```
 public FileName(String fileName)
 ```
 
 
-Initializes new instance of [FileName](../../com.groupdocs.viewer.options/filename) class.
+Initializes a new instance of the  FileName  class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -49,7 +68,7 @@ public static final FileName EMPTY
 ```
 
 
-The empty filename.
+Represents an empty filename.
 
 ### SOURCE {#SOURCE}
 ```
@@ -57,7 +76,7 @@ public static final FileName SOURCE
 ```
 
 
-The name of the source file.
+Represents the name of the source file.
 
 ### getText() {#getText--}
 ```
@@ -75,7 +94,7 @@ public String toString()
 ```
 
 
-Returns a string that represents the current object.
+Returns a string representation of the current object.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - A string representation of the current object.

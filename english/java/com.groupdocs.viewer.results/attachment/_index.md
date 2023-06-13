@@ -1,7 +1,7 @@
 ---
 title: Attachment
 second_title: GroupDocs.Viewer for Java API Reference
-description: Represents attachment file contained by email message archive PDF document or Outlook data file.
+description: Represents an attachment file contained by an email message archive PDF document or Outlook data file.
 type: docs
 weight: 12
 url: /java/com.groupdocs.viewer.results/attachment/
@@ -9,63 +9,79 @@ url: /java/com.groupdocs.viewer.results/attachment/
 public interface Attachment
 ```
 
-Represents attachment file contained by email message, archive, PDF document or Outlook data file. Default implementation is [Attachment](../../com.groupdocs.viewer.results/attachment)
+Represents an attachment file contained by an email message, archive, PDF document, or Outlook data file.
+
+The Attachment interface defines the contract for accessing and manipulating attachment files in the GroupDocs.Viewer component. It provides methods to retrieve information such as file name, size, and content type of the attachment.
+
+Example usage:
+
+```
+
+ try (Viewer viewer = new Viewer("document.eml")) {
+     List attachments = viewer.getAttachments();
+
+     // Use the attachments object for further operations
+ }
+ 
+```
+
+Note: The default implementation of this interface is AttachmentImpl.
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--) | Unique identifier of the attachment in context of a single file that contains this attachment. |
-| [getFileName()](#getFileName--) | Attachment file name. |
-| [getFilePath()](#getFilePath--) | Attachment relative path e.g. "folder/file.docx"" or filename when the file is located in the root of an archive, in e-mail message or data file. |
-| [getSize()](#getSize--) | Attachment file size in bytes. |
-| [getFileType()](#getFileType--) | Attachment file type. |
+| [getId()](#getId--) | Retrieves the unique identifier of the attachment within the context of a single file that contains this attachment. |
+| [getFileName()](#getFileName--) | Retrieves the file name of the attachment. |
+| [getFilePath()](#getFilePath--) | Retrieves the relative path of the attachment. |
+| [getSize()](#getSize--) | Retrieves the file size of the attachment in bytes. |
+| [getFileType()](#getFileType--) | Retrieves the file type of the attachment. |
 ### getId() {#getId--}
 ```
 public abstract String getId()
 ```
 
 
-Unique identifier of the attachment in context of a single file that contains this attachment.
+Retrieves the unique identifier of the attachment within the context of a single file that contains this attachment.
 
 **Returns:**
-java.lang.String
+java.lang.String - the unique identifier of the attachment.
 ### getFileName() {#getFileName--}
 ```
 public abstract String getFileName()
 ```
 
 
-Attachment file name.
+Retrieves the file name of the attachment.
 
 **Returns:**
-java.lang.String
+java.lang.String - the file name of the attachment.
 ### getFilePath() {#getFilePath--}
 ```
 public abstract String getFilePath()
 ```
 
 
-Attachment relative path e.g. "folder/file.docx"" or filename when the file is located in the root of an archive, in e-mail message or data file.
+Retrieves the relative path of the attachment. The path can be in the format "folder/file.docx" when the file is located within a folder, or it can be the filename when the file is located in the root of an archive, an e-mail message, or a data file.
 
 **Returns:**
-java.lang.String
+java.lang.String - the relative path of the attachment.
 ### getSize() {#getSize--}
 ```
 public abstract long getSize()
 ```
 
 
-Attachment file size in bytes.
+Retrieves the file size of the attachment in bytes.
 
 **Returns:**
-long
+long - the file size of the attachment.
 ### getFileType() {#getFileType--}
 ```
 public abstract FileType getFileType()
 ```
 
 
-Attachment file type.
+Retrieves the file type of the attachment.
 
 **Returns:**
-[FileType](../../com.groupdocs.viewer/filetype)
+[FileType](../../com.groupdocs.viewer/filetype) - the file type of the attachment.

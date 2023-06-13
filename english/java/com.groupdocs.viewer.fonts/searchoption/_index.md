@@ -13,6 +13,18 @@ public enum SearchOption extends Enum<SearchOption>
 ```
 
 Specifies whether to search the current folder, or the current folder and all subfolders.
+
+The SearchOption enum is used to specify the scope of font search operation in the GroupDocs.Viewer API.
+
+Example usage:
+
+```
+
+ FontSettings.setFontSources(new FolderFontSource("/path/to/fonts/folder", SearchOption.ALL_FOLDERS));
+ 
+```
+
+Note: This enum is typically used to specify strategy of searching fonts in provided directory.
 ## Fields
 
 | Field | Description |

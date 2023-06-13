@@ -13,36 +13,57 @@ public class Watermark
 ```
 
 Represents text watermark.
+
+The Watermark class represents a text watermark in the GroupDocs.Viewer component. It is used to define and apply a watermark to the rendered output of documents.
+
+Example usage:
+
+```
+
+ Watermark watermark = new Watermark("Watermark");
+ watermark.setPosition(Position.DIAGONAL);
+ watermark.setColor(java.awt.Color.GREEN);
+ watermark.setSize(Size.HALF_SIZE);
+
+ PdfViewOptions pdfViewOptions = new PdfViewOptions();
+ pdfViewOptions.setWatermark(watermark);
+
+ try (Viewer viewer = new Viewer("document.docx")) {
+     viewer.view(pdfViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Watermark(String text)](#Watermark-java.lang.String-) | Initializes new instance of [Watermark](../../com.groupdocs.viewer.options/watermark) class. |
+| [Watermark(String text)](#Watermark-java.lang.String-) | Initializes a new instance of the  Watermark  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) | The watermark text. |
-| [getColor()](#getColor--) | The watermark color. |
-| [setColor(Color value)](#setColor-java.awt.Color-) | The watermark color. |
-| [getPosition()](#getPosition--) | The watermark position. |
-| [setPosition(Position value)](#setPosition-com.groupdocs.viewer.options.Position-) | The watermark position. |
-| [getSize()](#getSize--) | The watermark size. |
-| [setSize(Size value)](#setSize-com.groupdocs.viewer.options.Size-) | The watermark size. |
-| [getFontName()](#getFontName--) | The font name used for the watermark. |
-| [setFontName(String value)](#setFontName-java.lang.String-) | The font name used for the watermark. |
+| [getText()](#getText--) | Returns the watermark text. |
+| [getColor()](#getColor--) | Returns the watermark color. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the watermark color. |
+| [getPosition()](#getPosition--) | Returns the watermark position. |
+| [setPosition(Position value)](#setPosition-com.groupdocs.viewer.options.Position-) | Sets the watermark position. |
+| [getSize()](#getSize--) | Returns the watermark size. |
+| [setSize(Size value)](#setSize-com.groupdocs.viewer.options.Size-) | Sets the watermark size. |
+| [getFontName()](#getFontName--) | Returns the font name used for the watermark. |
+| [setFontName(String value)](#setFontName-java.lang.String-) | Sets the font name used for the watermark. |
 ### Watermark(String text) {#Watermark-java.lang.String-}
 ```
 public Watermark(String text)
 ```
 
 
-Initializes new instance of [Watermark](../../com.groupdocs.viewer.options/watermark) class.
+Initializes a new instance of the  Watermark  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | Watermark text. |
+| text | java.lang.String | The watermark text. |
 
 ### getText() {#getText--}
 ```
@@ -50,32 +71,36 @@ public final String getText()
 ```
 
 
-The watermark text.
+Returns the watermark text. This method retrieves the text of the watermark applied to the document.
 
 **Returns:**
-java.lang.String - The watermark text.
+java.lang.String - the watermark text.
 ### getColor() {#getColor--}
 ```
 public final Color getColor()
 ```
 
 
-The watermark color. Default value is Color\#getRed().getRed().
+Returns the watermark color. This method retrieves the color of the watermark applied to the document.
+
+***Note:** The default value is the red color obtained from Color\#getRed().getRed().*
 
 **Returns:**
-java.awt.Color
+java.awt.Color - the watermark color.
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
 public final void setColor(Color value)
 ```
 
 
-The watermark color. Default value is Color\#getRed().getRed().
+Sets the watermark color. This method sets the color of the watermark applied to the document.
+
+***Note:** The default value is obtained from Color\#getRed().getRed().*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color |  |
+| value | java.awt.Color | The watermark color to set. |
 
 ### getPosition() {#getPosition--}
 ```
@@ -83,17 +108,21 @@ public final Position getPosition()
 ```
 
 
-The watermark position. Default value is [Position.DIAGONAL](../../com.groupdocs.viewer.options/position\#DIAGONAL).
+Returns the watermark position. This method returns the position of the watermark applied to the document.
+
+***Note:** The default value is [Position.DIAGONAL](../../com.groupdocs.viewer.options/position\#DIAGONAL).*
 
 **Returns:**
-[Position](../../com.groupdocs.viewer.options/position) - The watermark position.
+[Position](../../com.groupdocs.viewer.options/position) - the watermark position.
 ### setPosition(Position value) {#setPosition-com.groupdocs.viewer.options.Position-}
 ```
 public final void setPosition(Position value)
 ```
 
 
-The watermark position. Default value is [Position.DIAGONAL](../../com.groupdocs.viewer.options/position\#DIAGONAL).
+Sets the watermark position. This method sets the position of the watermark applied to the document.
+
+***Note:** The default value is [Position.DIAGONAL](../../com.groupdocs.viewer.options/position\#DIAGONAL).*
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -106,22 +135,26 @@ public final Size getSize()
 ```
 
 
-The watermark size. Default value is [Size.FULL\_SIZE](../../com.groupdocs.viewer.options/size\#FULL-SIZE).
+Returns the watermark size. This method retrieves the size of the watermark applied to the document.
+
+***Note:** The default value is [Size.FULL\_SIZE](../../com.groupdocs.viewer.options/size\#FULL-SIZE).*
 
 **Returns:**
-[Size](../../com.groupdocs.viewer.options/size)
+[Size](../../com.groupdocs.viewer.options/size) - the watermark size.
 ### setSize(Size value) {#setSize-com.groupdocs.viewer.options.Size-}
 ```
 public final void setSize(Size value)
 ```
 
 
-The watermark size. Default value is [Size.FULL\_SIZE](../../com.groupdocs.viewer.options/size\#FULL-SIZE).
+Sets the watermark size. This method sets the size of the watermark to be applied to the document.
+
+***Note:** The default value is [Size.FULL\_SIZE](../../com.groupdocs.viewer.options/size\#FULL-SIZE).*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Size](../../com.groupdocs.viewer.options/size) |  |
+| value | [Size](../../com.groupdocs.viewer.options/size) | The watermark size. |
 
 ### getFontName() {#getFontName--}
 ```
@@ -129,20 +162,20 @@ public final String getFontName()
 ```
 
 
-The font name used for the watermark.
+Returns the font name used for the watermark.
 
 **Returns:**
-java.lang.String
+java.lang.String - the font name used for the watermark.
 ### setFontName(String value) {#setFontName-java.lang.String-}
 ```
 public final void setFontName(String value)
 ```
 
 
-The font name used for the watermark.
+Sets the font name used for the watermark.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The font name used for the watermark. |
 

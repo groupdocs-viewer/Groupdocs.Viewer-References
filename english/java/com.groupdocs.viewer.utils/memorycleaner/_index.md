@@ -1,7 +1,7 @@
 ---
 title: MemoryCleaner
 second_title: GroupDocs.Viewer for Java API Reference
-description: Cleanes different resources to free memory
+description: Cleans different resources to free memory.
 type: docs
 weight: 10
 url: /java/com.groupdocs.viewer.utils/memorycleaner/
@@ -12,7 +12,33 @@ java.lang.Object
 public final class MemoryCleaner
 ```
 
-Cleanes different resources to free memory
+Cleans different resources to free memory.
+
+This class provides methods to clear heap memory, delete temp files, and clear font registry information. It also includes a method to safely clear thread-local instances for the current thread.
+
+Example usage:
+
+```
+
+ // Clean heap memory, keeping font settings
+ MemoryCleaner.clearKeepingFontSettings();
+
+ // Clean heap memory and delete temp files
+ MemoryCleaner.clear();
+
+ // Clean heap memory from static PDF instances
+ MemoryCleaner.clearStaticInstances();
+
+ // Delete all temp files created by PDF in the system temp directory
+ MemoryCleaner.clearAllTempFiles();
+
+ // Clear font registry information from heap memory
+ MemoryCleaner.clearFontRegistry();
+
+ // Safely clear thread-local instances for the current thread
+ MemoryCleaner.clearCurrentThreadLocals();
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -22,12 +48,12 @@ Cleanes different resources to free memory
 
 | Method | Description |
 | --- | --- |
-| [clearKeepingFontSettings()](#clearKeepingFontSettings--) | Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
-| [clear()](#clear--) | Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
-| [clearStaticInstances()](#clearStaticInstances--) | Clears Heap memory from static PDF instances. |
-| [clearAllTempFiles()](#clearAllTempFiles--) | Clears temp files, created by PDF in system temp directory. |
-| [clearFontRegistry()](#clearFontRegistry--) | Clears FontRegistry information from the Heap memory. |
-| [clearCurrentThreadLocals()](#clearCurrentThreadLocals--) | Safely clears Heap memory from ThreadLocal instances for current thread |
+| [clearKeepingFontSettings()](#clearKeepingFontSettings--) | Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
+| [clear()](#clear--) | Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
+| [clearStaticInstances()](#clearStaticInstances--) | Clears heap memory from static PDF instances. |
+| [clearAllTempFiles()](#clearAllTempFiles--) | Clears temp files created by GroupDocs.Viewer in the system temp directory. |
+| [clearFontRegistry()](#clearFontRegistry--) | Clears font registry information from heap memory. |
+| [clearCurrentThreadLocals()](#clearCurrentThreadLocals--) | Safely clears heap memory from thread-local instances for the current thread. |
 ### MemoryCleaner() {#MemoryCleaner--}
 ```
 public MemoryCleaner()
@@ -40,7 +66,7 @@ public static void clearKeepingFontSettings()
 ```
 
 
-Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
+Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files. This method does not affect font settings.
 
 ### clear() {#clear--}
 ```
@@ -48,7 +74,7 @@ public static void clear()
 ```
 
 
-Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
+Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
 
 ### clearStaticInstances() {#clearStaticInstances--}
 ```
@@ -56,7 +82,7 @@ public static void clearStaticInstances()
 ```
 
 
-Clears Heap memory from static PDF instances.
+Clears heap memory from static PDF instances.
 
 ### clearAllTempFiles() {#clearAllTempFiles--}
 ```
@@ -64,7 +90,7 @@ public static void clearAllTempFiles()
 ```
 
 
-Clears temp files, created by PDF in system temp directory.
+Clears temp files created by GroupDocs.Viewer in the system temp directory.
 
 ### clearFontRegistry() {#clearFontRegistry--}
 ```
@@ -72,7 +98,7 @@ public static void clearFontRegistry()
 ```
 
 
-Clears FontRegistry information from the Heap memory.
+Clears font registry information from heap memory.
 
 ### clearCurrentThreadLocals() {#clearCurrentThreadLocals--}
 ```
@@ -80,5 +106,5 @@ public static void clearCurrentThreadLocals()
 ```
 
 
-Safely clears Heap memory from ThreadLocal instances for current thread
+Safely clears heap memory from thread-local instances for the current thread.
 

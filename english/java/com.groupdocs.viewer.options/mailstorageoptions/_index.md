@@ -13,6 +13,26 @@ public class MailStorageOptions
 ```
 
 Provides options for rendering Mail storage (Lotus Notes, MBox) data files.
+
+The MailStorageOptions class encapsulates various settings and parameters that can be used to control the rendering of Mail storage data files (such as Lotus Notes or MBox) in the GroupDocs.Viewer component.
+
+Example usage:
+
+```
+
+ MailStorageOptions options = new MailStorageOptions();
+ options.setAddressFilter("@gmail.com");
+ options.setMaxItems(10);
+
+ final HtmlViewOptions htmlViewOptions = HtmlViewOptions.forEmbeddedResources();
+ htmlViewOptions.setMailStorageOptions(options);
+
+ try (Viewer viewer = new Viewer("mail.msg")) {
+     viewer.view(htmlViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -22,12 +42,12 @@ Provides options for rendering Mail storage (Lotus Notes, MBox) data files.
 
 | Method | Description |
 | --- | --- |
-| [getTextFilter()](#getTextFilter--) | The keywords used to filter messages. |
+| [getTextFilter()](#getTextFilter--) | Gets the keywords used to filter messages. |
 | [setTextFilter(String textFilter)](#setTextFilter-java.lang.String-) | Sets the keywords used to filter messages. |
-| [getAddressFilter()](#getAddressFilter--) | The email-address used to filter messages by sender or recipient. |
-| [setAddressFilter(String addressFilter)](#setAddressFilter-java.lang.String-) | Sets email-address used to filter messages by sender or recipient. |
-| [getMaxItems()](#getMaxItems--) | The maximum number of messages or items for render. |
-| [setMaxItems(int maxItems)](#setMaxItems-int-) | Sets maximum number of messages or items for render. |
+| [getAddressFilter()](#getAddressFilter--) | Gets the email address used to filter messages by sender or recipient. |
+| [setAddressFilter(String addressFilter)](#setAddressFilter-java.lang.String-) | Sets the email address used to filter messages by sender or recipient. |
+| [getMaxItems()](#getMaxItems--) | Gets the maximum number of messages or items to render. |
+| [setMaxItems(int maxItems)](#setMaxItems-int-) | Sets the maximum number of messages or items to render. |
 ### MailStorageOptions() {#MailStorageOptions--}
 ```
 public MailStorageOptions()
@@ -40,10 +60,10 @@ public String getTextFilter()
 ```
 
 
-The keywords used to filter messages.
+Gets the keywords used to filter messages.
 
 **Returns:**
-java.lang.String
+java.lang.String - the keywords used for filtering messages.
 ### setTextFilter(String textFilter) {#setTextFilter-java.lang.String-}
 ```
 public void setTextFilter(String textFilter)
@@ -55,7 +75,7 @@ Sets the keywords used to filter messages.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| textFilter | java.lang.String | the keywords used to filter messages. |
+| textFilter | java.lang.String | The keywords used for filtering messages. |
 
 ### getAddressFilter() {#getAddressFilter--}
 ```
@@ -63,22 +83,22 @@ public String getAddressFilter()
 ```
 
 
-The email-address used to filter messages by sender or recipient.
+Gets the email address used to filter messages by sender or recipient.
 
 **Returns:**
-java.lang.String - The email-address
+java.lang.String - the email address used for filtering messages.
 ### setAddressFilter(String addressFilter) {#setAddressFilter-java.lang.String-}
 ```
 public void setAddressFilter(String addressFilter)
 ```
 
 
-Sets email-address used to filter messages by sender or recipient.
+Sets the email address used to filter messages by sender or recipient.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| addressFilter | java.lang.String | the email-address used to filter messages |
+| addressFilter | java.lang.String | The email address used for filtering messages. |
 
 ### getMaxItems() {#getMaxItems--}
 ```
@@ -86,24 +106,28 @@ public int getMaxItems()
 ```
 
 
-The maximum number of messages or items for render.
+Gets the maximum number of messages or items to render.
 
-Lotus notes data files can be large and retrieving all messages can take significant time. This setting limits maximum number of messages or items that are rendered. Default value is 0 - all messages will be rendered
+Lotus Notes data files can be large, and retrieving all messages can take significant time. This setting limits the maximum number of messages or items that are rendered.
+
+***Note:** The default value is 0, which means all messages will be rendered.*
 
 **Returns:**
-int
+int - the maximum number of messages or items to render.
 ### setMaxItems(int maxItems) {#setMaxItems-int-}
 ```
 public void setMaxItems(int maxItems)
 ```
 
 
-Sets maximum number of messages or items for render.
+Sets the maximum number of messages or items to render.
 
-Lotus notes data files can be large and retrieving all messages can take significant time. This setting limits maximum number of messages or items that are rendered. Default value is 0 - all messages will be rendered
+Lotus Notes data files can be large, and retrieving all messages can take significant time. This setting limits the maximum number of messages or items that are rendered.
+
+***Note:** The default value is 0, which means all messages will be rendered.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxItems | int | Maximum number of messages |
+| maxItems | int | The maximum number of messages or items to render. |
 

@@ -1,7 +1,7 @@
 ---
 title: BaseViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
-description: Provides base rendering options.
+description: Class that provides base rendering options.
 type: docs
 weight: 12
 url: /java/com.groupdocs.viewer.options/baseviewoptions/
@@ -12,7 +12,11 @@ java.lang.Object
 public abstract class BaseViewOptions
 ```
 
-Provides base rendering options.
+Class that provides base rendering options.
+
+The  BaseViewOptions  class serves as the base for rendering options in GroupDocs.Viewer. It allows you to customize the rendering behavior of the output HTML, PDF, PNG, and JPEG files when rendering specific document formats.
+
+Note: For internal usage.
 ## Constructors
 
 | Constructor | Description |
@@ -22,40 +26,40 @@ Provides base rendering options.
 
 | Method | Description |
 | --- | --- |
-| [getTextOptions()](#getTextOptions--) | Text files splitting to pages options. |
-| [setTextOptions(TextOptions textOptions)](#setTextOptions-com.groupdocs.viewer.options.TextOptions-) | Text files splitting to pages options. |
+| [getTextOptions()](#getTextOptions--) | Retrieves the options for splitting text files into pages. |
+| [setTextOptions(TextOptions textOptions)](#setTextOptions-com.groupdocs.viewer.options.TextOptions-) | Sets the options for splitting text files into pages. |
 | [isRenderComments()](#isRenderComments--) | Enables rendering comments. |
 | [setRenderComments(boolean value)](#setRenderComments-boolean-) | Enables rendering comments. |
 | [isRenderNotes()](#isRenderNotes--) | Enables rendering notes. |
 | [setRenderNotes(boolean value)](#setRenderNotes-boolean-) | Enables rendering notes. |
 | [isRenderHiddenPages()](#isRenderHiddenPages--) | Enables rendering of hidden pages. |
 | [setRenderHiddenPages(boolean value)](#setRenderHiddenPages-boolean-) | Enables rendering of hidden pages. |
-| [getDefaultFontName()](#getDefaultFontName--) | Default font to be used when particular font used in document can't be found. |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Default font to be used when particular font used in document can't be found. |
-| [getArchiveOptions()](#getArchiveOptions--) | The archive files view options. |
-| [setArchiveOptions(ArchiveOptions value)](#setArchiveOptions-com.groupdocs.viewer.options.ArchiveOptions-) | The archive files view options. |
-| [getCadOptions()](#getCadOptions--) | The CAD drawing view options. |
+| [getDefaultFontName()](#getDefaultFontName--) | Default font to be used when a particular font used in the document can't be found. |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Default font to be used when a particular font used in the document can't be found. |
+| [getArchiveOptions()](#getArchiveOptions--) | Retrieves the archive files view options. |
+| [setArchiveOptions(ArchiveOptions value)](#setArchiveOptions-com.groupdocs.viewer.options.ArchiveOptions-) | Sets the archive files view options. |
+| [getCadOptions()](#getCadOptions--) | Retrieves the CAD drawing view options. |
 | [isCadOptionsInitialized_Internal()](#isCadOptionsInitialized-Internal--) |  |
-| [setCadOptions(CadOptions value)](#setCadOptions-com.groupdocs.viewer.options.CadOptions-) | The CAD drawing view options. |
-| [getEmailOptions()](#getEmailOptions--) | The email messages view options. |
+| [setCadOptions(CadOptions value)](#setCadOptions-com.groupdocs.viewer.options.CadOptions-) | Sets the CAD drawing view options. |
+| [getEmailOptions()](#getEmailOptions--) | Retrieves the email messages view options. |
 | [isEmailOptionsInitialized_Internal()](#isEmailOptionsInitialized-Internal--) |  |
-| [setEmailOptions(EmailOptions value)](#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-) | The email messages view options. |
-| [getOutlookOptions()](#getOutlookOptions--) | The MS Outlook data files view options. |
-| [setOutlookOptions(OutlookOptions value)](#setOutlookOptions-com.groupdocs.viewer.options.OutlookOptions-) | The MS Outlook data files view options. |
-| [getPdfOptions()](#getPdfOptions--) | The PDF documents view options. |
-| [setPdfOptions(PdfOptions value)](#setPdfOptions-com.groupdocs.viewer.options.PdfOptions-) | The PDF documents view options. |
-| [getMailStorageOptions()](#getMailStorageOptions--) | Lotus Notes storage data files view options. |
-| [setMailStorageOptions(MailStorageOptions mailStorageOptions)](#setMailStorageOptions-com.groupdocs.viewer.options.MailStorageOptions-) | Lotus Notes storage data files view options. |
-| [getProjectManagementOptions()](#getProjectManagementOptions--) | The project management files view options. |
-| [setProjectManagementOptions(ProjectManagementOptions projectManagementOptions)](#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-) | The project management files view options. |
-| [getSpreadsheetOptions()](#getSpreadsheetOptions--) | The spreadsheet files view options. |
-| [setSpreadsheetOptions(SpreadsheetOptions value)](#setSpreadsheetOptions-com.groupdocs.viewer.options.SpreadsheetOptions-) | The spreadsheet files view options. |
-| [getWordProcessingOptions()](#getWordProcessingOptions--) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
-| [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
-| [getVisioRenderingOptions()](#getVisioRenderingOptions--) | The Visio files processing documents view options. |
-| [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) | Sets the Visio files processing documents view options. |
-| [getPresentationOptions()](#getPresentationOptions--) | The presentation processing documents view options. |
-| [setPresentationOptions(PresentationOptions presentationOptions)](#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-) | The presentation processing documents view options. |
+| [setEmailOptions(EmailOptions value)](#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-) | Sets the email messages view options. |
+| [getOutlookOptions()](#getOutlookOptions--) | Retrieves the MS Outlook data files view options. |
+| [setOutlookOptions(OutlookOptions value)](#setOutlookOptions-com.groupdocs.viewer.options.OutlookOptions-) | Sets the MS Outlook data files view options. |
+| [getPdfOptions()](#getPdfOptions--) | Retrieves the PDF documents view options. |
+| [setPdfOptions(PdfOptions value)](#setPdfOptions-com.groupdocs.viewer.options.PdfOptions-) | Retrieves the PDF documents view options. |
+| [getMailStorageOptions()](#getMailStorageOptions--) | Retrieves the Lotus Notes storage data files view options. |
+| [setMailStorageOptions(MailStorageOptions mailStorageOptions)](#setMailStorageOptions-com.groupdocs.viewer.options.MailStorageOptions-) | Sets the Lotus Notes storage data files view options. |
+| [getProjectManagementOptions()](#getProjectManagementOptions--) | Retrieves the project management files view options. |
+| [setProjectManagementOptions(ProjectManagementOptions projectManagementOptions)](#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-) | Sets the project management files view options. |
+| [getSpreadsheetOptions()](#getSpreadsheetOptions--) | Retrieves the spreadsheet files view options. |
+| [setSpreadsheetOptions(SpreadsheetOptions value)](#setSpreadsheetOptions-com.groupdocs.viewer.options.SpreadsheetOptions-) | Sets the spreadsheet files view options. |
+| [getWordProcessingOptions()](#getWordProcessingOptions--) | Retrieves the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
+| [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | Sets the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
+| [getVisioRenderingOptions()](#getVisioRenderingOptions--) | Retrieves the rendering options for processing Visio files when viewing documents. |
+| [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) | Sets the rendering options for processing Visio files when viewing documents. |
+| [getPresentationOptions()](#getPresentationOptions--) | Retrieves the view options for processing presentation documents. |
+| [setPresentationOptions(PresentationOptions presentationOptions)](#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-) | Sets the view options for processing presentation documents. |
 ### BaseViewOptions() {#BaseViewOptions--}
 ```
 public BaseViewOptions()
@@ -68,22 +72,22 @@ public TextOptions getTextOptions()
 ```
 
 
-Text files splitting to pages options.
+Retrieves the options for splitting text files into pages.
 
 **Returns:**
-[TextOptions](../../com.groupdocs.viewer.options/textoptions)
+[TextOptions](../../com.groupdocs.viewer.options/textoptions) - the text file splitting options.
 ### setTextOptions(TextOptions textOptions) {#setTextOptions-com.groupdocs.viewer.options.TextOptions-}
 ```
 public void setTextOptions(TextOptions textOptions)
 ```
 
 
-Text files splitting to pages options.
+Sets the options for splitting text files into pages.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| textOptions | [TextOptions](../../com.groupdocs.viewer.options/textoptions) |  |
+| textOptions | [TextOptions](../../com.groupdocs.viewer.options/textoptions) | The text file splitting options. |
 
 ### isRenderComments() {#isRenderComments--}
 ```
@@ -94,7 +98,7 @@ public final boolean isRenderComments()
 Enables rendering comments.
 
 **Returns:**
-boolean
+boolean -  true  if comments should be rendered,  false  otherwise.
 ### setRenderComments(boolean value) {#setRenderComments-boolean-}
 ```
 public final void setRenderComments(boolean value)
@@ -106,7 +110,7 @@ Enables rendering comments.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if comments should be rendered,  false  otherwise. |
 
 ### isRenderNotes() {#isRenderNotes--}
 ```
@@ -117,7 +121,7 @@ public final boolean isRenderNotes()
 Enables rendering notes.
 
 **Returns:**
-boolean
+boolean -  true  if notes should be rendered,  false  otherwise.
 ### setRenderNotes(boolean value) {#setRenderNotes-boolean-}
 ```
 public final void setRenderNotes(boolean value)
@@ -129,7 +133,7 @@ Enables rendering notes.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if notes should be rendered,  false  otherwise. |
 
 ### isRenderHiddenPages() {#isRenderHiddenPages--}
 ```
@@ -140,7 +144,7 @@ public final boolean isRenderHiddenPages()
 Enables rendering of hidden pages.
 
 **Returns:**
-boolean
+boolean -  true  if hidden pages should be rendered,  false  otherwise.
 ### setRenderHiddenPages(boolean value) {#setRenderHiddenPages-boolean-}
 ```
 public final void setRenderHiddenPages(boolean value)
@@ -152,7 +156,7 @@ Enables rendering of hidden pages.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  if hidden pages should be rendered,  false  otherwise. |
 
 ### getDefaultFontName() {#getDefaultFontName--}
 ```
@@ -160,22 +164,22 @@ public final String getDefaultFontName()
 ```
 
 
-Default font to be used when particular font used in document can't be found.
+Default font to be used when a particular font used in the document can't be found.
 
 **Returns:**
-java.lang.String
+java.lang.String - the name of the default font.
 ### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
 ```
 public final void setDefaultFontName(String value)
 ```
 
 
-Default font to be used when particular font used in document can't be found.
+Default font to be used when a particular font used in the document can't be found.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The name of the default font. |
 
 ### getArchiveOptions() {#getArchiveOptions--}
 ```
@@ -183,22 +187,22 @@ public final ArchiveOptions getArchiveOptions()
 ```
 
 
-The archive files view options.
+Retrieves the archive files view options.
 
 **Returns:**
-[ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions)
+[ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions) - the archive files view options.
 ### setArchiveOptions(ArchiveOptions value) {#setArchiveOptions-com.groupdocs.viewer.options.ArchiveOptions-}
 ```
 public final void setArchiveOptions(ArchiveOptions value)
 ```
 
 
-The archive files view options.
+Sets the archive files view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions) |  |
+| value | [ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions) | The archive files view options. |
 
 ### getCadOptions() {#getCadOptions--}
 ```
@@ -206,10 +210,10 @@ public final CadOptions getCadOptions()
 ```
 
 
-The CAD drawing view options.
+Retrieves the CAD drawing view options.
 
 **Returns:**
-[CadOptions](../../com.groupdocs.viewer.options/cadoptions)
+[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - the CAD drawing view options.
 ### isCadOptionsInitialized_Internal() {#isCadOptionsInitialized-Internal--}
 ```
 public boolean isCadOptionsInitialized_Internal()
@@ -226,12 +230,12 @@ public final void setCadOptions(CadOptions value)
 ```
 
 
-The CAD drawing view options.
+Sets the CAD drawing view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CadOptions](../../com.groupdocs.viewer.options/cadoptions) |  |
+| value | [CadOptions](../../com.groupdocs.viewer.options/cadoptions) | The CAD drawing view options. |
 
 ### getEmailOptions() {#getEmailOptions--}
 ```
@@ -239,10 +243,10 @@ public final EmailOptions getEmailOptions()
 ```
 
 
-The email messages view options.
+Retrieves the email messages view options.
 
 **Returns:**
-[EmailOptions](../../com.groupdocs.viewer.options/emailoptions)
+[EmailOptions](../../com.groupdocs.viewer.options/emailoptions) - Email messages view options.
 ### isEmailOptionsInitialized_Internal() {#isEmailOptionsInitialized-Internal--}
 ```
 public boolean isEmailOptionsInitialized_Internal()
@@ -259,12 +263,12 @@ public final void setEmailOptions(EmailOptions value)
 ```
 
 
-The email messages view options.
+Sets the email messages view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [EmailOptions](../../com.groupdocs.viewer.options/emailoptions) |  |
+| value | [EmailOptions](../../com.groupdocs.viewer.options/emailoptions) | Email messages view options. |
 
 ### getOutlookOptions() {#getOutlookOptions--}
 ```
@@ -272,22 +276,22 @@ public final OutlookOptions getOutlookOptions()
 ```
 
 
-The MS Outlook data files view options.
+Retrieves the MS Outlook data files view options.
 
 **Returns:**
-[OutlookOptions](../../com.groupdocs.viewer.options/outlookoptions)
+[OutlookOptions](../../com.groupdocs.viewer.options/outlookoptions) - MS Outlook data files view options.
 ### setOutlookOptions(OutlookOptions value) {#setOutlookOptions-com.groupdocs.viewer.options.OutlookOptions-}
 ```
 public final void setOutlookOptions(OutlookOptions value)
 ```
 
 
-The MS Outlook data files view options.
+Sets the MS Outlook data files view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OutlookOptions](../../com.groupdocs.viewer.options/outlookoptions) |  |
+| value | [OutlookOptions](../../com.groupdocs.viewer.options/outlookoptions) | The MS Outlook data files view options to set. |
 
 ### getPdfOptions() {#getPdfOptions--}
 ```
@@ -295,22 +299,22 @@ public final PdfOptions getPdfOptions()
 ```
 
 
-The PDF documents view options.
+Retrieves the PDF documents view options.
 
 **Returns:**
-[PdfOptions](../../com.groupdocs.viewer.options/pdfoptions)
+[PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) - the PDF documents view options.
 ### setPdfOptions(PdfOptions value) {#setPdfOptions-com.groupdocs.viewer.options.PdfOptions-}
 ```
 public final void setPdfOptions(PdfOptions value)
 ```
 
 
-The PDF documents view options.
+Retrieves the PDF documents view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) |  |
+| value | [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) | The PDF documents view options. |
 
 ### getMailStorageOptions() {#getMailStorageOptions--}
 ```
@@ -318,22 +322,22 @@ public MailStorageOptions getMailStorageOptions()
 ```
 
 
-Lotus Notes storage data files view options.
+Retrieves the Lotus Notes storage data files view options.
 
 **Returns:**
-[MailStorageOptions](../../com.groupdocs.viewer.options/mailstorageoptions)
+[MailStorageOptions](../../com.groupdocs.viewer.options/mailstorageoptions) - the Lotus Notes storage data files view options.
 ### setMailStorageOptions(MailStorageOptions mailStorageOptions) {#setMailStorageOptions-com.groupdocs.viewer.options.MailStorageOptions-}
 ```
 public void setMailStorageOptions(MailStorageOptions mailStorageOptions)
 ```
 
 
-Lotus Notes storage data files view options.
+Sets the Lotus Notes storage data files view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mailStorageOptions | [MailStorageOptions](../../com.groupdocs.viewer.options/mailstorageoptions) |  |
+| mailStorageOptions | [MailStorageOptions](../../com.groupdocs.viewer.options/mailstorageoptions) | The Lotus Notes storage data files view options. |
 
 ### getProjectManagementOptions() {#getProjectManagementOptions--}
 ```
@@ -341,22 +345,22 @@ public final ProjectManagementOptions getProjectManagementOptions()
 ```
 
 
-The project management files view options.
+Retrieves the project management files view options.
 
 **Returns:**
-[ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions)
+[ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions) - the project management files view options.
 ### setProjectManagementOptions(ProjectManagementOptions projectManagementOptions) {#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-}
 ```
 public final void setProjectManagementOptions(ProjectManagementOptions projectManagementOptions)
 ```
 
 
-The project management files view options.
+Sets the project management files view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| projectManagementOptions | [ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions) |  |
+| projectManagementOptions | [ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions) | The project management files view options to be set. |
 
 ### getSpreadsheetOptions() {#getSpreadsheetOptions--}
 ```
@@ -364,22 +368,22 @@ public final SpreadsheetOptions getSpreadsheetOptions()
 ```
 
 
-The spreadsheet files view options.
+Retrieves the spreadsheet files view options.
 
 **Returns:**
-[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions)
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - the spreadsheet files view options.
 ### setSpreadsheetOptions(SpreadsheetOptions value) {#setSpreadsheetOptions-com.groupdocs.viewer.options.SpreadsheetOptions-}
 ```
 public final void setSpreadsheetOptions(SpreadsheetOptions value)
 ```
 
 
-The spreadsheet files view options.
+Sets the spreadsheet files view options.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) |  |
+| value | [SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) | The spreadsheet files view options. |
 
 ### getWordProcessingOptions() {#getWordProcessingOptions--}
 ```
@@ -387,24 +391,24 @@ public final WordProcessingOptions getWordProcessingOptions()
 ```
 
 
-This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+Retrieves the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
 
-Note: See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]
+***Note:** See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]*
 
 
 [Render Word documents as HTML_ PDF_ or image files]: https://docs.groupdocs.com/viewer/java/how-to-view-word-documents-using-java/
 
 **Returns:**
-[WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions)
+[WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) - the Word processing options for rendering Word documents.
 ### setWordProcessingOptions(WordProcessingOptions wordProcessingOptions) {#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-}
 ```
 public final void setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)
 ```
 
 
-This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+Sets the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
 
-Note: See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]
+***Note:** See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]*
 
 
 [Render Word documents as HTML_ PDF_ or image files]: https://docs.groupdocs.com/viewer/java/how-to-view-word-documents-using-java/
@@ -412,7 +416,7 @@ Note: See also [Render Word documents as HTML, PDF, or image files][Render Word 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wordProcessingOptions | [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) |  |
+| wordProcessingOptions | [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) | The Word processing options for rendering Word documents. |
 
 ### getVisioRenderingOptions() {#getVisioRenderingOptions--}
 ```
@@ -420,22 +424,22 @@ public VisioRenderingOptions getVisioRenderingOptions()
 ```
 
 
-The Visio files processing documents view options.
+Retrieves the rendering options for processing Visio files when viewing documents.
 
 **Returns:**
-[VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions)
+[VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions) - the Visio rendering options for processing Visio files.
 ### setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions) {#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-}
 ```
 public void setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)
 ```
 
 
-Sets the Visio files processing documents view options.
+Sets the rendering options for processing Visio files when viewing documents.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visioRenderingOptions | [VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions) | The Visio files processing documents view options. |
+| visioRenderingOptions | [VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions) | The Visio rendering options for processing Visio files. |
 
 ### getPresentationOptions() {#getPresentationOptions--}
 ```
@@ -443,20 +447,20 @@ public PresentationOptions getPresentationOptions()
 ```
 
 
-The presentation processing documents view options.
+Retrieves the view options for processing presentation documents.
 
 **Returns:**
-com.groupdocs.viewer.options.PresentationOptions
+com.groupdocs.viewer.options.PresentationOptions - the presentation view options for processing presentation documents.
 ### setPresentationOptions(PresentationOptions presentationOptions) {#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-}
 ```
 public void setPresentationOptions(PresentationOptions presentationOptions)
 ```
 
 
-The presentation processing documents view options.
+Sets the view options for processing presentation documents.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presentationOptions | com.groupdocs.viewer.options.PresentationOptions |  |
+| presentationOptions | com.groupdocs.viewer.options.PresentationOptions | The presentation view options for processing presentation documents. |
 

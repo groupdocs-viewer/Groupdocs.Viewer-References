@@ -1,7 +1,7 @@
 ---
 title: Metered
 second_title: GroupDocs.Viewer for Java API Reference
-description: Provides methods for applying Metered license.
+description: Provides methods for applying metered license to the GroupDocs.Viewer component.
 type: docs
 weight: 11
 url: /java/com.groupdocs.viewer/metered/
@@ -12,12 +12,20 @@ java.lang.Object
 public class Metered
 ```
 
-Provides methods for applying [Metered][] license. More about licensing: [GroupDocs Licensing FAQ][] More about GroupDocs.Viewer licensing: [Evaluation Limitations and Licensing][]
+Provides methods for applying metered license to the GroupDocs.Viewer component.
 
+Metered licensing allows you to dynamically monitor and control the usage of GroupDocs.Viewer based on the number of document pages processed instead of a traditional per-server or per-developer license. This flexible licensing model is suitable for scenarios where the document processing requirements vary over time or when you want to pay only for what you use.
 
-[Metered]: https://purchase.groupdocs.com/faqs/licensing/metered
-[GroupDocs Licensing FAQ]: https://purchase.groupdocs.com/faqs/licensing
-[Evaluation Limitations and Licensing]: https://docs.groupdocs.com/viewer/java/evaluation-limitations-and-licensing-of-groupdocs-viewer/
+Example usage:
+
+```
+
+ Metered metered = new Metered();
+ metered.setMeteredKey(publicKey, privateKey);
+ // Perform document processing operations using GroupDocs.Viewer
+ // ...
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -27,9 +35,9 @@ Provides methods for applying [Metered][] license. More about licensing: [GroupD
 
 | Method | Description |
 | --- | --- |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | Retrieves amount of MBs processed. |
-| [getConsumptionCredit()](#getConsumptionCredit--) | Retrieves count of credits consumed. |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Activates product with Metered keys. |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | Retrieves the amount of megabytes (MB) processed. |
+| [getConsumptionCredit()](#getConsumptionCredit--) | Retrieves the count of credits consumed. |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Activates the product with Metered keys. |
 ### Metered() {#Metered--}
 ```
 public Metered()
@@ -42,10 +50,11 @@ public static double getConsumptionQuantity()
 ```
 
 
-Retrieves amount of MBs processed.
+Retrieves the amount of megabytes (MB) processed.
 
-**Example:** 
-Following example demonstrates how to retrieve amount of MBs processed.
+This method returns the total amount of MB processed by the component.
+
+**Example:**
 
 ```
 
@@ -58,46 +67,50 @@ Following example demonstrates how to retrieve amount of MBs processed.
 ```
 
 **Returns:**
-double
+double - the amount of MB processed.
 ### getConsumptionCredit() {#getConsumptionCredit--}
 ```
 public static double getConsumptionCredit()
 ```
 
 
-Retrieves count of credits consumed.
+Retrieves the count of credits consumed.
 
-**Example:** 
-Following example demonstrates how to retrieve count of credits consumed.
+This method returns the total count of credits consumed by the component.
+
+**Example:**
 
 ```
 
-   String publicKey = "Public Key";
-   String privateKey = "Private Key";
-
-   Metered metered = new Metered();
-   metered.setMeteredKey(publicKey, privateKey);
-   double creditsConsumed = Metered.getConsumptionCredit();
+ String publicKey = "Public Key";
+ String privateKey = "Private Key";
+ Metered metered = new Metered();
+ metered.setMeteredKey(publicKey, privateKey);
+ double creditsConsumed = Metered.getConsumptionCredit();
  
 ```
 
 **Returns:**
-double
+double - the count of credits consumed.
 ### setMeteredKey(String publicKey, String privateKey) {#setMeteredKey-java.lang.String-java.lang.String-}
 ```
 public final void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-Activates product with Metered keys.
+Activates the product with Metered keys.
 
 Following example demonstrates how to activate product with Metered keys.
 
+**Example:**
+
 ```
-String publicKey = "Public Key";
+
+ String publicKey = "Public Key";
  String privateKey = "Private Key";
  Metered metered = new Metered();
  metered.setMeteredKey(publicKey, privateKey);
+ 
 ```
 
 **Parameters:**

@@ -13,34 +13,55 @@ public class PdfOptions
 ```
 
 Provides options for rendering PDF documents.
+
+The PdfOptions class encapsulates various settings and parameters that can be used to control the rendering of PDF documents in the GroupDocs.Viewer component.
+
+Example usage:
+
+```
+
+ PdfOptions options = new PdfOptions();
+ options.setDisableCharsGrouping(true);
+ options.setRenderTextAsImage(true);
+ options.setEnableFontHinting(true);
+
+ final HtmlViewOptions htmlViewOptions = HtmlViewOptions.forEmbeddedResources();
+ htmlViewOptions.setPdfOptions(options);
+
+ try (Viewer viewer = new Viewer("document.pdf")) {
+     viewer.view(htmlViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfOptions()](#PdfOptions--) | Initializes new instance of [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) class. |
+| [PdfOptions()](#PdfOptions--) | Initializes a new instance of  PdfOptions  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isRenderTextAsImage()](#isRenderTextAsImage--) | If attribute RenderTextAsImage set to true, the text from the source becomes an image in HTML. |
-| [setRenderTextAsImage(boolean renderTextAsImage)](#setRenderTextAsImage-boolean-) | If attribute RenderTextAsImage set to true, the text from the source becomes an image in HTML. |
-| [isDisableCharsGrouping()](#isDisableCharsGrouping--) | If attribute RenderTextAsImage set to true, the text from the source becomes an image in HTML. |
-| [setDisableCharsGrouping(boolean value)](#setDisableCharsGrouping-boolean-) | Disables chars grouping to keep maximum precision during chars positioning when rendering the page. |
-| [isEnableLayeredRendering()](#isEnableLayeredRendering--) | Enables rendering of text and graphics according to z-order in original PDF document when rendering into HTML. |
-| [setEnableLayeredRendering(boolean value)](#setEnableLayeredRendering-boolean-) | Enables rendering of text and graphics according to z-order in original PDF document when rendering into HTML. |
-| [isEnableFontHinting()](#isEnableFontHinting--) | Enables font hinting. |
+| [isRenderTextAsImage()](#isRenderTextAsImage--) | Determines whether the text from the source is rendered as an image in HTML. |
+| [setRenderTextAsImage(boolean renderTextAsImage)](#setRenderTextAsImage-boolean-) | Sets whether the text from the source is rendered as an image in HTML. |
+| [isDisableCharsGrouping()](#isDisableCharsGrouping--) | Checks if character grouping is disabled to maintain maximum precision during character positioning when rendering the page. |
+| [setDisableCharsGrouping(boolean value)](#setDisableCharsGrouping-boolean-) | Sets the option to disable character grouping, ensuring maximum precision during character positioning when rendering the page. |
+| [isEnableLayeredRendering()](#isEnableLayeredRendering--) | Checks whether rendering of text and graphics should follow the z-order in the original PDF document when rendering into HTML. |
+| [setEnableLayeredRendering(boolean value)](#setEnableLayeredRendering-boolean-) | Enables or disables rendering of text and graphics according to the z-order in the original PDF document when rendering into HTML. |
+| [isEnableFontHinting()](#isEnableFontHinting--) | Determines whether font hinting is enabled. |
 | [setEnableFontHinting(boolean value)](#setEnableFontHinting-boolean-) | Enables font hinting. |
-| [isRenderOriginalPageSize()](#isRenderOriginalPageSize--) | When this option enabled the output pages will have the same size in pixels as page size in a source PDF document. |
-| [setRenderOriginalPageSize(boolean mRenderOriginalPageSize)](#setRenderOriginalPageSize-boolean-) | When this option enabled the output pages will have the same size in pixels as page size in a source PDF document. |
-| [getImageQuality()](#getImageQuality--) | Specifies output image quality for image resources when rendering into HTML. |
-| [setImageQuality(ImageQuality value)](#setImageQuality-com.groupdocs.viewer.options.ImageQuality-) | Specifies output image quality for image resources when rendering into HTML. |
+| [isRenderOriginalPageSize()](#isRenderOriginalPageSize--) | Enables rendering of pages with the same size in pixels as the page size in the source PDF document. |
+| [setRenderOriginalPageSize(boolean renderOriginalPageSize)](#setRenderOriginalPageSize-boolean-) | Enables rendering of pages with the same size in pixels as the page size in the source PDF document. |
+| [getImageQuality()](#getImageQuality--) | Retrieves the output image quality for image resources when rendering into HTML. |
+| [setImageQuality(ImageQuality value)](#setImageQuality-com.groupdocs.viewer.options.ImageQuality-) | Sets the output image quality for image resources when rendering into HTML. |
 ### PdfOptions() {#PdfOptions--}
 ```
 public PdfOptions()
 ```
 
 
-Initializes new instance of [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) class.
+Initializes a new instance of  PdfOptions  class.
 
 ### isRenderTextAsImage() {#isRenderTextAsImage--}
 ```
@@ -48,26 +69,30 @@ public boolean isRenderTextAsImage()
 ```
 
 
-If attribute RenderTextAsImage set to true, the text from the source becomes an image in HTML. May be useful to make text unselectable or HTML text is not rendered properly.
+Determines whether the text from the source is rendered as an image in HTML.
 
-When this option is set to true, the text is rendered as an image in the output HTML. Enable this option to make text unselectable or to fix characters rendering and make HTML look like PDF. The default value is false.  This option is supported when rendering into HTML.
+When this option is set to  true , the text is rendered as an image in the output HTML. Enable this option to make the text unselectable or to fix character rendering and make the HTML look like PDF. This option is supported when rendering into HTML.
+
+***Note:** The default value is  false .*
 
 **Returns:**
-boolean
+boolean -  true  if the text is rendered as an image in HTML,  false  otherwise.
 ### setRenderTextAsImage(boolean renderTextAsImage) {#setRenderTextAsImage-boolean-}
 ```
 public void setRenderTextAsImage(boolean renderTextAsImage)
 ```
 
 
-If attribute RenderTextAsImage set to true, the text from the source becomes an image in HTML. May be useful to make text unselectable or HTML text is not rendered properly.
+Sets whether the text from the source is rendered as an image in HTML.
 
-When this option is set to true, the text is rendered as an image in the output HTML. Enable this option to make text unselectable or to fix characters rendering and make HTML look like PDF. The default value is false.  This option is supported when rendering into HTML.
+When this option is set to  true , the text is rendered as an image in the output HTML. Enable this option to make the text unselectable or to fix character rendering and make the HTML look like PDF. This option is supported when rendering into HTML.
+
+***Note:** The default value is  false .*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| renderTextAsImage | boolean |  |
+| renderTextAsImage | boolean |  true  to render the text as an image in HTML,  false  otherwise. |
 
 ### isDisableCharsGrouping() {#isDisableCharsGrouping--}
 ```
@@ -75,28 +100,26 @@ public final boolean isDisableCharsGrouping()
 ```
 
 
-If attribute RenderTextAsImage set to true, the text from the source becomes an image in HTML. May be useful to make text unselectable or HTML text is not rendered properly.
+Checks if character grouping is disabled to maintain maximum precision during character positioning when rendering the page. When this option is enabled, the characters are rendered without any grouping, which ensures maximum precision.
 
-When this option is set to true, the text is rendered as an image in the output HTML. Enable this option to make text unselectable or to fix characters rendering and make HTML look like PDF. The default value is false.  This option is supported when rendering into HTML.
-
-/\*\*
-
-Disables chars grouping to keep maximum precision during chars positioning when rendering the page.
+***Note:** By default, character grouping is enabled.*
 
 **Returns:**
-boolean
+boolean -  true  if character grouping is disabled,  false  otherwise.
 ### setDisableCharsGrouping(boolean value) {#setDisableCharsGrouping-boolean-}
 ```
 public final void setDisableCharsGrouping(boolean value)
 ```
 
 
-Disables chars grouping to keep maximum precision during chars positioning when rendering the page.
+Sets the option to disable character grouping, ensuring maximum precision during character positioning when rendering the page. When this option is enabled by setting the value to  true , character grouping is disabled, which ensures maximum precision.
+
+***Note:** Disabling character grouping can help preserve the exact positioning of characters on the rendered page. By default, character grouping is enabled.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to disable character grouping,  false  to enable it. |
 
 ### isEnableLayeredRendering() {#isEnableLayeredRendering--}
 ```
@@ -104,30 +127,26 @@ public final boolean isEnableLayeredRendering()
 ```
 
 
-Enables rendering of text and graphics according to z-order in original PDF document when rendering into HTML.
+Checks whether rendering of text and graphics should follow the z-order in the original PDF document when rendering into HTML. When this option is enabled by returning  true , text and graphics are rendered according to their z-order in the original PDF document.
 
---------------------
-
-By default text and graphics are rendered into HTML as a single layer.
+***Note:** By default, text and graphics are rendered into HTML as a single layer.*
 
 **Returns:**
-boolean
+boolean -  true  if layered rendering is enabled,  false  otherwise.
 ### setEnableLayeredRendering(boolean value) {#setEnableLayeredRendering-boolean-}
 ```
 public final void setEnableLayeredRendering(boolean value)
 ```
 
 
-Enables rendering of text and graphics according to z-order in original PDF document when rendering into HTML.
+Enables or disables rendering of text and graphics according to the z-order in the original PDF document when rendering into HTML.
 
---------------------
-
-By default text and graphics are rendered into HTML as a single layer.
+***Note:** By default, text and graphics are rendered into HTML as a single layer.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to enable layered rendering,  false  to disable it. |
 
 ### isEnableFontHinting() {#isEnableFontHinting--}
 ```
@@ -135,30 +154,26 @@ public final boolean isEnableFontHinting()
 ```
 
 
-Enables font hinting. The font hinting adjusts the display of an outline font. Supported only for TTF fonts when these fonts are used in source document.
+Determines whether font hinting is enabled. Font hinting adjusts the display of an outline font. This option is supported only for TrueType (TTF) fonts when used in the source document.
 
---------------------
-
-This option is supported when rendering into PNG or JPG formats.
+***Note:** This option is supported when rendering into PNG or JPG formats.*
 
 **Returns:**
-boolean
+boolean -  true  if font hinting is enabled,  false  otherwise.
 ### setEnableFontHinting(boolean value) {#setEnableFontHinting-boolean-}
 ```
 public final void setEnableFontHinting(boolean value)
 ```
 
 
-Enables font hinting. The font hinting adjusts the display of an outline font. Supported only for TTF fonts when these fonts are used in source document.
+Enables font hinting. Font hinting adjusts the display of an outline font and is supported only for TrueType (TTF) fonts when used in the source document.
 
---------------------
-
-This option is supported when rendering into PNG or JPG formats.
+***Note:** This option is supported when rendering into PNG or JPG formats.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to enable font hinting,  false  to disable it. |
 
 ### isRenderOriginalPageSize() {#isRenderOriginalPageSize--}
 ```
@@ -166,22 +181,26 @@ public boolean isRenderOriginalPageSize()
 ```
 
 
-When this option enabled the output pages will have the same size in pixels as page size in a source PDF document. By default GroupDocs.Viewer calculates output image page size for better rendering quality.
+Enables rendering of pages with the same size in pixels as the page size in the source PDF document.
+
+***Note:** By default, GroupDocs.Viewer calculates the output image page size for better rendering quality.*
 
 **Returns:**
-boolean - This option is supported when rendering into PNG or JPG formats.
-### setRenderOriginalPageSize(boolean mRenderOriginalPageSize) {#setRenderOriginalPageSize-boolean-}
+boolean -  true  if the option is enabled,  false  otherwise.
+### setRenderOriginalPageSize(boolean renderOriginalPageSize) {#setRenderOriginalPageSize-boolean-}
 ```
-public void setRenderOriginalPageSize(boolean mRenderOriginalPageSize)
+public void setRenderOriginalPageSize(boolean renderOriginalPageSize)
 ```
 
 
-When this option enabled the output pages will have the same size in pixels as page size in a source PDF document. By default GroupDocs.Viewer calculates output image page size for better rendering quality.
+Enables rendering of pages with the same size in pixels as the page size in the source PDF document.
+
+***Note:** By default, GroupDocs.Viewer calculates the output image page size for better rendering quality.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mRenderOriginalPageSize | boolean | This option is supported when rendering into PNG or JPG formats. |
+| renderOriginalPageSize | boolean |  true  to enable rendering with the original page size,  false  otherwise. |
 
 ### getImageQuality() {#getImageQuality--}
 ```
@@ -189,20 +208,20 @@ public final ImageQuality getImageQuality()
 ```
 
 
-Specifies output image quality for image resources when rendering into HTML. The default value is Low.
+Retrieves the output image quality for image resources when rendering into HTML. The default value is Low.
 
 **Returns:**
-[ImageQuality](../../com.groupdocs.viewer.options/imagequality) - Specifies output image quality for image resources when rendering into HTML.
+[ImageQuality](../../com.groupdocs.viewer.options/imagequality) - the output image quality for image resources when rendering into HTML.
 ### setImageQuality(ImageQuality value) {#setImageQuality-com.groupdocs.viewer.options.ImageQuality-}
 ```
 public final void setImageQuality(ImageQuality value)
 ```
 
 
-Specifies output image quality for image resources when rendering into HTML. The default value is Low.
+Sets the output image quality for image resources when rendering into HTML. The default value is Low.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ImageQuality](../../com.groupdocs.viewer.options/imagequality) | Specifies output image quality for image resources when rendering into HTML. |
+| value | [ImageQuality](../../com.groupdocs.viewer.options/imagequality) | The output image quality for image resources when rendering into HTML. |
 
