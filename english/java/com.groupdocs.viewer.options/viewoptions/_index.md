@@ -16,7 +16,7 @@ Provides rendering options.
 
 The ViewOptions class extends the BaseViewOptions class and serves as a base class for rendering options in the GroupDocs.Viewer component. It encapsulates common settings and parameters that can be used for rendering various types of documents into different formats.
 
-Note: The ViewOptions class should not be used directly, use [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions), [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions), [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) and so on instead.
+***Note:** The ViewOptions class should not be used directly, use [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions), [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions), [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) and so on instead.*
 ## Constructors
 
 | Constructor | Description |
@@ -89,7 +89,7 @@ Retrieves the page rotations.
 If both [setWatermark(Watermark)](../../com.groupdocs.viewer.options/viewoptions\#setWatermark-Watermark-) and  getPageRotations()  are specified, the watermark will be applied to the rotated pages.
 
 **Returns:**
-java.util.Map<java.lang.Integer,com.groupdocs.viewer.options.Rotation> - A map containing the page numbers as keys and their corresponding rotations as values.
+java.util.Map<java.lang.Integer,com.groupdocs.viewer.options.Rotation> - a map containing the page numbers as keys and their corresponding rotations as values.
 ### isPageRotationsInitialized_Internal() {#isPageRotationsInitialized-Internal--}
 ```
 public boolean isPageRotationsInitialized_Internal()

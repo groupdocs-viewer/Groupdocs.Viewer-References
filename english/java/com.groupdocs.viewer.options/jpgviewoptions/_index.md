@@ -36,7 +36,7 @@ Example usage:
  
 ```
 
-Note: The JpgViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output JPG images.
+***Note:** The JpgViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output JPG images.*
 ## Constructors
 
 | Constructor | Description |

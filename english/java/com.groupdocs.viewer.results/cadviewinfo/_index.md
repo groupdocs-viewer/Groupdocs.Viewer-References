@@ -28,7 +28,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is CadViewInfoImpl.
+***Note:** The default implementation of this interface is CadViewInfoImpl.*
 ## Methods
 
 | Method | Description |

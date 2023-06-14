@@ -25,7 +25,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is FileInfoImpl.
+***Note:** The default implementation of this interface is FileInfoImpl.*
 ## Methods
 
 | Method | Description |

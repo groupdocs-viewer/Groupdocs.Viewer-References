@@ -25,7 +25,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is AttachmentImpl.
+***Note:** The default implementation of this interface is AttachmentImpl.*
 ## Methods
 
 | Method | Description |

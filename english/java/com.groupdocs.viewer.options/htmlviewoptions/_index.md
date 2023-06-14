@@ -205,7 +205,7 @@ Initializes a new instance of the  HtmlViewOptions  class for rendering into HTM
 | createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates a stream used to write output page data. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 ### forEmbeddedResources(CreatePageStream createPageStream, ReleasePageStream releasePageStream) {#forEmbeddedResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-}
 ```
 public static HtmlViewOptions forEmbeddedResources(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
@@ -221,7 +221,7 @@ Initializes a new instance of the  HtmlViewOptions  class for rendering into HTM
 | releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases the stream created by the method assigned to the  createPageStream  parameter. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 ### forEmbeddedResources(PageStreamFactory pageStreamFactory) {#forEmbeddedResources-com.groupdocs.viewer.interfaces.PageStreamFactory-}
 ```
 public static HtmlViewOptions forEmbeddedResources(PageStreamFactory pageStreamFactory)
@@ -236,7 +236,7 @@ Initializes a new instance of the  HtmlViewOptions  class for rendering into HTM
 | pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | The factory that implements methods for creating and releasing the output page stream. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 ### forEmbeddedResources() {#forEmbeddedResources--}
 ```
 public static HtmlViewOptions forEmbeddedResources()
@@ -246,7 +246,7 @@ public static HtmlViewOptions forEmbeddedResources()
 Initializes a new instance of the  HtmlViewOptions  class.
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class.
 ### forEmbeddedResources(String filePathFormat) {#forEmbeddedResources-java.lang.String-}
 ```
 public static HtmlViewOptions forEmbeddedResources(String filePathFormat)
@@ -261,7 +261,7 @@ Initializes a new instance of the  HtmlViewOptions  class.
 | filePathFormat | java.lang.String | The file path format, e.g., 'page\_\{0\}.html'. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class.
 ### forEmbeddedResources(Path filePathFormat) {#forEmbeddedResources-java.nio.file.Path-}
 ```
 public static HtmlViewOptions forEmbeddedResources(Path filePathFormat)
@@ -276,7 +276,7 @@ Initializes a new instance of the  HtmlViewOptions  class.
 | filePathFormat | java.nio.file.Path | The file path format, e.g., 'page\_\{0\}.html'. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class.
 ### forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl) {#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-}
 ```
 public static HtmlViewOptions forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl)
@@ -295,7 +295,7 @@ Initializes a new instance of the  HtmlViewOptions  class for rendering into HTM
 | createResourceUrl | [CreateResourceUrl](../../com.groupdocs.viewer.interfaces/createresourceurl) | The method that creates the URL for the HTML resource. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 ### forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream) {#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-com.groupdocs.viewer.interfaces.ReleasePageStream-com.groupdocs.viewer.interfaces.ReleaseResourceStream-}
 ```
 public static HtmlViewOptions forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream)
@@ -314,7 +314,7 @@ Initializes a new instance of the  HtmlViewOptions  class for rendering into HTM
 | releaseResourceStream | [ReleaseResourceStream](../../com.groupdocs.viewer.interfaces/releaseresourcestream) | The method that releases the stream created by the  createResourceStream  method. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 ### forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory) {#forExternalResources-com.groupdocs.viewer.interfaces.PageStreamFactory-com.groupdocs.viewer.interfaces.ResourceStreamFactory-}
 ```
 public static HtmlViewOptions forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory)
@@ -330,7 +330,7 @@ Initializes a new instance of the  HtmlViewOptions  class for rendering into HTM
 | resourceStreamFactory | [ResourceStreamFactory](../../com.groupdocs.viewer.interfaces/resourcestreamfactory) | The factory that implements methods for creating resource URLs and instantiating/releasing the output HTML resource stream. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - A new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 ### forExternalResources() {#forExternalResources--}
 ```
 public static HtmlViewOptions forExternalResources()

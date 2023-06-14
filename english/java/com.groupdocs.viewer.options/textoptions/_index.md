@@ -35,7 +35,7 @@ Example usage:
 
 | Constructor | Description |
 | --- | --- |
-| [TextOptions()](#TextOptions--) |  |
+| [TextOptions()](#TextOptions--) | Initializes a new instance of the  TextOptions  class. |
 ## Methods
 
 | Method | Description |
@@ -49,6 +49,8 @@ Example usage:
 public TextOptions()
 ```
 
+
+Initializes a new instance of the  TextOptions  class.
 
 ### getMaxCharsPerRow() {#getMaxCharsPerRow--}
 ```

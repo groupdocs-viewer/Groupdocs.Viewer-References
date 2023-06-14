@@ -16,7 +16,7 @@ Class that provides base rendering options.
 
 The  BaseViewOptions  class serves as the base for rendering options in GroupDocs.Viewer. It allows you to customize the rendering behavior of the output HTML, PDF, PNG, and JPEG files when rendering specific document formats.
 
-Note: For internal usage.
+***Note:** For internal usage.*
 ## Constructors
 
 | Constructor | Description |
@@ -42,7 +42,6 @@ Note: For internal usage.
 | [isCadOptionsInitialized_Internal()](#isCadOptionsInitialized-Internal--) |  |
 | [setCadOptions(CadOptions value)](#setCadOptions-com.groupdocs.viewer.options.CadOptions-) | Sets the CAD drawing view options. |
 | [getEmailOptions()](#getEmailOptions--) | Retrieves the email messages view options. |
-| [isEmailOptionsInitialized_Internal()](#isEmailOptionsInitialized-Internal--) |  |
 | [setEmailOptions(EmailOptions value)](#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-) | Sets the email messages view options. |
 | [getOutlookOptions()](#getOutlookOptions--) | Retrieves the MS Outlook data files view options. |
 | [setOutlookOptions(OutlookOptions value)](#setOutlookOptions-com.groupdocs.viewer.options.OutlookOptions-) | Sets the MS Outlook data files view options. |
@@ -247,16 +246,6 @@ Retrieves the email messages view options.
 
 **Returns:**
 [EmailOptions](../../com.groupdocs.viewer.options/emailoptions) - Email messages view options.
-### isEmailOptionsInitialized_Internal() {#isEmailOptionsInitialized-Internal--}
-```
-public boolean isEmailOptionsInitialized_Internal()
-```
-
-
-
-
-**Returns:**
-boolean
 ### setEmailOptions(EmailOptions value) {#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-}
 ```
 public final void setEmailOptions(EmailOptions value)

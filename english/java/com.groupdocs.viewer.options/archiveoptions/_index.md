@@ -33,7 +33,7 @@ Example usage:
  
 ```
 
-Note: The  ArchiveOptions  class provides a range of customization options for rendering archive files. You can configure these options based on your specific requirements to achieve the desired output.
+***Note:** The  ArchiveOptions  class provides a range of customization options for rendering archive files. You can configure these options based on your specific requirements to achieve the desired output.*
 ## Constructors
 
 | Constructor | Description |

@@ -81,7 +81,7 @@ public static CacheableFactory getInstance()
 Gets an instance of  CacheableFactory  that can be used to create cacheable objects.
 
 **Returns:**
-[CacheableFactory](../../com.groupdocs.viewer.caching.extra/cacheablefactory) - An instance of  CacheableFactory .
+[CacheableFactory](../../com.groupdocs.viewer.caching.extra/cacheablefactory) - an instance of  CacheableFactory .
 ### setInstance(CacheableFactory instance) {#setInstance-com.groupdocs.viewer.caching.extra.CacheableFactory-}
 ```
 public static void setInstance(CacheableFactory instance)
@@ -110,7 +110,7 @@ Creates an implementation of the [ViewInfo](../../com.groupdocs.viewer.results/v
 | pages | java.util.List<com.groupdocs.viewer.results.Page> | The list of pages representing the document pages. |
 
 **Returns:**
-[ViewInfo](../../com.groupdocs.viewer.results/viewinfo) - A new instance of the [ViewInfo](../../com.groupdocs.viewer.results/viewinfo) implementation.
+[ViewInfo](../../com.groupdocs.viewer.results/viewinfo) - a new instance of the [ViewInfo](../../com.groupdocs.viewer.results/viewinfo) implementation.
 ### newLotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount) {#newLotusNotesViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--int-}
 ```
 public LotusNotesViewInfo newLotusNotesViewInfo(FileType fileType, List<Page> pages, int notesCount)
@@ -127,7 +127,7 @@ Creates an implementation of the [LotusNotesViewInfo](../../com.groupdocs.viewer
 | notesCount | int | The count of Lotus Notes in the document. |
 
 **Returns:**
-[LotusNotesViewInfo](../../com.groupdocs.viewer.results/lotusnotesviewinfo) - A new instance of the [LotusNotesViewInfo](../../com.groupdocs.viewer.results/lotusnotesviewinfo) implementation.
+[LotusNotesViewInfo](../../com.groupdocs.viewer.results/lotusnotesviewinfo) - a new instance of the [LotusNotesViewInfo](../../com.groupdocs.viewer.results/lotusnotesviewinfo) implementation.
 ### newArchiveViewInfo(FileType fileType, List<Page> pages, List<String> folders) {#newArchiveViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--java.util.List-java.lang.String--}
 ```
 public ArchiveViewInfo newArchiveViewInfo(FileType fileType, List<Page> pages, List<String> folders)
@@ -144,7 +144,7 @@ Creates an implementation of the [ArchiveViewInfo](../../com.groupdocs.viewer.re
 | folders | java.util.List<java.lang.String> | The list of folders in the archive. |
 
 **Returns:**
-[ArchiveViewInfo](../../com.groupdocs.viewer.results/archiveviewinfo) - A new instance of the [ArchiveViewInfo](../../com.groupdocs.viewer.results/archiveviewinfo) implementation.
+[ArchiveViewInfo](../../com.groupdocs.viewer.results/archiveviewinfo) - a new instance of the [ArchiveViewInfo](../../com.groupdocs.viewer.results/archiveviewinfo) implementation.
 ### newCharacter(char character, double x, double y, double width, double height) {#newCharacter-char-double-double-double-double-}
 ```
 public Character newCharacter(char character, double x, double y, double width, double height)
@@ -163,7 +163,7 @@ Creates an implementation of the [Character](../../com.groupdocs.viewer.results/
 | height | double | The height of the character. |
 
 **Returns:**
-[Character](../../com.groupdocs.viewer.results/character) - A new instance of the [Character](../../com.groupdocs.viewer.results/character) implementation.
+[Character](../../com.groupdocs.viewer.results/character) - a new instance of the [Character](../../com.groupdocs.viewer.results/character) implementation.
 ### newFileInfo(FileType fileType) {#newFileInfo-com.groupdocs.viewer.FileType-}
 ```
 public FileInfo newFileInfo(FileType fileType)
@@ -178,7 +178,7 @@ Creates an implementation of the [FileInfo](../../com.groupdocs.viewer.results/f
 | fileType | [FileType](../../com.groupdocs.viewer/filetype) | The file type. |
 
 **Returns:**
-[FileInfo](../../com.groupdocs.viewer.results/fileinfo) - A new instance of the [FileInfo](../../com.groupdocs.viewer.results/fileinfo) implementation.
+[FileInfo](../../com.groupdocs.viewer.results/fileinfo) - a new instance of the [FileInfo](../../com.groupdocs.viewer.results/fileinfo) implementation.
 ### newLayer(String name, boolean visible) {#newLayer-java.lang.String-boolean-}
 ```
 public Layer newLayer(String name, boolean visible)
@@ -194,7 +194,7 @@ Creates an implementation of the [Layer](../../com.groupdocs.viewer.results/laye
 | visible | boolean | The visibility of the layer. |
 
 **Returns:**
-[Layer](../../com.groupdocs.viewer.results/layer) - A new instance of the [Layer](../../com.groupdocs.viewer.results/layer) implementation.
+[Layer](../../com.groupdocs.viewer.results/layer) - a new instance of the [Layer](../../com.groupdocs.viewer.results/layer) implementation.
 ### newLayer(String name) {#newLayer-java.lang.String-}
 ```
 public Layer newLayer(String name)
@@ -209,7 +209,7 @@ Creates an implementation of the [Layer](../../com.groupdocs.viewer.results/laye
 | name | java.lang.String | The name of the layer. |
 
 **Returns:**
-[Layer](../../com.groupdocs.viewer.results/layer) - A new instance of the [Layer](../../com.groupdocs.viewer.results/layer) implementation.
+[Layer](../../com.groupdocs.viewer.results/layer) - a new instance of the [Layer](../../com.groupdocs.viewer.results/layer) implementation.
 ### newLayout(String name, double width, double height) {#newLayout-java.lang.String-double-double-}
 ```
 public Layout newLayout(String name, double width, double height)
@@ -226,7 +226,7 @@ Creates an implementation of the [Layout](../../com.groupdocs.viewer.results/lay
 | height | double | The height of the layout. |
 
 **Returns:**
-[Layout](../../com.groupdocs.viewer.results/layout) - A new instance of the [Layout](../../com.groupdocs.viewer.results/layout) implementation.
+[Layout](../../com.groupdocs.viewer.results/layout) - a new instance of the [Layout](../../com.groupdocs.viewer.results/layout) implementation.
 ### newLine(String line, double x, double y, double width, double height, List<Word> words) {#newLine-java.lang.String-double-double-double-double-java.util.List-com.groupdocs.viewer.results.Word--}
 ```
 public Line newLine(String line, double x, double y, double width, double height, List<Word> words)
@@ -246,7 +246,7 @@ Creates an implementation of the [Line](../../com.groupdocs.viewer.results/line)
 | words | java.util.List<com.groupdocs.viewer.results.Word> | The words contained in the line. |
 
 **Returns:**
-[Line](../../com.groupdocs.viewer.results/line) - A new instance of the [Line](../../com.groupdocs.viewer.results/line) implementation.
+[Line](../../com.groupdocs.viewer.results/line) - a new instance of the [Line](../../com.groupdocs.viewer.results/line) implementation.
 ### newAttachment(String fileName, String filePath) {#newAttachment-java.lang.String-java.lang.String-}
 ```
 public Attachment newAttachment(String fileName, String filePath)
@@ -262,7 +262,7 @@ Creates an implementation of the [Attachment](../../com.groupdocs.viewer.results
 | filePath | java.lang.String | The relative path of the attachment, e.g., "folder/file.docx". When the file is located in the root of an archive, in an email message, or a data file, specify the filename. |
 
 **Returns:**
-[Attachment](../../com.groupdocs.viewer.results/attachment) - A new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
+[Attachment](../../com.groupdocs.viewer.results/attachment) - a new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
 ### newAttachment(String id, String fileName, String filePath, long size) {#newAttachment-java.lang.String-java.lang.String-java.lang.String-long-}
 ```
 public Attachment newAttachment(String id, String fileName, String filePath, long size)
@@ -280,7 +280,7 @@ Creates an implementation of the [Attachment](../../com.groupdocs.viewer.results
 | size | long | The size of the attachment. |
 
 **Returns:**
-[Attachment](../../com.groupdocs.viewer.results/attachment) - A new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
+[Attachment](../../com.groupdocs.viewer.results/attachment) - a new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
 ### newAttachment(String id, String fileName, Path filePath, long size) {#newAttachment-java.lang.String-java.lang.String-java.nio.file.Path-long-}
 ```
 public Attachment newAttachment(String id, String fileName, Path filePath, long size)
@@ -298,7 +298,7 @@ Creates an implementation of the [Attachment](../../com.groupdocs.viewer.results
 | size | long | The size of the attachment. |
 
 **Returns:**
-[Attachment](../../com.groupdocs.viewer.results/attachment) - A new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
+[Attachment](../../com.groupdocs.viewer.results/attachment) - a new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
 ### newAttachment(String id, String fileName, String filePath, FileType fileType, long size) {#newAttachment-java.lang.String-java.lang.String-java.lang.String-com.groupdocs.viewer.FileType-long-}
 ```
 public Attachment newAttachment(String id, String fileName, String filePath, FileType fileType, long size)
@@ -317,7 +317,7 @@ Creates an implementation of the [Attachment](../../com.groupdocs.viewer.results
 | size | long | The size of the attachment. |
 
 **Returns:**
-[Attachment](../../com.groupdocs.viewer.results/attachment) - A new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
+[Attachment](../../com.groupdocs.viewer.results/attachment) - a new instance of the [Attachment](../../com.groupdocs.viewer.results/attachment) implementation.
 ### newOutlookViewInfo(FileType fileType, List<Page> pages, List<String> folders) {#newOutlookViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--java.util.List-java.lang.String--}
 ```
 public OutlookViewInfo newOutlookViewInfo(FileType fileType, List<Page> pages, List<String> folders)
@@ -334,7 +334,7 @@ Creates an implementation of the [OutlookViewInfo](../../com.groupdocs.viewer.re
 | folders | java.util.List<java.lang.String> | The list of folders. |
 
 **Returns:**
-[OutlookViewInfo](../../com.groupdocs.viewer.results/outlookviewinfo) - A new instance of the [OutlookViewInfo](../../com.groupdocs.viewer.results/outlookviewinfo) implementation.
+[OutlookViewInfo](../../com.groupdocs.viewer.results/outlookviewinfo) - a new instance of the [OutlookViewInfo](../../com.groupdocs.viewer.results/outlookviewinfo) implementation.
 ### newPage(int number, boolean visible) {#newPage-int-boolean-}
 ```
 public Page newPage(int number, boolean visible)
@@ -350,7 +350,7 @@ Creates an implementation of the [Page](../../com.groupdocs.viewer.results/page)
 | visible | boolean | The visibility flag. |
 
 **Returns:**
-[Page](../../com.groupdocs.viewer.results/page) - A new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
+[Page](../../com.groupdocs.viewer.results/page) - a new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
 ### newPage(int number, String name, boolean visible) {#newPage-int-java.lang.String-boolean-}
 ```
 public Page newPage(int number, String name, boolean visible)
@@ -367,7 +367,7 @@ Creates an implementation of the [Page](../../com.groupdocs.viewer.results/page)
 | visible | boolean | The visibility flag. |
 
 **Returns:**
-[Page](../../com.groupdocs.viewer.results/page) - A new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
+[Page](../../com.groupdocs.viewer.results/page) - a new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
 ### newPage(int number, String name, boolean visible, int width, int height) {#newPage-int-java.lang.String-boolean-int-int-}
 ```
 public Page newPage(int number, String name, boolean visible, int width, int height)
@@ -386,7 +386,7 @@ Creates an implementation of the [Page](../../com.groupdocs.viewer.results/page)
 | height | int | The height of the page. |
 
 **Returns:**
-[Page](../../com.groupdocs.viewer.results/page) - A new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
+[Page](../../com.groupdocs.viewer.results/page) - a new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
 ### newPage(int number, boolean visible, int width, int height) {#newPage-int-boolean-int-int-}
 ```
 public Page newPage(int number, boolean visible, int width, int height)
@@ -404,7 +404,7 @@ Creates an implementation of the [Page](../../com.groupdocs.viewer.results/page)
 | height | int | The height of the page. |
 
 **Returns:**
-[Page](../../com.groupdocs.viewer.results/page) - A new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
+[Page](../../com.groupdocs.viewer.results/page) - a new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
 ### newPage(int number, String name, boolean visible, int width, int height, List<Line> lines) {#newPage-int-java.lang.String-boolean-int-int-java.util.List-com.groupdocs.viewer.results.Line--}
 ```
 public Page newPage(int number, String name, boolean visible, int width, int height, List<Line> lines)
@@ -424,7 +424,7 @@ Creates an implementation of the [Page](../../com.groupdocs.viewer.results/page)
 | lines | java.util.List<com.groupdocs.viewer.results.Line> | The lines contained in the page. |
 
 **Returns:**
-[Page](../../com.groupdocs.viewer.results/page) - A new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
+[Page](../../com.groupdocs.viewer.results/page) - a new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
 ### newPage(int number, boolean visible, int width, int height, List<Line> lines) {#newPage-int-boolean-int-int-java.util.List-com.groupdocs.viewer.results.Line--}
 ```
 public Page newPage(int number, boolean visible, int width, int height, List<Line> lines)
@@ -443,7 +443,7 @@ Creates an implementation of the [Page](../../com.groupdocs.viewer.results/page)
 | lines | java.util.List<com.groupdocs.viewer.results.Line> | The lines contained in the page. |
 
 **Returns:**
-[Page](../../com.groupdocs.viewer.results/page) - A new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
+[Page](../../com.groupdocs.viewer.results/page) - a new instance of the [Page](../../com.groupdocs.viewer.results/page) implementation.
 ### newPdfViewInfo(FileType fileType, List<Page> pages, boolean printingAllowed) {#newPdfViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--boolean-}
 ```
 public PdfViewInfo newPdfViewInfo(FileType fileType, List<Page> pages, boolean printingAllowed)
@@ -460,7 +460,7 @@ Creates an implementation of the [PdfViewInfo](../../com.groupdocs.viewer.result
 | printingAllowed | boolean | The flag indicating whether printing is allowed. |
 
 **Returns:**
-[PdfViewInfo](../../com.groupdocs.viewer.results/pdfviewinfo) - A new instance of the [PdfViewInfo](../../com.groupdocs.viewer.results/pdfviewinfo) implementation.
+[PdfViewInfo](../../com.groupdocs.viewer.results/pdfviewinfo) - a new instance of the [PdfViewInfo](../../com.groupdocs.viewer.results/pdfviewinfo) implementation.
 ### newCadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts) {#newCadViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--java.util.List-com.groupdocs.viewer.results.Layer--java.util.List-com.groupdocs.viewer.results.Layout--}
 ```
 public CadViewInfo newCadViewInfo(FileType fileType, List<Page> pages, List<Layer> layers, List<Layout> layouts)
@@ -478,7 +478,7 @@ Creates an implementation of the [CadViewInfo](../../com.groupdocs.viewer.result
 | layouts | java.util.List<com.groupdocs.viewer.results.Layout> | The list of layouts. |
 
 **Returns:**
-[CadViewInfo](../../com.groupdocs.viewer.results/cadviewinfo) - A new instance of the [CadViewInfo](../../com.groupdocs.viewer.results/cadviewinfo) implementation.
+[CadViewInfo](../../com.groupdocs.viewer.results/cadviewinfo) - a new instance of the [CadViewInfo](../../com.groupdocs.viewer.results/cadviewinfo) implementation.
 ### newProjectManagementViewInfo(FileType fileType, List<Page> pages, Date startDate, Date endDate) {#newProjectManagementViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--java.util.Date-java.util.Date-}
 ```
 public ProjectManagementViewInfo newProjectManagementViewInfo(FileType fileType, List<Page> pages, Date startDate, Date endDate)
@@ -496,7 +496,7 @@ Creates an implementation of the [ProjectManagementViewInfo](../../com.groupdocs
 | endDate | java.util.Date | The end date. |
 
 **Returns:**
-[ProjectManagementViewInfo](../../com.groupdocs.viewer.results/projectmanagementviewinfo) - A new instance of the [ProjectManagementViewInfo](../../com.groupdocs.viewer.results/projectmanagementviewinfo) implementation.
+[ProjectManagementViewInfo](../../com.groupdocs.viewer.results/projectmanagementviewinfo) - a new instance of the [ProjectManagementViewInfo](../../com.groupdocs.viewer.results/projectmanagementviewinfo) implementation.
 ### <T>newTextElement(T value, double x, double y, double width, double height) {#-T-newTextElement-T-double-double-double-double-}
 ```
 public TextElement<T> <T>newTextElement(T value, double x, double y, double width, double height)
@@ -515,7 +515,7 @@ Creates an implementation of the [TextElement](../../com.groupdocs.viewer.result
 | height | double | The height. |
 
 **Returns:**
-[TextElement](../../com.groupdocs.viewer.results/textelement) - A new instance of the [TextElement](../../com.groupdocs.viewer.results/textelement) implementation.
+[TextElement](../../com.groupdocs.viewer.results/textelement) - a new instance of the [TextElement](../../com.groupdocs.viewer.results/textelement) implementation.
 ### newMboxViewInfo(FileType fileType, List<Page> pages, int notesCount) {#newMboxViewInfo-com.groupdocs.viewer.FileType-java.util.List-com.groupdocs.viewer.results.Page--int-}
 ```
 public MboxViewInfo newMboxViewInfo(FileType fileType, List<Page> pages, int notesCount)
@@ -532,7 +532,7 @@ Creates an implementation of the MboxViewInfo interface with the specified file 
 | notesCount | int | The notes count contained by the Lotus database storage file. |
 
 **Returns:**
-com.groupdocs.viewer.results.MboxViewInfo - A new instance of the MboxViewInfo implementation.
+com.groupdocs.viewer.results.MboxViewInfo - a new instance of the MboxViewInfo implementation.
 ### newWord(String word, double x, double y, double width, double height, List<Character> characters) {#newWord-java.lang.String-double-double-double-double-java.util.List-com.groupdocs.viewer.results.Character--}
 ```
 public Word newWord(String word, double x, double y, double width, double height, List<Character> characters)
@@ -552,4 +552,4 @@ Creates an implementation of the [Word](../../com.groupdocs.viewer.results/word)
 | characters | java.util.List<com.groupdocs.viewer.results.Character> | The characters contained by the word. |
 
 **Returns:**
-[Word](../../com.groupdocs.viewer.results/word) - A new instance of the [Word](../../com.groupdocs.viewer.results/word) implementation.
+[Word](../../com.groupdocs.viewer.results/word) - a new instance of the [Word](../../com.groupdocs.viewer.results/word) implementation.

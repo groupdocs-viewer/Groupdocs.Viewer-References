@@ -73,8 +73,6 @@ Example usage:
 | [view(ViewOptions options, int[] pageNumbers)](#view-com.groupdocs.viewer.options.ViewOptions-int...-) | Creates a view of specific document pages. |
 | [getFileInfo()](#getFileInfo--) | Returns information about the file, such as file type and a flag that indicates if the file is encrypted. |
 | [close()](#close--) | Releases the file stream and managed internal resources. |
-| [getLoadOptionsInternal()](#getLoadOptionsInternal--) |  |
-| [setLoadOptionsInternal(LoadOptions mLoadOptionsInternal)](#setLoadOptionsInternal-com.groupdocs.viewer.options.LoadOptions-) |  |
 ### Viewer(InputStream fileStream) {#Viewer-java.io.InputStream-}
 ```
 public Viewer(InputStream fileStream)
@@ -665,7 +663,7 @@ Returns attachments contained by the document.
 [How to save document attachments using GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Save+attachments
 
 **Returns:**
-java.util.List<com.groupdocs.viewer.results.Attachment> - Attachments contained by the document.
+java.util.List<com.groupdocs.viewer.results.Attachment> - attachments contained by the document.
 ### saveAttachment(Attachment attachment, OutputStream destination) {#saveAttachment-com.groupdocs.viewer.results.Attachment-java.io.OutputStream-}
 ```
 public void saveAttachment(Attachment attachment, OutputStream destination)
@@ -754,27 +752,4 @@ public final void close()
 
 
 Releases the file stream and managed internal resources.
-
-### getLoadOptionsInternal() {#getLoadOptionsInternal--}
-```
-public LoadOptions getLoadOptionsInternal()
-```
-
-
-
-
-**Returns:**
-[LoadOptions](../../com.groupdocs.viewer.options/loadoptions)
-### setLoadOptionsInternal(LoadOptions mLoadOptionsInternal) {#setLoadOptionsInternal-com.groupdocs.viewer.options.LoadOptions-}
-```
-public void setLoadOptionsInternal(LoadOptions mLoadOptionsInternal)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mLoadOptionsInternal | [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) |  |
 

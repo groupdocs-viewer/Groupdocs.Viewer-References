@@ -17,18 +17,20 @@ This exception is thrown when the requested operation is not supported. It indic
 
 | Constructor | Description |
 | --- | --- |
-| [NotSupportedException(String message)](#NotSupportedException-java.lang.String-) |  |
-| [NotSupportedException(String message, Throwable throwable)](#NotSupportedException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the  NotSupportedException  class with a specified error message. |
+| [NotSupportedException(String message)](#NotSupportedException-java.lang.String-) | Initializes a new instance of the  NotSupportedException  class with a specified error message. |
+| [NotSupportedException(String message, Throwable throwable)](#NotSupportedException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the  NotSupportedException  class with a specified error message and the cause of the exception. |
 ### NotSupportedException(String message) {#NotSupportedException-java.lang.String-}
 ```
 public NotSupportedException(String message)
 ```
 
 
+Initializes a new instance of the  NotSupportedException  class with a specified error message.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String |  |
+| message | java.lang.String | The message. |
 
 ### NotSupportedException(String message, Throwable throwable) {#NotSupportedException-java.lang.String-java.lang.Throwable-}
 ```
@@ -36,7 +38,7 @@ public NotSupportedException(String message, Throwable throwable)
 ```
 
 
-Initializes a new instance of the  NotSupportedException  class with a specified error message.
+Initializes a new instance of the  NotSupportedException  class with a specified error message and the cause of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |

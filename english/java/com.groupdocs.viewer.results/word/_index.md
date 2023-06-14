@@ -30,7 +30,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is WordImpl.
+***Note:** The default implementation of this interface is WordImpl.*
 ## Methods
 
 | Method | Description |

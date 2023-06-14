@@ -30,7 +30,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is LineImpl.
+***Note:** The default implementation of this interface is LineImpl.*
 ## Methods
 
 | Method | Description |

@@ -22,7 +22,7 @@ Example usage:
  
 ```
 
-Note: The CreateFileStream interface can be used to define different strategies for creating output file streams, such as using a FileOutputStream or any other custom stream implementation.
+***Note:** The CreateFileStream interface can be used to define different strategies for creating output file streams, such as using a FileOutputStream or any other custom stream implementation.*
 ## Methods
 
 | Method | Description |

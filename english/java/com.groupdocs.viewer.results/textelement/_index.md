@@ -13,7 +13,7 @@ Represents a generic text element.
 
 The TextElement interface defines the contract for a generic text element in the GroupDocs.Viewer component. It represents a text element with a specific type and provides methods to access and manipulate the text content.
 
-Note: The default implementation of this interface is TextElementImpl.
+***Note:** The default implementation of this interface is TextElementImpl.*
 ## Methods
 
 | Method | Description |

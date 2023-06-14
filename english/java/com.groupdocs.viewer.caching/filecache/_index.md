@@ -36,7 +36,7 @@ Example usage:
 
 To use the FileCache, you need to create an instance of this class and pass it to the ViewerSettings object. The Viewer object will then use the FileCache for caching purposes while rendering documents.
 
-Note: The FileCache is just one of the cache implementations provided by GroupDocs.Viewer. You can also implement your own custom cache by implementing the Cache interface.
+***Note:** The FileCache is just one of the cache implementations provided by GroupDocs.Viewer. You can also implement your own custom cache by implementing the Cache interface.*
 ## Constructors
 
 | Constructor | Description |

@@ -36,7 +36,7 @@ Example usage:
  
 ```
 
-Note: Not each archive type supports all options.
+***Note:** Not each archive type supports all options.*
 ## Constructors
 
 | Constructor | Description |

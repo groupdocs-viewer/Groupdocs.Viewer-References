@@ -30,4 +30,4 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is CharacterImpl.
+***Note:** The default implementation of this interface is CharacterImpl.*

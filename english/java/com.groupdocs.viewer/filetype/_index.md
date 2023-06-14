@@ -2484,7 +2484,7 @@ Retrieves the supported file types.
 
 This method returns a sequence of all the supported file types by the system. The file types represent various document formats that can be processed or recognized by the system.
 
-**Learn more**
+ **Learn more**
 
  *  Learn more about the supported document formats: [Full list of supported file formats][]
 
@@ -2492,7 +2492,7 @@ This method returns a sequence of all the supported file types by the system. Th
 [Full list of supported file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/
 
 **Returns:**
-java.util.List<com.groupdocs.viewer.FileType> - A sequence of supported file types.
+java.util.List<com.groupdocs.viewer.FileType> - a sequence of supported file types.
 ### getFileFormat() {#getFileFormat--}
 ```
 public final String getFileFormat()
@@ -2522,4 +2522,4 @@ public String toString()
 Returns a string representation of the current object.
 
 **Returns:**
-java.lang.String - A string representation of the current object.
+java.lang.String - a string representation of the current object.

@@ -36,7 +36,7 @@ Example usage:
  
 ```
 
-Note: The PngViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output PNG images.
+***Note:** The PngViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output PNG images.*
 ## Constructors
 
 | Constructor | Description |

@@ -122,7 +122,7 @@ public static SpreadsheetOptions forOnePagePerSheet()
 Creates a new instance of  SpreadsheetOptions  class for rendering one sheet into one page.
 
 **Returns:**
-[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - A new instance of  SpreadsheetOptions  class for rendering one sheet into one page.
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of  SpreadsheetOptions  class for rendering one sheet into one page.
 ### forSplitSheetIntoPages(int countRowsPerPage) {#forSplitSheetIntoPages-int-}
 ```
 public static SpreadsheetOptions forSplitSheetIntoPages(int countRowsPerPage)
@@ -137,7 +137,7 @@ Creates a new instance of  SpreadsheetOptions  class for rendering a sheet into 
 | countRowsPerPage | int | The number of rows to include in each page. |
 
 **Returns:**
-[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - A new instance of  SpreadsheetOptions  for rendering a sheet into pages.
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of  SpreadsheetOptions  for rendering a sheet into pages.
 ### forSplitSheetIntoPages(int countRowsPerPage, int countColumnsPerPage) {#forSplitSheetIntoPages-int-int-}
 ```
 public static SpreadsheetOptions forSplitSheetIntoPages(int countRowsPerPage, int countColumnsPerPage)
@@ -153,7 +153,7 @@ Initializes a new instance of the  SpreadsheetOptions  class for rendering a she
 | countColumnsPerPage | int | The number of columns to include on each page. |
 
 **Returns:**
-[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - A new instance of the  SpreadsheetOptions  class for rendering a sheet into pages.
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of the  SpreadsheetOptions  class for rendering a sheet into pages.
 ### forRenderingPrintArea() {#forRenderingPrintArea--}
 ```
 public static SpreadsheetOptions forRenderingPrintArea()
@@ -163,7 +163,7 @@ public static SpreadsheetOptions forRenderingPrintArea()
 Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only.
 
 **Returns:**
-[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - A new instance of the  SpreadsheetOptions  class for rendering print areas only.
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of the  SpreadsheetOptions  class for rendering print areas only.
 ### isOnePagePerSheet() {#isOnePagePerSheet--}
 ```
 public final boolean isOnePagePerSheet()
@@ -387,4 +387,4 @@ public static SpreadsheetOptions forRenderingByPageBreaks()
 Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only.
 
 **Returns:**
-[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - A new instance of  SpreadsheetOptions  for rendering print areas only. The behavior is similar to printing in Excel, where the worksheet is rendered by page breaks.
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of  SpreadsheetOptions  for rendering print areas only. The behavior is similar to printing in Excel, where the worksheet is rendered by page breaks.

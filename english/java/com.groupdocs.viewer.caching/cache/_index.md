@@ -37,7 +37,7 @@ Example usage:
  
 ```
 
-Note: The Cache interface allows you to implement custom cache mechanisms tailored to your specific requirements. GroupDocs.Viewer also provides built-in cache implementation such as [FileCache](../../com.groupdocs.viewer.caching/filecache).
+***Note:** The Cache interface allows you to implement custom cache mechanisms tailored to your specific requirements. GroupDocs.Viewer also provides built-in cache implementation such as [FileCache](../../com.groupdocs.viewer.caching/filecache).*
 ## Methods
 
 | Method | Description |
@@ -89,4 +89,4 @@ Returns all keys that match the specified filter.
 | filter | java.lang.String | The filter to use. |
 
 **Returns:**
-java.util.List<java.lang.String> - A list of keys that match the filter.
+java.util.List<java.lang.String> - a list of keys that match the filter.

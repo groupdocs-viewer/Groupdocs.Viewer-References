@@ -27,7 +27,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is PdfViewInfoImpl.
+***Note:** The default implementation of this interface is PdfViewInfoImpl.*
 ## Methods
 
 | Method | Description |

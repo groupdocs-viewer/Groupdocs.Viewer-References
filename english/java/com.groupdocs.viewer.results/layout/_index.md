@@ -30,7 +30,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is LayoutImpl.
+***Note:** The default implementation of this interface is LayoutImpl.*
 ## Methods
 
 | Method | Description |

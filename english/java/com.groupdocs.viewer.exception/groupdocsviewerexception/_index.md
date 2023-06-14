@@ -18,7 +18,7 @@ This exception represents generic errors that can occur during document processi
 | Constructor | Description |
 | --- | --- |
 | [GroupDocsViewerException(String message)](#GroupDocsViewerException-java.lang.String-) | Initializes a new instance of the GroupDocsViewerException class with a specified error message. |
-| [GroupDocsViewerException(Throwable cause)](#GroupDocsViewerException-java.lang.Throwable-) | Instantiates a new GroupDocsViewerException. |
+| [GroupDocsViewerException(Throwable cause)](#GroupDocsViewerException-java.lang.Throwable-) | Initializes a new instance of the GroupDocsViewerException class with a cause of the exception. |
 | [GroupDocsViewerException(String message, Throwable throwable)](#GroupDocsViewerException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the  GroupDocsViewerException  class with a specified error message. |
 ## Methods
 
@@ -44,7 +44,7 @@ public GroupDocsViewerException(Throwable cause)
 ```
 
 
-Instantiates a new GroupDocsViewerException.
+Initializes a new instance of the GroupDocsViewerException class with a cause of the exception.
 
 **Parameters:**
 | Parameter | Type | Description |

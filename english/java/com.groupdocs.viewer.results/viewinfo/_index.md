@@ -28,7 +28,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is ViewInfoImpl.
+***Note:** The default implementation of this interface is ViewInfoImpl.*
 ## Methods
 
 | Method | Description |

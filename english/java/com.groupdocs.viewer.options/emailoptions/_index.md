@@ -198,7 +198,7 @@ public String toString()
 Overrides the toString() method of the Object class.
 
 **Returns:**
-java.lang.String - A string representation of the object.
+java.lang.String - a string representation of the object.
 ### toString(ToStringStyle style) {#toString-org.apache.commons.lang3.builder.ToStringStyle-}
 ```
 public String toString(ToStringStyle style)
@@ -215,4 +215,4 @@ Returns a string representation of this object.
 | style | org.apache.commons.lang3.builder.ToStringStyle | The ToStringStyle to use for generating the string representation. |
 
 **Returns:**
-java.lang.String - A string representation of this object using the specified ToStringStyle.
+java.lang.String - a string representation of this object using the specified ToStringStyle.

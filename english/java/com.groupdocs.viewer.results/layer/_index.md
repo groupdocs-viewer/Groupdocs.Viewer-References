@@ -30,7 +30,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is LayerImpl.
+***Note:** The default implementation of this interface is LayerImpl.*
 ## Methods
 
 | Method | Description |

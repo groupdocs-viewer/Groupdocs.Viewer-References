@@ -27,7 +27,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is LotusNotesViewInfoImpl.
+***Note:** The default implementation of this interface is LotusNotesViewInfoImpl.*
 ## Methods
 
 | Method | Description |

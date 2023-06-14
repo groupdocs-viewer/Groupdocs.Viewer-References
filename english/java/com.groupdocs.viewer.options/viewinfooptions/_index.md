@@ -31,12 +31,7 @@ Example usage:
  
 ```
 
-Note: The ViewInfoOptions class implements the IMaxSizeOptions interface to provide additional settings and size constraints for view information retrieval.
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [OPTIONS](#OPTIONS) |  |
+***Note:** The ViewInfoOptions class implements the IMaxSizeOptions interface to provide additional settings and size constraints for view information retrieval.*
 ## Methods
 
 | Method | Description |
@@ -60,12 +55,6 @@ Note: The ViewInfoOptions class implements the IMaxSizeOptions interface to prov
 | [fromHtmlViewOptions(HtmlViewOptions options)](#fromHtmlViewOptions-com.groupdocs.viewer.options.HtmlViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) object. |
 | [fromPngViewOptions(PngViewOptions options)](#fromPngViewOptions-com.groupdocs.viewer.options.PngViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) object. |
 | [fromJpgViewOptions(JpgViewOptions options)](#fromJpgViewOptions-com.groupdocs.viewer.options.JpgViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) object. |
-### OPTIONS {#OPTIONS}
-```
-public static final String OPTIONS
-```
-
-
 ### isExtractText() {#isExtractText--}
 ```
 public boolean isExtractText()

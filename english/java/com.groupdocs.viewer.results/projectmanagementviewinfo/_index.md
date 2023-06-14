@@ -27,7 +27,7 @@ Example usage:
  
 ```
 
-Note: The default implementation of this interface is ProjectManagementViewInfoImpl.
+***Note:** The default implementation of this interface is ProjectManagementViewInfoImpl.*
 ## Methods
 
 | Method | Description |

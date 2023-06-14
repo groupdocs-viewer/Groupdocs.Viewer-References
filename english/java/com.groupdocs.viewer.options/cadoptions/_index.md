@@ -118,7 +118,7 @@ Initializes a new instance of the  CadOptions  class for rendering by scale fact
 | scaleFactor | float | The scale factor for rendering. Values greater than 1 will enlarge the output result, while values between 0 and 1 will make the output result smaller. |
 
 **Returns:**
-[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - A new instance of the  CadOptions  class for rendering by scale factor.
+[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - a new instance of the  CadOptions  class for rendering by scale factor.
 ### forRenderingByWidth(int width) {#forRenderingByWidth-int-}
 ```
 public static CadOptions forRenderingByWidth(int width)
@@ -133,7 +133,7 @@ Initializes a new instance of the  CadOptions  class for rendering by width.
 | width | int | The width of the output result in pixels. |
 
 **Returns:**
-[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - A new instance of the  CadOptions  class for rendering by width.
+[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - a new instance of the  CadOptions  class for rendering by width.
 ### forRenderingByHeight(int height) {#forRenderingByHeight-int-}
 ```
 public static CadOptions forRenderingByHeight(int height)
@@ -148,7 +148,7 @@ Initializes a new instance of the  CadOptions  class for rendering by height.
 | height | int | The height of the output result in pixels. |
 
 **Returns:**
-[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - A new instance of the  CadOptions  class for rendering by height.
+[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - a new instance of the  CadOptions  class for rendering by height.
 ### forRenderingByWidthAndHeight(int width, int height) {#forRenderingByWidthAndHeight-int-int-}
 ```
 public static CadOptions forRenderingByWidthAndHeight(int width, int height)
@@ -164,7 +164,7 @@ Initializes a new instance of the  CadOptions  class for rendering by width and 
 | height | int | The height of the output result in pixels. |
 
 **Returns:**
-[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - A new instance of the  CadOptions  class for rendering by width and height.
+[CadOptions](../../com.groupdocs.viewer.options/cadoptions) - a new instance of the  CadOptions  class for rendering by width and height.
 ### getScaleFactor() {#getScaleFactor--}
 ```
 public final float getScaleFactor()
@@ -364,7 +364,7 @@ Returns a string representation of this object.
 **Note:** This method overrides the default implementation of the toString() method defined in the Object class.
 
 **Returns:**
-java.lang.String - A string representation of this object.
+java.lang.String - a string representation of this object.
 ### toString(ToStringStyle style) {#toString-org.apache.commons.lang3.builder.ToStringStyle-}
 ```
 public String toString(ToStringStyle style)
@@ -381,4 +381,4 @@ Returns a string representation of this object.
 | style | org.apache.commons.lang3.builder.ToStringStyle | The ToStringStyle to use for generating the string representation. |
 
 **Returns:**
-java.lang.String - A string representation of this object using the specified ToStringStyle.
+java.lang.String - a string representation of this object using the specified ToStringStyle.

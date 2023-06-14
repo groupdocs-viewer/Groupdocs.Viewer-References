@@ -37,7 +37,7 @@ Example usage:
  
 ```
 
-Note: The  FileLogger  class provides basic logging functionality. You can extend this class to add custom log levels or additional logging features as per your requirements.
+***Note:** The  FileLogger  class provides basic logging functionality. You can extend this class to add custom log levels or additional logging features as per your requirements.*
 ## Constructors
 
 | Constructor | Description |

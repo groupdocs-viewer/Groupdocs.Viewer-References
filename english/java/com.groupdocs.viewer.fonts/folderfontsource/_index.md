@@ -159,7 +159,7 @@ public int hashCode()
 Returns the hash code for the current  FolderFontSource  object.
 
 **Returns:**
-int - A hash code for the current  FolderFontSource  object.
+int - a hash code for the current  FolderFontSource  object.
 ### toString() {#toString--}
 ```
 public String toString()
@@ -169,4 +169,4 @@ public String toString()
 Returns a string that represents the current object.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - a string that represents the current object.

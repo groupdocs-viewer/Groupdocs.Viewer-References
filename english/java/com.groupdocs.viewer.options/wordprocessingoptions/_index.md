@@ -35,7 +35,7 @@ Example usage:
 
 | Constructor | Description |
 | --- | --- |
-| [WordProcessingOptions()](#WordProcessingOptions--) |  |
+| [WordProcessingOptions()](#WordProcessingOptions--) | Initializes a new instance of the  WordProcessingOptions  class. |
 ## Methods
 
 | Method | Description |
@@ -59,6 +59,8 @@ Example usage:
 public WordProcessingOptions()
 ```
 
+
+Initializes a new instance of the  WordProcessingOptions  class.
 
 ### isRenderTrackedChanges() {#isRenderTrackedChanges--}
 ```

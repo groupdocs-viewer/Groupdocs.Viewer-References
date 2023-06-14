@@ -24,7 +24,7 @@ Example usage:
  
 ```
 
-Note: This enum is typically used to specify strategy of searching fonts in provided directory.
+***Note:** This enum is typically used to specify strategy of searching fonts in provided directory.*
 ## Fields
 
 | Field | Description |

@@ -31,7 +31,7 @@ Example usage:
  
 ```
 
-Note: The FileName class is used to work with file names and does not handle file operations or manipulation.
+***Note:** The FileName class is used to work with file names and does not handle file operations or manipulation.*
 ## Constructors
 
 | Constructor | Description |
@@ -97,4 +97,4 @@ public String toString()
 Returns a string representation of the current object.
 
 **Returns:**
-java.lang.String - A string representation of the current object.
+java.lang.String - a string representation of the current object.

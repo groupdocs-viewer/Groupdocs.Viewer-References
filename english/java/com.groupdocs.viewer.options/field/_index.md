@@ -520,4 +520,4 @@ public String toString()
 Returns a string that represents the current object.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - a string that represents the current object.
