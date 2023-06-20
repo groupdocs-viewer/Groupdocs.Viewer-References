@@ -3,7 +3,7 @@ title: PdfViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering documents into PDF format.
 type: docs
-weight: 390
+weight: 400
 url: /net/groupdocs.viewer.options/pdfviewoptions/
 ---
 ## PdfViewOptions class
@@ -36,10 +36,9 @@ public class PdfViewOptions : ViewOptions
 | [ImageMaxHeight](../../groupdocs.viewer.options/pdfviewoptions/imagemaxheight) { get; set; } | Max height of an output image in pixels. (When converting single image to HTML only) |
 | [ImageMaxWidth](../../groupdocs.viewer.options/pdfviewoptions/imagemaxwidth) { get; set; } | Max width of an output image in pixels. (When converting single image to HTML only) |
 | [ImageWidth](../../groupdocs.viewer.options/pdfviewoptions/imagewidth) { get; set; } | The width of the output image in pixels. (When converting single image to HTML only) |
-| [JpgQuality](../../groupdocs.viewer.options/pdfviewoptions/jpgquality) { get; set; } | The quality of the JPG images contained by output PDF document; Valid values are between 1 and 100; Default value is 90. |
 | [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | Mail storage data files view options. |
-| [Optimize](../../groupdocs.viewer.options/pdfviewoptions/optimize) { get; set; } | Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques. |
 | [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | The MS Outlook data files view options. |
+| [PdfOptimizationOptions](../../groupdocs.viewer.options/pdfviewoptions/pdfoptimizationoptions) { get; set; } | Reduce output PDF file size applying optimization techniques with different options. |
 | [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | The PDF documents view options. |
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | The presentation processing documents view options. |
 | [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | The project management files view options. |

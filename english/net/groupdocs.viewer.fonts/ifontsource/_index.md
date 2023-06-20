@@ -3,7 +3,7 @@ title: IFontSource
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Marker interface for the font sources.
 type: docs
-weight: 750
+weight: 760
 url: /net/groupdocs.viewer.fonts/ifontsource/
 ---
 ## IFontSource interface

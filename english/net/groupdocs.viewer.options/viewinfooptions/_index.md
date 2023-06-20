@@ -3,7 +3,7 @@ title: ViewInfoOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options used for retrieving information about view.
 type: docs
-weight: 540
+weight: 550
 url: /net/groupdocs.viewer.options/viewinfooptions/
 ---
 ## ViewInfoOptions class
