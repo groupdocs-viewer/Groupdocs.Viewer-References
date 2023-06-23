@@ -3,7 +3,7 @@ title: FromJpgViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Initializes new instance of ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on JpgViewOptionsgroupdocs.viewer.options/jpgviewoptions object.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions/
 ---
 ## ViewInfoOptions.FromJpgViewOptions method

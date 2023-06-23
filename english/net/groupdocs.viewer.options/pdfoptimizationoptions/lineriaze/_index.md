@@ -22,8 +22,10 @@ The example demonstrates a typical usage of this option.
 using (var viewer = new Viewer("sample.docx"))
 {
     PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions();
-    viewOptions.Lineriaze = true;
+    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions()
+    {
+        Lineriaze = true
+    };
 
     viewer.View(viewOptions);
 }

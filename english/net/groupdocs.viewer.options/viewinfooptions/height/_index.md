@@ -3,7 +3,7 @@ title: Height
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Image height for rendering to PNG/JPG only
 type: docs
-weight: 80
+weight: 100
 url: /net/groupdocs.viewer.options/viewinfooptions/height/
 ---
 ## ViewInfoOptions.Height property

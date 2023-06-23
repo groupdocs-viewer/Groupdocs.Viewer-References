@@ -3,7 +3,7 @@ title: MaxWidth
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Max width of the output image for rendering to PNG/JPG only
 type: docs
-weight: 100
+weight: 120
 url: /net/groupdocs.viewer.options/viewinfooptions/maxwidth/
 ---
 ## ViewInfoOptions.MaxWidth property

@@ -3,7 +3,7 @@ title: ForPngView
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Initializes new instance of ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class to retrieve information about view when rendering into PNG.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.viewer.options/viewinfooptions/forpngview/
 ---
 ## ForPngView() {#forpngview}

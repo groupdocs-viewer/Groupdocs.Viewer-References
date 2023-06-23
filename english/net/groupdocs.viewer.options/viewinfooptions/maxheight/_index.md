@@ -3,7 +3,7 @@ title: MaxHeight
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Max height of the output image for rendering to PNG/JPG only
 type: docs
-weight: 90
+weight: 110
 url: /net/groupdocs.viewer.options/viewinfooptions/maxheight/
 ---
 ## ViewInfoOptions.MaxHeight property
