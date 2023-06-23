@@ -25,22 +25,11 @@ This option is supported for any input file formats which are supported for conv
 The example demonstrates a typical usage of this option.
 
 ```csharp
-using (var viewer = new Viewer("sample.docx"))
+using (var viewer = new Viewer("cv.docx"))
 {
     PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new OptimizePdfResources();
-
-    viewer.View(viewOptions);
-}
-```
-
-PDF document can be optimized for using in web browser. Usage of this option.
-
-```csharp
-using (var viewer = new Viewer("sample.docx"))
-{
-    PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new OptimizePdfForWeb();
+    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions();
+    viewOptions.PdfOptimizationOptions.Lineriaze = true;
 
     viewer.View(viewOptions);
 }
