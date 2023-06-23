@@ -23,6 +23,7 @@ The namespace provides classes to specify additional options when rendering docu
 | [LoadOptions](./loadoptions) | Provides options that used to open the file. |
 | [MailStorageOptions](./mailstorageoptions) | Provides options for rendering Mail storage (Lotus Notes, MBox) data files. |
 | [OutlookOptions](./outlookoptions) | Provides options for rendering Outlook data files. |
+| [PdfOptimizationOptions](./pdfoptimizationoptions) | Use this class to specify PDF optimization options to apply to the output PDF file. |
 | [PdfOptions](./pdfoptions) | Provides options for rendering PDF documents. |
 | [PdfViewOptions](./pdfviewoptions) | Provides options for rendering documents into PDF format. |
 | [PngViewOptions](./pngviewoptions) | Provides options for rendering documents into PNG format. |

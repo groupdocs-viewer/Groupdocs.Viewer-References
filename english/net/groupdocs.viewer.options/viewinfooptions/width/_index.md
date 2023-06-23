@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Image width for rendering to PNG/JPG only
 type: docs
-weight: 110
+weight: 130
 url: /net/groupdocs.viewer.options/viewinfooptions/width/
 ---
 ## ViewInfoOptions.Width property

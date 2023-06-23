@@ -3,7 +3,7 @@ title: WordProcessingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
 type: docs
-weight: 590
+weight: 600
 url: /net/groupdocs.viewer.options/wordprocessingoptions/
 ---
 ## WordProcessingOptions class

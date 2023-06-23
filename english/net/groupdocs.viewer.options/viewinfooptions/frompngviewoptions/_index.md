@@ -3,7 +3,7 @@ title: FromPngViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Initializes new instance of ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on PngViewOptionsgroupdocs.viewer.options/pngviewoptions object.
 type: docs
-weight: 60
+weight: 80
 url: /net/groupdocs.viewer.options/viewinfooptions/frompngviewoptions/
 ---
 ## ViewInfoOptions.FromPngViewOptions method

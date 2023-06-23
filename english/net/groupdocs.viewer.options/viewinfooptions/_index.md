@@ -3,7 +3,7 @@ title: ViewInfoOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options used for retrieving information about view.
 type: docs
-weight: 540
+weight: 550
 url: /net/groupdocs.viewer.options/viewinfooptions/
 ---
 ## ViewInfoOptions class
@@ -49,10 +49,12 @@ public class ViewInfoOptions : BaseViewOptions, IMaxSizeOptions
 | static [ForHtmlView](../../groupdocs.viewer.options/viewinfooptions/forhtmlview#forhtmlview_1)(bool) | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class to retrieve information about view when rendering into HTML. |
 | static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview)() | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class to retrieve information about view when rendering into JPG. |
 | static [ForJpgView](../../groupdocs.viewer.options/viewinfooptions/forjpgview#forjpgview_1)(bool) | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class to retrieve information about view when rendering into JPG. |
+| static [ForPdfView](../../groupdocs.viewer.options/viewinfooptions/forpdfview)() | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class to retrieve information about view when rendering into PDF. |
 | static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview)() | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class to retrieve information about view when rendering into PNG. |
 | static [ForPngView](../../groupdocs.viewer.options/viewinfooptions/forpngview#forpngview_1)(bool) | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class to retrieve information about view when rendering into PNG. |
 | static [FromHtmlViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions)(HtmlViewOptions) | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class based on [`HtmlViewOptions`](../htmlviewoptions) object. |
 | static [FromJpgViewOptions](../../groupdocs.viewer.options/viewinfooptions/fromjpgviewoptions)(JpgViewOptions) | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class based on [`JpgViewOptions`](../jpgviewoptions) object. |
+| static [FromPdfViewOptions](../../groupdocs.viewer.options/viewinfooptions/frompdfviewoptions)(PdfViewOptions) | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class based on [`PdfViewOptions`](../pdfviewoptions) object. |
 | static [FromPngViewOptions](../../groupdocs.viewer.options/viewinfooptions/frompngviewoptions)(PngViewOptions) | Initializes new instance of [`ViewInfoOptions`](../viewinfooptions) class based on [`PngViewOptions`](../pngviewoptions) object. |
 
 ### See Also

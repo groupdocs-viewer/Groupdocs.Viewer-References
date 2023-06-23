@@ -3,7 +3,7 @@ title: ExtractText
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Indicates that text extraction is enabled.
 type: docs
-weight: 70
+weight: 90
 url: /net/groupdocs.viewer.options/viewinfooptions/extracttext/
 ---
 ## ViewInfoOptions.ExtractText property

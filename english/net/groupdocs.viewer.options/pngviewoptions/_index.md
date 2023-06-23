@@ -3,7 +3,7 @@ title: PngViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering documents into PNG format.
 type: docs
-weight: 410
+weight: 420
 url: /net/groupdocs.viewer.options/pngviewoptions/
 ---
 ## PngViewOptions class
