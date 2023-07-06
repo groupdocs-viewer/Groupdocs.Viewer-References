@@ -40,6 +40,8 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
+| [getPageSize()](#getPageSize--) | Retrieves the page size for rendering HTM and HTML files. |
+| [setPageSize(PageSize pageSize)](#setPageSize-com.groupdocs.viewer.options.PageSize-) | Sets the page size for rendering HTM and HTML files. |
 | [isRenderTrackedChanges()](#isRenderTrackedChanges--) | Indicates whether tracked changes (revisions) rendering is enabled. |
 | [setRenderTrackedChanges(boolean value)](#setRenderTrackedChanges-boolean-) | Sets whether tracked changes (revisions) rendering is enabled. |
 | [getLeftMargin()](#getLeftMargin--) | Retrieves the left page margin for HTML rendering. |
@@ -61,6 +63,37 @@ public WordProcessingOptions()
 
 
 Initializes a new instance of the  WordProcessingOptions  class.
+
+### getPageSize() {#getPageSize--}
+```
+public PageSize getPageSize()
+```
+
+
+Retrieves the page size for rendering HTM and HTML files.
+
+When using the default page size, some content may not fit into the page frame. To fit the contents, you can set a larger page size, such as A3, using [PageSize.A3](../../com.groupdocs.viewer.options/pagesize\#A3).
+
+***Note:** The default value is [PageSize.UNSPECIFIED](../../com.groupdocs.viewer.options/pagesize\#UNSPECIFIED), which means that a page size set in the page settings (Page Setup) will be used.*
+
+**Returns:**
+[PageSize](../../com.groupdocs.viewer.options/pagesize) - The size of the output page.
+### setPageSize(PageSize pageSize) {#setPageSize-com.groupdocs.viewer.options.PageSize-}
+```
+public void setPageSize(PageSize pageSize)
+```
+
+
+Sets the page size for rendering HTM and HTML files.
+
+When using the default page size, some content may not fit into the page frame. To fit the contents, you can set a larger page size, such as A3, using [PageSize.A3](../../com.groupdocs.viewer.options/pagesize\#A3).
+
+***Note:** The default value is [PageSize.UNSPECIFIED](../../com.groupdocs.viewer.options/pagesize\#UNSPECIFIED), which means that a page size set in the page settings (Page Setup) will be used.*
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageSize | [PageSize](../../com.groupdocs.viewer.options/pagesize) | The size of the output page. |
 
 ### isRenderTrackedChanges() {#isRenderTrackedChanges--}
 ```

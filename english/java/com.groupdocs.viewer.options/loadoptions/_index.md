@@ -179,7 +179,7 @@ Gets the timeout for loading external resources, such as graphics.
 This option is supported for Word Processing documents that contain external resources.
 
 **Returns:**
-int - the loading timeout.
+int - the loading timeout, milliseconds.
 ### setResourceLoadingTimeout(int resourceLoadingTimeout) {#setResourceLoadingTimeout-int-}
 ```
 public void setResourceLoadingTimeout(int resourceLoadingTimeout)
@@ -195,7 +195,7 @@ This option is supported for Word Processing documents that contain external res
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| resourceLoadingTimeout | int | The loading timeout. |
+| resourceLoadingTimeout | int | The loading timeout, milliseconds. |
 
 ### getUrlConnectTimeout() {#getUrlConnectTimeout--}
 ```

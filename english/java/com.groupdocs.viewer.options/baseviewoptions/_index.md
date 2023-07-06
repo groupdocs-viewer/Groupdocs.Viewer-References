@@ -59,6 +59,8 @@ The  BaseViewOptions  class serves as the base for rendering options in GroupDoc
 | [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) | Sets the rendering options for processing Visio files when viewing documents. |
 | [getPresentationOptions()](#getPresentationOptions--) | Retrieves the view options for processing presentation documents. |
 | [setPresentationOptions(PresentationOptions presentationOptions)](#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-) | Sets the view options for processing presentation documents. |
+| [getWebDocumentOptions()](#getWebDocumentOptions--) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents. |
+| [setWebDocumentOptions(WebDocumentOptions webDocumentOptions)](#setWebDocumentOptions-com.groupdocs.viewer.options.WebDocumentOptions-) |  |
 ### BaseViewOptions() {#BaseViewOptions--}
 ```
 public BaseViewOptions()
@@ -452,4 +454,27 @@ Sets the view options for processing presentation documents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | presentationOptions | com.groupdocs.viewer.options.PresentationOptions | The presentation view options for processing presentation documents. |
+
+### getWebDocumentOptions() {#getWebDocumentOptions--}
+```
+public WebDocumentOptions getWebDocumentOptions()
+```
+
+
+This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
+
+**Returns:**
+com.groupdocs.viewer.options.WebDocumentOptions
+### setWebDocumentOptions(WebDocumentOptions webDocumentOptions) {#setWebDocumentOptions-com.groupdocs.viewer.options.WebDocumentOptions-}
+```
+public void setWebDocumentOptions(WebDocumentOptions webDocumentOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| webDocumentOptions | com.groupdocs.viewer.options.WebDocumentOptions |  |
 
