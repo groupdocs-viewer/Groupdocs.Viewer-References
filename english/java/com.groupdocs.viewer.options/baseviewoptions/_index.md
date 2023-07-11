@@ -39,8 +39,8 @@ The  BaseViewOptions  class serves as the base for rendering options in GroupDoc
 | [getArchiveOptions()](#getArchiveOptions--) | Retrieves the archive files view options. |
 | [setArchiveOptions(ArchiveOptions value)](#setArchiveOptions-com.groupdocs.viewer.options.ArchiveOptions-) | Sets the archive files view options. |
 | [getCadOptions()](#getCadOptions--) | Retrieves the CAD drawing view options. |
-| [isCadOptionsInitialized_Internal()](#isCadOptionsInitialized-Internal--) |  |
 | [setCadOptions(CadOptions value)](#setCadOptions-com.groupdocs.viewer.options.CadOptions-) | Sets the CAD drawing view options. |
+| [isCadOptionsInitialized_Internal()](#isCadOptionsInitialized-Internal--) |  |
 | [getEmailOptions()](#getEmailOptions--) | Retrieves the email messages view options. |
 | [setEmailOptions(EmailOptions value)](#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-) | Sets the email messages view options. |
 | [getOutlookOptions()](#getOutlookOptions--) | Retrieves the MS Outlook data files view options. |
@@ -59,8 +59,8 @@ The  BaseViewOptions  class serves as the base for rendering options in GroupDoc
 | [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) | Sets the rendering options for processing Visio files when viewing documents. |
 | [getPresentationOptions()](#getPresentationOptions--) | Retrieves the view options for processing presentation documents. |
 | [setPresentationOptions(PresentationOptions presentationOptions)](#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-) | Sets the view options for processing presentation documents. |
-| [getWebDocumentOptions()](#getWebDocumentOptions--) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents. |
-| [setWebDocumentOptions(WebDocumentOptions webDocumentOptions)](#setWebDocumentOptions-com.groupdocs.viewer.options.WebDocumentOptions-) |  |
+| [getWebDocumentOptions()](#getWebDocumentOptions--) | Gets the rendering options that allow customization of the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents. |
+| [setWebDocumentOptions(WebDocumentOptions webDocumentOptions)](#setWebDocumentOptions-com.groupdocs.viewer.options.WebDocumentOptions-) | Sets the rendering options that allow customization of the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents. |
 ### BaseViewOptions() {#BaseViewOptions--}
 ```
 public BaseViewOptions()
@@ -215,16 +215,6 @@ Retrieves the CAD drawing view options.
 
 **Returns:**
 [CadOptions](../../com.groupdocs.viewer.options/cadoptions) - the CAD drawing view options.
-### isCadOptionsInitialized_Internal() {#isCadOptionsInitialized-Internal--}
-```
-public boolean isCadOptionsInitialized_Internal()
-```
-
-
-
-
-**Returns:**
-boolean
 ### setCadOptions(CadOptions value) {#setCadOptions-com.groupdocs.viewer.options.CadOptions-}
 ```
 public final void setCadOptions(CadOptions value)
@@ -238,6 +228,16 @@ Sets the CAD drawing view options.
 | --- | --- | --- |
 | value | [CadOptions](../../com.groupdocs.viewer.options/cadoptions) | The CAD drawing view options. |
 
+### isCadOptionsInitialized_Internal() {#isCadOptionsInitialized-Internal--}
+```
+public boolean isCadOptionsInitialized_Internal()
+```
+
+
+
+
+**Returns:**
+boolean
 ### getEmailOptions() {#getEmailOptions--}
 ```
 public final EmailOptions getEmailOptions()
@@ -461,20 +461,20 @@ public WebDocumentOptions getWebDocumentOptions()
 ```
 
 
-This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
+Gets the rendering options that allow customization of the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
 
 **Returns:**
-com.groupdocs.viewer.options.WebDocumentOptions
+com.groupdocs.viewer.options.WebDocumentOptions - The WebDocumentOptions object for customizing the rendering options.
 ### setWebDocumentOptions(WebDocumentOptions webDocumentOptions) {#setWebDocumentOptions-com.groupdocs.viewer.options.WebDocumentOptions-}
 ```
 public void setWebDocumentOptions(WebDocumentOptions webDocumentOptions)
 ```
 
 
-
+Sets the rendering options that allow customization of the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| webDocumentOptions | com.groupdocs.viewer.options.WebDocumentOptions |  |
+| webDocumentOptions | com.groupdocs.viewer.options.WebDocumentOptions | The WebDocumentOptions object for customizing the rendering options. |
 
