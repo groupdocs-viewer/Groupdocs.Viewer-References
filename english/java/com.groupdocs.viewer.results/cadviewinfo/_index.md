@@ -1,7 +1,7 @@
 ---
 title: CadViewInfo
 second_title: GroupDocs.Viewer for Java API Reference
-description: Represents view information for CAD drawing.
+description: Represents view information for a CAD drawing.
 type: docs
 weight: 13
 url: /java/com.groupdocs.viewer.results/cadviewinfo/
@@ -12,30 +12,46 @@ url: /java/com.groupdocs.viewer.results/cadviewinfo/
 public interface CadViewInfo extends ViewInfo
 ```
 
-Represents view information for CAD drawing. Default implementation is CadViewInfoImpl
+Represents view information for a CAD drawing.
+
+The CadViewInfo interface defines the contract for retrieving view information specific to a CAD drawing in the GroupDocs.Viewer component. It provides methods to access to CAD drawings layers.
+
+Example usage:
+
+```
+
+ try (Viewer viewer = new Viewer("document.plt")) {
+     CadViewInfo viewInfo = (CadViewInfo) viewer.getViewInfo(ViewInfoOptions.forHtmlView());
+
+     // Use the viewInfo object for further operations
+ }
+ 
+```
+
+***Note:** The default implementation of this interface is CadViewInfoImpl.*
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLayers()](#getLayers--) | The list of layers contained by the CAD drawing. |
-| [getLayouts()](#getLayouts--) | The list of layouts contained by the CAD drawing. |
+| [getLayers()](#getLayers--) | Retrieves the list of layers in the CAD drawing. |
+| [getLayouts()](#getLayouts--) | Retrieves the list of layouts contained within the CAD drawing. |
 ### getLayers() {#getLayers--}
 ```
 public abstract List<Layer> getLayers()
 ```
 
 
-The list of layers contained by the CAD drawing.
+Retrieves the list of layers in the CAD drawing.
 
 **Returns:**
-java.util.List<com.groupdocs.viewer.results.Layer>
+java.util.List<com.groupdocs.viewer.results.Layer> - the layers in the CAD drawing.
 ### getLayouts() {#getLayouts--}
 ```
 public abstract List<Layout> getLayouts()
 ```
 
 
-The list of layouts contained by the CAD drawing.
+Retrieves the list of layouts contained within the CAD drawing.
 
 **Returns:**
-java.util.List<com.groupdocs.viewer.results.Layout>
+java.util.List<com.groupdocs.viewer.results.Layout> - the layouts in the CAD drawing.

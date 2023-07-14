@@ -9,20 +9,33 @@ url: /java/com.groupdocs.viewer.options/
 
 The package provides classes to specify additional options when rendering documents.
 
+It includes options for rendering various document formats, defining permissions and security settings, specifying watermark properties, and retrieving information about views.
+
+The main classes in this package are:
+
+ *  [ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions) - Provides options for rendering archive files.
+ *  [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) - Provides options for rendering PDF documents.
+ *  [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) - Provides options for rendering word processing documents.
+
+For more details on configuring the logging system in GroupDocs.Viewer and customizing the log message handling, please refer to the [GroupDocs.Viewer Documentation][].
+
+
+[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
 | [ArchiveOptions](../com.groupdocs.viewer.options/archiveoptions) | Provides options for rendering archive files. |
-| [ArchiveSecurityOptions](../com.groupdocs.viewer.options/archivesecurityoptions) | Class that can be used to limit archives extraction process. |
-| [BaseViewOptions](../com.groupdocs.viewer.options/baseviewoptions) | Provides base rendering options. |
+| [ArchiveSecurityOptions](../com.groupdocs.viewer.options/archivesecurityoptions) | Class that can be used to limit the archives extraction process. |
+| [BaseViewOptions](../com.groupdocs.viewer.options/baseviewoptions) | Class that provides base rendering options. |
 | [CadOptions](../com.groupdocs.viewer.options/cadoptions) | Provides options for rendering CAD drawings. |
 | [EmailOptions](../com.groupdocs.viewer.options/emailoptions) | Provides options for rendering email messages. |
-| [FileName](../com.groupdocs.viewer.options/filename) | Represents name of simple file |
+| [FileName](../com.groupdocs.viewer.options/filename) | Represents the name of a file in an archive. |
 | [HtmlViewOptions](../com.groupdocs.viewer.options/htmlviewoptions) | Provides options for rendering documents into HTML format. |
 | [JpgViewOptions](../com.groupdocs.viewer.options/jpgviewoptions) | Provides options for rendering documents into JPG format. |
-| [LoadOptions](../com.groupdocs.viewer.options/loadoptions) | Provides options that used to open the file. |
+| [LoadOptions](../com.groupdocs.viewer.options/loadoptions) | Provides options that are used to open a file. |
 | [MailStorageOptions](../com.groupdocs.viewer.options/mailstorageoptions) | Provides options for rendering Mail storage (Lotus Notes, MBox) data files. |
 | [OutlookOptions](../com.groupdocs.viewer.options/outlookoptions) | Provides options for rendering Outlook data files. |
 | [PdfOptions](../com.groupdocs.viewer.options/pdfoptions) | Provides options for rendering PDF documents. |

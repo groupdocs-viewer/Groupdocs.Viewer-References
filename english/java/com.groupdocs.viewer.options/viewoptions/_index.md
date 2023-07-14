@@ -13,6 +13,10 @@ public abstract class ViewOptions extends BaseViewOptions
 ```
 
 Provides rendering options.
+
+The ViewOptions class extends the BaseViewOptions class and serves as a base class for rendering options in the GroupDocs.Viewer component. It encapsulates common settings and parameters that can be used for rendering various types of documents into different formats.
+
+***Note:** The ViewOptions class should not be used directly, use [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions), [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions), [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) and so on instead.*
 ## Constructors
 
 | Constructor | Description |
@@ -22,10 +26,10 @@ Provides rendering options.
 
 | Method | Description |
 | --- | --- |
-| [getWatermark()](#getWatermark--) | The text watermark applied to each page. |
-| [setWatermark(Watermark value)](#setWatermark-com.groupdocs.viewer.options.Watermark-) | The text watermark applied to each page. |
-| [rotatePage(int pageNumber, Rotation rotation)](#rotatePage-int-com.groupdocs.viewer.options.Rotation-) | Applies clockwise rotation to the page. |
-| [getPageRotations()](#getPageRotations--) | The page rotations. |
+| [getWatermark()](#getWatermark--) | Gets the text watermark applied to each page. |
+| [setWatermark(Watermark value)](#setWatermark-com.groupdocs.viewer.options.Watermark-) | Sets the text watermark to be applied to each page. |
+| [rotatePage(int pageNumber, Rotation rotation)](#rotatePage-int-com.groupdocs.viewer.options.Rotation-) | Applies a clockwise rotation to the specified page. |
+| [getPageRotations()](#getPageRotations--) | Retrieves the page rotations. |
 | [isPageRotationsInitialized_Internal()](#isPageRotationsInitialized-Internal--) | To prevent creating the instance just to check that it is empty |
 ### ViewOptions() {#ViewOptions--}
 ```
@@ -39,30 +43,26 @@ public final Watermark getWatermark()
 ```
 
 
-The text watermark applied to each page.
+Gets the text watermark applied to each page.
 
---------------------
-
-In case both \#setWatermark(Watermark).setWatermark(Watermark) and \#getPageRotations().getPageRotations() are specified than watermark will be applied to the rotated pages.
+In case both \#setWatermark(Watermark).setWatermark(Watermark) and \#getPageRotations().getPageRotations() are specified, the watermark will be applied to the rotated pages.
 
 **Returns:**
-[Watermark](../../com.groupdocs.viewer.options/watermark)
+[Watermark](../../com.groupdocs.viewer.options/watermark) - the text watermark applied to each page.
 ### setWatermark(Watermark value) {#setWatermark-com.groupdocs.viewer.options.Watermark-}
 ```
 public final void setWatermark(Watermark value)
 ```
 
 
-The text watermark applied to each page.
+Sets the text watermark to be applied to each page.
 
---------------------
-
-In case both  ViewOptions.Watermark  and \#getPageRotations().getPageRotations() are specified than watermark will be applied to the rotated pages.
+In case both  ViewOptions.Watermark  and \#getPageRotations().getPageRotations() are specified, the watermark will be applied to the rotated pages.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Watermark](../../com.groupdocs.viewer.options/watermark) |  |
+| value | [Watermark](../../com.groupdocs.viewer.options/watermark) | The text watermark to be set. |
 
 ### rotatePage(int pageNumber, Rotation rotation) {#rotatePage-int-com.groupdocs.viewer.options.Rotation-}
 ```
@@ -70,7 +70,7 @@ public final void rotatePage(int pageNumber, Rotation rotation)
 ```
 
 
-Applies clockwise rotation to the page.
+Applies a clockwise rotation to the specified page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -84,12 +84,12 @@ public Map<Integer,Rotation> getPageRotations()
 ```
 
 
-The page rotations.
+Retrieves the page rotations.
 
-In case both ([setWatermark(Watermark)](../../com.groupdocs.viewer.options/viewoptions\#setWatermark-Watermark-)/getPageRotations()) are specified than watermark will be applied to the rotated pages.
+If both [setWatermark(Watermark)](../../com.groupdocs.viewer.options/viewoptions\#setWatermark-Watermark-) and  getPageRotations()  are specified, the watermark will be applied to the rotated pages.
 
 **Returns:**
-java.util.Map<java.lang.Integer,com.groupdocs.viewer.options.Rotation>
+java.util.Map<java.lang.Integer,com.groupdocs.viewer.options.Rotation> - a map containing the page numbers as keys and their corresponding rotations as values.
 ### isPageRotationsInitialized_Internal() {#isPageRotationsInitialized-Internal--}
 ```
 public boolean isPageRotationsInitialized_Internal()

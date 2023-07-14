@@ -13,6 +13,27 @@ public enum Position extends Enum<Position>
 ```
 
 Defines watermark position.
+
+The Position enum represents different positions for a watermark in the GroupDocs.Viewer component. It provides a set of predefined positions that can be used to specify the placement of a watermark on a document or image during the rendering process.
+
+Example usage:
+
+```
+
+ Watermark watermark = new Watermark("Watermark");
+ watermark.setPosition(Position.DIAGONAL);
+ watermark.setColor(java.awt.Color.GREEN);
+ watermark.setSize(Size.HALF_SIZE);
+
+ PdfViewOptions pdfViewOptions = new PdfViewOptions();
+ pdfViewOptions.setWatermark(watermark);
+
+ try (Viewer viewer = new Viewer("document.docx")) {
+     viewer.view(pdfViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -36,7 +57,7 @@ public static final Position DIAGONAL
 ```
 
 
-The diagonal position.
+The diagonal position. This position represents a diagonal alignment or placement.
 
 ### TOP_LEFT {#TOP-LEFT}
 ```
@@ -44,7 +65,7 @@ public static final Position TOP_LEFT
 ```
 
 
-The top left position.
+The top left position. This position represents the top left corner alignment or placement.
 
 ### TOP_CENTER {#TOP-CENTER}
 ```
@@ -52,7 +73,7 @@ public static final Position TOP_CENTER
 ```
 
 
-The top center position.
+The top center position. This position represents the top center alignment or placement.
 
 ### TOP_RIGHT {#TOP-RIGHT}
 ```
@@ -60,7 +81,7 @@ public static final Position TOP_RIGHT
 ```
 
 
-The top right position.
+The top right position. This position represents the top right corner alignment or placement.
 
 ### BOTTOM_LEFT {#BOTTOM-LEFT}
 ```
@@ -68,7 +89,7 @@ public static final Position BOTTOM_LEFT
 ```
 
 
-The bottom left position.
+The bottom left position. This position represents the bottom left corner alignment or placement.
 
 ### BOTTOM_CENTER {#BOTTOM-CENTER}
 ```
@@ -76,7 +97,7 @@ public static final Position BOTTOM_CENTER
 ```
 
 
-The bottom center position.
+The bottom center position. This position represents the bottom center alignment or placement.
 
 ### BOTTOM_RIGHT {#BOTTOM-RIGHT}
 ```
@@ -84,7 +105,7 @@ public static final Position BOTTOM_RIGHT
 ```
 
 
-The bottom right position.
+The bottom right position. This position represents the bottom right corner alignment or placement.
 
 ### values() {#values--}
 ```

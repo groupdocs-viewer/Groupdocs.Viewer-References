@@ -1,7 +1,7 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Viewer for Java API Reference
-description: Provides options that used to open the file.
+description: Provides options that are used to open a file.
 type: docs
 weight: 18
 url: /java/com.groupdocs.viewer.options/loadoptions/
@@ -12,13 +12,30 @@ java.lang.Object
 public class LoadOptions
 ```
 
-Provides options that used to open the file.
+Provides options that are used to open a file.
+
+The LoadOptions class encapsulates various settings and parameters that can be used to specify how a file should be opened and loaded in the GroupDocs.Viewer component.
+
+Example usage:
+
+```
+
+ LoadOptions options = new LoadOptions();
+ options.setPassword("myPassword");
+ options.setFileType(PDF);
+ options.setCharset(Charset.forName("UTF-8"));
+
+ try (Viewer viewer = new Viewer(pdfFileInputStream, options)) {
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [LoadOptions()](#LoadOptions--) | Initializes new instance of [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) class. |
-| [LoadOptions(FileType fileType)](#LoadOptions-com.groupdocs.viewer.FileType-) | Initializes new instance of [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) class. |
+| [LoadOptions()](#LoadOptions--) | Initializes a new instance of the  LoadOptions  class. |
+| [LoadOptions(FileType fileType)](#LoadOptions-com.groupdocs.viewer.FileType-) | Initializes a new instance of the  LoadOptions  class. |
 ## Fields
 
 | Field | Description |
@@ -29,27 +46,27 @@ Provides options that used to open the file.
 
 | Method | Description |
 | --- | --- |
-| [getFileType()](#getFileType--) | The type of the file to open. |
-| [setFileType(FileType value)](#setFileType-com.groupdocs.viewer.FileType-) | The type of the file to open. |
-| [getPassword()](#getPassword--) | The password for opening encrypted file. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | The password for opening encrypted file. |
-| [getCharset()](#getCharset--) | The Charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
-| [setCharset(Charset value)](#setCharset-java.nio.charset.Charset-) | The Charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
-| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | The external resources e.g. graphics loading timeout. |
-| [setResourceLoadingTimeout(int resourceLoadingTimeout)](#setResourceLoadingTimeout-int-) | The external resources e.g. graphics loading timeout. |
-| [getUrlConnectTimeout()](#getUrlConnectTimeout--) | Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds |
-| [setUrlConnectTimeout(int urlConnectTimeout)](#setUrlConnectTimeout-int-) | Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds |
-| [getUrlReadTimeout()](#getUrlReadTimeout--) | Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds |
-| [setUrlReadTimeout(int urlReadTimeout)](#setUrlReadTimeout-int-) | Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds |
-| [getArchiveSecurityOptions()](#getArchiveSecurityOptions--) | Security options to control the process of extracting archives. |
-| [setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)](#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-) | Security options to control the process of extracting archives. |
+| [getFileType()](#getFileType--) | Gets the type of the file to open. |
+| [setFileType(FileType value)](#setFileType-com.groupdocs.viewer.FileType-) | Sets the type of the file to open. |
+| [getPassword()](#getPassword--) | Gets the password for opening an encrypted file. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted file. |
+| [getCharset()](#getCharset--) | Gets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
+| [setCharset(Charset value)](#setCharset-java.nio.charset.Charset-) | Sets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
+| [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Gets the timeout for loading external resources, such as graphics. |
+| [setResourceLoadingTimeout(int resourceLoadingTimeout)](#setResourceLoadingTimeout-int-) | Sets the timeout for loading external resources, such as graphics. |
+| [getUrlConnectTimeout()](#getUrlConnectTimeout--) | Gets the connection timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document. |
+| [setUrlConnectTimeout(int urlConnectTimeout)](#setUrlConnectTimeout-int-) | Sets the connection timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document. |
+| [getUrlReadTimeout()](#getUrlReadTimeout--) | Gets the read timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document. |
+| [setUrlReadTimeout(int urlReadTimeout)](#setUrlReadTimeout-int-) | Sets the read timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document. |
+| [getArchiveSecurityOptions()](#getArchiveSecurityOptions--) | Gets the security options to control the process of extracting archives. |
+| [setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)](#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-) | Sets the security options to control the process of extracting archives. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
 ```
 
 
-Initializes new instance of [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) class.
+Initializes a new instance of the  LoadOptions  class.
 
 ### LoadOptions(FileType fileType) {#LoadOptions-com.groupdocs.viewer.FileType-}
 ```
@@ -57,7 +74,7 @@ public LoadOptions(FileType fileType)
 ```
 
 
-Initializes new instance of [LoadOptions](../../com.groupdocs.viewer.options/loadoptions) class.
+Initializes a new instance of the  LoadOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -82,22 +99,22 @@ public final FileType getFileType()
 ```
 
 
-The type of the file to open.
+Gets the type of the file to open.
 
 **Returns:**
-[FileType](../../com.groupdocs.viewer/filetype)
+[FileType](../../com.groupdocs.viewer/filetype) - the file type.
 ### setFileType(FileType value) {#setFileType-com.groupdocs.viewer.FileType-}
 ```
 public final void setFileType(FileType value)
 ```
 
 
-The type of the file to open.
+Sets the type of the file to open.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FileType](../../com.groupdocs.viewer/filetype) |  |
+| value | [FileType](../../com.groupdocs.viewer/filetype) | The file type. |
 
 ### getPassword() {#getPassword--}
 ```
@@ -105,22 +122,22 @@ public final String getPassword()
 ```
 
 
-The password for opening encrypted file.
+Gets the password for opening an encrypted file.
 
 **Returns:**
-java.lang.String
+java.lang.String - the password for opening the file.
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```
 public final void setPassword(String value)
 ```
 
 
-The password for opening encrypted file.
+Sets the password for opening an encrypted file.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String |  |
+| value | java.lang.String | The password for opening the file. |
 
 ### getCharset() {#getCharset--}
 ```
@@ -128,22 +145,26 @@ public final Charset getCharset()
 ```
 
 
-The Charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). Default value is (Charset\#defaultCharset().defaultCharset()\}).
+Gets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
+
+***Note:** The default value is Charset\#defaultCharset().defaultCharset().*
 
 **Returns:**
-java.nio.charset.Charset
+java.nio.charset.Charset - the charset used for opening text-based files or email messages.
 ### setCharset(Charset value) {#setCharset-java.nio.charset.Charset-}
 ```
 public final void setCharset(Charset value)
 ```
 
 
-The Charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). Default value is (Charset\#defaultCharset().defaultCharset()).
+Sets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
+
+***Note:** The default value is Charset\#defaultCharset().defaultCharset().*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.nio.charset.Charset |  |
+| value | java.nio.charset.Charset | The charset used for opening text-based files or email messages. |
 
 ### getResourceLoadingTimeout() {#getResourceLoadingTimeout--}
 ```
@@ -151,22 +172,30 @@ public int getResourceLoadingTimeout()
 ```
 
 
-The external resources e.g. graphics loading timeout. The default value is 30 seconds. This option is supported for Word Processing documents that contain external resources.
+Gets the timeout for loading external resources, such as graphics.
+
+***Note:** The default value is 30 seconds.*
+
+This option is supported for Word Processing documents that contain external resources.
 
 **Returns:**
-int - loading timeout
+int - the loading timeout, milliseconds.
 ### setResourceLoadingTimeout(int resourceLoadingTimeout) {#setResourceLoadingTimeout-int-}
 ```
 public void setResourceLoadingTimeout(int resourceLoadingTimeout)
 ```
 
 
-The external resources e.g. graphics loading timeout. The default value is 30 seconds. This option is supported for Word Processing documents that contain external resources.
+Sets the timeout for loading external resources, such as graphics.
+
+***Note:** The default value is 30 seconds.*
+
+This option is supported for Word Processing documents that contain external resources.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| resourceLoadingTimeout | int | loading timeout |
+| resourceLoadingTimeout | int | The loading timeout, milliseconds. |
 
 ### getUrlConnectTimeout() {#getUrlConnectTimeout--}
 ```
@@ -174,22 +203,26 @@ public int getUrlConnectTimeout()
 ```
 
 
-Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds
+Gets the connection timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document.
+
+***Note:** The default value is 5 seconds.*
 
 **Returns:**
-int - connect timeout
+int - the connection timeout.
 ### setUrlConnectTimeout(int urlConnectTimeout) {#setUrlConnectTimeout-int-}
 ```
 public void setUrlConnectTimeout(int urlConnectTimeout)
 ```
 
 
-Connect timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 5 seconds
+Sets the connection timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document.
+
+***Note:** The default value is 5 seconds.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| urlConnectTimeout | int | connect timeout |
+| urlConnectTimeout | int | The connection timeout. |
 
 ### getUrlReadTimeout() {#getUrlReadTimeout--}
 ```
@@ -197,22 +230,26 @@ public int getUrlReadTimeout()
 ```
 
 
-Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds
+Gets the read timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document.
+
+***Note:** The default value is 30 seconds.*
 
 **Returns:**
-int - read timeout
+int - the read timeout.
 ### setUrlReadTimeout(int urlReadTimeout) {#setUrlReadTimeout-int-}
 ```
 public void setUrlReadTimeout(int urlReadTimeout)
 ```
 
 
-Read timeout to create [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load document, default value is 30 seconds
+Sets the read timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document.
+
+***Note:** The default value is 30 seconds.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| urlReadTimeout | int | read timeout |
+| urlReadTimeout | int | The read timeout. |
 
 ### getArchiveSecurityOptions() {#getArchiveSecurityOptions--}
 ```
@@ -220,17 +257,21 @@ public ArchiveSecurityOptions getArchiveSecurityOptions()
 ```
 
 
-Security options to control the process of extracting archives. Not each archive type supports all options.
+Gets the security options to control the process of extracting archives.
+
+***Note:** Not each archive type supports all options.*
 
 **Returns:**
-com.groupdocs.viewer.options.ArchiveSecurityOptions - The options object to configure the process of extracting archives.
+com.groupdocs.viewer.options.ArchiveSecurityOptions - the options object to configure the process of extracting archives.
 ### setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions) {#setArchiveSecurityOptions-com.groupdocs.viewer.options.ArchiveSecurityOptions-}
 ```
 public void setArchiveSecurityOptions(ArchiveSecurityOptions archiveSecurityOptions)
 ```
 
 
-Security options to control the process of extracting archives. Not each archive type supports all options.
+Sets the security options to control the process of extracting archives.
+
+***Note:** Not each archive type supports all options.*
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -13,6 +13,24 @@ public enum Rotation extends Enum<Rotation>
 ```
 
 Defines page rotation in degrees.
+
+The Rotation enum represents different rotation angles for a page in the GroupDocs.Viewer component. It provides a set of predefined rotation options that can be used to specify the rotation angle for rendering a page in various document viewing or conversion scenarios.
+
+Example usage:
+
+```
+
+ PdfViewOptions pdfViewOptions = new PdfViewOptions();
+
+ pdfViewOptions.rotatePage(1, Rotation.ON_90_DEGREE);
+ pdfViewOptions.rotatePage(2, Rotation.ON_180_DEGREE);
+
+ try (Viewer viewer = new Viewer("document.docx")) {
+     viewer.view(pdfViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -32,7 +50,7 @@ public static final Rotation ON_90_DEGREE
 ```
 
 
-The 90 degree page rotation.
+The 90 degree page rotation. This rotation represents a 90-degree clockwise rotation of the page.
 
 ### ON_180_DEGREE {#ON-180-DEGREE}
 ```
@@ -40,7 +58,7 @@ public static final Rotation ON_180_DEGREE
 ```
 
 
-The 180 degree page rotation.
+The 180 degree page rotation. This rotation represents a 180-degree clockwise rotation of the page.
 
 ### ON_270_DEGREE {#ON-270-DEGREE}
 ```
@@ -48,7 +66,7 @@ public static final Rotation ON_270_DEGREE
 ```
 
 
-The 270 degree page rotation.
+The 270 degree page rotation. This rotation represents a 270-degree clockwise rotation of the page.
 
 ### values() {#values--}
 ```

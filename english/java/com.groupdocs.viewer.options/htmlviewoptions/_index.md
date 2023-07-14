@@ -13,6 +13,23 @@ public class HtmlViewOptions extends ViewOptions
 ```
 
 Provides options for rendering documents into HTML format.
+
+The HtmlViewOptions class encapsulates additional settings and parameters that can be used to control the rendering of documents into HTML format in the GroupDocs.Viewer component.
+
+Example usage:
+
+```
+
+ HtmlViewOptions options = HtmlViewOptions.forEmbeddedResources();
+ options.setExcludeFonts(true);
+ options.setFontsToExclude(Arrays.asList("font-name"));
+
+ try (Viewer viewer = new Viewer("document.docx")) {
+     viewer.view(options);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -23,39 +40,39 @@ Provides options for rendering documents into HTML format.
 
 | Method | Description |
 | --- | --- |
-| [getImageMaxWidth()](#getImageMaxWidth--) | Max width of an output image in pixels. |
-| [setImageMaxWidth(int imageMaxWidth)](#setImageMaxWidth-int-) | Max width of an output image in pixels. |
-| [getImageMaxHeight()](#getImageMaxHeight--) | Max height of an output image in pixels. |
-| [setImageMaxHeight(int imageMaxHeight)](#setImageMaxHeight-int-) | Max height of an output image in pixels. |
-| [getImageWidth()](#getImageWidth--) | The width of the output image in pixels. |
-| [setImageWidth(int imageWidth)](#setImageWidth-int-) | The width of the output image in pixels. |
-| [getImageHeight()](#getImageHeight--) | The height of an output image in pixels. |
-| [setImageHeight(int imageHeight)](#setImageHeight-int-) | The height of an output image in pixels. |
-| [forEmbeddedResources(CreatePageStream createPageStream)](#forEmbeddedResources-com.groupdocs.viewer.interfaces.CreatePageStream-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources. |
-| [forEmbeddedResources(CreatePageStream createPageStream, ReleasePageStream releasePageStream)](#forEmbeddedResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources. |
-| [forEmbeddedResources(PageStreamFactory pageStreamFactory)](#forEmbeddedResources-com.groupdocs.viewer.interfaces.PageStreamFactory-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources. |
-| [forEmbeddedResources()](#forEmbeddedResources--) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
-| [forEmbeddedResources(String filePathFormat)](#forEmbeddedResources-java.lang.String-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
-| [forEmbeddedResources(Path filePathFormat)](#forEmbeddedResources-java.nio.file.Path-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
-| [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
-| [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-com.groupdocs.viewer.interfaces.ReleasePageStream-com.groupdocs.viewer.interfaces.ReleaseResourceStream-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
-| [forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory)](#forExternalResources-com.groupdocs.viewer.interfaces.PageStreamFactory-com.groupdocs.viewer.interfaces.ResourceStreamFactory-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources. |
-| [forExternalResources()](#forExternalResources--) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
-| [forExternalResources(String filePathFormat, String resourceFilePathFormat, String resourceUrlFormat)](#forExternalResources-java.lang.String-java.lang.String-java.lang.String-) | Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class. |
-| [isRenderResponsive()](#isRenderResponsive--) | Enables responsive rendering; Responsive web-pages render well on a devices with different screen size. |
-| [setRenderResponsive(boolean value)](#setRenderResponsive-boolean-) | Enables responsive rendering; Responsive web-pages render well on a devices with different screen size. |
-| [isMinify()](#isMinify--) | Enables HTML content and HTML resources minification. |
-| [setMinify(boolean value)](#setMinify-boolean-) | Enables HTML content and HTML resources minification. |
-| [setRenderToSinglePage(boolean renderSinglePage)](#setRenderToSinglePage-boolean-) | Enables HTML content will be rendered to single page |
-| [isRenderToSinglePage()](#isRenderToSinglePage--) | Enables HTML content will be rendered to single page |
-| [isExcludeFonts()](#isExcludeFonts--) | When enabled prevents adding any fonts into HTML document. |
-| [setExcludeFonts(boolean value)](#setExcludeFonts-boolean-) | When enabled prevents adding any fonts into HTML document. |
-| [getFontsToExclude()](#getFontsToExclude--) | The list of font names, to exclude from HTML document. |
-| [setFontsToExclude(List<String> value)](#setFontsToExclude-java.util.List-java.lang.String--) | The list of font names, to exclude from HTML document. |
-| [isForPrinting()](#isForPrinting--) | Indicates whether to optimize output HTML for printing. |
-| [setForPrinting(boolean value)](#setForPrinting-boolean-) | Indicates whether to optimize output HTML for printing. |
-| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Callback to estimate Words or Email document saving progress |
-| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Callback to estimate Words or Email document saving progress |
+| [getImageMaxWidth()](#getImageMaxWidth--) | Returns the maximum width of an output image in pixels. |
+| [setImageMaxWidth(int imageMaxWidth)](#setImageMaxWidth-int-) | Sets the maximum width of an output image in pixels. |
+| [getImageMaxHeight()](#getImageMaxHeight--) | Gets the maximum height of an output image in pixels. |
+| [setImageMaxHeight(int imageMaxHeight)](#setImageMaxHeight-int-) | Sets the maximum height of an output image in pixels. |
+| [getImageWidth()](#getImageWidth--) | Gets the width of the output image in pixels. |
+| [setImageWidth(int imageWidth)](#setImageWidth-int-) | Sets the width of the output image in pixels. |
+| [getImageHeight()](#getImageHeight--) | Gets the height of the output image in pixels when converting a single image to HTML. |
+| [setImageHeight(int imageHeight)](#setImageHeight-int-) | Sets the height of the output image in pixels when converting a single image to HTML. |
+| [forEmbeddedResources(CreatePageStream createPageStream)](#forEmbeddedResources-com.groupdocs.viewer.interfaces.CreatePageStream-) | Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources. |
+| [forEmbeddedResources(CreatePageStream createPageStream, ReleasePageStream releasePageStream)](#forEmbeddedResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-) | Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources. |
+| [forEmbeddedResources(PageStreamFactory pageStreamFactory)](#forEmbeddedResources-com.groupdocs.viewer.interfaces.PageStreamFactory-) | Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources. |
+| [forEmbeddedResources()](#forEmbeddedResources--) | Initializes a new instance of the  HtmlViewOptions  class. |
+| [forEmbeddedResources(String filePathFormat)](#forEmbeddedResources-java.lang.String-) | Initializes a new instance of the  HtmlViewOptions  class. |
+| [forEmbeddedResources(Path filePathFormat)](#forEmbeddedResources-java.nio.file.Path-) | Initializes a new instance of the  HtmlViewOptions  class. |
+| [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-) | Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources. |
+| [forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream)](#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-com.groupdocs.viewer.interfaces.ReleasePageStream-com.groupdocs.viewer.interfaces.ReleaseResourceStream-) | Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources. |
+| [forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory)](#forExternalResources-com.groupdocs.viewer.interfaces.PageStreamFactory-com.groupdocs.viewer.interfaces.ResourceStreamFactory-) | Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources. |
+| [forExternalResources()](#forExternalResources--) | Initializes new instance of  HtmlViewOptions  class. |
+| [forExternalResources(String filePathFormat, String resourceFilePathFormat, String resourceUrlFormat)](#forExternalResources-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of the  HtmlViewOptions  class. |
+| [isRenderResponsive()](#isRenderResponsive--) | Determines whether responsive rendering is enabled. |
+| [setRenderResponsive(boolean value)](#setRenderResponsive-boolean-) | Sets whether responsive rendering is enabled. |
+| [isMinify()](#isMinify--) | Checks if HTML content and HTML resources minification is enabled. |
+| [setMinify(boolean value)](#setMinify-boolean-) | Sets whether HTML content and HTML resources minification is enabled. |
+| [setRenderToSinglePage(boolean renderSinglePage)](#setRenderToSinglePage-boolean-) | Sets whether HTML content will be rendered to a single page. |
+| [isRenderToSinglePage()](#isRenderToSinglePage--) | Determines whether HTML content will be rendered to a single page. |
+| [isExcludeFonts()](#isExcludeFonts--) | Determines whether to exclude fonts from the HTML document. |
+| [setExcludeFonts(boolean value)](#setExcludeFonts-boolean-) | Sets whether to exclude fonts from the HTML document. |
+| [getFontsToExclude()](#getFontsToExclude--) | Retrieves the list of font names to exclude from the HTML document. |
+| [setFontsToExclude(List<String> value)](#setFontsToExclude-java.util.List-java.lang.String--) | Sets the list of font names to exclude from the HTML document. |
+| [isForPrinting()](#isForPrinting--) | Checks if the output HTML should be optimized for printing. |
+| [setForPrinting(boolean value)](#setForPrinting-boolean-) | Sets whether the output HTML should be optimized for printing. |
+| [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Retrieves the callback used to estimate the saving progress of a Words or Email document. |
+| [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Sets the callback used to estimate the saving progress of a Words or Email document. |
 ### CREATE_PAGE_STREAM {#CREATE-PAGE-STREAM}
 ```
 public static final String CREATE_PAGE_STREAM
@@ -74,22 +91,26 @@ public int getImageMaxWidth()
 ```
 
 
-Max width of an output image in pixels. (When converting single image to HTML only)
+Returns the maximum width of an output image in pixels.
+
+**Note:** This value is used when converting a single image to HTML.
 
 **Returns:**
-int
+int - the maximum width of an output image.
 ### setImageMaxWidth(int imageMaxWidth) {#setImageMaxWidth-int-}
 ```
 public void setImageMaxWidth(int imageMaxWidth)
 ```
 
 
-Max width of an output image in pixels. (When converting single image to HTML only)
+Sets the maximum width of an output image in pixels.
+
+**Note:** This value is used when converting a single image to HTML.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageMaxWidth | int |  |
+| imageMaxWidth | int | The maximum width of an output image. |
 
 ### getImageMaxHeight() {#getImageMaxHeight--}
 ```
@@ -97,22 +118,26 @@ public int getImageMaxHeight()
 ```
 
 
-Max height of an output image in pixels. (When converting single image to HTML only)
+Gets the maximum height of an output image in pixels.
+
+**Note:** This option applies when converting a single image to HTML. It specifies the maximum height of the output image.
 
 **Returns:**
-int
+int - the maximum height of an output image.
 ### setImageMaxHeight(int imageMaxHeight) {#setImageMaxHeight-int-}
 ```
 public void setImageMaxHeight(int imageMaxHeight)
 ```
 
 
-Max height of an output image in pixels. (When converting single image to HTML only)
+Sets the maximum height of an output image in pixels.
+
+**Note:** This option applies when converting a single image to HTML. It specifies the maximum height of the output image.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageMaxHeight | int |  |
+| imageMaxHeight | int | The maximum height of an output image. |
 
 ### getImageWidth() {#getImageWidth--}
 ```
@@ -120,22 +145,26 @@ public int getImageWidth()
 ```
 
 
-The width of the output image in pixels. (When converting single image to HTML only)
+Gets the width of the output image in pixels.
+
+***Note:** This value is applicable only when converting a single image to HTML.*
 
 **Returns:**
-int
+int - the width of the output image.
 ### setImageWidth(int imageWidth) {#setImageWidth-int-}
 ```
 public void setImageWidth(int imageWidth)
 ```
 
 
-The width of the output image in pixels. (When converting single image to HTML only)
+Sets the width of the output image in pixels.
+
+***Note:** This value is applicable only when converting a single image to HTML.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageWidth | int |  |
+| imageWidth | int | The width of the output image. |
 
 ### getImageHeight() {#getImageHeight--}
 ```
@@ -143,22 +172,22 @@ public int getImageHeight()
 ```
 
 
-The height of an output image in pixels. (When converting single image to HTML only)
+Gets the height of the output image in pixels when converting a single image to HTML.
 
 **Returns:**
-int
+int - the height of the output image in pixels.
 ### setImageHeight(int imageHeight) {#setImageHeight-int-}
 ```
 public void setImageHeight(int imageHeight)
 ```
 
 
-The height of an output image in pixels. (When converting single image to HTML only)
+Sets the height of the output image in pixels when converting a single image to HTML.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageHeight | int |  |
+| imageHeight | int | The height of the output image in pixels. |
 
 ### forEmbeddedResources(CreatePageStream createPageStream) {#forEmbeddedResources-com.groupdocs.viewer.interfaces.CreatePageStream-}
 ```
@@ -166,149 +195,149 @@ public static HtmlViewOptions forEmbeddedResources(CreatePageStream createPageSt
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources.
+Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
+
+***Note:** The method takes a  CreatePageStream  parameter, which is a method used to instantiate a stream for writing output page data.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates stream used to write output page data. |
+| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates a stream used to write output page data. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - New instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 ### forEmbeddedResources(CreatePageStream createPageStream, ReleasePageStream releasePageStream) {#forEmbeddedResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-}
 ```
 public static HtmlViewOptions forEmbeddedResources(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources.
+Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates stream used to write output page data. |
-| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases stream created by method assigned to delegate that passed to createPageStream parameter. |
+| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates a stream used to write output page data. |
+| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases the stream created by the method assigned to the  createPageStream  parameter. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - New instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 ### forEmbeddedResources(PageStreamFactory pageStreamFactory) {#forEmbeddedResources-com.groupdocs.viewer.interfaces.PageStreamFactory-}
 ```
 public static HtmlViewOptions forEmbeddedResources(PageStreamFactory pageStreamFactory)
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources.
+Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | The factory which implements methods for creating and releasing output page stream. |
+| pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | The factory that implements methods for creating and releasing the output page stream. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - New instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with embedded resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 ### forEmbeddedResources() {#forEmbeddedResources--}
 ```
 public static HtmlViewOptions forEmbeddedResources()
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class.
+Initializes a new instance of the  HtmlViewOptions  class.
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class.
 ### forEmbeddedResources(String filePathFormat) {#forEmbeddedResources-java.lang.String-}
 ```
 public static HtmlViewOptions forEmbeddedResources(String filePathFormat)
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class.
+Initializes a new instance of the  HtmlViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePathFormat | java.lang.String | The file path format e.g. 'page\_\{0\}.html'. |
+| filePathFormat | java.lang.String | The file path format, e.g., 'page\_\{0\}.html'. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class.
 ### forEmbeddedResources(Path filePathFormat) {#forEmbeddedResources-java.nio.file.Path-}
 ```
 public static HtmlViewOptions forEmbeddedResources(Path filePathFormat)
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class.
+Initializes a new instance of the  HtmlViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePathFormat | java.nio.file.Path | The file path format e.g. 'page\_\{0\}.html'. |
+| filePathFormat | java.nio.file.Path | The file path format, e.g., 'page\_\{0\}.html'. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class.
 ### forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl) {#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-}
 ```
 public static HtmlViewOptions forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl)
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
+Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
+
+***Note:** This method should be used when rendering HTML with external resources, such as CSS and JavaScript files.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates stream used to write output page data. |
-| createResourceStream | [CreateResourceStream](../../com.groupdocs.viewer.interfaces/createresourcestream) | The method that releases stream created by createPageStream method. |
-| createResourceUrl | [CreateResourceUrl](../../com.groupdocs.viewer.interfaces/createresourceurl) | The method that creates URL for HTML resource. |
+| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates the stream used to write output page data. |
+| createResourceStream | [CreateResourceStream](../../com.groupdocs.viewer.interfaces/createresourcestream) | The method that releases the stream created by the  createPageStream  method. |
+| createResourceUrl | [CreateResourceUrl](../../com.groupdocs.viewer.interfaces/createresourceurl) | The method that creates the URL for the HTML resource. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - New instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 ### forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream) {#forExternalResources-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.CreateResourceStream-com.groupdocs.viewer.interfaces.CreateResourceUrl-com.groupdocs.viewer.interfaces.ReleasePageStream-com.groupdocs.viewer.interfaces.ReleaseResourceStream-}
 ```
 public static HtmlViewOptions forExternalResources(CreatePageStream createPageStream, CreateResourceStream createResourceStream, CreateResourceUrl createResourceUrl, ReleasePageStream releasePageStream, ReleaseResourceStream releaseResourceStream)
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
+Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates stream used to write output page data. |
-| createResourceStream | [CreateResourceStream](../../com.groupdocs.viewer.interfaces/createresourcestream) | The method that instantiates stream used to write output HTML resource data. |
-| createResourceUrl | [CreateResourceUrl](../../com.groupdocs.viewer.interfaces/createresourceurl) | The method that creates URL for HTML resource. |
-| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases stream created by method assigned to delegate that passed to createPageStream parameter. |
-| releaseResourceStream | [ReleaseResourceStream](../../com.groupdocs.viewer.interfaces/releaseresourcestream) | The method that releases stream created by method assigned to delegate that passed to createResourceStream parameter. |
+| createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | The method that instantiates the stream used to write output page data. |
+| createResourceStream | [CreateResourceStream](../../com.groupdocs.viewer.interfaces/createresourcestream) | The method that instantiates the stream used to write output HTML resource data. |
+| createResourceUrl | [CreateResourceUrl](../../com.groupdocs.viewer.interfaces/createresourceurl) | The method that creates the URL for the HTML resource. |
+| releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | The method that releases the stream created by the  createPageStream  method. |
+| releaseResourceStream | [ReleaseResourceStream](../../com.groupdocs.viewer.interfaces/releaseresourcestream) | The method that releases the stream created by the  createResourceStream  method. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - New instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 ### forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory) {#forExternalResources-com.groupdocs.viewer.interfaces.PageStreamFactory-com.groupdocs.viewer.interfaces.ResourceStreamFactory-}
 ```
 public static HtmlViewOptions forExternalResources(PageStreamFactory pageStreamFactory, ResourceStreamFactory resourceStreamFactory)
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
+Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | The factory which implements methods for creating and releasing output page stream. |
-| resourceStreamFactory | [ResourceStreamFactory](../../com.groupdocs.viewer.interfaces/resourcestreamfactory) | The factory which implements methods that are required for creating resource URL, instantiating and releasing output HTML resource stream. |
+| pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | The factory that implements methods for creating and releasing the output page stream. |
+| resourceStreamFactory | [ResourceStreamFactory](../../com.groupdocs.viewer.interfaces/resourcestreamfactory) | The factory that implements methods for creating resource URLs and instantiating/releasing the output HTML resource stream. |
 
 **Returns:**
-[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - New instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class for rendering into HTML with external resources.
+[HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 ### forExternalResources() {#forExternalResources--}
 ```
 public static HtmlViewOptions forExternalResources()
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class.
-
---------------------
-
-This constructor initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
+Initializes new instance of  HtmlViewOptions  class.
 
  *  \- with "p\_\{0\}.html" as file path format for the output HTML files;
  *  \- with "p\_\{0\}\_\{1\}" as file path format for the output HTML-resource files;
@@ -324,14 +353,14 @@ public static HtmlViewOptions forExternalResources(String filePathFormat, String
 ```
 
 
-Initializes new instance of [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) class.
+Initializes a new instance of the  HtmlViewOptions  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePathFormat | java.lang.String | The file path format e.g. 'page\_\{0\}.html'. |
-| resourceFilePathFormat | java.lang.String | The resource file path format e.g. 'page\_\{0\}/resource\_\{1\}'. |
-| resourceUrlFormat | java.lang.String | The resource URL format e.g. 'page\_\{0\}/resource\_\{1\}'. |
+| filePathFormat | java.lang.String | The file path format, e.g., 'page\_\{0\}.html'. |
+| resourceFilePathFormat | java.lang.String | The resource file path format, e.g., 'page\_\{0\}/resource\_\{1\}'. |
+| resourceUrlFormat | java.lang.String | The resource URL format, e.g., 'page\_\{0\}/resource\_\{1\}'. |
 
 **Returns:**
 [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
@@ -341,22 +370,22 @@ public final boolean isRenderResponsive()
 ```
 
 
-Enables responsive rendering; Responsive web-pages render well on a devices with different screen size.
+Determines whether responsive rendering is enabled. Responsive web pages render well on devices with different screen sizes.
 
 **Returns:**
-boolean
+boolean -  true  if responsive rendering is enabled,  false  otherwise.
 ### setRenderResponsive(boolean value) {#setRenderResponsive-boolean-}
 ```
 public final void setRenderResponsive(boolean value)
 ```
 
 
-Enables responsive rendering; Responsive web-pages render well on a devices with different screen size.
+Sets whether responsive rendering is enabled. Responsive web pages render well on devices with different screen sizes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to enable responsive rendering,  false  to disable it. |
 
 ### isMinify() {#isMinify--}
 ```
@@ -364,22 +393,22 @@ public final boolean isMinify()
 ```
 
 
-Enables HTML content and HTML resources minification.
+Checks if HTML content and HTML resources minification is enabled.
 
 **Returns:**
-boolean
+boolean -  true  if minification is enabled,  false  otherwise.
 ### setMinify(boolean value) {#setMinify-boolean-}
 ```
 public final void setMinify(boolean value)
 ```
 
 
-Enables HTML content and HTML resources minification.
+Sets whether HTML content and HTML resources minification is enabled.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to enable minification,  false  to disable. |
 
 ### setRenderToSinglePage(boolean renderSinglePage) {#setRenderToSinglePage-boolean-}
 ```
@@ -387,12 +416,12 @@ public void setRenderToSinglePage(boolean renderSinglePage)
 ```
 
 
-Enables HTML content will be rendered to single page
+Sets whether HTML content will be rendered to a single page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| renderSinglePage | boolean |  |
+| renderSinglePage | boolean |  true  if HTML content should be rendered to a single page,  false  otherwise. |
 
 ### isRenderToSinglePage() {#isRenderToSinglePage--}
 ```
@@ -400,32 +429,32 @@ public boolean isRenderToSinglePage()
 ```
 
 
-Enables HTML content will be rendered to single page
+Determines whether HTML content will be rendered to a single page.
 
 **Returns:**
-boolean
+boolean -  true  if HTML content will be rendered to a single page,  false  otherwise.
 ### isExcludeFonts() {#isExcludeFonts--}
 ```
 public final boolean isExcludeFonts()
 ```
 
 
-When enabled prevents adding any fonts into HTML document.
+Determines whether to exclude fonts from the HTML document.
 
 **Returns:**
-boolean
+boolean -  true  if fonts should be excluded,  false  otherwise.
 ### setExcludeFonts(boolean value) {#setExcludeFonts-boolean-}
 ```
 public final void setExcludeFonts(boolean value)
 ```
 
 
-When enabled prevents adding any fonts into HTML document.
+Sets whether to exclude fonts from the HTML document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to exclude fonts,  false  otherwise. |
 
 ### getFontsToExclude() {#getFontsToExclude--}
 ```
@@ -433,31 +462,30 @@ public final List<String> getFontsToExclude()
 ```
 
 
-The list of font names, to exclude from HTML document.
+Retrieves the list of font names to exclude from the HTML document.
 
---------------------
+This option is supported for presentations only. Including fonts in the HTML document improves the stability of the output view but increases the rendering result's size. Use this option to find a compromise between stability and output size. Include font names that are popular and installed on most systems.
 
-This option is supported for presentations only. The fonts that are added into HTML document improve stability of the output view, at the same time they increase the size of the rendering result. This option, lets you find compromise, between stability and output size. Include the font names that are popular and installed into most systems.
-Please note, this property is active only when  ExcludeFonts (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) options is disabled.
+***Note:** Please note that this property is active only when the  ExcludeFonts  (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) option is disabled.*
 
 **Returns:**
-java.util.List<java.lang.String>
+java.util.List<java.lang.String> - the list of font names to exclude from the HTML document.
 ### setFontsToExclude(List<String> value) {#setFontsToExclude-java.util.List-java.lang.String--}
 ```
 public final void setFontsToExclude(List<String> value)
 ```
 
 
-The list of font names, to exclude from HTML document.
+Sets the list of font names to exclude from the HTML document.
 
---------------------
+This option is supported for presentations only. Including fonts in the HTML document improves the stability of the output view but increases the rendering result's size. Use this option to find a compromise between stability and output size. Include font names that are popular and installed on most systems.
 
-This option is supported for presentations only. The fonts that are added into HTML document improve stability of the output view, at the same time they increase the size of the rendering result. This option, lets you find compromise, between stability and output size. Include the font names that are popular and installed into most systems. Please note, this property is active only when  ExcludeFonts (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) options is disabled.
+***Note:** Please note that this property is active only when the  ExcludeFonts  (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) option is disabled.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.util.List<java.lang.String> |  |
+| value | java.util.List<java.lang.String> | The list of font names to exclude from the HTML document. |
 
 ### isForPrinting() {#isForPrinting--}
 ```
@@ -465,22 +493,22 @@ public final boolean isForPrinting()
 ```
 
 
-Indicates whether to optimize output HTML for printing.
+Checks if the output HTML should be optimized for printing.
 
 **Returns:**
-boolean
+boolean -  true  if the output HTML should be optimized for printing,  false  otherwise.
 ### setForPrinting(boolean value) {#setForPrinting-boolean-}
 ```
 public final void setForPrinting(boolean value)
 ```
 
 
-Indicates whether to optimize output HTML for printing.
+Sets whether the output HTML should be optimized for printing.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean |  true  to optimize the output HTML for printing,  false  otherwise. |
 
 ### getDocumentSavingCallback() {#getDocumentSavingCallback--}
 ```
@@ -488,20 +516,20 @@ public IDocumentSavingCallback getDocumentSavingCallback()
 ```
 
 
-Callback to estimate Words or Email document saving progress
+Retrieves the callback used to estimate the saving progress of a Words or Email document.
 
 **Returns:**
-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - Callback to estimate document saving progress
+com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - the callback used to estimate the document saving progress.
 ### setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback) {#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-}
 ```
 public void setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)
 ```
 
 
-Callback to estimate Words or Email document saving progress
+Sets the callback used to estimate the saving progress of a Words or Email document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | Callback to estimate document saving progress |
+| documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | The callback used to estimate the document saving progress. |
 

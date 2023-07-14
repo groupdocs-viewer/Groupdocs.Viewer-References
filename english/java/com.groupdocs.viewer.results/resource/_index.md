@@ -16,17 +16,36 @@ public class Resource implements Serializable
 ```
 
 Represents HTML resource such as font, style, image or graphics.
+
+The Resource class represents a resource used in HTML rendering in the GroupDocs.Viewer component. It can represent various types of resources, such as fonts, styles, images, or graphics, that are included or referenced in the generated HTML output during the rendering process.
+
+Example usage:
+
+```
+
+ final HtmlViewOptions htmlViewOptions = HtmlViewOptions.forExternalResources(pageNumber -> , new ReleaseResourceStream() {
+     @Override
+     public void invoke(int pageNumber, Resource resource, OutputStream resourceStream) {
+         // Handle resource
+     }
+ });
+ try (Viewer viewer = new Viewer("document.pdf")) {
+     viewer.view(htmlViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Resource(String fileName, boolean nested)](#Resource-java.lang.String-boolean-) | Creates new instance of [Resource](../../com.groupdocs.viewer.results/resource) class. |
+| [Resource(String fileName, boolean nested)](#Resource-java.lang.String-boolean-) | Creates a new instance of the  Resource  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileName()](#getFileName--) | The resource file name. |
-| [isNested()](#isNested--) | Indicates whether resource resides inside another resource, e.g. font resource that resides in CSS or SVG resource. |
+| [getFileName()](#getFileName--) | Returns the file name of the resource. |
+| [isNested()](#isNested--) | Returns whether the resource resides inside another resource, e.g. a font resource that resides in a CSS or SVG resource. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 ### Resource(String fileName, boolean nested) {#Resource-java.lang.String-boolean-}
 ```
@@ -34,13 +53,13 @@ public Resource(String fileName, boolean nested)
 ```
 
 
-Creates new instance of [Resource](../../com.groupdocs.viewer.results/resource) class.
+Creates a new instance of the  Resource  class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Resource file name. |
-| nested | boolean | Indicates whether resource resides inside another resource, e.g. font resource that resides in CSS or SVG resource. |
+| fileName | java.lang.String | The resource file name. |
+| nested | boolean | Indicates whether the resource resides inside another resource, e.g., a font resource that resides in a CSS or SVG resource. |
 
 ### getFileName() {#getFileName--}
 ```
@@ -48,20 +67,20 @@ public final String getFileName()
 ```
 
 
-The resource file name.
+Returns the file name of the resource.
 
 **Returns:**
-java.lang.String - The resource file name.
+java.lang.String - the file name of the resource.
 ### isNested() {#isNested--}
 ```
 public final boolean isNested()
 ```
 
 
-Indicates whether resource resides inside another resource, e.g. font resource that resides in CSS or SVG resource.
+Returns whether the resource resides inside another resource, e.g. a font resource that resides in a CSS or SVG resource.
 
 **Returns:**
-boolean - whether resource resides inside another resource, e.g. font resource that resides in CSS or SVG resource.
+boolean - Whether the resource resides inside another resource.
 ### toString() {#toString--}
 ```
 public String toString()
@@ -71,4 +90,4 @@ public String toString()
 Returns a string that represents the current object.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - the string representation of the current object.

@@ -13,6 +13,16 @@ public class FontSettings
 ```
 
 Provides methods for working with sources to look for TrueType fonts.
+
+The FontSettings class is used to specify and manage sources for locating TrueType fonts. It provides methods to add and reset font sources for the GroupDocs.Viewer API.
+
+Example usage:
+
+```
+
+ FontSettings.setFontSources(new FolderFontSource("/path/to/fonts/folder", SearchOption.ALL_FOLDERS));
+ 
+```
 ## Constructors
 
 | Constructor | Description |
@@ -22,8 +32,8 @@ Provides methods for working with sources to look for TrueType fonts.
 
 | Method | Description |
 | --- | --- |
-| [setFontSources(FontSource[] fontSources)](#setFontSources-com.groupdocs.viewer.fonts.FontSource...-) | Set the sources to look for TrueType fonts when rendering documents. |
-| [resetFontSources()](#resetFontSources--) | Resets font sources that have been set before. |
+| [setFontSources(FontSource[] fontSources)](#setFontSources-com.groupdocs.viewer.fonts.FontSource...-) | Sets the sources to look for TrueType fonts when rendering documents. |
+| [resetFontSources()](#resetFontSources--) | Resets the font sources that have been set before. |
 ### FontSettings() {#FontSettings--}
 ```
 public FontSettings()
@@ -36,12 +46,12 @@ public static void setFontSources(FontSource[] fontSources)
 ```
 
 
-Set the sources to look for TrueType fonts when rendering documents.
+Sets the sources to look for TrueType fonts when rendering documents.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontSources | [FontSource\[\]](../../com.groupdocs.viewer.fonts/fontsource) | The font sources. |
+| fontSources | [FontSource\[\]](../../com.groupdocs.viewer.fonts/fontsource) | The font sources to set. |
 
 ### resetFontSources() {#resetFontSources--}
 ```
@@ -49,5 +59,5 @@ public static void resetFontSources()
 ```
 
 
-Resets font sources that have been set before.
+Resets the font sources that have been set before.
 

@@ -16,62 +16,67 @@ public class ViewInfoOptions extends BaseViewOptions implements IMaxSizeOptions
 ```
 
 Provides options used for retrieving information about view.
-## Fields
 
-| Field | Description |
-| --- | --- |
-| [OPTIONS](#OPTIONS) |  |
+The ViewInfoOptions class encapsulates additional settings and parameters that can be used to retrieve information about a view in the GroupDocs.Viewer component.
+
+Example usage:
+
+```
+
+ ViewInfoOptions viewInfoOptions = ViewInfoOptions.forPngView(false);
+ try (Viewer viewer = new Viewer("document.pdf")) {
+     ViewInfo viewInfo = viewer.getViewInfo(viewInfoOptions);
+     // Use the viewInfo object for further operations
+ }
+ 
+```
+
+***Note:** The ViewInfoOptions class implements the IMaxSizeOptions interface to provide additional settings and size constraints for view information retrieval.*
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isExtractText()](#isExtractText--) | Indicates that text extraction is enabled. |
-| [setExtractText(boolean extractText)](#setExtractText-boolean-) | Indicates that text extraction is enabled. |
-| [getMaxWidth()](#getMaxWidth--) | Max width of the output image (for rendering to PNG/JPG only) |
-| [setMaxWidth(int maxWidth)](#setMaxWidth-int-) | Max width of the output image (for rendering to PNG/JPG only) |
-| [getMaxHeight()](#getMaxHeight--) | Max height of the output image (for rendering to PNG/JPG only) |
-| [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | Max height of the output image (for rendering to PNG/JPG only) |
-| [getWidth()](#getWidth--) | Image width (for rendering to PNG/JPG only) |
-| [setWidth(int width)](#setWidth-int-) | Image width (for rendering to PNG/JPG only) |
-| [getHeight()](#getHeight--) | Image height (for rendering to PNG/JPG only) |
-| [setHeight(int height)](#setHeight-int-) | Image height (for rendering to PNG/JPG only) |
-| [forHtmlView()](#forHtmlView--) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into HTML. |
-| [forHtmlView(boolean renderSinglePage)](#forHtmlView-boolean-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into HTML. |
-| [forJpgView()](#forJpgView--) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into JPG. |
-| [forJpgView(boolean extractText)](#forJpgView-boolean-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into JPG. |
-| [forPngView()](#forPngView--) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into PNG. |
-| [forPngView(boolean extractText)](#forPngView-boolean-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into PNG. |
-| [fromHtmlViewOptions(HtmlViewOptions options)](#fromHtmlViewOptions-com.groupdocs.viewer.options.HtmlViewOptions-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) object. |
-| [fromPngViewOptions(PngViewOptions options)](#fromPngViewOptions-com.groupdocs.viewer.options.PngViewOptions-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) object. |
-| [fromJpgViewOptions(JpgViewOptions options)](#fromJpgViewOptions-com.groupdocs.viewer.options.JpgViewOptions-) | Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) object. |
-### OPTIONS {#OPTIONS}
-```
-public static final String OPTIONS
-```
-
-
+| [isExtractText()](#isExtractText--) | Indicates whether text extraction is enabled. |
+| [setExtractText(boolean extractText)](#setExtractText-boolean-) | Sets the flag indicating whether text extraction is enabled. |
+| [getMaxWidth()](#getMaxWidth--) | Returns the maximum width of the output image for rendering to PNG/JPG. |
+| [setMaxWidth(int maxWidth)](#setMaxWidth-int-) | Sets the maximum width of the output image for rendering to PNG/JPG. |
+| [getMaxHeight()](#getMaxHeight--) | Returns the maximum height of the output image for rendering to PNG/JPG. |
+| [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | Sets the maximum height of the output image for rendering to PNG/JPG. |
+| [getWidth()](#getWidth--) | Returns the width of the image for rendering to PNG/JPG. |
+| [setWidth(int width)](#setWidth-int-) | Sets the width of the image for rendering to PNG/JPG. |
+| [getHeight()](#getHeight--) | Returns the height of the image for rendering to PNG/JPG. |
+| [setHeight(int height)](#setHeight-int-) | Sets the height of the image for rendering to PNG/JPG. |
+| [forHtmlView()](#forHtmlView--) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into HTML. |
+| [forHtmlView(boolean renderSinglePage)](#forHtmlView-boolean-) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into HTML. |
+| [forJpgView()](#forJpgView--) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into JPG. |
+| [forJpgView(boolean extractText)](#forJpgView-boolean-) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into JPG. |
+| [forPngView()](#forPngView--) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into PNG. |
+| [forPngView(boolean extractText)](#forPngView-boolean-) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into PNG. |
+| [fromHtmlViewOptions(HtmlViewOptions options)](#fromHtmlViewOptions-com.groupdocs.viewer.options.HtmlViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) object. |
+| [fromPngViewOptions(PngViewOptions options)](#fromPngViewOptions-com.groupdocs.viewer.options.PngViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) object. |
+| [fromJpgViewOptions(JpgViewOptions options)](#fromJpgViewOptions-com.groupdocs.viewer.options.JpgViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) object. |
 ### isExtractText() {#isExtractText--}
 ```
 public boolean isExtractText()
 ```
 
 
-Indicates that text extraction is enabled.
+Indicates whether text extraction is enabled.
 
 **Returns:**
-boolean
+boolean - True if text extraction is enabled, false otherwise.
 ### setExtractText(boolean extractText) {#setExtractText-boolean-}
 ```
 public void setExtractText(boolean extractText)
 ```
 
 
-Indicates that text extraction is enabled.
+Sets the flag indicating whether text extraction is enabled.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extractText | boolean |  |
+| extractText | boolean | True to enable text extraction, false to disable. |
 
 ### getMaxWidth() {#getMaxWidth--}
 ```
@@ -79,22 +84,22 @@ public int getMaxWidth()
 ```
 
 
-Max width of the output image (for rendering to PNG/JPG only)
+Returns the maximum width of the output image for rendering to PNG/JPG.
 
 **Returns:**
-int
+int - the maximum width of the output image.
 ### setMaxWidth(int maxWidth) {#setMaxWidth-int-}
 ```
 public void setMaxWidth(int maxWidth)
 ```
 
 
-Max width of the output image (for rendering to PNG/JPG only)
+Sets the maximum width of the output image for rendering to PNG/JPG.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxWidth | int |  |
+| maxWidth | int | The maximum width of the output image. |
 
 ### getMaxHeight() {#getMaxHeight--}
 ```
@@ -102,22 +107,22 @@ public int getMaxHeight()
 ```
 
 
-Max height of the output image (for rendering to PNG/JPG only)
+Returns the maximum height of the output image for rendering to PNG/JPG.
 
 **Returns:**
-int
+int - the maximum height of the output image.
 ### setMaxHeight(int maxHeight) {#setMaxHeight-int-}
 ```
 public void setMaxHeight(int maxHeight)
 ```
 
 
-Max height of the output image (for rendering to PNG/JPG only)
+Sets the maximum height of the output image for rendering to PNG/JPG.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxHeight | int |  |
+| maxHeight | int | The maximum height of the output image. |
 
 ### getWidth() {#getWidth--}
 ```
@@ -125,22 +130,22 @@ public int getWidth()
 ```
 
 
-Image width (for rendering to PNG/JPG only)
+Returns the width of the image for rendering to PNG/JPG.
 
 **Returns:**
-int
+int - the width of the image.
 ### setWidth(int width) {#setWidth-int-}
 ```
 public void setWidth(int width)
 ```
 
 
-Image width (for rendering to PNG/JPG only)
+Sets the width of the image for rendering to PNG/JPG.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| width | int |  |
+| width | int | The width of the image. |
 
 ### getHeight() {#getHeight--}
 ```
@@ -148,22 +153,22 @@ public int getHeight()
 ```
 
 
-Image height (for rendering to PNG/JPG only)
+Returns the height of the image for rendering to PNG/JPG.
 
 **Returns:**
-int
+int - the height of the image.
 ### setHeight(int height) {#setHeight-int-}
 ```
 public void setHeight(int height)
 ```
 
 
-Image height (for rendering to PNG/JPG only)
+Sets the height of the image for rendering to PNG/JPG.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| height | int |  |
+| height | int | The height of the image. |
 
 ### forHtmlView() {#forHtmlView--}
 ```
@@ -171,42 +176,44 @@ public static ViewInfoOptions forHtmlView()
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into HTML.
+Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into HTML.
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of the  ViewInfoOptions  class.
 ### forHtmlView(boolean renderSinglePage) {#forHtmlView-boolean-}
 ```
 public static ViewInfoOptions forHtmlView(boolean renderSinglePage)
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into HTML.
+Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into HTML.
+
+***Note:** By default, HTML content will be rendered on multiple pages.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| renderSinglePage | boolean | Enables HTML content will be rendered to single page. |
+| renderSinglePage | boolean | Enables HTML content to be rendered on a single page. |
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
 ### forJpgView() {#forJpgView--}
 ```
 public static ViewInfoOptions forJpgView()
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into JPG.
+Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into JPG.
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
 ### forJpgView(boolean extractText) {#forJpgView-boolean-}
 ```
 public static ViewInfoOptions forJpgView(boolean extractText)
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into JPG.
+Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into JPG.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -214,24 +221,24 @@ Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options
 | extractText | boolean | Enables text extraction. |
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
 ### forPngView() {#forPngView--}
 ```
 public static ViewInfoOptions forPngView()
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into PNG.
+Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into PNG.
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
 ### forPngView(boolean extractText) {#forPngView-boolean-}
 ```
 public static ViewInfoOptions forPngView(boolean extractText)
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class to retrieve information about view when rendering into PNG.
+Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into PNG.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -239,14 +246,14 @@ Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options
 | extractText | boolean | Enables text extraction. |
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
 ### fromHtmlViewOptions(HtmlViewOptions options) {#fromHtmlViewOptions-com.groupdocs.viewer.options.HtmlViewOptions-}
 ```
 public static ViewInfoOptions fromHtmlViewOptions(HtmlViewOptions options)
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) object.
+Initializes a new instance of the  ViewInfoOptions  class based on the [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,14 +261,14 @@ Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options
 | options | [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) | The HTML view options. |
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
 ### fromPngViewOptions(PngViewOptions options) {#fromPngViewOptions-com.groupdocs.viewer.options.PngViewOptions-}
 ```
 public static ViewInfoOptions fromPngViewOptions(PngViewOptions options)
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) object.
+Initializes a new instance of the  ViewInfoOptions  class based on the [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,14 +276,14 @@ Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options
 | options | [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) | The PNG view options. |
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
 ### fromJpgViewOptions(JpgViewOptions options) {#fromJpgViewOptions-com.groupdocs.viewer.options.JpgViewOptions-}
 ```
 public static ViewInfoOptions fromJpgViewOptions(JpgViewOptions options)
 ```
 
 
-Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) object.
+Initializes a new instance of the  ViewInfoOptions  class based on the [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) object.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,4 +291,4 @@ Initializes new instance of [ViewInfoOptions](../../com.groupdocs.viewer.options
 | options | [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) | The JPG view options. |
 
 **Returns:**
-[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.

@@ -13,24 +13,44 @@ public class TextOptions
 ```
 
 Text files splitting to pages options.
+
+The TextOptions class provides options for splitting text files into pages in the GroupDocs.Viewer component. It allows you to control how text files are divided into individual pages for rendering and viewing purposes.
+
+Example usage:
+
+```
+
+ PngViewOptions pngViewOptions = new PngViewOptions();
+ TextOptions options = pngViewOptions.getTextOptions();
+ options.setMaxCharsPerRow(96);
+ options.setMaxRowsPerPage(48);
+
+ try (Viewer viewer = new Viewer("document.txt")) {
+     viewer.view(pngViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TextOptions()](#TextOptions--) |  |
+| [TextOptions()](#TextOptions--) | Initializes a new instance of the  TextOptions  class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getMaxCharsPerRow()](#getMaxCharsPerRow--) | Max chars per row on page. |
-| [setMaxCharsPerRow(int maxCharsPerRow)](#setMaxCharsPerRow-int-) | Max chars per row on page. |
-| [getMaxRowsPerPage()](#getMaxRowsPerPage--) | Max rows per page. |
-| [setMaxRowsPerPage(int maxRowsPerPage)](#setMaxRowsPerPage-int-) | Max rows per page. |
+| [getMaxCharsPerRow()](#getMaxCharsPerRow--) | Gets the maximum number of characters per row on a page. |
+| [setMaxCharsPerRow(int maxCharsPerRow)](#setMaxCharsPerRow-int-) | Sets the maximum number of characters per row on a page. |
+| [getMaxRowsPerPage()](#getMaxRowsPerPage--) | Gets the maximum number of rows per page. |
+| [setMaxRowsPerPage(int maxRowsPerPage)](#setMaxRowsPerPage-int-) | Sets the maximum number of rows per page. |
 ### TextOptions() {#TextOptions--}
 ```
 public TextOptions()
 ```
 
+
+Initializes a new instance of the  TextOptions  class.
 
 ### getMaxCharsPerRow() {#getMaxCharsPerRow--}
 ```
@@ -38,22 +58,26 @@ public int getMaxCharsPerRow()
 ```
 
 
-Max chars per row on page. Default value is 85.
+Gets the maximum number of characters per row on a page.
+
+***Note:** The default value is 85.*
 
 **Returns:**
-int
+int - the maximum number of characters per row on a page.
 ### setMaxCharsPerRow(int maxCharsPerRow) {#setMaxCharsPerRow-int-}
 ```
 public void setMaxCharsPerRow(int maxCharsPerRow)
 ```
 
 
-Max chars per row on page. Default value is 85.
+Sets the maximum number of characters per row on a page.
+
+***Note:** The default value is 85.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxCharsPerRow | int |  |
+| maxCharsPerRow | int | The maximum number of characters per row on a page. |
 
 ### getMaxRowsPerPage() {#getMaxRowsPerPage--}
 ```
@@ -61,20 +85,24 @@ public int getMaxRowsPerPage()
 ```
 
 
-Max rows per page. Default value is 55.
+Gets the maximum number of rows per page.
+
+***Note:** The default value is 55.*
 
 **Returns:**
-int
+int - the maximum number of rows.
 ### setMaxRowsPerPage(int maxRowsPerPage) {#setMaxRowsPerPage-int-}
 ```
 public void setMaxRowsPerPage(int maxRowsPerPage)
 ```
 
 
-Max rows per page. Default value is 55.
+Sets the maximum number of rows per page.
+
+***Note:** The default value is 55.*
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| maxRowsPerPage | int |  |
+| maxRowsPerPage | int | The maximum number of rows. |
 

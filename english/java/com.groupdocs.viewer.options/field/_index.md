@@ -13,58 +13,75 @@ public enum Field extends Enum<Field>
 ```
 
 Represents email message fields e.g. From, To, Subject etc.
+
+The Field enum represents common email message fields in the GroupDocs.Viewer component. It provides a set of predefined fields that can be used to identify and access specific information in email messages, such as the sender, recipient, subject, and more.
+
+Example usage:
+
+```
+
+ HtmlViewOptions htmlViewOptions = HtmlViewOptions.forEmbeddedResources();
+ EmailOptions emailOptions = htmlViewOptions.getEmailOptions();
+ emailOptions.getFieldTextMap().put(Field.FROM, "Sender");
+
+ try (Viewer viewer = new Viewer("document.docx")) {
+     viewer.view(htmlViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ANNIVERSARY](#ANNIVERSARY) | Default field text is "Anniversary". |
-| [ATTACHMENTS](#ATTACHMENTS) | Default field text is "Attachments". |
-| [BCC](#BCC) | Default field text is "Bcc". |
-| [BIRTHDAY](#BIRTHDAY) | Default field text is "Birthday". |
-| [BUSINESS](#BUSINESS) | Default field text is "Business". |
-| [BUSINESS_ADDRESS](#BUSINESS-ADDRESS) | Default field text is "Business Address". |
-| [BUSINESS_FAX](#BUSINESS-FAX) | Default field text is "Business Fax". |
-| [BUSINESS_HOMEPAGE](#BUSINESS-HOMEPAGE) | Default field text is "BusinessHomepage". |
-| [CC](#CC) | Default field text is "Cc". |
-| [COMPANY](#COMPANY) | Default field text is "Company". |
-| [DEPARTMENT](#DEPARTMENT) | Default field text is "Department". |
-| [EMAIL](#EMAIL) | Default field text is "Email". |
-| [EMAIL_DISPLAY_AS](#EMAIL-DISPLAY-AS) | Default field text is "Email Display As". |
-| [EMAIL_2](#EMAIL-2) | Default field text is "Email2". |
-| [EMAIL_2_DISPLAY_AS](#EMAIL-2-DISPLAY-AS) | Default field text is "Email2 Display As". |
-| [EMAIL_3](#EMAIL-3) | Default field text is "Email3". |
-| [EMAIL_3_DISPLAY_AS](#EMAIL-3-DISPLAY-AS) | Default field text is "Email3 Display As". |
-| [END](#END) | Default field text is "End". |
-| [FIRST_NAME](#FIRST-NAME) | Default field text is "First Name". |
-| [FROM](#FROM) | Default field text is "From". |
-| [FULL_NAME](#FULL-NAME) | Default field text is "Full Name". |
-| [GENDER](#GENDER) | Default field text is "Gender". |
-| [HOBBIES](#HOBBIES) | Default field text is "Hobbies". |
-| [HOME](#HOME) | Default field text is "Home". |
-| [HOME_ADDRESS](#HOME-ADDRESS) | Default field text is "Home Address". |
-| [IMPORTANCE](#IMPORTANCE) | Default field text is "Importance". |
-| [JOB_TITLE](#JOB-TITLE) | Default field text is "Job Title". |
-| [LAST_NAME](#LAST-NAME) | Default field text is "Last Name". |
-| [LOCATION](#LOCATION) | Default field text is "Location". |
-| [MIDDLE_NAME](#MIDDLE-NAME) | Default field text is "Middle Name". |
-| [MOBILE](#MOBILE) | Default field text is "Mobile". |
-| [ORGANIZER](#ORGANIZER) | Default field text is "Organizer". |
-| [OTHER_ADDRESS](#OTHER-ADDRESS) | Default field text is "Other Address". |
-| [PERSONAL_HOMEPAGE](#PERSONAL-HOMEPAGE) | Default field text is "Personal Homepage". |
-| [PROFESSION](#PROFESSION) | Default field text is "Profession". |
-| [RECURRENCE](#RECURRENCE) | Default field text is "Recurrence" |
-| [RECURRENCE_PATTERN](#RECURRENCE-PATTERN) | Default field text is "Recurrence Pattern". |
-| [REQUIRED_ATTENDEES](#REQUIRED-ATTENDEES) | Default field text is "Required Attendees". |
-| [SENT](#SENT) | Default field text is "Sent". |
-| [SHOW_TIME_AS](#SHOW-TIME-AS) | Default field text is "Show Time As". |
-| [SPOUSE_PARTNER](#SPOUSE-PARTNER) | Default field text is "Spouse/Partner". |
-| [START](#START) | Default field text is "Start". |
-| [SUBJECT](#SUBJECT) | Default field text is "Subject". |
-| [TO](#TO) | Default field text is "To". |
-| [USER_FIELD_1](#USER-FIELD-1) | Default field text is "User Field 1". |
-| [USER_FIELD_2](#USER-FIELD-2) | Default field text is "User Field 2". |
-| [USER_FIELD_3](#USER-FIELD-3) | Default field text is "User Field 3". |
-| [USER_FIELD_4](#USER-FIELD-4) | Default field text is "User Field 4". |
+| [ANNIVERSARY](#ANNIVERSARY) | Represents the "Anniversary" field. |
+| [ATTACHMENTS](#ATTACHMENTS) | Represents the "Attachments" field. |
+| [BCC](#BCC) | Represents the "Bcc" field. |
+| [BIRTHDAY](#BIRTHDAY) | Represents the "Birthday" field. |
+| [BUSINESS](#BUSINESS) | Represents the "Business" field. |
+| [BUSINESS_ADDRESS](#BUSINESS-ADDRESS) | Represents the "Business Address" field. |
+| [BUSINESS_FAX](#BUSINESS-FAX) | Represents the "Business Fax" field. |
+| [BUSINESS_HOMEPAGE](#BUSINESS-HOMEPAGE) | Represents the "BusinessHomepage" field. |
+| [CC](#CC) | Represents the "Cc" field. |
+| [COMPANY](#COMPANY) | Represents the "Company" field. |
+| [DEPARTMENT](#DEPARTMENT) | Represents the "Department" field. |
+| [EMAIL](#EMAIL) | Represents the "Email" field. |
+| [EMAIL_DISPLAY_AS](#EMAIL-DISPLAY-AS) | Represents the "Email Display As" field. |
+| [EMAIL_2](#EMAIL-2) | Represents the "Email2" field. |
+| [EMAIL_2_DISPLAY_AS](#EMAIL-2-DISPLAY-AS) | Represents the "Email2 Display As" field. |
+| [EMAIL_3](#EMAIL-3) | Represents the "Email3" field. |
+| [EMAIL_3_DISPLAY_AS](#EMAIL-3-DISPLAY-AS) | Represents the "Email3 Display As" field. |
+| [END](#END) | Represents the "End" field. |
+| [FIRST_NAME](#FIRST-NAME) | Represents the "First Name" field. |
+| [FROM](#FROM) | Represents the "From" field. |
+| [FULL_NAME](#FULL-NAME) | Represents the "Full Name" field. |
+| [GENDER](#GENDER) | Represents the "Gender" field. |
+| [HOBBIES](#HOBBIES) | Represents the "Hobbies" field. |
+| [HOME](#HOME) | Represents the "Home" field. |
+| [HOME_ADDRESS](#HOME-ADDRESS) | Represents the "Home Address" field. |
+| [IMPORTANCE](#IMPORTANCE) | Represents the "Importance" field. |
+| [JOB_TITLE](#JOB-TITLE) | Represents the "Job Title" field. |
+| [LAST_NAME](#LAST-NAME) | Represents the "Last Name" field. |
+| [LOCATION](#LOCATION) | Represents the "Location" field. |
+| [MIDDLE_NAME](#MIDDLE-NAME) | Represents the "Middle Name" field. |
+| [MOBILE](#MOBILE) | Represents the "Mobile" field. |
+| [ORGANIZER](#ORGANIZER) | Represents the "Organizer" field. |
+| [OTHER_ADDRESS](#OTHER-ADDRESS) | Represents the "Other Address" field. |
+| [PERSONAL_HOMEPAGE](#PERSONAL-HOMEPAGE) | Represents the "Personal Homepage" field. |
+| [PROFESSION](#PROFESSION) | Represents the "Profession" field. |
+| [RECURRENCE](#RECURRENCE) | Represents the "Recurrence" field. |
+| [RECURRENCE_PATTERN](#RECURRENCE-PATTERN) | Represents the "Recurrence Pattern" field. |
+| [REQUIRED_ATTENDEES](#REQUIRED-ATTENDEES) | Represents the "Required Attendees" field. |
+| [SENT](#SENT) | Represents the "Sent" field. |
+| [SHOW_TIME_AS](#SHOW-TIME-AS) | Represents the "Show Time As" field. |
+| [SPOUSE_PARTNER](#SPOUSE-PARTNER) | Represents the "Spouse/Partner" field. |
+| [START](#START) | Represents the "Start" field. |
+| [SUBJECT](#SUBJECT) | Represents the "Subject" field. |
+| [TO](#TO) | Represents the "To" field. |
+| [USER_FIELD_1](#USER-FIELD-1) | Represents the "User Field 1" field. |
+| [USER_FIELD_2](#USER-FIELD-2) | Represents the "User Field 2" field. |
+| [USER_FIELD_3](#USER-FIELD-3) | Represents the "User Field 3" field. |
+| [USER_FIELD_4](#USER-FIELD-4) | Represents the "User Field 4" field. |
 ## Methods
 
 | Method | Description |
@@ -79,7 +96,7 @@ public static final Field ANNIVERSARY
 ```
 
 
-Default field text is "Anniversary".
+Represents the "Anniversary" field.
 
 ### ATTACHMENTS {#ATTACHMENTS}
 ```
@@ -87,7 +104,7 @@ public static final Field ATTACHMENTS
 ```
 
 
-Default field text is "Attachments".
+Represents the "Attachments" field.
 
 ### BCC {#BCC}
 ```
@@ -95,7 +112,7 @@ public static final Field BCC
 ```
 
 
-Default field text is "Bcc".
+Represents the "Bcc" field.
 
 ### BIRTHDAY {#BIRTHDAY}
 ```
@@ -103,7 +120,7 @@ public static final Field BIRTHDAY
 ```
 
 
-Default field text is "Birthday".
+Represents the "Birthday" field.
 
 ### BUSINESS {#BUSINESS}
 ```
@@ -111,7 +128,7 @@ public static final Field BUSINESS
 ```
 
 
-Default field text is "Business".
+Represents the "Business" field.
 
 ### BUSINESS_ADDRESS {#BUSINESS-ADDRESS}
 ```
@@ -119,7 +136,7 @@ public static final Field BUSINESS_ADDRESS
 ```
 
 
-Default field text is "Business Address".
+Represents the "Business Address" field.
 
 ### BUSINESS_FAX {#BUSINESS-FAX}
 ```
@@ -127,7 +144,7 @@ public static final Field BUSINESS_FAX
 ```
 
 
-Default field text is "Business Fax".
+Represents the "Business Fax" field.
 
 ### BUSINESS_HOMEPAGE {#BUSINESS-HOMEPAGE}
 ```
@@ -135,7 +152,7 @@ public static final Field BUSINESS_HOMEPAGE
 ```
 
 
-Default field text is "BusinessHomepage".
+Represents the "BusinessHomepage" field.
 
 ### CC {#CC}
 ```
@@ -143,7 +160,7 @@ public static final Field CC
 ```
 
 
-Default field text is "Cc".
+Represents the "Cc" field.
 
 ### COMPANY {#COMPANY}
 ```
@@ -151,7 +168,7 @@ public static final Field COMPANY
 ```
 
 
-Default field text is "Company".
+Represents the "Company" field.
 
 ### DEPARTMENT {#DEPARTMENT}
 ```
@@ -159,7 +176,7 @@ public static final Field DEPARTMENT
 ```
 
 
-Default field text is "Department".
+Represents the "Department" field.
 
 ### EMAIL {#EMAIL}
 ```
@@ -167,7 +184,7 @@ public static final Field EMAIL
 ```
 
 
-Default field text is "Email".
+Represents the "Email" field.
 
 ### EMAIL_DISPLAY_AS {#EMAIL-DISPLAY-AS}
 ```
@@ -175,7 +192,7 @@ public static final Field EMAIL_DISPLAY_AS
 ```
 
 
-Default field text is "Email Display As".
+Represents the "Email Display As" field.
 
 ### EMAIL_2 {#EMAIL-2}
 ```
@@ -183,7 +200,7 @@ public static final Field EMAIL_2
 ```
 
 
-Default field text is "Email2".
+Represents the "Email2" field.
 
 ### EMAIL_2_DISPLAY_AS {#EMAIL-2-DISPLAY-AS}
 ```
@@ -191,7 +208,7 @@ public static final Field EMAIL_2_DISPLAY_AS
 ```
 
 
-Default field text is "Email2 Display As".
+Represents the "Email2 Display As" field.
 
 ### EMAIL_3 {#EMAIL-3}
 ```
@@ -199,7 +216,7 @@ public static final Field EMAIL_3
 ```
 
 
-Default field text is "Email3".
+Represents the "Email3" field.
 
 ### EMAIL_3_DISPLAY_AS {#EMAIL-3-DISPLAY-AS}
 ```
@@ -207,7 +224,7 @@ public static final Field EMAIL_3_DISPLAY_AS
 ```
 
 
-Default field text is "Email3 Display As".
+Represents the "Email3 Display As" field.
 
 ### END {#END}
 ```
@@ -215,7 +232,7 @@ public static final Field END
 ```
 
 
-Default field text is "End".
+Represents the "End" field.
 
 ### FIRST_NAME {#FIRST-NAME}
 ```
@@ -223,7 +240,7 @@ public static final Field FIRST_NAME
 ```
 
 
-Default field text is "First Name".
+Represents the "First Name" field.
 
 ### FROM {#FROM}
 ```
@@ -231,7 +248,7 @@ public static final Field FROM
 ```
 
 
-Default field text is "From".
+Represents the "From" field.
 
 ### FULL_NAME {#FULL-NAME}
 ```
@@ -239,7 +256,7 @@ public static final Field FULL_NAME
 ```
 
 
-Default field text is "Full Name".
+Represents the "Full Name" field.
 
 ### GENDER {#GENDER}
 ```
@@ -247,7 +264,7 @@ public static final Field GENDER
 ```
 
 
-Default field text is "Gender".
+Represents the "Gender" field.
 
 ### HOBBIES {#HOBBIES}
 ```
@@ -255,7 +272,7 @@ public static final Field HOBBIES
 ```
 
 
-Default field text is "Hobbies".
+Represents the "Hobbies" field.
 
 ### HOME {#HOME}
 ```
@@ -263,7 +280,7 @@ public static final Field HOME
 ```
 
 
-Default field text is "Home".
+Represents the "Home" field.
 
 ### HOME_ADDRESS {#HOME-ADDRESS}
 ```
@@ -271,7 +288,7 @@ public static final Field HOME_ADDRESS
 ```
 
 
-Default field text is "Home Address".
+Represents the "Home Address" field.
 
 ### IMPORTANCE {#IMPORTANCE}
 ```
@@ -279,7 +296,7 @@ public static final Field IMPORTANCE
 ```
 
 
-Default field text is "Importance".
+Represents the "Importance" field.
 
 ### JOB_TITLE {#JOB-TITLE}
 ```
@@ -287,7 +304,7 @@ public static final Field JOB_TITLE
 ```
 
 
-Default field text is "Job Title".
+Represents the "Job Title" field.
 
 ### LAST_NAME {#LAST-NAME}
 ```
@@ -295,7 +312,7 @@ public static final Field LAST_NAME
 ```
 
 
-Default field text is "Last Name".
+Represents the "Last Name" field.
 
 ### LOCATION {#LOCATION}
 ```
@@ -303,7 +320,7 @@ public static final Field LOCATION
 ```
 
 
-Default field text is "Location".
+Represents the "Location" field.
 
 ### MIDDLE_NAME {#MIDDLE-NAME}
 ```
@@ -311,7 +328,7 @@ public static final Field MIDDLE_NAME
 ```
 
 
-Default field text is "Middle Name".
+Represents the "Middle Name" field.
 
 ### MOBILE {#MOBILE}
 ```
@@ -319,7 +336,7 @@ public static final Field MOBILE
 ```
 
 
-Default field text is "Mobile".
+Represents the "Mobile" field.
 
 ### ORGANIZER {#ORGANIZER}
 ```
@@ -327,7 +344,7 @@ public static final Field ORGANIZER
 ```
 
 
-Default field text is "Organizer".
+Represents the "Organizer" field.
 
 ### OTHER_ADDRESS {#OTHER-ADDRESS}
 ```
@@ -335,7 +352,7 @@ public static final Field OTHER_ADDRESS
 ```
 
 
-Default field text is "Other Address".
+Represents the "Other Address" field.
 
 ### PERSONAL_HOMEPAGE {#PERSONAL-HOMEPAGE}
 ```
@@ -343,7 +360,7 @@ public static final Field PERSONAL_HOMEPAGE
 ```
 
 
-Default field text is "Personal Homepage".
+Represents the "Personal Homepage" field.
 
 ### PROFESSION {#PROFESSION}
 ```
@@ -351,7 +368,7 @@ public static final Field PROFESSION
 ```
 
 
-Default field text is "Profession".
+Represents the "Profession" field.
 
 ### RECURRENCE {#RECURRENCE}
 ```
@@ -359,7 +376,7 @@ public static final Field RECURRENCE
 ```
 
 
-Default field text is "Recurrence"
+Represents the "Recurrence" field.
 
 ### RECURRENCE_PATTERN {#RECURRENCE-PATTERN}
 ```
@@ -367,7 +384,7 @@ public static final Field RECURRENCE_PATTERN
 ```
 
 
-Default field text is "Recurrence Pattern".
+Represents the "Recurrence Pattern" field.
 
 ### REQUIRED_ATTENDEES {#REQUIRED-ATTENDEES}
 ```
@@ -375,7 +392,7 @@ public static final Field REQUIRED_ATTENDEES
 ```
 
 
-Default field text is "Required Attendees".
+Represents the "Required Attendees" field.
 
 ### SENT {#SENT}
 ```
@@ -383,7 +400,7 @@ public static final Field SENT
 ```
 
 
-Default field text is "Sent".
+Represents the "Sent" field.
 
 ### SHOW_TIME_AS {#SHOW-TIME-AS}
 ```
@@ -391,7 +408,7 @@ public static final Field SHOW_TIME_AS
 ```
 
 
-Default field text is "Show Time As".
+Represents the "Show Time As" field.
 
 ### SPOUSE_PARTNER {#SPOUSE-PARTNER}
 ```
@@ -399,7 +416,7 @@ public static final Field SPOUSE_PARTNER
 ```
 
 
-Default field text is "Spouse/Partner".
+Represents the "Spouse/Partner" field.
 
 ### START {#START}
 ```
@@ -407,7 +424,7 @@ public static final Field START
 ```
 
 
-Default field text is "Start".
+Represents the "Start" field.
 
 ### SUBJECT {#SUBJECT}
 ```
@@ -415,7 +432,7 @@ public static final Field SUBJECT
 ```
 
 
-Default field text is "Subject".
+Represents the "Subject" field.
 
 ### TO {#TO}
 ```
@@ -423,7 +440,7 @@ public static final Field TO
 ```
 
 
-Default field text is "To".
+Represents the "To" field.
 
 ### USER_FIELD_1 {#USER-FIELD-1}
 ```
@@ -431,7 +448,7 @@ public static final Field USER_FIELD_1
 ```
 
 
-Default field text is "User Field 1".
+Represents the "User Field 1" field.
 
 ### USER_FIELD_2 {#USER-FIELD-2}
 ```
@@ -439,7 +456,7 @@ public static final Field USER_FIELD_2
 ```
 
 
-Default field text is "User Field 2".
+Represents the "User Field 2" field.
 
 ### USER_FIELD_3 {#USER-FIELD-3}
 ```
@@ -447,7 +464,7 @@ public static final Field USER_FIELD_3
 ```
 
 
-Default field text is "User Field 3".
+Represents the "User Field 3" field.
 
 ### USER_FIELD_4 {#USER-FIELD-4}
 ```
@@ -455,7 +472,7 @@ public static final Field USER_FIELD_4
 ```
 
 
-Default field text is "User Field 4".
+Represents the "User Field 4" field.
 
 ### values() {#values--}
 ```
@@ -490,8 +507,10 @@ public final String getName()
 
 Field name.
 
+This method retrieves the name of the field.
+
 **Returns:**
-java.lang.String - Field name.
+java.lang.String - the name of the field.
 ### toString() {#toString--}
 ```
 public String toString()
@@ -501,4 +520,4 @@ public String toString()
 Returns a string that represents the current object.
 
 **Returns:**
-java.lang.String - A string that represents the current object.
+java.lang.String - a string that represents the current object.

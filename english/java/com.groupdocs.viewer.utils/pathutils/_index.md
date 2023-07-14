@@ -1,7 +1,7 @@
 ---
 title: PathUtils
 second_title: GroupDocs.Viewer for Java API Reference
-description: The type Path.
+description: The PathUtils class provides utility methods for working with file paths.
 type: docs
 weight: 11
 url: /java/com.groupdocs.viewer.utils/pathutils/
@@ -12,7 +12,18 @@ java.lang.Object
 public class PathUtils
 ```
 
-The type Path.
+The PathUtils class provides utility methods for working with file paths.
+
+The PathUtils class contains static methods that allow you to perform various operations on file paths in the GroupDocs.Viewer component.
+
+Example usage:
+
+```
+
+ String combinedPath = PathUtils.combine("part", "of", "path");
+ String fileName = PathUtils.getFileName("/path/to/file.txt");
+ 
+```
 ## Methods
 
 | Method | Description |

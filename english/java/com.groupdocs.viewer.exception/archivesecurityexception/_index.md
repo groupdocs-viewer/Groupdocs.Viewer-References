@@ -1,7 +1,7 @@
 ---
 title: ArchiveSecurityException
 second_title: GroupDocs.Viewer for Java API Reference
-description: The exception that is thrown when archive that is being opened exceeds any of the limits specified in com.groupdocs.viewer.options.ArchiveSecurityOptions.
+description: This exception is thrown when an archive being opened exceeds any of the limits specified in the ArchiveSecurityOptions.
 type: docs
 weight: 10
 url: /java/com.groupdocs.viewer.exception/archivesecurityexception/
@@ -12,19 +12,19 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class ArchiveSecurityException extends GroupDocsViewerException
 ```
 
-The exception that is thrown when archive that is being opened exceeds any of the limits specified in com.groupdocs.viewer.options.ArchiveSecurityOptions.
+This exception is thrown when an archive being opened exceeds any of the limits specified in the ArchiveSecurityOptions.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ArchiveSecurityException(String message)](#ArchiveSecurityException-java.lang.String-) | Creates an instance of an exception. |
+| [ArchiveSecurityException(String message)](#ArchiveSecurityException-java.lang.String-) | Creates an instance of the  ArchiveSecurityException  class with the specified message. |
 ### ArchiveSecurityException(String message) {#ArchiveSecurityException-java.lang.String-}
 ```
 public ArchiveSecurityException(String message)
 ```
 
 
-Creates an instance of an exception.
+Creates an instance of the  ArchiveSecurityException  class with the specified message.
 
 **Parameters:**
 | Parameter | Type | Description |
