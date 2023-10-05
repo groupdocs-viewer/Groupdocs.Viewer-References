@@ -20,16 +20,3 @@ byte
 ---
 
 
-## getRelativeSize()  function
-
- The watermark text size in percentages in relation to page width.
- Valid values are between 1 and 100.
- 
-
-### Result
-byte
-
-
----
-
-

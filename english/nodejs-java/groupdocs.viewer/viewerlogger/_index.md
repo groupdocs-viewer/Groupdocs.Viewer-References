@@ -12,6 +12,11 @@ url: /nodejs-java/groupdocs.viewer/viewerlogger/
  Global viewer logger
  Implements logging messages to integrated or user defined logger.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [ViewerLogger](viewerlogger)() |  |
 
 ## Functions

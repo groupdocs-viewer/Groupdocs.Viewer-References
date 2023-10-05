@@ -17,13 +17,3 @@ int
 ---
 
 
-## getTimeUnit()  function
-
-
-### Result
-int
-
-
----
-
-

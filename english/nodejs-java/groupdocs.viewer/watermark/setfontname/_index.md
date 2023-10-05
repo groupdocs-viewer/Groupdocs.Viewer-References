@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/watermark/setfontname/
 ---
 
 
-## setFontName(String value)  function
-
- The font name used for the watermark.
- 
-
-
----
-
-

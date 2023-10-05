@@ -17,13 +17,3 @@ int
 ---
 
 
-## getImageWidth()  function
-The width of the output image in pixels. (When converting single image to HTML only)
-
-### Result
-int
-
-
----
-
-

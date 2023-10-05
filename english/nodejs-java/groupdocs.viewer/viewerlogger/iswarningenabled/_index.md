@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isWarningEnabled()  function
-Checks is warning logging enabled
-
-### Result
-boolean
-
-
----
-
-

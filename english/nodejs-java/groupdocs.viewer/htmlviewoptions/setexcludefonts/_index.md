@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/htmlviewoptions/setexcludefonts/
 ---
 
 
-## setExcludeFonts(boolean value)  function
-
- When enabled prevents adding any fonts into HTML document.
- 
-
-
----
-
-

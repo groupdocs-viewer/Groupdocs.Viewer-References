@@ -19,15 +19,3 @@ int
 ---
 
 
-## getHeight()  function
-
- The height of the tile in pixels.
- 
-
-### Result
-int
-
-
----
-
-

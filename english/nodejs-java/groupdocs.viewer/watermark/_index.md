@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/watermark/
 
  Represents text watermark.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [Watermark](watermark)(String) | Initializes new instance of Watermark class. |
 
 ## Functions

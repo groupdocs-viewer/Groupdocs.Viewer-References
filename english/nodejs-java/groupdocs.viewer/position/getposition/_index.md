@@ -17,13 +17,3 @@ int
 ---
 
 
-## getPosition()  function
-
-
-### Result
-int
-
-
----
-
-

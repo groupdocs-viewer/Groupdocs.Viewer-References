@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/viewersettings/
 
  Defines settings for customizing  Viewer behaviour.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [ViewerSettings](viewersettings)([Cache](../cache), ILogger) | Initializes new instance of ViewerSettings class. |
 | [ViewerSettings](viewersettings)(ILogger) | Initializes new instance of ViewerSettings class. |
 | [ViewerSettings](viewersettings)([Cache](../cache)) | Initializes new instance of ViewerSettings class. |

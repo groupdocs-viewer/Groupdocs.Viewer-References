@@ -17,13 +17,3 @@ ArchiveOptions
 ---
 
 
-## ArchiveOptions() function
-
-
-### Result
-ArchiveOptions
-
-
----
-
-

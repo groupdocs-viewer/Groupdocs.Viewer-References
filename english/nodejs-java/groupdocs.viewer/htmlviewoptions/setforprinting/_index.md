@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/htmlviewoptions/setforprinting/
 ---
 
 
-## setForPrinting(boolean value)  function
-
- Indicates whether to optimize output HTML for printing.
- 
-
-
----
-
-

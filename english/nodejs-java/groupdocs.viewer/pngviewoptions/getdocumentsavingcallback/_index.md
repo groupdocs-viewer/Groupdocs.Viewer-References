@@ -17,13 +17,3 @@ IDocumentSavingCallback
 ---
 
 
-## getDocumentSavingCallback()  function
-Callback to estimate Words or Email document saving progress
-
-### Result
-IDocumentSavingCallback
-
-
----
-
-

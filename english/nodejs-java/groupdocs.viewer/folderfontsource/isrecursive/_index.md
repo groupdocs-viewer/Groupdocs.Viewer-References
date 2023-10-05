@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isRecursive()  function
-Checks if fonts would be searched recursively
-
-### Result
-boolean
-
-
----
-
-

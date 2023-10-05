@@ -17,13 +17,3 @@ TimeUnit
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-TimeUnit
-
-
----
-
-

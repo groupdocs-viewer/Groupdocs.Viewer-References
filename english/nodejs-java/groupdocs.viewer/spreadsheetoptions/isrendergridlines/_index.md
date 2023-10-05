@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isRenderGridLines()  function
-
- Enables grid lines rendering.
- 
-
-### Result
-boolean
-
-
----
-
-

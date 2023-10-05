@@ -17,13 +17,3 @@ PageSize
 ---
 
 
-## values()  function
-
-
-### Result
-PageSize
-
-
----
-
-

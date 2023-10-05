@@ -14,10 +14,3 @@ Max width of the output image (for rendering to PNG/JPG only)
 ---
 
 
-## setMaxWidth(int maxWidth)  function
-Max width of the output image (for rendering to PNG/JPG only)
-
-
----
-
-

@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/pdfviewoptions/
 
  Provides options for rendering documents into PDF format.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [PdfViewOptions](pdfviewoptions)([CreateFileStream](../createfilestream)) | Initializes new instance of PdfViewOptions class. |
 | [PdfViewOptions](pdfviewoptions)([CreateFileStream](../createfilestream), [ReleaseFileStream](../releasefilestream)) | Initializes new instance of PdfViewOptions class. |
 | [PdfViewOptions](pdfviewoptions)([FileStreamFactory](../filestreamfactory)) | Initializes new instance of PdfViewOptions class. |

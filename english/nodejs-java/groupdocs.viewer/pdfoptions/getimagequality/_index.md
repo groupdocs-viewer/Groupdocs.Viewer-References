@@ -19,15 +19,3 @@ ImageQuality
 ---
 
 
-## getImageQuality()  function
-
- Specifies output image quality for image resources when rendering into HTML. The default value is Low.
- 
-
-### Result
-ImageQuality
-
-
----
-
-

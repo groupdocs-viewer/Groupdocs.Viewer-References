@@ -17,6 +17,11 @@ Writes log messages to the file.
 | EXCEPTION | exception |  |
 | MESSAGE | message |  |
 
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [FileLogger](filelogger)(String) | Create logger to file. |
 | [FileLogger](filelogger)(String, boolean, boolean, boolean, boolean) | Create logger to file. |
 

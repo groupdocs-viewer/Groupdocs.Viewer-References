@@ -11,5 +11,10 @@ url: /nodejs-java/groupdocs.viewer/incorrectpasswordexception/
 
  The exception that is thrown when specified password is incorrect.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [IncorrectPasswordException](incorrectpasswordexception)() | Initializes a new instance of the IncorrectPasswordException class. |
 | [IncorrectPasswordException](incorrectpasswordexception)(String, Throwable) | Initializes a new instance of the IncorrectPasswordException class with a specified error message. |

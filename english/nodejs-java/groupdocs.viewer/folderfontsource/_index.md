@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/folderfontsource/
 
  Represents the folder that contains TrueType fonts.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [FolderFontSource](folderfontsource)(String, [SearchOption](../searchoption)) | Initializes new instance of FolderFontSource class. |
 
 ## Functions

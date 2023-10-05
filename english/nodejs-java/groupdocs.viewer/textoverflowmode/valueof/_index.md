@@ -17,13 +17,3 @@ TextOverflowMode
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-TextOverflowMode
-
-
----
-
-

@@ -14,10 +14,3 @@ url: /nodejs-java/groupdocs.viewer/filecache/setwaittimeout/
 ---
 
 
-## setWaitTimeout(TimeSpan waitTimeout)  function
-
-
-
----
-
-

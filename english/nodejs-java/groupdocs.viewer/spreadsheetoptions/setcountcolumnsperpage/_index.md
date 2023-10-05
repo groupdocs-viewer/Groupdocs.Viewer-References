@@ -14,10 +14,3 @@ The columns count to include into each page when splitting worksheet into pages.
 ---
 
 
-## setCountColumnsPerPage(int countColumnsPerPage)  function
-The columns count to include into each page when splitting worksheet into pages.
-
-
----
-
-

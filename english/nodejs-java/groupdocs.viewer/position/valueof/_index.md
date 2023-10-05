@@ -17,13 +17,3 @@ Position
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-Position
-
-
----
-
-

@@ -17,13 +17,3 @@ String
 ---
 
 
-## getName()  function
-Field name.
-
-### Result
-String
-
-
----
-
-

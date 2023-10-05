@@ -20,16 +20,3 @@ double
 ---
 
 
-## getScaleFactor()  function
-
- Values higher than 1 will enlarge output result; values between 0 and 1 will
- make output result smaller.
- 
-
-### Result
-double
-
-
----
-
-

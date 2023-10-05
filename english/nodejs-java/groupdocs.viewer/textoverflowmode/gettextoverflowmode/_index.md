@@ -17,13 +17,3 @@ int
 ---
 
 
-## getTextOverflowMode()  function
-
-
-### Result
-int
-
-
----
-
-

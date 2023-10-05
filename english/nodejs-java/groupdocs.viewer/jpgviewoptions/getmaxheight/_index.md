@@ -17,13 +17,3 @@ int
 ---
 
 
-## getMaxHeight()  function
-Max height of an output image in pixels.
-
-### Result
-int
-
-
----
-
-

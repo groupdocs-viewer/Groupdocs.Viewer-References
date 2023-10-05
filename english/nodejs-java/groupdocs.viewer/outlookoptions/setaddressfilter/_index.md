@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/outlookoptions/setaddressfilter/
 ---
 
 
-## setAddressFilter(String value)  function
-
- The email-address used to filter messages by sender or recipient.
- 
-
-
----
-
-

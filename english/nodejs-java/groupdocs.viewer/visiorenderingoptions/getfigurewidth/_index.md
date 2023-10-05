@@ -17,13 +17,3 @@ int
 ---
 
 
-## getFigureWidth()  function
-Figure width, height will be calculated automatically
-
-### Result
-int
-
-
----
-
-

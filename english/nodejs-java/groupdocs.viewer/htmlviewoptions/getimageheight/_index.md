@@ -17,13 +17,3 @@ int
 ---
 
 
-## getImageHeight()  function
-The height of an output image in pixels. (When converting single image to HTML only)
-
-### Result
-int
-
-
----
-
-

@@ -9,6 +9,11 @@ url: /nodejs-java/groupdocs.viewer/memorycleaner/
 
 ## MemoryCleaner class
 Cleanes different resources to free memory
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [MemoryCleaner](memorycleaner)() |  |
 
 ## Functions

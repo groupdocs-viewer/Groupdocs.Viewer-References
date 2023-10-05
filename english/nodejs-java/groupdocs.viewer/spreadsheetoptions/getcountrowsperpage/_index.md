@@ -19,15 +19,3 @@ int
 ---
 
 
-## getCountRowsPerPage()  function
-
- The rows count to include into each page when splitting worksheet into pages.
- 
-
-### Result
-int
-
-
----
-
-

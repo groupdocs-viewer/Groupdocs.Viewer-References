@@ -14,10 +14,3 @@ Render only Visio figures, not a diagram
 ---
 
 
-## setRenderFiguresOnly(boolean renderFiguresOnly)  function
-Render only Visio figures, not a diagram
-
-
----
-
-

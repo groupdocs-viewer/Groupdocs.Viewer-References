@@ -17,13 +17,3 @@ String
 ---
 
 
-## getFileInfoKey()  function
-Returns unique identifier for the cache entry that represents  ViewInfo object.
-
-### Result
-String
-
-
----
-
-

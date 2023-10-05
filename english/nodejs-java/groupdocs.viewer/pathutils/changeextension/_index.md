@@ -24,20 +24,3 @@ String
 ---
 
 
-## changeExtension(String path, String extension)  function
-Change extension string.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| path | String | the path |
-| extension | String | the extension |
-
-### Result
-String
-
-
----
-
-

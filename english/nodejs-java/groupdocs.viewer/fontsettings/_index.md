@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/fontsettings/
 
  Provides methods for working with sources to look for TrueType fonts.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [FontSettings](fontsettings)() |  |
 
 ## Functions

@@ -17,13 +17,3 @@ int
 ---
 
 
-## getSearchOption()  function
-
-
-### Result
-int
-
-
----
-
-

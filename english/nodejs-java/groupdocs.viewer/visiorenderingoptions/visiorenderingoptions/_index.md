@@ -17,13 +17,3 @@ VisioRenderingOptions
 ---
 
 
-## VisioRenderingOptions() function
-Initializes new instance of  class.
-
-### Result
-VisioRenderingOptions
-
-
----
-
-

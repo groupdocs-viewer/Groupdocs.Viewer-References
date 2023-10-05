@@ -20,16 +20,3 @@ Size
 ---
 
 
-## getSize()  function
-
- The watermark size.
- Default value is  Size#FULL_SIZE.
- 
-
-### Result
-Size
-
-
----
-
-

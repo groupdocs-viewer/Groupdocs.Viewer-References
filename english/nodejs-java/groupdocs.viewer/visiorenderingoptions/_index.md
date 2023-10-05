@@ -9,6 +9,11 @@ url: /nodejs-java/groupdocs.viewer/visiorenderingoptions/
 
 ## VisioRenderingOptions class
 The Visio files processing documents view options.
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [VisioRenderingOptions](visiorenderingoptions)() | Initializes new instance of class. |
 
 ## Functions

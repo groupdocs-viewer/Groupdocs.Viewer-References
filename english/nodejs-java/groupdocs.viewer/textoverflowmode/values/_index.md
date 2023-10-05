@@ -17,13 +17,3 @@ TextOverflowMode
 ---
 
 
-## values()  function
-
-
-### Result
-TextOverflowMode
-
-
----
-
-

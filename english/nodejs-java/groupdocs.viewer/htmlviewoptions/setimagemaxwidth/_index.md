@@ -14,10 +14,3 @@ Max width of an output image in pixels. (When converting single image to HTML on
 ---
 
 
-## setImageMaxWidth(int imageMaxWidth)  function
-Max width of an output image in pixels. (When converting single image to HTML only)
-
-
----
-
-

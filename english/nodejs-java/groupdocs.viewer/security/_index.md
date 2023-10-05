@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/security/
 
  Provides PDF document security options.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [Security](security)() | Initializes new instance of Security class. |
 
 ## Functions

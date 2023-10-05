@@ -14,10 +14,3 @@ Clears temp files, created by PDF in system temp directory.
 ---
 
 
-## clearAllTempFiles()  function
-Clears temp files, created by PDF in system temp directory.
-
-
----
-
-

@@ -19,15 +19,3 @@ EmailOptions
 ---
 
 
-## EmailOptions() function
-
- Initializes new instance of  EmailOptions class.
- 
-
-### Result
-EmailOptions
-
-
----
-
-

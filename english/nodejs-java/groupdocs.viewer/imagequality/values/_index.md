@@ -17,13 +17,3 @@ ImageQuality
 ---
 
 
-## values()  function
-
-
-### Result
-ImageQuality
-
-
----
-
-

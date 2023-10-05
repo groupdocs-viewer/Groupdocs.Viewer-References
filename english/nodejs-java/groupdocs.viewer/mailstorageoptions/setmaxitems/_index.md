@@ -24,20 +24,3 @@ Sets maximum number of messages or items for render.
 ---
 
 
-## setMaxItems(int maxItems)  function
-Sets maximum number of messages or items for render.
- 
- Lotus notes data files can be large and retrieving all messages can take significant time.
- This setting limits maximum number of messages or items that are rendered.
- Default value is 0 - all messages will be rendered
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| maxItems | int | Maximum number of messages |
-
-
----
-
-

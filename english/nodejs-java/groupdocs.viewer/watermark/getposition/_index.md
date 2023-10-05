@@ -20,16 +20,3 @@ Position
 ---
 
 
-## getPosition()  function
-
- The watermark position.
- Default value is  Position#DIAGONAL.
- 
-
-### Result
-Position
-
-
----
-
-

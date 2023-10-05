@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isTraceEnabled()  function
-
-
-### Result
-boolean
-
-
----
-
-

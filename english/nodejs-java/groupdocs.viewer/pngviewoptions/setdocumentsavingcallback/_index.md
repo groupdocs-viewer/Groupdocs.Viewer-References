@@ -20,16 +20,3 @@ Callback to estimate Words or Email document saving progress
 ---
 
 
-## setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)  function
-Callback to estimate Words or Email document saving progress
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| documentSavingCallback | IDocumentSavingCallback | Callback to estimate document saving progress |
-
-
----
-
-

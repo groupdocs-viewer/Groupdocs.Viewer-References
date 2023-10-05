@@ -17,13 +17,3 @@ Rotation
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-Rotation
-
-
----
-
-

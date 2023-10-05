@@ -9,6 +9,11 @@ url: /nodejs-java/groupdocs.viewer/textoptions/
 
 ## TextOptions class
 Text files splitting to pages options.
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [TextOptions](textoptions)() |  |
 
 ## Functions

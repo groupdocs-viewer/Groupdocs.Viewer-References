@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isSkipEmptyColumns()  function
-
- Disables empty columns rendering.
- 
-
-### Result
-boolean
-
-
----
-
-

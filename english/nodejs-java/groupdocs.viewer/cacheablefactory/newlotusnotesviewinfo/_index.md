@@ -25,21 +25,3 @@ LotusNotesViewInfo
 ---
 
 
-## newLotusNotesViewInfo([FileType](../../filetype) fileType, java.util.List<com.groupdocs.viewer.results.Page> pages, int notesCount)  function
-Creates implementation of  LotusNotesViewInfo interface
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fileType | [FileType](../filetype) | file type |
-| pages | java.util.List<com.groupdocs.viewer.results.Page> | pages |
-| notesCount | int | nodes count |
-
-### Result
-LotusNotesViewInfo
-
-
----
-
-

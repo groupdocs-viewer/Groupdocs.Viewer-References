@@ -20,16 +20,3 @@ Sets the keywords used to filter messages.
 ---
 
 
-## setTextFilter(String textFilter)  function
-Sets the keywords used to filter messages.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| textFilter | String | the keywords used to filter messages. |
-
-
----
-
-

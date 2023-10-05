@@ -19,15 +19,3 @@ String
 ---
 
 
-## getPassword()  function
-
- The password for opening encrypted file.
- 
-
-### Result
-String
-
-
----
-
-

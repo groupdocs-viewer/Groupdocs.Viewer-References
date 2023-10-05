@@ -19,15 +19,3 @@ int
 ---
 
 
-## getHeight()  function
-
- The height of the output result in pixels.
- 
-
-### Result
-int
-
-
----
-
-

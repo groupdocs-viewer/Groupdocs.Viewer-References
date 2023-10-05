@@ -19,15 +19,3 @@ PageSize
 ---
 
 
-## getPageSize()  function
-
- The size of the output page.
- 
-
-### Result
-PageSize
-
-
----
-
-

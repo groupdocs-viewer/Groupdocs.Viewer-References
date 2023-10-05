@@ -14,10 +14,3 @@ Indicates that text extraction is enabled.
 ---
 
 
-## setExtractText(boolean extractText)  function
-Indicates that text extraction is enabled.
-
-
----
-
-

@@ -14,10 +14,3 @@ Enables headings rendering.
 ---
 
 
-## setRenderHeadings(boolean mRenderHeadings)  function
-Enables headings rendering.
-
-
----
-
-

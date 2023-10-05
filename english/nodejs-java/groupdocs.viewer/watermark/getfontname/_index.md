@@ -19,15 +19,3 @@ String
 ---
 
 
-## getFontName()  function
-
- The font name used for the watermark.
- 
-
-### Result
-String
-
-
----
-
-

@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/loadoptions/setfiletype/
 ---
 
 
-## setFileType([FileType](../../filetype) value)  function
-
- The type of the file to open.
- 
-
-
----
-
-

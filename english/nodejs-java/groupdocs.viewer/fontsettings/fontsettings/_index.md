@@ -17,13 +17,3 @@ FontSettings
 ---
 
 
-## FontSettings() function
-
-
-### Result
-FontSettings
-
-
----
-
-

@@ -19,15 +19,3 @@ int
 ---
 
 
-## getPermissions()  function
-
- The PDF document permissions such as printing, modification and data extraction.
- 
-
-### Result
-int
-
-
----
-
-

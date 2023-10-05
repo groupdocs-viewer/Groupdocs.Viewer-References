@@ -14,10 +14,3 @@ Clears FontRegistry information from the Heap memory.
 ---
 
 
-## clearFontRegistry()  function
-Clears FontRegistry information from the Heap memory.
-
-
----
-
-

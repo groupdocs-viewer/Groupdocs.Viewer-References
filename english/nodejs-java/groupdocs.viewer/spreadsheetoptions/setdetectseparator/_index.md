@@ -14,10 +14,3 @@ Detect separator (for CSV/TSV files).
 ---
 
 
-## setDetectSeparator(boolean detectSeparator)  function
-Detect separator (for CSV/TSV files).
-
-
----
-
-

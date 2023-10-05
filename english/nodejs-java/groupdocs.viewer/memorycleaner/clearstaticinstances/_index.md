@@ -14,10 +14,3 @@ Clears Heap memory from static PDF instances.
 ---
 
 
-## clearStaticInstances()  function
-Clears Heap memory from static PDF instances.
-
-
----
-
-

@@ -11,5 +11,10 @@ url: /nodejs-java/groupdocs.viewer/notsupportedexception/
 
  The exception that is thrown when the operation is not supported.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [NotSupportedException](notsupportedexception)(String) |  |
 | [NotSupportedException](notsupportedexception)(String, Throwable) | Initializes a new instance of the NotSupportedException class with a specified error message. |

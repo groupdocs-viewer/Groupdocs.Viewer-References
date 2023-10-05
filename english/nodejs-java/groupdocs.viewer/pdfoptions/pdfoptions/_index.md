@@ -19,15 +19,3 @@ PdfOptions
 ---
 
 
-## PdfOptions() function
-
- Initializes new instance of  PdfOptions class.
- 
-
-### Result
-PdfOptions
-
-
----
-
-

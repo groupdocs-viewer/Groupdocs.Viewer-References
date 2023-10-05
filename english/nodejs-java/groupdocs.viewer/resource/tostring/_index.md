@@ -19,15 +19,3 @@ String
 ---
 
 
-## toString()  function
-
- Returns a string that represents the current object.
- 
-
-### Result
-String
-
-
----
-
-

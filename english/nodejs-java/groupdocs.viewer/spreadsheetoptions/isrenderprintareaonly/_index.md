@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isRenderPrintAreaOnly()  function
-
- Indicates that only print areas are rendered.
- 
-
-### Result
-boolean
-
-
----
-
-

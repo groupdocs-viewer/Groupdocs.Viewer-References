@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isTraceEnabled()  function
-Checks is trace logging enabled
-
-### Result
-boolean
-
-
----
-
-

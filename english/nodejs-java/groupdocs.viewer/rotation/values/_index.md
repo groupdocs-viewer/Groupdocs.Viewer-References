@@ -17,13 +17,3 @@ Rotation
 ---
 
 
-## values()  function
-
-
-### Result
-Rotation
-
-
----
-
-

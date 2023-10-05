@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isEmbedResources()  function
-
-
-### Result
-boolean
-
-
----
-
-

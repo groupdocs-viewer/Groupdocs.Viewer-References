@@ -17,13 +17,3 @@ int
 ---
 
 
-## getUrlConnectTimeout()  function
-Connect timeout to create  com.groupdocs.viewer.Viewer using  java.net.URL to load document, default value is 5 seconds
-
-### Result
-int
-
-
----
-
-

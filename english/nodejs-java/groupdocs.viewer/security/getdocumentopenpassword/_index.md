@@ -19,15 +19,3 @@ String
 ---
 
 
-## getDocumentOpenPassword()  function
-
- The password required to open the PDF document.
- 
-
-### Result
-String
-
-
----
-
-

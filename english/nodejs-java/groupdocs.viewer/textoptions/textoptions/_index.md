@@ -17,13 +17,3 @@ TextOptions
 ---
 
 
-## TextOptions() function
-
-
-### Result
-TextOptions
-
-
----
-
-

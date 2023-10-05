@@ -18,14 +18,3 @@ String
 ---
 
 
-## getDateTimeFormat()  function
-Time Format (can be include TimeZone)
- for example: 'MM d yyyy HH:mm tt', if not set - current system format is used
-
-### Result
-String
-
-
----
-
-

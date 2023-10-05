@@ -17,13 +17,3 @@ MailStorageOptions
 ---
 
 
-## MailStorageOptions() function
-
-
-### Result
-MailStorageOptions
-
-
----
-
-

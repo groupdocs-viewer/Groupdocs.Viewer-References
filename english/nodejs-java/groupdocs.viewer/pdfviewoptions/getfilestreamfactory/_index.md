@@ -17,13 +17,3 @@ FileStreamFactory
 ---
 
 
-## getFileStreamFactory()  function
-
-
-### Result
-FileStreamFactory
-
-
----
-
-

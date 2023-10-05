@@ -31,27 +31,3 @@ Watermark
 ---
 
 
-## Watermark(String text) function
-
- Initializes new instance of  Watermark class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Watermark text. |
-
-### Result
-Watermark
-
-### Error
-
-| Error | Condition |
-| --- | --- |
- | IllegalArgumentException | Thrown when {@code text} is null or empty. |
-
-
----
-
-

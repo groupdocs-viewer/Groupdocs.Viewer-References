@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/fontsettings/resetfontsources/
 ---
 
 
-## resetFontSources()  function
-
- Resets font sources that have been set before.
- 
-
-
----
-
-

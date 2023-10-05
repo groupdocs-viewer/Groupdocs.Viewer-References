@@ -23,19 +23,3 @@ FileName
 ---
 
 
-## FileName(String fileName) function
-Initializes new instance of  FileName class.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fileName | String | The name of the file. |
-
-### Result
-FileName
-
-
----
-
-

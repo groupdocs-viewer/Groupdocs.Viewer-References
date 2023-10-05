@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isRenderTrackedChanges()  function
-
- Enables tracked changes (revisions) rendering.
- 
-
-### Result
-boolean
-
-
----
-
-

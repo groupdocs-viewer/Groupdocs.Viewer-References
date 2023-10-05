@@ -17,13 +17,3 @@ char
 ---
 
 
-## getInvalidFileNameChars()  function
-Get invalid file name chars char [ ].
-
-### Result
-char
-
-
----
-
-

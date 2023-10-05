@@ -14,10 +14,3 @@ PC3 - plotter configuration file
 ---
 
 
-## setPc3File(String pc3File)  function
-PC3 - plotter configuration file
-
-
----
-
-

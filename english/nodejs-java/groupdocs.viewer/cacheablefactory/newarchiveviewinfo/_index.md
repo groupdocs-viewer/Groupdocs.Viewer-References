@@ -25,21 +25,3 @@ ArchiveViewInfo
 ---
 
 
-## newArchiveViewInfo([FileType](../../filetype) fileType, java.util.List<com.groupdocs.viewer.results.Page> pages, java.util.List<java.lang.String> folders)  function
-Creates implementation of ArchiveViewInfo interface
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fileType | [FileType](../filetype) | file type |
-| pages | java.util.List<com.groupdocs.viewer.results.Page> | pages |
-| folders | java.util.List<java.lang.String> | folders |
-
-### Result
-ArchiveViewInfo
-
-
----
-
-

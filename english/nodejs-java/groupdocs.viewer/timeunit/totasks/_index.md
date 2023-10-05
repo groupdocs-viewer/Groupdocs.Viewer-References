@@ -17,13 +17,3 @@ int
 ---
 
 
-## toTasks()  function
-
-
-### Result
-int
-
-
----
-
-

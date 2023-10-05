@@ -17,13 +17,3 @@ PageSize
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-PageSize
-
-
----
-
-

@@ -14,10 +14,3 @@ Clears Heap memory from static PDF instances (static and threadLocal) and delete
 ---
 
 
-## clearKeepingFontSettings()  function
-Clears Heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
-
-
----
-
-

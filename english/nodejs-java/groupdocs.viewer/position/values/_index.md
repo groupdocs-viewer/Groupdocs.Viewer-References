@@ -17,13 +17,3 @@ Position
 ---
 
 
-## values()  function
-
-
-### Result
-Position
-
-
----
-
-

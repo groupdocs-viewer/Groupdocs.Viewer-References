@@ -17,13 +17,3 @@ url: /nodejs-java/groupdocs.viewer/watermark/setsize/
 ---
 
 
-## setSize([Size](../../size) value)  function
-
- The watermark size.
- Default value is  Size#FULL_SIZE.
- 
-
-
----
-
-

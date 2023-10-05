@@ -19,15 +19,3 @@ ArchiveSecurityOptions
 ---
 
 
-## getArchiveSecurityOptions()  function
-
- Security options to control the process of extracting archives. Not each archive type supports all options.
- 
-
-### Result
-ArchiveSecurityOptions
-
-
----
-
-

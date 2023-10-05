@@ -15,11 +15,3 @@ This option enables kerning and other OpenType Features when rendering
 ---
 
 
-## setEnableOpenTypeFeatures(boolean enableOpenTypeFeatures)  function
-This option enables kerning and other OpenType Features when rendering
- Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts.
-
-
----
-
-

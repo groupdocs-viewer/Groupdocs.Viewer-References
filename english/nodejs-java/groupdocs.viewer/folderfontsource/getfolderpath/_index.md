@@ -19,15 +19,3 @@ String
 ---
 
 
-## getFolderPath()  function
-
- Path to the folder that contains TrueType fonts.
- 
-
-### Result
-String
-
-
----
-
-

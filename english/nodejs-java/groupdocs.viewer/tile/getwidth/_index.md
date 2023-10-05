@@ -19,15 +19,3 @@ int
 ---
 
 
-## getWidth()  function
-
- The width of the tile in pixels.
- 
-
-### Result
-int
-
-
----
-
-

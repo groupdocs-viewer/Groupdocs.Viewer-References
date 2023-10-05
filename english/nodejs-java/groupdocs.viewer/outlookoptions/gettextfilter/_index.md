@@ -19,15 +19,3 @@ String
 ---
 
 
-## getTextFilter()  function
-
- The keywords used to filter messages.
- 
-
-### Result
-String
-
-
----
-
-

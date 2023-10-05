@@ -14,10 +14,3 @@ Safely clears Heap memory from ThreadLocal instances for current thread
 ---
 
 
-## clearCurrentThreadLocals()  function
-Safely clears Heap memory from ThreadLocal instances for current thread
-
-
----
-
-

@@ -17,13 +17,3 @@ CacheableFactory
 ---
 
 
-## CacheableFactory() function
-
-
-### Result
-CacheableFactory
-
-
----
-
-

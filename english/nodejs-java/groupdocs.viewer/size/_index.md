@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/size/
 
  Watermark size.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [Size](size)(byte) | Initializes new instance of Size class. |
 
 ## Functions

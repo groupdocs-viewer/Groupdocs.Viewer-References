@@ -21,17 +21,3 @@ int
 ---
 
 
-## getQuality()  function
-
- Quality of the output image;
- Valid values are between 1 and 100;
- Default value is 90.
- 
-
-### Result
-int
-
-
----
-
-

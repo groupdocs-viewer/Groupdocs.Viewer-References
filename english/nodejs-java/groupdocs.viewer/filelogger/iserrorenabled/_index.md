@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isErrorEnabled()  function
-
-
-### Result
-boolean
-
-
----
-
-

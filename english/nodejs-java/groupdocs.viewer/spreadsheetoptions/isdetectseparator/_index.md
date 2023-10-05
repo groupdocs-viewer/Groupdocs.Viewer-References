@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isDetectSeparator()  function
-Detect separator (for CSV/TSV files).
-
-### Result
-boolean
-
-
----
-
-

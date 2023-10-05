@@ -31,27 +31,3 @@ CadOptions
 ---
 
 
-## forRenderingByHeight(int height)  function
-
- Initializes new instance of  CadOptions class for rendering by height.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| height | int | The height of the output result in pixels. |
-
-### Result
-CadOptions
-
-### Error
-
-| Error | Condition |
-| --- | --- |
- | IllegalArgumentException | Thrown when {@code height} is less or equal to zero. |
-
-
----
-
-

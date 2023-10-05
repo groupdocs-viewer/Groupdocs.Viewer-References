@@ -17,13 +17,3 @@ int
 ---
 
 
-## getMaxCharsPerRow()  function
-Max chars per row on page. Default value is 85.
-
-### Result
-int
-
-
----
-
-

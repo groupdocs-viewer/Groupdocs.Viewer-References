@@ -17,13 +17,3 @@ SpreadsheetOptions
 ---
 
 
-## forRenderingByPageBreaks()  function
-Initializes new instance of  for rendering print areas only.
-
-### Result
-SpreadsheetOptions
-
-
----
-
-

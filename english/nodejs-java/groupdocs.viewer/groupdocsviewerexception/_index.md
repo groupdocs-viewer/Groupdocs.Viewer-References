@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/groupdocsviewerexception/
 
  Represents the generic errors that occur during document processing.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [GroupDocsViewerException](groupdocsviewerexception)(String) | Initializes a new instance of the GroupDocsViewerException class with a specified error message. |
 | [GroupDocsViewerException](groupdocsviewerexception)(Throwable) | Instantiates a new Group docs exception. |
 | [GroupDocsViewerException](groupdocsviewerexception)(String, Throwable) | Initializes a new instance of the GroupDocsViewerException class with a specified error message. |

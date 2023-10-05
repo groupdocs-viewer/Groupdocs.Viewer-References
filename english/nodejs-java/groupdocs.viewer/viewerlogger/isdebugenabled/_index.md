@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isDebugEnabled()  function
-Checks is debug logging enabled
-
-### Result
-boolean
-
-
----
-
-

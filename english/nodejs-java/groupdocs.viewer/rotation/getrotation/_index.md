@@ -17,13 +17,3 @@ int
 ---
 
 
-## getRotation()  function
-
-
-### Result
-int
-
-
----
-
-

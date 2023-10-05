@@ -19,15 +19,3 @@ TimeUnit
 ---
 
 
-## getTimeUnit()  function
-
- The time unit.
- 
-
-### Result
-TimeUnit
-
-
----
-
-

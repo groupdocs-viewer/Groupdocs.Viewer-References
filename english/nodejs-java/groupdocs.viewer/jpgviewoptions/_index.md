@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/jpgviewoptions/
 
  Provides options for rendering documents into JPG format.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [JpgViewOptions](jpgviewoptions)([CreatePageStream](../createpagestream)) | Initializes new instance of JpgViewOptions class. |
 | [JpgViewOptions](jpgviewoptions)([CreatePageStream](../createpagestream), [ReleasePageStream](../releasepagestream)) | Initializes new instance of JpgViewOptions class. |
 | [JpgViewOptions](jpgviewoptions)([PageStreamFactory](../pagestreamfactory)) | Initializes new instance of JpgViewOptions class. |

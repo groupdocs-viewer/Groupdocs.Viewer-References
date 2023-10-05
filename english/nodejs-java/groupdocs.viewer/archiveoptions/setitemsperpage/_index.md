@@ -14,10 +14,3 @@ Number of records per page (for rendering to HTML only)
 ---
 
 
-## setItemsPerPage(int itemsPerPage)  function
-Number of records per page (for rendering to HTML only)
-
-
----
-
-

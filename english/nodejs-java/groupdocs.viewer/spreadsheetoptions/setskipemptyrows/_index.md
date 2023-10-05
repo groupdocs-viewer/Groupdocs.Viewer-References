@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/spreadsheetoptions/setskipemptyrows/
 ---
 
 
-## setSkipEmptyRows(boolean value)  function
-
- Disables empty rows rendering.
- 
-
-
----
-
-

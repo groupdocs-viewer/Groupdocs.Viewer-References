@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isExternalResources()  function
-
-
-### Result
-boolean
-
-
----
-
-

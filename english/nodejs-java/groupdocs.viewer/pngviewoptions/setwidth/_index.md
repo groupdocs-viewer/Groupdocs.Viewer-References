@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/pngviewoptions/setwidth/
 ---
 
 
-## setWidth(int value)  function
-
- The width of the output image in pixels.
- 
-
-
----
-
-

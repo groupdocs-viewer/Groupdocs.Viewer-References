@@ -17,13 +17,3 @@ int
 ---
 
 
-## getMaxHeight()  function
-Max height of the output image (for rendering to PNG/JPG only)
-
-### Result
-int
-
-
----
-
-

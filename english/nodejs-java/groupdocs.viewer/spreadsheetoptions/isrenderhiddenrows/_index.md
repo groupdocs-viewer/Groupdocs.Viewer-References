@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isRenderHiddenRows()  function
-
- Enables hidden rows rendering.
- 
-
-### Result
-boolean
-
-
----
-
-

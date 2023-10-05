@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/outlookoptions/
 
  Provides options for rendering Outlook data files.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [OutlookOptions](outlookoptions)() |  |
 
 ## Functions

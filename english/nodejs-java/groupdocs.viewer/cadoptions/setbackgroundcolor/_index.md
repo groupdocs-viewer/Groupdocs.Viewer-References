@@ -20,16 +20,3 @@ Sets image background color
 ---
 
 
-## setBackgroundColor(Color mBackgroundColor)  function
-Sets image background color
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mBackgroundColor | Color | Image background color |
-
-
----
-
-

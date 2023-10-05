@@ -14,10 +14,3 @@ The width of the output image in pixels. (When converting single image to HTML o
 ---
 
 
-## setImageWidth(int imageWidth)  function
-The width of the output image in pixels. (When converting single image to HTML only)
-
-
----
-
-

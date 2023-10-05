@@ -17,13 +17,3 @@ Field
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-Field
-
-
----
-
-

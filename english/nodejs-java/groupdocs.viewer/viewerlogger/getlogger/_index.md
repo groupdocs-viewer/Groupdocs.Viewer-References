@@ -17,13 +17,3 @@ ILogger
 ---
 
 
-## getLogger()  function
-
-
-### Result
-ILogger
-
-
----
-
-

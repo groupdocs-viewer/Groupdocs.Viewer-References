@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isRenderFiguresOnly()  function
-Render only Visio figures, not a diagram
-
-### Result
-boolean
-
-
----
-
-

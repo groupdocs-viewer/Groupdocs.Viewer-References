@@ -17,13 +17,3 @@ Double
 ---
 
 
-## getRightMargin()  function
-Right page margin (for HTML rendering only)
-
-### Result
-Double
-
-
----
-
-

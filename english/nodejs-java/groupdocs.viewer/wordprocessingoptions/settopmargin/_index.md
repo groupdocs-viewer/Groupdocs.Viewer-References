@@ -21,17 +21,3 @@ Top page margin (for HTML rendering only)
 ---
 
 
-## setTopMargin(Double topMargin)  function
-Top page margin (for HTML rendering only)
-
-
----
-
-
-## setTopMargin(int topMargin)  function
-Top page margin (for HTML rendering only)
-
-
----
-
-

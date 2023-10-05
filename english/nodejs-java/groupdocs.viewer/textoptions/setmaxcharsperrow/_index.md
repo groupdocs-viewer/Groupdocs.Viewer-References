@@ -14,10 +14,3 @@ Max chars per row on page. Default value is 85.
 ---
 
 
-## setMaxCharsPerRow(int maxCharsPerRow)  function
-Max chars per row on page. Default value is 85.
-
-
----
-
-

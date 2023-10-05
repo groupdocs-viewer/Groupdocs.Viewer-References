@@ -17,13 +17,3 @@ int
 ---
 
 
-## hashCode()  function
-
-
-### Result
-int
-
-
----
-
-

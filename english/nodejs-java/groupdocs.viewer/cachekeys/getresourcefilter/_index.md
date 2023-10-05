@@ -31,27 +31,3 @@ String
 ---
 
 
-## getResourceFilter(int pageNumber)  function
-
- Returns filter string to search for cache entries that represents  Resource objects.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| pageNumber | int | The number of page. |
-
-### Result
-String
-
-### Error
-
-| Error | Condition |
-| --- | --- |
- | IllegalArgumentException | Thrown when {@code pageNumber} is less or equal to zero. |
-
-
----
-
-

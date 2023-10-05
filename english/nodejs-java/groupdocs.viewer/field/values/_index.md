@@ -17,13 +17,3 @@ Field
 ---
 
 
-## values()  function
-
-
-### Result
-Field
-
-
----
-
-

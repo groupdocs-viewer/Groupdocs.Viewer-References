@@ -19,15 +19,3 @@ Security
 ---
 
 
-## getSecurity()  function
-
- The output PDF document security options.
- 
-
-### Result
-Security
-
-
----
-
-

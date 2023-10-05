@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/outlookoptions/settextfilter/
 ---
 
 
-## setTextFilter(String value)  function
-
- The keywords used to filter messages.
- 
-
-
----
-
-

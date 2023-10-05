@@ -22,4 +22,9 @@ url: /nodejs-java/groupdocs.viewer/permissions/
 | DENY_DATA_EXTRACTION | 4 | Deny text and graphics extraction. |
 | DENY_ALL | 7 | Deny printing, modification and data extraction. |
 
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [Permissions](permissions)() |  |

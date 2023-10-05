@@ -19,15 +19,3 @@ SpreadsheetOptions
 ---
 
 
-## forOnePagePerSheet()  function
-
- Initializes new instance of  SpreadsheetOptions class for rendering whole sheet into page.
- 
-
-### Result
-SpreadsheetOptions
-
-
----
-
-

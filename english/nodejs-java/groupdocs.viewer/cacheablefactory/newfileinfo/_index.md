@@ -23,19 +23,3 @@ FileInfo
 ---
 
 
-## newFileInfo([FileType](../../filetype) fileType)  function
-Creates implementation of LotusNotesViewInfo interface
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fileType | [FileType](../../filetype) | file type |
-
-### Result
-FileInfo
-
-
----
-
-

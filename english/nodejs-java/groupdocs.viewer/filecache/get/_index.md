@@ -25,21 +25,3 @@ T
 ---
 
 
-## get(String key, java.lang.Class<T> clazz)  function
-
- Deserializes data associated with this key if present.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| key | String | A key identifying the requested entry. |
-
-### Result
-T
-
-
----
-
-

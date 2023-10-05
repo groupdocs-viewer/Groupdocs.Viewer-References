@@ -23,19 +23,3 @@ url: /nodejs-java/groupdocs.viewer/filecache/set/
 ---
 
 
-## set(String key, Object value)  function
-
- Serializes data to the local disk.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| key | String | An unique identifier for the cache entry. |
-| value | Object | The object to serialize. |
-
-
----
-
-

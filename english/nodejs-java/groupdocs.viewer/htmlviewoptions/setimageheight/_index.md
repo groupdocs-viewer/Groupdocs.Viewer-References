@@ -14,10 +14,3 @@ The height of an output image in pixels. (When converting single image to HTML o
 ---
 
 
-## setImageHeight(int imageHeight)  function
-The height of an output image in pixels. (When converting single image to HTML only)
-
-
----
-
-

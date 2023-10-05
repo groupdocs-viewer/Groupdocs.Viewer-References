@@ -17,13 +17,3 @@ String
 ---
 
 
-## getText()  function
-
-
-### Result
-String
-
-
----
-
-

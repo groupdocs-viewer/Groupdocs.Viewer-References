@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isExcludeFonts()  function
-
- When enabled prevents adding any fonts into HTML document.
- 
-
-### Result
-boolean
-
-
----
-
-

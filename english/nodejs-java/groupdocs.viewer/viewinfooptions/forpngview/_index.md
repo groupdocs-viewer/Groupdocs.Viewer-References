@@ -33,29 +33,3 @@ ViewInfoOptions
 ---
 
 
-## forPngView()  function
-Initializes new instance of  ViewInfoOptions class to retrieve information about view when rendering into PNG.
-
-### Result
-ViewInfoOptions
-
-
----
-
-
-## forPngView(boolean extractText)  function
-Initializes new instance of  ViewInfoOptions class to retrieve information about view when rendering into PNG.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| extractText | boolean | Enables text extraction. |
-
-### Result
-ViewInfoOptions
-
-
----
-
-

@@ -17,13 +17,3 @@ int
 ---
 
 
-## getMaxRowsPerPage()  function
-Max rows per page. Default value is 55.
-
-### Result
-int
-
-
----
-
-

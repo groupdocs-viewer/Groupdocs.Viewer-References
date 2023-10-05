@@ -20,16 +20,3 @@ Connect timeout to create  com.groupdocs.viewer.Viewer using  java.net.URL to lo
 ---
 
 
-## setUrlConnectTimeout(int urlConnectTimeout)  function
-Connect timeout to create  com.groupdocs.viewer.Viewer using  java.net.URL to load document, default value is 5 seconds
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| urlConnectTimeout | int | connect timeout |
-
-
----
-
-

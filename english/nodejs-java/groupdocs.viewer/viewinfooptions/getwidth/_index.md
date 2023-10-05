@@ -17,13 +17,3 @@ int
 ---
 
 
-## getWidth()  function
-Image width (for rendering to PNG/JPG only)
-
-### Result
-int
-
-
----
-
-

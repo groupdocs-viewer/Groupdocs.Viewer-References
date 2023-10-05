@@ -19,15 +19,3 @@ SpreadsheetOptions
 ---
 
 
-## forRenderingPrintArea()  function
-
- Initializes new instance of  SpreadsheetOptions for rendering print areas only.
- 
-
-### Result
-SpreadsheetOptions
-
-
----
-
-

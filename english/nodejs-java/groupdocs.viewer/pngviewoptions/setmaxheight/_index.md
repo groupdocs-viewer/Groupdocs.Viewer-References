@@ -14,10 +14,3 @@ Max height of an output image in pixels.
 ---
 
 
-## setMaxHeight(int maxHeight)  function
-Max height of an output image in pixels.
-
-
----
-
-

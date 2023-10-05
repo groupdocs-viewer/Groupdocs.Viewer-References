@@ -21,6 +21,11 @@ url: /nodejs-java/groupdocs.viewer/viewer/
 | OPTIONS | options |  |
 | SETTINGS | settings |  |
 
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [createViewerFromStream ](viewer)(ReadStream, Function) | Initializes new instance of Viewer class. More about file types supported by GroupDocs.Viewer: Document formats supported by GroupDocs.Viewer |
 | [createViewerFromStream ](viewer)(ReadStream, boolean, Function) | Initializes new instance of Viewer class. Learn more More about file types supported by GroupDocs.Viewer: Document formats supported by GroupDocs.Viewer More about GroupDocs.Viewer for Java features: Developer Guide More about loading encrypted documents and viewing files from third-party storages with GroupDocs.Viewer for Java: How to load and view document with GroupDocs.Viewer |
 | [createViewerFromStream ](viewer)(ReadStream, [LoadOptions](../loadoptions), Function) | Initializes new instance of Viewer class. Learn more More about file types supported by GroupDocs.Viewer: Document formats supported by GroupDocs.Viewer More about GroupDocs.Viewer for Java features: Developer Guide More about loading encrypted documents and viewing files from third-party storages with GroupDocs.Viewer for Java: How to load and view document with GroupDocs.Viewer |

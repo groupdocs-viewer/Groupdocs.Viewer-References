@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/archiveoptions/setfolder/
 ---
 
 
-## setFolder(String value)  function
-
- The folder inside the archive to be rendered.
- 
-
-
----
-
-

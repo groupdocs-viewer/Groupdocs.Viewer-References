@@ -17,13 +17,3 @@ String
 ---
 
 
-## getFileName()  function
-The resource file name.
-
-### Result
-String
-
-
----
-
-

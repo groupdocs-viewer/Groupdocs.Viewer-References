@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/wordprocessingoptions/
 
  Provides options for rendering word processing documents.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [WordProcessingOptions](wordprocessingoptions)() |  |
 
 ## Functions

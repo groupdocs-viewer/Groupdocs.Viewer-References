@@ -13,6 +13,11 @@ This class helps customising  com.groupdocs.viewer.caching.Cache.
  Just extend CacheableFactory and call:
   CacheableFactory.setInstance(new YourCustomCacheableFactory()) .
  More details in documentation
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [CacheableFactory](cacheablefactory)() |  |
 
 ## Functions

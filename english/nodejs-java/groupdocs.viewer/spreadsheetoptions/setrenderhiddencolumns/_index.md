@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/spreadsheetoptions/setrenderhiddencolumns/
 ---
 
 
-## setRenderHiddenColumns(boolean value)  function
-
- Enables hidden columns rendering.
- 
-
-
----
-
-

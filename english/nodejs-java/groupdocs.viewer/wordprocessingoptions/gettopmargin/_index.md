@@ -17,13 +17,3 @@ Double
 ---
 
 
-## getTopMargin()  function
-Top page margin (for HTML rendering only)
-
-### Result
-Double
-
-
----
-
-

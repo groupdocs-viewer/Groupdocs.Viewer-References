@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isForPrinting()  function
-
- Indicates whether to optimize output HTML for printing.
- 
-
-### Result
-boolean
-
-
----
-
-

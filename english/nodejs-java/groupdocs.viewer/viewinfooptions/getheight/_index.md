@@ -17,13 +17,3 @@ int
 ---
 
 
-## getHeight()  function
-Image height (for rendering to PNG/JPG only)
-
-### Result
-int
-
-
----
-
-

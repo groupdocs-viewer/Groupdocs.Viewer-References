@@ -20,16 +20,3 @@ String
 ---
 
 
-## getPermissionsPassword()  function
-
- The password required to change permission settings;
- Using a permissions password you can restrict printing, modification and data extraction.
- 
-
-### Result
-String
-
-
----
-
-

@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/htmlviewoptions/setminify/
 ---
 
 
-## setMinify(boolean value)  function
-
- Enables HTML content and HTML resources minification.
- 
-
-
----
-
-

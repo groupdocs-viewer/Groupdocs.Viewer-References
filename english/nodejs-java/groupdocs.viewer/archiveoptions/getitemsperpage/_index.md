@@ -17,13 +17,3 @@ int
 ---
 
 
-## getItemsPerPage()  function
-Number of records per page (for rendering to HTML only)
-
-### Result
-int
-
-
----
-
-

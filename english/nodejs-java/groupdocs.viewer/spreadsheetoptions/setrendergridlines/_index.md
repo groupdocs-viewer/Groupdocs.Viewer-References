@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/spreadsheetoptions/setrendergridlines/
 ---
 
 
-## setRenderGridLines(boolean value)  function
-
- Enables grid lines rendering.
- 
-
-
----
-
-

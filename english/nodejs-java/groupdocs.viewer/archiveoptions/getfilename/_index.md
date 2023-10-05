@@ -18,14 +18,3 @@ FileName
 ---
 
 
-## getFileName()  function
-The filename to display in the header.
- By default the name of the source file is displayed.
-
-### Result
-FileName
-
-
----
-
-

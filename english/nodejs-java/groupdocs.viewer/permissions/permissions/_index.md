@@ -17,13 +17,3 @@ Permissions
 ---
 
 
-## Permissions() function
-
-
-### Result
-Permissions
-
-
----
-
-

@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/license/
 
  Provides methods to license the component. Learn more about licensing here.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [License](license)() |  |
 
 ## Functions

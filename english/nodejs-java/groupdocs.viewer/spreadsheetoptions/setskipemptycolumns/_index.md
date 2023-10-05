@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/spreadsheetoptions/setskipemptycolumns/
 ---
 
 
-## setSkipEmptyColumns(boolean value)  function
-
- Disables empty columns rendering.
- 
-
-
----
-
-

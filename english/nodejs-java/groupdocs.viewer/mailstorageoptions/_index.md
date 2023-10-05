@@ -9,6 +9,11 @@ url: /nodejs-java/groupdocs.viewer/mailstorageoptions/
 
 ## MailStorageOptions class
 Provides options for rendering Mail storage (Lotus Notes, MBox) data files.
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [MailStorageOptions](mailstorageoptions)() |  |
 
 ## Functions

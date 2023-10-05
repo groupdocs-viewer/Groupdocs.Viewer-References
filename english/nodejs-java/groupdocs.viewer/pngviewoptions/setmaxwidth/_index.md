@@ -14,10 +14,3 @@ Max width of an output image in pixels.
 ---
 
 
-## setMaxWidth(int maxWidth)  function
-Max width of an output image in pixels.
-
-
----
-
-

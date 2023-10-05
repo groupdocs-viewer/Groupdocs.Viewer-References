@@ -19,15 +19,3 @@ int
 ---
 
 
-## hashCode()  function
-
- Returns the hash code for the current  FolderFontSource object.
- 
-
-### Result
-int
-
-
----
-
-

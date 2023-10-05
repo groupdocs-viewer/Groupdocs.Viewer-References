@@ -19,15 +19,3 @@ FileType
 ---
 
 
-## getFileType()  function
-
- The type of the file to open.
- 
-
-### Result
-FileType
-
-
----
-
-

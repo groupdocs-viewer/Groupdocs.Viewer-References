@@ -31,27 +31,3 @@ ViewInfoOptions
 ---
 
 
-## fromJpgViewOptions([JpgViewOptions](../../jpgviewoptions) options)  function
-
- Initializes new instance of  ViewInfoOptions class based on  JpgViewOptions object.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| options | [JpgViewOptions](../../jpgviewoptions) | The JPG view options. |
-
-### Result
-ViewInfoOptions
-
-### Error
-
-| Error | Condition |
-| --- | --- |
- | IllegalArgumentException | Thrown when {@code options} is null. |
-
-
----
-
-

@@ -17,13 +17,3 @@ int
 ---
 
 
-## getPageSize()  function
-
-
-### Result
-int
-
-
----
-
-

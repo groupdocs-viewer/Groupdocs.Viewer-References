@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isSkipEmptyRows()  function
-
- Disables empty rows rendering.
- 
-
-### Result
-boolean
-
-
----
-
-

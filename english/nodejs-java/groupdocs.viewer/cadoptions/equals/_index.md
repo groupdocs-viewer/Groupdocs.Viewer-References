@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## equals(Object o)  function
-
-
-### Result
-boolean
-
-
----
-
-

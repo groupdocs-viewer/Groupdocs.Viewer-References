@@ -17,13 +17,3 @@ String
 ---
 
 
-## getCachePath()  function
-The Relative or absolute path to the cache folder.
-
-### Result
-String
-
-
----
-
-

@@ -19,15 +19,3 @@ int
 ---
 
 
-## getStartPointY()  function
-
- The Y coordinate of the lowest left point on the drawing where the tile begins.
- 
-
-### Result
-int
-
-
----
-
-

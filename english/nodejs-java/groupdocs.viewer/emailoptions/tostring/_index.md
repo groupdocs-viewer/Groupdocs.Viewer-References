@@ -27,23 +27,3 @@ String
 ---
 
 
-## toString()  function
-
-
-### Result
-String
-
-
----
-
-
-## toString(ToStringStyle style)  function
-
-
-### Result
-String
-
-
----
-
-

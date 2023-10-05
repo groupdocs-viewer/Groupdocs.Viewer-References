@@ -17,13 +17,3 @@ int
 ---
 
 
-## getMaxWidth()  function
-Max width of an output image in pixels.
-
-### Result
-int
-
-
----
-
-

@@ -19,15 +19,3 @@ TextOverflowMode
 ---
 
 
-## getTextOverflowMode()  function
-
- The text overflow mode for rendering spreadsheet documents into HTML.
- 
-
-### Result
-TextOverflowMode
-
-
----
-
-

@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isExtractText()  function
-Indicates that text extraction is enabled.
-
-### Result
-boolean
-
-
----
-
-

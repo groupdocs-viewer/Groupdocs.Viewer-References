@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/archiveoptions/
 
  Provides options for rendering archive files.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [ArchiveOptions](archiveoptions)() |  |
 
 ## Functions

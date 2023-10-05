@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/tile/
 
  Represents drawing region.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [Tile](tile)(int, int, int, int) | Initializes a new instance of the Tile class. |
 
 ## Functions

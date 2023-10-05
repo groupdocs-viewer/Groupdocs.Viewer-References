@@ -17,13 +17,3 @@ Resource
 ---
 
 
-## createResourceByKeyAndFilter(String key, String filter)  function
-
-
-### Result
-Resource
-
-
----
-
-

@@ -20,16 +20,3 @@ Sets email-address used to filter messages by sender or recipient.
 ---
 
 
-## setAddressFilter(String addressFilter)  function
-Sets email-address used to filter messages by sender or recipient.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| addressFilter | String | the email-address used to filter messages |
-
-
----
-
-

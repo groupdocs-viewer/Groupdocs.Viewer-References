@@ -18,6 +18,11 @@ url: /nodejs-java/groupdocs.viewer/filecache/
 | --- | --- | --- |
 | CACHE_PATH | cachePath |  |
 
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [FileCache](filecache)(String) | Creates new instance of FileCache class. |
 | [FileCache](filecache)(Path) | Creates new instance of FileCache class. |
 | [FileCache](filecache)(String, String) | Creates new instance of FileCache class. |

@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isMinify()  function
-
- Enables HTML content and HTML resources minification.
- 
-
-### Result
-boolean
-
-
----
-
-

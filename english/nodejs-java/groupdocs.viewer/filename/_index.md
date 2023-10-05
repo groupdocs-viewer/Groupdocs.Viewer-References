@@ -9,6 +9,11 @@ url: /nodejs-java/groupdocs.viewer/filename/
 
 ## FileName class
 Represents name of simple file
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [FileName](filename)(String) | Initializes new instance of FileName class. |
 
 ## Functions

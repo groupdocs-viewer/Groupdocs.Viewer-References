@@ -33,29 +33,3 @@ ViewInfoOptions
 ---
 
 
-## forHtmlView()  function
-Initializes new instance of  ViewInfoOptions class to retrieve information about view when rendering into HTML.
-
-### Result
-ViewInfoOptions
-
-
----
-
-
-## forHtmlView(boolean renderSinglePage)  function
-Initializes new instance of  ViewInfoOptions class to retrieve information about view when rendering into HTML.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| renderSinglePage | boolean | Enables HTML content will be rendered to single page. |
-
-### Result
-ViewInfoOptions
-
-
----
-
-

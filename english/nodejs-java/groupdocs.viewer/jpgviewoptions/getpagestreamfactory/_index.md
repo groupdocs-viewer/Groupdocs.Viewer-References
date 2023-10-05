@@ -18,14 +18,3 @@ PageStreamFactory
 ---
 
 
-## getPageStreamFactory()  function
-The factory which implements methods for creating and releasing output page
- stream.
-
-### Result
-PageStreamFactory
-
-
----
-
-

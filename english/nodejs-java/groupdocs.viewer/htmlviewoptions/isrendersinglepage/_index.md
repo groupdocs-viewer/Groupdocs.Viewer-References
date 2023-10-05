@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isRenderSinglePage()  function
-Enables HTML content will be rendered to single page
-
-### Result
-boolean
-
-
----
-
-

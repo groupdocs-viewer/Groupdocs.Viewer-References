@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/pdfoptions/
 
  Provides options for rendering PDF documents.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [PdfOptions](pdfoptions)() | Initializes new instance of PdfOptions class. |
 
 ## Functions

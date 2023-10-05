@@ -19,15 +19,3 @@ ProjectManagementOptions
 ---
 
 
-## ProjectManagementOptions() function
-
- Creates new instance of  ProjectManagementOptions class.
- 
-
-### Result
-ProjectManagementOptions
-
-
----
-
-

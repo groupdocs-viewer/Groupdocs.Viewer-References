@@ -23,19 +23,3 @@ String
 ---
 
 
-## getPathRoot(String path)  function
-getPathRoot.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| path | String | a java.lang.String object. |
-
-### Result
-String
-
-
----
-
-

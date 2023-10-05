@@ -17,13 +17,3 @@ ResourceStreamFactory
 ---
 
 
-## getResourceStreamFactory()  function
-
-
-### Result
-ResourceStreamFactory
-
-
----
-
-

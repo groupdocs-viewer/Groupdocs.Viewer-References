@@ -14,10 +14,3 @@ Max height of an output image in pixels. (When converting single image to HTML o
 ---
 
 
-## setImageMaxHeight(int imageMaxHeight)  function
-Max height of an output image in pixels. (When converting single image to HTML only)
-
-
----
-
-

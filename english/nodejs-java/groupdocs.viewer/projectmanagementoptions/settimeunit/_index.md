@@ -22,18 +22,3 @@ url: /nodejs-java/groupdocs.viewer/projectmanagementoptions/settimeunit/
 ---
 
 
-## setTimeUnit([TimeUnit](../../timeunit) value)  function
-
- The time unit.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | [TimeUnit](../../timeunit) | The time unit. |
-
-
----
-
-

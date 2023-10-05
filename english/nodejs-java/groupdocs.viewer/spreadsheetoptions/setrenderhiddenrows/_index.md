@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/spreadsheetoptions/setrenderhiddenrows/
 ---
 
 
-## setRenderHiddenRows(boolean value)  function
-
- Enables hidden rows rendering.
- 
-
-
----
-
-

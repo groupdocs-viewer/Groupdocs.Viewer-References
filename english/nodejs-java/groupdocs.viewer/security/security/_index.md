@@ -19,15 +19,3 @@ Security
 ---
 
 
-## Security() function
-
- Initializes new instance of  Security class.
- 
-
-### Result
-Security
-
-
----
-
-

@@ -17,13 +17,3 @@ ImageQuality
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-ImageQuality
-
-
----
-
-

@@ -17,13 +17,3 @@ String
 ---
 
 
-## getCacheSubFolder()  function
-The sub-folder to append to the  #getCachePath().
-
-### Result
-String
-
-
----
-
-

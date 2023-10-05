@@ -22,18 +22,3 @@ url: /nodejs-java/groupdocs.viewer/security/setpermissions/
 ---
 
 
-## setPermissions(int value)  function
-
- The PDF document permissions such as printing, modification and data extraction.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The PDF document permissions such as printing, modification and data extraction. |
-
-
----
-
-

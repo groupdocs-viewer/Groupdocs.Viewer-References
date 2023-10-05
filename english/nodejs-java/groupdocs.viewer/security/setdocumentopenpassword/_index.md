@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/security/setdocumentopenpassword/
 ---
 
 
-## setDocumentOpenPassword(String value)  function
-
- The password required to open the PDF document.
- 
-
-
----
-
-

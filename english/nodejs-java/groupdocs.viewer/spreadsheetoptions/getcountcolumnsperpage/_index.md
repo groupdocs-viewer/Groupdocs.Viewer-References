@@ -17,13 +17,3 @@ int
 ---
 
 
-## getCountColumnsPerPage()  function
-The columns count to include into each page when splitting worksheet into pages.
-
-### Result
-int
-
-
----
-
-

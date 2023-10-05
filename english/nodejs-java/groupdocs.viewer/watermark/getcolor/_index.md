@@ -20,16 +20,3 @@ Color
 ---
 
 
-## getColor()  function
-
- The watermark color.
- Default value is  Color#getRed().
- 
-
-### Result
-Color
-
-
----
-
-

@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isRenderHeadings()  function
-Is headings rendering enabled.
-
-### Result
-boolean
-
-
----
-
-

@@ -19,15 +19,3 @@ int
 ---
 
 
-## getEndPointY()  function
-
- Returns the Y coordinate of the highest right point on the drawing where the tile ends.
- 
-
-### Result
-int
-
-
----
-
-

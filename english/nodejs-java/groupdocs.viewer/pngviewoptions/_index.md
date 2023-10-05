@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/pngviewoptions/
 
  Provides options for rendering documents into PNG format.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [PngViewOptions](pngviewoptions)([CreatePageStream](../createpagestream)) | Initializes new instance of PngViewOptions class. |
 | [PngViewOptions](pngviewoptions)([CreatePageStream](../createpagestream), [ReleasePageStream](../releasepagestream)) | Initializes new instance of PngViewOptions class. |
 | [PngViewOptions](pngviewoptions)([PageStreamFactory](../pagestreamfactory)) | Initializes new instance of PngViewOptions class. |

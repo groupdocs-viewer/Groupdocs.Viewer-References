@@ -17,13 +17,3 @@ url: /nodejs-java/groupdocs.viewer/watermark/setcolor/
 ---
 
 
-## setColor(Color value)  function
-
- The watermark color.
- Default value is  Color#getRed().
- 
-
-
----
-
-

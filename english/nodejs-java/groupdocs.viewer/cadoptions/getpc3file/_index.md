@@ -17,13 +17,3 @@ String
 ---
 
 
-## getPc3File()  function
-PC3 - plotter configuration file
-
-### Result
-String
-
-
----
-
-

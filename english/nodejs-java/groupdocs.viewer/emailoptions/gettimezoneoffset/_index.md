@@ -17,13 +17,3 @@ TimeZone
 ---
 
 
-## getTimeZoneOffset()  function
-Message time zone offset
-
-### Result
-TimeZone
-
-
----
-
-

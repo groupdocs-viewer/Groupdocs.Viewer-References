@@ -17,13 +17,3 @@ SearchOption
 ---
 
 
-## valueOf(String name)  function
-
-
-### Result
-SearchOption
-
-
----
-
-

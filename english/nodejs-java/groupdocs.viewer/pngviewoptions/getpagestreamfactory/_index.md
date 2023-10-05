@@ -17,13 +17,3 @@ PageStreamFactory
 ---
 
 
-## getPageStreamFactory()  function
-
-
-### Result
-PageStreamFactory
-
-
----
-
-

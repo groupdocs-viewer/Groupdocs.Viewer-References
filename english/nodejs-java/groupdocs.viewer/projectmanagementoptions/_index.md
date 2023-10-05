@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/projectmanagementoptions/
 
  Provides options for rendering project management files.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [ProjectManagementOptions](projectmanagementoptions)() | Creates new instance of ProjectManagementOptions class. |
 
 ## Functions

@@ -19,15 +19,3 @@ SearchOption
 ---
 
 
-## getSearchOption()  function
-
- Specifies whether to search the current folder, or the current folder and all subfolders.
- 
-
-### Result
-SearchOption
-
-
----
-
-

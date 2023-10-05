@@ -17,13 +17,3 @@ Double
 ---
 
 
-## getBottomMargin()  function
-Bottom page margin (for HTML rendering only)
-
-### Result
-Double
-
-
----
-
-

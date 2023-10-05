@@ -19,15 +19,3 @@ Map
 ---
 
 
-## getFieldTextMap()  function
-
- The mapping between email message  Field and field text representation.
- 
-
-### Result
-Map
-
-
----
-
-

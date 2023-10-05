@@ -17,13 +17,3 @@ OutlookOptions
 ---
 
 
-## OutlookOptions() function
-
-
-### Result
-OutlookOptions
-
-
----
-
-

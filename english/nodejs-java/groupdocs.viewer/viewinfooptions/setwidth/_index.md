@@ -14,10 +14,3 @@ Image width (for rendering to PNG/JPG only)
 ---
 
 
-## setWidth(int width)  function
-Image width (for rendering to PNG/JPG only)
-
-
----
-
-

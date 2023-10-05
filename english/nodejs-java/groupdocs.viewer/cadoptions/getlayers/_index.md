@@ -25,21 +25,3 @@ ArrayList
 ---
 
 
-## getLayers()  function
-
- The CAD drawing layers to render.
- 
- 
- 
- By default all layers are rendered;
- Layer names are case-sensitive.
- 
- 
-
-### Result
-ArrayList
-
-
----
-
-

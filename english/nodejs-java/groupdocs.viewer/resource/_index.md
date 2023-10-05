@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/resource/
 
  Represents HTML resource such as font, style, image or graphics.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [Resource](resource)(String, boolean) | Creates new instance of Resource class. |
 
 ## Functions

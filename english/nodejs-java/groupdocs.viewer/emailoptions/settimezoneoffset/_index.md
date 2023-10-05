@@ -14,10 +14,3 @@ Message time zone offset
 ---
 
 
-## setTimeZoneOffset(TimeZone timeZoneOffset)  function
-Message time zone offset
-
-
----
-
-

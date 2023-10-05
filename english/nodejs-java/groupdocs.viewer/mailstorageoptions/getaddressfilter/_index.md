@@ -17,13 +17,3 @@ String
 ---
 
 
-## getAddressFilter()  function
-The email-address used to filter messages by sender or recipient.
-
-### Result
-String
-
-
----
-
-

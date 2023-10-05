@@ -19,15 +19,3 @@ String
 ---
 
 
-## getFolder()  function
-
- The folder inside the archive to be rendered.
- 
-
-### Result
-String
-
-
----
-
-

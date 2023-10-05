@@ -17,13 +17,3 @@ Color
 ---
 
 
-## getBackgroundColor()  function
-Gets image background color
-
-### Result
-Color
-
-
----
-
-

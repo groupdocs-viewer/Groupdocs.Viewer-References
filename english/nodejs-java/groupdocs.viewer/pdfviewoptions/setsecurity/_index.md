@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/pdfviewoptions/setsecurity/
 ---
 
 
-## setSecurity([Security](../../security) value)  function
-
- The output PDF document security options.
- 
-
-
----
-
-

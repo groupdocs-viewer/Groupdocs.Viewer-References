@@ -17,13 +17,3 @@ ViewerLogger
 ---
 
 
-## ViewerLogger() function
-
-
-### Result
-ViewerLogger
-
-
----
-
-

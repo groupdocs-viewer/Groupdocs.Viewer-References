@@ -17,13 +17,3 @@ TimeSpan
 ---
 
 
-## getWaitTimeout()  function
-
-
-### Result
-TimeSpan
-
-
----
-
-

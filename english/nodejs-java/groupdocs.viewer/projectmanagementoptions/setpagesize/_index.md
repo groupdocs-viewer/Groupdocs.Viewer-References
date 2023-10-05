@@ -22,18 +22,3 @@ url: /nodejs-java/groupdocs.viewer/projectmanagementoptions/setpagesize/
 ---
 
 
-## setPageSize([PageSize](../../pagesize) value)  function
-
- The output page size.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | [PageSize](../../pagesize) | The output page size. |
-
-
----
-
-

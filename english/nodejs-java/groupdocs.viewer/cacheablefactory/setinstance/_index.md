@@ -20,16 +20,3 @@ Sets instance of  CacheableFactory
 ---
 
 
-## setInstance([CacheableFactory](../../cacheablefactory) instance)  function
-Sets instance of  CacheableFactory
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| instance | [CacheableFactory](../../cacheablefactory) | instance of CacheableFactory |
-
-
----
-
-

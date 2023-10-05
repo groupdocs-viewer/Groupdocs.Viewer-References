@@ -17,13 +17,3 @@ int
 ---
 
 
-## getImageQuality()  function
-
-
-### Result
-int
-
-
----
-
-

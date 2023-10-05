@@ -17,13 +17,3 @@ TimeUnit
 ---
 
 
-## values()  function
-
-
-### Result
-TimeUnit
-
-
----
-
-

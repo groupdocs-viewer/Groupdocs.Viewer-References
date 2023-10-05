@@ -17,13 +17,3 @@ int
 ---
 
 
-## getImageMaxWidth()  function
-Max width of an output image in pixels. (When converting single image to HTML only)
-
-### Result
-int
-
-
----
-
-

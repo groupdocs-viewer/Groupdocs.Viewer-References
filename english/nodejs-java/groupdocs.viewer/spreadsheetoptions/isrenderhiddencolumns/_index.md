@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isRenderHiddenColumns()  function
-
- Enables hidden columns rendering.
- 
-
-### Result
-boolean
-
-
----
-
-

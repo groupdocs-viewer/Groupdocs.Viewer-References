@@ -16,12 +16,3 @@ url: /nodejs-java/groupdocs.viewer/loadoptions/setpassword/
 ---
 
 
-## setPassword(String value)  function
-
- The password for opening encrypted file.
- 
-
-
----
-
-

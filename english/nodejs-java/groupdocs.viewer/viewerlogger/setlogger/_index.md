@@ -22,18 +22,3 @@ url: /nodejs-java/groupdocs.viewer/viewerlogger/setlogger/
 ---
 
 
-## setLogger(ILogger logger)  function
-
- Sets the logger.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| logger | ILogger | The input logger. |
-
-
----
-
-

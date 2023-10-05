@@ -21,17 +21,3 @@ Bottom page margin (for HTML rendering only)
 ---
 
 
-## setBottomMargin(Double bottomMargin)  function
-Bottom page margin (for HTML rendering only)
-
-
----
-
-
-## setBottomMargin(int bottomMargin)  function
-Bottom page margin (for HTML rendering only)
-
-
----
-
-

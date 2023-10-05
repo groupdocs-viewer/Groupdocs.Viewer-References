@@ -14,10 +14,3 @@ Max rows per page. Default value is 55.
 ---
 
 
-## setMaxRowsPerPage(int maxRowsPerPage)  function
-Max rows per page. Default value is 55.
-
-
----
-
-

@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/filenotfoundexception/
 
  Represents the the exception that throws when file or directory was not found.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [FileNotFoundException](filenotfoundexception)(String) | Initializes a new instance of the FileNotFoundException class with a specified error message. |
 | [FileNotFoundException](filenotfoundexception)(Path) | Initializes a new instance of the FileNotFoundException class with a specified error message. |
 | [FileNotFoundException](filenotfoundexception)(String, java.lang.Object[]) | Initializes a new instance of the FileNotFoundException class with a specified error message. |

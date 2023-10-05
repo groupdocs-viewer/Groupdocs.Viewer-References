@@ -23,19 +23,3 @@ String
 ---
 
 
-## getFileName(String path)  function
-Gets file name.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| path | String | the path |
-
-### Result
-String
-
-
----
-
-

@@ -14,10 +14,3 @@ Enables HTML content will be rendered to single page
 ---
 
 
-## setRenderToSinglePage(boolean renderSinglePage)  function
-Enables HTML content will be rendered to single page
-
-
----
-
-

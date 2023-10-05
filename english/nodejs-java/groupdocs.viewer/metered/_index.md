@@ -13,6 +13,11 @@ url: /nodejs-java/groupdocs.viewer/metered/
  More about licensing: GroupDocs Licensing FAQ
  More about GroupDocs.Viewer licensing: Evaluation Limitations and Licensing
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [Metered](metered)() |  |
 
 ## Functions

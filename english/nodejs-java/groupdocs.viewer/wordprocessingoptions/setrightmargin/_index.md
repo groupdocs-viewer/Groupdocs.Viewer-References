@@ -21,17 +21,3 @@ Right page margin (for HTML rendering only)
 ---
 
 
-## setRightMargin(Double rightMargin)  function
-Right page margin (for HTML rendering only)
-
-
----
-
-
-## setRightMargin(int rightMargin)  function
-Right page margin (for HTML rendering only)
-
-
----
-
-

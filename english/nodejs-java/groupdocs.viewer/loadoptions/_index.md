@@ -19,6 +19,11 @@ url: /nodejs-java/groupdocs.viewer/loadoptions/
 | DEFAULT_URL_CONNECT_TIMEOUT | 5000 |  |
 | DEFAULT_URL_READ_TIMEOUT | 30000 |  |
 
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [LoadOptions](loadoptions)() | Initializes new instance of LoadOptions class. |
 | [LoadOptions](loadoptions)([FileType](../filetype)) | Initializes new instance of LoadOptions class. |
 

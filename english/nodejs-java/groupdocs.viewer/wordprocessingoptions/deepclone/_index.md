@@ -17,13 +17,3 @@ WordProcessingOptions
 ---
 
 
-## deepClone()  function
-Clone Options object to remember original options
-
-### Result
-WordProcessingOptions
-
-
----
-
-

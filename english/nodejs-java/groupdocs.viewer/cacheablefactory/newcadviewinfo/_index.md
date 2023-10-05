@@ -26,22 +26,3 @@ CadViewInfo
 ---
 
 
-## newCadViewInfo([FileType](../../filetype) fileType, java.util.List<com.groupdocs.viewer.results.Page> pages, java.util.List<com.groupdocs.viewer.results.Layer> layers, java.util.List<com.groupdocs.viewer.results.Layout> layouts)  function
-Creates implementation of LotusNotesViewInfo interface
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| fileType | [FileType](../filetype) | file type |
-| pages | java.util.List<com.groupdocs.viewer.results.Page> | pages |
-| layers | java.util.List<com.groupdocs.viewer.results.Layer> | layers |
-| layouts | java.util.List<com.groupdocs.viewer.results.Layout> | layouts |
-
-### Result
-CadViewInfo
-
-
----
-
-

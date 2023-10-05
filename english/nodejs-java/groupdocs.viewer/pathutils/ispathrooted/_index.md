@@ -23,19 +23,3 @@ boolean
 ---
 
 
-## isPathRooted(String path)  function
-isPathRooted.
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| path | String | a java.lang.String object. |
-
-### Result
-boolean
-
-
----
-
-

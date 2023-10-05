@@ -19,15 +19,3 @@ int
 ---
 
 
-## getWidth()  function
-
- The width of the output result in pixels.
- 
-
-### Result
-int
-
-
----
-
-

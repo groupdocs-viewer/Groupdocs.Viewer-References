@@ -17,13 +17,3 @@ CacheableFactory
 ---
 
 
-## getInstance()  function
-Gets instance of  CacheableFactory
-
-### Result
-CacheableFactory
-
-
----
-
-

@@ -17,13 +17,3 @@ SearchOption
 ---
 
 
-## values()  function
-
-
-### Result
-SearchOption
-
-
----
-
-

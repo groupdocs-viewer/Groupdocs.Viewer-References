@@ -17,13 +17,3 @@ boolean
 ---
 
 
-## isDebugEnabled()  function
-
-
-### Result
-boolean
-
-
----
-
-

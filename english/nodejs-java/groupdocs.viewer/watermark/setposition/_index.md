@@ -23,19 +23,3 @@ url: /nodejs-java/groupdocs.viewer/watermark/setposition/
 ---
 
 
-## setPosition([Position](../../position) value)  function
-
- The watermark position.
- Default value is  Position#DIAGONAL.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | [Position](../../position) | The watermark position. |
-
-
----
-
-

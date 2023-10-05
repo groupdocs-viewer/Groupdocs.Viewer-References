@@ -14,10 +14,3 @@ url: /nodejs-java/groupdocs.viewer/pathutils/createdirectoryifnotexists/
 ---
 
 
-## createDirectoryIfNotExists(String folderPath)  function
-
-
-
----
-
-

@@ -14,10 +14,3 @@ Max height of the output image (for rendering to PNG/JPG only)
 ---
 
 
-## setMaxHeight(int maxHeight)  function
-Max height of the output image (for rendering to PNG/JPG only)
-
-
----
-
-

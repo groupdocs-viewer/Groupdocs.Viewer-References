@@ -17,13 +17,3 @@ WordProcessingOptions
 ---
 
 
-## WordProcessingOptions() function
-
-
-### Result
-WordProcessingOptions
-
-
----
-
-

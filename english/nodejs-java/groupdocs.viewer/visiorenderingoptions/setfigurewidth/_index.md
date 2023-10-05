@@ -14,10 +14,3 @@ Figure width, height will be calculated automatically. Default value is 100.
 ---
 
 
-## setFigureWidth(int figureWidth)  function
-Figure width, height will be calculated automatically. Default value is 100.
-
-
----
-
-

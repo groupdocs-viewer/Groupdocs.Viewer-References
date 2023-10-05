@@ -19,15 +19,3 @@ boolean
 ---
 
 
-## isOnePagePerSheet()  function
-
- Indicates that one sheet is rendered into one page.
- 
-
-### Result
-boolean
-
-
----
-
-

@@ -11,6 +11,11 @@ url: /nodejs-java/groupdocs.viewer/emailoptions/
 
  Provides options for rendering email messages.
  
+
+## Functions
+
+| Name | Description |
+| --- | --- |
 | [EmailOptions](emailoptions)() | Initializes new instance of EmailOptions class. |
 
 ## Functions

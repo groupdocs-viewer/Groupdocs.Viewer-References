@@ -17,13 +17,3 @@ String
 ---
 
 
-## getText()  function
-The watermark text.
-
-### Result
-String
-
-
----
-
-

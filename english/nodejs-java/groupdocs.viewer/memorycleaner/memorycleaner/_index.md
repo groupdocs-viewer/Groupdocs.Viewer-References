@@ -17,13 +17,3 @@ MemoryCleaner
 ---
 
 
-## MemoryCleaner() function
-
-
-### Result
-MemoryCleaner
-
-
----
-
-

@@ -14,10 +14,3 @@ Image height (for rendering to PNG/JPG only)
 ---
 
 
-## setHeight(int height)  function
-Image height (for rendering to PNG/JPG only)
-
-
----
-
-

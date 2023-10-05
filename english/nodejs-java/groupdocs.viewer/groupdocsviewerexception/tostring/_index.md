@@ -17,13 +17,3 @@ String
 ---
 
 
-## toString()  function
-
-
-### Result
-String
-
-
----
-
-

@@ -22,18 +22,3 @@ url: /nodejs-java/groupdocs.viewer/emailoptions/setpagesize/
 ---
 
 
-## setPageSize([PageSize](../../pagesize) value)  function
-
- The size of the output page.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | [PageSize](../../pagesize) | The size of the output page. |
-
-
----
-
-
