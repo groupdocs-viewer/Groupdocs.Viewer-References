@@ -3,7 +3,7 @@ title: TopMargin
 second_title: GroupDocs.Viewer for .NET API Reference
 description: To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.viewer.options/spreadsheetoptions/topmargin/
 ---
 ## SpreadsheetOptions.TopMargin property

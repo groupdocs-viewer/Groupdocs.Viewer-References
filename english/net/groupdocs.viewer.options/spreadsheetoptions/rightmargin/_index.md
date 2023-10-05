@@ -3,7 +3,7 @@ title: RightMargin
 second_title: GroupDocs.Viewer for .NET API Reference
 description: To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.viewer.options/spreadsheetoptions/rightmargin/
 ---
 ## SpreadsheetOptions.RightMargin property

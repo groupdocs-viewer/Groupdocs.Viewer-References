@@ -40,6 +40,7 @@ public class SpreadsheetOptions
 | static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) class for rendering whole sheet into page. |
 | static [ForRenderingByPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering print areas only. |
 | static [ForRenderingPrintArea](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering print areas only. |
+| static [ForRenderingPrintAreaAndPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintareaandpagebreaks)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering print areas and page breaks. |
 | static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages)(int) | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering sheet into pages. |
 | static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages_1)(int, int) | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering sheet into pages. |
 

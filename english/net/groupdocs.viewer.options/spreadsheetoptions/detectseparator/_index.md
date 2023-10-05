@@ -3,7 +3,7 @@ title: DetectSeparator
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Detect separator for CSV/TSV files.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.viewer.options/spreadsheetoptions/detectseparator/
 ---
 ## SpreadsheetOptions.DetectSeparator property

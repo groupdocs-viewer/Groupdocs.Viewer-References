@@ -3,7 +3,7 @@ title: CountColumnsPerPage
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The columns count to include into each page when splitting worksheet into pages.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.viewer.options/spreadsheetoptions/countcolumnsperpage/
 ---
 ## SpreadsheetOptions.CountColumnsPerPage property
