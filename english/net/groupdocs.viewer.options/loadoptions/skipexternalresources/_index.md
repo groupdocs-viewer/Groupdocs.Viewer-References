@@ -1,17 +1,17 @@
 ---
-title: ResourceLoadingTimeout
+title: SkipExternalResources
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The external resources e.g. graphics loading timeout. The default value is 30 seconds.
+description: When set to true all external resource such as images will not be loaded except WhitelistedResourcesgroupdocs.viewer.options/loadoptions/whitelistedresources.
 type: docs
-weight: 60
-url: /net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
+weight: 70
+url: /net/groupdocs.viewer.options/loadoptions/skipexternalresources/
 ---
-## LoadOptions.ResourceLoadingTimeout property
+## LoadOptions.SkipExternalResources property
 
-The external resources e.g. graphics loading timeout. The default value is 30 seconds.
+When set to `true` all external resource such as images will not be loaded except [`WhitelistedResources`](../whitelistedresources).
 
 ```csharp
-public TimeSpan ResourceLoadingTimeout { get; set; }
+public bool SkipExternalResources { get; set; }
 ```
 
 ### Remarks
@@ -21,6 +21,7 @@ public TimeSpan ResourceLoadingTimeout { get; set; }
 * Word processing - DOCX, DOC, etc.
 * Spreadsheet - XLSX, XLS, etc.
 * Web - HTML, HTM, etc.
+* Presentation - PPTX, PPT, etc.
 
 **Learn more about options to manage external resources:**
 
@@ -32,7 +33,7 @@ The example demonstrates a typical usage of this option.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
-loadOptions.ResourceLoadingTimeout = TimeSpan.FromSeconds(3); // Set resource loading timeout to 3 seconds
+loadOptions.SkipExternalResources = true; // Skip loading of external resources
 
 using (Viewer viewer = new Viewer("business-flyer.docx", loadOptions))
 {

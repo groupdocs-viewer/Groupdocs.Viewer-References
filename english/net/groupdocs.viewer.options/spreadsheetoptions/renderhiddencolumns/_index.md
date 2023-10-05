@@ -3,7 +3,7 @@ title: RenderHiddenColumns
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables hidden columns rendering.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.viewer.options/spreadsheetoptions/renderhiddencolumns/
 ---
 ## SpreadsheetOptions.RenderHiddenColumns property

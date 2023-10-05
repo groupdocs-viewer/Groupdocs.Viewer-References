@@ -29,7 +29,9 @@ public class LoadOptions
 | [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | The encoding used when opening text-based files or email messages such as [`CSV`](../../groupdocs.viewer/filetype/csv), [`TXT`](../../groupdocs.viewer/filetype/txt), and [`MSG`](../../groupdocs.viewer/filetype/msg). Default value is UTF8. |
 | [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | The type of the file to open. |
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | The password for opening encrypted file. |
-| [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | The external resources e.g. graphics loading timeout. The default value is 30 seconds. This option is supported for Word Processing documents that contain external resources. |
+| [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | The external resources e.g. graphics loading timeout. The default value is 30 seconds. |
+| [SkipExternalResources](../../groupdocs.viewer.options/loadoptions/skipexternalresources) { get; set; } | When set to `true` all external resource such as images will not be loaded except [`WhitelistedResources`](./whitelistedresources). |
+| [WhitelistedResources](../../groupdocs.viewer.options/loadoptions/whitelistedresources) { get; set; } | The list of URL fragments corresponding to external resources that should be loaded when [`SkipExternalResources`](./skipexternalresources) is set to `true`. |
 
 ### See Also
 

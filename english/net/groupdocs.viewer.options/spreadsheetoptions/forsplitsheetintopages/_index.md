@@ -3,7 +3,7 @@ title: ForSplitSheetIntoPages
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Initializes new instance of SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions for rendering sheet into pages.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages/
 ---
 ## ForSplitSheetIntoPages(int) {#forsplitsheetintopages}

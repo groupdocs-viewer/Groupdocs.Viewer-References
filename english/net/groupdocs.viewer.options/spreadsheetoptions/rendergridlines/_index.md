@@ -3,7 +3,7 @@ title: RenderGridLines
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables grid lines rendering.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.viewer.options/spreadsheetoptions/rendergridlines/
 ---
 ## SpreadsheetOptions.RenderGridLines property

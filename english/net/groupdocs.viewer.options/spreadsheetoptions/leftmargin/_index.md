@@ -3,7 +3,7 @@ title: LeftMargin
 second_title: GroupDocs.Viewer for .NET API Reference
 description: To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.viewer.options/spreadsheetoptions/leftmargin/
 ---
 ## SpreadsheetOptions.LeftMargin property
