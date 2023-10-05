@@ -1,0 +1,35 @@
+---
+title: getPosition
+second_title: GroupDocs.Viewer for Node.js via Java API Reference
+description: 
+type: docs
+
+url: /nodejs-java/groupdocs.viewer/watermark/getposition/
+---
+
+## getPosition()  function
+
+ The watermark position.
+ Default value is  Position#DIAGONAL.
+ 
+
+### Result
+Position
+
+
+---
+
+
+## getPosition()  function
+
+ The watermark position.
+ Default value is  Position#DIAGONAL.
+ 
+
+### Result
+Position
+
+
+---
+
+

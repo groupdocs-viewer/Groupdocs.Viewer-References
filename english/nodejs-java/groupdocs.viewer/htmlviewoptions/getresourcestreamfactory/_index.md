@@ -1,0 +1,29 @@
+---
+title: getResourceStreamFactory
+second_title: GroupDocs.Viewer for Node.js via Java API Reference
+description: 
+type: docs
+
+url: /nodejs-java/groupdocs.viewer/htmlviewoptions/getresourcestreamfactory/
+---
+
+## getResourceStreamFactory()  function
+
+
+### Result
+ResourceStreamFactory
+
+
+---
+
+
+## getResourceStreamFactory()  function
+
+
+### Result
+ResourceStreamFactory
+
+
+---
+
+

@@ -1,0 +1,71 @@
+---
+title: IncorrectPasswordException
+second_title: GroupDocs.Viewer for Node.js via Java API Reference
+description: 
+type: docs
+
+url: /nodejs-java/groupdocs.viewer/incorrectpasswordexception/incorrectpasswordexception/
+---
+
+## IncorrectPasswordException() function
+
+ Initializes a new instance of the  IncorrectPasswordException class.
+ 
+
+### Result
+IncorrectPasswordException
+
+
+---
+
+
+## IncorrectPasswordException(String message, Throwable throwable) function
+
+ Initializes a new instance of the  IncorrectPasswordException class with a specified error message.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | The message. |
+| throwable | Throwable | The throwable. |
+
+### Result
+IncorrectPasswordException
+
+
+---
+
+
+## IncorrectPasswordException() function
+
+ Initializes a new instance of the  IncorrectPasswordException class.
+ 
+
+### Result
+IncorrectPasswordException
+
+
+---
+
+
+## IncorrectPasswordException(String message, Throwable throwable) function
+
+ Initializes a new instance of the  IncorrectPasswordException class with a specified error message.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | The message. |
+| throwable | Throwable | The throwable. |
+
+### Result
+IncorrectPasswordException
+
+
+---
+
+

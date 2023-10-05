@@ -1,0 +1,29 @@
+---
+title: valueOf
+second_title: GroupDocs.Viewer for Node.js via Java API Reference
+description: 
+type: docs
+
+url: /nodejs-java/groupdocs.viewer/timeunit/valueof/
+---
+
+## valueOf(String name)  function
+
+
+### Result
+TimeUnit
+
+
+---
+
+
+## valueOf(String name)  function
+
+
+### Result
+TimeUnit
+
+
+---
+
+

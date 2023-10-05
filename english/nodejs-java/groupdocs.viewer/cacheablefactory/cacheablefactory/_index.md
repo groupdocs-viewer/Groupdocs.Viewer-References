@@ -1,0 +1,29 @@
+---
+title: CacheableFactory
+second_title: GroupDocs.Viewer for Node.js via Java API Reference
+description: 
+type: docs
+
+url: /nodejs-java/groupdocs.viewer/cacheablefactory/cacheablefactory/
+---
+
+## CacheableFactory() function
+
+
+### Result
+CacheableFactory
+
+
+---
+
+
+## CacheableFactory() function
+
+
+### Result
+CacheableFactory
+
+
+---
+
+
