@@ -16,14 +16,14 @@ public bool SkipExternalResources { get; set; }
 
 ### Remarks
 
-**This option is supported when rendering the following file formats:**
+This option is supported when rendering the following file formats:
 
-* Word processing - DOCX, DOC, etc.
-* Spreadsheet - XLSX, XLS, etc.
-* Web - HTML, HTM, etc.
-* Presentation - PPTX, PPT, etc.
+* [Presentation file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#presentation-file-formats)
+* [Spreadsheet file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#spreadsheet-file-formats)
+* [Web file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#web-file-formats)
+* [Word processing file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#word-processing-file-formats)
 
-**Learn more about options to manage external resources:**
+Learn more about options to manage external resources:
 
 * [Set timeout for loading external resources](https://docs.groupdocs.com/viewer/net/set-timeout-for-loading-external-resources-contained-by-a-document/)
 

@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### Remarks
 
-**Learn more**
+Learn more
 
 * [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
 * [Render text documents as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-text-files)
