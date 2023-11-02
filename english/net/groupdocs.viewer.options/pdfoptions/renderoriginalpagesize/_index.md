@@ -3,7 +3,7 @@ title: RenderOriginalPageSize
 second_title: GroupDocs.Viewer for .NET API Reference
 description: When this option enabled the output pages will have the same size in pixels as page size in a source PDF document. By default GroupDocs.Viewer calculates output image page size for better rendering quality.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.viewer.options/pdfoptions/renderoriginalpagesize/
 ---
 ## PdfOptions.RenderOriginalPageSize property

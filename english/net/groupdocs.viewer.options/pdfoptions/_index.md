@@ -25,12 +25,14 @@ public class PdfOptions
 | Name | Description |
 | --- | --- |
 | [DisableCharsGrouping](../../groupdocs.viewer.options/pdfoptions/disablecharsgrouping) { get; set; } | Disables chars grouping to keep maximum precision during chars positioning when rendering the page. |
+| [DisableFontLicenseVerifications](../../groupdocs.viewer.options/pdfoptions/disablefontlicenseverifications) { get; set; } | Disable any license restrictions for all fonts in current XPS/OXPS document |
 | [EnableFontHinting](../../groupdocs.viewer.options/pdfoptions/enablefonthinting) { get; set; } | Enables font hinting. The font hinting adjusts the display of an outline font. Supported only for TTF fonts when these fonts are used in source document. |
 | [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | Enables rendering of text and graphics according to z-order in original PDF document when rendering into HTML. |
 | [FixedLayout](../../groupdocs.viewer.options/pdfoptions/fixedlayout) { get; set; } | PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to `false`. |
 | [ImageQuality](../../groupdocs.viewer.options/pdfoptions/imagequality) { get; set; } | Specifies output image quality for image resources when rendering into HTML. The default value is Low. |
 | [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | When this option enabled the output pages will have the same size in pixels as page size in a source PDF document. By default GroupDocs.Viewer calculates output image page size for better rendering quality. |
 | [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | When this option is set to true, the text is rendered as an image in the output HTML. Enable this option to make text unselectable or to fix characters rendering and make HTML look like PDF. The default value is false. |
+| [WrapImagesInSvg](../../groupdocs.viewer.options/pdfoptions/wrapimagesinsvg) { get; set; } | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
 
 ### See Also
 

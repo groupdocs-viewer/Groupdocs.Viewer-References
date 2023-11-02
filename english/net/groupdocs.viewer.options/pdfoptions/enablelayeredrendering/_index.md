@@ -3,7 +3,7 @@ title: EnableLayeredRendering
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables rendering of text and graphics according to zorder in original PDF document when rendering into HTML.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.viewer.options/pdfoptions/enablelayeredrendering/
 ---
 ## PdfOptions.EnableLayeredRendering property
