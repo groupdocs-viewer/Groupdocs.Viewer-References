@@ -16,7 +16,7 @@ public bool DetectEncoding { get; set; }
 
 ### Remarks
 
-**Learn more about rendering text and tab/comma delimited files**
+Learn more about rendering text and tab/comma delimited files:
 
 * [Render text documents as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-text-files/)
 * [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)

@@ -3,7 +3,7 @@ title: EnableFontHinting
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables font hinting. The font hinting adjusts the display of an outline font. Supported only for TTF fonts when these fonts are used in source document.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.viewer.options/pdfoptions/enablefonthinting/
 ---
 ## PdfOptions.EnableFontHinting property

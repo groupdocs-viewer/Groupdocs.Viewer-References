@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingTimeout
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The external resources e.g. graphics loading timeout. The default value is 30 seconds.
+description: The external resources loading timeout. The default value is 10 seconds.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property
 
-The external resources e.g. graphics loading timeout. The default value is 30 seconds.
+The external resources loading timeout. The default value is 10 seconds.
 
 ```csharp
 public TimeSpan ResourceLoadingTimeout { get; set; }
@@ -16,13 +16,14 @@ public TimeSpan ResourceLoadingTimeout { get; set; }
 
 ### Remarks
 
-**This option is supported when rendering the following file formats:**
+This option is supported when rendering the following file formats:
 
-* Word processing - DOCX, DOC, etc.
-* Spreadsheet - XLSX, XLS, etc.
-* Web - HTML, HTM, etc.
+* [Presentation file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#presentation-file-formats)
+* [Spreadsheet file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#spreadsheet-file-formats)
+* [Web file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#web-file-formats)
+* [Word processing file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#word-processing-file-formats)
 
-**Learn more about options to manage external resources:**
+Learn more about options to manage external resources:
 
 * [Set timeout for loading external resources](https://docs.groupdocs.com/viewer/net/set-timeout-for-loading-external-resources-contained-by-a-document/)
 
@@ -32,7 +33,7 @@ The example demonstrates a typical usage of this option.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
-loadOptions.ResourceLoadingTimeout = TimeSpan.FromSeconds(3); // Set resource loading timeout to 3 seconds
+loadOptions.ResourceLoadingTimeout = TimeSpan.FromSeconds(5); // Set resource loading timeout to 5 seconds
 
 using (Viewer viewer = new Viewer("business-flyer.docx", loadOptions))
 {

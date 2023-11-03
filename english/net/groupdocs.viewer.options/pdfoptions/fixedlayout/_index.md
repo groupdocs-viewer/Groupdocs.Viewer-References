@@ -3,7 +3,7 @@ title: FixedLayout
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to false.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.viewer.options/pdfoptions/fixedlayout/
 ---
 ## PdfOptions.FixedLayout property
