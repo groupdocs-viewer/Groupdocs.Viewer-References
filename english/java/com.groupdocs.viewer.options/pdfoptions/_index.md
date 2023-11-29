@@ -55,6 +55,8 @@ Example usage:
 | [setRenderOriginalPageSize(boolean renderOriginalPageSize)](#setRenderOriginalPageSize-boolean-) | Enables rendering of pages with the same size in pixels as the page size in the source PDF document. |
 | [getImageQuality()](#getImageQuality--) | Retrieves the output image quality for image resources when rendering into HTML. |
 | [setImageQuality(ImageQuality value)](#setImageQuality-com.groupdocs.viewer.options.ImageQuality-) | Sets the output image quality for image resources when rendering into HTML. |
+| [isFixedLayout()](#isFixedLayout--) | PDF is a fixed format so all of the elements have a specific place on a page. |
+| [setFixedLayout(boolean fixedLayout)](#setFixedLayout-boolean-) |  |
 ### PdfOptions() {#PdfOptions--}
 ```
 public PdfOptions()
@@ -224,4 +226,41 @@ Sets the output image quality for image resources when rendering into HTML. The 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ImageQuality](../../com.groupdocs.viewer.options/imagequality) | The output image quality for image resources when rendering into HTML. |
+
+### isFixedLayout() {#isFixedLayout--}
+```
+public boolean isFixedLayout()
+```
+
+
+PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to false.
+
+***Note:** The default value is true. This option is supported when rendering into HTML. When rendering to fluid layout images are skipped. Use fluid layout when rendering PDF documents with textual content.*
+
+Example usage:
+
+```
+
+ try (Viewer viewer = new Viewer("resume.pdf")) {
+      HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources("page_{0}.html");
+      viewOptions.setFixedLayout(false);
+      viewer.view(viewOptions);
+ }
+ 
+```
+
+**Returns:**
+boolean - true if it is fixed layout
+### setFixedLayout(boolean fixedLayout) {#setFixedLayout-boolean-}
+```
+public void setFixedLayout(boolean fixedLayout)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fixedLayout | boolean |  |
 
