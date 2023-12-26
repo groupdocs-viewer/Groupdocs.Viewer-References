@@ -1,18 +1,24 @@
 ---
 title: Width
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Image width for rendering to PNG/JPG only
+description: The width of the output image in pixels for rendering to PNG/JPG only.
 type: docs
 weight: 130
 url: /net/groupdocs.viewer.options/viewinfooptions/width/
 ---
 ## ViewInfoOptions.Width property
 
-Image width (for rendering to PNG/JPG only)
+The width of the output image (in pixels, for rendering to PNG/JPG only).
 
 ```csharp
 public int Width { get; set; }
 ```
+
+### Remarks
+
+Use this property to set the output image width (in pixels). For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/image-viewer-adjust-image-size/).
+
+If you set this property, the [`MaxWidth`](../maxwidth) property is ignored.
 
 ### See Also
 

@@ -12,35 +12,35 @@ The namespace provides classes to specify additional options when rendering docu
 
 | Class | Description |
 | --- | --- |
-| [ArchiveOptions](./archiveoptions) | Provides options for rendering archive files. |
-| [BaseViewOptions](./baseviewoptions) | Provides base rendering options. |
-| [CadOptions](./cadoptions) | Provides options for rendering CAD drawings. |
-| [EmailOptions](./emailoptions) | Provides options for rendering email messages. |
-| [Field](./field) | Represents email message field e.g. From, To, Subject etc. |
+| [ArchiveOptions](./archiveoptions) | Contains options for rendering the archive files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/). |
+| [BaseViewOptions](./baseviewoptions) | Contains the base rendering options. |
+| [CadOptions](./cadoptions) | Contains options for rendering CAD drawings. For more information and code examples, see the [Render CAD drawings and models as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-cad-drawings-and-models/) and [Specify rendering options for CAD files](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/). |
+| [EmailOptions](./emailoptions) | Contains options for rendering email messages. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/). |
+| [Field](./field) | Represents email message field e.g. From, To, Subject etc. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/#rename-fields-in-the-message-header). |
 | [FileName](./filename) | The filename. |
-| [HtmlViewOptions](./htmlviewoptions) | Provides options for rendering documents into HTML format. |
-| [JpgViewOptions](./jpgviewoptions) | Provides options for rendering documents into JPG format. |
-| [LoadOptions](./loadoptions) | Provides options that used to open the file. |
-| [MailStorageOptions](./mailstorageoptions) | Provides options for rendering Mail storage (Lotus Notes, MBox) data files. |
-| [OutlookOptions](./outlookoptions) | Provides options for rendering Outlook data files. |
-| [PdfOptimizationOptions](./pdfoptimizationoptions) | Use this class to specify PDF optimization options to apply to the output PDF file. |
-| [PdfOptions](./pdfoptions) | Provides options for rendering PDF documents. |
-| [PdfViewOptions](./pdfviewoptions) | Provides options for rendering documents into PDF format. |
-| [PngViewOptions](./pngviewoptions) | Provides options for rendering documents into PNG format. |
-| [PresentationOptions](./presentationoptions) | Provides options for rendering presentations options. |
-| [ProjectManagementOptions](./projectmanagementoptions) | Provides options for rendering project management files. |
-| [Resolution](./resolution) | Provides option to set resolution for images in output document. |
-| [Security](./security) | Provides PDF document security options. |
-| [Size](./size) | Watermark size. |
-| [SpreadsheetOptions](./spreadsheetoptions) | Provides options for rendering spreadsheets. |
+| [HtmlViewOptions](./htmlviewoptions) | Contains options for rendering documents into HTML format. For details, see the [topic](https://docs.groupdocs.com/viewer/net/rendering-to-html/) and its children. |
+| [JpgViewOptions](./jpgviewoptions) | Provides options for rendering documents into JPG format. For details, see this [page](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/) and its children. |
+| [LoadOptions](./loadoptions) | Contains options that used to open the file. For details, see this [page](https://docs.groupdocs.com/viewer/net/loading/) and its children. |
+| [MailStorageOptions](./mailstorageoptions) | Contains options for rendering Mail storage (Lotus Notes, MBox) data files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/#specify-rendering-options). |
+| [OutlookOptions](./outlookoptions) | Contains options for rendering Outlook data files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/#specify-rendering-options). |
+| [PdfOptimizationOptions](./pdfoptimizationoptions) | Contains the PDF optimization options to apply to the output PDF file. For details and code samples, see this [page](https://docs.groupdocs.com/viewer/net/optimization-pdf-options/) and its children. |
+| [PdfOptions](./pdfoptions) | Contains options for rendering to PDF documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/). |
+| [PdfViewOptions](./pdfviewoptions) | Contains options for rendering documents into PDF format. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/). |
+| [PngViewOptions](./pngviewoptions) | Contains options for rendering documents into PNG format. For details, see this [page](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/) and its children. |
+| [PresentationOptions](./presentationoptions) | Contains options for rendering presentations. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/). |
+| [ProjectManagementOptions](./projectmanagementoptions) | Contains options for rendering project management files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/). |
+| [Resolution](./resolution) | Contains option to set resolution for images in output document. |
+| [Security](./security) | Contains the PDF document security options. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/protect-pdf-documents/). |
+| [Size](./size) | Contains the watermark size. |
+| [SpreadsheetOptions](./spreadsheetoptions) | Contains options for rendering spreadsheets. For details, see children of the [Render spreadsheet files](https://docs.groupdocs.com/viewer/net/render-spreadsheets/) topic. |
 | [TextOptions](./textoptions) | Text files splitting to pages options. |
-| [Tile](./tile) | Represents drawing region. |
-| [ViewInfoOptions](./viewinfooptions) | Provides options used for retrieving information about view. |
-| [ViewOptions](./viewoptions) | Provides rendering options. |
-| [VisioRenderingOptions](./visiorenderingoptions) | The Visio files processing documents view options. |
-| [Watermark](./watermark) | Represents text watermark. |
-| [WebDocumentOptions](./webdocumentoptions) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents. |
-| [WordProcessingOptions](./wordprocessingoptions) | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
+| [Tile](./tile) | Represents the drawing region. |
+| [ViewInfoOptions](./viewinfooptions) | Contains options for retrieving information about view. |
+| [ViewOptions](./viewoptions) | Contains the rendering options. |
+| [VisioRenderingOptions](./visiorenderingoptions) | Contains options for rendering Visio documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-visio-documents/). |
+| [Watermark](./watermark) | Represents a text watermark. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/add-text-watermark/). |
+| [WebDocumentOptions](./webdocumentoptions) | Contains options for rendering web documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-web-documents/). |
+| [WordProcessingOptions](./wordprocessingoptions) | Contains options for rendering Word documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/). |
 ## Interfaces
 
 | Interface | Description |
@@ -53,9 +53,9 @@ The namespace provides classes to specify additional options when rendering docu
 | [ImageQuality](./imagequality) | The quality of images in the output HTML contained by the PDF documents. |
 | [PageSize](./pagesize) | The size of the page. |
 | [Permissions](./permissions) | Defines PDF document permissions. |
-| [Position](./position) | Defines watermark position. |
-| [Rotation](./rotation) | Defines page rotation in degrees. |
-| [TextOverflowMode](./textoverflowmode) | Defines text overflow mode for rendering spreadsheet documents into HTML. |
+| [Position](./position) | Defines the watermark position. |
+| [Rotation](./rotation) | Contains page rotation in degrees (clockwise). |
+| [TextOverflowMode](./textoverflowmode) | Sets the text overflow mode for rendering spreadsheet documents into HTML. |
 | [TimeUnit](./timeunit) | Time unit of the project duration. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->

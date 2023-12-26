@@ -1,18 +1,24 @@
 ---
 title: RenderResponsive
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Enables responsive rendering Responsive webpages render well on a devices with different screen size.
+description: Enables responsive rendering.
 type: docs
 weight: 110
 url: /net/groupdocs.viewer.options/htmlviewoptions/renderresponsive/
 ---
 ## HtmlViewOptions.RenderResponsive property
 
-Enables responsive rendering; Responsive web-pages render well on a devices with different screen size.
+Enables responsive rendering.
 
 ```csharp
 public bool RenderResponsive { get; set; }
 ```
+
+### Remarks
+
+Responsive design aims to make web pages render well on a variety of devices. To render with a responsive layout, set this property to `true`.
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-with-responsive-layout/).
 
 ### See Also
 

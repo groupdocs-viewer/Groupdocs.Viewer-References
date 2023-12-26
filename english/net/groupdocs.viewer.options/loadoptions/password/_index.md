@@ -1,18 +1,22 @@
 ---
 title: Password
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The password for opening encrypted file.
+description: Sets the password to open encrypted file.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-The password for opening encrypted file.
+Sets the password to open encrypted file.
 
 ```csharp
 public string Password { get; set; }
 ```
+
+### Remarks
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/load-password-protected-document/).
 
 ### See Also
 

@@ -1,18 +1,22 @@
 ---
 title: TextFilter
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The keywords used to filter messages.
+description: Sets the keywords used to filter messages.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/outlookoptions/textfilter/
 ---
 ## OutlookOptions.TextFilter property
 
-The keywords used to filter messages.
+Sets the keywords used to filter messages.
 
 ```csharp
 public string TextFilter { get; set; }
 ```
+
+### Remarks
+
+Use this property to render all messages that contain specific text in the subject or body. For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-outlook-data-files/#filter-messages).
 
 ### See Also
 

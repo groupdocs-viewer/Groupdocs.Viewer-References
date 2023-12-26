@@ -23,6 +23,10 @@ public enum TimeUnit
 | ThirdsOfMonths | `10` | The one third of the month. |
 | Months | `30` | The one month interval. |
 
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/#adjust-the-time-unit).
+
 ### See Also
 
 * namespace [GroupDocs.Viewer.Options](../../groupdocs.viewer.options)

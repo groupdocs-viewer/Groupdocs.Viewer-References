@@ -18,7 +18,7 @@ public class FileName
 
 | Name | Description |
 | --- | --- |
-| [FileName](filename)(string) | Initializes new instance of [`FileName`](../filename) class. |
+| [FileName](filename)(string) | Initializes an instance of the [`FileName`](../filename) class. |
 
 ## Methods
 

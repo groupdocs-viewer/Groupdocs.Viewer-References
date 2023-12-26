@@ -1,18 +1,22 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Text files splitting to pages options.
+description: Text files view options.
 type: docs
 weight: 140
 url: /net/groupdocs.viewer.options/baseviewoptions/textoptions/
 ---
 ## BaseViewOptions.TextOptions property
 
-Text files splitting to pages options.
+Text files view options.
 
 ```csharp
 public TextOptions TextOptions { get; set; }
 ```
+
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-text-files/).
 
 ### See Also
 

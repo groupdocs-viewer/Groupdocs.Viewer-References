@@ -1,18 +1,24 @@
 ---
 title: ExcludeFonts
 second_title: GroupDocs.Viewer for .NET API Reference
-description: When enabled prevents adding any fonts into HTML document.
+description: Disables adding any fonts into HTML document.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/htmlviewoptions/excludefonts/
 ---
 ## HtmlViewOptions.ExcludeFonts property
 
-When enabled prevents adding any fonts into HTML document.
+Disables adding any fonts into HTML document.
 
 ```csharp
 public bool ExcludeFonts { get; set; }
 ```
+
+### Remarks
+
+By default, GroupDocs.Viewer embeds the fonts used in the document into HTML. To prevent it, set this property to `true`.
+
+For details and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/exclude-fonts/).
 
 ### See Also
 

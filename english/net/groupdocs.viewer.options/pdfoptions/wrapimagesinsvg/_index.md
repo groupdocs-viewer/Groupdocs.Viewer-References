@@ -1,14 +1,14 @@
 ---
 title: WrapImagesInSvg
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality.
+description: Enables wrapping each image in the output HTML document in SVG tag to improve the output quality.
 type: docs
 weight: 100
 url: /net/groupdocs.viewer.options/pdfoptions/wrapimagesinsvg/
 ---
 ## PdfOptions.WrapImagesInSvg property
 
-Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality.
+Enables wrapping each image in the output HTML document in SVG tag to improve the output quality.
 
 ```csharp
 public bool WrapImagesInSvg { get; set; }
@@ -16,29 +16,11 @@ public bool WrapImagesInSvg { get; set; }
 
 ### Remarks
 
-This option is supported when rendering [PDF and Page Layout file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#pdf-and-page-layout-file-formats) to HTML with embedded and external resources.
+By default, when rendering PDF and Page Layout files to HTML, all images are rendered as one PNG image. The rendered PNG image is used as the background for the output HTML document.
 
-By default, when rendering to PDF and Page Layout files, all the images are rendered as one PNG image. The rendered PNG image is used as the background for the output HTML document.
+This option is available when rendering [PDF and Page Layout file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#pdf-and-page-layout-file-formats) to HTML with embedded and external resources. It enables wrapping each image in the output HTML document in SVG tag. The default value is `false`.
 
-Learn more:
-
-* [Render PDF documents as HTML and image files](https://docs.groupdocs.com/viewer/net/render-pdf-documents/)
-* [Render to HTML](https://docs.groupdocs.com/viewer/net/rendering-to-html/)
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-using (Viewer viewer = new Viewer("resume.pdf"))
-{
-    HtmlViewOptions viewOptions = 
-        HtmlViewOptions.ForEmbeddedResources();
-    viewOptions.PdfOptions.WrapImagesInSvg = true;
-
-    viewer.View(viewOptions);
-}
-```
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/#enclose-images-in-svg-when-rendering-pdf-and-page-layout-files).
 
 ### See Also
 

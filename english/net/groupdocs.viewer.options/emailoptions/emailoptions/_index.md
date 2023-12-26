@@ -1,14 +1,14 @@
 ---
 title: EmailOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of EmailOptionsgroupdocs.viewer.options/emailoptions class.
+description: Initializes an instance of the EmailOptionsgroupdocs.viewer.options/emailoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/emailoptions/emailoptions/
 ---
 ## EmailOptions constructor
 
-Initializes new instance of [`EmailOptions`](../../emailoptions) class.
+Initializes an instance of the [`EmailOptions`](../../emailoptions) class.
 
 ```csharp
 public EmailOptions()

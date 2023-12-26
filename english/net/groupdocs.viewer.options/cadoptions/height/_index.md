@@ -8,7 +8,7 @@ url: /net/groupdocs.viewer.options/cadoptions/height/
 ---
 ## CadOptions.Height property
 
-The height of the output result in pixels.
+The height of the output result (in pixels).
 
 ```csharp
 public int Height { get; }

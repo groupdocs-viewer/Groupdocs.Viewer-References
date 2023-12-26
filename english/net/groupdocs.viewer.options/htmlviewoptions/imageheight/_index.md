@@ -1,18 +1,22 @@
 ---
 title: ImageHeight
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The height of an output image in pixels. When converting single image to HTML only
+description: The height of an output image in pixels. The property is available when converting single image to HTML only.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/htmlviewoptions/imageheight/
 ---
 ## HtmlViewOptions.ImageHeight property
 
-The height of an output image in pixels. (When converting single image to HTML only)
+The height of an output image (in pixels). The property is available when converting single image to HTML only.
 
 ```csharp
 public int ImageHeight { get; set; }
 ```
+
+### Remarks
+
+For details and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-html/).
 
 ### See Also
 

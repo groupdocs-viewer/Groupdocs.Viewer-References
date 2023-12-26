@@ -14,6 +14,10 @@ Disables empty rows rendering.
 public bool SkipEmptyRows { get; set; }
 ```
 
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#skip-empty-rows-and-columns).
+
 ### See Also
 
 * class [SpreadsheetOptions](../../spreadsheetoptions)

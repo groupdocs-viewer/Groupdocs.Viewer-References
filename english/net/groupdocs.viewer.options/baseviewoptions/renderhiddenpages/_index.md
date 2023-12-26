@@ -14,6 +14,12 @@ Enables rendering of hidden pages.
 public bool RenderHiddenPages { get; set; }
 ```
 
+### Remarks
+
+Some files, such as presentations or spreadsheets, may contain hidden pages. By default, GroupDocs.Viewer does not render these pages. To do this, set this property to `true`.
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/#render-hidden-slides).
+
 ### See Also
 
 * class [BaseViewOptions](../../baseviewoptions)

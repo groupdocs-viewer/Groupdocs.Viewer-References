@@ -1,14 +1,14 @@
 ---
 title: WordProcessingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+description: The Word processing files view options.
 type: docs
 weight: 170
 url: /net/groupdocs.viewer.options/baseviewoptions/wordprocessingoptions/
 ---
 ## BaseViewOptions.WordProcessingOptions property
 
-This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+The Word processing files view options.
 
 ```csharp
 public WordProcessingOptions WordProcessingOptions { get; set; }
@@ -16,7 +16,7 @@ public WordProcessingOptions WordProcessingOptions { get; set; }
 
 ### Remarks
 
-See also  Render Word documents as HTML, PDF, or image files  for more details and code snippets.
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/).
 
 ### See Also
 

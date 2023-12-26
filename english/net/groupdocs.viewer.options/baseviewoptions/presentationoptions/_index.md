@@ -1,18 +1,22 @@
 ---
 title: PresentationOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The presentation processing documents view options.
+description: The presentation files view options.
 type: docs
 weight: 80
 url: /net/groupdocs.viewer.options/baseviewoptions/presentationoptions/
 ---
 ## BaseViewOptions.PresentationOptions property
 
-The presentation processing documents view options.
+The presentation files view options.
 
 ```csharp
 public PresentationOptions PresentationOptions { get; set; }
 ```
+
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/).
 
 ### See Also
 

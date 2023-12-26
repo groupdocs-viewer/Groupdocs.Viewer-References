@@ -1,14 +1,14 @@
 ---
 title: SubsetFonts
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Every font used to display text on the page contains set of glyphs for font characters. PDF specification supports font subset i.e. font with only those glyphs which are used. This may cause issues when text should be updated since probably required glyphs are absent in the font but for the document which is not planned to change this allows to decrease size.
+description: Subsets fonts in the output PDF file.
 type: docs
 weight: 110
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/subsetfonts/
 ---
 ## PdfOptimizationOptions.SubsetFonts property
 
-Every font used to display text on the page contains set of glyphs for font characters. PDF specification supports "font subset" i.e. font with only those glyphs which are used. This may cause issues when text should be updated (since probably required glyphs are absent in the font), but for the document which is not planned to change this allows to decrease size.
+Subsets fonts in the output PDF file.
 
 ```csharp
 public bool SubsetFonts { get; set; }
@@ -16,24 +16,7 @@ public bool SubsetFonts { get; set; }
 
 ### Remarks
 
-The default value is `false`.
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-using (var viewer = new Viewer("sample.docx"))
-{
-    PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
-    {
-        SubsetFonts = true
-    };
-
-    viewer.View(viewOptions);
-}
-```
+If the file uses embedded fonts, it contains all font data. GroupDocs.Viewer can subset embedded fonts to reduce the file size. For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-subset-fonts/).
 
 ### See Also
 

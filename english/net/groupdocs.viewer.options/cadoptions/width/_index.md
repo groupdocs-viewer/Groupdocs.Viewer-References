@@ -8,7 +8,7 @@ url: /net/groupdocs.viewer.options/cadoptions/width/
 ---
 ## CadOptions.Width property
 
-The width of the output result in pixels.
+The width of the output result (in pixels).
 
 ```csharp
 public int Width { get; }

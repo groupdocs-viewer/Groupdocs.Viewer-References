@@ -1,14 +1,14 @@
 ---
 title: Resolution
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Create resolution in DPI.
+description: Sets resolution in DPI.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/resolution/resolution/
 ---
 ## Resolution constructor
 
-Create resolution in DPI.
+Sets resolution in DPI.
 
 ```csharp
 public Resolution(int value)

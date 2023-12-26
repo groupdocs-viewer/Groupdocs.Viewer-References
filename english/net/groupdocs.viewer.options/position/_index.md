@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Defines watermark position.
+description: Defines the watermark position.
 type: docs
 weight: 430
 url: /net/groupdocs.viewer.options/position/
 ---
 ## Position enumeration
 
-Defines watermark position.
+Defines the watermark position.
 
 ```csharp
 public enum Position

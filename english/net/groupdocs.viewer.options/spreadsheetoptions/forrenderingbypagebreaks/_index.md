@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByPageBreaks
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions for rendering print areas only.
+description: Initializes an instance of the SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions class for splitting to pages by page breaks.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks/
 ---
 ## SpreadsheetOptions.ForRenderingByPageBreaks method
 
-Initializes new instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering print areas only.
+Initializes an instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for splitting to pages by page breaks.
 
 ```csharp
 public static SpreadsheetOptions ForRenderingByPageBreaks()
@@ -16,7 +16,11 @@ public static SpreadsheetOptions ForRenderingByPageBreaks()
 
 ### Return Value
 
-New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering by page breaks. The behaviour similar to printing in Excel.
+New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for splitting to pages by page breaks. The behavior is similar to printing in Excel.
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/).
 
 ### See Also
 

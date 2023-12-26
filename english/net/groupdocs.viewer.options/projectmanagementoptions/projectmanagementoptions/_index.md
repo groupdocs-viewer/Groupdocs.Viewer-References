@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Creates new instance of ProjectManagementOptionsgroupdocs.viewer.options/projectmanagementoptions class.
+description: Creates an instance of the ProjectManagementOptionsgroupdocs.viewer.options/projectmanagementoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/projectmanagementoptions/projectmanagementoptions/
 ---
 ## ProjectManagementOptions constructor
 
-Creates new instance of [`ProjectManagementOptions`](../../projectmanagementoptions) class.
+Creates an instance of the [`ProjectManagementOptions`](../../projectmanagementoptions) class.
 
 ```csharp
 public ProjectManagementOptions()

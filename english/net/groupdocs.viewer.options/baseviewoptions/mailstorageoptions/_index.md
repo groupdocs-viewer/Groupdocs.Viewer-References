@@ -14,6 +14,10 @@ Mail storage data files view options.
 public MailStorageOptions MailStorageOptions { get; set; }
 ```
 
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/).
+
 ### See Also
 
 * class [MailStorageOptions](../../mailstorageoptions)

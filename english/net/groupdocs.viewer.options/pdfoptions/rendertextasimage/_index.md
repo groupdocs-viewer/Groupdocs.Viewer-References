@@ -1,14 +1,14 @@
 ---
 title: RenderTextAsImage
 second_title: GroupDocs.Viewer for .NET API Reference
-description: When this option is set to true the text is rendered as an image in the output HTML. Enable this option to make text unselectable or to fix characters rendering and make HTML look like PDF. The default value is false.
+description: Enables rendering texts in the PDF files as an image in the HTML output.
 type: docs
 weight: 90
 url: /net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property
 
-When this option is set to true, the text is rendered as an image in the output HTML. Enable this option to make text unselectable or to fix characters rendering and make HTML look like PDF. The default value is false.
+Enables rendering texts in the PDF files as an image in the HTML output.
 
 ```csharp
 public bool RenderTextAsImage { get; set; }
@@ -16,7 +16,11 @@ public bool RenderTextAsImage { get; set; }
 
 ### Remarks
 
-This option is supported when rendering into HTML.
+When this option is set to `true`, GroupDocs.Viewer renders text as an image in the HTML output. This makes the text unselectable and enhances character rendering, ensuring a PDF-like appearance in HTML. The default value is `false`.
+
+This option is available for rendering to HTML.
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/#render-text-as-an-image).
 
 ### See Also
 

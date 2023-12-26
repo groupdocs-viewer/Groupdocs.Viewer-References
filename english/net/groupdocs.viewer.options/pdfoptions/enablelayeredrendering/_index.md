@@ -1,14 +1,14 @@
 ---
 title: EnableLayeredRendering
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Enables rendering of text and graphics according to zorder in original PDF document when rendering into HTML.
+description: Enables rendering text and graphics in the original PDF documents zorder when rendering to HTML.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/pdfoptions/enablelayeredrendering/
 ---
 ## PdfOptions.EnableLayeredRendering property
 
-Enables rendering of text and graphics according to z-order in original PDF document when rendering into HTML.
+Enables rendering text and graphics in the original PDF document's z-order when rendering to HTML.
 
 ```csharp
 public bool EnableLayeredRendering { get; set; }
@@ -16,7 +16,9 @@ public bool EnableLayeredRendering { get; set; }
 
 ### Remarks
 
-By default text and graphics are rendered into HTML as a single layer.
+By default, GroupDocs.Veiewer renders text and graphics as a single layer in HTML. This option lets you arrange objects in the same order as in the source file. The default value is `false`.
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/#enable-multi-layer-rendering).
 
 ### See Also
 

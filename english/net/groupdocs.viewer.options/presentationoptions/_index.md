@@ -1,14 +1,14 @@
 ---
 title: PresentationOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Provides options for rendering presentations options.
+description: Contains options for rendering presentations. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderpresentations/.
 type: docs
 weight: 440
 url: /net/groupdocs.viewer.options/presentationoptions/
 ---
 ## PresentationOptions class
 
-Provides options for rendering presentations options.
+Contains options for rendering presentations. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/).
 
 ```csharp
 public class PresentationOptions
@@ -24,7 +24,7 @@ public class PresentationOptions
 
 | Name | Description |
 | --- | --- |
-| [Resolution](../../groupdocs.viewer.options/presentationoptions/resolution) { get; set; } | Resolution for images inside presentation (for to HTML/PDF rendering only). |
+| [Resolution](../../groupdocs.viewer.options/presentationoptions/resolution) { get; set; } | Resolution of the presentation images (for rendering to HTML/PDF only). |
 
 ### See Also
 

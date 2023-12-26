@@ -1,18 +1,22 @@
 ---
 title: VisioRenderingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The Visio files processing documents view options.
+description: The Visio files view options.
 type: docs
 weight: 150
 url: /net/groupdocs.viewer.options/baseviewoptions/visiorenderingoptions/
 ---
 ## BaseViewOptions.VisioRenderingOptions property
 
-The Visio files processing documents view options.
+The Visio files view options.
 
 ```csharp
 public VisioRenderingOptions VisioRenderingOptions { get; set; }
 ```
+
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-visio-documents/).
 
 ### See Also
 

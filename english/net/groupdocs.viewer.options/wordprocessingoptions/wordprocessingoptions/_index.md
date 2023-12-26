@@ -1,14 +1,14 @@
 ---
 title: WordProcessingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Provides options for rendering word processing documents.
+description: Contains options for rendering word processing documents. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderworddocuments/rendertrackedchanges.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/wordprocessingoptions/wordprocessingoptions/
 ---
 ## WordProcessingOptions constructor
 
-Provides options for rendering word processing documents.
+Contains options for rendering word processing documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#render-tracked-changes).
 
 ```csharp
 public WordProcessingOptions()

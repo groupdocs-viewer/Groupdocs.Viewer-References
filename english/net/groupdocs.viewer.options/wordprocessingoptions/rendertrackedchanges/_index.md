@@ -14,6 +14,10 @@ Enables tracked changes (revisions) rendering.
 public bool RenderTrackedChanges { get; set; }
 ```
 
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#render-tracked-changes).
+
 ### See Also
 
 * class [WordProcessingOptions](../../wordprocessingoptions)

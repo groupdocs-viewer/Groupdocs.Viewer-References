@@ -1,18 +1,24 @@
 ---
 title: Folder
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The folder inside the archive to be rendered.
+description: Sets the folder to be rendered.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/archiveoptions/folder/
 ---
 ## ArchiveOptions.Folder property
 
-The folder inside the archive to be rendered.
+Sets the folder to be rendered.
 
 ```csharp
 public string Folder { get; set; }
 ```
+
+### Remarks
+
+By default, GroupDocs.Viewer renders items from all folders contained in the archive. To render items from a specific folder, set this property.
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/#render-a-specific-folder).
 
 ### See Also
 

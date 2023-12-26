@@ -1,14 +1,14 @@
 ---
 title: PdfOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of PdfOptionsgroupdocs.viewer.options/pdfoptions class.
+description: Initializes new instance of the PdfOptionsgroupdocs.viewer.options/pdfoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/pdfoptions/pdfoptions/
 ---
 ## PdfOptions constructor
 
-Initializes new instance of [`PdfOptions`](../../pdfoptions) class.
+Initializes new instance of the [`PdfOptions`](../../pdfoptions) class.
 
 ```csharp
 public PdfOptions()

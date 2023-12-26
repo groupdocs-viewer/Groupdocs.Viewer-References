@@ -1,18 +1,24 @@
 ---
 title: ForPrinting
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Indicates whether to optimize output HTML for printing.
+description: Enables optimization the output HTML for printing.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/htmlviewoptions/forprinting/
 ---
 ## HtmlViewOptions.ForPrinting property
 
-Indicates whether to optimize output HTML for printing.
+Enables optimization the output HTML for printing.
 
 ```csharp
 public bool ForPrinting { get; set; }
 ```
+
+### Remarks
+
+Enable this option to convert the output HTML pages to the vector SVG format.
+
+For details and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/how-to-optimize-output-html-for-printing/).
 
 ### See Also
 

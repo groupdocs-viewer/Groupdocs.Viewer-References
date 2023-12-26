@@ -18,14 +18,14 @@ public class TextOptions
 
 | Name | Description |
 | --- | --- |
-| [TextOptions](textoptions)() | Initializes new instance of [`TextOptions`](../textoptions) class. |
+| [TextOptions](textoptions)() | Initializes an instance of the [`TextOptions`](../textoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [MaxCharsPerRow](../../groupdocs.viewer.options/textoptions/maxcharsperrow) { get; set; } | Max chars per row on page. Default value is 85. |
-| [MaxRowsPerPage](../../groupdocs.viewer.options/textoptions/maxrowsperpage) { get; set; } | Max rows per page. Default value is 55. |
+| [MaxCharsPerRow](../../groupdocs.viewer.options/textoptions/maxcharsperrow) { get; set; } | The maximum number of characters per row on a page. |
+| [MaxRowsPerPage](../../groupdocs.viewer.options/textoptions/maxrowsperpage) { get; set; } | The maximum number of rows per page. |
 
 ### See Also
 

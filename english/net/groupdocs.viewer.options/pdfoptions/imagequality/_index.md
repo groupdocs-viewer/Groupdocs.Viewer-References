@@ -1,18 +1,22 @@
 ---
 title: ImageQuality
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Specifies output image quality for image resources when rendering into HTML. The default value is Low.
+description: Sets the output image quality for image resources when rendering to HTML. The default quality is Low.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/pdfoptions/imagequality/
 ---
 ## PdfOptions.ImageQuality property
 
-Specifies output image quality for image resources when rendering into HTML. The default value is Low.
+Sets the output image quality for image resources when rendering to HTML. The default quality is `Low`.
 
 ```csharp
 public ImageQuality ImageQuality { get; set; }
 ```
+
+### Remarks
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/#adjust-image-quality-in-the-output-html-file).
 
 ### See Also
 

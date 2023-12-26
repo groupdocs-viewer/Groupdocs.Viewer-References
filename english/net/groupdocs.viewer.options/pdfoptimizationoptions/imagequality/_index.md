@@ -1,14 +1,14 @@
 ---
 title: ImageQuality
 second_title: GroupDocs.Viewer for .NET API Reference
-description: If the source PDF file contains images consider compressing the images and setting their quality. In order to enable image compression set CompressImages option to true. All the images in a document will be recompressed. The compression is defined by the ImageQuality property which is the value of the quality in percent. 100 is unchanged quality. To decrease image quality set the CompressImages option to true and ImageQuality property less than 100.
+description: Sets the image quality in the output PDF file in percent.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/imagequality/
 ---
 ## PdfOptimizationOptions.ImageQuality property
 
-If the source PDF file contains images, consider compressing the images and setting their quality. In order to enable image compression, set CompressImages option to true. All the images in a document will be re-compressed. The compression is defined by the ImageQuality property, which is the value of the quality in percent. 100% is unchanged quality. To decrease image quality, set the CompressImages option to true and ImageQuality property less than 100.
+Sets the image quality in the output PDF file (in percent).
 
 ```csharp
 public int ImageQuality { get; set; }
@@ -16,25 +16,7 @@ public int ImageQuality { get; set; }
 
 ### Remarks
 
-The default value is `100`.
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-using (var viewer = new Viewer("sample.docx"))
-{
-    PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
-    {
-        CompressImages = true,
-        ImageQuality = 50
-    };
-
-    viewer.View(viewOptions);
-}
-```
+To change the image quality, first set the [`CompressImages`](../compressimages) property to `true`. For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-reduce-image-quality/).
 
 ### See Also
 

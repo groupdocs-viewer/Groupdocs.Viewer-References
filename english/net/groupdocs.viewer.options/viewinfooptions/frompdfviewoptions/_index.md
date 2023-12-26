@@ -1,14 +1,14 @@
 ---
 title: FromPdfViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions object.
+description: Initializes an instance of the ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on the PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions object.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/viewinfooptions/frompdfviewoptions/
 ---
 ## ViewInfoOptions.FromPdfViewOptions method
 
-Initializes new instance of [`ViewInfoOptions`](../../viewinfooptions) class based on [`PdfViewOptions`](../../pdfviewoptions) object.
+Initializes an instance of the [`ViewInfoOptions`](../../viewinfooptions) class based on the [`PdfViewOptions`](../../pdfviewoptions) object.
 
 ```csharp
 public static ViewInfoOptions FromPdfViewOptions(PdfViewOptions options)
@@ -20,7 +20,7 @@ public static ViewInfoOptions FromPdfViewOptions(PdfViewOptions options)
 
 ### Return Value
 
-New instance of [`ViewInfoOptions`](../../viewinfooptions) class.
+New instance of the [`ViewInfoOptions`](../../viewinfooptions) class.
 
 ### Exceptions
 

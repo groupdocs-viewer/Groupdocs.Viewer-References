@@ -1,14 +1,14 @@
 ---
 title: Resolution
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Provides option to set resolution for images in output document.
+description: Contains option to set resolution for images in output document.
 type: docs
 weight: 460
 url: /net/groupdocs.viewer.options/resolution/
 ---
 ## Resolution class
 
-Provides option to set resolution for images in output document.
+Contains option to set resolution for images in output document.
 
 ```csharp
 public class Resolution
@@ -18,7 +18,7 @@ public class Resolution
 
 | Name | Description |
 | --- | --- |
-| [Resolution](resolution)(int) | Create resolution in DPI. |
+| [Resolution](resolution)(int) | Sets resolution in DPI. |
 
 ## Properties
 

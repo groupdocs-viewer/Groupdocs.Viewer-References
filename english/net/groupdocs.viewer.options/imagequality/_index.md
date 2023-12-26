@@ -20,7 +20,7 @@ public enum ImageQuality
 | --- | --- | --- |
 | Low | `96` | The acceptable quality and best performance. |
 | Medium | `198` | Better quality and slower performance. |
-| High | `300` | Best quality but slow performance. |
+| High | `300` | The best quality but slow performance. |
 
 ### See Also
 

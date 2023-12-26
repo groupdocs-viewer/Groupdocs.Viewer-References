@@ -1,14 +1,14 @@
 ---
 title: MailStorageOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Provides options for rendering Mail storage Lotus Notes MBox data files.
+description: Contains options for rendering Mail storage Lotus Notes MBox data files. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderlotusnotesdatabasefiles/specifyrenderingoptions.
 type: docs
 weight: 350
 url: /net/groupdocs.viewer.options/mailstorageoptions/
 ---
 ## MailStorageOptions class
 
-Provides options for rendering Mail storage (Lotus Notes, MBox) data files.
+Contains options for rendering Mail storage (Lotus Notes, MBox) data files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/#specify-rendering-options).
 
 ```csharp
 public class MailStorageOptions
@@ -24,9 +24,9 @@ public class MailStorageOptions
 
 | Name | Description |
 | --- | --- |
-| [AddressFilter](../../groupdocs.viewer.options/mailstorageoptions/addressfilter) { get; set; } | The email-address used to filter messages by sender or recipient. |
-| [MaxItems](../../groupdocs.viewer.options/mailstorageoptions/maxitems) { get; set; } | The maximum number of messages or items for render. |
-| [TextFilter](../../groupdocs.viewer.options/mailstorageoptions/textfilter) { get; set; } | The keywords used to filter messages. |
+| [AddressFilter](../../groupdocs.viewer.options/mailstorageoptions/addressfilter) { get; set; } | Sets the email-address used to filter messages by sender or recipient. |
+| [MaxItems](../../groupdocs.viewer.options/mailstorageoptions/maxitems) { get; set; } | Sets the maximum number of messages or items to render. |
+| [TextFilter](../../groupdocs.viewer.options/mailstorageoptions/textfilter) { get; set; } | Sets the keywords used to filter messages. |
 
 ### See Also
 

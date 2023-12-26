@@ -1,14 +1,14 @@
 ---
 title: FromPngViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on PngViewOptionsgroupdocs.viewer.options/pngviewoptions object.
+description: Initializes an instance of the ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on the PngViewOptionsgroupdocs.viewer.options/pngviewoptions object.
 type: docs
 weight: 80
 url: /net/groupdocs.viewer.options/viewinfooptions/frompngviewoptions/
 ---
 ## ViewInfoOptions.FromPngViewOptions method
 
-Initializes new instance of [`ViewInfoOptions`](../../viewinfooptions) class based on [`PngViewOptions`](../../pngviewoptions) object.
+Initializes an instance of the [`ViewInfoOptions`](../../viewinfooptions) class based on the [`PngViewOptions`](../../pngviewoptions) object.
 
 ```csharp
 public static ViewInfoOptions FromPngViewOptions(PngViewOptions options)
@@ -20,7 +20,7 @@ public static ViewInfoOptions FromPngViewOptions(PngViewOptions options)
 
 ### Return Value
 
-New instance of [`ViewInfoOptions`](../../viewinfooptions) class.
+New instance of the [`ViewInfoOptions`](../../viewinfooptions) class.
 
 ### Exceptions
 
