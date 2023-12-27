@@ -1,14 +1,14 @@
 ---
 title: DetectEncoding
 second_title: GroupDocs.Viewer for .NET API Reference
-description: This option enables TXTgroupdocs.viewer/filetype/txt TSVgroupdocs.viewer/filetype/tsv and CSVgroupdocs.viewer/filetype/csv files encoding detection. In case the encoding cant be detected the default Encodinggroupdocs.viewer.options/loadoptions/encoding is used.
+description: Enables the encoding detection for the TXTgroupdocs.viewer/filetype/txt CSVgroupdocs.viewer/filetype/csv and TSVgroupdocs.viewer/filetype/tsv files.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/loadoptions/detectencoding/
 ---
 ## LoadOptions.DetectEncoding property
 
-This option enables [`TXT`](../../../groupdocs.viewer/filetype/txt), [`TSV`](../../../groupdocs.viewer/filetype/tsv), and [`CSV`](../../../groupdocs.viewer/filetype/csv) files encoding detection. In case the encoding can't be detected the default [`Encoding`](../encoding) is used.
+Enables the encoding detection for the [`TXT`](../../../groupdocs.viewer/filetype/txt), [`CSV`](../../../groupdocs.viewer/filetype/csv), and [`TSV`](../../../groupdocs.viewer/filetype/tsv) files.
 
 ```csharp
 public bool DetectEncoding { get; set; }
@@ -16,27 +16,7 @@ public bool DetectEncoding { get; set; }
 
 ### Remarks
 
-Learn more about rendering text and tab/comma delimited files:
-
-* [Render text documents as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-text-files/)
-* [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-LoadOptions loadOptions = new LoadOptions();
-loadOptions.DetectEncoding = true; // Enable encoding detection
-
-using (Viewer viewer = new Viewer("employees.csv", loadOptions))
-{
-    HtmlViewOptions viewOptions = 
-        HtmlViewOptions.ForEmbeddedResources();
-
-    viewer.View(viewOptions);
-}
-```
+If the encoding cannot be detected, the default [`Encoding`](../encoding) is used. For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/detect-encoding-when-loading-documents/).
 
 ### See Also
 

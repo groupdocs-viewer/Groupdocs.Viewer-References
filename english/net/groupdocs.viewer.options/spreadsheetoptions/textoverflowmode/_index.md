@@ -1,18 +1,22 @@
 ---
 title: TextOverflowMode
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The text overflow mode for rendering spreadsheet documents into HTML.
+description: Sets the text overflow mode for rendering spreadsheet documents into HTML.
 type: docs
 weight: 180
 url: /net/groupdocs.viewer.options/spreadsheetoptions/textoverflowmode/
 ---
 ## SpreadsheetOptions.TextOverflowMode property
 
-The text overflow mode for rendering spreadsheet documents into HTML.
+Sets the text overflow mode for rendering spreadsheet documents into HTML.
 
 ```csharp
 public TextOverflowMode TextOverflowMode { get; set; }
 ```
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#control-cell-text-overflow).
 
 ### See Also
 

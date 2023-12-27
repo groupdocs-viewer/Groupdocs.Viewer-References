@@ -1,18 +1,22 @@
 ---
 title: PermissionsPassword
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The password required to change permission settings Using a permissions password you can restrict printing modification and data extraction.
+description: The password required to change permission settings. Using a permissions password you can restrict printing modification and data extraction.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/security/permissionspassword/
 ---
 ## Security.PermissionsPassword property
 
-The password required to change permission settings; Using a permissions password you can restrict printing, modification and data extraction.
+The password required to change permission settings. Using a permissions password you can restrict printing, modification and data extraction.
 
 ```csharp
 public string PermissionsPassword { get; set; }
 ```
+
+### Remarks
+
+Use a permissions password to restrict printing, modification and data extraction. For code sample, see the [documentation](https://docs.groupdocs.com/viewer/net/protect-pdf-documents/).
 
 ### See Also
 

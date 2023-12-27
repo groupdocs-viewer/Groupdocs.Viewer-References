@@ -1,18 +1,24 @@
 ---
 title: Folder
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The name of the folder e.g. Inbox Sent Item or Deleted Items to render.
+description: Sets the name of the folder e.g. Inbox Sent Item or Deleted Items to render.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/outlookoptions/folder/
 ---
 ## OutlookOptions.Folder property
 
-The name of the folder (e.g. Inbox, Sent Item or Deleted Items) to render.
+Sets the name of the folder (e.g. Inbox, Sent Item or Deleted Items) to render.
 
 ```csharp
 public string Folder { get; set; }
 ```
+
+### Remarks
+
+When rendering an Outlook data file, GroupDocs.Viewer renders messages from all folders contained in the file (including nested folders). Use this property to render items from a specific folder.
+
+For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/render-outlook-data-files/#render-a-specific-folder).
 
 ### See Also
 

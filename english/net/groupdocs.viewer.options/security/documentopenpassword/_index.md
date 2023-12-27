@@ -14,6 +14,10 @@ The password required to open the PDF document.
 public string DocumentOpenPassword { get; set; }
 ```
 
+### Remarks
+
+For code sample, see the [documentation](https://docs.groupdocs.com/viewer/net/protect-pdf-documents/).
+
 ### See Also
 
 * class [Security](../../security)

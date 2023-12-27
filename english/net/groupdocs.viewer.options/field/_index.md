@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Represents email message field e.g. From To Subject etc.
+description: Represents email message field e.g. From To Subject etc. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderemailmessages/renamefieldsinthemessageheader.
 type: docs
 weight: 280
 url: /net/groupdocs.viewer.options/field/
 ---
 ## Field class
 
-Represents email message field e.g. From, To, Subject etc.
+Represents email message field e.g. From, To, Subject etc. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/#rename-fields-in-the-message-header).
 
 ```csharp
 public class Field

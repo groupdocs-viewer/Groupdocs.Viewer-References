@@ -16,7 +16,9 @@ public int MaxItemsInFolder { get; set; }
 
 ### Remarks
 
-Outlook data files can be large and retrieving all messages can take significant time. This setting limits maximum number of messages or items (like contacts and tasks) that are rendered. Default value is 50. In order to render all messages, set the value to 0.
+Outlook data files can be large and retrieving all messages can take significant time. This property limits the maximum number of messages or items that are rendered. Default value is `50`. To render all messages, set the value to `0`.
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-outlook-data-files/#limit-the-number-of-folder-items-to-render).
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: RemoveAnnotations
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Annotations can be deleted when they are unnecessary. When they are needed but do not require additional editing they can be flattened. It will reduce the file size.
+description: Enables removing annotation from the output PDF file.
 type: docs
 weight: 80
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/removeannotations/
 ---
 ## PdfOptimizationOptions.RemoveAnnotations property
 
-Annotations can be deleted when they are unnecessary. When they are needed but do not require additional editing, they can be flattened. It will reduce the file size.
+Enables removing annotation from the output PDF file.
 
 ```csharp
 public bool RemoveAnnotations { get; set; }
@@ -16,24 +16,7 @@ public bool RemoveAnnotations { get; set; }
 
 ### Remarks
 
-The default value is `false`.
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-using (var viewer = new Viewer("sample.docx"))
-{
-    PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
-    {
-        RemoveAnnotations = true
-    };
-
-    viewer.View(viewOptions);
-}
-```
+For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-remove-annotations/).
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByWidth
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by width.
+description: Initializes an instance of the CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by width.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/cadoptions/forrenderingbywidth/
 ---
 ## CadOptions.ForRenderingByWidth method
 
-Initializes new instance of [`CadOptions`](../../cadoptions) class for rendering by width.
+Initializes an instance of the [`CadOptions`](../../cadoptions) class for rendering by width.
 
 ```csharp
 public static CadOptions ForRenderingByWidth(int width)
@@ -16,17 +16,21 @@ public static CadOptions ForRenderingByWidth(int width)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| width | Int32 | The width of the output result in pixels. |
+| width | Int32 | The width of the output result (in pixels). |
 
 ### Return Value
 
-New instance of [`CadOptions`](../../cadoptions) class for rendering by width.
+New instance of the [`CadOptions`](../../cadoptions) class for rendering by width.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown when *width* is less or equal to zero. |
+
+### Remarks
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#configure-the-output-image-size).
 
 ### See Also
 

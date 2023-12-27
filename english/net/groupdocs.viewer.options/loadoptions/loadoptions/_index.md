@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of LoadOptionsgroupdocs.viewer.options/loadoptions class.
+description: Initializes an instance of the LoadOptionsgroupdocs.viewer.options/loadoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/loadoptions/loadoptions/
 ---
 ## LoadOptions() {#constructor}
 
-Initializes new instance of [`LoadOptions`](../../loadoptions) class.
+Initializes an instance of the [`LoadOptions`](../../loadoptions) class.
 
 ```csharp
 public LoadOptions()
@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(FileType) {#constructor_1}
 
-Initializes new instance of [`LoadOptions`](../../loadoptions) class.
+Initializes an instance of the [`LoadOptions`](../../loadoptions) class.
 
 ```csharp
 public LoadOptions(FileType fileType)
@@ -39,6 +39,10 @@ public LoadOptions(FileType fileType)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *fileType* is null. |
+
+### Remarks
+
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-file-type-when-loading-a-document/).
 
 ### See Also
 

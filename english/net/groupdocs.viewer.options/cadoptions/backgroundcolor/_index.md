@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Image background color
+description: Image background color.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/cadoptions/backgroundcolor/
 ---
 ## CadOptions.BackgroundColor property
 
-Image background color
+Image background color.
 
 ```csharp
 public Color BackgroundColor { get; set; }

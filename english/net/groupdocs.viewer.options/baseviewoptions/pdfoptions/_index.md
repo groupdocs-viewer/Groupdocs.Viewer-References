@@ -1,18 +1,22 @@
 ---
 title: PdfOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The PDF documents view options.
+description: The PDF document view options.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/baseviewoptions/pdfoptions/
 ---
 ## BaseViewOptions.PdfOptions property
 
-The PDF documents view options.
+The PDF document view options.
 
 ```csharp
 public PdfOptions PdfOptions { get; set; }
 ```
+
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/).
 
 ### See Also
 

@@ -1,18 +1,22 @@
 ---
 title: BottomMargin
 second_title: GroupDocs.Viewer for .NET API Reference
-description: To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+description: Sets the bottom margin of a page when converting to PDF.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/spreadsheetoptions/bottommargin/
 ---
 ## SpreadsheetOptions.BottomMargin property
 
-To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+Sets the bottom margin of a page when converting to PDF.
 
 ```csharp
 public double BottomMargin { get; set; }
 ```
+
+### Remarks
+
+If the parameter is less than 0, then the default value is used. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages).
 
 ### See Also
 

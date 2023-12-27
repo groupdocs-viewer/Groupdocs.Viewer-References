@@ -16,7 +16,7 @@ public IList<Layer> Layers { get; set; }
 
 ### Remarks
 
-By default all layers are rendered; Layer names are case-sensitive.
+By default all layers are rendered. Layer names are case-sensitive.
 
 ### See Also
 

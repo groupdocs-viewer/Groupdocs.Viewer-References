@@ -1,14 +1,14 @@
 ---
 title: RemoveFormFields
 second_title: GroupDocs.Viewer for .NET API Reference
-description: If the PDF document contains AcroForms we can try to reduce the file size by flattening form fields.
+description: Enables removing form fields from a PDF file.
 type: docs
 weight: 90
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/removeformfields/
 ---
 ## PdfOptimizationOptions.RemoveFormFields property
 
-If the PDF document contains AcroForms, we can try to reduce the file size by flattening form fields.
+Enables removing form fields from a PDF file.
 
 ```csharp
 public bool RemoveFormFields { get; set; }
@@ -16,24 +16,7 @@ public bool RemoveFormFields { get; set; }
 
 ### Remarks
 
-The default value is `false`.
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-using (var viewer = new Viewer("sample.docx"))
-{
-    PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
-    {
-        RemoveFormFields = true
-    };
-
-    viewer.View(viewOptions);
-}
-```
+For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-remove-fields/).
 
 ### See Also
 

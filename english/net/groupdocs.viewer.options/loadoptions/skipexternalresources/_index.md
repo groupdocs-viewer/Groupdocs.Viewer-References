@@ -1,14 +1,14 @@
 ---
 title: SkipExternalResources
 second_title: GroupDocs.Viewer for .NET API Reference
-description: When set to true all external resource such as images will not be loaded except WhitelistedResourcesgroupdocs.viewer.options/loadoptions/whitelistedresources.
+description: Disables loading of all external resource such as images except WhitelistedResourcesgroupdocs.viewer.options/loadoptions/whitelistedresources.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/loadoptions/skipexternalresources/
 ---
 ## LoadOptions.SkipExternalResources property
 
-When set to `true` all external resource such as images will not be loaded except [`WhitelistedResources`](../whitelistedresources).
+Disables loading of all external resource such as images except [`WhitelistedResources`](../whitelistedresources).
 
 ```csharp
 public bool SkipExternalResources { get; set; }
@@ -16,33 +16,7 @@ public bool SkipExternalResources { get; set; }
 
 ### Remarks
 
-This option is supported when rendering the following file formats:
-
-* [Presentation file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#presentation-file-formats)
-* [Spreadsheet file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#spreadsheet-file-formats)
-* [Web file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#web-file-formats)
-* [Word processing file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#word-processing-file-formats)
-
-Learn more about options to manage external resources:
-
-* [Set timeout for loading external resources](https://docs.groupdocs.com/viewer/net/set-timeout-for-loading-external-resources-contained-by-a-document/)
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-LoadOptions loadOptions = new LoadOptions();
-loadOptions.SkipExternalResources = true; // Skip loading of external resources
-
-using (Viewer viewer = new Viewer("business-flyer.docx", loadOptions))
-{
-    HtmlViewOptions viewOptions = 
-        HtmlViewOptions.ForEmbeddedResources();
-
-    viewer.View(viewOptions);
-}
-```
+For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/loading-external-resources/#skip-loading-of-external-resources).
 
 ### See Also
 

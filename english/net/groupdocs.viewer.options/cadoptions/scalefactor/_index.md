@@ -1,14 +1,14 @@
 ---
 title: ScaleFactor
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Values higher than 1 will enlarge output result values between 0 and 1 will make output result smaller.
+description: Value higher than 1 enlarges output result value between 0 and 1 reduces output result.
 type: docs
 weight: 110
 url: /net/groupdocs.viewer.options/cadoptions/scalefactor/
 ---
 ## CadOptions.ScaleFactor property
 
-Values higher than 1 will enlarge output result; values between 0 and 1 will make output result smaller.
+Value higher than 1 enlarges output result; value between 0 and 1 reduces output result.
 
 ```csharp
 public float ScaleFactor { get; }

@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Provides PDF document security options.
+description: Contains the PDF document security options. For details see the documentationhttps//docs.groupdocs.com/viewer/net/protectpdfdocuments/.
 type: docs
 weight: 480
 url: /net/groupdocs.viewer.options/security/
 ---
 ## Security class
 
-Provides PDF document security options.
+Contains the PDF document security options. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/protect-pdf-documents/).
 
 ```csharp
 public class Security
@@ -18,7 +18,7 @@ public class Security
 
 | Name | Description |
 | --- | --- |
-| [Security](security)() | Initializes new instance of [`Security`](../security) class. |
+| [Security](security)() | Initializes an instance of the [`Security`](../security) class. |
 
 ## Properties
 
@@ -26,7 +26,7 @@ public class Security
 | --- | --- |
 | [DocumentOpenPassword](../../groupdocs.viewer.options/security/documentopenpassword) { get; set; } | The password required to open the PDF document. |
 | [Permissions](../../groupdocs.viewer.options/security/permissions) { get; set; } | The PDF document permissions such as printing, modification and data extraction. |
-| [PermissionsPassword](../../groupdocs.viewer.options/security/permissionspassword) { get; set; } | The password required to change permission settings; Using a permissions password you can restrict printing, modification and data extraction. |
+| [PermissionsPassword](../../groupdocs.viewer.options/security/permissionspassword) { get; set; } | The password required to change permission settings. Using a permissions password you can restrict printing, modification and data extraction. |
 
 ### See Also
 

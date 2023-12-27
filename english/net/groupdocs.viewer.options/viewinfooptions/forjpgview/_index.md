@@ -1,14 +1,14 @@
 ---
 title: ForJpgView
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class to retrieve information about view when rendering into JPG.
+description: Initializes an instance of the ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class to retrieve information about view when rendering into JPG.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/viewinfooptions/forjpgview/
 ---
 ## ForJpgView() {#forjpgview}
 
-Initializes new instance of [`ViewInfoOptions`](../../viewinfooptions) class to retrieve information about view when rendering into JPG.
+Initializes an instance of the [`ViewInfoOptions`](../../viewinfooptions) class to retrieve information about view when rendering into JPG.
 
 ```csharp
 public static ViewInfoOptions ForJpgView()
@@ -16,7 +16,7 @@ public static ViewInfoOptions ForJpgView()
 
 ### Return Value
 
-New instance of [`ViewInfoOptions`](../../viewinfooptions) class.
+New instance of the [`ViewInfoOptions`](../../viewinfooptions) class.
 
 ### See Also
 
@@ -28,7 +28,7 @@ New instance of [`ViewInfoOptions`](../../viewinfooptions) class.
 
 ## ForJpgView(bool) {#forjpgview_1}
 
-Initializes new instance of [`ViewInfoOptions`](../../viewinfooptions) class to retrieve information about view when rendering into JPG.
+Initializes an instance of the [`ViewInfoOptions`](../../viewinfooptions) class to retrieve information about view when rendering into JPG.
 
 ```csharp
 public static ViewInfoOptions ForJpgView(bool extractText)
@@ -40,7 +40,7 @@ public static ViewInfoOptions ForJpgView(bool extractText)
 
 ### Return Value
 
-New instance of [`ViewInfoOptions`](../../viewinfooptions) class.
+New instance of the [`ViewInfoOptions`](../../viewinfooptions) class.
 
 ### See Also
 

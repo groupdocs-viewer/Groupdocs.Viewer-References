@@ -1,18 +1,24 @@
 ---
 title: FileName
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The filename to display in the header. By default the name of the source file is displayed.
+description: Sets the displayed archive file name.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/archiveoptions/filename/
 ---
 ## ArchiveOptions.FileName property
 
-The filename to display in the header. By default the name of the source file is displayed.
+Sets the displayed archive file name.
 
 ```csharp
 public FileName FileName { get; set; }
 ```
+
+### Remarks
+
+By default, GroupDocs.Viewer displays the archive file name in the header of each page. To change or hide this name, set this property.
+
+For more information and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/#specify-the-archive-file-name).
 
 ### See Also
 

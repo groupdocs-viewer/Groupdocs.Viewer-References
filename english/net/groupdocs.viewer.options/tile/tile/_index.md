@@ -1,14 +1,14 @@
 ---
 title: Tile
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes a new instance of the Tilegroupdocs.viewer.options/tile class.
+description: Initializes an instance of the Tilegroupdocs.viewer.options/tile class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/tile/tile/
 ---
 ## Tile constructor
 
-Initializes a new instance of the [`Tile`](../../tile) class.
+Initializes an instance of the [`Tile`](../../tile) class.
 
 ```csharp
 public Tile(int startPointX, int startPointY, int width, int height)
@@ -20,6 +20,10 @@ public Tile(int startPointX, int startPointY, int width, int height)
 | startPointY | Int32 | The Y coordinate of the lowest left point on the drawing where the tile begins. |
 | width | Int32 | The width of the tile in pixels. |
 | height | Int32 | The height of the tile in pixels. |
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#split-a-drawing-into-tiles).
 
 ### See Also
 

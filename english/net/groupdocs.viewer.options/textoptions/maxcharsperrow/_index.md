@@ -1,18 +1,22 @@
 ---
 title: MaxCharsPerRow
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Max chars per row on page. Default value is 85.
+description: The maximum number of characters per row on a page.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/textoptions/maxcharsperrow/
 ---
 ## TextOptions.MaxCharsPerRow property
 
-Max chars per row on page. Default value is 85.
+The maximum number of characters per row on a page.
 
 ```csharp
 public int MaxCharsPerRow { get; set; }
 ```
+
+### Remarks
+
+The default value is 85. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-text-files/#specify-rendering-options).
 
 ### See Also
 

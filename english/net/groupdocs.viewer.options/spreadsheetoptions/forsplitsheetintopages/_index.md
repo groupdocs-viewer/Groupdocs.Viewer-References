@@ -1,14 +1,14 @@
 ---
 title: ForSplitSheetIntoPages
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions for rendering sheet into pages.
+description: Initializes an instance of the SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions class for rendering sheet into pages.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages/
 ---
 ## ForSplitSheetIntoPages(int) {#forsplitsheetintopages}
 
-Initializes new instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering sheet into pages.
+Initializes an instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering sheet into pages.
 
 ```csharp
 public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
@@ -16,17 +16,21 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| countRowsPerPage | Int32 | Rows count to include into each page. |
+| countRowsPerPage | Int32 | Count of rows to include into each page. |
 
 ### Return Value
 
-New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering sheet into pages.
+New instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering sheet into pages.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown when *countRowsPerPage* is equals or less than zero. |
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows).
 
 ### See Also
 
@@ -38,7 +42,7 @@ New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering s
 
 ## ForSplitSheetIntoPages(int, int) {#forsplitsheetintopages_1}
 
-Initializes new instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering sheet into pages.
+Initializes an instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering sheet into pages.
 
 ```csharp
 public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage, 
@@ -47,12 +51,12 @@ public static SpreadsheetOptions ForSplitSheetIntoPages(int countRowsPerPage,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| countRowsPerPage | Int32 | Rows count to include into each page. |
-| countColumnsPerPage | Int32 | Columns count to include into each page. |
+| countRowsPerPage | Int32 | Count of rows to include into each page. |
+| countColumnsPerPage | Int32 | Count of columns to include into each page. |
 
 ### Return Value
 
-New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering sheet into pages.
+New instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering sheet into pages.
 
 ### Exceptions
 
@@ -60,6 +64,10 @@ New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering s
 | --- | --- |
 | ArgumentException | Thrown when *countRowsPerPage* is equals or less than zero. |
 | ArgumentException | Thrown when *countColumnsPerPage* is equals or less than zero. |
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows-and-columns).
 
 ### See Also
 

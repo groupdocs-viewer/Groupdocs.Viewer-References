@@ -1,14 +1,14 @@
 ---
 title: PageRotations
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The page rotations.
+description: The page rotation.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/viewoptions/pagerotations/
 ---
 ## ViewOptions.PageRotations field
 
-The page rotations.
+The page rotation.
 
 ```csharp
 public readonly Dictionary<int, Rotation> PageRotations;
@@ -16,7 +16,9 @@ public readonly Dictionary<int, Rotation> PageRotations;
 
 ### Remarks
 
-In case both [`Watermark`](../watermark) and `PageRotations` are specified than watermark will be applied to the rotated pages.
+If both [`Watermark`](../watermark) and `PageRotations` are specified, the watermark is applied to the rotated pages.
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/flip-or-rotate-pages/).
 
 ### See Also
 

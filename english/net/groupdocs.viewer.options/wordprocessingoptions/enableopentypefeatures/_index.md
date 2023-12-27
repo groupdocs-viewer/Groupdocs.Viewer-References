@@ -1,14 +1,14 @@
 ---
 title: EnableOpenTypeFeatures
 second_title: GroupDocs.Viewer for .NET API Reference
-description: This option enables kerning and other OpenType Features when rendering Arabic Hebrew Indian scripts Latinbased or Cyrillicbased scripts.
+description: This option enables kerning and other OpenType Features when rendering Arabic Hebrew Indian Latinbased or Cyrillicbased scripts.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures/
 ---
 ## WordProcessingOptions.EnableOpenTypeFeatures property
 
-This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts.
+This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian Latin-based, or Cyrillic-based scripts.
 
 ```csharp
 public bool EnableOpenTypeFeatures { get; set; }

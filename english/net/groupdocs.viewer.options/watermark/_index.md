@@ -1,14 +1,14 @@
 ---
 title: Watermark
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Represents text watermark.
+description: Represents a text watermark. For details see the documentationhttps//docs.groupdocs.com/viewer/net/addtextwatermark/.
 type: docs
 weight: 580
 url: /net/groupdocs.viewer.options/watermark/
 ---
 ## Watermark class
 
-Represents text watermark.
+Represents a text watermark. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/add-text-watermark/).
 
 ```csharp
 public class Watermark
@@ -18,7 +18,7 @@ public class Watermark
 
 | Name | Description |
 | --- | --- |
-| [Watermark](watermark)(string) | Initializes new instance of [`Watermark`](../watermark) class. |
+| [Watermark](watermark)(string) | Initializes an instance of the [`Watermark`](../watermark) class. |
 
 ## Properties
 

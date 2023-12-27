@@ -1,14 +1,14 @@
 ---
 title: OptimizeSpreadsheets
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Optimize Excel spreadsheets border lines and fonts for smaller output file size.
+description: Enables optimization of spreadsheets in the PDF files.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/optimizespreadsheets/
 ---
 ## PdfOptimizationOptions.OptimizeSpreadsheets property
 
-Optimize Excel spreadsheets border lines and fonts for smaller output file size.
+Enables optimization of spreadsheets in the PDF files.
 
 ```csharp
 public bool OptimizeSpreadsheets { get; set; }
@@ -16,26 +16,9 @@ public bool OptimizeSpreadsheets { get; set; }
 
 ### Remarks
 
-The output PDF will not include embedded Arial and Times New Roman fonts with characters 32-127.
+This optimization allows to reduce the output file size by setting up border lines. Besides that, it removes the Arial and Times New Roman characters of 32-127 codes.
 
-The default value is `false`.
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-using (var viewer = new Viewer("invoice.xlsx"))
-{
-    PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
-    {
-        OptimizeSpreadsheets = true
-    };
-
-    viewer.View(viewOptions);
-}
-```
+For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-spreadsheets/).
 
 ### See Also
 

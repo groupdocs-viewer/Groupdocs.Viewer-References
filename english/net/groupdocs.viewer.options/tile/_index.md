@@ -1,14 +1,14 @@
 ---
 title: Tile
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Represents drawing region.
+description: Represents the drawing region.
 type: docs
 weight: 530
 url: /net/groupdocs.viewer.options/tile/
 ---
 ## Tile class
 
-Represents drawing region.
+Represents the drawing region.
 
 ```csharp
 public class Tile
@@ -18,7 +18,7 @@ public class Tile
 
 | Name | Description |
 | --- | --- |
-| [Tile](tile)(int, int, int, int) | Initializes a new instance of the [`Tile`](../tile) class. |
+| [Tile](tile)(int, int, int, int) | Initializes an instance of the [`Tile`](../tile) class. |
 
 ## Properties
 
@@ -35,6 +35,10 @@ public class Tile
 | --- | --- |
 | [GetEndPointX](../../groupdocs.viewer.options/tile/getendpointx)() | Returns the X coordinate of the highest right point on the drawing where the tile ends. |
 | [GetEndPointY](../../groupdocs.viewer.options/tile/getendpointy)() | Returns the Y coordinate of the highest right point on the drawing where the tile ends. |
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#split-a-drawing-into-tiles).
 
 ### See Also
 

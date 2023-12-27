@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
+description: Contains options for rendering web documents. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderwebdocuments/.
 type: docs
 weight: 590
 url: /net/groupdocs.viewer.options/webdocumentoptions/
 ---
 ## WebDocumentOptions class
 
-This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
+Contains options for rendering web documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-web-documents/).
 
 ```csharp
 public class WebDocumentOptions
@@ -18,17 +18,17 @@ public class WebDocumentOptions
 
 | Name | Description |
 | --- | --- |
-| [WebDocumentOptions](webdocumentoptions)() | Provides options for rendering word processing documents. |
+| [WebDocumentOptions](webdocumentoptions)() | Initializes an instance of the [`WebDocumentOptions`](../webdocumentoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BottomMargin](../../groupdocs.viewer.options/webdocumentoptions/bottommargin) { get; set; } | The distance (in points) between the bottom edge of the page and the bottom boundary of the body text. The default value is 72 points. |
-| [LeftMargin](../../groupdocs.viewer.options/webdocumentoptions/leftmargin) { get; set; } | The distance (in points) between the left edge of the page and the left boundary of the body text. The default value is 5 points. |
-| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | The size of the output page. The default value is Letter 792 x 612 points.  When contents does not fit set a larger page size e.g. A3. |
-| [RightMargin](../../groupdocs.viewer.options/webdocumentoptions/rightmargin) { get; set; } | The distance (in points) between the right edge of the page and the right boundary of the body text. The default value is 5 points. |
-| [TopMargin](../../groupdocs.viewer.options/webdocumentoptions/topmargin) { get; set; } | The distance (in points) between the top edge of the page and the top boundary of the body text. The default value is 72 points. |
+| [BottomMargin](../../groupdocs.viewer.options/webdocumentoptions/bottommargin) { get; set; } | Sets the bottom margin of a page. The default value is 72 points. |
+| [LeftMargin](../../groupdocs.viewer.options/webdocumentoptions/leftmargin) { get; set; } | Sets the left margin of a page. The default value is 5 points. |
+| [PageSize](../../groupdocs.viewer.options/webdocumentoptions/pagesize) { get; set; } | Sets the size of the output page. |
+| [RightMargin](../../groupdocs.viewer.options/webdocumentoptions/rightmargin) { get; set; } | Sets the right margin of a page. The default value is 5 points. |
+| [TopMargin](../../groupdocs.viewer.options/webdocumentoptions/topmargin) { get; set; } | Sets the top margin of a page. The default value is 72 points. |
 
 ### See Also
 

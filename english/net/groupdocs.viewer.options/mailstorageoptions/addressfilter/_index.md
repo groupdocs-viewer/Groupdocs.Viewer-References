@@ -1,18 +1,22 @@
 ---
 title: AddressFilter
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The emailaddress used to filter messages by sender or recipient.
+description: Sets the emailaddress used to filter messages by sender or recipient.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/mailstorageoptions/addressfilter/
 ---
 ## MailStorageOptions.AddressFilter property
 
-The email-address used to filter messages by sender or recipient.
+Sets the email-address used to filter messages by sender or recipient.
 
 ```csharp
 public string AddressFilter { get; set; }
 ```
+
+### Remarks
+
+Use this property to render all messages that contain specific text in the sender’s or recipient’s address. For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/#filter-messages).
 
 ### See Also
 

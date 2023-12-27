@@ -14,6 +14,10 @@ The project management files view options.
 public ProjectManagementOptions ProjectManagementOptions { get; set; }
 ```
 
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/).
+
 ### See Also
 
 * class [ProjectManagementOptions](../../projectmanagementoptions)

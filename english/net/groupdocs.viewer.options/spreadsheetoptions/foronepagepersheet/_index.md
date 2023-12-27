@@ -1,14 +1,14 @@
 ---
 title: ForOnePagePerSheet
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions class for rendering whole sheet into page.
+description: Initializes an instance of the SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions class for rendering the whole sheet into one page.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet/
 ---
 ## SpreadsheetOptions.ForOnePagePerSheet method
 
-Initializes new instance of [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering whole sheet into page.
+Initializes an instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering the whole sheet into one page.
 
 ```csharp
 public static SpreadsheetOptions ForOnePagePerSheet()
@@ -16,7 +16,11 @@ public static SpreadsheetOptions ForOnePagePerSheet()
 
 ### Return Value
 
-New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering one sheet into one page.
+New instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering the whole sheet into one page.
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#render-a-worksheet-on-one-page).
 
 ### See Also
 

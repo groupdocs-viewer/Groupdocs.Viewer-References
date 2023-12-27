@@ -14,6 +14,10 @@ Render only Visio figures, not a diagram.
 public bool RenderFiguresOnly { get; set; }
 ```
 
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-visio-documents/#render-only-diagram-shapes).
+
 ### See Also
 
 * class [VisioRenderingOptions](../../visiorenderingoptions)

@@ -1,14 +1,14 @@
 ---
 title: Watermark
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of Watermarkgroupdocs.viewer.options/watermark class.
+description: Initializes an instance of the Watermarkgroupdocs.viewer.options/watermark class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/watermark/watermark/
 ---
 ## Watermark constructor
 
-Initializes new instance of [`Watermark`](../../watermark) class.
+Initializes an instance of the [`Watermark`](../../watermark) class.
 
 ```csharp
 public Watermark(string text)

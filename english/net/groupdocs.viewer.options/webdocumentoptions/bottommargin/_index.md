@@ -1,18 +1,22 @@
 ---
 title: BottomMargin
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The distance in points between the bottom edge of the page and the bottom boundary of the body text. The default value is 72 points.
+description: Sets the bottom margin of a page. The default value is 72 points.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/webdocumentoptions/bottommargin/
 ---
 ## WebDocumentOptions.BottomMargin property
 
-The distance (in points) between the bottom edge of the page and the bottom boundary of the body text. The default value is 72 points.
+Sets the bottom margin of a page. The default value is 72 points.
 
 ```csharp
 public float BottomMargin { get; set; }
 ```
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-web-documents/#adjust-page-margins).
 
 ### See Also
 

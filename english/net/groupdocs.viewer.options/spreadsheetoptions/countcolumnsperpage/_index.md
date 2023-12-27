@@ -1,18 +1,22 @@
 ---
 title: CountColumnsPerPage
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The columns count to include into each page when splitting worksheet into pages.
+description: The columns count to include on each page when splitting the worksheet into pages.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/spreadsheetoptions/countcolumnsperpage/
 ---
 ## SpreadsheetOptions.CountColumnsPerPage property
 
-The columns count to include into each page when splitting worksheet into pages.
+The columns count to include on each page when splitting the worksheet into pages.
 
 ```csharp
 public int CountColumnsPerPage { get; }
 ```
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows-and-columns).
 
 ### See Also
 

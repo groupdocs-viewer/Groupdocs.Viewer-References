@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Provides options that used to open the file.
+description: Contains options that used to open the file. For details see this pagehttps//docs.groupdocs.com/viewer/net/loading/ and its children.
 type: docs
 weight: 340
 url: /net/groupdocs.viewer.options/loadoptions/
 ---
 ## LoadOptions class
 
-Provides options that used to open the file.
+Contains options that used to open the file. For details, see this [page](https://docs.groupdocs.com/viewer/net/loading/) and its children.
 
 ```csharp
 public class LoadOptions
@@ -18,19 +18,19 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | Initializes new instance of [`LoadOptions`](../loadoptions) class. |
-| [LoadOptions](loadoptions#constructor_1)(FileType) | Initializes new instance of [`LoadOptions`](../loadoptions) class. |
+| [LoadOptions](loadoptions#constructor)() | Initializes an instance of the [`LoadOptions`](../loadoptions) class. |
+| [LoadOptions](loadoptions#constructor_1)(FileType) | Initializes an instance of the [`LoadOptions`](../loadoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | This option enables [`TXT`](../../groupdocs.viewer/filetype/txt), [`TSV`](../../groupdocs.viewer/filetype/tsv), and [`CSV`](../../groupdocs.viewer/filetype/csv) files encoding detection. In case the encoding can't be detected the default [`Encoding`](./encoding) is used. |
-| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | The encoding used when opening text-based files or email messages such as [`CSV`](../../groupdocs.viewer/filetype/csv), [`TXT`](../../groupdocs.viewer/filetype/txt), and [`MSG`](../../groupdocs.viewer/filetype/msg). Default value is UTF8. |
-| [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | The type of the file to open. |
-| [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | The password for opening encrypted file. |
-| [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | The external resources loading timeout. The default value is 10 seconds. |
-| [SkipExternalResources](../../groupdocs.viewer.options/loadoptions/skipexternalresources) { get; set; } | When set to `true` all external resource such as images will not be loaded except [`WhitelistedResources`](./whitelistedresources). |
+| [DetectEncoding](../../groupdocs.viewer.options/loadoptions/detectencoding) { get; set; } | Enables the encoding detection for the [`TXT`](../../groupdocs.viewer/filetype/txt), [`CSV`](../../groupdocs.viewer/filetype/csv), and [`TSV`](../../groupdocs.viewer/filetype/tsv) files. |
+| [Encoding](../../groupdocs.viewer.options/loadoptions/encoding) { get; set; } | Sets the encoding used when opening text-based files or email messages such as [`CSV`](../../groupdocs.viewer/filetype/csv), [`TXT`](../../groupdocs.viewer/filetype/txt), and [`MSG`](../../groupdocs.viewer/filetype/msg). Default value is UTF8. |
+| [FileType](../../groupdocs.viewer.options/loadoptions/filetype) { get; set; } | Sets the type of the file to open. |
+| [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | Sets the password to open encrypted file. |
+| [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | Sets the timeout to load external resources. |
+| [SkipExternalResources](../../groupdocs.viewer.options/loadoptions/skipexternalresources) { get; set; } | Disables loading of all external resource such as images except [`WhitelistedResources`](./whitelistedresources). |
 | [WhitelistedResources](../../groupdocs.viewer.options/loadoptions/whitelistedresources) { get; set; } | The list of URL fragments corresponding to external resources that should be loaded when [`SkipExternalResources`](./skipexternalresources) is set to `true`. |
 
 ### See Also

@@ -14,6 +14,10 @@ The archive files view options.
 public ArchiveOptions ArchiveOptions { get; set; }
 ```
 
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/).
+
 ### See Also
 
 * class [ArchiveOptions](../../archiveoptions)

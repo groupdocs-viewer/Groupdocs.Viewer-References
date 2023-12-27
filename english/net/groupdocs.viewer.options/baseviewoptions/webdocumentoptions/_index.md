@@ -1,18 +1,22 @@
 ---
 title: WebDocumentOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
+description: The Web files view options.
 type: docs
 weight: 160
 url: /net/groupdocs.viewer.options/baseviewoptions/webdocumentoptions/
 ---
 ## BaseViewOptions.WebDocumentOptions property
 
-This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
+The Web files view options.
 
 ```csharp
 public WebDocumentOptions WebDocumentOptions { get; set; }
 ```
+
+### Remarks
+
+For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-web-documents/).
 
 ### See Also
 

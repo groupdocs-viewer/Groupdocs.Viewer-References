@@ -1,14 +1,14 @@
 ---
 title: ForEmbeddedResources
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes new instance of HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions class for rendering into HTML with embedded resources.
+description: Initializes an instance of the HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions class for rendering into HTML with embedded resources.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/htmlviewoptions/forembeddedresources/
 ---
 ## ForEmbeddedResources(CreatePageStream) {#forembeddedresources_1}
 
-Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
+Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream)
@@ -20,13 +20,17 @@ public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageSt
 
 ### Return Value
 
-New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
+New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *createPageStream* is null. |
+
+### Remarks
+
+For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-embedded-resources).
 
 ### See Also
 
@@ -39,7 +43,7 @@ New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering i
 
 ## ForEmbeddedResources(CreatePageStream, ReleasePageStream) {#forembeddedresources_2}
 
-Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
+Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageStream, 
@@ -53,7 +57,7 @@ public static HtmlViewOptions ForEmbeddedResources(CreatePageStream createPageSt
 
 ### Return Value
 
-New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
+New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
 
 ### Exceptions
 
@@ -61,6 +65,10 @@ New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering i
 | --- | --- |
 | ArgumentNullException | Thrown when *createPageStream* is null. |
 | ArgumentNullException | Thrown when *releasePageStream* is null. |
+
+### Remarks
+
+For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-embedded-resources).
 
 ### See Also
 
@@ -74,7 +82,7 @@ New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering i
 
 ## ForEmbeddedResources(IPageStreamFactory) {#forembeddedresources_3}
 
-Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
+Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStreamFactory)
@@ -86,13 +94,17 @@ public static HtmlViewOptions ForEmbeddedResources(IPageStreamFactory pageStream
 
 ### Return Value
 
-New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
+New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with embedded resources.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *pageStreamFactory* is null. |
+
+### Remarks
+
+For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-embedded-resources).
 
 ### See Also
 
@@ -105,11 +117,15 @@ New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering i
 
 ## ForEmbeddedResources() {#forembeddedresources}
 
-Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class.
+Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources()
 ```
+
+### Remarks
+
+For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-embedded-resources).
 
 ### See Also
 
@@ -121,7 +137,7 @@ public static HtmlViewOptions ForEmbeddedResources()
 
 ## ForEmbeddedResources(string) {#forembeddedresources_4}
 
-Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class.
+Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class.
 
 ```csharp
 public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)
@@ -136,6 +152,10 @@ public static HtmlViewOptions ForEmbeddedResources(string filePathFormat)
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown when *filePathFormat* is null or empty. |
+
+### Remarks
+
+For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-embedded-resources).
 
 ### See Also
 

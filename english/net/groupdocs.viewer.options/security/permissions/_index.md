@@ -14,6 +14,10 @@ The PDF document permissions such as printing, modification and data extraction.
 public Permissions Permissions { get; set; }
 ```
 
+### Remarks
+
+For code sample, see the [documentation](https://docs.groupdocs.com/viewer/net/protect-pdf-documents/).
+
 ### See Also
 
 * enum [Permissions](../../permissions)

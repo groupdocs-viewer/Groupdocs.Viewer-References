@@ -1,14 +1,14 @@
 ---
 title: ConvertToGrayScale
 second_title: GroupDocs.Viewer for .NET API Reference
-description: PDF file is comprised of Text Image Attachment Annotations Graphs and other objects. You may come across a requirement to convert a PDF from RGB colorspace to grayscale so that it would be faster while printing those PDF files. Also when the file is converted to grayscale the size of the document is also reduced but with this change the quality of the document may drop. Currently this feature is supported by the PreFlight feature of Adobe Acrobat.
+description: Enables converting the output PDF file to a grayscale.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/converttograyscale/
 ---
 ## PdfOptimizationOptions.ConvertToGrayScale property
 
-PDF file is comprised of Text, Image, Attachment, Annotations, Graphs and other objects. You may come across a requirement to convert a PDF from RGB colorspace to grayscale so that it would be faster while printing those PDF files. Also when the file is converted to grayscale, the size of the document is also reduced but with this change, the quality of the document may drop. Currently, this feature is supported by the Pre-Flight feature of Adobe Acrobat.
+Enables converting the output PDF file to a grayscale.
 
 ```csharp
 public bool ConvertToGrayScale { get; set; }
@@ -16,24 +16,7 @@ public bool ConvertToGrayScale { get; set; }
 
 ### Remarks
 
-The default value is `false`.
-
-### Examples
-
-The example demonstrates a typical usage of this option.
-
-```csharp
-using (var viewer = new Viewer("sample.docx"))
-{
-    PdfViewOptions viewOptions = new PdfViewOptions();
-    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
-    {
-        ConvertToGrayScale = true
-    };
-
-    viewer.View(viewOptions);
-}
-```
+For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-convert-grayscale/).
 
 ### See Also
 
