@@ -31,6 +31,7 @@ public class WordProcessingOptions
 | [RenderTrackedChanges](../../groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges) { get; set; } | Enables tracked changes (revisions) rendering. |
 | [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | Sets the right margin of a page. |
 | [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | Sets the top margin of a page. |
+| [UnlinkTableOfContents](../../groupdocs.viewer.options/wordprocessingoptions/unlinktableofcontents) { get; set; } | When rendering to HTML or PDF, you can set this option to `true` to disable navigation from the table of contents. For HTML rendering, `a` tags with relative links will be replaced with `span` tags, removing functionality but preserving visual appearance. For PDF rendering, the table of contents will be rendered as plain text without links to document sections. |
 
 ### See Also
 
