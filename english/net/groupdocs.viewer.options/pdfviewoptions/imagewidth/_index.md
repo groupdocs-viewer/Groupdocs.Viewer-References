@@ -16,7 +16,7 @@ public int ImageWidth { get; set; }
 
 ### Remarks
 
-Use this property to set the output image width (in pixels). GroupDocs.Viewer applies this property when rendering a single image to HTML only. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/).
+Use this property to set the output image width (in pixels). GroupDocs.Viewer applies this property when rendering a single image to PDF. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/).
 
 If you set this property, the [`ImageMaxWidth`](../imagemaxwidth) property is ignored.
 
