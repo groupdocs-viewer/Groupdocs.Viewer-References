@@ -52,6 +52,7 @@ Example usage:
 | [GZ](#GZ) | Represents a Gnu Zipped File (.gz) compressed file created with the gzip compression application. |
 | [GZIP](#GZIP) | Represents a Gnu Zipped File (.gzip) compressed file introduced as a free utility for replacing the Compress program used in Unix systems. |
 | [SEVEN_ZIP](#SEVEN-ZIP) | Represents a 7Zip (.7z, .7zip) file, which is a free open-source archiver with LZMA and LZMA2 compression. |
+| [CPIO](#CPIO) | Cpio is a general file archiver utility and its associated file format. |
 | [DXF](#DXF) | Represents a Drawing Exchange Format File (.dxf), which is a tagged data representation of an AutoCAD drawing file. |
 | [DWG](#DWG) | Represents an AutoCAD Drawing Database File (.dwg), which represents proprietary binary files used for containing 2D and 3D design data. |
 | [DWT](#DWT) | Represents an AutoCAD Drawing Template (.dwt), which is an AutoCAD drawing template file used as a starter for creating drawings that can be saved as DWG files. |
@@ -81,6 +82,7 @@ Example usage:
 | [VDX](#VDX) | Represents a Visio Drawing XML File (.vdx), which represents any drawing or chart created in Microsoft Visio but saved in XML format with the .VDX extension. |
 | [EPUB](#EPUB) | Represents an Open eBook File (.epub), which is an e-book file format that provides a standard digital publication format for publishers and consumers. |
 | [MOBI](#MOBI) | Represents a Mobipocket eBook (.mobi), which is one of the most widely used ebook file formats. |
+| [AZW_3](#AZW-3) | Amazon Kindle Format 8 (KF8) ebook is the digital file format developed for Amazon Kindle devices. |
 | [MSG](#MSG) | Represents an Outlook Mail Message (.msg), which is a file format used by Microsoft Outlook and Exchange to store email messages, contacts, appointments, or other tasks. |
 | [EML](#EML) | Represents an E-Mail Message (.eml), which represents email messages saved using Outlook and other relevant applications. |
 | [EMLX](#EMLX) | Represents an Apple Mail Message (.emlx), which is implemented and developed by Apple. |
@@ -242,6 +244,8 @@ Example usage:
 | [fromStream(InputStream stream, ILogger logger)](#fromStream-java.io.InputStream-com.groupdocs.foundation.logging.ILogger-) | Detects the file type by reading the file signature. |
 | [fromStream(InputStream stream, String password, ILogger logger)](#fromStream-java.io.InputStream-java.lang.String-com.groupdocs.foundation.logging.ILogger-) | Detects the file type by reading the file signature. |
 | [getSupportedFileTypes()](#getSupportedFileTypes--) | Retrieves the supported file types. |
+| [detectCharset(String filePath)](#detectCharset-java.lang.String-) | Attempts to detect text [TXT](../../com.groupdocs.viewer/filetype\#TXT), [TSV](../../com.groupdocs.viewer/filetype\#TSV), and [CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset by path. |
+| [detectCharset(InputStream stream)](#detectCharset-java.io.InputStream-) | Attempts to detect text [TXT](../../com.groupdocs.viewer/filetype\#TXT), [TSV](../../com.groupdocs.viewer/filetype\#TSV), and [CSV](../../com.groupdocs.viewer/filetype\#CSV) file charset by stream. |
 | [getFileFormat()](#getFileFormat--) | Gets the name of the file format, e.g., "Microsoft Word Document". |
 | [getExtension()](#getExtension--) | Gets the file extension suffix (including the period "."), e.g., ".doc". |
 | [toString()](#toString--) | Returns a string representation of the current object. |
@@ -384,6 +388,17 @@ Represents a 7Zip (.7z, .7zip) file, which is a free open-source archiver with L
 
 
 [here]: https://docs.fileformat.com/compression/7z/
+
+### CPIO {#CPIO}
+```
+public static final FileType CPIO
+```
+
+
+Cpio is a general file archiver utility and its associated file format. It is primarily installed on Unix-like computer operating systems. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/compression/cpio
 
 ### DXF {#DXF}
 ```
@@ -700,6 +715,17 @@ Represents a Mobipocket eBook (.mobi), which is one of the most widely used eboo
 
 
 [here]: https://wiki.fileformat.com/ebook/mobi
+
+### AZW_3 {#AZW-3}
+```
+public static final FileType AZW_3
+```
+
+
+Amazon Kindle Format 8 (KF8) ebook is the digital file format developed for Amazon Kindle devices. The format is an enhancement to older AZW files and is used on Kindle Fire devices only with backward compatibility for the ancestor file format i.e. MOBI and AZW. Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/ebook/azw3
 
 ### MSG {#MSG}
 ```
@@ -2493,6 +2519,49 @@ This method returns a sequence of all the supported file types by the system. Th
 
 **Returns:**
 java.util.List<com.groupdocs.viewer.FileType> - a sequence of supported file types.
+### detectCharset(String filePath) {#detectCharset-java.lang.String-}
+```
+public static Charset detectCharset(String filePath)
+```
+
+
+Attempts to detect text [TXT](../../com.groupdocs.viewer/filetype\#TXT), [TSV](../../com.groupdocs.viewer/filetype\#TSV), and [CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset by path.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | The file name or file path. |
+
+**Returns:**
+java.nio.charset.Charset - Charset or null when fails to detect a file charset.
+
+**Example:**
+
+```
+Charset charset = FileType.detectCharset("message.txt");
+```
+### detectCharset(InputStream stream) {#detectCharset-java.io.InputStream-}
+```
+public static Charset detectCharset(InputStream stream)
+```
+
+
+Attempts to detect text [TXT](../../com.groupdocs.viewer/filetype\#TXT), [TSV](../../com.groupdocs.viewer/filetype\#TSV), and [CSV](../../com.groupdocs.viewer/filetype\#CSV) file charset by stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | The file stream. |
+
+**Returns:**
+java.nio.charset.Charset - Charset or null when fails to detect a file charset.
+
+**Example:**
+
+```
+InputStream stream = new FileInputStream("message.txt");
+ Charset charset = FileType.detectCharset(stream);
+```
 ### getFileFormat() {#getFileFormat--}
 ```
 public final String getFileFormat()

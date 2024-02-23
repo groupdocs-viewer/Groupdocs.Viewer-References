@@ -57,6 +57,8 @@ Example usage:
 | [setImageHeight(int imageHeight)](#setImageHeight-int-) | Sets the height of the output image in pixels. |
 | [getSecurity()](#getSecurity--) | Retrieves the security options for the output PDF document. |
 | [setSecurity(Security value)](#setSecurity-com.groupdocs.viewer.options.Security-) | Sets the security options for the output PDF document. |
+| [isOptimize()](#isOptimize--) | Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques. |
+| [setOptimize(boolean optimize)](#setOptimize-boolean-) | Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques. |
 | [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Retrieves the callback used to estimate the progress of saving a Words or Email document. |
 | [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Sets the callback used to estimate the progress of saving a Words or Email document. |
 ### PdfViewOptions(CreateFileStream createFileStream) {#PdfViewOptions-com.groupdocs.viewer.interfaces.CreateFileStream-}
@@ -278,6 +280,71 @@ Sets the security options for the output PDF document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Security](../../com.groupdocs.viewer.options/security) | The security options for the output PDF document. |
+
+### isOptimize() {#isOptimize--}
+```
+public boolean isOptimize()
+```
+
+
+Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques.
+
+In version 24.2 this option is supported for [Spreadsheet file formats][] only.
+
+Learn more how to export Excel and Apple Numbers spreadsheets to PDF
+
+ *  [Render spreadsheets as PDF][]
+
+**Example:**
+
+```
+try (Viewer viewer = new Viewer("employees.xlsx")) {
+     PdfViewOptions viewOptions = new PdfViewOptions();
+     viewOptions.setOptimize(true);
+
+     viewer.view(viewOptions);
+ }
+```
+
+
+[Spreadsheet file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#spreadsheet-file-formats
+[Render spreadsheets as PDF]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#render-spreadsheets-as-pdf
+
+**Returns:**
+boolean
+### setOptimize(boolean optimize) {#setOptimize-boolean-}
+```
+public void setOptimize(boolean optimize)
+```
+
+
+Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques.
+
+In version 24.2 this option is supported for [Spreadsheet file formats][] only.
+
+Learn more how to export Excel and Apple Numbers spreadsheets to PDF
+
+ *  [Render spreadsheets as PDF][]
+
+**Example:**
+
+```
+try (Viewer viewer = new Viewer("employees.xlsx")) {
+     PdfViewOptions viewOptions = new PdfViewOptions();
+     viewOptions.setOptimize(true);
+
+     viewer.view(viewOptions);
+ }
+```
+
+
+[Spreadsheet file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#spreadsheet-file-formats
+[Render spreadsheets as PDF]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#render-spreadsheets-as-pdf
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| optimize | boolean |  |
 
 ### getDocumentSavingCallback() {#getDocumentSavingCallback--}
 ```
