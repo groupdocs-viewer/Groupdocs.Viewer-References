@@ -19,6 +19,7 @@ public class CadOptions
 | Name | Description |
 | --- | --- |
 | [BackgroundColor](../../groupdocs.viewer.options/cadoptions/backgroundcolor) { get; set; } | Image background color. |
+| [EnablePerformanceConversionMode](../../groupdocs.viewer.options/cadoptions/enableperformanceconversionmode) { get; set; } | Setting this flag to `true` enables a special performance-oriented conversion mode for all formats within CAD family — in this mode the conversion speed is much faster, but the quality of the resultant documents is signifiantly worser. By default is disabled (`false`) — the quality of the resultant documents is the best possible at the expense of performance. |
 | [Height](../../groupdocs.viewer.options/cadoptions/height) { get; } | The height of the output result (in pixels). |
 | [Layers](../../groupdocs.viewer.options/cadoptions/layers) { get; set; } | The CAD drawing layers to render. |
 | [LayoutName](../../groupdocs.viewer.options/cadoptions/layoutname) { get; set; } | The name of the specific layout to render. Layout name is case-sensitive. |
