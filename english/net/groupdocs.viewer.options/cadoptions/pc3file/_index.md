@@ -3,7 +3,7 @@ title: Pc3File
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PC3  plotter configuration file
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.viewer.options/cadoptions/pc3file/
 ---
 ## CadOptions.Pc3File property

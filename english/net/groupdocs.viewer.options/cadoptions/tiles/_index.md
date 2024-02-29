@@ -3,7 +3,7 @@ title: Tiles
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The drawing regions to render.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.viewer.options/cadoptions/tiles/
 ---
 ## CadOptions.Tiles property

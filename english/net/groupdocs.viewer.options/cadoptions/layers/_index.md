@@ -3,7 +3,7 @@ title: Layers
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The CAD drawing layers to render.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.viewer.options/cadoptions/layers/
 ---
 ## CadOptions.Layers property
