@@ -45,7 +45,9 @@ Example usage:
 | [getDateTimeFormat()](#getDateTimeFormat--) | Gets the time format for the date and time values. |
 | [setDateTimeFormat(String dateTimeFormat)](#setDateTimeFormat-java.lang.String-) | Gets the time format for the date and time values. |
 | [getTimeZoneOffset()](#getTimeZoneOffset--) | Gets the time zone offset for the message. |
+| [getTimeZoneOffsetMinutes()](#getTimeZoneOffsetMinutes--) | Gets the time zone minutes offset minutes for the message. |
 | [setTimeZoneOffset(TimeZone timeZoneOffset)](#setTimeZoneOffset-java.util.TimeZone-) | Gets the time zone offset for the message. |
+| [setTimeZoneOffset(int offsetMinutes)](#setTimeZoneOffset-int-) | Gets the time zone offset minutes offset for the message. |
 | [getPageSize()](#getPageSize--) | Gets the size of the output page. |
 | [setPageSize(PageSize value)](#setPageSize-com.groupdocs.viewer.options.PageSize-) | Gets the size of the output page. |
 | [getFieldTextMap()](#getFieldTextMap--) | Retrieves the mapping between email message fields and their text representations. |
@@ -101,6 +103,18 @@ Gets the time zone offset for the message.
 
 **Returns:**
 java.util.TimeZone - the time zone offset.
+### getTimeZoneOffsetMinutes() {#getTimeZoneOffsetMinutes--}
+```
+public int getTimeZoneOffsetMinutes()
+```
+
+
+Gets the time zone minutes offset minutes for the message.
+
+**Note:** The time zone offset minutes represents the minutes difference between the message's time and Coordinated Universal Time (UTC).
+
+**Returns:**
+int - the time zone offset.
 ### setTimeZoneOffset(TimeZone timeZoneOffset) {#setTimeZoneOffset-java.util.TimeZone-}
 ```
 public void setTimeZoneOffset(TimeZone timeZoneOffset)
@@ -115,6 +129,21 @@ Gets the time zone offset for the message.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | timeZoneOffset | java.util.TimeZone | The time zone offset. |
+
+### setTimeZoneOffset(int offsetMinutes) {#setTimeZoneOffset-int-}
+```
+public void setTimeZoneOffset(int offsetMinutes)
+```
+
+
+Gets the time zone offset minutes offset for the message.
+
+**Note:** The time zone minutes offset represents the time difference between the message's time and Coordinated Universal Time (UTC).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| offsetMinutes | int | The time zone offset. |
 
 ### getPageSize() {#getPageSize--}
 ```

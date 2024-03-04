@@ -62,6 +62,14 @@ Example usage:
 | [setRenderHiddenColumns(boolean value)](#setRenderHiddenColumns-boolean-) | Enables hidden columns rendering. |
 | [getTextOverflowMode()](#getTextOverflowMode--) | Returns the text overflow mode for rendering spreadsheet documents into HTML. |
 | [setTextOverflowMode(TextOverflowMode value)](#setTextOverflowMode-com.groupdocs.viewer.options.TextOverflowMode-) | Sets the text overflow mode for rendering spreadsheet documents into HTML. |
+| [getLeftMargin()](#getLeftMargin--) | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setLeftMargin(double leftMargin)](#setLeftMargin-double-) | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [getRightMargin()](#getRightMargin--) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setRightMargin(double rightMargin)](#setRightMargin-double-) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [getTopMargin()](#getTopMargin--) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setTopMargin(double topMargin)](#setTopMargin-double-) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [getBottomMargin()](#getBottomMargin--) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setBottomMargin(double bottomMargin)](#setBottomMargin-double-) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 | [forRenderingByPageBreaks()](#forRenderingByPageBreaks--) | Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only. |
 ### isRenderByPageBreaks() {#isRenderByPageBreaks--}
 ```
@@ -377,6 +385,98 @@ Sets the text overflow mode for rendering spreadsheet documents into HTML.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextOverflowMode](../../com.groupdocs.viewer.options/textoverflowmode) | The text overflow mode to be set. |
+
+### getLeftMargin() {#getLeftMargin--}
+```
+public double getLeftMargin()
+```
+
+
+To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setLeftMargin(double leftMargin) {#setLeftMargin-double-}
+```
+public void setLeftMargin(double leftMargin)
+```
+
+
+To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| leftMargin | double |  |
+
+### getRightMargin() {#getRightMargin--}
+```
+public double getRightMargin()
+```
+
+
+To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setRightMargin(double rightMargin) {#setRightMargin-double-}
+```
+public void setRightMargin(double rightMargin)
+```
+
+
+To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rightMargin | double |  |
+
+### getTopMargin() {#getTopMargin--}
+```
+public double getTopMargin()
+```
+
+
+To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setTopMargin(double topMargin) {#setTopMargin-double-}
+```
+public void setTopMargin(double topMargin)
+```
+
+
+To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| topMargin | double |  |
+
+### getBottomMargin() {#getBottomMargin--}
+```
+public double getBottomMargin()
+```
+
+
+To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setBottomMargin(double bottomMargin) {#setBottomMargin-double-}
+```
+public void setBottomMargin(double bottomMargin)
+```
+
+
+To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bottomMargin | double |  |
 
 ### forRenderingByPageBreaks() {#forRenderingByPageBreaks--}
 ```

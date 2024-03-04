@@ -50,8 +50,10 @@ Example usage:
 | [setFileType(FileType value)](#setFileType-com.groupdocs.viewer.FileType-) | Sets the type of the file to open. |
 | [getPassword()](#getPassword--) | Gets the password for opening an encrypted file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted file. |
-| [getCharset()](#getCharset--) | Gets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
-| [setCharset(Charset value)](#setCharset-java.nio.charset.Charset-) | Sets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
+| [getCharset()](#getCharset--) | The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
+| [setCharset(Charset value)](#setCharset-java.nio.charset.Charset-) | The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
+| [isDetectCharset()](#isDetectCharset--) | This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [FileType.TSV](../../com.groupdocs.viewer/filetype\#TSV), and [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset detection. |
+| [setDetectCharset(boolean detectCharset)](#setDetectCharset-boolean-) | This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [FileType.TSV](../../com.groupdocs.viewer/filetype\#TSV), and [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset detection. |
 | [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Gets the timeout for loading external resources, such as graphics. |
 | [setResourceLoadingTimeout(int resourceLoadingTimeout)](#setResourceLoadingTimeout-int-) | Sets the timeout for loading external resources, such as graphics. |
 | [getUrlConnectTimeout()](#getUrlConnectTimeout--) | Gets the connection timeout for creating a [Viewer](../../com.groupdocs.viewer/viewer) using java.net.URL to load a document. |
@@ -145,26 +147,141 @@ public final Charset getCharset()
 ```
 
 
-Gets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
+The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
 
-***Note:** The default value is Charset\#defaultCharset().defaultCharset().*
+Default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8.
+
+**Learn more**
+
+ *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
+ *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
+ *  [Render email messages as HTML, PDF, PNG, and JPEG files][Render email messages as HTML_ PDF_ PNG_ and JPEG files]
+
+**Example:**
+
+```
+LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setCharset(StandardCharsets.US_ASCII); // Set the charset
+
+ try (Viewer viewer = new Viewer("message.txt", loadOptions)) {
+     HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+
+     viewer.view(viewOptions);
+ }
+```
+
+
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+[Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files
+[Render email messages as HTML_ PDF_ PNG_ and JPEG files]: https://docs.groupdocs.com/viewer/java/render-email-messages/
 
 **Returns:**
-java.nio.charset.Charset - the charset used for opening text-based files or email messages.
+java.nio.charset.Charset
 ### setCharset(Charset value) {#setCharset-java.nio.charset.Charset-}
 ```
 public final void setCharset(Charset value)
 ```
 
 
-Sets the charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
+The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
 
-***Note:** The default value is Charset\#defaultCharset().defaultCharset().*
+Default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8.
+
+**Learn more**
+
+ *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
+ *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
+ *  [Render email messages as HTML, PDF, PNG, and JPEG files][Render email messages as HTML_ PDF_ PNG_ and JPEG files]
+
+**Example:**
+
+```
+LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setCharset(StandardCharsets.US_ASCII); // Set the charset
+
+ try (Viewer viewer = new Viewer("message.txt", loadOptions)) {
+     HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+
+     viewer.view(viewOptions);
+ }
+```
+
+
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+[Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files
+[Render email messages as HTML_ PDF_ PNG_ and JPEG files]: https://docs.groupdocs.com/viewer/java/render-email-messages/
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.nio.charset.Charset | The charset used for opening text-based files or email messages. |
+| value | java.nio.charset.Charset |  |
+
+### isDetectCharset() {#isDetectCharset--}
+```
+public boolean isDetectCharset()
+```
+
+
+This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [FileType.TSV](../../com.groupdocs.viewer/filetype\#TSV), and [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset detection. In case the charset can't be detected the default [getCharset()](../../com.groupdocs.viewer.options/loadoptions\#getCharset--) is used.
+
+**Learn more about rendering text and tab/comma delimited files**
+
+ *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
+ *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
+
+**Example:**
+
+```
+LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setDetectCharset(true); // Enable encoding detection
+
+ try (Viewer viewer = new Viewer("employees.csv", loadOptions)) {
+     HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+
+     viewer.view(viewOptions);
+ }
+```
+
+
+[Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files/
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+
+**Returns:**
+boolean
+### setDetectCharset(boolean detectCharset) {#setDetectCharset-boolean-}
+```
+public void setDetectCharset(boolean detectCharset)
+```
+
+
+This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [FileType.TSV](../../com.groupdocs.viewer/filetype\#TSV), and [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset detection. In case the charset can't be detected the default [getCharset()](../../com.groupdocs.viewer.options/loadoptions\#getCharset--) is used.
+
+**Learn more about rendering text and tab/comma delimited files**
+
+ *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
+ *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
+
+**Example:**
+
+```
+LoadOptions loadOptions = new LoadOptions();
+ loadOptions.setDetectCharset(true); // Enable encoding detection
+
+ try (Viewer viewer = new Viewer("employees.csv", loadOptions)) {
+     HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+
+     viewer.view(viewOptions);
+ }
+```
+
+
+[Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files/
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| detectCharset | boolean |  |
 
 ### getResourceLoadingTimeout() {#getResourceLoadingTimeout--}
 ```
