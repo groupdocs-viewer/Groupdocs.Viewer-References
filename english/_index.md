@@ -35,3 +35,18 @@ Empower Java applications with document viewing and rendering capabilities to di
 These are links to some useful resources:
 
 - [GroupDocs.Viewer for Java API Reference](/viewer/java/)
+
+
+## GroupDocs.Viewer for Node.js via Java
+
+{{% alert color="primary" %}}
+
+![GroupDocs.Viewer for Node.js via Java Product Logo](gdocs_nodejs.png)
+
+Node.js API for document viewing and rendering of 170+ file formats with high performance and simple integration.
+
+{{% /alert %}}
+
+These are links to some useful resources:
+
+- [GroupDocs.Viewer for Node.js via Java API Reference](/viewer/nodejs-java/)
