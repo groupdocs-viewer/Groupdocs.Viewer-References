@@ -11,11 +11,12 @@ url: /net/groupdocs.viewer.options/cadoptions/backgroundcolor/
 Image background color.
 
 ```csharp
-public Color BackgroundColor { get; set; }
+public Argb32Color BackgroundColor { get; set; }
 ```
 
 ### See Also
 
+* struct [Argb32Color](../../../groupdocs.viewer.drawing/argb32color)
 * class [CadOptions](../../cadoptions)
 * namespace [GroupDocs.Viewer.Options](../../cadoptions)
 * assembly [GroupDocs.Viewer](../../../)

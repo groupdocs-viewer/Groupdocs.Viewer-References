@@ -24,7 +24,7 @@ public class Watermark
 
 | Name | Description |
 | --- | --- |
-| [Color](../../groupdocs.viewer.options/watermark/color) { get; set; } | The watermark color. Default value is Red. |
+| [Color](../../groupdocs.viewer.options/watermark/color) { get; set; } | The watermark color. Default value is [`Red`](../../groupdocs.viewer.drawing/rgb24color.knowncolors.csslevel1/red). |
 | [FontName](../../groupdocs.viewer.options/watermark/fontname) { get; set; } | The font name used for the watermark. |
 | [Position](../../groupdocs.viewer.options/watermark/position) { get; set; } | The watermark position. Default value is Diagonal. |
 | [Size](../../groupdocs.viewer.options/watermark/size) { get; set; } | The watermark size. Default value is [`FullSize`](../size/fullsize). |

@@ -3,7 +3,7 @@ title: JLS
 second_title: GroupDocs.Viewer for .NET API Reference
 description: JPEGLS JLS .jls
 type: docs
-weight: 700
+weight: 710
 url: /net/groupdocs.viewer/filetype/jls/
 ---
 ## FileType.JLS field

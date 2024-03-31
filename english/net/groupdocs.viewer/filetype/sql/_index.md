@@ -3,7 +3,7 @@ title: SQL
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Structured Query Language Data File .sql
 type: docs
-weight: 1440
+weight: 1450
 url: /net/groupdocs.viewer/filetype/sql/
 ---
 ## FileType.SQL field

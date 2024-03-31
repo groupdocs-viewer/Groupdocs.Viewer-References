@@ -3,7 +3,7 @@ title: PLT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PLT HPGL .plt is a vectorbased plotter file introduced by Autodesk Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production and usage of PLT file guarantee this as all images are printed using lines instead of dots. Learn more about this file format herehttps//wiki.fileformat.com/cad/plt.
 type: docs
-weight: 1130
+weight: 1140
 url: /net/groupdocs.viewer/filetype/plt/
 ---
 ## FileType.PLT field

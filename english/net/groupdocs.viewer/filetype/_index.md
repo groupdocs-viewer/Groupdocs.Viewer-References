@@ -121,6 +121,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | JPEG 2000 Code Stream (.j2c) |
 | static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) is an image that is compressed using the wavelet compression instead of DCT compression. Learn more about this file format [here](https://wiki.fileformat.com/image/j2k). |
 | static readonly [JAVA](../../groupdocs.viewer/filetype/java) | Java Source Code File (.java) |
+| static readonly [JFIF](../../groupdocs.viewer/filetype/jfif) | JPEG File Interchange Format (.jfif) is image that was developed for fast exchange between platforms. This format uses JPEG compression.Learn more about this file format [here](https://wiki.fileformat.com/image/jfif). |
 | static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
 | static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) is an image coding system and state-of-the-art image compression standard. Learn more about this file format [here](https://wiki.fileformat.com/image/jp2). |
 | static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | JPEG 2000 Code Stream (.jpc) |
