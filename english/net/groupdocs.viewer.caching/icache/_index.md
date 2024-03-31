@@ -3,7 +3,7 @@ title: ICache
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines methods required for storing rendered document and document resources сache.
 type: docs
-weight: 830
+weight: 860
 url: /net/groupdocs.viewer.caching/icache/
 ---
 ## ICache interface

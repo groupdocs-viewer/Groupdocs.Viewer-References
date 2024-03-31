@@ -3,7 +3,7 @@ title: RB
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Ruby Source Code .rb
 type: docs
-weight: 1340
+weight: 1350
 url: /net/groupdocs.viewer/filetype/rb/
 ---
 ## FileType.RB field

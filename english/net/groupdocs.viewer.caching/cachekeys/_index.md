@@ -3,7 +3,7 @@ title: CacheKeys
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides methods to retrieve unique identifier for the cache entry.
 type: docs
-weight: 810
+weight: 840
 url: /net/groupdocs.viewer.caching/cachekeys/
 ---
 ## CacheKeys class

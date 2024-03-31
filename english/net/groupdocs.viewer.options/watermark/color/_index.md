@@ -1,21 +1,22 @@
 ---
 title: Color
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The watermark color. Default value is Red.
+description: The watermark color. Default value is Redgroupdocs.viewer.drawing/rgb24color.knowncolors.csslevel1/red.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/watermark/color/
 ---
 ## Watermark.Color property
 
-The watermark color. Default value is Red.
+The watermark color. Default value is [`Red`](../../../groupdocs.viewer.drawing/rgb24color.knowncolors.csslevel1/red).
 
 ```csharp
-public Color Color { get; set; }
+public Argb32Color Color { get; set; }
 ```
 
 ### See Also
 
+* struct [Argb32Color](../../../groupdocs.viewer.drawing/argb32color)
 * class [Watermark](../../watermark)
 * namespace [GroupDocs.Viewer.Options](../../watermark)
 * assembly [GroupDocs.Viewer](../../../)

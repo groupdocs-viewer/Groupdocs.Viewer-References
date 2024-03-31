@@ -3,7 +3,7 @@ title: VIM
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Vim Settings File .vim
 type: docs
-weight: 1650
+weight: 1660
 url: /net/groupdocs.viewer/filetype/vim/
 ---
 ## FileType.VIM field

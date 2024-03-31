@@ -3,7 +3,7 @@ title: GroupDocs.Viewer.Options
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The namespace provides classes to specify additional options when rendering documents.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.viewer.options/
 ---
 The namespace provides classes to specify additional options when rendering documents.

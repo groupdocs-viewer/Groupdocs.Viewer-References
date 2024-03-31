@@ -3,7 +3,7 @@ title: GroupDocs.Viewer.Exceptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The namespace provides different exceptions classes.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.viewer.exceptions/
 ---
 The namespace provides different exceptions classes.
