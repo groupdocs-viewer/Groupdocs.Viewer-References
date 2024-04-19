@@ -20,6 +20,7 @@ API de visor de documentos multiformato para marcos .NET y Mono para representar
 Estos son enlaces a algunos recursos útiles:
 
 - [Referencia de API de GroupDocs.Viewer para .NET](/viewer/es/net/)
+- [Tutoriales de API de GroupDocs.Viewer para .NET](/tutorials/viewer/es/net/)
 
 
 ## GroupDocs.Viewer para Java

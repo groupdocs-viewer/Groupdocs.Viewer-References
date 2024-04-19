@@ -20,6 +20,7 @@ url: /ja/
 これらは、いくつかの有用なリソースへのリンクです。
 
 - [GroupDocs.Viewer for .NET API リファレンス](/viewer/ja/net/)
+- [.NET API チュートリアル用の GroupDocs.Viewer](/tutorials/viewer/ja/net/)
 
 
 ## GroupDocs.Viewer for Java

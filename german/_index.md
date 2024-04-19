@@ -20,6 +20,7 @@ Dokument-Viewer-API für mehrere Formate für .NET- und Mono-Frameworks zum Rend
 Dies sind Links zu einigen nützlichen Ressourcen:
 
 - [GroupDocs.Viewer für .NET-API-Referenz](/viewer/de/net/)
+- [GroupDocs.Viewer für .NET API-Tutorials](/tutorials/viewer/de/net/)
 
 
 ## GroupDocs.Viewer für Java

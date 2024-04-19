@@ -20,6 +20,7 @@ API penampil dokumen multi-format untuk kerangka kerja .NET dan Mono untuk meren
 Ini adalah tautan ke beberapa sumber daya yang bermanfaat:
 
 - [GroupDocs.Viewer untuk Referensi .NET API](/viewer/id/net/)
+- [GroupDocs.Viewer untuk Tutorial .NET API](/tutorials/viewer/id/net/)
 
 
 ## GroupDocs.Viewer untuk Java

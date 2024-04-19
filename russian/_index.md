@@ -20,6 +20,7 @@ url: /ru/
 Это ссылки на некоторые полезные ресурсы:
 
 - [Справочник по API GroupDocs.Viewer для .NET](/viewer/ru/net/)
+- [GroupDocs.Viewer для учебных пособий по .NET API](/tutorials/viewer/ru/net/)
 
 
 ## roupDocs.Viewer для Java
