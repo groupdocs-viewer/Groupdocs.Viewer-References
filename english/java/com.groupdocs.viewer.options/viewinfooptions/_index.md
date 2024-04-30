@@ -52,9 +52,11 @@ Example usage:
 | [forJpgView(boolean extractText)](#forJpgView-boolean-) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into JPG. |
 | [forPngView()](#forPngView--) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into PNG. |
 | [forPngView(boolean extractText)](#forPngView-boolean-) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into PNG. |
+| [forPdfView()](#forPdfView--) | Initializes a new instance of the ViewInfoOptions class to retrieve information about view when rendering into PDF. |
 | [fromHtmlViewOptions(HtmlViewOptions options)](#fromHtmlViewOptions-com.groupdocs.viewer.options.HtmlViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) object. |
 | [fromPngViewOptions(PngViewOptions options)](#fromPngViewOptions-com.groupdocs.viewer.options.PngViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [PngViewOptions](../../com.groupdocs.viewer.options/pngviewoptions) object. |
 | [fromJpgViewOptions(JpgViewOptions options)](#fromJpgViewOptions-com.groupdocs.viewer.options.JpgViewOptions-) | Initializes a new instance of the  ViewInfoOptions  class based on the [JpgViewOptions](../../com.groupdocs.viewer.options/jpgviewoptions) object. |
+| [fromPdfViewOptions(PdfViewOptions options)](#fromPdfViewOptions-com.groupdocs.viewer.options.PdfViewOptions-) | Initializes a new instance of the [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on a PdfViewOptions object. |
 ### isExtractText() {#isExtractText--}
 ```
 public boolean isExtractText()
@@ -247,6 +249,16 @@ Initializes a new instance of the  ViewInfoOptions  class to retrieve informatio
 
 **Returns:**
 [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
+### forPdfView() {#forPdfView--}
+```
+public static ViewInfoOptions forPdfView()
+```
+
+
+Initializes a new instance of the ViewInfoOptions class to retrieve information about view when rendering into PDF.
+
+**Returns:**
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - A new instance of the [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class.
 ### fromHtmlViewOptions(HtmlViewOptions options) {#fromHtmlViewOptions-com.groupdocs.viewer.options.HtmlViewOptions-}
 ```
 public static ViewInfoOptions fromHtmlViewOptions(HtmlViewOptions options)
@@ -292,3 +304,18 @@ Initializes a new instance of the  ViewInfoOptions  class based on the [JpgViewO
 
 **Returns:**
 [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - New instance of  ViewInfoOptions  class.
+### fromPdfViewOptions(PdfViewOptions options) {#fromPdfViewOptions-com.groupdocs.viewer.options.PdfViewOptions-}
+```
+public static ViewInfoOptions fromPdfViewOptions(PdfViewOptions options)
+```
+
+
+Initializes a new instance of the [ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) class based on a PdfViewOptions object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [PdfViewOptions](../../com.groupdocs.viewer.options/pdfviewoptions) | The PDF view options. |
+
+**Returns:**
+[ViewInfoOptions](../../com.groupdocs.viewer.options/viewinfooptions) - A new instance of the ViewInfoOptions class.
