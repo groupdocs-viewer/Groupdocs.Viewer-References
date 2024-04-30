@@ -34,7 +34,7 @@ public Viewer(Func<Stream> getFileStream)
 ### See Also
 
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -71,7 +71,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions)
 
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -107,7 +107,7 @@ public Viewer(Func<Stream> getFileStream, ViewerSettings settings)
 
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -147,7 +147,7 @@ public Viewer(Func<Stream> getFileStream, Func<LoadOptions> getLoadOptions, View
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -180,7 +180,7 @@ public Viewer(Stream stream)
 ### See Also
 
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -214,7 +214,7 @@ public Viewer(Stream stream, bool leaveOpen)
 ### See Also
 
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -251,7 +251,7 @@ public Viewer(Stream stream, LoadOptions loadOptions)
 
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -289,7 +289,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, bool leaveOpen)
 
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -325,7 +325,7 @@ public Viewer(Stream stream, ViewerSettings settings)
 
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -362,7 +362,7 @@ public Viewer(Stream stream, ViewerSettings settings, bool leaveOpen)
 
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -402,7 +402,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings)
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -443,7 +443,7 @@ public Viewer(Stream stream, LoadOptions loadOptions, ViewerSettings settings, b
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -476,7 +476,7 @@ public Viewer(string filePath)
 ### See Also
 
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -512,7 +512,7 @@ public Viewer(string filePath, ViewerSettings settings)
 
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -549,7 +549,7 @@ public Viewer(string filePath, LoadOptions loadOptions)
 
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
 ---
@@ -589,7 +589,7 @@ public Viewer(string filePath, LoadOptions loadOptions, ViewerSettings settings)
 * class [LoadOptions](../../../groupdocs.viewer.options/loadoptions)
 * class [ViewerSettings](../../viewersettings)
 * class [Viewer](../../viewer)
-* namespace [GroupDocs.Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.viewer.dll -->
