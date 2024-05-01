@@ -3,7 +3,7 @@ title: Permissions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Defines PDF document permissions.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.groupdocs.viewer.options/permissions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ProjectManagementOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering project management files.
 type: docs
-weight: 25
+weight: 26
 url: /java/com.groupdocs.viewer.options/projectmanagementoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PdfViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering documents into PDF format.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.viewer.options/pdfviewoptions/
 ---
 **Inheritance:**
@@ -151,7 +151,7 @@ This option is supported for any input file formats which are supported for conv
 [Supported document formats]: https://docs.groupdocs.com/viewer/net/supported-document-formats/
 
 **Returns:**
-com.groupdocs.viewer.options.PdfOptimizationOptions - PdfOptimizationOptions object or null.
+[PdfOptimizationOptions](../../com.groupdocs.viewer.options/pdfoptimizationoptions) - PdfOptimizationOptions object or null.
 ### setPdfOptimizationOptions(PdfOptimizationOptions pdfOptimizationOptions) {#setPdfOptimizationOptions-com.groupdocs.viewer.options.PdfOptimizationOptions-}
 ```
 public void setPdfOptimizationOptions(PdfOptimizationOptions pdfOptimizationOptions)
@@ -168,7 +168,7 @@ This option is supported for any input file formats which are supported for conv
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pdfOptimizationOptions | com.groupdocs.viewer.options.PdfOptimizationOptions | PdfOptimizationOptions object or null. |
+| pdfOptimizationOptions | [PdfOptimizationOptions](../../com.groupdocs.viewer.options/pdfoptimizationoptions) | PdfOptimizationOptions object or null. |
 
 ### getImageMaxWidth() {#getImageMaxWidth--}
 ```

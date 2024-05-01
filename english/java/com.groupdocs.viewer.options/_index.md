@@ -38,6 +38,7 @@ For more details on configuring the logging system in GroupDocs.Viewer and custo
 | [LoadOptions](../com.groupdocs.viewer.options/loadoptions) | Provides options that are used to open a file. |
 | [MailStorageOptions](../com.groupdocs.viewer.options/mailstorageoptions) | Provides options for rendering Mail storage (Lotus Notes, MBox) data files. |
 | [OutlookOptions](../com.groupdocs.viewer.options/outlookoptions) | Provides options for rendering Outlook data files. |
+| [PdfOptimizationOptions](../com.groupdocs.viewer.options/pdfoptimizationoptions) | Use this class to specify PDF optimization options to apply to the output PDF file. |
 | [PdfOptions](../com.groupdocs.viewer.options/pdfoptions) | Provides options for rendering PDF documents. |
 | [PdfViewOptions](../com.groupdocs.viewer.options/pdfviewoptions) | Provides options for rendering documents into PDF format. |
 | [Permissions](../com.groupdocs.viewer.options/permissions) | Defines PDF document permissions. |

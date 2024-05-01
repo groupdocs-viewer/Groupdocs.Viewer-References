@@ -3,7 +3,7 @@ title: IMaxSizeOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Limits of image size options interface.
 type: docs
-weight: 36
+weight: 37
 url: /java/com.groupdocs.viewer.options/imaxsizeoptions/
 ---```
 public interface IMaxSizeOptions

@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Viewer for Java API Reference
 description: Defines page rotation in degrees.
 type: docs
-weight: 41
+weight: 42
 url: /java/com.groupdocs.viewer.options/rotation/
 ---
 **Inheritance:**
