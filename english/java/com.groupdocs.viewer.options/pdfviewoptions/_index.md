@@ -3,7 +3,7 @@ title: PdfViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering documents into PDF format.
 type: docs
-weight: 22
+weight: 23
 url: /java/com.groupdocs.viewer.options/pdfviewoptions/
 ---
 **Inheritance:**
@@ -45,8 +45,8 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
-| [getJpgQuality()](#getJpgQuality--) | Retrieves the quality of the JPG images contained by the output PDF document. |
-| [setJpgQuality(int value)](#setJpgQuality-int-) | Sets the quality of the JPG images contained by the output PDF document. |
+| [getPdfOptimizationOptions()](#getPdfOptimizationOptions--) | Reduce output PDF file size applying optimization techniques with different options. |
+| [setPdfOptimizationOptions(PdfOptimizationOptions pdfOptimizationOptions)](#setPdfOptimizationOptions-com.groupdocs.viewer.options.PdfOptimizationOptions-) | Reduce output PDF file size applying optimization techniques with different options. |
 | [getImageMaxWidth()](#getImageMaxWidth--) | Retrieves the maximum width of an output image in pixels. |
 | [setImageMaxWidth(int imageMaxWidth)](#setImageMaxWidth-int-) | Sets the maximum width of an output image in pixels. |
 | [getImageMaxHeight()](#getImageMaxHeight--) | Retrieves the maximum height of an output image in pixels. |
@@ -57,8 +57,6 @@ Example usage:
 | [setImageHeight(int imageHeight)](#setImageHeight-int-) | Sets the height of the output image in pixels. |
 | [getSecurity()](#getSecurity--) | Retrieves the security options for the output PDF document. |
 | [setSecurity(Security value)](#setSecurity-com.groupdocs.viewer.options.Security-) | Sets the security options for the output PDF document. |
-| [isOptimize()](#isOptimize--) | Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques. |
-| [setOptimize(boolean optimize)](#setOptimize-boolean-) | Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques. |
 | [getDocumentSavingCallback()](#getDocumentSavingCallback--) | Retrieves the callback used to estimate the progress of saving a Words or Email document. |
 | [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | Sets the callback used to estimate the progress of saving a Words or Email document. |
 ### PdfViewOptions(CreateFileStream createFileStream) {#PdfViewOptions-com.groupdocs.viewer.interfaces.CreateFileStream-}
@@ -139,32 +137,38 @@ Initializes a new instance of the  PdfViewOptions  class.
 | --- | --- | --- |
 | outputFilePath | java.nio.file.Path | The path for the output PDF file. |
 
-### getJpgQuality() {#getJpgQuality--}
+### getPdfOptimizationOptions() {#getPdfOptimizationOptions--}
 ```
-public final int getJpgQuality()
+public PdfOptimizationOptions getPdfOptimizationOptions()
 ```
 
 
-Retrieves the quality of the JPG images contained by the output PDF document. The JPG quality determines the level of compression applied to the images in the PDF document.
+Reduce output PDF file size applying optimization techniques with different options.
 
-***Note:** Valid values range from 1 to 100, where 1 represents the lowest quality and 100 represents the highest quality.*
+This option is supported for any input file formats which are supported for conversion to PDF: [Supported document formats][]
+
+
+[Supported document formats]: https://docs.groupdocs.com/viewer/net/supported-document-formats/
 
 **Returns:**
-int - the quality of the JPG images in the output PDF document.
-### setJpgQuality(int value) {#setJpgQuality-int-}
+[PdfOptimizationOptions](../../com.groupdocs.viewer.options/pdfoptimizationoptions) - PdfOptimizationOptions object or null.
+### setPdfOptimizationOptions(PdfOptimizationOptions pdfOptimizationOptions) {#setPdfOptimizationOptions-com.groupdocs.viewer.options.PdfOptimizationOptions-}
 ```
-public final void setJpgQuality(int value)
+public void setPdfOptimizationOptions(PdfOptimizationOptions pdfOptimizationOptions)
 ```
 
 
-Sets the quality of the JPG images contained by the output PDF document. The JPG quality determines the level of compression applied to the images in the PDF document.
+Reduce output PDF file size applying optimization techniques with different options.
 
-***Note:** Valid values range from 1 to 100, where 1 represents the lowest quality and 100 represents the highest quality.*
+This option is supported for any input file formats which are supported for conversion to PDF: [Supported document formats][]
+
+
+[Supported document formats]: https://docs.groupdocs.com/viewer/net/supported-document-formats/
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The quality of the JPG images in the output PDF document. |
+| pdfOptimizationOptions | [PdfOptimizationOptions](../../com.groupdocs.viewer.options/pdfoptimizationoptions) | PdfOptimizationOptions object or null. |
 
 ### getImageMaxWidth() {#getImageMaxWidth--}
 ```
@@ -280,71 +284,6 @@ Sets the security options for the output PDF document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Security](../../com.groupdocs.viewer.options/security) | The security options for the output PDF document. |
-
-### isOptimize() {#isOptimize--}
-```
-public boolean isOptimize()
-```
-
-
-Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques.
-
-In version 24.2 this option is supported for [Spreadsheet file formats][] only.
-
-Learn more how to export Excel and Apple Numbers spreadsheets to PDF
-
- *  [Render spreadsheets as PDF][]
-
-**Example:**
-
-```
-try (Viewer viewer = new Viewer("employees.xlsx")) {
-     PdfViewOptions viewOptions = new PdfViewOptions();
-     viewOptions.setOptimize(true);
-
-     viewer.view(viewOptions);
- }
-```
-
-
-[Spreadsheet file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#spreadsheet-file-formats
-[Render spreadsheets as PDF]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#render-spreadsheets-as-pdf
-
-**Returns:**
-boolean
-### setOptimize(boolean optimize) {#setOptimize-boolean-}
-```
-public void setOptimize(boolean optimize)
-```
-
-
-Reduce output file size by excluding common fonts like Times New Roman and Arial, and applying other optimization techniques.
-
-In version 24.2 this option is supported for [Spreadsheet file formats][] only.
-
-Learn more how to export Excel and Apple Numbers spreadsheets to PDF
-
- *  [Render spreadsheets as PDF][]
-
-**Example:**
-
-```
-try (Viewer viewer = new Viewer("employees.xlsx")) {
-     PdfViewOptions viewOptions = new PdfViewOptions();
-     viewOptions.setOptimize(true);
-
-     viewer.view(viewOptions);
- }
-```
-
-
-[Spreadsheet file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#spreadsheet-file-formats
-[Render spreadsheets as PDF]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#render-spreadsheets-as-pdf
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| optimize | boolean |  |
 
 ### getDocumentSavingCallback() {#getDocumentSavingCallback--}
 ```

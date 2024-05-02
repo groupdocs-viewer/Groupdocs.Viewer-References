@@ -38,6 +38,7 @@ Example usage:
 | [setLicense(Path licensePath)](#setLicense-java.nio.file.Path-) | Licenses the component. |
 | [setLicense(String licensePath)](#setLicense-java.lang.String-) | Licenses the component. |
 | [setLicense(URL licenseUri)](#setLicense-java.net.URL-) | Licenses the component. |
+| [isLicensed()](#isLicensed--) |  |
 ### License() {#License--}
 ```
 public License()
@@ -140,3 +141,13 @@ This method should be called before using any functionality.
 | --- | --- | --- |
 | licenseUri | java.net.URL | The license URI. |
 
+### isLicensed() {#isLicensed--}
+```
+public final boolean isLicensed()
+```
+
+
+
+
+**Returns:**
+boolean

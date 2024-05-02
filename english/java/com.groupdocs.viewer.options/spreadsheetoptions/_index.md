@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering spreadsheets.
 type: docs
-weight: 28
+weight: 29
 url: /java/com.groupdocs.viewer.options/spreadsheetoptions/
 ---
 **Inheritance:**
