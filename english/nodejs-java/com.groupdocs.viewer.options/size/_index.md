@@ -3,7 +3,7 @@ title: Size
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Watermark size.
 type: docs
-weight: 27
+weight: 28
 url: /nodejs-java/com.groupdocs.viewer.options/size/
 ---
 **Inheritance:**

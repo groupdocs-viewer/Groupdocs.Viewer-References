@@ -3,7 +3,7 @@ title: PngViewOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Provides options for rendering documents into PNG format.
 type: docs
-weight: 24
+weight: 25
 url: /nodejs-java/com.groupdocs.viewer.options/pngviewoptions/
 ---
 **Inheritance:**

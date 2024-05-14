@@ -3,7 +3,7 @@ title: ViewOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Provides rendering options.
 type: docs
-weight: 32
+weight: 33
 url: /nodejs-java/com.groupdocs.viewer.options/viewoptions/
 ---
 **Inheritance:**
