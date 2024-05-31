@@ -3,7 +3,7 @@ title: WhitelistedResources
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The list of URL fragments corresponding to external resources that should be loaded when SkipExternalResourcesgroupdocs.viewer.options/loadoptions/skipexternalresources is set to true.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.viewer.options/loadoptions/whitelistedresources/
 ---
 ## LoadOptions.WhitelistedResources property

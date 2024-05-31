@@ -20,7 +20,7 @@ public static Image2DFormat ParseFromFilenameWithExtension(string filename)
 
 ### Return Value
 
-ImageFormat value. Returns ImageFormat.Undefined, if extension cannot be recognized.
+ImageFormat value. Returns [`Undefined`](../undefined), if extension cannot be recognized.
 
 ### See Also
 

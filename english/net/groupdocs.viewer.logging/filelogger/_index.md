@@ -3,7 +3,7 @@ title: FileLogger
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Writes log messages to the file.
 type: docs
-weight: 320
+weight: 340
 url: /net/groupdocs.viewer.logging/filelogger/
 ---
 ## FileLogger class

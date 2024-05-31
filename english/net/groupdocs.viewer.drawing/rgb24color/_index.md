@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.drawing/rgb24color/
 Represents 24-bit color in RGB format, with 8 bits per every channel (Red, Green, Blue). Does not support transparency.
 
 ```csharp
-public struct Rgb24Color : IEquatable<Rgb24Color>
+public struct Rgb24Color : IEquatable<Argb32Color>, IEquatable<Rgb24Color>
 ```
 
 ## Properties
@@ -28,8 +28,9 @@ public struct Rgb24Color : IEquatable<Rgb24Color>
 | Name | Description |
 | --- | --- |
 | static [FromRgb](../../groupdocs.viewer.drawing/rgb24color/fromrgb)(byte, byte, byte) | Creates one [`Rgb24Color`](../rgb24color) value from specified Red, Green, Blue channels |
-| override [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals_1)(object) | Tests if another object is equal to this [`Rgb24Color`](../rgb24color) instance. |
-| [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals)(Rgb24Color) | Checks two [`Rgb24Color`](../rgb24color) colors for equality |
+| [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals)(Argb32Color) | Checks this color with specified [`Argb32Color`](../argb32color) color for equality |
+| override [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals_2)(object) | Tests if another object is equal to this [`Rgb24Color`](../rgb24color) instance. |
+| [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals_1)(Rgb24Color) | Checks this color with specified [`Rgb24Color`](../rgb24color) color for equality |
 | [GetBrightness](../../groupdocs.viewer.drawing/rgb24color/getbrightness)() | Returns the Hue-Saturation-Lightness (HSL) lightness/brightness for this [`Rgb24Color`](../rgb24color) instance. |
 | override [GetHashCode](../../groupdocs.viewer.drawing/rgb24color/gethashcode)() | Returns a hash code that defines the current color. Not compatible with GetHashCode |
 | [GetHue](../../groupdocs.viewer.drawing/rgb24color/gethue)() | Returns the Hue-Saturation-Lightness (HSL) hue value, in degrees, for this [`Rgb24Color`](../rgb24color) instance. If R == G == B, the hue is meaningless, and the return value is 0. |
@@ -38,8 +39,8 @@ public struct Rgb24Color : IEquatable<Rgb24Color>
 | [ToHex](../../groupdocs.viewer.drawing/rgb24color/tohex)() | Returns this color in hexadecimal string representation |
 | [ToRGB](../../groupdocs.viewer.drawing/rgb24color/torgb)() | Serializes this [`Rgb24Color`](../rgb24color) instance to the 'rgb' CSS function notation. |
 | override [ToString](../../groupdocs.viewer.drawing/rgb24color/tostring)() | Serializes this [`Rgb24Color`](../rgb24color) instance to 'rgb(r, g, b)' format |
-| [operator ==](../../groupdocs.viewer.drawing/rgb24color/op_equality) | Compares two colors and returns a boolean indicating if the two do match. |
-| [operator !=](../../groupdocs.viewer.drawing/rgb24color/op_inequality) | Compares two colors and returns a boolean indicating if the two do not match. |
+| [operator ==](../../groupdocs.viewer.drawing/rgb24color/op_equality#op_equality_1) | Compares two [`Rgb24Color`](../rgb24color) colors and returns a boolean indicating if the two do match. (2 operators) |
+| [operator !=](../../groupdocs.viewer.drawing/rgb24color/op_inequality#op_inequality_1) | Compares two [`Rgb24Color`](../rgb24color) colors and returns a boolean indicating if the two do not match. (2 operators) |
 
 ## Other Members
 
@@ -53,6 +54,7 @@ This type is designed to be useful for (but not limited to) CSS operations. See 
 
 ### See Also
 
+* struct [Argb32Color](../argb32color)
 * namespace [GroupDocs.Viewer.Drawing](../../groupdocs.viewer.drawing)
 * assembly [GroupDocs.Viewer](../../)
 

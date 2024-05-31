@@ -1,14 +1,14 @@
 ---
 title: ParseFromMime
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Returns ImageFormat value which is equivalent of specified MIME code
+description: Returns Image2DFormatgroupdocs.viewer.drawing/image2dformat value which is equivalent of specified MIME code
 type: docs
 weight: 120
 url: /net/groupdocs.viewer.drawing/image2dformat/parsefrommime/
 ---
 ## Image2DFormat.ParseFromMime method
 
-Returns ImageFormat value, which is equivalent of specified MIME code
+Returns [`Image2DFormat`](../../image2dformat) value, which is equivalent of specified MIME code
 
 ```csharp
 public static Image2DFormat ParseFromMime(string mimeCode)
@@ -20,7 +20,7 @@ public static Image2DFormat ParseFromMime(string mimeCode)
 
 ### Return Value
 
-ImageFormat value. Returns ImageFormat.Undefined, if extension cannot be recognized.
+[`Image2DFormat`](../../image2dformat) value. Returns [`Undefined`](../undefined), if extension cannot be recognized.
 
 ### See Also
 

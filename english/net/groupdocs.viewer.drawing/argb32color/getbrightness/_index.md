@@ -3,7 +3,7 @@ title: GetBrightness
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns the HueSaturationLightness HSL lightness/brightness for this Argb32Colorgroupdocs.viewer.drawing/argb32color instance.
 type: docs
-weight: 190
+weight: 180
 url: /net/groupdocs.viewer.drawing/argb32color/getbrightness/
 ---
 ## Argb32Color.GetBrightness method

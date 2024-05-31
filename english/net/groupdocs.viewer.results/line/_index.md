@@ -3,7 +3,7 @@ title: Line
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents relatively positioned rectangle which contains single line.
 type: docs
-weight: 790
+weight: 810
 url: /net/groupdocs.viewer.results/line/
 ---
 ## Line class

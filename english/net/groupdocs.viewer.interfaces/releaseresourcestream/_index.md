@@ -3,7 +3,7 @@ title: ReleaseResourceStream
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Releases stream which was instantiated by the method associated with CreateResourceStream./createresourcestream delegate.
 type: docs
-weight: 290
+weight: 310
 url: /net/groupdocs.viewer.interfaces/releaseresourcestream/
 ---
 ## ReleaseResourceStream delegate

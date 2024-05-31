@@ -3,7 +3,7 @@ title: CadViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for CAD drawing.
 type: docs
-weight: 740
+weight: 760
 url: /net/groupdocs.viewer.results/cadviewinfo/
 ---
 ## CadViewInfo class

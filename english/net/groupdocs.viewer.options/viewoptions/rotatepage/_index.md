@@ -16,14 +16,14 @@ public void RotatePage(int pageNumber, Rotation rotation)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageNumber | Int32 | The page number. |
+| pageNumber | Int32 | The page number, must be strictly greater than 0 |
 | rotation | Rotation | The rotation value. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Thrown when *pageNumber* is less or equal to zero. |
+| ArgumentOutOfRangeException | Thrown when *pageNumber* is less or equal to zero. |
 | ArgumentException | Thrown when rotation for the page with number *pageNumber* was already added. |
 
 ### Remarks

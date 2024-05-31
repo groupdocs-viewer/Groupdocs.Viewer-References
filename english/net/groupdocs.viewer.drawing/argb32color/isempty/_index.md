@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Indicates whether this Argb32Colorgroupdocs.viewer.drawing/argb32color color instance is uninitialized  all 4 channels are set to 0. Same as Default and Transparent. Same as IsDefaultgroupdocs.viewer.drawing/argb32color/isdefault
+description: Indicates whether this Argb32Colorgroupdocs.viewer.drawing/argb32color color instance is uninitialized  all 4 channels are set to 0. Same as Default and Transparent. Same as IsDefault
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.viewer.drawing/argb32color/isempty/
 ---
 ## Argb32Color.IsEmpty property
 
-Indicates whether this [`Argb32Color`](../../argb32color) color instance is uninitialized - all 4 channels are set to 0. Same as Default and Transparent. Same as [`IsDefault`](../isdefault)
+Indicates whether this [`Argb32Color`](../../argb32color) color instance is uninitialized - all 4 channels are set to 0. Same as Default and Transparent. Same as IsDefault
 
 ```csharp
 public bool IsEmpty { get; }

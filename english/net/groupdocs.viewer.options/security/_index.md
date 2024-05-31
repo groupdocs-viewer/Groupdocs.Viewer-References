@@ -3,7 +3,7 @@ title: Security
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains the PDF document security options. For details see the documentationhttps//docs.groupdocs.com/viewer/net/protectpdfdocuments/.
 type: docs
-weight: 590
+weight: 610
 url: /net/groupdocs.viewer.options/security/
 ---
 ## Security class

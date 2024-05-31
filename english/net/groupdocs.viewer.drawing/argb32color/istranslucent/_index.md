@@ -3,7 +3,7 @@ title: IsTranslucent
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Indicates whether this Argb32Colorgroupdocs.viewer.drawing/argb32color instance is translucent not fully transparent but also not fully opaque
 type: docs
-weight: 150
+weight: 140
 url: /net/groupdocs.viewer.drawing/argb32color/istranslucent/
 ---
 ## Argb32Color.IsTranslucent property

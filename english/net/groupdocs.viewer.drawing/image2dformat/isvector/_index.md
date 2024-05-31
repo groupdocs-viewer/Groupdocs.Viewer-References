@@ -8,7 +8,7 @@ url: /net/groupdocs.viewer.drawing/image2dformat/isvector/
 ---
 ## Image2DFormat.IsVector property
 
-Indicates whether this particular format is vector (true) or raster (false)
+Indicates whether this particular format is vector (`true`) or raster (`false`)
 
 ```csharp
 public bool IsVector { get; }

@@ -3,7 +3,7 @@ title: GetSaturation
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The HueSaturationLightness HSL saturation for this Argb32Colorgroupdocs.viewer.drawing/argb32color instance
 type: docs
-weight: 220
+weight: 210
 url: /net/groupdocs.viewer.drawing/argb32color/getsaturation/
 ---
 ## Argb32Color.GetSaturation method
