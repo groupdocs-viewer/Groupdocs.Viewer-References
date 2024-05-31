@@ -3,7 +3,7 @@ title: op_Implicit
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Implicitly casts the 24bit Rgb24Colorgroupdocs.viewer.drawing/rgb24color to 32bit Argb32Colorgroupdocs.viewer.drawing/argb32color. Alpha channel of the output Argb32Colorgroupdocs.viewer.drawing/argb32color will be set to 255  fully opaque.
 type: docs
-weight: 290
+weight: 280
 url: /net/groupdocs.viewer.drawing/argb32color/op_implicit/
 ---
 ## Argb32Color Implicit operator

@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options that used to open the file. For details see this pagehttps//docs.groupdocs.com/viewer/net/loading/ and its children.
 type: docs
-weight: 450
+weight: 470
 url: /net/groupdocs.viewer.options/loadoptions/
 ---
 ## LoadOptions class
@@ -31,6 +31,7 @@ public class LoadOptions
 | [Password](../../groupdocs.viewer.options/loadoptions/password) { get; set; } | Sets the password to open encrypted file. |
 | [ResourceLoadingTimeout](../../groupdocs.viewer.options/loadoptions/resourceloadingtimeout) { get; set; } | Sets the timeout to load external resources. |
 | [SkipExternalResources](../../groupdocs.viewer.options/loadoptions/skipexternalresources) { get; set; } | Disables loading of all external resource such as images except [`WhitelistedResources`](./whitelistedresources). |
+| [TryRepair](../../groupdocs.viewer.options/loadoptions/tryrepair) { get; set; } | When enabled GroupDocs.Viewer tries to repair structural corruption in PDF documents. Default value is `false`. |
 | [WhitelistedResources](../../groupdocs.viewer.options/loadoptions/whitelistedresources) { get; set; } | The list of URL fragments corresponding to external resources that should be loaded when [`SkipExternalResources`](./skipexternalresources) is set to `true`. |
 
 ### See Also

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Determines whether this instance is equal with specified ImageFormat instance
+description: Determines whether this instance is equal with specified Image2DFormatgroupdocs.viewer.drawing/image2dformat instance
 type: docs
 weight: 170
 url: /net/groupdocs.viewer.drawing/image2dformat/equals/
 ---
 ## Equals(Image2DFormat) {#equals}
 
-Determines whether this instance is equal with specified "ImageFormat" instance
+Determines whether this instance is equal with specified "[`Image2DFormat`](../../image2dformat)" instance
 
 ```csharp
 public bool Equals(Image2DFormat other)
@@ -16,7 +16,7 @@ public bool Equals(Image2DFormat other)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | Image2DFormat | Other ImageFormat instance to check on equality with this |
+| other | Image2DFormat | Other [`Image2DFormat`](../../image2dformat) instance to check on equality with this |
 
 ### Return Value
 
@@ -32,7 +32,7 @@ True if are equal, false if are unequal
 
 ## Equals(object) {#equals_1}
 
-Determines whether this instance is equal with specified uncasted object, which presumably is another "ImageFormat" instance
+Determines whether this instance is equal with specified uncasted object, which presumably is another "[`Image2DFormat`](../../image2dformat)" instance
 
 ```csharp
 public override bool Equals(object obj)
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | Object | Other System.Object instance, that is presumably of ImageFormat type, to check on equality with this |
+| obj | Object | Other System.Object instance, that is presumably of [`Image2DFormat`](../../image2dformat) type, to check on equality with this |
 
 ### Return Value
 

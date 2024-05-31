@@ -3,7 +3,7 @@ title: Value
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Gets the Int32 value of the color as 32bit signed integer
 type: docs
-weight: 170
+weight: 160
 url: /net/groupdocs.viewer.drawing/argb32color/value/
 ---
 ## Argb32Color.Value property

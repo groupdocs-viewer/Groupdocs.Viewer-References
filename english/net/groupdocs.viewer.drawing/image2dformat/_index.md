@@ -28,8 +28,8 @@ public struct Image2DFormat : IEquatable<Image2DFormat>
 | static [Tiff](../../groupdocs.viewer.drawing/image2dformat/tiff) { get; } | TIFF (Tagged Image File Format) raster image type |
 | static [Undefined](../../groupdocs.viewer.drawing/image2dformat/undefined) { get; } | Undefined image type - special value, which should not normally occur |
 | static [Wmf](../../groupdocs.viewer.drawing/image2dformat/wmf) { get; } | WMF (Windows MetaFile) vector image type |
-| [FileExtension](../../groupdocs.viewer.drawing/image2dformat/fileextension) { get; } | File extension (without leading dot character) of a particular image type in lower case. For the Undefined type returns a string 'unsefined'. |
-| [IsVector](../../groupdocs.viewer.drawing/image2dformat/isvector) { get; } | Indicates whether this particular format is vector (true) or raster (false) |
+| [FileExtension](../../groupdocs.viewer.drawing/image2dformat/fileextension) { get; } | File extension (without leading dot character) of a particular image type in lower case. For the [`Undefined`](./undefined) value returns a string 'undefined'. |
+| [IsVector](../../groupdocs.viewer.drawing/image2dformat/isvector) { get; } | Indicates whether this particular format is vector (`true`) or raster (`false`) |
 | [MimeCode](../../groupdocs.viewer.drawing/image2dformat/mimecode) { get; } | MIME code of a particular image type as a string. For the Undefined type returns a string 'unsefined'. |
 | [Name](../../groupdocs.viewer.drawing/image2dformat/name) { get; } | Returns a formal name of this image format. Never reurns NULL. If instance is not corrupted, never throws an exception. |
 
@@ -38,13 +38,13 @@ public struct Image2DFormat : IEquatable<Image2DFormat>
 | Name | Description |
 | --- | --- |
 | static [ParseFromFilenameWithExtension](../../groupdocs.viewer.drawing/image2dformat/parsefromfilenamewithextension)(string) | Returns ImageFormat value, which is equivalent of filename extension, which is extracted from specified filename |
-| static [ParseFromMime](../../groupdocs.viewer.drawing/image2dformat/parsefrommime)(string) | Returns ImageFormat value, which is equivalent of specified MIME code |
-| [Equals](../../groupdocs.viewer.drawing/image2dformat/equals#equals)(Image2DFormat) | Determines whether this instance is equal with specified "ImageFormat" instance |
-| override [Equals](../../groupdocs.viewer.drawing/image2dformat/equals#equals_1)(object) | Determines whether this instance is equal with specified uncasted object, which presumably is another "ImageFormat" instance |
+| static [ParseFromMime](../../groupdocs.viewer.drawing/image2dformat/parsefrommime)(string) | Returns [`Image2DFormat`](../image2dformat) value, which is equivalent of specified MIME code |
+| [Equals](../../groupdocs.viewer.drawing/image2dformat/equals#equals)(Image2DFormat) | Determines whether this instance is equal with specified "[`Image2DFormat`](../image2dformat)" instance |
+| override [Equals](../../groupdocs.viewer.drawing/image2dformat/equals#equals_1)(object) | Determines whether this instance is equal with specified uncasted object, which presumably is another "[`Image2DFormat`](../image2dformat)" instance |
 | override [GetHashCode](../../groupdocs.viewer.drawing/image2dformat/gethashcode)() | Returns a hash-code, which is an immutable number for this specific instance |
 | override [ToString](../../groupdocs.viewer.drawing/image2dformat/tostring)() | Returns a [`Name`](./name) property |
-| [operator ==](../../groupdocs.viewer.drawing/image2dformat/op_equality) | Defines whether two specific ImageFormat instances are equal |
-| [operator !=](../../groupdocs.viewer.drawing/image2dformat/op_inequality) | Defines whether two specific ImageFormat instances are not equal |
+| [operator ==](../../groupdocs.viewer.drawing/image2dformat/op_equality) | Defines whether two specific [`Image2DFormat`](../image2dformat) instances are equal |
+| [operator !=](../../groupdocs.viewer.drawing/image2dformat/op_inequality) | Defines whether two specific [`Image2DFormat`](../image2dformat) instances are not equal |
 
 ### See Also
 

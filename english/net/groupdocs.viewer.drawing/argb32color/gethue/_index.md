@@ -3,7 +3,7 @@ title: GetHue
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns the HueSaturationLightness HSL hue value in degrees for this Argb32Colorgroupdocs.viewer.drawing/argb32color instance. If R  G  B the hue is meaningless and the return value is 0.
 type: docs
-weight: 210
+weight: 200
 url: /net/groupdocs.viewer.drawing/argb32color/gethue/
 ---
 ## Argb32Color.GetHue method

@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Defines whether two specific ImageFormat instances are equal
+description: Defines whether two specific Image2DFormatgroupdocs.viewer.drawing/image2dformat instances are equal
 type: docs
 weight: 200
 url: /net/groupdocs.viewer.drawing/image2dformat/op_equality/
 ---
 ## Image2DFormat Equality operator
 
-Defines whether two specific ImageFormat instances are equal
+Defines whether two specific [`Image2DFormat`](../../image2dformat) instances are equal
 
 ```csharp
 public static bool operator ==(Image2DFormat first, Image2DFormat second)
@@ -16,8 +16,8 @@ public static bool operator ==(Image2DFormat first, Image2DFormat second)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| first | Image2DFormat | First ImageFormat instance to check |
-| second | Image2DFormat | Second ImageFormat instance to check |
+| first | Image2DFormat | First [`Image2DFormat`](../../image2dformat) instance to check |
+| second | Image2DFormat | Second [`Image2DFormat`](../../image2dformat) instance to check |
 
 ### Return Value
 

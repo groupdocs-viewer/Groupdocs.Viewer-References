@@ -3,7 +3,7 @@ title: FileType
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Viewer.
 type: docs
-weight: 150
+weight: 170
 url: /net/groupdocs.viewer/filetype/
 ---
 ## FileType class

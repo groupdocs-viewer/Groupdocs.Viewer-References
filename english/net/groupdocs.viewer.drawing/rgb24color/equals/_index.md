@@ -1,14 +1,39 @@
 ---
 title: Equals
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Checks two Rgb24Colorgroupdocs.viewer.drawing/rgb24color colors for equality
+description: Checks this color with specified Argb32Colorgroupdocs.viewer.drawing/argb32color color for equality
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.drawing/rgb24color/equals/
 ---
-## Equals(Rgb24Color) {#equals}
+## Equals(Argb32Color) {#equals}
 
-Checks two [`Rgb24Color`](../../rgb24color) colors for equality
+Checks this color with specified [`Argb32Color`](../../argb32color) color for equality
+
+```csharp
+public bool Equals(Argb32Color other)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| other | Argb32Color | The other [`Argb32Color`](../../argb32color) color |
+
+### Return Value
+
+True if both colors or equal, otherwise false.
+
+### See Also
+
+* struct [Argb32Color](../../argb32color)
+* struct [Rgb24Color](../../rgb24color)
+* namespace [GroupDocs.Viewer.Drawing](../../../groupdocs.viewer.drawing)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Equals(Rgb24Color) {#equals_1}
+
+Checks this color with specified [`Rgb24Color`](../../rgb24color) color for equality
 
 ```csharp
 public bool Equals(Rgb24Color other)
@@ -30,7 +55,7 @@ True if both colors or equal, otherwise false.
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(object) {#equals_2}
 
 Tests if another object is equal to this [`Rgb24Color`](../../rgb24color) instance.
 

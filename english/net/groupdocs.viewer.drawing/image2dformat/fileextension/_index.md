@@ -1,14 +1,14 @@
 ---
 title: FileExtension
 second_title: GroupDocs.Viewer for .NET API Reference
-description: File extension without leading dot character of a particular image type in lower case. For the Undefined type returns a string unsefined.
+description: File extension without leading dot character of a particular image type in lower case. For the Undefinedgroupdocs.viewer.drawing/image2dformat/undefined value returns a string undefined.
 type: docs
 weight: 130
 url: /net/groupdocs.viewer.drawing/image2dformat/fileextension/
 ---
 ## Image2DFormat.FileExtension property
 
-File extension (without leading dot character) of a particular image type in lower case. For the Undefined type returns a string 'unsefined'.
+File extension (without leading dot character) of a particular image type in lower case. For the [`Undefined`](../undefined) value returns a string 'undefined'.
 
 ```csharp
 public string FileExtension { get; }

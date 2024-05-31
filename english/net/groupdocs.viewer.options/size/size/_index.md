@@ -22,7 +22,7 @@ public Size(byte relativeSize)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Thrown when *relativeSize* is zero or higher than 100. |
+| ArgumentOutOfRangeException | Thrown when *relativeSize* is zero or higher than 100. |
 
 ### See Also
 

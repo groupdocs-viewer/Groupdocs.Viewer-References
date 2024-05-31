@@ -3,7 +3,7 @@ title: PresentationOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering presentations. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderpresentations/.
 type: docs
-weight: 550
+weight: 570
 url: /net/groupdocs.viewer.options/presentationoptions/
 ---
 ## PresentationOptions class
@@ -24,6 +24,7 @@ public class PresentationOptions
 
 | Name | Description |
 | --- | --- |
+| [RenderToPureHtml](../../groupdocs.viewer.options/presentationoptions/rendertopurehtml) { get; set; } | Enables a new HTML rendering mode for the Presentation documents — in this mode the Presentation files are rendered to **pure HTML/CSS markup**, without SVG images. By default is disabled (`false`) — existing SVG-based HTML-renderer is used. |
 | [Resolution](../../groupdocs.viewer.options/presentationoptions/resolution) { get; set; } | Resolution of the presentation images (for rendering to HTML/PDF only). |
 
 ### See Also

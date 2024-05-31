@@ -3,7 +3,7 @@ title: PasswordRequiredException
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The exception that is thrown when password is required to load the document.
 type: docs
-weight: 140
+weight: 160
 url: /net/groupdocs.viewer.exceptions/passwordrequiredexception/
 ---
 ## PasswordRequiredException class

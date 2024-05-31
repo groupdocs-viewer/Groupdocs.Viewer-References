@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides methods for applying Meteredhttps//purchase.groupdocs.com/faqs/licensing/metered license.
 type: docs
-weight: 340
+weight: 360
 url: /net/groupdocs.viewer/metered/
 ---
 ## Metered class

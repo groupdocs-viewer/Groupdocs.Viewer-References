@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.drawing/argb32color/
 Represents 32-bit color in ARGB format, with 8 bits per every channel (Alpha, Red, Green, Blue). Supports transparency.
 
 ```csharp
-public struct Argb32Color : IEquatable<Argb32Color>
+public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable<Rgb24Color>
 ```
 
 ## Properties
@@ -22,8 +22,7 @@ public struct Argb32Color : IEquatable<Argb32Color>
 | [Alpha](../../groupdocs.viewer.drawing/argb32color/alpha) { get; } | Gets the alpha part of the color in percent in (0..1) range. |
 | [B](../../groupdocs.viewer.drawing/argb32color/b) { get; } | Gets the blue part of the color as 8-bit unsigned integer [0..255] |
 | [G](../../groupdocs.viewer.drawing/argb32color/g) { get; } | Gets the green part of the color as 8-bit unsigned integer [0..255] |
-| [IsDefault](../../groupdocs.viewer.drawing/argb32color/isdefault) { get; } | Indicates whether this [`Argb32Color`](../argb32color) instance is default (Transparent) - all 4 channels are set to 0. Same as [`IsEmpty`](./isempty) |
-| [IsEmpty](../../groupdocs.viewer.drawing/argb32color/isempty) { get; } | Indicates whether this [`Argb32Color`](../argb32color) color instance is uninitialized - all 4 channels are set to 0. Same as Default and Transparent. Same as [`IsDefault`](./isdefault) |
+| [IsEmpty](../../groupdocs.viewer.drawing/argb32color/isempty) { get; } | Indicates whether this [`Argb32Color`](../argb32color) color instance is uninitialized - all 4 channels are set to 0. Same as Default and Transparent. Same as IsDefault |
 | [IsFullyOpaque](../../groupdocs.viewer.drawing/argb32color/isfullyopaque) { get; } | Indicates whether this [`Argb32Color`](../argb32color) instance is fully opaque, without transparency (its Alpha channel has max value) |
 | [IsFullyTransparent](../../groupdocs.viewer.drawing/argb32color/isfullytransparent) { get; } | Indicates whether this [`Argb32Color`](../argb32color) instance is fully transparent - its Alpha channel has the min (0) value, so other R, G, and B channels has no visible effect. |
 | [IsTranslucent](../../groupdocs.viewer.drawing/argb32color/istranslucent) { get; } | Indicates whether this [`Argb32Color`](../argb32color) instance is translucent (not fully transparent, but also not fully opaque) |
@@ -39,8 +38,9 @@ public struct Argb32Color : IEquatable<Argb32Color>
 | static [FromRgb](../../groupdocs.viewer.drawing/argb32color/fromrgb)(byte, byte, byte) | Creates one [`Argb32Color`](../argb32color) value from specified Red, Green, Blue channels, while Alpha channel is fully opaque |
 | static [FromRgba](../../groupdocs.viewer.drawing/argb32color/fromrgba)(byte, byte, byte, byte) | Creates one [`Argb32Color`](../argb32color) value from specified Red, Green, Blue, and Alpha channels |
 | static [FromSingleValueRgb](../../groupdocs.viewer.drawing/argb32color/fromsinglevaluergb)(byte) | Creates a fully opaque (A=255) color from single value, which will be applied to all channels |
-| [Equals](../../groupdocs.viewer.drawing/argb32color/equals#equals)(Argb32Color) | Checks two [`Argb32Color`](../argb32color) colors for equality |
-| override [Equals](../../groupdocs.viewer.drawing/argb32color/equals#equals_1)(object) | Tests if another object is equal to this [`Argb32Color`](../argb32color) instance. |
+| [Equals](../../groupdocs.viewer.drawing/argb32color/equals#equals)(Argb32Color) | Checks this color with specified [`Argb32Color`](../argb32color) color for equality |
+| override [Equals](../../groupdocs.viewer.drawing/argb32color/equals#equals_2)(object) | Tests if another object is equal to this [`Argb32Color`](../argb32color) instance. |
+| [Equals](../../groupdocs.viewer.drawing/argb32color/equals#equals_1)(Rgb24Color) | Checks this color with specified [`Rgb24Color`](../rgb24color) color for equality |
 | [GetBrightness](../../groupdocs.viewer.drawing/argb32color/getbrightness)() | Returns the Hue-Saturation-Lightness (HSL) lightness/brightness for this [`Argb32Color`](../argb32color) instance. |
 | override [GetHashCode](../../groupdocs.viewer.drawing/argb32color/gethashcode)() | Returns a hash code that defines the current color. Not compatible with GetHashCode |
 | [GetHue](../../groupdocs.viewer.drawing/argb32color/gethue)() | Returns the Hue-Saturation-Lightness (HSL) hue value, in degrees, for this [`Argb32Color`](../argb32color) instance. If R == G == B, the hue is meaningless, and the return value is 0. |
@@ -49,10 +49,10 @@ public struct Argb32Color : IEquatable<Argb32Color>
 | [ToRGB](../../groupdocs.viewer.drawing/argb32color/torgb)() | Serializes this [`Argb32Color`](../argb32color) instance to the 'rgb' CSS function notation. Alpha channel of this color will be omitted during serialization. |
 | [ToRGBA](../../groupdocs.viewer.drawing/argb32color/torgba)() | Serializes this [`Argb32Color`](../argb32color) instance to the 'rgba' CSS function notation |
 | override [ToString](../../groupdocs.viewer.drawing/argb32color/tostring)() | Serializes this [`Argb32Color`](../argb32color) instance to the most appropriate CSS function notation depending on translucency |
-| [operator ==](../../groupdocs.viewer.drawing/argb32color/op_equality) | Compares two colors and returns a boolean indicating if the two do match. |
+| [operator ==](../../groupdocs.viewer.drawing/argb32color/op_equality#op_equality) | Compares two [`Argb32Color`](../argb32color) colors and returns a boolean indicating if the two do match. (2 operators) |
 | [explicit operator](../../groupdocs.viewer.drawing/argb32color/op_explicit) | Explicitly casts the 32-bit [`Argb32Color`](../argb32color) to 24-bit [`Rgb24Color`](../rgb24color). Alpha channel of the source [`Argb32Color`](../argb32color) will be lost after casting, because [`Rgb24Color`](../rgb24color) does not support transparency. |
 | [implicit operator](../../groupdocs.viewer.drawing/argb32color/op_implicit) | Implicitly casts the 24-bit [`Rgb24Color`](../rgb24color) to 32-bit [`Argb32Color`](../argb32color). Alpha channel of the output [`Argb32Color`](../argb32color) will be set to `255` - fully opaque. |
-| [operator !=](../../groupdocs.viewer.drawing/argb32color/op_inequality) | Compares two colors and returns a boolean indicating if the two do not match. |
+| [operator !=](../../groupdocs.viewer.drawing/argb32color/op_inequality#op_inequality) | Compares two [`Argb32Color`](../argb32color) colors and returns a boolean indicating if the two do not match. (2 operators) |
 
 ## Fields
 
@@ -67,6 +67,7 @@ This type is designed to be useful for (but not limited to) CSS operations. See 
 
 ### See Also
 
+* struct [Rgb24Color](../rgb24color)
 * namespace [GroupDocs.Viewer.Drawing](../../groupdocs.viewer.drawing)
 * assembly [GroupDocs.Viewer](../../)
 

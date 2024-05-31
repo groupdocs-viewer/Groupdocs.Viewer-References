@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Compares two colors and returns a boolean indicating if the two do not match.
+description: Compares two Argb32Colorgroupdocs.viewer.drawing/argb32color colors and returns a boolean indicating if the two do not match.
 type: docs
-weight: 300
+weight: 290
 url: /net/groupdocs.viewer.drawing/argb32color/op_inequality/
 ---
-## Argb32Color Inequality operator
+## operator != {#op_inequality}
 
-Compares two colors and returns a boolean indicating if the two do not match.
+Compares two [`Argb32Color`](../../argb32color) colors and returns a boolean indicating if the two do not match.
 
 ```csharp
 public static bool operator !=(Argb32Color left, Argb32Color right)
@@ -16,8 +16,8 @@ public static bool operator !=(Argb32Color left, Argb32Color right)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| left | Argb32Color | The first color to use. |
-| right | Argb32Color | The second color to use. |
+| left | Argb32Color | The first [`Argb32Color`](../../argb32color) to check |
+| right | Argb32Color | The second [`Argb32Color`](../../argb32color) color to check |
 
 ### Return Value
 
@@ -25,6 +25,32 @@ True if both colors are not equal, otherwise false.
 
 ### See Also
 
+* struct [Argb32Color](../../argb32color)
+* namespace [GroupDocs.Viewer.Drawing](../../../groupdocs.viewer.drawing)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## operator != {#op_inequality_1}
+
+Compares one [`Argb32Color`](../../argb32color) color with another [`Rgb24Color`](../../rgb24color) color and returns a boolean indicating if the two do not match.
+
+```csharp
+public static bool operator !=(Argb32Color left, Rgb24Color right)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| left | Argb32Color | The first [`Argb32Color`](../../argb32color) to check |
+| right | Rgb24Color | The second [`Rgb24Color`](../../rgb24color) color to check |
+
+### Return Value
+
+True if both colors are not equal, otherwise false.
+
+### See Also
+
+* struct [Rgb24Color](../../rgb24color)
 * struct [Argb32Color](../../argb32color)
 * namespace [GroupDocs.Viewer.Drawing](../../../groupdocs.viewer.drawing)
 * assembly [GroupDocs.Viewer](../../../)
