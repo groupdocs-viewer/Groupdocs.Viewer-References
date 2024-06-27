@@ -57,6 +57,10 @@ Example usage:
 | [setImageQuality(ImageQuality value)](#setImageQuality-com.groupdocs.viewer.options.ImageQuality-) | Sets the output image quality for image resources when rendering into HTML. |
 | [isFixedLayout()](#isFixedLayout--) | PDF is a fixed format so all of the elements have a specific place on a page. |
 | [setFixedLayout(boolean fixedLayout)](#setFixedLayout-boolean-) |  |
+| [isWrapImagesInSvg()](#isWrapImagesInSvg--) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
+| [setWrapImagesInSvg(boolean wrapImagesInSvg)](#setWrapImagesInSvg-boolean-) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
+| [isDisableFontLicenseVerifications()](#isDisableFontLicenseVerifications--) | Disable any license restrictions for all fonts in current XPS/OXPS document. |
+| [setDisableFontLicenseVerifications(boolean disableFontLicenseVerifications)](#setDisableFontLicenseVerifications-boolean-) | Set the flag to disable any license restrictions for all fonts in current XPS/OXPS document. |
 ### PdfOptions() {#PdfOptions--}
 ```
 public PdfOptions()
@@ -263,4 +267,106 @@ public void setFixedLayout(boolean fixedLayout)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fixedLayout | boolean |  |
+
+### isWrapImagesInSvg() {#isWrapImagesInSvg--}
+```
+public boolean isWrapImagesInSvg()
+```
+
+
+Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality.
+
+This option is supported when rendering [PDF and Page Layout file formats][] to HTML with embedded and external resources.
+
+By default, when rendering to PDF and Page Layout files, all the images are rendered as one PNG image. The rendered PNG image is used as the background for the output HTML document.
+
+Learn more:
+
+ *  [Render PDF documents as HTML and image files][]
+ *  [Render to HTML][]
+
+
+[PDF and Page Layout file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#pdf-and-page-layout-file-formats
+[Render PDF documents as HTML and image files]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/
+[Render to HTML]: https://docs.groupdocs.com/viewer/java/rendering-to-html/
+
+**Returns:**
+boolean -  true  if images are wrapped in SVG,  false  otherwise.
+### setWrapImagesInSvg(boolean wrapImagesInSvg) {#setWrapImagesInSvg-boolean-}
+```
+public void setWrapImagesInSvg(boolean wrapImagesInSvg)
+```
+
+
+Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality.
+
+This option is supported when rendering [PDF and Page Layout file formats][] to HTML with embedded and external resources.
+
+By default, when rendering to PDF and Page Layout files, all the images are rendered as one PNG image. The rendered PNG image is used as the background for the output HTML document.
+
+Learn more:
+
+ *  [Render PDF documents as HTML and image files][]
+ *  [Render to HTML][]
+
+
+[PDF and Page Layout file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#pdf-and-page-layout-file-formats
+[Render PDF documents as HTML and image files]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/
+[Render to HTML]: https://docs.groupdocs.com/viewer/java/rendering-to-html/
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| wrapImagesInSvg | boolean |  true  if images should be wrapped in SVG,  false  otherwise. |
+
+### isDisableFontLicenseVerifications() {#isDisableFontLicenseVerifications--}
+```
+public boolean isDisableFontLicenseVerifications()
+```
+
+
+Disable any license restrictions for all fonts in current XPS/OXPS document.
+
+Many operations with font can't be executed if these operations are prohibited by the license of this font. For example, some font can't be embedded into a PDF document if the license rules disable embedding for this font. Be careful when using this flag. When it is set, it means that the person who sets this flag takes all responsibility for possible license/law violations on themselves. So they take it on their own risk. It's strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. By default false.
+
+Example usage:
+
+```
+
+ try (Viewer viewer = new Viewer("resume.oxps")) {
+     HtmlViewOptions options = HtmlViewOptions.forEmbeddedResources("result.html");
+     options.getPdfOptions().setDisableFontLicenseVerifications(true);
+     viewer.view(options);
+ }
+ 
+```
+
+**Returns:**
+boolean
+### setDisableFontLicenseVerifications(boolean disableFontLicenseVerifications) {#setDisableFontLicenseVerifications-boolean-}
+```
+public void setDisableFontLicenseVerifications(boolean disableFontLicenseVerifications)
+```
+
+
+Set the flag to disable any license restrictions for all fonts in current XPS/OXPS document.
+
+Many operations with font can't be executed if these operations are prohibited by the license of this font. For example, some font can't be embedded into a PDF document if the license rules disable embedding for this font. Be careful when using this flag. When it is set, it means that the person who sets this flag takes all responsibility for possible license/law violations on themselves. So they take it on their own risk. It's strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. By default false.
+
+Example usage:
+
+```
+
+ try (Viewer viewer = new Viewer("resume.oxps")) {
+     HtmlViewOptions options = HtmlViewOptions.forEmbeddedResources("result.html");
+     options.getPdfOptions().setDisableFontLicenseVerifications(true);
+     viewer.view(options);
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| disableFontLicenseVerifications | boolean |  |
 
