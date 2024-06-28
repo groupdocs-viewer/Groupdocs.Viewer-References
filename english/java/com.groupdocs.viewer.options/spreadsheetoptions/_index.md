@@ -48,6 +48,8 @@ Example usage:
 | [getCountColumnsPerPage()](#getCountColumnsPerPage--) | Gets the count of columns to include into each page when splitting the worksheet into pages. |
 | [setCountColumnsPerPage(int countColumnsPerPage)](#setCountColumnsPerPage-int-) | Sets the count of columns to include into each page when splitting the worksheet into pages. |
 | [isRenderPrintAreaOnly()](#isRenderPrintAreaOnly--) | Indicates whether only the print areas are rendered. |
+| [isRenderingPrintAreaAndPageBreaks()](#isRenderingPrintAreaAndPageBreaks--) | When this option is enabled, a worksheet will be rendered by page breaks that fall within the print area. |
+| [setRenderingPrintAreaAndPageBreaks(boolean renderingPrintAreaAndPageBreaks)](#setRenderingPrintAreaAndPageBreaks-boolean-) | Sets whether to render a worksheet by page breaks that fall within the print area. |
 | [isRenderGridLines()](#isRenderGridLines--) | Enables rendering of grid lines. |
 | [setRenderGridLines(boolean value)](#setRenderGridLines-boolean-) | Enables or disables the rendering of grid lines. |
 | [isSkipEmptyRows()](#isSkipEmptyRows--) | Indicates whether empty rows should be skipped during rendering. |
@@ -70,6 +72,7 @@ Example usage:
 | [setTopMargin(double topMargin)](#setTopMargin-double-) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 | [getBottomMargin()](#getBottomMargin--) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 | [setBottomMargin(double bottomMargin)](#setBottomMargin-double-) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [forRenderingPrintAreaAndPageBreaks()](#forRenderingPrintAreaAndPageBreaks--) | Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks. |
 | [forRenderingByPageBreaks()](#forRenderingByPageBreaks--) | Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only. |
 ### isRenderByPageBreaks() {#isRenderByPageBreaks--}
 ```
@@ -225,6 +228,29 @@ Indicates whether only the print areas are rendered.
 
 **Returns:**
 boolean -  true  if only the print areas are rendered,  false  otherwise.
+### isRenderingPrintAreaAndPageBreaks() {#isRenderingPrintAreaAndPageBreaks--}
+```
+public boolean isRenderingPrintAreaAndPageBreaks()
+```
+
+
+When this option is enabled, a worksheet will be rendered by page breaks that fall within the print area.
+
+**Returns:**
+boolean
+### setRenderingPrintAreaAndPageBreaks(boolean renderingPrintAreaAndPageBreaks) {#setRenderingPrintAreaAndPageBreaks-boolean-}
+```
+public void setRenderingPrintAreaAndPageBreaks(boolean renderingPrintAreaAndPageBreaks)
+```
+
+
+Sets whether to render a worksheet by page breaks that fall within the print area.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| renderingPrintAreaAndPageBreaks | boolean | Set to true to enable, false to disable. |
+
 ### isRenderGridLines() {#isRenderGridLines--}
 ```
 public final boolean isRenderGridLines()
@@ -478,6 +504,16 @@ To set bottom margin of the worksheet when converting to pdf if less than 0 then
 | --- | --- | --- |
 | bottomMargin | double |  |
 
+### forRenderingPrintAreaAndPageBreaks() {#forRenderingPrintAreaAndPageBreaks--}
+```
+public static SpreadsheetOptions forRenderingPrintAreaAndPageBreaks()
+```
+
+
+Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks.
+
+**Returns:**
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - New instance of  SpreadsheetOptions  for rendering pages based on page breaks that are included into print area. The behavior is similar to printing in Excel.
 ### forRenderingByPageBreaks() {#forRenderingByPageBreaks--}
 ```
 public static SpreadsheetOptions forRenderingByPageBreaks()
