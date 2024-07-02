@@ -56,7 +56,9 @@ Example usage:
 | [getWidth()](#getWidth--) | Gets the width of the output result in pixels. |
 | [getHeight()](#getHeight--) | Gets the height of the output result in pixels. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background color of the image. |
+| [getBackgroundColorAsHex()](#getBackgroundColorAsHex--) | Gets the background color of the image. |
 | [setBackgroundColor(Color backgroundColor)](#setBackgroundColor-java.awt.Color-) | Sets the background color of the image. |
+| [setBackgroundColor(String colorName)](#setBackgroundColor-java.lang.String-) | Sets the background color of the image. |
 | [getTiles()](#getTiles--) | Gets the drawing regions to render. |
 | [setTiles(List<Tile> value)](#setTiles-java.util.List-com.groupdocs.viewer.options.Tile--) | Sets the drawing regions to render. |
 | [isRenderLayouts()](#isRenderLayouts--) | Indicates whether layouts from the CAD document should be rendered. |
@@ -205,6 +207,16 @@ Gets the background color of the image.
 
 **Returns:**
 java.awt.Color - the background color of the image.
+### getBackgroundColorAsHex() {#getBackgroundColorAsHex--}
+```
+public String getBackgroundColorAsHex()
+```
+
+
+Gets the background color of the image.
+
+**Returns:**
+java.lang.String - the background color of the image in 0xFFFFFF format.
 ### setBackgroundColor(Color backgroundColor) {#setBackgroundColor-java.awt.Color-}
 ```
 public void setBackgroundColor(Color backgroundColor)
@@ -217,6 +229,19 @@ Sets the background color of the image.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | backgroundColor | java.awt.Color | The background color of the image. |
+
+### setBackgroundColor(String colorName) {#setBackgroundColor-java.lang.String-}
+```
+public void setBackgroundColor(String colorName)
+```
+
+
+Sets the background color of the image.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| colorName | java.lang.String | The background color name of the image. |
 
 ### getTiles() {#getTiles--}
 ```

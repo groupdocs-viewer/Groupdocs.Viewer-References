@@ -3,7 +3,7 @@ title: Watermark
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Represents text watermark.
 type: docs
-weight: 34
+weight: 35
 url: /nodejs-java/com.groupdocs.viewer.options/watermark/
 ---
 **Inheritance:**
@@ -45,7 +45,9 @@ Example usage:
 | --- | --- |
 | [getText()](#getText--) | Returns the watermark text. |
 | [getColor()](#getColor--) | Returns the watermark color. |
+| [getColorAsHex()](#getColorAsHex--) | Returns the watermark color in hex format. |
 | [setColor(Color value)](#setColor-java.awt.Color-) | Sets the watermark color. |
+| [setColor(String colorName)](#setColor-java.lang.String-) | Sets the watermark color. |
 | [getPosition()](#getPosition--) | Returns the watermark position. |
 | [setPosition(Position value)](#setPosition-com.groupdocs.viewer.options.Position-) | Sets the watermark position. |
 | [getSize()](#getSize--) | Returns the watermark size. |
@@ -87,6 +89,18 @@ Returns the watermark color. This method retrieves the color of the watermark ap
 
 **Returns:**
 java.awt.Color - the watermark color.
+### getColorAsHex() {#getColorAsHex--}
+```
+public final String getColorAsHex()
+```
+
+
+Returns the watermark color in hex format. This method retrieves the color of the watermark applied to the document.
+
+***Note:** The default value is the red color obtained from Color\#getRed().getRed().*
+
+**Returns:**
+java.lang.String - the watermark color in hex format.
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
 public final void setColor(Color value)
@@ -101,6 +115,21 @@ Sets the watermark color. This method sets the color of the watermark applied to
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | The watermark color to set. |
+
+### setColor(String colorName) {#setColor-java.lang.String-}
+```
+public final void setColor(String colorName)
+```
+
+
+Sets the watermark color. This method sets the color of the watermark applied to the document.
+
+***Note:** The default value is obtained from Color\#getRed().getRed().*
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| colorName | java.lang.String | The watermark color to set. |
 
 ### getPosition() {#getPosition--}
 ```

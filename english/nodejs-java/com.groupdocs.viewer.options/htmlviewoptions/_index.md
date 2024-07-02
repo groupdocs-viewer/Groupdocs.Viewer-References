@@ -63,8 +63,8 @@ Example usage:
 | [setRenderResponsive(boolean value)](#setRenderResponsive-boolean-) | Sets whether responsive rendering is enabled. |
 | [isMinify()](#isMinify--) | Checks if HTML content and HTML resources minification is enabled. |
 | [setMinify(boolean value)](#setMinify-boolean-) | Sets whether HTML content and HTML resources minification is enabled. |
-| [setRenderToSinglePage(boolean renderSinglePage)](#setRenderToSinglePage-boolean-) | Sets whether HTML content will be rendered to a single page. |
-| [isRenderToSinglePage()](#isRenderToSinglePage--) | Determines whether HTML content will be rendered to a single page. |
+| [setRenderToSinglePage(boolean renderSinglePage)](#setRenderToSinglePage-boolean-) | Enables rendering an entire document to one HTML file. |
+| [isRenderToSinglePage()](#isRenderToSinglePage--) | Enables rendering an entire document to one HTML file. |
 | [isExcludeFonts()](#isExcludeFonts--) | Determines whether to exclude fonts from the HTML document. |
 | [setExcludeFonts(boolean value)](#setExcludeFonts-boolean-) | Sets whether to exclude fonts from the HTML document. |
 | [getFontsToExclude()](#getFontsToExclude--) | Retrieves the list of font names to exclude from the HTML document. |
@@ -416,12 +416,36 @@ public void setRenderToSinglePage(boolean renderSinglePage)
 ```
 
 
-Sets whether HTML content will be rendered to a single page.
+Enables rendering an entire document to one HTML file.
+
+**See the following topics for more information:**
+
+ *  [Render archives as HTML, PDF, and image files][Render archives as HTML_ PDF_ and image files]
+ *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
+ *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
+ *  [Render web documents as PDF, PNG, and JPEG files][Render web documents as PDF_ PNG_ and JPEG files]
+
+**Example:**
+
+```
+try (final Viewer viewer = new Viewer("invoice.docx")) {
+   HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+   viewOptions.setRenderToSinglePage(true);
+
+   viewer.view(viewOptions);
+ }
+```
+
+
+[Render archives as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-archive-files/#create-a-single-html-page
+[Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files/#create-a-single-html-page
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file
+[Render web documents as PDF_ PNG_ and JPEG files]: https://docs.groupdocs.com/viewer/java/render-web-documents/#create-an-html-file-with-embedded-resources
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| renderSinglePage | boolean |  true  if HTML content should be rendered to a single page,  false  otherwise. |
+| renderSinglePage | boolean |  |
 
 ### isRenderToSinglePage() {#isRenderToSinglePage--}
 ```
@@ -429,10 +453,34 @@ public boolean isRenderToSinglePage()
 ```
 
 
-Determines whether HTML content will be rendered to a single page.
+Enables rendering an entire document to one HTML file.
+
+**See the following topics for more information:**
+
+ *  [Render archives as HTML, PDF, and image files][Render archives as HTML_ PDF_ and image files]
+ *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
+ *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
+ *  [Render web documents as PDF, PNG, and JPEG files][Render web documents as PDF_ PNG_ and JPEG files]
+
+**Example:**
+
+```
+try (final Viewer viewer = new Viewer("invoice.docx")) {
+   HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources();
+   viewOptions.setRenderToSinglePage(true);
+
+   viewer.view(viewOptions);
+ }
+```
+
+
+[Render archives as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-archive-files/#create-a-single-html-page
+[Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files/#create-a-single-html-page
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file
+[Render web documents as PDF_ PNG_ and JPEG files]: https://docs.groupdocs.com/viewer/java/render-web-documents/#create-an-html-file-with-embedded-resources
 
 **Returns:**
-boolean -  true  if HTML content will be rendered to a single page,  false  otherwise.
+boolean
 ### isExcludeFonts() {#isExcludeFonts--}
 ```
 public final boolean isExcludeFonts()

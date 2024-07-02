@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Provides options for rendering spreadsheets.
 type: docs
-weight: 28
+weight: 29
 url: /nodejs-java/com.groupdocs.viewer.options/spreadsheetoptions/
 ---
 **Inheritance:**
@@ -48,6 +48,8 @@ Example usage:
 | [getCountColumnsPerPage()](#getCountColumnsPerPage--) | Gets the count of columns to include into each page when splitting the worksheet into pages. |
 | [setCountColumnsPerPage(int countColumnsPerPage)](#setCountColumnsPerPage-int-) | Sets the count of columns to include into each page when splitting the worksheet into pages. |
 | [isRenderPrintAreaOnly()](#isRenderPrintAreaOnly--) | Indicates whether only the print areas are rendered. |
+| [isRenderingPrintAreaAndPageBreaks()](#isRenderingPrintAreaAndPageBreaks--) | When this option is enabled, a worksheet will be rendered by page breaks that fall within the print area. |
+| [setRenderingPrintAreaAndPageBreaks(boolean renderingPrintAreaAndPageBreaks)](#setRenderingPrintAreaAndPageBreaks-boolean-) | Sets whether to render a worksheet by page breaks that fall within the print area. |
 | [isRenderGridLines()](#isRenderGridLines--) | Enables rendering of grid lines. |
 | [setRenderGridLines(boolean value)](#setRenderGridLines-boolean-) | Enables or disables the rendering of grid lines. |
 | [isSkipEmptyRows()](#isSkipEmptyRows--) | Indicates whether empty rows should be skipped during rendering. |
@@ -62,6 +64,15 @@ Example usage:
 | [setRenderHiddenColumns(boolean value)](#setRenderHiddenColumns-boolean-) | Enables hidden columns rendering. |
 | [getTextOverflowMode()](#getTextOverflowMode--) | Returns the text overflow mode for rendering spreadsheet documents into HTML. |
 | [setTextOverflowMode(TextOverflowMode value)](#setTextOverflowMode-com.groupdocs.viewer.options.TextOverflowMode-) | Sets the text overflow mode for rendering spreadsheet documents into HTML. |
+| [getLeftMargin()](#getLeftMargin--) | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setLeftMargin(double leftMargin)](#setLeftMargin-double-) | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [getRightMargin()](#getRightMargin--) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setRightMargin(double rightMargin)](#setRightMargin-double-) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [getTopMargin()](#getTopMargin--) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setTopMargin(double topMargin)](#setTopMargin-double-) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [getBottomMargin()](#getBottomMargin--) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [setBottomMargin(double bottomMargin)](#setBottomMargin-double-) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [forRenderingPrintAreaAndPageBreaks()](#forRenderingPrintAreaAndPageBreaks--) | Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks. |
 | [forRenderingByPageBreaks()](#forRenderingByPageBreaks--) | Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only. |
 ### isRenderByPageBreaks() {#isRenderByPageBreaks--}
 ```
@@ -217,6 +228,29 @@ Indicates whether only the print areas are rendered.
 
 **Returns:**
 boolean -  true  if only the print areas are rendered,  false  otherwise.
+### isRenderingPrintAreaAndPageBreaks() {#isRenderingPrintAreaAndPageBreaks--}
+```
+public boolean isRenderingPrintAreaAndPageBreaks()
+```
+
+
+When this option is enabled, a worksheet will be rendered by page breaks that fall within the print area.
+
+**Returns:**
+boolean
+### setRenderingPrintAreaAndPageBreaks(boolean renderingPrintAreaAndPageBreaks) {#setRenderingPrintAreaAndPageBreaks-boolean-}
+```
+public void setRenderingPrintAreaAndPageBreaks(boolean renderingPrintAreaAndPageBreaks)
+```
+
+
+Sets whether to render a worksheet by page breaks that fall within the print area.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| renderingPrintAreaAndPageBreaks | boolean | Set to true to enable, false to disable. |
+
 ### isRenderGridLines() {#isRenderGridLines--}
 ```
 public final boolean isRenderGridLines()
@@ -378,6 +412,108 @@ Sets the text overflow mode for rendering spreadsheet documents into HTML.
 | --- | --- | --- |
 | value | [TextOverflowMode](../../com.groupdocs.viewer.options/textoverflowmode) | The text overflow mode to be set. |
 
+### getLeftMargin() {#getLeftMargin--}
+```
+public double getLeftMargin()
+```
+
+
+To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setLeftMargin(double leftMargin) {#setLeftMargin-double-}
+```
+public void setLeftMargin(double leftMargin)
+```
+
+
+To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| leftMargin | double |  |
+
+### getRightMargin() {#getRightMargin--}
+```
+public double getRightMargin()
+```
+
+
+To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setRightMargin(double rightMargin) {#setRightMargin-double-}
+```
+public void setRightMargin(double rightMargin)
+```
+
+
+To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rightMargin | double |  |
+
+### getTopMargin() {#getTopMargin--}
+```
+public double getTopMargin()
+```
+
+
+To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setTopMargin(double topMargin) {#setTopMargin-double-}
+```
+public void setTopMargin(double topMargin)
+```
+
+
+To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| topMargin | double |  |
+
+### getBottomMargin() {#getBottomMargin--}
+```
+public double getBottomMargin()
+```
+
+
+To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Returns:**
+double
+### setBottomMargin(double bottomMargin) {#setBottomMargin-double-}
+```
+public void setBottomMargin(double bottomMargin)
+```
+
+
+To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bottomMargin | double |  |
+
+### forRenderingPrintAreaAndPageBreaks() {#forRenderingPrintAreaAndPageBreaks--}
+```
+public static SpreadsheetOptions forRenderingPrintAreaAndPageBreaks()
+```
+
+
+Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks.
+
+**Returns:**
+[SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - New instance of  SpreadsheetOptions  for rendering pages based on page breaks that are included into print area. The behavior is similar to printing in Excel.
 ### forRenderingByPageBreaks() {#forRenderingByPageBreaks--}
 ```
 public static SpreadsheetOptions forRenderingByPageBreaks()
