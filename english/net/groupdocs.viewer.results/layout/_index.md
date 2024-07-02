@@ -3,7 +3,7 @@ title: Layout
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents layout contained by the CAD drawing.
 type: docs
-weight: 800
+weight: 810
 url: /net/groupdocs.viewer.results/layout/
 ---
 ## Layout class

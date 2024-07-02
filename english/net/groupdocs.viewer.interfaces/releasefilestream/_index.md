@@ -3,7 +3,7 @@ title: ReleaseFileStream
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Releases stream which was instantiated by the method associated with CreateFileStream./createfilestream delegate.
 type: docs
-weight: 290
+weight: 300
 url: /net/groupdocs.viewer.interfaces/releasefilestream/
 ---
 ## ReleaseFileStream delegate

@@ -3,7 +3,7 @@ title: SubsetFonts
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Subsets fonts in the output PDF file.
 type: docs
-weight: 110
+weight: 130
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/subsetfonts/
 ---
 ## PdfOptimizationOptions.SubsetFonts property
