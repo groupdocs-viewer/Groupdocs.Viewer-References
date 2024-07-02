@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains the PDF optimization options to apply to the output PDF file. For details and code samples see this pagehttps//docs.groupdocs.com/viewer/net/optimizationpdfoptions/ and its children.
 type: docs
-weight: 510
+weight: 520
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions class
@@ -32,6 +32,8 @@ public class PdfOptimizationOptions
 | [OptimizeSpreadsheets](../../groupdocs.viewer.options/pdfoptimizationoptions/optimizespreadsheets) { get; set; } | Enables optimization of spreadsheets in the PDF files. |
 | [RemoveAnnotations](../../groupdocs.viewer.options/pdfoptimizationoptions/removeannotations) { get; set; } | Enables removing annotation from the output PDF file. |
 | [RemoveFormFields](../../groupdocs.viewer.options/pdfoptimizationoptions/removeformfields) { get; set; } | Enables removing form fields from a PDF file. |
+| [RemoveUnusedObjects](../../groupdocs.viewer.options/pdfoptimizationoptions/removeunusedobjects) { get; set; } | Removes unused (orphaned) objects from a PDF file, which are placed in the PDF document, but are not referenced from resource dictionaries of any page and thus are not used at all. Activating this property (`true`) will decrease the output PDF document size. By default is disabled (`false`). |
+| [RemoveUnusedStreams](../../groupdocs.viewer.options/pdfoptimizationoptions/removeunusedstreams) { get; set; } | Removes unused (orphaned) streams from a PDF file, which are still referenced from the resource dictionary of the page, but actually are never used in the page contents. By default is disabled (`false`), its enabling (`true`) will decrease the output PDF document size. |
 | [ResizeImages](../../groupdocs.viewer.options/pdfoptimizationoptions/resizeimages) { get; set; } | Enables setting the maximum resolution in the output PDF file. |
 | [SubsetFonts](../../groupdocs.viewer.options/pdfoptimizationoptions/subsetfonts) { get; set; } | Subsets fonts in the output PDF file. |
 

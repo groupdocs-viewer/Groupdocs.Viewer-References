@@ -3,7 +3,7 @@ title: RenderTextAsImage
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables rendering texts in the PDF files as an image in the HTML output.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.viewer.options/pdfoptions/rendertextasimage/
 ---
 ## PdfOptions.RenderTextAsImage property

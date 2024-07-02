@@ -3,7 +3,7 @@ title: RenderOriginalPageSize
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Sets the output page size the same as the source PDF documents page size.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.viewer.options/pdfoptions/renderoriginalpagesize/
 ---
 ## PdfOptions.RenderOriginalPageSize property

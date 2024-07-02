@@ -3,7 +3,7 @@ title: ResizeImages
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables setting the maximum resolution in the output PDF file.
 type: docs
-weight: 100
+weight: 120
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/resizeimages/
 ---
 ## PdfOptimizationOptions.ResizeImages property
