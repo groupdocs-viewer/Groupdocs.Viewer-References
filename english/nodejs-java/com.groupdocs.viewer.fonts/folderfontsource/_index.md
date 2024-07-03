@@ -92,7 +92,7 @@ Determines whether two  FolderFontSource  objects are not the same.
 boolean -  true  if both  FolderFontSource  objects are not the same; otherwise,  false .
 ### getFolderPath() {#getFolderPath--}
 ```
-public final String getFolderPath()
+public String getFolderPath()
 ```
 
 
@@ -102,7 +102,7 @@ Gets the path to the folder that contains TrueType fonts.
 java.lang.String - the path to the folder that contains TrueType fonts.
 ### getSearchOption() {#getSearchOption--}
 ```
-public final SearchOption getSearchOption()
+public SearchOption getSearchOption()
 ```
 
 
@@ -122,7 +122,7 @@ Checks if the fonts would be searched recursively.
 boolean -  true  if the fonts would be searched recursively,  false  otherwise.
 ### equals(FolderFontSource other) {#equals-com.groupdocs.viewer.fonts.FolderFontSource-}
 ```
-public final boolean equals(FolderFontSource other)
+public boolean equals(FolderFontSource other)
 ```
 
 
