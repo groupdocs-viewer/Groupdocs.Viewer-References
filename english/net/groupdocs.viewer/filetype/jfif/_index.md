@@ -3,7 +3,7 @@ title: JFIF
 second_title: GroupDocs.Viewer for .NET API Reference
 description: JPEG File Interchange Format .jfif is image that was developed for fast exchange between platforms. This format uses JPEG compression. Learn more about this file format herehttps//wiki.fileformat.com/image/jfif.
 type: docs
-weight: 700
+weight: 710
 url: /net/groupdocs.viewer/filetype/jfif/
 ---
 ## FileType.JFIF field

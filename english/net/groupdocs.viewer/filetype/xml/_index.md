@@ -3,7 +3,7 @@ title: XML
 second_title: GroupDocs.Viewer for .NET API Reference
 description: XML File .xml
 type: docs
-weight: 1890
+weight: 1920
 url: /net/groupdocs.viewer/filetype/xml/
 ---
 ## FileType.XML field

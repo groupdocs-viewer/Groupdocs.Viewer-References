@@ -3,7 +3,7 @@ title: FromFilePath
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Extracts file extension and maps it to file type.
 type: docs
-weight: 1950
+weight: 1990
 url: /net/groupdocs.viewer/filetype/fromfilepath/
 ---
 ## FileType.FromFilePath method
