@@ -3,7 +3,7 @@ title: JPG
 second_title: GroupDocs.Viewer for .NET API Reference
 description: JPEG Image .jpg is a type of image format that is saved using the method of lossy compression. The output image as result of compression is a tradeoff between storage size and image quality. Learn more about this file format herehttps//wiki.fileformat.com/image/jpeg.
 type: docs
-weight: 760
+weight: 770
 url: /net/groupdocs.viewer/filetype/jpg/
 ---
 ## FileType.JPG field

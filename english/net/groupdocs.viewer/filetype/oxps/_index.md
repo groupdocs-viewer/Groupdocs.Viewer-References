@@ -3,7 +3,7 @@ title: OXPS
 second_title: GroupDocs.Viewer for .NET API Reference
 description: OpenXPS File .oxps
 type: docs
-weight: 1090
+weight: 1100
 url: /net/groupdocs.viewer/filetype/oxps/
 ---
 ## FileType.OXPS field

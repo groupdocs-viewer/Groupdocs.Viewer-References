@@ -3,7 +3,7 @@ title: XLTX
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Excel Open XML Spreadsheet Template .xltx represents Microsoft Excel Template that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xltx.
 type: docs
-weight: 1880
+weight: 1910
 url: /net/groupdocs.viewer/filetype/xltx/
 ---
 ## FileType.XLTX field

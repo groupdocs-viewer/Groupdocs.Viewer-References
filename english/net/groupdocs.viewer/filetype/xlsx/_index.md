@@ -3,7 +3,7 @@ title: XLSX
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Microsoft Excel Open XML Spreadsheet .xlsx is a wellknown format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsx.
 type: docs
-weight: 1850
+weight: 1880
 url: /net/groupdocs.viewer/filetype/xlsx/
 ---
 ## FileType.XLSX field

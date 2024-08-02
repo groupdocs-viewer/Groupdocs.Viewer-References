@@ -3,7 +3,7 @@ title: LOG
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Log File .log
 type: docs
-weight: 820
+weight: 830
 url: /net/groupdocs.viewer/filetype/log/
 ---
 ## FileType.LOG field

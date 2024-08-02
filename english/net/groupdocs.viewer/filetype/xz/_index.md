@@ -3,7 +3,7 @@ title: XZ
 second_title: GroupDocs.Viewer for .NET API Reference
 description: XZ file .xz is archive compressed a highratio compression algorithm based on the LZMA algorithm. Learn more about this file format herehttps//fileinfo.com/extension/xz.
 type: docs
-weight: 1910
+weight: 1940
 url: /net/groupdocs.viewer/filetype/xz/
 ---
 ## FileType.XZ field

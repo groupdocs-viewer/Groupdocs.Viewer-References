@@ -3,7 +3,7 @@ title: XLSB
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Excel Binary Spreadsheet .xlsb specifies the Excel Binary File Format which is a collection of records and structures that specify Excel workbook content. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/xlsb.
 type: docs
-weight: 1830
+weight: 1860
 url: /net/groupdocs.viewer/filetype/xlsb/
 ---
 ## FileType.XLSB field
