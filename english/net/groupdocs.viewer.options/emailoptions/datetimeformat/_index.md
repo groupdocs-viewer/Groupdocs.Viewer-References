@@ -1,22 +1,18 @@
 ---
 title: DateTimeFormat
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Time Format can be include TimeZone. For example MM d yyyy HHmm tt if not set  current system format is used
+description: Time Format can be include TimeZone for example MM d yyyy HHmm tt if not set  current system format is used
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/emailoptions/datetimeformat/
 ---
 ## EmailOptions.DateTimeFormat property
 
-Time Format (can be include TimeZone). For example: 'MM d yyyy HH:mm tt', if not set - current system format is used
+Time Format (can be include TimeZone) for example: 'MM d yyyy HH:mm tt', if not set - current system format is used
 
 ```csharp
 public string DateTimeFormat { get; set; }
 ```
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/#specify-the-date-and-time-format-and-change-the-time-zone).
 
 ### See Also
 

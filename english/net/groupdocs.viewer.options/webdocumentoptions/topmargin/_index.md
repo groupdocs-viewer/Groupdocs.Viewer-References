@@ -1,22 +1,18 @@
 ---
 title: TopMargin
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the top margin of a page. The default value is 72 points.
+description: The distance in points between the top edge of the page and the top boundary of the body text. The default value is 72 points.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/webdocumentoptions/topmargin/
 ---
 ## WebDocumentOptions.TopMargin property
 
-Sets the top margin of a page. The default value is 72 points.
+The distance (in points) between the top edge of the page and the top boundary of the body text. The default value is 72 points.
 
 ```csharp
 public float TopMargin { get; set; }
 ```
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-web-documents/#adjust-page-margins).
 
 ### See Also
 

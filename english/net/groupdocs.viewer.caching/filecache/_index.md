@@ -3,7 +3,7 @@ title: FileCache
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents a local ondisk cache.
 type: docs
-weight: 20
+weight: 820
 url: /net/groupdocs.viewer.caching/filecache/
 ---
 ## FileCache class

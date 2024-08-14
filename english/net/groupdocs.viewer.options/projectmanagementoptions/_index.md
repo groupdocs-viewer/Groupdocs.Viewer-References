@@ -1,14 +1,14 @@
 ---
 title: ProjectManagementOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains options for rendering project management files. For details see the documentationhttps//docs.groupdocs.com/viewer/net/rendermsprojectfiles/.
+description: Provides options for rendering project management files.
 type: docs
-weight: 590
+weight: 450
 url: /net/groupdocs.viewer.options/projectmanagementoptions/
 ---
 ## ProjectManagementOptions class
 
-Contains options for rendering project management files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/).
+Provides options for rendering project management files.
 
 ```csharp
 public class ProjectManagementOptions
@@ -18,7 +18,7 @@ public class ProjectManagementOptions
 
 | Name | Description |
 | --- | --- |
-| [ProjectManagementOptions](projectmanagementoptions)() | Creates an instance of the [`ProjectManagementOptions`](../projectmanagementoptions) class. |
+| [ProjectManagementOptions](projectmanagementoptions)() | Creates new instance of [`ProjectManagementOptions`](../projectmanagementoptions) class. |
 
 ## Properties
 

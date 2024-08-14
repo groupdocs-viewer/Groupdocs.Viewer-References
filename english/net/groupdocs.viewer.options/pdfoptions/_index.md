@@ -1,14 +1,14 @@
 ---
 title: PdfOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains options for rendering to PDF documents. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderpdfdocuments/.
+description: Provides options for rendering PDF documents.
 type: docs
-weight: 530
+weight: 390
 url: /net/groupdocs.viewer.options/pdfoptions/
 ---
 ## PdfOptions class
 
-Contains options for rendering to PDF documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/).
+Provides options for rendering PDF documents.
 
 ```csharp
 public class PdfOptions
@@ -18,23 +18,21 @@ public class PdfOptions
 
 | Name | Description |
 | --- | --- |
-| [PdfOptions](pdfoptions)() | Initializes new instance of the [`PdfOptions`](../pdfoptions) class. |
+| [PdfOptions](pdfoptions)() | Initializes new instance of [`PdfOptions`](../pdfoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DisableCharsGrouping](../../groupdocs.viewer.options/pdfoptions/disablecharsgrouping) { get; set; } | Disables symbol grouping for precise symbol positioning during page rendering. |
-| [DisableCopyProtection](../../groupdocs.viewer.options/pdfoptions/disablecopyprotection) { get; set; } | Turns off content copy protection when rendering to HTML. |
-| [DisableFontLicenseVerifications](../../groupdocs.viewer.options/pdfoptions/disablefontlicenseverifications) { get; set; } | Disables any license restrictions for all fonts in the current XPS/OXPS document. |
-| [EnableFontHinting](../../groupdocs.viewer.options/pdfoptions/enablefonthinting) { get; set; } | Enables font hinting. |
-| [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | Enables rendering text and graphics in the original PDF document's z-order when rendering to HTML. |
-| [FixedLayout](../../groupdocs.viewer.options/pdfoptions/fixedlayout) { get; set; } | Enables rendering the PDF and EPUB documents to HTML with a fixed layout. |
-| [FixLinkIssue](../../groupdocs.viewer.options/pdfoptions/fixlinkissue) { get; set; } | Tries to fix the issue when whole HTML page content is a link. Works only when input format is PDF and output format is HTML (with embedded or external resources). By default is disabled (`false`). Turn it on only when you know what and why you're doing. Turing this option on increases the document processing time. |
-| [ImageQuality](../../groupdocs.viewer.options/pdfoptions/imagequality) { get; set; } | Sets the output image quality for image resources when rendering to HTML. The default quality is `Low`. |
-| [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | Sets the output page size the same as the source PDF document's page size. |
-| [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | Enables rendering texts in the PDF files as an image in the HTML output. |
-| [WrapImagesInSvg](../../groupdocs.viewer.options/pdfoptions/wrapimagesinsvg) { get; set; } | Enables wrapping each image in the output HTML document in SVG tag to improve the output quality. |
+| [DisableCharsGrouping](../../groupdocs.viewer.options/pdfoptions/disablecharsgrouping) { get; set; } | Disables chars grouping to keep maximum precision during chars positioning when rendering the page. |
+| [DisableFontLicenseVerifications](../../groupdocs.viewer.options/pdfoptions/disablefontlicenseverifications) { get; set; } | Disable any license restrictions for all fonts in current XPS/OXPS document |
+| [EnableFontHinting](../../groupdocs.viewer.options/pdfoptions/enablefonthinting) { get; set; } | Enables font hinting. The font hinting adjusts the display of an outline font. Supported only for TTF fonts when these fonts are used in source document. |
+| [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | Enables rendering of text and graphics according to z-order in original PDF document when rendering into HTML. |
+| [FixedLayout](../../groupdocs.viewer.options/pdfoptions/fixedlayout) { get; set; } | PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to `false`. |
+| [ImageQuality](../../groupdocs.viewer.options/pdfoptions/imagequality) { get; set; } | Specifies output image quality for image resources when rendering into HTML. The default value is Low. |
+| [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | When this option enabled the output pages will have the same size in pixels as page size in a source PDF document. By default GroupDocs.Viewer calculates output image page size for better rendering quality. |
+| [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | When this option is set to true, the text is rendered as an image in the output HTML. Enable this option to make text unselectable or to fix characters rendering and make HTML look like PDF. The default value is false. |
+| [WrapImagesInSvg](../../groupdocs.viewer.options/pdfoptions/wrapimagesinsvg) { get; set; } | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
 
 ### See Also
 

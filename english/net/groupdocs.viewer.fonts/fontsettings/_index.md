@@ -3,7 +3,7 @@ title: FontSettings
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides methods for working with sources to look for TrueType fonts.
 type: docs
-weight: 190
+weight: 750
 url: /net/groupdocs.viewer.fonts/fontsettings/
 ---
 ## FontSettings class

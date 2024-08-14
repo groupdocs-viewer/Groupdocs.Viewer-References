@@ -1,22 +1,18 @@
 ---
 title: PageSize
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the size of the output page.
+description: The size of the output page. The default value is Letter 792 x 612 points.  When contents does not fit set a larger page size e.g. A3.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/webdocumentoptions/pagesize/
 ---
 ## WebDocumentOptions.PageSize property
 
-Sets the size of the output page.
+The size of the output page. The default value is Letter 792 x 612 points.  When contents does not fit set a larger page size e.g. A3.
 
 ```csharp
 public PageSize PageSize { get; set; }
 ```
-
-### Remarks
-
-The default value is Letter, 792 x 612 points. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-web-documents/#set-the-output-page-size).
 
 ### See Also
 

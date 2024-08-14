@@ -1,14 +1,14 @@
 ---
 title: FixedLayout
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Enables rendering the PDF and EPUB documents to HTML with a fixed layout.
+description: PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to false.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.viewer.options/pdfoptions/fixedlayout/
 ---
 ## PdfOptions.FixedLayout property
 
-Enables rendering the PDF and EPUB documents to HTML with a fixed layout.
+PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to `false`.
 
 ```csharp
 public bool FixedLayout { get; set; }
@@ -16,13 +16,28 @@ public bool FixedLayout { get; set; }
 
 ### Remarks
 
-PDF and EPUB documents are initially rendered to HTML with a fixed layout to maintain the appearance of the source document. This fixed layout means all HTML elements have precise positions within a container with a set size. Resizing the browser window is not affect the position and size of elements in the document.
+The default value is `true`.
 
-This option is only available when rendering to HTML. The default value is `true`. To render with a fluid layout, set this property to `false`.
+This option is supported when rendering into HTML.
 
-When rendering to fluid layout, images are skipped. Use fluid layout when rendering PDF documents with text content.
+When rendering to fluid layout images are skipped. Use fluid layout when rendering PDF documents with textual content.
 
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/#create-html-with-fluid-layout).
+### Examples
+
+This example shows how to render PDF document to HTML with fluid layout.
+
+```csharp
+using GroupDocs.Viewer;
+using GroupDocs.Viewer.Options;
+//..
+
+using (var viewer = new Viewer("resume.pdf"))
+{
+   var viewOptions = HtmlViewOptions.ForEmbeddedResources("page_{0}.html");
+   viewOptions.FixedLayout = false;
+   viewer.View(viewOptions);
+}        
+```
 
 ### See Also
 

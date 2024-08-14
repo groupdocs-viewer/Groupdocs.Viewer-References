@@ -1,14 +1,14 @@
 ---
 title: MaxHeight
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Maximum height of an output image in pixels.
+description: Max height of an output image in pixels.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/imaxsizeoptions/maxheight/
 ---
 ## IMaxSizeOptions.MaxHeight property
 
-Maximum height of an output image in pixels.
+Max height of an output image in pixels.
 
 ```csharp
 public int MaxHeight { get; set; }

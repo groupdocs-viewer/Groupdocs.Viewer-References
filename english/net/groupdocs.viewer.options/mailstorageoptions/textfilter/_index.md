@@ -1,22 +1,18 @@
 ---
 title: TextFilter
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the keywords used to filter messages.
+description: The keywords used to filter messages.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/mailstorageoptions/textfilter/
 ---
 ## MailStorageOptions.TextFilter property
 
-Sets the keywords used to filter messages.
+The keywords used to filter messages.
 
 ```csharp
 public string TextFilter { get; set; }
 ```
-
-### Remarks
-
-Use this property to render all messages that contain specific text in the subject or body. For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/#filter-messages).
 
 ### See Also
 

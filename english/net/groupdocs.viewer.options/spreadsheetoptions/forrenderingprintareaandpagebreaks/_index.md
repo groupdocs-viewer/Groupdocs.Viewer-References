@@ -1,14 +1,14 @@
 ---
 title: ForRenderingPrintAreaAndPageBreaks
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions class for rendering print areas and page breaks.
+description: Initializes new instance of SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions for rendering print areas and page breaks.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/spreadsheetoptions/forrenderingprintareaandpagebreaks/
 ---
 ## SpreadsheetOptions.ForRenderingPrintAreaAndPageBreaks method
 
-Initializes an instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering print areas and page breaks.
+Initializes new instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering print areas and page breaks.
 
 ```csharp
 public static SpreadsheetOptions ForRenderingPrintAreaAndPageBreaks()
@@ -16,11 +16,13 @@ public static SpreadsheetOptions ForRenderingPrintAreaAndPageBreaks()
 
 ### Return Value
 
-New instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering pages basing on page brakes that are included into print area. The behavior is similar to printing in Excel.
+New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering pages basing on page brakes that are included into print area. The behaviour similar to printing in Excel.
 
 ### Remarks
 
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#render-worksheet-by-page-breaks-and-print-area).
+**Learn more**
+
+* Learn more about spliting a worksheet into pages in C#: [How to split pages basing on page brakes that are included into print area using GroupDocs.Viewer](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/)
 
 ### See Also
 

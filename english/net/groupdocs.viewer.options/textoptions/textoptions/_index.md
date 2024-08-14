@@ -1,22 +1,18 @@
 ---
 title: TextOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the TextOptionsgroupdocs.viewer.options/textoptions class.
+description: Initializes new instance of TextOptionsgroupdocs.viewer.options/textoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/textoptions/textoptions/
 ---
 ## TextOptions constructor
 
-Initializes an instance of the [`TextOptions`](../../textoptions) class.
+Initializes new instance of [`TextOptions`](../../textoptions) class.
 
 ```csharp
 public TextOptions()
 ```
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-text-files/#specify-rendering-options).
 
 ### See Also
 

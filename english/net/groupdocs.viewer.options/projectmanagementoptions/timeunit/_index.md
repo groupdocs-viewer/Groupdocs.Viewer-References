@@ -14,10 +14,6 @@ The time unit.
 public TimeUnit TimeUnit { get; set; }
 ```
 
-### Remarks
-
-For code sample, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/#adjust-the-time-unit).
-
 ### See Also
 
 * enum [TimeUnit](../../timeunit)

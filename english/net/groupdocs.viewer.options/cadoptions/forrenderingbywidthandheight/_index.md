@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByWidthAndHeight
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by width and height.
+description: Initializes new instance of CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by width and height.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/cadoptions/forrenderingbywidthandheight/
 ---
 ## CadOptions.ForRenderingByWidthAndHeight method
 
-Initializes an instance of the [`CadOptions`](../../cadoptions) class for rendering by width and height.
+Initializes new instance of [`CadOptions`](../../cadoptions) class for rendering by width and height.
 
 ```csharp
 public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
@@ -16,8 +16,8 @@ public static CadOptions ForRenderingByWidthAndHeight(int width, int height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| width | Int32 | The width of the output result (in pixels). |
-| height | Int32 | The height of the output result (in pixels). |
+| width | Int32 | The width of the output result in pixels. |
+| height | Int32 | The height of the output result in pixels. |
 
 ### Return Value
 
@@ -29,10 +29,6 @@ New instance of [`CadOptions`](../../cadoptions) class for rendering by width an
 | --- | --- |
 | ArgumentException | Thrown when *width* is less or equal to zero. |
 | ArgumentException | Thrown when *height* is less or equal to zero. |
-
-### Remarks
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#configure-the-output-image-size).
 
 ### See Also
 

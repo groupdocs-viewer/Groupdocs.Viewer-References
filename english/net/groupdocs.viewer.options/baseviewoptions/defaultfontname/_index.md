@@ -1,24 +1,18 @@
 ---
 title: DefaultFontName
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the default font for a document.
+description: Default font to be used when particular font used in document cant be found.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/baseviewoptions/defaultfontname/
 ---
 ## BaseViewOptions.DefaultFontName property
 
-Sets the default font for a document.
+Default font to be used when particular font used in document can't be found.
 
 ```csharp
 public string DefaultFontName { get; set; }
 ```
-
-### Remarks
-
-Use this property to set the default font for a document. GroupDocs.Viewer uses this font during rendering instead of any not installed fonts.
-
-For code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/replace-missing-font/).
 
 ### See Also
 

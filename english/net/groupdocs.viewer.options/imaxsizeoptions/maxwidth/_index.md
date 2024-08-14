@@ -1,14 +1,14 @@
 ---
 title: MaxWidth
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Maximum width of an output image in pixels.
+description: Max width of an output image in pixels.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/imaxsizeoptions/maxwidth/
 ---
 ## IMaxSizeOptions.MaxWidth property
 
-Maximum width of an output image in pixels.
+Max width of an output image in pixels.
 
 ```csharp
 public int MaxWidth { get; set; }

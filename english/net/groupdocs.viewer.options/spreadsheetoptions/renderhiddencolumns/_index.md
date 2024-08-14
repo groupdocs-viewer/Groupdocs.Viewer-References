@@ -14,10 +14,6 @@ Enables hidden columns rendering.
 public bool RenderHiddenColumns { get; set; }
 ```
 
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#render-hidden-rows-and-columns).
-
 ### See Also
 
 * class [SpreadsheetOptions](../../spreadsheetoptions)

@@ -1,24 +1,18 @@
 ---
 title: Width
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the width of the output image in pixels.
+description: The width of the output image in pixels.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/jpgviewoptions/width/
 ---
 ## JpgViewOptions.Width property
 
-Sets the width of the output image (in pixels).
+The width of the output image in pixels.
 
 ```csharp
 public int Width { get; set; }
 ```
-
-### Remarks
-
-Use this property to set the output image width (in pixels). For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/image-viewer-adjust-image-size/).
-
-If you set this property, the [`MaxWidth`](../maxwidth) property is ignored.
 
 ### See Also
 

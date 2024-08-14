@@ -1,22 +1,18 @@
 ---
 title: TimeZoneOffset
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Message time zone offset.
+description: Message time zone offset
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/emailoptions/timezoneoffset/
 ---
 ## EmailOptions.TimeZoneOffset property
 
-Message time zone offset.
+Message time zone offset
 
 ```csharp
 public TimeSpan TimeZoneOffset { get; set; }
 ```
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/#specify-the-date-and-time-format-and-change-the-time-zone).
 
 ### See Also
 

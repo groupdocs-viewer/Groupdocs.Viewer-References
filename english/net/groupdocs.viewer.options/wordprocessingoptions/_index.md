@@ -1,14 +1,14 @@
 ---
 title: WordProcessingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains options for rendering Word documents. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderworddocuments/.
+description: This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
 type: docs
-weight: 740
+weight: 600
 url: /net/groupdocs.viewer.options/wordprocessingoptions/
 ---
 ## WordProcessingOptions class
 
-Contains options for rendering Word documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/).
+This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
 
 ```csharp
 public class WordProcessingOptions
@@ -18,20 +18,23 @@ public class WordProcessingOptions
 
 | Name | Description |
 | --- | --- |
-| [WordProcessingOptions](wordprocessingoptions)() | Contains options for rendering word processing documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#render-tracked-changes). |
+| [WordProcessingOptions](wordprocessingoptions)() | Provides options for rendering word processing documents. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [BottomMargin](../../groupdocs.viewer.options/wordprocessingoptions/bottommargin) { get; set; } | Sets the bottom margin of a page. |
-| [EnableOpenTypeFeatures](../../groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures) { get; set; } | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian Latin-based, or Cyrillic-based scripts. |
-| [LeftMargin](../../groupdocs.viewer.options/wordprocessingoptions/leftmargin) { get; set; } | Sets the left margin of a page. |
+| [BottomMargin](../../groupdocs.viewer.options/wordprocessingoptions/bottommargin) { get; set; } | The distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
+| [EnableOpenTypeFeatures](../../groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures) { get; set; } | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
+| [LeftMargin](../../groupdocs.viewer.options/wordprocessingoptions/leftmargin) { get; set; } | The distance (in points) between the left edge of the page and the left boundary of the body text. |
 | [PageSize](../../groupdocs.viewer.options/wordprocessingoptions/pagesize) { get; set; } | The size of the output page. The default value is Unspecified which means that a page size is set in a page settings (Page Setup) is used.  When rendering HTM and HTML files the default page size is set to Letter 792 x 612 points. As a result, some of the content may not fit into the page frame. Set a larger page size e.g. A3 to fit the contents. |
 | [RenderTrackedChanges](../../groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges) { get; set; } | Enables tracked changes (revisions) rendering. |
-| [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | Sets the right margin of a page. |
-| [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | Sets the top margin of a page. |
-| [UnlinkTableOfContents](../../groupdocs.viewer.options/wordprocessingoptions/unlinktableofcontents) { get; set; } | When rendering to HTML or PDF, you can set this option to `true` to disable navigation from the table of contents. For HTML rendering, `a` tags with relative links will be replaced with `span` tags, removing functionality but preserving visual appearance. For PDF rendering, the table of contents will be rendered as plain text without links to document sections. |
+| [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | The distance (in points) between the right edge of the page and the right boundary of the body text. |
+| [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | The distance (in points) between the top edge of the page and the top boundary of the body text. |
+
+### Remarks
+
+See also  Render Word documents as HTML, PDF, or image files  for more details and code snippets.
 
 ### See Also
 

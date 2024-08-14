@@ -3,7 +3,7 @@ title: LayoutName
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The name of the specific layout to render. Layout name is casesensitive.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.viewer.options/cadoptions/layoutname/
 ---
 ## CadOptions.LayoutName property
@@ -16,7 +16,7 @@ public string LayoutName { get; set; }
 
 ### Remarks
 
-This option is available only for the CAD drawings that support layouts: [`DXF`](../../../groupdocs.viewer/filetype/dxf), [`DWG`](../../../groupdocs.viewer/filetype/dwg), [`DWT`](../../../groupdocs.viewer/filetype/dwt), [`DWF`](../../../groupdocs.viewer/filetype/dwf), and [`DWFX`](../../../groupdocs.viewer/filetype/dwfx); By default only the Model is rendered.
+This option applies only to CAD drawings that support layouts [`DXF`](../../../groupdocs.viewer/filetype/dxf), [`DWG`](../../../groupdocs.viewer/filetype/dwg), [`DWT`](../../../groupdocs.viewer/filetype/dwt), and [`DWF`](../../../groupdocs.viewer/filetype/dwf) and also [`DWFX`](../../../groupdocs.viewer/filetype/dwfx); By default only Model is rendered.
 
 ### See Also
 

@@ -10,17 +10,9 @@ url: /net/groupdocs.viewer.options/archiveoptions/itemsperpage/
 
 Number of records per page (for rendering to HTML only)
 
-Sets the number of archive items to display on each HTML page.
-
 ```csharp
 public int ItemsPerPage { get; set; }
 ```
-
-### Remarks
-
-Use this property to set the number of archive items to display on each HTML page. The default value is `16`. This option is available for rendering to HTML format.
-
-For more information and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/#specify-the-number-of-items-to-render).
 
 ### See Also
 

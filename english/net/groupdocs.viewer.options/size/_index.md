@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains the watermark size.
+description: Watermark size.
 type: docs
-weight: 630
+weight: 490
 url: /net/groupdocs.viewer.options/size/
 ---
 ## Size class
 
-Contains the watermark size.
+Watermark size.
 
 ```csharp
 public class Size
@@ -18,7 +18,7 @@ public class Size
 
 | Name | Description |
 | --- | --- |
-| [Size](size)(byte) | Initializes an instance of the [`Size`](../size) class. |
+| [Size](size)(byte) | Initializes new instance of [`Size`](../size) class. |
 
 ## Properties
 

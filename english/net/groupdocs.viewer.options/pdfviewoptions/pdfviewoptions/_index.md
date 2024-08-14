@@ -1,14 +1,14 @@
 ---
 title: PdfViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions class.
+description: Initializes new instance of PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/pdfviewoptions/pdfviewoptions/
 ---
 ## PdfViewOptions(CreateFileStream) {#constructor_1}
 
-Initializes an instance of [`PdfViewOptions`](../../pdfviewoptions) class.
+Initializes new instance of [`PdfViewOptions`](../../pdfviewoptions) class.
 
 ```csharp
 public PdfViewOptions(CreateFileStream createFileStream)
@@ -24,10 +24,6 @@ public PdfViewOptions(CreateFileStream createFileStream)
 | --- | --- |
 | ArgumentNullException | Thrown when *createFileStream* is null. |
 
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
-
 ### See Also
 
 * delegate [CreateFileStream](../../../groupdocs.viewer.interfaces/createfilestream)
@@ -39,7 +35,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## PdfViewOptions(CreateFileStream, ReleaseFileStream) {#constructor_2}
 
-Initializes an instance of [`PdfViewOptions`](../../pdfviewoptions) class.
+Initializes new instance of [`PdfViewOptions`](../../pdfviewoptions) class.
 
 ```csharp
 public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream releaseFileStream)
@@ -57,10 +53,6 @@ public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream relea
 | ArgumentNullException | Thrown when *createFileStream* is null. |
 | ArgumentNullException | Thrown when *releaseFileStream* is null. |
 
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
-
 ### See Also
 
 * delegate [CreateFileStream](../../../groupdocs.viewer.interfaces/createfilestream)
@@ -73,7 +65,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## PdfViewOptions(IFileStreamFactory) {#constructor_3}
 
-Initializes an instance of [`PdfViewOptions`](../../pdfviewoptions) class.
+Initializes new instance of [`PdfViewOptions`](../../pdfviewoptions) class.
 
 ```csharp
 public PdfViewOptions(IFileStreamFactory fileStreamFactory)
@@ -89,10 +81,6 @@ public PdfViewOptions(IFileStreamFactory fileStreamFactory)
 | --- | --- |
 | ArgumentNullException | Thrown when *fileStreamFactory* is null. |
 
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
-
 ### See Also
 
 * interface [IFileStreamFactory](../../../groupdocs.viewer.interfaces/ifilestreamfactory)
@@ -104,7 +92,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## PdfViewOptions() {#constructor}
 
-Initializes an instance of [`PdfViewOptions`](../../pdfviewoptions) class.
+Initializes new instance of [`PdfViewOptions`](../../pdfviewoptions) class.
 
 ```csharp
 public PdfViewOptions()
@@ -112,9 +100,7 @@ public PdfViewOptions()
 
 ### Remarks
 
-This constructor Initializes an instance of [`PdfViewOptions`](../../pdfviewoptions) with "output.pdf" as file path format for the output file. The output file will be placed into current working directory of the application.
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+This constructor initializes new instance of [`PdfViewOptions`](../../pdfviewoptions) with "output.pdf" as file path format for the output file. The output file will be placed into current working directory of the application.
 
 ### See Also
 
@@ -126,7 +112,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## PdfViewOptions(string) {#constructor_4}
 
-Initializes an instance of [`PdfViewOptions`](../../pdfviewoptions) class.
+Initializes new instance of [`PdfViewOptions`](../../pdfviewoptions) class.
 
 ```csharp
 public PdfViewOptions(string outputFilePath)
@@ -141,10 +127,6 @@ public PdfViewOptions(string outputFilePath)
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown when *outputFilePath* is null or empty. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
 
 ### See Also
 

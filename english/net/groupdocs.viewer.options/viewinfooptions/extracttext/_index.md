@@ -1,24 +1,18 @@
 ---
 title: ExtractText
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Enables text extraction.
+description: Indicates that text extraction is enabled.
 type: docs
 weight: 90
 url: /net/groupdocs.viewer.options/viewinfooptions/extracttext/
 ---
 ## ViewInfoOptions.ExtractText property
 
-Enables text extraction.
+Indicates that text extraction is enabled.
 
 ```csharp
 public bool ExtractText { get; set; }
 ```
-
-### Remarks
-
-Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/image-viewer-get-text-coordinates/).
 
 ### See Also
 

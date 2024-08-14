@@ -3,7 +3,7 @@ title: IFileStreamFactory
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines the methods that are required for instantiating and releasing output file stream.
 type: docs
-weight: 270
+weight: 710
 url: /net/groupdocs.viewer.interfaces/ifilestreamfactory/
 ---
 ## IFileStreamFactory interface

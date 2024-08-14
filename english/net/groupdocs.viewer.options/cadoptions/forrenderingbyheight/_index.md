@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByHeight
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by height.
+description: Initializes new instance of CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by height.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/cadoptions/forrenderingbyheight/
 ---
 ## CadOptions.ForRenderingByHeight method
 
-Initializes an instance of the [`CadOptions`](../../cadoptions) class for rendering by height.
+Initializes new instance of [`CadOptions`](../../cadoptions) class for rendering by height.
 
 ```csharp
 public static CadOptions ForRenderingByHeight(int height)
@@ -16,21 +16,17 @@ public static CadOptions ForRenderingByHeight(int height)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| height | Int32 | The height of the output result (in pixels). |
+| height | Int32 | The height of the output result in pixels. |
 
 ### Return Value
 
-New instance of the [`CadOptions`](../../cadoptions) class for rendering by height.
+New instance of [`CadOptions`](../../cadoptions) class for rendering by height.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown when *height* is less or equal to zero. |
-
-### Remarks
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#configure-the-output-image-size).
 
 ### See Also
 

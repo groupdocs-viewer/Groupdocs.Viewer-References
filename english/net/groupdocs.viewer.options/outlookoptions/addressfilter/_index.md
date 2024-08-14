@@ -1,22 +1,18 @@
 ---
 title: AddressFilter
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the emailaddress used to filter messages by sender or recipient.
+description: The emailaddress used to filter messages by sender or recipient.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/outlookoptions/addressfilter/
 ---
 ## OutlookOptions.AddressFilter property
 
-Sets the email-address used to filter messages by sender or recipient.
+The email-address used to filter messages by sender or recipient.
 
 ```csharp
 public string AddressFilter { get; set; }
 ```
-
-### Remarks
-
-Use this property to render all messages that contain specific text in the sender’s or recipient’s address. For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-outlook-data-files/#filter-messages).
 
 ### See Also
 

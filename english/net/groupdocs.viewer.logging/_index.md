@@ -3,7 +3,7 @@ title: GroupDocs.Viewer.Logging
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The namespace provides classes to customize logging behaviour.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.viewer.logging/
 ---
 The namespace provides classes to customize logging behaviour.

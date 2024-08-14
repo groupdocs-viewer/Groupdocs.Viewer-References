@@ -3,7 +3,7 @@ title: IMaxSizeOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Limits of image size options interface.
 type: docs
-weight: 450
+weight: 320
 url: /net/groupdocs.viewer.options/imaxsizeoptions/
 ---
 ## IMaxSizeOptions interface
@@ -18,8 +18,8 @@ public interface IMaxSizeOptions
 
 | Name | Description |
 | --- | --- |
-| [MaxHeight](../../groupdocs.viewer.options/imaxsizeoptions/maxheight) { get; set; } | Maximum height of an output image in pixels. |
-| [MaxWidth](../../groupdocs.viewer.options/imaxsizeoptions/maxwidth) { get; set; } | Maximum width of an output image in pixels. |
+| [MaxHeight](../../groupdocs.viewer.options/imaxsizeoptions/maxheight) { get; set; } | Max height of an output image in pixels. |
+| [MaxWidth](../../groupdocs.viewer.options/imaxsizeoptions/maxwidth) { get; set; } | Max width of an output image in pixels. |
 
 ### See Also
 

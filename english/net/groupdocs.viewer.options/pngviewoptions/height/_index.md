@@ -1,24 +1,18 @@
 ---
 title: Height
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the height of an output image in pixels.
+description: The height of an output image in pixels.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/pngviewoptions/height/
 ---
 ## PngViewOptions.Height property
 
-Sets the height of an output image (in pixels).
+The height of an output image in pixels.
 
 ```csharp
 public int Height { get; set; }
 ```
-
-### Remarks
-
-Use this property to set the output image height (in pixels). For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/image-viewer-adjust-image-size/).
-
-If you set this property, the [`MaxHeight`](../maxheight) property is ignored.
 
 ### See Also
 

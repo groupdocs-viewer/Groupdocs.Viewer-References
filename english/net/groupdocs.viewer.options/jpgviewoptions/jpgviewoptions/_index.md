@@ -1,14 +1,14 @@
 ---
 title: JpgViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the JpgViewOptionsgroupdocs.viewer.options/jpgviewoptions class.
+description: Initializes new instance of JpgViewOptionsgroupdocs.viewer.options/jpgviewoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/jpgviewoptions/jpgviewoptions/
 ---
 ## JpgViewOptions(CreatePageStream) {#constructor_1}
 
-Initializes an instance of the [`JpgViewOptions`](../../jpgviewoptions) class.
+Initializes new instance of [`JpgViewOptions`](../../jpgviewoptions) class.
 
 ```csharp
 public JpgViewOptions(CreatePageStream createPageStream)
@@ -16,17 +16,13 @@ public JpgViewOptions(CreatePageStream createPageStream)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | CreatePageStream | The method that instantiates a stream used to write output page data. |
+| createPageStream | CreatePageStream | The method that instantiates stream used to write output page data. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Thrown when *createPageStream* is null. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/#rendering-to-jpeg).
 
 ### See Also
 
@@ -39,7 +35,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## JpgViewOptions(CreatePageStream, ReleasePageStream) {#constructor_2}
 
-Initializes an instance of the [`JpgViewOptions`](../../jpgviewoptions) class.
+Initializes new instance of [`JpgViewOptions`](../../jpgviewoptions) class.
 
 ```csharp
 public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
@@ -47,8 +43,8 @@ public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| createPageStream | CreatePageStream | The method that instantiates a stream used to write output page data. |
-| releasePageStream | ReleasePageStream | The method that releases a stream created by method assigned to delegate that passed to *createPageStream* parameter. |
+| createPageStream | CreatePageStream | The method that instantiates stream used to write output page data. |
+| releasePageStream | ReleasePageStream | The method that releases stream created by method assigned to delegate that passed to *createPageStream* parameter. |
 
 ### Exceptions
 
@@ -56,10 +52,6 @@ public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 | --- | --- |
 | ArgumentNullException | Thrown when *createPageStream* is null. |
 | ArgumentNullException | Thrown when *releasePageStream* is null. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/#rendering-to-jpeg).
 
 ### See Also
 
@@ -73,7 +65,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## JpgViewOptions(IPageStreamFactory) {#constructor_3}
 
-Initializes an instance of the [`JpgViewOptions`](../../jpgviewoptions) class.
+Initializes new instance of [`JpgViewOptions`](../../jpgviewoptions) class.
 
 ```csharp
 public JpgViewOptions(IPageStreamFactory pageStreamFactory)
@@ -89,10 +81,6 @@ public JpgViewOptions(IPageStreamFactory pageStreamFactory)
 | --- | --- |
 | ArgumentNullException | Thrown when *pageStreamFactory* is null. |
 
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/#rendering-to-jpeg).
-
 ### See Also
 
 * interface [IPageStreamFactory](../../../groupdocs.viewer.interfaces/ipagestreamfactory)
@@ -104,7 +92,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## JpgViewOptions() {#constructor}
 
-Initializes an instance of the [`JpgViewOptions`](../../jpgviewoptions) class.
+Initializes new instance of [`JpgViewOptions`](../../jpgviewoptions) class.
 
 ```csharp
 public JpgViewOptions()
@@ -112,9 +100,7 @@ public JpgViewOptions()
 
 ### Remarks
 
-This constructor initializes an instance of the [`JpgViewOptions`](../../jpgviewoptions) with "p_{0}.jpg" as file path format for the output files. The output files are placed into current working directory of the application.
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/#rendering-to-jpeg).
+This constructor initializes new instance of [`JpgViewOptions`](../../jpgviewoptions) with "p_{0}.jpg" as file path format for the output files. The output files will be placed into current working directory of the application.
 
 ### See Also
 
@@ -126,7 +112,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## JpgViewOptions(string) {#constructor_4}
 
-Initializes an instance of the [`JpgViewOptions`](../../jpgviewoptions) class.
+Initializes new instance of [`JpgViewOptions`](../../jpgviewoptions) class.
 
 ```csharp
 public JpgViewOptions(string filePathFormat)
@@ -141,10 +127,6 @@ public JpgViewOptions(string filePathFormat)
 | exception | condition |
 | --- | --- |
 | ArgumentException | Thrown when *filePathFormat* is null or empty. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/#rendering-to-jpeg).
 
 ### See Also
 

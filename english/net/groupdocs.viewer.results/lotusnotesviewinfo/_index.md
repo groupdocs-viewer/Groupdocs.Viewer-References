@@ -3,7 +3,7 @@ title: LotusNotesViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for Lotus notes database storage
 type: docs
-weight: 830
+weight: 140
 url: /net/groupdocs.viewer.results/lotusnotesviewinfo/
 ---
 ## LotusNotesViewInfo class

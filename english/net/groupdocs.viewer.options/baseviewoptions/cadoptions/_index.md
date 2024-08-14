@@ -14,10 +14,6 @@ The CAD drawing view options.
 public CadOptions CadOptions { get; set; }
 ```
 
-### Remarks
-
-For more information and code examples, see the [Render CAD drawings and models as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-cad-drawings-and-models/) and [Specify rendering options for CAD files](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/).
-
 ### See Also
 
 * class [CadOptions](../../cadoptions)

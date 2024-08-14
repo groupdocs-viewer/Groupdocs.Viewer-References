@@ -1,14 +1,14 @@
 ---
 title: PdfOptimizationOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Reduces output PDF file size by applying optimization techniques with different options.
+description: Reduce output PDF file size applying optimization techniques with different options.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/pdfviewoptions/pdfoptimizationoptions/
 ---
 ## PdfViewOptions.PdfOptimizationOptions property
 
-Reduces output PDF file size by applying optimization techniques with different options.
+Reduce output PDF file size applying optimization techniques with different options.
 
 ```csharp
 public PdfOptimizationOptions PdfOptimizationOptions { get; set; }
@@ -16,7 +16,24 @@ public PdfOptimizationOptions PdfOptimizationOptions { get; set; }
 
 ### Remarks
 
-For details and code samples, see this [page](https://docs.groupdocs.com/viewer/net/optimization-pdf-options/) and its children.
+This option is supported for any input file formats which are supported for conversion to PDF.
+
+* [Supported document formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/)
+
+### Examples
+
+The example demonstrates a typical usage of this option.
+
+```csharp
+using (var viewer = new Viewer("cv.docx"))
+{
+    PdfViewOptions viewOptions = new PdfViewOptions();
+    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions();
+    viewOptions.PdfOptimizationOptions.Lineriaze = true;
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

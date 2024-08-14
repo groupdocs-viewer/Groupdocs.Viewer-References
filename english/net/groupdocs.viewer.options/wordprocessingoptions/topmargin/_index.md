@@ -1,14 +1,14 @@
 ---
 title: TopMargin
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the top margin of a page.
+description: The distance in points between the top edge of the page and the top boundary of the body text.
 type: docs
 weight: 80
 url: /net/groupdocs.viewer.options/wordprocessingoptions/topmargin/
 ---
 ## WordProcessingOptions.TopMargin property
 
-Sets the top margin of a page.
+The distance (in points) between the top edge of the page and the top boundary of the body text.
 
 ```csharp
 public float? TopMargin { get; set; }
@@ -16,7 +16,7 @@ public float? TopMargin { get; set; }
 
 ### Remarks
 
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins).
+By default, the Top Margin value that is set in the Page Setup of the source document will be used.
 
 ### See Also
 

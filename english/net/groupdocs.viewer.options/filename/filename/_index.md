@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the FileNamegroupdocs.viewer.options/filename class.
+description: Initializes new instance of FileNamegroupdocs.viewer.options/filename class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/filename/filename/
 ---
 ## FileName constructor
 
-Initializes an instance of the [`FileName`](../../filename) class.
+Initializes new instance of [`FileName`](../../filename) class.
 
 ```csharp
 public FileName(string fileName)

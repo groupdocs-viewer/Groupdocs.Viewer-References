@@ -1,14 +1,14 @@
 ---
 title: MaxResolution
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the maximum resolution in the output PDF file.
+description: Can be used with CompressImage option to resize the images with a lower resolution. In this case we should set CompressImage to true ResizeImages to true and MaxResolution to the appropriate value.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/maxresolution/
 ---
 ## PdfOptimizationOptions.MaxResolution property
 
-Sets the maximum resolution in the output PDF file.
+Can be used with CompressImage option to resize the images with a lower resolution. In this case, we should set CompressImage to true, ResizeImages to true and MaxResolution to the appropriate value.
 
 ```csharp
 public int MaxResolution { get; set; }
@@ -16,11 +16,27 @@ public int MaxResolution { get; set; }
 
 ### Remarks
 
-To allow this option, set the [`CompressImages`](../compressimages) and `MaxResolution` properties to `true`.
-
 The default value is `300`.
 
-For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-set-max-resolution/).
+### Examples
+
+The example demonstrates a typical usage of this option.
+
+```csharp
+using (var viewer = new Viewer("sample.docx"))
+{
+    PdfViewOptions viewOptions = new PdfViewOptions();
+    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
+    {
+        CompressImages = true,
+        ImageQuality = 50,
+        ResizeImages = true,
+        MaxResolution = 100
+    };
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

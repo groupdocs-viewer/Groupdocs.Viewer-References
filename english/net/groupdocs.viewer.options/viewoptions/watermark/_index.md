@@ -1,14 +1,14 @@
 ---
 title: Watermark
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The text watermark to be applied to each page.
+description: The text watermark applied to each page.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/viewoptions/watermark/
 ---
 ## ViewOptions.Watermark property
 
-The text watermark to be applied to each page.
+The text watermark applied to each page.
 
 ```csharp
 public Watermark Watermark { get; set; }
@@ -16,9 +16,7 @@ public Watermark Watermark { get; set; }
 
 ### Remarks
 
-If both `Watermark` and [`PageRotations`](../pagerotations) are specified, the watermark is applied to the rotated pages.
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/add-text-watermark/).
+In case both `Watermark` and [`PageRotations`](../pagerotations) are specified than watermark will be applied to the rotated pages.
 
 ### See Also
 

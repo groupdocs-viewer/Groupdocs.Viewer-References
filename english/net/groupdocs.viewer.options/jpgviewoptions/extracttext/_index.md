@@ -16,9 +16,7 @@ public bool ExtractText { get; set; }
 
 ### Remarks
 
-Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/image-viewer-get-text-coordinates/).
+This option might be useful when you want to add selectable text layer over the image.
 
 ### See Also
 

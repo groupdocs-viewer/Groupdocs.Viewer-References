@@ -1,14 +1,14 @@
 ---
 title: ArchiveOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains options for rendering the archive files. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderarchivefiles/.
+description: Provides options for rendering archive files.
 type: docs
-weight: 380
+weight: 240
 url: /net/groupdocs.viewer.options/archiveoptions/
 ---
 ## ArchiveOptions class
 
-Contains options for rendering the archive files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/).
+Provides options for rendering archive files.
 
 ```csharp
 public class ArchiveOptions
@@ -18,14 +18,14 @@ public class ArchiveOptions
 
 | Name | Description |
 | --- | --- |
-| [ArchiveOptions](archiveoptions)() | Initializes an instance of the [`ArchiveOptions`](../archiveoptions) class. |
+| [ArchiveOptions](archiveoptions)() | Initializes new instance of [`ArchiveOptions`](../archiveoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [FileName](../../groupdocs.viewer.options/archiveoptions/filename) { get; set; } | Sets the displayed archive file name. |
-| [Folder](../../groupdocs.viewer.options/archiveoptions/folder) { get; set; } | Sets the folder to be rendered. |
+| [FileName](../../groupdocs.viewer.options/archiveoptions/filename) { get; set; } | The filename to display in the header. By default the name of the source file is displayed. |
+| [Folder](../../groupdocs.viewer.options/archiveoptions/folder) { get; set; } | The folder inside the archive to be rendered. |
 | [ItemsPerPage](../../groupdocs.viewer.options/archiveoptions/itemsperpage) { get; set; } | Number of records per page (for rendering to HTML only) |
 
 ### See Also

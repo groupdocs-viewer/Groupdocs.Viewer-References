@@ -3,12 +3,12 @@ title: Width
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The width of the output result in pixels.
 type: docs
-weight: 140
+weight: 130
 url: /net/groupdocs.viewer.options/cadoptions/width/
 ---
 ## CadOptions.Width property
 
-The width of the output result (in pixels).
+The width of the output result in pixels.
 
 ```csharp
 public int Width { get; }

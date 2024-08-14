@@ -3,7 +3,7 @@ title: TimeUnit
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Time unit of the project duration.
 type: docs
-weight: 680
+weight: 540
 url: /net/groupdocs.viewer.options/timeunit/
 ---
 ## TimeUnit enumeration
@@ -22,10 +22,6 @@ public enum TimeUnit
 | Days | `1` | The one day interval. |
 | ThirdsOfMonths | `10` | The one third of the month. |
 | Months | `30` | The one month interval. |
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/#adjust-the-time-unit).
 
 ### See Also
 

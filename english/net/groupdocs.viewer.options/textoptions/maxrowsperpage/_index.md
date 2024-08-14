@@ -1,22 +1,18 @@
 ---
 title: MaxRowsPerPage
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The maximum number of rows per page.
+description: Max rows per page. Default value is 55.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/textoptions/maxrowsperpage/
 ---
 ## TextOptions.MaxRowsPerPage property
 
-The maximum number of rows per page.
+Max rows per page. Default value is 55.
 
 ```csharp
 public int MaxRowsPerPage { get; set; }
 ```
-
-### Remarks
-
-The default value is 55. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-text-files/#specify-rendering-options).
 
 ### See Also
 

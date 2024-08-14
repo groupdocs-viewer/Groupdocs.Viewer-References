@@ -3,7 +3,7 @@ title: Permissions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines PDF document permissions.
 type: docs
-weight: 550
+weight: 410
 url: /net/groupdocs.viewer.options/permissions/
 ---
 ## Permissions enumeration
@@ -20,10 +20,10 @@ public enum Permissions
 | Name | Value | Description |
 | --- | --- | --- |
 | AllowAll | `0` | Allow printing, modification and data extraction. |
-| DenyPrinting | `1` | Deny printing. |
-| DenyModification | `2` | Deny content modification, filling in forms, adding or modifying annotations. |
+| DenyPrinting | `1` | Deny printing |
+| DenyModification | `2` | Deny to modify content, fill in forms, add or modify annotations. |
 | DenyDataExtraction | `4` | Deny text and graphics extraction. |
-| DenyAll | `7` | Deny printing, content modification and data extraction. |
+| DenyAll | `7` | Deny printing, modification and data extraction. |
 
 ### See Also
 

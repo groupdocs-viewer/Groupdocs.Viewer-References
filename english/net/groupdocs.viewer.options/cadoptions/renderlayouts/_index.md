@@ -1,14 +1,14 @@
 ---
 title: RenderLayouts
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Flag if layouts from CAD document should be rendered.
+description: Indicates whether layouts from CAD document should be rendered.
 type: docs
-weight: 110
+weight: 100
 url: /net/groupdocs.viewer.options/cadoptions/renderlayouts/
 ---
 ## CadOptions.RenderLayouts property
 
-Flag if layouts from CAD document should be rendered.
+Indicates whether layouts from CAD document should be rendered.
 
 ```csharp
 public bool RenderLayouts { get; set; }
@@ -16,7 +16,7 @@ public bool RenderLayouts { get; set; }
 
 ### Remarks
 
-This option is available only for the CAD drawings that support layouts [`DXF`](../../../groupdocs.viewer/filetype/dxf), [`DWG`](../../../groupdocs.viewer/filetype/dwg), [`DWT`](../../../groupdocs.viewer/filetype/dwt), and [`DWF`](../../../groupdocs.viewer/filetype/dwf), and [`DWFX`](../../../groupdocs.viewer/filetype/dwfx). By default only the Model is rendered.
+This option applies only to CAD drawings that support layouts [`DXF`](../../../groupdocs.viewer/filetype/dxf), [`DWG`](../../../groupdocs.viewer/filetype/dwg), [`DWT`](../../../groupdocs.viewer/filetype/dwt), and [`DWF`](../../../groupdocs.viewer/filetype/dwf) and also [`DWFX`](../../../groupdocs.viewer/filetype/dwfx); By default only Model is rendered.
 
 ### See Also
 

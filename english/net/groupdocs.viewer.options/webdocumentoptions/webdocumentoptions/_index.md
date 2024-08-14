@@ -1,22 +1,18 @@
 ---
 title: WebDocumentOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the WebDocumentOptionsgroupdocs.viewer.options/webdocumentoptions class.
+description: Provides options for rendering word processing documents.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/webdocumentoptions/webdocumentoptions/
 ---
 ## WebDocumentOptions constructor
 
-Initializes an instance of the [`WebDocumentOptions`](../../webdocumentoptions) class.
+Provides options for rendering word processing documents.
 
 ```csharp
 public WebDocumentOptions()
 ```
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-web-documents/).
 
 ### See Also
 

@@ -14,10 +14,6 @@ The spreadsheet files view options.
 public SpreadsheetOptions SpreadsheetOptions { get; set; }
 ```
 
-### Remarks
-
-For more information and code examples, see the [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/), [Split a worksheet into pages](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/), and [Specify spreadsheet rendering options](https://docs.groupdocs.com/viewer/net/specify-rendering-options/).
-
 ### See Also
 
 * class [SpreadsheetOptions](../../spreadsheetoptions)

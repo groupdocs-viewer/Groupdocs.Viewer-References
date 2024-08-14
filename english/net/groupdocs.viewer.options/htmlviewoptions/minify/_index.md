@@ -14,12 +14,6 @@ Enables HTML content and HTML resources minification.
 public bool Minify { get; set; }
 ```
 
-### Remarks
-
-Compression of the output content (HTML, CSS, and SVG) is one of the ways to optimize the HTML file. To do this, set this property to `true`.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/minify-html/).
-
 ### See Also
 
 * class [HtmlViewOptions](../../htmlviewoptions)

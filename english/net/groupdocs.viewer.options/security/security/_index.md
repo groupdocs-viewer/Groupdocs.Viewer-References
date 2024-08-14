@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the Securitygroupdocs.viewer.options/security class.
+description: Initializes new instance of Securitygroupdocs.viewer.options/security class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/security/security/
 ---
 ## Security constructor
 
-Initializes an instance of the [`Security`](../../security) class.
+Initializes new instance of [`Security`](../../security) class.
 
 ```csharp
 public Security()

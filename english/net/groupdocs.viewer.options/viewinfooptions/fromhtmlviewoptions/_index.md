@@ -1,14 +1,14 @@
 ---
 title: FromHtmlViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on the HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions object.
+description: Initializes new instance of ViewInfoOptionsgroupdocs.viewer.options/viewinfooptions class based on HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions object.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/viewinfooptions/fromhtmlviewoptions/
 ---
 ## ViewInfoOptions.FromHtmlViewOptions method
 
-Initializes an instance of the [`ViewInfoOptions`](../../viewinfooptions) class based on the [`HtmlViewOptions`](../../htmlviewoptions) object.
+Initializes new instance of [`ViewInfoOptions`](../../viewinfooptions) class based on [`HtmlViewOptions`](../../htmlviewoptions) object.
 
 ```csharp
 public static ViewInfoOptions FromHtmlViewOptions(HtmlViewOptions options)
@@ -20,7 +20,7 @@ public static ViewInfoOptions FromHtmlViewOptions(HtmlViewOptions options)
 
 ### Return Value
 
-New instance of the [`ViewInfoOptions`](../../viewinfooptions) class.
+New instance of [`ViewInfoOptions`](../../viewinfooptions) class.
 
 ### Exceptions
 

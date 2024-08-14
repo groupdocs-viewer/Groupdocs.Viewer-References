@@ -1,14 +1,14 @@
 ---
 title: RightMargin
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the right margin of a page.
+description: The distance in points between the right edge of the page and the right boundary of the body text.
 type: docs
 weight: 70
 url: /net/groupdocs.viewer.options/wordprocessingoptions/rightmargin/
 ---
 ## WordProcessingOptions.RightMargin property
 
-Sets the right margin of a page.
+The distance (in points) between the right edge of the page and the right boundary of the body text.
 
 ```csharp
 public float? RightMargin { get; set; }
@@ -16,7 +16,7 @@ public float? RightMargin { get; set; }
 
 ### Remarks
 
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins).
+By default, the Right Margin value that is set in the Page Setup of the source document will be used.
 
 ### See Also
 

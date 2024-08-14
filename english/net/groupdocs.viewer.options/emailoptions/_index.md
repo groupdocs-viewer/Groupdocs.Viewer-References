@@ -1,14 +1,14 @@
 ---
 title: EmailOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains options for rendering email messages. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderemailmessages/.
+description: Provides options for rendering email messages.
 type: docs
-weight: 410
+weight: 270
 url: /net/groupdocs.viewer.options/emailoptions/
 ---
 ## EmailOptions class
 
-Contains options for rendering email messages. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/).
+Provides options for rendering email messages.
 
 ```csharp
 public class EmailOptions
@@ -18,16 +18,16 @@ public class EmailOptions
 
 | Name | Description |
 | --- | --- |
-| [EmailOptions](emailoptions)() | Initializes an instance of the [`EmailOptions`](../emailoptions) class. |
+| [EmailOptions](emailoptions)() | Initializes new instance of [`EmailOptions`](../emailoptions) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [DateTimeFormat](../../groupdocs.viewer.options/emailoptions/datetimeformat) { get; set; } | Time Format (can be include TimeZone). For example: 'MM d yyyy HH:mm tt', if not set - current system format is used |
+| [DateTimeFormat](../../groupdocs.viewer.options/emailoptions/datetimeformat) { get; set; } | Time Format (can be include TimeZone) for example: 'MM d yyyy HH:mm tt', if not set - current system format is used |
 | [FieldTextMap](../../groupdocs.viewer.options/emailoptions/fieldtextmap) { get; set; } | The mapping between email message [`Field`](../field) and field text representation. |
 | [PageSize](../../groupdocs.viewer.options/emailoptions/pagesize) { get; set; } | The size of the output page. |
-| [TimeZoneOffset](../../groupdocs.viewer.options/emailoptions/timezoneoffset) { get; set; } | Message time zone offset. |
+| [TimeZoneOffset](../../groupdocs.viewer.options/emailoptions/timezoneoffset) { get; set; } | Message time zone offset |
 
 ### See Also
 

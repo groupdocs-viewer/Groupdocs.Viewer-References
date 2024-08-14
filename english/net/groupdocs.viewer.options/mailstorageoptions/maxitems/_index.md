@@ -1,14 +1,14 @@
 ---
 title: MaxItems
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the maximum number of messages or items to render.
+description: The maximum number of messages or items for render.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/mailstorageoptions/maxitems/
 ---
 ## MailStorageOptions.MaxItems property
 
-Sets the maximum number of messages or items to render.
+The maximum number of messages or items for render.
 
 ```csharp
 public int MaxItems { get; set; }
@@ -16,9 +16,7 @@ public int MaxItems { get; set; }
 
 ### Remarks
 
-Mail storage data files can be large and retrieving all messages can take significant time. This property limits the maximum number of messages or items that are rendered. Default value is 0 - all messages are rendered.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/#limit-the-number-of-items-to-render).
+Lotus notes data files can be large and retrieving all messages can take significant time. This setting limits maximum number of messages or items that are rendered. Default value is 0 - all messages will be rendered
 
 ### See Also
 

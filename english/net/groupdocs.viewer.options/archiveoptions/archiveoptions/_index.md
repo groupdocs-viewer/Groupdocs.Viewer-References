@@ -1,14 +1,14 @@
 ---
 title: ArchiveOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the ArchiveOptionsgroupdocs.viewer.options/archiveoptions class.
+description: Initializes new instance of ArchiveOptionsgroupdocs.viewer.options/archiveoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/archiveoptions/archiveoptions/
 ---
 ## ArchiveOptions constructor
 
-Initializes an instance of the [`ArchiveOptions`](../../archiveoptions) class.
+Initializes new instance of [`ArchiveOptions`](../../archiveoptions) class.
 
 ```csharp
 public ArchiveOptions()

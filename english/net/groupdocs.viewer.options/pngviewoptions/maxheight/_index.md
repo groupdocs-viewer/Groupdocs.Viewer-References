@@ -1,24 +1,18 @@
 ---
 title: MaxHeight
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the maximum height of an output image in pixels.
+description: Max height of an output image in pixels.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/pngviewoptions/maxheight/
 ---
 ## PngViewOptions.MaxHeight property
 
-Sets the maximum height of an output image (in pixels).
+Max height of an output image in pixels.
 
 ```csharp
 public int MaxHeight { get; set; }
 ```
-
-### Remarks
-
-Use this property to set the maximum output image height (in pixels). For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/).
-
-If you set the [`Height`](../height) property, this property is ignored.
 
 ### See Also
 

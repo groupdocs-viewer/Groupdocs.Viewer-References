@@ -14,10 +14,6 @@ Enables headings rendering.
 public bool RenderHeadings { get; set; }
 ```
 
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#render-row-and-column-headings).
-
 ### See Also
 
 * class [SpreadsheetOptions](../../spreadsheetoptions)

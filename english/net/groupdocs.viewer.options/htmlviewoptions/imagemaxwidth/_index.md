@@ -1,22 +1,18 @@
 ---
 title: ImageMaxWidth
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Max width of an output image in pixels. The property is available when converting single image to HTML only.
+description: Max width of an output image in pixels. When converting single image to HTML only
 type: docs
 weight: 80
 url: /net/groupdocs.viewer.options/htmlviewoptions/imagemaxwidth/
 ---
 ## HtmlViewOptions.ImageMaxWidth property
 
-Max width of an output image (in pixels). The property is available when converting single image to HTML only.
+Max width of an output image in pixels. (When converting single image to HTML only)
 
 ```csharp
 public int ImageMaxWidth { get; set; }
 ```
-
-### Remarks
-
-For details and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-html/).
 
 ### See Also
 

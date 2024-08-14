@@ -1,22 +1,18 @@
 ---
 title: RightMargin
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the right margin of a page when converting to PDF.
+description: To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
 type: docs
 weight: 150
 url: /net/groupdocs.viewer.options/spreadsheetoptions/rightmargin/
 ---
 ## SpreadsheetOptions.RightMargin property
 
-Sets the right margin of a page when converting to PDF.
+To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
 
 ```csharp
 public double RightMargin { get; set; }
 ```
-
-### Remarks
-
-If the parameter is less than 0, then the default value is used. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages).
 
 ### See Also
 

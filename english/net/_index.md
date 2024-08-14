@@ -5,7 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Viewer for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
-version: "24.7"
+version: "23.11.1"
 ---
 ## Namespaces
 
@@ -13,7 +13,6 @@ version: "24.7"
 | --- | --- |
 | [GroupDocs.Viewer](./groupdocs.viewer) | The namespace provides classes for rendering documents in HTML5, Image or PDF modes fast and with high quality. |
 | [GroupDocs.Viewer.Caching](./groupdocs.viewer.caching) | The namespace provides classes for customizing caching behaviour. |
-| [GroupDocs.Viewer.Drawing](./groupdocs.viewer.drawing) | The namespace provides types that replaces platform-specific graphics types like Color. |
 | [GroupDocs.Viewer.Exceptions](./groupdocs.viewer.exceptions) | The namespace provides different exceptions classes. |
 | [GroupDocs.Viewer.Fonts](./groupdocs.viewer.fonts) | The namespace provides classes and enumerations to manage fonts used during rendering process. |
 | [GroupDocs.Viewer.Interfaces](./groupdocs.viewer.interfaces) | The namespace provides interfaces to instantiate and release output document and it's resources. |

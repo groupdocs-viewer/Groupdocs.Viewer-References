@@ -1,14 +1,14 @@
 ---
 title: Watermark
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Represents a text watermark. For details see the documentationhttps//docs.groupdocs.com/viewer/net/addtextwatermark/.
+description: Represents text watermark.
 type: docs
-weight: 720
+weight: 580
 url: /net/groupdocs.viewer.options/watermark/
 ---
 ## Watermark class
 
-Represents a text watermark. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/add-text-watermark/).
+Represents text watermark.
 
 ```csharp
 public class Watermark
@@ -18,13 +18,13 @@ public class Watermark
 
 | Name | Description |
 | --- | --- |
-| [Watermark](watermark)(string) | Initializes an instance of the [`Watermark`](../watermark) class. |
+| [Watermark](watermark)(string) | Initializes new instance of [`Watermark`](../watermark) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Color](../../groupdocs.viewer.options/watermark/color) { get; set; } | The watermark color. Default value is [`Red`](../../groupdocs.viewer.drawing/rgb24color.knowncolors.csslevel1/red). |
+| [Color](../../groupdocs.viewer.options/watermark/color) { get; set; } | The watermark color. Default value is Red. |
 | [FontName](../../groupdocs.viewer.options/watermark/fontname) { get; set; } | The font name used for the watermark. |
 | [Position](../../groupdocs.viewer.options/watermark/position) { get; set; } | The watermark position. Default value is Diagonal. |
 | [Size](../../groupdocs.viewer.options/watermark/size) { get; set; } | The watermark size. Default value is [`FullSize`](../size/fullsize). |

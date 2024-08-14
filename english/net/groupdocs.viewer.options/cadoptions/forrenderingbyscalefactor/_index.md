@@ -1,14 +1,14 @@
 ---
 title: ForRenderingByScaleFactor
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by scale factor.
+description: Initializes new instance of CadOptionsgroupdocs.viewer.options/cadoptions class for rendering by scale factor.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/cadoptions/forrenderingbyscalefactor/
 ---
 ## CadOptions.ForRenderingByScaleFactor method
 
-Initializes an instance of the [`CadOptions`](../../cadoptions) class for rendering by scale factor.
+Initializes new instance of [`CadOptions`](../../cadoptions) class for rendering by scale factor.
 
 ```csharp
 public static CadOptions ForRenderingByScaleFactor(float scaleFactor)
@@ -16,21 +16,11 @@ public static CadOptions ForRenderingByScaleFactor(float scaleFactor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scaleFactor | Single | Value higher than 1 enlarges output result; value between 0 and 1 reduces output result. |
+| scaleFactor | Single | Values higher than 1 will enlarge output result; values between 0 and 1 will make output result smaller. |
 
 ### Return Value
 
-New instance of the [`CadOptions`](../../cadoptions) class for rendering by scale factor.
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | Thrown when *scaleFactor* is less or equal to zero. |
-
-### Remarks
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#configure-the-output-image-size).
+New instance of [`CadOptions`](../../cadoptions) class for rendering by scale factor.
 
 ### See Also
 

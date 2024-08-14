@@ -3,7 +3,7 @@ title: FolderFontSource
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents the folder that contains TrueType fonts.
 type: docs
-weight: 180
+weight: 740
 url: /net/groupdocs.viewer.fonts/folderfontsource/
 ---
 ## FolderFontSource class

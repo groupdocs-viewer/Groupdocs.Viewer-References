@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the encoding used when opening textbased files or email messages such as CSVgroupdocs.viewer/filetype/csv TXTgroupdocs.viewer/filetype/txt and MSGgroupdocs.viewer/filetype/msg. Default value is UTF8.
+description: The encoding used when opening textbased files or email messages such as CSVgroupdocs.viewer/filetype/csv TXTgroupdocs.viewer/filetype/txt and MSGgroupdocs.viewer/filetype/msg. Default value is UTF8.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-Sets the encoding used when opening text-based files or email messages such as [`CSV`](../../../groupdocs.viewer/filetype/csv), [`TXT`](../../../groupdocs.viewer/filetype/txt), and [`MSG`](../../../groupdocs.viewer/filetype/msg). Default value is UTF8.
+The encoding used when opening text-based files or email messages such as [`CSV`](../../../groupdocs.viewer/filetype/csv), [`TXT`](../../../groupdocs.viewer/filetype/txt), and [`MSG`](../../../groupdocs.viewer/filetype/msg). Default value is UTF8.
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -16,7 +16,28 @@ public Encoding Encoding { get; set; }
 
 ### Remarks
 
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-encoding-when-loading-documents/).
+Learn more
+
+* [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/)
+* [Render text documents as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-text-files)
+* [Render email messages as HTML, PDF, PNG, and JPEG files](https://docs.groupdocs.com/viewer/net/render-email-messages/)
+
+### Examples
+
+The example demonstrates a typical usage of this option.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Encoding = Encoding.ASCII; // Set the encoding
+
+using (Viewer viewer = new Viewer("message.txt", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

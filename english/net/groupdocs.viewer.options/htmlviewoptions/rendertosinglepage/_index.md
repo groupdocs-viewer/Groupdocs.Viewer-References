@@ -16,7 +16,28 @@ public bool RenderToSinglePage { get; set; }
 
 ### Remarks
 
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/#create-a-single-html-page).
+**See the following topics for more information:**
+
+* [Render archives as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-archive-files/#create-a-single-html-page)
+* [Render text documents as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-text-files/#create-a-single-html-page)
+* [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file)
+* [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files](https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/#convert-all-excel-worksheets-to-one-html-file)
+* [Render web documents as PDF, PNG, and JPEG files](https://docs.groupdocs.com/viewer/net/render-web-documents/#create-an-html-file-with-embedded-resources)
+
+### Examples
+
+The example demonstrates a typical usage of this option.
+
+```csharp
+using (Viewer viewer = new Viewer("invoice.docx"))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+    viewOptions.RenderToSinglePage = true;
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

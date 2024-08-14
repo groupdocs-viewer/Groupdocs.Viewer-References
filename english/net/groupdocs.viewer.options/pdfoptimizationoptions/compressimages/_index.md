@@ -1,14 +1,14 @@
 ---
 title: CompressImages
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Enables compressing images in the output PDF file.
+description: If the source PDF file contains images consider compressing the images and setting their quality. In order to enable image compression set this option to true. All the images in a document will be recompressed. The compression is defined by the ImageQuality property which is the value of the quality in percent. 100 is unchanged quality. To decrease image quality set the ImageQuality property less than 100.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/compressimages/
 ---
 ## PdfOptimizationOptions.CompressImages property
 
-Enables compressing images in the output PDF file.
+If the source PDF file contains images, consider compressing the images and setting their quality. In order to enable image compression, set this option to true. All the images in a document will be re-compressed. The compression is defined by the ImageQuality property, which is the value of the quality in percent. 100% is unchanged quality. To decrease image quality, set the ImageQuality property less than 100.
 
 ```csharp
 public bool CompressImages { get; set; }
@@ -16,7 +16,25 @@ public bool CompressImages { get; set; }
 
 ### Remarks
 
-Use this option to allow other compressing options: [`ImageQuality`](../imagequality) and [`MaxResolution`](../maxresolution). For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-reduce-image-quality/).
+The default value is `false`.
+
+### Examples
+
+The example demonstrates a typical usage of this option.
+
+```csharp
+using (var viewer = new Viewer("sample.docx"))
+{
+    PdfViewOptions viewOptions = new PdfViewOptions();
+    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions 
+    {
+        CompressImages = true,
+        ImageQuality = 50
+    };
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

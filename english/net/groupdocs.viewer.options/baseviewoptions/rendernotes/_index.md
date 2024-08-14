@@ -14,12 +14,6 @@ Enables rendering notes.
 public bool RenderNotes { get; set; }
 ```
 
-### Remarks
-
-Some files, such as presentations or Microsoft project files, may contain notes. By default, GroupDocs.Viewer does not render notes. To do this, set this property to `true`.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/#render-speaker-notes).
-
 ### See Also
 
 * class [BaseViewOptions](../../baseviewoptions)

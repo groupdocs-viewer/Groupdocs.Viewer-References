@@ -3,7 +3,7 @@ title: GroupDocs.Viewer.Fonts
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The namespace provides classes and enumerations to manage fonts used during rendering process.
 type: docs
-weight: 50
+weight: 40
 url: /net/groupdocs.viewer.fonts/
 ---
 The namespace provides classes and enumerations to manage fonts used during rendering process.

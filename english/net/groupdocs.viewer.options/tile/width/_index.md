@@ -14,10 +14,6 @@ The width of the tile in pixels.
 public int Width { get; }
 ```
 
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#split-a-drawing-into-tiles).
-
 ### See Also
 
 * class [Tile](../../tile)

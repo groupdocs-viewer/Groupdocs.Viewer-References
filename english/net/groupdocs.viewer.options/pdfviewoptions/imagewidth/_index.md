@@ -1,24 +1,18 @@
 ---
 title: ImageWidth
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the width of an output image in pixels.
+description: The width of the output image in pixels. When converting single image to HTML only
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/pdfviewoptions/imagewidth/
 ---
 ## PdfViewOptions.ImageWidth property
 
-Sets the width of an output image (in pixels).
+The width of the output image in pixels. (When converting single image to HTML only)
 
 ```csharp
 public int ImageWidth { get; set; }
 ```
-
-### Remarks
-
-Use this property to set the output image width (in pixels). GroupDocs.Viewer applies this property when rendering a single image to PDF. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/).
-
-If you set this property, the [`ImageMaxWidth`](../imagemaxwidth) property is ignored.
 
 ### See Also
 

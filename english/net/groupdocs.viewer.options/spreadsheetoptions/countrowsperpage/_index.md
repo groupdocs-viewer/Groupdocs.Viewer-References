@@ -1,22 +1,18 @@
 ---
 title: CountRowsPerPage
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The rows count to include on each page when splitting the worksheet into pages.
+description: The rows count to include into each page when splitting worksheet into pages.
 type: docs
 weight: 80
 url: /net/groupdocs.viewer.options/spreadsheetoptions/countrowsperpage/
 ---
 ## SpreadsheetOptions.CountRowsPerPage property
 
-The rows count to include on each page when splitting the worksheet into pages.
+The rows count to include into each page when splitting worksheet into pages.
 
 ```csharp
 public int CountRowsPerPage { get; }
 ```
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows).
 
 ### See Also
 

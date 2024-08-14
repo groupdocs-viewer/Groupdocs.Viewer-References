@@ -14,9 +14,20 @@ Sets up default values of MaxResolution option to 300 and ImageQuality option to
 public PdfOptimizationOptions()
 ```
 
-### Remarks
+### Examples
 
-For details and code samples, see this [page](https://docs.groupdocs.com/viewer/net/optimization-pdf-options/) and its children.
+The example demonstrates a default usage of this class.
+
+```csharp
+using (var viewer = new Viewer("sample.docx"))
+{
+    PdfViewOptions viewOptions = new PdfViewOptions();
+    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions();
+    viewOptions.PdfOptimizationOptions.Lineriaze = true;
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

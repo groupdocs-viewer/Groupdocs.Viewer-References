@@ -3,7 +3,7 @@ title: Tiles
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The drawing regions to render.
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.viewer.options/cadoptions/tiles/
 ---
 ## CadOptions.Tiles property
@@ -16,7 +16,7 @@ public IList<Tile> Tiles { get; set; }
 
 ### Remarks
 
-This option is available only for the [`DWG`](../../../groupdocs.viewer/filetype/dwg) and [`DWT`](../../../groupdocs.viewer/filetype/dwt) file types. The [`RenderLayouts`](../renderlayouts) and [`LayoutName`](../layoutname) options are ignored when rendering by tiles.
+This option supported only for [`DWG`](../../../groupdocs.viewer/filetype/dwg) and [`DWT`](../../../groupdocs.viewer/filetype/dwt) file types. The [`RenderLayouts`](../renderlayouts) and [`LayoutName`](../layoutname) options are ignored when rendering by tiles.
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: VisioRenderingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the VisioRenderingOptionsgroupdocs.viewer.options/visiorenderingoptions class.
+description: Initializes new instance of VisioRenderingOptionsgroupdocs.viewer.options/visiorenderingoptions class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/visiorenderingoptions/visiorenderingoptions/
 ---
 ## VisioRenderingOptions constructor
 
-Initializes an instance of the [`VisioRenderingOptions`](../../visiorenderingoptions) class.
+Initializes new instance of [`VisioRenderingOptions`](../../visiorenderingoptions) class.
 
 ```csharp
 public VisioRenderingOptions()

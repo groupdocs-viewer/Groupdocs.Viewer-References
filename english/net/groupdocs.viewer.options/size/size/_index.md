@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the Sizegroupdocs.viewer.options/size class.
+description: Initializes new instance of Sizegroupdocs.viewer.options/size class.
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.options/size/size/
 ---
 ## Size constructor
 
-Initializes an instance of the [`Size`](../../size) class.
+Initializes new instance of [`Size`](../../size) class.
 
 ```csharp
 public Size(byte relativeSize)
@@ -22,7 +22,7 @@ public Size(byte relativeSize)
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Thrown when *relativeSize* is zero or higher than 100. |
+| ArgumentException | Thrown when *relativeSize* is zero or higher than 100. |
 
 ### See Also
 

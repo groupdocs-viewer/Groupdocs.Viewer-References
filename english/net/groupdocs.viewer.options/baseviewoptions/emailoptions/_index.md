@@ -14,10 +14,6 @@ The email messages view options.
 public EmailOptions EmailOptions { get; set; }
 ```
 
-### Remarks
-
-For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/).
-
 ### See Also
 
 * class [EmailOptions](../../emailoptions)

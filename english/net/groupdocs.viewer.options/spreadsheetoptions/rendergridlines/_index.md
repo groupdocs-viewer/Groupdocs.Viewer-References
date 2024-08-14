@@ -14,10 +14,6 @@ Enables grid lines rendering.
 public bool RenderGridLines { get; set; }
 ```
 
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#render-worksheet-gridlines).
-
 ### See Also
 
 * class [SpreadsheetOptions](../../spreadsheetoptions)

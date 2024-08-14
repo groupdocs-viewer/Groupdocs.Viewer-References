@@ -3,7 +3,7 @@ title: WhitelistedResources
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The list of URL fragments corresponding to external resources that should be loaded when SkipExternalResourcesgroupdocs.viewer.options/loadoptions/skipexternalresources is set to true.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.viewer.options/loadoptions/whitelistedresources/
 ---
 ## LoadOptions.WhitelistedResources property
@@ -16,7 +16,33 @@ public List<string> WhitelistedResources { get; set; }
 
 ### Remarks
 
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/loading-external-resources/#manage-a-safelist-for-loading-external-resources).
+This option is supported when rendering the following file formats:
+
+* [Presentation file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#presentation-file-formats)
+* [Spreadsheet file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#spreadsheet-file-formats)
+* [Web file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#web-file-formats)
+* [Word processing file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#word-processing-file-formats)
+
+Learn more about options to manage external resources:
+
+* [Set timeout for loading external resources](https://docs.groupdocs.com/viewer/net/set-timeout-for-loading-external-resources-contained-by-a-document/)
+
+### Examples
+
+The example demonstrates a typical usage of this option.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.SkipExternalResources = true; // Skip loading of external resources
+loadOptions.WhitelistedResources.Add("avatars.githubusercontent.com"); //Enable loading of external resources that has 'avatars.githubusercontent.com' fragment in resource URL. 
+using (Viewer viewer = new Viewer("business-flyer.docx", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

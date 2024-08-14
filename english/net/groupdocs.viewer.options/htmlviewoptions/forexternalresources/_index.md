@@ -1,14 +1,14 @@
 ---
 title: ForExternalResources
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions class for rendering into HTML with external resources.
+description: Initializes new instance of HtmlViewOptionsgroupdocs.viewer.options/htmlviewoptions class for rendering into HTML with external resources.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/htmlviewoptions/forexternalresources/
 ---
 ## ForExternalResources(CreatePageStream, CreateResourceStream, CreateResourceUrl) {#forexternalresources_1}
 
-Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
+Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(CreatePageStream createPageStream, 
@@ -23,7 +23,7 @@ public static HtmlViewOptions ForExternalResources(CreatePageStream createPageSt
 
 ### Return Value
 
-New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
+New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
 
 ### Exceptions
 
@@ -32,10 +32,6 @@ New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for renderi
 | ArgumentNullException | Thrown when *createPageStream* is null. |
 | ArgumentNullException | Thrown when *createResourceStream* is null. |
 | ArgumentNullException | Thrown when *createResourceUrl* is null. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-external-resources).
 
 ### See Also
 
@@ -50,7 +46,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## ForExternalResources(CreatePageStream, CreateResourceStream, CreateResourceUrl, ReleasePageStream, ReleaseResourceStream) {#forexternalresources_2}
 
-Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
+Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(CreatePageStream createPageStream, 
@@ -68,7 +64,7 @@ public static HtmlViewOptions ForExternalResources(CreatePageStream createPageSt
 
 ### Return Value
 
-New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
+New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
 
 ### Exceptions
 
@@ -79,10 +75,6 @@ New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for renderi
 | ArgumentNullException | Thrown when *createResourceUrl* is null. |
 | ArgumentNullException | Thrown when *releasePageStream* is null. |
 | ArgumentNullException | Thrown when *releaseResourceStream* is null. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-external-resources).
 
 ### See Also
 
@@ -99,7 +91,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## ForExternalResources(IPageStreamFactory, IResourceStreamFactory) {#forexternalresources_3}
 
-Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
+Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(IPageStreamFactory pageStreamFactory, 
@@ -113,7 +105,7 @@ public static HtmlViewOptions ForExternalResources(IPageStreamFactory pageStream
 
 ### Return Value
 
-New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
+New instance of [`HtmlViewOptions`](../../htmlviewoptions) class for rendering into HTML with external resources.
 
 ### Exceptions
 
@@ -121,10 +113,6 @@ New instance of the [`HtmlViewOptions`](../../htmlviewoptions) class for renderi
 | --- | --- |
 | ArgumentNullException | Thrown when *pageStreamFactory* is null. |
 | ArgumentNullException | Thrown when *resourceStreamFactory* is null. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-external-resources).
 
 ### See Also
 
@@ -138,7 +126,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## ForExternalResources() {#forexternalresources}
 
-Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class.
+Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources()
@@ -146,15 +134,7 @@ public static HtmlViewOptions ForExternalResources()
 
 ### Remarks
 
-This constructor initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions)
-
-* with "p_{0}.html" as file path format for the output HTML files
-* with "p_{0}_{1}" as file path format for the output HTML-resource files
-* with "p_{0}_{1}" as URL format for HTML-resources
-
-The output files will be placed into current working directory of the application.
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-external-resources).
+This constructor initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) - with "p_{0}.html" as file path format for the output HTML files; - with "p_{0}_{1}" as file path format for the output HTML-resource files; - with "p_{0}_{1}" as URL format for HTML-resources; The output files will be placed into current working directory of the application.
 
 ### See Also
 
@@ -166,7 +146,7 @@ For the code example, see the [documentation](https://docs.groupdocs.com/viewer/
 
 ## ForExternalResources(string, string, string) {#forexternalresources_4}
 
-Initializes an instance of the [`HtmlViewOptions`](../../htmlviewoptions) class.
+Initializes new instance of [`HtmlViewOptions`](../../htmlviewoptions) class.
 
 ```csharp
 public static HtmlViewOptions ForExternalResources(string filePathFormat, 
@@ -186,10 +166,6 @@ public static HtmlViewOptions ForExternalResources(string filePathFormat,
 | ArgumentException | Thrown when *filePathFormat* is null or empty. |
 | ArgumentException | Thrown when *resourceFilePathFormat* is null or empty. |
 | ArgumentException | Thrown when *resourceUrlFormat* is null or empty. |
-
-### Remarks
-
-For the code example, see the [documentation](https://docs.groupdocs.com/viewer/net/rendering-to-html/#rendering-to-html-with-external-resources).
 
 ### See Also
 

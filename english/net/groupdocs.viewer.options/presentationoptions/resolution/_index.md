@@ -1,22 +1,18 @@
 ---
 title: Resolution
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Resolution of the presentation images for rendering to HTML/PDF only.
+description: Resolution for images inside presentation for to HTML/PDF rendering only.
 type: docs
-weight: 30
+weight: 20
 url: /net/groupdocs.viewer.options/presentationoptions/resolution/
 ---
 ## PresentationOptions.Resolution property
 
-Resolution of the presentation images (for rendering to HTML/PDF only).
+Resolution for images inside presentation (for to HTML/PDF rendering only).
 
 ```csharp
 public Resolution Resolution { get; set; }
 ```
-
-### Remarks
-
-For code sample, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/#specify-image-resolution).
 
 ### See Also
 

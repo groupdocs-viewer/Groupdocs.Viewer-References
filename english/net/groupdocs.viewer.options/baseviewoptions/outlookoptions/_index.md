@@ -1,22 +1,18 @@
 ---
 title: OutlookOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: The Microsoft Outlook data files view options.
+description: The MS Outlook data files view options.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/baseviewoptions/outlookoptions/
 ---
 ## BaseViewOptions.OutlookOptions property
 
-The Microsoft Outlook data files view options.
+The MS Outlook data files view options.
 
 ```csharp
 public OutlookOptions OutlookOptions { get; set; }
 ```
-
-### Remarks
-
-For more information and code examples, see the [documentation](https://docs.groupdocs.com/viewer/net/render-outlook-data-files/).
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Rotation
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains page rotation in degrees clockwise.
+description: Defines page rotation in degrees.
 type: docs
-weight: 610
+weight: 470
 url: /net/groupdocs.viewer.options/rotation/
 ---
 ## Rotation enumeration
 
-Contains page rotation in degrees (clockwise).
+Defines page rotation in degrees.
 
 ```csharp
 public enum Rotation

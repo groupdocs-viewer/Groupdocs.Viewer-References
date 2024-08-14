@@ -1,24 +1,18 @@
 ---
 title: MaxWidth
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the maximum width of an output image in pixels.
+description: Max width of an output image in pixels.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/pngviewoptions/maxwidth/
 ---
 ## PngViewOptions.MaxWidth property
 
-Sets the maximum width of an output image (in pixels).
+Max width of an output image in pixels.
 
 ```csharp
 public int MaxWidth { get; set; }
 ```
-
-### Remarks
-
-Use this property to set the maximum output image width (in pixels). For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/).
-
-If you set the [`Width`](../width) property, this property is ignored.
 
 ### See Also
 

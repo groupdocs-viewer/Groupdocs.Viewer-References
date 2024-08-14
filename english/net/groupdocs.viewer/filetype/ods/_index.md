@@ -3,7 +3,7 @@ title: ODS
 second_title: GroupDocs.Viewer for .NET API Reference
 description: OpenDocument Spreadsheet .ods stands for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. Learn more about this file format herehttps//wiki.fileformat.com/spreadsheet/ods.
 type: docs
-weight: 1020
+weight: 1000
 url: /net/groupdocs.viewer/filetype/ods/
 ---
 ## FileType.ODS field

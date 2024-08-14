@@ -3,7 +3,7 @@ title: Layers
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The CAD drawing layers to render.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.viewer.options/cadoptions/layers/
 ---
 ## CadOptions.Layers property
@@ -16,7 +16,7 @@ public IList<Layer> Layers { get; set; }
 
 ### Remarks
 
-By default all layers are rendered. Layer names are case-sensitive.
+By default all layers are rendered; Layer names are case-sensitive.
 
 ### See Also
 

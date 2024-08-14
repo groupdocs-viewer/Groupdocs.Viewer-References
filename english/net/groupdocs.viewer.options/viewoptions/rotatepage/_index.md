@@ -1,14 +1,14 @@
 ---
 title: RotatePage
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Applies the clockwise rotation to a page.
+description: Applies clockwise rotation to the page.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/viewoptions/rotatepage/
 ---
 ## ViewOptions.RotatePage method
 
-Applies the clockwise rotation to a page.
+Applies clockwise rotation to the page.
 
 ```csharp
 public void RotatePage(int pageNumber, Rotation rotation)
@@ -16,19 +16,15 @@ public void RotatePage(int pageNumber, Rotation rotation)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageNumber | Int32 | The page number, must be strictly greater than 0 |
+| pageNumber | Int32 | The page number. |
 | rotation | Rotation | The rotation value. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Thrown when *pageNumber* is less or equal to zero. |
+| ArgumentException | Thrown when *pageNumber* is less or equal to zero. |
 | ArgumentException | Thrown when rotation for the page with number *pageNumber* was already added. |
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/flip-or-rotate-pages/).
 
 ### See Also
 

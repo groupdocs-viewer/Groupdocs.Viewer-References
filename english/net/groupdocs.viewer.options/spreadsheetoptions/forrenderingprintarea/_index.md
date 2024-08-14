@@ -1,14 +1,14 @@
 ---
 title: ForRenderingPrintArea
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Initializes an instance of the SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions class for rendering the print areas only.
+description: Initializes new instance of SpreadsheetOptionsgroupdocs.viewer.options/spreadsheetoptions for rendering print areas only.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea/
 ---
 ## SpreadsheetOptions.ForRenderingPrintArea method
 
-Initializes an instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering the print areas only.
+Initializes new instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering print areas only.
 
 ```csharp
 public static SpreadsheetOptions ForRenderingPrintArea()
@@ -16,11 +16,7 @@ public static SpreadsheetOptions ForRenderingPrintArea()
 
 ### Return Value
 
-New instance of the [`SpreadsheetOptions`](../../spreadsheetoptions) class for rendering print areas only.
-
-### Remarks
-
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#render-a-print-area).
+New instance of [`SpreadsheetOptions`](../../spreadsheetoptions) for rendering print areas only.
 
 ### See Also
 

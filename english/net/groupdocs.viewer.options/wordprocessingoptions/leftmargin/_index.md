@@ -1,14 +1,14 @@
 ---
 title: LeftMargin
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the left margin of a page.
+description: The distance in points between the left edge of the page and the left boundary of the body text.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/wordprocessingoptions/leftmargin/
 ---
 ## WordProcessingOptions.LeftMargin property
 
-Sets the left margin of a page.
+The distance (in points) between the left edge of the page and the left boundary of the body text.
 
 ```csharp
 public float? LeftMargin { get; set; }
@@ -16,7 +16,7 @@ public float? LeftMargin { get; set; }
 
 ### Remarks
 
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins).
+By default, the Left Margin value that is set in the Page Setup of the source document will be used.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: GroupDocs.Viewer.Interfaces
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The namespace provides interfaces to instantiate and release output document and its resources.
 type: docs
-weight: 60
+weight: 50
 url: /net/groupdocs.viewer.interfaces/
 ---
 The namespace provides interfaces to instantiate and release output document and it's resources.

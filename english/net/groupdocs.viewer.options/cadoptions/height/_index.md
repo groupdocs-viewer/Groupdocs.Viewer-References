@@ -3,12 +3,12 @@ title: Height
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The height of the output result in pixels.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.viewer.options/cadoptions/height/
 ---
 ## CadOptions.Height property
 
-The height of the output result (in pixels).
+The height of the output result in pixels.
 
 ```csharp
 public int Height { get; }

@@ -1,22 +1,18 @@
 ---
 title: FileType
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the type of the file to open.
+description: The type of the file to open.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.options/loadoptions/filetype/
 ---
 ## LoadOptions.FileType property
 
-Sets the type of the file to open.
+The type of the file to open.
 
 ```csharp
 public FileType FileType { get; set; }
 ```
-
-### Remarks
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/specify-file-type-when-loading-a-document/).
 
 ### See Also
 

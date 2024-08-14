@@ -14,10 +14,6 @@ The output page size.
 public PageSize PageSize { get; set; }
 ```
 
-### Remarks
-
-For code sample, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/#specify-the-output-page-size).
-
 ### See Also
 
 * enum [PageSize](../../pagesize)

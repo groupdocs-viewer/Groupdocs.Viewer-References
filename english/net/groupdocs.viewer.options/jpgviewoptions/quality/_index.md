@@ -1,24 +1,18 @@
 ---
 title: Quality
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the quality of the output image.
+description: Quality of the output image Valid values are between 1 and 100 Default value is 90.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/jpgviewoptions/quality/
 ---
 ## JpgViewOptions.Quality property
 
-Sets the quality of the output image.
+Quality of the output image; Valid values are between 1 and 100; Default value is 90.
 
 ```csharp
 public byte Quality { get; set; }
 ```
-
-### Remarks
-
-Use this property to adjust images quality. The value must be between 1 (minimum quality) and 100. The default value is 90.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/image-viewer-adjust-quality-for-jpg/).
 
 ### See Also
 

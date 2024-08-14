@@ -1,24 +1,18 @@
 ---
 title: DisableCharsGrouping
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Disables symbol grouping for precise symbol positioning during page rendering.
+description: Disables chars grouping to keep maximum precision during chars positioning when rendering the page.
 type: docs
 weight: 20
 url: /net/groupdocs.viewer.options/pdfoptions/disablecharsgrouping/
 ---
 ## PdfOptions.DisableCharsGrouping property
 
-Disables symbol grouping for precise symbol positioning during page rendering.
+Disables chars grouping to keep maximum precision during chars positioning when rendering the page.
 
 ```csharp
 public bool DisableCharsGrouping { get; set; }
 ```
-
-### Remarks
-
-When converting PDF files, GroupDocs.Viewer groups individual characters into words for enhanced rendering performance. If your document includes hieroglyphics or special symbols, you might want to prohibit character grouping to ensure a more precise layout. The default value is `false`.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/#disable-character-grouping).
 
 ### See Also
 

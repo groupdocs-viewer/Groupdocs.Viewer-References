@@ -14,12 +14,6 @@ Enables rendering comments.
 public bool RenderComments { get; set; }
 ```
 
-### Remarks
-
-By default, GroupDocs.Viewer does not render comments. To do this, set this property to `true`.
-
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#render-comments).
-
 ### See Also
 
 * class [BaseViewOptions](../../baseviewoptions)

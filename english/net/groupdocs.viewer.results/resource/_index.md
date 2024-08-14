@@ -3,7 +3,7 @@ title: Resource
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents HTML resource such as font style image or graphics.
 type: docs
-weight: 890
+weight: 200
 url: /net/groupdocs.viewer.results/resource/
 ---
 ## Resource class

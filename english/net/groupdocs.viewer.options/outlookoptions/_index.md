@@ -1,14 +1,14 @@
 ---
 title: OutlookOptions
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Contains options for rendering Outlook data files. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderlotusnotesdatabasefiles/specifyrenderingoptions.
+description: Provides options for rendering Outlook data files.
 type: docs
-weight: 500
+weight: 360
 url: /net/groupdocs.viewer.options/outlookoptions/
 ---
 ## OutlookOptions class
 
-Contains options for rendering Outlook data files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-lotus-notes-database-files/#specify-rendering-options).
+Provides options for rendering Outlook data files.
 
 ```csharp
 public class OutlookOptions
@@ -24,10 +24,10 @@ public class OutlookOptions
 
 | Name | Description |
 | --- | --- |
-| [AddressFilter](../../groupdocs.viewer.options/outlookoptions/addressfilter) { get; set; } | Sets the email-address used to filter messages by sender or recipient. |
-| [Folder](../../groupdocs.viewer.options/outlookoptions/folder) { get; set; } | Sets the name of the folder (e.g. Inbox, Sent Item or Deleted Items) to render. |
+| [AddressFilter](../../groupdocs.viewer.options/outlookoptions/addressfilter) { get; set; } | The email-address used to filter messages by sender or recipient. |
+| [Folder](../../groupdocs.viewer.options/outlookoptions/folder) { get; set; } | The name of the folder (e.g. Inbox, Sent Item or Deleted Items) to render. |
 | [MaxItemsInFolder](../../groupdocs.viewer.options/outlookoptions/maxitemsinfolder) { get; set; } | The maximum number of messages or items, that can be rendered from one folder. |
-| [TextFilter](../../groupdocs.viewer.options/outlookoptions/textfilter) { get; set; } | Sets the keywords used to filter messages. |
+| [TextFilter](../../groupdocs.viewer.options/outlookoptions/textfilter) { get; set; } | The keywords used to filter messages. |
 
 ### See Also
 

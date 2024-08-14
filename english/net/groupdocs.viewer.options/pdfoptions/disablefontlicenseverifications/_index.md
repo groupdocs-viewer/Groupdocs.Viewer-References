@@ -1,14 +1,14 @@
 ---
 title: DisableFontLicenseVerifications
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Disables any license restrictions for all fonts in the current XPS/OXPS document.
+description: Disable any license restrictions for all fonts in current XPS/OXPS document
 type: docs
-weight: 40
+weight: 30
 url: /net/groupdocs.viewer.options/pdfoptions/disablefontlicenseverifications/
 ---
 ## PdfOptions.DisableFontLicenseVerifications property
 
-Disables any license restrictions for all fonts in the current XPS/OXPS document.
+Disable any license restrictions for all fonts in current XPS/OXPS document
 
 ```csharp
 public bool DisableFontLicenseVerifications { get; set; }
@@ -16,11 +16,20 @@ public bool DisableFontLicenseVerifications { get; set; }
 
 ### Remarks
 
-Many operations with font cannot be executed if they are prohibited by license of this font. For example, some font cannot be embedded into PDF document if license rules disable embedding for this font. This option allows you to skip verification of these rules.
+Many operations with font can’t be executed if these operations are prohibited by license of this font. For example some font can’t be embedded into PDF document if license rules disable embedding for this font. Be careful when using this flag. When it is set it means that person who sets this flag, takes all responsibility of possible license/law violations on himself. So He takes it on it’s own risk. It’s strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. By default false.
 
-Be careful when using this flag. When it is set, it means that person who sets this flag, takes all responsibility of possible license/law violations on himself. So he takes it on its own risk. It is strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. The default value is `false`.
+### Examples
 
-For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-pdf-documents/#skip-font-license-verification-when-rendering-xps-and-oxps-files).
+The example demonstrates a typical usage of this option.
+
+```csharp
+using (Viewer viewer = new Viewer("resume.oxps"))
+{
+    HtmlViewOptions options = HtmlViewOptions.ForEmbeddedResources("result.html");
+    options.PdfOptions.DisableFontLicenseVerifications = true;
+    viewer.View(options);
+}
+```
 
 ### See Also
 

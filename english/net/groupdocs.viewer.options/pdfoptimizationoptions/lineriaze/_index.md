@@ -1,22 +1,35 @@
 ---
 title: Lineriaze
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Enables optimization the output PDF file for viewing online with a web browser.
+description: Optimizes output PDF for online browsing with a web browser.
 type: docs
 weight: 50
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/lineriaze/
 ---
 ## PdfOptimizationOptions.Lineriaze property
 
-Enables optimization the output PDF file for viewing online with a web browser.
+Optimizes output PDF for online browsing with a web browser.
 
 ```csharp
 public bool Lineriaze { get; set; }
 ```
 
-### Remarks
+### Examples
 
-This optimization allows a browser to display the first pages of a PDF file when you open the document, instead of waiting for the entire file to download. For code example, see this [documentation](https://docs.groupdocs.com/viewer/net/optimization-pdf-for-web/).
+The example demonstrates a typical usage of this option.
+
+```csharp
+using (var viewer = new Viewer("sample.docx"))
+{
+    PdfViewOptions viewOptions = new PdfViewOptions();
+    viewOptions.PdfOptimizationOptions = new PdfOptimizationOptions()
+    {
+        Lineriaze = true
+    };
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 

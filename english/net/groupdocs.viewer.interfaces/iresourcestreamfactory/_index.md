@@ -3,7 +3,7 @@ title: IResourceStreamFactory
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines the methods that are required for creating resource URL instantiating and releasing output HTML resource stream.
 type: docs
-weight: 290
+weight: 730
 url: /net/groupdocs.viewer.interfaces/iresourcestreamfactory/
 ---
 ## IResourceStreamFactory interface

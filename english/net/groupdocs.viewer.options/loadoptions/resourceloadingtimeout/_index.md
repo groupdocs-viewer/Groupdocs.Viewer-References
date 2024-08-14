@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingTimeout
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Sets the timeout to load external resources.
+description: The external resources loading timeout. The default value is 10 seconds.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.options/loadoptions/resourceloadingtimeout/
 ---
 ## LoadOptions.ResourceLoadingTimeout property
 
-Sets the timeout to load external resources.
+The external resources loading timeout. The default value is 10 seconds.
 
 ```csharp
 public TimeSpan ResourceLoadingTimeout { get; set; }
@@ -16,7 +16,33 @@ public TimeSpan ResourceLoadingTimeout { get; set; }
 
 ### Remarks
 
-The default value is 30 seconds. For code example, see the [documentation](https://docs.groupdocs.com/viewer/net/detect-encoding-when-loading-documents).
+This option is supported when rendering the following file formats:
+
+* [Presentation file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#presentation-file-formats)
+* [Spreadsheet file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#spreadsheet-file-formats)
+* [Web file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#web-file-formats)
+* [Word processing file formats](https://docs.groupdocs.com/viewer/net/supported-document-formats/#word-processing-file-formats)
+
+Learn more about options to manage external resources:
+
+* [Set timeout for loading external resources](https://docs.groupdocs.com/viewer/net/set-timeout-for-loading-external-resources-contained-by-a-document/)
+
+### Examples
+
+The example demonstrates a typical usage of this option.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.ResourceLoadingTimeout = TimeSpan.FromSeconds(5); // Set resource loading timeout to 5 seconds
+
+using (Viewer viewer = new Viewer("business-flyer.docx", loadOptions))
+{
+    HtmlViewOptions viewOptions = 
+        HtmlViewOptions.ForEmbeddedResources();
+
+    viewer.View(viewOptions);
+}
+```
 
 ### See Also
 
