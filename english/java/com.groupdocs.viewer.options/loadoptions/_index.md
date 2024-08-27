@@ -14,7 +14,7 @@ public class LoadOptions
 
 Provides options that are used to open a file.
 
-The LoadOptions class encapsulates various settings and parameters that can be used to specify how a file should be opened and loaded in the GroupDocs.Viewer component.
+The LoadOptions class encapsulates various settings and parameters that can be used to specify how a file should be opened and loaded in the GroupDocs.Viewer component. For details, see this [page][] and its children.
 
 Example usage:
 
@@ -30,6 +30,9 @@ Example usage:
  }
  
 ```
+
+
+[page]: https://docs.groupdocs.com/viewer/java/loading/
 ## Constructors
 
 | Constructor | Description |
@@ -74,6 +77,11 @@ public LoadOptions()
 
 Initializes a new instance of the  LoadOptions  class.
 
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-file-type-when-loading-a-document/
+
 ### LoadOptions(FileType fileType) {#LoadOptions-com.groupdocs.viewer.FileType-}
 ```
 public LoadOptions(FileType fileType)
@@ -81,6 +89,11 @@ public LoadOptions(FileType fileType)
 
 
 Initializes a new instance of the  LoadOptions  class.
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-file-type-when-loading-a-document/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -107,6 +120,11 @@ public final FileType getFileType()
 
 Gets the type of the file to open.
 
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-file-type-when-loading-a-document/
+
 **Returns:**
 [FileType](../../com.groupdocs.viewer/filetype) - the file type.
 ### setFileType(FileType value) {#setFileType-com.groupdocs.viewer.FileType-}
@@ -116,6 +134,11 @@ public final void setFileType(FileType value)
 
 
 Sets the type of the file to open.
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-file-type-when-loading-a-document/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -130,6 +153,11 @@ public final String getPassword()
 
 Gets the password for opening an encrypted file.
 
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/load-password-protected-document/
+
 **Returns:**
 java.lang.String - the password for opening the file.
 ### setPassword(String value) {#setPassword-java.lang.String-}
@@ -139,6 +167,11 @@ public final void setPassword(String value)
 
 
 Sets the password for opening an encrypted file.
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/load-password-protected-document/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -153,7 +186,7 @@ public final Charset getCharset()
 
 The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
 
-Default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8.
+Default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8. For code example, see the [documentation][].
 
 **Learn more**
 
@@ -175,6 +208,7 @@ LoadOptions loadOptions = new LoadOptions();
 ```
 
 
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-encoding-when-loading-documents/
 [Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
 [Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files
 [Render email messages as HTML_ PDF_ PNG_ and JPEG files]: https://docs.groupdocs.com/viewer/java/render-email-messages/
@@ -189,7 +223,7 @@ public final void setCharset(Charset value)
 
 The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG).
 
-Default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8.
+Default value is java.nio.charset.StandardCharsets\#UTF\_8.UTF\_8. For code example, see the [documentation][].
 
 **Learn more**
 
@@ -211,6 +245,7 @@ LoadOptions loadOptions = new LoadOptions();
 ```
 
 
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-encoding-when-loading-documents/
 [Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
 [Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files
 [Render email messages as HTML_ PDF_ PNG_ and JPEG files]: https://docs.groupdocs.com/viewer/java/render-email-messages/
@@ -233,6 +268,8 @@ This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [F
  *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
  *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
 
+If the encoding cannot be detected, the default  is used. For code example, see the [documentation][].
+
 **Example:**
 
 ```
@@ -249,6 +286,7 @@ LoadOptions loadOptions = new LoadOptions();
 
 [Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files/
 [Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+[documentation]: https://docs.groupdocs.com/viewer/java/detect-encoding-when-loading-documents/
 
 **Returns:**
 boolean
@@ -265,6 +303,8 @@ This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [F
  *  [Render text documents as HTML, PDF, and image files][Render text documents as HTML_ PDF_ and image files]
  *  [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]
 
+If the encoding cannot be detected, the default  is used. For code example, see the [documentation][].
+
 **Example:**
 
 ```
@@ -281,6 +321,7 @@ LoadOptions loadOptions = new LoadOptions();
 
 [Render text documents as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-text-files/
 [Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+[documentation]: https://docs.groupdocs.com/viewer/java/detect-encoding-when-loading-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -308,6 +349,8 @@ Gets the timeout for loading external resources.
 
  *  [Set timeout for loading external resources][]
 
+The default value is 30 seconds. For code example, see the [documentation][].
+
 **Example:**
 
 ```
@@ -327,6 +370,7 @@ LoadOptions loadOptions = new LoadOptions();
 [Web file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#web-file-formats
 [Word processing file formats]: https://docs.groupdocs.com/viewer/java/supported-document-formats/#word-processing-file-formats
 [Set timeout for loading external resources]: https://docs.groupdocs.com/viewer/java/set-timeout-for-loading-external-resources-contained-by-a-document/
+[documentation]: https://docs.groupdocs.com/viewer/java/detect-encoding-when-loading-documents
 
 **Returns:**
 int
@@ -340,7 +384,10 @@ Sets the timeout for loading external resources, such as graphics.
 
 ***Note:** The default value is 30 seconds.*
 
-This option is supported for Word Processing documents that contain external resources.
+This option is supported for Word Processing documents that contain external resources. The default value is 30 seconds. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/detect-encoding-when-loading-documents
 
 **Parameters:**
 | Parameter | Type | Description |

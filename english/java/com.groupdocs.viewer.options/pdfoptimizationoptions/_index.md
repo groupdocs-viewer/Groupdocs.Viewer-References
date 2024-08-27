@@ -14,7 +14,7 @@ public class PdfOptimizationOptions
 
 Use this class to specify PDF optimization options to apply to the output PDF file.
 
-These optimization options are supported for any input file formats which are supported for export to PDF.
+These optimization options are supported for any input file formats which are supported for export to PDF. For details and code samples, see this [page][] and its children.
 
 Example usage:
 
@@ -41,6 +41,9 @@ Example usage:
  }
  
 ```
+
+
+[page]: https://docs.groupdocs.com/viewer/java/optimization-pdf-options/
 ## Constructors
 
 | Constructor | Description |
@@ -50,7 +53,7 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
-| [isLinearize()](#isLinearize--) | Optimizes output PDF for online browsing with a web browser. |
+| [isLinearize()](#isLinearize--) | Enables optimization the output PDF file for viewing online with a web browser. |
 | [setLinearize(boolean linearize)](#setLinearize-boolean-) | Sets whether to optimize output PDF for online browsing with a web browser. |
 | [isRemoveAnnotations()](#isRemoveAnnotations--) | Annotations can be deleted when they are unnecessary. |
 | [setRemoveAnnotations(boolean removeAnnotations)](#setRemoveAnnotations-boolean-) | Sets whether to remove unnecessary annotations from the PDF. |
@@ -90,13 +93,23 @@ public PdfOptimizationOptions()
 
 Sets up default values of MaxResolution option to 300 and ImageQuality option to 100.
 
+For details and code samples, see this [page][] and its children.
+
+
+[page]: https://docs.groupdocs.com/viewer/java/optimization-pdf-options/
+
 ### isLinearize() {#isLinearize--}
 ```
 public boolean isLinearize()
 ```
 
 
-Optimizes output PDF for online browsing with a web browser.
+Enables optimization the output PDF file for viewing online with a web browser.
+
+For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-for-web/
 
 **Returns:**
 boolean -  true  if the output PDF is optimized for online browsing,  false  otherwise.
@@ -107,6 +120,11 @@ public void setLinearize(boolean linearize)
 
 
 Sets whether to optimize output PDF for online browsing with a web browser.
+
+For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-for-web/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,7 +139,10 @@ public boolean isRemoveAnnotations()
 
 Annotations can be deleted when they are unnecessary. When they are needed but do not require additional editing, they can be flattened. It will reduce the file size.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-remove-annotations/
 
 **Returns:**
 boolean -  true  if annotations are removed,  false  otherwise.
@@ -133,7 +154,10 @@ public void setRemoveAnnotations(boolean removeAnnotations)
 
 Sets whether to remove unnecessary annotations from the PDF.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-remove-annotations/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -148,7 +172,10 @@ public boolean isRemoveFormFields()
 
 If the PDF document contains AcroForms, we can try to reduce the file size by flattening form fields.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-remove-fields/
 
 **Returns:**
 boolean -  true  if form fields are removed,  false  otherwise.
@@ -160,7 +187,10 @@ public void setRemoveFormFields(boolean removeFormFields)
 
 Sets whether to remove form fields from the PDF.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-remove-fields/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -175,7 +205,10 @@ public boolean isConvertToGrayScale()
 
 PDF file is composed of Text, Image, Attachment, Annotations, Graphs and other objects. You may come across a requirement to convert a PDF from RGB colorspace to grayscale so that it would be faster while printing those PDF files. Also when the file is converted to grayscale, the size of the document is also reduced but with this change, the quality of the document may drop. Currently, this feature is supported by the Pre-Flight feature of Adobe Acrobat.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-convert-grayscale/
 
 **Returns:**
 boolean -  true  if the PDF is converted to grayscale,  false  otherwise.
@@ -187,7 +220,10 @@ public void setConvertToGrayScale(boolean convertToGrayScale)
 
 Sets whether to convert the PDF to grayscale.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-convert-grayscale/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -202,7 +238,10 @@ public boolean isSubsetFonts()
 
 Every font used to display text on the page contains set of glyphs for font characters. PDF specification supports "font subset" i.e. font with only those glyphs which are used. This may cause issues when text should be updated (since probably required glyphs are absent in the font), but for the document which is not planned to change this allows to decrease size.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* If the file uses embedded fonts, it contains all font data. GroupDocs.Viewer can subset embedded fonts to reduce the file size. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-subset-fonts/
 
 **Returns:**
 boolean -  true  if fonts are subsetted,  false  otherwise.
@@ -214,7 +253,10 @@ public void setSubsetFonts(boolean subsetFonts)
 
 Sets whether to subset the fonts in the PDF.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* If the file uses embedded fonts, it contains all font data. GroupDocs.Viewer can subset embedded fonts to reduce the file size. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-subset-fonts/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -229,7 +271,10 @@ public boolean isCompressImages()
 
 If the source PDF file contains images, consider compressing the images and setting their quality. In order to enable image compression, set this option to true. All the images in a document will be re-compressed. The compression is defined by the ImageQuality property, which is the value of the quality in percent. 100% is unchanged quality. To decrease image quality, set the ImageQuality property less than 100.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* Use this option to allow other compressing options: \#setImageQuality(int).setImageQuality(int) and . For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-reduce-image-quality/
 
 **Returns:**
 boolean -  true  if images are compressed,  false  otherwise.
@@ -241,7 +286,10 @@ public void setCompressImages(boolean compressImages)
 
 Sets whether to compress the images in the PDF.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* Use this option to allow other compressing options: \#setImageQuality(int).setImageQuality(int) and . For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-reduce-image-quality/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -256,7 +304,10 @@ public int getImageQuality()
 
 If the source PDF file contains images, consider compressing the images and setting their quality. In order to enable image compression, set CompressImages option to true. All the images in a document will be re-compressed. The compression is defined by the ImageQuality property, which is the value of the quality in percent. 100% is unchanged quality. To decrease image quality, set the CompressImages option to true and ImageQuality property less than 100.
 
-***Note:** The default value is  100 .*
+***Note:** The default value is  100 .* To change the image quality, first set the \#setCompressImages(boolean).setCompressImages(boolean) property to true. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-reduce-image-quality/
 
 **Returns:**
 int - the image quality (value between 1 and 100).
@@ -268,7 +319,10 @@ public void setImageQuality(int imageQuality)
 
 Sets the image quality for compressing the images in the PDF.
 
-***Note:** The default value is  100 .*
+***Note:** The default value is  100 .* To change the image quality, first set the \#setCompressImages(boolean).setCompressImages(boolean) property to true. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-reduce-image-quality/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,7 +337,10 @@ public boolean isResizeImages()
 
 Can be used with CompressImages option to resize the images with a lower resolution. In this case, we should set CompressImage to true, ResizeImages to true and MaxResolution to the appropriate value.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* To allow this option, set the  property to true. This option allows setting the  property. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-set-max-resolution/
 
 **Returns:**
 boolean -  true  if images are resized,  false  otherwise.
@@ -295,7 +352,10 @@ public void setResizeImages(boolean resizeImages)
 
 Sets whether to resize the images in the PDF.
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* To allow this option, set the  property to true. This option allows setting the  property. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-set-max-resolution/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -310,7 +370,10 @@ public int getMaxResolution()
 
 Can be used with CompressImages option to resize the images with a lower resolution. In this case, we should set CompressImage to true, ResizeImages to true and MaxResolution to the appropriate value.
 
-***Note:** The default value is  300 .*
+***Note:** The default value is  300 .* To allow this option, set the \#setCompressImages(boolean).setCompressImages(boolean) and \#setMaxResolution(int).setMaxResolution(int) properties to true. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-set-max-resolution/
 
 **Returns:**
 int - the maximum resolution for the images.
@@ -322,7 +385,10 @@ public void setMaxResolution(int maxResolution)
 
 Sets the maximum resolution for resizing the images in the PDF.
 
-***Note:** The default value is  300 .*
+***Note:** The default value is  300 .* To allow this option, set the \#setCompressImages(boolean).setCompressImages(boolean) and \#setMaxResolution(int).setMaxResolution(int) properties to true. For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-set-max-resolution/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -339,7 +405,10 @@ Optimize Excel spreadsheets border lines and fonts for smaller output file size.
 
 *The output PDF will not include embedded Arial and Times New Roman fonts with characters 32-127.*
 
-***Note:** The default value is  false .*
+***Note:** The default value is  false .* For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-spreadsheets/
 
 **Returns:**
 boolean -  true  if spreadsheets are optimized,  false  otherwise.
@@ -350,6 +419,11 @@ public void setOptimizeSpreadsheets(boolean optimizeSpreadsheets)
 
 
 Sets whether to optimize the spreadsheets in the PDF.
+
+For code example, see this [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/optimization-pdf-spreadsheets/
 
 **Parameters:**
 | Parameter | Type | Description |

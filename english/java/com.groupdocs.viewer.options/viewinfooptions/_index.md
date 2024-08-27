@@ -39,13 +39,13 @@ Example usage:
 | [isExtractText()](#isExtractText--) | Indicates whether text extraction is enabled. |
 | [setExtractText(boolean extractText)](#setExtractText-boolean-) | Sets the flag indicating whether text extraction is enabled. |
 | [getMaxWidth()](#getMaxWidth--) | Returns the maximum width of the output image for rendering to PNG/JPG. |
-| [setMaxWidth(int maxWidth)](#setMaxWidth-int-) | Sets the maximum width of the output image for rendering to PNG/JPG. |
+| [setMaxWidth(int maxWidth)](#setMaxWidth-int-) | Sets the maximum width of an output image (in pixels, for rendering to PNG/JPG only). |
 | [getMaxHeight()](#getMaxHeight--) | Returns the maximum height of the output image for rendering to PNG/JPG. |
-| [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | Sets the maximum height of the output image for rendering to PNG/JPG. |
-| [getWidth()](#getWidth--) | Returns the width of the image for rendering to PNG/JPG. |
-| [setWidth(int width)](#setWidth-int-) | Sets the width of the image for rendering to PNG/JPG. |
-| [getHeight()](#getHeight--) | Returns the height of the image for rendering to PNG/JPG. |
-| [setHeight(int height)](#setHeight-int-) | Sets the height of the image for rendering to PNG/JPG. |
+| [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | Sets the maximum height of an output image (in pixels, for rendering to PNG/JPG only). |
+| [getWidth()](#getWidth--) | The width of the output image (in pixels, for rendering to PNG/JPG only). |
+| [setWidth(int width)](#setWidth-int-) | The width of the output image (in pixels, for rendering to PNG/JPG only). |
+| [getHeight()](#getHeight--) | The height of the output image (in pixels, for rendering to PNG/JPG only). |
+| [setHeight(int height)](#setHeight-int-) | The height of the output image (in pixels, for rendering to PNG/JPG only). |
 | [forHtmlView()](#forHtmlView--) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into HTML. |
 | [forHtmlView(boolean renderSinglePage)](#forHtmlView-boolean-) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into HTML. |
 | [forJpgView()](#forJpgView--) | Initializes a new instance of the  ViewInfoOptions  class to retrieve information about the view when rendering into JPG. |
@@ -65,6 +65,11 @@ public boolean isExtractText()
 
 Indicates whether text extraction is enabled.
 
+Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/image-viewer-get-text-coordinates/
+
 **Returns:**
 boolean - True if text extraction is enabled, false otherwise.
 ### setExtractText(boolean extractText) {#setExtractText-boolean-}
@@ -74,6 +79,11 @@ public void setExtractText(boolean extractText)
 
 
 Sets the flag indicating whether text extraction is enabled.
+
+Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/image-viewer-get-text-coordinates/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -88,6 +98,11 @@ public int getMaxWidth()
 
 Returns the maximum width of the output image for rendering to PNG/JPG.
 
+Use this property to set the maximum output image width (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/
+
 **Returns:**
 int - the maximum width of the output image.
 ### setMaxWidth(int maxWidth) {#setMaxWidth-int-}
@@ -96,7 +111,12 @@ public void setMaxWidth(int maxWidth)
 ```
 
 
-Sets the maximum width of the output image for rendering to PNG/JPG.
+Sets the maximum width of an output image (in pixels, for rendering to PNG/JPG only).
+
+Use this property to set the maximum output image width (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,6 +131,11 @@ public int getMaxHeight()
 
 Returns the maximum height of the output image for rendering to PNG/JPG.
 
+Use this property to set the maximum output image height (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/
+
 **Returns:**
 int - the maximum height of the output image.
 ### setMaxHeight(int maxHeight) {#setMaxHeight-int-}
@@ -119,7 +144,12 @@ public void setMaxHeight(int maxHeight)
 ```
 
 
-Sets the maximum height of the output image for rendering to PNG/JPG.
+Sets the maximum height of an output image (in pixels, for rendering to PNG/JPG only).
+
+Use this property to set the maximum output image height (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +162,12 @@ public int getWidth()
 ```
 
 
-Returns the width of the image for rendering to PNG/JPG.
+The width of the output image (in pixels, for rendering to PNG/JPG only).
+
+Use this property to set the output image width (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/image-viewer-adjust-image-size/
 
 **Returns:**
 int - the width of the image.
@@ -142,7 +177,12 @@ public void setWidth(int width)
 ```
 
 
-Sets the width of the image for rendering to PNG/JPG.
+The width of the output image (in pixels, for rendering to PNG/JPG only).
+
+Use this property to set the output image width (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/image-viewer-adjust-image-size/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -155,7 +195,12 @@ public int getHeight()
 ```
 
 
-Returns the height of the image for rendering to PNG/JPG.
+The height of the output image (in pixels, for rendering to PNG/JPG only).
+
+Use this property to set the output image height (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/image-viewer-adjust-image-size/
 
 **Returns:**
 int - the height of the image.
@@ -165,7 +210,12 @@ public void setHeight(int height)
 ```
 
 
-Sets the height of the image for rendering to PNG/JPG.
+The height of the output image (in pixels, for rendering to PNG/JPG only).
+
+Use this property to set the output image height (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/image-viewer-adjust-image-size/
 
 **Parameters:**
 | Parameter | Type | Description |

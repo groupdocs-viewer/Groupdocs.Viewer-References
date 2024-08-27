@@ -36,7 +36,10 @@ Example usage:
  
 ```
 
-***Note:** The PngViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output PNG images.*
+***Note:** The PngViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output PNG images.* For details, see this [page][] and its children.
+
+
+[page]: https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/
 ## Constructors
 
 | Constructor | Description |
@@ -71,6 +74,11 @@ public PngViewOptions(CreatePageStream createPageStream)
 
 Initializes a new instance of the  PngViewOptions  class.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-png
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -83,6 +91,11 @@ public PngViewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 
 
 Initializes a new instance of the  PngViewOptions  class.
+
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-png
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -98,6 +111,11 @@ public PngViewOptions(PageStreamFactory pageStreamFactory)
 
 Initializes a new instance of the  PngViewOptions  class.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-png
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -111,7 +129,10 @@ public PngViewOptions()
 
 Initializes new instance of  PngViewOptions  class.
 
-This constructor initializes new instance of  PngViewOptions  with "p\_\{0\}.png" as file path format for the output files. The output files will be placed into current working directory of the application.
+This constructor initializes new instance of  PngViewOptions  with "p\_\{0\}.png" as file path format for the output files. The output files will be placed into current working directory of the application. For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-png
 
 ### PngViewOptions(String filePathFormat) {#PngViewOptions-java.lang.String-}
 ```
@@ -123,7 +144,10 @@ Initializes a new instance of the  PngViewOptions  class.
 
 For example, if the file path format is 'page\_\{0\}.png', the output files will be named as 'page\_1.png', 'page\_2.png', and so on, based on the page number.
 
-***Note:** It is important to note that the output files will be placed into the current working directory of the application.*
+***Note:** It is important to note that the output files will be placed into the current working directory of the application.* For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-png
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -138,7 +162,10 @@ public PngViewOptions(Path filePathFormat)
 
 Initializes a new instance of the  PngViewOptions  class.
 
-For example, if the file path format is 'page\_\{0\}.png', the output files will be named as 'page\_1.png', 'page\_2.png', and so on, based on the page number.
+For example, if the file path format is 'page\_\{0\}.png', the output files will be named as 'page\_1.png', 'page\_2.png', and so on, based on the page number. For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-png
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -153,6 +180,11 @@ public int getMaxWidth()
 
 Returns the maximum width of an output image in pixels.
 
+Use this property to set the maximum output image width (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/
+
 **Returns:**
 int - the maximum width of the output image.
 ### setMaxWidth(int maxWidth) {#setMaxWidth-int-}
@@ -162,6 +194,11 @@ public void setMaxWidth(int maxWidth)
 
 
 Sets the maximum width of an output image in pixels.
+
+Use this property to set the maximum output image width (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -176,6 +213,11 @@ public int getMaxHeight()
 
 Returns the maximum height of an output image in pixels.
 
+Use this property to set the maximum output image height (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/
+
 **Returns:**
 int - the maximum height of the output image.
 ### setMaxHeight(int maxHeight) {#setMaxHeight-int-}
@@ -185,6 +227,11 @@ public void setMaxHeight(int maxHeight)
 
 
 Sets the maximum height of an output image in pixels.
+
+Use this property to set the maximum output image height (in pixels). For code example, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +246,10 @@ public final boolean isExtractText()
 
 Determines whether text extraction is enabled.
 
-This option might be useful when you want to add a selectable text layer over the image.
+This option might be useful when you want to add a selectable text layer over the image. Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/image-viewer-get-text-coordinates/
 
 **Returns:**
 boolean -  true  if text extraction is enabled,  false  otherwise.
@@ -226,6 +276,11 @@ public final int getWidth()
 
 Returns the width of the output image in pixels.
 
+Use this property to set the output image width (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/
+
 **Returns:**
 int - the width of the output image.
 ### setWidth(int value) {#setWidth-int-}
@@ -235,6 +290,11 @@ public final void setWidth(int value)
 
 
 Sets the width of the output image in pixels.
+
+Use this property to set the output image width (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -249,6 +309,11 @@ public final int getHeight()
 
 Returns the height of the output image in pixels.
 
+Use this property to set the output image height (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/
+
 **Returns:**
 int - the height of the output image.
 ### setHeight(int value) {#setHeight-int-}
@@ -258,6 +323,11 @@ public final void setHeight(int value)
 
 
 Sets the height of the output image in pixels.
+
+Use this property to set the output image height (in pixels). For code example, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/
 
 **Parameters:**
 | Parameter | Type | Description |

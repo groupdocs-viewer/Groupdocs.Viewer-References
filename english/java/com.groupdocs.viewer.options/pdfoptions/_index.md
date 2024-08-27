@@ -14,7 +14,7 @@ public class PdfOptions
 
 Provides options for rendering PDF documents.
 
-The PdfOptions class encapsulates various settings and parameters that can be used to control the rendering of PDF documents in the GroupDocs.Viewer component.
+The PdfOptions class encapsulates various settings and parameters that can be used to control the rendering of PDF documents in the GroupDocs.Viewer component. For details, see the [documentation][].
 
 Example usage:
 
@@ -34,6 +34,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/
 ## Constructors
 
 | Constructor | Description |
@@ -56,7 +59,7 @@ Example usage:
 | [getImageQuality()](#getImageQuality--) | Retrieves the output image quality for image resources when rendering into HTML. |
 | [setImageQuality(ImageQuality value)](#setImageQuality-com.groupdocs.viewer.options.ImageQuality-) | Sets the output image quality for image resources when rendering into HTML. |
 | [isFixedLayout()](#isFixedLayout--) | PDF is a fixed format so all of the elements have a specific place on a page. |
-| [setFixedLayout(boolean fixedLayout)](#setFixedLayout-boolean-) |  |
+| [setFixedLayout(boolean fixedLayout)](#setFixedLayout-boolean-) | PDF is a fixed format so all of the elements have a specific place on a page. |
 | [isWrapImagesInSvg()](#isWrapImagesInSvg--) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
 | [setWrapImagesInSvg(boolean wrapImagesInSvg)](#setWrapImagesInSvg-boolean-) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
 | [isDisableFontLicenseVerifications()](#isDisableFontLicenseVerifications--) | Disable any license restrictions for all fonts in current XPS/OXPS document. |
@@ -108,7 +111,10 @@ public final boolean isDisableCharsGrouping()
 
 Checks if character grouping is disabled to maintain maximum precision during character positioning when rendering the page. When this option is enabled, the characters are rendered without any grouping, which ensures maximum precision.
 
-***Note:** By default, character grouping is enabled.*
+***Note:** By default, character grouping is enabled.* When converting PDF files, GroupDocs.Viewer groups individual characters into words for enhanced rendering performance. If your document includes hieroglyphics or special symbols, you might want to prohibit character grouping to ensure a more precise layout. The default value is false. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#disable-character-grouping
 
 **Returns:**
 boolean -  true  if character grouping is disabled,  false  otherwise.
@@ -120,7 +126,10 @@ public final void setDisableCharsGrouping(boolean value)
 
 Sets the option to disable character grouping, ensuring maximum precision during character positioning when rendering the page. When this option is enabled by setting the value to  true , character grouping is disabled, which ensures maximum precision.
 
-***Note:** Disabling character grouping can help preserve the exact positioning of characters on the rendered page. By default, character grouping is enabled.*
+***Note:** Disabling character grouping can help preserve the exact positioning of characters on the rendered page.* When converting PDF files, GroupDocs.Viewer groups individual characters into words for enhanced rendering performance. If your document includes hieroglyphics or special symbols, you might want to prohibit character grouping to ensure a more precise layout. The default value is false. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#disable-character-grouping
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -135,7 +144,10 @@ public final boolean isEnableLayeredRendering()
 
 Checks whether rendering of text and graphics should follow the z-order in the original PDF document when rendering into HTML. When this option is enabled by returning  true , text and graphics are rendered according to their z-order in the original PDF document.
 
-***Note:** By default, text and graphics are rendered into HTML as a single layer.*
+***Note:** By default, text and graphics are rendered into HTML as a single layer.* By default, GroupDocs.Veiewer renders text and graphics as a single layer in HTML. This option lets you arrange objects in the same order as in the source file. The default value is false. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#enable-multi-layer-rendering
 
 **Returns:**
 boolean -  true  if layered rendering is enabled,  false  otherwise.
@@ -147,7 +159,10 @@ public final void setEnableLayeredRendering(boolean value)
 
 Enables or disables rendering of text and graphics according to the z-order in the original PDF document when rendering into HTML.
 
-***Note:** By default, text and graphics are rendered into HTML as a single layer.*
+***Note:** By default, text and graphics are rendered into HTML as a single layer.* By default, GroupDocs.Veiewer renders text and graphics as a single layer in HTML. This option lets you arrange objects in the same order as in the source file. The default value is false. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#enable-multi-layer-rendering
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -162,7 +177,10 @@ public final boolean isEnableFontHinting()
 
 Determines whether font hinting is enabled. Font hinting adjusts the display of an outline font. This option is supported only for TrueType (TTF) fonts when used in the source document.
 
-***Note:** This option is supported when rendering into PNG or JPG formats.*
+***Note:** This option is supported when rendering into PNG or JPG formats.* Font hinting adjusts how an outline font is displayed. Only applicable to TTF fonts used in the source document. This option is available for rendering to PNG or JPG formats. The default value is false. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#enable-font-hinting
 
 **Returns:**
 boolean -  true  if font hinting is enabled,  false  otherwise.
@@ -174,7 +192,10 @@ public final void setEnableFontHinting(boolean value)
 
 Enables font hinting. Font hinting adjusts the display of an outline font and is supported only for TrueType (TTF) fonts when used in the source document.
 
-***Note:** This option is supported when rendering into PNG or JPG formats.*
+***Note:** This option is supported when rendering into PNG or JPG formats.* Font hinting adjusts how an outline font is displayed. Only applicable to TTF fonts used in the source document. This option is available for rendering to PNG or JPG formats. The default value is false. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#enable-font-hinting
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -189,7 +210,10 @@ public boolean isRenderOriginalPageSize()
 
 Enables rendering of pages with the same size in pixels as the page size in the source PDF document.
 
-***Note:** By default, GroupDocs.Viewer calculates the output image page size for better rendering quality.*
+***Note:** By default, GroupDocs.Viewer calculates the output image page size for better rendering quality.* By default, GroupDocs.Viewer calculates output image page size for better rendering quality. Enable this option to ensure the output pages have the same size as the source PDF document's page size (in pixels). The default value is false. This option is available for rendering to PNG or JPG formats. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#preserve-the-size-of-document-pages
 
 **Returns:**
 boolean -  true  if the option is enabled,  false  otherwise.
@@ -201,7 +225,10 @@ public void setRenderOriginalPageSize(boolean renderOriginalPageSize)
 
 Enables rendering of pages with the same size in pixels as the page size in the source PDF document.
 
-***Note:** By default, GroupDocs.Viewer calculates the output image page size for better rendering quality.*
+***Note:** By default, GroupDocs.Viewer calculates the output image page size for better rendering quality.* By default, GroupDocs.Viewer calculates output image page size for better rendering quality. Enable this option to ensure the output pages have the same size as the source PDF document's page size (in pixels). The default value is false. This option is available for rendering to PNG or JPG formats. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#preserve-the-size-of-document-pages
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -216,6 +243,11 @@ public final ImageQuality getImageQuality()
 
 Retrieves the output image quality for image resources when rendering into HTML. The default value is Low.
 
+When this option is set to true, GroupDocs.Viewer renders text as an image in the HTML output. This makes the text unselectable and enhances character rendering, ensuring a PDF-like appearance in HTML. The default value is false. This option is available for rendering to HTML. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#render-text-as-an-image
+
 **Returns:**
 [ImageQuality](../../com.groupdocs.viewer.options/imagequality) - the output image quality for image resources when rendering into HTML.
 ### setImageQuality(ImageQuality value) {#setImageQuality-com.groupdocs.viewer.options.ImageQuality-}
@@ -225,6 +257,11 @@ public final void setImageQuality(ImageQuality value)
 
 
 Sets the output image quality for image resources when rendering into HTML. The default value is Low.
+
+When this option is set to true, GroupDocs.Viewer renders text as an image in the HTML output. This makes the text unselectable and enhances character rendering, ensuring a PDF-like appearance in HTML. The default value is false. This option is available for rendering to HTML. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#render-text-as-an-image
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -239,7 +276,7 @@ public boolean isFixedLayout()
 
 PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to false.
 
-***Note:** The default value is true. This option is supported when rendering into HTML. When rendering to fluid layout images are skipped. Use fluid layout when rendering PDF documents with textual content.*
+***Note:** The default value is true. This option is supported when rendering into HTML. When rendering to fluid layout images are skipped. Use fluid layout when rendering PDF documents with textual content.* PDF and EPUB documents are initially rendered to HTML with a fixed layout to maintain the appearance of the source document. This fixed layout means all HTML elements have precise positions within a container with a set size. Resizing the browser window is not affect the position and size of elements in the document. This option is only available when rendering to HTML. The default value is true. To render with a fluid layout, set this property to false.
 
 Example usage:
 
@@ -261,12 +298,26 @@ public void setFixedLayout(boolean fixedLayout)
 ```
 
 
+PDF is a fixed format so all of the elements have a specific place on a page. To ensure that the output HTML looks the same as the source PDF the documents are rendered to HTML with a fixed layout by default. When rendering with fixed layout the output HTML has fixed size so the elements will stay on the same place regardless of window size. To render to HTML with fluid layout set this property to false.
 
+***Note:** The default value is true. This option is supported when rendering into HTML. When rendering to fluid layout images are skipped. Use fluid layout when rendering PDF documents with textual content.* PDF and EPUB documents are initially rendered to HTML with a fixed layout to maintain the appearance of the source document. This fixed layout means all HTML elements have precise positions within a container with a set size. Resizing the browser window is not affect the position and size of elements in the document. This option is only available when rendering to HTML. The default value is true. To render with a fluid layout, set this property to false.
+
+Example usage:
+
+```
+
+ try (Viewer viewer = new Viewer("resume.pdf")) {
+      HtmlViewOptions viewOptions = HtmlViewOptions.forEmbeddedResources("page_{0}.html");
+      viewOptions.setFixedLayout(false);
+      viewer.view(viewOptions);
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fixedLayout | boolean |  |
+| fixedLayout | boolean | true if it is fixed layout |
 
 ### isWrapImagesInSvg() {#isWrapImagesInSvg--}
 ```
@@ -327,7 +378,7 @@ public boolean isDisableFontLicenseVerifications()
 
 Disable any license restrictions for all fonts in current XPS/OXPS document.
 
-Many operations with font can't be executed if these operations are prohibited by the license of this font. For example, some font can't be embedded into a PDF document if the license rules disable embedding for this font. Be careful when using this flag. When it is set, it means that the person who sets this flag takes all responsibility for possible license/law violations on themselves. So they take it on their own risk. It's strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. By default false.
+Many operations with font can't be executed if these operations are prohibited by the license of this font. For example, some font can't be embedded into a PDF document if the license rules disable embedding for this font. Be careful when using this flag. When it is set, it means that the person who sets this flag takes all responsibility for possible license/law violations on themselves. So they take it on their own risk. It's strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. By default false. For code example, see the [documentation][].
 
 Example usage:
 
@@ -340,6 +391,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#skip-font-license-verification-when-rendering-xps-and-oxps-files
 
 **Returns:**
 boolean
@@ -351,7 +405,7 @@ public void setDisableFontLicenseVerifications(boolean disableFontLicenseVerific
 
 Set the flag to disable any license restrictions for all fonts in current XPS/OXPS document.
 
-Many operations with font can't be executed if these operations are prohibited by the license of this font. For example, some font can't be embedded into a PDF document if the license rules disable embedding for this font. Be careful when using this flag. When it is set, it means that the person who sets this flag takes all responsibility for possible license/law violations on themselves. So they take it on their own risk. It's strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. By default false.
+Many operations with font can't be executed if these operations are prohibited by the license of this font. For example, some font can't be embedded into a PDF document if the license rules disable embedding for this font. Be careful when using this flag. When it is set, it means that the person who sets this flag takes all responsibility for possible license/law violations on themselves. So they take it on their own risk. It's strongly recommended to use this flag only when you are fully confident that you are not breaking the copyright law. By default false. For code example, see the [documentation][].
 
 Example usage:
 
@@ -364,6 +418,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/#skip-font-license-verification-when-rendering-xps-and-oxps-files
 
 **Parameters:**
 | Parameter | Type | Description |

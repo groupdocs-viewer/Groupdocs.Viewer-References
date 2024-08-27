@@ -14,7 +14,7 @@ public class ProjectManagementOptions
 
 Provides options for rendering project management files.
 
-The ProjectManagementOptions class encapsulates various settings and parameters that can be used to control the rendering of project management files (such as Microsoft Project or similar) in the GroupDocs.Viewer component.
+The ProjectManagementOptions class encapsulates various settings and parameters that can be used to control the rendering of project management files (such as Microsoft Project or similar) in the GroupDocs.Viewer component. For details, see the [documentation][].
 
 Example usage:
 
@@ -31,6 +31,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/
 ## Constructors
 
 | Constructor | Description |
@@ -64,6 +67,11 @@ public final PageSize getPageSize()
 
 Retrieves the output page size.
 
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#specify-the-output-page-size
+
 **Returns:**
 [PageSize](../../com.groupdocs.viewer.options/pagesize) - the output page size.
 ### setPageSize(PageSize value) {#setPageSize-com.groupdocs.viewer.options.PageSize-}
@@ -73,6 +81,11 @@ public final void setPageSize(PageSize value)
 
 
 Sets the output page size.
+
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#specify-the-output-page-size
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -87,6 +100,11 @@ public final TimeUnit getTimeUnit()
 
 Retrieves the time unit.
 
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit
+
 **Returns:**
 [TimeUnit](../../com.groupdocs.viewer.options/timeunit) - the time unit.
 ### setTimeUnit(TimeUnit value) {#setTimeUnit-com.groupdocs.viewer.options.TimeUnit-}
@@ -96,6 +114,11 @@ public final void setTimeUnit(TimeUnit value)
 
 
 Retrieves the time unit.
+
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -110,7 +133,10 @@ public final Date getStartDate()
 
 Retrieves the start date of the Gantt Chart View to be included in the output.
 
-***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.*
+***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.* For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#render-specific-dates
 
 **Returns:**
 java.util.Date - the start date of the Gantt Chart View.
@@ -122,7 +148,10 @@ public final void setStartDate(Date value)
 
 Sets the start date of the Gantt Chart View to be included in the output.
 
-***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.*
+***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.* For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#render-specific-dates
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -137,7 +166,10 @@ public final Date getEndDate()
 
 Retrieves the end date of the Gantt Chart View to be included in the output.
 
-***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.*
+***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.* For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#render-specific-dates
 
 **Returns:**
 java.util.Date - the end date of the Gantt Chart View.
@@ -149,7 +181,10 @@ public final void setEndDate(Date value)
 
 Sets the end date of the Gantt Chart View to be included in the output.
 
-***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.*
+***Note:** Use this option when you need to render a specific time interval of the project within the Gantt Chart View.* For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#render-specific-dates
 
 **Parameters:**
 | Parameter | Type | Description |

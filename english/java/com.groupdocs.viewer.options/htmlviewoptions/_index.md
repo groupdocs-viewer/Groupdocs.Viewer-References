@@ -16,6 +16,8 @@ Provides options for rendering documents into HTML format.
 
 The HtmlViewOptions class encapsulates additional settings and parameters that can be used to control the rendering of documents into HTML format in the GroupDocs.Viewer component.
 
+For details, see the [topic][] and its children.
+
 Example usage:
 
 ```
@@ -30,6 +32,9 @@ Example usage:
  }
  
 ```
+
+
+[topic]: https://docs.groupdocs.com/viewer/java/rendering-to-html/
 ## Fields
 
 | Field | Description |
@@ -93,7 +98,10 @@ public int getImageMaxWidth()
 
 Returns the maximum width of an output image in pixels.
 
-**Note:** This value is used when converting a single image to HTML.
+**Note:** This value is used when converting a single image to HTML. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
 
 **Returns:**
 int - the maximum width of an output image.
@@ -105,7 +113,10 @@ public void setImageMaxWidth(int imageMaxWidth)
 
 Sets the maximum width of an output image in pixels.
 
-**Note:** This value is used when converting a single image to HTML.
+**Note:** This value is used when converting a single image to HTML. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +131,10 @@ public int getImageMaxHeight()
 
 Gets the maximum height of an output image in pixels.
 
-**Note:** This option applies when converting a single image to HTML. It specifies the maximum height of the output image.
+**Note:** This option applies when converting a single image to HTML. It specifies the maximum height of the output image. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
 
 **Returns:**
 int - the maximum height of an output image.
@@ -132,7 +146,10 @@ public void setImageMaxHeight(int imageMaxHeight)
 
 Sets the maximum height of an output image in pixels.
 
-**Note:** This option applies when converting a single image to HTML. It specifies the maximum height of the output image.
+**Note:** This option applies when converting a single image to HTML. It specifies the maximum height of the output image. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -147,7 +164,10 @@ public int getImageWidth()
 
 Gets the width of the output image in pixels.
 
-***Note:** This value is applicable only when converting a single image to HTML.*
+***Note:** This value is applicable only when converting a single image to HTML.* For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
 
 **Returns:**
 int - the width of the output image.
@@ -159,7 +179,10 @@ public void setImageWidth(int imageWidth)
 
 Sets the width of the output image in pixels.
 
-***Note:** This value is applicable only when converting a single image to HTML.*
+***Note:** This value is applicable only when converting a single image to HTML.* For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -174,6 +197,11 @@ public int getImageHeight()
 
 Gets the height of the output image in pixels when converting a single image to HTML.
 
+For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
+
 **Returns:**
 int - the height of the output image in pixels.
 ### setImageHeight(int imageHeight) {#setImageHeight-int-}
@@ -183,6 +211,11 @@ public void setImageHeight(int imageHeight)
 
 
 Sets the height of the output image in pixels when converting a single image to HTML.
+
+For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-html/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -197,7 +230,10 @@ public static HtmlViewOptions forEmbeddedResources(CreatePageStream createPageSt
 
 Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 
-***Note:** The method takes a  CreatePageStream  parameter, which is a method used to instantiate a stream for writing output page data.*
+***Note:** The method takes a  CreatePageStream  parameter, which is a method used to instantiate a stream for writing output page data.* For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-embedded-resources
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,6 +249,11 @@ public static HtmlViewOptions forEmbeddedResources(CreatePageStream createPageSt
 
 
 Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
+
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-embedded-resources
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -230,6 +271,11 @@ public static HtmlViewOptions forEmbeddedResources(PageStreamFactory pageStreamF
 
 Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with embedded resources.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-embedded-resources
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -245,6 +291,11 @@ public static HtmlViewOptions forEmbeddedResources()
 
 Initializes a new instance of the  HtmlViewOptions  class.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-embedded-resources
+
 **Returns:**
 [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions) - a new instance of the  HtmlViewOptions  class.
 ### forEmbeddedResources(String filePathFormat) {#forEmbeddedResources-java.lang.String-}
@@ -254,6 +305,11 @@ public static HtmlViewOptions forEmbeddedResources(String filePathFormat)
 
 
 Initializes a new instance of the  HtmlViewOptions  class.
+
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-embedded-resources
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,6 +326,11 @@ public static HtmlViewOptions forEmbeddedResources(Path filePathFormat)
 
 Initializes a new instance of the  HtmlViewOptions  class.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-embedded-resources
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -285,7 +346,10 @@ public static HtmlViewOptions forExternalResources(CreatePageStream createPageSt
 
 Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
 
-***Note:** This method should be used when rendering HTML with external resources, such as CSS and JavaScript files.*
+***Note:** This method should be used when rendering HTML with external resources, such as CSS and JavaScript files.* For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-external-resources
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,6 +367,11 @@ public static HtmlViewOptions forExternalResources(CreatePageStream createPageSt
 
 
 Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
+
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-external-resources
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -322,6 +391,11 @@ public static HtmlViewOptions forExternalResources(PageStreamFactory pageStreamF
 
 
 Initializes a new instance of the  HtmlViewOptions  class for rendering into HTML with external resources.
+
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-external-resources
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -343,7 +417,10 @@ Initializes new instance of  HtmlViewOptions  class.
  *  \- with "p\_\{0\}\_\{1\}" as file path format for the output HTML-resource files;
  *  \- with "p\_\{0\}\_\{1\}" as URL format for HTML-resources;
 
-The output files will be placed into current working directory of the application.
+The output files will be placed into current working directory of the application. For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-external-resources
 
 **Returns:**
 [HtmlViewOptions](../../com.groupdocs.viewer.options/htmlviewoptions)
@@ -354,6 +431,11 @@ public static HtmlViewOptions forExternalResources(String filePathFormat, String
 
 
 Initializes a new instance of the  HtmlViewOptions  class.
+
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/rendering-to-html/#rendering-to-html-with-external-resources
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -372,6 +454,11 @@ public final boolean isRenderResponsive()
 
 Determines whether responsive rendering is enabled. Responsive web pages render well on devices with different screen sizes.
 
+Responsive design aims to make web pages render well on a variety of devices. To render with a responsive layout, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-with-responsive-layout/
+
 **Returns:**
 boolean -  true  if responsive rendering is enabled,  false  otherwise.
 ### setRenderResponsive(boolean value) {#setRenderResponsive-boolean-}
@@ -381,6 +468,11 @@ public final void setRenderResponsive(boolean value)
 
 
 Sets whether responsive rendering is enabled. Responsive web pages render well on devices with different screen sizes.
+
+Responsive design aims to make web pages render well on a variety of devices. To render with a responsive layout, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-with-responsive-layout/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -395,6 +487,11 @@ public final boolean isMinify()
 
 Checks if HTML content and HTML resources minification is enabled.
 
+Compression of the output content (HTML, CSS, and SVG) is one of the ways to optimize the HTML file. To do this, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/minify-html/
+
 **Returns:**
 boolean -  true  if minification is enabled,  false  otherwise.
 ### setMinify(boolean value) {#setMinify-boolean-}
@@ -404,6 +501,11 @@ public final void setMinify(boolean value)
 
 
 Sets whether HTML content and HTML resources minification is enabled.
+
+Compression of the output content (HTML, CSS, and SVG) is one of the ways to optimize the HTML file. To do this, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/minify-html/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -489,6 +591,11 @@ public final boolean isExcludeFonts()
 
 Determines whether to exclude fonts from the HTML document.
 
+By default, GroupDocs.Viewer embeds the fonts used in the document into HTML. To prevent it, set this property to true. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/exclude-fonts/
+
 **Returns:**
 boolean -  true  if fonts should be excluded,  false  otherwise.
 ### setExcludeFonts(boolean value) {#setExcludeFonts-boolean-}
@@ -498,6 +605,11 @@ public final void setExcludeFonts(boolean value)
 
 
 Sets whether to exclude fonts from the HTML document.
+
+By default, GroupDocs.Viewer embeds the fonts used in the document into HTML. To prevent it, set this property to true. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/exclude-fonts/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -514,7 +626,10 @@ Retrieves the list of font names to exclude from the HTML document.
 
 This option is supported for presentations only. Including fonts in the HTML document improves the stability of the output view but increases the rendering result's size. Use this option to find a compromise between stability and output size. Include font names that are popular and installed on most systems.
 
-***Note:** Please note that this property is active only when the  ExcludeFonts  (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) option is disabled.*
+***Note:** Please note that this property is active only when the  ExcludeFonts  (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) option is disabled.* For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/exclude-fonts/
 
 **Returns:**
 java.util.List<java.lang.String> - the list of font names to exclude from the HTML document.
@@ -528,7 +643,10 @@ Sets the list of font names to exclude from the HTML document.
 
 This option is supported for presentations only. Including fonts in the HTML document improves the stability of the output view but increases the rendering result's size. Use this option to find a compromise between stability and output size. Include font names that are popular and installed on most systems.
 
-***Note:** Please note that this property is active only when the  ExcludeFonts  (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) option is disabled.*
+***Note:** Please note that this property is active only when the  ExcludeFonts  (\#isExcludeFonts().isExcludeFonts()/\#setExcludeFonts(boolean).setExcludeFonts(boolean)) option is disabled.* For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/exclude-fonts/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -543,6 +661,11 @@ public final boolean isForPrinting()
 
 Checks if the output HTML should be optimized for printing.
 
+Enable this option to convert the output HTML pages to the vector SVG format. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/how-to-optimize-output-html-for-printing/
+
 **Returns:**
 boolean -  true  if the output HTML should be optimized for printing,  false  otherwise.
 ### setForPrinting(boolean value) {#setForPrinting-boolean-}
@@ -552,6 +675,11 @@ public final void setForPrinting(boolean value)
 
 
 Sets whether the output HTML should be optimized for printing.
+
+Enable this option to convert the output HTML pages to the vector SVG format. For details and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/how-to-optimize-output-html-for-printing/
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -52,6 +52,11 @@ public TextOptions()
 
 Initializes a new instance of the  TextOptions  class.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-text-files/#specify-rendering-options
+
 ### getMaxCharsPerRow() {#getMaxCharsPerRow--}
 ```
 public int getMaxCharsPerRow()
@@ -60,7 +65,10 @@ public int getMaxCharsPerRow()
 
 Gets the maximum number of characters per row on a page.
 
-***Note:** The default value is 85.*
+***Note:** The default value is 85.* The default value is 85. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-text-files/#specify-rendering-options
 
 **Returns:**
 int - the maximum number of characters per row on a page.
@@ -72,7 +80,10 @@ public void setMaxCharsPerRow(int maxCharsPerRow)
 
 Sets the maximum number of characters per row on a page.
 
-***Note:** The default value is 85.*
+***Note:** The default value is 85.* The default value is 85. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-text-files/#specify-rendering-options
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -87,7 +98,10 @@ public int getMaxRowsPerPage()
 
 Gets the maximum number of rows per page.
 
-***Note:** The default value is 55.*
+***Note:** The default value is 55.* The default value is 55. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-text-files/#specify-rendering-options
 
 **Returns:**
 int - the maximum number of rows.
@@ -99,7 +113,10 @@ public void setMaxRowsPerPage(int maxRowsPerPage)
 
 Sets the maximum number of rows per page.
 
-***Note:** The default value is 55.*
+***Note:** The default value is 55.* The default value is 55. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-text-files/#specify-rendering-options
 
 **Parameters:**
 | Parameter | Type | Description |

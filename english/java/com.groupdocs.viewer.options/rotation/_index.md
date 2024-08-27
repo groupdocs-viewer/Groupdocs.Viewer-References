@@ -1,7 +1,7 @@
 ---
 title: Rotation
 second_title: GroupDocs.Viewer for Java API Reference
-description: Defines page rotation in degrees.
+description: Contains page rotation in degrees clockwise.
 type: docs
 weight: 42
 url: /java/com.groupdocs.viewer.options/rotation/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum Rotation extends Enum<Rotation>
 ```
 
-Defines page rotation in degrees.
+Contains page rotation in degrees (clockwise).
 
 The Rotation enum represents different rotation angles for a page in the GroupDocs.Viewer component. It provides a set of predefined rotation options that can be used to specify the rotation angle for rendering a page in various document viewing or conversion scenarios.
 

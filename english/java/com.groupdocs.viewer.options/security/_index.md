@@ -14,7 +14,7 @@ public class Security
 
 Provides PDF document security options.
 
-The Security class encapsulates various settings and options that can be used to apply security measures to a PDF document in the GroupDocs.Viewer component. These options include password protection, permissions, and more.
+The Security class encapsulates various settings and options that can be used to apply security measures to a PDF document in the GroupDocs.Viewer component. These options include password protection, permissions, and more. For details, see the [documentation][].
 
 Example usage:
 
@@ -33,6 +33,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
 ## Constructors
 
 | Constructor | Description |
@@ -64,6 +67,11 @@ public final String getDocumentOpenPassword()
 
 Gets the password required to open the PDF document.
 
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
+
 **Returns:**
 java.lang.String - the document open password.
 ### setDocumentOpenPassword(String value) {#setDocumentOpenPassword-java.lang.String-}
@@ -73,6 +81,11 @@ public final void setDocumentOpenPassword(String value)
 
 
 Sets the password required to open the PDF document.
+
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -87,7 +100,10 @@ public final String getPermissionsPassword()
 
 Gets the password required to change permission settings.
 
-Using a permissions password, you can restrict printing, modification, and data extraction.
+Using a permissions password, you can restrict printing, modification, and data extraction. Use a permissions password to restrict printing, modification and data extraction. For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
 
 **Returns:**
 java.lang.String - the permissions password.
@@ -99,7 +115,10 @@ public final void setPermissionsPassword(String value)
 
 Sets the password required to change permission settings.
 
-Using a permissions password, you can restrict printing, modification, and data extraction.
+Using a permissions password, you can restrict printing, modification, and data extraction. Use a permissions password to restrict printing, modification and data extraction. For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -114,6 +133,11 @@ public final int getPermissions()
 
 Gets the PDF document permissions such as printing, modification, and data extraction.
 
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
+
 **Returns:**
 int - the PDF document permissions.
 ### setPermissions(int value) {#setPermissions-int-}
@@ -123,6 +147,11 @@ public final void setPermissions(int value)
 
 
 Sets the PDF document permissions such as printing, modification, and data extraction.
+
+For code sample, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
 
 **Parameters:**
 | Parameter | Type | Description |

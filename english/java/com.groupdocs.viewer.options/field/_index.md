@@ -16,6 +16,8 @@ Represents email message fields e.g. From, To, Subject etc.
 
 The Field enum represents common email message fields in the GroupDocs.Viewer component. It provides a set of predefined fields that can be used to identify and access specific information in email messages, such as the sender, recipient, subject, and more.
 
+For details, see the [documentation][].
+
 Example usage:
 
 ```
@@ -30,6 +32,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/#rename-fields-in-the-message-header
 ## Fields
 
 | Field | Description |
