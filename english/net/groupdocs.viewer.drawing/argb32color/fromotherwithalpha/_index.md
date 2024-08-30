@@ -3,7 +3,7 @@ title: FromOtherWithAlpha
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Creates a new Argb32Colorgroupdocs.viewer.drawing/argb32color instance from specified but with redefined alpha opacity value
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.viewer.drawing/argb32color/fromotherwithalpha/
 ---
 ## FromOtherWithAlpha(Argb32Color, byte) {#fromotherwithalpha}

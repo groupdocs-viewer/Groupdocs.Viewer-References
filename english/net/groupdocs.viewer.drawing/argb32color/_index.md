@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.drawing/argb32color/
 Represents 32-bit color in ARGB format, with 8 bits per every channel (Alpha, Red, Green, Blue). Supports transparency.
 
 ```csharp
-public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable<Rgb24Color>
+public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable<Rgb24Color>
 ```
 
 ## Properties
@@ -33,6 +33,7 @@ public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable
 
 | Name | Description |
 | --- | --- |
+| static [FromArgb](../../groupdocs.viewer.drawing/argb32color/fromargb)(int) | Creates a [`Argb32Color`](../argb32color) instance from its 32-bit component (alpha, red, green, and blue) values, compatible with value, produced by the `System.Drawing.Color.ToArgb()` method |
 | static [FromOtherWithAlpha](../../groupdocs.viewer.drawing/argb32color/fromotherwithalpha#fromotherwithalpha)(Argb32Color, byte) | Creates a new [`Argb32Color`](../argb32color) instance from specified, but with re-defined alpha (opacity) value |
 | static [FromOtherWithAlpha](../../groupdocs.viewer.drawing/argb32color/fromotherwithalpha#fromotherwithalpha_1)(Rgb24Color, byte) | Creates a new [`Argb32Color`](../argb32color) instance from specified [`Rgb24Color`](../rgb24color), but with specified alpha (opacity) value |
 | static [FromRgb](../../groupdocs.viewer.drawing/argb32color/fromrgb)(byte, byte, byte) | Creates one [`Argb32Color`](../argb32color) value from specified Red, Green, Blue channels, while Alpha channel is fully opaque |
@@ -45,7 +46,7 @@ public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable
 | override [GetHashCode](../../groupdocs.viewer.drawing/argb32color/gethashcode)() | Returns a hash code that defines the current color. Not compatible with GetHashCode |
 | [GetHue](../../groupdocs.viewer.drawing/argb32color/gethue)() | Returns the Hue-Saturation-Lightness (HSL) hue value, in degrees, for this [`Argb32Color`](../argb32color) instance. If R == G == B, the hue is meaningless, and the return value is 0. |
 | [GetSaturation](../../groupdocs.viewer.drawing/argb32color/getsaturation)() | The Hue-Saturation-Lightness (HSL) saturation for this [`Argb32Color`](../argb32color) instance |
-| [ToArgb](../../groupdocs.viewer.drawing/argb32color/toargb)() | Returns the ARGB value of this [`Argb32Color`](../argb32color) instance, compatible with Color |
+| [ToArgb](../../groupdocs.viewer.drawing/argb32color/toargb)() | Returns the ARGB value of this [`Argb32Color`](../argb32color) instance, compatible with `System.Drawing.Color.ToArgb()` method |
 | [ToRGB](../../groupdocs.viewer.drawing/argb32color/torgb)() | Serializes this [`Argb32Color`](../argb32color) instance to the 'rgb' CSS function notation. Alpha channel of this color will be omitted during serialization. |
 | [ToRGBA](../../groupdocs.viewer.drawing/argb32color/torgba)() | Serializes this [`Argb32Color`](../argb32color) instance to the 'rgba' CSS function notation |
 | override [ToString](../../groupdocs.viewer.drawing/argb32color/tostring)() | Serializes this [`Argb32Color`](../argb32color) instance to the most appropriate CSS function notation depending on translucency |

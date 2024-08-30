@@ -3,7 +3,7 @@ title: ToRGBA
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Serializes this Argb32Colorgroupdocs.viewer.drawing/argb32color instance to the rgba CSS function notation
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.viewer.drawing/argb32color/torgba/
 ---
 ## Argb32Color.ToRGBA method

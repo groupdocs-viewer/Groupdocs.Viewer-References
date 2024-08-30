@@ -1,14 +1,14 @@
 ---
 title: ToArgb
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Returns the ARGB value of this Argb32Colorgroupdocs.viewer.drawing/argb32color instance compatible with Color
+description: Returns the ARGB value of this Argb32Colorgroupdocs.viewer.drawing/argb32color instance compatible with System.Drawing.Color.ToArgb method
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.viewer.drawing/argb32color/toargb/
 ---
 ## Argb32Color.ToArgb method
 
-Returns the ARGB value of this [`Argb32Color`](../../argb32color) instance, compatible with Color
+Returns the ARGB value of this [`Argb32Color`](../../argb32color) instance, compatible with `System.Drawing.Color.ToArgb()` method
 
 ```csharp
 public int ToArgb()
@@ -16,7 +16,7 @@ public int ToArgb()
 
 ### Return Value
 
-32-bit ARGB value of this instance as Int32, the identical to ToArgb call for the same color. Never throws an exception.
+32-bit ARGB value of this instance as Int32, identical to `System.Drawing.Color.ToArgb()` call for the same color. Never throws an exception.
 
 ### See Also
 

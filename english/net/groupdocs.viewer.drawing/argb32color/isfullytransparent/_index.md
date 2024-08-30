@@ -3,7 +3,7 @@ title: IsFullyTransparent
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Indicates whether this Argb32Colorgroupdocs.viewer.drawing/argb32color instance is fully transparent  its Alpha channel has the min 0 value so other R G and B channels has no visible effect.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.viewer.drawing/argb32color/isfullytransparent/
 ---
 ## Argb32Color.IsFullyTransparent property

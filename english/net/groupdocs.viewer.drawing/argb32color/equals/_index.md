@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Checks this color with specified Argb32Colorgroupdocs.viewer.drawing/argb32color color for equality
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.viewer.drawing/argb32color/equals/
 ---
 ## Equals(Argb32Color) {#equals}

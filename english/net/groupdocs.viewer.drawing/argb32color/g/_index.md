@@ -3,7 +3,7 @@ title: G
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Gets the green part of the color as 8bit unsigned integer 0..255
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.viewer.drawing/argb32color/g/
 ---
 ## Argb32Color.G property

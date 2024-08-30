@@ -3,7 +3,7 @@ title: B
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Gets the blue part of the color as 8bit unsigned integer 0..255
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.viewer.drawing/argb32color/b/
 ---
 ## Argb32Color.B property

@@ -3,7 +3,7 @@ title: R
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Gets the red part of the color as 8bit unsigned integer 0..255
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.viewer.drawing/argb32color/r/
 ---
 ## Argb32Color.R property
