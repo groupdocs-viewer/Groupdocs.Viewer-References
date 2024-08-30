@@ -36,7 +36,7 @@ Example usage:
 | --- | --- |
 | [LOW](#LOW) | The acceptable quality and best performance. |
 | [MEDIUM](#MEDIUM) | Better quality and slower performance. |
-| [HIGH](#HIGH) | Best quality but slow performance. |
+| [HIGH](#HIGH) | The best quality but slow performance. |
 ## Methods
 
 | Method | Description |
@@ -65,7 +65,7 @@ public static final ImageQuality HIGH
 ```
 
 
-Best quality but slow performance. This setting prioritizes image quality over rendering speed.
+The best quality but slow performance. This setting prioritizes image quality over rendering speed.
 
 ### values() {#values--}
 ```

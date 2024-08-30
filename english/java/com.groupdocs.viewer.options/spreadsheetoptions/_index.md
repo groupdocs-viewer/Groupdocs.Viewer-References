@@ -14,7 +14,7 @@ public class SpreadsheetOptions
 
 Provides options for rendering spreadsheets.
 
-The SpreadsheetOptions class encapsulates various settings and parameters that can be used to control the rendering of spreadsheet files (such as Excel or CSV files) in the GroupDocs.Viewer component.
+The SpreadsheetOptions class encapsulates various settings and parameters that can be used to control the rendering of spreadsheet files (such as Excel or CSV files) in the GroupDocs.Viewer component. For details, see children of the [Render spreadsheet files][] topic.
 
 Example usage:
 
@@ -31,6 +31,9 @@ Example usage:
  }
  
 ```
+
+
+[Render spreadsheet files]: https://docs.groupdocs.com/viewer/java/render-spreadsheets/
 ## Methods
 
 | Method | Description |
@@ -66,12 +69,12 @@ Example usage:
 | [setTextOverflowMode(TextOverflowMode value)](#setTextOverflowMode-com.groupdocs.viewer.options.TextOverflowMode-) | Sets the text overflow mode for rendering spreadsheet documents into HTML. |
 | [getLeftMargin()](#getLeftMargin--) | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
 | [setLeftMargin(double leftMargin)](#setLeftMargin-double-) | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [getRightMargin()](#getRightMargin--) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [setRightMargin(double rightMargin)](#setRightMargin-double-) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [getTopMargin()](#getTopMargin--) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [setTopMargin(double topMargin)](#setTopMargin-double-) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [getBottomMargin()](#getBottomMargin--) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [setBottomMargin(double bottomMargin)](#setBottomMargin-double-) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
+| [getRightMargin()](#getRightMargin--) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
+| [setRightMargin(double rightMargin)](#setRightMargin-double-) | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
+| [getTopMargin()](#getTopMargin--) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
+| [setTopMargin(double topMargin)](#setTopMargin-double-) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
+| [getBottomMargin()](#getBottomMargin--) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
+| [setBottomMargin(double bottomMargin)](#setBottomMargin-double-) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
 | [forRenderingPrintAreaAndPageBreaks()](#forRenderingPrintAreaAndPageBreaks--) | Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks. |
 | [forRenderingByPageBreaks()](#forRenderingByPageBreaks--) | Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only. |
 ### isRenderByPageBreaks() {#isRenderByPageBreaks--}
@@ -109,6 +112,11 @@ public boolean isDetectSeparator()
 
 Detects the separator for CSV/TSV files.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#detect-a-csvtsv-separator
+
 **Returns:**
 boolean -  true  if the separator should be automatically detected,  false  otherwise.
 ### setDetectSeparator(boolean detectSeparator) {#setDetectSeparator-boolean-}
@@ -118,6 +126,11 @@ public void setDetectSeparator(boolean detectSeparator)
 
 
 Sets whether to detect the separator for CSV/TSV files.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/#detect-a-csvtsv-separator
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,6 +145,11 @@ public static SpreadsheetOptions forOnePagePerSheet()
 
 Creates a new instance of  SpreadsheetOptions  class for rendering one sheet into one page.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#render-a-worksheet-on-one-page
+
 **Returns:**
 [SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of  SpreadsheetOptions  class for rendering one sheet into one page.
 ### forSplitSheetIntoPages(int countRowsPerPage) {#forSplitSheetIntoPages-int-}
@@ -141,6 +159,11 @@ public static SpreadsheetOptions forSplitSheetIntoPages(int countRowsPerPage)
 
 
 Creates a new instance of  SpreadsheetOptions  class for rendering a sheet into multiple pages.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,6 +180,11 @@ public static SpreadsheetOptions forSplitSheetIntoPages(int countRowsPerPage, in
 
 Initializes a new instance of the  SpreadsheetOptions  class for rendering a sheet into pages.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -172,6 +200,11 @@ public static SpreadsheetOptions forRenderingPrintArea()
 
 
 Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#render-a-print-area
 
 **Returns:**
 [SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of the  SpreadsheetOptions  class for rendering print areas only.
@@ -193,6 +226,11 @@ public final int getCountRowsPerPage()
 
 Gets the count of rows to include into each page when splitting the worksheet into pages.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows
+
 **Returns:**
 int - the count of rows to include into each page.
 ### getCountColumnsPerPage() {#getCountColumnsPerPage--}
@@ -203,6 +241,11 @@ public int getCountColumnsPerPage()
 
 Gets the count of columns to include into each page when splitting the worksheet into pages.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows-and-columns
+
 **Returns:**
 int - the count of columns to include into each page.
 ### setCountColumnsPerPage(int countColumnsPerPage) {#setCountColumnsPerPage-int-}
@@ -212,6 +255,11 @@ public void setCountColumnsPerPage(int countColumnsPerPage)
 
 
 Sets the count of columns to include into each page when splitting the worksheet into pages.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows-and-columns
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -259,6 +307,11 @@ public final boolean isRenderGridLines()
 
 Enables rendering of grid lines.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-worksheet-gridlines
+
 **Returns:**
 boolean -  true  if grid lines are enabled,  false  otherwise.
 ### setRenderGridLines(boolean value) {#setRenderGridLines-boolean-}
@@ -268,6 +321,11 @@ public final void setRenderGridLines(boolean value)
 
 
 Enables or disables the rendering of grid lines.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-worksheet-gridlines
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -282,6 +340,11 @@ public final boolean isSkipEmptyRows()
 
 Indicates whether empty rows should be skipped during rendering.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#skip-empty-rows-and-columns
+
 **Returns:**
 boolean -  true  if empty rows should be skipped,  false  otherwise.
 ### setSkipEmptyRows(boolean value) {#setSkipEmptyRows-boolean-}
@@ -291,6 +354,11 @@ public final void setSkipEmptyRows(boolean value)
 
 
 Sets whether empty rows should be skipped during rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#skip-empty-rows-and-columns
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -305,6 +373,11 @@ public final boolean isSkipEmptyColumns()
 
 Indicates whether empty columns should be skipped during rendering.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#skip-empty-rows-and-columns
+
 **Returns:**
 boolean -  true  if empty columns are skipped,  false  otherwise.
 ### setSkipEmptyColumns(boolean value) {#setSkipEmptyColumns-boolean-}
@@ -314,6 +387,11 @@ public final void setSkipEmptyColumns(boolean value)
 
 
 Sets whether empty columns should be skipped during rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#skip-empty-rows-and-columns
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -328,6 +406,11 @@ public final boolean isRenderHiddenRows()
 
 Determines whether hidden rows should be rendered.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-hidden-rows-and-columns
+
 **Returns:**
 boolean -  true  if hidden rows should be rendered,  false  otherwise.
 ### setRenderHiddenRows(boolean value) {#setRenderHiddenRows-boolean-}
@@ -337,6 +420,11 @@ public final void setRenderHiddenRows(boolean value)
 
 
 Sets whether hidden rows should be rendered.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-hidden-rows-and-columns
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -351,6 +439,11 @@ public boolean isRenderHeadings()
 
 Checks if headings rendering is enabled.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-row-and-column-headings
+
 **Returns:**
 boolean -  true  if headings rendering is enabled,  false  otherwise.
 ### setRenderHeadings(boolean renderHeadings) {#setRenderHeadings-boolean-}
@@ -360,6 +453,11 @@ public void setRenderHeadings(boolean renderHeadings)
 
 
 Enables headings rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-row-and-column-headings
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -374,6 +472,11 @@ public final boolean isRenderHiddenColumns()
 
 Enables hidden columns rendering.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-hidden-rows-and-columns
+
 **Returns:**
 boolean -  true  if hidden columns rendering is enabled,  false  otherwise.
 ### setRenderHiddenColumns(boolean value) {#setRenderHiddenColumns-boolean-}
@@ -383,6 +486,11 @@ public final void setRenderHiddenColumns(boolean value)
 
 
 Enables hidden columns rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#render-hidden-rows-and-columns
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -397,6 +505,11 @@ public final TextOverflowMode getTextOverflowMode()
 
 Returns the text overflow mode for rendering spreadsheet documents into HTML.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#control-cell-text-overflow
+
 **Returns:**
 [TextOverflowMode](../../com.groupdocs.viewer.options/textoverflowmode) - the text overflow mode.
 ### setTextOverflowMode(TextOverflowMode value) {#setTextOverflowMode-com.groupdocs.viewer.options.TextOverflowMode-}
@@ -405,7 +518,10 @@ public final void setTextOverflowMode(TextOverflowMode value)
 ```
 
 
-Sets the text overflow mode for rendering spreadsheet documents into HTML.
+Sets the text overflow mode for rendering spreadsheet documents into HTML. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#control-cell-text-overflow
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -420,6 +536,11 @@ public double getLeftMargin()
 
 To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used
 
+If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
+
 **Returns:**
 double
 ### setLeftMargin(double leftMargin) {#setLeftMargin-double-}
@@ -429,6 +550,11 @@ public void setLeftMargin(double leftMargin)
 
 
 To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+
+If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -441,7 +567,10 @@ public double getRightMargin()
 ```
 
 
-To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
 
 **Returns:**
 double
@@ -451,7 +580,10 @@ public void setRightMargin(double rightMargin)
 ```
 
 
-To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -464,7 +596,10 @@ public double getTopMargin()
 ```
 
 
-To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
 
 **Returns:**
 double
@@ -474,7 +609,10 @@ public void setTopMargin(double topMargin)
 ```
 
 
-To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -487,7 +625,10 @@ public double getBottomMargin()
 ```
 
 
-To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
 
 **Returns:**
 double
@@ -497,7 +638,10 @@ public void setBottomMargin(double bottomMargin)
 ```
 
 
-To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used
+To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#set-worksheet-margins-in-the-output-pdf-pages
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -510,7 +654,10 @@ public static SpreadsheetOptions forRenderingPrintAreaAndPageBreaks()
 ```
 
 
-Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks.
+Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/#render-worksheet-by-page-breaks-and-print-area
 
 **Returns:**
 [SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - New instance of  SpreadsheetOptions  for rendering pages based on page breaks that are included into print area. The behavior is similar to printing in Excel.
@@ -520,7 +667,10 @@ public static SpreadsheetOptions forRenderingByPageBreaks()
 ```
 
 
-Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only.
+Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/split-worksheet-into-pages/
 
 **Returns:**
 [SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - a new instance of  SpreadsheetOptions  for rendering print areas only. The behavior is similar to printing in Excel, where the worksheet is rendered by page breaks.

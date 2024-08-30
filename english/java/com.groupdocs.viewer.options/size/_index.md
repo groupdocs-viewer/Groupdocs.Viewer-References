@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: GroupDocs.Viewer for Java API Reference
-description: Watermark size.
+description: Contains the watermark size.
 type: docs
 weight: 28
 url: /java/com.groupdocs.viewer.options/size/
@@ -12,7 +12,7 @@ java.lang.Object
 public class Size
 ```
 
-Watermark size.
+Contains the watermark size.
 
 The Size class represents the size of a watermark in the GroupDocs.Viewer component. It provides options to specify the dimensions of the watermark, such as width and height.
 

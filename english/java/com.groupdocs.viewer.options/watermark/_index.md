@@ -1,7 +1,7 @@
 ---
 title: Watermark
 second_title: GroupDocs.Viewer for Java API Reference
-description: Represents text watermark.
+description: Represents a text watermark.
 type: docs
 weight: 35
 url: /java/com.groupdocs.viewer.options/watermark/
@@ -12,7 +12,7 @@ java.lang.Object
 public class Watermark
 ```
 
-Represents text watermark.
+Represents a text watermark. For details, see the [documentation][].
 
 The Watermark class represents a text watermark in the GroupDocs.Viewer component. It is used to define and apply a watermark to the rendered output of documents.
 
@@ -34,6 +34,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/add-text-watermark/
 ## Constructors
 
 | Constructor | Description |
