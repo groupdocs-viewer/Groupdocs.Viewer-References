@@ -3,7 +3,7 @@ title: IsFullyOpaque
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Indicates whether this Argb32Colorgroupdocs.viewer.drawing/argb32color instance is fully opaque without transparency its Alpha channel has max value
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.viewer.drawing/argb32color/isfullyopaque/
 ---
 ## Argb32Color.IsFullyOpaque property

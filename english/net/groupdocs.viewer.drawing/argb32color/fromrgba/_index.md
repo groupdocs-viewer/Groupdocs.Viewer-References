@@ -3,7 +3,7 @@ title: FromRgba
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Creates one Argb32Colorgroupdocs.viewer.drawing/argb32color value from specified Red Green Blue and Alpha channels
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.viewer.drawing/argb32color/fromrgba/
 ---
 ## Argb32Color.FromRgba method

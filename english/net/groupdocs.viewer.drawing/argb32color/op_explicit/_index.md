@@ -3,7 +3,7 @@ title: op_Explicit
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Explicitly casts the 32bit Argb32Colorgroupdocs.viewer.drawing/argb32color to 24bit Rgb24Colorgroupdocs.viewer.drawing/rgb24color. Alpha channel of the source Argb32Colorgroupdocs.viewer.drawing/argb32color will be lost after casting because Rgb24Colorgroupdocs.viewer.drawing/rgb24color does not support transparency.
 type: docs
-weight: 270
+weight: 280
 url: /net/groupdocs.viewer.drawing/argb32color/op_explicit/
 ---
 ## Argb32Color Explicit operator

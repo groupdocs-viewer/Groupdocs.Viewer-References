@@ -3,7 +3,7 @@ title: Alpha
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Gets the alpha part of the color in percent in 0..1 range.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.viewer.drawing/argb32color/alpha/
 ---
 ## Argb32Color.Alpha property

@@ -3,7 +3,7 @@ title: FromRgb
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Creates one Argb32Colorgroupdocs.viewer.drawing/argb32color value from specified Red Green Blue channels while Alpha channel is fully opaque
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.viewer.drawing/argb32color/fromrgb/
 ---
 ## Argb32Color.FromRgb method

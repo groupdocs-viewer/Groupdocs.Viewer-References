@@ -3,7 +3,7 @@ title: ToString
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Serializes this Argb32Colorgroupdocs.viewer.drawing/argb32color instance to the most appropriate CSS function notation depending on translucency
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.viewer.drawing/argb32color/tostring/
 ---
 ## Argb32Color.ToString method

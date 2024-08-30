@@ -3,7 +3,7 @@ title: A
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Gets the alpha part of the color as 8bit unsigned integer 0..255
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.viewer.drawing/argb32color/a/
 ---
 ## Argb32Color.A property

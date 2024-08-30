@@ -3,7 +3,7 @@ title: ToRGB
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Serializes this Argb32Colorgroupdocs.viewer.drawing/argb32color instance to the rgb CSS function notation. Alpha channel of this color will be omitted during serialization.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.viewer.drawing/argb32color/torgb/
 ---
 ## Argb32Color.ToRGB method

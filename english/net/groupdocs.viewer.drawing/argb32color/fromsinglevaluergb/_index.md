@@ -3,7 +3,7 @@ title: FromSingleValueRgb
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Creates a fully opaque A255 color from single value which will be applied to all channels
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.viewer.drawing/argb32color/fromsinglevaluergb/
 ---
 ## Argb32Color.FromSingleValueRgb method
