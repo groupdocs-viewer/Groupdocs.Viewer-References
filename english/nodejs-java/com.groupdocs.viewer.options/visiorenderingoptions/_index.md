@@ -1,7 +1,7 @@
 ---
 title: VisioRenderingOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
-description: The Visio files processing documents view options.
+description: Contains options for rendering Visio documents.
 type: docs
 weight: 34
 url: /nodejs-java/com.groupdocs.viewer.options/visiorenderingoptions/
@@ -12,9 +12,9 @@ java.lang.Object
 public class VisioRenderingOptions
 ```
 
-The Visio files processing documents view options.
+Contains options for rendering Visio documents.
 
-The VisioRenderingOptions class provides options for processing and rendering Visio files in the GroupDocs.Viewer component. It encapsulates settings and parameters that can be used to control the rendering process and output format for Visio documents.
+The VisioRenderingOptions class provides options for processing and rendering Visio files in the GroupDocs.Viewer component. It encapsulates settings and parameters that can be used to control the rendering process and output format for Visio documents. For details, see the [documentation][].
 
 Example usage:
 
@@ -30,6 +30,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-visio-documents/
 ## Constructors
 
 | Constructor | Description |
@@ -59,6 +62,11 @@ public boolean isRenderFiguresOnly()
 
 Render only Visio figures, excluding the diagram.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-visio-documents/#render-only-diagram-shapes
+
 **Returns:**
 boolean -  true  if only Visio figures should be rendered,  false  otherwise.
 ### setRenderFiguresOnly(boolean renderFiguresOnly) {#setRenderFiguresOnly-boolean-}
@@ -68,6 +76,11 @@ public void setRenderFiguresOnly(boolean renderFiguresOnly)
 
 
 Sets the flag to render only Visio figures, excluding the diagram.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-visio-documents/#render-only-diagram-shapes
 
 **Parameters:**
 | Parameter | Type | Description |

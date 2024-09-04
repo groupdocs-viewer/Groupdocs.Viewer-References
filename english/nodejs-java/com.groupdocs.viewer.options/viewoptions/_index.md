@@ -1,7 +1,7 @@
 ---
 title: ViewOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
-description: Provides rendering options.
+description: Contains the rendering options.
 type: docs
 weight: 33
 url: /nodejs-java/com.groupdocs.viewer.options/viewoptions/
@@ -12,7 +12,7 @@ java.lang.Object, [com.groupdocs.viewer.options.BaseViewOptions](../../com.group
 public abstract class ViewOptions extends BaseViewOptions
 ```
 
-Provides rendering options.
+Contains the rendering options.
 
 The ViewOptions class extends the BaseViewOptions class and serves as a base class for rendering options in the GroupDocs.Viewer component. It encapsulates common settings and parameters that can be used for rendering various types of documents into different formats.
 
@@ -45,7 +45,10 @@ public final Watermark getWatermark()
 
 Gets the text watermark applied to each page.
 
-In case both \#setWatermark(Watermark).setWatermark(Watermark) and \#getPageRotations().getPageRotations() are specified, the watermark will be applied to the rotated pages.
+In case both \#setWatermark(Watermark).setWatermark(Watermark) and \#getPageRotations().getPageRotations() are specified, the watermark will be applied to the rotated pages. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/add-text-watermark/
 
 **Returns:**
 [Watermark](../../com.groupdocs.viewer.options/watermark) - the text watermark applied to each page.
@@ -57,7 +60,10 @@ public final void setWatermark(Watermark value)
 
 Sets the text watermark to be applied to each page.
 
-In case both  ViewOptions.Watermark  and \#getPageRotations().getPageRotations() are specified, the watermark will be applied to the rotated pages.
+In case both  ViewOptions.Watermark  and \#getPageRotations().getPageRotations() are specified, the watermark will be applied to the rotated pages. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/add-text-watermark/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -71,6 +77,11 @@ public final void rotatePage(int pageNumber, Rotation rotation)
 
 
 Applies a clockwise rotation to the specified page.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/flip-or-rotate-pages/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -86,7 +97,10 @@ public Map<Integer,Rotation> getPageRotations()
 
 Retrieves the page rotations.
 
-If both [setWatermark(Watermark)](../../com.groupdocs.viewer.options/viewoptions\#setWatermark-Watermark-) and  getPageRotations()  are specified, the watermark will be applied to the rotated pages.
+If both [setWatermark(Watermark)](../../com.groupdocs.viewer.options/viewoptions\#setWatermark-Watermark-) and  getPageRotations()  are specified, the watermark will be applied to the rotated pages. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/flip-or-rotate-pages/
 
 **Returns:**
 java.util.Map<java.lang.Integer,com.groupdocs.viewer.options.Rotation> - a map containing the page numbers as keys and their corresponding rotations as values.

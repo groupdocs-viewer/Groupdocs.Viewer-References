@@ -14,7 +14,7 @@ public class WordProcessingOptions
 
 Provides options for rendering word processing documents.
 
-The WordProcessingOptions class provides options for rendering word processing documents in the GroupDocs.Viewer component. It encapsulates settings and parameters that can be used to control the rendering process and output format for word processing files.
+The WordProcessingOptions class provides options for rendering word processing documents in the GroupDocs.Viewer component. It encapsulates settings and parameters that can be used to control the rendering process and output format for word processing files. For details, see the [documentation][].
 
 Example usage:
 
@@ -31,6 +31,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/
 ## Constructors
 
 | Constructor | Description |
@@ -55,6 +58,8 @@ Example usage:
 | [setTopMargin(int topMargin)](#setTopMargin-int-) | Sets the top page margin for HTML rendering. |
 | [isEnableOpenTypeFeatures()](#isEnableOpenTypeFeatures--) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
 | [setEnableOpenTypeFeatures(boolean enableOpenTypeFeatures)](#setEnableOpenTypeFeatures-boolean-) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
+| [isUnlinkTableOfContents()](#isUnlinkTableOfContents--) | Indicates whether table of contents navigation should be disabled when rendering to HTML or PDF. |
+| [setUnlinkTableOfContents(boolean unlinkTableOfContents)](#setUnlinkTableOfContents-boolean-) | Sets whether table of contents navigation should be disabled when rendering to HTML or PDF. |
 | [getBottomMargin()](#getBottomMargin--) | Bottom page margin (for HTML rendering only) |
 | [setBottomMargin(Double bottomMargin)](#setBottomMargin-java.lang.Double-) | Sets the bottom page margin for HTML rendering. |
 | [setBottomMargin(int bottomMargin)](#setBottomMargin-int-) | Sets the bottom page margin for HTML rendering. |
@@ -66,7 +71,10 @@ public WordProcessingOptions()
 ```
 
 
-Initializes a new instance of the  WordProcessingOptions  class.
+Initializes a new instance of the  WordProcessingOptions  class. Contains options for rendering word processing documents. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#render-tracked-changes
 
 ### getPageSize() {#getPageSize--}
 ```
@@ -107,6 +115,11 @@ public final boolean isRenderTrackedChanges()
 
 Indicates whether tracked changes (revisions) rendering is enabled.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#render-tracked-changes
+
 **Returns:**
 boolean -  true  if tracked changes rendering is enabled,  false  otherwise.
 ### setRenderTrackedChanges(boolean value) {#setRenderTrackedChanges-boolean-}
@@ -116,6 +129,11 @@ public final void setRenderTrackedChanges(boolean value)
 
 
 Sets whether tracked changes (revisions) rendering is enabled.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#render-tracked-changes
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -130,6 +148,11 @@ public Double getLeftMargin()
 
 Retrieves the left page margin for HTML rendering.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
+
 **Returns:**
 java.lang.Double - the left page margin value.
 ### setLeftMargin(Double leftMargin) {#setLeftMargin-java.lang.Double-}
@@ -139,6 +162,11 @@ public void setLeftMargin(Double leftMargin)
 
 
 Sets the left page margin for HTML rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -166,6 +194,11 @@ public Double getRightMargin()
 
 Gets the right page margin for HTML rendering.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
+
 **Returns:**
 java.lang.Double - the right page margin value.
 ### setRightMargin(Double rightMargin) {#setRightMargin-java.lang.Double-}
@@ -175,6 +208,11 @@ public void setRightMargin(Double rightMargin)
 
 
 Sets the right page margin for HTML rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -202,6 +240,11 @@ public Double getTopMargin()
 
 Retrieves the top page margin for HTML rendering.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
+
 **Returns:**
 java.lang.Double - the top page margin.
 ### setTopMargin(Double topMargin) {#setTopMargin-java.lang.Double-}
@@ -211,6 +254,11 @@ public void setTopMargin(Double topMargin)
 
 
 Sets the top page margin for HTML rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -253,6 +301,29 @@ This option enables kerning and other OpenType Features when rendering Arabic, H
 | --- | --- | --- |
 | enableOpenTypeFeatures | boolean | True to enable OpenType features, false otherwise. |
 
+### isUnlinkTableOfContents() {#isUnlinkTableOfContents--}
+```
+public boolean isUnlinkTableOfContents()
+```
+
+
+Indicates whether table of contents navigation should be disabled when rendering to HTML or PDF. When this option is set to true, for HTML rendering, relative links from the table of contents will be replaced with span tags, removing functionality but preserving visual appearance. For PDF rendering, the table of contents will be rendered as plain text without links.
+
+**Returns:**
+boolean - True if table of content navigation is disabled; otherwise, false.
+### setUnlinkTableOfContents(boolean unlinkTableOfContents) {#setUnlinkTableOfContents-boolean-}
+```
+public void setUnlinkTableOfContents(boolean unlinkTableOfContents)
+```
+
+
+Sets whether table of contents navigation should be disabled when rendering to HTML or PDF. When this option is set to true, for HTML rendering, relative links from the table of contents will be replaced with span tags, removing functionality but preserving visual appearance. For PDF rendering, the table of contents will be rendered as plain text without links.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| unlinkTableOfContents | boolean | Indicates whether table of content navigation should be disabled. |
+
 ### getBottomMargin() {#getBottomMargin--}
 ```
 public Double getBottomMargin()
@@ -260,6 +331,11 @@ public Double getBottomMargin()
 
 
 Bottom page margin (for HTML rendering only)
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Returns:**
 java.lang.Double - the bottom page margin.
@@ -270,6 +346,11 @@ public void setBottomMargin(Double bottomMargin)
 
 
 Sets the bottom page margin for HTML rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Parameters:**
 | Parameter | Type | Description |

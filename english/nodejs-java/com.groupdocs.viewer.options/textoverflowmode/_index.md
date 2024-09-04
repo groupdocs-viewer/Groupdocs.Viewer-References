@@ -14,7 +14,7 @@ public enum TextOverflowMode extends Enum<TextOverflowMode>
 
 Defines text overflow mode for rendering spreadsheet documents into HTML.
 
-The TextOverflowMode enum represents different modes for handling text overflow in the GroupDocs.Viewer component. It provides a set of predefined options that can be used to control how text is displayed when it exceeds the available space in cells during the rendering of spreadsheet documents into HTML.
+The TextOverflowMode enum represents different modes for handling text overflow in the GroupDocs.Viewer component. It provides a set of predefined options that can be used to control how text is displayed when it exceeds the available space in cells during the rendering of spreadsheet documents into HTML. For details, see the [documentation][].
 
 Example usage:
 
@@ -31,6 +31,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#control-cell-text-overflow
 ## Fields
 
 | Field | Description |
@@ -53,6 +56,11 @@ public static final TextOverflowMode OVERLAY
 
 Overlay next cells even if they are not empty. This mode allows the text to overflow into the adjacent cells, regardless of their content.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#control-cell-text-overflow
+
 ### OVERLAY_IF_NEXT_IS_EMPTY {#OVERLAY-IF-NEXT-IS-EMPTY}
 ```
 public static final TextOverflowMode OVERLAY_IF_NEXT_IS_EMPTY
@@ -60,6 +68,11 @@ public static final TextOverflowMode OVERLAY_IF_NEXT_IS_EMPTY
 
 
 Overlay next cells only if they are empty. This mode allows the text to overflow into the adjacent cells only if those cells are empty.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#control-cell-text-overflow
 
 ### AUTO_FIT_COLUMN {#AUTO-FIT-COLUMN}
 ```
@@ -69,6 +82,11 @@ public static final TextOverflowMode AUTO_FIT_COLUMN
 
 Expand columns to fit the text. This mode automatically adjusts the width of the columns to accommodate the overflowing text.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#control-cell-text-overflow
+
 ### HIDE_TEXT {#HIDE-TEXT}
 ```
 public static final TextOverflowMode HIDE_TEXT
@@ -76,6 +94,11 @@ public static final TextOverflowMode HIDE_TEXT
 
 
 Hide the overflow text. This mode hides the overflowing text, preventing it from being displayed.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/#control-cell-text-overflow
 
 ### values() {#values--}
 ```

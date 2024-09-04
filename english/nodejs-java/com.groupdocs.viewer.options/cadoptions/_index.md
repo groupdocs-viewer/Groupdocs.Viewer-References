@@ -16,6 +16,8 @@ Provides options for rendering CAD drawings.
 
 The CadOptions class encapsulates various settings and parameters that can be used to control the rendering of CAD drawings in the GroupDocs.Viewer component.
 
+For more information and code examples, see the [Render CAD drawings and models as HTML, PDF, and image files][Render CAD drawings and models as HTML_ PDF_ and image files] and [Specify rendering options for CAD files][].
+
 Example usage:
 
 ```
@@ -36,6 +38,10 @@ Example usage:
  }
  
 ```
+
+
+[Render CAD drawings and models as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-cad-drawings-and-models/
+[Specify rendering options for CAD files]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/
 ## Fields
 
 | Field | Description |
@@ -67,6 +73,8 @@ Example usage:
 | [setLayoutName(String value)](#setLayoutName-java.lang.String-) | Sets the name of the specific layout to render. |
 | [getLayers()](#getLayers--) | Gets the CAD drawing layers to render. |
 | [setLayers(List<Layer> value)](#setLayers-java.util.List-com.groupdocs.viewer.results.Layer--) | Gets the CAD drawing layers to render. |
+| [isEnablePerformanceConversionMode()](#isEnablePerformanceConversionMode--) | Setting this flag to true enables a special performance-oriented conversion mode for all formats within the CAD family. |
+| [setEnablePerformanceConversionMode(boolean enablePerformanceConversionMode)](#setEnablePerformanceConversionMode-boolean-) | Setting this flag to true enables a special performance-oriented conversion mode for all formats within the CAD family. |
 | [equals(Object o)](#equals-java.lang.Object-) | Checks if this CadOptions object is equal to another object. |
 | [hashCode()](#hashCode--) | \{@inheritDoc\} |
 | [toString()](#toString--) | \{@inheritDoc\} |
@@ -114,6 +122,11 @@ public static CadOptions forRenderingByScaleFactor(double scaleFactor)
 
 Initializes a new instance of the  CadOptions  class for rendering by scale factor.
 
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#configure-the-output-image-size
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -128,6 +141,11 @@ public static CadOptions forRenderingByWidth(int width)
 
 
 Initializes a new instance of the  CadOptions  class for rendering by width.
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#configure-the-output-image-size
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,6 +162,11 @@ public static CadOptions forRenderingByHeight(int height)
 
 Initializes a new instance of the  CadOptions  class for rendering by height.
 
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#configure-the-output-image-size
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -158,6 +181,11 @@ public static CadOptions forRenderingByWidthAndHeight(int width, int height)
 
 
 Initializes a new instance of the  CadOptions  class for rendering by width and height.
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#configure-the-output-image-size
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -350,6 +378,29 @@ Gets the CAD drawing layers to render.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.List<com.groupdocs.viewer.results.Layer> | The CAD drawing layers. |
+
+### isEnablePerformanceConversionMode() {#isEnablePerformanceConversionMode--}
+```
+public boolean isEnablePerformanceConversionMode()
+```
+
+
+Setting this flag to true enables a special performance-oriented conversion mode for all formats within the CAD family. In this mode, the conversion speed is much faster, but the quality of the resultant documents is significantly worse. By default, it is disabled (false). The quality of the resultant documents is the best possible at the expense of performance.
+
+**Returns:**
+boolean -  true  if performance-oriented conversion mode is enabled,  false  otherwise.
+### setEnablePerformanceConversionMode(boolean enablePerformanceConversionMode) {#setEnablePerformanceConversionMode-boolean-}
+```
+public void setEnablePerformanceConversionMode(boolean enablePerformanceConversionMode)
+```
+
+
+Setting this flag to true enables a special performance-oriented conversion mode for all formats within the CAD family. In this mode, the conversion speed is much faster, but the quality of the resultant documents is significantly worse. By default, it is disabled (false). The quality of the resultant documents is the best possible at the expense of performance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| enablePerformanceConversionMode | boolean |  true  to enable the performance-oriented conversion mode,  false  to disable it. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

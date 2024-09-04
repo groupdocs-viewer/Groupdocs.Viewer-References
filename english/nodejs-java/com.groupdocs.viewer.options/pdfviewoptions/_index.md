@@ -14,7 +14,7 @@ public class PdfViewOptions extends ViewOptions
 
 Provides options for rendering documents into PDF format.
 
-The PdfViewOptions class encapsulates additional settings and parameters that can be used to control the rendering of documents into PDF format in the GroupDocs.Viewer component.
+The PdfViewOptions class encapsulates additional settings and parameters that can be used to control the rendering of documents into PDF format in the GroupDocs.Viewer component. For details, see the [documentation][].
 
 Example usage:
 
@@ -31,6 +31,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/rendering-to-pdf/
 ## Constructors
 
 | Constructor | Description |
@@ -67,6 +70,11 @@ public PdfViewOptions(CreateFileStream createFileStream)
 
 Initializes a new instance of the  PdfViewOptions  class.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/rendering-to-pdf/
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -79,6 +87,11 @@ public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream relea
 
 
 Initializes a new instance of the  PdfViewOptions  class.
+
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/rendering-to-pdf/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -94,6 +107,11 @@ public PdfViewOptions(FileStreamFactory fileStreamFactory)
 
 Initializes a new instance of the  PdfViewOptions  class.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/rendering-to-pdf/
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -107,7 +125,10 @@ public PdfViewOptions()
 
 Initializes a new instance of the  PdfViewOptions  class with default settings.
 
-This constructor creates a new  PdfViewOptions  object with "output.pdf" as the file path format for the output file. The output file will be placed into the current working directory of the application.
+This constructor creates a new  PdfViewOptions  object with "output.pdf" as the file path format for the output file. The output file will be placed into the current working directory of the application. For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/rendering-to-pdf/
 
 ### PdfViewOptions(String outputFilePath) {#PdfViewOptions-java.lang.String-}
 ```
@@ -117,7 +138,10 @@ public PdfViewOptions(String outputFilePath)
 
 Initializes a new instance of the  PdfViewOptions  class.
 
-This constructor creates a new  PdfViewOptions  object with the specified  outputFilePath  parameter representing the path for the output PDF file.
+This constructor creates a new  PdfViewOptions  object with the specified  outputFilePath  parameter representing the path for the output PDF file. For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/rendering-to-pdf/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,6 +156,11 @@ public PdfViewOptions(Path outputFilePath)
 
 Initializes a new instance of the  PdfViewOptions  class.
 
+For the code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/rendering-to-pdf/
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -145,10 +174,11 @@ public PdfOptimizationOptions getPdfOptimizationOptions()
 
 Reduce output PDF file size applying optimization techniques with different options.
 
-This option is supported for any input file formats which are supported for conversion to PDF: [Supported document formats][]
+This option is supported for any input file formats which are supported for conversion to PDF: [Supported document formats][] For details and code samples, see this [page][] and its children.
 
 
 [Supported document formats]: https://docs.groupdocs.com/viewer/net/supported-document-formats/
+[page]: https://docs.groupdocs.com/viewer/net/optimization-pdf-options/
 
 **Returns:**
 [PdfOptimizationOptions](../../com.groupdocs.viewer.options/pdfoptimizationoptions) - PdfOptimizationOptions object or null.
@@ -160,10 +190,11 @@ public void setPdfOptimizationOptions(PdfOptimizationOptions pdfOptimizationOpti
 
 Reduce output PDF file size applying optimization techniques with different options.
 
-This option is supported for any input file formats which are supported for conversion to PDF: [Supported document formats][]
+This option is supported for any input file formats which are supported for conversion to PDF: [Supported document formats][] For details and code samples, see this [page][] and its children.
 
 
 [Supported document formats]: https://docs.groupdocs.com/viewer/net/supported-document-formats/
+[page]: https://docs.groupdocs.com/viewer/net/optimization-pdf-options/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -178,6 +209,11 @@ public int getImageMaxWidth()
 
 Retrieves the maximum width of an output image in pixels. This parameter applies only when converting a single image to HTML.
 
+Use this property to set the maximum output image width (in pixels). GroupDocs.Viewer applies this property when rendering a single image to PDF. For details, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/
+
 **Returns:**
 int - the maximum width of the output image in pixels.
 ### setImageMaxWidth(int imageMaxWidth) {#setImageMaxWidth-int-}
@@ -187,6 +223,11 @@ public void setImageMaxWidth(int imageMaxWidth)
 
 
 Sets the maximum width of an output image in pixels. This parameter applies only when converting a single image to HTML.
+
+Use this property to set the maximum output image width (in pixels). GroupDocs.Viewer applies this property when rendering a single image to PDF. For details, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -201,6 +242,11 @@ public int getImageMaxHeight()
 
 Retrieves the maximum height of an output image in pixels. This parameter applies only when converting a single image to HTML.
 
+Use this property to set the maximum output image height (in pixels). GroupDocs.Viewer applies this property when rendering a single image to PDF. For details, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/
+
 **Returns:**
 int - the maximum height of the output image in pixels.
 ### setImageMaxHeight(int imageMaxHeight) {#setImageMaxHeight-int-}
@@ -210,6 +256,11 @@ public void setImageMaxHeight(int imageMaxHeight)
 
 
 Sets the maximum height of an output image in pixels. This parameter applies only when converting a single image to HTML.
+
+Use this property to set the maximum output image height (in pixels). GroupDocs.Viewer applies this property when rendering a single image to HTML only. For details, see the [documentation][]. If you set the  property, this property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -224,6 +275,11 @@ public int getImageWidth()
 
 Retrieves the width of the output image in pixels. This parameter applies only when converting a single image to HTML.
 
+Use this property to set the output image width (in pixels). GroupDocs.Viewer applies this property when rendering a single image to PDF. For details, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/
+
 **Returns:**
 int - the width of the output image in pixels.
 ### setImageWidth(int imageWidth) {#setImageWidth-int-}
@@ -232,7 +288,7 @@ public void setImageWidth(int imageWidth)
 ```
 
 
-Sets the width of the output image in pixels. This parameter applies only when converting a single image to HTML.
+Sets the width of the output image in pixels. This parameter applies only when converting a single image PDF.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -247,6 +303,11 @@ public int getImageHeight()
 
 Retrieves the height of the output image in pixels. This parameter applies only when converting a single image to HTML.
 
+Use this property to set the output image height (in pixels). GroupDocs.Viewer applies this property when rendering a single image to HTML only. For details, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/
+
 **Returns:**
 int - the height of the output image in pixels.
 ### setImageHeight(int imageHeight) {#setImageHeight-int-}
@@ -256,6 +317,11 @@ public void setImageHeight(int imageHeight)
 
 
 Sets the height of the output image in pixels. This parameter applies only when converting a single image to HTML.
+
+Use this property to set the output image height (in pixels). GroupDocs.Viewer applies this property when rendering a single image to HTML only. For details, see the [documentation][]. If you set this property, the  property is ignored.
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -270,6 +336,11 @@ public final Security getSecurity()
 
 Retrieves the security options for the output PDF document.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
+
 **Returns:**
 [Security](../../com.groupdocs.viewer.options/security) - the security options for the output PDF document.
 ### setSecurity(Security value) {#setSecurity-com.groupdocs.viewer.options.Security-}
@@ -279,6 +350,11 @@ public final void setSecurity(Security value)
 
 
 Sets the security options for the output PDF document.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/protect-pdf-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
