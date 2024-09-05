@@ -43,7 +43,7 @@ Example usage:
 | --- | --- |
 | [ALLOW_ALL](#ALLOW-ALL) | Allow printing, modification, and data extraction. |
 | [DENY_PRINTING](#DENY-PRINTING) | Deny printing. |
-| [DENY_MODIFICATION](#DENY-MODIFICATION) | Deny modification of content, filling in forms, and adding or modifying annotations. |
+| [DENY_MODIFICATION](#DENY-MODIFICATION) | Deny content modification, filling in forms, adding or modifying annotations. |
 | [DENY_DATA_EXTRACTION](#DENY-DATA-EXTRACTION) | Deny text and graphics extraction. |
 | [DENY_ALL](#DENY-ALL) | Deny printing, modification, and data extraction. |
 ### Permissions() {#Permissions--}
@@ -74,7 +74,7 @@ public static final int DENY_MODIFICATION
 ```
 
 
-Deny modification of content, filling in forms, and adding or modifying annotations.
+Deny content modification, filling in forms, adding or modifying annotations.
 
 ### DENY_DATA_EXTRACTION {#DENY-DATA-EXTRACTION}
 ```

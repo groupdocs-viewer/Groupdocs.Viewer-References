@@ -16,6 +16,8 @@ Provides options for rendering email messages.
 
 The EmailOptions class encapsulates various settings and parameters that can be used to control the rendering of email messages in the GroupDocs.Viewer component.
 
+For details, see the [documentation][].
+
 Example usage:
 
 ```
@@ -33,6 +35,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/
 ## Constructors
 
 | Constructor | Description |
@@ -72,7 +77,10 @@ public String getDateTimeFormat()
 
 Gets the time format for the date and time values.
 
-**Note:** The time format is specified using a pattern, such as 'MM d yyyy HH:mm tt'. If the time format is not set, the current system format will be used.
+**Note:** The time format is specified using a pattern, such as 'MM d yyyy HH:mm tt'. If the time format is not set, the current system format will be used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/#specify-the-date-and-time-format-and-change-the-time-zone
 
 **Returns:**
 java.lang.String - the time format for date and time values.
@@ -84,7 +92,10 @@ public void setDateTimeFormat(String dateTimeFormat)
 
 Gets the time format for the date and time values.
 
-**Note:** The time format is specified using a pattern, such as 'MM d yyyy HH:mm tt'. If the time format is not set, the current system format will be used.
+**Note:** The time format is specified using a pattern, such as 'MM d yyyy HH:mm tt'. If the time format is not set, the current system format will be used. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/#specify-the-date-and-time-format-and-change-the-time-zone
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -99,7 +110,10 @@ public TimeZone getTimeZoneOffset()
 
 Gets the time zone offset for the message.
 
-**Note:** The time zone offset represents the time difference between the message's time and Coordinated Universal Time (UTC).
+**Note:** The time zone offset represents the time difference between the message's time and Coordinated Universal Time (UTC). For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/#specify-the-date-and-time-format-and-change-the-time-zone
 
 **Returns:**
 java.util.TimeZone - the time zone offset.
@@ -111,7 +125,10 @@ public int getTimeZoneOffsetMinutes()
 
 Gets the time zone minutes offset minutes for the message.
 
-**Note:** The time zone offset minutes represents the minutes difference between the message's time and Coordinated Universal Time (UTC).
+**Note:** The time zone offset minutes represents the minutes difference between the message's time and Coordinated Universal Time (UTC). For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/#specify-the-date-and-time-format-and-change-the-time-zone
 
 **Returns:**
 int - the time zone offset.

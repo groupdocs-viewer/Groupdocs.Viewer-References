@@ -14,7 +14,7 @@ public class Tile
 
 Represents drawing region.
 
-The Tile class represents a drawing region in the GroupDocs.Viewer component. It is used to define a specific area or region within a document that needs to be rendered or processed separately.
+The Tile class represents a drawing region in the GroupDocs.Viewer component. It is used to define a specific area or region within a document that needs to be rendered or processed separately. For details, see the [documentation][].
 
 Example usage:
 
@@ -31,6 +31,9 @@ Example usage:
  }
  
 ```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#split-a-drawing-into-tiles
 ## Constructors
 
 | Constructor | Description |
@@ -54,7 +57,10 @@ public Tile(int startPointX, int startPointY, int width, int height)
 
 Initializes a new instance of the  Tile  class.
 
-This constructor creates a new tile object with the specified starting point, width, and height.
+This constructor creates a new tile object with the specified starting point, width, and height. For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#split-a-drawing-into-tiles
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -72,6 +78,11 @@ public final int getStartPointX()
 
 Gets the X coordinate of the lowest left point on the drawing where the tile begins.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#split-a-drawing-into-tiles
+
 **Returns:**
 int - the X coordinate of the lowest left point.
 ### getStartPointY() {#getStartPointY--}
@@ -81,6 +92,11 @@ public final int getStartPointY()
 
 
 Gets the Y coordinate of the lowest left point on the drawing where the tile begins.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#split-a-drawing-into-tiles
 
 **Returns:**
 int - the Y coordinate of the lowest left point.
@@ -92,6 +108,11 @@ public final int getWidth()
 
 Gets the width of the tile in pixels.
 
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#split-a-drawing-into-tiles
+
 **Returns:**
 int - the width of the tile.
 ### getHeight() {#getHeight--}
@@ -101,6 +122,11 @@ public final int getHeight()
 
 
 Gets the height of the tile in pixels.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/#split-a-drawing-into-tiles
 
 **Returns:**
 int - the height of the tile.

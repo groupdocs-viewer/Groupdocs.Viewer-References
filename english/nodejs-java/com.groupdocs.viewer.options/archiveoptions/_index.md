@@ -65,6 +65,11 @@ public final String getFolder()
 
 Gets the folder inside the archive that will be used for rendering.
 
+By default, GroupDocs.Viewer renders items from all folders contained in the archive. To render items from a specific folder, set this property. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-archive-files/#render-a-specific-folder
+
 **Returns:**
 java.lang.String - the folder to be rendered.
 ### setFolder(String value) {#setFolder-java.lang.String-}
@@ -74,6 +79,11 @@ public final void setFolder(String value)
 
 
 Sets the folder inside the archive that will be used for rendering.
+
+By default, GroupDocs.Viewer renders items from all folders contained in the archive. To render items from a specific folder, set this property. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/#render-a-specific-folder
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -86,7 +96,12 @@ public FileName getFileName()
 ```
 
 
-Gets the filename to be displayed in the header. By default, the name of the source file is displayed.
+Gets the filename to be displayed in the header.
+
+By default, GroupDocs.Viewer displays the archive file name in the header of each page. To change or hide this name, set this property. For more information and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/#specify-the-archive-file-name
 
 **Returns:**
 [FileName](../../com.groupdocs.viewer.options/filename) - the filename to be displayed.
@@ -96,7 +111,12 @@ public void setFileName(FileName fileName)
 ```
 
 
-Sets the filename to be displayed in the header. By default, the name of the source file is displayed.
+Sets the filename to be displayed in the header.
+
+By default, GroupDocs.Viewer displays the archive file name in the header of each page. To change or hide this name, set this property. For more information and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/#specify-the-archive-file-name
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,6 +131,11 @@ public int getItemsPerPage()
 
 Gets the number of records per page for rendering to HTML.
 
+Use this property to set the number of archive items to display on each HTML page. The default value is 16. This option is available for rendering to HTML format. For more information and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/#specify-the-number-of-items-to-render
+
 **Returns:**
 int - the number of records per page.
 ### setItemsPerPage(int itemsPerPage) {#setItemsPerPage-int-}
@@ -120,6 +145,11 @@ public void setItemsPerPage(int itemsPerPage)
 
 
 Sets the number of records per page for rendering to HTML.
+
+Use this property to set the number of archive items to display on each HTML page. The default value is 16. This option is available for rendering to HTML format. For more information and code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/#specify-the-number-of-items-to-render
 
 **Parameters:**
 | Parameter | Type | Description |

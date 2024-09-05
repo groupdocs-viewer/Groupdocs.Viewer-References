@@ -1,7 +1,7 @@
 ---
 title: BaseViewOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
-description: Class that provides base rendering options.
+description: Contains the base rendering options.
 type: docs
 weight: 12
 url: /nodejs-java/com.groupdocs.viewer.options/baseviewoptions/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class BaseViewOptions
 ```
 
-Class that provides base rendering options.
+Contains the base rendering options.
 
 The  BaseViewOptions  class serves as the base for rendering options in GroupDocs.Viewer. It allows you to customize the rendering behavior of the output HTML, PDF, PNG, and JPEG files when rendering specific document formats.
 
@@ -53,8 +53,8 @@ The  BaseViewOptions  class serves as the base for rendering options in GroupDoc
 | [setProjectManagementOptions(ProjectManagementOptions projectManagementOptions)](#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-) | Sets the project management files view options. |
 | [getSpreadsheetOptions()](#getSpreadsheetOptions--) | Retrieves the spreadsheet files view options. |
 | [setSpreadsheetOptions(SpreadsheetOptions value)](#setSpreadsheetOptions-com.groupdocs.viewer.options.SpreadsheetOptions-) | Sets the spreadsheet files view options. |
-| [getWordProcessingOptions()](#getWordProcessingOptions--) | Retrieves the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
-| [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | Sets the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
+| [getWordProcessingOptions()](#getWordProcessingOptions--) | The Word processing files view options. |
+| [setWordProcessingOptions(WordProcessingOptions wordProcessingOptions)](#setWordProcessingOptions-com.groupdocs.viewer.options.WordProcessingOptions-) | The Word processing files view options. |
 | [getVisioRenderingOptions()](#getVisioRenderingOptions--) | Retrieves the rendering options for processing Visio files when viewing documents. |
 | [setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions)](#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-) | Sets the rendering options for processing Visio files when viewing documents. |
 | [getPresentationOptions()](#getPresentationOptions--) | Retrieves the view options for processing presentation documents. |
@@ -75,6 +75,11 @@ public TextOptions getTextOptions()
 
 Retrieves the options for splitting text files into pages.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-text-files/
+
 **Returns:**
 [TextOptions](../../com.groupdocs.viewer.options/textoptions) - the text file splitting options.
 ### setTextOptions(TextOptions textOptions) {#setTextOptions-com.groupdocs.viewer.options.TextOptions-}
@@ -84,6 +89,11 @@ public void setTextOptions(TextOptions textOptions)
 
 
 Sets the options for splitting text files into pages.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-text-files/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -98,6 +108,11 @@ public final boolean isRenderComments()
 
 Enables rendering comments.
 
+By default, GroupDocs.Viewer does not render comments. To do this, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-word-documents/#render-comments
+
 **Returns:**
 boolean -  true  if comments should be rendered,  false  otherwise.
 ### setRenderComments(boolean value) {#setRenderComments-boolean-}
@@ -107,6 +122,11 @@ public final void setRenderComments(boolean value)
 
 
 Enables rendering comments.
+
+By default, GroupDocs.Viewer does not render comments. To do this, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-word-documents/#render-comments
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,6 +140,11 @@ public final boolean isRenderNotes()
 
 
 Enables rendering notes.
+
+Some files, such as presentations or Microsoft project files, may contain notes. By default, GroupDocs.Viewer does not render notes. To do this, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/#render-speaker-notes
 
 **Returns:**
 boolean -  true  if notes should be rendered,  false  otherwise.
@@ -144,6 +169,11 @@ public final boolean isRenderHiddenPages()
 
 Enables rendering of hidden pages.
 
+Some files, such as presentations or spreadsheets, may contain hidden pages. By default, GroupDocs.Viewer does not render these pages. To do this, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/#render-hidden-slides
+
 **Returns:**
 boolean -  true  if hidden pages should be rendered,  false  otherwise.
 ### setRenderHiddenPages(boolean value) {#setRenderHiddenPages-boolean-}
@@ -153,6 +183,11 @@ public final void setRenderHiddenPages(boolean value)
 
 
 Enables rendering of hidden pages.
+
+Some files, such as presentations or spreadsheets, may contain hidden pages. By default, GroupDocs.Viewer does not render these pages. To do this, set this property to true. For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/#render-hidden-slides
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -167,6 +202,11 @@ public final String getDefaultFontName()
 
 Default font to be used when a particular font used in the document can't be found.
 
+Use this property to set the default font for a document. GroupDocs.Viewer uses this font during rendering instead of any not installed fonts. For code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/replace-missing-font/
+
 **Returns:**
 java.lang.String - the name of the default font.
 ### setDefaultFontName(String value) {#setDefaultFontName-java.lang.String-}
@@ -176,6 +216,11 @@ public final void setDefaultFontName(String value)
 
 
 Default font to be used when a particular font used in the document can't be found.
+
+Use this property to set the default font for a document. GroupDocs.Viewer uses this font during rendering instead of any not installed fonts. For code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/replace-missing-font/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -190,6 +235,11 @@ public final ArchiveOptions getArchiveOptions()
 
 Retrieves the archive files view options.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/
+
 **Returns:**
 [ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions) - the archive files view options.
 ### setArchiveOptions(ArchiveOptions value) {#setArchiveOptions-com.groupdocs.viewer.options.ArchiveOptions-}
@@ -199,6 +249,11 @@ public final void setArchiveOptions(ArchiveOptions value)
 
 
 Sets the archive files view options.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,6 +268,12 @@ public final CadOptions getCadOptions()
 
 Retrieves the CAD drawing view options.
 
+For more information and code examples, see the [Render CAD drawings and models as HTML, PDF, and image files][Render CAD drawings and models as HTML_ PDF_ and image files] and [Specify rendering options for CAD files][].
+
+
+[Render CAD drawings and models as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/net/render-cad-drawings-and-models/
+[Specify rendering options for CAD files]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/
+
 **Returns:**
 [CadOptions](../../com.groupdocs.viewer.options/cadoptions) - the CAD drawing view options.
 ### setCadOptions(CadOptions value) {#setCadOptions-com.groupdocs.viewer.options.CadOptions-}
@@ -222,6 +283,12 @@ public final void setCadOptions(CadOptions value)
 
 
 Sets the CAD drawing view options.
+
+For more information and code examples, see the [Render CAD drawings and models as HTML, PDF, and image files][Render CAD drawings and models as HTML_ PDF_ and image files] and [Specify rendering options for CAD files][].
+
+
+[Render CAD drawings and models as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/net/render-cad-drawings-and-models/
+[Specify rendering options for CAD files]: https://docs.groupdocs.com/viewer/java/specify-cad-rendering-options/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -246,6 +313,11 @@ public final EmailOptions getEmailOptions()
 
 Retrieves the email messages view options.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/
+
 **Returns:**
 [EmailOptions](../../com.groupdocs.viewer.options/emailoptions) - Email messages view options.
 ### setEmailOptions(EmailOptions value) {#setEmailOptions-com.groupdocs.viewer.options.EmailOptions-}
@@ -255,6 +327,11 @@ public final void setEmailOptions(EmailOptions value)
 
 
 Sets the email messages view options.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-email-messages/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,6 +346,11 @@ public final OutlookOptions getOutlookOptions()
 
 Retrieves the MS Outlook data files view options.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/
+
 **Returns:**
 [OutlookOptions](../../com.groupdocs.viewer.options/outlookoptions) - MS Outlook data files view options.
 ### setOutlookOptions(OutlookOptions value) {#setOutlookOptions-com.groupdocs.viewer.options.OutlookOptions-}
@@ -278,6 +360,11 @@ public final void setOutlookOptions(OutlookOptions value)
 
 
 Sets the MS Outlook data files view options.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -292,6 +379,11 @@ public final PdfOptions getPdfOptions()
 
 Retrieves the PDF documents view options.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/
+
 **Returns:**
 [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) - the PDF documents view options.
 ### setPdfOptions(PdfOptions value) {#setPdfOptions-com.groupdocs.viewer.options.PdfOptions-}
@@ -301,6 +393,11 @@ public final void setPdfOptions(PdfOptions value)
 
 
 Retrieves the PDF documents view options.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-pdf-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -338,6 +435,11 @@ public final ProjectManagementOptions getProjectManagementOptions()
 
 Retrieves the project management files view options.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/
+
 **Returns:**
 [ProjectManagementOptions](../../com.groupdocs.viewer.options/projectmanagementoptions) - the project management files view options.
 ### setProjectManagementOptions(ProjectManagementOptions projectManagementOptions) {#setProjectManagementOptions-com.groupdocs.viewer.options.ProjectManagementOptions-}
@@ -347,6 +449,11 @@ public final void setProjectManagementOptions(ProjectManagementOptions projectMa
 
 
 Sets the project management files view options.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -361,6 +468,13 @@ public final SpreadsheetOptions getSpreadsheetOptions()
 
 Retrieves the spreadsheet files view options.
 
+For more information and code examples, see the [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files], [Split a worksheet into pages][], and [Specify spreadsheet rendering options][].
+
+
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+[Split a worksheet into pages]: https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/
+[Specify spreadsheet rendering options]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/
+
 **Returns:**
 [SpreadsheetOptions](../../com.groupdocs.viewer.options/spreadsheetoptions) - the spreadsheet files view options.
 ### setSpreadsheetOptions(SpreadsheetOptions value) {#setSpreadsheetOptions-com.groupdocs.viewer.options.SpreadsheetOptions-}
@@ -370,6 +484,13 @@ public final void setSpreadsheetOptions(SpreadsheetOptions value)
 
 
 Sets the spreadsheet files view options.
+
+For more information and code examples, see the [Render Excel and Apple Numbers spreadsheets as HTML, PDF, and image files][Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files], [Split a worksheet into pages][], and [Specify spreadsheet rendering options][].
+
+
+[Render Excel and Apple Numbers spreadsheets as HTML_ PDF_ and image files]: https://docs.groupdocs.com/viewer/java/render-excel-and-apple-numbers-spreadsheets/
+[Split a worksheet into pages]: https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/
+[Specify spreadsheet rendering options]: https://docs.groupdocs.com/viewer/java/specify-rendering-options/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -382,12 +503,12 @@ public final WordProcessingOptions getWordProcessingOptions()
 ```
 
 
-Retrieves the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+The Word processing files view options.
 
-***Note:** See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]*
+For more information and code examples, see the [documentation][].
 
 
-[Render Word documents as HTML_ PDF_ or image files]: https://docs.groupdocs.com/viewer/java/how-to-view-word-documents-using-java/
+[documentation]: https://docs.groupdocs.com/viewer/java/render-word-documents/
 
 **Returns:**
 [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) - the Word processing options for rendering Word documents.
@@ -397,12 +518,12 @@ public final void setWordProcessingOptions(WordProcessingOptions wordProcessingO
 ```
 
 
-Sets the rendering options for customizing the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents.
+The Word processing files view options.
 
-***Note:** See also [Render Word documents as HTML, PDF, or image files][Render Word documents as HTML_ PDF_ or image files]*
+For more information and code examples, see the [documentation][].
 
 
-[Render Word documents as HTML_ PDF_ or image files]: https://docs.groupdocs.com/viewer/java/how-to-view-word-documents-using-java/
+[documentation]: https://docs.groupdocs.com/viewer/java/render-word-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -417,6 +538,11 @@ public VisioRenderingOptions getVisioRenderingOptions()
 
 Retrieves the rendering options for processing Visio files when viewing documents.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-visio-documents/
+
 **Returns:**
 [VisioRenderingOptions](../../com.groupdocs.viewer.options/visiorenderingoptions) - the Visio rendering options for processing Visio files.
 ### setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions) {#setVisioRenderingOptions-com.groupdocs.viewer.options.VisioRenderingOptions-}
@@ -426,6 +552,11 @@ public void setVisioRenderingOptions(VisioRenderingOptions visioRenderingOptions
 
 
 Sets the rendering options for processing Visio files when viewing documents.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-visio-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -440,6 +571,11 @@ public PresentationOptions getPresentationOptions()
 
 Retrieves the view options for processing presentation documents.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/
+
 **Returns:**
 com.groupdocs.viewer.options.PresentationOptions - the presentation view options for processing presentation documents.
 ### setPresentationOptions(PresentationOptions presentationOptions) {#setPresentationOptions-com.groupdocs.viewer.options.PresentationOptions-}
@@ -449,6 +585,11 @@ public void setPresentationOptions(PresentationOptions presentationOptions)
 
 
 Sets the view options for processing presentation documents.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -463,6 +604,11 @@ public WebDocumentOptions getWebDocumentOptions()
 
 Gets the rendering options that allow customization of the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
 
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-web-documents/
+
 **Returns:**
 com.groupdocs.viewer.options.WebDocumentOptions - The WebDocumentOptions object for customizing the rendering options.
 ### setWebDocumentOptions(WebDocumentOptions webDocumentOptions) {#setWebDocumentOptions-com.groupdocs.viewer.options.WebDocumentOptions-}
@@ -472,6 +618,11 @@ public void setWebDocumentOptions(WebDocumentOptions webDocumentOptions)
 
 
 Sets the rendering options that allow customization of the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents.
+
+For more information and code examples, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-web-documents/
 
 **Parameters:**
 | Parameter | Type | Description |
