@@ -32,15 +32,15 @@ The SpreadsheetOptions type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|for_split_sheet_into_pages(count_rows_per_page)|Initializes an instance of the [SpreadsheetOptions](/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
-|for_split_sheet_into_pages(count_rows_per_page, count_columns_per_page)|Initializes an instance of the [SpreadsheetOptions](/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
-|for_one_page_per_sheet()|Initializes an instance of the [SpreadsheetOptions](/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the whole sheet into one page.|
-|for_rendering_print_area()|Initializes an instance of the [SpreadsheetOptions](/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the print areas only.|
-|for_rendering_print_area_and_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering print areas and page breaks.|
-|for_rendering_by_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for splitting to pages by page breaks.|
+|for_split_sheet_into_pages(count_rows_per_page)|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
+|for_split_sheet_into_pages(count_rows_per_page, count_columns_per_page)|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
+|for_one_page_per_sheet()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the whole sheet into one page.|
+|for_rendering_print_area()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the print areas only.|
+|for_rendering_print_area_and_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering print areas and page breaks.|
+|for_rendering_by_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for splitting to pages by page breaks.|
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

@@ -26,6 +26,6 @@ The CadViewInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

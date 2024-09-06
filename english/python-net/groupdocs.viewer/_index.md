@@ -13,11 +13,11 @@ The namespace provides classes for rendering documents in HTML5, Image or PDF mo
 ## Classes
 | Class | Description |
 | :- | :- |
-|[FileType](/python-net/groupdocs.viewer/filetype/)|Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Viewer.|
-|[License](/python-net/groupdocs.viewer/license/)|Provides methods to license the component. Learn more about licensing|
-|[Metered](/python-net/groupdocs.viewer/metered/)|Provides methods for applying|
-|[Viewer](/python-net/groupdocs.viewer/viewer/)|Represents main class that controls document rendering process.|
-|[ViewerSettings](/python-net/groupdocs.viewer/viewersettings/)|Defines settings for customizing [Viewer](/python-net/groupdocs.viewer/viewer/) behaviour.|
+|[FileType](/viewer/python-net/groupdocs.viewer/filetype/)|Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Viewer.|
+|[License](/viewer/python-net/groupdocs.viewer/license/)|Provides methods to license the component. Learn more about licensing|
+|[Metered](/viewer/python-net/groupdocs.viewer/metered/)|Provides methods for applying|
+|[Viewer](/viewer/python-net/groupdocs.viewer/viewer/)|Represents main class that controls document rendering process.|
+|[ViewerSettings](/viewer/python-net/groupdocs.viewer/viewersettings/)|Defines settings for customizing [Viewer](/viewer/python-net/groupdocs.viewer/viewer/) behaviour.|
 ## Enumerations
 | Enumeration | Description |
 | :- | :- |

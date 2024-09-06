@@ -46,16 +46,16 @@ The HtmlViewOptions type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|for_embedded_resources(page_stream_factory)|Initializes an instance of the [HtmlViewOptions](/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with embedded resources.|
-|for_embedded_resources()|Initializes an instance of the [HtmlViewOptions](/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with embedded resources.|
-|for_embedded_resources(file_path_format)|Initializes an instance of the [HtmlViewOptions](/python-net/groupdocs.viewer.options/htmlviewoptions/) class.|
-|for_external_resources(page_stream_factory, resource_stream_factory)|Initializes an instance of the [HtmlViewOptions](/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with external resources.|
-|for_external_resources()|Initializes an instance of the [HtmlViewOptions](/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with external resources.|
-|for_external_resources(file_path_format, resource_file_path_format, resource_url_format)|Initializes an instance of the [HtmlViewOptions](/python-net/groupdocs.viewer.options/htmlviewoptions/) class.|
+|for_embedded_resources(page_stream_factory)|Initializes an instance of the [HtmlViewOptions](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with embedded resources.|
+|for_embedded_resources()|Initializes an instance of the [HtmlViewOptions](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with embedded resources.|
+|for_embedded_resources(file_path_format)|Initializes an instance of the [HtmlViewOptions](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) class.|
+|for_external_resources(page_stream_factory, resource_stream_factory)|Initializes an instance of the [HtmlViewOptions](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with external resources.|
+|for_external_resources()|Initializes an instance of the [HtmlViewOptions](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) class for rendering into HTML with external resources.|
+|for_external_resources(file_path_format, resource_file_path_format, resource_url_format)|Initializes an instance of the [HtmlViewOptions](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) class.|
 |rotate_page(page_number, rotation)|Applies the clockwise rotation to a page.|
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

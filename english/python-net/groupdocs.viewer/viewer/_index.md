@@ -39,6 +39,6 @@ The Viewer type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer](/python-net/groupdocs.viewer/)
+* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

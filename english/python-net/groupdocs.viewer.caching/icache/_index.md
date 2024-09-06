@@ -20,6 +20,6 @@ The ICache type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.caching](/python-net/groupdocs.viewer.caching/)
+* namespace [groupdocs.viewer.caching](/viewer/python-net/groupdocs.viewer.caching/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

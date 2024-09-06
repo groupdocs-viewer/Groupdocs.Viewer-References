@@ -9,7 +9,7 @@ url: /python-net/groupdocs.viewer/viewersettings/
 
 ## ViewerSettings class
 
-Defines settings for customizing [Viewer](/python-net/groupdocs.viewer/viewer/) behaviour.
+Defines settings for customizing [Viewer](/viewer/python-net/groupdocs.viewer/viewer/) behaviour.
 
 The ViewerSettings type exposes the following members:
 ## Constructors
@@ -26,6 +26,6 @@ The ViewerSettings type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer](/python-net/groupdocs.viewer/)
+* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

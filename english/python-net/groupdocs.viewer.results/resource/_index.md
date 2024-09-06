@@ -15,7 +15,7 @@ The Resource type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Resource()|Creates new instance of [Resource](/python-net/groupdocs.viewer.results/resource/) class.|
+|Resource()|Creates new instance of [Resource](/viewer/python-net/groupdocs.viewer.results/resource/) class.|
 |Resource(file_name, nested)|Initializes a new instance of the Resource class|
 ## Properties
 | Name | Description |
@@ -25,6 +25,6 @@ The Resource type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

@@ -24,6 +24,6 @@ The FileLogger type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.logging](/python-net/groupdocs.viewer.logging/)
+* namespace [groupdocs.viewer.logging](/viewer/python-net/groupdocs.viewer.logging/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

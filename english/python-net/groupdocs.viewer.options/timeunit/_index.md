@@ -21,6 +21,6 @@ Time unit of the project duration.
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

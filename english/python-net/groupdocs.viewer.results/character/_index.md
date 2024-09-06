@@ -15,7 +15,7 @@ The Character type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Character()|Initializes new instance of [Character](/python-net/groupdocs.viewer.results/character/) class.|
+|Character()|Initializes new instance of [Character](/viewer/python-net/groupdocs.viewer.results/character/) class.|
 |Character(character, x, y, width, height)|Initializes a new instance of the Character class|
 ## Properties
 | Name | Description |
@@ -28,6 +28,6 @@ The Character type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

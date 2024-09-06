@@ -15,7 +15,7 @@ The PdfOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PdfOptions()|Initializes new instance of the [PdfOptions](/python-net/groupdocs.viewer.options/pdfoptions/) class.|
+|PdfOptions()|Initializes new instance of the [PdfOptions](/viewer/python-net/groupdocs.viewer.options/pdfoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -31,6 +31,6 @@ The PdfOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

@@ -24,10 +24,10 @@ The FolderFontSource type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|equals(other)|Determines whether the current [FolderFontSource](/python-net/groupdocs.viewer.fonts/folderfontsource/) is the same as specified [FolderFontSource](/python-net/groupdocs.viewer.fonts/folderfontsource/) object.|
+|equals(other)|Determines whether the current [FolderFontSource](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/) is the same as specified [FolderFontSource](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/) object.|
 
 ### See Also
 
-* namespace [groupdocs.viewer.fonts](/python-net/groupdocs.viewer.fonts/)
+* namespace [groupdocs.viewer.fonts](/viewer/python-net/groupdocs.viewer.fonts/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

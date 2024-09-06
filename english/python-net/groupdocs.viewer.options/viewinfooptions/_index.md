@@ -40,20 +40,20 @@ The ViewInfoOptions type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|for_html_view()|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into HTML.|
-|for_html_view(render_single_page)|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into HTML.|
-|for_jpg_view()|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into JPG.|
-|for_jpg_view(extract_text)|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into JPG.|
-|for_png_view()|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into PNG.|
-|for_png_view(extract_text)|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into PNG.|
-|for_pdf_view()|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into PDF.|
-|from_html_view_options(options)|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [HtmlViewOptions](/python-net/groupdocs.viewer.options/htmlviewoptions/) object.|
-|from_png_view_options(options)|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [PngViewOptions](/python-net/groupdocs.viewer.options/pngviewoptions/) object.|
-|from_jpg_view_options(options)|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [JpgViewOptions](/python-net/groupdocs.viewer.options/jpgviewoptions/) object.|
-|from_pdf_view_options(options)|Initializes an instance of the [ViewInfoOptions](/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [PdfViewOptions](/python-net/groupdocs.viewer.options/pdfviewoptions/) object.|
+|for_html_view()|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into HTML.|
+|for_html_view(render_single_page)|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into HTML.|
+|for_jpg_view()|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into JPG.|
+|for_jpg_view(extract_text)|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into JPG.|
+|for_png_view()|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into PNG.|
+|for_png_view(extract_text)|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into PNG.|
+|for_pdf_view()|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class to retrieve information about view when rendering into PDF.|
+|from_html_view_options(options)|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [HtmlViewOptions](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) object.|
+|from_png_view_options(options)|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [PngViewOptions](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) object.|
+|from_jpg_view_options(options)|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [JpgViewOptions](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/) object.|
+|from_pdf_view_options(options)|Initializes an instance of the [ViewInfoOptions](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/) class based on the [PdfViewOptions](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) object.|
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

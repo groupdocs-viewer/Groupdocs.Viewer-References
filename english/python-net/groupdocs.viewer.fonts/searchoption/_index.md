@@ -19,6 +19,6 @@ Specifies whether to search the current folder, or the current folder and all su
 
 ### See Also
 
-* namespace [groupdocs.viewer.fonts](/python-net/groupdocs.viewer.fonts/)
+* namespace [groupdocs.viewer.fonts](/viewer/python-net/groupdocs.viewer.fonts/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

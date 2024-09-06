@@ -16,7 +16,7 @@ The PdfViewOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |PdfViewOptions(file_stream_factory)|Initializes a new instance of the PdfViewOptions class|
-|PdfViewOptions()|Initializes an instance of [PdfViewOptions](/python-net/groupdocs.viewer.options/pdfviewoptions/) class.|
+|PdfViewOptions()|Initializes an instance of [PdfViewOptions](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) class.|
 |PdfViewOptions(output_file_path)|Initializes a new instance of the PdfViewOptions class|
 ## Properties
 | Name | Description |
@@ -54,6 +54,6 @@ The PdfViewOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

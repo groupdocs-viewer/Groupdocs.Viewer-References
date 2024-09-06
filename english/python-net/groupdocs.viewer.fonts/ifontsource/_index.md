@@ -15,6 +15,6 @@ The IFontSource type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.fonts](/python-net/groupdocs.viewer.fonts/)
+* namespace [groupdocs.viewer.fonts](/viewer/python-net/groupdocs.viewer.fonts/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

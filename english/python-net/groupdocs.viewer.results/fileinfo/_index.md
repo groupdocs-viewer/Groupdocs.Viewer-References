@@ -15,7 +15,7 @@ The FileInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FileInfo()|Initializes new instance of [file_type](/python-net/groupdocs.viewer.results/fileinfo/) class.|
+|FileInfo()|Initializes new instance of [file_type](/viewer/python-net/groupdocs.viewer.results/fileinfo/) class.|
 |FileInfo(file_type)|Initializes a new instance of the FileInfo class|
 ## Properties
 | Name | Description |
@@ -25,6 +25,6 @@ The FileInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

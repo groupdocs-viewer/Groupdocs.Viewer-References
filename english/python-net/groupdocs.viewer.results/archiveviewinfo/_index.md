@@ -15,7 +15,7 @@ The ArchiveViewInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ArchiveViewInfo()|Initializes new instance of [ArchiveViewInfo](/python-net/groupdocs.viewer.results/archiveviewinfo/) class.|
+|ArchiveViewInfo()|Initializes new instance of [ArchiveViewInfo](/viewer/python-net/groupdocs.viewer.results/archiveviewinfo/) class.|
 |ArchiveViewInfo(file_type, pages, folders)|Initializes a new instance of the ArchiveViewInfo class|
 ## Properties
 | Name | Description |
@@ -26,6 +26,6 @@ The ArchiveViewInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

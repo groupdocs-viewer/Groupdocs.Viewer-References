@@ -15,7 +15,7 @@ The PdfViewInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|PdfViewInfo()|Initializes new instance of [PdfViewInfo](/python-net/groupdocs.viewer.results/pdfviewinfo/) class.|
+|PdfViewInfo()|Initializes new instance of [PdfViewInfo](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/) class.|
 |PdfViewInfo(file_type, pages, printing_allowed)|Initializes a new instance of the PdfViewInfo class|
 ## Properties
 | Name | Description |
@@ -26,6 +26,6 @@ The PdfViewInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

@@ -13,6 +13,6 @@ The namespace provides interfaces to instantiate and release output document and
 ## Classes
 | Class | Description |
 | :- | :- |
-|[IFileStreamFactory](/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/)|Defines the methods that are required for instantiating and releasing output file stream.|
-|[IPageStreamFactory](/python-net/groupdocs.viewer.interfaces/ipagestreamfactory/)|Defines the methods that are required for instantiating and releasing output page stream.|
-|[IResourceStreamFactory](/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)|Defines the methods that are required for creating resource URL, instantiating and releasing output HTML resource stream.|
+|[IFileStreamFactory](/viewer/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/)|Defines the methods that are required for instantiating and releasing output file stream.|
+|[IPageStreamFactory](/viewer/python-net/groupdocs.viewer.interfaces/ipagestreamfactory/)|Defines the methods that are required for instantiating and releasing output page stream.|
+|[IResourceStreamFactory](/viewer/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)|Defines the methods that are required for creating resource URL, instantiating and releasing output HTML resource stream.|
