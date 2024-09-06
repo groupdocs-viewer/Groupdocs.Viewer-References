@@ -50,3 +50,17 @@ Node.js API for document viewing and rendering of 170+ file formats with high pe
 These are links to some useful resources:
 
 - [GroupDocs.Viewer for Node.js via Java API Reference](/viewer/nodejs-java/)
+
+## GroupDocs.Viewer for Python via .NET
+
+{{% alert color="primary" %}}
+
+![GroupDocs.Viewer for Python via .NET Product Logo](gdocs_python.png)
+
+Enhance Python applications with a powerful multi-format document viewer API, enabling seamless rendering and viewing of over 170+ popular file formats, including documents, images, and diagrams.
+
+{{% /alert %}}
+
+These are links to some useful resources:
+
+- [GroupDocs.Viewer for Python via .NET API Reference](/viewer/python-net/)
