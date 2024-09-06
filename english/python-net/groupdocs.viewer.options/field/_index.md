@@ -1,87 +1,72 @@
 ---
 title: Field
 second_title: GroupDocs.Viewer for Python via .NET API Reference
-description: Represents email message field e.g. From To Subject etc.
+description: 
 type: docs
-weight: 280
-url: /python-net/groupdocs.viewer.options/field/
+weight: 50
+url: /viewer/python-net/groupdocs.viewer.options/field/
 ---
+
 ## Field class
 
-Represents email message field e.g. From, To, Subject etc.
+Represents email message field e.g. From, To, Subject etc. For details, see the
 
-```csharp
-public class Field
-```
-
+The Field type exposes the following members:
 ## Properties
-
 | Name | Description |
-| --- | --- |
-| [Name](../../groupdocs.viewer.options/field/name) { get; } | Field name. |
-
-## Methods
-
-| Name | Description |
-| --- | --- |
-| override [ToString](../../groupdocs.viewer.options/field/tostring)() | Returns a string that represents the current object. |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| static readonly [Anniversary](../../groupdocs.viewer.options/field/anniversary) | Default field text is "Anniversary". |
-| static readonly [Attachments](../../groupdocs.viewer.options/field/attachments) | Default field text is "Attachments". |
-| static readonly [Bcc](../../groupdocs.viewer.options/field/bcc) | Default field text is "Bcc". |
-| static readonly [Birthday](../../groupdocs.viewer.options/field/birthday) | Default field text is "Birthday". |
-| static readonly [Business](../../groupdocs.viewer.options/field/business) | Default field text is "Business". |
-| static readonly [BusinessAddress](../../groupdocs.viewer.options/field/businessaddress) | Default field text is "Business Address". |
-| static readonly [BusinessFax](../../groupdocs.viewer.options/field/businessfax) | Default field text is "Business Fax". |
-| static readonly [BusinessHomepage](../../groupdocs.viewer.options/field/businesshomepage) | Default field text is "BusinessHomepage". |
-| static readonly [Cc](../../groupdocs.viewer.options/field/cc) | Default field text is "Cc". |
-| static readonly [Company](../../groupdocs.viewer.options/field/company) | Default field text is "Company". |
-| static readonly [Department](../../groupdocs.viewer.options/field/department) | Default field text is "Department". |
-| static readonly [Email](../../groupdocs.viewer.options/field/email) | Default field text is "Email". |
-| static readonly [Email2](../../groupdocs.viewer.options/field/email2) | Default field text is "Email2". |
-| static readonly [Email2DisplayAs](../../groupdocs.viewer.options/field/email2displayas) | Default field text is "Email2 Display As". |
-| static readonly [Email3](../../groupdocs.viewer.options/field/email3) | Default field text is "Email3". |
-| static readonly [Email3DisplayAs](../../groupdocs.viewer.options/field/email3displayas) | Default field text is "Email3 Display As". |
-| static readonly [EmailDisplayAs](../../groupdocs.viewer.options/field/emaildisplayas) | Default field text is "Email Display As". |
-| static readonly [End](../../groupdocs.viewer.options/field/end) | Default field text is "End". |
-| static readonly [FirstName](../../groupdocs.viewer.options/field/firstname) | Default field text is "First Name". |
-| static readonly [From](../../groupdocs.viewer.options/field/from) | Default field text is "From". |
-| static readonly [FullName](../../groupdocs.viewer.options/field/fullname) | Default field text is "Full Name". |
-| static readonly [Gender](../../groupdocs.viewer.options/field/gender) | Default field text is "Gender". |
-| static readonly [Hobbies](../../groupdocs.viewer.options/field/hobbies) | Default field text is "Hobbies". |
-| static readonly [Home](../../groupdocs.viewer.options/field/home) | Default field text is "Home". |
-| static readonly [HomeAddress](../../groupdocs.viewer.options/field/homeaddress) | Default field text is "Home Address". |
-| static readonly [Importance](../../groupdocs.viewer.options/field/importance) | Default field text is "Importance". |
-| static readonly [JobTitle](../../groupdocs.viewer.options/field/jobtitle) | Default field text is "Job Title". |
-| static readonly [LastName](../../groupdocs.viewer.options/field/lastname) | Default field text is "Last Name". |
-| static readonly [Location](../../groupdocs.viewer.options/field/location) | Default field text is "Location". |
-| static readonly [MiddleName](../../groupdocs.viewer.options/field/middlename) | Default field text is "Middle Name". |
-| static readonly [Mobile](../../groupdocs.viewer.options/field/mobile) | Default field text is "Mobile". |
-| static readonly [Organizer](../../groupdocs.viewer.options/field/organizer) | Default field text is "Organizer". |
-| static readonly [OtherAddress](../../groupdocs.viewer.options/field/otheraddress) | Default field text is "Other Address". |
-| static readonly [PersonalHomepage](../../groupdocs.viewer.options/field/personalhomepage) | Default field text is "Personal Homepage". |
-| static readonly [Profession](../../groupdocs.viewer.options/field/profession) | Default field text is "Profession". |
-| static readonly [Recurrence](../../groupdocs.viewer.options/field/recurrence) | Default field text is "Recurrence" |
-| static readonly [RecurrencePattern](../../groupdocs.viewer.options/field/recurrencepattern) | Default field text is "Recurrence Pattern". |
-| static readonly [RequiredAttendees](../../groupdocs.viewer.options/field/requiredattendees) | Default field text is "Required Attendees". |
-| static readonly [Sent](../../groupdocs.viewer.options/field/sent) | Default field text is "Sent". |
-| static readonly [ShowTimeAs](../../groupdocs.viewer.options/field/showtimeas) | Default field text is "Show Time As". |
-| static readonly [SpousePartner](../../groupdocs.viewer.options/field/spousepartner) | Default field text is "Spouse/Partner". |
-| static readonly [Start](../../groupdocs.viewer.options/field/start) | Default field text is "Start". |
-| static readonly [Subject](../../groupdocs.viewer.options/field/subject) | Default field text is "Subject". |
-| static readonly [To](../../groupdocs.viewer.options/field/to) | Default field text is "To". |
-| static readonly [UserField1](../../groupdocs.viewer.options/field/userfield1) | Default field text is "User Field 1". |
-| static readonly [UserField2](../../groupdocs.viewer.options/field/userfield2) | Default field text is "User Field 2". |
-| static readonly [UserField3](../../groupdocs.viewer.options/field/userfield3) | Default field text is "User Field 3". |
-| static readonly [UserField4](../../groupdocs.viewer.options/field/userfield4) | Default field text is "User Field 4". |
+| :- | :- |
+|name|Field name.|
+|ANNIVERSARY|Default field text is "Anniversary".|
+|ATTACHMENTS|Default field text is "Attachments".|
+|BCC|Default field text is "Bcc".|
+|BIRTHDAY|Default field text is "Birthday".|
+|BUSINESS|Default field text is "Business".|
+|BUSINESS_ADDRESS|Default field text is "Business Address".|
+|BUSINESS_FAX|Default field text is "Business Fax".|
+|BUSINESS_HOMEPAGE|Default field text is "BusinessHomepage".|
+|CC|Default field text is "Cc".|
+|COMPANY|Default field text is "Company".|
+|DEPARTMENT|Default field text is "Department".|
+|EMAIL|Default field text is "Email".|
+|EMAIL_DISPLAY_AS|Default field text is "Email Display As".|
+|EMAIL2|Default field text is "Email2".|
+|EMAIL_2_DISPLAY_AS|Default field text is "Email2 Display As".|
+|EMAIL3|Default field text is "Email3".|
+|EMAIL_3_DISPLAY_AS|Default field text is "Email3 Display As".|
+|END|Default field text is "End".|
+|FIRST_NAME|Default field text is "First Name".|
+|FROM|Default field text is "From".|
+|FULL_NAME|Default field text is "Full Name".|
+|GENDER|Default field text is "Gender".|
+|HOBBIES|Default field text is "Hobbies".|
+|HOME|Default field text is "Home".|
+|HOME_ADDRESS|Default field text is "Home Address".|
+|IMPORTANCE|Default field text is "Importance".|
+|JOB_TITLE|Default field text is "Job Title".|
+|LAST_NAME|Default field text is "Last Name".|
+|LOCATION|Default field text is "Location".|
+|MIDDLE_NAME|Default field text is "Middle Name".|
+|MOBILE|Default field text is "Mobile".|
+|ORGANIZER|Default field text is "Organizer".|
+|OTHER_ADDRESS|Default field text is "Other Address".|
+|PERSONAL_HOMEPAGE|Default field text is "Personal Homepage".|
+|PROFESSION|Default field text is "Profession".|
+|RECURRENCE|Default field text is "Recurrence"|
+|RECURRENCE_PATTERN|Default field text is "Recurrence Pattern".|
+|REQUIRED_ATTENDEES|Default field text is "Required Attendees".|
+|SENT|Default field text is "Sent".|
+|SHOW_TIME_AS|Default field text is "Show Time As".|
+|SPOUSE_PARTNER|Default field text is "Spouse/Partner".|
+|START|Default field text is "Start".|
+|SUBJECT|Default field text is "Subject".|
+|TO|Default field text is "To".|
+|USER_FIELD1|Default field text is "User Field 1".|
+|USER_FIELD2|Default field text is "User Field 2".|
+|USER_FIELD3|Default field text is "User Field 3".|
+|USER_FIELD4|Default field text is "User Field 4".|
 
 ### See Also
 
-* namespace [GroupDocs.Viewer.Options](../../groupdocs.viewer.options)
-* assembly [GroupDocs.Viewer](../../)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* assembly [GroupDocs.Viewer](/viewer/python-net/)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.viewer.dll -->

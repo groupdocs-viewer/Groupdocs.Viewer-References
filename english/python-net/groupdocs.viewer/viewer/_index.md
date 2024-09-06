@@ -1,60 +1,44 @@
 ---
 title: Viewer
 second_title: GroupDocs.Viewer for Python via .NET API Reference
-description: Represents main class that controls document rendering process.
+description: 
 type: docs
 weight: 40
-url: /python-net/groupdocs.viewer/viewer/
+url: /viewer/python-net/groupdocs.viewer/viewer/
 ---
+
 ## Viewer class
 
 Represents main class that controls document rendering process.
 
-```csharp
-public class Viewer : IDisposable
-```
-
+The Viewer type exposes the following members:
 ## Constructors
-
 | Name | Description |
-| --- | --- |
-| [Viewer](viewer#constructor)(Func&lt;Stream&gt;) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_4)(Stream) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_12)(string) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_2)(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_1)(Func&lt;Stream&gt;, ViewerSettings) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_5)(Stream, bool) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_6)(Stream, LoadOptions) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_10)(Stream, ViewerSettings) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_13)(string, LoadOptions) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_15)(string, ViewerSettings) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_3)(Func&lt;Stream&gt;, Func&lt;LoadOptions&gt;, ViewerSettings) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_7)(Stream, LoadOptions, bool) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_8)(Stream, LoadOptions, ViewerSettings) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_11)(Stream, ViewerSettings, bool) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_14)(string, LoadOptions, ViewerSettings) | Initializes new instance of [`Viewer`](../viewer) class. |
-| [Viewer](viewer#constructor_9)(Stream, LoadOptions, ViewerSettings, bool) | Initializes new instance of [`Viewer`](../viewer) class. |
-
+| :- | :- |
+|Viewer(stream)|Initializes a new instance of the Viewer class|
+|Viewer(stream, leave_open)|Initializes a new instance of the Viewer class|
+|Viewer(stream, load_options)|Initializes a new instance of the Viewer class|
+|Viewer(stream, load_options, leave_open)|Initializes a new instance of the Viewer class|
+|Viewer(stream, settings)|Initializes a new instance of the Viewer class|
+|Viewer(stream, settings, leave_open)|Initializes a new instance of the Viewer class|
+|Viewer(stream, load_options, settings)|Initializes a new instance of the Viewer class|
+|Viewer(stream, load_options, settings, leave_open)|Initializes a new instance of the Viewer class|
+|Viewer(file_path)|Initializes a new instance of the Viewer class|
+|Viewer(file_path, settings)|Initializes a new instance of the Viewer class|
+|Viewer(file_path, load_options)|Initializes a new instance of the Viewer class|
+|Viewer(file_path, load_options, settings)|Initializes a new instance of the Viewer class|
 ## Methods
-
 | Name | Description |
-| --- | --- |
-| [Dispose](../../groupdocs.viewer/viewer/dispose)() | Releases file stream and managed internal resources. |
-| [GetAttachments](../../groupdocs.viewer/viewer/getattachments#getattachments)() | Returns attachments contained by the document. |
-| [GetAttachments](../../groupdocs.viewer/viewer/getattachments#getattachments_1)(CancellationToken) | Returns attachments contained by the document. |
-| [GetFileInfo](../../groupdocs.viewer/viewer/getfileinfo)() | Returns information about file such as file-type and flag that indicates if file is encrypted. |
-| [GetViewInfo](../../groupdocs.viewer/viewer/getviewinfo#getviewinfo)(ViewInfoOptions) | Returns information about view and document specific information. |
-| [GetViewInfo](../../groupdocs.viewer/viewer/getviewinfo#getviewinfo_1)(ViewInfoOptions, CancellationToken) | Returns information about view and document specific information. |
-| [SaveAttachment](../../groupdocs.viewer/viewer/saveattachment#saveattachment)(Attachment, Stream) | Saves attachment file to *destination* stream. |
-| [SaveAttachment](../../groupdocs.viewer/viewer/saveattachment#saveattachment_1)(Attachment, Stream, CancellationToken) | Saves attachment file to *destination* stream. |
-| [View](../../groupdocs.viewer/viewer/view#view)(ViewOptions) | Creates view of all document pages. |
-| [View](../../groupdocs.viewer/viewer/view#view_2)(ViewOptions, CancellationToken) | Creates view of all document pages. |
-| [View](../../groupdocs.viewer/viewer/view#view_1)(ViewOptions, params int[]) | Creates view of specific document pages. |
-| [View](../../groupdocs.viewer/viewer/view#view_3)(ViewOptions, CancellationToken, params int[]) | Creates view of specific document pages. |
+| :- | :- |
+|view(options)|Creates view of all document pages.|
+|view(options, page_numbers)|Creates view of specific document pages.|
+|get_view_info(options)|Returns information about view and document specific information.|
+|get_attachments()|Returns attachments contained by the document.|
+|save_attachment(attachment, destination)|Saves attachment file to|
+|get_file_info()|Returns information about file such as file-type and flag that indicates if file is encrypted.|
 
 ### See Also
 
-* namespace [GroupDocs.Viewer](../../groupdocs.viewer)
-* assembly [GroupDocs.Viewer](../../)
+* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
+* assembly [GroupDocs.Viewer](/viewer/python-net/)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.viewer.dll -->

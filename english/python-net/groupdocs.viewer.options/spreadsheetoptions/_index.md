@@ -1,52 +1,46 @@
 ---
 title: SpreadsheetOptions
 second_title: GroupDocs.Viewer for Python via .NET API Reference
-description: Provides options for rendering spreadsheets.
+description: 
 type: docs
-weight: 500
-url: /python-net/groupdocs.viewer.options/spreadsheetoptions/
+weight: 220
+url: /viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/
 ---
+
 ## SpreadsheetOptions class
 
-Provides options for rendering spreadsheets.
+Contains options for rendering spreadsheets. For details, see children of the
 
-```csharp
-public class SpreadsheetOptions
-```
-
+The SpreadsheetOptions type exposes the following members:
 ## Properties
-
 | Name | Description |
-| --- | --- |
-| [BottomMargin](../../groupdocs.viewer.options/spreadsheetoptions/bottommargin) { get; set; } | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [CountColumnsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countcolumnsperpage) { get; } | The columns count to include into each page when splitting worksheet into pages. |
-| [CountRowsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countrowsperpage) { get; } | The rows count to include into each page when splitting worksheet into pages. |
-| [DetectSeparator](../../groupdocs.viewer.options/spreadsheetoptions/detectseparator) { get; set; } | Detect separator (for CSV/TSV files). |
-| [LeftMargin](../../groupdocs.viewer.options/spreadsheetoptions/leftmargin) { get; set; } | To set left margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [RenderGridLines](../../groupdocs.viewer.options/spreadsheetoptions/rendergridlines) { get; set; } | Enables grid lines rendering. |
-| [RenderHeadings](../../groupdocs.viewer.options/spreadsheetoptions/renderheadings) { get; set; } | Enables headings rendering. |
-| [RenderHiddenColumns](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddencolumns) { get; set; } | Enables hidden columns rendering. |
-| [RenderHiddenRows](../../groupdocs.viewer.options/spreadsheetoptions/renderhiddenrows) { get; set; } | Enables hidden rows rendering. |
-| [RightMargin](../../groupdocs.viewer.options/spreadsheetoptions/rightmargin) { get; set; } | To set right margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-| [SkipEmptyColumns](../../groupdocs.viewer.options/spreadsheetoptions/skipemptycolumns) { get; set; } | Disables empty columns rendering. |
-| [SkipEmptyRows](../../groupdocs.viewer.options/spreadsheetoptions/skipemptyrows) { get; set; } | Disables empty rows rendering. |
-| [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | The text overflow mode for rendering spreadsheet documents into HTML. |
-| [TopMargin](../../groupdocs.viewer.options/spreadsheetoptions/topmargin) { get; set; } | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used |
-
+| :- | :- |
+|count_rows_per_page|The rows count to include on each page when splitting the worksheet into pages.|
+|count_columns_per_page|The columns count to include on each page when splitting the worksheet into pages.|
+|render_grid_lines|Enables grid lines rendering.|
+|skip_empty_rows|Disables empty rows rendering.|
+|skip_empty_columns|Disables empty columns rendering.|
+|render_hidden_rows|Enables hidden rows rendering.|
+|render_headings|Enables headings rendering.|
+|render_hidden_columns|Enables hidden columns rendering.|
+|detect_separator|Detect a separator (for CSV/TSV files).|
+|left_margin|Sets the left margin of a page when converting to PDF.|
+|right_margin|Sets the right margin of a page when converting to PDF.|
+|top_margin|Sets the top margin of a page when converting to PDF.|
+|bottom_margin|Sets the bottom margin of a page when converting to PDF.|
+|text_overflow_mode|Sets the text overflow mode for rendering spreadsheet documents into HTML.|
 ## Methods
-
 | Name | Description |
-| --- | --- |
-| static [ForOnePagePerSheet](../../groupdocs.viewer.options/spreadsheetoptions/foronepagepersheet)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) class for rendering whole sheet into page. |
-| static [ForRenderingByPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingbypagebreaks)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering print areas only. |
-| static [ForRenderingPrintArea](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintarea)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering print areas only. |
-| static [ForRenderingPrintAreaAndPageBreaks](../../groupdocs.viewer.options/spreadsheetoptions/forrenderingprintareaandpagebreaks)() | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering print areas and page breaks. |
-| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages)(int) | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering sheet into pages. |
-| static [ForSplitSheetIntoPages](../../groupdocs.viewer.options/spreadsheetoptions/forsplitsheetintopages#forsplitsheetintopages_1)(int, int) | Initializes new instance of [`SpreadsheetOptions`](../spreadsheetoptions) for rendering sheet into pages. |
+| :- | :- |
+|for_split_sheet_into_pages(count_rows_per_page)|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
+|for_split_sheet_into_pages(count_rows_per_page, count_columns_per_page)|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
+|for_one_page_per_sheet()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the whole sheet into one page.|
+|for_rendering_print_area()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the print areas only.|
+|for_rendering_print_area_and_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering print areas and page breaks.|
+|for_rendering_by_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for splitting to pages by page breaks.|
 
 ### See Also
 
-* namespace [GroupDocs.Viewer.Options](../../groupdocs.viewer.options)
-* assembly [GroupDocs.Viewer](../../)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* assembly [GroupDocs.Viewer](/viewer/python-net/)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.viewer.dll -->

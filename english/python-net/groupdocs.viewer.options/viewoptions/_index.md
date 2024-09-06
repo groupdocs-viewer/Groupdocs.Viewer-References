@@ -1,58 +1,45 @@
 ---
 title: ViewOptions
 second_title: GroupDocs.Viewer for Python via .NET API Reference
-description: Provides rendering options.
+description: 
 type: docs
-weight: 560
-url: /python-net/groupdocs.viewer.options/viewoptions/
+weight: 260
+url: /viewer/python-net/groupdocs.viewer.options/viewoptions/
 ---
+
 ## ViewOptions class
 
-Provides rendering options.
+Contains the rendering options.
 
-```csharp
-public abstract class ViewOptions : BaseViewOptions
-```
-
+The ViewOptions type exposes the following members:
 ## Properties
-
 | Name | Description |
-| --- | --- |
-| [ArchiveOptions](../../groupdocs.viewer.options/baseviewoptions/archiveoptions) { get; set; } | The archive files view options. |
-| [CadOptions](../../groupdocs.viewer.options/baseviewoptions/cadoptions) { get; set; } | The CAD drawing view options. |
-| [DefaultFontName](../../groupdocs.viewer.options/baseviewoptions/defaultfontname) { get; set; } | Default font to be used when particular font used in document can't be found. |
-| [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | The email messages view options. |
-| [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | Mail storage data files view options. |
-| [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | The MS Outlook data files view options. |
-| [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | The PDF documents view options. |
-| [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | The presentation processing documents view options. |
-| [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | The project management files view options. |
-| [RenderComments](../../groupdocs.viewer.options/baseviewoptions/rendercomments) { get; set; } | Enables rendering comments. |
-| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Enables rendering of hidden pages. |
-| [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | Enables rendering notes. |
-| [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | The spreadsheet files view options. |
-| [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | Text files splitting to pages options. |
-| [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | The Visio files processing documents view options. |
-| [Watermark](../../groupdocs.viewer.options/viewoptions/watermark) { get; set; } | The text watermark applied to each page. |
-| [WebDocumentOptions](../../groupdocs.viewer.options/baseviewoptions/webdocumentoptions) { get; set; } | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Web documents. |
-| [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | This rendering options enables you to customize the appearance of the output HTML/PDF/PNG/JPEG when rendering Word documents. |
-
+| :- | :- |
+|render_comments|Enables rendering comments.|
+|render_notes|Enables rendering notes.|
+|render_hidden_pages|Enables rendering of hidden pages.|
+|default_font_name|Sets the default font for a document.|
+|archive_options|The archive files view options.|
+|cad_options|The CAD drawing view options.|
+|email_options|The email messages view options.|
+|outlook_options|The Microsoft Outlook data files view options.|
+|mail_storage_options|Mail storage data files view options.|
+|pdf_options|The PDF document view options.|
+|project_management_options|The project management files view options.|
+|spreadsheet_options|The spreadsheet files view options.|
+|word_processing_options|The Word processing files view options.|
+|visio_rendering_options|The Visio files view options.|
+|text_options|Text files view options.|
+|presentation_options|The presentation files view options.|
+|web_document_options|The Web files view options.|
+|watermark|The text watermark to be applied to each page.|
 ## Methods
-
 | Name | Description |
-| --- | --- |
-| [RotatePage](../../groupdocs.viewer.options/viewoptions/rotatepage)(int, Rotation) | Applies clockwise rotation to the page. |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| readonly [PageRotations](../../groupdocs.viewer.options/viewoptions/pagerotations) | The page rotations. |
+| :- | :- |
+|rotate_page(page_number, rotation)|Applies the clockwise rotation to a page.|
 
 ### See Also
 
-* class [BaseViewOptions](../baseviewoptions)
-* namespace [GroupDocs.Viewer.Options](../../groupdocs.viewer.options)
-* assembly [GroupDocs.Viewer](../../)
+* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* assembly [GroupDocs.Viewer](/viewer/python-net/)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.viewer.dll -->

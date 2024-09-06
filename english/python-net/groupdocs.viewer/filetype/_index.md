@@ -1,253 +1,235 @@
 ---
 title: FileType
 second_title: GroupDocs.Viewer for Python via .NET API Reference
-description: Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Viewer.
+description: 
 type: docs
 weight: 10
-url: /python-net/groupdocs.viewer/filetype/
+url: /viewer/python-net/groupdocs.viewer/filetype/
 ---
+
 ## FileType class
 
-Represents file type. Provides methods to obtain list of all file types supported by **GroupDocs.Viewer**.
+Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Viewer.
 
-```csharp
-public sealed class FileType : IEquatable<FileType>
-```
-
+The FileType type exposes the following members:
 ## Constructors
-
 | Name | Description |
-| --- | --- |
-| [FileType](filetype#constructor)() | Initializes new instance of [`FileType`](../filetype) class. |
-| [FileType](filetype#constructor_1)(string, string) | Initializes new instance of [`FileType`](../filetype) class. |
-
+| :- | :- |
+|FileType()|Initializes new instance of [FileType](/viewer/python-net/groupdocs.viewer/filetype/) class.|
+|FileType(file_format, extension)|Initializes a new instance of the FileType class|
 ## Properties
-
 | Name | Description |
-| --- | --- |
-| [Extension](../../groupdocs.viewer/filetype/extension) { get; set; } | Filename suffix (including the period ".") e.g. ".doc". |
-| [FileFormat](../../groupdocs.viewer/filetype/fileformat) { get; set; } | File type name e.g. "Microsoft Word Document". |
-
+| :- | :- |
+|file_format|File type name e.g. "Microsoft Word Document".|
+|extension|Filename suffix (including the period ".") e.g. ".doc".|
+|UNKNOWN|Represents unknown file type.|
+|ZIP|Zipped File (.zip) represents archives that can hold one or more files or directories. <br/>            Learn more about this file format|
+|TAR|Consolidated Unix File Archive (.tar) are archives created with Unix-based utility for collecting one or more files. <br/>            Learn more about this file format|
+|XZ|XZ file (.xz) is archive compressed a high-ratio compression algorithm based on the LZMA algorithm. <br/>            Learn more about this file format|
+|TXZ|Consolidated Unix File Archive (.txz, .tar.xz) are archives created with Unix-based utility for collecting one or more files. <br/>            Learn more about this file format|
+|TARXZ|Consolidated Unix File Archive (.txz, .tar.xz) are archives created with Unix-based utility for collecting one or more files. <br/>            Learn more about this file format|
+|TGZ|Consolidated Unix File Archive (.tgz, .tar.gz) are archives created with Unix-based utility for collecting one or more files. <br/>            Learn more about this file format|
+|TARGZ|Consolidated Unix File Archive (.tgz, .tar.gz) are archives created with Unix-based utility for collecting one or more files. <br/>            Learn more about this file format|
+|BZ2|Bzip2 Compressed File (.bz2) are compressed files generated using the BZIP2 open source compression method, mostly on UNIX or Linux system. <br/>            Learn more about this file format|
+|RAR|Roshal ARchive (.rar) are compressed files generated using the RAR (WINRAR) compression method. <br/>            Learn more about this file format|
+|GZ|Gnu Zipped File (.gz) are compressed files created with gzip compression application. It can contain multiple compressed files and is commonly used on UNIX and Linux systems.<br/>            Learn more about this file format|
+|GZIP|Gnu Zipped File (.gzip) was introduced as a free utility for replacing the Compress program used in Unix systems. Such files can be opened and extracted with a several applications such as WinZip which is available on both Windows and MacOS. <br/>            Learn more about this file format|
+|SEVEN_ZIP|7Zip (.7z, .7zip) is free open source archiver with LZMA and LZMA2 compression.<br/>            Learn more about this file format|
+|CPIO|Cpio is a general file archiver utility and its associated file format. It is primarily installed on Unix-like computer operating systems.<br/>            Learn more about this file format|
+|DXF|Drawing Exchange Format File (.dxf) is a tagged data representation of AutoCAD drawing file.<br/>            Learn more about this file format|
+|DWG|AutoCAD Drawing Database File (.dwg) represents proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represent the binary file format for CAD (Computer Aided Design) drawings. <br/>            Learn more about this file format|
+|DWT|AutoCAD Drawing Template (.dwt) is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files.<br/>            Learn more about this file format|
+|STL|Stereolithography File (.stl) is an interchangeable file format that represents 3-dimensional surface geometry. The file format finds its usage in several fields such as rapid prototyping, 3D printing and computer-aided manufacturing.<br/>            Learn more about this file format|
+|IFC|Industry Foundation Classes File (.ifc) is a file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. <br/>            Learn more about this file format|
+|DWF|Design Web Format File (.dwf) represents 2D/3D drawing in compressed format for viewing, reviewing or printing design files. It contains graphics and text as part of design data and reduce the size of the file due to its compressed format.<br/>            Learn more about this file format|
+|FBX|Autodesk FBX Interchange File (FilmBoX) (.fbx) represents 3D model format.<br/>            Learn more about this file format|
+|DWFX|Design Web Format File XPS (.dwfx) represents 2D/3D drawing as XPS document in compressed format for viewing, reviewing or printing design files. It contains graphics and text as part of design data and reduce the size of the file due to its compressed format.<br/>            Learn more about this file format|
+|DGN|MicroStation Design File (.dgn) are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System.<br/>            Learn more about this file format|
+|PLT|PLT (HPGL) (.plt) is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. <br/>            Learn more about this file format|
+|CF2|Common File Format File<br/>            Learn more about this file format|
+|OBJ|Wavefront 3D Object File (.obj) is 3D image file introduced by Wavefront Technologies<br/>            Learn more about this file format|
+|HPG|PLT (HPGL) (.hpg)|
+|IGS|Initial Graphics Exchange Specification (IGES) (.igs)|
+|VSD|Visio Drawing File (.vsd) are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these.<br/>            Learn more about this file format|
+|VSDX|Visio Drawing (.vsdx) represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio.<br/>            Learn more about this file format|
+|VSS|Visio Stencil File(.vss) are stencil files created with Microsoft Visio 2007 and earlier. Stencil files provide drawing objects that can be included in a .VSD Visio drawing.<br/>            Learn more about this file format|
+|VSSX|Visio Stencil File (.vssx) are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, <br/>            Learn more about this file format|
+|VSDM|Visio Macro-Enabled Drawing (.vsdm) are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX, but also provide the capability to run macros when the file is opened. <br/>            Learn more about this file format|
+|VST|Visio Drawing Template (.vst) are vector image files created with Microsoft Visio and act as template for creating further files. These template files are in binary file format and contain the default layout and settings that are utilized for creation of new Visio drawings.<br/>            Learn more about this file format|
+|VSTX|Visio Drawing Template (.vstx) are drawing template files created with Microsoft Visio 2013 and above. These VSTX files provide starting point for creating Visio drawings, saved as .VSDX files, with default layout and settings. <br/>            Learn more about this file format|
+|VSTM|Visio Macro-Enabled Drawing Template (.vstm) are template files created with Microsoft Visio that support macros. Unlike VSDX files, files created from VSTM templates can run macros that are developed in Visual Basic for Applications (VBA)  code. <br/>            Learn more about this file format|
+|VSSM|Visio Macro-Enabled Stencil File (.vssm) are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows to run the macros to achieve desired formatting and placement of shapes in a diagram.<br/>            Learn more about this file format|
+|VSX|Visio Stencil XML File (.vsx) refers to stencils that consist of drawings and shapes that are used for creating diagrams in Microsoft Visio. VSX files are saved in XML file format and was supported till Visio 2013.<br/>            Learn more about this file format|
+|VTX|Visio Template XML File (.vtx) is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings.<br/>            Learn more about this file format|
+|VDW|Visio Web Drawing (.vdw) represents file format that specifies the streams and storages required for rendering a Web drawing. <br/>            Learn more about this file format|
+|VDX|Visio Drawing XML File (.vdx) represents any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft.<br/>            Learn more about this file format|
+|EPUB|Open eBook File (.epub) is an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications.<br/>            Learn more about this file format|
+|MOBI|Mobipocket eBook (.mobi) is one of the most widely used ebook file format. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as proprietary format for Mobipocket Reader.<br/>            Learn more about this file format|
+|AZW3|Amazon Kindle Format 8 (KF8) ebook is the digital file format developed for Amazon Kindle devices. The format is an enhancement to older AZW files and is used on Kindle Fire devices only with backward compatibility for the ancestor file format i.e. MOBI and AZW.<br/>            Learn more about this file format|
+|MSG|Outlook Mail Message (.msg) is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks.<br/>            Learn more about this file format|
+|EML|E-Mail Message (.eml) represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard. <br/>            Learn more about this file format|
+|NSF|Lotus Notes Database (.nsf)<br/>            Learn more about this file format|
+|MBOX|Email Mailbox File (.mbox)<br/>            Learn more about this file format|
+|EMLX|Apple Mail Message (.emlx) is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails.<br/>            Learn more about this file format|
+|PST|Outlook Personal Information Store File (.pst) represents Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information.<br/>            Learn more about this file format|
+|OST|Outlook Offline Data File (.ost) represents user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. <br/>            Learn more about this file format|
+|TIF|Tagged Image File (.tif) represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. <br/>            Learn more about this file format|
+|TIFF|Tagged Image File Format (.tiff) represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. <br/>            Learn more about this file format|
+|JPG|JPEG Image (.jpg) is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality.<br/>            Learn more about this file format|
+|JPEG|JPEG Image (.jpeg) is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality.<br/>            Learn more about this file format|
+|PNG|Portable Network Graphic (.png) is a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations.<br/>            Learn more about this file format|
+|GIF|Graphical Interchange Format File (.gif) is a type of highly compressed image. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. <br/>            Learn more about this file format|
+|APNG|Animated Portable Network Graphic (.apng) is extension of  PNG format that support animation.<br/>            Learn more about this file format|
+|BMP|Bitmap Image File (.bmp) is used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format.<br/>            Learn more about this file format|
+|TGA|Truevision TGA (Truevision Advanced Raster Adapter - TARGA) is used to store bitmap digital images developed by TRUEVISION.<br/>            Learn more about this file format|
+|ICO|Icon File (.ico) are image file types used as icon for representation of an application on Microsoft Windows.<br/>            Learn more about this file format|
+|JP2|JPEG 2000 Core Image File (.jp2) is an image coding system and state-of-the-art image compression standard. <br/>            Learn more about this file format|
+|JPF|JPEG 2000 Image File (.jpf)|
+|JPX|JPEG 2000 Image File (.jpx)|
+|JPM|JPEG 2000 Image File (.jpm)|
+|J2C|JPEG 2000 Code Stream (.j2c)|
+|J2K|JPEG 2000 Code Stream (.j2k) is an image that is compressed using the wavelet compression instead of DCT compression.<br/>            Learn more about this file format|
+|JPC|JPEG 2000 Code Stream (.jpc)|
+|JLS|JPEG-LS (JLS) (.jls)|
+|DIB|Device Independent Bitmap File (.dib)|
+|WMF|Windows Metafile (.wmf) represents Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data.<br/>            Learn more about this file format|
+|WMZ|Compressed Windows Metafile (.wmz) represents Microsoft Windows Metafile (WMF) compressed in GZIP archvive - for storing vector as well as bitmap-format images data.<br/>            Learn more about this file format|
+|EMF|Enhanced Windows Metafile (.emf) represents graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device.<br/>            Learn more about this file format|
+|EMZ|Enhanced Windows Metafile compressed (.emz) represents graphical images device-independently compressed by GZIP. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device.<br/>            Learn more about this file format|
+|WEBP|WebP Image (.webp) is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. <br/>            Learn more about this file format|
+|DNG|Digital Negative Specification (.dng) is a digital camera image format used for the storage of raw files. It has been developed by Adobe in September 2004. It was basically developed for digital photography. <br/>            Learn more about this file format|
+|CDR|CorelDraw Vector Graphic Drawing (.cdr) is a vector drawing image file that is natively created with CorelDRAW for storing digital image encoded and compressed. Such a drawing file contains text, lines, shapes, images, colours and effects for vector representation of image contents. <br/>            Learn more about this file format|
+|CMX|Corel Exchange (.cmx) is a drawing image file that may contain vector graphics as well as bitmap graphics. <br/>            Learn more about this file format|
+|DJVU|DjVu Image (.djvu) is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs.<br/>            Learn more about this file format|
+|CGM|Computer Graphics Metafile (.cgm) is a free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. <br/>            Learn more about this file format|
+|PCL|Printer Command Language Document (.pcl)|
+|PSD|Adobe Photoshop Document (.psd) represents Adobe Photoshop's native file format used for graphics designing and development. <br/>            Learn more about this file format|
+|PSB|Photoshop Large Document Format (.psb) represents Photoshop Large Document Format used for graphics designing and development. <br/>            Learn more about this file format|
+|DCM|DICOM Image (.dcm) represents digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. <br/>            Learn more about this file format|
+|PS|PostScript File (.ps)|
+|EPS|Encapsulated PostScript File (.eps) describes an Encapsulated PostScript language program that describes the appearance of a single page. <br/>            Learn more about this file format|
+|ODG|OpenDocument Graphic File (.odg) is used by Apache OpenOffice's Draw application to store drawing elements as a vector image.<br/>            Learn more about this file format|
+|FODG|Flat XML ODF Template (.fodg) is used by Apache OpenOffice's Draw application to store drawing elements as a vector image.<br/>            Learn more about this file format|
+|SVG|Scalable Vector Graphics File (.svg) is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. <br/>            Learn more about this file format|
+|SVGZ|Scalable Vector Graphics File (.svgz) is a Scalar Vector Graphics file that uses XML based text format, compressed by GZIP for describing the appearance of an image. <br/>            Learn more about this file format|
+|OTG|OpenDocument Graphic Template (.otg)|
+|HTM|Hypertext Markup Language File (.htm) is the extension for web pages created for display in browsers. <br/>            Learn more about this file format|
+|HTML|Hypertext Markup Language File (.html) is the extension for web pages created for display in browsers. <br/>            Learn more about this file format|
+|MHT|MHTML Web Archive (.mht)|
+|MHTML|MIME HTML File (.mhtml)|
+|XML|XML File (.xml)|
+|ONE|OneNote Document (.one) is created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes.<br/>            Learn more about this file format|
+|PDF|Portable Document Format File (.pdf) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. <br/>            Learn more about this file format|
+|XPS|XML Paper Specification File (.xps) represents page layout files that are based on XML Paper Specifications created by Microsoft. This format was developed by Microsoft as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document.<br/>            Learn more about this file format|
+|OXPS|OpenXPS File (.oxps)|
+|TEX|LaTeX Source Document (.tex) is a language that comprises of programming as well as mark-up features, used to typeset documents. <br/>            Learn more about this file format|
+|PPT|PowerPoint Presentation (.ppt) represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003.<br/>            Learn more about this file format|
+|PPTX|PowerPoint Open XML Presentation (.pptx) are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. <br/>            Learn more about this file format|
+|PPS|PowerPoint Slide Show (.pps) are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003.<br/>            Learn more about this file format|
+|PPSX|PowerPoint Open XML Slide Show (.ppsx) files are created using Microsoft PowerPoint 2007 and above for Slide Show purpose.<br/>            Learn more about this file format|
+|ODP|OpenDocument Presentation (.odp) represents presentation file format used by OpenOffice.org in the OASISOpen standard.<br/>            Learn more about this file format|
+|FODP|OpenDocument Presentation (.fodp) represents OpenDocument Flat XML Presentation.<br/>            Learn more about this file format|
+|POT|PowerPoint Template (.pot) represents Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. <br/>            Learn more about this file format|
+|PPTM|PowerPoint Open XML Macro-Enabled Presentation are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions.<br/>            Learn more about this file format|
+|POTX|PowerPoint Open XML Presentation Template (.potx) represents Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above.<br/>            Learn more about this file format|
+|POTM|PowerPoint Open XML Macro-Enabled Presentation Template (.potm) are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files.<br/>            Learn more about this file format|
+|PPSM|PowerPoint Open XML Macro-Enabled Slide (.ppsm) represents Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher.<br/>            Learn more about this file format|
+|OTP|OpenDocument Presentation Template (.otp) represents presentation template files created by applications in OASIS OpenDocument standard format.<br/>            Learn more about this file format|
+|XLS|Excel Spreadsheet (.xls) represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. <br/>            Learn more about this file format|
+|EXCEL_2003XML|Excel 2003 XML (SpreadsheetML) represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. <br/>            Learn more about this file format|
+|NUMBERS|Apple numbers represents Excel like Binary File Format. Such files can be created by Apple numbers application. <br/>            Learn more about this file format|
+|XLSX|Microsoft Excel Open XML Spreadsheet (.xlsx) is a well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. <br/>            Learn more about this file format|
+|XLSM|Excel Open XML Macro-Enabled Spreadsheet (.xlsm) is a type of Spreasheet files that support macros.<br/>            Learn more about this file format|
+|XLSB|Excel Binary Spreadsheet (.xlsb) specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. <br/>            Learn more about this file format|
+|CSV|Comma Separated Values File (.csv) represents plain text files that contain records of data with comma separated values.<br/>            Learn more about this file format|
+|TSV|Tab Separated Values File (.tsv) represents data separated with tabs in plain text format. <br/>            Learn more about this file format|
+|ODS|OpenDocument Spreadsheet (.ods) stands for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns.<br/>            Learn more about this file format|
+|FODS|OpenDocument Flat XML Spreadsheet (.fods)|
+|OTS|OpenDocument Spreadsheet Template (.ots)|
+|XLAM|Microsoft Excel Add-in (.xlam)|
+|XLTM|Microsoft Excel Macro-Enabled Template (.xltm) represents files that are generated by Microsoft Excel as Macro-enabled template files. XLTM files are similar to XLTX in structure other than that the later doesn't support creating template files with macros. <br/>            Learn more about this file format|
+|XLT|Microsoft Excel Template (.xlt) are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite.  Microsoft Office 97-2003 supported creating new XLT files as well as opening these. <br/>            Learn more about this file format|
+|XLTX|Excel Open XML Spreadsheet Template	(.xltx) represents Microsoft Excel Template that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file.<br/>            Learn more about this file format|
+|SXC|StarOffice Calc Spreadsheet (.sxc)|
+|MPP|Microsoft Project File (.mpp) is Microsoft Project data file that stores information related to project management in an integrated manner.<br/>            Learn more about this file format|
+|MPT|Microsoft Project Template (.mpt) contains basic information and structure along with document settings for creating .MPP files.<br/>            Learn more about this file format|
+|MPX|Microsoft Project Exchange file (.mpx) is an ASCII file format for transferring of project information between Microsoft Project (MSP) and other applications that support the MPX file format such as Primavera Project Planner, Sciforma and Timerline Precision Estimating.<br/>            Learn more about this file format|
+|AS|ActionScript File (.as)|
+|AS3|ActionScript File (.as)|
+|ASM|Assembly Language Source Code File (.asm)|
+|BAT|DOS Batch File (.bat)|
+|C|C/C++ Source Code File (.c)|
+|CC|C++ Source Code File (.cc)|
+|CMAKE|CMake File (.cmake)|
+|CPP|C++ Source Code File (.cpp)|
+|CS|C# Source Code File (.cs) is a source code file for C# programming language. Introduced by Microsoft for use with the .NET Framework.<br/>            Learn more about this file format|
+|VB|Visual Basic Project Item File (.vb) is a source code file created in Visual Basic language that was created by Microsoft for development of .NET applications.<br/>            Learn more about this file format|
+|CSS|Cascading Style Sheet (.css)|
+|CXX|C++ Source Code File (.cxx)|
+|DIFF|Patch File (.diff)|
+|ERB|Ruby ERB Script (.erb)|
+|GROOVY|Groovy Source Code File (.groovy)|
+|H|C/C++/Objective-C Header File (.h)|
+|HAML|Haml Source Code File (.haml)|
+|HH|C++ Header File (.hh)|
+|JAVA|Java Source Code File (.java)|
+|JS|JavaScript File (.js)|
+|JSON|JavaScript Object Notation File (.json)|
+|LESS|LESS Style Sheet (.less)|
+|LOG|Log File (.log)|
+|M|Objective-C Implementation File (.m)|
+|MAKE|Xcode Makefile Script (.make)|
+|MD|Markdown Documentation File (.md)|
+|ML|ML Source Code File (.ml)|
+|MM|Objective-C++ Source File (.mm)|
+|PHP|PHP Source Code File (.php)|
+|PL|Perl Script (.pl)|
+|PROPERTIES|Java Properties File (.properties)|
+|PY|Python Script (.py)|
+|RB|Ruby Source Code (.rb)|
+|RST|reStructuredText File (.rst)|
+|SASS|Syntactically Awesome StyleSheets File (.sass)|
+|SCALA|Scala Source Code File (.scala)|
+|SCM|Scheme Source Code File (.scm)|
+|SCRIPT|Generic Script File (.script)|
+|SH|Bash Shell Script (.sh)|
+|SML|Standard ML Source Code File (.sml)|
+|SQL|Structured Query Language Data File (.sql)|
+|VIM|Vim Settings File (.vim)|
+|YAML|YAML Document (.yaml)|
+|DOC|Microsoft Word Document (.doc) represents documents generated by Microsoft Word or other word processing documents in binary file format.<br/>            Learn more about this file format|
+|DOCX|Microsoft Word Open XML Document (.docx) is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. <br/>            Learn more about this file format|
+|CHM|Microsoft Compiled HTML Help File (.chm) is a well-known format for HELP (documentation to some application) documents.<br/>            Learn more about this file format|
+|DOCM|Word Open XML Macro-Enabled Document (.docm) is a Microsoft Word 2007 or higher generated documents with the ability to run macros.<br/>            Learn more about this file format|
+|DOT|Word Document Template (.dot) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. <br/>            Learn more about this file format|
+|DOTX|Word Open XML Document Template (.dotx) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOCX files. <br/>            Learn more about this file format|
+|DOTM|Word Open XML Macro-Enabled Document Template (.dotm) represents template file created with Microsoft Word 2007 or higher.<br/>            Learn more about this file format|
+|RTF|Rich Text Format File (.rtf) represents a method of encoding formatted text and graphics for use within applications. <br/>            Learn more about this file format|
+|TXT|Plain Text File (.txt) represents a text document that contains plain text in the form of lines. <br/>            Learn more about this file format|
+|ODT|OpenDocument Text Document (.odt) are type of documents created with word processing applications that are based on OpenDocument Text File format. <br/>            Learn more about this file format|
+|OTT|OpenDocument Document Template (.ott) represents template documents generated by applications in compliance with the OASIS' OpenDocument standard format. <br/>            Learn more about this file format|
+|VCF|vCard File (.vcf) is a digital file format for storing contact information. The format is widely used for data interchange among popular information exchange applications.<br/>            Learn more about this file format|
+|AI|Adobe Illustrator (.ai) is a file format for Adobe Illustrator drawings.<br/>            Learn more about this file format|
+|PSM1|PowerShell script module (.psm1) a file format for PowerShell module scripts.<br/>            Learn more about this file format|
+|PS1|PowerShell script file (.ps1) a file format for Windows PowerShell Cmdlet files.<br/>            Learn more about this file format|
+|PSD1|PowerShell script module manifest (.psd1) a file format for PowerShell module manifest scripts.<br/>            Learn more about this file format|
 ## Methods
-
 | Name | Description |
-| --- | --- |
-| static [FromExtension](../../groupdocs.viewer/filetype/fromextension)(string) | Maps file extension to file type. |
-| static [FromFilePath](../../groupdocs.viewer/filetype/fromfilepath)(string) | Extracts file extension and maps it to file type. |
-| static [FromMediaType](../../groupdocs.viewer/filetype/frommediatype)(string) | Maps file media type to file type e.g. 'application/pdf' will be mapped to [`PDF`](./pdf). |
-| static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream)(Stream) | Detects file type by reading the file signature. |
-| static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_1)(Stream, ILogger) | Detects file type by reading the file signature. |
-| static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_2)(Stream, string) | Detects file type by reading the file signature. |
-| static [FromStream](../../groupdocs.viewer/filetype/fromstream#fromstream_3)(Stream, string, ILogger) | Detects file type by reading the file signature. |
-| [Equals](../../groupdocs.viewer/filetype/equals#equals)(FileType) | Determines whether the current [`FileType`](../filetype) is the same as specified [`FileType`](../filetype) object. |
-| override [Equals](../../groupdocs.viewer/filetype/equals#equals_1)(object) | Determines whether the current [`FileType`](../filetype) is the same as specified object. |
-| override [GetHashCode](../../groupdocs.viewer/filetype/gethashcode)() | Returns the hash code for the current [`FileType`](../filetype) object. |
-| override [ToString](../../groupdocs.viewer/filetype/tostring)() | Returns a string that represents the current object. |
-| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding)(Stream) | Attempts to detect text [`TXT`](./txt), [`TSV`](./tsv), and [`CSV`](./csv) file encoding by stream. |
-| static [DetectEncoding](../../groupdocs.viewer/filetype/detectencoding#detectencoding_1)(string) | Attempts to detect text [`TXT`](./txt), [`TSV`](./tsv), and [`CSV`](./csv) files encoding by path. |
-| static [GetSupportedFileTypes](../../groupdocs.viewer/filetype/getsupportedfiletypes)() | Retrieves supported file types |
-| [operator ==](../../groupdocs.viewer/filetype/op_equality) | Determines whether two [`FileType`](../filetype) objects are the same. |
-| [operator !=](../../groupdocs.viewer/filetype/op_inequality) | Determines whether two [`FileType`](../filetype) objects are not the same. |
-
-## Fields
-
-| Name | Description |
-| --- | --- |
-| static readonly [AI](../../groupdocs.viewer/filetype/ai) | Adobe Illustrator (.ai) is a file format for Adobe Illustrator drawings. Learn more about this file format [here](https://fileinfo.com/extension/ai#adobe_illustrator_file). |
-| static readonly [APNG](../../groupdocs.viewer/filetype/apng) | Animated Portable Network Graphic (.apng) is extension of PNG format that support animation. Learn more about this file format [here](https://wiki.fileformat.com/image/apng). |
-| static readonly [AS](../../groupdocs.viewer/filetype/as) | ActionScript File (.as) |
-| static readonly [AS3](../../groupdocs.viewer/filetype/as3) | ActionScript File (.as) |
-| static readonly [ASM](../../groupdocs.viewer/filetype/asm) | Assembly Language Source Code File (.asm) |
-| static readonly [AZW3](../../groupdocs.viewer/filetype/azw3) | Amazon Kindle Format 8 (KF8) ebook is the digital file format developed for Amazon Kindle devices. The format is an enhancement to older AZW files and is used on Kindle Fire devices only with backward compatibility for the ancestor file format i.e. MOBI and AZW. Learn more about this file format [here](https://wiki.fileformat.com/ebook/azw3). |
-| static readonly [BAT](../../groupdocs.viewer/filetype/bat) | DOS Batch File (.bat) |
-| static readonly [BMP](../../groupdocs.viewer/filetype/bmp) | Bitmap Image File (.bmp) is used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. Learn more about this file format [here](https://wiki.fileformat.com/image/bmp). |
-| static readonly [BZ2](../../groupdocs.viewer/filetype/bz2) | Bzip2 Compressed File (.bz2) are compressed files generated using the BZIP2 open source compression method, mostly on UNIX or Linux system. Learn more about this file format [here](https://wiki.fileformat.com/compression/bz2). |
-| static readonly [C](../../groupdocs.viewer/filetype/c) | C/C++ Source Code File (.c) |
-| static readonly [CC](../../groupdocs.viewer/filetype/cc) | C++ Source Code File (.cc) |
-| static readonly [CDR](../../groupdocs.viewer/filetype/cdr) | CorelDraw Vector Graphic Drawing (.cdr) is a vector drawing image file that is natively created with CorelDRAW for storing digital image encoded and compressed. Such a drawing file contains text, lines, shapes, images, colours and effects for vector representation of image contents. Learn more about this file format [here](https://wiki.fileformat.com/image/cdr). |
-| static readonly [CF2](../../groupdocs.viewer/filetype/cf2) | Common File Format File Learn more about this file format [here](https://fileinfo.com/extension/cf2). |
-| static readonly [CGM](../../groupdocs.viewer/filetype/cgm) | Computer Graphics Metafile (.cgm) is a free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/cgm). |
-| static readonly [CHM](../../groupdocs.viewer/filetype/chm) | Microsoft Compiled HTML Help File (.chm) is a well-known format for HELP (documentation to some application) documents. Learn more about this file format [here](https://docs.fileformat.com/web/chm/). |
-| static readonly [CMAKE](../../groupdocs.viewer/filetype/cmake) | CMake File (.cmake) |
-| static readonly [CMX](../../groupdocs.viewer/filetype/cmx) | Corel Exchange (.cmx) is a drawing image file that may contain vector graphics as well as bitmap graphics. Learn more about this file format [here](https://wiki.fileformat.com/image/cmx). |
-| static readonly [CPIO](../../groupdocs.viewer/filetype/cpio) | Cpio is a general file archiver utility and its associated file format. It is primarily installed on Unix-like computer operating systems. Learn more about this file format [here](https://wiki.fileformat.com/compression/cpio). |
-| static readonly [CPP](../../groupdocs.viewer/filetype/cpp) | C++ Source Code File (.cpp) |
-| static readonly [CS](../../groupdocs.viewer/filetype/cs) | C# Source Code File (.cs) is a source code file for C# programming language. Introduced by Microsoft for use with the .NET Framework. Learn more about this file format [here](https://wiki.fileformat.com/programming/cs). |
-| static readonly [CSS](../../groupdocs.viewer/filetype/css) | Cascading Style Sheet (.css) |
-| static readonly [CSV](../../groupdocs.viewer/filetype/csv) | Comma Separated Values File (.csv) represents plain text files that contain records of data with comma separated values. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/csv). |
-| static readonly [CXX](../../groupdocs.viewer/filetype/cxx) | C++ Source Code File (.cxx) |
-| static readonly [DCM](../../groupdocs.viewer/filetype/dcm) | DICOM Image (.dcm) represents digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. Learn more about this file format [here](https://wiki.fileformat.com/image/dcm). |
-| static readonly [DGN](../../groupdocs.viewer/filetype/dgn) | MicroStation Design File (.dgn) are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System. Learn more about this file format [here](https://wiki.fileformat.com/cad/dgn). |
-| static readonly [DIB](../../groupdocs.viewer/filetype/dib) | Device Independent Bitmap File (.dib) |
-| static readonly [DIFF](../../groupdocs.viewer/filetype/diff) | Patch File (.diff) |
-| static readonly [DJVU](../../groupdocs.viewer/filetype/djvu) | DjVu Image (.djvu) is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. Learn more about this file format [here](https://wiki.fileformat.com/image/djvu). |
-| static readonly [DNG](../../groupdocs.viewer/filetype/dng) | Digital Negative Specification (.dng) is a digital camera image format used for the storage of raw files. It has been developed by Adobe in September 2004. It was basically developed for digital photography. Learn more about this file format [here](https://wiki.fileformat.com/image/dng). |
-| static readonly [DOC](../../groupdocs.viewer/filetype/doc) | Microsoft Word Document (.doc) represents documents generated by Microsoft Word or other word processing documents in binary file format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/doc). |
-| static readonly [DOCM](../../groupdocs.viewer/filetype/docm) | Word Open XML Macro-Enabled Document (.docm) is a Microsoft Word 2007 or higher generated documents with the ability to run macros. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docm). |
-| static readonly [DOCX](../../groupdocs.viewer/filetype/docx) | Microsoft Word Open XML Document (.docx) is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/docx). |
-| static readonly [DOT](../../groupdocs.viewer/filetype/dot) | Word Document Template (.dot) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dot). |
-| static readonly [DOTM](../../groupdocs.viewer/filetype/dotm) | Word Open XML Macro-Enabled Document Template (.dotm) represents template file created with Microsoft Word 2007 or higher. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dotm). |
-| static readonly [DOTX](../../groupdocs.viewer/filetype/dotx) | Word Open XML Document Template (.dotx) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOCX files. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/dotx). |
-| static readonly [DWF](../../groupdocs.viewer/filetype/dwf) | Design Web Format File (.dwf) represents 2D/3D drawing in compressed format for viewing, reviewing or printing design files. It contains graphics and text as part of design data and reduce the size of the file due to its compressed format. Learn more about this file format [here](https://wiki.fileformat.com/cad/dwf). |
-| static readonly [DWFX](../../groupdocs.viewer/filetype/dwfx) | Design Web Format File XPS (.dwfx) represents 2D/3D drawing as XPS document in compressed format for viewing, reviewing or printing design files. It contains graphics and text as part of design data and reduce the size of the file due to its compressed format. Learn more about this file format [here](https://wiki.fileformat.com/cad/dwfx). |
-| static readonly [DWG](../../groupdocs.viewer/filetype/dwg) | AutoCAD Drawing Database File (.dwg) represents proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represent the binary file format for CAD (Computer Aided Design) drawings. Learn more about this file format [here](https://wiki.fileformat.com/cad/dwg). |
-| static readonly [DWT](../../groupdocs.viewer/filetype/dwt) | AutoCAD Drawing Template (.dwt) is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. Learn more about this file format [here](https://wiki.fileformat.com/cad/dwt). |
-| static readonly [DXF](../../groupdocs.viewer/filetype/dxf) | Drawing Exchange Format File (.dxf) is a tagged data representation of AutoCAD drawing file. Learn more about this file format [here](https://wiki.fileformat.com/cad/dxf). |
-| static readonly [EMF](../../groupdocs.viewer/filetype/emf) | Enhanced Windows Metafile (.emf) represents graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. Learn more about this file format [here](https://wiki.fileformat.com/image/emf). |
-| static readonly [EML](../../groupdocs.viewer/filetype/eml) | E-Mail Message (.eml) represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard. Learn more about this file format [here](https://wiki.fileformat.com/email/eml). |
-| static readonly [EMLX](../../groupdocs.viewer/filetype/emlx) | Apple Mail Message (.emlx) is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. Learn more about this file format [here](https://wiki.fileformat.com/email/emlx). |
-| static readonly [EMZ](../../groupdocs.viewer/filetype/emz) | Enhanced Windows Metafile compressed (.emz) represents graphical images device-independently compressed by GZIP. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. Learn more about this file format [here](https://wiki.fileformat.com/image/emz). |
-| static readonly [EPS](../../groupdocs.viewer/filetype/eps) | Encapsulated PostScript File (.eps) describes an Encapsulated PostScript language program that describes the appearance of a single page. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/eps). |
-| static readonly [EPUB](../../groupdocs.viewer/filetype/epub) | Open eBook File (.epub) is an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. Learn more about this file format [here](https://wiki.fileformat.com/ebook/epub). |
-| static readonly [ERB](../../groupdocs.viewer/filetype/erb) | Ruby ERB Script (.erb) |
-| static readonly [Excel2003XML](../../groupdocs.viewer/filetype/excel2003xml) | Excel 2003 XML (SpreadsheetML) represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xls). |
-| static readonly [FBX](../../groupdocs.viewer/filetype/fbx) | Autodesk FBX Interchange File (FilmBoX) (.fbx) represents 3D model format. Learn more about this file format [here](https://wiki.fileformat.com/cad/fbx). |
-| static readonly [FODG](../../groupdocs.viewer/filetype/fodg) | Flat XML ODF Template (.fodg) is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. Learn more about this file format [here](https://wiki.fileformat.com/image/fodg). |
-| static readonly [FODP](../../groupdocs.viewer/filetype/fodp) | OpenDocument Presentation (.fodp) represents OpenDocument Flat XML Presentation. Learn more about this file format [here](https://fileinfo.com/extension/fodp). |
-| static readonly [FODS](../../groupdocs.viewer/filetype/fods) | OpenDocument Flat XML Spreadsheet (.fods) |
-| static readonly [GIF](../../groupdocs.viewer/filetype/gif) | Graphical Interchange Format File (.gif) is a type of highly compressed image. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. Learn more about this file format [here](https://wiki.fileformat.com/image/gif). |
-| static readonly [GROOVY](../../groupdocs.viewer/filetype/groovy) | Groovy Source Code File (.groovy) |
-| static readonly [GZ](../../groupdocs.viewer/filetype/gz) | Gnu Zipped File (.gz) are compressed files created with gzip compression application. It can contain multiple compressed files and is commonly used on UNIX and Linux systems. Learn more about this file format [here](https://wiki.fileformat.com/compression/gz). |
-| static readonly [GZIP](../../groupdocs.viewer/filetype/gzip) | Gnu Zipped File (.gzip) was introduced as a free utility for replacing the Compress program used in Unix systems. Such files can be opened and extracted with a several applications such as WinZip which is available on both Windows and MacOS. Learn more about this file format [here](https://wiki.fileformat.com/compression/gz). |
-| static readonly [H](../../groupdocs.viewer/filetype/h) | C/C++/Objective-C Header File (.h) |
-| static readonly [HAML](../../groupdocs.viewer/filetype/haml) | Haml Source Code File (.haml) |
-| static readonly [HH](../../groupdocs.viewer/filetype/hh) | C++ Header File (.hh) |
-| static readonly [HPG](../../groupdocs.viewer/filetype/hpg) | PLT (HPGL) (.hpg) |
-| static readonly [HTM](../../groupdocs.viewer/filetype/htm) | Hypertext Markup Language File (.htm) is the extension for web pages created for display in browsers. Learn more about this file format [here](https://wiki.fileformat.com/web/html). |
-| static readonly [HTML](../../groupdocs.viewer/filetype/html) | Hypertext Markup Language File (.html) is the extension for web pages created for display in browsers. Learn more about this file format [here](https://wiki.fileformat.com/web/html). |
-| static readonly [ICO](../../groupdocs.viewer/filetype/ico) | Icon File (.ico) are image file types used as icon for representation of an application on Microsoft Windows. Learn more about this file format [here](https://wiki.fileformat.com/image/ico). |
-| static readonly [IFC](../../groupdocs.viewer/filetype/ifc) | Industry Foundation Classes File (.ifc) is a file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. Learn more about this file format [here](https://wiki.fileformat.com/cad/ifc). |
-| static readonly [IGS](../../groupdocs.viewer/filetype/igs) | Initial Graphics Exchange Specification (IGES) (.igs) |
-| static readonly [J2C](../../groupdocs.viewer/filetype/j2c) | JPEG 2000 Code Stream (.j2c) |
-| static readonly [J2K](../../groupdocs.viewer/filetype/j2k) | JPEG 2000 Code Stream (.j2k) is an image that is compressed using the wavelet compression instead of DCT compression. Learn more about this file format [here](https://wiki.fileformat.com/image/j2k). |
-| static readonly [JAVA](../../groupdocs.viewer/filetype/java) | Java Source Code File (.java) |
-| static readonly [JLS](../../groupdocs.viewer/filetype/jls) | JPEG-LS (JLS) (.jls) |
-| static readonly [JP2](../../groupdocs.viewer/filetype/jp2) | JPEG 2000 Core Image File (.jp2) is an image coding system and state-of-the-art image compression standard. Learn more about this file format [here](https://wiki.fileformat.com/image/jp2). |
-| static readonly [JPC](../../groupdocs.viewer/filetype/jpc) | JPEG 2000 Code Stream (.jpc) |
-| static readonly [JPEG](../../groupdocs.viewer/filetype/jpeg) | JPEG Image (.jpeg) is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Learn more about this file format [here](https://wiki.fileformat.com/image/jpeg). |
-| static readonly [JPF](../../groupdocs.viewer/filetype/jpf) | JPEG 2000 Image File (.jpf) |
-| static readonly [JPG](../../groupdocs.viewer/filetype/jpg) | JPEG Image (.jpg) is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Learn more about this file format [here](https://wiki.fileformat.com/image/jpeg). |
-| static readonly [JPM](../../groupdocs.viewer/filetype/jpm) | JPEG 2000 Image File (.jpm) |
-| static readonly [JPX](../../groupdocs.viewer/filetype/jpx) | JPEG 2000 Image File (.jpx) |
-| static readonly [JS](../../groupdocs.viewer/filetype/js) | JavaScript File (.js) |
-| static readonly [JSON](../../groupdocs.viewer/filetype/json) | JavaScript Object Notation File (.json) |
-| static readonly [LESS](../../groupdocs.viewer/filetype/less) | LESS Style Sheet (.less) |
-| static readonly [LOG](../../groupdocs.viewer/filetype/log) | Log File (.log) |
-| static readonly [M](../../groupdocs.viewer/filetype/m) | Objective-C Implementation File (.m) |
-| static readonly [MAKE](../../groupdocs.viewer/filetype/make) | Xcode Makefile Script (.make) |
-| static readonly [MBOX](../../groupdocs.viewer/filetype/mbox) | Email Mailbox File (.mbox) Learn more about this file format [here](https://fileinfo.com/extension/mbox). |
-| static readonly [MD](../../groupdocs.viewer/filetype/md) | Markdown Documentation File (.md) |
-| static readonly [MHT](../../groupdocs.viewer/filetype/mht) | MHTML Web Archive (.mht) |
-| static readonly [MHTML](../../groupdocs.viewer/filetype/mhtml) | MIME HTML File (.mhtml) |
-| static readonly [ML](../../groupdocs.viewer/filetype/ml) | ML Source Code File (.ml) |
-| static readonly [MM](../../groupdocs.viewer/filetype/mm) | Objective-C++ Source File (.mm) |
-| static readonly [MOBI](../../groupdocs.viewer/filetype/mobi) | Mobipocket eBook (.mobi) is one of the most widely used ebook file format. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as proprietary format for Mobipocket Reader. Learn more about this file format [here](https://wiki.fileformat.com/ebook/mobi). |
-| static readonly [MPP](../../groupdocs.viewer/filetype/mpp) | Microsoft Project File (.mpp) is Microsoft Project data file that stores information related to project management in an integrated manner. Learn more about this file format [here](https://wiki.fileformat.com/project-management/mpp). |
-| static readonly [MPT](../../groupdocs.viewer/filetype/mpt) | Microsoft Project Template (.mpt) contains basic information and structure along with document settings for creating .MPP files. Learn more about this file format [here](https://wiki.fileformat.com/project-management/mpt). |
-| static readonly [MPX](../../groupdocs.viewer/filetype/mpx) | Microsoft Project Exchange file (.mpx) is an ASCII file format for transferring of project information between Microsoft Project (MSP) and other applications that support the MPX file format such as Primavera Project Planner, Sciforma and Timerline Precision Estimating. Learn more about this file format [here](https://wiki.fileformat.com/project-management/mpx). |
-| static readonly [MSG](../../groupdocs.viewer/filetype/msg) | Outlook Mail Message (.msg) is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Learn more about this file format [here](https://wiki.fileformat.com/email/msg). |
-| static readonly [NSF](../../groupdocs.viewer/filetype/nsf) | Lotus Notes Database (.nsf) Learn more about this file format [here](https://fileinfo.com/extension/nsf). |
-| static readonly [NUMBERS](../../groupdocs.viewer/filetype/numbers) | Apple numbers represents Excel like Binary File Format. Such files can be created by Apple numbers application. Learn more about this file format [here](https://fileinfo.com/extension/numbers). |
-| static readonly [OBJ](../../groupdocs.viewer/filetype/obj) | Wavefront 3D Object File (.obj) is 3D image file introduced by Wavefront Technologies Learn more about this file format [here](https://wiki.fileformat.com/3d/obj/). |
-| static readonly [ODG](../../groupdocs.viewer/filetype/odg) | OpenDocument Graphic File (.odg) is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. Learn more about this file format [here](https://wiki.fileformat.com/image/odg). |
-| static readonly [ODP](../../groupdocs.viewer/filetype/odp) | OpenDocument Presentation (.odp) represents presentation file format used by OpenOffice.org in the OASISOpen standard. Learn more about this file format [here](https://wiki.fileformat.com/presentation/odp). |
-| static readonly [ODS](../../groupdocs.viewer/filetype/ods) | OpenDocument Spreadsheet (.ods) stands for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/ods). |
-| static readonly [ODT](../../groupdocs.viewer/filetype/odt) | OpenDocument Text Document (.odt) are type of documents created with word processing applications that are based on OpenDocument Text File format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/odt). |
-| static readonly [ONE](../../groupdocs.viewer/filetype/one) | OneNote Document (.one) is created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. Learn more about this file format [here](https://wiki.fileformat.com/note-taking/one). |
-| static readonly [OST](../../groupdocs.viewer/filetype/ost) | Outlook Offline Data File (.ost) represents user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format [here](https://wiki.fileformat.com/email/ost). |
-| static readonly [OTG](../../groupdocs.viewer/filetype/otg) | OpenDocument Graphic Template (.otg) |
-| static readonly [OTP](../../groupdocs.viewer/filetype/otp) | OpenDocument Presentation Template (.otp) represents presentation template files created by applications in OASIS OpenDocument standard format. Learn more about this file format [here](https://wiki.fileformat.com/presentation/otp). |
-| static readonly [OTS](../../groupdocs.viewer/filetype/ots) | OpenDocument Spreadsheet Template (.ots) |
-| static readonly [OTT](../../groupdocs.viewer/filetype/ott) | OpenDocument Document Template (.ott) represents template documents generated by applications in compliance with the OASIS' OpenDocument standard format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/ott). |
-| static readonly [OXPS](../../groupdocs.viewer/filetype/oxps) | OpenXPS File (.oxps) |
-| static readonly [PCL](../../groupdocs.viewer/filetype/pcl) | Printer Command Language Document (.pcl) |
-| static readonly [PDF](../../groupdocs.viewer/filetype/pdf) | Portable Document Format File (.pdf) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format [here](https://wiki.fileformat.com/view/pdf). |
-| static readonly [PHP](../../groupdocs.viewer/filetype/php) | PHP Source Code File (.php) |
-| static readonly [PL](../../groupdocs.viewer/filetype/pl) | Perl Script (.pl) |
-| static readonly [PLT](../../groupdocs.viewer/filetype/plt) | PLT (HPGL) (.plt) is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. Learn more about this file format [here](https://wiki.fileformat.com/cad/plt). |
-| static readonly [PNG](../../groupdocs.viewer/filetype/png) | Portable Network Graphic (.png) is a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. Learn more about this file format [here](https://wiki.fileformat.com/image/png). |
-| static readonly [POT](../../groupdocs.viewer/filetype/pot) | PowerPoint Template (.pot) represents Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pot). |
-| static readonly [POTM](../../groupdocs.viewer/filetype/potm) | PowerPoint Open XML Macro-Enabled Presentation Template (.potm) are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. Learn more about this file format [here](https://wiki.fileformat.com/presentation/potm). |
-| static readonly [POTX](../../groupdocs.viewer/filetype/potx) | PowerPoint Open XML Presentation Template (.potx) represents Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. Learn more about this file format [here](https://wiki.fileformat.com/presentation/potx). |
-| static readonly [PPS](../../groupdocs.viewer/filetype/pps) | PowerPoint Slide Show (.pps) are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pps). |
-| static readonly [PPSM](../../groupdocs.viewer/filetype/ppsm) | PowerPoint Open XML Macro-Enabled Slide (.ppsm) represents Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsm). |
-| static readonly [PPSX](../../groupdocs.viewer/filetype/ppsx) | PowerPoint Open XML Slide Show (.ppsx) files are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppsx). |
-| static readonly [PPT](../../groupdocs.viewer/filetype/ppt) | PowerPoint Presentation (.ppt) represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. Learn more about this file format [here](https://wiki.fileformat.com/presentation/ppt). |
-| static readonly [PPTM](../../groupdocs.viewer/filetype/pptm) | PowerPoint Open XML Macro-Enabled Presentation are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pptm). |
-| static readonly [PPTX](../../groupdocs.viewer/filetype/pptx) | PowerPoint Open XML Presentation (.pptx) are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. Learn more about this file format [here](https://wiki.fileformat.com/presentation/pptx). |
-| static readonly [PROPERTIES](../../groupdocs.viewer/filetype/properties) | Java Properties File (.properties) |
-| static readonly [PS](../../groupdocs.viewer/filetype/ps) | PostScript File (.ps) |
-| static readonly [PS1](../../groupdocs.viewer/filetype/ps1) | PowerShell script file (.ps1) a file format for Windows PowerShell Cmdlet files. Learn more about this file format [here](https://fileinfo.com/extension/ps1). |
-| static readonly [PSB](../../groupdocs.viewer/filetype/psb) | Photoshop Large Document Format (.psb) represents Photoshop Large Document Format used for graphics designing and development. Learn more about this file format [here](https://wiki.fileformat.com/image/psb). |
-| static readonly [PSD](../../groupdocs.viewer/filetype/psd) | Adobe Photoshop Document (.psd) represents Adobe Photoshop's native file format used for graphics designing and development. Learn more about this file format [here](https://wiki.fileformat.com/image/psd). |
-| static readonly [PSD1](../../groupdocs.viewer/filetype/psd1) | PowerShell script module manifest (.psd1) a file format for PowerShell module manifest scripts. Learn more about this file format [here](https://fileinfo.com/extension/psd1). |
-| static readonly [PSM1](../../groupdocs.viewer/filetype/psm1) | PowerShell script module (.psm1) a file format for PowerShell module scripts. Learn more about this file format [here](https://fileinfo.com/extension/psm1). |
-| static readonly [PST](../../groupdocs.viewer/filetype/pst) | Outlook Personal Information Store File (.pst) represents Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format [here](https://wiki.fileformat.com/email/pst). |
-| static readonly [PY](../../groupdocs.viewer/filetype/py) | Python Script (.py) |
-| static readonly [RAR](../../groupdocs.viewer/filetype/rar) | Roshal ARchive (.rar) are compressed files generated using the RAR (WINRAR) compression method. Learn more about this file format [here](https://wiki.fileformat.com/compression/rar). |
-| static readonly [RB](../../groupdocs.viewer/filetype/rb) | Ruby Source Code (.rb) |
-| static readonly [RST](../../groupdocs.viewer/filetype/rst) | reStructuredText File (.rst) |
-| static readonly [RTF](../../groupdocs.viewer/filetype/rtf) | Rich Text Format File (.rtf) represents a method of encoding formatted text and graphics for use within applications. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/rtf). |
-| static readonly [SASS](../../groupdocs.viewer/filetype/sass) | Syntactically Awesome StyleSheets File (.sass) |
-| static readonly [SCALA](../../groupdocs.viewer/filetype/scala) | Scala Source Code File (.scala) |
-| static readonly [SCM](../../groupdocs.viewer/filetype/scm) | Scheme Source Code File (.scm) |
-| static readonly [SCRIPT](../../groupdocs.viewer/filetype/script) | Generic Script File (.script) |
-| static readonly [SevenZip](../../groupdocs.viewer/filetype/sevenzip) | 7Zip (.7z, .7zip) is free open source archiver with LZMA and LZMA2 compression. Learn more about this file format [here](https://docs.fileformat.com/compression/7z/). |
-| static readonly [SH](../../groupdocs.viewer/filetype/sh) | Bash Shell Script (.sh) |
-| static readonly [SML](../../groupdocs.viewer/filetype/sml) | Standard ML Source Code File (.sml) |
-| static readonly [SQL](../../groupdocs.viewer/filetype/sql) | Structured Query Language Data File (.sql) |
-| static readonly [STL](../../groupdocs.viewer/filetype/stl) | Stereolithography File (.stl) is an interchangeable file format that represents 3-dimensional surface geometry. The file format finds its usage in several fields such as rapid prototyping, 3D printing and computer-aided manufacturing. Learn more about this file format [here](https://wiki.fileformat.com/cad/stl). |
-| static readonly [SVG](../../groupdocs.viewer/filetype/svg) | Scalable Vector Graphics File (.svg) is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/svg). |
-| static readonly [SVGZ](../../groupdocs.viewer/filetype/svgz) | Scalable Vector Graphics File (.svgz) is a Scalar Vector Graphics file that uses XML based text format, compressed by GZIP for describing the appearance of an image. Learn more about this file format [here](https://fileinfo.com/extension/svgz). |
-| static readonly [SXC](../../groupdocs.viewer/filetype/sxc) | StarOffice Calc Spreadsheet (.sxc) |
-| static readonly [TAR](../../groupdocs.viewer/filetype/tar) | Consolidated Unix File Archive (.tar) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format [here](https://wiki.fileformat.com/compression/tar). |
-| static readonly [TARGZ](../../groupdocs.viewer/filetype/targz) | Consolidated Unix File Archive (.tgz, .tar.gz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format [here](https://fileinfo.com/extension/tgz). |
-| static readonly [TARXZ](../../groupdocs.viewer/filetype/tarxz) | Consolidated Unix File Archive (.txz, .tar.xz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format [here](https://fileinfo.com/extension/txz). |
-| static readonly [TEX](../../groupdocs.viewer/filetype/tex) | LaTeX Source Document (.tex) is a language that comprises of programming as well as mark-up features, used to typeset documents. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/tex). |
-| static readonly [TGA](../../groupdocs.viewer/filetype/tga) | Truevision TGA (Truevision Advanced Raster Adapter - TARGA) is used to store bitmap digital images developed by TRUEVISION. Learn more about this file format [here](https://wiki.fileformat.com/image/tga). |
-| static readonly [TGZ](../../groupdocs.viewer/filetype/tgz) | Consolidated Unix File Archive (.tgz, .tar.gz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format [here](https://fileinfo.com/extension/tgz). |
-| static readonly [TIF](../../groupdocs.viewer/filetype/tif) | Tagged Image File (.tif) represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. Learn more about this file format [here](https://wiki.fileformat.com/image/tiff). |
-| static readonly [TIFF](../../groupdocs.viewer/filetype/tiff) | Tagged Image File Format (.tiff) represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. Learn more about this file format [here](https://wiki.fileformat.com/image/tiff). |
-| static readonly [TSV](../../groupdocs.viewer/filetype/tsv) | Tab Separated Values File (.tsv) represents data separated with tabs in plain text format. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/tsv). |
-| static readonly [TXT](../../groupdocs.viewer/filetype/txt) | Plain Text File (.txt) represents a text document that contains plain text in the form of lines. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/txt). |
-| static readonly [TXZ](../../groupdocs.viewer/filetype/txz) | Consolidated Unix File Archive (.txz, .tar.xz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format [here](https://fileinfo.com/extension/txz). |
-| static readonly [Unknown](../../groupdocs.viewer/filetype/unknown) | Represents unknown file type. |
-| static readonly [VB](../../groupdocs.viewer/filetype/vb) | Visual Basic Project Item File (.vb) is a source code file created in Visual Basic language that was created by Microsoft for development of .NET applications. Learn more about this file format [here](https://wiki.fileformat.com/programming/vb). |
-| static readonly [VCF](../../groupdocs.viewer/filetype/vcf) | vCard File (.vcf) is a digital file format for storing contact information. The format is widely used for data interchange among popular information exchange applications. Learn more about this file format [here](https://wiki.fileformat.com/email/vcf). |
-| static readonly [VDW](../../groupdocs.viewer/filetype/vdw) | Visio Web Drawing (.vdw) represents file format that specifies the streams and storages required for rendering a Web drawing. Learn more about this file format [here](https://wiki.fileformat.com/web/vdw). |
-| static readonly [VDX](../../groupdocs.viewer/filetype/vdx) | Visio Drawing XML File (.vdx) represents any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Learn more about this file format [here](https://wiki.fileformat.com/image/vdx). |
-| static readonly [VIM](../../groupdocs.viewer/filetype/vim) | Vim Settings File (.vim) |
-| static readonly [VSD](../../groupdocs.viewer/filetype/vsd) | Visio Drawing File (.vsd) are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these. Learn more about this file format [here](https://wiki.fileformat.com/image/vsd). |
-| static readonly [VSDM](../../groupdocs.viewer/filetype/vsdm) | Visio Macro-Enabled Drawing (.vsdm) are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX, but also provide the capability to run macros when the file is opened. Learn more about this file format [here](https://wiki.fileformat.com/image/vsdm). |
-| static readonly [VSDX](../../groupdocs.viewer/filetype/vsdx) | Visio Drawing (.vsdx) represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. Learn more about this file format [here](https://wiki.fileformat.com/image/vsdx). |
-| static readonly [VSS](../../groupdocs.viewer/filetype/vss) | Visio Stencil File(.vss) are stencil files created with Microsoft Visio 2007 and earlier. Stencil files provide drawing objects that can be included in a .VSD Visio drawing. Learn more about this file format [here](https://wiki.fileformat.com/image/vss). |
-| static readonly [VSSM](../../groupdocs.viewer/filetype/vssm) | Visio Macro-Enabled Stencil File (.vssm) are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows to run the macros to achieve desired formatting and placement of shapes in a diagram. Learn more about this file format [here](https://wiki.fileformat.com/image/vssm). |
-| static readonly [VSSX](../../groupdocs.viewer/filetype/vssx) | Visio Stencil File (.vssx) are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, Learn more about this file format [here](https://wiki.fileformat.com/image/vssx). |
-| static readonly [VST](../../groupdocs.viewer/filetype/vst) | Visio Drawing Template (.vst) are vector image files created with Microsoft Visio and act as template for creating further files. These template files are in binary file format and contain the default layout and settings that are utilized for creation of new Visio drawings. Learn more about this file format [here](https://wiki.fileformat.com/image/vst). |
-| static readonly [VSTM](../../groupdocs.viewer/filetype/vstm) | Visio Macro-Enabled Drawing Template (.vstm) are template files created with Microsoft Visio that support macros. Unlike VSDX files, files created from VSTM templates can run macros that are developed in Visual Basic for Applications (VBA) code. Learn more about this file format [here](https://wiki.fileformat.com/image/vstm). |
-| static readonly [VSTX](../../groupdocs.viewer/filetype/vstx) | Visio Drawing Template (.vstx) are drawing template files created with Microsoft Visio 2013 and above. These VSTX files provide starting point for creating Visio drawings, saved as .VSDX files, with default layout and settings. Learn more about this file format [here](https://wiki.fileformat.com/image/vstx). |
-| static readonly [VSX](../../groupdocs.viewer/filetype/vsx) | Visio Stencil XML File (.vsx) refers to stencils that consist of drawings and shapes that are used for creating diagrams in Microsoft Visio. VSX files are saved in XML file format and was supported till Visio 2013. Learn more about this file format [here](https://wiki.fileformat.com/image/vsx). |
-| static readonly [VTX](../../groupdocs.viewer/filetype/vtx) | Visio Template XML File (.vtx) is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings. Learn more about this file format [here](https://wiki.fileformat.com/image/vtx). |
-| static readonly [WEBP](../../groupdocs.viewer/filetype/webp) | WebP Image (.webp) is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Learn more about this file format [here](https://wiki.fileformat.com/image/webp). |
-| static readonly [WMF](../../groupdocs.viewer/filetype/wmf) | Windows Metafile (.wmf) represents Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. Learn more about this file format [here](https://wiki.fileformat.com/image/wmf). |
-| static readonly [WMZ](../../groupdocs.viewer/filetype/wmz) | Compressed Windows Metafile (.wmz) represents Microsoft Windows Metafile (WMF) compressed in GZIP archvive - for storing vector as well as bitmap-format images data. Learn more about this file format [here](https://fileinfo.com/extension/wmz#compressed_windows_metafile). |
-| static readonly [XLAM](../../groupdocs.viewer/filetype/xlam) | Microsoft Excel Add-in (.xlam) |
-| static readonly [XLS](../../groupdocs.viewer/filetype/xls) | Excel Spreadsheet (.xls) represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xls). |
-| static readonly [XLSB](../../groupdocs.viewer/filetype/xlsb) | Excel Binary Spreadsheet (.xlsb) specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsb). |
-| static readonly [XLSM](../../groupdocs.viewer/filetype/xlsm) | Excel Open XML Macro-Enabled Spreadsheet (.xlsm) is a type of Spreasheet files that support macros. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsm). |
-| static readonly [XLSX](../../groupdocs.viewer/filetype/xlsx) | Microsoft Excel Open XML Spreadsheet (.xlsx) is a well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlsx). |
-| static readonly [XLT](../../groupdocs.viewer/filetype/xlt) | Microsoft Excel Template (.xlt) are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xlt). |
-| static readonly [XLTM](../../groupdocs.viewer/filetype/xltm) | Microsoft Excel Macro-Enabled Template (.xltm) represents files that are generated by Microsoft Excel as Macro-enabled template files. XLTM files are similar to XLTX in structure other than that the later doesn't support creating template files with macros. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xltm). |
-| static readonly [XLTX](../../groupdocs.viewer/filetype/xltx) | Excel Open XML Spreadsheet Template (.xltx) represents Microsoft Excel Template that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/xltx). |
-| static readonly [XML](../../groupdocs.viewer/filetype/xml) | XML File (.xml) |
-| static readonly [XPS](../../groupdocs.viewer/filetype/xps) | XML Paper Specification File (.xps) represents page layout files that are based on XML Paper Specifications created by Microsoft. This format was developed by Microsoft as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format [here](https://wiki.fileformat.com/page-description-language/xps). |
-| static readonly [XZ](../../groupdocs.viewer/filetype/xz) | XZ file (.xz) is archive compressed a high-ratio compression algorithm based on the LZMA algorithm. Learn more about this file format [here](https://fileinfo.com/extension/xz). |
-| static readonly [YAML](../../groupdocs.viewer/filetype/yaml) | YAML Document (.yaml) |
-| static readonly [ZIP](../../groupdocs.viewer/filetype/zip) | Zipped File (.zip) represents archives that can hold one or more files or directories. Learn more about this file format [here](https://wiki.fileformat.com/compression/zip). |
+| :- | :- |
+|from_stream(stream)|Detects file type by reading the file signature.|
+|from_stream(stream, password)|Detects file type by reading the file signature.|
+|from_stream(stream, logger)|Detects file type by reading the file signature.|
+|from_stream(stream, password, logger)|Detects file type by reading the file signature.|
+|detect_encoding(file_path)|Attempts to detect text [None](/viewer/python-net/groupdocs.viewer/filetype/), [None](/viewer/python-net/groupdocs.viewer/filetype/), and [None](/viewer/python-net/groupdocs.viewer/filetype/) files encoding by path.|
+|detect_encoding(stream)|Attempts to detect text [None](/viewer/python-net/groupdocs.viewer/filetype/), [None](/viewer/python-net/groupdocs.viewer/filetype/), and [None](/viewer/python-net/groupdocs.viewer/filetype/) file encoding by stream.|
+|from_extension(extension)|Maps file extension to file type.|
+|from_file_path(file_path)|Extracts file extension and maps it to file type.|
+|from_media_type(media_type)|Maps file media type to file type e.g. 'application/pdf' will be mapped to [None](/viewer/python-net/groupdocs.viewer/filetype/).|
+|get_supported_file_types()|Retrieves supported file types|
+|equals(other)|Determines whether the current [FileType](/viewer/python-net/groupdocs.viewer/filetype/) is the same as specified [FileType](/viewer/python-net/groupdocs.viewer/filetype/) object.|
 
 ### See Also
 
-* namespace [GroupDocs.Viewer](../../groupdocs.viewer)
-* assembly [GroupDocs.Viewer](../../)
+* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
+* assembly [GroupDocs.Viewer](/viewer/python-net/)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.viewer.dll -->
