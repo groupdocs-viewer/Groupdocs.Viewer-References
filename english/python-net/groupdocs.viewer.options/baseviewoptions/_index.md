@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /viewer/python-net/groupdocs.viewer.options/baseviewoptions/
+url: /python-net/groupdocs.viewer.options/baseviewoptions/
 ---
 
 ## BaseViewOptions class
@@ -35,6 +35,6 @@ The BaseViewOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /viewer/python-net/groupdocs.viewer.logging/filelogger/
+url: /python-net/groupdocs.viewer.logging/filelogger/
 ---
 
 ## FileLogger class
@@ -24,6 +24,6 @@ The FileLogger type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.logging](/viewer/python-net/groupdocs.viewer.logging/)
+* namespace [groupdocs.viewer.logging](/python-net/groupdocs.viewer.logging/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

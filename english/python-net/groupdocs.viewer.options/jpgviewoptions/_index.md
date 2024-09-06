@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /viewer/python-net/groupdocs.viewer.options/jpgviewoptions/
+url: /python-net/groupdocs.viewer.options/jpgviewoptions/
 ---
 
 ## JpgViewOptions class
@@ -16,7 +16,7 @@ The JpgViewOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |JpgViewOptions(page_stream_factory)|Initializes a new instance of the JpgViewOptions class|
-|JpgViewOptions()|Initializes an instance of the [JpgViewOptions](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/) class.|
+|JpgViewOptions()|Initializes an instance of the [JpgViewOptions](/python-net/groupdocs.viewer.options/jpgviewoptions/) class.|
 |JpgViewOptions(file_path_format)|Initializes a new instance of the JpgViewOptions class|
 ## Properties
 | Name | Description |
@@ -52,6 +52,6 @@ The JpgViewOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

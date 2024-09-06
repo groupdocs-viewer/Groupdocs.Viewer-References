@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /viewer/python-net/groupdocs.viewer.fonts/fontsettings/
+url: /python-net/groupdocs.viewer.fonts/fontsettings/
 ---
 
 ## FontSettings class
@@ -20,6 +20,6 @@ The FontSettings type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.fonts](/viewer/python-net/groupdocs.viewer.fonts/)
+* namespace [groupdocs.viewer.fonts](/python-net/groupdocs.viewer.fonts/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

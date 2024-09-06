@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /viewer/python-net/groupdocs.viewer/license/
+url: /python-net/groupdocs.viewer/license/
 ---
 
 ## License class
@@ -24,6 +24,6 @@ The License type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
+* namespace [groupdocs.viewer](/python-net/groupdocs.viewer/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

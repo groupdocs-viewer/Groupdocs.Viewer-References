@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /viewer/python-net/groupdocs.viewer.options/cadoptions/
+url: /python-net/groupdocs.viewer.options/cadoptions/
 ---
 
 ## CadOptions class
@@ -27,13 +27,13 @@ The CadOptions type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|for_rendering_by_scale_factor(scale_factor)|Initializes an instance of the [CadOptions](/viewer/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by scale factor.|
-|for_rendering_by_width(width)|Initializes an instance of the [CadOptions](/viewer/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by width.|
-|for_rendering_by_height(height)|Initializes an instance of the [CadOptions](/viewer/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by height.|
-|for_rendering_by_width_and_height(width, height)|Initializes an instance of the [CadOptions](/viewer/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by width and height.|
+|for_rendering_by_scale_factor(scale_factor)|Initializes an instance of the [CadOptions](/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by scale factor.|
+|for_rendering_by_width(width)|Initializes an instance of the [CadOptions](/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by width.|
+|for_rendering_by_height(height)|Initializes an instance of the [CadOptions](/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by height.|
+|for_rendering_by_width_and_height(width, height)|Initializes an instance of the [CadOptions](/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by width and height.|
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 270
-url: /viewer/python-net/groupdocs.viewer.options/visiorenderingoptions/
+url: /python-net/groupdocs.viewer.options/visiorenderingoptions/
 ---
 
 ## VisioRenderingOptions class
@@ -15,7 +15,7 @@ The VisioRenderingOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|VisioRenderingOptions()|Initializes an instance of the [VisioRenderingOptions](/viewer/python-net/groupdocs.viewer.options/visiorenderingoptions/) class.|
+|VisioRenderingOptions()|Initializes an instance of the [VisioRenderingOptions](/python-net/groupdocs.viewer.options/visiorenderingoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The VisioRenderingOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

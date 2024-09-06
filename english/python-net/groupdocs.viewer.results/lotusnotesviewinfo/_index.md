@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 90
-url: /viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/
+url: /python-net/groupdocs.viewer.results/lotusnotesviewinfo/
 ---
 
 ## LotusNotesViewInfo class
@@ -15,7 +15,7 @@ The LotusNotesViewInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|LotusNotesViewInfo()|Initializes new instance of [LotusNotesViewInfo](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/) class.|
+|LotusNotesViewInfo()|Initializes new instance of [LotusNotesViewInfo](/python-net/groupdocs.viewer.results/lotusnotesviewinfo/) class.|
 |LotusNotesViewInfo(file_type, pages, notes_count)|Initializes a new instance of the LotusNotesViewInfo class|
 ## Properties
 | Name | Description |
@@ -26,6 +26,6 @@ The LotusNotesViewInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

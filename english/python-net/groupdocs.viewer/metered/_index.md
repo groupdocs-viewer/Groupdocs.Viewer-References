@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /viewer/python-net/groupdocs.viewer/metered/
+url: /python-net/groupdocs.viewer/metered/
 ---
 
 ## Metered class
@@ -25,6 +25,6 @@ The Metered type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
+* namespace [groupdocs.viewer](/python-net/groupdocs.viewer/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

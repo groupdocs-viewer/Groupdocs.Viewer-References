@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /viewer/python-net/groupdocs.viewer.caching/icache/
+url: /python-net/groupdocs.viewer.caching/icache/
 ---
 
 ## ICache class
@@ -20,6 +20,6 @@ The ICache type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.caching](/viewer/python-net/groupdocs.viewer.caching/)
+* namespace [groupdocs.viewer.caching](/python-net/groupdocs.viewer.caching/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

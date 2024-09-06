@@ -4,12 +4,12 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /viewer/python-net/groupdocs.viewer/viewersettings/
+url: /python-net/groupdocs.viewer/viewersettings/
 ---
 
 ## ViewerSettings class
 
-Defines settings for customizing [Viewer](/viewer/python-net/groupdocs.viewer/viewer/) behaviour.
+Defines settings for customizing [Viewer](/python-net/groupdocs.viewer/viewer/) behaviour.
 
 The ViewerSettings type exposes the following members:
 ## Constructors
@@ -26,6 +26,6 @@ The ViewerSettings type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
+* namespace [groupdocs.viewer](/python-net/groupdocs.viewer/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

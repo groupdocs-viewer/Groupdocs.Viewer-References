@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /viewer/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/
+url: /python-net/groupdocs.viewer.interfaces/ifilestreamfactory/
 ---
 
 ## IFileStreamFactory class
@@ -16,10 +16,10 @@ The IFileStreamFactory type exposes the following members:
 | Name | Description |
 | :- | :- |
 |create_file_stream()|Creates the stream used to write output file data.|
-|release_file_stream(file_stream)|Releases the stream created by [None](/viewer/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/) method.|
+|release_file_stream(file_stream)|Releases the stream created by [None](/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/) method.|
 
 ### See Also
 
-* namespace [groupdocs.viewer.interfaces](/viewer/python-net/groupdocs.viewer.interfaces/)
+* namespace [groupdocs.viewer.interfaces](/python-net/groupdocs.viewer.interfaces/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

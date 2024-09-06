@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /viewer/python-net/groupdocs.viewer.exceptions/passwordrequiredexception/
+url: /python-net/groupdocs.viewer.exceptions/passwordrequiredexception/
 ---
 
 ## PasswordRequiredException class
@@ -15,6 +15,6 @@ The PasswordRequiredException type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.exceptions](/viewer/python-net/groupdocs.viewer.exceptions/)
+* namespace [groupdocs.viewer.exceptions](/python-net/groupdocs.viewer.exceptions/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

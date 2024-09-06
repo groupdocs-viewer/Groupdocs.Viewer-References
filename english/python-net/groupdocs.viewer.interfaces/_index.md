@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 50
-url: /viewer/python-net/groupdocs.viewer.interfaces/
+url: /python-net/groupdocs.viewer.interfaces/
 ---
 
 
@@ -13,6 +13,6 @@ The namespace provides interfaces to instantiate and release output document and
 ## Classes
 | Class | Description |
 | :- | :- |
-|[IFileStreamFactory](/viewer/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/)|Defines the methods that are required for instantiating and releasing output file stream.|
-|[IPageStreamFactory](/viewer/python-net/groupdocs.viewer.interfaces/ipagestreamfactory/)|Defines the methods that are required for instantiating and releasing output page stream.|
-|[IResourceStreamFactory](/viewer/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)|Defines the methods that are required for creating resource URL, instantiating and releasing output HTML resource stream.|
+|[IFileStreamFactory](/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/)|Defines the methods that are required for instantiating and releasing output file stream.|
+|[IPageStreamFactory](/python-net/groupdocs.viewer.interfaces/ipagestreamfactory/)|Defines the methods that are required for instantiating and releasing output page stream.|
+|[IResourceStreamFactory](/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)|Defines the methods that are required for creating resource URL, instantiating and releasing output HTML resource stream.|

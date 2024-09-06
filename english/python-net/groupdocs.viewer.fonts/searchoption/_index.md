@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /viewer/python-net/groupdocs.viewer.fonts/searchoption/
+url: /python-net/groupdocs.viewer.fonts/searchoption/
 ---
 
 ## SearchOption enumeration
@@ -19,6 +19,6 @@ Specifies whether to search the current folder, or the current folder and all su
 
 ### See Also
 
-* namespace [groupdocs.viewer.fonts](/viewer/python-net/groupdocs.viewer.fonts/)
+* namespace [groupdocs.viewer.fonts](/python-net/groupdocs.viewer.fonts/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

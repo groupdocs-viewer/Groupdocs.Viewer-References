@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 80
-url: /viewer/python-net/groupdocs.viewer.results/line/
+url: /python-net/groupdocs.viewer.results/line/
 ---
 
 ## Line class
@@ -15,7 +15,7 @@ The Line type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Line()|Initializes new instance of [Line](/viewer/python-net/groupdocs.viewer.results/line/) class.|
+|Line()|Initializes new instance of [Line](/python-net/groupdocs.viewer.results/line/) class.|
 |Line(line, x, y, width, height, words)|Initializes a new instance of the Line class|
 ## Properties
 | Name | Description |
@@ -29,6 +29,6 @@ The Line type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

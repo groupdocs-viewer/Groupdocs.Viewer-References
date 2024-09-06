@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /viewer/python-net/groupdocs.viewer.caching/filecache/
+url: /python-net/groupdocs.viewer.caching/filecache/
 ---
 
 ## FileCache class
@@ -21,7 +21,7 @@ The FileCache type exposes the following members:
 | Name | Description |
 | :- | :- |
 |cache_path|The Relative or absolute path to the cache folder.|
-|cache_sub_folder|The sub-folder to append to the [cache_path](/viewer/python-net/groupdocs.viewer.caching/filecache/).|
+|cache_sub_folder|The sub-folder to append to the [cache_path](/python-net/groupdocs.viewer.caching/filecache/).|
 ## Methods
 | Name | Description |
 | :- | :- |
@@ -30,6 +30,6 @@ The FileCache type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.caching](/viewer/python-net/groupdocs.viewer.caching/)
+* namespace [groupdocs.viewer.caching](/python-net/groupdocs.viewer.caching/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

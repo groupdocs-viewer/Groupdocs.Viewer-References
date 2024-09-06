@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /viewer/python-net/groupdocs.viewer.interfaces/ipagestreamfactory/
+url: /python-net/groupdocs.viewer.interfaces/ipagestreamfactory/
 ---
 
 ## IPageStreamFactory class
@@ -20,6 +20,6 @@ The IPageStreamFactory type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.interfaces](/viewer/python-net/groupdocs.viewer.interfaces/)
+* namespace [groupdocs.viewer.interfaces](/python-net/groupdocs.viewer.interfaces/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

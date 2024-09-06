@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 200
-url: /viewer/python-net/groupdocs.viewer.options/security/
+url: /python-net/groupdocs.viewer.options/security/
 ---
 
 ## Security class
@@ -15,7 +15,7 @@ The Security type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Security()|Initializes an instance of the [Security](/viewer/python-net/groupdocs.viewer.options/security/) class.|
+|Security()|Initializes an instance of the [Security](/python-net/groupdocs.viewer.options/security/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The Security type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

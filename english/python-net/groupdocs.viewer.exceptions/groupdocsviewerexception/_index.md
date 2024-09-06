@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /viewer/python-net/groupdocs.viewer.exceptions/groupdocsviewerexception/
+url: /python-net/groupdocs.viewer.exceptions/groupdocsviewerexception/
 ---
 
 ## GroupDocsViewerException class
@@ -19,6 +19,6 @@ The GroupDocsViewerException type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.exceptions](/viewer/python-net/groupdocs.viewer.exceptions/)
+* namespace [groupdocs.viewer.exceptions](/python-net/groupdocs.viewer.exceptions/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

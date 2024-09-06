@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 140
-url: /viewer/python-net/groupdocs.viewer.results/projectmanagementviewinfo/
+url: /python-net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 
 ## ProjectManagementViewInfo class
@@ -15,7 +15,7 @@ The ProjectManagementViewInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ProjectManagementViewInfo()|Initializes new instance of [ProjectManagementViewInfo](/viewer/python-net/groupdocs.viewer.results/projectmanagementviewinfo/) class.|
+|ProjectManagementViewInfo()|Initializes new instance of [ProjectManagementViewInfo](/python-net/groupdocs.viewer.results/projectmanagementviewinfo/) class.|
 |ProjectManagementViewInfo(file_type, pages, start_date, end_date)|Initializes a new instance of the ProjectManagementViewInfo class|
 ## Properties
 | Name | Description |
@@ -27,6 +27,6 @@ The ProjectManagementViewInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 160
-url: /viewer/python-net/groupdocs.viewer.options/pngviewoptions/
+url: /python-net/groupdocs.viewer.options/pngviewoptions/
 ---
 
 ## PngViewOptions class
@@ -16,7 +16,7 @@ The PngViewOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |PngViewOptions(page_stream_factory)|Initializes a new instance of the PngViewOptions class|
-|PngViewOptions()|Initializes an instance of the [PngViewOptions](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) class.|
+|PngViewOptions()|Initializes an instance of the [PngViewOptions](/python-net/groupdocs.viewer.options/pngviewoptions/) class.|
 |PngViewOptions(file_path_format)|Initializes a new instance of the PngViewOptions class|
 ## Properties
 | Name | Description |
@@ -51,6 +51,6 @@ The PngViewOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

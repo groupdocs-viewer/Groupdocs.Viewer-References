@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 300
-url: /viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/
+url: /python-net/groupdocs.viewer.options/wordprocessingoptions/
 ---
 
 ## WordProcessingOptions class
@@ -19,7 +19,7 @@ The WordProcessingOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|page_size|The size of the output page.<br/>            The default value is [UNSPECIFIED](/viewer/python-net/groupdocs.viewer.options/pagesize/) which means that a page size is set in a page settings (Page Setup) is used.|
+|page_size|The size of the output page.<br/>            The default value is [UNSPECIFIED](/python-net/groupdocs.viewer.options/pagesize/) which means that a page size is set in a page settings (Page Setup) is used.|
 |render_tracked_changes|Enables tracked changes (revisions) rendering.|
 |left_margin|Sets the left margin of a page.|
 |right_margin|Sets the right margin of a page.|
@@ -29,6 +29,6 @@ The WordProcessingOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

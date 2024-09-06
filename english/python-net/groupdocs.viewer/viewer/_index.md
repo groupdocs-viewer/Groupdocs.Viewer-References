@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /viewer/python-net/groupdocs.viewer/viewer/
+url: /python-net/groupdocs.viewer/viewer/
 ---
 
 ## Viewer class
@@ -39,6 +39,6 @@ The Viewer type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
+* namespace [groupdocs.viewer](/python-net/groupdocs.viewer/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

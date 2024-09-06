@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 350
-url: /viewer/python-net/groupdocs.viewer.options/rotation/
+url: /python-net/groupdocs.viewer.options/rotation/
 ---
 
 ## Rotation enumeration
@@ -20,6 +20,6 @@ Contains page rotation in degrees (clockwise).
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

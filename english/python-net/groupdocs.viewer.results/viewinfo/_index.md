@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 160
-url: /viewer/python-net/groupdocs.viewer.results/viewinfo/
+url: /python-net/groupdocs.viewer.results/viewinfo/
 ---
 
 ## ViewInfo class
@@ -15,7 +15,7 @@ The ViewInfo type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|ViewInfo()|Initializes new instance of [ViewInfo](/viewer/python-net/groupdocs.viewer.results/viewinfo/) class.|
+|ViewInfo()|Initializes new instance of [ViewInfo](/python-net/groupdocs.viewer.results/viewinfo/) class.|
 |ViewInfo(file_type, pages)|Initializes a new instance of the ViewInfo class|
 ## Properties
 | Name | Description |
@@ -25,6 +25,6 @@ The ViewInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

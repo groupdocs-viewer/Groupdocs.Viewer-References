@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 20
-url: /viewer/python-net/groupdocs.viewer.results/attachment/
+url: /python-net/groupdocs.viewer.results/attachment/
 ---
 
 ## Attachment class
@@ -15,7 +15,7 @@ The Attachment type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|Attachment()|Initializes new instance of [Attachment](/viewer/python-net/groupdocs.viewer.results/attachment/) class.|
+|Attachment()|Initializes new instance of [Attachment](/python-net/groupdocs.viewer.results/attachment/) class.|
 |Attachment(file_name, file_path)|Initializes a new instance of the Attachment class|
 |Attachment(id, file_name, file_path, size)|Initializes a new instance of the Attachment class|
 |Attachment(id, file_name, file_path, file_type, size)|Initializes a new instance of the Attachment class|
@@ -30,6 +30,6 @@ The Attachment type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

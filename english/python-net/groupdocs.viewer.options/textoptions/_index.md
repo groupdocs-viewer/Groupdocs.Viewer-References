@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 230
-url: /viewer/python-net/groupdocs.viewer.options/textoptions/
+url: /python-net/groupdocs.viewer.options/textoptions/
 ---
 
 ## TextOptions class
@@ -15,7 +15,7 @@ The TextOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|TextOptions()|Initializes an instance of the [TextOptions](/viewer/python-net/groupdocs.viewer.options/textoptions/) class.|
+|TextOptions()|Initializes an instance of the [TextOptions](/python-net/groupdocs.viewer.options/textoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -24,6 +24,6 @@ The TextOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

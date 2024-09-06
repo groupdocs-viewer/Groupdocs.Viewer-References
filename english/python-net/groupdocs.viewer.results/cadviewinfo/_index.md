@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 30
-url: /viewer/python-net/groupdocs.viewer.results/cadviewinfo/
+url: /python-net/groupdocs.viewer.results/cadviewinfo/
 ---
 
 ## CadViewInfo class
@@ -26,6 +26,6 @@ The CadViewInfo type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
+* namespace [groupdocs.viewer.results](/python-net/groupdocs.viewer.results/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

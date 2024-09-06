@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 10
-url: /viewer/python-net/groupdocs.viewer/filetype/
+url: /python-net/groupdocs.viewer/filetype/
 ---
 
 ## FileType class
@@ -15,7 +15,7 @@ The FileType type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|FileType()|Initializes new instance of [FileType](/viewer/python-net/groupdocs.viewer/filetype/) class.|
+|FileType()|Initializes new instance of [FileType](/python-net/groupdocs.viewer/filetype/) class.|
 |FileType(file_format, extension)|Initializes a new instance of the FileType class|
 ## Properties
 | Name | Description |
@@ -220,16 +220,16 @@ The FileType type exposes the following members:
 |from_stream(stream, password)|Detects file type by reading the file signature.|
 |from_stream(stream, logger)|Detects file type by reading the file signature.|
 |from_stream(stream, password, logger)|Detects file type by reading the file signature.|
-|detect_encoding(file_path)|Attempts to detect text [None](/viewer/python-net/groupdocs.viewer/filetype/), [None](/viewer/python-net/groupdocs.viewer/filetype/), and [None](/viewer/python-net/groupdocs.viewer/filetype/) files encoding by path.|
-|detect_encoding(stream)|Attempts to detect text [None](/viewer/python-net/groupdocs.viewer/filetype/), [None](/viewer/python-net/groupdocs.viewer/filetype/), and [None](/viewer/python-net/groupdocs.viewer/filetype/) file encoding by stream.|
+|detect_encoding(file_path)|Attempts to detect text [None](/python-net/groupdocs.viewer/filetype/), [None](/python-net/groupdocs.viewer/filetype/), and [None](/python-net/groupdocs.viewer/filetype/) files encoding by path.|
+|detect_encoding(stream)|Attempts to detect text [None](/python-net/groupdocs.viewer/filetype/), [None](/python-net/groupdocs.viewer/filetype/), and [None](/python-net/groupdocs.viewer/filetype/) file encoding by stream.|
 |from_extension(extension)|Maps file extension to file type.|
 |from_file_path(file_path)|Extracts file extension and maps it to file type.|
-|from_media_type(media_type)|Maps file media type to file type e.g. 'application/pdf' will be mapped to [None](/viewer/python-net/groupdocs.viewer/filetype/).|
+|from_media_type(media_type)|Maps file media type to file type e.g. 'application/pdf' will be mapped to [None](/python-net/groupdocs.viewer/filetype/).|
 |get_supported_file_types()|Retrieves supported file types|
-|equals(other)|Determines whether the current [FileType](/viewer/python-net/groupdocs.viewer/filetype/) is the same as specified [FileType](/viewer/python-net/groupdocs.viewer/filetype/) object.|
+|equals(other)|Determines whether the current [FileType](/python-net/groupdocs.viewer/filetype/) is the same as specified [FileType](/python-net/groupdocs.viewer/filetype/) object.|
 
 ### See Also
 
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
+* namespace [groupdocs.viewer](/python-net/groupdocs.viewer/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 

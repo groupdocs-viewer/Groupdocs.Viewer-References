@@ -4,7 +4,7 @@ second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
 weight: 40
-url: /viewer/python-net/groupdocs.viewer.options/emailoptions/
+url: /python-net/groupdocs.viewer.options/emailoptions/
 ---
 
 ## EmailOptions class
@@ -15,7 +15,7 @@ The EmailOptions type exposes the following members:
 ## Constructors
 | Name | Description |
 | :- | :- |
-|EmailOptions()|Initializes an instance of the [EmailOptions](/viewer/python-net/groupdocs.viewer.options/emailoptions/) class.|
+|EmailOptions()|Initializes an instance of the [EmailOptions](/python-net/groupdocs.viewer.options/emailoptions/) class.|
 ## Properties
 | Name | Description |
 | :- | :- |
@@ -25,6 +25,6 @@ The EmailOptions type exposes the following members:
 
 ### See Also
 
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
+* namespace [groupdocs.viewer.options](/python-net/groupdocs.viewer.options/)
 * assembly [GroupDocs.Viewer](/viewer/python-net/)
 
