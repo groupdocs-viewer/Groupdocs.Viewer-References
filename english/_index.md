@@ -56,9 +56,9 @@ These are links to some useful resources:
 
 {{% alert color="primary" %}}
 
-![GroupDocs.Viewer for Python via .NET Product Logo](gdocs_nodejs.png)
+![GroupDocs.Viewer for Python via .NET Product Logo](gdocs_python.png)
 
-Python API for document viewing and rendering of 170+ file formats with high performance and simple integration.
+Enhance Python applications with a powerful multi-format document viewer API, enabling seamless rendering and viewing of over 170+ popular file formats, including documents, images, and diagrams.
 
 {{% /alert %}}
 
