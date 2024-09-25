@@ -3,7 +3,7 @@ title: groupdocs.viewer.fonts
 second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /python-net/groupdocs.viewer.fonts/
 ---
 

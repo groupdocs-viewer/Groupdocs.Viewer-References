@@ -26,6 +26,7 @@ The WordProcessingOptions type exposes the following members:
 |top_margin|Sets the top margin of a page.|
 |bottom_margin|Sets the bottom margin of a page.|
 |enable_open_type_features|This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian Latin-based, or Cyrillic-based scripts.|
+|unlink_table_of_contents|When rendering to HTML or PDF, you can set this option to `true` to disable navigation from the table of contents.<br/>            For HTML rendering, `a` tags with relative links will be replaced with `span` tags, removing functionality but preserving visual appearance.<br/>            For PDF rendering, the table of contents will be rendered as plain text without links to document sections.|
 
 ### See Also
 

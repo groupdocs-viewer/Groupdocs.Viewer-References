@@ -24,6 +24,7 @@ The CadOptions type exposes the following members:
 |layout_name|The name of the specific layout to render. Layout name is case-sensitive.|
 |layers|The CAD drawing layers to render.|
 |pc_3_file|PC3 - plotter configuration file|
+|enable_performance_conversion_mode|Setting this flag to|
 ## Methods
 | Name | Description |
 | :- | :- |

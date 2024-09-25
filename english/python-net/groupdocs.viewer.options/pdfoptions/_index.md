@@ -28,6 +28,8 @@ The PdfOptions type exposes the following members:
 |fixed_layout|Enables rendering the PDF and EPUB documents to HTML with a fixed layout.|
 |wrap_images_in_svg|Enables wrapping each image in the output HTML document in SVG tag to improve the output quality.|
 |disable_font_license_verifications|Disables any license restrictions for all fonts in the current XPS/OXPS document.|
+|disable_copy_protection|Turns off content copy protection when rendering to HTML.|
+|fix_link_issue|Tries to fix the issue when whole HTML page content is a link. Works only when input format is PDF and output format is HTML (with embedded or external resources). By default is disabled (|
 
 ### See Also
 
