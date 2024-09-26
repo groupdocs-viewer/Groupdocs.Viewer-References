@@ -20,6 +20,7 @@ The PresentationOptions type exposes the following members:
 | Name | Description |
 | :- | :- |
 |resolution|Resolution of the presentation images (for rendering to HTML/PDF only).|
+|render_to_pure_html|Enables a new HTML rendering mode for the Presentation documents — in this mode the Presentation files are rendered to pure HTML/CSS markup, without SVG images. By default is disabled (|
 
 ### See Also
 

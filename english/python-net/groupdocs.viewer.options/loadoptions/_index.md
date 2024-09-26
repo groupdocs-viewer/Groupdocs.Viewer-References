@@ -27,6 +27,7 @@ The LoadOptions type exposes the following members:
 |resource_loading_timeout|Sets the timeout to load external resources.|
 |skip_external_resources|Disables loading of all external resource such as images except [whitelisted_resources](/viewer/python-net/groupdocs.viewer.options/loadoptions/).|
 |whitelisted_resources|The list of URL fragments corresponding to external resources that should be loaded<br/>            when [skip_external_resources](/viewer/python-net/groupdocs.viewer.options/loadoptions/) is set to|
+|try_repair|When enabled GroupDocs.Viewer tries to repair structural corruption in PDF documents.<br/>            Default value is `false`.|
 
 ### See Also
 

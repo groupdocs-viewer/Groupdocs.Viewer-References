@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /python-net/groupdocs.viewer/license/
 ---
 

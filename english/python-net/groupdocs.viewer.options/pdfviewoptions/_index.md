@@ -39,14 +39,12 @@ The PdfViewOptions type exposes the following members:
 |presentation_options|  |
 |web_document_options|  |
 |watermark|The text watermark to be applied to each page.|
-|jpg_quality|  |
 |security|Sets the output PDF document security options.|
 |pdf_optimization_options|Reduces output PDF file size by applying optimization techniques with different options.|
 |image_max_width|Sets the maximum width of an output image (in pixels).|
 |image_max_height|Sets the maximum height of an output image (in pixels).|
 |image_width|Sets the width of an output image (in pixels).|
 |image_height|Sets the height of an output image (in pixels).|
-|optimize|  |
 ## Methods
 | Name | Description |
 | :- | :- |

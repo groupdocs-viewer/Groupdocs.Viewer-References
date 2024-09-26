@@ -29,6 +29,8 @@ The PdfOptimizationOptions type exposes the following members:
 |resize_images|Enables setting the maximum resolution in the output PDF file.|
 |max_resolution|Sets the maximum resolution in the output PDF file.|
 |optimize_spreadsheets|Enables optimization of spreadsheets in the PDF files.|
+|remove_unused_objects|Removes unused (orphaned) objects from a PDF file, which are placed in the PDF document, but are not referenced from resource dictionaries of any page and thus are not used at all. Activating this property (|
+|remove_unused_streams|Removes unused (orphaned) streams from a PDF file, which are still referenced from the resource dictionary of the page, but actually are never used in the page contents. By default is disabled (|
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ViewerSettings
 second_title: GroupDocs.Viewer for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /python-net/groupdocs.viewer/viewersettings/
 ---
 
