@@ -31,6 +31,7 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getFileType()](#getFileType--) | Retrieves the type of the file. |
+| [setFileType(FileType fileType)](#setFileType-com.groupdocs.viewer.FileType-) | Sets the type of the file. |
 | [isEncrypted()](#isEncrypted--) | Checks if the file is encrypted. |
 | [setEncrypted(boolean encrypted)](#setEncrypted-boolean-) | Sets the encryption status of the file. |
 ### getFileType() {#getFileType--}
@@ -43,6 +44,19 @@ Retrieves the type of the file.
 
 **Returns:**
 [FileType](../../com.groupdocs.viewer/filetype) - the file type.
+### setFileType(FileType fileType) {#setFileType-com.groupdocs.viewer.FileType-}
+```
+public abstract void setFileType(FileType fileType)
+```
+
+
+Sets the type of the file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.viewer/filetype) | the file type. |
+
 ### isEncrypted() {#isEncrypted--}
 ```
 public abstract boolean isEncrypted()

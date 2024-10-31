@@ -3,7 +3,7 @@ title: Position
 second_title: GroupDocs.Viewer for Java API Reference
 description: Defines watermark position.
 type: docs
-weight: 41
+weight: 42
 url: /java/com.groupdocs.viewer.options/position/
 ---
 **Inheritance:**

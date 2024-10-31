@@ -43,6 +43,7 @@ For more details on configuring the logging system in GroupDocs.Viewer and custo
 | [PdfViewOptions](../com.groupdocs.viewer.options/pdfviewoptions) | Provides options for rendering documents into PDF format. |
 | [Permissions](../com.groupdocs.viewer.options/permissions) | Defines PDF document permissions. |
 | [PngViewOptions](../com.groupdocs.viewer.options/pngviewoptions) | Provides options for rendering documents into PNG format. |
+| [PresentationOptions](../com.groupdocs.viewer.options/presentationoptions) | Provides options for rendering presentations options. |
 | [ProjectManagementOptions](../com.groupdocs.viewer.options/projectmanagementoptions) | Provides options for rendering project management files. |
 | [Security](../com.groupdocs.viewer.options/security) | Provides PDF document security options. |
 | [Size](../com.groupdocs.viewer.options/size) | Contains the watermark size. |

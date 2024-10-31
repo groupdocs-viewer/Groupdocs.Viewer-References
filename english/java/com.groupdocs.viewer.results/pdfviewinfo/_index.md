@@ -33,6 +33,7 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [isPrintingAllowed()](#isPrintingAllowed--) | Checks if printing of the document is allowed. |
+| [setPrintingAllowed(boolean allowPrinting)](#setPrintingAllowed-boolean-) | Sets whether printing of the document is allowed. |
 ### isPrintingAllowed() {#isPrintingAllowed--}
 ```
 public abstract boolean isPrintingAllowed()
@@ -43,3 +44,16 @@ Checks if printing of the document is allowed.
 
 **Returns:**
 boolean -  true  if printing is allowed,  false  otherwise.
+### setPrintingAllowed(boolean allowPrinting) {#setPrintingAllowed-boolean-}
+```
+public abstract void setPrintingAllowed(boolean allowPrinting)
+```
+
+
+Sets whether printing of the document is allowed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| allowPrinting | boolean |  true  to allow printing,  false  otherwise. |
+

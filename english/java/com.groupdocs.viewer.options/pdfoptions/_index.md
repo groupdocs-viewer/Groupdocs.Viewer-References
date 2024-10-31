@@ -46,6 +46,8 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
+| [isDisableCopyProtection()](#isDisableCopyProtection--) | Turns off content copy protection when rendering to HTML. |
+| [setDisableCopyProtection(boolean disableCopyProtection)](#setDisableCopyProtection-boolean-) | Turns off content copy protection when rendering to HTML. |
 | [isRenderTextAsImage()](#isRenderTextAsImage--) | Determines whether the text from the source is rendered as an image in HTML. |
 | [setRenderTextAsImage(boolean renderTextAsImage)](#setRenderTextAsImage-boolean-) | Sets whether the text from the source is rendered as an image in HTML. |
 | [isDisableCharsGrouping()](#isDisableCharsGrouping--) | Checks if character grouping is disabled to maintain maximum precision during character positioning when rendering the page. |
@@ -71,6 +73,43 @@ public PdfOptions()
 
 
 Initializes a new instance of  PdfOptions  class.
+
+### isDisableCopyProtection() {#isDisableCopyProtection--}
+```
+public boolean isDisableCopyProtection()
+```
+
+
+Turns off content copy protection when rendering to HTML.
+
+When rendering PDF files with protection against copying text and images to HTML, GroupDocs.Viewer adds an 'inert' HTML attribute to the HTML BODY tag. The default value of this option is  false .
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-pdf-documents/#disable-copy-protection
+
+**Returns:**
+boolean
+### setDisableCopyProtection(boolean disableCopyProtection) {#setDisableCopyProtection-boolean-}
+```
+public void setDisableCopyProtection(boolean disableCopyProtection)
+```
+
+
+Turns off content copy protection when rendering to HTML.
+
+When rendering PDF files with protection against copying text and images to HTML, GroupDocs.Viewer adds an 'inert' HTML attribute to the HTML BODY tag. The default value of this option is  false .
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-pdf-documents/#disable-copy-protection
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| disableCopyProtection | boolean |  |
 
 ### isRenderTextAsImage() {#isRenderTextAsImage--}
 ```

@@ -3,7 +3,7 @@ title: ViewOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Contains the rendering options.
 type: docs
-weight: 33
+weight: 34
 url: /java/com.groupdocs.viewer.options/viewoptions/
 ---
 **Inheritance:**
@@ -86,7 +86,7 @@ For details, see the [documentation][].
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| pageNumber | int | The page number. |
+| pageNumber | int | The page number, must be strictly greater than 0. |
 | rotation | [Rotation](../../com.groupdocs.viewer.options/rotation) | The rotation value. |
 
 ### getPageRotations() {#getPageRotations--}

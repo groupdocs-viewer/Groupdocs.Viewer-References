@@ -33,6 +33,7 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getFolders()](#getFolders--) | Retrieves the list of folders contained in the Outlook Data file. |
+| [setFolders(List<String> list)](#setFolders-java.util.List-java.lang.String--) | Sets the list of folders contained in the Outlook Data file. |
 ### getFolders() {#getFolders--}
 ```
 public abstract List<String> getFolders()
@@ -43,3 +44,16 @@ Retrieves the list of folders contained in the Outlook Data file.
 
 **Returns:**
 java.util.List<java.lang.String> - the list of folders.
+### setFolders(List<String> list) {#setFolders-java.util.List-java.lang.String--}
+```
+public abstract void setFolders(List<String> list)
+```
+
+
+Sets the list of folders contained in the Outlook Data file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| list | java.util.List<java.lang.String> | the list of folders. |
+

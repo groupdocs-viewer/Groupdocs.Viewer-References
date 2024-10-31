@@ -54,7 +54,7 @@ Example usage:
 | --- | --- |
 | [getPc3File()](#getPc3File--) | Retrieves the PC3 (Plotter Configuration) file associated with the plotter. |
 | [setPc3File(String pc3File)](#setPc3File-java.lang.String-) | Sets the PC3 (Plotter Configuration) file associated with the plotter. |
-| [forRenderingByScaleFactor(float scaleFactor)](#forRenderingByScaleFactor-float-) | Initializes a new instance of the  CadOptions  class for rendering by scale factor. |
+| [forRenderingByScaleFactor(double scaleFactor)](#forRenderingByScaleFactor-double-) | Initializes a new instance of the  CadOptions  class for rendering by scale factor. |
 | [forRenderingByWidth(int width)](#forRenderingByWidth-int-) | Initializes a new instance of the  CadOptions  class for rendering by width. |
 | [forRenderingByHeight(int height)](#forRenderingByHeight-int-) | Initializes a new instance of the  CadOptions  class for rendering by height. |
 | [forRenderingByWidthAndHeight(int width, int height)](#forRenderingByWidthAndHeight-int-int-) | Initializes a new instance of the  CadOptions  class for rendering by width and height. |
@@ -114,9 +114,9 @@ Sets the PC3 (Plotter Configuration) file associated with the plotter.
 | --- | --- | --- |
 | pc3File | java.lang.String | The PC3 file path. |
 
-### forRenderingByScaleFactor(float scaleFactor) {#forRenderingByScaleFactor-float-}
+### forRenderingByScaleFactor(double scaleFactor) {#forRenderingByScaleFactor-double-}
 ```
-public static CadOptions forRenderingByScaleFactor(float scaleFactor)
+public static CadOptions forRenderingByScaleFactor(double scaleFactor)
 ```
 
 
@@ -130,7 +130,7 @@ For code example, see the [documentation][].
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scaleFactor | float | The scale factor for rendering. Values greater than 1 will enlarge the output result, while values between 0 and 1 will make the output result smaller. |
+| scaleFactor | double | The scale factor for rendering. Values greater than 1 will enlarge the output result, while values between 0 and 1 will make the output result smaller. |
 
 **Returns:**
 [CadOptions](../../com.groupdocs.viewer.options/cadoptions) - a new instance of the  CadOptions  class for rendering by scale factor.
@@ -197,14 +197,14 @@ For code example, see the [documentation][].
 [CadOptions](../../com.groupdocs.viewer.options/cadoptions) - a new instance of the  CadOptions  class for rendering by width and height.
 ### getScaleFactor() {#getScaleFactor--}
 ```
-public final float getScaleFactor()
+public final double getScaleFactor()
 ```
 
 
 Gets the scale factor for rendering. Values higher than 1 will enlarge the output result, while values between 0 and 1 will make the output result smaller.
 
 **Returns:**
-float - the scale factor for rendering.
+double - the scale factor for rendering.
 ### getWidth() {#getWidth--}
 ```
 public final int getWidth()

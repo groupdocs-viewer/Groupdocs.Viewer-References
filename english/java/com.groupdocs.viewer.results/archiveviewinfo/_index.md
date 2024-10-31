@@ -34,6 +34,7 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getFolders()](#getFolders--) | Retrieves the list of folders contained within the archive file. |
+| [setFolders(List<String> folders)](#setFolders-java.util.List-java.lang.String--) | Sets the list of folders contained within the archive file. |
 ### getFolders() {#getFolders--}
 ```
 public abstract List<String> getFolders()
@@ -44,3 +45,16 @@ Retrieves the list of folders contained within the archive file.
 
 **Returns:**
 java.util.List<java.lang.String> - the list of folders.
+### setFolders(List<String> folders) {#setFolders-java.util.List-java.lang.String--}
+```
+public abstract void setFolders(List<String> folders)
+```
+
+
+Sets the list of folders contained within the archive file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folders | java.util.List<java.lang.String> | the list of folders. |
+

@@ -3,7 +3,7 @@ title: Security
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides PDF document security options.
 type: docs
-weight: 27
+weight: 28
 url: /java/com.groupdocs.viewer.options/security/
 ---
 **Inheritance:**

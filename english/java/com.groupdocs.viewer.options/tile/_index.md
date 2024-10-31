@@ -3,7 +3,7 @@ title: Tile
 second_title: GroupDocs.Viewer for Java API Reference
 description: Represents drawing region.
 type: docs
-weight: 31
+weight: 32
 url: /java/com.groupdocs.viewer.options/tile/
 ---
 **Inheritance:**

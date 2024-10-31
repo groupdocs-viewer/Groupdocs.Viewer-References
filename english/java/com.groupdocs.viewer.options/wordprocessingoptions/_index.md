@@ -3,7 +3,7 @@ title: WordProcessingOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options for rendering word processing documents.
 type: docs
-weight: 36
+weight: 37
 url: /java/com.groupdocs.viewer.options/wordprocessingoptions/
 ---
 **Inheritance:**
@@ -48,17 +48,17 @@ Example usage:
 | [isRenderTrackedChanges()](#isRenderTrackedChanges--) | Indicates whether tracked changes (revisions) rendering is enabled. |
 | [setRenderTrackedChanges(boolean value)](#setRenderTrackedChanges-boolean-) | Sets whether tracked changes (revisions) rendering is enabled. |
 | [getLeftMargin()](#getLeftMargin--) | Retrieves the left page margin for HTML rendering. |
-| [setLeftMargin(Float leftMargin)](#setLeftMargin-java.lang.Float-) | Sets the left page margin for HTML rendering. |
+| [setLeftMargin(Double leftMargin)](#setLeftMargin-java.lang.Double-) | Sets the left page margin for HTML rendering. |
 | [getRightMargin()](#getRightMargin--) | Gets the right page margin for HTML rendering. |
-| [setRightMargin(Float rightMargin)](#setRightMargin-java.lang.Float-) | Sets the right page margin for HTML rendering. |
+| [setRightMargin(Double rightMargin)](#setRightMargin-java.lang.Double-) | Sets the right page margin for HTML rendering. |
 | [getTopMargin()](#getTopMargin--) | Retrieves the top page margin for HTML rendering. |
-| [setTopMargin(Float topMargin)](#setTopMargin-java.lang.Float-) | Sets the top page margin for HTML rendering. |
+| [setTopMargin(Double topMargin)](#setTopMargin-java.lang.Double-) | Sets the top page margin for HTML rendering. |
 | [isEnableOpenTypeFeatures()](#isEnableOpenTypeFeatures--) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
 | [setEnableOpenTypeFeatures(boolean enableOpenTypeFeatures)](#setEnableOpenTypeFeatures-boolean-) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
 | [isUnlinkTableOfContents()](#isUnlinkTableOfContents--) | Indicates whether table of contents navigation should be disabled when rendering to HTML or PDF. |
 | [setUnlinkTableOfContents(boolean unlinkTableOfContents)](#setUnlinkTableOfContents-boolean-) | Sets whether table of contents navigation should be disabled when rendering to HTML or PDF. |
 | [getBottomMargin()](#getBottomMargin--) | Bottom page margin (for HTML rendering only) |
-| [setBottomMargin(Float bottomMargin)](#setBottomMargin-java.lang.Float-) | Sets the bottom page margin for HTML rendering. |
+| [setBottomMargin(Double bottomMargin)](#setBottomMargin-java.lang.Double-) | Sets the bottom page margin for HTML rendering. |
 | [equals(Object o)](#equals-java.lang.Object-) | Check if the options are changed. |
 | [hashCode()](#hashCode--) | \{@inheritDoc\} |
 ### WordProcessingOptions() {#WordProcessingOptions--}
@@ -138,7 +138,7 @@ For details, see the [documentation][].
 
 ### getLeftMargin() {#getLeftMargin--}
 ```
-public Float getLeftMargin()
+public Double getLeftMargin()
 ```
 
 
@@ -150,10 +150,10 @@ For details, see the [documentation][].
 [documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Returns:**
-java.lang.Float - the left page margin value.
-### setLeftMargin(Float leftMargin) {#setLeftMargin-java.lang.Float-}
+java.lang.Double - the left page margin value.
+### setLeftMargin(Double leftMargin) {#setLeftMargin-java.lang.Double-}
 ```
-public void setLeftMargin(Float leftMargin)
+public void setLeftMargin(Double leftMargin)
 ```
 
 
@@ -167,11 +167,11 @@ For details, see the [documentation][].
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| leftMargin | java.lang.Float | The left page margin value to set. |
+| leftMargin | java.lang.Double | The left page margin value to set. |
 
 ### getRightMargin() {#getRightMargin--}
 ```
-public Float getRightMargin()
+public Double getRightMargin()
 ```
 
 
@@ -183,10 +183,10 @@ For details, see the [documentation][].
 [documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Returns:**
-java.lang.Float - the right page margin value.
-### setRightMargin(Float rightMargin) {#setRightMargin-java.lang.Float-}
+java.lang.Double - the right page margin value.
+### setRightMargin(Double rightMargin) {#setRightMargin-java.lang.Double-}
 ```
-public void setRightMargin(Float rightMargin)
+public void setRightMargin(Double rightMargin)
 ```
 
 
@@ -200,11 +200,11 @@ For details, see the [documentation][].
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rightMargin | java.lang.Float | The right page margin value to set. |
+| rightMargin | java.lang.Double | The right page margin value to set. |
 
 ### getTopMargin() {#getTopMargin--}
 ```
-public Float getTopMargin()
+public Double getTopMargin()
 ```
 
 
@@ -216,10 +216,10 @@ For details, see the [documentation][].
 [documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Returns:**
-java.lang.Float - the top page margin.
-### setTopMargin(Float topMargin) {#setTopMargin-java.lang.Float-}
+java.lang.Double - the top page margin.
+### setTopMargin(Double topMargin) {#setTopMargin-java.lang.Double-}
 ```
-public void setTopMargin(Float topMargin)
+public void setTopMargin(Double topMargin)
 ```
 
 
@@ -233,7 +233,7 @@ For details, see the [documentation][].
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| topMargin | java.lang.Float | The top page margin to set. |
+| topMargin | java.lang.Double | The top page margin to set. |
 
 ### isEnableOpenTypeFeatures() {#isEnableOpenTypeFeatures--}
 ```
@@ -283,7 +283,7 @@ Sets whether table of contents navigation should be disabled when rendering to H
 
 ### getBottomMargin() {#getBottomMargin--}
 ```
-public Float getBottomMargin()
+public Double getBottomMargin()
 ```
 
 
@@ -295,10 +295,10 @@ For details, see the [documentation][].
 [documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Returns:**
-java.lang.Float - the bottom page margin.
-### setBottomMargin(Float bottomMargin) {#setBottomMargin-java.lang.Float-}
+java.lang.Double - the bottom page margin.
+### setBottomMargin(Double bottomMargin) {#setBottomMargin-java.lang.Double-}
 ```
-public void setBottomMargin(Float bottomMargin)
+public void setBottomMargin(Double bottomMargin)
 ```
 
 
@@ -312,7 +312,7 @@ For details, see the [documentation][].
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bottomMargin | java.lang.Float | The bottom page margin to set. |
+| bottomMargin | java.lang.Double | The bottom page margin to set. |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```
