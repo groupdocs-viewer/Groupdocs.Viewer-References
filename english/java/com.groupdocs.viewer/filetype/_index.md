@@ -92,6 +92,7 @@ Example usage:
 | [TIFF](#TIFF) | Represents a Tagged Image File Format (.tiff), which represents raster images that are meant for usage on a variety of devices that comply with this file format standard. |
 | [JPG](#JPG) | Represents a JPEG Image (.jpg), which is a type of image format that is saved using the method of lossy compression. |
 | [JPEG](#JPEG) | Represents a JPEG Image (.jpeg), which is a type of image format that is saved using the method of lossy compression. |
+| [JFIF](#JFIF) | JPEG File Interchange Format (.jfif) is image that was developed for fast exchange between platforms. |
 | [PNG](#PNG) | Represents a Portable Network Graphic (.png), which is a type of raster image file format that uses lossless compression. |
 | [GIF](#GIF) | Represents a Graphical Interchange Format File (.gif), which is a type of highly compressed image. |
 | [APNG](#APNG) | Represents an Animated Portable Network Graphic (.apng), which is an extension of the PNG format that supports animation. |
@@ -825,6 +826,17 @@ Represents a JPEG Image (.jpeg), which is a type of image format that is saved u
 
 
 [here]: https://wiki.fileformat.com/image/jpeg
+
+### JFIF {#JFIF}
+```
+public static final FileType JFIF
+```
+
+
+JPEG File Interchange Format (.jfif) is image that was developed for fast exchange between platforms. This format uses JPEG compression.Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/image/jfif
 
 ### PNG {#PNG}
 ```

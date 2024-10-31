@@ -33,6 +33,7 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getNotesCount()](#getNotesCount--) | Retrieves the count of notes in the storage. |
+| [setNotesCount(int count)](#setNotesCount-int-) | Sets the count of notes in the storage. |
 ### getNotesCount() {#getNotesCount--}
 ```
 public abstract int getNotesCount()
@@ -43,3 +44,16 @@ Retrieves the count of notes in the storage.
 
 **Returns:**
 int - the count of notes in the storage.
+### setNotesCount(int count) {#setNotesCount-int-}
+```
+public abstract void setNotesCount(int count)
+```
+
+
+Sets the count of notes in the storage.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| count | int | the count of notes in the storage. |
+

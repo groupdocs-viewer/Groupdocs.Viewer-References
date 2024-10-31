@@ -45,10 +45,13 @@ Example usage:
 | --- | --- |
 | [DEFAULT_URL_CONNECT_TIMEOUT](#DEFAULT-URL-CONNECT-TIMEOUT) |  |
 | [DEFAULT_URL_READ_TIMEOUT](#DEFAULT-URL-READ-TIMEOUT) |  |
+| [_tryRepair](#-tryRepair) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [isTryRepair()](#isTryRepair--) | When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. |
+| [setTryRepair(boolean tryRepair)](#setTryRepair-boolean-) | When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. |
 | [getFileType()](#getFileType--) | Gets the type of the file to open. |
 | [setFileType(FileType value)](#setFileType-com.groupdocs.viewer.FileType-) | Sets the type of the file to open. |
 | [getPassword()](#getPassword--) | Gets the password for opening an encrypted file. |
@@ -111,6 +114,47 @@ public static final int DEFAULT_URL_CONNECT_TIMEOUT
 public static final int DEFAULT_URL_READ_TIMEOUT
 ```
 
+
+### _tryRepair {#-tryRepair}
+```
+public boolean _tryRepair
+```
+
+
+### isTryRepair() {#isTryRepair--}
+```
+public boolean isTryRepair()
+```
+
+
+When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. Default value is false.
+
+This feature addresses the following issues in a PDF document:
+
+ *  Broken references within the document (incorrect object offsets in the Cross-reference list).
+ *  Missing critical elements like root object, page object, or page content.
+ *  Circular references (Form X-object referencing itself).
+
+**Returns:**
+boolean
+### setTryRepair(boolean tryRepair) {#setTryRepair-boolean-}
+```
+public void setTryRepair(boolean tryRepair)
+```
+
+
+When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. Default value is false.
+
+This feature addresses the following issues in a PDF document:
+
+ *  Broken references within the document (incorrect object offsets in the Cross-reference list).
+ *  Missing critical elements like root object, page object, or page content.
+ *  Circular references (Form X-object referencing itself).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tryRepair | boolean |  |
 
 ### getFileType() {#getFileType--}
 ```

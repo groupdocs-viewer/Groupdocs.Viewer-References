@@ -3,7 +3,7 @@ title: VisioRenderingOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Contains options for rendering Visio documents.
 type: docs
-weight: 34
+weight: 35
 url: /java/com.groupdocs.viewer.options/visiorenderingoptions/
 ---
 **Inheritance:**

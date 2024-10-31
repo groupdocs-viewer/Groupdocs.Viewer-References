@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Text files splitting to pages options.
 type: docs
-weight: 30
+weight: 31
 url: /java/com.groupdocs.viewer.options/textoptions/
 ---
 **Inheritance:**

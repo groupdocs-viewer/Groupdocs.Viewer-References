@@ -36,8 +36,11 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getName()](#getName--) | Retrieves the name of the layout. |
+| [setName(String name)](#setName-java.lang.String-) | Sets the name of the layout. |
 | [getWidth()](#getWidth--) | Retrieves the width of the layout. |
+| [setWidth(double width)](#setWidth-double-) | Sets the width of the layout. |
 | [getHeight()](#getHeight--) | Retrieves the height of the layout. |
+| [setHeight(double height)](#setHeight-double-) | Sets the height of the layout. |
 | [equals(Object other)](#equals-java.lang.Object-) | Checks if this object is equal to the provided object. |
 ### getName() {#getName--}
 ```
@@ -49,6 +52,19 @@ Retrieves the name of the layout.
 
 **Returns:**
 java.lang.String - the name of the layout.
+### setName(String name) {#setName-java.lang.String-}
+```
+public abstract void setName(String name)
+```
+
+
+Sets the name of the layout.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name to set for the layout. |
+
 ### getWidth() {#getWidth--}
 ```
 public abstract double getWidth()
@@ -59,6 +75,19 @@ Retrieves the width of the layout.
 
 **Returns:**
 double - the width of the layout.
+### setWidth(double width) {#setWidth-double-}
+```
+public abstract void setWidth(double width)
+```
+
+
+Sets the width of the layout.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | double | The width to set for the layout. |
+
 ### getHeight() {#getHeight--}
 ```
 public abstract double getHeight()
@@ -69,6 +98,19 @@ Retrieves the height of the layout.
 
 **Returns:**
 double - the height of the layout.
+### setHeight(double height) {#setHeight-double-}
+```
+public abstract void setHeight(double height)
+```
+
+
+Sets the height of the layout.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| height | double | The height to set for the layout. |
+
 ### equals(Object other) {#equals-java.lang.Object-}
 ```
 public abstract boolean equals(Object other)
