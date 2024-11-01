@@ -26,7 +26,6 @@ public class ArchiveOptions
 | --- | --- |
 | [FileName](../../groupdocs.viewer.options/archiveoptions/filename) { get; set; } | Sets the displayed archive file name. |
 | [Folder](../../groupdocs.viewer.options/archiveoptions/folder) { get; set; } | Sets the folder to be rendered. |
-| [ItemsPerPage](../../groupdocs.viewer.options/archiveoptions/itemsperpage) { get; set; } | Number of records per page (for rendering to HTML only) |
 
 ### See Also
 
