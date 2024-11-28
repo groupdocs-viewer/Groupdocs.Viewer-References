@@ -3,7 +3,7 @@ title: TGA
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Truevision TGA Truevision Advanced Raster Adapter  TARGA is used to store bitmap digital images developed by TRUEVISION. Learn more about this file format herehttps//wiki.fileformat.com/image/tga.
 type: docs
-weight: 1560
+weight: 1570
 url: /net/groupdocs.viewer/filetype/tga/
 ---
 ## FileType.TGA field

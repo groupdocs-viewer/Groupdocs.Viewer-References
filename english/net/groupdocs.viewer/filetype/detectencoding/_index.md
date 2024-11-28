@@ -3,7 +3,7 @@ title: DetectEncoding
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Attempts to detect text TXTgroupdocs.viewer/filetype/txt TSVgroupdocs.viewer/filetype/tsv and CSVgroupdocs.viewer/filetype/csv files encoding by path.
 type: docs
-weight: 2070
+weight: 2080
 url: /net/groupdocs.viewer/filetype/detectencoding/
 ---
 ## DetectEncoding(string) {#detectencoding_1}
