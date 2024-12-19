@@ -11,14 +11,14 @@ url: /net/groupdocs.viewer.options/wordprocessingoptions/
 Contains options for rendering Word documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/).
 
 ```csharp
-public class WordProcessingOptions
+public class WordProcessingOptions : ICloneable, IEquatable<WordProcessingOptions>
 ```
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [WordProcessingOptions](wordprocessingoptions)() | Contains options for rendering word processing documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/#render-tracked-changes). |
+| [WordProcessingOptions](wordprocessingoptions)() | Contains options for rendering word processing documents. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-word-documents/). |
 
 ## Properties
 
@@ -32,6 +32,14 @@ public class WordProcessingOptions
 | [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | Sets the right margin of a page. |
 | [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | Sets the top margin of a page. |
 | [UnlinkTableOfContents](../../groupdocs.viewer.options/wordprocessingoptions/unlinktableofcontents) { get; set; } | When rendering to HTML or PDF, you can set this option to `true` to disable navigation from the table of contents. For HTML rendering, `a` tags with relative links will be replaced with `span` tags, removing functionality but preserving visual appearance. For PDF rendering, the table of contents will be rendered as plain text without links to document sections. |
+| [UpdateFields](../../groupdocs.viewer.options/wordprocessingoptions/updatefields) { get; set; } | Gets or sets a value determining if fields of certain types should be updated before saving the input WordProcessing document to the HTML, PDF, PNG, or JPEG output formats. Default value for this property is `true` — fields will be updated before saving. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Clone](../../groupdocs.viewer.options/wordprocessingoptions/clone)() | Creates and returns a full deep copy of this options |
+| [Equals](../../groupdocs.viewer.options/wordprocessingoptions/equals#equals)(WordProcessingOptions) | Determines whether specified instance of [`WordProcessingOptions`](../wordprocessingoptions) is equal to this |
 
 ### See Also
 

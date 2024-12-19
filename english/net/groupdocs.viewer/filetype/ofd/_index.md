@@ -1,14 +1,14 @@
 ---
 title: OFD
 second_title: GroupDocs.Viewer for .NET API Reference
-description: OfficeForms Document OFD format is a document format created by the OfficeForms a form creation and distribution software developed by Toplevel Computing Ltd. It contains a form that a user can edit with OfficeForms or fill out with Toplevel Form Filler. OFD files were most often used by government agencies in the United Kingdom to transmit information between employees and departments.
+description: Open Fixedlayout Document OFD format defined by GB/T 331902016 aims to replace PDF in Chinese public institutions
 type: docs
 weight: 1040
 url: /net/groupdocs.viewer/filetype/ofd/
 ---
 ## FileType.OFD field
 
-OfficeForms Document (OFD) format is a document format, created by the OfficeForms, a form creation and distribution software, developed by Toplevel Computing Ltd. It contains a form that a user can edit with OfficeForms or fill out with Toplevel Form Filler. OFD files were most often used by government agencies in the United Kingdom to transmit information between employees and departments.
+Open Fixed-layout Document (OFD) format defined by GB/T 33190-2016 aims to replace PDF in Chinese public institutions
 
 ```csharp
 public static readonly FileType OFD;
