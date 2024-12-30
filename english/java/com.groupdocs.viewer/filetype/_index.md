@@ -53,6 +53,10 @@ Example usage:
 | [GZIP](#GZIP) | Represents a Gnu Zipped File (.gzip) compressed file introduced as a free utility for replacing the Compress program used in Unix systems. |
 | [SEVEN_ZIP](#SEVEN-ZIP) | Represents a 7Zip (.7z, .7zip) file, which is a free open-source archiver with LZMA and LZMA2 compression. |
 | [CPIO](#CPIO) | Cpio is a general file archiver utility and its associated file format. |
+| [ZSTANDARD](#ZSTANDARD) | ZST file is a compressed file that is generated with the Zstandard (zstd) compression algorithm. |
+| [TZST](#TZST) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
+| [TAR_ZST](#TAR-ZST) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
+| [ISO](#ISO) | ISO optical disc image is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD, based on the ISO-9660 standard. |
 | [DXF](#DXF) | Represents a Drawing Exchange Format File (.dxf), which is a tagged data representation of an AutoCAD drawing file. |
 | [DWG](#DWG) | Represents an AutoCAD Drawing Database File (.dwg), which represents proprietary binary files used for containing 2D and 3D design data. |
 | [DWT](#DWT) | Represents an AutoCAD Drawing Template (.dwt), which is an AutoCAD drawing template file used as a starter for creating drawings that can be saved as DWG files. |
@@ -400,6 +404,44 @@ Cpio is a general file archiver utility and its associated file format. It is pr
 
 
 [here]: https://wiki.fileformat.com/compression/cpio
+
+### ZSTANDARD {#ZSTANDARD}
+```
+public static final FileType ZSTANDARD
+```
+
+
+ZST file is a compressed file that is generated with the Zstandard (zstd) compression algorithm. It is a compressed file that is created with lossless compression by the algorithm. ZST files can be used to compress different types of files such as databases, file systems, networks, and games. Learn more about this file format [here][].
+
+
+[here]: https://docs.fileformat.com/compression/zst/
+
+### TZST {#TZST}
+```
+public static final FileType TZST
+```
+
+
+TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files.
+
+### TAR_ZST {#TAR-ZST}
+```
+public static final FileType TAR_ZST
+```
+
+
+TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files.
+
+### ISO {#ISO}
+```
+public static final FileType ISO
+```
+
+
+ISO optical disc image is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD, based on the ISO-9660 standard. Learn more about this file format [here][].
+
+
+[here]: https://docs.fileformat.com/compression/iso/
 
 ### DXF {#DXF}
 ```

@@ -64,6 +64,8 @@ Example usage:
 | [setFixedLayout(boolean fixedLayout)](#setFixedLayout-boolean-) | PDF is a fixed format so all of the elements have a specific place on a page. |
 | [isWrapImagesInSvg()](#isWrapImagesInSvg--) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
 | [setWrapImagesInSvg(boolean wrapImagesInSvg)](#setWrapImagesInSvg-boolean-) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
+| [isFixLinkIssue()](#isFixLinkIssue--) | Tries to fix the issue when whole HTML page content is a link. |
+| [setFixLinkIssue(boolean fixLinkIssue)](#setFixLinkIssue-boolean-) | Tries to fix the issue when whole HTML page content is a link. |
 | [isDisableFontLicenseVerifications()](#isDisableFontLicenseVerifications--) | Disable any license restrictions for all fonts in current XPS/OXPS document. |
 | [setDisableFontLicenseVerifications(boolean disableFontLicenseVerifications)](#setDisableFontLicenseVerifications-boolean-) | Set the flag to disable any license restrictions for all fonts in current XPS/OXPS document. |
 ### PdfOptions() {#PdfOptions--}
@@ -408,6 +410,29 @@ Learn more:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | wrapImagesInSvg | boolean |  true  if images should be wrapped in SVG,  false  otherwise. |
+
+### isFixLinkIssue() {#isFixLinkIssue--}
+```
+public boolean isFixLinkIssue()
+```
+
+
+Tries to fix the issue when whole HTML page content is a link. Works only when input format is PDF and output format is HTML (with embedded or external resources). By default is disabled (false). Turn it on only when you know what and why you're doing. Turing this option on increases the document processing time.
+
+**Returns:**
+boolean
+### setFixLinkIssue(boolean fixLinkIssue) {#setFixLinkIssue-boolean-}
+```
+public void setFixLinkIssue(boolean fixLinkIssue)
+```
+
+
+Tries to fix the issue when whole HTML page content is a link. Works only when input format is PDF and output format is HTML (with embedded or external resources). By default is disabled (false). Turn it on only when you know what and why you're doing. Turing this option on increases the document processing time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fixLinkIssue | boolean | true if the issue should be fixed, false otherwise. |
 
 ### isDisableFontLicenseVerifications() {#isDisableFontLicenseVerifications--}
 ```
