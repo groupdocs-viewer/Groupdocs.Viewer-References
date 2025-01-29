@@ -3,7 +3,7 @@ title: PPS
 second_title: GroupDocs.Viewer for .NET API Reference
 description: PowerPoint Slide Show .pps are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 972003. Learn more about this file format herehttps//wiki.fileformat.com/presentation/pps.
 type: docs
-weight: 1210
+weight: 1220
 url: /net/groupdocs.viewer/filetype/pps/
 ---
 ## FileType.PPS field

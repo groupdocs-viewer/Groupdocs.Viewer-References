@@ -3,7 +3,7 @@ title: VSTM
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Visio MacroEnabled Drawing Template .vstm are template files created with Microsoft Visio that support macros. Unlike VSDX files files created from VSTM templates can run macros that are developed in Visual Basic for Applications VBA code. Learn more about this file format herehttps//wiki.fileformat.com/image/vstm.
 type: docs
-weight: 1780
+weight: 1790
 url: /net/groupdocs.viewer/filetype/vstm/
 ---
 ## FileType.VSTM field

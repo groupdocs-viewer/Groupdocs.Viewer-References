@@ -18,13 +18,13 @@ public interface IAuxDisposable : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [IsDisposed](../../groupdocs.viewer/iauxdisposable/isdisposed) { get; } | Determines whether a resource is already disposed (`true`) or not (`false`) |
+| [IsDisposed](../../groupdocs.viewer/iauxdisposable/isdisposed) { get; } | Indicates whether a resource is already disposed (`true`) or not (`false`) |
 
 ## Events
 
 | Name | Description |
 | --- | --- |
-| event [Disposed](../../groupdocs.viewer/iauxdisposable/disposed) | Occurs when object is disposed, right after the disposing resources is successfully completed |
+| event [Disposed](../../groupdocs.viewer/iauxdisposable/disposed) | Occurs when object is disposed, right after the resources disposing is successfully completed |
 
 ### See Also
 

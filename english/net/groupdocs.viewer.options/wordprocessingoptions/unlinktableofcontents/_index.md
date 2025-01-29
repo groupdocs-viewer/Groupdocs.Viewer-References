@@ -3,7 +3,7 @@ title: UnlinkTableOfContents
 second_title: GroupDocs.Viewer for .NET API Reference
 description: When rendering to HTML or PDF you can set this option to true to disable navigation from the table of contents. For HTML rendering a tags with relative links will be replaced with span tags removing functionality but preserving visual appearance. For PDF rendering the table of contents will be rendered as plain text without links to document sections.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.viewer.options/wordprocessingoptions/unlinktableofcontents/
 ---
 ## WordProcessingOptions.UnlinkTableOfContents property

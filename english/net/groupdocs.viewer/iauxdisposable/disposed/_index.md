@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Occurs when object is disposed right after the disposing resources is successfully completed
+description: Occurs when object is disposed right after the resources disposing is successfully completed
 type: docs
 weight: 20
 url: /net/groupdocs.viewer/iauxdisposable/disposed/
 ---
 ## IAuxDisposable.Disposed event
 
-Occurs when object is disposed, right after the disposing resources is successfully completed
+Occurs when object is disposed, right after the resources disposing is successfully completed
 
 ```csharp
 public event EventHandler Disposed;
