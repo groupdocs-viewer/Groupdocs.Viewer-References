@@ -134,6 +134,7 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [JS](../../groupdocs.viewer/filetype/js) | JavaScript File (.js) |
 | static readonly [JSON](../../groupdocs.viewer/filetype/json) | JavaScript Object Notation File (.json) |
 | static readonly [LESS](../../groupdocs.viewer/filetype/less) | LESS Style Sheet (.less) |
+| static readonly [Lha](../../groupdocs.viewer/filetype/lha) | LHA or LZH is a freeware compression utility and associated file format. Learn more about this file format [here](https://docs.fileformat.com/compression/lzh/). |
 | static readonly [LOG](../../groupdocs.viewer/filetype/log) | Log File (.log) |
 | static readonly [M](../../groupdocs.viewer/filetype/m) | Objective-C Implementation File (.m) |
 | static readonly [MAKE](../../groupdocs.viewer/filetype/make) | Xcode Makefile Script (.make) |

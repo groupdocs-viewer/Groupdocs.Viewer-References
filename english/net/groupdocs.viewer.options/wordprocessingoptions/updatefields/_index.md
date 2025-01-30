@@ -3,7 +3,7 @@ title: UpdateFields
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Gets or sets a value determining if fields of certain types should be updated before saving the input WordProcessing document to the HTML PDF PNG or JPEG output formats. Default value for this property is true  fields will be updated before saving.
 type: docs
-weight: 100
+weight: 110
 url: /net/groupdocs.viewer.options/wordprocessingoptions/updatefields/
 ---
 ## WordProcessingOptions.UpdateFields property

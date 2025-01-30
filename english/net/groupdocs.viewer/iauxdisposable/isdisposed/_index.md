@@ -1,14 +1,14 @@
 ---
 title: IsDisposed
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Determines whether a resource is already disposed true or not false
+description: Indicates whether a resource is already disposed true or not false
 type: docs
 weight: 10
 url: /net/groupdocs.viewer/iauxdisposable/isdisposed/
 ---
 ## IAuxDisposable.IsDisposed property
 
-Determines whether a resource is already disposed (`true`) or not (`false`)
+Indicates whether a resource is already disposed (`true`) or not (`false`)
 
 ```csharp
 public bool IsDisposed { get; }
