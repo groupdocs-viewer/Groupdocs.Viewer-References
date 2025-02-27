@@ -3,7 +3,7 @@ title: GetViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns information about view and document specific information.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.viewer/viewer/getviewinfo/
 ---
 ## GetViewInfo(ViewInfoOptions) {#getviewinfo}

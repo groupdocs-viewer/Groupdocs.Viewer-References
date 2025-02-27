@@ -3,7 +3,7 @@ title: Character
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents relatively positioned rectangle which contains single character.
 type: docs
-weight: 780
+weight: 790
 url: /net/groupdocs.viewer.results/character/
 ---
 ## Character class

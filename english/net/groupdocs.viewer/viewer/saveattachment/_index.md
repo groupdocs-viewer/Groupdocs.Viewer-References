@@ -3,7 +3,7 @@ title: SaveAttachment
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Saves attachment file to destination stream.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.viewer/viewer/saveattachment/
 ---
 ## SaveAttachment(Attachment, Stream, CancellationToken) {#saveattachment_1}

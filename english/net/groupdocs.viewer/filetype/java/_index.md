@@ -3,7 +3,7 @@ title: JAVA
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Java Source Code File .java
 type: docs
-weight: 700
+weight: 710
 url: /net/groupdocs.viewer/filetype/java/
 ---
 ## FileType.JAVA field

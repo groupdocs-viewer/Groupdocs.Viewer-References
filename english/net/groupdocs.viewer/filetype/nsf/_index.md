@@ -3,7 +3,7 @@ title: NSF
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Lotus Notes Database .nsf Learn more about this file format herehttps//fileinfo.com/extension/nsf.
 type: docs
-weight: 980
+weight: 990
 url: /net/groupdocs.viewer/filetype/nsf/
 ---
 ## FileType.NSF field

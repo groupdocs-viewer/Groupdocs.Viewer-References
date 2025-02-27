@@ -3,7 +3,7 @@ title: Tzst
 second_title: GroupDocs.Viewer for .NET API Reference
 description: TZST files .tar.zst .tzst are Zstandard archives ZST which internally contain a Consolidated Unix File Archive Tar created with Unixbased utility for collecting one or more files.
 type: docs
-weight: 1650
+weight: 1660
 url: /net/groupdocs.viewer/filetype/tzst/
 ---
 ## FileType.Tzst field

@@ -3,7 +3,7 @@ title: WordProcessingOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering Word documents. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderworddocuments/.
 type: docs
-weight: 740
+weight: 750
 url: /net/groupdocs.viewer.options/wordprocessingoptions/
 ---
 ## WordProcessingOptions class
@@ -28,7 +28,6 @@ public class WordProcessingOptions : ICloneable, IEquatable<WordProcessingOption
 | [EnableOpenTypeFeatures](../../groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures) { get; set; } | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian Latin-based, or Cyrillic-based scripts. |
 | [LeftMargin](../../groupdocs.viewer.options/wordprocessingoptions/leftmargin) { get; set; } | Sets the left margin of a page. |
 | [PageSize](../../groupdocs.viewer.options/wordprocessingoptions/pagesize) { get; set; } | The size of the output page. The default value is Unspecified which means that a page size is set in a page settings (Page Setup) is used.  When rendering HTM and HTML files the default page size is set to Letter 792 x 612 points. As a result, some of the content may not fit into the page frame. Set a larger page size e.g. A3 to fit the contents. |
-| [RemoveJavaScript](../../groupdocs.viewer.options/wordprocessingoptions/removejavascript) { get; set; } | Allows to remove the JavaScript source code from the links in resultant HTML document, when rendering input WordProcessing documents, which have VBA scripts. By default is enabled (`true`). |
 | [RenderTrackedChanges](../../groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges) { get; set; } | Enables tracked changes (revisions) rendering. |
 | [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | Sets the right margin of a page. |
 | [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | Sets the top margin of a page. |

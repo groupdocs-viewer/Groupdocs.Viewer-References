@@ -3,7 +3,7 @@ title: View
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Creates view of all document pages.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.viewer/viewer/view/
 ---
 ## View(ViewOptions) {#view}

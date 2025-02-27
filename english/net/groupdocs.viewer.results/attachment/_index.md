@@ -3,7 +3,7 @@ title: Attachment
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents attachment file contained by email message archive PDF document or Outlook data file.
 type: docs
-weight: 760
+weight: 770
 url: /net/groupdocs.viewer.results/attachment/
 ---
 ## Attachment class

@@ -14,6 +14,7 @@ The namespace provides classes and enumerations to manage fonts used during rend
 | --- | --- |
 | [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType fonts. |
 | [FontSettings](./fontsettings) | Provides methods for working with sources to look for TrueType fonts. |
+| [UsedFontInfo](./usedfontinfo) | Represents info about one font (including its binary data), which is used in some document |
 ## Interfaces
 
 | Interface | Description |

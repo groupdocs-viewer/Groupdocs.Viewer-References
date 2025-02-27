@@ -3,7 +3,7 @@ title: RenderToSinglePage
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables rendering an entire document to one HTML file.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.viewer.options/htmlviewoptions/rendertosinglepage/
 ---
 ## HtmlViewOptions.RenderToSinglePage property

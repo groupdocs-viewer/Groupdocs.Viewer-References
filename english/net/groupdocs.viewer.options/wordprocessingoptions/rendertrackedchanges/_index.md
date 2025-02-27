@@ -3,7 +3,7 @@ title: RenderTrackedChanges
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables tracked changes revisions rendering.
 type: docs
-weight: 70
+weight: 60
 url: /net/groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges/
 ---
 ## WordProcessingOptions.RenderTrackedChanges property

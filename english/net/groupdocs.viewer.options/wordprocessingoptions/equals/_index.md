@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Determines whether specified instance of WordProcessingOptionsgroupdocs.viewer.options/wordprocessingoptions is equal to this
 type: docs
-weight: 130
+weight: 120
 url: /net/groupdocs.viewer.options/wordprocessingoptions/equals/
 ---
 ## WordProcessingOptions.Equals method

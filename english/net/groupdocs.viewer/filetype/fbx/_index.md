@@ -3,7 +3,7 @@ title: FBX
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Autodesk FBX Interchange File FilmBoX .fbx represents 3D model format. Learn more about this file format herehttps//wiki.fileformat.com/cad/fbx.
 type: docs
-weight: 500
+weight: 510
 url: /net/groupdocs.viewer/filetype/fbx/
 ---
 ## FileType.FBX field
