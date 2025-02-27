@@ -3,7 +3,7 @@ title: Clone
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Creates and returns a full deep copy of this options
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.viewer.options/wordprocessingoptions/clone/
 ---
 ## WordProcessingOptions.Clone method

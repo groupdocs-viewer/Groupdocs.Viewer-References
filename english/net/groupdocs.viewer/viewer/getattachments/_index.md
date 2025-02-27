@@ -3,7 +3,7 @@ title: GetAttachments
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns attachments contained by the document.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.viewer/viewer/getattachments/
 ---
 ## GetAttachments() {#getattachments}

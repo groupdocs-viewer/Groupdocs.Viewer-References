@@ -3,7 +3,7 @@ title: OFD
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Open Fixedlayout Document OFD format defined by GB/T 331902016 aims to replace PDF in Chinese public institutions
 type: docs
-weight: 1050
+weight: 1060
 url: /net/groupdocs.viewer/filetype/ofd/
 ---
 ## FileType.OFD field

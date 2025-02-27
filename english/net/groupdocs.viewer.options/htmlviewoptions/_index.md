@@ -3,7 +3,7 @@ title: HtmlViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering documents into HTML format. For details see the topichttps//docs.groupdocs.com/viewer/net/renderingtohtml/ and its children.
 type: docs
-weight: 440
+weight: 450
 url: /net/groupdocs.viewer.options/htmlviewoptions/
 ---
 ## HtmlViewOptions class
@@ -36,6 +36,7 @@ public class HtmlViewOptions : ViewOptions
 | [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | The presentation files view options. |
 | [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | The project management files view options. |
 | [RemoveComments](../../groupdocs.viewer.options/baseviewoptions/removecomments) { get; set; } | Disables rendering comments when set to `true`. By default is `false` — all comments are displayed. |
+| [RemoveJavaScript](../../groupdocs.viewer.options/htmlviewoptions/removejavascript) { get; set; } | Allows to remove the JavaScript source code from the links in resultant HTML documents, when rendering input documents, which have the scripts. By default is enabled (`true`). |
 | [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | Enables rendering of hidden pages. |
 | [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | Enables rendering notes. |
 | [RenderResponsive](../../groupdocs.viewer.options/htmlviewoptions/renderresponsive) { get; set; } | Enables responsive rendering. |

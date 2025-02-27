@@ -3,7 +3,7 @@ title: TXT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Plain Text File .txt represents a text document that contains plain text in the form of lines. Learn more about this file format herehttps//wiki.fileformat.com/wordprocessing/txt.
 type: docs
-weight: 1630
+weight: 1640
 url: /net/groupdocs.viewer/filetype/txt/
 ---
 ## FileType.TXT field

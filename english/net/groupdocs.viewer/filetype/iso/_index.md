@@ -3,7 +3,7 @@ title: Iso
 second_title: GroupDocs.Viewer for .NET API Reference
 description: ISO optical disc image is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD based on the ISO9660 standard. Learn more about this file format herehttps//docs.fileformat.com/compression/iso/.
 type: docs
-weight: 670
+weight: 680
 url: /net/groupdocs.viewer/filetype/iso/
 ---
 ## FileType.Iso field

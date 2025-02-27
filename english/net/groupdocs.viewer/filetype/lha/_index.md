@@ -3,7 +3,7 @@ title: Lha
 second_title: GroupDocs.Viewer for .NET API Reference
 description: LHA or LZH is a freeware compression utility and associated file format. Learn more about this file format herehttps//docs.fileformat.com/compression/lzh/.
 type: docs
-weight: 830
+weight: 840
 url: /net/groupdocs.viewer/filetype/lha/
 ---
 ## FileType.Lha field

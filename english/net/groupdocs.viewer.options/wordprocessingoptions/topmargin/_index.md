@@ -3,7 +3,7 @@ title: TopMargin
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Sets the top margin of a page.
 type: docs
-weight: 90
+weight: 80
 url: /net/groupdocs.viewer.options/wordprocessingoptions/topmargin/
 ---
 ## WordProcessingOptions.TopMargin property

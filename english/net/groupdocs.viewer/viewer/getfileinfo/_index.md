@@ -3,7 +3,7 @@ title: GetFileInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns information about file such as filetype and flag that indicates if file is encrypted.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.viewer/viewer/getfileinfo/
 ---
 ## Viewer.GetFileInfo method

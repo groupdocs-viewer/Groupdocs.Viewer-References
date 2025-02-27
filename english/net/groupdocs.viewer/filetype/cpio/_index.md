@@ -3,7 +3,7 @@ title: CPIO
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Cpio is a general file archiver utility and its associated file format. It is primarily installed on Unixlike computer operating systems. Learn more about this file format herehttps//wiki.fileformat.com/compression/cpio.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.viewer/filetype/cpio/
 ---
 ## FileType.CPIO field

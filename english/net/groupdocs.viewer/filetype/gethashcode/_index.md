@@ -3,7 +3,7 @@ title: GetHashCode
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns the hash code for the current FileTypegroupdocs.viewer/filetype object.
 type: docs
-weight: 2070
+weight: 2080
 url: /net/groupdocs.viewer/filetype/gethashcode/
 ---
 ## FileType.GetHashCode method

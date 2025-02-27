@@ -3,7 +3,7 @@ title: WMF
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Windows Metafile .wmf represents Microsoft Windows Metafile WMF for storing vector as well as bitmapformat images data. Learn more about this file format herehttps//wiki.fileformat.com/image/wmf.
 type: docs
-weight: 1840
+weight: 1850
 url: /net/groupdocs.viewer/filetype/wmf/
 ---
 ## FileType.WMF field

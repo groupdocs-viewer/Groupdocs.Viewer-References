@@ -3,7 +3,7 @@ title: PdfViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering documents into PDF format. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderingtopdf/.
 type: docs
-weight: 540
+weight: 550
 url: /net/groupdocs.viewer.options/pdfviewoptions/
 ---
 ## PdfViewOptions class

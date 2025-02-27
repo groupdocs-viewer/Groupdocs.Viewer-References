@@ -3,7 +3,7 @@ title: Viewer
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents main class that controls document rendering process.
 type: docs
-weight: 930
+weight: 940
 url: /net/groupdocs.viewer/viewer/
 ---
 ## Viewer class
@@ -40,6 +40,7 @@ public class Viewer : IDisposable
 | Name | Description |
 | --- | --- |
 | [Dispose](../../groupdocs.viewer/viewer/dispose)() | Releases file stream and managed internal resources. |
+| [GetAllFonts](../../groupdocs.viewer/viewer/getallfonts)() | Returns all fonts, used in the loaded documents, including those, which are embedded inside the document itself and those system fonts, which are installed in the OS and used in the document |
 | [GetAttachments](../../groupdocs.viewer/viewer/getattachments#getattachments)() | Returns attachments contained by the document. |
 | [GetAttachments](../../groupdocs.viewer/viewer/getattachments#getattachments_1)(CancellationToken) | Returns attachments contained by the document. |
 | [GetFileInfo](../../groupdocs.viewer/viewer/getfileinfo)() | Returns information about file such as file-type and flag that indicates if file is encrypted. |

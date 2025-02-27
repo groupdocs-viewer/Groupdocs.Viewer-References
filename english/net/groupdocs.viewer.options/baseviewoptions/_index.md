@@ -3,7 +3,7 @@ title: BaseViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains the base rendering options.
 type: docs
-weight: 390
+weight: 400
 url: /net/groupdocs.viewer.options/baseviewoptions/
 ---
 ## BaseViewOptions class

@@ -3,7 +3,7 @@ title: SCALA
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Scala Source Code File .scala
 type: docs
-weight: 1420
+weight: 1430
 url: /net/groupdocs.viewer/filetype/scala/
 ---
 ## FileType.SCALA field

@@ -3,7 +3,7 @@ title: RenderResponsive
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables responsive rendering.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.viewer.options/htmlviewoptions/renderresponsive/
 ---
 ## HtmlViewOptions.RenderResponsive property

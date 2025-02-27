@@ -14,6 +14,10 @@ Enables a new HTML rendering mode for the Presentation documents — in this mod
 public bool RenderToPureHtml { get; set; }
 ```
 
+### Remarks
+
+For code sample, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/#generate-pure-htmlcss-markup).
+
 ### See Also
 
 * class [PresentationOptions](../../presentationoptions)

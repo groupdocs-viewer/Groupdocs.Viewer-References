@@ -3,7 +3,7 @@ title: FileInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains information about file.
 type: docs
-weight: 790
+weight: 800
 url: /net/groupdocs.viewer.results/fileinfo/
 ---
 ## FileInfo class

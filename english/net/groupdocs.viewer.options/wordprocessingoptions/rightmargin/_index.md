@@ -3,7 +3,7 @@ title: RightMargin
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Sets the right margin of a page.
 type: docs
-weight: 80
+weight: 70
 url: /net/groupdocs.viewer.options/wordprocessingoptions/rightmargin/
 ---
 ## WordProcessingOptions.RightMargin property
