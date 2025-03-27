@@ -3,7 +3,7 @@ title: Size
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains the watermark size.
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.viewer.options/size/
 ---
 ## Size class

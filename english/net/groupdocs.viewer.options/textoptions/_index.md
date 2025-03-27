@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Text files splitting to pages options.
 type: docs
-weight: 660
+weight: 670
 url: /net/groupdocs.viewer.options/textoptions/
 ---
 ## TextOptions class

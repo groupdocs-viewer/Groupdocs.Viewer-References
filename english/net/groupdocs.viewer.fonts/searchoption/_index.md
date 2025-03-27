@@ -3,7 +3,7 @@ title: SearchOption
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Specifies whether to search the current folder or the current folder and all subfolders.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.viewer.fonts/searchoption/
 ---
 ## SearchOption enumeration

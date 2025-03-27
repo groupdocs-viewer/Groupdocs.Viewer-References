@@ -18,7 +18,7 @@ public FileName FileName { get; set; }
 
 By default, GroupDocs.Viewer displays the archive file name in the header of each page. To change or hide this name, set this property.
 
-For more information and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/#specify-the-archive-file-name).
+For more information and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/render-archive-files/#specify-the-archive-document-name).
 
 ### See Also
 

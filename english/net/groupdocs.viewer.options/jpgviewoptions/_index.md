@@ -3,7 +3,7 @@ title: JpgViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for rendering documents into JPG format. For details see this pagehttps//docs.groupdocs.com/viewer/net/renderingtopngorjpeg/ and its children.
 type: docs
-weight: 480
+weight: 490
 url: /net/groupdocs.viewer.options/jpgviewoptions/
 ---
 ## JpgViewOptions class

@@ -3,7 +3,7 @@ title: Viewer
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents main class that controls document rendering process.
 type: docs
-weight: 940
+weight: 950
 url: /net/groupdocs.viewer/viewer/
 ---
 ## Viewer class

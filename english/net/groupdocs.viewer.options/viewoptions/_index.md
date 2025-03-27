@@ -3,7 +3,7 @@ title: ViewOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains the rendering options.
 type: docs
-weight: 710
+weight: 720
 url: /net/groupdocs.viewer.options/viewoptions/
 ---
 ## ViewOptions class

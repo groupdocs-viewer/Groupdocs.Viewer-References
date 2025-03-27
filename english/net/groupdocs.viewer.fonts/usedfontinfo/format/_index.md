@@ -1,21 +1,22 @@
 ---
-title: Style
+title: Format
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Font style name
+description: Returns a format of this font
 type: docs
-weight: 60
-url: /net/groupdocs.viewer.fonts/usedfontinfo/style/
+weight: 30
+url: /net/groupdocs.viewer.fonts/usedfontinfo/format/
 ---
-## UsedFontInfo.Style property
+## UsedFontInfo.Format property
 
-Font style name
+Returns a format of this font
 
 ```csharp
-public string Style { get; }
+public FontFormat Format { get; }
 ```
 
 ### See Also
 
+* enum [FontFormat](../../fontformat)
 * class [UsedFontInfo](../../usedfontinfo)
 * namespace [GroupDocs.Viewer.Fonts](../../../groupdocs.viewer.fonts)
 * assembly [GroupDocs.Viewer](../../../)
