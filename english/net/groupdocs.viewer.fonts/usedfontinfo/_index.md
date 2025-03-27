@@ -3,7 +3,7 @@ title: UsedFontInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents info about one font including its binary data which is used in some document
 type: docs
-weight: 220
+weight: 230
 url: /net/groupdocs.viewer.fonts/usedfontinfo/
 ---
 ## UsedFontInfo class
@@ -18,11 +18,16 @@ public sealed class UsedFontInfo
 
 | Name | Description |
 | --- | --- |
-| [Content](../../groupdocs.viewer.fonts/usedfontinfo/content) { get; } | Binary content of the font |
+| [Content](../../groupdocs.viewer.fonts/usedfontinfo/content) { get; } | Binary content of the font as a byte array |
 | [FamilyName](../../groupdocs.viewer.fonts/usedfontinfo/familyname) { get; } | Family name of the font |
+| [Format](../../groupdocs.viewer.fonts/usedfontinfo/format) { get; } | Returns a format of this font |
 | [IsEmbedded](../../groupdocs.viewer.fonts/usedfontinfo/isembedded) { get; } | Indicates whether this font is embedded in the document (`true`) or is used from the system directory (`false`) |
-| [Name](../../groupdocs.viewer.fonts/usedfontinfo/name) { get; } | Name of this font |
+| [Name](../../groupdocs.viewer.fonts/usedfontinfo/name) { get; } | Name of this font, never is null or empty string |
 | [Style](../../groupdocs.viewer.fonts/usedfontinfo/style) { get; } | Font style name |
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/getting-used-fonts/).
 
 ### See Also
 

@@ -1,14 +1,14 @@
 ---
 title: Content
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Binary content of the font
+description: Binary content of the font as a byte array
 type: docs
 weight: 10
 url: /net/groupdocs.viewer.fonts/usedfontinfo/content/
 ---
 ## UsedFontInfo.Content property
 
-Binary content of the font
+Binary content of the font as a byte array
 
 ```csharp
 public byte[] Content { get; }

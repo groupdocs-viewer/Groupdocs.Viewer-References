@@ -3,7 +3,7 @@ title: Watermark
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents a text watermark. For details see the documentationhttps//docs.groupdocs.com/viewer/net/addtextwatermark/.
 type: docs
-weight: 730
+weight: 740
 url: /net/groupdocs.viewer.options/watermark/
 ---
 ## Watermark class

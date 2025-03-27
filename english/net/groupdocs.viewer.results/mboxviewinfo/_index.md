@@ -3,7 +3,7 @@ title: MboxViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for Mbox files storage
 type: docs
-weight: 850
+weight: 860
 url: /net/groupdocs.viewer.results/mboxviewinfo/
 ---
 ## MboxViewInfo class

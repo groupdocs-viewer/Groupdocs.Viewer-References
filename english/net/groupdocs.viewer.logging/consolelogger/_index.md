@@ -3,7 +3,7 @@ title: ConsoleLogger
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Writes log messages to the console.
 type: docs
-weight: 350
+weight: 360
 url: /net/groupdocs.viewer.logging/consolelogger/
 ---
 ## ConsoleLogger class

@@ -3,7 +3,7 @@ title: ArchiveViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for archive file.
 type: docs
-weight: 760
+weight: 770
 url: /net/groupdocs.viewer.results/archiveviewinfo/
 ---
 ## ArchiveViewInfo class

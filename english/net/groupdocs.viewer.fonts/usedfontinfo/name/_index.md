@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Name of this font
+description: Name of this font never is null or empty string
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.viewer.fonts/usedfontinfo/name/
 ---
 ## UsedFontInfo.Name property
 
-Name of this font
+Name of this font, never is null or empty string
 
 ```csharp
 public string Name { get; }

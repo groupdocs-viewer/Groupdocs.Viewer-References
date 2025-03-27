@@ -16,7 +16,11 @@ public IReadOnlyList<UsedFontInfo> GetAllFonts()
 
 ### Return Value
 
-Non-null list of all fonts used by this document
+Non-null list of all fonts used in the document, loaded into this [`Viewer`](../../viewer) instance
+
+### Remarks
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/getting-used-fonts/).
 
 ### See Also
 

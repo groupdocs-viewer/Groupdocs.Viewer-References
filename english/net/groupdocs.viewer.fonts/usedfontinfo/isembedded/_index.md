@@ -3,7 +3,7 @@ title: IsEmbedded
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Indicates whether this font is embedded in the document true or is used from the system directory false
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.viewer.fonts/usedfontinfo/isembedded/
 ---
 ## UsedFontInfo.IsEmbedded property
