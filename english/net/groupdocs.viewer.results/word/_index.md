@@ -3,7 +3,7 @@ title: Word
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents relatively positioned rectangle which contains single word.
 type: docs
-weight: 940
+weight: 950
 url: /net/groupdocs.viewer.results/word/
 ---
 ## Word class
