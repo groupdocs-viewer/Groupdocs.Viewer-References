@@ -3,7 +3,7 @@ title: op_Equality
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Compares two Argb32Colorgroupdocs.viewer.drawing/argb32color colors and returns a boolean indicating if the two do match.
 type: docs
-weight: 270
+weight: 290
 url: /net/groupdocs.viewer.drawing/argb32color/op_equality/
 ---
 ## operator == {#op_equality}

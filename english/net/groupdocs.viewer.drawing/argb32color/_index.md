@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.drawing/argb32color/
 Represents 32-bit color in ARGB format, with 8 bits per every channel (Alpha, Red, Green, Blue). Supports transparency.
 
 ```csharp
-public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable<Rgb24Color>
+public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable<Rgb24Color>
 ```
 
 ## Properties
@@ -47,6 +47,8 @@ public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable
 | [GetHue](../../groupdocs.viewer.drawing/argb32color/gethue)() | Returns the Hue-Saturation-Lightness (HSL) hue value, in degrees, for this [`Argb32Color`](../argb32color) instance. If R == G == B, the hue is meaningless, and the return value is 0. |
 | [GetSaturation](../../groupdocs.viewer.drawing/argb32color/getsaturation)() | The Hue-Saturation-Lightness (HSL) saturation for this [`Argb32Color`](../argb32color) instance |
 | [ToArgb](../../groupdocs.viewer.drawing/argb32color/toargb)() | Returns the ARGB value of this [`Argb32Color`](../argb32color) instance, compatible with `System.Drawing.Color.ToArgb()` method |
+| [ToHexRGB](../../groupdocs.viewer.drawing/argb32color/tohexrgb)() | Serializes this [`Argb32Color`](../argb32color) instance to the hexadecimal notation `##RRGGBB` as a string without alpha channel |
+| [ToHexRGBA](../../groupdocs.viewer.drawing/argb32color/tohexrgba)() | Serializes this [`Argb32Color`](../argb32color) instance to the hexadecimal notation `##RRGGBBAA` as a string with alpha channel |
 | [ToRGB](../../groupdocs.viewer.drawing/argb32color/torgb)() | Serializes this [`Argb32Color`](../argb32color) instance to the 'rgb' CSS function notation. Alpha channel of this color will be omitted during serialization. |
 | [ToRGBA](../../groupdocs.viewer.drawing/argb32color/torgba)() | Serializes this [`Argb32Color`](../argb32color) instance to the 'rgba' CSS function notation |
 | override [ToString](../../groupdocs.viewer.drawing/argb32color/tostring)() | Serializes this [`Argb32Color`](../argb32color) instance to the most appropriate CSS function notation depending on translucency |

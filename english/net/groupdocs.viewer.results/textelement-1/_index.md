@@ -3,7 +3,7 @@ title: TextElementT
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents generic text element.
 type: docs
-weight: 920
+weight: 930
 url: /net/groupdocs.viewer.results/textelement-1/
 ---
 ## TextElement&lt;T&gt; class

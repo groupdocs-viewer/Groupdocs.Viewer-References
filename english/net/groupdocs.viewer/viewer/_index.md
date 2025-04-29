@@ -3,7 +3,7 @@ title: Viewer
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents main class that controls document rendering process.
 type: docs
-weight: 950
+weight: 960
 url: /net/groupdocs.viewer/viewer/
 ---
 ## Viewer class
@@ -48,6 +48,7 @@ public class Viewer : IDisposable
 | [GetViewInfo](../../groupdocs.viewer/viewer/getviewinfo#getviewinfo_1)(ViewInfoOptions, CancellationToken) | Returns information about view and document specific information. |
 | [SaveAttachment](../../groupdocs.viewer/viewer/saveattachment#saveattachment)(Attachment, Stream) | Saves attachment file to *destination* stream. |
 | [SaveAttachment](../../groupdocs.viewer/viewer/saveattachment#saveattachment_1)(Attachment, Stream, CancellationToken) | Saves attachment file to *destination* stream. |
+| [Search](../../groupdocs.viewer/viewer/search)(SearchHighlightOptions) | Performs a text search and its highlighting (if found) in the loaded document according to the loaded options |
 | [View](../../groupdocs.viewer/viewer/view#view)(ViewOptions) | Creates view of all document pages. |
 | [View](../../groupdocs.viewer/viewer/view#view_2)(ViewOptions, CancellationToken) | Creates view of all document pages. |
 | [View](../../groupdocs.viewer/viewer/view#view_1)(ViewOptions, params int[]) | Creates view of specific document pages. |

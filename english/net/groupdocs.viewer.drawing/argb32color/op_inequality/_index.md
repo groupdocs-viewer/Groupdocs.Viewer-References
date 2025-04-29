@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Compares two Argb32Colorgroupdocs.viewer.drawing/argb32color colors and returns a boolean indicating if the two do not match.
 type: docs
-weight: 300
+weight: 320
 url: /net/groupdocs.viewer.drawing/argb32color/op_inequality/
 ---
 ## operator != {#op_inequality}

@@ -30,6 +30,7 @@ The namespace provides classes to specify additional options when rendering docu
 | [PresentationOptions](./presentationoptions) | Contains options for rendering presentations. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-presentations/). |
 | [ProjectManagementOptions](./projectmanagementoptions) | Contains options for rendering project management files. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/). |
 | [Resolution](./resolution) | Contains option to set resolution for images in output document. |
+| [SearchHighlightOptions](./searchhighlightoptions) | Provides options for searching and highlighting text in the documents, loaded to the [`Viewer`](../groupdocs.viewer/viewer) class |
 | [Security](./security) | Contains the PDF document security options. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/protect-pdf-documents/). |
 | [Size](./size) | Contains the watermark size. |
 | [SpreadsheetOptions](./spreadsheetoptions) | Contains options for rendering spreadsheets. For details, see children of the [Render spreadsheet files](https://docs.groupdocs.com/viewer/net/render-spreadsheets/) topic. |
