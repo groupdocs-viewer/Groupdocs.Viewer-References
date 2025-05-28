@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer.drawing/argb32color/
 Represents 32-bit color in ARGB format, with 8 bits per every channel (Alpha, Red, Green, Blue). Supports transparency.
 
 ```csharp
-public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable<Rgb24Color>
+public struct Argb32Color : IEquatable<>, IEquatable<Argb32Color>, IEquatable<Rgb24Color>
 ```
 
 ## Properties
