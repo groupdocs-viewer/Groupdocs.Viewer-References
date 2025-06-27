@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains page rotation in degrees clockwise.
 type: docs
-weight: 630
+weight: 640
 url: /net/groupdocs.viewer.options/rotation/
 ---
 ## Rotation enumeration

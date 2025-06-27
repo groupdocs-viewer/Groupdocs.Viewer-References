@@ -3,7 +3,7 @@ title: PdfOptimizationOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains the PDF optimization options to apply to the output PDF file. For details and code samples see this pagehttps//docs.groupdocs.com/viewer/net/optimizationpdfoptions/ and its children.
 type: docs
-weight: 540
+weight: 550
 url: /net/groupdocs.viewer.options/pdfoptimizationoptions/
 ---
 ## PdfOptimizationOptions class

@@ -3,7 +3,7 @@ title: Layer
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents layer contained by the CAD drawing.
 type: docs
-weight: 830
+weight: 840
 url: /net/groupdocs.viewer.results/layer/
 ---
 ## Layer class

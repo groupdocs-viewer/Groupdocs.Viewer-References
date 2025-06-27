@@ -24,7 +24,7 @@ For details, see the [documentation](https://docs.groupdocs.com/viewer/net/getti
 
 ### See Also
 
-* class [UsedFontInfo](../../../groupdocs.viewer.fonts/usedfontinfo)
+* struct [UsedFontInfo](../../../groupdocs.viewer.fonts/usedfontinfo)
 * class [Viewer](../../viewer)
 * namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)

@@ -3,7 +3,7 @@ title: Tile
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents the drawing region.
 type: docs
-weight: 700
+weight: 710
 url: /net/groupdocs.viewer.options/tile/
 ---
 ## Tile class

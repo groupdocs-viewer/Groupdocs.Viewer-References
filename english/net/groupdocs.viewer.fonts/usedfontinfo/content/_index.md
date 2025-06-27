@@ -1,14 +1,14 @@
 ---
 title: Content
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Binary content of the font as a byte array
+description: Content of this font as a byte array. If there is only metainfo about this font but its binary content is unavailable this property returns null.
 type: docs
-weight: 10
+weight: 20
 url: /net/groupdocs.viewer.fonts/usedfontinfo/content/
 ---
 ## UsedFontInfo.Content property
 
-Binary content of the font as a byte array
+Content of this font as a byte array. If there is only metainfo about this font, but its binary content is unavailable, this property returns `null`.
 
 ```csharp
 public byte[] Content { get; }
@@ -16,7 +16,7 @@ public byte[] Content { get; }
 
 ### See Also
 
-* class [UsedFontInfo](../../usedfontinfo)
+* struct [UsedFontInfo](../../usedfontinfo)
 * namespace [GroupDocs.Viewer.Fonts](../../../groupdocs.viewer.fonts)
 * assembly [GroupDocs.Viewer](../../../)
 

@@ -3,7 +3,7 @@ title: SearchHighlightOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides options for searching and highlighting text in the documents loaded to the Viewer../groupdocs.viewer/viewer class
 type: docs
-weight: 640
+weight: 650
 url: /net/groupdocs.viewer.options/searchhighlightoptions/
 ---
 ## SearchHighlightOptions class
