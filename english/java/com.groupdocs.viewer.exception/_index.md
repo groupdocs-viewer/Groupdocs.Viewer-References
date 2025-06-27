@@ -3,7 +3,7 @@ title: com.groupdocs.viewer.exception
 second_title: GroupDocs.Viewer for Java API Reference
 description: The package provides classes for exceptions that can occur while working with a document.
 type: docs
-weight: 13
+weight: 15
 url: /java/com.groupdocs.viewer.exception/
 ---
 

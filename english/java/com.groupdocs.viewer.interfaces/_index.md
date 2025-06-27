@@ -3,7 +3,7 @@ title: com.groupdocs.viewer.interfaces
 second_title: GroupDocs.Viewer for Java API Reference
 description: The package provides interfaces for instantiating and releasing the output document and its resources.
 type: docs
-weight: 15
+weight: 17
 url: /java/com.groupdocs.viewer.interfaces/
 ---
 

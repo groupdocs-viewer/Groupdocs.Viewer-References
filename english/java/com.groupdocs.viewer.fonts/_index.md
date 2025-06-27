@@ -3,7 +3,7 @@ title: com.groupdocs.viewer.fonts
 second_title: GroupDocs.Viewer for Java API Reference
 description: The package provides classes and enumerations to manage fonts used during the rendering process.
 type: docs
-weight: 14
+weight: 16
 url: /java/com.groupdocs.viewer.fonts/
 ---
 
