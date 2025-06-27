@@ -13,8 +13,8 @@ is_root: true
 | [com.groupdocs.viewer](./com.groupdocs.viewer) | The package provides classes for rendering documents in HTML5, Image, or PDF modes with fast and high-quality results. |
 | [com.groupdocs.viewer.caching](./com.groupdocs.viewer.caching) | The package provides classes for customizing caching behavior. |
 | [com.groupdocs.viewer.caching.extra](./com.groupdocs.viewer.caching.extra) | The package provides functionality for using custom models in cache implementation. |
-| [com.groupdocs.viewer.drawing](./com.groupdocs.viewer.drawing) | The package provides types that replaces platform-specific graphics types like Color.. |
-| [com.groupdocs.viewer.drawing.rgb24color](./com.groupdocs.viewer.drawing.rgb24color) |  |
+| [com.groupdocs.viewer.drawing](./com.groupdocs.viewer.drawing) | The package provides types that replaces platform-specific graphics types like Color. |
+| [com.groupdocs.viewer.drawing.rgb24color](./com.groupdocs.viewer.drawing.rgb24color) | Contains all \\u201cknown colors\\u201d, that have fixed unique name and value in CSS standard. |
 | [com.groupdocs.viewer.exception](./com.groupdocs.viewer.exception) | The package provides classes for exceptions that can occur while working with a document. |
 | [com.groupdocs.viewer.fonts](./com.groupdocs.viewer.fonts) | The package provides classes and enumerations to manage fonts used during the rendering process. |
 | [com.groupdocs.viewer.interfaces](./com.groupdocs.viewer.interfaces) | The package provides interfaces for instantiating and releasing the output document and its resources. |

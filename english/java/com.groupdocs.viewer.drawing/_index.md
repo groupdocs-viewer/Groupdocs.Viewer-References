@@ -1,13 +1,13 @@
 ---
 title: com.groupdocs.viewer.drawing
 second_title: GroupDocs.Viewer for Java API Reference
-description: The package provides types that replaces platform-specific graphics types like Color..
+description: The package provides types that replaces platform-specific graphics types like Color.
 type: docs
 weight: 13
 url: /java/com.groupdocs.viewer.drawing/
 ---
 
-The package provides types that replaces platform-specific graphics types like Color..
+The package provides types that replaces platform-specific graphics types like Color.
 
 The main classes and interfaces in this package are:
 
