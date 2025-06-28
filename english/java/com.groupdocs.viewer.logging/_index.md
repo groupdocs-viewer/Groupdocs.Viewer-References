@@ -3,7 +3,7 @@ title: com.groupdocs.viewer.logging
 second_title: GroupDocs.Viewer for Java API Reference
 description: The package provides classes for configuring the logging system in GroupDocs.Viewer.
 type: docs
-weight: 16
+weight: 18
 url: /java/com.groupdocs.viewer.logging/
 ---
 
