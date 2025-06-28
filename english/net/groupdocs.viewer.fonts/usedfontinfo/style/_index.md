@@ -1,22 +1,23 @@
 ---
 title: Style
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Font style name
+description: Style of the font  may be Regular Bold Italic or Bold Italic. For the PDF documents may be only Regular style.
 type: docs
 weight: 60
 url: /net/groupdocs.viewer.fonts/usedfontinfo/style/
 ---
 ## UsedFontInfo.Style property
 
-Font style name
+Style of the font — may be Regular, Bold, Italic, or Bold Italic. For the PDF documents may be only Regular style.
 
 ```csharp
-public string Style { get; }
+public FontStyles Style { get; }
 ```
 
 ### See Also
 
-* class [UsedFontInfo](../../usedfontinfo)
+* enum [FontStyles](../../fontstyles)
+* struct [UsedFontInfo](../../usedfontinfo)
 * namespace [GroupDocs.Viewer.Fonts](../../../groupdocs.viewer.fonts)
 * assembly [GroupDocs.Viewer](../../../)
 

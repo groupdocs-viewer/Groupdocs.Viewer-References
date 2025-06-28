@@ -1,33 +1,40 @@
 ---
 title: UsedFontInfo
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Represents info about one font including its binary data which is used in some document
+description: Represents metainfo and binary data of the one font used in the content of the document loaded into the Viewer../groupdocs.viewer/viewer instance
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.viewer.fonts/usedfontinfo/
 ---
-## UsedFontInfo class
+## UsedFontInfo structure
 
-Represents info about one font (including its binary data), which is used in some document
+Represents metainfo and binary data of the one font, used in the content of the document, loaded into the [`Viewer`](../../groupdocs.viewer/viewer) instance
 
 ```csharp
-public sealed class UsedFontInfo
+public struct UsedFontInfo
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Content](../../groupdocs.viewer.fonts/usedfontinfo/content) { get; } | Binary content of the font as a byte array |
-| [FamilyName](../../groupdocs.viewer.fonts/usedfontinfo/familyname) { get; } | Family name of the font |
-| [Format](../../groupdocs.viewer.fonts/usedfontinfo/format) { get; } | Returns a format of this font |
-| [IsEmbedded](../../groupdocs.viewer.fonts/usedfontinfo/isembedded) { get; } | Indicates whether this font is embedded in the document (`true`) or is used from the system directory (`false`) |
-| [Name](../../groupdocs.viewer.fonts/usedfontinfo/name) { get; } | Name of this font, never is null or empty string |
-| [Style](../../groupdocs.viewer.fonts/usedfontinfo/style) { get; } | Font style name |
+| [Charset](../../groupdocs.viewer.fonts/usedfontinfo/charset) { get; } | Character set of this font. Returns valid number only for the WordProcessing and Spreadsheet format families, for all other formats returns `0` (zero). |
+| [Content](../../groupdocs.viewer.fonts/usedfontinfo/content) { get; } | Content of this font as a byte array. If there is only metainfo about this font, but its binary content is unavailable, this property returns `null`. |
+| [Format](../../groupdocs.viewer.fonts/usedfontinfo/format) { get; } | Format of this font. Documents may use fonts in the next formats: TrueType, TrueType Collection, OpenType, Embedded OpenType. If there is only metainfo about this font, but its binary content is unavailable, this property returns an Unknown value. |
+| [IsEmbedded](../../groupdocs.viewer.fonts/usedfontinfo/isembedded) { get; } | Indicates whether this font is embedded inside the document, loaded into the [`Viewer`](../../groupdocs.viewer/viewer) instance (`true`), or it is a system font (`false`). Spreadsheet documents cannot hold embedded fonts, so for them this property always returns `false`. |
+| [Name](../../groupdocs.viewer.fonts/usedfontinfo/name) { get; } | Name of the font, without style, never is null or empty string |
+| [Style](../../groupdocs.viewer.fonts/usedfontinfo/style) { get; } | Style of the font — may be Regular, Bold, Italic, or Bold Italic. For the PDF documents may be only Regular style. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SerializeToCss](../../groupdocs.viewer.fonts/usedfontinfo/serializetocss)(TextWriter) | Serializes this font info as a @font-face at-rule and writes it to the specified text writer |
+| override [ToString](../../groupdocs.viewer.fonts/usedfontinfo/tostring)() | Returns a debug info about this font data as the next template: "name style, embedded/system, format" |
 
 ### Remarks
 
-For details, see the [documentation](https://docs.groupdocs.com/viewer/net/getting-used-fonts/).
+Immutable struct. Its instances are produced and returned by the GroupDocs.Viewer public API and normally should not be created by the user. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/getting-used-fonts/).
 
 ### See Also
 

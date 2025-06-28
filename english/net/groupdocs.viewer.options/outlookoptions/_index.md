@@ -3,7 +3,7 @@ title: OutlookOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering Outlook data files. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderlotusnotesdatabasefiles/specifyrenderingoptions.
 type: docs
-weight: 520
+weight: 530
 url: /net/groupdocs.viewer.options/outlookoptions/
 ---
 ## OutlookOptions class

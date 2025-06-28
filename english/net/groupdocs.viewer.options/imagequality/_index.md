@@ -3,7 +3,7 @@ title: ImageQuality
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The quality of images in the output HTML contained by the PDF documents.
 type: docs
-weight: 480
+weight: 490
 url: /net/groupdocs.viewer.options/imagequality/
 ---
 ## ImageQuality enumeration

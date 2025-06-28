@@ -3,7 +3,7 @@ title: CreateResourceStream
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents the method that instantiates stream used to write output HTML resource data.
 type: docs
-weight: 270
+weight: 280
 url: /net/groupdocs.viewer.interfaces/createresourcestream/
 ---
 ## CreateResourceStream delegate

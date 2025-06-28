@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The size of the page.
 type: docs
-weight: 530
+weight: 540
 url: /net/groupdocs.viewer.options/pagesize/
 ---
 ## PageSize enumeration

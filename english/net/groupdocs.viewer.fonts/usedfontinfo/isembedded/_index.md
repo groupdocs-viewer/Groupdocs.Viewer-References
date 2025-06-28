@@ -1,14 +1,14 @@
 ---
 title: IsEmbedded
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Indicates whether this font is embedded in the document true or is used from the system directory false
+description: Indicates whether this font is embedded inside the document loaded into the Viewergroupdocs.viewer/viewer instance true or it is a system font false. Spreadsheet documents cannot hold embedded fonts so for them this property always returns false.
 type: docs
 weight: 40
 url: /net/groupdocs.viewer.fonts/usedfontinfo/isembedded/
 ---
 ## UsedFontInfo.IsEmbedded property
 
-Indicates whether this font is embedded in the document (`true`) or is used from the system directory (`false`)
+Indicates whether this font is embedded inside the document, loaded into the [`Viewer`](../../../groupdocs.viewer/viewer) instance (`true`), or it is a system font (`false`). Spreadsheet documents cannot hold embedded fonts, so for them this property always returns `false`.
 
 ```csharp
 public bool IsEmbedded { get; }
@@ -16,7 +16,7 @@ public bool IsEmbedded { get; }
 
 ### See Also
 
-* class [UsedFontInfo](../../usedfontinfo)
+* struct [UsedFontInfo](../../usedfontinfo)
 * namespace [GroupDocs.Viewer.Fonts](../../../groupdocs.viewer.fonts)
 * assembly [GroupDocs.Viewer](../../../)
 

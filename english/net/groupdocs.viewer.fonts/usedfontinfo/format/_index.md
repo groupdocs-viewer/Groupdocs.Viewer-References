@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Returns a format of this font
+description: Format of this font. Documents may use fonts in the next formats TrueType TrueType Collection OpenType Embedded OpenType. If there is only metainfo about this font but its binary content is unavailable this property returns an Unknown value.
 type: docs
 weight: 30
 url: /net/groupdocs.viewer.fonts/usedfontinfo/format/
 ---
 ## UsedFontInfo.Format property
 
-Returns a format of this font
+Format of this font. Documents may use fonts in the next formats: TrueType, TrueType Collection, OpenType, Embedded OpenType. If there is only metainfo about this font, but its binary content is unavailable, this property returns an Unknown value.
 
 ```csharp
 public FontFormat Format { get; }
@@ -17,7 +17,7 @@ public FontFormat Format { get; }
 ### See Also
 
 * enum [FontFormat](../../fontformat)
-* class [UsedFontInfo](../../usedfontinfo)
+* struct [UsedFontInfo](../../usedfontinfo)
 * namespace [GroupDocs.Viewer.Fonts](../../../groupdocs.viewer.fonts)
 * assembly [GroupDocs.Viewer](../../../)
 

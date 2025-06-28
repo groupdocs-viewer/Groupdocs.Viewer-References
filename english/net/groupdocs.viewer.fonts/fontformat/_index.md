@@ -19,8 +19,8 @@ public enum FontFormat : byte
 | Name | Value | Description |
 | --- | --- | --- |
 | Unknown | `0` | Unknown or invalid font format |
-| TrueTypeFont | `1` | TrueType font format (TTF) |
-| OpenTypeFont | `2` | OpenType font format (OTF) |
+| TrueType | `1` | TrueType font format (TTF) |
+| OpenType | `2` | OpenType font format (OTF) |
 | TrueTypeCollection | `3` | TrueType Collection font format (TTC) |
 | EmbeddedOpenType | `4` | Embedded OpenType font format (EOT) |
 

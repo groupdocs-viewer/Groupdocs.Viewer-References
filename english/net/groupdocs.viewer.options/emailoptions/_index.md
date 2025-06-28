@@ -3,7 +3,7 @@ title: EmailOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering email messages. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderemailmessages/.
 type: docs
-weight: 430
+weight: 440
 url: /net/groupdocs.viewer.options/emailoptions/
 ---
 ## EmailOptions class
