@@ -20,7 +20,7 @@ url: /ar/
 هذه روابط لبعض المصادر المفيدة:
 
 - [GroupDocs.Viewer لمرجع .NET API](/viewer/ar/net/)
-- [GroupDocs.Viewer لبرامج .NET API التعليمية](/tutorials/viewer/ar/net/)
+- [GroupDocs.Viewer لبرامج .NET API التعليمية](https://tutorials.groupdocs.com/viewer/ar/net/)
 
 
 ## GroupDocs.Viewer لجافا

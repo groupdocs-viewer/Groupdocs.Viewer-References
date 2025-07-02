@@ -20,7 +20,7 @@ Multi-format document viewer API för .NET- och Mono-ramverk för att återge 17
 Det här är länkar till några användbara resurser:
 
 - [GroupDocs.Viewer för .NET API-referens](/viewer/sv/net/)
-- [Guider för GroupDocs.Viewer för .NET API](/tutorials/viewer/sv/net/)
+- [Guider för GroupDocs.Viewer för .NET API](https://tutorials.groupdocs.com/viewer/sv/net/)
 
 
 ## GroupDocs.Viewer för Java

@@ -20,7 +20,7 @@ Documentviewer-API voor meerdere indelingen voor .NET- en Mono-frameworks om mee
 Dit zijn links naar enkele nuttige bronnen:
 
 - [GroupDocs.Viewer voor .NET API-referentie](/viewer/nl/net/)
-- [GroupDocs.Viewer voor .NET API-zelfstudies](/tutorials/viewer/nl/net/)
+- [GroupDocs.Viewer voor .NET API-zelfstudies](https://tutorials.groupdocs.com/viewer/nl/net/)
 
 
 ## GroupDocs.Viewer voor Java

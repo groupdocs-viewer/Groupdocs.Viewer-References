@@ -20,7 +20,7 @@ url: /ko/
 다음은 몇 가지 유용한 리소스에 대한 링크입니다.
 
 - [.NET API 참조용 GroupDocs.Viewer](/viewer/ko/net/)
-- [.NET API 자습서용 GroupDocs.Viewer](/tutorials/viewer/ko/net/)
+- [.NET API 자습서용 GroupDocs.Viewer](https://tutorials.groupdocs.com/viewer/ko/net/)
 
 
 ## Java용 GroupDocs.Viewer
