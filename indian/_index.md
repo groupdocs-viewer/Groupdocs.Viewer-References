@@ -20,7 +20,7 @@ url: /hi/
 ये कुछ उपयोगी संसाधनों के लिंक हैं:
 
 - [.NET API संदर्भ के लिए GroupDocs.Viewer](/viewer/hi/net/)
-- [.NET API ट्यूटोरियल के लिए GroupDocs.Viewer](/tutorials/viewer/hi/net/)
+- [.NET API ट्यूटोरियल के लिए GroupDocs.Viewer](https://tutorials.groupdocs.com/viewer/hi/net/)
 
 
 ## Java के लिए GroupDocs.Viewer
