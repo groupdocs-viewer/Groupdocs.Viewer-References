@@ -20,6 +20,7 @@ url: /zh/
 这些是一些有用资源的链接：
 
 - [GroupDocs.Viewer for .NET API 参考](/viewer/zh/net/)
+- [适用于 .NET API 教程的 GroupDocs.Viewer](/tutorials/viewer/zh/net/)
 
 
 ## GroupDocs.Viewer for Java

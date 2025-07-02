@@ -20,6 +20,7 @@ Uygulamalarınızdan 170'den fazla popüler dosya biçimini oluşturmak için .N
 Bunlar, bazı yararlı kaynaklara bağlantılar:
 
 - [.NET API Başvurusu için GroupDocs.Viewer](/viewer/tr/net/)
+- [.NET API Eğitimleri için GroupDocs.Viewer](/tutorials/viewer/tr/net/)
 
 
 ## Java için GroupDocs.Viewer

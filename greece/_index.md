@@ -20,6 +20,7 @@ API προβολής εγγράφων πολλαπλών μορφών για π�
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
 
 - [GroupDocs.Viewer για Αναφορά API .NET](/viewer/el/net/)
+- [GroupDocs.Viewer για Εκπαιδευτικά προγράμματα API .NET](/tutorials/viewer/el/net/)
 
 
 ## GroupDocs.Viewer για Java
