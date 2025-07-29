@@ -16,8 +16,6 @@ public List<string> FontsToExclude { get; set; }
 
 ### Remarks
 
-This option is supported for presentations only.
-
 The fonts that are added into the HTML document improve stability of the output view, at the same time they increase the size of the rendering result. This option lets you balance between stability and output size. Include the font names that are popular and installed into most systems.
 
 Please note, this property is active only when the [`ExcludeFonts`](../excludefonts) options is disabled.
