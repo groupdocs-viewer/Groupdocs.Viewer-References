@@ -3,7 +3,7 @@ title: ViewInfoOptions
 second_title: GroupDocs.Viewer for Java API Reference
 description: Provides options used for retrieving information about view.
 type: docs
-weight: 33
+weight: 34
 url: /java/com.groupdocs.viewer.options/viewinfooptions/
 ---
 **Inheritance:**

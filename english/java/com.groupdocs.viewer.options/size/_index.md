@@ -3,7 +3,7 @@ title: Size
 second_title: GroupDocs.Viewer for Java API Reference
 description: Contains the watermark size.
 type: docs
-weight: 29
+weight: 30
 url: /java/com.groupdocs.viewer.options/size/
 ---
 **Inheritance:**

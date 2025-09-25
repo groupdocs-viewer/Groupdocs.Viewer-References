@@ -57,6 +57,8 @@ Example usage:
 | [TZST](#TZST) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
 | [TAR_ZST](#TAR-ZST) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
 | [ISO](#ISO) | ISO optical disc image is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD, based on the ISO-9660 standard. |
+| [LHA](#LHA) | LHA or LZH is a freeware compression utility and associated file format. |
+| [CAB](#CAB) | Cabinet (or CAB) is an archive-file format for Microsoft Windows. |
 | [DXF](#DXF) | Represents a Drawing Exchange Format File (.dxf), which is a tagged data representation of an AutoCAD drawing file. |
 | [DWG](#DWG) | Represents an AutoCAD Drawing Database File (.dwg), which represents proprietary binary files used for containing 2D and 3D design data. |
 | [DWT](#DWT) | Represents an AutoCAD Drawing Template (.dwt), which is an AutoCAD drawing template file used as a starter for creating drawings that can be saved as DWG files. |
@@ -442,6 +444,28 @@ ISO optical disc image is an uncompressed archive disk image file that represent
 
 
 [here]: https://docs.fileformat.com/compression/iso/
+
+### LHA {#LHA}
+```
+public static final FileType LHA
+```
+
+
+LHA or LZH is a freeware compression utility and associated file format. Learn more about this file format [here][].
+
+
+[here]: https://docs.fileformat.com/compression/lzh/
+
+### CAB {#CAB}
+```
+public static final FileType CAB
+```
+
+
+Cabinet (or CAB) is an archive-file format for Microsoft Windows. Learn more about this file format [here][].
+
+
+[here]: https://en.wikipedia.org/wiki/Cabinet_%28file_format%29
 
 ### DXF {#DXF}
 ```

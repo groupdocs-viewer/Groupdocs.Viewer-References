@@ -66,6 +66,8 @@ Example usage:
 | [setWrapImagesInSvg(boolean wrapImagesInSvg)](#setWrapImagesInSvg-boolean-) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
 | [isFixLinkIssue()](#isFixLinkIssue--) | Tries to fix the issue when whole HTML page content is a link. |
 | [setFixLinkIssue(boolean fixLinkIssue)](#setFixLinkIssue-boolean-) | Tries to fix the issue when whole HTML page content is a link. |
+| [isAnalyzeFonts()](#isAnalyzeFonts--) | Replaces fonts as necessary to ensure all characters in the text can be displayed. |
+| [setAnalyzeFonts(boolean analyzeFonts)](#setAnalyzeFonts-boolean-) | Replaces fonts as necessary to ensure all characters in the text can be displayed. |
 | [isDisableFontLicenseVerifications()](#isDisableFontLicenseVerifications--) | Disable any license restrictions for all fonts in current XPS/OXPS document. |
 | [setDisableFontLicenseVerifications(boolean disableFontLicenseVerifications)](#setDisableFontLicenseVerifications-boolean-) | Set the flag to disable any license restrictions for all fonts in current XPS/OXPS document. |
 ### PdfOptions() {#PdfOptions--}
@@ -433,6 +435,29 @@ Tries to fix the issue when whole HTML page content is a link. Works only when i
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fixLinkIssue | boolean | true if the issue should be fixed, false otherwise. |
+
+### isAnalyzeFonts() {#isAnalyzeFonts--}
+```
+public boolean isAnalyzeFonts()
+```
+
+
+Replaces fonts as necessary to ensure all characters in the text can be displayed.
+
+**Returns:**
+boolean
+### setAnalyzeFonts(boolean analyzeFonts) {#setAnalyzeFonts-boolean-}
+```
+public void setAnalyzeFonts(boolean analyzeFonts)
+```
+
+
+Replaces fonts as necessary to ensure all characters in the text can be displayed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| analyzeFonts | boolean | true if the fonts should be displayed, false otherwise. |
 
 ### isDisableFontLicenseVerifications() {#isDisableFontLicenseVerifications--}
 ```

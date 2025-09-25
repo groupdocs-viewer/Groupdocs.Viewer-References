@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Viewer for Java API Reference
 description: The size of the page.
 type: docs
-weight: 41
+weight: 42
 url: /java/com.groupdocs.viewer.options/pagesize/
 ---
 **Inheritance:**

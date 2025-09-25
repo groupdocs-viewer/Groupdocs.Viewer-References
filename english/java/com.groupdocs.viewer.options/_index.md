@@ -45,6 +45,7 @@ For more details on configuring the logging system in GroupDocs.Viewer and custo
 | [PngViewOptions](../com.groupdocs.viewer.options/pngviewoptions) | Provides options for rendering documents into PNG format. |
 | [PresentationOptions](../com.groupdocs.viewer.options/presentationoptions) | Provides options for rendering presentations options. |
 | [ProjectManagementOptions](../com.groupdocs.viewer.options/projectmanagementoptions) | Provides options for rendering project management files. |
+| [SearchHighlightOptions](../com.groupdocs.viewer.options/searchhighlightoptions) | Provides options for searching and highlighting text in the documents, loaded to the [Viewer](../com.groupdocs.viewer/viewer) class. |
 | [Security](../com.groupdocs.viewer.options/security) | Provides PDF document security options. |
 | [Size](../com.groupdocs.viewer.options/size) | Contains the watermark size. |
 | [SpreadsheetOptions](../com.groupdocs.viewer.options/spreadsheetoptions) | Provides options for rendering spreadsheets. |
@@ -70,6 +71,7 @@ For more details on configuring the logging system in GroupDocs.Viewer and custo
 | [ImageQuality](../com.groupdocs.viewer.options/imagequality) | The quality of images in the output HTML contained by the PDF documents. |
 | [PageSize](../com.groupdocs.viewer.options/pagesize) | The size of the page. |
 | [Position](../com.groupdocs.viewer.options/position) | Defines watermark position. |
+| [Resolution](../com.groupdocs.viewer.options/resolution) | Provides option to set resolution for images : output document. |
 | [Rotation](../com.groupdocs.viewer.options/rotation) | Contains page rotation in degrees (clockwise). |
 | [TextOverflowMode](../com.groupdocs.viewer.options/textoverflowmode) | Defines text overflow mode for rendering spreadsheet documents into HTML. |
 | [TimeUnit](../com.groupdocs.viewer.options/timeunit) | Time unit of the project duration. |
