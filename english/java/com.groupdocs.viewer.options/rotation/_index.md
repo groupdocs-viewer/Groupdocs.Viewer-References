@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Viewer for Java API Reference
 description: Contains page rotation in degrees clockwise.
 type: docs
-weight: 43
+weight: 45
 url: /java/com.groupdocs.viewer.options/rotation/
 ---
 **Inheritance:**

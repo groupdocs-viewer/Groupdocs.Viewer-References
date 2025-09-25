@@ -3,7 +3,7 @@ title: TextOverflowMode
 second_title: GroupDocs.Viewer for Java API Reference
 description: Defines text overflow mode for rendering spreadsheet documents into HTML.
 type: docs
-weight: 44
+weight: 46
 url: /java/com.groupdocs.viewer.options/textoverflowmode/
 ---
 **Inheritance:**

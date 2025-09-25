@@ -54,6 +54,7 @@ Represents 32-bit color in ARGB format, with 8 bits per channel (Alpha, Red, Gre
 | [toHexRGB()](#toHexRGB--) | Serializes this instance to hexadecimal \#RRGGBB notation (without alpha). |
 | [toString()](#toString--) | Returns the string representation using the most appropriate CSS notation. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Equality comparison with another Argb32Color. |
+| [hashCode()](#hashCode--) |  |
 | [equals(Argb32Color other)](#equals-com.groupdocs.viewer.drawing.Argb32Color-) | Compares this color with another Argb32Color. |
 | [equals(Rgb24Color other)](#equals-com.groupdocs.viewer.drawing.Rgb24Color-) | Compares this color with a Rgb24Color. |
 | [toRgb24Color()](#toRgb24Color--) | Cast this Argb32Color to Rgb24Color, losing alpha channel. |
@@ -376,6 +377,16 @@ Equality comparison with another Argb32Color.
 
 **Returns:**
 boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### equals(Argb32Color other) {#equals-com.groupdocs.viewer.drawing.Argb32Color-}
 ```
 public boolean equals(Argb32Color other)
