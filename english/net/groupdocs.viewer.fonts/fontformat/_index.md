@@ -1,14 +1,14 @@
 ---
 title: FontFormat
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Represents all font formats which may be present in the UsedFontInfo./usedfontinfo class
+description: Represents all font formats which may be present in the IFontInfo./ifontinfo inheritors
 type: docs
 weight: 190
 url: /net/groupdocs.viewer.fonts/fontformat/
 ---
 ## FontFormat enumeration
 
-Represents all font formats, which may be present in the [`UsedFontInfo`](../usedfontinfo) class
+Represents all font formats, which may be present in the [`IFontInfo`](../ifontinfo) inheritors
 
 ```csharp
 public enum FontFormat : byte

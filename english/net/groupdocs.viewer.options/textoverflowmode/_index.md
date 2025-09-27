@@ -3,7 +3,7 @@ title: TextOverflowMode
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Sets the text overflow mode for rendering spreadsheet documents into HTML.
 type: docs
-weight: 700
+weight: 750
 url: /net/groupdocs.viewer.options/textoverflowmode/
 ---
 ## TextOverflowMode enumeration
@@ -19,7 +19,7 @@ public enum TextOverflowMode
 | Name | Value | Description |
 | --- | --- | --- |
 | Overlay | `0` | Overlay next cells even they are not empty. |
-| OverlayIfNextIsEmpty | `1` | Overlay next cells only if they are empty. |
+| OverlayIfNextIsEmpty | `1` | Overlay next cells only if they are empty. Default value. |
 | AutoFitColumn | `2` | Expand columns to fit the text. |
 | HideText | `3` | Hide overflow text. |
 

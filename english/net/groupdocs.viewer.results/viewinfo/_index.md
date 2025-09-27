@@ -3,7 +3,7 @@ title: ViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for generic document.
 type: docs
-weight: 950
+weight: 1000
 url: /net/groupdocs.viewer.results/viewinfo/
 ---
 ## ViewInfo class

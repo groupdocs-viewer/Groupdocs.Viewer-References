@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering spreadsheets. For details see children of the Render spreadsheet fileshttps//docs.groupdocs.com/viewer/net/renderspreadsheets/ topic.
 type: docs
-weight: 680
+weight: 730
 url: /net/groupdocs.viewer.options/spreadsheetoptions/
 ---
 ## SpreadsheetOptions class

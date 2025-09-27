@@ -3,7 +3,7 @@ title: IPageStreamFactory
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines the methods that are required for instantiating and releasing output page stream.
 type: docs
-weight: 310
+weight: 360
 url: /net/groupdocs.viewer.interfaces/ipagestreamfactory/
 ---
 ## IPageStreamFactory interface

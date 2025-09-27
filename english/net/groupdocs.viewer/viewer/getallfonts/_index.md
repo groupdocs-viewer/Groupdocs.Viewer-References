@@ -11,7 +11,7 @@ url: /net/groupdocs.viewer/viewer/getallfonts/
 Returns all fonts, used in the loaded documents, including those, which are embedded inside the document itself and those system fonts, which are installed in the OS and used in the document
 
 ```csharp
-public IReadOnlyList<UsedFontInfo> GetAllFonts()
+public IFontInfo[] GetAllFonts()
 ```
 
 ### Return Value
@@ -24,7 +24,7 @@ For details, see the [documentation](https://docs.groupdocs.com/viewer/net/getti
 
 ### See Also
 
-* struct [UsedFontInfo](../../../groupdocs.viewer.fonts/usedfontinfo)
+* interface [IFontInfo](../../../groupdocs.viewer.fonts/ifontinfo)
 * class [Viewer](../../viewer)
 * namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../../)

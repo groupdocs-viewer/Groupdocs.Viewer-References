@@ -3,7 +3,7 @@ title: Permissions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines PDF document permissions.
 type: docs
-weight: 580
+weight: 630
 url: /net/groupdocs.viewer.options/permissions/
 ---
 ## Permissions enumeration

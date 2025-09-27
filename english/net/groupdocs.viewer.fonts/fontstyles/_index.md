@@ -6,22 +6,55 @@ type: docs
 weight: 210
 url: /net/groupdocs.viewer.fonts/fontstyles/
 ---
-## FontStyles enumeration
+## FontStyles structure
 
 Represents 4 possible styles of the font, used in the document: Regular, Bold, Italic, or Bold Italic
 
 ```csharp
-public enum FontStyles : byte
+public struct FontStyles : IEquatable<FontStyles>
 ```
 
-### Values
+## Constructors
 
-| Name | Value | Description |
-| --- | --- | --- |
-| Regular | `0` | Regular font style |
-| Bold | `1` | Bold font style |
-| Italic | `2` | Italic font style |
-| BoldItalic | `3` | Bold Italic font style |
+| Name | Description |
+| --- | --- |
+| [FontStyles](fontstyles)(bool, bool) | Creates one [`FontStyles`](../fontstyles) instance from specified bold and italic flags |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [IsBold](../../groupdocs.viewer.fonts/fontstyles/isbold) { get; } | Indicates whether this [`FontStyles`](../fontstyles) instance has a **bold** flag enabled (`true`) or disabled (`false`) |
+| [IsItalic](../../groupdocs.viewer.fonts/fontstyles/isitalic) { get; } | Indicates whether this [`FontStyles`](../fontstyles) instance has an **italic** flag enabled (`true`) or disabled (`false`) |
+| [Name](../../groupdocs.viewer.fonts/fontstyles/name) { get; } | Name of this font style |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](../../groupdocs.viewer.fonts/fontstyles/equals#equals)(FontStyles) | Indicates whether this [`FontStyles`](../fontstyles) instance is equal to specified |
+| override [Equals](../../groupdocs.viewer.fonts/fontstyles/equals#equals_1)(object) | Indicates whether this [`FontStyles`](../fontstyles) instance is equal to specified uncasted |
+| override [GetHashCode](../../groupdocs.viewer.fonts/fontstyles/gethashcode)() | Returns a hash-code of this instance |
+| override [ToString](../../groupdocs.viewer.fonts/fontstyles/tostring)() | Returns a name of this font style, same as [`Name`](./name) |
+| static [TryParse](../../groupdocs.viewer.fonts/fontstyles/tryparse)(string, out FontStyles) | Tries to parse specified raw string as a font style name |
+| [operator +](../../groupdocs.viewer.fonts/fontstyles/op_addition) | Combines (merges) two specified font styles and produces new resultant font style, where flags are merged (union) |
+| [operator ==](../../groupdocs.viewer.fonts/fontstyles/op_equality) | Checks whether two [`FontStyles`](../fontstyles) values are equal |
+| [explicit operator](../../groupdocs.viewer.fonts/fontstyles/op_explicit) | Casts specified [`FontStyles`](../fontstyles) instance to the equivalint octet (8-bit bitfield) in [0..3] decimal range |
+| [operator !=](../../groupdocs.viewer.fonts/fontstyles/op_inequality) | Checks whether two [`FontStyles`](../fontstyles) values are not equal |
+| [operator -](../../groupdocs.viewer.fonts/fontstyles/op_subtraction) | Subtracts second (subtrahend) specified font style from the first (minuend) specified font style and produces new resultant font style, where are present only those flags from the first operand, which are not found in the second operand (difference) |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| static readonly [Bold](../../groupdocs.viewer.fonts/fontstyles/bold) | Bold font style (bold only, without italic) |
+| static readonly [BoldItalic](../../groupdocs.viewer.fonts/fontstyles/bolditalic) | BoldItalic font style (bold and italic together) |
+| static readonly [Italic](../../groupdocs.viewer.fonts/fontstyles/italic) | Italic font style (italic only, without bold) |
+| static readonly [Regular](../../groupdocs.viewer.fonts/fontstyles/regular) | Regular font style, default value (no bold and italic) |
+
+### Remarks
+
+Immutable struct with convenient API and combining operations
 
 ### See Also
 
