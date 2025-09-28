@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Releases stream which was instantiated by the method associated with CreatePageStream./createpagestream delegate.
 type: docs
-weight: 340
+weight: 390
 url: /net/groupdocs.viewer.interfaces/releasepagestream/
 ---
 ## ReleasePageStream delegate

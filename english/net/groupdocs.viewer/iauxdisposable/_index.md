@@ -3,7 +3,7 @@ title: IAuxDisposable
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Expands the standard IDisposable interface allows to obtain a current state of an object and subscribe to disposing event
 type: docs
-weight: 250
+weight: 300
 url: /net/groupdocs.viewer/iauxdisposable/
 ---
 ## IAuxDisposable interface

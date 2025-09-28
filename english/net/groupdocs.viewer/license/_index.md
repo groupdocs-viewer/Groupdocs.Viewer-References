@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Provides methods to license the component. Learn more about licensing herehttps//purchase.groupdocs.com/faqs/licensing.
 type: docs
-weight: 360
+weight: 410
 url: /net/groupdocs.viewer/license/
 ---
 ## License class

@@ -3,7 +3,7 @@ title: IMaxSizeOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Limits of image size options interface.
 type: docs
-weight: 480
+weight: 530
 url: /net/groupdocs.viewer.options/imaxsizeoptions/
 ---
 ## IMaxSizeOptions interface

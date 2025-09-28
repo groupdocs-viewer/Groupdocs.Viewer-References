@@ -3,7 +3,7 @@ title: ViewerSettings
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Defines settings for customizing Viewer./viewer behaviour.
 type: docs
-weight: 980
+weight: 1030
 url: /net/groupdocs.viewer/viewersettings/
 ---
 ## ViewerSettings class

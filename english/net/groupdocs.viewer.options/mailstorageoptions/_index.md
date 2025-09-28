@@ -3,7 +3,7 @@ title: MailStorageOptions
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Contains options for rendering Mail storage Lotus Notes MBox data files. For details see the documentationhttps//docs.groupdocs.com/viewer/net/renderlotusnotesdatabasefiles/specifyrenderingoptions.
 type: docs
-weight: 520
+weight: 570
 url: /net/groupdocs.viewer.options/mailstorageoptions/
 ---
 ## MailStorageOptions class
