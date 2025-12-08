@@ -3,7 +3,7 @@ title: Resolution
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Resolution of the presentation images for rendering to HTML/PDF only.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.viewer.options/presentationoptions/resolution/
 ---
 ## PresentationOptions.Resolution property
