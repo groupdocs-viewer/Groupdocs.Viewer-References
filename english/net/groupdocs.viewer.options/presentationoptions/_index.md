@@ -24,6 +24,7 @@ public class PresentationOptions
 
 | Name | Description |
 | --- | --- |
+| [RenderHeaderFooterPlaceholders](../../groupdocs.viewer.options/presentationoptions/renderheaderfooterplaceholders) { get; set; } | Enables rendering placeholders in header and footer of a slide. Disabled by default (`false`). This option applies for all 4 rendering modes of presentations: HTML, PDF, PNG, and JPEG. Is not applicable when rendering presentation to pure HTML/CSS markup using [`RenderToPureHtml`](./rendertopurehtml). |
 | [RenderToPureHtml](../../groupdocs.viewer.options/presentationoptions/rendertopurehtml) { get; set; } | Enables a new HTML rendering mode for the Presentation documents — in this mode the Presentation files are rendered to **pure HTML/CSS markup**, without SVG images. By default is disabled (`false`) — existing SVG-based HTML-renderer is used. |
 | [Resolution](../../groupdocs.viewer.options/presentationoptions/resolution) { get; set; } | Resolution of the presentation images (for rendering to HTML/PDF only). |
 

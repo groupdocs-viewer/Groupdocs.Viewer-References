@@ -16,7 +16,7 @@ public bool ExcludeFonts { get; set; }
 
 ### Remarks
 
-By default, GroupDocs.Viewer embeds the fonts used in the document into HTML. To prevent it, set this property to `true`.
+By default, GroupDocs.Viewer embeds the fonts used in the document into HTML markup, abd this property has a `false` value. To prevent embedding fonts, set this property to `true`.
 
 For details and code example, see the [documentation](https://docs.groupdocs.com/viewer/net/exclude-fonts/).
 

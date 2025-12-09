@@ -3,7 +3,7 @@ title: RenderToPureHtml
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables a new HTML rendering mode for the Presentation documents  in this mode the Presentation files are rendered to pure HTML/CSS markup without SVG images. By default is disabled false  existing SVGbased HTMLrenderer is used.
 type: docs
-weight: 20
+weight: 30
 url: /net/groupdocs.viewer.options/presentationoptions/rendertopurehtml/
 ---
 ## PresentationOptions.RenderToPureHtml property
