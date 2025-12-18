@@ -732,7 +732,7 @@ Creates a view of specific document pages.
 
 ### getAllFonts() {#getAllFonts--}
 ```
-public List<UsedFontInfo> getAllFonts()
+public IFontInfo[] getAllFonts()
 ```
 
 
@@ -744,7 +744,7 @@ For details, see the [ documentation][documentation].
 [documentation]: https://docs.groupdocs.com/viewer/net/getting-used-fonts/
 
 **Returns:**
-java.util.List<com.groupdocs.viewer.fonts.UsedFontInfo> - Non-null list of all fonts used in the document loaded into this [Viewer](../../com.groupdocs.viewer/viewer) instance.
+com.groupdocs.viewer.fonts.IFontInfo[] - Non-null list of all fonts used in the document loaded into this [Viewer](../../com.groupdocs.viewer/viewer) instance.
 ### search(SearchHighlightOptions options) {#search-com.groupdocs.viewer.options.SearchHighlightOptions-}
 ```
 public void search(SearchHighlightOptions options)
