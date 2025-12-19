@@ -1,34 +1,40 @@
----
-title: Word
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: Word class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 170
 url: /python-net/groupdocs.viewer.results/word/
+is_root: false
+weight: 170
 ---
 
 ## Word class
 
 Represents relatively positioned rectangle which contains single word.
 
+
+
 The Word type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|Word()|Initializes new instance of [Word](/viewer/python-net/groupdocs.viewer.results/word/) class.|
-|Word(word, x, y, width, height, characters)|Initializes a new instance of the Word class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/word/__init__/#) | Initializes new instance of [`Word`](/viewer/python-net/groupdocs.viewer.results/word) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/word/__init__/#System.String-float-float-float-float-System.Collections.Generic.List`1[[GroupDocs.Viewer.Results.Character]]) | Constructs a new instance of Word |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|characters|The characters contained by the word.|
-|value|  |
-|x|  |
-|y|  |
-|width|  |
-|height|  |
+| [characters](/viewer/python-net/groupdocs.viewer.results/word/characters) | The characters contained by the word. |
+| [value](/viewer/python-net/groupdocs.viewer.results/word/value) |  |
+| [x](/viewer/python-net/groupdocs.viewer.results/word/x) |  |
+| [y](/viewer/python-net/groupdocs.viewer.results/word/y) |  |
+| [width](/viewer/python-net/groupdocs.viewer.results/word/width) |  |
+| [height](/viewer/python-net/groupdocs.viewer.results/word/height) |  |
+
+
 
 ### See Also
-
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.results`](..)
+* class [`Word`](/viewer/python-net/groupdocs.viewer.results/word)

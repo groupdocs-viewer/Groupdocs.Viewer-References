@@ -1,18 +1,19 @@
----
+﻿---
 title: groupdocs.viewer.caching
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.viewer.caching/
+is_root: false
+weight: 10
 ---
-
 
 The namespace provides classes for customizing caching behaviour.
 
-## Classes
+### Classes
 | Class | Description |
 | :- | :- |
-|[CacheKeys](/viewer/python-net/groupdocs.viewer.caching/cachekeys/)|Provides methods to retrieve unique identifier for the cache entry.|
-|[FileCache](/viewer/python-net/groupdocs.viewer.caching/filecache/)|Represents a local on-disk cache.|
-|[ICache](/viewer/python-net/groupdocs.viewer.caching/icache/)|Defines methods required for storing rendered document and document resources сache.|
+| [`CacheKeys`](/viewer/python-net/groupdocs.viewer.caching/cachekeys) | Provides methods to retrieve unique identifier for the cache entry. |
+| [`FileCache`](/viewer/python-net/groupdocs.viewer.caching/filecache) | Represents a local on-disk cache. |
+
+

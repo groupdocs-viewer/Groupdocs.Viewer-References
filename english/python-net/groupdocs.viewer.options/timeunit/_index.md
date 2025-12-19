@@ -1,26 +1,35 @@
----
-title: TimeUnit
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: TimeUnit enumeration
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 370
 url: /python-net/groupdocs.viewer.options/timeunit/
+is_root: false
+weight: 370
 ---
 
 ## TimeUnit enumeration
 
 Time unit of the project duration.
 
-## Members
-| Member name | Description |
+
+
+The TimeUnit type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|UNSPECIFIED|The unknown, unspecified time scale.|
-|DAYS|The one day interval.|
-|THIRDS_OF_MONTHS|The one third of the month.|
-|MONTHS|The one month interval.|
+| UNSPECIFIED | The unknown, unspecified time scale. |
+| DAYS | The one day interval. |
+| THIRDS_OF_MONTHS | The one third of the month. |
+| MONTHS | The one month interval. |
+
+
+
+### Remarks 
+
+
+For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-ms-project-files/#adjust-the-time-unit).
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](..)

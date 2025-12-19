@@ -1,31 +1,43 @@
----
-title: MboxViewInfo
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: MboxViewInfo class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 100
 url: /python-net/groupdocs.viewer.results/mboxviewinfo/
+is_root: false
+weight: 100
 ---
 
 ## MboxViewInfo class
 
 Represents view information for Mbox files storage
 
+
+
+**Inheritance:** [`MboxViewInfo`](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo) → 
+[`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo)
+
+
+
 The MboxViewInfo type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|MboxViewInfo()|Initializes new instance of [MboxViewInfo](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/) class.|
-|MboxViewInfo(file_type, pages, notes_count)|Initializes a new instance of the MboxViewInfo class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/__init__/#) | Initializes new instance of [`MboxViewInfo`](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/__init__/#groupdocs.viewer.FileType-System.Collections.Generic.List`1[[GroupDocs.Viewer.Results.Page]]-int) | Constructs a new instance of MboxViewInfo |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|file_type|The type of the file.|
-|pages|The list of pages to view.|
-|messages_count|Notes count in storage|
+| [file_type](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/file_type) | The type of the file. |
+| [pages](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/pages) | The list of pages to view. |
+| [messages_count](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/messages_count) | Notes count in storage |
+
+
 
 ### See Also
-
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.results`](..)
+* class [`MboxViewInfo`](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo)
+* class [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo)

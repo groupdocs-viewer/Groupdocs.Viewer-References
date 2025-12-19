@@ -1,31 +1,43 @@
----
-title: LotusNotesViewInfo
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: LotusNotesViewInfo class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 90
 url: /python-net/groupdocs.viewer.results/lotusnotesviewinfo/
+is_root: false
+weight: 90
 ---
 
 ## LotusNotesViewInfo class
 
 Represents view information for Lotus notes database storage
 
+
+
+**Inheritance:** [`LotusNotesViewInfo`](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo) → 
+[`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo)
+
+
+
 The LotusNotesViewInfo type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|LotusNotesViewInfo()|Initializes new instance of [LotusNotesViewInfo](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/) class.|
-|LotusNotesViewInfo(file_type, pages, notes_count)|Initializes a new instance of the LotusNotesViewInfo class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/__init__/#) | Initializes new instance of [`LotusNotesViewInfo`](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/__init__/#groupdocs.viewer.FileType-System.Collections.Generic.List`1[[GroupDocs.Viewer.Results.Page]]-int) | Constructs a new instance of LotusNotesViewInfo |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|file_type|The type of the file.|
-|pages|The list of pages to view.|
-|notes_count|Notes count in storage|
+| [file_type](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/file_type) | The type of the file. |
+| [pages](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/pages) | The list of pages to view. |
+| [notes_count](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo/notes_count) | Notes count in storage |
+
+
 
 ### See Also
-
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.results`](..)
+* class [`LotusNotesViewInfo`](/viewer/python-net/groupdocs.viewer.results/lotusnotesviewinfo)
+* class [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo)

@@ -1,44 +1,50 @@
----
-title: Viewer
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: Viewer class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.viewer/viewer/
+is_root: false
+weight: 50
 ---
 
 ## Viewer class
 
 Represents main class that controls document rendering process.
 
+
+
 The Viewer type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|Viewer(stream)|Initializes a new instance of the Viewer class|
-|Viewer(stream, leave_open)|Initializes a new instance of the Viewer class|
-|Viewer(stream, load_options)|Initializes a new instance of the Viewer class|
-|Viewer(stream, load_options, leave_open)|Initializes a new instance of the Viewer class|
-|Viewer(stream, settings)|Initializes a new instance of the Viewer class|
-|Viewer(stream, settings, leave_open)|Initializes a new instance of the Viewer class|
-|Viewer(stream, load_options, settings)|Initializes a new instance of the Viewer class|
-|Viewer(stream, load_options, settings, leave_open)|Initializes a new instance of the Viewer class|
-|Viewer(file_path)|Initializes a new instance of the Viewer class|
-|Viewer(file_path, settings)|Initializes a new instance of the Viewer class|
-|Viewer(file_path, load_options)|Initializes a new instance of the Viewer class|
-|Viewer(file_path, load_options, settings)|Initializes a new instance of the Viewer class|
-## Methods
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase-bool) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase-groupdocs.viewer.options.LoadOptions) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase-groupdocs.viewer.options.LoadOptions-bool) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase-groupdocs.viewer.ViewerSettings) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase-groupdocs.viewer.ViewerSettings-bool) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase-groupdocs.viewer.options.LoadOptions-groupdocs.viewer.ViewerSettings) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#io.RawIOBase-groupdocs.viewer.options.LoadOptions-groupdocs.viewer.ViewerSettings-bool) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#System.String) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#System.String-groupdocs.viewer.ViewerSettings) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#System.String-groupdocs.viewer.options.LoadOptions) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewer/__init__/#System.String-groupdocs.viewer.options.LoadOptions-groupdocs.viewer.ViewerSettings) | Initializes new instance of [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) class. |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|view(options)|Creates view of all document pages.|
-|view(options, page_numbers)|Creates view of specific document pages.|
-|get_view_info(options)|Returns information about view and document specific information.|
-|get_attachments()|Returns attachments contained by the document.|
-|save_attachment(attachment, destination)|Saves attachment file to|
-|get_file_info()|Returns information about file such as file-type and flag that indicates if file is encrypted.|
+| [view](/viewer/python-net/groupdocs.viewer/viewer/view/#groupdocs.viewer.options.ViewOptions) | Creates view of all document pages. |
+| [view](/viewer/python-net/groupdocs.viewer/viewer/view/#groupdocs.viewer.options.ViewOptions-list) | Creates view of specific document pages. |
+| [get_view_info](/viewer/python-net/groupdocs.viewer/viewer/get_view_info/#groupdocs.viewer.options.ViewInfoOptions) | Returns information about view and document specific information. |
+| [get_attachments](/viewer/python-net/groupdocs.viewer/viewer/get_attachments/#) | Returns attachments contained by the document. |
+| [save_attachment](/viewer/python-net/groupdocs.viewer/viewer/save_attachment/#groupdocs.viewer.results.Attachment-io.RawIOBase) | Saves attachment file to `destination` stream. |
+| [get_file_info](/viewer/python-net/groupdocs.viewer/viewer/get_file_info/#) | Returns information about file such as file-type and flag that indicates if file is encrypted. |
+
+
 
 ### See Also
-
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer`](..)
+* class [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer)

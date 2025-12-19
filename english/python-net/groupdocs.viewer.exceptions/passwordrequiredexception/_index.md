@@ -1,20 +1,28 @@
----
-title: PasswordRequiredException
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: PasswordRequiredException class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.viewer.exceptions/passwordrequiredexception/
+is_root: false
+weight: 50
 ---
 
 ## PasswordRequiredException class
 
 The exception that is thrown when password is required to load the document.
 
+
+
+**Inheritance:** [`PasswordRequiredException`](/viewer/python-net/groupdocs.viewer.exceptions/passwordrequiredexception) → 
+[`GroupDocsViewerException`](/viewer/python-net/groupdocs.viewer.exceptions/groupdocsviewerexception)
+
+
+
 The PasswordRequiredException type exposes the following members:
 
+
 ### See Also
-
-* namespace [groupdocs.viewer.exceptions](/viewer/python-net/groupdocs.viewer.exceptions/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.exceptions`](..)
+* class [`GroupDocsViewerException`](/viewer/python-net/groupdocs.viewer.exceptions/groupdocsviewerexception)
+* class [`PasswordRequiredException`](/viewer/python-net/groupdocs.viewer.exceptions/passwordrequiredexception)

@@ -1,31 +1,35 @@
----
-title: ViewerSettings
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: ViewerSettings class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.viewer/viewersettings/
+is_root: false
+weight: 60
 ---
 
 ## ViewerSettings class
 
-Defines settings for customizing [Viewer](/viewer/python-net/groupdocs.viewer/viewer/) behaviour.
+Defines settings for customizing [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer) behaviour.
+
+
 
 The ViewerSettings type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|ViewerSettings(cache, logger)|Initializes a new instance of the ViewerSettings class|
-|ViewerSettings(cache)|Initializes a new instance of the ViewerSettings class|
-|ViewerSettings(logger)|Initializes a new instance of the ViewerSettings class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewersettings/__init__/#groupdocs.viewer.logging.ILogger) | Initializes new instance of [`ViewerSettings`](/viewer/python-net/groupdocs.viewer/viewersettings) class. |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|cache|The cache implementation used for storing rendering results.|
-|logger|The logger implementation used for logging (Errors, Warnings, Traces).|
+| [logger](/viewer/python-net/groupdocs.viewer/viewersettings/logger) | The logger implementation used for logging (Errors, Warnings, Traces). |
+
+
 
 ### See Also
-
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer`](..)
+* class [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer)
+* class [`ViewerSettings`](/viewer/python-net/groupdocs.viewer/viewersettings)

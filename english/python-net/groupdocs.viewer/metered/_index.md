@@ -1,30 +1,43 @@
----
-title: Metered
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: Metered class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.viewer/metered/
+is_root: false
+weight: 40
 ---
 
 ## Metered class
 
-Provides methods for applying
+Provides methods for applying [Metered](https://purchase.groupdocs.com/faqs/licensing/metered) license.
+
+
 
 The Metered type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|Metered()|Initializes a new instance of the Metered class|
-## Methods
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer/metered/__init__/#) | Constructs a new instance of Metered |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|set_metered_key(public_key, private_key)|Activates product with Metered keys.|
-|get_consumption_quantity()|Retrieves amount of MBs processed.|
-|get_consumption_credit()|Retrieves count of credits consumed.|
+| [set_metered_key](/viewer/python-net/groupdocs.viewer/metered/set_metered_key/#System.String-System.String) | Activates product with Metered keys. |
+| [get_consumption_quantity](/viewer/python-net/groupdocs.viewer/metered/get_consumption_quantity/#) | Retrieves amount of MBs processed. |
+| [get_consumption_credit](/viewer/python-net/groupdocs.viewer/metered/get_consumption_credit/#) | Retrieves count of credits consumed. |
+
+
+
+### Remarks 
+
+
+**Learn more** |
+|
+ |
+ |
 
 ### See Also
-
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer`](..)

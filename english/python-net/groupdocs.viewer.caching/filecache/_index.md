@@ -1,35 +1,43 @@
----
-title: FileCache
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+﻿---
+title: FileCache class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.viewer.caching/filecache/
+is_root: false
+weight: 20
 ---
 
 ## FileCache class
 
 Represents a local on-disk cache.
 
+
+
 The FileCache type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|FileCache(cache_path)|Initializes a new instance of the FileCache class|
-|FileCache(cache_path, cache_sub_folder)|Initializes a new instance of the FileCache class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.caching/filecache/__init__/#System.String) | Creates new instance of [`FileCache`](/viewer/python-net/groupdocs.viewer.caching/filecache) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.caching/filecache/__init__/#System.String-System.String) | Creates new instance of [`FileCache`](/viewer/python-net/groupdocs.viewer.caching/filecache) class. |
+
+
+### Properties
+| Property | Description |
 | :- | :- |
-|cache_path|The Relative or absolute path to the cache folder.|
-|cache_sub_folder|The sub-folder to append to the [cache_path](/viewer/python-net/groupdocs.viewer.caching/filecache/).|
-## Methods
-| Name | Description |
+| [cache_path](/viewer/python-net/groupdocs.viewer.caching/filecache/cache_path) | The Relative or absolute path to the cache folder. |
+| [cache_sub_folder](/viewer/python-net/groupdocs.viewer.caching/filecache/cache_sub_folder) | The sub-folder to append to the [`FileCache.cache_path`](/viewer/python-net/groupdocs.viewer.caching/filecache#cache_path). |
+
+
+### Methods
+| Method | Description |
 | :- | :- |
-|set(key, value)|Serializes data to the local disk.|
-|get_keys(filter)|Returns all file names that contains filter in filename.|
+| [set](/viewer/python-net/groupdocs.viewer.caching/filecache/set/#System.String-System.Object) | Serializes data to the local disk. |
+| [get_keys](/viewer/python-net/groupdocs.viewer.caching/filecache/get_keys/#System.String) | Returns all file names that contains filter in filename. |
+
+
 
 ### See Also
-
-* namespace [groupdocs.viewer.caching](/viewer/python-net/groupdocs.viewer.caching/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.caching`](..)
+* class [`FileCache`](/viewer/python-net/groupdocs.viewer.caching/filecache)
