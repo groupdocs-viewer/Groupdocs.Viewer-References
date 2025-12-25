@@ -47,8 +47,6 @@ Example usage:
 | [setFolder(String value)](#setFolder-java.lang.String-) | Sets the folder inside the archive that will be used for rendering. |
 | [getFileName()](#getFileName--) | Gets the filename to be displayed in the header. |
 | [setFileName(FileName fileName)](#setFileName-com.groupdocs.viewer.options.FileName-) | Sets the filename to be displayed in the header. |
-| [getItemsPerPage()](#getItemsPerPage--) | Gets the number of records per page for rendering to HTML. |
-| [setItemsPerPage(int itemsPerPage)](#setItemsPerPage-int-) | Sets the number of records per page for rendering to HTML. |
 ### ArchiveOptions() {#ArchiveOptions--}
 ```
 public ArchiveOptions()
@@ -122,37 +120,4 @@ By default, GroupDocs.Viewer displays the archive file name in the header of eac
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | [FileName](../../com.groupdocs.viewer.options/filename) | The filename to be displayed. |
-
-### getItemsPerPage() {#getItemsPerPage--}
-```
-public int getItemsPerPage()
-```
-
-
-Gets the number of records per page for rendering to HTML.
-
-Use this property to set the number of archive items to display on each HTML page. The default value is 16. This option is available for rendering to HTML format. For more information and code example, see the [documentation][].
-
-
-[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/#specify-the-number-of-items-to-render
-
-**Returns:**
-int - the number of records per page.
-### setItemsPerPage(int itemsPerPage) {#setItemsPerPage-int-}
-```
-public void setItemsPerPage(int itemsPerPage)
-```
-
-
-Sets the number of records per page for rendering to HTML.
-
-Use this property to set the number of archive items to display on each HTML page. The default value is 16. This option is available for rendering to HTML format. For more information and code example, see the [documentation][].
-
-
-[documentation]: https://docs.groupdocs.com/viewer/java/render-archive-files/#specify-the-number-of-items-to-render
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| itemsPerPage | int | The number of records per page. |
 

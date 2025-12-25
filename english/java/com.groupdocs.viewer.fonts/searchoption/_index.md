@@ -3,7 +3,7 @@ title: SearchOption
 second_title: GroupDocs.Viewer for Java API Reference
 description: Specifies whether to search the current folder or the current folder and all subfolders.
 type: docs
-weight: 16
+weight: 21
 url: /java/com.groupdocs.viewer.fonts/searchoption/
 ---
 **Inheritance:**
