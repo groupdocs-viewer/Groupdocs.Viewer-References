@@ -30,7 +30,7 @@ public class SpreadsheetOptions
 | [RightMargin](../../groupdocs.viewer.options/spreadsheetoptions/rightmargin) { get; set; } | Sets the right margin of a page when converting to PDF. |
 | [SkipEmptyColumns](../../groupdocs.viewer.options/spreadsheetoptions/skipemptycolumns) { get; set; } | Disables empty columns rendering. |
 | [SkipEmptyRows](../../groupdocs.viewer.options/spreadsheetoptions/skipemptyrows) { get; set; } | Disables empty rows rendering. |
-| [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | Sets the text overflow mode for rendering spreadsheet documents into HTML. |
+| [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | Sets the text overflow mode for rendering spreadsheet documents into HTML. By default is , which mimics the default MS Excel behavior. |
 | [TopMargin](../../groupdocs.viewer.options/spreadsheetoptions/topmargin) { get; set; } | Sets the top margin of a page when converting to PDF. |
 
 ## Methods

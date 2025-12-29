@@ -3,7 +3,7 @@ title: WrapImagesInSvg
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables wrapping each image in the output HTML document in SVG tag to improve the output quality.
 type: docs
-weight: 120
+weight: 110
 url: /net/groupdocs.viewer.options/pdfoptions/wrapimagesinsvg/
 ---
 ## PdfOptions.WrapImagesInSvg property
