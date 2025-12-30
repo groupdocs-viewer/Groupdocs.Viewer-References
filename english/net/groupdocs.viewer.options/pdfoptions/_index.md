@@ -30,7 +30,6 @@ public class PdfOptions
 | [EnableFontHinting](../../groupdocs.viewer.options/pdfoptions/enablefonthinting) { get; set; } | Enables font hinting. |
 | [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | Enables rendering text and graphics in the original PDF document's z-order when rendering to HTML. |
 | [FixedLayout](../../groupdocs.viewer.options/pdfoptions/fixedlayout) { get; set; } | Enables rendering the PDF and EPUB documents to HTML with a fixed layout. |
-| [FixLinkIssue](../../groupdocs.viewer.options/pdfoptions/fixlinkissue) { get; set; } | Tries to fix the issue when whole HTML page content is a link. Works only when input format is PDF and output format is HTML (with embedded or external resources). By default is disabled (`false`). Turn it on only when you know what and why you're doing. Enabling this option increases the document processing time. |
 | [ImageQuality](../../groupdocs.viewer.options/pdfoptions/imagequality) { get; set; } | Sets the output image quality for image resources when rendering to HTML. The default quality is `Low`. |
 | [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | Sets the output page size the same as the source PDF document's page size. |
 | [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | Enables rendering texts in the PDF files as an image in the HTML output. |
