@@ -3,7 +3,7 @@ title: WordProcessingOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Provides options for rendering word processing documents.
 type: docs
-weight: 36
+weight: 38
 url: /nodejs-java/com.groupdocs.viewer.options/wordprocessingoptions/
 ---
 **Inheritance:**
@@ -49,20 +49,18 @@ Example usage:
 | [setRenderTrackedChanges(boolean value)](#setRenderTrackedChanges-boolean-) | Sets whether tracked changes (revisions) rendering is enabled. |
 | [getLeftMargin()](#getLeftMargin--) | Retrieves the left page margin for HTML rendering. |
 | [setLeftMargin(Double leftMargin)](#setLeftMargin-java.lang.Double-) | Sets the left page margin for HTML rendering. |
-| [setLeftMargin(int leftMargin)](#setLeftMargin-int-) | Sets the left page margin for HTML rendering. |
 | [getRightMargin()](#getRightMargin--) | Gets the right page margin for HTML rendering. |
 | [setRightMargin(Double rightMargin)](#setRightMargin-java.lang.Double-) | Sets the right page margin for HTML rendering. |
-| [setRightMargin(int rightMargin)](#setRightMargin-int-) | Sets the right page margin for HTML rendering. |
 | [getTopMargin()](#getTopMargin--) | Retrieves the top page margin for HTML rendering. |
 | [setTopMargin(Double topMargin)](#setTopMargin-java.lang.Double-) | Sets the top page margin for HTML rendering. |
-| [setTopMargin(int topMargin)](#setTopMargin-int-) | Sets the top page margin for HTML rendering. |
+| [getBottomMargin()](#getBottomMargin--) | Bottom page margin (for HTML rendering only) |
+| [setBottomMargin(Double bottomMargin)](#setBottomMargin-java.lang.Double-) | Sets the bottom page margin for HTML rendering. |
 | [isEnableOpenTypeFeatures()](#isEnableOpenTypeFeatures--) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
 | [setEnableOpenTypeFeatures(boolean enableOpenTypeFeatures)](#setEnableOpenTypeFeatures-boolean-) | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian scripts, Latin-based or Cyrillic-based scripts. |
 | [isUnlinkTableOfContents()](#isUnlinkTableOfContents--) | Indicates whether table of contents navigation should be disabled when rendering to HTML or PDF. |
 | [setUnlinkTableOfContents(boolean unlinkTableOfContents)](#setUnlinkTableOfContents-boolean-) | Sets whether table of contents navigation should be disabled when rendering to HTML or PDF. |
-| [getBottomMargin()](#getBottomMargin--) | Bottom page margin (for HTML rendering only) |
-| [setBottomMargin(Double bottomMargin)](#setBottomMargin-java.lang.Double-) | Sets the bottom page margin for HTML rendering. |
-| [setBottomMargin(int bottomMargin)](#setBottomMargin-int-) | Sets the bottom page margin for HTML rendering. |
+| [isUpdateFields()](#isUpdateFields--) | Gets a value determining if fields of certain types should be updated before saving the input WordProcessing document to the HTML, PDF, PNG, or JPEG output formats. |
+| [setUpdateFields(boolean updateFields)](#setUpdateFields-boolean-) | Sets a value determining if fields of certain types should be updated before saving the input WordProcessing document to the HTML, PDF, PNG, or JPEG output formats. |
 | [equals(Object o)](#equals-java.lang.Object-) | Check if the options are changed. |
 | [hashCode()](#hashCode--) | \{@inheritDoc\} |
 ### WordProcessingOptions() {#WordProcessingOptions--}
@@ -173,19 +171,6 @@ For details, see the [documentation][].
 | --- | --- | --- |
 | leftMargin | java.lang.Double | The left page margin value to set. |
 
-### setLeftMargin(int leftMargin) {#setLeftMargin-int-}
-```
-public void setLeftMargin(int leftMargin)
-```
-
-
-Sets the left page margin for HTML rendering.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| leftMargin | int | The left page margin value to set. |
-
 ### getRightMargin() {#getRightMargin--}
 ```
 public Double getRightMargin()
@@ -218,19 +203,6 @@ For details, see the [documentation][].
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rightMargin | java.lang.Double | The right page margin value to set. |
-
-### setRightMargin(int rightMargin) {#setRightMargin-int-}
-```
-public void setRightMargin(int rightMargin)
-```
-
-
-Sets the right page margin for HTML rendering.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rightMargin | int | The right page margin value to set. |
 
 ### getTopMargin() {#getTopMargin--}
 ```
@@ -265,18 +237,38 @@ For details, see the [documentation][].
 | --- | --- | --- |
 | topMargin | java.lang.Double | The top page margin to set. |
 
-### setTopMargin(int topMargin) {#setTopMargin-int-}
+### getBottomMargin() {#getBottomMargin--}
 ```
-public void setTopMargin(int topMargin)
+public Double getBottomMargin()
 ```
 
 
-Sets the top page margin for HTML rendering.
+Bottom page margin (for HTML rendering only)
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
+
+**Returns:**
+java.lang.Double - the bottom page margin.
+### setBottomMargin(Double bottomMargin) {#setBottomMargin-java.lang.Double-}
+```
+public void setBottomMargin(Double bottomMargin)
+```
+
+
+Sets the bottom page margin for HTML rendering.
+
+For details, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| topMargin | int | The top page margin to set. |
+| bottomMargin | java.lang.Double | The bottom page margin to set. |
 
 ### isEnableOpenTypeFeatures() {#isEnableOpenTypeFeatures--}
 ```
@@ -324,51 +316,38 @@ Sets whether table of contents navigation should be disabled when rendering to H
 | --- | --- | --- |
 | unlinkTableOfContents | boolean | Indicates whether table of content navigation should be disabled. |
 
-### getBottomMargin() {#getBottomMargin--}
+### isUpdateFields() {#isUpdateFields--}
 ```
-public Double getBottomMargin()
+public boolean isUpdateFields()
 ```
 
 
-Bottom page margin (for HTML rendering only)
+Gets a value determining if fields of certain types should be updated before saving the input WordProcessing document to the HTML, PDF, PNG, or JPEG output formats. Default value for this property is true \\u2014 fields will be updated before saving.
 
 For details, see the [documentation][].
 
 
-[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#disable-updating-fields-when-saving
 
 **Returns:**
-java.lang.Double - the bottom page margin.
-### setBottomMargin(Double bottomMargin) {#setBottomMargin-java.lang.Double-}
+boolean
+### setUpdateFields(boolean updateFields) {#setUpdateFields-boolean-}
 ```
-public void setBottomMargin(Double bottomMargin)
+public void setUpdateFields(boolean updateFields)
 ```
 
 
-Sets the bottom page margin for HTML rendering.
+Sets a value determining if fields of certain types should be updated before saving the input WordProcessing document to the HTML, PDF, PNG, or JPEG output formats. Default value for this property is true \\u2014 fields will be updated before saving.
 
 For details, see the [documentation][].
 
 
-[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins
+[documentation]: https://docs.groupdocs.com/viewer/net/render-word-documents/#disable-updating-fields-when-saving
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bottomMargin | java.lang.Double | The bottom page margin to set. |
-
-### setBottomMargin(int bottomMargin) {#setBottomMargin-int-}
-```
-public void setBottomMargin(int bottomMargin)
-```
-
-
-Sets the bottom page margin for HTML rendering.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bottomMargin | int | The bottom page margin to set. |
+| updateFields | boolean |  |
 
 ### equals(Object o) {#equals-java.lang.Object-}
 ```

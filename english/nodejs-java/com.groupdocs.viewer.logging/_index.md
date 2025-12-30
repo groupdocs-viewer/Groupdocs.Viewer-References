@@ -3,7 +3,7 @@ title: com.groupdocs.viewer.logging
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: The package provides classes for configuring the logging system in GroupDocs.Viewer.
 type: docs
-weight: 14
+weight: 16
 url: /nodejs-java/com.groupdocs.viewer.logging/
 ---
 

@@ -3,7 +3,7 @@ title: VisioRenderingOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Contains options for rendering Visio documents.
 type: docs
-weight: 34
+weight: 36
 url: /nodejs-java/com.groupdocs.viewer.options/visiorenderingoptions/
 ---
 **Inheritance:**

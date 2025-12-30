@@ -3,7 +3,7 @@ title: PageSize
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: The size of the page.
 type: docs
-weight: 39
+weight: 42
 url: /nodejs-java/com.groupdocs.viewer.options/pagesize/
 ---
 **Inheritance:**

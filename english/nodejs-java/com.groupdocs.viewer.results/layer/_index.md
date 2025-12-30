@@ -36,7 +36,9 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getName()](#getName--) | Retrieves the name of the layer. |
+| [setName(String name)](#setName-java.lang.String-) | Sets the name of the layer. |
 | [isVisible()](#isVisible--) | Checks the visibility of the layer. |
+| [setVisible(boolean isVisible)](#setVisible-boolean-) | Sets the visibility of the layer. |
 | [equals(Object other)](#equals-java.lang.Object-) | Checks if this object is equal to the provided object. |
 ### getName() {#getName--}
 ```
@@ -50,6 +52,19 @@ Retrieves the name of the layer.
 
 **Returns:**
 java.lang.String - the name of the layer.
+### setName(String name) {#setName-java.lang.String-}
+```
+public abstract void setName(String name)
+```
+
+
+Sets the name of the layer.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The new name for the layer. |
+
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()
@@ -62,6 +77,21 @@ The CAD drawing layers that are switched off or frozen are invisible. To render 
 
 **Returns:**
 boolean -  true  if the layer is visible,  false  otherwise.
+### setVisible(boolean isVisible) {#setVisible-boolean-}
+```
+public abstract void setVisible(boolean isVisible)
+```
+
+
+Sets the visibility of the layer.
+
+If  true , the layer will be visible; if  false , it will be hidden.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isVisible | boolean | Whether the layer should be visible or not. |
+
 ### equals(Object other) {#equals-java.lang.Object-}
 ```
 public abstract boolean equals(Object other)

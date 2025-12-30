@@ -3,7 +3,7 @@ title: Security
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Provides PDF document security options.
 type: docs
-weight: 27
+weight: 29
 url: /nodejs-java/com.groupdocs.viewer.options/security/
 ---
 **Inheritance:**

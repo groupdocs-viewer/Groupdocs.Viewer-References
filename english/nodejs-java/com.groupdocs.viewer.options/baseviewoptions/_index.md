@@ -30,6 +30,8 @@ The  BaseViewOptions  class serves as the base for rendering options in GroupDoc
 | [setTextOptions(TextOptions textOptions)](#setTextOptions-com.groupdocs.viewer.options.TextOptions-) | Sets the options for splitting text files into pages. |
 | [isRenderComments()](#isRenderComments--) | Enables rendering comments. |
 | [setRenderComments(boolean value)](#setRenderComments-boolean-) | Enables rendering comments. |
+| [isRemoveComments()](#isRemoveComments--) | Disables rendering comments when set to true. |
+| [setRemoveComments(boolean value)](#setRemoveComments-boolean-) | Disables rendering comments when set to true. |
 | [isRenderNotes()](#isRenderNotes--) | Enables rendering notes. |
 | [setRenderNotes(boolean value)](#setRenderNotes-boolean-) | Enables rendering notes. |
 | [isRenderHiddenPages()](#isRenderHiddenPages--) | Enables rendering of hidden pages. |
@@ -127,6 +129,33 @@ By default, GroupDocs.Viewer does not render comments. To do this, set this prop
 
 
 [documentation]: https://docs.groupdocs.com/viewer/java/render-word-documents/#render-comments
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  true  if comments should be rendered,  false  otherwise. |
+
+### isRemoveComments() {#isRemoveComments--}
+```
+public final boolean isRemoveComments()
+```
+
+
+Disables rendering comments when set to true. By default is false \\u2014 all comments are displayed.
+
+Some document formats like PDF and WordProcessing may contain comments. By default the GroupDocs.Viewer renders them. With this option set to true the comments may be excluded from the resultant document. This option replaces the obsolete 'RenderComments' property.
+
+**Returns:**
+boolean -  true  if comments should be rendered,  false  otherwise.
+### setRemoveComments(boolean value) {#setRemoveComments-boolean-}
+```
+public final void setRemoveComments(boolean value)
+```
+
+
+Disables rendering comments when set to true. By default is false \\u2014 all comments are displayed.
+
+Some document formats like PDF and WordProcessing may contain comments. By default the GroupDocs.Viewer renders them. With this option set to true the comments may be excluded from the resultant document. This option replaces the obsolete 'RenderComments' property.
 
 **Parameters:**
 | Parameter | Type | Description |

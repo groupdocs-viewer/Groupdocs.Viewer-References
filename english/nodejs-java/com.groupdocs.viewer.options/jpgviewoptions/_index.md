@@ -56,7 +56,7 @@ Example usage:
 | [getMaxHeight()](#getMaxHeight--) | Gets the maximum height of an output image in pixels. |
 | [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | Sets the maximum height of an output image in pixels. |
 | [getQuality()](#getQuality--) | Gets the quality of the output image. |
-| [setQuality(int value)](#setQuality-int-) | Sets the quality of the output image. |
+| [setQuality(byte value)](#setQuality-byte-) | Sets the quality of the output image. |
 | [isExtractText()](#isExtractText--) | Enables text extraction. |
 | [setExtractText(boolean value)](#setExtractText-boolean-) | Enables or disables text extraction. |
 | [getWidth()](#getWidth--) | Gets the width of the output image in pixels. |
@@ -238,7 +238,7 @@ Use this property to set the maximum output image height (in pixels). For code e
 
 ### getQuality() {#getQuality--}
 ```
-public final int getQuality()
+public final byte getQuality()
 ```
 
 
@@ -250,10 +250,10 @@ Gets the quality of the output image.
 [documentation]: https://docs.groupdocs.com/viewer/java/image-viewer-adjust-quality-for-jpg/
 
 **Returns:**
-int - the quality of the output image.
-### setQuality(int value) {#setQuality-int-}
+byte - the quality of the output image.
+### setQuality(byte value) {#setQuality-byte-}
 ```
-public final void setQuality(int value)
+public final void setQuality(byte value)
 ```
 
 
@@ -267,7 +267,7 @@ Sets the quality of the output image.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The quality of the output image. |
+| value | byte | The quality of the output image. |
 
 ### isExtractText() {#isExtractText--}
 ```

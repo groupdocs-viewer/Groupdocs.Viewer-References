@@ -3,7 +3,7 @@ title: TextOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Text files splitting to pages options.
 type: docs
-weight: 30
+weight: 32
 url: /nodejs-java/com.groupdocs.viewer.options/textoptions/
 ---
 **Inheritance:**

@@ -36,6 +36,7 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getWords()](#getWords--) | Retrieves the words contained in the line. |
+| [setWords(List<Word> wordList)](#setWords-java.util.List-com.groupdocs.viewer.results.Word--) | Sets the words contained in the line. |
 ### getWords() {#getWords--}
 ```
 public abstract List<Word> getWords()
@@ -46,3 +47,16 @@ Retrieves the words contained in the line.
 
 **Returns:**
 java.util.List<com.groupdocs.viewer.results.Word> - the words contained in the line.
+### setWords(List<Word> wordList) {#setWords-java.util.List-com.groupdocs.viewer.results.Word--}
+```
+public abstract void setWords(List<Word> wordList)
+```
+
+
+Sets the words contained in the line.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| wordList | java.util.List<com.groupdocs.viewer.results.Word> | the words contained in the line. |
+

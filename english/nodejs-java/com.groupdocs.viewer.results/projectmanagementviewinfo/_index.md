@@ -33,7 +33,9 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getStartDate()](#getStartDate--) | Retrieves the date and time from which the project started. |
+| [setStartDate(Date startDate)](#setStartDate-java.util.Date-) | Sets the start date and time for the project. |
 | [getEndDate()](#getEndDate--) | Retrieves the date and time when the project is to be completed. |
+| [setEndDate(Date endDate)](#setEndDate-java.util.Date-) | Sets the end date and time for the project. |
 ### getStartDate() {#getStartDate--}
 ```
 public abstract Date getStartDate()
@@ -44,6 +46,19 @@ Retrieves the date and time from which the project started.
 
 **Returns:**
 java.util.Date - the start date and time of the project.
+### setStartDate(Date startDate) {#setStartDate-java.util.Date-}
+```
+public abstract void setStartDate(Date startDate)
+```
+
+
+Sets the start date and time for the project.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startDate | java.util.Date | the new start date and time to be set. |
+
 ### getEndDate() {#getEndDate--}
 ```
 public abstract Date getEndDate()
@@ -54,3 +69,16 @@ Retrieves the date and time when the project is to be completed.
 
 **Returns:**
 java.util.Date - the end date and time of the project.
+### setEndDate(Date endDate) {#setEndDate-java.util.Date-}
+```
+public abstract void setEndDate(Date endDate)
+```
+
+
+Sets the end date and time for the project.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| endDate | java.util.Date | the new end date and time to be set. |
+

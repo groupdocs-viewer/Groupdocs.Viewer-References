@@ -36,6 +36,7 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getCharacters()](#getCharacters--) | Retrieves the characters contained by the word. |
+| [setCharacters(List<Character> characters)](#setCharacters-java.util.List-com.groupdocs.viewer.results.Character--) | Sets the characters contained by the word. |
 ### getCharacters() {#getCharacters--}
 ```
 public abstract List<Character> getCharacters()
@@ -46,3 +47,16 @@ Retrieves the characters contained by the word.
 
 **Returns:**
 java.util.List<com.groupdocs.viewer.results.Character> - the list of characters.
+### setCharacters(List<Character> characters) {#setCharacters-java.util.List-com.groupdocs.viewer.results.Character--}
+```
+public abstract void setCharacters(List<Character> characters)
+```
+
+
+Sets the characters contained by the word.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| characters | java.util.List<com.groupdocs.viewer.results.Character> | the list of characters to set. |
+
