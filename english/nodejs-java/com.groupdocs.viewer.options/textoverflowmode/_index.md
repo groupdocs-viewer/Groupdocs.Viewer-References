@@ -3,7 +3,7 @@ title: TextOverflowMode
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Defines text overflow mode for rendering spreadsheet documents into HTML.
 type: docs
-weight: 42
+weight: 46
 url: /nodejs-java/com.groupdocs.viewer.options/textoverflowmode/
 ---
 **Inheritance:**

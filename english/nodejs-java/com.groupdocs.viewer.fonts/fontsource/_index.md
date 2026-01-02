@@ -3,7 +3,7 @@ title: FontSource
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Marker interface for the font sources.
 type: docs
-weight: 12
+weight: 19
 url: /nodejs-java/com.groupdocs.viewer.fonts/fontsource/
 ---```
 public interface FontSource

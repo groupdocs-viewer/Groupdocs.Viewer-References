@@ -53,6 +53,12 @@ Example usage:
 | [GZIP](#GZIP) | Represents a Gnu Zipped File (.gzip) compressed file introduced as a free utility for replacing the Compress program used in Unix systems. |
 | [SEVEN_ZIP](#SEVEN-ZIP) | Represents a 7Zip (.7z, .7zip) file, which is a free open-source archiver with LZMA and LZMA2 compression. |
 | [CPIO](#CPIO) | Cpio is a general file archiver utility and its associated file format. |
+| [ZSTANDARD](#ZSTANDARD) | ZST file is a compressed file that is generated with the Zstandard (zstd) compression algorithm. |
+| [TZST](#TZST) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
+| [TAR_ZST](#TAR-ZST) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
+| [ISO](#ISO) | ISO optical disc image is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD, based on the ISO-9660 standard. |
+| [LHA](#LHA) | LHA or LZH is a freeware compression utility and associated file format. |
+| [CAB](#CAB) | Cabinet (or CAB) is an archive-file format for Microsoft Windows. |
 | [DXF](#DXF) | Represents a Drawing Exchange Format File (.dxf), which is a tagged data representation of an AutoCAD drawing file. |
 | [DWG](#DWG) | Represents an AutoCAD Drawing Database File (.dwg), which represents proprietary binary files used for containing 2D and 3D design data. |
 | [DWT](#DWT) | Represents an AutoCAD Drawing Template (.dwt), which is an AutoCAD drawing template file used as a starter for creating drawings that can be saved as DWG files. |
@@ -92,6 +98,7 @@ Example usage:
 | [TIFF](#TIFF) | Represents a Tagged Image File Format (.tiff), which represents raster images that are meant for usage on a variety of devices that comply with this file format standard. |
 | [JPG](#JPG) | Represents a JPEG Image (.jpg), which is a type of image format that is saved using the method of lossy compression. |
 | [JPEG](#JPEG) | Represents a JPEG Image (.jpeg), which is a type of image format that is saved using the method of lossy compression. |
+| [JFIF](#JFIF) | JPEG File Interchange Format (.jfif) is image that was developed for fast exchange between platforms. |
 | [PNG](#PNG) | Represents a Portable Network Graphic (.png), which is a type of raster image file format that uses lossless compression. |
 | [GIF](#GIF) | Represents a Graphical Interchange Format File (.gif), which is a type of highly compressed image. |
 | [APNG](#APNG) | Represents an Animated Portable Network Graphic (.apng), which is an extension of the PNG format that supports animation. |
@@ -399,6 +406,66 @@ Cpio is a general file archiver utility and its associated file format. It is pr
 
 
 [here]: https://wiki.fileformat.com/compression/cpio
+
+### ZSTANDARD {#ZSTANDARD}
+```
+public static final FileType ZSTANDARD
+```
+
+
+ZST file is a compressed file that is generated with the Zstandard (zstd) compression algorithm. It is a compressed file that is created with lossless compression by the algorithm. ZST files can be used to compress different types of files such as databases, file systems, networks, and games. Learn more about this file format [here][].
+
+
+[here]: https://docs.fileformat.com/compression/zst/
+
+### TZST {#TZST}
+```
+public static final FileType TZST
+```
+
+
+TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files.
+
+### TAR_ZST {#TAR-ZST}
+```
+public static final FileType TAR_ZST
+```
+
+
+TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files.
+
+### ISO {#ISO}
+```
+public static final FileType ISO
+```
+
+
+ISO optical disc image is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD, based on the ISO-9660 standard. Learn more about this file format [here][].
+
+
+[here]: https://docs.fileformat.com/compression/iso/
+
+### LHA {#LHA}
+```
+public static final FileType LHA
+```
+
+
+LHA or LZH is a freeware compression utility and associated file format. Learn more about this file format [here][].
+
+
+[here]: https://docs.fileformat.com/compression/lzh/
+
+### CAB {#CAB}
+```
+public static final FileType CAB
+```
+
+
+Cabinet (or CAB) is an archive-file format for Microsoft Windows. Learn more about this file format [here][].
+
+
+[here]: https://en.wikipedia.org/wiki/Cabinet_%28file_format%29
 
 ### DXF {#DXF}
 ```
@@ -825,6 +892,17 @@ Represents a JPEG Image (.jpeg), which is a type of image format that is saved u
 
 
 [here]: https://wiki.fileformat.com/image/jpeg
+
+### JFIF {#JFIF}
+```
+public static final FileType JFIF
+```
+
+
+JPEG File Interchange Format (.jfif) is image that was developed for fast exchange between platforms. This format uses JPEG compression.Learn more about this file format [here][].
+
+
+[here]: https://wiki.fileformat.com/image/jfif
 
 ### PNG {#PNG}
 ```

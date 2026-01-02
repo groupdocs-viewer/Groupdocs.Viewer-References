@@ -3,7 +3,7 @@ title: TimeUnit
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Time unit of the project duration.
 type: docs
-weight: 43
+weight: 47
 url: /nodejs-java/com.groupdocs.viewer.options/timeunit/
 ---
 **Inheritance:**

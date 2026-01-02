@@ -46,6 +46,8 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
+| [isDisableCopyProtection()](#isDisableCopyProtection--) | Turns off content copy protection when rendering to HTML. |
+| [setDisableCopyProtection(boolean disableCopyProtection)](#setDisableCopyProtection-boolean-) | Turns off content copy protection when rendering to HTML. |
 | [isRenderTextAsImage()](#isRenderTextAsImage--) | Determines whether the text from the source is rendered as an image in HTML. |
 | [setRenderTextAsImage(boolean renderTextAsImage)](#setRenderTextAsImage-boolean-) | Sets whether the text from the source is rendered as an image in HTML. |
 | [isDisableCharsGrouping()](#isDisableCharsGrouping--) | Checks if character grouping is disabled to maintain maximum precision during character positioning when rendering the page. |
@@ -62,6 +64,10 @@ Example usage:
 | [setFixedLayout(boolean fixedLayout)](#setFixedLayout-boolean-) | PDF is a fixed format so all of the elements have a specific place on a page. |
 | [isWrapImagesInSvg()](#isWrapImagesInSvg--) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
 | [setWrapImagesInSvg(boolean wrapImagesInSvg)](#setWrapImagesInSvg-boolean-) | Enable this option to wrap each image in the output HTML document in SVG tag to improve output quality. |
+| [isFixLinkIssue()](#isFixLinkIssue--) | Tries to fix the issue when whole HTML page content is a link. |
+| [setFixLinkIssue(boolean fixLinkIssue)](#setFixLinkIssue-boolean-) | Tries to fix the issue when whole HTML page content is a link. |
+| [isAnalyzeFonts()](#isAnalyzeFonts--) | Replaces fonts as necessary to ensure all characters in the text can be displayed. |
+| [setAnalyzeFonts(boolean analyzeFonts)](#setAnalyzeFonts-boolean-) | Replaces fonts as necessary to ensure all characters in the text can be displayed. |
 | [isDisableFontLicenseVerifications()](#isDisableFontLicenseVerifications--) | Disable any license restrictions for all fonts in current XPS/OXPS document. |
 | [setDisableFontLicenseVerifications(boolean disableFontLicenseVerifications)](#setDisableFontLicenseVerifications-boolean-) | Set the flag to disable any license restrictions for all fonts in current XPS/OXPS document. |
 ### PdfOptions() {#PdfOptions--}
@@ -71,6 +77,43 @@ public PdfOptions()
 
 
 Initializes a new instance of  PdfOptions  class.
+
+### isDisableCopyProtection() {#isDisableCopyProtection--}
+```
+public boolean isDisableCopyProtection()
+```
+
+
+Turns off content copy protection when rendering to HTML.
+
+When rendering PDF files with protection against copying text and images to HTML, GroupDocs.Viewer adds an 'inert' HTML attribute to the HTML BODY tag. The default value of this option is  false .
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-pdf-documents/#disable-copy-protection
+
+**Returns:**
+boolean
+### setDisableCopyProtection(boolean disableCopyProtection) {#setDisableCopyProtection-boolean-}
+```
+public void setDisableCopyProtection(boolean disableCopyProtection)
+```
+
+
+Turns off content copy protection when rendering to HTML.
+
+When rendering PDF files with protection against copying text and images to HTML, GroupDocs.Viewer adds an 'inert' HTML attribute to the HTML BODY tag. The default value of this option is  false .
+
+For code example, see the [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/net/render-pdf-documents/#disable-copy-protection
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| disableCopyProtection | boolean |  |
 
 ### isRenderTextAsImage() {#isRenderTextAsImage--}
 ```
@@ -369,6 +412,52 @@ Learn more:
 | Parameter | Type | Description |
 | --- | --- | --- |
 | wrapImagesInSvg | boolean |  true  if images should be wrapped in SVG,  false  otherwise. |
+
+### isFixLinkIssue() {#isFixLinkIssue--}
+```
+public boolean isFixLinkIssue()
+```
+
+
+Tries to fix the issue when whole HTML page content is a link. Works only when input format is PDF and output format is HTML (with embedded or external resources). By default is disabled (false). Turn it on only when you know what and why you're doing. Turing this option on increases the document processing time.
+
+**Returns:**
+boolean
+### setFixLinkIssue(boolean fixLinkIssue) {#setFixLinkIssue-boolean-}
+```
+public void setFixLinkIssue(boolean fixLinkIssue)
+```
+
+
+Tries to fix the issue when whole HTML page content is a link. Works only when input format is PDF and output format is HTML (with embedded or external resources). By default is disabled (false). Turn it on only when you know what and why you're doing. Turing this option on increases the document processing time.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fixLinkIssue | boolean | true if the issue should be fixed, false otherwise. |
+
+### isAnalyzeFonts() {#isAnalyzeFonts--}
+```
+public boolean isAnalyzeFonts()
+```
+
+
+Replaces fonts as necessary to ensure all characters in the text can be displayed.
+
+**Returns:**
+boolean
+### setAnalyzeFonts(boolean analyzeFonts) {#setAnalyzeFonts-boolean-}
+```
+public void setAnalyzeFonts(boolean analyzeFonts)
+```
+
+
+Replaces fonts as necessary to ensure all characters in the text can be displayed.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| analyzeFonts | boolean | true if the fonts should be displayed, false otherwise. |
 
 ### isDisableFontLicenseVerifications() {#isDisableFontLicenseVerifications--}
 ```

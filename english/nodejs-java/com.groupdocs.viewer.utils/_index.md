@@ -3,7 +3,7 @@ title: com.groupdocs.viewer.utils
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: The package provides helper and utility classes for various functionalities.
 type: docs
-weight: 17
+weight: 19
 url: /nodejs-java/com.groupdocs.viewer.utils/
 ---
 

@@ -45,17 +45,19 @@ Example usage:
 | --- | --- |
 | [DEFAULT_URL_CONNECT_TIMEOUT](#DEFAULT-URL-CONNECT-TIMEOUT) |  |
 | [DEFAULT_URL_READ_TIMEOUT](#DEFAULT-URL-READ-TIMEOUT) |  |
+| [_tryRepair](#-tryRepair) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [isTryRepair()](#isTryRepair--) | When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. |
+| [setTryRepair(boolean tryRepair)](#setTryRepair-boolean-) | When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. |
 | [getFileType()](#getFileType--) | Gets the type of the file to open. |
 | [setFileType(FileType value)](#setFileType-com.groupdocs.viewer.FileType-) | Sets the type of the file to open. |
 | [getPassword()](#getPassword--) | Gets the password for opening an encrypted file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted file. |
 | [getCharset()](#getCharset--) | The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
 | [setCharset(Charset value)](#setCharset-java.nio.charset.Charset-) | The charset used when opening text-based files or email messages such as [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV), [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), and [FileType.MSG](../../com.groupdocs.viewer/filetype\#MSG). |
-| [setCharset(String charsetName)](#setCharset-java.lang.String-) |  |
 | [isDetectCharset()](#isDetectCharset--) | This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [FileType.TSV](../../com.groupdocs.viewer/filetype\#TSV), and [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset detection. |
 | [setDetectCharset(boolean detectCharset)](#setDetectCharset-boolean-) | This option enables [FileType.TXT](../../com.groupdocs.viewer/filetype\#TXT), [FileType.TSV](../../com.groupdocs.viewer/filetype\#TSV), and [FileType.CSV](../../com.groupdocs.viewer/filetype\#CSV) files charset detection. |
 | [getResourceLoadingTimeout()](#getResourceLoadingTimeout--) | Gets the timeout for loading external resources. |
@@ -112,6 +114,47 @@ public static final int DEFAULT_URL_CONNECT_TIMEOUT
 public static final int DEFAULT_URL_READ_TIMEOUT
 ```
 
+
+### _tryRepair {#-tryRepair}
+```
+public boolean _tryRepair
+```
+
+
+### isTryRepair() {#isTryRepair--}
+```
+public boolean isTryRepair()
+```
+
+
+When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. Default value is false.
+
+This feature addresses the following issues in a PDF document:
+
+ *  Broken references within the document (incorrect object offsets in the Cross-reference list).
+ *  Missing critical elements like root object, page object, or page content.
+ *  Circular references (Form X-object referencing itself).
+
+**Returns:**
+boolean
+### setTryRepair(boolean tryRepair) {#setTryRepair-boolean-}
+```
+public void setTryRepair(boolean tryRepair)
+```
+
+
+When enabled, GroupDocs.Viewer tries to repair structural corruption in PDF documents. Default value is false.
+
+This feature addresses the following issues in a PDF document:
+
+ *  Broken references within the document (incorrect object offsets in the Cross-reference list).
+ *  Missing critical elements like root object, page object, or page content.
+ *  Circular references (Form X-object referencing itself).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tryRepair | boolean |  |
 
 ### getFileType() {#getFileType--}
 ```
@@ -255,19 +298,6 @@ LoadOptions loadOptions = new LoadOptions();
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
-
-### setCharset(String charsetName) {#setCharset-java.lang.String-}
-```
-public final void setCharset(String charsetName)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| charsetName | java.lang.String |  |
 
 ### isDetectCharset() {#isDetectCharset--}
 ```

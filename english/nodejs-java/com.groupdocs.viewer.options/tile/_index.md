@@ -3,7 +3,7 @@ title: Tile
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Represents drawing region.
 type: docs
-weight: 31
+weight: 33
 url: /nodejs-java/com.groupdocs.viewer.options/tile/
 ---
 **Inheritance:**

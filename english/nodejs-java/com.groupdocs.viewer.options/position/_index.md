@@ -3,7 +3,7 @@ title: Position
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Defines watermark position.
 type: docs
-weight: 40
+weight: 43
 url: /nodejs-java/com.groupdocs.viewer.options/position/
 ---
 **Inheritance:**

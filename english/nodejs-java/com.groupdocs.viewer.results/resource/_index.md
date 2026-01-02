@@ -45,7 +45,9 @@ Example usage:
 | Method | Description |
 | --- | --- |
 | [getFileName()](#getFileName--) | Returns the file name of the resource. |
+| [setFileName(String fileName)](#setFileName-java.lang.String-) | Sets the file name of the resource. |
 | [isNested()](#isNested--) | Returns whether the resource resides inside another resource, e.g. a font resource that resides in a CSS or SVG resource. |
+| [setNested(boolean nested)](#setNested-boolean-) | Sets whether the resource resides inside another resource. |
 | [toString()](#toString--) | Returns a string that represents the current object. |
 ### Resource(String fileName, boolean nested) {#Resource-java.lang.String-boolean-}
 ```
@@ -71,6 +73,19 @@ Returns the file name of the resource.
 
 **Returns:**
 java.lang.String - the file name of the resource.
+### setFileName(String fileName) {#setFileName-java.lang.String-}
+```
+public void setFileName(String fileName)
+```
+
+
+Sets the file name of the resource.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The new file name for the resource. |
+
 ### isNested() {#isNested--}
 ```
 public final boolean isNested()
@@ -81,6 +96,19 @@ Returns whether the resource resides inside another resource, e.g. a font resour
 
 **Returns:**
 boolean - Whether the resource resides inside another resource.
+### setNested(boolean nested) {#setNested-boolean-}
+```
+public void setNested(boolean nested)
+```
+
+
+Sets whether the resource resides inside another resource.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| nested | boolean | Whether the resource should be set as nested. |
+
 ### toString() {#toString--}
 ```
 public String toString()

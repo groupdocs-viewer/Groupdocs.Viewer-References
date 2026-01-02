@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Provides options for rendering spreadsheets.
 type: docs
-weight: 29
+weight: 31
 url: /nodejs-java/com.groupdocs.viewer.options/spreadsheetoptions/
 ---
 **Inheritance:**

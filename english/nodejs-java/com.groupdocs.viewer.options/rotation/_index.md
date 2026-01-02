@@ -3,7 +3,7 @@ title: Rotation
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Contains page rotation in degrees clockwise.
 type: docs
-weight: 41
+weight: 45
 url: /nodejs-java/com.groupdocs.viewer.options/rotation/
 ---
 **Inheritance:**

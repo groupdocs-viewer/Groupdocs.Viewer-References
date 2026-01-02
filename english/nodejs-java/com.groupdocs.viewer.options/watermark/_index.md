@@ -3,7 +3,7 @@ title: Watermark
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Represents a text watermark.
 type: docs
-weight: 35
+weight: 37
 url: /nodejs-java/com.groupdocs.viewer.options/watermark/
 ---
 **Inheritance:**

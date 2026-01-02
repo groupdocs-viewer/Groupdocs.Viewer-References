@@ -3,7 +3,7 @@ title: ViewInfoOptions
 second_title: GroupDocs.Viewer for Node.js via Java API Reference
 description: Provides options used for retrieving information about view.
 type: docs
-weight: 32
+weight: 34
 url: /nodejs-java/com.groupdocs.viewer.options/viewinfooptions/
 ---
 **Inheritance:**
