@@ -75,6 +75,12 @@ Example usage:
 | [setTopMargin(double topMargin)](#setTopMargin-double-) | To set top margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
 | [getBottomMargin()](#getBottomMargin--) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
 | [setBottomMargin(double bottomMargin)](#setBottomMargin-double-) | To set bottom margin of the worksheet when converting to pdf if less than 0 then default convert value is used If the parameter is less than 0, then the default value is used. |
+| [getHorizontalResolution()](#getHorizontalResolution--) | Gets or sets the horizontal resolution for generated images in dots per inch. |
+| [setHorizontalResolution(int horizontalResolution)](#setHorizontalResolution-int-) | Sets the horizontal resolution for generated images in dots per inch. |
+| [getVerticalResolution()](#getVerticalResolution--) | Gets or sets the vertical resolution for generated images in dots per inch. |
+| [setVerticalResolution(int verticalResolution)](#setVerticalResolution-int-) | Sets the vertical resolution for generated images in dots per inch. |
+| [getValidHorizontalDpi()](#getValidHorizontalDpi--) |  |
+| [getValidVerticalDpi()](#getValidVerticalDpi--) |  |
 | [forRenderingPrintAreaAndPageBreaks()](#forRenderingPrintAreaAndPageBreaks--) | Initializes a new instance of  SpreadsheetOptions  for rendering print areas and page breaks. |
 | [forRenderingByPageBreaks()](#forRenderingByPageBreaks--) | Initializes a new instance of the  SpreadsheetOptions  class for rendering print areas only. |
 ### isRenderByPageBreaks() {#isRenderByPageBreaks--}
@@ -648,6 +654,80 @@ To set bottom margin of the worksheet when converting to pdf if less than 0 then
 | --- | --- | --- |
 | bottomMargin | double |  |
 
+### getHorizontalResolution() {#getHorizontalResolution--}
+```
+public int getHorizontalResolution()
+```
+
+
+Gets or sets the horizontal resolution for generated images in dots per inch. This option is used when rendering spreadsheets to PNG or JPEG formats only.
+
+Default value is 96 DPI. Min possible value - 72 DPI, max possible value - 600 DPI. If the user-specified value is out of these limits, the min or max possible value will be applied.
+
+**Returns:**
+int - the horizontal resolution in DPI.
+### setHorizontalResolution(int horizontalResolution) {#setHorizontalResolution-int-}
+```
+public void setHorizontalResolution(int horizontalResolution)
+```
+
+
+Sets the horizontal resolution for generated images in dots per inch. This option is used when rendering spreadsheets to PNG or JPEG formats only.
+
+Default value is 96 DPI. Min possible value - 72 DPI, max possible value - 600 DPI. If the user-specified value is out of these limits, the min or max possible value will be applied.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| horizontalResolution | int | the horizontal resolution in DPI. |
+
+### getVerticalResolution() {#getVerticalResolution--}
+```
+public int getVerticalResolution()
+```
+
+
+Gets or sets the vertical resolution for generated images in dots per inch. This option is used when rendering spreadsheets to PNG or JPEG formats only.
+
+Default value is 96 DPI. Min possible value - 72 DPI, max possible value - 600 DPI. If the user-specified value is out of these limits, the min or max possible value will be applied.
+
+**Returns:**
+int - the vertical resolution in DPI.
+### setVerticalResolution(int verticalResolution) {#setVerticalResolution-int-}
+```
+public void setVerticalResolution(int verticalResolution)
+```
+
+
+Sets the vertical resolution for generated images in dots per inch. This option is used when rendering spreadsheets to PNG or JPEG formats only.
+
+Default value is 96 DPI. Min possible value - 72 DPI, max possible value - 600 DPI. If the user-specified value is out of these limits, the min or max possible value will be applied.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| verticalResolution | int | the vertical resolution in DPI. |
+
+### getValidHorizontalDpi() {#getValidHorizontalDpi--}
+```
+public int getValidHorizontalDpi()
+```
+
+
+
+
+**Returns:**
+int
+### getValidVerticalDpi() {#getValidVerticalDpi--}
+```
+public int getValidVerticalDpi()
+```
+
+
+
+
+**Returns:**
+int
 ### forRenderingPrintAreaAndPageBreaks() {#forRenderingPrintAreaAndPageBreaks--}
 ```
 public static SpreadsheetOptions forRenderingPrintAreaAndPageBreaks()
