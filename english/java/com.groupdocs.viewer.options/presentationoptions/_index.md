@@ -29,6 +29,8 @@ For details, see the [documentation][].
 | --- | --- |
 | [isRenderToPureHtml()](#isRenderToPureHtml--) | Enables a new HTML rendering mode for Presentation documents. |
 | [setRenderToPureHtml(boolean renderToPureHtml)](#setRenderToPureHtml-boolean-) | Enables a new HTML rendering mode for Presentation documents. |
+| [isRenderHeaderFooterPlaceholders()](#isRenderHeaderFooterPlaceholders--) | Enables rendering placeholders in the header and footer of a slide. |
+| [setRenderHeaderFooterPlaceholders(boolean renderHeaderFooterPlaceholders)](#setRenderHeaderFooterPlaceholders-boolean-) | Enables rendering placeholders in the header and footer of a slide. |
 | [getResolution()](#getResolution--) | Resolution for images inside presentation (for to HTML/PDF rendering only). |
 | [setResolution(Resolution resolution)](#setResolution-com.groupdocs.viewer.options.Resolution-) | Resolution for images inside presentation (for to HTML/PDF rendering only). |
 ### PresentationOptions() {#PresentationOptions--}
@@ -63,6 +65,29 @@ In this mode, the Presentation files are rendered to pure HTML/CSS markup, witho
 | Parameter | Type | Description |
 | --- | --- | --- |
 | renderToPureHtml | boolean |  |
+
+### isRenderHeaderFooterPlaceholders() {#isRenderHeaderFooterPlaceholders--}
+```
+public boolean isRenderHeaderFooterPlaceholders()
+```
+
+
+Enables rendering placeholders in the header and footer of a slide. Disabled by default (false). This option applies for all 4 rendering modes of presentations: HTML, PDF, PNG, and JPEG. Is not applicable when rendering presentation to pure HTML/CSS markup using .
+
+**Returns:**
+boolean
+### setRenderHeaderFooterPlaceholders(boolean renderHeaderFooterPlaceholders) {#setRenderHeaderFooterPlaceholders-boolean-}
+```
+public void setRenderHeaderFooterPlaceholders(boolean renderHeaderFooterPlaceholders)
+```
+
+
+Enables rendering placeholders in the header and footer of a slide. Disabled by default (false). This option applies for all 4 rendering modes of presentations: HTML, PDF, PNG, and JPEG. Is not applicable when rendering presentation to pure HTML/CSS markup using .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| renderHeaderFooterPlaceholders | boolean |  |
 
 ### getResolution() {#getResolution--}
 ```
