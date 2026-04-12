@@ -70,7 +70,8 @@ Example usage:
 | [getAttachments()](#getAttachments--) | Returns attachments contained by the document. |
 | [saveAttachment(Attachment attachment, OutputStream destination)](#saveAttachment-com.groupdocs.viewer.results.Attachment-java.io.OutputStream-) | Saves an attachment file to the destination stream. |
 | [view(ViewOptions options)](#view-com.groupdocs.viewer.options.ViewOptions-) | Creates a view of all document pages. |
-| [view(ViewOptions options, int[] pageNumbers)](#view-com.groupdocs.viewer.options.ViewOptions-int...-) | Creates a view of specific document pages. |
+| [view(ViewOptions options, int pageNumber)](#view-com.groupdocs.viewer.options.ViewOptions-int-) | Creates a view of specific document page. |
+| [view(ViewOptions options, int[] pageNumbers)](#view-com.groupdocs.viewer.options.ViewOptions-int---) | Creates a view of specific document pages. |
 | [getAllFonts()](#getAllFonts--) | Returns all fonts used in the loaded documents, including those embedded inside the document itself and those system fonts installed in the OS and used in the document. |
 | [search(SearchHighlightOptions options)](#search-com.groupdocs.viewer.options.SearchHighlightOptions-) | Performs a text search and highlights matches (if found) in the loaded document according to the provided options. |
 | [getFileInfo()](#getFileInfo--) | Returns information about the file, such as file type and a flag that indicates if the file is encrypted. |
@@ -709,7 +710,28 @@ Creates a view of all document pages.
 | --- | --- | --- |
 | options | [ViewOptions](../../com.groupdocs.viewer.options/viewoptions) | The view options. |
 
-### view(ViewOptions options, int[] pageNumbers) {#view-com.groupdocs.viewer.options.ViewOptions-int...-}
+### view(ViewOptions options, int pageNumber) {#view-com.groupdocs.viewer.options.ViewOptions-int-}
+```
+public final void view(ViewOptions options, int pageNumber)
+```
+
+
+Creates a view of specific document page.
+
+ **Learn more**
+
+ *  Learn more about different viewing options following this guide: [How to customize document viewing output using GroupDocs.Viewer][]
+
+
+[How to customize document viewing output using GroupDocs.Viewer]: https://docs.groupdocs.com/display/viewerjava/Viewing
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [ViewOptions](../../com.groupdocs.viewer.options/viewoptions) | The view options. |
+| pageNumber | int | The page number to view. |
+
+### view(ViewOptions options, int[] pageNumbers) {#view-com.groupdocs.viewer.options.ViewOptions-int---}
 ```
 public final void view(ViewOptions options, int[] pageNumbers)
 ```
