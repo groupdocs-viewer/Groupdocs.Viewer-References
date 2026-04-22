@@ -3,7 +3,7 @@ title: RenderHeadings
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables headings rendering.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.viewer.options/spreadsheetoptions/renderheadings/
 ---
 ## SpreadsheetOptions.RenderHeadings property

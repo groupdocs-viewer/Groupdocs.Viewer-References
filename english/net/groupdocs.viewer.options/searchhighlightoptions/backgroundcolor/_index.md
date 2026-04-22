@@ -16,7 +16,7 @@ public Argb32Color BackgroundColor { get; set; }
 
 ### Remarks
 
-If this color is empty or fully transparent, a default color such as `Color.Yellow` may be used.
+If this color is empty or fully transparent, a default color `Argb32Color.Yellow` will be used
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: TextOverflowMode
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Sets the text overflow mode for rendering spreadsheet documents into HTML. By default is  which mimics the default MS Excel behavior.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.viewer.options/spreadsheetoptions/textoverflowmode/
 ---
 ## SpreadsheetOptions.TextOverflowMode property

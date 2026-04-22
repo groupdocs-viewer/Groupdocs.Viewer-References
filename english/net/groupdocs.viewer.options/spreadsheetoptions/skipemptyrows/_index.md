@@ -3,7 +3,7 @@ title: SkipEmptyRows
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Disables empty rows rendering.
 type: docs
-weight: 170
+weight: 180
 url: /net/groupdocs.viewer.options/spreadsheetoptions/skipemptyrows/
 ---
 ## SpreadsheetOptions.SkipEmptyRows property

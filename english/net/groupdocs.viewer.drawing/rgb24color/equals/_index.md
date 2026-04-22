@@ -57,19 +57,19 @@ True if both colors or equal, otherwise false.
 
 ## Equals(object) {#equals_2}
 
-Tests if another object is equal to this [`Rgb24Color`](../../rgb24color) instance.
+Checks this color with specified uncasted
 
 ```csharp
-public override bool Equals(object other)
+public override bool Equals(object obj)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | Object | The object to test with. |
+| obj | Object | The other uncasted color |
 
 ### Return Value
 
-True if the two objects are equal, otherwise false.
+True if both colors or equal, otherwise false.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: SkipEmptyColumns
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Disables empty columns rendering.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.viewer.options/spreadsheetoptions/skipemptycolumns/
 ---
 ## SpreadsheetOptions.SkipEmptyColumns property

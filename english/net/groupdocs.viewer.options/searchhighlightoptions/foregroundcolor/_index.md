@@ -16,7 +16,7 @@ public Argb32Color ForegroundColor { get; set; }
 
 ### Remarks
 
-If this color is empty or fully transparent, no explicit foreground color is applied (leaving the original text color).
+If this color is empty or fully transparent, no explicit foreground color is applied (leaving the original text color)
 
 ### See Also
 
