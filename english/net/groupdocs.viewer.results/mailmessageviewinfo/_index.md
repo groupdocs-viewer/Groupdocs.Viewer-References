@@ -1,33 +1,28 @@
 ---
-title: MboxViewInfo
+title: MailMessageViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
-description: Represents view information for Mbox files storage
+description: Represents a view information about one email message
 type: docs
-weight: 940
-url: /net/groupdocs.viewer.results/mboxviewinfo/
+weight: 930
+url: /net/groupdocs.viewer.results/mailmessageviewinfo/
 ---
-## MboxViewInfo class
+## MailMessageViewInfo class
 
-Represents view information for Mbox files storage
+Represents a view information about one email message
 
 ```csharp
-public class MboxViewInfo : ViewInfo
+public sealed class MailMessageViewInfo : ViewInfo
 ```
-
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [MboxViewInfo](mboxviewinfo#constructor)() | Initializes new instance of [`MboxViewInfo`](../mboxviewinfo) class. |
-| [MboxViewInfo](mboxviewinfo#constructor_1)(FileType, List&lt;Page&gt;, int) | Initializes new instance of [`MboxViewInfo`](../mboxviewinfo) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
 | [FileType](../../groupdocs.viewer.results/viewinfo/filetype) { get; set; } | The type of the file. |
-| [MessagesCount](../../groupdocs.viewer.results/mboxviewinfo/messagescount) { get; set; } | Notes count in storage |
+| [From](../../groupdocs.viewer.results/mailmessageviewinfo/from) { get; } | Returns a "From" email address of the email message as a string |
 | [Pages](../../groupdocs.viewer.results/viewinfo/pages) { get; set; } | The list of pages to view. |
+| [Sent](../../groupdocs.viewer.results/mailmessageviewinfo/sent) { get; } | Returns original "Sent" datetime of the email message |
+| [Subject](../../groupdocs.viewer.results/mailmessageviewinfo/subject) { get; } | Returns a "Subject" line |
 
 ## Methods
 

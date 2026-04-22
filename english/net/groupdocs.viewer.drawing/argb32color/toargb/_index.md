@@ -3,7 +3,7 @@ title: ToArgb
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Returns the ARGB value of this Argb32Colorgroupdocs.viewer.drawing/argb32color instance compatible with System.Drawing.Color.ToArgb method
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.viewer.drawing/argb32color/toargb/
 ---
 ## Argb32Color.ToArgb method

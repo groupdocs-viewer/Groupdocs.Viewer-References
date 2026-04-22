@@ -3,7 +3,7 @@ title: ToHexRGB
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Serializes this Argb32Colorgroupdocs.viewer.drawing/argb32color instance to the hexadecimal notation RRGGBB as a string without alpha channel
 type: docs
-weight: 240
+weight: 250
 url: /net/groupdocs.viewer.drawing/argb32color/tohexrgb/
 ---
 ## Argb32Color.ToHexRGB method

@@ -22,6 +22,7 @@ public class SpreadsheetOptions
 | [CountColumnsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countcolumnsperpage) { get; } | The columns count to include on each page when splitting the worksheet into pages. |
 | [CountRowsPerPage](../../groupdocs.viewer.options/spreadsheetoptions/countrowsperpage) { get; } | The rows count to include on each page when splitting the worksheet into pages. |
 | [DetectSeparator](../../groupdocs.viewer.options/spreadsheetoptions/detectseparator) { get; set; } | Detect a separator (for CSV/TSV files). |
+| [HorizontalResolution](../../groupdocs.viewer.options/spreadsheetoptions/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution for generated images in dots per inch. This option is used when rendering spreadsheets to PNG or JPEG formats only. |
 | [LeftMargin](../../groupdocs.viewer.options/spreadsheetoptions/leftmargin) { get; set; } | Sets the left margin of a page when converting to PDF. |
 | [RenderGridLines](../../groupdocs.viewer.options/spreadsheetoptions/rendergridlines) { get; set; } | Enables grid lines rendering. |
 | [RenderHeadings](../../groupdocs.viewer.options/spreadsheetoptions/renderheadings) { get; set; } | Enables headings rendering. |
@@ -32,6 +33,7 @@ public class SpreadsheetOptions
 | [SkipEmptyRows](../../groupdocs.viewer.options/spreadsheetoptions/skipemptyrows) { get; set; } | Disables empty rows rendering. |
 | [TextOverflowMode](../../groupdocs.viewer.options/spreadsheetoptions/textoverflowmode) { get; set; } | Sets the text overflow mode for rendering spreadsheet documents into HTML. By default is , which mimics the default MS Excel behavior. |
 | [TopMargin](../../groupdocs.viewer.options/spreadsheetoptions/topmargin) { get; set; } | Sets the top margin of a page when converting to PDF. |
+| [VerticalResolution](../../groupdocs.viewer.options/spreadsheetoptions/verticalresolution) { get; set; } | Gets or sets the vertical resolution for generated images in dots per inch. This option is used when rendering spreadsheets to PNG or JPEG formats only. |
 
 ## Methods
 

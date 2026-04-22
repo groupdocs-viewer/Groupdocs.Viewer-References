@@ -3,7 +3,7 @@ title: ToHexRGBA
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Serializes this Argb32Colorgroupdocs.viewer.drawing/argb32color instance to the hexadecimal notation RRGGBBAA as a string with alpha channel
 type: docs
-weight: 250
+weight: 260
 url: /net/groupdocs.viewer.drawing/argb32color/tohexrgba/
 ---
 ## Argb32Color.ToHexRGBA method

@@ -3,7 +3,7 @@ title: RenderHiddenRows
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Enables hidden rows rendering.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.viewer.options/spreadsheetoptions/renderhiddenrows/
 ---
 ## SpreadsheetOptions.RenderHiddenRows property

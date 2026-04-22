@@ -29,7 +29,7 @@ public struct Rgb24Color : IEquatable<Argb32Color>, IEquatable<Rgb24Color>
 | --- | --- |
 | static [FromRgb](../../groupdocs.viewer.drawing/rgb24color/fromrgb)(byte, byte, byte) | Creates one [`Rgb24Color`](../rgb24color) value from specified Red, Green, Blue channels |
 | [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals)(Argb32Color) | Checks this color with specified [`Argb32Color`](../argb32color) color for equality |
-| override [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals_2)(object) | Tests if another object is equal to this [`Rgb24Color`](../rgb24color) instance. |
+| override [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals_2)(object) | Checks this color with specified uncasted |
 | [Equals](../../groupdocs.viewer.drawing/rgb24color/equals#equals_1)(Rgb24Color) | Checks this color with specified [`Rgb24Color`](../rgb24color) color for equality |
 | [GetBrightness](../../groupdocs.viewer.drawing/rgb24color/getbrightness)() | Returns the Hue-Saturation-Lightness (HSL) lightness/brightness for this [`Rgb24Color`](../rgb24color) instance. |
 | override [GetHashCode](../../groupdocs.viewer.drawing/rgb24color/gethashcode)() | Returns a hash code that defines the current color. Not compatible with GetHashCode |

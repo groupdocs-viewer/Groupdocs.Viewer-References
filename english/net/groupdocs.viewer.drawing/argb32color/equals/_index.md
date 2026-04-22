@@ -3,7 +3,7 @@ title: Equals
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Checks this color with specified Argb32Colorgroupdocs.viewer.drawing/argb32color color for equality
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.viewer.drawing/argb32color/equals/
 ---
 ## Equals(Argb32Color) {#equals}
@@ -57,19 +57,19 @@ True if both colors or equal, otherwise false.
 
 ## Equals(object) {#equals_2}
 
-Tests if another object is equal to this [`Argb32Color`](../../argb32color) instance.
+Checks this color with specified uncasted
 
 ```csharp
-public override bool Equals(object other)
+public override bool Equals(object obj)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | Object | The object to test with. |
+| obj | Object | The other uncasted color |
 
 ### Return Value
 
-True if the two objects are equal, otherwise false.
+True if both colors or equal, otherwise false.
 
 ### See Also
 
