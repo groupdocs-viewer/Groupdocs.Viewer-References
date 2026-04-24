@@ -1,46 +1,49 @@
 ---
-title: SpreadsheetOptions
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: SpreadsheetOptions class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 220
 url: /python-net/groupdocs.viewer.options/spreadsheetoptions/
+is_root: false
+weight: 280
 ---
+
 
 ## SpreadsheetOptions class
 
-Contains options for rendering spreadsheets. For details, see children of the
-
 The SpreadsheetOptions type exposes the following members:
-## Properties
-| Name | Description |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|count_rows_per_page|The rows count to include on each page when splitting the worksheet into pages.|
-|count_columns_per_page|The columns count to include on each page when splitting the worksheet into pages.|
-|render_grid_lines|Enables grid lines rendering.|
-|skip_empty_rows|Disables empty rows rendering.|
-|skip_empty_columns|Disables empty columns rendering.|
-|render_hidden_rows|Enables hidden rows rendering.|
-|render_headings|Enables headings rendering.|
-|render_hidden_columns|Enables hidden columns rendering.|
-|detect_separator|Detect a separator (for CSV/TSV files).|
-|left_margin|Sets the left margin of a page when converting to PDF.|
-|right_margin|Sets the right margin of a page when converting to PDF.|
-|top_margin|Sets the top margin of a page when converting to PDF.|
-|bottom_margin|Sets the bottom margin of a page when converting to PDF.|
-|text_overflow_mode|Sets the text overflow mode for rendering spreadsheet documents into HTML.|
-## Methods
-| Name | Description |
+| [_for_split_sheet_into_pages_int32](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/_for_split_sheet_into_pages_int32/#count_rows_per_page) |  |
+| [_for_split_sheet_into_pages_int32_int32](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/_for_split_sheet_into_pages_int32_int32/#count_rows_per_page-count_columns_per_page) |  |
+| [for_one_page_per_sheet](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/for_one_page_per_sheet/) |  |
+| [for_rendering_by_page_breaks](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/for_rendering_by_page_breaks/) |  |
+| [for_rendering_print_area](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/for_rendering_print_area/) |  |
+| [for_rendering_print_area_and_page_breaks](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/for_rendering_print_area_and_page_breaks/) |  |
+| [for_split_sheet_into_pages](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/for_split_sheet_into_pages/) |  |
+| [for_split_sheet_into_pages_int32](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/for_split_sheet_into_pages_int32/) |  |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|for_split_sheet_into_pages(count_rows_per_page)|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
-|for_split_sheet_into_pages(count_rows_per_page, count_columns_per_page)|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering sheet into pages.|
-|for_one_page_per_sheet()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the whole sheet into one page.|
-|for_rendering_print_area()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the print areas only.|
-|for_rendering_print_area_and_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering print areas and page breaks.|
-|for_rendering_by_page_breaks()|Initializes an instance of the [SpreadsheetOptions](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for splitting to pages by page breaks.|
+| [bottom_margin](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/bottom_margin/) |  |
+| [count_columns_per_page](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/count_columns_per_page/) |  |
+| [count_rows_per_page](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/count_rows_per_page/) |  |
+| [detect_separator](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/detect_separator/) |  |
+| [horizontal_resolution](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/horizontal_resolution/) |  |
+| [left_margin](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/left_margin/) |  |
+| [render_grid_lines](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/render_grid_lines/) |  |
+| [render_headings](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/render_headings/) |  |
+| [render_hidden_columns](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/render_hidden_columns/) |  |
+| [render_hidden_rows](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/render_hidden_rows/) |  |
+| [right_margin](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/right_margin/) |  |
+| [skip_empty_columns](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/skip_empty_columns/) |  |
+| [skip_empty_rows](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/skip_empty_rows/) |  |
+| [text_overflow_mode](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/text_overflow_mode/) |  |
+| [top_margin](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/top_margin/) |  |
+| [vertical_resolution](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/vertical_resolution/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

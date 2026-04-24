@@ -1,30 +1,34 @@
 ---
-title: MailStorageOptions
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: MailStorageOptions class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 110
 url: /python-net/groupdocs.viewer.options/mailstorageoptions/
+is_root: false
+weight: 120
 ---
+
 
 ## MailStorageOptions class
 
-Contains options for rendering Mail storage (Lotus Notes, MBox) data files. For details, see the
-
 The MailStorageOptions type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|MailStorageOptions()|Initializes a new instance of the MailStorageOptions class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/mailstorageoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|text_filter|Sets the keywords used to filter messages.|
-|address_filter|Sets the email-address used to filter messages by sender or recipient.|
-|max_items|Sets the maximum number of messages or items to render.|
+| [_init_noargs](/viewer/python-net/groupdocs.viewer.options/mailstorageoptions/_init_noargs/) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [address_filter](/viewer/python-net/groupdocs.viewer.options/mailstorageoptions/address_filter/) |  |
+| [max_items](/viewer/python-net/groupdocs.viewer.options/mailstorageoptions/max_items/) |  |
+| [text_filter](/viewer/python-net/groupdocs.viewer.options/mailstorageoptions/text_filter/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

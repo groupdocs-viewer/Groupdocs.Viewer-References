@@ -1,32 +1,36 @@
 ---
-title: Watermark
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: Watermark class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 280
 url: /python-net/groupdocs.viewer.options/watermark/
+is_root: false
+weight: 360
 ---
+
 
 ## Watermark class
 
-Represents a text watermark. For details, see the
-
 The Watermark type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|Watermark(text)|Initializes a new instance of the Watermark class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/watermark/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|text|The watermark text.|
-|color|The watermark color.<br/>            Default value is [None](/viewer/python-net/groupdocs.viewer.drawing.rgb24color.knowncolors/csslevel1/).|
-|position|The watermark position.<br/>            Default value is [DIAGONAL](/viewer/python-net/groupdocs.viewer.options/position/).|
-|size|The watermark size.<br/>            Default value is [None](/viewer/python-net/groupdocs.viewer.options/size/).|
-|font_name|The font name used for the watermark.|
+| [_init_string](/viewer/python-net/groupdocs.viewer.options/watermark/_init_string/#text) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [color](/viewer/python-net/groupdocs.viewer.options/watermark/color/) |  |
+| [font_name](/viewer/python-net/groupdocs.viewer.options/watermark/font_name/) |  |
+| [position](/viewer/python-net/groupdocs.viewer.options/watermark/position/) |  |
+| [size](/viewer/python-net/groupdocs.viewer.options/watermark/size/) |  |
+| [text](/viewer/python-net/groupdocs.viewer.options/watermark/text/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

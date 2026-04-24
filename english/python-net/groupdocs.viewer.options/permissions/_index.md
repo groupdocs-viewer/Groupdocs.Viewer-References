@@ -1,27 +1,26 @@
 ---
-title: Permissions
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: Permissions class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 330
 url: /python-net/groupdocs.viewer.options/permissions/
+is_root: false
+weight: 180
 ---
 
-## Permissions enumeration
 
-Defines PDF document permissions.
+## Permissions class
 
-## Members
-| Member name | Description |
+The Permissions type exposes the following members:
+
+### Fields
+| Field | Description |
 | :- | :- |
-|ALLOW_ALL|Allow printing, modification and data extraction.|
-|DENY_PRINTING|Deny printing.|
-|DENY_MODIFICATION|Deny content modification, filling in forms, adding or modifying annotations.|
-|DENY_DATA_EXTRACTION|Deny text and graphics extraction.|
-|DENY_ALL|Deny printing, content modification and data extraction.|
+| [ALLOW_ALL](/viewer/python-net/groupdocs.viewer.options/permissions/allow_all/) |  |
+| [DENY_PRINTING](/viewer/python-net/groupdocs.viewer.options/permissions/deny_printing/) |  |
+| [DENY_MODIFICATION](/viewer/python-net/groupdocs.viewer.options/permissions/deny_modification/) |  |
+| [DENY_DATA_EXTRACTION](/viewer/python-net/groupdocs.viewer.options/permissions/deny_data_extraction/) |  |
+| [DENY_ALL](/viewer/python-net/groupdocs.viewer.options/permissions/deny_all/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

@@ -1,29 +1,28 @@
 ---
-title: License
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: License class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.viewer/license/
+is_root: false
+weight: 70
 ---
+
 
 ## License class
 
-Provides methods to license the component. Learn more about licensing
+Manages GroupDocs.Viewer licensing.
+
+Licensed builds unlock the full feature set of the wrapper at
+runtime. Unlicensed builds run in evaluation mode with the same API
+surface but with limits on output size and watermarked content.
 
 The License type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|License()|Initializes a new instance of the License class|
-## Methods
-| Name | Description |
-| :- | :- |
-|set_license(license_stream)|Licenses the component.|
-|set_license(license_path)|Licenses the component.|
+| [set_license](/viewer/python-net/groupdocs.viewer/license/set_license/#license_source) | Apply a license to the current process. |
 
 ### See Also
-
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer`](/viewer/python-net/groupdocs.viewer/)

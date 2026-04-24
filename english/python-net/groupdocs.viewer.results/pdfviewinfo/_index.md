@@ -1,31 +1,38 @@
 ---
-title: PdfViewInfo
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: PdfViewInfo class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 130
 url: /python-net/groupdocs.viewer.results/pdfviewinfo/
+is_root: false
+weight: 140
 ---
+
 
 ## PdfViewInfo class
 
-Represents view information for PDF document.
-
 The PdfViewInfo type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|PdfViewInfo()|Initializes new instance of [PdfViewInfo](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/) class.|
-|PdfViewInfo(file_type, pages, printing_allowed)|Initializes a new instance of the PdfViewInfo class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|file_type|The type of the file.|
-|pages|The list of pages to view.|
-|printing_allowed|Indicates if printing of the document is allowed.|
+| [_init_file_type_list_1_3205_boolean](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/_init_file_type_list_1_3205_boolean/#file_type-pages-printing_allowed) |  |
+| [_init_noargs](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/_init_noargs/) |  |
+| [_init_file_type_list_1_3205](/viewer/python-net/groupdocs.viewer.results/viewinfo/_init_file_type_list_1_3205/) |  (inherited from [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/)) |
+| [_to_string_noargs](/viewer/python-net/groupdocs.viewer.results/viewinfo/_to_string_noargs/) |  (inherited from [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/)) |
+| [to_string](/viewer/python-net/groupdocs.viewer.results/viewinfo/to_string/) |  (inherited from [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/)) |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [printing_allowed](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/printing_allowed/) |  |
+| [file_type](/viewer/python-net/groupdocs.viewer.results/viewinfo/file_type/) |  (inherited from [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/)) |
+| [pages](/viewer/python-net/groupdocs.viewer.results/viewinfo/pages/) |  (inherited from [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/)) |
 
 ### See Also
-
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.results`](/viewer/python-net/groupdocs.viewer.results/)

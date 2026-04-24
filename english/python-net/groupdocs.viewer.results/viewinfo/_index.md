@@ -1,30 +1,36 @@
 ---
-title: ViewInfo
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: ViewInfo class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 160
 url: /python-net/groupdocs.viewer.results/viewinfo/
+is_root: false
+weight: 180
 ---
+
 
 ## ViewInfo class
 
-Represents view information for generic document.
-
 The ViewInfo type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|ViewInfo()|Initializes new instance of [ViewInfo](/viewer/python-net/groupdocs.viewer.results/viewinfo/) class.|
-|ViewInfo(file_type, pages)|Initializes a new instance of the ViewInfo class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/viewinfo/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|file_type|The type of the file.|
-|pages|The list of pages to view.|
+| [_init_file_type_list_1_3205](/viewer/python-net/groupdocs.viewer.results/viewinfo/_init_file_type_list_1_3205/#file_type-pages) |  |
+| [_init_noargs](/viewer/python-net/groupdocs.viewer.results/viewinfo/_init_noargs/) |  |
+| [_to_string_noargs](/viewer/python-net/groupdocs.viewer.results/viewinfo/_to_string_noargs/) |  |
+| [to_string](/viewer/python-net/groupdocs.viewer.results/viewinfo/to_string/) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [file_type](/viewer/python-net/groupdocs.viewer.results/viewinfo/file_type/) |  |
+| [pages](/viewer/python-net/groupdocs.viewer.results/viewinfo/pages/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.results`](/viewer/python-net/groupdocs.viewer.results/)

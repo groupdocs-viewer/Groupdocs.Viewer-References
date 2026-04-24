@@ -1,30 +1,31 @@
 ---
-title: Metered
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: Metered class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.viewer/metered/
+is_root: false
+weight: 80
 ---
+
 
 ## Metered class
 
-Provides methods for applying
+Manages metered (pay-per-use) licensing.
+
+Metered licenses bill on actual consumption (typically pages or
+documents processed). Set the public/private key pair once at
+application startup; the wrapper reports usage back to the GroupDocs
+license server in the background.
 
 The Metered type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|Metered()|Initializes a new instance of the Metered class|
-## Methods
-| Name | Description |
-| :- | :- |
-|set_metered_key(public_key, private_key)|Activates product with Metered keys.|
-|get_consumption_quantity()|Retrieves amount of MBs processed.|
-|get_consumption_credit()|Retrieves count of credits consumed.|
+| [get_consumption_credit](/viewer/python-net/groupdocs.viewer/metered/get_consumption_credit/) | Return the remaining metered credit for the current key. |
+| [get_consumption_quantity](/viewer/python-net/groupdocs.viewer/metered/get_consumption_quantity/) | Return the total metered quantity consumed so far. |
+| [set_metered_key](/viewer/python-net/groupdocs.viewer/metered/set_metered_key/#public_key-private_key) | Activate metered billing with the given public/private key pair. |
 
 ### See Also
-
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer`](/viewer/python-net/groupdocs.viewer/)

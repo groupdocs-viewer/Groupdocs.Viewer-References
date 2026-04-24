@@ -1,0 +1,25 @@
+---
+title: file_format property
+second_title: GroupDocs.Viewer for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.viewer/filetype/file_format/
+is_root: false
+weight: 2020
+---
+
+
+## file_format property
+
+### Definition:
+```python
+@property
+def file_format(self):
+    ...
+@file_format.setter
+def file_format(self, value):
+    ...
+```
+
+### See Also
+* class [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/)

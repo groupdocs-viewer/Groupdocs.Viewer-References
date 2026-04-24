@@ -1,30 +1,35 @@
 ---
-title: EmailOptions
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: EmailOptions class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 40
 url: /python-net/groupdocs.viewer.options/emailoptions/
+is_root: false
+weight: 40
 ---
+
 
 ## EmailOptions class
 
-Contains options for rendering email messages. For details, see the
-
 The EmailOptions type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|EmailOptions()|Initializes an instance of the [EmailOptions](/viewer/python-net/groupdocs.viewer.options/emailoptions/) class.|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/emailoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|page_size|The size of the output page.|
-|date_time_format|Time Format (can be include TimeZone). <br/>            For example: 'MM d yyyy HH:mm tt', if not set - current system format is used|
-|time_zone_offset|Message time zone offset.|
+| [_init_noargs](/viewer/python-net/groupdocs.viewer.options/emailoptions/_init_noargs/) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [date_time_format](/viewer/python-net/groupdocs.viewer.options/emailoptions/date_time_format/) |  |
+| [field_text_map](/viewer/python-net/groupdocs.viewer.options/emailoptions/field_text_map/) |  |
+| [page_size](/viewer/python-net/groupdocs.viewer.options/emailoptions/page_size/) |  |
+| [time_zone_offset](/viewer/python-net/groupdocs.viewer.options/emailoptions/time_zone_offset/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

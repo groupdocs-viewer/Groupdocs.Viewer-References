@@ -1,22 +1,32 @@
 ---
 title: groupdocs.viewer.fonts
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 50
 url: /python-net/groupdocs.viewer.fonts/
+is_root: false
+weight: 40
 ---
 
 
-The namespace provides classes and enumerations to manage fonts used during rendering process.
+Font loading and substitution configuration.
 
-## Classes
+### Classes
 | Class | Description |
 | :- | :- |
-|[FolderFontSource](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/)|Represents the folder that contains TrueType fonts.|
-|[FontSettings](/viewer/python-net/groupdocs.viewer.fonts/fontsettings/)|Provides methods for working with sources to look for TrueType fonts.|
-|[IFontSource](/viewer/python-net/groupdocs.viewer.fonts/ifontsource/)|Marker interface for the font sources.|
-## Enumerations
-| Enumeration | Description |
+| [`FolderFontSource`](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/) |  |
+| [`FontSettings`](/viewer/python-net/groupdocs.viewer.fonts/fontsettings/) |  |
+| [`FontStyles`](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/) |  |
+| [`IFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/ifontinfo/) |  |
+| [`PdfFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/) |  |
+| [`PresentationFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/presentationfontinfo/) |  |
+| [`SpreadsheetFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/) |  |
+| [`WordProcessingFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingfontinfo/) |  |
+| [`WordProcessingSubstitutedFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/) |  |
+
+### Enumerations
+| Enum | Description |
 | :- | :- |
-|[SearchOption](/viewer/python-net/groupdocs.viewer.fonts/searchoption/)|Specifies whether to search the current folder, or the current folder and all subfolders.|
+| [`FontFormat`](/viewer/python-net/groupdocs.viewer.fonts/fontformat/) |  |
+| [`IFontSource`](/viewer/python-net/groupdocs.viewer.fonts/ifontsource/) |  |
+| [`SearchOption`](/viewer/python-net/groupdocs.viewer.fonts/searchoption/) |  |

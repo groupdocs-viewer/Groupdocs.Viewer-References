@@ -1,30 +1,36 @@
 ---
-title: Resource
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: Resource class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 150
 url: /python-net/groupdocs.viewer.results/resource/
+is_root: false
+weight: 160
 ---
+
 
 ## Resource class
 
-Represents HTML resource such as font, style, image or graphics.
-
 The Resource type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|Resource()|Creates new instance of [Resource](/viewer/python-net/groupdocs.viewer.results/resource/) class.|
-|Resource(file_name, nested)|Initializes a new instance of the Resource class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/resource/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|file_name|The resource file name.|
-|nested|Indicates whether resource resides inside another resource,<br/>            e.g. font resource that resides in CSS or SVG resource.|
+| [_init_noargs](/viewer/python-net/groupdocs.viewer.results/resource/_init_noargs/) |  |
+| [_init_string_boolean](/viewer/python-net/groupdocs.viewer.results/resource/_init_string_boolean/#file_name-nested) |  |
+| [_to_string_noargs](/viewer/python-net/groupdocs.viewer.results/resource/_to_string_noargs/) |  |
+| [to_string](/viewer/python-net/groupdocs.viewer.results/resource/to_string/) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [file_name](/viewer/python-net/groupdocs.viewer.results/resource/file_name/) |  |
+| [nested](/viewer/python-net/groupdocs.viewer.results/resource/nested/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.results`](/viewer/python-net/groupdocs.viewer.results/)

@@ -1,20 +1,17 @@
 ---
-title: IFontSource
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: IFontSource class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 30
 url: /python-net/groupdocs.viewer.fonts/ifontsource/
+is_root: false
+weight: 60
 ---
 
-## IFontSource class
 
-Marker interface for the font sources.
+## IFontSource class
 
 The IFontSource type exposes the following members:
 
 ### See Also
-
-* namespace [groupdocs.viewer.fonts](/viewer/python-net/groupdocs.viewer.fonts/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.fonts`](/viewer/python-net/groupdocs.viewer.fonts/)

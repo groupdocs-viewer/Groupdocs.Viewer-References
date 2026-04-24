@@ -1,31 +1,32 @@
 ---
-title: Size
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: Size class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 210
 url: /python-net/groupdocs.viewer.options/size/
+is_root: false
+weight: 270
 ---
+
 
 ## Size class
 
-Contains the watermark size.
-
 The Size type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|Size(relative_size)|Initializes a new instance of the Size class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/size/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|relative_size|The watermark text size in percentages in relation to page width.<br/>            Valid values are between 1 and 100.|
-|FULL_SIZE|The maximum size of watermark text that fits page.|
-|HALF_SIZE|The half of the maximum size of watermark text that fits page.|
-|ONE_THIRD|The one third of the maximum size of watermark text that fits page.|
+| [_init_byte](/viewer/python-net/groupdocs.viewer.options/size/_init_byte/#relative_size) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [relative_size](/viewer/python-net/groupdocs.viewer.options/size/relative_size/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

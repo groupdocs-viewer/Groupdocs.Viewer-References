@@ -1,39 +1,45 @@
 ---
-title: Page
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: Page class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 120
 url: /python-net/groupdocs.viewer.results/page/
+is_root: false
+weight: 130
 ---
+
 
 ## Page class
 
-Represents single page that can be viewed.
-
 The Page type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|Page()|Initializes new instance of [Page](/viewer/python-net/groupdocs.viewer.results/page/) class.|
-|Page(number, visible)|Initializes a new instance of the Page class|
-|Page(number, name, visible)|Initializes a new instance of the Page class|
-|Page(number, visible, width, height)|Initializes a new instance of the Page class|
-|Page(number, name, visible, width, height)|Initializes a new instance of the Page class|
-|Page(number, visible, width, height, lines)|Initializes a new instance of the Page class|
-|Page(number, name, visible, width, height, lines)|Initializes a new instance of the Page class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|number|The page number.|
-|visible|The page visibility indicator.|
-|width|The width of the page in pixels when viewing as JPG or PNG.|
-|height|The height of the page in pixels when viewing as JPG or PNG.|
-|name|The worksheet or page name.|
-|lines|The lines contained by the page when viewing as JPG or PNG with enabled Text Extraction.|
+| [_init_int32_boolean](/viewer/python-net/groupdocs.viewer.results/page/_init_int32_boolean/#number-visible) |  |
+| [_init_int32_boolean_int32_int32](/viewer/python-net/groupdocs.viewer.results/page/_init_int32_boolean_int32_int32/#number-visible-width-height) |  |
+| [_init_int32_boolean_int32_int32_list_1_61c1](/viewer/python-net/groupdocs.viewer.results/page/_init_int32_boolean_int32_int32_list_1_61c1/#number-visible-width-height-lines) |  |
+| [_init_int32_string_boolean](/viewer/python-net/groupdocs.viewer.results/page/_init_int32_string_boolean/#number-name-visible) |  |
+| [_init_int32_string_boolean_int32_int32](/viewer/python-net/groupdocs.viewer.results/page/_init_int32_string_boolean_int32_int32/#number-name-visible-width-height) |  |
+| [_init_int32_string_boolean_int32_int32_list_1_61c1](/viewer/python-net/groupdocs.viewer.results/page/_init_int32_string_boolean_int32_int32_list_1_61c1/#number-name-visible-width-height-lines) |  |
+| [_init_noargs](/viewer/python-net/groupdocs.viewer.results/page/_init_noargs/) |  |
+| [_to_string_noargs](/viewer/python-net/groupdocs.viewer.results/page/_to_string_noargs/) |  |
+| [to_string](/viewer/python-net/groupdocs.viewer.results/page/to_string/) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [height](/viewer/python-net/groupdocs.viewer.results/page/height/) |  |
+| [lines](/viewer/python-net/groupdocs.viewer.results/page/lines/) |  |
+| [name](/viewer/python-net/groupdocs.viewer.results/page/name/) |  |
+| [number](/viewer/python-net/groupdocs.viewer.results/page/number/) |  |
+| [visible](/viewer/python-net/groupdocs.viewer.results/page/visible/) |  |
+| [width](/viewer/python-net/groupdocs.viewer.results/page/width/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.results](/viewer/python-net/groupdocs.viewer.results/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.results`](/viewer/python-net/groupdocs.viewer.results/)

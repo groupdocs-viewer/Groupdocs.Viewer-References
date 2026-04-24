@@ -1,35 +1,46 @@
 ---
-title: FileCache
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: FileCache class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 20
 url: /python-net/groupdocs.viewer.caching/filecache/
+is_root: false
+weight: 20
 ---
+
 
 ## FileCache class
 
-Represents a local on-disk cache.
-
 The FileCache type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|FileCache(cache_path)|Initializes a new instance of the FileCache class|
-|FileCache(cache_path, cache_sub_folder)|Initializes a new instance of the FileCache class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.caching/filecache/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|cache_path|The Relative or absolute path to the cache folder.|
-|cache_sub_folder|The sub-folder to append to the [cache_path](/viewer/python-net/groupdocs.viewer.caching/filecache/).|
-## Methods
-| Name | Description |
+| [_get_keys_string](/viewer/python-net/groupdocs.viewer.caching/filecache/_get_keys_string/#filter) |  |
+| [_init_string](/viewer/python-net/groupdocs.viewer.caching/filecache/_init_string/#cache_path) |  |
+| [_init_string_string](/viewer/python-net/groupdocs.viewer.caching/filecache/_init_string_string/#cache_path-cache_sub_folder) |  |
+| [_set_string_object](/viewer/python-net/groupdocs.viewer.caching/filecache/_set_string_object/#key-value) |  |
+| [_try_get_value_string_arg](/viewer/python-net/groupdocs.viewer.caching/filecache/_try_get_value_string_arg/#key-value) |  |
+| [get_keys](/viewer/python-net/groupdocs.viewer.caching/filecache/get_keys/) |  |
+| [get_keys_file](/viewer/python-net/groupdocs.viewer.caching/filecache/get_keys_file/) |  |
+| [get_keys_string](/viewer/python-net/groupdocs.viewer.caching/filecache/get_keys_string/) |  |
+| [set](/viewer/python-net/groupdocs.viewer.caching/filecache/set/) |  |
+| [set_file](/viewer/python-net/groupdocs.viewer.caching/filecache/set_file/) |  |
+| [set_string](/viewer/python-net/groupdocs.viewer.caching/filecache/set_string/) |  |
+| [try_get_value](/viewer/python-net/groupdocs.viewer.caching/filecache/try_get_value/) |  |
+| [try_get_value_file](/viewer/python-net/groupdocs.viewer.caching/filecache/try_get_value_file/) |  |
+| [try_get_value_string](/viewer/python-net/groupdocs.viewer.caching/filecache/try_get_value_string/) |  |
+
+### Properties
+| Property | Description |
 | :- | :- |
-|set(key, value)|Serializes data to the local disk.|
-|get_keys(filter)|Returns all file names that contains filter in filename.|
+| [cache_path](/viewer/python-net/groupdocs.viewer.caching/filecache/cache_path/) |  |
+| [cache_sub_folder](/viewer/python-net/groupdocs.viewer.caching/filecache/cache_sub_folder/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.caching](/viewer/python-net/groupdocs.viewer.caching/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.caching`](/viewer/python-net/groupdocs.viewer.caching/)

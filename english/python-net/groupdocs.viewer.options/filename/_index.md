@@ -1,29 +1,29 @@
 ---
-title: FileName
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: FileName class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.viewer.options/filename/
+is_root: false
+weight: 60
 ---
+
 
 ## FileName class
 
-The filename.
-
 The FileName type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|FileName(file_name)|Initializes a new instance of the FileName class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/filename/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|EMPTY|The empty filename.|
-|SOURCE|The name of the source file.|
+| [_init_string](/viewer/python-net/groupdocs.viewer.options/filename/_init_string/#file_name) |  |
+| [_to_string_noargs](/viewer/python-net/groupdocs.viewer.options/filename/_to_string_noargs/) |  |
+| [to_string](/viewer/python-net/groupdocs.viewer.options/filename/to_string/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

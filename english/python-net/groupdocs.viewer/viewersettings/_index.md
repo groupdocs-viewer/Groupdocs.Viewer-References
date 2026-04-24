@@ -1,31 +1,35 @@
 ---
-title: ViewerSettings
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: ViewerSettings class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 60
 url: /python-net/groupdocs.viewer/viewersettings/
+is_root: false
+weight: 110
 ---
+
 
 ## ViewerSettings class
 
-Defines settings for customizing [Viewer](/viewer/python-net/groupdocs.viewer/viewer/) behaviour.
-
 The ViewerSettings type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|ViewerSettings(cache, logger)|Initializes a new instance of the ViewerSettings class|
-|ViewerSettings(cache)|Initializes a new instance of the ViewerSettings class|
-|ViewerSettings(logger)|Initializes a new instance of the ViewerSettings class|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer/viewersettings/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|cache|The cache implementation used for storing rendering results.|
-|logger|The logger implementation used for logging (Errors, Warnings, Traces).|
+| [_init_icache](/viewer/python-net/groupdocs.viewer/viewersettings/_init_icache/#cache) |  |
+| [_init_icache_ilogger](/viewer/python-net/groupdocs.viewer/viewersettings/_init_icache_ilogger/#cache-logger) |  |
+| [_init_ilogger](/viewer/python-net/groupdocs.viewer/viewersettings/_init_ilogger/#logger) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [cache](/viewer/python-net/groupdocs.viewer/viewersettings/cache/) |  |
+| [logger](/viewer/python-net/groupdocs.viewer/viewersettings/logger/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer](/viewer/python-net/groupdocs.viewer/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer`](/viewer/python-net/groupdocs.viewer/)

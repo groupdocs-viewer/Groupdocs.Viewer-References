@@ -1,29 +1,33 @@
 ---
-title: VisioRenderingOptions
-second_title: GroupDocs.Viewer for Python via .NET API Reference
+title: VisioRenderingOptions class
+second_title: GroupDocs.Viewer for Python via .NET API References
 description: 
 type: docs
-weight: 270
 url: /python-net/groupdocs.viewer.options/visiorenderingoptions/
+is_root: false
+weight: 350
 ---
+
 
 ## VisioRenderingOptions class
 
-Contains options for rendering Visio documents. For details, see the
-
 The VisioRenderingOptions type exposes the following members:
-## Constructors
-| Name | Description |
+
+### Constructors
+| Constructor | Description |
 | :- | :- |
-|VisioRenderingOptions()|Initializes an instance of the [VisioRenderingOptions](/viewer/python-net/groupdocs.viewer.options/visiorenderingoptions/) class.|
-## Properties
-| Name | Description |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/visiorenderingoptions/__init__/) |  |
+
+### Methods
+| Method | Description |
 | :- | :- |
-|render_figures_only|Render only Visio figures, not a diagram.|
-|figure_width|Figure width, height will be calculated automatically. Default value is 100.|
+| [_init_noargs](/viewer/python-net/groupdocs.viewer.options/visiorenderingoptions/_init_noargs/) |  |
+
+### Properties
+| Property | Description |
+| :- | :- |
+| [figure_width](/viewer/python-net/groupdocs.viewer.options/visiorenderingoptions/figure_width/) |  |
+| [render_figures_only](/viewer/python-net/groupdocs.viewer.options/visiorenderingoptions/render_figures_only/) |  |
 
 ### See Also
-
-* namespace [groupdocs.viewer.options](/viewer/python-net/groupdocs.viewer.options/)
-* assembly [GroupDocs.Viewer](/viewer/python-net/)
-
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)
