@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/textoptions/
 is_root: false
-weight: 290
+weight: 280
 ---
 
 

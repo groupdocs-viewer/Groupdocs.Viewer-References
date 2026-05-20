@@ -24,7 +24,6 @@ The BaseViewOptions type exposes the following members:
 | [outlook_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/outlook_options/) |  |
 | [pdf_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/pdf_options/) |  |
 | [presentation_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/presentation_options/) |  |
-| [project_management_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/project_management_options/) |  |
 | [remove_comments](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/remove_comments/) |  |
 | [render_comments](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/render_comments/) |  |
 | [render_hidden_pages](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/render_hidden_pages/) |  |

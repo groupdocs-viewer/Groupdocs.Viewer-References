@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/textoverflowmode/
 is_root: false
-weight: 300
+weight: 290
 ---
 
 

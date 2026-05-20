@@ -9,7 +9,7 @@ weight: 10
 ---
 
 
-Main GroupDocs.Viewer namespace with top-level API classes.
+Main GroupDocs.Viewer.CrossPlatform namespace with top-level API classes.
 
 ### Classes
 | Class | Description |

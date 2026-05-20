@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/baseviewoptions/visio_rendering_options/
 is_root: false
-weight: 2160
+weight: 2150
 ---
 
 

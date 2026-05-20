@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/baseviewoptions/spreadsheet_options/
 is_root: false
-weight: 2140
+weight: 2130
 ---
 
 

@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/searchhighlightoptions/
 is_root: false
-weight: 250
+weight: 240
 ---
 
 

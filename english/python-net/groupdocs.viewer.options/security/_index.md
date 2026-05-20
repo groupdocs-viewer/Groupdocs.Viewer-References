@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/security/
 is_root: false
-weight: 260
+weight: 250
 ---
 
 

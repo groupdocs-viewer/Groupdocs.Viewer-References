@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/baseviewoptions/word_processing_options/
 is_root: false
-weight: 2180
+weight: 2170
 ---
 
 

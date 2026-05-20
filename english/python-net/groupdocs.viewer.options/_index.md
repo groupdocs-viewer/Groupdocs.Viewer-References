@@ -31,7 +31,6 @@ Option classes for configuring conversions and operations.
 | [`PdfViewOptions`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) |  |
 | [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) |  |
 | [`PresentationOptions`](/viewer/python-net/groupdocs.viewer.options/presentationoptions/) |  |
-| [`ProjectManagementOptions`](/viewer/python-net/groupdocs.viewer.options/projectmanagementoptions/) |  |
 | [`Resolution`](/viewer/python-net/groupdocs.viewer.options/resolution/) |  |
 | [`SearchHighlightOptions`](/viewer/python-net/groupdocs.viewer.options/searchhighlightoptions/) |  |
 | [`Security`](/viewer/python-net/groupdocs.viewer.options/security/) |  |

@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/baseviewoptions/render_comments/
 is_root: false
-weight: 2110
+weight: 2100
 ---
 
 

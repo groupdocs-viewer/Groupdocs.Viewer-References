@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/resolution/
 is_root: false
-weight: 230
+weight: 220
 ---
 
 

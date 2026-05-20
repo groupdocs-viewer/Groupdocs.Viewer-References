@@ -47,7 +47,6 @@ The PdfViewOptions type exposes the following members:
 | [outlook_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/outlook_options/) |  (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
 | [pdf_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/pdf_options/) |  (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
 | [presentation_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/presentation_options/) |  (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
-| [project_management_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/project_management_options/) |  (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
 | [remove_comments](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/remove_comments/) |  (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
 | [render_comments](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/render_comments/) |  (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
 | [render_hidden_pages](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/render_hidden_pages/) |  (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |

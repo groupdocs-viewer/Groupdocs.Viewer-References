@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.viewer.options/baseviewoptions/remove_comments/
 is_root: false
-weight: 2100
+weight: 2090
 ---
 
 
