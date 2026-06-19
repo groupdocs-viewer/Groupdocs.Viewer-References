@@ -12,19 +12,25 @@ lead: "Render documents and images to HTML, image, or PDF across 170+ formats."
 
 platforms:
   - name: ".NET"
-    version: "26.4"
+    version: "26.4.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.viewer/26.4.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Viewer"
   - name: "Java"
+    version: "26.5"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-viewer/26.5/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-viewer"
   - name: "Node.js"
+    version: "26.5.0"
+    versionUrl: "https://www.npmjs.com/package/@groupdocs/groupdocs.viewer/v/26.5.0"
     key: nodejs
     ref: "/nodejs-java/"
   - name: "Python via .NET"
     version: "26.5.0"
+    versionUrl: "https://pypi.org/project/groupdocs-viewer-net/26.5.0/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-viewer-net"
