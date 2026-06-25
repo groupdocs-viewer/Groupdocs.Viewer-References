@@ -36,6 +36,8 @@ platforms:
     install: "pip install groupdocs-viewer-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Visio", "CAD", "Email", "Images"]
+formatsCount: "170+"
+formatsNote: "…and 160+ more across documents, images, CAD, and email."
 
 capabilities:
   - "Render to HTML, image or PDF"
