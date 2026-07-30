@@ -3,7 +3,7 @@ title: OutlookViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for Outlook Data file.
 type: docs
-weight: 950
+weight: 960
 url: /net/groupdocs.viewer.results/outlookviewinfo/
 ---
 ## OutlookViewInfo class

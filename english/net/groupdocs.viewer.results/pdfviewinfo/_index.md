@@ -3,7 +3,7 @@ title: PdfViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for PDF document.
 type: docs
-weight: 970
+weight: 980
 url: /net/groupdocs.viewer.results/pdfviewinfo/
 ---
 ## PdfViewInfo class

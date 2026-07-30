@@ -26,13 +26,16 @@ public class WordProcessingOptions : ICloneable, IEquatable<WordProcessingOption
 | --- | --- |
 | [BottomMargin](../../groupdocs.viewer.options/wordprocessingoptions/bottommargin) { get; set; } | Sets the bottom margin of a page. |
 | [EnableOpenTypeFeatures](../../groupdocs.viewer.options/wordprocessingoptions/enableopentypefeatures) { get; set; } | This option enables kerning and other OpenType Features when rendering Arabic, Hebrew, Indian Latin-based, or Cyrillic-based scripts. |
+| [HorizontalResolution](../../groupdocs.viewer.options/wordprocessingoptions/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution for generated images in dots per inch. This option is used when rendering WordProcessing documents to PNG or JPEG formats only. |
 | [LeftMargin](../../groupdocs.viewer.options/wordprocessingoptions/leftmargin) { get; set; } | Sets the left margin of a page. |
+| [PageNumberLocation](../../groupdocs.viewer.options/wordprocessingoptions/pagenumberlocation) { get; set; } | Allows to forcibly apply the page numbering for the loaded WordProcessing document. By default is NotApply — document is intact. |
 | [PageSize](../../groupdocs.viewer.options/wordprocessingoptions/pagesize) { get; set; } | The size of the output page. The default value is Unspecified which means that a page size is set in a page settings (Page Setup) is used.  When rendering HTM and HTML files the default page size is set to Letter 792 x 612 points. As a result, some of the content may not fit into the page frame. Set a larger page size e.g. A3 to fit the contents. |
 | [RenderTrackedChanges](../../groupdocs.viewer.options/wordprocessingoptions/rendertrackedchanges) { get; set; } | Enables tracked changes (revisions) rendering. |
 | [RightMargin](../../groupdocs.viewer.options/wordprocessingoptions/rightmargin) { get; set; } | Sets the right margin of a page. |
 | [TopMargin](../../groupdocs.viewer.options/wordprocessingoptions/topmargin) { get; set; } | Sets the top margin of a page. |
 | [UnlinkTableOfContents](../../groupdocs.viewer.options/wordprocessingoptions/unlinktableofcontents) { get; set; } | When rendering to HTML or PDF, you can set this option to `true` to disable navigation from the table of contents. For HTML rendering, `a` tags with relative links will be replaced with `span` tags, removing functionality but preserving visual appearance. For PDF rendering, the table of contents will be rendered as plain text without links to document sections. |
 | [UpdateFields](../../groupdocs.viewer.options/wordprocessingoptions/updatefields) { get; set; } | Gets or sets a value determining if fields of certain types should be updated before saving the input WordProcessing document to the HTML, PDF, PNG, or JPEG output formats. Default value for this property is `true` — fields will be updated before saving. |
+| [VerticalResolution](../../groupdocs.viewer.options/wordprocessingoptions/verticalresolution) { get; set; } | Gets or sets the vertical resolution for generated images in dots per inch. This option is used when rendering WordProcessing documents to PNG or JPEG formats only. |
 
 ## Methods
 

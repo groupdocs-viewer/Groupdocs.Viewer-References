@@ -3,7 +3,7 @@ title: ProjectManagementViewInfo
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents view information for MS Project document.
 type: docs
-weight: 980
+weight: 990
 url: /net/groupdocs.viewer.results/projectmanagementviewinfo/
 ---
 ## ProjectManagementViewInfo class
