@@ -1,35 +1,31 @@
-# This is a basic workflow to help you get started with Actions
+name: SyncToReferenceSite
 
-name: CopyChangesToMainRepo
-
-# Controls when the action will run. 
+# Copies this repo's tree into reference.groupdocs.com at
+# content/sites/groupdocs/viewer/ on `main` — the site's single deploy branch.
+#
+# The commit message carries [deploy-qa], so the site deploys it to STAGING only
+# (reference2.groupdocs.com). To publish it live, run the PromoteToProduction workflow.
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Copycat
-      uses: andstor/copycat-action@v3
+      uses: andstor/copycat-action@c2b0316e9ab883478a4a7d40a4fcb03d17f281aa   # v3
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
         src_path: /.
+        # ⚠️ The trailing slash is load-bearing. copycat empties `${DST_PATH%/*}`, which is
+        # `.../viewer` only while the trailing slash is present — drop it and that becomes
+        # `.../groupdocs`, wiping EVERY product's content from the site repo.
         dst_path: /content/sites/groupdocs/viewer/
         dst_owner: groupdocs
         dst_repo_name: reference.groupdocs.com
         dst_branch: main
         src_branch: main
         clean: true
+        commit_message: 'Update file(s) from ${{ github.repository }} [deploy-qa]'
