@@ -3,9 +3,10 @@ title: FileType
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Represents file type. Provides methods to obtain list of all file types supported by GroupDocs.Viewer.
 type: docs
-weight: 170
+weight: 10
 url: /net/groupdocs.viewer/filetype/
 ---
+
 ## FileType class
 
 Represents file type. Provides methods to obtain list of all file types supported by **GroupDocs.Viewer**.
@@ -53,7 +54,6 @@ public sealed class FileType : IEquatable<FileType>
 
 | Name | Description |
 | --- | --- |
-| static readonly [AI](../../groupdocs.viewer/filetype/ai) | Adobe Illustrator (.ai) is a file format for Adobe Illustrator drawings. Learn more about this file format [here](https://fileinfo.com/extension/ai#adobe_illustrator_file). |
 | static readonly [APNG](../../groupdocs.viewer/filetype/apng) | Animated Portable Network Graphic (.apng) is extension of PNG format that support animation. Learn more about this file format [here](https://wiki.fileformat.com/image/apng). |
 | static readonly [AS](../../groupdocs.viewer/filetype/as) | ActionScript File (.as) |
 | static readonly [AS3](../../groupdocs.viewer/filetype/as3) | ActionScript File (.as) |
@@ -158,7 +158,6 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [ODS](../../groupdocs.viewer/filetype/ods) | OpenDocument Spreadsheet (.ods) stands for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. Learn more about this file format [here](https://wiki.fileformat.com/spreadsheet/ods). |
 | static readonly [ODT](../../groupdocs.viewer/filetype/odt) | OpenDocument Text Document (.odt) are type of documents created with word processing applications that are based on OpenDocument Text File format. Learn more about this file format [here](https://wiki.fileformat.com/word-processing/odt). |
 | static readonly [OFD](../../groupdocs.viewer/filetype/ofd) | Open Fixed-layout Document (OFD) format defined by GB/T 33190-2016 aims to replace PDF in Chinese public institutions |
-| static readonly [ONE](../../groupdocs.viewer/filetype/one) | OneNote Document (.one) is created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. Learn more about this file format [here](https://wiki.fileformat.com/note-taking/one). |
 | static readonly [OST](../../groupdocs.viewer/filetype/ost) | Outlook Offline Data File (.ost) represents user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format [here](https://wiki.fileformat.com/email/ost). |
 | static readonly [OTG](../../groupdocs.viewer/filetype/otg) | OpenDocument Graphic Template (.otg) |
 | static readonly [OTP](../../groupdocs.viewer/filetype/otp) | OpenDocument Presentation Template (.otp) represents presentation template files created by applications in OASIS OpenDocument standard format. Learn more about this file format [here](https://wiki.fileformat.com/presentation/otp). |
@@ -183,8 +182,6 @@ public sealed class FileType : IEquatable<FileType>
 | static readonly [PROPERTIES](../../groupdocs.viewer/filetype/properties) | Java Properties File (.properties) |
 | static readonly [PS](../../groupdocs.viewer/filetype/ps) | PostScript File (.ps) |
 | static readonly [PS1](../../groupdocs.viewer/filetype/ps1) | PowerShell script file (.ps1) a file format for Windows PowerShell Cmdlet files. Learn more about this file format [here](https://fileinfo.com/extension/ps1). |
-| static readonly [PSB](../../groupdocs.viewer/filetype/psb) | Photoshop Large Document Format (.psb) represents Photoshop Large Document Format used for graphics designing and development. Learn more about this file format [here](https://wiki.fileformat.com/image/psb). |
-| static readonly [PSD](../../groupdocs.viewer/filetype/psd) | Adobe Photoshop Document (.psd) represents Adobe Photoshop's native file format used for graphics designing and development. Learn more about this file format [here](https://wiki.fileformat.com/image/psd). |
 | static readonly [PSD1](../../groupdocs.viewer/filetype/psd1) | PowerShell script module manifest (.psd1) a file format for PowerShell module manifest scripts. Learn more about this file format [here](https://fileinfo.com/extension/psd1). |
 | static readonly [PSM1](../../groupdocs.viewer/filetype/psm1) | PowerShell script module (.psm1) a file format for PowerShell module scripts. Learn more about this file format [here](https://fileinfo.com/extension/psm1). |
 | static readonly [PST](../../groupdocs.viewer/filetype/pst) | Outlook Personal Information Store File (.pst) represents Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format [here](https://wiki.fileformat.com/email/pst). |
@@ -258,4 +255,4 @@ public sealed class FileType : IEquatable<FileType>
 * namespace [GroupDocs.Viewer](../../groupdocs.viewer)
 * assembly [GroupDocs.Viewer](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.viewer.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
