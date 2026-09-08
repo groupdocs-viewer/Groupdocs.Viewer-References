@@ -1,31 +1,91 @@
 name: SyncToReferenceSite
 
-# Copies this repo's tree into reference.groupdocs.com at
+# Copies this repo's published content into reference.groupdocs.com at
 # content/sites/groupdocs/viewer/ on `main` — the site's single deploy branch.
+#
+# The SOURCE is checked out with this job's own GITHUB_TOKEN, so REPO_TOKEN is only ever used
+# against the DESTINATION. That is what lets REPO_TOKEN be a fine-grained PAT scoped to the
+# single repo groupdocs/reference.groupdocs.com (Contents: RW) — a token that also clones the
+# private source would need access in two different orgs, which fine-grained PATs cannot express.
 #
 # The commit message carries [deploy-qa], so the site deploys it to STAGING only
 # (reference2.groupdocs.com). To publish it live, run the PromoteToProduction workflow.
+
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
+concurrency:
+  group: sync-to-reference-site
+  cancel-in-progress: false
+
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
     steps:
-    - name: Copycat
-      uses: andstor/copycat-action@c2b0316e9ab883478a4a7d40a4fcb03d17f281aa   # v3
-      with:
-        personal_token: ${{ secrets.REPO_TOKEN }}
-        src_path: /.
-        # ⚠️ The trailing slash is load-bearing. copycat empties `${DST_PATH%/*}`, which is
-        # `.../viewer` only while the trailing slash is present — drop it and that becomes
-        # `.../groupdocs`, wiping EVERY product's content from the site repo.
-        dst_path: /content/sites/groupdocs/viewer/
-        dst_owner: groupdocs
-        dst_repo_name: reference.groupdocs.com
-        dst_branch: main
-        src_branch: main
-        clean: true
-        commit_message: 'Update file(s) from ${{ github.repository }} [deploy-qa]'
+      - name: Check out this repo (source)
+        uses: actions/checkout@v4
+        with:
+          path: src
+          fetch-depth: 1
+
+      - name: Check out the site repo (destination)
+        uses: actions/checkout@v4
+        with:
+          repository: groupdocs/reference.groupdocs.com
+          ref: main
+          path: dest
+          token: ${{ secrets.REPO_TOKEN }}
+          fetch-depth: 1
+
+      - name: Mirror this tree into the site and push
+        working-directory: dest
+        env:
+          DST_DIR: content/sites/groupdocs/viewer
+        run: |
+          set -euo pipefail
+
+          # Drop this repo's own plumbing so only published content (english/, static/) is
+          # mirrored. Deleting it from the SOURCE rather than using `rsync --exclude` is
+          # deliberate: an --exclude hides a path on both sides, so --delete would *protect*
+          # any copy already sitting in the site instead of removing it.
+          cd "$GITHUB_WORKSPACE/src"
+          rm -rf .git .github LICENSE README.md
+          cd "$GITHUB_WORKSPACE/dest"
+
+          git config user.name  "groupdocs-sync-bot"
+          git config user.email "groupdocs-sync-bot@groupdocs.com"
+
+          # The site's `main` absorbs 15 product syncs plus the versions bot, so losing a race
+          # is routine. The mirror is idempotent, so rebuild it on a fresh tree and retry rather
+          # than failing — or, worse, reporting success on a push that was rejected.
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth 1 origin main
+            git reset --hard origin/main
+
+            # --delete makes this a mirror: anything added to $DST_DIR in the site repo alone is
+            # destroyed here, which is why canonical content must live in THIS repo.
+            mkdir -p "$DST_DIR"
+            rsync -a --delete "$GITHUB_WORKSPACE/src/" "$DST_DIR/"
+
+            if [ -z "$(git status --porcelain)" ]; then
+              echo "no changes to sync"
+              exit 0
+            fi
+            echo "changed paths: $(git status --porcelain | wc -l)"
+
+            git add -A
+            git commit -m "Update file(s) from ${{ github.repository }} [deploy-qa]"
+
+            if git push origin HEAD:main; then
+              echo "synced to groupdocs/reference.groupdocs.com@main"
+              exit 0
+            fi
+
+            echo "push rejected by a concurrent write — rebuilding (attempt $attempt)"
+            sleep $(( attempt * 5 ))
+          done
+
+          echo "::error::could not push to reference.groupdocs.com after 5 attempts"
+          exit 1
