@@ -13,11 +13,13 @@ public final class FontStyles
 ```
 
 Represents 4 possible styles of the font, used in the document: Regular, Bold, Italic, or Bold Italic.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FontStyles(boolean isBold, boolean isItalic)](#FontStyles-boolean-boolean-) | Creates a FontStyles instance from bold/italic flags. |
+| [FontStyles(boolean isBold, boolean isItalic)](#FontStyles-boolean-boolean-) | Creates a FontStyles instance from bold/italic flags.
+ |
 ## Fields
 
 | Field | Description |
@@ -34,16 +36,23 @@ Represents 4 possible styles of the font, used in the document: Regular, Bold, I
 
 | Method | Description |
 | --- | --- |
-| [toString(int style)](#toString-int-) | Converts a style value to a human-readable string. |
-| [getName()](#getName--) | Returns readable name of this font style. |
-| [isBold()](#isBold--) | Returns true if bold bit is set. |
-| [isItalic()](#isItalic--) | Returns true if italic bit is set. |
+| [toString(int style)](#toString-int-) | Converts a style value to a human-readable string.
+ |
+| [getName()](#getName--) | Returns readable name of this font style.
+ |
+| [isBold()](#isBold--) | Returns true if bold bit is set.
+ |
+| [isItalic()](#isItalic--) | Returns true if italic bit is set.
+ |
 | [toString()](#toString--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [hashCode()](#hashCode--) |  |
-| [combine(FontStyles first, FontStyles second)](#combine-com.groupdocs.viewer.fonts.FontStyles-com.groupdocs.viewer.fonts.FontStyles-) | Union (C\# operator +) |
-| [subtract(FontStyles minuend, FontStyles subtrahend)](#subtract-com.groupdocs.viewer.fonts.FontStyles-com.groupdocs.viewer.fonts.FontStyles-) | Difference (C\# operator -) |
-| [tryParse(String style, FontStyles[] parsed)](#tryParse-java.lang.String-com.groupdocs.viewer.fonts.FontStyles---) | Parses a font style name to FontStyles. |
+| [combine(FontStyles first, FontStyles second)](#combine-com.groupdocs.viewer.fonts.FontStyles-com.groupdocs.viewer.fonts.FontStyles-) | Union (C# operator +)
+ |
+| [subtract(FontStyles minuend, FontStyles subtrahend)](#subtract-com.groupdocs.viewer.fonts.FontStyles-com.groupdocs.viewer.fonts.FontStyles-) | Difference (C# operator -)
+ |
+| [tryParse(String style, FontStyles[] parsed)](#tryParse-java.lang.String-com.groupdocs.viewer.fonts.FontStyles---) | Parses a font style name to FontStyles.
+ |
 ### FontStyles(boolean isBold, boolean isItalic) {#FontStyles-boolean-boolean-}
 ```
 public FontStyles(boolean isBold, boolean isItalic)
@@ -51,6 +60,7 @@ public FontStyles(boolean isBold, boolean isItalic)
 
 
 Creates a FontStyles instance from bold/italic flags.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -114,13 +124,16 @@ public static String toString(int style)
 
 Converts a style value to a human-readable string.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | int | the font style value |
+| style | int | the font style value
+ |
 
 **Returns:**
 java.lang.String - a string representation of the font style
+
 ### getName() {#getName--}
 ```
 public String getName()
@@ -128,6 +141,7 @@ public String getName()
 
 
 Returns readable name of this font style.
+
 
 **Returns:**
 java.lang.String
@@ -139,6 +153,7 @@ public boolean isBold()
 
 Returns true if bold bit is set.
 
+
 **Returns:**
 boolean
 ### isItalic() {#isItalic--}
@@ -148,6 +163,7 @@ public boolean isItalic()
 
 
 Returns true if italic bit is set.
+
 
 **Returns:**
 boolean
@@ -192,7 +208,8 @@ public static FontStyles combine(FontStyles first, FontStyles second)
 ```
 
 
-Union (C\# operator +)
+Union (C# operator +)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +225,8 @@ public static FontStyles subtract(FontStyles minuend, FontStyles subtrahend)
 ```
 
 
-Difference (C\# operator -)
+Difference (C# operator -)
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -226,6 +244,7 @@ public static boolean tryParse(String style, FontStyles[] parsed)
 
 Parses a font style name to FontStyles.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -234,3 +253,4 @@ Parses a font style name to FontStyles.
 
 **Returns:**
 boolean - true on success, false otherwise.
+

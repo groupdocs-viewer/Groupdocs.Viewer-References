@@ -3,7 +3,7 @@ title: MemoryCleaner
 second_title: GroupDocs.Viewer for Java API Reference
 description: Cleans different resources to free memory.
 type: docs
-weight: 10
+weight: 12
 url: /java/com.groupdocs.viewer.utils/memorycleaner/
 ---
 **Inheritance:**
@@ -14,11 +14,14 @@ public final class MemoryCleaner
 
 Cleans different resources to free memory.
 
-This class provides methods to clear heap memory, delete temp files, and clear font registry information. It also includes a method to safely clear thread-local instances for the current thread.
+
+This class provides methods to clear heap memory, delete temp files, and clear font registry information.
+It also includes a method to safely clear thread-local instances for the current thread.
+
 
 Example usage:
 
-```
+````
 
  // Clean heap memory, keeping font settings
  MemoryCleaner.clearKeepingFontSettings();
@@ -38,7 +41,9 @@ Example usage:
  // Safely clear thread-local instances for the current thread
  MemoryCleaner.clearCurrentThreadLocals();
  
-```
+````
+
+
 ## Constructors
 
 | Constructor | Description |
@@ -48,12 +53,18 @@ Example usage:
 
 | Method | Description |
 | --- | --- |
-| [clearKeepingFontSettings()](#clearKeepingFontSettings--) | Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
-| [clear()](#clear--) | Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files. |
-| [clearStaticInstances()](#clearStaticInstances--) | Clears heap memory from static PDF instances. |
-| [clearAllTempFiles()](#clearAllTempFiles--) | Clears temp files created by GroupDocs.Viewer in the system temp directory. |
-| [clearFontRegistry()](#clearFontRegistry--) | Clears font registry information from heap memory. |
-| [clearCurrentThreadLocals()](#clearCurrentThreadLocals--) | Safely clears heap memory from thread-local instances for the current thread. |
+| [clearKeepingFontSettings()](#clearKeepingFontSettings--) | Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
+ |
+| [clear()](#clear--) | Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
+ |
+| [clearStaticInstances()](#clearStaticInstances--) | Clears heap memory from static PDF instances.
+ |
+| [clearAllTempFiles()](#clearAllTempFiles--) | Clears temp files created by GroupDocs.Viewer in the system temp directory.
+ |
+| [clearFontRegistry()](#clearFontRegistry--) | Clears font registry information from heap memory.
+ |
+| [clearCurrentThreadLocals()](#clearCurrentThreadLocals--) | Safely clears heap memory from thread-local instances for the current thread.
+ |
 ### MemoryCleaner() {#MemoryCleaner--}
 ```
 public MemoryCleaner()
@@ -66,7 +77,9 @@ public static void clearKeepingFontSettings()
 ```
 
 
-Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files. This method does not affect font settings.
+Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
+This method does not affect font settings.
+
 
 ### clear() {#clear--}
 ```
@@ -76,6 +89,7 @@ public static void clear()
 
 Clears heap memory from static PDF instances (static and threadLocal) and deletes all temp files.
 
+
 ### clearStaticInstances() {#clearStaticInstances--}
 ```
 public static void clearStaticInstances()
@@ -83,6 +97,7 @@ public static void clearStaticInstances()
 
 
 Clears heap memory from static PDF instances.
+
 
 ### clearAllTempFiles() {#clearAllTempFiles--}
 ```
@@ -92,6 +107,7 @@ public static void clearAllTempFiles()
 
 Clears temp files created by GroupDocs.Viewer in the system temp directory.
 
+
 ### clearFontRegistry() {#clearFontRegistry--}
 ```
 public static void clearFontRegistry()
@@ -100,6 +116,7 @@ public static void clearFontRegistry()
 
 Clears font registry information from heap memory.
 
+
 ### clearCurrentThreadLocals() {#clearCurrentThreadLocals--}
 ```
 public static void clearCurrentThreadLocals()
@@ -107,4 +124,5 @@ public static void clearCurrentThreadLocals()
 
 
 Safely clears heap memory from thread-local instances for the current thread.
+
 

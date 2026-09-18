@@ -8,14 +8,12 @@ url: /java/com.groupdocs.viewer.drawing/image2dformat/
 ---
 **Inheritance:**
 java.lang.Object
-
-**All Implemented Interfaces:**
-com.groupdocs.viewer.htmlcss.resources.IResourceType
 ```
-public final class Image2DFormat implements IResourceType
+public final class Image2DFormat
 ```
 
 Represents a 2D image format \\u2014 raster or vector.
+
 ## Fields
 
 | Field | Description |
@@ -34,16 +32,18 @@ Represents a 2D image format \\u2014 raster or vector.
 
 | Method | Description |
 | --- | --- |
-| [getName()](#getName--) | Returns a formal name of this image format. |
-| [getFormalName()](#getFormalName--) | Returns a formal name of this image format. |
-| [isVector()](#isVector--) | Indicates whether this format is vector (true) or raster (false). |
-| [getFileExtension()](#getFileExtension--) | Returns lowercase file extension (without dot) for this format. |
-| [getMimeCode()](#getMimeCode--) | MIME code of the image format. |
+| [toInternal()](#toInternal--) |  |
+| [fromInternal(Image2DFormat format)](#fromInternal-com.groupdocs.htmlcss.drawing.Image2DFormat-) |  |
+| [getName()](#getName--) |  |
+| [getFormalName()](#getFormalName--) |  |
+| [isVector()](#isVector--) |  |
+| [getFileExtension()](#getFileExtension--) |  |
+| [getMimeCode()](#getMimeCode--) |  |
 | [toString()](#toString--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [hashCode()](#hashCode--) |  |
-| [parseFromFilenameWithExtension(String filename)](#parseFromFilenameWithExtension-java.lang.String-) | Returns Image2DFormat based on file extension (with or without dot). |
-| [parseFromMime(String mimeCode)](#parseFromMime-java.lang.String-) | Returns Image2DFormat based on MIME type string. |
+| [parseFromFilenameWithExtension(String filename)](#parseFromFilenameWithExtension-java.lang.String-) |  |
+| [parseFromMime(String mimeCode)](#parseFromMime-java.lang.String-) |  |
 ### UNDEFINED {#UNDEFINED}
 ```
 public static final Image2DFormat UNDEFINED
@@ -104,13 +104,38 @@ public static final Image2DFormat EMF
 ```
 
 
+### toInternal() {#toInternal--}
+```
+public Image2DFormat toInternal()
+```
+
+
+
+
+**Returns:**
+[Image2DFormat](../../com.groupdocs.htmlcss.drawing/image2dformat)
+### fromInternal(Image2DFormat format) {#fromInternal-com.groupdocs.htmlcss.drawing.Image2DFormat-}
+```
+public static Image2DFormat fromInternal(Image2DFormat format)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| format | com.groupdocs.htmlcss.drawing.Image2DFormat |  |
+
+**Returns:**
+[Image2DFormat](../../com.groupdocs.viewer.drawing/image2dformat)
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Returns a formal name of this image format. Never returns null.
+
 
 **Returns:**
 java.lang.String
@@ -120,7 +145,7 @@ public String getFormalName()
 ```
 
 
-Returns a formal name of this image format. Never returns null.
+
 
 **Returns:**
 java.lang.String
@@ -130,7 +155,7 @@ public boolean isVector()
 ```
 
 
-Indicates whether this format is vector (true) or raster (false).
+
 
 **Returns:**
 boolean
@@ -140,7 +165,7 @@ public String getFileExtension()
 ```
 
 
-Returns lowercase file extension (without dot) for this format.
+
 
 **Returns:**
 java.lang.String
@@ -150,7 +175,7 @@ public String getMimeCode()
 ```
 
 
-MIME code of the image format.
+
 
 **Returns:**
 java.lang.String
@@ -195,7 +220,7 @@ public static Image2DFormat parseFromFilenameWithExtension(String filename)
 ```
 
 
-Returns Image2DFormat based on file extension (with or without dot).
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -210,7 +235,7 @@ public static Image2DFormat parseFromMime(String mimeCode)
 ```
 
 
-Returns Image2DFormat based on MIME type string.
+
 
 **Parameters:**
 | Parameter | Type | Description |

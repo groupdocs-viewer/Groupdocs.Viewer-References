@@ -14,11 +14,15 @@ public interface Line extends TextElement<String>, Serializable
 
 Represents a relatively positioned rectangle that contains a single line.
 
-The Line interface defines the contract for accessing and manipulating a line represented by a rectangle in the GroupDocs.Viewer component. It provides methods to retrieve information such as the line text, position, and size of the rectangle.
+
+The Line interface defines the contract for accessing and manipulating a line represented by a rectangle
+in the GroupDocs.Viewer component. It provides methods to retrieve information such as the line text,
+position, and size of the rectangle.
+
 
 Example usage:
 
-```
+````
 
  try (Viewer viewer = new Viewer("document.pdf")) {
      PdfViewInfo viewInfo = (PdfViewInfo) viewer.getViewInfo(ViewInfoOptions.forHtmlView());
@@ -28,15 +32,19 @@ Example usage:
      }
  }
  
-```
+````
+
 
 ***Note:** The default implementation of this interface is LineImpl.*
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWords()](#getWords--) | Retrieves the words contained in the line. |
-| [setWords(List<Word> wordList)](#setWords-java.util.List-com.groupdocs.viewer.results.Word--) | Sets the words contained in the line. |
+| [getWords()](#getWords--) | Retrieves the words contained in the line.
+ |
+| [setWords(List<Word> wordList)](#setWords-java.util.List-com.groupdocs.viewer.results.Word--) | Sets the words contained in the line.
+ |
 ### getWords() {#getWords--}
 ```
 public abstract List<Word> getWords()
@@ -45,8 +53,10 @@ public abstract List<Word> getWords()
 
 Retrieves the words contained in the line.
 
+
 **Returns:**
 java.util.List<com.groupdocs.viewer.results.Word> - the words contained in the line.
+
 ### setWords(List<Word> wordList) {#setWords-java.util.List-com.groupdocs.viewer.results.Word--}
 ```
 public abstract void setWords(List<Word> wordList)
@@ -55,8 +65,10 @@ public abstract void setWords(List<Word> wordList)
 
 Sets the words contained in the line.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wordList | java.util.List<com.groupdocs.viewer.results.Word> | the words contained in the line. |
+| wordList | java.util.List<com.groupdocs.viewer.results.Word> | the words contained in the line.
+ |
 

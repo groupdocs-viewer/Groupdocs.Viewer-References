@@ -9,18 +9,20 @@ url: /java/com.groupdocs.viewer.options/
 
 The package provides classes to specify additional options when rendering documents.
 
-It includes options for rendering various document formats, defining permissions and security settings, specifying watermark properties, and retrieving information about views.
+
+It includes options for rendering various document formats, defining permissions and security settings,
+specifying watermark properties, and retrieving information about views.
 
 The main classes in this package are:
 
- *  [ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions) - Provides options for rendering archive files.
- *  [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) - Provides options for rendering PDF documents.
- *  [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) - Provides options for rendering word processing documents.
-
-For more details on configuring the logging system in GroupDocs.Viewer and customizing the log message handling, please refer to the [GroupDocs.Viewer Documentation][].
+* [ArchiveOptions](../../com.groupdocs.viewer.options/archiveoptions) - Provides options for rendering archive files.
+* [PdfOptions](../../com.groupdocs.viewer.options/pdfoptions) - Provides options for rendering PDF documents.
+* [WordProcessingOptions](../../com.groupdocs.viewer.options/wordprocessingoptions) - Provides options for rendering word processing documents.
 
 
-[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+For more details on configuring the logging system in GroupDocs.Viewer and customizing the log message handling,
+please refer to the [GroupDocs.Viewer Documentation](../https://docs.groupdocs.com/viewer/java/).
+
 
 
 ## Classes
@@ -75,3 +77,4 @@ For more details on configuring the logging system in GroupDocs.Viewer and custo
 | [Rotation](../com.groupdocs.viewer.options/rotation) | Contains page rotation in degrees (clockwise). |
 | [TextOverflowMode](../com.groupdocs.viewer.options/textoverflowmode) | Defines text overflow mode for rendering spreadsheet documents into HTML. |
 | [TimeUnit](../com.groupdocs.viewer.options/timeunit) | Time unit of the project duration. |
+| [WordsPageNumberLocation](../com.groupdocs.viewer.options/wordspagenumberlocation) | Controls whether to forcibly apply page numbering to the loaded WordProcessing document and, if yes, where to place page numbers. |

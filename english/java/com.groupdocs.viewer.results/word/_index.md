@@ -3,7 +3,7 @@ title: Word
 second_title: GroupDocs.Viewer for Java API Reference
 description: Represents a relatively positioned rectangle that contains a single word.
 type: docs
-weight: 26
+weight: 28
 url: /java/com.groupdocs.viewer.results/word/
 ---
 **All Implemented Interfaces:**
@@ -14,11 +14,14 @@ public interface Word extends TextElement<String>, Serializable
 
 Represents a relatively positioned rectangle that contains a single word.
 
-The Word interface represents a word within a relatively positioned rectangle in the GroupDocs.Viewer component. It extends the TextElement interface and provides additional methods to access and manipulate the word content.
+
+The Word interface represents a word within a relatively positioned rectangle in the GroupDocs.Viewer component.
+It extends the TextElement interface and provides additional methods to access and manipulate the word content.
+
 
 Example usage:
 
-```
+````
 
  try (Viewer viewer = new Viewer("document.pdf")) {
      PdfViewInfo viewInfo = (PdfViewInfo) viewer.getViewInfo(ViewInfoOptions.forHtmlView());
@@ -28,15 +31,19 @@ Example usage:
      }
  }
  
-```
+````
+
 
 ***Note:** The default implementation of this interface is WordImpl.*
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getCharacters()](#getCharacters--) | Retrieves the characters contained by the word. |
-| [setCharacters(List<Character> characters)](#setCharacters-java.util.List-com.groupdocs.viewer.results.Character--) | Sets the characters contained by the word. |
+| [getCharacters()](#getCharacters--) | Retrieves the characters contained by the word.
+ |
+| [setCharacters(List<Character> characters)](#setCharacters-java.util.List-com.groupdocs.viewer.results.Character--) | Sets the characters contained by the word.
+ |
 ### getCharacters() {#getCharacters--}
 ```
 public abstract List<Character> getCharacters()
@@ -45,8 +52,10 @@ public abstract List<Character> getCharacters()
 
 Retrieves the characters contained by the word.
 
+
 **Returns:**
 java.util.List<com.groupdocs.viewer.results.Character> - the list of characters.
+
 ### setCharacters(List<Character> characters) {#setCharacters-java.util.List-com.groupdocs.viewer.results.Character--}
 ```
 public abstract void setCharacters(List<Character> characters)
@@ -55,8 +64,10 @@ public abstract void setCharacters(List<Character> characters)
 
 Sets the characters contained by the word.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| characters | java.util.List<com.groupdocs.viewer.results.Character> | the list of characters to set. |
+| characters | java.util.List<com.groupdocs.viewer.results.Character> | the list of characters to set.
+ |
 

@@ -11,11 +11,15 @@ public interface FileStreamFactory
 
 Defines methods that are required for instantiating and releasing an output file stream.
 
-The FileStreamFactory interface declares methods that are used to create and release an output file stream. Implementations of this interface should provide the necessary functionality to create a file stream for writing output file data, as well as release any resources associated with the file stream.
+
+The FileStreamFactory interface declares methods that are used to create and release an output file stream. Implementations
+of this interface should provide the necessary functionality to create a file stream for writing output file data, as well as release
+any resources associated with the file stream.
+
 
 Example usage:
 
-```
+````
 
  FileStreamFactory fileStreamFactory = new FileStreamFactory() {
    @Override
@@ -32,13 +36,17 @@ Example usage:
  PdfViewOptions pdfViewOptions = new PdfViewOptions(fileStreamFactory);
  // Use pdfViewOptions in Viewer
  
-```
+````
+
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createFileStream()](#createFileStream--) | The method that returns a readable stream. |
-| [closeFileStream(OutputStream fileStream)](#closeFileStream-java.io.OutputStream-) | Releases the stream created by the \#createFileStream().createFileStream() method. |
+| [createFileStream()](#createFileStream--) | The method that returns a readable stream.
+ |
+| [closeFileStream(OutputStream fileStream)](#closeFileStream-java.io.OutputStream-) | Releases the stream created by the #createFileStream().createFileStream() method.
+ |
 ### createFileStream() {#createFileStream--}
 ```
 public abstract OutputStream createFileStream()
@@ -47,18 +55,22 @@ public abstract OutputStream createFileStream()
 
 The method that returns a readable stream.
 
+
 **Returns:**
 java.io.OutputStream - the OutputStream used to write output file data.
+
 ### closeFileStream(OutputStream fileStream) {#closeFileStream-java.io.OutputStream-}
 ```
 public abstract void closeFileStream(OutputStream fileStream)
 ```
 
 
-Releases the stream created by the \#createFileStream().createFileStream() method.
+Releases the stream created by the #createFileStream().createFileStream() method.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileStream | java.io.OutputStream | The OutputStream created by the \#createFileStream().createFileStream() method. |
+| fileStream | java.io.OutputStream | The OutputStream created by the #createFileStream().createFileStream() method.
+ |
 

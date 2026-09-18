@@ -14,11 +14,16 @@ public enum TimeUnit extends Enum<TimeUnit>
 
 Time unit of the project duration.
 
-The TimeUnit enum represents different time units for specifying the duration of a project in the GroupDocs.Viewer component. It provides a set of predefined time units that can be used to represent and calculate the duration of a project, such as days, months and so on. For details, see the [documentation][].
+
+The TimeUnit enum represents different time units for specifying the duration of a project in the GroupDocs.Viewer component.
+It provides a set of predefined time units that can be used to represent and calculate the duration of a project,
+such as days, months and so on.
+For details, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit).
+
 
 Example usage:
 
-```
+````
 
  HtmlViewOptions pdfViewOptions = HtmlViewOptions.forEmbeddedResources();
  ProjectManagementOptions projectManagementOptions = pdfViewOptions.getProjectManagementOptions();
@@ -29,18 +34,21 @@ Example usage:
      // Use the viewer object for further operations
  }
  
-```
+````
 
 
-[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [UNSPECIFIED](#UNSPECIFIED) | The unknown time scale. |
-| [DAYS](#DAYS) | Days time scale. |
-| [THIRDS_OF_MONTHS](#THIRDS-OF-MONTHS) | Thirds of months time scale. |
-| [MONTHS](#MONTHS) | Months time scale. |
+| [UNSPECIFIED](#UNSPECIFIED) | The unknown time scale.
+ |
+| [DAYS](#DAYS) | Days time scale.
+ |
+| [THIRDS_OF_MONTHS](#THIRDS-OF-MONTHS) | Thirds of months time scale.
+ |
+| [MONTHS](#MONTHS) | Months time scale.
+ |
 ## Methods
 
 | Method | Description |
@@ -53,12 +61,10 @@ public static final TimeUnit UNSPECIFIED
 ```
 
 
-The unknown time scale. This time unit represents an unknown or unspecified time scale.
+The unknown time scale.
+This time unit represents an unknown or unspecified time scale.
+For details, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit).
 
-For details, see the [documentation][].
-
-
-[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit
 
 ### DAYS {#DAYS}
 ```
@@ -66,12 +72,10 @@ public static final TimeUnit DAYS
 ```
 
 
-Days time scale. This time unit represents a one-day interval.
+Days time scale.
+This time unit represents a one-day interval.
+For details, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit).
 
-For details, see the [documentation][].
-
-
-[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit
 
 ### THIRDS_OF_MONTHS {#THIRDS-OF-MONTHS}
 ```
@@ -79,12 +83,10 @@ public static final TimeUnit THIRDS_OF_MONTHS
 ```
 
 
-Thirds of months time scale. This time unit represents a one-third of the month interval.
+Thirds of months time scale.
+This time unit represents a one-third of the month interval.
+For details, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit).
 
-For details, see the [documentation][].
-
-
-[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit
 
 ### MONTHS {#MONTHS}
 ```
@@ -92,12 +94,10 @@ public static final TimeUnit MONTHS
 ```
 
 
-Months time scale. This time unit represents a one-month interval.
+Months time scale.
+This time unit represents a one-month interval.
+For details, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit).
 
-For details, see the [documentation][].
-
-
-[documentation]: https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit
 
 ### values() {#values--}
 ```

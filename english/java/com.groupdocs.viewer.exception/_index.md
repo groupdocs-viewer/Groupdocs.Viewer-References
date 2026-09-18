@@ -11,14 +11,14 @@ The package provides classes for exceptions that can occur while working with a 
 
 The main classes in this package are:
 
- *  com.groupdocs.viewer.exception.ArchiveSecurityException - Thrown when an archive being opened exceeds specified limits.
- *  [FileNotFoundException](../../com.groupdocs.viewer.exception/filenotfoundexception) - Represents an exception thrown when a file or directory is not found.
- *  [GroupDocsViewerException](../../com.groupdocs.viewer.exception/groupdocsviewerexception) - Represents generic errors that occur during document processing.
-
-For more details on working with exceptions in GroupDocs.Viewer, please refer to the [GroupDocs.Viewer Documentation][].
+* com.groupdocs.viewer.exception.ArchiveSecurityException - Thrown when an archive being opened exceeds specified limits.
+* [FileNotFoundException](../../com.groupdocs.viewer.exception/filenotfoundexception) - Represents an exception thrown when a file or directory is not found.
+* [GroupDocsViewerException](../../com.groupdocs.viewer.exception/groupdocsviewerexception) - Represents generic errors that occur during document processing.
 
 
-[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+For more details on working with exceptions in GroupDocs.Viewer, please refer to the
+[GroupDocs.Viewer Documentation](../https://docs.groupdocs.com/viewer/java/).
+
 
 
 ## Classes

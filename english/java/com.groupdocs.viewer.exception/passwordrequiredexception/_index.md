@@ -12,21 +12,35 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 public class PasswordRequiredException extends GroupDocsViewerException
 ```
 
-This exception is thrown when a password is required to load the document. This exception typically occurs when attempting to load or open a document that is encrypted or password-protected without providing valid password.
+This exception is thrown when a password is required to load the document.
+This exception typically occurs when attempting to load or open a document that is encrypted or password-protected without providing valid password.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PasswordRequiredException()](#PasswordRequiredException--) | Initializes a new instance of the  PasswordRequiredException  class. |
-| [PasswordRequiredException(String message)](#PasswordRequiredException-java.lang.String-) | Initializes a new instance of the  PasswordRequiredException  class with a custom exception message. |
-| [PasswordRequiredException(String message, Throwable throwable)](#PasswordRequiredException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the  PasswordRequiredException  class with a specified error message. |
+| [PasswordRequiredException()](#PasswordRequiredException--) | Initializes a new instance of the 
+PasswordRequiredException
+ class.
+ |
+| [PasswordRequiredException(String message)](#PasswordRequiredException-java.lang.String-) | Initializes a new instance of the 
+PasswordRequiredException
+ class with a custom exception message.
+ |
+| [PasswordRequiredException(String message, Throwable throwable)](#PasswordRequiredException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of the 
+PasswordRequiredException
+ class with a specified error message.
+ |
 ### PasswordRequiredException() {#PasswordRequiredException--}
 ```
 public PasswordRequiredException()
 ```
 
 
-Initializes a new instance of the  PasswordRequiredException  class.
+Initializes a new instance of the 
+PasswordRequiredException
+ class.
+
 
 ### PasswordRequiredException(String message) {#PasswordRequiredException-java.lang.String-}
 ```
@@ -34,7 +48,10 @@ public PasswordRequiredException(String message)
 ```
 
 
-Initializes a new instance of the  PasswordRequiredException  class with a custom exception message.
+Initializes a new instance of the 
+PasswordRequiredException
+ class with a custom exception message.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -47,11 +64,16 @@ public PasswordRequiredException(String message, Throwable throwable)
 ```
 
 
-Initializes a new instance of the  PasswordRequiredException  class with a specified error message.
+Initializes a new instance of the 
+PasswordRequiredException
+ class with a specified error message.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message. |
-| throwable | java.lang.Throwable | The throwable. |
+| message | java.lang.String | The message.
+ |
+| throwable | java.lang.Throwable | The throwable.
+ |
 

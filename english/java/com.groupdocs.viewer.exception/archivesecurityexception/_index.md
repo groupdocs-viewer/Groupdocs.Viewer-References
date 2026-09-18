@@ -13,21 +13,29 @@ public class ArchiveSecurityException extends GroupDocsViewerException
 ```
 
 This exception is thrown when an archive being opened exceeds any of the limits specified in the ArchiveSecurityOptions.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ArchiveSecurityException(String message)](#ArchiveSecurityException-java.lang.String-) | Creates an instance of the  ArchiveSecurityException  class with the specified message. |
+| [ArchiveSecurityException(String message)](#ArchiveSecurityException-java.lang.String-) | Creates an instance of the 
+ArchiveSecurityException
+ class with the specified message.
+ |
 ### ArchiveSecurityException(String message) {#ArchiveSecurityException-java.lang.String-}
 ```
 public ArchiveSecurityException(String message)
 ```
 
 
-Creates an instance of the  ArchiveSecurityException  class with the specified message.
+Creates an instance of the 
+ArchiveSecurityException
+ class with the specified message.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message. |
+| message | java.lang.String | The message.
+ |
 

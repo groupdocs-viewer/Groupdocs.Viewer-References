@@ -11,15 +11,17 @@ The package provides classes for customizing caching behavior.
 
 The main classes and interfaces in this package are:
 
- *  [CacheKeys](../../com.groupdocs.viewer.caching/cachekeys) - Provides methods to retrieve unique identifiers for the cache entry.
- *  [FileCache](../../com.groupdocs.viewer.caching/filecache) - Represents a local on-disk cache.
-
-The [Cache](../../com.groupdocs.viewer.caching/cache) interface defines methods required for storing rendered documents and document resources in the cache.
-
-For more details on customizing caching behavior in GroupDocs.Viewer, please refer to the [GroupDocs.Viewer Documentation][].
+* [CacheKeys](../../com.groupdocs.viewer.caching/cachekeys) - Provides methods to retrieve unique identifiers for the cache entry.
+* [FileCache](../../com.groupdocs.viewer.caching/filecache) - Represents a local on-disk cache.
 
 
-[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+The [Cache](../../com.groupdocs.viewer.caching/cache) interface defines methods required for storing rendered documents
+and document resources in the cache.
+
+
+For more details on customizing caching behavior in GroupDocs.Viewer, please refer to the
+[GroupDocs.Viewer Documentation](../https://docs.groupdocs.com/viewer/java/).
+
 
 
 ## Classes
