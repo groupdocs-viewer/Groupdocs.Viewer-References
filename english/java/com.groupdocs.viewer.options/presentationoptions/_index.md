@@ -14,10 +14,9 @@ public class PresentationOptions
 
 Provides options for rendering presentations options.
 
-For details, see the [documentation][].
 
+For details, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-presentations/).
 
-[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/
 ## Constructors
 
 | Constructor | Description |
@@ -27,12 +26,18 @@ For details, see the [documentation][].
 
 | Method | Description |
 | --- | --- |
-| [isRenderToPureHtml()](#isRenderToPureHtml--) | Enables a new HTML rendering mode for Presentation documents. |
-| [setRenderToPureHtml(boolean renderToPureHtml)](#setRenderToPureHtml-boolean-) | Enables a new HTML rendering mode for Presentation documents. |
-| [isRenderHeaderFooterPlaceholders()](#isRenderHeaderFooterPlaceholders--) | Enables rendering placeholders in the header and footer of a slide. |
-| [setRenderHeaderFooterPlaceholders(boolean renderHeaderFooterPlaceholders)](#setRenderHeaderFooterPlaceholders-boolean-) | Enables rendering placeholders in the header and footer of a slide. |
-| [getResolution()](#getResolution--) | Resolution for images inside presentation (for to HTML/PDF rendering only). |
-| [setResolution(Resolution resolution)](#setResolution-com.groupdocs.viewer.options.Resolution-) | Resolution for images inside presentation (for to HTML/PDF rendering only). |
+| [isRenderToPureHtml()](#isRenderToPureHtml--) | Enables a new HTML rendering mode for Presentation documents.
+ |
+| [setRenderToPureHtml(boolean renderToPureHtml)](#setRenderToPureHtml-boolean-) | Enables a new HTML rendering mode for Presentation documents.
+ |
+| [isRenderHeaderFooterPlaceholders()](#isRenderHeaderFooterPlaceholders--) | Enables rendering placeholders in the header and footer of a slide.
+ |
+| [setRenderHeaderFooterPlaceholders(boolean renderHeaderFooterPlaceholders)](#setRenderHeaderFooterPlaceholders-boolean-) | Enables rendering placeholders in the header and footer of a slide.
+ |
+| [getResolution()](#getResolution--) | Resolution for images inside presentation (for to HTML/PDF rendering only).
+ |
+| [setResolution(Resolution resolution)](#setResolution-com.groupdocs.viewer.options.Resolution-) | Resolution for images inside presentation (for to HTML/PDF rendering only).
+ |
 ### PresentationOptions() {#PresentationOptions--}
 ```
 public PresentationOptions()
@@ -47,7 +52,10 @@ public boolean isRenderToPureHtml()
 
 Enables a new HTML rendering mode for Presentation documents.
 
-In this mode, the Presentation files are rendered to pure HTML/CSS markup, without SVG images. By default, this feature is disabled (false). Existing SVG-based HTML renderer is used if this option is not enabled.
+
+In this mode, the Presentation files are rendered to pure HTML/CSS markup, without SVG images.
+By default, this feature is disabled (false). Existing SVG-based HTML renderer is used if this option is not enabled.
+
 
 **Returns:**
 boolean
@@ -59,7 +67,10 @@ public void setRenderToPureHtml(boolean renderToPureHtml)
 
 Enables a new HTML rendering mode for Presentation documents.
 
-In this mode, the Presentation files are rendered to pure HTML/CSS markup, without SVG images. By default, this feature is disabled (false). Existing SVG-based HTML renderer is used if this option is not enabled.
+
+In this mode, the Presentation files are rendered to pure HTML/CSS markup, without SVG images.
+By default, this feature is disabled (false). Existing SVG-based HTML renderer is used if this option is not enabled.
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -74,6 +85,7 @@ public boolean isRenderHeaderFooterPlaceholders()
 
 Enables rendering placeholders in the header and footer of a slide. Disabled by default (false). This option applies for all 4 rendering modes of presentations: HTML, PDF, PNG, and JPEG. Is not applicable when rendering presentation to pure HTML/CSS markup using .
 
+
 **Returns:**
 boolean
 ### setRenderHeaderFooterPlaceholders(boolean renderHeaderFooterPlaceholders) {#setRenderHeaderFooterPlaceholders-boolean-}
@@ -83,6 +95,7 @@ public void setRenderHeaderFooterPlaceholders(boolean renderHeaderFooterPlacehol
 
 
 Enables rendering placeholders in the header and footer of a slide. Disabled by default (false). This option applies for all 4 rendering modes of presentations: HTML, PDF, PNG, and JPEG. Is not applicable when rendering presentation to pure HTML/CSS markup using .
+
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,10 +110,9 @@ public Resolution getResolution()
 
 Resolution for images inside presentation (for to HTML/PDF rendering only).
 
-For code sample, see the [documentation][].
 
+For code sample, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-presentations/#specify-image-resolution).
 
-[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/#specify-image-resolution
 
 **Returns:**
 com.groupdocs.viewer.options.Resolution
@@ -112,10 +124,9 @@ public void setResolution(Resolution resolution)
 
 Resolution for images inside presentation (for to HTML/PDF rendering only).
 
-For code sample, see the [documentation][].
 
+For code sample, see the [documentation](../https://docs.groupdocs.com/viewer/java/render-presentations/#specify-image-resolution).
 
-[documentation]: https://docs.groupdocs.com/viewer/java/render-presentations/#specify-image-resolution
 
 **Parameters:**
 | Parameter | Type | Description |

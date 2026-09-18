@@ -13,6 +13,7 @@ public final class SearchHighlightOptions
 ```
 
 Provides options for searching and highlighting text in the documents, loaded to the [Viewer](../../com.groupdocs.viewer/viewer) class.
+
 ## Constructors
 
 | Constructor | Description |

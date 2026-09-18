@@ -14,11 +14,15 @@ public interface ArchiveViewInfo extends ViewInfo
 
 Represents view information for an archive file.
 
-The ArchiveViewInfo interface defines the contract for retrieving view information specific to an archive file in the GroupDocs.Viewer component. It provides methods to access details such as page count, dimensions, and rendering options specific to archive files.
+
+The ArchiveViewInfo interface defines the contract for retrieving view information specific to an archive file
+in the GroupDocs.Viewer component. It provides methods to access details such as page count, dimensions, and rendering options
+specific to archive files.
+
 
 Example usage:
 
-```
+````
 
  try (Viewer viewer = new Viewer("document.zip")) {
      ArchiveViewInfo viewInfo = (ArchiveViewInfo) viewer.getViewInfo(ViewInfoOptions.forHtmlView());
@@ -26,15 +30,19 @@ Example usage:
      // Use the viewInfo object for further operations
  }
  
-```
+````
+
 
 ***Note:** The default implementation of this interface is ArchiveViewInfoImpl.*
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFolders()](#getFolders--) | Retrieves the list of folders contained within the archive file. |
-| [setFolders(List<String> folders)](#setFolders-java.util.List-java.lang.String--) | Sets the list of folders contained within the archive file. |
+| [getFolders()](#getFolders--) | Retrieves the list of folders contained within the archive file.
+ |
+| [setFolders(List<String> folders)](#setFolders-java.util.List-java.lang.String--) | Sets the list of folders contained within the archive file.
+ |
 ### getFolders() {#getFolders--}
 ```
 public abstract List<String> getFolders()
@@ -43,8 +51,10 @@ public abstract List<String> getFolders()
 
 Retrieves the list of folders contained within the archive file.
 
+
 **Returns:**
 java.util.List<java.lang.String> - the list of folders.
+
 ### setFolders(List<String> folders) {#setFolders-java.util.List-java.lang.String--}
 ```
 public abstract void setFolders(List<String> folders)
@@ -53,8 +63,10 @@ public abstract void setFolders(List<String> folders)
 
 Sets the list of folders contained within the archive file.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| folders | java.util.List<java.lang.String> | the list of folders. |
+| folders | java.util.List<java.lang.String> | the list of folders.
+ |
 

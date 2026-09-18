@@ -11,14 +11,14 @@ The package provides classes for rendering documents in HTML5, Image, or PDF mod
 
 The main classes in this package are:
 
- *  [License](../../com.groupdocs.viewer/license) - Provides methods for licensing Viewer.
- *  [Viewer](../../com.groupdocs.viewer/viewer) - Represents the main class that controls the document rendering process.
- *  [ViewerSettings](../../com.groupdocs.viewer/viewersettings) - Defines settings for customizing the behavior of the Viewer.
-
-For more details on working with the document rendering process using GroupDocs.Viewer for Java, please refer to the [GroupDocs.Viewer Documentation][].
+* [License](../../com.groupdocs.viewer/license) - Provides methods for licensing Viewer.
+* [Viewer](../../com.groupdocs.viewer/viewer) - Represents the main class that controls the document rendering process.
+* [ViewerSettings](../../com.groupdocs.viewer/viewersettings) - Defines settings for customizing the behavior of the Viewer.
 
 
-[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+For more details on working with the document rendering process using GroupDocs.Viewer for Java,
+please refer to the [GroupDocs.Viewer Documentation](../https://docs.groupdocs.com/viewer/java/).
+
 
 
 ## Classes

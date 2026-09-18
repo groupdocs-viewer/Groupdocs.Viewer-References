@@ -3,7 +3,7 @@ title: PdfViewInfo
 second_title: GroupDocs.Viewer for Java API Reference
 description: Represents view information for a PDF document.
 type: docs
-weight: 22
+weight: 24
 url: /java/com.groupdocs.viewer.results/pdfviewinfo/
 ---
 **All Implemented Interfaces:**
@@ -14,26 +14,34 @@ public interface PdfViewInfo extends ViewInfo
 
 Represents view information for a PDF document.
 
-The PdfViewInfo interface defines the contract for accessing and manipulating view information for a PDF document in the GroupDocs.Viewer component. It provides methods to retrieve information such as allowing printing, and other properties.
+
+The PdfViewInfo interface defines the contract for accessing and manipulating view information
+for a PDF document in the GroupDocs.Viewer component. It provides methods to retrieve information
+such as allowing printing, and other properties.
+
 
 Example usage:
 
-```
+````
 
  try (Viewer viewer = new Viewer("document.pdf")) {
      final PdfViewInfo viewInfo = (PdfViewInfo) viewer.getViewInfo(ViewInfoOptions.forPngView());
      // Use the viewInfo object for further operations
  }
  
-```
+````
+
 
 ***Note:** The default implementation of this interface is PdfViewInfoImpl.*
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [isPrintingAllowed()](#isPrintingAllowed--) | Checks if printing of the document is allowed. |
-| [setPrintingAllowed(boolean allowPrinting)](#setPrintingAllowed-boolean-) | Sets whether printing of the document is allowed. |
+| [isPrintingAllowed()](#isPrintingAllowed--) | Checks if printing of the document is allowed.
+ |
+| [setPrintingAllowed(boolean allowPrinting)](#setPrintingAllowed-boolean-) | Sets whether printing of the document is allowed.
+ |
 ### isPrintingAllowed() {#isPrintingAllowed--}
 ```
 public abstract boolean isPrintingAllowed()
@@ -42,8 +50,10 @@ public abstract boolean isPrintingAllowed()
 
 Checks if printing of the document is allowed.
 
+
 **Returns:**
 boolean -  true  if printing is allowed,  false  otherwise.
+
 ### setPrintingAllowed(boolean allowPrinting) {#setPrintingAllowed-boolean-}
 ```
 public abstract void setPrintingAllowed(boolean allowPrinting)
@@ -52,8 +62,10 @@ public abstract void setPrintingAllowed(boolean allowPrinting)
 
 Sets whether printing of the document is allowed.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| allowPrinting | boolean |  true  to allow printing,  false  otherwise. |
+| allowPrinting | boolean |  true  to allow printing,  false  otherwise.
+ |
 

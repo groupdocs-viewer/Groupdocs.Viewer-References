@@ -13,20 +13,27 @@ public final class FontFormat
 ```
 
 Represents all font formats, which may be present in the UsedFontInfo class.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Unknown](#Unknown) | Unknown or invalid font format. |
-| [TrueType](#TrueType) | TrueType font format (TTF). |
-| [OpenType](#OpenType) | OpenType font format (OTF). |
-| [TrueTypeCollection](#TrueTypeCollection) | TrueType Collection font format (TTC). |
-| [EmbeddedOpenType](#EmbeddedOpenType) | Embedded OpenType font format (EOT). |
+| [Unknown](#Unknown) | Unknown or invalid font format.
+ |
+| [TrueType](#TrueType) | TrueType font format (TTF).
+ |
+| [OpenType](#OpenType) | OpenType font format (OTF).
+ |
+| [TrueTypeCollection](#TrueTypeCollection) | TrueType Collection font format (TTC).
+ |
+| [EmbeddedOpenType](#EmbeddedOpenType) | Embedded OpenType font format (EOT).
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [toString(int format)](#toString-int-) | Converts a format value to a human-readable string. |
+| [toString(int format)](#toString-int-) | Converts a format value to a human-readable string.
+ |
 ### Unknown {#Unknown}
 ```
 public static final int Unknown
@@ -34,6 +41,7 @@ public static final int Unknown
 
 
 Unknown or invalid font format.
+
 
 ### TrueType {#TrueType}
 ```
@@ -43,6 +51,7 @@ public static final int TrueType
 
 TrueType font format (TTF).
 
+
 ### OpenType {#OpenType}
 ```
 public static final int OpenType
@@ -50,6 +59,7 @@ public static final int OpenType
 
 
 OpenType font format (OTF).
+
 
 ### TrueTypeCollection {#TrueTypeCollection}
 ```
@@ -59,6 +69,7 @@ public static final int TrueTypeCollection
 
 TrueType Collection font format (TTC).
 
+
 ### EmbeddedOpenType {#EmbeddedOpenType}
 ```
 public static final int EmbeddedOpenType
@@ -66,6 +77,7 @@ public static final int EmbeddedOpenType
 
 
 Embedded OpenType font format (EOT).
+
 
 ### toString(int format) {#toString-int-}
 ```
@@ -75,10 +87,13 @@ public static String toString(int format)
 
 Converts a format value to a human-readable string.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | int | the font format value |
+| format | int | the font format value
+ |
 
 **Returns:**
 java.lang.String - a string representation of the font format
+

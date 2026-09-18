@@ -10,6 +10,7 @@ url: /java/com.groupdocs.viewer.drawing.rgb24color/
 Contains all 'known colors', that have fixed unique name and value in CSS standard.
 
 
+
 ## Classes
 
 | Class | Description |

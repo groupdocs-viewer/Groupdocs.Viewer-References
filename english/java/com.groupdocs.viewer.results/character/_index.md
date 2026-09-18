@@ -14,11 +14,15 @@ public interface Character extends TextElement<Character>, Serializable
 
 Represents a relatively positioned rectangle that contains a single character.
 
-The Character interface defines the contract for accessing and manipulating a character represented by a rectangle in the GroupDocs.Viewer component. It provides methods to retrieve information such as the character itself, position, and size of the rectangle.
+
+The Character interface defines the contract for accessing and manipulating a character represented by a rectangle
+in the GroupDocs.Viewer component. It provides methods to retrieve information such as the character itself,
+position, and size of the rectangle.
+
 
 Example usage:
 
-```
+````
 
  try (Viewer viewer = new Viewer("document.pdf")) {
      PdfViewInfo viewInfo = (PdfViewInfo) viewer.getViewInfo(ViewInfoOptions.forHtmlView());
@@ -28,6 +32,8 @@ Example usage:
      // Use the character object for further operations
  }
  
-```
+````
+
 
 ***Note:** The default implementation of this interface is CharacterImpl.*
+

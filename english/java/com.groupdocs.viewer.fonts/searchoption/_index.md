@@ -14,23 +14,29 @@ public enum SearchOption extends Enum<SearchOption>
 
 Specifies whether to search the current folder, or the current folder and all subfolders.
 
+
 The SearchOption enum is used to specify the scope of font search operation in the GroupDocs.Viewer API.
+
 
 Example usage:
 
-```
+````
 
  FontSettings.setFontSources(new FolderFontSource("/path/to/fonts/folder", SearchOption.ALL_FOLDERS));
  
-```
+````
+
 
 ***Note:** This enum is typically used to specify strategy of searching fonts in provided directory.*
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [TOP_FOLDER_ONLY](#TOP-FOLDER-ONLY) | Includes only the current folder in a search. |
-| [ALL_FOLDERS](#ALL-FOLDERS) | Includes the current folder and all the subfolders in a search. |
+| [TOP_FOLDER_ONLY](#TOP-FOLDER-ONLY) | Includes only the current folder in a search.
+ |
+| [ALL_FOLDERS](#ALL-FOLDERS) | Includes the current folder and all the subfolders in a search.
+ |
 ## Methods
 
 | Method | Description |
@@ -45,6 +51,7 @@ public static final SearchOption TOP_FOLDER_ONLY
 
 Includes only the current folder in a search.
 
+
 ### ALL_FOLDERS {#ALL-FOLDERS}
 ```
 public static final SearchOption ALL_FOLDERS
@@ -52,6 +59,7 @@ public static final SearchOption ALL_FOLDERS
 
 
 Includes the current folder and all the subfolders in a search.
+
 
 ### values() {#values--}
 ```

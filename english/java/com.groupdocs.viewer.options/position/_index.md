@@ -14,11 +14,15 @@ public enum Position extends Enum<Position>
 
 Defines watermark position.
 
-The Position enum represents different positions for a watermark in the GroupDocs.Viewer component. It provides a set of predefined positions that can be used to specify the placement of a watermark on a document or image during the rendering process.
+
+The Position enum represents different positions for a watermark in the GroupDocs.Viewer component.
+It provides a set of predefined positions that can be used to specify the placement of a watermark
+on a document or image during the rendering process.
+
 
 Example usage:
 
-```
+````
 
  Watermark watermark = new Watermark("Watermark");
  watermark.setPosition(Position.DIAGONAL);
@@ -33,18 +37,27 @@ Example usage:
      // Use the viewer object for further operations
  }
  
-```
+````
+
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [DIAGONAL](#DIAGONAL) | The diagonal position. |
-| [TOP_LEFT](#TOP-LEFT) | The top left position. |
-| [TOP_CENTER](#TOP-CENTER) | The top center position. |
-| [TOP_RIGHT](#TOP-RIGHT) | The top right position. |
-| [BOTTOM_LEFT](#BOTTOM-LEFT) | The bottom left position. |
-| [BOTTOM_CENTER](#BOTTOM-CENTER) | The bottom center position. |
-| [BOTTOM_RIGHT](#BOTTOM-RIGHT) | The bottom right position. |
+| [DIAGONAL](#DIAGONAL) | The diagonal position.
+ |
+| [TOP_LEFT](#TOP-LEFT) | The top left position.
+ |
+| [TOP_CENTER](#TOP-CENTER) | The top center position.
+ |
+| [TOP_RIGHT](#TOP-RIGHT) | The top right position.
+ |
+| [BOTTOM_LEFT](#BOTTOM-LEFT) | The bottom left position.
+ |
+| [BOTTOM_CENTER](#BOTTOM-CENTER) | The bottom center position.
+ |
+| [BOTTOM_RIGHT](#BOTTOM-RIGHT) | The bottom right position.
+ |
 ## Methods
 
 | Method | Description |
@@ -57,7 +70,9 @@ public static final Position DIAGONAL
 ```
 
 
-The diagonal position. This position represents a diagonal alignment or placement.
+The diagonal position.
+This position represents a diagonal alignment or placement.
+
 
 ### TOP_LEFT {#TOP-LEFT}
 ```
@@ -65,7 +80,9 @@ public static final Position TOP_LEFT
 ```
 
 
-The top left position. This position represents the top left corner alignment or placement.
+The top left position.
+This position represents the top left corner alignment or placement.
+
 
 ### TOP_CENTER {#TOP-CENTER}
 ```
@@ -73,7 +90,9 @@ public static final Position TOP_CENTER
 ```
 
 
-The top center position. This position represents the top center alignment or placement.
+The top center position.
+This position represents the top center alignment or placement.
+
 
 ### TOP_RIGHT {#TOP-RIGHT}
 ```
@@ -81,7 +100,9 @@ public static final Position TOP_RIGHT
 ```
 
 
-The top right position. This position represents the top right corner alignment or placement.
+The top right position.
+This position represents the top right corner alignment or placement.
+
 
 ### BOTTOM_LEFT {#BOTTOM-LEFT}
 ```
@@ -89,7 +110,9 @@ public static final Position BOTTOM_LEFT
 ```
 
 
-The bottom left position. This position represents the bottom left corner alignment or placement.
+The bottom left position.
+This position represents the bottom left corner alignment or placement.
+
 
 ### BOTTOM_CENTER {#BOTTOM-CENTER}
 ```
@@ -97,7 +120,9 @@ public static final Position BOTTOM_CENTER
 ```
 
 
-The bottom center position. This position represents the bottom center alignment or placement.
+The bottom center position.
+This position represents the bottom center alignment or placement.
+
 
 ### BOTTOM_RIGHT {#BOTTOM-RIGHT}
 ```
@@ -105,7 +130,9 @@ public static final Position BOTTOM_RIGHT
 ```
 
 
-The bottom right position. This position represents the bottom right corner alignment or placement.
+The bottom right position.
+This position represents the bottom right corner alignment or placement.
+
 
 ### values() {#values--}
 ```

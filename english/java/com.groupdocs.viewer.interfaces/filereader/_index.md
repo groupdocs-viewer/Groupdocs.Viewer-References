@@ -14,11 +14,14 @@ public interface FileReader extends Closeable
 
 Declares an interface for reading a file stream.
 
-The FileReader interface provides a method for reading a file stream. It is used for accessing and reading the contents of a file in a sequential manner. Implementations of this interface should handle the necessary operations to read data from a file.
+
+The FileReader interface provides a method for reading a file stream. It is used for accessing and reading the contents
+of a file in a sequential manner. Implementations of this interface should handle the necessary operations to read data from a file.
+
 
 Example usage:
 
-```
+````
 
  FileReader fileReader = new FileReader() {
      @Override
@@ -35,13 +38,17 @@ Example usage:
      // Process document
  }
  
-```
+````
+
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [read()](#read--) | Returns an InputStream that represents a readable stream for the file. |
-| [close()](#close--) | Disposes the object and releases any system resources associated with it. |
+| [read()](#read--) | Returns an InputStream that represents a readable stream for the file.
+ |
+| [close()](#close--) | Disposes the object and releases any system resources associated with it.
+ |
 ### read() {#read--}
 ```
 public abstract InputStream read()
@@ -50,8 +57,10 @@ public abstract InputStream read()
 
 Returns an InputStream that represents a readable stream for the file.
 
+
 **Returns:**
 java.io.InputStream - the InputStream readable stream.
+
 ### close() {#close--}
 ```
 public abstract void close()
@@ -59,4 +68,5 @@ public abstract void close()
 
 
 Disposes the object and releases any system resources associated with it.
+
 

@@ -14,11 +14,15 @@ public enum Rotation extends Enum<Rotation>
 
 Contains page rotation in degrees (clockwise).
 
-The Rotation enum represents different rotation angles for a page in the GroupDocs.Viewer component. It provides a set of predefined rotation options that can be used to specify the rotation angle for rendering a page in various document viewing or conversion scenarios.
+
+The Rotation enum represents different rotation angles for a page in the GroupDocs.Viewer component.
+It provides a set of predefined rotation options that can be used to specify the rotation angle
+for rendering a page in various document viewing or conversion scenarios.
+
 
 Example usage:
 
-```
+````
 
  PdfViewOptions pdfViewOptions = new PdfViewOptions();
 
@@ -30,14 +34,19 @@ Example usage:
      // Use the viewer object for further operations
  }
  
-```
+````
+
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [ON_90_DEGREE](#ON-90-DEGREE) | The 90 degree page rotation. |
-| [ON_180_DEGREE](#ON-180-DEGREE) | The 180 degree page rotation. |
-| [ON_270_DEGREE](#ON-270-DEGREE) | The 270 degree page rotation. |
+| [ON_90_DEGREE](#ON-90-DEGREE) | The 90 degree page rotation.
+ |
+| [ON_180_DEGREE](#ON-180-DEGREE) | The 180 degree page rotation.
+ |
+| [ON_270_DEGREE](#ON-270-DEGREE) | The 270 degree page rotation.
+ |
 ## Methods
 
 | Method | Description |
@@ -50,7 +59,9 @@ public static final Rotation ON_90_DEGREE
 ```
 
 
-The 90 degree page rotation. This rotation represents a 90-degree clockwise rotation of the page.
+The 90 degree page rotation.
+This rotation represents a 90-degree clockwise rotation of the page.
+
 
 ### ON_180_DEGREE {#ON-180-DEGREE}
 ```
@@ -58,7 +69,9 @@ public static final Rotation ON_180_DEGREE
 ```
 
 
-The 180 degree page rotation. This rotation represents a 180-degree clockwise rotation of the page.
+The 180 degree page rotation.
+This rotation represents a 180-degree clockwise rotation of the page.
+
 
 ### ON_270_DEGREE {#ON-270-DEGREE}
 ```
@@ -66,7 +79,9 @@ public static final Rotation ON_270_DEGREE
 ```
 
 
-The 270 degree page rotation. This rotation represents a 270-degree clockwise rotation of the page.
+The 270 degree page rotation.
+This rotation represents a 270-degree clockwise rotation of the page.
+
 
 ### values() {#values--}
 ```

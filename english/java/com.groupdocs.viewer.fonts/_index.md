@@ -11,14 +11,14 @@ The package provides classes and enumerations to manage fonts used during the re
 
 The main classes and interfaces in this package are:
 
- *  [FolderFontSource](../../com.groupdocs.viewer.fonts/folderfontsource) - Represents a folder that contains TrueType fonts.
- *  [FontSettings](../../com.groupdocs.viewer.fonts/fontsettings) - Provides methods for working with sources to look for TrueType fonts.
- *  [FontSource](../../com.groupdocs.viewer.fonts/fontsource) - Marker interface for the font sources.
-
-For more details on working with fonts in GroupDocs.Viewer, please refer to the [GroupDocs.Viewer Documentation][].
+* [FolderFontSource](../../com.groupdocs.viewer.fonts/folderfontsource) - Represents a folder that contains TrueType fonts.
+* [FontSettings](../../com.groupdocs.viewer.fonts/fontsettings) - Provides methods for working with sources to look for TrueType fonts.
+* [FontSource](../../com.groupdocs.viewer.fonts/fontsource) - Marker interface for the font sources.
 
 
-[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+For more details on working with fonts in GroupDocs.Viewer, please refer to the
+[GroupDocs.Viewer Documentation](../https://docs.groupdocs.com/viewer/java/).
+
 
 
 ## Classes

@@ -9,18 +9,20 @@ url: /java/com.groupdocs.viewer.results/
 
 The package provides classes and interfaces that represent document rendering results.
 
-These classes encapsulate information about various elements and components of the rendered document, such as pages, attachments, views, resources, and more.
+
+These classes encapsulate information about various elements and components of the rendered document,
+such as pages, attachments, views, resources, and more.
 
 The main classes in this package are:
 
- *  [Page](../../com.groupdocs.viewer.results/page) - Represents a single page that can be viewed.
- *  [Attachment](../../com.groupdocs.viewer.results/attachment) - Represents an attachment file contained by an email message, archive, PDF document, or Outlook data file.
- *  [PdfViewInfo](../../com.groupdocs.viewer.results/pdfviewinfo) - Represents view information for a PDF document.
-
-For more details on working with document rendering results using GroupDocs.Viewer, please refer to the [GroupDocs.Viewer Documentation][].
+* [Page](../../com.groupdocs.viewer.results/page) - Represents a single page that can be viewed.
+* [Attachment](../../com.groupdocs.viewer.results/attachment) - Represents an attachment file contained by an email message, archive, PDF document, or Outlook data file.
+* [PdfViewInfo](../../com.groupdocs.viewer.results/pdfviewinfo) - Represents view information for a PDF document.
 
 
-[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+For more details on working with document rendering results using GroupDocs.Viewer,
+please refer to the [GroupDocs.Viewer Documentation](../https://docs.groupdocs.com/viewer/java/).
+
 
 
 ## Classes
@@ -42,6 +44,8 @@ For more details on working with document rendering results using GroupDocs.View
 | [Layout](../com.groupdocs.viewer.results/layout) | Represents a layout contained by a CAD drawing. |
 | [Line](../com.groupdocs.viewer.results/line) | Represents a relatively positioned rectangle that contains a single line. |
 | [LotusNotesViewInfo](../com.groupdocs.viewer.results/lotusnotesviewinfo) | Represents view information for Lotus Notes database storage. |
+| [MailMessageViewInfo](../com.groupdocs.viewer.results/mailmessageviewinfo) |  |
+| [MboxViewInfo](../com.groupdocs.viewer.results/mboxviewinfo) | The MboxViewInfo interface provides information about the Mbox. |
 | [OutlookViewInfo](../com.groupdocs.viewer.results/outlookviewinfo) | Represents view information for an Outlook Data file. |
 | [Page](../com.groupdocs.viewer.results/page) | Represents a single page that can be viewed. |
 | [PdfViewInfo](../com.groupdocs.viewer.results/pdfviewinfo) | Represents view information for a PDF document. |

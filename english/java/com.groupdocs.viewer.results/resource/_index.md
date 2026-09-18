@@ -17,11 +17,15 @@ public class Resource implements Serializable
 
 Represents HTML resource such as font, style, image or graphics.
 
-The Resource class represents a resource used in HTML rendering in the GroupDocs.Viewer component. It can represent various types of resources, such as fonts, styles, images, or graphics, that are included or referenced in the generated HTML output during the rendering process.
+
+The Resource class represents a resource used in HTML rendering in the GroupDocs.Viewer component.
+It can represent various types of resources, such as fonts, styles, images, or graphics, that are included
+or referenced in the generated HTML output during the rendering process.
+
 
 Example usage:
 
-```
+````
 
  final HtmlViewOptions htmlViewOptions = HtmlViewOptions.forExternalResources(pageNumber -> , new ReleaseResourceStream() {
      @Override
@@ -34,34 +38,49 @@ Example usage:
      // Use the viewer object for further operations
  }
  
-```
+````
+
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Resource(String fileName, boolean nested)](#Resource-java.lang.String-boolean-) | Creates a new instance of the  Resource  class. |
+| [Resource(String fileName, boolean nested)](#Resource-java.lang.String-boolean-) | Creates a new instance of the 
+Resource
+ class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFileName()](#getFileName--) | Returns the file name of the resource. |
-| [setFileName(String fileName)](#setFileName-java.lang.String-) | Sets the file name of the resource. |
-| [isNested()](#isNested--) | Returns whether the resource resides inside another resource, e.g. a font resource that resides in a CSS or SVG resource. |
-| [setNested(boolean nested)](#setNested-boolean-) | Sets whether the resource resides inside another resource. |
-| [toString()](#toString--) | Returns a string that represents the current object. |
+| [getFileName()](#getFileName--) | Returns the file name of the resource.
+ |
+| [setFileName(String fileName)](#setFileName-java.lang.String-) | Sets the file name of the resource.
+ |
+| [isNested()](#isNested--) | Returns whether the resource resides inside another resource, e.g. a font resource that resides in a CSS or SVG resource.
+ |
+| [setNested(boolean nested)](#setNested-boolean-) | Sets whether the resource resides inside another resource.
+ |
+| [toString()](#toString--) | Returns a string that represents the current object.
+ |
 ### Resource(String fileName, boolean nested) {#Resource-java.lang.String-boolean-}
 ```
 public Resource(String fileName, boolean nested)
 ```
 
 
-Creates a new instance of the  Resource  class.
+Creates a new instance of the 
+Resource
+ class.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The resource file name. |
-| nested | boolean | Indicates whether the resource resides inside another resource, e.g., a font resource that resides in a CSS or SVG resource. |
+| fileName | java.lang.String | The resource file name.
+ |
+| nested | boolean | Indicates whether the resource resides inside another resource, e.g., a font resource that resides in a CSS or SVG resource.
+ |
 
 ### getFileName() {#getFileName--}
 ```
@@ -71,8 +90,10 @@ public final String getFileName()
 
 Returns the file name of the resource.
 
+
 **Returns:**
 java.lang.String - the file name of the resource.
+
 ### setFileName(String fileName) {#setFileName-java.lang.String-}
 ```
 public void setFileName(String fileName)
@@ -81,10 +102,12 @@ public void setFileName(String fileName)
 
 Sets the file name of the resource.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | The new file name for the resource. |
+| fileName | java.lang.String | The new file name for the resource.
+ |
 
 ### isNested() {#isNested--}
 ```
@@ -94,8 +117,10 @@ public final boolean isNested()
 
 Returns whether the resource resides inside another resource, e.g. a font resource that resides in a CSS or SVG resource.
 
+
 **Returns:**
 boolean - Whether the resource resides inside another resource.
+
 ### setNested(boolean nested) {#setNested-boolean-}
 ```
 public void setNested(boolean nested)
@@ -104,10 +129,12 @@ public void setNested(boolean nested)
 
 Sets whether the resource resides inside another resource.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nested | boolean | Whether the resource should be set as nested. |
+| nested | boolean | Whether the resource should be set as nested.
+ |
 
 ### toString() {#toString--}
 ```
@@ -117,5 +144,7 @@ public String toString()
 
 Returns a string that represents the current object.
 
+
 **Returns:**
 java.lang.String - the string representation of the current object.
+

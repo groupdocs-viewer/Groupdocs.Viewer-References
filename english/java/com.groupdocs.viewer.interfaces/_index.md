@@ -9,18 +9,19 @@ url: /java/com.groupdocs.viewer.interfaces/
 
 The package provides interfaces for instantiating and releasing the output document and its resources.
 
+
 These interfaces are used to manage the creation and release of streams and URLs associated with the output file, pages, and HTML resources.
 
 The main interfaces in this package are:
 
- *  [CreateFileStream](../../com.groupdocs.viewer.interfaces/createfilestream) - Represents an interface for instantiating a stream used to write output file data.
- *  [FileStreamFactory](../../com.groupdocs.viewer.interfaces/filestreamfactory) - Defines methods for instantiating and releasing the output file stream.
- *  [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) - Releases a stream that was instantiated by a method associated with the CreatePageStream interface.
-
-For more details on working with these interfaces and customizing the output document and resource handling in GroupDocs.Viewer, lease refer to the [GroupDocs.Viewer Documentation][].
+* [CreateFileStream](../../com.groupdocs.viewer.interfaces/createfilestream) - Represents an interface for instantiating a stream used to write output file data.
+* [FileStreamFactory](../../com.groupdocs.viewer.interfaces/filestreamfactory) - Defines methods for instantiating and releasing the output file stream.
+* [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) - Releases a stream that was instantiated by a method associated with the CreatePageStream interface.
 
 
-[GroupDocs.Viewer Documentation]: https://docs.groupdocs.com/viewer/java/
+For more details on working with these interfaces and customizing the output document and resource handling in GroupDocs.Viewer,
+lease refer to the [GroupDocs.Viewer Documentation](../https://docs.groupdocs.com/viewer/java/).
+
 
 
 ## Interfaces
