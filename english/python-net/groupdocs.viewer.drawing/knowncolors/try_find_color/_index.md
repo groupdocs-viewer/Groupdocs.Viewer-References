@@ -1,7 +1,7 @@
 ---
 title: try_find_color method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "KnownColors.try_find_color method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.drawing/knowncolors/try_find_color/
 is_root: false
@@ -19,9 +19,7 @@ def try_find_color(cls, keyword, output):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | keyword | `str` |  |
-| output | `Any` |  |
-
-**Returns:** bool
+| output | `Rgb24Color` |  |
 
 ### See Also
 * class [`KnownColors`](/viewer/python-net/groupdocs.viewer.drawing/knowncolors/)

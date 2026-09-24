@@ -1,7 +1,7 @@
 ---
 title: start_date property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The date time from which the project started."
 type: docs
 url: /python-net/groupdocs.viewer.results/projectmanagementviewinfo/start_date/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## start_date property
+
+The date time from which the project started.
 
 ### Definition:
 ```python

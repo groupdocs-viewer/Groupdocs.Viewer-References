@@ -1,7 +1,7 @@
 ---
 title: CssLevel3 class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "CssLevel3 enum — GroupDocs.Viewer for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.viewer.drawing/csslevel3/
 is_root: false

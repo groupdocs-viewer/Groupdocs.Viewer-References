@@ -1,7 +1,7 @@
 ---
 title: cad_options property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The CAD drawing view options."
 type: docs
 url: /python-net/groupdocs.viewer.options/baseviewoptions/cad_options/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2020
 
 
 ## cad_options property
+
+The CAD drawing view options.
+
+For more information and code examples, see the Render CAD drawings and models as HTML, PDF, and image files and Specify rendering options for CAD files.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: ReleaseFileStream class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Releases a stream that was instantiated by the method associated with CreateFileStream delegate."
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/releasefilestream/
 is_root: false
@@ -11,26 +11,24 @@ weight: 80
 
 ## ReleaseFileStream class
 
+Releases a stream that was instantiated by the method associated with [`CreateFileStream`](/viewer/python-net/groupdocs.viewer.interfaces/createfilestream/) delegate.
+
 The ReleaseFileStream type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/__init__/) |  |
+| [__init__](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/__init__/#object-method) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [_begin_invoke_stream_async_callback_object](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/_begin_invoke_stream_async_callback_object/#file_stream-callback-object) |  |
-| [_end_invoke_iasync_result](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/_end_invoke_iasync_result/#result) |  |
-| [_init_object_int_ptr](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/_init_object_int_ptr/#object-method) |  |
-| [_invoke_stream](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/_invoke_stream/#file_stream) |  |
-| [begin_invoke](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/begin_invoke/) |  |
+| [begin_invoke](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/begin_invoke/#file_stream-callback-object) |  |
 | [begin_invoke_stream](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/begin_invoke_stream/) |  |
 | [begin_invoke_streams](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/begin_invoke_streams/) |  |
-| [end_invoke](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/end_invoke/) |  |
+| [end_invoke](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/end_invoke/#result) |  |
 | [end_invoke_iasync_result](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/end_invoke_iasync_result/) |  |
-| [invoke](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/invoke/) |  |
+| [invoke](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/invoke/#file_stream) |  |
 | [invoke_stream](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/invoke_stream/) |  |
 | [invoke_streams](/viewer/python-net/groupdocs.viewer.interfaces/releasefilestream/invoke_streams/) |  |
 

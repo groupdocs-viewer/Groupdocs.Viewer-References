@@ -1,7 +1,7 @@
 ---
 title: convert_to_gray_scale property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The property enables conversion of the output PDF file to grayscale."
 type: docs
 url: /python-net/groupdocs.viewer.options/pdfoptimizationoptions/convert_to_gray_scale/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2020
 
 
 ## convert_to_gray_scale property
+
+The property enables conversion of the output PDF file to grayscale.
+
+For a code example, see the documentation.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: set_metered_key method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Activate metered billing with the given public/private key pair."
 type: docs
 url: /python-net/groupdocs.viewer/metered/set_metered_key/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: font_name property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The font name used for the watermark."
 type: docs
 url: /python-net/groupdocs.viewer.options/watermark/font_name/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## font_name property
+
+The font name used for the watermark.
 
 ### Definition:
 ```python

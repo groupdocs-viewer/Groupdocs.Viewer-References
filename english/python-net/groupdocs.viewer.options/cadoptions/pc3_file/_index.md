@@ -1,7 +1,7 @@
 ---
 title: pc3_file property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The PC3 plotter configuration file."
 type: docs
 url: /python-net/groupdocs.viewer.options/cadoptions/pc3_file/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## pc3_file property
+
+The PC3 plotter configuration file.
 
 ### Definition:
 ```python

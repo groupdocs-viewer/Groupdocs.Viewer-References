@@ -1,7 +1,7 @@
 ---
 title: password property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The password to open an encrypted file."
 type: docs
 url: /python-net/groupdocs.viewer.options/loadoptions/password/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2040
 
 
 ## password property
+
+The password to open an encrypted file.
+
+For code example, see the documentation.
 
 ### Definition:
 ```python

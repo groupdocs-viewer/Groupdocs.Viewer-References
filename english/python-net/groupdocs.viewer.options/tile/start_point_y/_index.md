@@ -1,7 +1,7 @@
 ---
 title: start_point_y property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The Y coordinate of the lowest left point on the drawing where the tile begins."
 type: docs
 url: /python-net/groupdocs.viewer.options/tile/start_point_y/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2030
 
 
 ## start_point_y property
+
+The Y coordinate of the lowest left point on the drawing where the tile begins.
+
+For details, see the documentation.
 
 ### Definition:
 ```python

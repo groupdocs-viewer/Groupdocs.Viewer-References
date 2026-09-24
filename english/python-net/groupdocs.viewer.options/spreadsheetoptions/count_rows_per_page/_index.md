@@ -1,7 +1,7 @@
 ---
 title: count_rows_per_page property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The rows count to include on each page when splitting the worksheet into pages."
 type: docs
 url: /python-net/groupdocs.viewer.options/spreadsheetoptions/count_rows_per_page/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2030
 
 
 ## count_rows_per_page property
+
+The rows count to include on each page when splitting the worksheet into pages.
+
+For details, see the documentation at https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows.
 
 ### Definition:
 ```python

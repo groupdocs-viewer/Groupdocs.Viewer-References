@@ -1,7 +1,7 @@
 ---
 title: skip_empty_rows property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The property disables rendering of empty rows."
 type: docs
 url: /python-net/groupdocs.viewer.options/spreadsheetoptions/skip_empty_rows/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2130
 
 
 ## skip_empty_rows property
+
+The property disables rendering of empty rows.
+
+For details, see the documentation.
 
 ### Definition:
 ```python

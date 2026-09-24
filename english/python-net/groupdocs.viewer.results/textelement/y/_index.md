@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "TextElement.y property — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.results/textelement/y/
 is_root: false

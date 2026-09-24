@@ -1,11 +1,11 @@
 ---
 title: view_view_options method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Viewer.view_view_options method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer/viewer/view_view_options/
 is_root: false
-weight: 1400
+weight: 1140
 ---
 
 

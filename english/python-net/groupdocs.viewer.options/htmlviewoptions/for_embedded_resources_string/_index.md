@@ -1,11 +1,11 @@
 ---
 title: for_embedded_resources_string method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "HtmlViewOptions.for_embedded_resources_string method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.options/htmlviewoptions/for_embedded_resources_string/
 is_root: false
-weight: 1150
+weight: 1050
 ---
 
 

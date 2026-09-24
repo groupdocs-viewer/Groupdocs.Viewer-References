@@ -1,0 +1,53 @@
+---
+title: Add text watermarks
+linkTitle: "Add text watermarks"
+second_title: GroupDocs.Viewer for Python via .NET API References
+description: "Add text watermarks to rendered documents using GroupDocs.Viewer in your Python applications."
+type: docs
+url: /python-net/guides/add-text-watermark/
+is_root: false
+weight: 80
+---
+
+
+To add a watermark to the HTML/JPG/PNG/PDF output, follow these steps:
+
+1. Create an instance of the [HtmlViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) class (or [PngViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/pngviewoptions/), or [JpgViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/), or [PdfViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/));
+2. Create a [Watermark](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/watermark/) object and populate its properties;
+3. Call the [watermark](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/viewoptions/#properties) method of the [HtmlViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) (or [PngViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/pngviewoptions/), or [JpgViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/), or [PdfViewOptions](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/)) class and specify the object created on step 2;
+4. Call the [Viewer.view()](https://reference.groupdocs.com/viewer/python-net/groupdocs.viewer/viewer/#methods) method.
+
+The following code snippet shows how to apply the watermark to the output pages.
+
+{{< tabs "example1">}}
+{{< tab "Python" >}}
+```python
+from groupdocs.viewer import Viewer
+from groupdocs.viewer.options import HtmlViewOptions, Watermark
+
+def add_text_watermark():
+    # Load document
+    with Viewer("sample.docx") as viewer:
+        # Create an HTML file.
+        viewOptions = HtmlViewOptions.for_embedded_resources("add_text_watermark/output-watermark.html")
+        # Add watermark.
+        viewOptions.watermark = Watermark("This is a watermark")
+        viewer.view(viewOptions)
+
+if __name__ == "__main__":
+    add_text_watermark()
+```
+{{< /tab >}}
+{{< tab "sample.docx" >}}
+
+`sample.docx` is the sample file used in this example. Click [here](https://docs.groupdocs.com/viewer/python-net/_sample_files/developer-guide/rendering-documents/add-text-watermark/sample.docx) to download it.
+
+{{< /tab >}}
+{{< tab "output-watermark.html" >}}  
+```text
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="generator" content="Aspose.Words for .NET 26.4.0" /><title>Sample Document ver.1</title><style type="text/css">@font-face { font-family:'Calibri'; font-style:normal; font-weight:normal; src:local('☺'), url('data:application/x-font-woff;base64,d09GRgABAAAAAGlIAA0AAAAA09gAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABMAAAAGAAAABgncM96GNtYXAAAAGQAAACswAABrCp8yKHY3Z0IAAABEQAAAKEAAAFvLlw2DVmcGdtAAAGy
+[TRUNCATED]
+```
+[Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/developer-guide/rendering-documents/add-text-watermark/add_text_watermark/output-watermark.html)
+{{< /tab >}}
+{{< /tabs >}}

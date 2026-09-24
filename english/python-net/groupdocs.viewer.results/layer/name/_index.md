@@ -1,7 +1,7 @@
 ---
 title: name property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The name of the layer."
 type: docs
 url: /python-net/groupdocs.viewer.results/layer/name/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2010
 
 
 ## name property
+
+The name of the layer.
+
+Layer names are case sensitive.
 
 ### Definition:
 ```python

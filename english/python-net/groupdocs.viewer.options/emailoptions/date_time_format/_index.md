@@ -1,7 +1,7 @@
 ---
 title: date_time_format property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The time format (can include TimeZone)."
 type: docs
 url: /python-net/groupdocs.viewer.options/emailoptions/date_time_format/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2010
 
 
 ## date_time_format property
+
+The time format (can include TimeZone). If not set, the current system format is used.
+
+For details, see the documentation.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: number property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The page number."
 type: docs
 url: /python-net/groupdocs.viewer.results/page/number/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2040
 
 
 ## number property
+
+The page number.
 
 ### Definition:
 ```python

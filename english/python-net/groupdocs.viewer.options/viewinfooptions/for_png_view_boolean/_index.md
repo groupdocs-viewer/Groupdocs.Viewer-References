@@ -1,11 +1,11 @@
 ---
 title: for_png_view_boolean method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "ViewInfoOptions.for_png_view_boolean method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.options/viewinfooptions/for_png_view_boolean/
 is_root: false
-weight: 1130
+weight: 1070
 ---
 
 

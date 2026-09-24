@@ -1,7 +1,7 @@
 ---
 title: file_type property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The type of the file to open."
 type: docs
 url: /python-net/groupdocs.viewer.options/loadoptions/file_type/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2030
 
 
 ## file_type property
+
+The type of the file to open.
+
+For code example, see the documentation.
 
 ### Definition:
 ```python

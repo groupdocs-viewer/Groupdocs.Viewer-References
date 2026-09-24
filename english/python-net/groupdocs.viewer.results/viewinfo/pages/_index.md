@@ -1,7 +1,7 @@
 ---
 title: pages property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The list of pages to view."
 type: docs
 url: /python-net/groupdocs.viewer.results/viewinfo/pages/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2020
 
 
 ## pages property
+
+The list of pages to view.
 
 ### Definition:
 ```python

@@ -1,11 +1,11 @@
 ---
 title: invoke_stream method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "ReleaseFileStream.invoke_stream method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/releasefilestream/invoke_stream/
 is_root: false
-weight: 1110
+weight: 1070
 ---
 
 

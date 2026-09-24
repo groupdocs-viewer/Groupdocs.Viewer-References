@@ -1,7 +1,7 @@
 ---
 title: render_headings property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The property enables headings rendering."
 type: docs
 url: /python-net/groupdocs.viewer.options/spreadsheetoptions/render_headings/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2080
 
 
 ## render_headings property
+
+The property enables headings rendering.
+
+For details, see the documentation.
 
 ### Definition:
 ```python

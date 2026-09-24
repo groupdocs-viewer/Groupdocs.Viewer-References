@@ -1,11 +1,11 @@
 ---
 title: warning_string method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "ILogger.warning_string method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.logging/ilogger/warning_string/
 is_root: false
-weight: 1120
+weight: 1090
 ---
 
 

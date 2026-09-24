@@ -1,7 +1,7 @@
 ---
 title: License class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Manages GroupDocs.Viewer licensing."
 type: docs
 url: /python-net/groupdocs.viewer/license/
 is_root: false
@@ -23,6 +23,11 @@ The License type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [set_license](/viewer/python-net/groupdocs.viewer/license/set_license/#license_source) | Apply a license to the current process. |
+
+### Guides
+Task guides that use `License`:
+
+* [Quick Start Guide](/viewer/python-net/guides/quick-start-guide/)
 
 ### See Also
 * module [`groupdocs.viewer`](/viewer/python-net/groupdocs.viewer/)

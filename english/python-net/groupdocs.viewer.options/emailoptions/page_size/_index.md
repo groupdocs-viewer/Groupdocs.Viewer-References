@@ -1,7 +1,7 @@
 ---
 title: page_size property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The size of the output page."
 type: docs
 url: /python-net/groupdocs.viewer.options/emailoptions/page_size/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2030
 
 
 ## page_size property
+
+The size of the output page.
 
 ### Definition:
 ```python

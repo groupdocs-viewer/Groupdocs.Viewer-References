@@ -1,11 +1,11 @@
 ---
 title: save_attachment_attachment method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Viewer.save_attachment_attachment method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer/viewer/save_attachment_attachment/
 is_root: false
-weight: 1340
+weight: 1080
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: FileType class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Represents a file type and provides methods to obtain the list of all file types supported by GroupDocs.Viewer."
 type: docs
 url: /python-net/groupdocs.viewer/filetype/
 is_root: false
@@ -11,53 +11,267 @@ weight: 10
 
 ## FileType class
 
+Represents a file type and provides methods to obtain the list of all file types supported by GroupDocs.Viewer.
+
 The FileType type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/viewer/python-net/groupdocs.viewer/filetype/__init__/) |  |
+| [__init__](/viewer/python-net/groupdocs.viewer/filetype/__init__/) | Initializes a new instance of [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/). |
+| [__init__](/viewer/python-net/groupdocs.viewer/filetype/__init__/#file_format-extension) | Initializes a new FileType instance. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [_detect_encoding_stream](/viewer/python-net/groupdocs.viewer/filetype/_detect_encoding_stream/#stream) |  |
-| [_detect_encoding_string](/viewer/python-net/groupdocs.viewer/filetype/_detect_encoding_string/#file_path) |  |
-| [_equals_file_type](/viewer/python-net/groupdocs.viewer/filetype/_equals_file_type/#other) |  |
-| [_equals_object](/viewer/python-net/groupdocs.viewer/filetype/_equals_object/#obj) |  |
-| [_from_stream_stream](/viewer/python-net/groupdocs.viewer/filetype/_from_stream_stream/#stream) |  |
-| [_from_stream_stream_ilogger](/viewer/python-net/groupdocs.viewer/filetype/_from_stream_stream_ilogger/#stream-logger) |  |
-| [_from_stream_stream_string](/viewer/python-net/groupdocs.viewer/filetype/_from_stream_stream_string/#stream-password) |  |
-| [_from_stream_stream_string_ilogger](/viewer/python-net/groupdocs.viewer/filetype/_from_stream_stream_string_ilogger/#stream-password-logger) |  |
-| [_get_hash_code_noargs](/viewer/python-net/groupdocs.viewer/filetype/_get_hash_code_noargs/) |  |
-| [_init_noargs](/viewer/python-net/groupdocs.viewer/filetype/_init_noargs/) |  |
-| [_init_string_string](/viewer/python-net/groupdocs.viewer/filetype/_init_string_string/#file_format-extension) |  |
-| [_to_string_noargs](/viewer/python-net/groupdocs.viewer/filetype/_to_string_noargs/) |  |
-| [detect_encoding](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding/) |  |
+| [detect_encoding](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding/#file_path) | Detects the encoding of text TXT, TSV, and CSV files by path. |
+| [detect_encoding](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding/#stream) | Attempts to detect the encoding of text files (TXT, TSV, CSV) from a stream. |
 | [detect_encoding_file](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_file/) |  |
 | [detect_encoding_stream](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_stream/) |  |
 | [detect_encoding_streams](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_streams/) |  |
 | [detect_encoding_string](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_string/) |  |
-| [equals](/viewer/python-net/groupdocs.viewer/filetype/equals/) |  |
+| [equals](/viewer/python-net/groupdocs.viewer/filetype/equals/#other) | Determines whether the current [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) is the same as the specified [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/). |
+| [equals](/viewer/python-net/groupdocs.viewer/filetype/equals/#obj) | Determines whether the current [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) is the same as the specified object. |
 | [equals_file_type](/viewer/python-net/groupdocs.viewer/filetype/equals_file_type/) |  |
 | [equals_object](/viewer/python-net/groupdocs.viewer/filetype/equals_object/) |  |
-| [from_extension](/viewer/python-net/groupdocs.viewer/filetype/from_extension/#extension) |  |
-| [from_file_path](/viewer/python-net/groupdocs.viewer/filetype/from_file_path/#file_path) |  |
-| [from_media_type](/viewer/python-net/groupdocs.viewer/filetype/from_media_type/#media_type) |  |
-| [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/) |  |
+| [from_extension](/viewer/python-net/groupdocs.viewer/filetype/from_extension/#extension) | Maps file extension to file type. |
+| [from_file_path](/viewer/python-net/groupdocs.viewer/filetype/from_file_path/#file_path) | Extracts file extension and maps it to a file type. |
+| [from_media_type](/viewer/python-net/groupdocs.viewer/filetype/from_media_type/#media_type) | Maps a file media type to a [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) (e.g., 'application/pdf' maps to [`FileType.pdf`](/viewer/python-net/groupdocs.viewer/filetype/pdf/)). |
+| [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/#stream) | Detects file type by reading the file signature. |
+| [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/#stream-password) | Detects file type by reading the file signature. |
+| [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/#stream-logger) | Detects file type by reading the file signature. |
+| [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/#stream-password-logger) | Detects the file type by reading the file signature. |
 | [from_stream_file](/viewer/python-net/groupdocs.viewer/filetype/from_stream_file/) |  |
 | [from_stream_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream_stream/) |  |
 | [from_stream_streams](/viewer/python-net/groupdocs.viewer/filetype/from_stream_streams/) |  |
 | [from_stream_string](/viewer/python-net/groupdocs.viewer/filetype/from_stream_string/) |  |
-| [get_hash_code](/viewer/python-net/groupdocs.viewer/filetype/get_hash_code/) |  |
-| [get_supported_file_types](/viewer/python-net/groupdocs.viewer/filetype/get_supported_file_types/) |  |
-| [to_string](/viewer/python-net/groupdocs.viewer/filetype/to_string/) |  |
+| [get_hash_code](/viewer/python-net/groupdocs.viewer/filetype/get_hash_code/) | Returns the hash code for the current [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) object. |
+| [get_supported_file_types](/viewer/python-net/groupdocs.viewer/filetype/get_supported_file_types/) | Retrieves supported file types. |
+| [to_string](/viewer/python-net/groupdocs.viewer/filetype/to_string/) | Returns a str that represents the current object. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [extension](/viewer/python-net/groupdocs.viewer/filetype/extension/) |  |
-| [file_format](/viewer/python-net/groupdocs.viewer/filetype/file_format/) |  |
+| [extension](/viewer/python-net/groupdocs.viewer/filetype/extension/) | The filename suffix (including the period ".") e.g. ".doc". |
+| [file_format](/viewer/python-net/groupdocs.viewer/filetype/file_format/) | The file type name e.g. "Microsoft Word Document". |
+
+### Fields
+| Field | Description |
+| :- | :- |
+| [UNKNOWN](/viewer/python-net/groupdocs.viewer/filetype/unknown/) | Represents unknown file type. |
+| [ZIP](/viewer/python-net/groupdocs.viewer/filetype/zip/) | Zipped File (.zip) represents archives that can hold one or more files or directories. Learn more about this file format here. |
+| [TAR](/viewer/python-net/groupdocs.viewer/filetype/tar/) | Consolidated Unix File Archive (.tar) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format here. |
+| [XZ](/viewer/python-net/groupdocs.viewer/filetype/xz/) | XZ file (.xz) is archive compressed a high-ratio compression algorithm based on the LZMA algorithm. Learn more about this file format here. |
+| [TXZ](/viewer/python-net/groupdocs.viewer/filetype/txz/) | Consolidated Unix File Archive (.txz, .tar.xz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format here. |
+| [TARXZ](/viewer/python-net/groupdocs.viewer/filetype/tarxz/) | Consolidated Unix File Archive (.txz, .tar.xz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format here. |
+| [TGZ](/viewer/python-net/groupdocs.viewer/filetype/tgz/) | Consolidated Unix File Archive (.tgz, .tar.gz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format here. |
+| [TARGZ](/viewer/python-net/groupdocs.viewer/filetype/targz/) | Consolidated Unix File Archive (.tgz, .tar.gz) are archives created with Unix-based utility for collecting one or more files. Learn more about this file format here. |
+| [BZ2](/viewer/python-net/groupdocs.viewer/filetype/bz2/) | Bzip2 Compressed File (.bz2) are compressed files generated using the BZIP2 open source compression method, mostly on UNIX or Linux system. Learn more about this file format here. |
+| [RAR](/viewer/python-net/groupdocs.viewer/filetype/rar/) | Roshal ARchive (.rar) are compressed files generated using the RAR (WINRAR) compression method. Learn more about this file format here. |
+| [GZ](/viewer/python-net/groupdocs.viewer/filetype/gz/) | Gnu Zipped File (.gz) are compressed files created with gzip compression application. It can contain multiple compressed files and is commonly used on UNIX and Linux systems. Learn more about this file format here. |
+| [GZIP](/viewer/python-net/groupdocs.viewer/filetype/gzip/) | Gnu Zipped File (.gzip) was introduced as a free utility for replacing the Compress program used in Unix systems. Such files can be opened and extracted with a several applications such as WinZip which is available on both Windows and MacOS. Learn more about this file format here. |
+| [SEVEN_ZIP](/viewer/python-net/groupdocs.viewer/filetype/seven_zip/) | 7Zip (.7z, .7zip) is free open source archiver with LZMA and LZMA2 compression. Learn more about this file format here. |
+| [CPIO](/viewer/python-net/groupdocs.viewer/filetype/cpio/) | Cpio is a general file archiver utility and its associated file format. It is primarily installed on Unix-like computer operating systems. Learn more about this file format here. |
+| [ZSTANDARD](/viewer/python-net/groupdocs.viewer/filetype/zstandard/) | ZST file is a compressed file that is generated with the Zstandard (zstd) compression algorithm. It is a compressed file that is created with lossless compression by the algorithm. ZST files can be used to compress different types of files such as databases, file systems, networks, and games. Learn more about this file format here. |
+| [TZST](/viewer/python-net/groupdocs.viewer/filetype/tzst/) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
+| [TAR_ZST](/viewer/python-net/groupdocs.viewer/filetype/tar_zst/) | TZST files (.tar.zst, .tzst) are Zstandard archives (ZST), which internally contain a Consolidated Unix File Archive (Tar), created with Unix-based utility for collecting one or more files. |
+| [ISO](/viewer/python-net/groupdocs.viewer/filetype/iso/) | ISO optical disc image is an uncompressed archive disk image file that represents the contents of entire data on an optical disc such as CD or DVD, based on the ISO-9660 standard. Learn more about this file format here. |
+| [LHA](/viewer/python-net/groupdocs.viewer/filetype/lha/) | LHA or LZH is a freeware compression utility and associated file format. Learn more about this file format here. |
+| [CAB](/viewer/python-net/groupdocs.viewer/filetype/cab/) | Cabinet (or CAB) is an archive-file format for Microsoft Windows. Learn more about this file format here. |
+| [DXF](/viewer/python-net/groupdocs.viewer/filetype/dxf/) | Drawing Exchange Format File (.dxf) is a tagged data representation of AutoCAD drawing file. Learn more about this file format here. |
+| [DWG](/viewer/python-net/groupdocs.viewer/filetype/dwg/) | AutoCAD Drawing Database File (.dwg) represents proprietary binary files used for containing 2D and 3D design data. Like DXF, which are ASCII files, DWG represent the binary file format for CAD (Computer Aided Design) drawings. Learn more about this file format here. |
+| [DWT](/viewer/python-net/groupdocs.viewer/filetype/dwt/) | AutoCAD Drawing Template (.dwt) is an AutoCAD drawing template file that is used as starter for creating drawings that can be saved as DWG files. Learn more about this file format here. |
+| [STL](/viewer/python-net/groupdocs.viewer/filetype/stl/) | Stereolithography File (.stl) is an interchangeable file format that represents 3-dimensional surface geometry. The file format finds its usage in several fields such as rapid prototyping, 3D printing and computer-aided manufacturing. Learn more about this file format here. |
+| [IFC](/viewer/python-net/groupdocs.viewer/filetype/ifc/) | Industry Foundation Classes File (.ifc) is a file format that establishes international standards to import and export building objects and their properties. This file format provides interoperability between different software applications. Learn more about this file format here. |
+| [DWF](/viewer/python-net/groupdocs.viewer/filetype/dwf/) | Design Web Format File (.dwf) represents 2D/3D drawing in compressed format for viewing, reviewing or printing design files. It contains graphics and text as part of design data and reduce the size of the file due to its compressed format. Learn more about this file format here. |
+| [FBX](/viewer/python-net/groupdocs.viewer/filetype/fbx/) | Autodesk FBX Interchange File (FilmBoX) (.fbx) represents 3D model format. Learn more about this file format here. |
+| [DWFX](/viewer/python-net/groupdocs.viewer/filetype/dwfx/) | Design Web Format File XPS (.dwfx) represents 2D/3D drawing as XPS document in compressed format for viewing, reviewing or printing design files. It contains graphics and text as part of design data and reduce the size of the file due to its compressed format. Learn more about this file format here. |
+| [DGN](/viewer/python-net/groupdocs.viewer/filetype/dgn/) | MicroStation Design File (.dgn) are drawings created by and supported by CAD applications such as MicroStation and Intergraph Interactive Graphics Design System. Learn more about this file format here. |
+| [PLT](/viewer/python-net/groupdocs.viewer/filetype/plt/) | PLT (HPGL) (.plt) is a vector-based plotter file introduced by Autodesk, Inc. and contains information for a certain CAD file. Plotting details require accuracy and precision in production, and usage of PLT file guarantee this as all images are printed using lines instead of dots. Learn more about this file format here. |
+| [CF2](/viewer/python-net/groupdocs.viewer/filetype/cf2/) | Common File Format File Learn more about this file format here. |
+| [OBJ](/viewer/python-net/groupdocs.viewer/filetype/obj/) | Wavefront 3D Object File (.obj) is 3D image file introduced by Wavefront Technologies Learn more about this file format here. |
+| [HPG](/viewer/python-net/groupdocs.viewer/filetype/hpg/) | PLT (HPGL) (.hpg) |
+| [IGS](/viewer/python-net/groupdocs.viewer/filetype/igs/) | Initial Graphics Exchange Specification (IGES) (.igs) |
+| [VSD](/viewer/python-net/groupdocs.viewer/filetype/vsd/) | Visio Drawing File (.vsd) are drawings created with Microsoft Visio application to represent variety of graphical objects and the interconnection between these. Learn more about this file format here. |
+| [VSDX](/viewer/python-net/groupdocs.viewer/filetype/vsdx/) | Visio Drawing (.vsdx) represents Microsoft Visio file format introduced from Microsoft Office 2013 onwards. It was developed to replace the binary file format, .VSD, which is supported by earlier versions of Microsoft Visio. Learn more about this file format here. |
+| [VSS](/viewer/python-net/groupdocs.viewer/filetype/vss/) | Visio Stencil File(.vss) are stencil files created with Microsoft Visio 2007 and earlier. Stencil files provide drawing objects that can be included in a .VSD Visio drawing. Learn more about this file format here. |
+| [VSSX](/viewer/python-net/groupdocs.viewer/filetype/vssx/) | Visio Stencil File (.vssx) are drawing stencils created with Microsoft Visio 2013 and above. The VSSX file format can be opened with Visio 2013 and above. Visio files are known for representation of a variety of drawing elements such as collection of shapes, connectors, flowcharts, network layout, UML diagrams, Learn more about this file format here. |
+| [VSDM](/viewer/python-net/groupdocs.viewer/filetype/vsdm/) | Visio Macro-Enabled Drawing (.vsdm) are drawing files created with Microsoft Visio application that supports macros. VSDM files are OPC/XML drawings that are similar to VSDX, but also provide the capability to run macros when the file is opened. Learn more about this file format here. |
+| [VST](/viewer/python-net/groupdocs.viewer/filetype/vst/) | Visio Drawing Template (.vst) are vector image files created with Microsoft Visio and act as template for creating further files. These template files are in binary file format and contain the default layout and settings that are utilized for creation of new Visio drawings. Learn more about this file format here. |
+| [VSTX](/viewer/python-net/groupdocs.viewer/filetype/vstx/) | Visio Drawing Template (.vstx) are drawing template files created with Microsoft Visio 2013 and above. These VSTX files provide starting point for creating Visio drawings, saved as .VSDX files, with default layout and settings. Learn more about this file format here. |
+| [VSTM](/viewer/python-net/groupdocs.viewer/filetype/vstm/) | Visio Macro-Enabled Drawing Template (.vstm) are template files created with Microsoft Visio that support macros. Unlike VSDX files, files created from VSTM templates can run macros that are developed in Visual Basic for Applications (VBA) code. Learn more about this file format here. |
+| [VSSM](/viewer/python-net/groupdocs.viewer/filetype/vssm/) | Visio Macro-Enabled Stencil File (.vssm) are Microsoft Visio Stencil files that support provide support for macros. A VSSM file when opened allows to run the macros to achieve desired formatting and placement of shapes in a diagram. Learn more about this file format here. |
+| [VSX](/viewer/python-net/groupdocs.viewer/filetype/vsx/) | Visio Stencil XML File (.vsx) refers to stencils that consist of drawings and shapes that are used for creating diagrams in Microsoft Visio. VSX files are saved in XML file format and was supported till Visio 2013. Learn more about this file format here. |
+| [VTX](/viewer/python-net/groupdocs.viewer/filetype/vtx/) | Visio Template XML File (.vtx) is a Microsoft Visio drawing template that is saved to disc in XML file format. The template is aimed to provide a file with basic settings that can be used to create multiple Visio files of the same settings. Learn more about this file format here. |
+| [VDW](/viewer/python-net/groupdocs.viewer/filetype/vdw/) | Visio Web Drawing (.vdw) represents file format that specifies the streams and storages required for rendering a Web drawing. Learn more about this file format here. |
+| [VDX](/viewer/python-net/groupdocs.viewer/filetype/vdx/) | Visio Drawing XML File (.vdx) represents any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. A Visio drawing XML file is created in Visio software, which is developed by Microsoft. Learn more about this file format here. |
+| [EPUB](/viewer/python-net/groupdocs.viewer/filetype/epub/) | Open eBook File (.epub) is an e-book file format that provide a standard digital publication format for publishers and consumers. The format has been so common by now that it is supported by many e-readers and software applications. Learn more about this file format here. |
+| [MOBI](/viewer/python-net/groupdocs.viewer/filetype/mobi/) | Mobipocket eBook (.mobi) is one of the most widely used ebook file format. The format is an enhancement to the old OEB (Open Ebook Format) format and was used as proprietary format for Mobipocket Reader. Learn more about this file format here. |
+| [AZW3](/viewer/python-net/groupdocs.viewer/filetype/azw3/) | Amazon Kindle Format 8 (KF8) ebook is the digital file format developed for Amazon Kindle devices. The format is an enhancement to older AZW files and is used on Kindle Fire devices only with backward compatibility for the ancestor file format i.e. MOBI and AZW. Learn more about this file format here. |
+| [MSG](/viewer/python-net/groupdocs.viewer/filetype/msg/) | Outlook Mail Message (.msg) is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks. Learn more about this file format here. |
+| [EML](/viewer/python-net/groupdocs.viewer/filetype/eml/) | E-Mail Message (.eml) represents email messages saved using Outlook and other relevant applications. Almost all emailing clients support this file format for its compliance with RFC-822 Internet Message Format Standard. Learn more about this file format here. |
+| [NSF](/viewer/python-net/groupdocs.viewer/filetype/nsf/) | Lotus Notes Database (.nsf) Learn more about this file format here. |
+| [MBOX](/viewer/python-net/groupdocs.viewer/filetype/mbox/) | Email Mailbox File (.mbox) Learn more about this file format here. |
+| [EMLX](/viewer/python-net/groupdocs.viewer/filetype/emlx/) | Apple Mail Message (.emlx) is implemented and developed by Apple. The Apple Mail application uses the EMLX file format for exporting the emails. Learn more about this file format here. |
+| [PST](/viewer/python-net/groupdocs.viewer/filetype/pst/) | Outlook Personal Information Store File (.pst) represents Outlook Personal Storage Files (also called Personal Storage Table) that store variety of user information. Learn more about this file format here. |
+| [OST](/viewer/python-net/groupdocs.viewer/filetype/ost/) | Outlook Offline Data File (.ost) represents user's mailbox data in offline mode on local machine upon registration with Exchange Server using Microsoft Outlook. Learn more about this file format here. |
+| [TIF](/viewer/python-net/groupdocs.viewer/filetype/tif/) | Tagged Image File (.tif) represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. Learn more about this file format here. |
+| [TIFF](/viewer/python-net/groupdocs.viewer/filetype/tiff/) | Tagged Image File Format (.tiff) represents raster images that are meant for usage on a variety of devices that comply with this file format standard. It is capable of describing bilevel, grayscale, palette-color and full-color image data in several color spaces. Learn more about this file format here. |
+| [JPG](/viewer/python-net/groupdocs.viewer/filetype/jpg/) | JPEG Image (.jpg) is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Learn more about this file format here. |
+| [JPEG](/viewer/python-net/groupdocs.viewer/filetype/jpeg/) | JPEG Image (.jpeg) is a type of image format that is saved using the method of lossy compression. The output image, as result of compression, is a trade-off between storage size and image quality. Learn more about this file format here. |
+| [JFIF](/viewer/python-net/groupdocs.viewer/filetype/jfif/) | JPEG File Interchange Format (.jfif) is image that was developed for fast exchange between platforms. This format uses JPEG compression. Learn more about this file format here. |
+| [PNG](/viewer/python-net/groupdocs.viewer/filetype/png/) | Portable Network Graphic (.png) is a type of raster image file format that use loseless compression. This file format was created as a replacement of Graphics Interchange Format (GIF) and has no copyright limitations. Learn more about this file format here. |
+| [GIF](/viewer/python-net/groupdocs.viewer/filetype/gif/) | Graphical Interchange Format File (.gif) is a type of highly compressed image. For each image GIF typically allow up to 8 bits per pixel and up to 256 colours are allowed across the image. Learn more about this file format here. |
+| [APNG](/viewer/python-net/groupdocs.viewer/filetype/apng/) | Animated Portable Network Graphic (.apng) is extension of PNG format that support animation. Learn more about this file format here. |
+| [BMP](/viewer/python-net/groupdocs.viewer/filetype/bmp/) | Bitmap Image File (.bmp) is used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. Learn more about this file format here. |
+| [TGA](/viewer/python-net/groupdocs.viewer/filetype/tga/) | Truevision TGA (Truevision Advanced Raster Adapter - TARGA) is used to store bitmap digital images developed by TRUEVISION. Learn more about this file format here. |
+| [ICO](/viewer/python-net/groupdocs.viewer/filetype/ico/) | Icon File (.ico) are image file types used as icon for representation of an application on Microsoft Windows. Learn more about this file format here. |
+| [JP2](/viewer/python-net/groupdocs.viewer/filetype/jp2/) | JPEG 2000 Core Image File (.jp2) is an image coding system and state-of-the-art image compression standard. Learn more about this file format here. |
+| [JPF](/viewer/python-net/groupdocs.viewer/filetype/jpf/) | JPEG 2000 Image File (.jpf) |
+| [JPX](/viewer/python-net/groupdocs.viewer/filetype/jpx/) | JPEG 2000 Image File (.jpx) |
+| [JPM](/viewer/python-net/groupdocs.viewer/filetype/jpm/) | JPEG 2000 Image File (.jpm) |
+| [J2C](/viewer/python-net/groupdocs.viewer/filetype/j2c/) | JPEG 2000 Code Stream (.j2c) |
+| [J2K](/viewer/python-net/groupdocs.viewer/filetype/j2k/) | JPEG 2000 Code Stream (.j2k) is an image that is compressed using the wavelet compression instead of DCT compression. Learn more about this file format here. |
+| [JPC](/viewer/python-net/groupdocs.viewer/filetype/jpc/) | JPEG 2000 Code Stream (.jpc) |
+| [JLS](/viewer/python-net/groupdocs.viewer/filetype/jls/) | JPEG-LS (JLS) (.jls) |
+| [DIB](/viewer/python-net/groupdocs.viewer/filetype/dib/) | Device Independent Bitmap File (.dib) |
+| [WMF](/viewer/python-net/groupdocs.viewer/filetype/wmf/) | Windows Metafile (.wmf) represents Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. Learn more about this file format here. |
+| [WMZ](/viewer/python-net/groupdocs.viewer/filetype/wmz/) | Compressed Windows Metafile (.wmz) represents Microsoft Windows Metafile (WMF) compressed in GZIP archvive - for storing vector as well as bitmap-format images data. Learn more about this file format here. |
+| [EMF](/viewer/python-net/groupdocs.viewer/filetype/emf/) | Enhanced Windows Metafile (.emf) represents graphical images device-independently. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. Learn more about this file format here. |
+| [EMZ](/viewer/python-net/groupdocs.viewer/filetype/emz/) | Enhanced Windows Metafile compressed (.emz) represents graphical images device-independently compressed by GZIP. Metafiles of EMF comprises of variable-length records in chronological order that can render the stored image after parsing on any output device. Learn more about this file format here. |
+| [WEBP](/viewer/python-net/groupdocs.viewer/filetype/webp/) | WebP Image (.webp) is a modern raster web image file format that is based on lossless and lossy compression. It provides same image quality while considerably reducing the image size. Learn more about this file format here. |
+| [DNG](/viewer/python-net/groupdocs.viewer/filetype/dng/) | Digital Negative Specification (.dng) is a digital camera image format used for the storage of raw files. It has been developed by Adobe in September 2004. It was basically developed for digital photography. Learn more about this file format here. |
+| [CDR](/viewer/python-net/groupdocs.viewer/filetype/cdr/) | CorelDraw Vector Graphic Drawing (.cdr) is a vector drawing image file that is natively created with CorelDRAW for storing digital image encoded and compressed. Such a drawing file contains text, lines, shapes, images, colours and effects for vector representation of image contents. Learn more about this file format here. |
+| [CMX](/viewer/python-net/groupdocs.viewer/filetype/cmx/) | Corel Exchange (.cmx) is a drawing image file that may contain vector graphics as well as bitmap graphics. Learn more about this file format here. |
+| [DJVU](/viewer/python-net/groupdocs.viewer/filetype/djvu/) | DjVu Image (.djvu) is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. Learn more about this file format here. |
+| [CGM](/viewer/python-net/groupdocs.viewer/filetype/cgm/) | Computer Graphics Metafile (.cgm) is a free, platform-independent, international standard metafile format for storing and exchanging of vector graphics (2D), raster graphics, and text. CGM uses object-oriented approach and many function provisions for image production. Learn more about this file format here. |
+| [PCL](/viewer/python-net/groupdocs.viewer/filetype/pcl/) | Printer Command Language Document (.pcl) |
+| [PSD](/viewer/python-net/groupdocs.viewer/filetype/psd/) | Adobe Photoshop Document (.psd) represents Adobe Photoshop's native file format used for graphics designing and development. Learn more about this file format here. |
+| [PSB](/viewer/python-net/groupdocs.viewer/filetype/psb/) | Photoshop Large Document Format (.psb) represents Photoshop Large Document Format used for graphics designing and development. Learn more about this file format here. |
+| [DCM](/viewer/python-net/groupdocs.viewer/filetype/dcm/) | DICOM Image (.dcm) represents digital image which stores medical information of patients such as MRIs, CT scans and ultrasound images. Learn more about this file format here. |
+| [PS](/viewer/python-net/groupdocs.viewer/filetype/ps/) | PostScript File (.ps) |
+| [EPS](/viewer/python-net/groupdocs.viewer/filetype/eps/) | Encapsulated PostScript File (.eps) describes an Encapsulated PostScript language program that describes the appearance of a single page. Learn more about this file format here. |
+| [ODG](/viewer/python-net/groupdocs.viewer/filetype/odg/) | OpenDocument Graphic File (.odg) is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. Learn more about this file format here. |
+| [FODG](/viewer/python-net/groupdocs.viewer/filetype/fodg/) | Flat XML ODF Template (.fodg) is used by Apache OpenOffice's Draw application to store drawing elements as a vector image. Learn more about this file format here. |
+| [SVG](/viewer/python-net/groupdocs.viewer/filetype/svg/) | Scalable Vector Graphics File (.svg) is a Scalar Vector Graphics file that uses XML based text format for describing the appearance of an image. Learn more about this file format here. |
+| [SVGZ](/viewer/python-net/groupdocs.viewer/filetype/svgz/) | Scalable Vector Graphics File (.svgz) is a Scalar Vector Graphics file that uses XML based text format, compressed by GZIP for describing the appearance of an image. Learn more about this file format here. |
+| [OTG](/viewer/python-net/groupdocs.viewer/filetype/otg/) | OpenDocument Graphic Template (.otg) |
+| [HTM](/viewer/python-net/groupdocs.viewer/filetype/htm/) | Hypertext Markup Language File (.htm) is the extension for web pages created for display in browsers. Learn more about this file format here. |
+| [HTML](/viewer/python-net/groupdocs.viewer/filetype/html/) | Hypertext Markup Language File (.html) is the extension for web pages created for display in browsers. Learn more about this file format here. |
+| [MHT](/viewer/python-net/groupdocs.viewer/filetype/mht/) | MHTML Web Archive (.mht) |
+| [MHTML](/viewer/python-net/groupdocs.viewer/filetype/mhtml/) | MIME HTML File (.mhtml) |
+| [XML](/viewer/python-net/groupdocs.viewer/filetype/xml/) | XML File (.xml). GroupDocs.Viewer has a special processor for handling the XML files, see documentation. |
+| [ONE](/viewer/python-net/groupdocs.viewer/filetype/one/) | OneNote Document (.one) is created by Microsoft OneNote application. OneNote lets you gather information using the application as if you are using your draftpad for taking notes. Learn more about this file format here. |
+| [PDF](/viewer/python-net/groupdocs.viewer/filetype/pdf/) | Portable Document Format File (.pdf) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. Learn more about this file format here. |
+| [XPS](/viewer/python-net/groupdocs.viewer/filetype/xps/) | XML Paper Specification File (.xps) represents page layout files that are based on XML Paper Specifications created by Microsoft. This format was developed by Microsoft as a replacement of EMF file format and is similar to PDF file format, but uses XML in layout, appearance, and printing information of a document. Learn more about this file format here. |
+| [OXPS](/viewer/python-net/groupdocs.viewer/filetype/oxps/) | OpenXPS File (.oxps) |
+| [TEX](/viewer/python-net/groupdocs.viewer/filetype/tex/) | LaTeX Source Document (.tex) is a language that comprises of programming as well as mark-up features, used to typeset documents. Learn more about this file format here. |
+| [OFD](/viewer/python-net/groupdocs.viewer/filetype/ofd/) | Open Fixed-layout Document (OFD) format defined by GB/T 33190-2016 aims to replace PDF in Chinese public institutions |
+| [PPT](/viewer/python-net/groupdocs.viewer/filetype/ppt/) | PowerPoint Presentation (.ppt) represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. Learn more about this file format here. |
+| [PPTX](/viewer/python-net/groupdocs.viewer/filetype/pptx/) | PowerPoint Open XML Presentation (.pptx) are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. Learn more about this file format here. |
+| [PPS](/viewer/python-net/groupdocs.viewer/filetype/pps/) | PowerPoint Slide Show (.pps) are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. Learn more about this file format here. |
+| [PPSX](/viewer/python-net/groupdocs.viewer/filetype/ppsx/) | PowerPoint Open XML Slide Show (.ppsx) files are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. Learn more about this file format here. |
+| [ODP](/viewer/python-net/groupdocs.viewer/filetype/odp/) | OpenDocument Presentation (.odp) represents presentation file format used by OpenOffice.org in the OASISOpen standard. Learn more about this file format here. |
+| [FODP](/viewer/python-net/groupdocs.viewer/filetype/fodp/) | OpenDocument Presentation (.fodp) represents OpenDocument Flat XML Presentation. Learn more about this file format here. |
+| [POT](/viewer/python-net/groupdocs.viewer/filetype/pot/) | PowerPoint Template (.pot) represents Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Learn more about this file format here. |
+| [PPTM](/viewer/python-net/groupdocs.viewer/filetype/pptm/) | PowerPoint Open XML Macro-Enabled Presentation are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. Learn more about this file format here. |
+| [POTX](/viewer/python-net/groupdocs.viewer/filetype/potx/) | PowerPoint Open XML Presentation Template (.potx) represents Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. Learn more about this file format here. |
+| [POTM](/viewer/python-net/groupdocs.viewer/filetype/potm/) | PowerPoint Open XML Macro-Enabled Presentation Template (.potm) are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. Learn more about this file format here. |
+| [PPSM](/viewer/python-net/groupdocs.viewer/filetype/ppsm/) | PowerPoint Open XML Macro-Enabled Slide (.ppsm) represents Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Learn more about this file format here. |
+| [OTP](/viewer/python-net/groupdocs.viewer/filetype/otp/) | OpenDocument Presentation Template (.otp) represents presentation template files created by applications in OASIS OpenDocument standard format. Learn more about this file format here. |
+| [XLS](/viewer/python-net/groupdocs.viewer/filetype/xls/) | Excel Spreadsheet (.xls) represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. Learn more about this file format here. |
+| [EXCEL_2003XML](/viewer/python-net/groupdocs.viewer/filetype/excel_2003xml/) | Excel 2003 XML (SpreadsheetML) represents Excel Binary File Format. Such files can be created by Microsoft Excel as well as other similar spreadsheet programs such as OpenOffice Calc or Apple Numbers. Learn more about this file format here. |
+| [NUMBERS](/viewer/python-net/groupdocs.viewer/filetype/numbers/) | Apple numbers represents Excel like Binary File Format. Such files can be created by Apple numbers application. Learn more about this file format here. |
+| [XLSX](/viewer/python-net/groupdocs.viewer/filetype/xlsx/) | Microsoft Excel Open XML Spreadsheet (.xlsx) is a well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Learn more about this file format here. |
+| [XLSM](/viewer/python-net/groupdocs.viewer/filetype/xlsm/) | Excel Open XML Macro-Enabled Spreadsheet (.xlsm) is a type of Spreasheet files that support macros. Learn more about this file format here. |
+| [XLSB](/viewer/python-net/groupdocs.viewer/filetype/xlsb/) | Excel Binary Spreadsheet (.xlsb) specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. Learn more about this file format here. |
+| [CSV](/viewer/python-net/groupdocs.viewer/filetype/csv/) | Comma Separated Values File (.csv) represents plain text files that contain records of data with comma separated values. Learn more about this file format here. |
+| [TSV](/viewer/python-net/groupdocs.viewer/filetype/tsv/) | Tab Separated Values File (.tsv) represents data separated with tabs in plain text format. Learn more about this file format here. |
+| [ODS](/viewer/python-net/groupdocs.viewer/filetype/ods/) | OpenDocument Spreadsheet (.ods) stands for OpenDocument Spreadsheet Document format that are editable by user. Data is stored inside ODF file into rows and columns. Learn more about this file format here. |
+| [FODS](/viewer/python-net/groupdocs.viewer/filetype/fods/) | OpenDocument Flat XML Spreadsheet (.fods) |
+| [OTS](/viewer/python-net/groupdocs.viewer/filetype/ots/) | OpenDocument Spreadsheet Template (.ots) |
+| [XLAM](/viewer/python-net/groupdocs.viewer/filetype/xlam/) | Microsoft Excel Add-in (.xlam) |
+| [XLTM](/viewer/python-net/groupdocs.viewer/filetype/xltm/) | Microsoft Excel Macro-Enabled Template (.xltm) represents files that are generated by Microsoft Excel as Macro-enabled template files. XLTM files are similar to XLTX in structure other than that the later doesn't support creating template files with macros. Learn more about this file format here. |
+| [XLT](/viewer/python-net/groupdocs.viewer/filetype/xlt/) | Microsoft Excel Template (.xlt) are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Microsoft Office 97-2003 supported creating new XLT files as well as opening these. Learn more about this file format here. |
+| [XLTX](/viewer/python-net/groupdocs.viewer/filetype/xltx/) | Excel Open XML Spreadsheet Template (.xltx) represents Microsoft Excel Template that are based on the Office OpenXML file format specifications. It is used to create a standard template file that can be utilized to generate XLSX files that exhibit the same settings as specified in the XLTX file. Learn more about this file format here. |
+| [SXC](/viewer/python-net/groupdocs.viewer/filetype/sxc/) | StarOffice Calc Spreadsheet (.sxc) |
+| [MPP](/viewer/python-net/groupdocs.viewer/filetype/mpp/) | Microsoft Project File (.mpp) is Microsoft Project data file that stores information related to project management in an integrated manner. Learn more about this file format here. |
+| [MPT](/viewer/python-net/groupdocs.viewer/filetype/mpt/) | Microsoft Project Template (.mpt) contains basic information and structure along with document settings for creating .MPP files. Learn more about this file format here. |
+| [MPX](/viewer/python-net/groupdocs.viewer/filetype/mpx/) | Microsoft Project Exchange file (.mpx) is an ASCII file format for transferring of project information between Microsoft Project (MSP) and other applications that support the MPX file format such as Primavera Project Planner, Sciforma and Timerline Precision Estimating. Learn more about this file format here. |
+| [AS_](/viewer/python-net/groupdocs.viewer/filetype/as_/) | ActionScript File (.as) |
+| [AS3](/viewer/python-net/groupdocs.viewer/filetype/as3/) | ActionScript File (.as) |
+| [ASM](/viewer/python-net/groupdocs.viewer/filetype/asm/) | Assembly Language Source Code File (.asm) |
+| [BAT](/viewer/python-net/groupdocs.viewer/filetype/bat/) | DOS Batch File (.bat) |
+| [C](/viewer/python-net/groupdocs.viewer/filetype/c/) | C/C++ Source Code File (.c) |
+| [CC](/viewer/python-net/groupdocs.viewer/filetype/cc/) | C++ Source Code File (.cc) |
+| [CMAKE](/viewer/python-net/groupdocs.viewer/filetype/cmake/) | CMake File (.cmake) |
+| [CPP](/viewer/python-net/groupdocs.viewer/filetype/cpp/) | C++ Source Code File (.cpp) |
+| [CS](/viewer/python-net/groupdocs.viewer/filetype/cs/) | C# Source Code File (.cs) is a source code file for C# programming language. Introduced by Microsoft for use with the .NET Framework. Learn more about this file format here. |
+| [VB](/viewer/python-net/groupdocs.viewer/filetype/vb/) | Visual Basic Project Item File (.vb) is a source code file created in Visual Basic language that was created by Microsoft for development of .NET applications. Learn more about this file format here. |
+| [CSS](/viewer/python-net/groupdocs.viewer/filetype/css/) | Cascading Style Sheet (.css) |
+| [CXX](/viewer/python-net/groupdocs.viewer/filetype/cxx/) | C++ Source Code File (.cxx) |
+| [DIFF](/viewer/python-net/groupdocs.viewer/filetype/diff/) | Patch File (.diff) |
+| [ERB](/viewer/python-net/groupdocs.viewer/filetype/erb/) | Ruby ERB Script (.erb) |
+| [GROOVY](/viewer/python-net/groupdocs.viewer/filetype/groovy/) | Groovy Source Code File (.groovy) |
+| [H](/viewer/python-net/groupdocs.viewer/filetype/h/) | C/C++/Objective-C Header File (.h) |
+| [HAML](/viewer/python-net/groupdocs.viewer/filetype/haml/) | Haml Source Code File (.haml) |
+| [HH](/viewer/python-net/groupdocs.viewer/filetype/hh/) | C++ Header File (.hh) |
+| [JAVA](/viewer/python-net/groupdocs.viewer/filetype/java/) | Java Source Code File (.java) |
+| [JS](/viewer/python-net/groupdocs.viewer/filetype/js/) | JavaScript File (.js) |
+| [JSON](/viewer/python-net/groupdocs.viewer/filetype/json/) | JavaScript Object Notation File (.json) |
+| [LESS](/viewer/python-net/groupdocs.viewer/filetype/less/) | LESS Style Sheet (.less) |
+| [LOG](/viewer/python-net/groupdocs.viewer/filetype/log/) | Log File (.log) |
+| [M](/viewer/python-net/groupdocs.viewer/filetype/m/) | Objective-C Implementation File (.m) |
+| [MAKE](/viewer/python-net/groupdocs.viewer/filetype/make/) | Xcode Makefile Script (.make) |
+| [MD](/viewer/python-net/groupdocs.viewer/filetype/md/) | Markdown Documentation File (.md) |
+| [ML](/viewer/python-net/groupdocs.viewer/filetype/ml/) | ML Source Code File (.ml) |
+| [MM](/viewer/python-net/groupdocs.viewer/filetype/mm/) | Objective-C++ Source File (.mm) |
+| [PHP](/viewer/python-net/groupdocs.viewer/filetype/php/) | PHP Source Code File (.php) |
+| [PL](/viewer/python-net/groupdocs.viewer/filetype/pl/) | Perl Script (.pl) |
+| [PROPERTIES](/viewer/python-net/groupdocs.viewer/filetype/properties/) | Java Properties File (.properties) |
+| [PY](/viewer/python-net/groupdocs.viewer/filetype/py/) | Python Script (.py) |
+| [RB](/viewer/python-net/groupdocs.viewer/filetype/rb/) | Ruby Source Code (.rb) |
+| [RST](/viewer/python-net/groupdocs.viewer/filetype/rst/) | reStructuredText File (.rst) |
+| [SASS](/viewer/python-net/groupdocs.viewer/filetype/sass/) | Syntactically Awesome StyleSheets File (.sass) |
+| [SCALA](/viewer/python-net/groupdocs.viewer/filetype/scala/) | Scala Source Code File (.scala) |
+| [SCM](/viewer/python-net/groupdocs.viewer/filetype/scm/) | Scheme Source Code File (.scm) |
+| [SCRIPT](/viewer/python-net/groupdocs.viewer/filetype/script/) | Generic Script File (.script) |
+| [SH](/viewer/python-net/groupdocs.viewer/filetype/sh/) | Bash Shell Script (.sh) |
+| [SML](/viewer/python-net/groupdocs.viewer/filetype/sml/) | Standard ML Source Code File (.sml) |
+| [SQL](/viewer/python-net/groupdocs.viewer/filetype/sql/) | Structured Query Language Data File (.sql) |
+| [VIM](/viewer/python-net/groupdocs.viewer/filetype/vim/) | Vim Settings File (.vim) |
+| [YAML](/viewer/python-net/groupdocs.viewer/filetype/yaml/) | YAML Document (.yaml) |
+| [DOC](/viewer/python-net/groupdocs.viewer/filetype/doc/) | Microsoft Word Document (.doc) represents documents generated by Microsoft Word or other word processing documents in binary file format. Learn more about this file format here. |
+| [DOCX](/viewer/python-net/groupdocs.viewer/filetype/docx/) | Microsoft Word Open XML Document (.docx) is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Learn more about this file format here. |
+| [CHM](/viewer/python-net/groupdocs.viewer/filetype/chm/) | Microsoft Compiled HTML Help File (.chm) is a well-known format for HELP (documentation to some application) documents. Learn more about this file format here. |
+| [DOCM](/viewer/python-net/groupdocs.viewer/filetype/docm/) | Word Open XML Macro-Enabled Document (.docm) is a Microsoft Word 2007 or higher generated documents with the ability to run macros. Learn more about this file format here. |
+| [DOT](/viewer/python-net/groupdocs.viewer/filetype/dot/) | Word Document Template (.dot) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOC or DOCX files. Learn more about this file format here. |
+| [DOTX](/viewer/python-net/groupdocs.viewer/filetype/dotx/) | Word Open XML Document Template (.dotx) are template files created by Microsoft Word to have pre-formatted settings for generation of further DOCX files. Learn more about this file format here. |
+| [DOTM](/viewer/python-net/groupdocs.viewer/filetype/dotm/) | Word Open XML Macro-Enabled Document Template (.dotm) represents template file created with Microsoft Word 2007 or higher. Learn more about this file format here. |
+| [RTF](/viewer/python-net/groupdocs.viewer/filetype/rtf/) | Rich Text Format File (.rtf) represents a method of encoding formatted text and graphics for use within applications. Learn more about this file format here. |
+| [TXT](/viewer/python-net/groupdocs.viewer/filetype/txt/) | Plain Text File (.txt) represents a text document that contains plain text in the form of lines. Learn more about this file format here. |
+| [ODT](/viewer/python-net/groupdocs.viewer/filetype/odt/) | OpenDocument Text Document (.odt) are type of documents created with word processing applications that are based on OpenDocument Text File format. Learn more about this file format here. |
+| [OTT](/viewer/python-net/groupdocs.viewer/filetype/ott/) | OpenDocument Document Template (.ott) represents template documents generated by applications in compliance with the OASIS' OpenDocument standard format. Learn more about this file format here. |
+| [VCF](/viewer/python-net/groupdocs.viewer/filetype/vcf/) | vCard File (.vcf) is a digital file format for storing contact information. The format is widely used for data interchange among popular information exchange applications. Learn more about this file format here. |
+| [AI](/viewer/python-net/groupdocs.viewer/filetype/ai/) | Adobe Illustrator (.ai) is a file format for Adobe Illustrator drawings. Learn more about this file format here. |
+| [PSM1](/viewer/python-net/groupdocs.viewer/filetype/psm1/) | PowerShell script module (.psm1) a file format for PowerShell module scripts. Learn more about this file format here. |
+| [PS1](/viewer/python-net/groupdocs.viewer/filetype/ps1/) | PowerShell script file (.ps1) a file format for Windows PowerShell Cmdlet files. Learn more about this file format here. |
+| [PSD1](/viewer/python-net/groupdocs.viewer/filetype/psd1/) | PowerShell script module manifest (.psd1) a file format for PowerShell module manifest scripts. Learn more about this file format here. |
+
+### Example
+
+```python
+from groupdocs.viewer import Viewer, FileType
+from groupdocs.viewer.options import LoadOptions, PdfViewOptions
+
+# Specify the file type (e.g., Markdown) when loading the document
+load_options = LoadOptions(FileType.MD)
+
+# Render the document to PDF
+with Viewer("terms_of_service.txt", load_options) as viewer:
+    view_options = PdfViewOptions("output.pdf")
+    viewer.view(view_options)
+```
 
 ### See Also
 * module [`groupdocs.viewer`](/viewer/python-net/groupdocs.viewer/)

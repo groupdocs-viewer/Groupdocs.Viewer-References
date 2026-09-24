@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The width of the page in pixels when viewing as JPG or PNG."
 type: docs
 url: /python-net/groupdocs.viewer.results/page/width/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2060
 
 
 ## width property
+
+The width of the page in pixels when viewing as JPG or PNG.
 
 ### Definition:
 ```python

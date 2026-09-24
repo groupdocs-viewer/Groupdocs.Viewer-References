@@ -1,11 +1,11 @@
 ---
 title: for_external_resources_string method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "HtmlViewOptions.for_external_resources_string method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.options/htmlviewoptions/for_external_resources_string/
 is_root: false
-weight: 1200
+weight: 1100
 ---
 
 

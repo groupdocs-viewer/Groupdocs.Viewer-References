@@ -1,7 +1,7 @@
 ---
 title: color property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The watermark color."
 type: docs
 url: /python-net/groupdocs.viewer.options/watermark/color/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## color property
+
+The watermark color. Default value is `Rgb24Color.known_colors.css_level1.red`.
 
 ### Definition:
 ```python

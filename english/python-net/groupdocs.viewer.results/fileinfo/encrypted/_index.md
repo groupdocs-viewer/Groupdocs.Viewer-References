@@ -1,7 +1,7 @@
 ---
 title: encrypted property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The file is encrypted."
 type: docs
 url: /python-net/groupdocs.viewer.results/fileinfo/encrypted/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2010
 
 
 ## encrypted property
+
+The file is encrypted.
 
 ### Definition:
 ```python

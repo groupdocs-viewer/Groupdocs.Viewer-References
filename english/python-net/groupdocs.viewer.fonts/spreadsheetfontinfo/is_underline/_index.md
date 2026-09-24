@@ -1,7 +1,7 @@
 ---
 title: is_underline property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The font has an underline."
 type: docs
 url: /python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/is_underline/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2070
 
 
 ## is_underline property
+
+The font has an underline.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: format property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The format of this font."
 type: docs
 url: /python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/format/
 is_root: false
@@ -10,6 +10,8 @@ weight: 2050
 
 
 ## format property
+
+The format of this font.
 
 ### Definition:
 ```python

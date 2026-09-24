@@ -1,7 +1,7 @@
 ---
 title: permissions property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The PDF document permissions such as printing, modification and data extraction."
 type: docs
 url: /python-net/groupdocs.viewer.options/security/permissions/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2020
 
 
 ## permissions property
+
+The PDF document permissions such as printing, modification and data extraction.
+
+For code sample, see the documentation.
 
 ### Definition:
 ```python

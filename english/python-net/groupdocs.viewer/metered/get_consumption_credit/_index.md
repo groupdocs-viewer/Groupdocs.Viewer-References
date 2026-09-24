@@ -1,7 +1,7 @@
 ---
 title: get_consumption_credit method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Return the remaining metered credit for the current key."
 type: docs
 url: /python-net/groupdocs.viewer/metered/get_consumption_credit/
 is_root: false

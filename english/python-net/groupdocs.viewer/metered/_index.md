@@ -1,7 +1,7 @@
 ---
 title: Metered class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Manages metered (pay-per-use) licensing."
 type: docs
 url: /python-net/groupdocs.viewer/metered/
 is_root: false

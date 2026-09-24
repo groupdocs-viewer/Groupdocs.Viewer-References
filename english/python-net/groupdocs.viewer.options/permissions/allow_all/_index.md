@@ -1,7 +1,7 @@
 ---
 title: ALLOW_ALL field
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "Allow printing, modification and data extraction."
 type: docs
 url: /python-net/groupdocs.viewer.options/permissions/allow_all/
 is_root: false
@@ -10,6 +10,8 @@ weight: 3010
 
 
 ## ALLOW_ALL field
+
+Allow printing, modification and data extraction.
 
 ### Value
 `0`

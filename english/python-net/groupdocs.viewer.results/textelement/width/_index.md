@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "TextElement.width property — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.results/textelement/width/
 is_root: false

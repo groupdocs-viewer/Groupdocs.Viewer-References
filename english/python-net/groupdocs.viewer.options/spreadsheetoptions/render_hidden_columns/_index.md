@@ -1,7 +1,7 @@
 ---
 title: render_hidden_columns property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "The property enables rendering of hidden columns."
 type: docs
 url: /python-net/groupdocs.viewer.options/spreadsheetoptions/render_hidden_columns/
 is_root: false
@@ -10,6 +10,10 @@ weight: 2090
 
 
 ## render_hidden_columns property
+
+The property enables rendering of hidden columns.
+
+For details, see the documentation: https://docs.groupdocs.com/viewer/net/specify-rendering-options/#render-hidden-rows-and-columns
 
 ### Definition:
 ```python

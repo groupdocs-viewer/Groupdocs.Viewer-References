@@ -1,7 +1,7 @@
 ---
 title: try_find_name method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: 
+description: "KnownColors.try_find_name method — GroupDocs.Viewer for Python via .NET."
 type: docs
 url: /python-net/groupdocs.viewer.drawing/knowncolors/try_find_name/
 is_root: false
@@ -19,9 +19,7 @@ def try_find_name(cls, color, name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | color | `Rgb24Color` |  |
-| name | `Any` |  |
-
-**Returns:** bool
+| name | `str` |  |
 
 ### See Also
 * class [`KnownColors`](/viewer/python-net/groupdocs.viewer.drawing/knowncolors/)
