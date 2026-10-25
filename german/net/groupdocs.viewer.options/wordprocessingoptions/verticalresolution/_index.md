@@ -1,0 +1,28 @@
+---
+title: "VerticalResolution"
+second_title: "GroupDocs.Viewer für .NET API-Referenz"
+description: "Liest oder setzt die vertikale Auflösung für erzeugte Bilder in Punkten pro Zoll. Diese Option wird nur beim Rendern von WordProcessing‑Dokumenten in die Formate PNG oder JPEG verwendet."
+type: docs
+weight: 130
+url: /de/net/groupdocs.viewer.options/wordprocessingoptions/verticalresolution/
+---
+
+## WordProcessingOptions.VerticalResolution property
+
+Liest oder setzt die vertikale Auflösung für erzeugte Bilder in Punkten pro Zoll. Diese Option wird nur beim Rendern von WordProcessing‑Dokumenten in die Formate PNG oder JPEG verwendet.
+
+```csharp
+public int VerticalResolution { get; set; }
+```
+
+### Bemerkungen
+
+Der Standardwert beträgt 96 DPI. Der minimal mögliche Wert beträgt 72 DPI, der maximal mögliche Wert 600 DPI. Wenn der vom Benutzer angegebene Wert außerhalb dieser Grenzen liegt, wird der minimale bzw. maximale mögliche Wert verwendet.
+
+### Siehe auch
+
+* class [WordProcessingOptions](../../wordprocessingoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- NICHT BEARBEITEN: von xmldocmd für GroupDocs.Viewer.dll generiert -->
