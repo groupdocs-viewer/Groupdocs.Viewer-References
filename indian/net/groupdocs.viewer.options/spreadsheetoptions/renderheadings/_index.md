@@ -1,0 +1,28 @@
+---
+title: "RenderHeadings"
+second_title: "GroupDocs.Viewer के लिए .NET API Reference"
+description: "हेडिंग्स के रेंडरिंग को सक्षम करता है।"
+type: docs
+weight: 130
+url: /hi/net/groupdocs.viewer.options/spreadsheetoptions/renderheadings/
+---
+
+## SpreadsheetOptions.RenderHeadings property
+
+हेडिंग्स के रेंडरिंग को सक्षम करता है।
+
+```csharp
+public bool RenderHeadings { get; set; }
+```
+
+### टिप्पणियाँ
+
+विवरण के लिए, देखें [दस्तावेज़](https://docs.groupdocs.com/viewer/net/specify-rendering-options/#render-row-and-column-headings).
+
+### संबंधित देखें
+
+* class [SpreadsheetOptions](../../spreadsheetoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Viewer.dll के लिए उत्पन्न -->

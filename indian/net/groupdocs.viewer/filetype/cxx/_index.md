@@ -1,0 +1,24 @@
+---
+title: "CXX"
+second_title: "GroupDocs.Viewer के लिए .NET API Reference"
+description: "C स्रोत कोड फ़ाइल .cxx"
+type: docs
+weight: 240
+url: /hi/net/groupdocs.viewer/filetype/cxx/
+---
+
+## FileType.CXX field
+
+C++ स्रोत कोड फ़ाइल (.cxx)
+
+```csharp
+public static readonly FileType CXX;
+```
+
+### संबंधित देखें
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Viewer.dll के लिए उत्पन्न -->
