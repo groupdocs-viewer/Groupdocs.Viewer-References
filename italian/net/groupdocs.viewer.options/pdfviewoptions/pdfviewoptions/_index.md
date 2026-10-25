@@ -1,0 +1,156 @@
+---
+title: "PdfViewOptions"
+second_title: "GroupDocs.Viewer per .NET API Reference"
+description: "Inizializza un'istanza della classe PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions."
+type: docs
+weight: 10
+url: /it/net/groupdocs.viewer.options/pdfviewoptions/pdfviewoptions/
+---
+
+## PdfViewOptions(CreateFileStream) {#constructor_1}
+
+Inizializza un'istanza della classe [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(CreateFileStream createFileStream)
+```
+
+| Parametro | Type | Descrizione |
+| --- | --- | --- |
+| createFileStream | CreateFileStream | Il metodo che istanzia lo stream usato per scrivere i dati del file di output. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentNullException | Generata quando *createFileStream* è nullo. |
+
+### Osservazioni
+
+Per l'esempio di codice, vedere la [documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Vedi anche
+
+* delegate [CreateFileStream](../../../groupdocs.viewer.interfaces/createfilestream)
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions(CreateFileStream, ReleaseFileStream) {#constructor_2}
+
+Inizializza un'istanza della classe [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream releaseFileStream)
+```
+
+| Parametro | Type | Descrizione |
+| --- | --- | --- |
+| createFileStream | CreateFileStream | Il metodo che istanzia lo stream usato per scrivere i dati del file di output. |
+| releaseFileStream | ReleaseFileStream | Il metodo che rilascia lo stream creato dal metodo assegnato al delegato passato al parametro *createFileStream*. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentNullException | Generata quando *createFileStream* è nullo. |
+| ArgumentNullException | Generata quando *releaseFileStream* è nullo. |
+
+### Osservazioni
+
+Per l'esempio di codice, vedere la [documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Vedi anche
+
+* delegate [CreateFileStream](../../../groupdocs.viewer.interfaces/createfilestream)
+* delegate [ReleaseFileStream](../../../groupdocs.viewer.interfaces/releasefilestream)
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions(IFileStreamFactory) {#constructor_3}
+
+Inizializza un'istanza della classe [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(IFileStreamFactory fileStreamFactory)
+```
+
+| Parametro | Type | Descrizione |
+| --- | --- | --- |
+| fileStreamFactory | IFileStreamFactory | La fabbrica che implementa i metodi per creare e rilasciare lo stream del file di output. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentNullException | Viene generata quando *fileStreamFactory* è null. |
+
+### Osservazioni
+
+Per l'esempio di codice, vedere la [documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Vedi anche
+
+* interface [IFileStreamFactory](../../../groupdocs.viewer.interfaces/ifilestreamfactory)
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions() {#constructor}
+
+Inizializza un'istanza della classe [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions()
+```
+
+### Osservazioni
+
+Questo costruttore inizializza un'istanza di [`PdfViewOptions`](../../pdfviewoptions) con "output.pdf" come formato del percorso del file di output. Il file di output verrà posizionato nella directory di lavoro corrente dell'applicazione.
+
+Per l'esempio di codice, vedere la [documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Vedi anche
+
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions(string) {#constructor_4}
+
+Inizializza un'istanza della classe [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(string outputFilePath)
+```
+
+| Parametro | Type | Descrizione |
+| --- | --- | --- |
+| outputFilePath | Stringa | Il percorso per il file PDF di output. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentException | Viene generata quando *outputFilePath* è null o vuoto. |
+
+### Osservazioni
+
+Per l'esempio di codice, vedere la [documentazione](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Vedi anche
+
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
