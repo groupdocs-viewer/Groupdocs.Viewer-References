@@ -1,0 +1,25 @@
+---
+title: "Ναυτικό"
+second_title: "Αναφορά API του GroupDocs.Viewer for .NET"
+description: "Ναυτικό χρώμα"
+type: docs
+weight: 90
+url: /el/net/groupdocs.viewer.drawing/rgb24color.knowncolors.csslevel1/navy/
+---
+
+## Rgb24Color.KnownColors.CssLevel1.Navy field
+
+Ναυτικό χρώμα
+
+```csharp
+public static readonly Rgb24Color Navy;
+```
+
+### Δείτε επίσης
+
+* struct [Rgb24Color](../../rgb24color)
+* class [CssLevel1](../../rgb24color.knowncolors.csslevel1)
+* namespace [GroupDocs.Viewer.Drawing](../../../groupdocs.viewer.drawing)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- ΜΗΝ ΕΠΕΞΕΡΓΑΣΕΤΕ: δημιουργήθηκε από το xmldocmd για το GroupDocs.Viewer.dll -->
