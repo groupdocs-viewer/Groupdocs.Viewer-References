@@ -1,0 +1,25 @@
+---
+title: "गोल्ड"
+second_title: "GroupDocs.Viewer के लिए .NET API Reference"
+description: "गोल्ड रंग"
+type: docs
+weight: 480
+url: /hi/net/groupdocs.viewer.drawing/rgb24color.knowncolors.csslevel3/gold/
+---
+
+## Rgb24Color.KnownColors.CssLevel3.Gold field
+
+गोल्ड रंग
+
+```csharp
+public static readonly Rgb24Color Gold;
+```
+
+### संबंधित देखें
+
+* struct [Rgb24Color](../../rgb24color)
+* class [CssLevel3](../../rgb24color.knowncolors.csslevel3)
+* namespace [GroupDocs.Viewer.Drawing](../../../groupdocs.viewer.drawing)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Viewer.dll के लिए उत्पन्न -->

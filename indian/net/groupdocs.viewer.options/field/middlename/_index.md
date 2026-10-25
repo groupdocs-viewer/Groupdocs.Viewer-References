@@ -1,0 +1,24 @@
+---
+title: "MiddleName"
+second_title: "GroupDocs.Viewer के लिए .NET API Reference"
+description: "डिफ़ॉल्ट फ़ील्ड टेक्स्ट है मध्य नाम।"
+type: docs
+weight: 300
+url: /hi/net/groupdocs.viewer.options/field/middlename/
+---
+
+## Field.MiddleName field
+
+डिफ़ॉल्ट फ़ील्ड टेक्स्ट "Middle Name" है।
+
+```csharp
+public static readonly Field MiddleName;
+```
+
+### संबंधित देखें
+
+* class [Field](../../field)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Viewer.dll के लिए उत्पन्न -->
