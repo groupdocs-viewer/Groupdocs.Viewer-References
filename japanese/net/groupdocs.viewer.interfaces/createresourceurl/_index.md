@@ -1,0 +1,33 @@
+---
+title: "CreateResourceUrl"
+second_title: "GroupDocs.Viewer for .NET API リファレンス"
+description: "HTMLリソースのURLを作成するメソッドを表します。"
+type: docs
+weight: 740
+url: /ja/net/groupdocs.viewer.interfaces/createresourceurl/
+---
+
+## CreateResourceUrl delegate
+
+HTMLリソースのURLを作成するメソッドを表します。
+
+```csharp
+public delegate string CreateResourceUrl(int pageNumber, Resource resource);
+```
+
+| パラメータ | タイプ | 説明 |
+| --- | --- | --- |
+| pageNumber | Int32 | ページ番号。 |
+| リソース | Resource | フォント、スタイル、画像、またはグラフィックなどの HTML リソース。 |
+
+### 戻り値
+
+HTML リソースの URL。
+
+### 関連項目
+
+* class [Resource](../../groupdocs.viewer.results/resource)
+* namespace [GroupDocs.Viewer.Interfaces](../../groupdocs.viewer.interfaces)
+* assembly [GroupDocs.Viewer](../../)
+
+<!-- 編集しないでください: xmldocmd によって GroupDocs.Viewer.dll 用に生成されました -->
