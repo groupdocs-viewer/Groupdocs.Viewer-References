@@ -1,0 +1,160 @@
+---
+title: "View"
+second_title: "GroupDocs.Viewer for .NET API 参考"
+description: "创建所有文档页面的视图。"
+type: docs
+weight: 90
+url: /zh/net/groupdocs.viewer/viewer/view/
+---
+
+## View(ViewOptions) {#view}
+
+创建所有文档页面的视图。
+
+```csharp
+public void View(ViewOptions options)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | ViewOptions | 视图选项。 |
+
+### 异常
+
+| 异常 | 条件 |
+| --- | --- |
+| ArgumentNullException | 当 *options* 为 null 时抛出。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出此异常。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出此异常。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 当找不到附件时抛出。 |
+
+### 备注
+
+**Learn more**
+
+* More about different viewing options following this guide: [How to customize document viewing output using GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 另见
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## View(ViewOptions, CancellationToken) {#view_2}
+
+创建所有文档页面的视图。
+
+```csharp
+public void View(ViewOptions options, CancellationToken cancellationToken)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | ViewOptions | 视图选项。 |
+| cancellationToken | CancellationToken | 用于发送请求以取消当前视图处理的取消令牌。 |
+
+### 异常
+
+| 异常 | 条件 |
+| --- | --- |
+| ArgumentNullException | 当 *options* 为 null 时抛出。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出此异常。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出此异常。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 当找不到附件时抛出。 |
+
+### 备注
+
+**Learn more**
+
+* More about different viewing options following this guide: [How to customize document viewing output using GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 另见
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## View(ViewOptions, params int[]) {#view_1}
+
+创建特定文档页面的视图。
+
+```csharp
+public void View(ViewOptions options, params int[] pageNumbers)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | ViewOptions | 视图选项。 |
+| pageNumbers | Int32[] | 要查看的页码。 |
+
+### 异常
+
+| 异常 | 条件 |
+| --- | --- |
+| ArgumentNullException | 当 *options* 为 null 时抛出。 |
+| ArgumentNullException | 当 *pageNumbers* 为 null 时抛出。 |
+| ArgumentException | 当 *pageNumbers* 为空时抛出。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出此异常。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出此异常。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 当找不到附件时抛出。 |
+
+### 备注
+
+**Learn more**
+
+* More about different viewing options following this guide: [How to customize document viewing output using GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 另见
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## View(ViewOptions, CancellationToken, params int[]) {#view_3}
+
+创建特定文档页面的视图。
+
+```csharp
+public void View(ViewOptions options, CancellationToken cancellationToken, params int[] pageNumbers)
+```
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | ViewOptions | 视图选项。 |
+| pageNumbers | CancellationToken | 要查看的页码。 |
+| cancellationToken | Int32[] | 用于取消处理的取消令牌。 |
+
+### 异常
+
+| 异常 | 条件 |
+| --- | --- |
+| ArgumentNullException | 当 *options* 为 null 时抛出。 |
+| ArgumentNullException | 当 *pageNumbers* 为 null 时抛出。 |
+| ArgumentException | 当 *pageNumbers* 为空时抛出。 |
+| [PasswordRequiredException](../../../groupdocs.viewer.exceptions/passwordrequiredexception) | 当打开文档需要密码时抛出此异常。 |
+| [IncorrectPasswordException](../../../groupdocs.viewer.exceptions/incorrectpasswordexception) | 当指定的密码不正确时抛出此异常。 |
+| [GroupDocsViewerException](../../../groupdocs.viewer.exceptions/groupdocsviewerexception) | 当找不到附件时抛出。 |
+
+### 备注
+
+**Learn more**
+
+* More about different viewing options following this guide: [How to customize document viewing output using GroupDocs.Viewer](https://docs.groupdocs.com/display/viewernet/Viewing)
+
+### 另见
+
+* class [ViewOptions](../../../groupdocs.viewer.options/viewoptions)
+* class [Viewer](../../viewer)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
