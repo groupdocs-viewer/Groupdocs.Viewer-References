@@ -1,0 +1,35 @@
+---
+title: "GetSupportedFileTypes"
+second_title: "Referencia de la API de GroupDocs.Viewer para .NET"
+description: "Obtiene los tipos de archivo compatibles"
+type: docs
+weight: 2070
+url: /es/net/groupdocs.viewer/filetype/getsupportedfiletypes/
+---
+
+## FileType.GetSupportedFileTypes method
+
+Obtiene los tipos de archivo compatibles
+
+```csharp
+public static IEnumerable<FileType> GetSupportedFileTypes()
+```
+
+### Valor devuelto
+
+Devuelve la secuencia de tipos de archivo compatibles
+
+### Observaciones
+
+**Learn more**
+
+* Learn more about supported document formats: [Full list of supported file formats](https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats)
+* Learn more about getting supported file types in C# code: [How to get supported file types in code](https://docs.groupdocs.com/display/viewernet/Get+supported+file+formats)
+
+### Ver también
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para GroupDocs.Viewer.dll -->
