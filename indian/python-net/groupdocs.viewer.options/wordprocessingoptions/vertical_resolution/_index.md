@@ -1,0 +1,31 @@
+---
+title: "vertical_resolution प्रॉपर्टी"
+second_title: "GroupDocs.Viewer Python के लिए .NET के माध्यम से API संदर्भ"
+description: "उत्पन्न छवियों के लिए डॉट्स प्रति इंच में लंबवत रेज़ोल्यूशन, जो केवल वर्ड प्रोसेसिंग दस्तावेज़ों को PNG या JPEG फ़ॉर्मेट में रेंडर करते समय उपयोग किया जाता है।"
+type: docs
+url: /hi/python-net/groupdocs.viewer.options/wordprocessingoptions/vertical_resolution/
+is_root: false
+weight: 2120
+---
+
+
+## vertical_resolution property
+
+उत्पन्न छवियों के लिए डॉट्स प्रति इंच में लंबवत रेज़ोल्यूशन, जो केवल वर्ड प्रोसेसिंग दस्तावेज़ों को PNG या JPEG फ़ॉर्मेट में रेंडर करते समय उपयोग किया जाता है।
+
+डिफ़ॉल्ट मान 96 DPI है।
+
+न्यूनतम संभव मान 72 DPI है और अधिकतम संभव मान 600 DPI है। यदि उपयोगकर्ता द्वारा निर्दिष्ट मान इन सीमाओं के बाहर है, तो निकटतम सीमा लागू की जाएगी।
+
+### Definition:
+```python
+@property
+def vertical_resolution(self):
+    ...
+@vertical_resolution.setter
+def vertical_resolution(self, value):
+    ...
+```
+
+### साथ में देखें
+* class [`WordProcessingOptions`](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/)
