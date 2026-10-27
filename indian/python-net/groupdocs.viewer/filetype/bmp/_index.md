@@ -1,0 +1,17 @@
+---
+title: "BMP फ़ील्ड"
+second_title: "GroupDocs.Viewer Python के लिए .NET के माध्यम से API संदर्भ"
+description: "Bitmap Image File (.bmp) बिटमैप डिजिटल छवियों को संग्रहीत करने के लिए उपयोग किया जाता है।"
+type: docs
+url: /hi/python-net/groupdocs.viewer/filetype/bmp/
+is_root: false
+weight: 3660
+---
+
+
+## BMP field
+
+Bitmap Image File (.bmp) का उपयोग बिटमैप डिजिटल छवियों को संग्रहीत करने के लिए किया जाता है। ये छवियां ग्राफ़िक्स एडाप्टर से स्वतंत्र होती हैं और इन्हें डिवाइस इंडिपेंडेंट बिटमैप (DIB) फ़ाइल फ़ॉर्मेट भी कहा जाता है। इस फ़ाइल फ़ॉर्मेट के बारे में अधिक जानने के लिए यहाँ देखें।
+
+### साथ में देखें
+* class [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/)
