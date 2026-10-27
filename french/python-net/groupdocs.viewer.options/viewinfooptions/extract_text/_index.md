@@ -1,0 +1,31 @@
+---
+title: "propriété extract_text"
+second_title: "Références API de GroupDocs.Viewer pour Python via .NET"
+description: "La propriété active l'extraction de texte."
+type: docs
+url: /fr/python-net/groupdocs.viewer.options/viewinfooptions/extract_text/
+is_root: false
+weight: 2010
+---
+
+
+## extract_text property
+
+La propriété active l'extraction de texte.
+
+Utilisez cette propriété pour obtenir le texte contenu dans un document source ainsi que ses coordonnées. Vous pouvez ensuite utiliser ces données pour ajouter un texte sélectionnable sur l'image ou implémenter une recherche de texte dans le rendu basé sur l'image.
+
+Pour un exemple de code, consultez la documentation.
+
+### Definition:
+```python
+@property
+def extract_text(self):
+    ...
+@extract_text.setter
+def extract_text(self, value):
+    ...
+```
+
+### Voir aussi
+* class [`ViewInfoOptions`](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/)
