@@ -1,0 +1,25 @@
+---
+title: "__init__ 생성자"
+second_title: "GroupDocs.Viewer 용 Python via .NET API 참조"
+description: "CreatePageStream 클래스의 생성자 — GroupDocs.Viewer Python용 .NET."
+type: docs
+url: /ko/python-net/groupdocs.viewer.interfaces/createpagestream/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__ {#object-method}
+
+```python
+def __init__(self, object, method):
+    ...
+```
+
+| 매개변수 | 형식 | 설명 |
+| :- | :- | :- |
+| object | `Any` |  |
+| method | `System.IntPtr` |  |
+
+### 참고
+* class [`CreatePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/createpagestream/)
