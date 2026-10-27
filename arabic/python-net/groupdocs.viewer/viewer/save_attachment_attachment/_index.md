@@ -1,0 +1,20 @@
+---
+title: "طريقة save_attachment_attachment"
+second_title: "مراجع API لـ GroupDocs.Viewer لـ Python عبر .NET"
+description: "طريقة Viewer.save_attachment_attachment — GroupDocs.Viewer للغة Python عبر .NET."
+type: docs
+url: /ar/python-net/groupdocs.viewer/viewer/save_attachment_attachment/
+is_root: false
+weight: 1080
+---
+
+
+## save_attachment_attachment
+
+```python
+def save_attachment_attachment(self):
+    ...
+```
+
+### انظر أيضًا
+* class [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer/)
