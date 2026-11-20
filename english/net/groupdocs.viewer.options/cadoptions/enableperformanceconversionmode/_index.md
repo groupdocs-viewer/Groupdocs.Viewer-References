@@ -3,7 +3,7 @@ title: EnablePerformanceConversionMode
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Setting this flag to true enables a special performanceoriented conversion mode for all formats within CAD family  in this mode the conversion speed is much faster but the quality of the resultant documents is signifiantly worser. By default is disabled false  the quality of the resultant documents is the best possible at the expense of performance.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.viewer.options/cadoptions/enableperformanceconversionmode/
 ---
 

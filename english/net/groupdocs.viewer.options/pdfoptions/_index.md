@@ -31,6 +31,7 @@ public class PdfOptions
 | [EnableFontHinting](../../groupdocs.viewer.options/pdfoptions/enablefonthinting) { get; set; } | Enables font hinting. |
 | [EnableLayeredRendering](../../groupdocs.viewer.options/pdfoptions/enablelayeredrendering) { get; set; } | Enables rendering text and graphics in the original PDF document's z-order when rendering to HTML. |
 | [FixedLayout](../../groupdocs.viewer.options/pdfoptions/fixedlayout) { get; set; } | Enables rendering the PDF and EPUB documents to HTML with a fixed layout. |
+| [FixThaiMarks](../../groupdocs.viewer.options/pdfoptions/fixthaimarks) { get; set; } | When rendering PDF to HTML format the produced HTML documents may have stranded Thai marks. This option, when enabled, applies special Thai glyphs analyzer and tries to fix these issues. By default is disabled (`false`). When enabled, may significantly degrade performance. |
 | [ImageQuality](../../groupdocs.viewer.options/pdfoptions/imagequality) { get; set; } | Sets the output image quality for image resources when rendering to HTML. The default quality is `Low`. |
 | [RenderOriginalPageSize](../../groupdocs.viewer.options/pdfoptions/renderoriginalpagesize) { get; set; } | Sets the output page size the same as the source PDF document's page size. |
 | [RenderTextAsImage](../../groupdocs.viewer.options/pdfoptions/rendertextasimage) { get; set; } | Enables rendering texts in the PDF files as an image in the HTML output. |

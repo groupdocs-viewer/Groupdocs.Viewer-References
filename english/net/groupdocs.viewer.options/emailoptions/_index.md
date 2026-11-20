@@ -12,7 +12,7 @@ url: /net/groupdocs.viewer.options/emailoptions/
 Contains options for rendering email messages. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/).
 
 ```csharp
-public class EmailOptions
+public class EmailOptions : IEquatable<EmailOptions>
 ```
 
 ## Constructors
@@ -29,6 +29,12 @@ public class EmailOptions
 | [FieldTextMap](../../groupdocs.viewer.options/emailoptions/fieldtextmap) { get; set; } | The mapping between email message [`Field`](../field) and field text representation. |
 | [PageSize](../../groupdocs.viewer.options/emailoptions/pagesize) { get; set; } | The size of the output page. |
 | [TimeZoneOffset](../../groupdocs.viewer.options/emailoptions/timezoneoffset) { get; set; } | Message time zone offset. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](../../groupdocs.viewer.options/emailoptions/equals#equals)(EmailOptions) | indicates whether this instance is equal to other specified [`EmailOptions`](../emailoptions) instance |
 
 ### See Also
 

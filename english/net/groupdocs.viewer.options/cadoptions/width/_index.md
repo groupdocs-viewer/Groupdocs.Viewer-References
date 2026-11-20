@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Viewer for .NET API Reference
 description: The width of the output result in pixels.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.viewer.options/cadoptions/width/
 ---
 

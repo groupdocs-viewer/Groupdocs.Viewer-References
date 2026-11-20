@@ -12,7 +12,7 @@ url: /net/groupdocs.viewer.options/field/
 Represents email message field e.g. From, To, Subject etc. For details, see the [documentation](https://docs.groupdocs.com/viewer/net/render-email-messages/#rename-fields-in-the-message-header).
 
 ```csharp
-public class Field
+public class Field : IEquatable<Field>
 ```
 
 ## Properties
@@ -25,6 +25,9 @@ public class Field
 
 | Name | Description |
 | --- | --- |
+| [Equals](../../groupdocs.viewer.options/field/equals#equals)(Field) | Checks this instance for equality with other specified [`Field`](../field) instance |
+| override [Equals](../../groupdocs.viewer.options/field/equals#equals_1)(object) | Checks this instance for equality with other specified uncasted instance, that is presumably of [`Field`](../field) type |
+| override [GetHashCode](../../groupdocs.viewer.options/field/gethashcode)() | Returns a hash-code for this instance |
 | override [ToString](../../groupdocs.viewer.options/field/tostring)() | Returns a string that represents the current object. |
 
 ## Fields

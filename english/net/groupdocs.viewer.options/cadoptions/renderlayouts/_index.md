@@ -3,7 +3,7 @@ title: RenderLayouts
 second_title: GroupDocs.Viewer for .NET API Reference
 description: Flag if layouts from CAD document should be rendered.
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.viewer.options/cadoptions/renderlayouts/
 ---
 

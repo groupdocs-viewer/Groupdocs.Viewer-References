@@ -20,6 +20,7 @@ public class CadOptions
 | Name | Description |
 | --- | --- |
 | [BackgroundColor](../../groupdocs.viewer.options/cadoptions/backgroundcolor) { get; set; } | Image background color. |
+| [EnableLayeredRendering](../../groupdocs.viewer.options/cadoptions/enablelayeredrendering) { get; set; } | Setting this flag to `true` enables layer-oriented rendering of CAD drawings to the HTML format: each layer is rendered with its ID, and also objects with same layer name will be grouped into top-level groups with "id" tag set to layer name. Is disabled (`false`) by default. |
 | [EnablePerformanceConversionMode](../../groupdocs.viewer.options/cadoptions/enableperformanceconversionmode) { get; set; } | Setting this flag to `true` enables a special performance-oriented conversion mode for all formats within CAD family — in this mode the conversion speed is much faster, but the quality of the resultant documents is signifiantly worser. By default is disabled (`false`) — the quality of the resultant documents is the best possible at the expense of performance. |
 | [Height](../../groupdocs.viewer.options/cadoptions/height) { get; } | The height of the output result (in pixels). |
 | [Layers](../../groupdocs.viewer.options/cadoptions/layers) { get; set; } | The CAD drawing layers to render. |
