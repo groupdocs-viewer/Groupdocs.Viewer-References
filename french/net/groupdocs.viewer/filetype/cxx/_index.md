@@ -1,0 +1,24 @@
+---
+title: "CXX"
+second_title: "Référence d'API GroupDocs.Viewer pour .NET"
+description: "Fichier de code source C .cxx"
+type: docs
+weight: 240
+url: /fr/net/groupdocs.viewer/filetype/cxx/
+---
+
+## FileType.CXX field
+
+Fichier source C++ (.cxx)
+
+```csharp
+public static readonly FileType CXX;
+```
+
+### Voir aussi
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- NE PAS MODIFIER : généré par xmldocmd pour GroupDocs.Viewer.dll -->

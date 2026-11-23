@@ -1,0 +1,24 @@
+---
+title: "JPG"
+second_title: "Référence d'API GroupDocs.Viewer pour .NET"
+description: "JPEG Image .jpg est un type de format d'image qui est enregistré en utilisant la méthode de compression avec perte. L'image résultante de la compression représente un compromis entre la taille de stockage et la qualité de l'image. En savoir plus sur ce format de fichier icihttps//wiki.fileformat.com/image/jpeg."
+type: docs
+weight: 770
+url: /fr/net/groupdocs.viewer/filetype/jpg/
+---
+
+## FileType.JPG field
+
+L'image JPEG (.jpg) est un type de format d'image enregistré en utilisant la méthode de compression avec perte. L'image résultante, en raison de la compression, représente un compromis entre la taille de stockage et la qualité de l'image. En savoir plus sur ce format de fichier [ici](https://wiki.fileformat.com/image/jpeg).
+
+```csharp
+public static readonly FileType JPG;
+```
+
+### Voir aussi
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Viewer](../../../groupdocs.viewer)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- NE PAS MODIFIER : généré par xmldocmd pour GroupDocs.Viewer.dll -->
