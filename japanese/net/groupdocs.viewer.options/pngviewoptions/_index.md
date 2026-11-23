@@ -1,0 +1,75 @@
+---
+title: "PngViewOptions"
+second_title: "GroupDocs.Viewer for .NET API リファレンス"
+description: "ドキュメントを PNG 形式でレンダリングするためのオプションを含みます。詳細はこのページhttps//docs.groupdocs.com/viewer/net/renderingtopngorjpeg/ とその子ページをご覧ください。"
+type: docs
+weight: 440
+url: /ja/net/groupdocs.viewer.options/pngviewoptions/
+---
+
+## PngViewOptions class
+
+ドキュメントを PNG 形式にレンダリングするオプションが含まれています。詳細については、この [page](https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/) とその子項目を参照してください。
+
+```csharp
+public class PngViewOptions : ViewOptions, IMaxSizeOptions
+```
+
+## コンストラクタ
+
+| 名前 | 説明 |
+| --- | --- |
+| [PngViewOptions](pngviewoptions#constructor)() | [`PngViewOptions`](../pngviewoptions) クラスのインスタンスを初期化します。 |
+| [PngViewOptions](pngviewoptions#constructor_1)(CreatePageStream) | [`PngViewOptions`](../pngviewoptions) クラスのインスタンスを初期化します。 |
+| [PngViewOptions](pngviewoptions#constructor_3)(IPageStreamFactory) | [`PngViewOptions`](../pngviewoptions) クラスのインスタンスを初期化します。 |
+| [PngViewOptions](pngviewoptions#constructor_4)(string) | [`PngViewOptions`](../pngviewoptions) クラスのインスタンスを初期化します。 |
+| [PngViewOptions](pngviewoptions#constructor_2)(CreatePageStream, ReleasePageStream) | [`PngViewOptions`](../pngviewoptions) クラスのインスタンスを初期化します。 |
+
+## プロパティ
+
+| 名前 | 説明 |
+| --- | --- |
+| [ArchiveOptions](../../groupdocs.viewer.options/baseviewoptions/archiveoptions) { get; set; } | アーカイブファイルのビューオプションです。 |
+| [CadOptions](../../groupdocs.viewer.options/baseviewoptions/cadoptions) { get; set; } | CAD図面のビューオプションです。 |
+| [DefaultFontName](../../groupdocs.viewer.options/baseviewoptions/defaultfontname) { get; set; } | ドキュメントのデフォルトフォントを設定します。 |
+| [EmailOptions](../../groupdocs.viewer.options/baseviewoptions/emailoptions) { get; set; } | メールメッセージのビューオプションです。 |
+| [ExtractText](../../groupdocs.viewer.options/pngviewoptions/extracttext) { get; set; } | テキスト抽出を有効にします。 |
+| [Height](../../groupdocs.viewer.options/pngviewoptions/height) { get; set; } | 出力画像の高さ（ピクセル単位）を設定します。 |
+| [MailStorageOptions](../../groupdocs.viewer.options/baseviewoptions/mailstorageoptions) { get; set; } | メールストレージデータファイルのビューオプションです。 |
+| [MaxHeight](../../groupdocs.viewer.options/pngviewoptions/maxheight) { get; set; } | 出力画像の最大高さ（ピクセル単位）を設定します。 |
+| [MaxWidth](../../groupdocs.viewer.options/pngviewoptions/maxwidth) { get; set; } | 出力画像の最大幅（ピクセル単位）を設定します。 |
+| [OutlookOptions](../../groupdocs.viewer.options/baseviewoptions/outlookoptions) { get; set; } | Microsoft Outlookデータファイルのビューオプションです。 |
+| [PdfOptions](../../groupdocs.viewer.options/baseviewoptions/pdfoptions) { get; set; } | PDFドキュメントのビューオプションです。 |
+| [PresentationOptions](../../groupdocs.viewer.options/baseviewoptions/presentationoptions) { get; set; } | プレゼンテーションファイルのビューオプションです。 |
+| [ProjectManagementOptions](../../groupdocs.viewer.options/baseviewoptions/projectmanagementoptions) { get; set; } | プロジェクト管理ファイルのビューオプションです。 |
+| [RemoveComments](../../groupdocs.viewer.options/baseviewoptions/removecomments) { get; set; } | `true` に設定するとコメントの描画が無効になります。デフォルトは `false` で、すべてのコメントが表示されます。 |
+| [RenderHiddenPages](../../groupdocs.viewer.options/baseviewoptions/renderhiddenpages) { get; set; } | 非表示ページの描画を有効にします。 |
+| [RenderNotes](../../groupdocs.viewer.options/baseviewoptions/rendernotes) { get; set; } | 一部の形式でノートと注釈の描画を有効にします |
+| [SpreadsheetOptions](../../groupdocs.viewer.options/baseviewoptions/spreadsheetoptions) { get; set; } | スプレッドシートファイルのビューオプションです。 |
+| [TextOptions](../../groupdocs.viewer.options/baseviewoptions/textoptions) { get; set; } | テキストファイルのビューオプションです。 |
+| [VisioRenderingOptions](../../groupdocs.viewer.options/baseviewoptions/visiorenderingoptions) { get; set; } | Visioファイルのビューオプションです。 |
+| [Watermark](../../groupdocs.viewer.options/viewoptions/watermark) { get; set; } | 各ページに適用されるテキスト透かしです。 |
+| [WebDocumentOptions](../../groupdocs.viewer.options/baseviewoptions/webdocumentoptions) { get; set; } | Webファイルのビューオプションです。 |
+| [Width](../../groupdocs.viewer.options/pngviewoptions/width) { get; set; } | 出力画像の幅（ピクセル単位）です。 |
+| [WordProcessingOptions](../../groupdocs.viewer.options/baseviewoptions/wordprocessingoptions) { get; set; } | ワードプロセッシングファイルのビューオプションです。 |
+
+## メソッド
+
+| 名前 | 説明 |
+| --- | --- |
+| [RotatePage](../../groupdocs.viewer.options/viewoptions/rotatepage)(int, Rotation) | ページに時計回りの回転を適用します。 |
+
+## フィールド
+
+| 名前 | 説明 |
+| --- | --- |
+| readonly [PageRotations](../../groupdocs.viewer.options/viewoptions/pagerotations) | ページの回転です。 |
+
+### 関連項目
+
+* class [ViewOptions](../viewoptions)
+* interface [IMaxSizeOptions](../imaxsizeoptions)
+* namespace [GroupDocs.Viewer.Options](../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../)
+
+<!-- 編集しないでください: xmldocmd によって GroupDocs.Viewer.dll 用に生成されました -->
