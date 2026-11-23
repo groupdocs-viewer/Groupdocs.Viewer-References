@@ -1,0 +1,33 @@
+---
+title: "文字"
+second_title: "Java 経由の Node.js 用 GroupDocs.Viewer API リファレンス"
+description: "単一文字を含む相対位置の矩形を表します。"
+type: docs
+weight: 14
+url: /ja/nodejs-java/com.groupdocs.viewer.results/character/
+---
+**All Implemented Interfaces:**
+com.groupdocs.viewer.results.TextElement, java.io.Serializable
+```
+public interface Character extends TextElement<Character>, Serializable
+```
+
+単一文字を含む相対位置の矩形を表します。
+
+Character インターフェイスは、GroupDocs.Viewer コンポーネント内で矩形で表現される文字にアクセスし操作するための契約を定義します。文字自体、位置、矩形のサイズなどの情報を取得するメソッドを提供します。
+
+使用例:
+
+```
+
+ try (Viewer viewer = new Viewer("document.pdf")) {
+     PdfViewInfo viewInfo = (PdfViewInfo) viewer.getViewInfo(ViewInfoOptions.forHtmlView());
+     List characters = viewInfo.getPages().get(0).getLines().get(0).getWords().get(0).getCharacters();
+     Character character = characters.get(0);
+
+     // Use the character object for further operations
+ }
+ 
+```
+
+***Note:** The default implementation of this interface is CharacterImpl.*
