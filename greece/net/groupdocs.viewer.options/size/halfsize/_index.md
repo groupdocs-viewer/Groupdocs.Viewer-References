@@ -1,0 +1,24 @@
+---
+title: "HalfSize"
+second_title: "Αναφορά API του GroupDocs.Viewer for .NET"
+description: "Το μισό του μέγιστου μεγέθους του κειμένου υδατογράμματος που ταιριάζει στη σελίδα."
+type: docs
+weight: 30
+url: /el/net/groupdocs.viewer.options/size/halfsize/
+---
+
+## Size.HalfSize field
+
+Το μισό του μέγιστου μεγέθους του κειμένου υδατογράμματος που ταιριάζει στη σελίδα.
+
+```csharp
+public static readonly Size HalfSize;
+```
+
+### Δείτε επίσης
+
+* class [Size](../../size)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- ΜΗΝ ΕΠΕΞΕΡΓΑΣΕΤΕ: δημιουργήθηκε από το xmldocmd για το GroupDocs.Viewer.dll -->

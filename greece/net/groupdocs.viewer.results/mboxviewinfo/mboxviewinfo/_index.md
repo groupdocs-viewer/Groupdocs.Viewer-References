@@ -1,0 +1,56 @@
+---
+title: "MboxViewInfo"
+second_title: "Αναφορά API του GroupDocs.Viewer for .NET"
+description: "Αρχικοποιεί νέα παρουσία της κλάσης MboxViewInfogroupdocs.viewer.results/mboxviewinfo."
+type: docs
+weight: 10
+url: /el/net/groupdocs.viewer.results/mboxviewinfo/mboxviewinfo/
+---
+
+## MboxViewInfo() {#constructor}
+
+Αρχικοποιεί νέα παρουσία της κλάσης [`MboxViewInfo`](../../mboxviewinfo).
+
+```csharp
+public MboxViewInfo()
+```
+
+### Δείτε επίσης
+
+* class [MboxViewInfo](../../mboxviewinfo)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## MboxViewInfo(FileType, List&lt;Page&gt;, int) {#constructor_1}
+
+Αρχικοποιεί νέα παρουσία της κλάσης [`MboxViewInfo`](../../mboxviewinfo).
+
+```csharp
+public MboxViewInfo(FileType fileType, List<Page> pages, int notesCount)
+```
+
+| Παράμετρος | Type | Περιγραφή |
+| --- | --- | --- |
+| fileType | FileType | Ο τύπος του αρχείου. |
+| σελίδες | List`1 | Η λίστα των σελίδων προς προβολή. |
+| notesCount | Int32 | Ο αριθμός σημειώσεων που περιέχεται στο αρχείο αποθήκευσης βάσης δεδομένων Lotus. |
+
+### Εξαιρέσεις
+
+| εξαίρεση | συνθήκη |
+| --- | --- |
+| ArgumentNullException | Εκτοπίζεται όταν το *fileType* είναι null. |
+| ArgumentNullException | Ρίχνεται όταν *pages* είναι null. |
+| ArgumentNullException | Εκτοπίζεται όταν το *notesCount* είναι null. |
+
+### Δείτε επίσης
+
+* class [FileType](../../../groupdocs.viewer/filetype)
+* class [Page](../../page)
+* class [MboxViewInfo](../../mboxviewinfo)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- ΜΗΝ ΕΠΕΞΕΡΓΑΣΕΤΕ: δημιουργήθηκε από το xmldocmd για το GroupDocs.Viewer.dll -->
