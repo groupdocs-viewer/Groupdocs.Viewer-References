@@ -1,0 +1,24 @@
+---
+title: "name 属性"
+second_title: "GroupDocs.Viewer 用于 Python，通过 .NET API 参考"
+description: "字段名称。"
+type: docs
+url: /zh/python-net/groupdocs.viewer.options/field/name/
+is_root: false
+weight: 2010
+---
+
+
+## name property
+
+字段名称。
+
+### Definition:
+```python
+@property
+def name(self):
+    ...
+```
+
+### 另见
+* class [`Field`](/viewer/python-net/groupdocs.viewer.options/field/)
