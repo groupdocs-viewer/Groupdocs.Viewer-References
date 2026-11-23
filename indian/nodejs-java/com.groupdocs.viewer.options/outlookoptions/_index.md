@@ -1,0 +1,195 @@
+---
+title: "OutlookOptions"
+second_title: "GroupDocs.Viewer for Node.js via Java API Reference"
+description: "Outlook डेटा फ़ाइलों को रेंडर करने के विकल्प प्रदान करता है।"
+type: docs
+weight: 20
+url: /hi/nodejs-java/com.groupdocs.viewer.options/outlookoptions/
+---
+**Inheritance:**
+java.lang.Object
+```
+public class OutlookOptions
+```
+
+Outlook डेटा फ़ाइलों को रेंडर करने के विकल्प प्रदान करता है।
+
+OutlookOptions क्लास विभिन्न सेटिंग्स और पैरामीटर को समाहित करती है जिन्हें GroupDocs.Viewer कॉम्पोनेन्ट में Outlook डेटा फ़ाइलों (जैसे PST या OST फ़ाइलें) के रेंडरिंग को नियंत्रित करने के लिए उपयोग किया जा सकता है।
+
+विवरण के लिए, देखें [documentation][].
+
+उदाहरण उपयोग:
+
+```
+
+ OutlookOptions options = new OutlookOptions();
+ options.setAddressFilter("@gmail.com");
+ options.setFolder("folderName");
+
+ final HtmlViewOptions htmlViewOptions = HtmlViewOptions.forEmbeddedResources();
+ htmlViewOptions.setOutlookOptions(options);
+
+ try (Viewer viewer = new Viewer("mail.pst")) {
+   viewer.view(htmlViewOptions);
+   // Use the viewer object for further operations
+ }
+ 
+```
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-lotus-notes-database-files/#specify-rendering-options
+## कंस्ट्रक्टर्स
+
+| कंस्ट्रक्टर | विवरण |
+| --- | --- |
+| [OutlookOptions()](#OutlookOptions--) |  |
+## मेथड्स
+
+| मेथड | विवरण |
+| --- | --- |
+| [getFolder()](#getFolder--) | रेंडर करने के लिए फ़ोल्डर का नाम प्राप्त करता है। |
+| [setFolder(String value)](#setFolder-java.lang.String-) | रेंडर करने के लिए फ़ोल्डर का नाम सेट करता है। |
+| [getTextFilter()](#getTextFilter--) | संदेशों को फ़िल्टर करने के लिए उपयोग किए जाने वाले कीवर्ड प्राप्त करता है। |
+| [setTextFilter(String value)](#setTextFilter-java.lang.String-) | संदेशों को फ़िल्टर करने के लिए उपयोग किए जाने वाले कीवर्ड प्राप्त करता है। |
+| [getAddressFilter()](#getAddressFilter--) | प्रेषक या प्राप्तकर्ता द्वारा संदेशों को फ़िल्टर करने के लिए उपयोग किया जाने वाला ईमेल पता प्राप्त करता है। |
+| [setAddressFilter(String value)](#setAddressFilter-java.lang.String-) | प्रेषक या प्राप्तकर्ता द्वारा संदेशों को फ़िल्टर करने के लिए उपयोग किया जाने वाला ईमेल पता सेट करता है। |
+| [getMaxItemsInFolder()](#getMaxItemsInFolder--) | एक फ़ोल्डर से रेंडर किए जा सकने वाले संदेशों या आइटमों की अधिकतम संख्या प्राप्त करता है। |
+| [setMaxItemsInFolder(int value)](#setMaxItemsInFolder-int-) | एक फ़ोल्डर से रेंडर किए जा सकने वाले संदेशों या आइटमों की अधिकतम संख्या सेट करता है। |
+### OutlookOptions() {#OutlookOptions--}
+```
+public OutlookOptions()
+```
+
+
+### getFolder() {#getFolder--}
+```
+public final String getFolder()
+```
+
+
+रेंडर करने के लिए फ़ोल्डर का नाम प्राप्त करता है। रेंडर करने के लिए फ़ोल्डर का नाम (जैसे, Inbox, Sent Item, या Deleted Items)।
+
+जब Outlook डेटा फ़ाइल को रेंडर किया जाता है, GroupDocs.Viewer फ़ाइल में मौजूद सभी फ़ोल्डरों (नेस्टेड फ़ोल्डरों सहित) से संदेश रेंडर करता है। इस प्रॉपर्टी का उपयोग किसी विशिष्ट फ़ोल्डर से आइटम रेंडर करने के लिए करें। कोड उदाहरण के लिए, इस [documentation][]. देखें।
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#render-a-specific-folder
+
+**Returns:**
+java.lang.String - रेंडर करने के लिए फ़ोल्डर का नाम।
+### setFolder(String value) {#setFolder-java.lang.String-}
+```
+public final void setFolder(String value)
+```
+
+
+रेंडर करने के लिए फ़ोल्डर का नाम सेट करता है। रेंडर करने के लिए फ़ोल्डर का नाम (जैसे, Inbox, Sent Item, या Deleted Items)।
+
+जब Outlook डेटा फ़ाइल को रेंडर किया जाता है, GroupDocs.Viewer फ़ाइल में मौजूद सभी फ़ोल्डरों (नेस्टेड फ़ोल्डरों सहित) से संदेश रेंडर करता है। इस प्रॉपर्टी का उपयोग किसी विशिष्ट फ़ोल्डर से आइटम रेंडर करने के लिए करें। कोड उदाहरण के लिए, इस [documentation][]. देखें।
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#render-a-specific-folder
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | java.lang.String | रेंडर करने के लिए फ़ोल्डर का नाम। |
+
+### getTextFilter() {#getTextFilter--}
+```
+public final String getTextFilter()
+```
+
+
+संदेशों को फ़िल्टर करने के लिए उपयोग किए जाने वाले कीवर्ड प्राप्त करता है।
+
+इस प्रॉपर्टी का उपयोग करके विषय या बॉडी में विशिष्ट टेक्स्ट वाले सभी संदेशों को रेंडर करें। कोड उदाहरण के लिए, देखें [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#filter-messages
+
+**Returns:**
+java.lang.String - कीवर्ड्स।
+### setTextFilter(String value) {#setTextFilter-java.lang.String-}
+```
+public final void setTextFilter(String value)
+```
+
+
+संदेशों को फ़िल्टर करने के लिए उपयोग किए जाने वाले कीवर्ड प्राप्त करता है।
+
+इस प्रॉपर्टी का उपयोग करके विषय या बॉडी में विशिष्ट टेक्स्ट वाले सभी संदेशों को रेंडर करें। कोड उदाहरण के लिए, देखें [documentation][].
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#filter-messages
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | java.lang.String | कीवर्ड्स। |
+
+### getAddressFilter() {#getAddressFilter--}
+```
+public final String getAddressFilter()
+```
+
+
+प्रेषक या प्राप्तकर्ता द्वारा संदेशों को फ़िल्टर करने के लिए उपयोग किया जाने वाला ईमेल पता प्राप्त करता है।
+
+इस प्रॉपर्टी का उपयोग उन सभी संदेशों को रेंडर करने के लिए करें जिनमें प्रेषक\ufffds या प्राप्तकर्ता\ufffds पते में विशिष्ट पाठ हो। कोड उदाहरण के लिए, इस [documentation][]. देखें।
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#filter-messages
+
+**Returns:**
+java.lang.String - संदेशों को फ़िल्टर करने के लिए उपयोग किया गया ईमेल पता।
+### setAddressFilter(String value) {#setAddressFilter-java.lang.String-}
+```
+public final void setAddressFilter(String value)
+```
+
+
+प्रेषक या प्राप्तकर्ता द्वारा संदेशों को फ़िल्टर करने के लिए उपयोग किया जाने वाला ईमेल पता सेट करता है।
+
+इस प्रॉपर्टी का उपयोग उन सभी संदेशों को रेंडर करने के लिए करें जिनमें प्रेषक\ufffds या प्राप्तकर्ता\ufffds पते में विशिष्ट पाठ हो। कोड उदाहरण के लिए, इस [documentation][]. देखें।
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#filter-messages
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | java.lang.String | संदेशों को फ़िल्टर करने के लिए उपयोग किया गया ईमेल पता। |
+
+### getMaxItemsInFolder() {#getMaxItemsInFolder--}
+```
+public final int getMaxItemsInFolder()
+```
+
+
+एक फ़ोल्डर से रेंडर किए जा सकने वाले संदेशों या आइटमों की अधिकतम संख्या प्राप्त करता है।
+
+Outlook डेटा फ़ाइलें बड़ी हो सकती हैं और सभी संदेशों को प्राप्त करने में काफी समय लग सकता है। यह सेटिंग रेंडर किए जाने वाले संदेशों या आइटमों (जैसे संपर्क और कार्य) की अधिकतम संख्या को सीमित करती है। डिफ़ॉल्ट मान 50 है। सभी संदेश रेंडर करने के लिए मान को 0 सेट करें। कोड उदाहरण के लिए, इस [documentation][]. देखें।
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#limit-the-number-of-folder-items-to-render
+
+**Returns:**
+int - एक फ़ोल्डर से रेंडर की जा सकने वाली संदेशों या आइटमों की अधिकतम संख्या।
+### setMaxItemsInFolder(int value) {#setMaxItemsInFolder-int-}
+```
+public final void setMaxItemsInFolder(int value)
+```
+
+
+एक फ़ोल्डर से रेंडर किए जा सकने वाले संदेशों या आइटमों की अधिकतम संख्या सेट करता है।
+
+Outlook डेटा फ़ाइलें बड़ी हो सकती हैं और सभी संदेशों को प्राप्त करने में काफी समय लग सकता है। यह सेटिंग रेंडर किए जाने वाले संदेशों या आइटमों (जैसे संपर्क और कार्य) की अधिकतम संख्या को सीमित करती है। डिफ़ॉल्ट मान 50 है। सभी संदेश रेंडर करने के लिए मान को 0 सेट करें। कोड उदाहरण के लिए, इस [documentation][]. देखें।
+
+
+[documentation]: https://docs.groupdocs.com/viewer/java/render-outlook-data-files/#limit-the-number-of-folder-items-to-render
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| value | int | एक फ़ोल्डर से रेंडर की जा सकने वाली संदेशों या आइटमों की अधिकतम संख्या। |
+

@@ -1,0 +1,84 @@
+---
+title: "ProjectManagementViewInfo"
+second_title: "GroupDocs.Viewer for Node.js via Java API Reference"
+description: "MS Project दस्तावेज़ के लिए दृश्य जानकारी का प्रतिनिधित्व करता है।"
+type: docs
+weight: 23
+url: /hi/nodejs-java/com.groupdocs.viewer.results/projectmanagementviewinfo/
+---
+**All Implemented Interfaces:**
+[com.groupdocs.viewer.results.ViewInfo](../../com.groupdocs.viewer.results/viewinfo)
+```
+public interface ProjectManagementViewInfo extends ViewInfo
+```
+
+MS Project दस्तावेज़ के लिए दृश्य जानकारी का प्रतिनिधित्व करता है।
+
+ProjectManagementViewInfo इंटरफ़ेस MS Project दस्तावेज़ के लिए GroupDocs.Viewer घटक में दृश्य जानकारी तक पहुँचने और उसे संशोधित करने के अनुबंध को परिभाषित करता है। यह प्रारंभ और समाप्ति तिथियों जैसी जानकारी तथा अन्य गुणों को प्राप्त करने के लिए मेथड्स प्रदान करता है।
+
+उदाहरण उपयोग:
+
+```
+
+ try (Viewer viewer = new Viewer("document.mpp")) {
+     final ProjectManagementViewInfo viewInfo = (ProjectManagementViewInfo) viewer.getViewInfo(ViewInfoOptions.forPngView());
+     // Use the viewInfo object for further operations
+ }
+ 
+```
+
+***Note:** The default implementation of this interface is ProjectManagementViewInfoImpl.*
+## मेथड्स
+
+| मेथड | विवरण |
+| --- | --- |
+| [getStartDate()](#getStartDate--) | प्रोजेक्ट के शुरू होने की तिथि और समय प्राप्त करता है। |
+| [setStartDate(Date startDate)](#setStartDate-java.util.Date-) | प्रोजेक्ट के लिए प्रारंभ तिथि और समय सेट करता है। |
+| [getEndDate()](#getEndDate--) | प्रोजेक्ट के पूर्ण होने की तिथि और समय प्राप्त करता है। |
+| [setEndDate(Date endDate)](#setEndDate-java.util.Date-) | प्रोजेक्ट के लिए समाप्ति तिथि और समय सेट करता है। |
+### getStartDate() {#getStartDate--}
+```
+public abstract Date getStartDate()
+```
+
+
+प्रोजेक्ट के शुरू होने की तिथि और समय प्राप्त करता है।
+
+**Returns:**
+java.util.Date - प्रोजेक्ट की प्रारंभ तिथि और समय।
+### setStartDate(Date startDate) {#setStartDate-java.util.Date-}
+```
+public abstract void setStartDate(Date startDate)
+```
+
+
+प्रोजेक्ट के लिए प्रारंभ तिथि और समय सेट करता है।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| startDate | java.util.Date | सेट करने के लिए नई प्रारंभ तिथि और समय। |
+
+### getEndDate() {#getEndDate--}
+```
+public abstract Date getEndDate()
+```
+
+
+प्रोजेक्ट के पूर्ण होने की तिथि और समय प्राप्त करता है।
+
+**Returns:**
+java.util.Date - प्रोजेक्ट की समाप्ति तिथि और समय।
+### setEndDate(Date endDate) {#setEndDate-java.util.Date-}
+```
+public abstract void setEndDate(Date endDate)
+```
+
+
+प्रोजेक्ट के लिए समाप्ति तिथि और समय सेट करता है।
+
+**Parameters:**
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| endDate | java.util.Date | सेट करने के लिए नई समाप्ति तिथि और समय। |
+
