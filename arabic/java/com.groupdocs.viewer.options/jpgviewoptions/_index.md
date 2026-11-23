@@ -1,0 +1,472 @@
+---
+title: "JpgViewOptions"
+second_title: "GroupDocs.Viewer لـ Java مرجع API"
+description: "يوفر خيارات لعرض المستندات بصيغة JPG."
+type: docs
+weight: 17
+url: /ar/java/com.groupdocs.viewer.options/jpgviewoptions/
+---
+**Inheritance:**
+java.lang.Object, [com.groupdocs.viewer.options.BaseViewOptions](../../com.groupdocs.viewer.options/baseviewoptions), [com.groupdocs.viewer.options.ViewOptions](../../com.groupdocs.viewer.options/viewoptions)
+
+**All Implemented Interfaces:**
+[com.groupdocs.viewer.options.IMaxSizeOptions](../../com.groupdocs.viewer.options/imaxsizeoptions)
+```
+public class JpgViewOptions extends ViewOptions implements IMaxSizeOptions
+```
+
+يوفر خيارات لعرض المستندات بصيغة JPG.
+
+
+فئة JpgViewOptions تضم إعدادات ومعلمات إضافية يمكن استخدامها للتحكم في عرض المستندات
+إلى تنسيق JPG في مكوّن GroupDocs.Viewer.
+
+
+مثال على الاستخدام:
+
+````
+
+ JpgViewOptions options = new JpgViewOptions();
+ options.setMaxWidth(1920);
+ options.setMaxHeight(1080);
+ options.setQuality((byte) 96);
+ options.setRenderComments(true);
+
+ try (Viewer viewer = new Viewer("document.docx")) {
+     viewer.view(options);
+     // Use the viewer object for further operations
+ }
+ 
+````
+
+
+***Note:** The JpgViewOptions class implements the IMaxSizeOptions interface to specify the maximum size of the output JPG images.*
+
+## المنشئات
+
+| منشئ | الوصف |
+| --- | --- |
+|  | [JpgViewOptions(CreatePageStream createPageStream)](#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-) | ينشئ مثلاً جديداً من |
+JpgViewOptions
+الفئة.
+|
+|  | [JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)](#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-) | ينشئ مثلاً جديداً من |
+JpgViewOptions
+الفئة.
+|
+|  | [JpgViewOptions(PageStreamFactory pageStreamFactory)](#JpgViewOptions-com.groupdocs.viewer.interfaces.PageStreamFactory-) | ينشئ مثلاً جديداً من |
+JpgViewOptions
+الفئة.
+|
+|  | [JpgViewOptions()](#JpgViewOptions--) | يُنشئ نسخة جديدة من |
+JpgViewOptions
+مع "p_{0}.jpg" كتنسيق مسار الملف للملفات الناتجة.
+|
+|  | [JpgViewOptions(String filePathFormat)](#JpgViewOptions-java.lang.String-) | ينشئ مثلاً جديداً من |
+JpgViewOptions
+الفئة.
+|
+|  | [JpgViewOptions(Path filePathFormat)](#JpgViewOptions-java.nio.file.Path-) | ينشئ مثلاً جديداً من |
+JpgViewOptions
+الفئة.
+|
+## الطرق
+
+| طريقة | الوصف |
+| --- | --- |
+|  | [getMaxWidth()](#getMaxWidth--) | يحصل على أقصى عرض للصورة الناتجة بالبكسل. |
+|
+|  | [setMaxWidth(int maxWidth)](#setMaxWidth-int-) | يضبط الحد الأقصى لعرض صورة الإخراج بالبكسل. |
+|
+|  | [getMaxHeight()](#getMaxHeight--) | يحصل على الحد الأقصى لارتفاع الصورة الناتجة بالبكسل. |
+|
+|  | [setMaxHeight(int maxHeight)](#setMaxHeight-int-) | يضبط الحد الأقصى لارتفاع صورة الإخراج بالبكسل. |
+|
+|  | [getQuality()](#getQuality--) | يحصل على جودة الصورة الناتجة. |
+|
+|  | [setQuality(byte value)](#setQuality-byte-) | يضبط جودة الصورة الناتجة. |
+|
+|  | [isExtractText()](#isExtractText--) | يُمكّن استخراج النص. |
+|
+|  | [setExtractText(boolean value)](#setExtractText-boolean-) | يفعل أو يعطل استخراج النص. |
+|
+|  | [getWidth()](#getWidth--) | يحصل على عرض الصورة الناتجة بالبكسل. |
+|
+|  | [setWidth(int value)](#setWidth-int-) | يضبط عرض الصورة الناتجة بالبكسل. |
+|
+|  | [getHeight()](#getHeight--) | يحصل على ارتفاع الصورة الناتجة بالبكسل. |
+|
+|  | [setHeight(int value)](#setHeight-int-) | يضبط ارتفاع الصورة الناتجة بالبكسل. |
+|
+|  | [getPageStreamFactory()](#getPageStreamFactory--) | يحصل على المصنع الذي ينفّذ طرق إنشاء وإصدار تدفق صفحة الإخراج. |
+|
+|  | [getDocumentSavingCallback()](#getDocumentSavingCallback--) | يحصل على رد النداء لتقدير تقدم حفظ مستند Words أو Email. |
+|
+|  | [setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)](#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-) | يضبط رد النداء لتقدير تقدم حفظ مستند Words أو Email. |
+|
+### JpgViewOptions(CreatePageStream createPageStream) {#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-}
+```
+public JpgViewOptions(CreatePageStream createPageStream)
+```
+
+
+ينشئ مثلاً جديداً من
+JpgViewOptions
+الفئة.
+
+
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-jpeg).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | الطريقة التي تنشئ الدفق المستخدم لكتابة بيانات صفحة الإخراج. |
+|
+
+### JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream) {#JpgViewOptions-com.groupdocs.viewer.interfaces.CreatePageStream-com.groupdocs.viewer.interfaces.ReleasePageStream-}
+```
+public JpgViewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
+```
+
+
+ينشئ مثلاً جديداً من
+JpgViewOptions
+الفئة.
+
+
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-jpeg).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | createPageStream | [CreatePageStream](../../com.groupdocs.viewer.interfaces/createpagestream) | الطريقة التي تنشئ الدفق المستخدم لكتابة بيانات صفحة الإخراج. |
+|
+|  | releasePageStream | [ReleasePageStream](../../com.groupdocs.viewer.interfaces/releasepagestream) | الطريقة التي تُطلق التدفق الذي أنشأته الطريقة المعيّنة للموّزع الممرَّ إلى معلمة  createPageStream . |
+|
+
+### JpgViewOptions(PageStreamFactory pageStreamFactory) {#JpgViewOptions-com.groupdocs.viewer.interfaces.PageStreamFactory-}
+```
+public JpgViewOptions(PageStreamFactory pageStreamFactory)
+```
+
+
+ينشئ مثلاً جديداً من
+JpgViewOptions
+الفئة.
+
+
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-jpeg).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | pageStreamFactory | [PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) | المصنع الذي يطبق طرقًا لإنشاء وإطلاق تدفق الصفحة الناتجة. |
+|
+
+### JpgViewOptions() {#JpgViewOptions--}
+```
+public JpgViewOptions()
+```
+
+
+يُنشئ نسخة جديدة من
+JpgViewOptions
+مع "p_{0}.jpg" كتنسيق مسار الملف للملفات الناتجة.
+ستُوضع ملفات الإخراج في الدليل العامل الحالي للتطبيق.
+
+
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-jpeg).
+
+
+### JpgViewOptions(String filePathFormat) {#JpgViewOptions-java.lang.String-}
+```
+public JpgViewOptions(String filePathFormat)
+```
+
+
+ينشئ مثلاً جديداً من
+JpgViewOptions
+الفئة.
+
+
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-jpeg).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | filePathFormat | java.lang.String | تنسيق مسار الملف، مثال: 'page_{0}.jpg'. |
+|
+
+### JpgViewOptions(Path filePathFormat) {#JpgViewOptions-java.nio.file.Path-}
+```
+public JpgViewOptions(Path filePathFormat)
+```
+
+
+ينشئ مثلاً جديداً من
+JpgViewOptions
+الفئة.
+
+
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/rendering-to-png-or-jpeg/#rendering-to-jpeg).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | filePathFormat | java.nio.file.Path | تنسيق مسار الملف، مثال: 'page_{0}.jpg'. |
+|
+
+### getMaxWidth() {#getMaxWidth--}
+```
+public int getMaxWidth()
+```
+
+
+يحصل على أقصى عرض للصورة الناتجة بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين الحد الأقصى لعرض صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/).
+إذا قمت بتعيين الخاصية #setWidth(int).setWidth(int)، سيتم تجاهل هذه الخاصية.
+
+
+**Returns:**
+int - الحد الأقصى لعرض صورة الإخراج.
+
+### setMaxWidth(int maxWidth) {#setMaxWidth-int-}
+```
+public void setMaxWidth(int maxWidth)
+```
+
+
+يضبط الحد الأقصى لعرض صورة الإخراج بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين الحد الأقصى لعرض صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/).
+إذا قمت بتعيين الخاصية #setWidth(int).setWidth(int)، سيتم تجاهل هذه الخاصية.
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | maxWidth | int | الحد الأقصى لعرض صورة الإخراج. |
+|
+
+### getMaxHeight() {#getMaxHeight--}
+```
+public int getMaxHeight()
+```
+
+
+يحصل على الحد الأقصى لارتفاع الصورة الناتجة بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين الحد الأقصى لارتفاع صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/).
+إذا قمت بتعيين الخاصية #setHeight(int).setHeight(int)، سيتم تجاهل هذه الخاصية.
+
+
+**Returns:**
+int - الحد الأقصى لارتفاع صورة الإخراج.
+
+### setMaxHeight(int maxHeight) {#setMaxHeight-int-}
+```
+public void setMaxHeight(int maxHeight)
+```
+
+
+يضبط الحد الأقصى لارتفاع صورة الإخراج بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين الحد الأقصى لارتفاع صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/set-image-size-limits-when-rendering-to-png-jpg/).
+إذا قمت بتعيين الخاصية #setHeight(int).setHeight(int)، سيتم تجاهل هذه الخاصية.
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | maxHeight | int | الحد الأقصى لارتفاع صورة الإخراج. |
+|
+
+### getQuality() {#getQuality--}
+```
+public final byte getQuality()
+```
+
+
+يحصل على جودة الصورة الناتجة.
+
+
+***Note:** Use this property to adjust images quality. The value must be between 1 (minimum quality) and 100. The default value is 90.*
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/image-viewer-adjust-quality-for-jpg/).
+
+
+**Returns:**
+byte - جودة الصورة الناتجة.
+
+### setQuality(byte value) {#setQuality-byte-}
+```
+public final void setQuality(byte value)
+```
+
+
+يضبط جودة الصورة الناتجة.
+
+
+***Note:** Use this property to adjust images quality. The value must be between 1 (minimum quality) and 100. The default value is 90.*
+للحصول على مثال الشيفرة، راجع [الوثائق](../https://docs.groupdocs.com/viewer/java/image-viewer-adjust-quality-for-jpg/).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | القيمة | byte | جودة الصورة الناتجة. |
+|
+
+### isExtractText() {#isExtractText--}
+```
+public final boolean isExtractText()
+```
+
+
+يُمكّن استخراج النص.
+
+
+***Note:** Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering.*
+للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/image-viewer-get-text-coordinates/).
+
+
+**Returns:**
+boolean -  true  إذا تم تمكين استخراج النص،  false  خلاف ذلك.
+
+### setExtractText(boolean value) {#setExtractText-boolean-}
+```
+public final void setExtractText(boolean value)
+```
+
+
+يفعل أو يعطل استخراج النص.
+
+
+***Note:** Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering.*
+للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/image-viewer-get-text-coordinates/).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | القيمة | boolean | true  لتمكين استخراج النص،  false  لتعطيله. |
+|
+
+### getWidth() {#getWidth--}
+```
+public final int getWidth()
+```
+
+
+يحصل على عرض الصورة الناتجة بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين عرض صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/).
+إذا قمت بتعيين هذه الخاصية، سيتم تجاهل الخاصية #setMaxWidth(int).setMaxWidth(int).
+
+
+**Returns:**
+int - عرض صورة الإخراج.
+
+### setWidth(int value) {#setWidth-int-}
+```
+public final void setWidth(int value)
+```
+
+
+يضبط عرض الصورة الناتجة بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين عرض صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/).
+إذا قمت بتعيين هذه الخاصية، سيتم تجاهل الخاصية #setMaxWidth(int).setMaxWidth(int).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | القيمة | int | عرض صورة الإخراج. |
+|
+
+### getHeight() {#getHeight--}
+```
+public final int getHeight()
+```
+
+
+يحصل على ارتفاع الصورة الناتجة بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين ارتفاع صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/).
+إذا قمت بتعيين هذه الخاصية، سيتم تجاهل الخاصية #setMaxHeight(int).setMaxHeight(int).
+
+
+**Returns:**
+int - ارتفاع صورة الإخراج.
+
+### setHeight(int value) {#setHeight-int-}
+```
+public final void setHeight(int value)
+```
+
+
+يضبط ارتفاع الصورة الناتجة بالبكسل.
+
+
+استخدم هذه الخاصية لتعيين ارتفاع صورة الإخراج (بالبكسل). للحصول على مثال شفرة، راجع [documentation](../https://docs.groupdocs.com/viewer/java/image-viewer-adjust-image-size/).
+إذا قمت بتعيين هذه الخاصية، سيتم تجاهل الخاصية #setMaxHeight(int).setMaxHeight(int).
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | القيمة | int | ارتفاع صورة الإخراج. |
+|
+
+### getPageStreamFactory() {#getPageStreamFactory--}
+```
+public final PageStreamFactory getPageStreamFactory()
+```
+
+
+يحصل على المصنع الذي ينفّذ طرق إنشاء وإصدار تدفق صفحة الإخراج.
+
+
+**Returns:**
+[PageStreamFactory](../../com.groupdocs.viewer.interfaces/pagestreamfactory) - the factory for the output page stream.
+
+### getDocumentSavingCallback() {#getDocumentSavingCallback--}
+```
+public IDocumentSavingCallback getDocumentSavingCallback()
+```
+
+
+يحصل على رد النداء لتقدير تقدم حفظ مستند Words أو Email.
+
+
+**Returns:**
+com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback - رد النداء لتقدير تقدم حفظ المستند.
+
+### setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback) {#setDocumentSavingCallback-com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback-}
+```
+public void setDocumentSavingCallback(IDocumentSavingCallback documentSavingCallback)
+```
+
+
+يضبط رد النداء لتقدير تقدم حفظ مستند Words أو Email.
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+|  | documentSavingCallback | com.groupdocs.viewer.domain.documents.converting.tohtml.utils.IDocumentSavingCallback | رد النداء لتقدير تقدم حفظ المستند. |
+|
+
