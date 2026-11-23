@@ -1,0 +1,25 @@
+---
+title: "constructeur __init__"
+second_title: "Références API de GroupDocs.Viewer pour Python via .NET"
+description: "Constructeur de la classe CreatePageStream — GroupDocs.Viewer pour Python via .NET."
+type: docs
+url: /fr/python-net/groupdocs.viewer.interfaces/createpagestream/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__ {#object-method}
+
+```python
+def __init__(self, object, method):
+    ...
+```
+
+| Paramètre | Type | Description |
+| :- | :- | :- |
+| object | `Any` |  |
+| method | `System.IntPtr` |  |
+
+### Voir aussi
+* class [`CreatePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/createpagestream/)
