@@ -1,0 +1,126 @@
+---
+title: "TimeUnit"
+second_title: "GroupDocs.Viewer for Java API Reference"
+description: "परियोजना अवधि की समय इकाई।"
+type: docs
+weight: 47
+url: /hi/java/com.groupdocs.viewer.options/timeunit/
+---
+**Inheritance:**
+java.lang.Object, java.lang.Enum
+```
+public enum TimeUnit extends Enum<TimeUnit>
+```
+
+परियोजना अवधि की समय इकाई।
+
+
+TimeUnit enum प्रोजेक्ट की अवधि को निर्दिष्ट करने के लिए विभिन्न समय इकाइयों का प्रतिनिधित्व करता है, जो GroupDocs.Viewer घटक में उपयोग होती हैं।
+यह पूर्वनिर्धारित समय इकाइयों का एक सेट प्रदान करता है, जिसका उपयोग प्रोजेक्ट की अवधि को दर्शाने और गणना करने के लिए किया जा सकता है,
+जैसे दिन, महीने आदि।
+विवरण के लिए, देखें [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit)।
+
+
+उदाहरण उपयोग:
+
+````
+
+ HtmlViewOptions pdfViewOptions = HtmlViewOptions.forEmbeddedResources();
+ ProjectManagementOptions projectManagementOptions = pdfViewOptions.getProjectManagementOptions();
+ projectManagementOptions.setTimeUnit(TimeUnit.MONTHS);
+
+ try (Viewer viewer = new Viewer("document.mpp")) {
+     viewer.view(pdfViewOptions);
+     // Use the viewer object for further operations
+ }
+ 
+````
+
+
+## Fields
+
+| Field | विवरण |
+| --- | --- |
+|  | [UNSPECIFIED](#UNSPECIFIED) | अज्ञात समय स्केल। |
+|
+|  | [DAYS](#DAYS) | दिनों का समय स्केल। |
+|
+|  | [THIRDS_OF_MONTHS](#THIRDS-OF-MONTHS) | महीनों के तिहाई समय स्केल। |
+|
+|  | [MONTHS](#MONTHS) | महीनों का समय स्केल। |
+|
+## Methods
+
+| Method | विवरण |
+| --- | --- |
+| [values()](#values--) |  |
+| [valueOf(String name)](#valueOf-java.lang.String-) |  |
+### UNSPECIFIED {#UNSPECIFIED}
+```
+public static final TimeUnit UNSPECIFIED
+```
+
+
+अज्ञात समय स्केल।
+यह समय इकाई एक अज्ञात या अनिर्दिष्ट समय स्केल को दर्शाती है।
+विवरण के लिए, देखें [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit)।
+
+
+### DAYS {#DAYS}
+```
+public static final TimeUnit DAYS
+```
+
+
+दिनों का समय स्केल।
+यह समय इकाई एक एक-दिन अंतराल को दर्शाती है।
+विवरण के लिए, देखें [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit)।
+
+
+### THIRDS_OF_MONTHS {#THIRDS-OF-MONTHS}
+```
+public static final TimeUnit THIRDS_OF_MONTHS
+```
+
+
+महीनों के तिहाई समय स्केल।
+यह समय इकाई महीने के एक-तिहाई अंतराल को दर्शाती है।
+विवरण के लिए, देखें [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit)।
+
+
+### MONTHS {#MONTHS}
+```
+public static final TimeUnit MONTHS
+```
+
+
+महीनों का समय स्केल।
+यह समय इकाई एक महीने के अंतराल को दर्शाती है।
+विवरण के लिए, देखें [documentation](../https://docs.groupdocs.com/viewer/java/render-ms-project-files/#adjust-the-time-unit)।
+
+
+### values() {#values--}
+```
+public static TimeUnit[] values()
+```
+
+
+
+
+**Returns:**
+com.groupdocs.viewer.options.TimeUnit[]
+### valueOf(String name) {#valueOf-java.lang.String-}
+```
+public static TimeUnit valueOf(String name)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+| नाम | java.lang.String |  |
+
+**Returns:**
+[TimeUnit](../../com.groupdocs.viewer.options/timeunit)

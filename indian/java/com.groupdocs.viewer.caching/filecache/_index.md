@@ -1,0 +1,243 @@
+---
+title: "FileCache"
+second_title: "GroupDocs.Viewer for Java API Reference"
+description: "स्थानीय डिस्क पर कैश का प्रतिनिधित्व करता है।"
+type: docs
+weight: 11
+url: /hi/java/com.groupdocs.viewer.caching/filecache/
+---
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+[com.groupdocs.viewer.caching.Cache](../../com.groupdocs.viewer.caching/cache)
+```
+public class FileCache implements Cache
+```
+
+स्थानीय डिस्क पर कैश का प्रतिनिधित्व करता है।
+
+
+FileCache class स्थानीय ऑन-डिस्क कैश को GroupDocs.Viewer घटक में दर्शाता है।
+यह डिस्क पर कैश्ड डेटा को संग्रहीत और पुनः प्राप्त करने की कार्यक्षमता प्रदान करता है, जिससे दस्तावेज़ रेंडरिंग कुशल बनती है।
+
+
+उदाहरण उपयोग:
+
+````
+
+ FileCache fileCache = new FileCache(cachePath, cacheSubFolder);
+
+ final ViewerSettings viewerSettings = new ViewerSettings();
+ viewerSettings.setCache(fileCache);
+
+ try (Viewer viewer = new Viewer(documentPath, viewerSettings)) {
+     // Use the viewer object for document rendering
+ }
+ 
+````
+
+
+FileCache का उपयोग करने के लिए, आपको इस class का एक उदाहरण बनाना होगा और उसे ViewerSettings ऑब्जेक्ट को पास करना होगा।
+Viewer ऑब्जेक्ट तब दस्तावेज़ रेंडर करते समय कैशिंग उद्देश्यों के लिए FileCache का उपयोग करेगा।
+
+
+***Note:** The FileCache is just one of the cache implementations provided by GroupDocs.Viewer.
+आप Cache इंटरफ़ेस को लागू करके अपना स्वयं का कस्टम कैश भी लागू कर सकते हैं।*
+
+## Constructors
+
+| Constructor | विवरण |
+| --- | --- |
+|  | [FileCache(String cachePath)](#FileCache-java.lang.String-) | नया उदाहरण बनाता है |
+FileCache
+class।
+|
+|  | [FileCache(Path cachePath)](#FileCache-java.nio.file.Path-) | नया उदाहरण बनाता है |
+FileCache
+class।
+|
+|  | [FileCache(String cachePath, String cacheSubFolder)](#FileCache-java.lang.String-java.lang.String-) | नया उदाहरण बनाता है |
+FileCache
+class।
+|
+|  | [FileCache(Path cachePath, String cacheSubFolder)](#FileCache-java.nio.file.Path-java.lang.String-) | नया उदाहरण बनाता है |
+FileCache
+class।
+|
+## Fields
+
+| Field | विवरण |
+| --- | --- |
+| [CACHE_PATH](#CACHE-PATH) |  |
+## Methods
+
+| Method | विवरण |
+| --- | --- |
+|  | [getCachePath()](#getCachePath--) | कैश फ़ोल्डर का सापेक्ष या पूर्ण पथ प्राप्त करता है। |
+|
+|  | [getCacheSubFolder()](#getCacheSubFolder--) | कैश पथ में जोड़ने के लिए उप-फ़ोल्डर। |
+|
+|  | [set(String key, Object value)](#set-java.lang.String-java.lang.Object-) | डेटा को स्थानीय डिस्क पर सीरियलाइज़ करता है। |
+|
+|  | [<T>get(String key, Class<T> clazz)](#-T-get-java.lang.String-java.lang.Class-T--) | यदि मौजूद हो तो इस कुंजी से संबंधित डेटा को डीसीरियलाइज़ करता है। |
+|
+|  | [getKeys(String filter)](#getKeys-java.lang.String-) | फ़ाइलनाम में फ़िल्टर शामिल करने वाली सभी फ़ाइल नामों को लौटाता है। |
+|
+### FileCache(String cachePath) {#FileCache-java.lang.String-}
+```
+public FileCache(String cachePath)
+```
+
+
+नया उदाहरण बनाता है
+FileCache
+class।
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+|  | cachePath | java.lang.String | दस्तावेज़ कैश जहाँ संग्रहीत किया जाएगा, उसका सापेक्ष या पूर्ण पथ। |
+|
+
+### FileCache(Path cachePath) {#FileCache-java.nio.file.Path-}
+```
+public FileCache(Path cachePath)
+```
+
+
+नया उदाहरण बनाता है
+FileCache
+class।
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+|  | cachePath | java.nio.file.Path | दस्तावेज़ कैश जहाँ संग्रहीत किया जाएगा, उसका सापेक्ष या पूर्ण पथ। |
+|
+
+### FileCache(String cachePath, String cacheSubFolder) {#FileCache-java.lang.String-java.lang.String-}
+```
+public FileCache(String cachePath, String cacheSubFolder)
+```
+
+
+नया उदाहरण बनाता है
+FileCache
+class।
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+|  | cachePath | java.lang.String | दस्तावेज़ कैश जहाँ संग्रहीत किया जाएगा, उसका सापेक्ष या पूर्ण पथ। |
+|
+|  | cacheSubFolder | java.lang.String | cachePath में जोड़ने के लिए उप-फ़ोल्डर। |
+|
+
+### FileCache(Path cachePath, String cacheSubFolder) {#FileCache-java.nio.file.Path-java.lang.String-}
+```
+public FileCache(Path cachePath, String cacheSubFolder)
+```
+
+
+नया उदाहरण बनाता है
+FileCache
+class।
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+|  | cachePath | java.nio.file.Path | दस्तावेज़ कैश जहाँ संग्रहीत किया जाएगा, उसका सापेक्ष या पूर्ण पथ। |
+|
+|  | cacheSubFolder | java.lang.String | cachePath में जोड़ने के लिए उप-फ़ोल्डर। |
+|
+
+### CACHE_PATH {#CACHE-PATH}
+```
+public static final String CACHE_PATH
+```
+
+
+### getCachePath() {#getCachePath--}
+```
+public final String getCachePath()
+```
+
+
+कैश फ़ोल्डर का सापेक्ष या पूर्ण पथ प्राप्त करता है।
+
+
+**Returns:**
+java.lang.String - कैश फ़ोल्डर का पथ।
+
+### getCacheSubFolder() {#getCacheSubFolder--}
+```
+public final String getCacheSubFolder()
+```
+
+
+कैश पथ में जोड़ने के लिए उप-फ़ोल्डर।
+
+
+**Returns:**
+java.lang.String - जोड़ने के लिए उप-फ़ोल्डर।
+
+### set(String key, Object value) {#set-java.lang.String-java.lang.Object-}
+```
+public final void set(String key, Object value)
+```
+
+
+डेटा को स्थानीय डिस्क पर सीरियलाइज़ करता है।
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+|  | कुंजी | java.lang.String | कैश एंट्री के लिए अद्वितीय पहचानकर्ता। |
+|
+|  | मान | java.lang.Object | सीरियलाइज़ करने के लिए ऑब्जेक्ट। |
+|
+
+### <T>get(String key, Class<T> clazz) {#-T-get-java.lang.String-java.lang.Class-T--}
+```
+public final T <T>get(String key, Class<T> clazz)
+```
+
+
+यदि मौजूद हो तो इस कुंजी से संबंधित डेटा को डीसीरियलाइज़ करता है।
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+|  | कुंजी | java.lang.String | अनुरोधित एंट्री की पहचान करने वाली कुंजी। |
+|
+|  | क्लास | java.lang.Class<T> | अपेक्षित मान की क्लास। |
+|
+
+**Returns:**
+T - प्राप्त मान या null।
+
+### getKeys(String filter) {#getKeys-java.lang.String-}
+```
+public final List<String> getKeys(String filter)
+```
+
+
+फ़ाइलनाम में फ़िल्टर शामिल करने वाली सभी फ़ाइल नामों को लौटाता है।
+
+
+**Parameters:**
+| Parameter | Type | विवरण |
+| --- | --- | --- |
+|  | फ़िल्टर | java.lang.String | उपयोग करने के लिए फ़िल्टर। |
+|
+
+**Returns:**
+java.util.List<java.lang.String> - फ़ाइलनाम में फ़िल्टर शामिल करने वाली फ़ाइल नाम।
+
