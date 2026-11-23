@@ -1,0 +1,28 @@
+---
+title: "ImageMaxHeight"
+second_title: "GroupDocs.Viewer के लिए .NET API Reference"
+description: "आउटपुट इमेज की अधिकतम ऊँचाई पिक्सेल में। यह प्रॉपर्टी केवल तब उपलब्ध है जब एकल इमेज को HTML में परिवर्तित किया जा रहा हो।"
+type: docs
+weight: 70
+url: /hi/net/groupdocs.viewer.options/htmlviewoptions/imagemaxheight/
+---
+
+## HtmlViewOptions.ImageMaxHeight property
+
+आउटपुट छवि की अधिकतम ऊँचाई (पिक्सेल में)। यह प्रॉपर्टी केवल एकल छवि को HTML में परिवर्तित करते समय उपलब्ध है।
+
+```csharp
+public int ImageMaxHeight { get; set; }
+```
+
+### टिप्पणियाँ
+
+विवरण और कोड उदाहरण के लिए, देखें [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-html/)।
+
+### संबंधित देखें
+
+* class [HtmlViewOptions](../../htmlviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Viewer.dll के लिए उत्पन्न -->

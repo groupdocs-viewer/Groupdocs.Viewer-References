@@ -1,0 +1,30 @@
+---
+title: "ImageHeight"
+second_title: "GroupDocs.Viewer के लिए .NET API Reference"
+description: "आउटपुट इमेज की ऊँचाई पिक्सेल में सेट करता है।"
+type: docs
+weight: 20
+url: /hi/net/groupdocs.viewer.options/pdfviewoptions/imageheight/
+---
+
+## PdfViewOptions.ImageHeight property
+
+आउटपुट छवि की ऊँचाई (पिक्सेल में) सेट करता है।
+
+```csharp
+public int ImageHeight { get; set; }
+```
+
+### टिप्पणियाँ
+
+इस प्रॉपर्टी का उपयोग आउटपुट इमेज की ऊँचाई (पिक्सेल में) सेट करने के लिए करें। GroupDocs.Viewer इस प्रॉपर्टी को केवल तब लागू करता है जब एकल इमेज को HTML में रेंडर किया जाता है। विवरण के लिए, [documentation](https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/) देखें।
+
+यदि आप इस प्रॉपर्टी को सेट करते हैं, तो [`ImageMaxHeight`](../imagemaxheight) प्रॉपर्टी अनदेखी कर दी जाएगी।
+
+### संबंधित देखें
+
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Viewer.dll के लिए उत्पन्न -->

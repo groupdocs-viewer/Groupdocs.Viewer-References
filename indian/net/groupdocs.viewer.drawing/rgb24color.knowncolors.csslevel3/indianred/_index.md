@@ -1,0 +1,25 @@
+---
+title: "भारतीय लाल"
+second_title: "GroupDocs.Viewer के लिए .NET API Reference"
+description: "इंडियन रेड रंग"
+type: docs
+weight: 540
+url: /hi/net/groupdocs.viewer.drawing/rgb24color.knowncolors.csslevel3/indianred/
+---
+
+## Rgb24Color.KnownColors.CssLevel3.Indianred field
+
+इंडियन रेड रंग
+
+```csharp
+public static readonly Rgb24Color Indianred;
+```
+
+### संबंधित देखें
+
+* struct [Rgb24Color](../../rgb24color)
+* class [CssLevel3](../../rgb24color.knowncolors.csslevel3)
+* namespace [GroupDocs.Viewer.Drawing](../../../groupdocs.viewer.drawing)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- संपादित न करें: xmldocmd द्वारा GroupDocs.Viewer.dll के लिए उत्पन्न -->
