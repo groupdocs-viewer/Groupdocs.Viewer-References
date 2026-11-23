@@ -1,0 +1,28 @@
+---
+title: "TopMargin"
+second_title: "مرجع API الخاص بـ GroupDocs.Viewer لـ .NET"
+description: "يعيّن الهامش العلوي للصفحة."
+type: docs
+weight: 100
+url: /ar/net/groupdocs.viewer.options/wordprocessingoptions/topmargin/
+---
+
+## WordProcessingOptions.TopMargin property
+
+يعيّن الهامش العلوي للصفحة.
+
+```csharp
+public float? TopMargin { get; set; }
+```
+
+### ملاحظات
+
+للتفاصيل، راجع [التوثيق](https://docs.groupdocs.com/viewer/net/render-word-documents/#define-page-margins).
+
+### انظر أيضًا
+
+* class [WordProcessingOptions](../../wordprocessingoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- لا تقم بالتعديل: تم إنشاؤه بواسطة xmldocmd لـ GroupDocs.Viewer.dll -->
