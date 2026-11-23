@@ -1,0 +1,24 @@
+---
+title: "Ev"
+second_title: "GroupDocs.Viewer için .NET API Referansı"
+description: "Varsayılan alan metni Ev."
+type: docs
+weight: 240
+url: /tr/net/groupdocs.viewer.options/field/home/
+---
+
+## Field.Home field
+
+Varsayılan alan metni "Ev".
+
+```csharp
+public static readonly Field Home;
+```
+
+### Ayrıca Bakınız
+
+* class [Field](../../field)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- DÜZENLEMEYİN: xmldocmd tarafından GroupDocs.Viewer.dll için oluşturuldu -->
