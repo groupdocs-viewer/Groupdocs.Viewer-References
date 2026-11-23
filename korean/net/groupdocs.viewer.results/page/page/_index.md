@@ -1,0 +1,211 @@
+---
+title: "Page"
+second_title: "GroupDocs.Viewer for .NET API 참조"
+description: "Pagegroupdocs.viewer.results/page 클래스의 새 인스턴스를 초기화합니다."
+type: docs
+weight: 10
+url: /ko/net/groupdocs.viewer.results/page/page/
+---
+
+## Page() {#constructor}
+
+[`Page`](../../page) 클래스의 새 인스턴스를 초기화합니다.
+
+```csharp
+public Page()
+```
+
+### 또 보기
+
+* class [Page](../../page)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool) {#constructor_1}
+
+[`Page`](../../page) 클래스의 새 인스턴스를 초기화합니다.
+
+```csharp
+public Page(int number, bool visible)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 숫자 | Int32 | 페이지 번호. |
+| 보이는 | Boolean | 페이지 가시성 표시기. |
+
+### 예외
+
+| 예외 | 조건 |
+| --- | --- |
+| ArgumentException | *number*가 0 이하일 때 발생합니다. |
+
+### 또 보기
+
+* class [Page](../../page)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, string, bool) {#constructor_4}
+
+[`Page`](../../page) 클래스의 새 인스턴스를 초기화합니다.
+
+```csharp
+public Page(int number, string name, bool visible)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 숫자 | Int32 | 페이지 번호. |
+| name | String | 워크시트 또는 페이지 이름. |
+| 보이는 | Boolean | 페이지 가시성 표시기. |
+
+### 예외
+
+| 예외 | 조건 |
+| --- | --- |
+| ArgumentException | *number*가 0 이하일 때 발생합니다. |
+
+### 또 보기
+
+* class [Page](../../page)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool, int, int) {#constructor_2}
+
+[`Page`](../../page) 클래스의 새 인스턴스를 초기화합니다.
+
+```csharp
+public Page(int number, bool visible, int width, int height)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 숫자 | Int32 | 페이지 번호. |
+| 보이는 | Boolean | 페이지 가시성 표시기. |
+| width | Int32 | JPG 또는 PNG로 볼 때 페이지의 너비(픽셀). |
+| height | Int32 | JPG 또는 PNG로 볼 때 페이지의 높이(픽셀). |
+
+### 예외
+
+| 예외 | 조건 |
+| --- | --- |
+| ArgumentException | *number*가 0 이하일 때 발생합니다. |
+| ArgumentException | *width*가 0 이하일 때 발생합니다. |
+| ArgumentException | *height*가 0 이하일 때 발생합니다. |
+
+### 또 보기
+
+* class [Page](../../page)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, string, bool, int, int) {#constructor_5}
+
+[`Page`](../../page) 클래스의 새 인스턴스를 초기화합니다.
+
+```csharp
+public Page(int number, string name, bool visible, int width, int height)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 숫자 | Int32 | 페이지 번호. |
+| name | String | 워크시트 또는 페이지 이름. |
+| 보이는 | Boolean | 페이지 가시성 표시기. |
+| width | Int32 | JPG 또는 PNG로 볼 때 페이지의 너비(픽셀). |
+| height | Int32 | JPG 또는 PNG로 볼 때 페이지의 높이(픽셀). |
+
+### 예외
+
+| 예외 | 조건 |
+| --- | --- |
+| ArgumentException | *number*가 0 이하일 때 발생합니다. |
+| ArgumentException | *width*가 0 이하일 때 발생합니다. |
+| ArgumentException | *height*가 0 이하일 때 발생합니다. |
+
+### 또 보기
+
+* class [Page](../../page)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, bool, int, int, List&lt;Line&gt;) {#constructor_3}
+
+[`Page`](../../page) 클래스의 새 인스턴스를 초기화합니다.
+
+```csharp
+public Page(int number, bool visible, int width, int height, List<Line> lines)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 숫자 | Int32 | 페이지 번호. |
+| 보이는 | Boolean | 페이지 가시성 표시기. |
+| width | Int32 | JPG 또는 PNG로 볼 때 페이지의 너비(픽셀). |
+| height | Int32 | JPG 또는 PNG로 볼 때 페이지의 높이(픽셀). |
+| 줄 | List`1 | 텍스트 추출이 활성화된 상태에서 JPG 또는 PNG로 볼 때 페이지에 포함된 라인들. |
+
+### 예외
+
+| 예외 | 조건 |
+| --- | --- |
+| ArgumentException | *number*가 0 이하일 때 발생합니다. |
+| ArgumentException | *width*가 0 이하일 때 발생합니다. |
+| ArgumentException | *height*가 0 이하일 때 발생합니다. |
+| ArgumentNullException | *lines*가 null일 때 발생합니다. |
+
+### 또 보기
+
+* class [Line](../../line)
+* class [Page](../../page)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## Page(int, string, bool, int, int, List&lt;Line&gt;) {#constructor_6}
+
+[`Page`](../../page) 클래스의 새 인스턴스를 초기화합니다.
+
+```csharp
+public Page(int number, string name, bool visible, int width, int height, List<Line> lines)
+```
+
+| 매개변수 | 유형 | 설명 |
+| --- | --- | --- |
+| 숫자 | Int32 | 페이지 번호. |
+| name | String | 워크시트 또는 페이지 이름. |
+| 보이는 | Boolean | 페이지 가시성 표시기. |
+| width | Int32 | JPG 또는 PNG로 볼 때 페이지의 너비(픽셀). |
+| height | Int32 | JPG 또는 PNG로 볼 때 페이지의 높이(픽셀). |
+| 줄 | List`1 | 텍스트 추출이 활성화된 상태에서 JPG 또는 PNG로 볼 때 페이지에 포함된 라인들. |
+
+### 예외
+
+| 예외 | 조건 |
+| --- | --- |
+| ArgumentException | *number*가 0 이하일 때 발생합니다. |
+| ArgumentException | *width*가 0 이하일 때 발생합니다. |
+| ArgumentException | *height*가 0 이하일 때 발생합니다. |
+| ArgumentNullException | *lines*가 null일 때 발생합니다. |
+
+### 또 보기
+
+* class [Line](../../line)
+* class [Page](../../page)
+* namespace [GroupDocs.Viewer.Results](../../../groupdocs.viewer.results)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
