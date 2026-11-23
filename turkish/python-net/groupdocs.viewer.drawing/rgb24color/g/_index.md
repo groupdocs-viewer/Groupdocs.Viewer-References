@@ -1,0 +1,24 @@
+---
+title: "g özelliği"
+second_title: "GroupDocs.Viewer Python için .NET üzerinden API Referansları"
+description: "Renk yeşil bileşeni, 0..255 aralığındaki 8 bit işaretsiz tam sayı olarak."
+type: docs
+url: /tr/python-net/groupdocs.viewer.drawing/rgb24color/g/
+is_root: false
+weight: 2020
+---
+
+
+## g property
+
+Renk yeşil bileşeni, 0..255 aralığındaki 8 bit işaretsiz tam sayı olarak.
+
+### Definition:
+```python
+@property
+def g(self):
+    ...
+```
+
+### Ayrıca Bakınız
+* class [`Rgb24Color`](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/)
