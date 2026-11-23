@@ -1,0 +1,156 @@
+---
+title: "PdfViewOptions"
+second_title: "Referensi API GroupDocs.Viewer untuk .NET"
+description: "Menginisialisasi sebuah instance dari kelas PdfViewOptionsgroupdocs.viewer.options/pdfviewoptions."
+type: docs
+weight: 10
+url: /id/net/groupdocs.viewer.options/pdfviewoptions/pdfviewoptions/
+---
+
+## PdfViewOptions(CreateFileStream) {#constructor_1}
+
+Menginisialisasi sebuah instance dari kelas [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(CreateFileStream createFileStream)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| createFileStream | CreateFileStream | Metode yang menginstansiasi aliran yang digunakan untuk menulis data file output. |
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException | Dilempar ketika *createFileStream* bernilai null. |
+
+### Catatan
+
+Untuk contoh kode, lihat [dokumentasi](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Lihat Juga
+
+* delegate [CreateFileStream](../../../groupdocs.viewer.interfaces/createfilestream)
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions(CreateFileStream, ReleaseFileStream) {#constructor_2}
+
+Menginisialisasi sebuah instance dari kelas [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(CreateFileStream createFileStream, ReleaseFileStream releaseFileStream)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| createFileStream | CreateFileStream | Metode yang menginstansiasi aliran yang digunakan untuk menulis data file output. |
+| releaseFileStream | ReleaseFileStream | Metode yang melepaskan aliran yang dibuat oleh metode yang ditetapkan ke delegasi yang diteruskan ke parameter *createFileStream*. |
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException | Dilempar ketika *createFileStream* bernilai null. |
+| ArgumentNullException | Dilempar ketika *releaseFileStream* bernilai null. |
+
+### Catatan
+
+Untuk contoh kode, lihat [dokumentasi](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Lihat Juga
+
+* delegate [CreateFileStream](../../../groupdocs.viewer.interfaces/createfilestream)
+* delegate [ReleaseFileStream](../../../groupdocs.viewer.interfaces/releasefilestream)
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions(IFileStreamFactory) {#constructor_3}
+
+Menginisialisasi sebuah instance dari kelas [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(IFileStreamFactory fileStreamFactory)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| fileStreamFactory | IFileStreamFactory | Pabrik yang mengimplementasikan metode untuk membuat dan melepaskan aliran file output. |
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentNullException | Dilempar ketika *fileStreamFactory* bernilai null. |
+
+### Catatan
+
+Untuk contoh kode, lihat [dokumentasi](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Lihat Juga
+
+* interface [IFileStreamFactory](../../../groupdocs.viewer.interfaces/ifilestreamfactory)
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions() {#constructor}
+
+Menginisialisasi sebuah instance dari kelas [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions()
+```
+
+### Catatan
+
+Konstruktor ini menginisialisasi sebuah instance dari [`PdfViewOptions`](../../pdfviewoptions) dengan "output.pdf" sebagai format jalur file untuk file output. File output akan ditempatkan di direktori kerja saat ini dari aplikasi.
+
+Untuk contoh kode, lihat [dokumentasi](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Lihat Juga
+
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+---
+
+## PdfViewOptions(string) {#constructor_4}
+
+Menginisialisasi sebuah instance dari kelas [`PdfViewOptions`](../../pdfviewoptions).
+
+```csharp
+public PdfViewOptions(string outputFilePath)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| outputFilePath | String | Jalur untuk file PDF output. |
+
+### Pengecualian
+
+| pengecualian | kondisi |
+| --- | --- |
+| ArgumentException | Dilempar ketika *outputFilePath* bernilai null atau kosong. |
+
+### Catatan
+
+Untuk contoh kode, lihat [dokumentasi](https://docs.groupdocs.com/viewer/net/rendering-to-pdf/).
+
+### Lihat Juga
+
+* class [PdfViewOptions](../../pdfviewoptions)
+* namespace [GroupDocs.Viewer.Options](../../../groupdocs.viewer.options)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Viewer.dll -->
