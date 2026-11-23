@@ -1,0 +1,25 @@
+---
+title: "Серый"
+second_title: "Справочник API GroupDocs.Viewer для .NET"
+description: "Цвет Grey такой же, как Gray из CSS Level 1"
+type: docs
+weight: 510
+url: /ru/net/groupdocs.viewer.drawing/rgb24color.knowncolors.csslevel3/grey/
+---
+
+## Rgb24Color.KnownColors.CssLevel3.Grey field
+
+Серый цвет - тот же, что Gray из CSS Level 1
+
+```csharp
+public static readonly Rgb24Color Grey;
+```
+
+### См. также
+
+* struct [Rgb24Color](../../rgb24color)
+* class [CssLevel3](../../rgb24color.knowncolors.csslevel3)
+* namespace [GroupDocs.Viewer.Drawing](../../../groupdocs.viewer.drawing)
+* assembly [GroupDocs.Viewer](../../../)
+
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для GroupDocs.Viewer.dll -->
