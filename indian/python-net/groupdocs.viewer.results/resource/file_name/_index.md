@@ -1,0 +1,27 @@
+---
+title: "file_name गुण"
+second_title: "GroupDocs.Viewer Python के लिए .NET के माध्यम से API संदर्भ"
+description: "संसाधन फ़ाइल का नाम।"
+type: docs
+url: /hi/python-net/groupdocs.viewer.results/resource/file_name/
+is_root: false
+weight: 2010
+---
+
+
+## file_name property
+
+संसाधन फ़ाइल का नाम।
+
+### Definition:
+```python
+@property
+def file_name(self):
+    ...
+@file_name.setter
+def file_name(self, value):
+    ...
+```
+
+### साथ में देखें
+* class [`Resource`](/viewer/python-net/groupdocs.viewer.results/resource/)

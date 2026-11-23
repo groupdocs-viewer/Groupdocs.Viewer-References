@@ -1,0 +1,20 @@
+---
+title: "BOTTOM_RIGHT फ़ील्ड"
+second_title: "GroupDocs.Viewer Python के लिए .NET के माध्यम से API संदर्भ"
+description: "पृष्ठ संख्या को पृष्ठ के नीचे दाएँ कोने में रखें"
+type: docs
+url: /hi/python-net/groupdocs.viewer.options/wordspagenumberlocation/bottom_right/
+is_root: false
+weight: 3070
+---
+
+
+## BOTTOM_RIGHT field
+
+पृष्ठ संख्या को पृष्ठ के नीचे दाएँ कोने में रखें
+
+### मान
+`6`
+
+### साथ में देखें
+* class [`WordsPageNumberLocation`](/viewer/python-net/groupdocs.viewer.options/wordspagenumberlocation/)

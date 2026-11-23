@@ -1,0 +1,61 @@
+---
+title: "ViewOptions क्लास"
+second_title: "GroupDocs.Viewer Python के लिए .NET के माध्यम से API संदर्भ"
+description: "रेंडरिंग विकल्प।"
+type: docs
+url: /hi/python-net/groupdocs.viewer.options/viewoptions/
+is_root: false
+weight: 340
+---
+
+
+## ViewOptions class
+
+रेंडरिंग विकल्प।
+
+ViewOptions प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+
+### मेथड्स
+| मेथड | विवरण |
+| :- | :- |
+| [rotate_page](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page/#page_number-rotation) | पृष्ठ पर घड़ी की दिशा में घुमाव लागू करता है। |
+| [rotate_page_int32](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page_int32/) |  |
+
+### प्रॉपर्टीज़
+| प्रॉपर्टी | विवरण |
+| :- | :- |
+| [page_rotations](/viewer/python-net/groupdocs.viewer.options/viewoptions/page_rotations/) | पृष्ठ का घुमाव। |
+| [watermark](/viewer/python-net/groupdocs.viewer.options/viewoptions/watermark/) | प्रत्येक पृष्ठ पर लागू किया जाने वाला टेक्स्ट वॉटरमार्क। |
+| [archive_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/archive_options/) | आर्काइव फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [cad_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/cad_options/) | CAD ड्राइंग व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [default_font_name](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/default_font_name/) | दस्तावेज़ के लिए डिफ़ॉल्ट फ़ॉन्ट, जो रेंडरिंग के दौरान उपयोग किया जाता है जब आवश्यक फ़ॉन्ट अनुपलब्ध हो। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [email_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/email_options/) | ईमेल संदेशों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [mail_storage_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/mail_storage_options/) | मेल स्टोरेज डेटा फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [outlook_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/outlook_options/) | Microsoft Outlook डेटा फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [pdf_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/pdf_options/) | PDF दस्तावेज़ के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [presentation_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/presentation_options/) | प्रेज़ेंटेशन फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [project_management_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/project_management_options/) | प्रोजेक्ट मैनेजमेंट फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [remove_comments](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/remove_comments/) | जब True पर सेट किया जाता है तो यह प्रॉपर्टी टिप्पणी रेंडरिंग को अक्षम करती है। डिफ़ॉल्ट रूप से यह False है, इसलिए सभी टिप्पणियाँ प्रदर्शित होती हैं। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [render_comments](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/render_comments/) | यह प्रॉपर्टी टिप्पणी रेंडरिंग को सक्षम या अक्षम करती है। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [render_hidden_pages](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/render_hidden_pages/) | यह प्रॉपर्टी छिपे पृष्ठों के रेंडरिंग को सक्षम करती है। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [render_notes](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/render_notes/) | यह प्रॉपर्टी कुछ फ़ॉर्मैट्स के लिए नोट्स और एनोटेशन के रेंडरिंग को सक्षम करती है। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [spreadsheet_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/spreadsheet_options/) | स्प्रेडशीट फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [text_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/text_options/) | टेक्स्ट फ़ाइलों के रेंडरिंग के लिए टेक्स्ट विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [visio_rendering_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/visio_rendering_options/) | Visio फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [web_document_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/web_document_options/) | वेब फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+| [word_processing_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/word_processing_options/) | वर्ड प्रोसेसिंग फ़ाइलों के व्यू विकल्प। ([`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) से विरासत में मिला) |
+
+### उदाहरण
+
+```python
+from groupdocs.viewer import Viewer
+from groupdocs.viewer.options import PdfViewOptions
+
+with Viewer("sample.pptx") as viewer:
+    view_options = PdfViewOptions("output.pdf")
+    view_options.render_notes = True
+    viewer.view(view_options)
+```
+
+### साथ में देखें
+* module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

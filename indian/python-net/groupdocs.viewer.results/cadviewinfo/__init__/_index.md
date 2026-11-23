@@ -1,0 +1,33 @@
+---
+title: "__init__ कंस्ट्रक्टर"
+second_title: "GroupDocs.Viewer Python के लिए .NET के माध्यम से API संदर्भ"
+description: "CadViewInfo का नया उदाहरण प्रारंभ करता है।"
+type: docs
+url: /hi/python-net/groupdocs.viewer.results/cadviewinfo/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__ {#file_type-pages-layers-layouts}
+
+CadViewInfo का नया उदाहरण प्रारंभ करता है।
+
+```python
+def __init__(self, file_type, pages, layers, layouts):
+    ...
+```
+
+| पैरामीटर | टाइप | विवरण |
+| :- | :- | :- |
+| file_type | `FileType` | फ़ाइल का प्रकार। |
+| pages | `List[Page]` | देखने के लिए पृष्ठों की सूची। |
+| layers | `List[Layer]` | CAD ड्राइंग में शामिल लेयर्स की सूची। |
+| layouts | `List[Layout]` | CAD ड्राइंग में शामिल लेयर्स की सूची। |
+
+| उत्पन्न करता है | विवरण |
+| :- | :- |
+| `ValueError` | `layouts` जब None हो तो फेंका जाता है। |
+
+### साथ में देखें
+* class [`CadViewInfo`](/viewer/python-net/groupdocs.viewer.results/cadviewinfo/)

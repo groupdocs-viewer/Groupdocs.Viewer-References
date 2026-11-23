@@ -1,0 +1,17 @@
+---
+title: "PS फ़ील्ड"
+second_title: "GroupDocs.Viewer Python के लिए .NET के माध्यम से API संदर्भ"
+description: "PostScript फ़ाइल (.ps)"
+type: docs
+url: /hi/python-net/groupdocs.viewer/filetype/ps/
+is_root: false
+weight: 3920
+---
+
+
+## PS field
+
+PostScript फ़ाइल (.ps)
+
+### साथ में देखें
+* class [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/)
