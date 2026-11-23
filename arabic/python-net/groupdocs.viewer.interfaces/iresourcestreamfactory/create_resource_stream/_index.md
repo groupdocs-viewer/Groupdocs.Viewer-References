@@ -1,0 +1,43 @@
+---
+title: "طريقة create_resource_stream"
+second_title: "مراجع API لـ GroupDocs.Viewer لـ Python عبر .NET"
+description: "ينشئ التدفق المستخدم لكتابة بيانات موارد HTML الناتجة."
+type: docs
+url: /ar/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/create_resource_stream/
+is_root: false
+weight: 1010
+---
+
+
+## create_resource_stream {#page_number-resource}
+
+ينشئ التدفق المستخدم لكتابة بيانات موارد HTML الناتجة.
+
+```python
+def create_resource_stream(self, page_number, resource):
+    ...
+```
+
+| معامل | نوع | الوصف |
+| :- | :- | :- |
+| page_number | `int` | رقم الصفحة. |
+| resource | `Resource` | مورد HTML مثل الخط، النمط، الصورة أو الرسومات. |
+
+**Returns:** io.RawIOBase: Stream used to write output resource data.
+
+### مثال
+
+```python
+from groupdocs.viewer import Viewer
+
+viewer = Viewer()
+factory = viewer.resource_stream_factory
+
+# إنشاء تدفق لمورد CSS في الصفحة 1
+stream = factory.create_resource_stream(pageNumber=1, resource="style.css")
+with stream:
+    stream.write(b"body { font-family: Arial; }")
+```
+
+### انظر أيضًا
+* class [`IResourceStreamFactory`](/viewer/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)

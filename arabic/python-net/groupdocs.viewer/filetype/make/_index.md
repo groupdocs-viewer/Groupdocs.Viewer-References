@@ -1,0 +1,17 @@
+---
+title: "حقل MAKE"
+second_title: "مراجع API لـ GroupDocs.Viewer لـ Python عبر .NET"
+description: "سكريبت Makefile Xcode (.make)"
+type: docs
+url: /ar/python-net/groupdocs.viewer/filetype/make/
+is_root: false
+weight: 4650
+---
+
+
+## MAKE field
+
+سكريبت Makefile Xcode (.make)
+
+### انظر أيضًا
+* class [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/)

@@ -1,0 +1,24 @@
+---
+title: "__init__ المُنشئ"
+second_title: "مراجع API لـ GroupDocs.Viewer لـ Python عبر .NET"
+description: "يقوم بتهيئة نسخة من الفئة WebDocumentOptions."
+type: docs
+url: /ar/python-net/groupdocs.viewer.options/webdocumentoptions/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__
+
+يُنشئ مثيلاً من الفئة [`WebDocumentOptions`](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/).
+
+للتفاصيل، راجع الوثائق.
+
+```python
+def __init__(self):
+    ...
+```
+
+### انظر أيضًا
+* class [`WebDocumentOptions`](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/)
