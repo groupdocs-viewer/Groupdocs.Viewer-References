@@ -15,8 +15,6 @@ The property enables responsive rendering.
 
 Responsive design aims to make web pages render well on a variety of devices. To render with a responsive layout, set this property to `True`.
 
-For a code example, see the documentation.
-
 ### Definition:
 ```python
 @property

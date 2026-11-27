@@ -13,7 +13,7 @@ weight: 2030
 
 The size of the output page.
 
-The default value is `PageSize.letter`, 792 × 612 points. For details, see the documentation: https://docs.groupdocs.com/viewer/net/render-web-documents/#set-the-output-page-size
+The default value is `PageSize.Letter`, 792 × 612 points.
 
 ### Definition:
 ```python

@@ -5,7 +5,7 @@ description: "Serializes this Rgb24Color instance to the 'rgb' CSS function nota
 type: docs
 url: /python-net/groupdocs.viewer.drawing/rgb24color/to_rgb/
 is_root: false
-weight: 1120
+weight: 1090
 ---
 
 

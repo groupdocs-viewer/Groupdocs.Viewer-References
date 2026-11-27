@@ -28,10 +28,7 @@ The Rgb24Color type exposes the following members:
 | [equals](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/equals/#other) | Determines whether this color is equal to the specified [`Argb32Color`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/). |
 | [equals](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/equals/#other) | Checks this color with specified [`Rgb24Color`](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/) color for equality. |
 | [equals](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/equals/#obj) | Checks this color against the specified uncasted color. |
-| [equals_argb_32_color](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/equals_argb_32_color/) |  |
-| [equals_object](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/equals_object/) |  |
-| [equals_rgb_24_color](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/equals_rgb_24_color/) |  |
-| [from_rgb](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/from_rgb/#red-green-blue) | Creates a [`Rgb24Color`](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/) value from the specified red, green, and blue channel values. |
+| [from_rgb](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/from_rgb/#red-green-blue) | Creates one Rgb24Color value from specified Red, Green, Blue channels. |
 | [get_brightness](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/get_brightness/) | Returns the Hue‑Saturation‑Lightness (HSL) lightness/brightness for this [`Rgb24Color`](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/) instance. |
 | [get_hash_code](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/get_hash_code/) | Returns a hash code that defines the current color. Not compatible with `System.Drawing.Color.GetHashCode`. |
 | [get_hue](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/get_hue/) | Returns the hue component of the color in the HSL color space, expressed in degrees. If the color is grayscale (R == G == B), the hue is undefined and the method returns 0. |
@@ -44,8 +41,8 @@ The Rgb24Color type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [b](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/b/) | The blue component of the color as an 8-bit unsigned integer [0..255]. |
-| [g](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/g/) | The green component of the color as an 8-bit unsigned integer in the range 0..255. |
+| [b](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/b/) | The blue part of the color as an 8-bit unsigned integer in the range 0..255. |
+| [g](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/g/) | The green part of the color as an 8-bit unsigned integer (0..255). |
 | [is_default](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/is_default/) | The property indicates whether this [`Rgb24Color`](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/) instance is the default (Black) – all three channels are set to 0. |
 | [r](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/r/) | The red component of the color as an 8-bit unsigned integer (0..255). |
 

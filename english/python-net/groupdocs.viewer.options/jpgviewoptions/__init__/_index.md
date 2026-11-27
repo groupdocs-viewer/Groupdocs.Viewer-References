@@ -52,8 +52,6 @@ def __init__(self, create_page_stream, release_page_stream):
 
 Initializes an instance of the [`JpgViewOptions`](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/) class.
 
-For the code example, see the documentation at https://docs.groupdocs.com/viewer/net/rendering-to-png-or-jpeg/#rendering-to-jpeg.
-
 ```python
 def __init__(self, page_stream_factory):
     ...
@@ -76,19 +74,6 @@ This constructor initializes an instance of the [`JpgViewOptions`](/viewer/pytho
 ```python
 def __init__(self):
     ...
-```
-
-### Example
-
-```python
-from groupdocs.viewer import Viewer
-from groupdocs.viewer.options import JpgViewOptions
-
-with Viewer("invoice.xlsx") as viewer:
-    view_options = JpgViewOptions("render_excel_to_jpg/excel_to_jpg_{0}.jpg")
-    view_options.width = 800
-    view_options.height = 900
-    viewer.view(view_options)
 ```
 
 ## __init__ {#file_path_format}

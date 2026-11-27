@@ -5,7 +5,7 @@ description: "CreatePageStream.invoke method — GroupDocs.Viewer for Python via
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/createpagestream/invoke/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 
@@ -19,6 +19,14 @@ def invoke(self, page_number):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | page_number | `int` |  |
+
+### Aliases
+
+These names call `invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `invoke_int32` | `invoke_int32(page_number)` |
 
 ### See Also
 * class [`CreatePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/createpagestream/)

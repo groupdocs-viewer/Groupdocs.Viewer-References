@@ -25,8 +25,6 @@ The Image2DFormat type exposes the following members:
 | :- | :- |
 | [equals](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/equals/#other) | Determines whether this instance is equal to the specified [`Image2DFormat`](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/) instance. |
 | [equals](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/equals/#obj) | Determines whether this instance is equal to the specified object, which is presumed to be another [`Image2DFormat`](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/) instance. |
-| [equals_image_2d_format](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/equals_image_2d_format/) |  |
-| [equals_object](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/equals_object/) |  |
 | [get_hash_code](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/get_hash_code/) | Returns a hash code, which is an immutable number for this specific instance. |
 | [parse_from_filename_with_extension](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/parse_from_filename_with_extension/#filename) | Returns an Image2DFormat value that corresponds to the file extension extracted from the specified filename. |
 | [parse_from_mime](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/parse_from_mime/#mime_code) | Returns an [`Image2DFormat`](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/) value that corresponds to the specified MIME code. |

@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#file_type-pages}
 
-Initializes a new ViewInfo instance.
+Initializes a new instance of [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/) class.
 
 ```python
 def __init__(self, file_type, pages):
@@ -34,7 +34,7 @@ def __init__(self, file_type, pages):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | If `pages` is None. |
+| `ValueError` | When `pages` is None. |
 
 ### See Also
 * class [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/)

@@ -5,7 +5,7 @@ description: "Tries to parse specified raw string as a font style name."
 type: docs
 url: /python-net/groupdocs.viewer.fonts/fontstyles/try_parse/
 is_root: false
-weight: 1060
+weight: 1040
 ---
 
 

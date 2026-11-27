@@ -23,5 +23,15 @@ def begin_invoke(self, page_number, page_stream, callback, object):
 | callback | `System.AsyncCallback` |  |
 | object | `Any` |  |
 
+### Aliases
+
+These names call `begin_invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `begin_invoke_int32` | `begin_invoke_int32(page_number, page_stream, callback, object)` |
+| `begin_invoke_stream` | `begin_invoke_stream(page_number, page_stream, callback, object)` |
+| `begin_invoke_streams` | `begin_invoke_streams(page_number, page_stream, callback, object)` |
+
 ### See Also
 * class [`ReleasePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/releasepagestream/)

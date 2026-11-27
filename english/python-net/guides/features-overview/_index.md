@@ -12,9 +12,9 @@ weight: 30
 
 ## Rendering Documents
 
-The term *rendering* in GroupDocs.Viewer describes the process of converting a document into a file format that preserves page boundaries. For example, when a three-page DOCX file is rendered to HTML, the result is three HTML files — one per page. See the [Developer Guide]() for runnable examples.
+The term *rendering* in GroupDocs.Viewer describes the process of converting a document into a file format that preserves page boundaries. For example, when a three-page DOCX file is rendered to HTML, the result is three HTML files — one per page. See the [Developer Guide](https://docs.groupdocs.com/viewer/python-net/rendering-documents/) for runnable examples.
 
-![Rendering diagram](https://docs.groupdocs.com/viewer/python-net/images/getting-started/features-overview/rendering.png)
+![A three-page DOCX rendered by GroupDocs.Viewer: three HTML files, three PNG images or three JPEG images, one per page, or one PDF file with all three pages](https://docs.groupdocs.com/viewer/python-net/images/developer-guide/rendering-documents/rendering-overview.svg)
 
 ### Rendering to HTML
 
@@ -53,9 +53,21 @@ GroupDocs.Viewer renders a document into a single PDF file. Rendering to PDF is 
 - Send documents via email.
 - Distribute all pages as a single file rather than a collection of per-page files.
 
+### Rendering to memory
+
+Every output can go to memory instead of files: pass a function that returns an `io.BytesIO` (or any writable stream) to [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/), [`JpgViewOptions`](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/), [`PdfViewOptions`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) or [`HtmlViewOptions`](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/), and each buffer is filled by the time `view()` returns. This suits web services that send pages straight to the client, and storage that is not a local disk. See [Save output to a stream](/viewer/python-net/guides/save-output-to-stream/).
+
+### Cancelling a render
+
+A long render can be stopped from another thread, or after a time limit, with a `CancellationTokenSource` (since 26.11). See [Cancel rendering](/viewer/python-net/guides/cancel-rendering/) for what the engine checks, and how to stop a render it does not.
+
+## Viewing Documents in the Browser
+
+The package installs a `groupdocs-viewer` command (since 26.11). `groupdocs-viewer report.docx` or `groupdocs-viewer ~/documents` starts a local web server and opens the GroupDocs.Viewer UI in your browser, with page navigation, zoom, thumbnails, search, print and PDF download. It needs nothing beyond the package. See [View documents in the browser](https://docs.groupdocs.com/viewer/python-net/view-documents-in-the-browser/).
+
 ## Retrieving Document Information
 
-GroupDocs.Viewer for Python exposes basic information about a source document — file type, page count, text with coordinates, and more — without rendering. See [Get Document Info]().
+GroupDocs.Viewer for Python exposes basic information about a source document — file type, page count, text with coordinates, and more — without rendering. See [Get Document Info](/viewer/python-net/guides/get-document-info/).
 
 Format-specific information is also available:
 
@@ -80,7 +92,7 @@ With GroupDocs.Viewer you can list and save:
 - Email messages contained in Outlook and Lotus Notes data files.
 - Individual files inside archive containers.
 
-See [Processing Attachments]() for a runnable example.
+See [Processing Attachments](https://docs.groupdocs.com/viewer/python-net/working-with-attachments/) for a runnable example.
 
 ## Output Transformation
 
@@ -92,6 +104,6 @@ GroupDocs.Viewer for Python ships a set of options to transform each rendered pa
 
 ## Caching Results
 
-GroupDocs.Viewer for Python supports caching to accelerate repeat renderings and reduce overall load on the application.
+GroupDocs.Viewer for Python can keep rendered pages in a cache on the local disk ([`FileCache`](/viewer/python-net/groupdocs.viewer.caching/filecache/), passed through [`ViewerSettings`](/viewer/python-net/groupdocs.viewer/viewersettings/)), so a second rendering of the same document is served from the cache.
 
-By default, the cache is stored on the local disk. The viewer API also exposes cache interfaces that can be implemented for third-party storage — FTP, Amazon S3, Dropbox, Google Drive, Microsoft Azure, Redis, or any other backend.
+The .NET API's cache interface ([`ICache`](/viewer/python-net/groupdocs.viewer.caching/icache/)) for other storage, such as Redis or a cloud bucket, cannot be implemented in Python. To keep rendered pages in your own storage, render to memory (above) and store the buffers yourself; the [GroupDocs.Viewer UI package](https://pypi.org/project/groupdocs-viewer-net-ui/) does this for a web application.

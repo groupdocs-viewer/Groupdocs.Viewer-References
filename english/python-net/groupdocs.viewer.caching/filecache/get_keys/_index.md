@@ -24,5 +24,14 @@ def get_keys(self, filter):
 
 **Returns:** list[str]: File names that contain the filter in the filename.
 
+### Aliases
+
+These names call `get_keys` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `get_keys_file` | `get_keys_file(filter)` |
+| `get_keys_string` | `get_keys_string(filter)` |
+
 ### See Also
 * class [`FileCache`](/viewer/python-net/groupdocs.viewer.caching/filecache/)

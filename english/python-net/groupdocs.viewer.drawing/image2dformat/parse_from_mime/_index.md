@@ -5,7 +5,7 @@ description: "Returns an Image2DFormat value that corresponds to the specified M
 type: docs
 url: /python-net/groupdocs.viewer.drawing/image2dformat/parse_from_mime/
 is_root: false
-weight: 1060
+weight: 1040
 ---
 
 

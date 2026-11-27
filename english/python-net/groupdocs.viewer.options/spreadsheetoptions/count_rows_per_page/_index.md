@@ -13,7 +13,7 @@ weight: 2030
 
 The rows count to include on each page when splitting the worksheet into pages.
 
-For details, see the documentation at https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows.
+For details, see the documentation at https://docs.groupdocs.com/viewer/python-net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows.
 
 ### Definition:
 ```python

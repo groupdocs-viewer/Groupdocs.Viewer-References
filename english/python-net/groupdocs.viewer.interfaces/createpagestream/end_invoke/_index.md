@@ -5,7 +5,7 @@ description: "CreatePageStream.end_invoke method — GroupDocs.Viewer for Python
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/createpagestream/end_invoke/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -19,6 +19,14 @@ def end_invoke(self, result):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | result | `System.IAsyncResult` |  |
+
+### Aliases
+
+These names call `end_invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `end_invoke_iasync_result` | `end_invoke_iasync_result(result)` |
 
 ### See Also
 * class [`CreatePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/createpagestream/)

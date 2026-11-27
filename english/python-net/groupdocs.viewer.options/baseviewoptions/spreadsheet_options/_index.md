@@ -13,7 +13,7 @@ weight: 2140
 
 The spreadsheet files view options.
 
-For more information and code examples, see https://docs.groupdocs.com/viewer/net/render-excel-and-apple-numbers-spreadsheets/, https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/, and https://docs.groupdocs.com/viewer/net/specify-rendering-options/.
+For more information and code examples, see https://docs.groupdocs.com/viewer/python-net/render-excel-and-apple-numbers-spreadsheets/, https://docs.groupdocs.com/viewer/python-net/split-worksheet-into-pages/, and https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/.
 
 ### Definition:
 ```python

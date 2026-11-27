@@ -11,9 +11,7 @@ weight: 2030
 
 ## format property
 
-The format of this substituted (not original) font.
-
-May be TrueType, TrueType Collection, OpenType, Embedded OpenType. For the substituted font, because its binary content is available by definition, this property never returns an `FontFormat.unknown` value.
+The format of this substituted (not original) font. May be TrueType, TrueType Collection, OpenType, or Embedded OpenType. For the substituted font, because its binary content is available by definition, this property never returns a `FontFormat.unknown` value.
 
 ### Definition:
 ```python

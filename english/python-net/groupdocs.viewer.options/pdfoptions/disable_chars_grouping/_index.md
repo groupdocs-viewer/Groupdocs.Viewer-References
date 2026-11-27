@@ -15,7 +15,7 @@ The property disables symbol grouping for precise symbol positioning during page
 
 When converting PDF files, GroupDocs.Viewer groups individual characters into words for enhanced rendering performance. If your document includes hieroglyphics or special symbols, you might want to prohibit character grouping to ensure a more precise layout. The default value is False.
 
-For code example, see the documentation.
+For a code example, see the documentation.
 
 ### Definition:
 ```python

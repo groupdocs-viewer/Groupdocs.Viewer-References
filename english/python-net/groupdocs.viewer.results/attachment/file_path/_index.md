@@ -11,7 +11,7 @@ weight: 2020
 
 ## file_path property
 
-The attachment relative path, e.g. `folder/file.docx`, or the filename when the file is located in the root of an archive, in an e‑mail message, or a data file.
+The attachment relative path, e.g. `folder/file.docx`, or the filename when the file is located in the root of an archive, in an e‑mail message, or in a data file.
 
 ### Definition:
 ```python

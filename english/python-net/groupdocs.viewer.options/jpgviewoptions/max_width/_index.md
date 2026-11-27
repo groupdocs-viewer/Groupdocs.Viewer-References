@@ -13,7 +13,7 @@ weight: 2040
 
 The maximum width of an output image in pixels.
 
-Use this property to set the maximum output image width (in pixels). For a code example, see the documentation at https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/.
+Use this property to set the maximum output image width (in pixels).
 
 If the `Width` property is set, this property is ignored.
 

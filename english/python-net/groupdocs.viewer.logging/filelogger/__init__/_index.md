@@ -31,9 +31,7 @@ from groupdocs.viewer.options import HtmlViewOptions
 
 viewer_settings = ViewerSettings(logger=FileLogger("./log.txt"))
 with Viewer("./sample.docx", settings=viewer_settings) as viewer:
-    html_options = HtmlViewOptions.for_embedded_resources(
-        "write_logs_to_file/page_{0}.html"
-    )
+    html_options = HtmlViewOptions.for_embedded_resources("page_{0}.html")
     viewer.view(html_options)
 ```
 

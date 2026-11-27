@@ -5,7 +5,7 @@ description: "Returns the Hue‑Saturation‑Lightness (HSL) lightness/brightnes
 type: docs
 url: /python-net/groupdocs.viewer.drawing/rgb24color/get_brightness/
 is_root: false
-weight: 1060
+weight: 1030
 ---
 
 

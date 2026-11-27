@@ -13,7 +13,7 @@ weight: 2110
 
 The property determines whether fields of certain types are updated before saving the WordProcessing document to HTML, PDF, PNG, or JPEG formats. The default is True, meaning fields are updated.
 
-For details, see the documentation: https://docs.groupdocs.com/viewer/net/render-word-documents/#disable-updating-fields-when-saving
+For details, see the documentation: https://docs.groupdocs.com/viewer/python-net/render-word-documents/
 
 ### Definition:
 ```python

@@ -13,7 +13,7 @@ weight: 2040
 
 The email messages view options.
 
-For more information and code examples, see the documentation.
+For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/python-net/render-email-messages/.
 
 ### Definition:
 ```python

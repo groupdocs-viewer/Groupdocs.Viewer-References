@@ -25,8 +25,6 @@ The FolderFontSource type exposes the following members:
 | :- | :- |
 | [equals](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/equals/#other) | Determines whether the current FolderFontSource is the same as the specified FolderFontSource object. |
 | [equals](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/equals/#obj) | Determines whether the current FolderFontSource is the same as the specified object. |
-| [equals_folder_font_source](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/equals_folder_font_source/) |  |
-| [equals_object](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/equals_object/) |  |
 | [get_hash_code](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/get_hash_code/) | Returns the hash code for the current [`FolderFontSource`](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/) object. |
 | [to_string](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/to_string/) | Returns a string that represents the current object. |
 

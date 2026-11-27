@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Initializes an instance of the Tile class."
+description: "Initializes a Tile instance."
 type: docs
 url: /python-net/groupdocs.viewer.options/tile/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#start_point_x-start_point_y-width-height}
 
-Initializes an instance of the [`Tile`](/viewer/python-net/groupdocs.viewer.options/tile/) class.
+Initializes a Tile instance.
 
 For details, see the documentation.
 
@@ -32,14 +32,8 @@ def __init__(self, start_point_x, start_point_y, width, height):
 ```python
 from groupdocs.viewer.options import Tile
 
-# Define tile parameters
-start_x = 0
-start_y = 0
-tile_width = 500
-tile_height = 400
-
-# Create a tile representing a portion of the drawing
-tile = Tile(start_x, start_y, tile_width, tile_height)
+# Create a tile covering a 200 × 200 pixel area starting at (0, 0)
+tile = Tile(0, 0, 200, 200)
 ```
 
 ### See Also

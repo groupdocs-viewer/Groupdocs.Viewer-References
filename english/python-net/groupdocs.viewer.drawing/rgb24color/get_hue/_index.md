@@ -5,7 +5,7 @@ description: "Returns the hue component of the color in the HSL color space, exp
 type: docs
 url: /python-net/groupdocs.viewer.drawing/rgb24color/get_hue/
 is_root: false
-weight: 1080
+weight: 1050
 ---
 
 

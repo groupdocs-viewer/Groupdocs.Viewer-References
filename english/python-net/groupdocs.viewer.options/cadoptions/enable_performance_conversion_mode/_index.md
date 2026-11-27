@@ -1,17 +1,19 @@
 ---
 title: enable_performance_conversion_mode property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The flag that enables a performance-oriented conversion mode for all CAD formats, where setting it to True speeds up conversion at the cost of reduced output quality; defaults to False for maximum…"
+description: "The flag that enables a special performance-oriented conversion mode for all CAD formats."
 type: docs
 url: /python-net/groupdocs.viewer.options/cadoptions/enable_performance_conversion_mode/
 is_root: false
-weight: 2020
+weight: 2030
 ---
 
 
 ## enable_performance_conversion_mode property
 
-The flag that enables a performance-oriented conversion mode for all CAD formats, where setting it to True speeds up conversion at the cost of reduced output quality; defaults to False for maximum quality.
+The flag that enables a special performance-oriented conversion mode for all CAD formats.
+
+When set to True, conversion speed is much faster but the quality of the resultant documents is significantly lower. When False (default), the highest possible quality is used at the expense of performance.
 
 ### Definition:
 ```python

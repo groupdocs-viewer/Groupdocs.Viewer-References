@@ -5,7 +5,7 @@ description: "Serializes this Argb32Color instance to the hexadecimal notation #
 type: docs
 url: /python-net/groupdocs.viewer.drawing/argb32color/to_hex_rgba/
 is_root: false
-weight: 1180
+weight: 1130
 ---
 
 
@@ -18,7 +18,7 @@ def to_hex_rgba(self):
     ...
 ```
 
-**Returns:** str: A string in `##RRGGBBAA` format, 2 characters per channel, upper case. Exception-less method.
+**Returns:** A string in `##RRGGBBAA` format, 2 characters per channel, upper case. Exception-less method.
 
 ### See Also
 * class [`Argb32Color`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/)

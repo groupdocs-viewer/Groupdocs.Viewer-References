@@ -13,7 +13,7 @@ weight: 2040
 
 The width of the tile in pixels.
 
-For details, see the documentation: https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#split-a-drawing-into-tiles
+For details, see the documentation.
 
 ### Definition:
 ```python

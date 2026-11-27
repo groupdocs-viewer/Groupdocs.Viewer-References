@@ -5,7 +5,7 @@ description: "ReleasePageStream.invoke method — GroupDocs.Viewer for Python vi
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/releasepagestream/invoke/
 is_root: false
-weight: 1070
+weight: 1030
 ---
 
 
@@ -20,6 +20,16 @@ def invoke(self, page_number, page_stream):
 | :- | :- | :- |
 | page_number | `int` |  |
 | page_stream | `io.RawIOBase` |  |
+
+### Aliases
+
+These names call `invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `invoke_int32` | `invoke_int32(page_number, page_stream)` |
+| `invoke_stream` | `invoke_stream(page_number, page_stream)` |
+| `invoke_streams` | `invoke_streams(page_number, page_stream)` |
 
 ### See Also
 * class [`ReleasePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/releasepagestream/)

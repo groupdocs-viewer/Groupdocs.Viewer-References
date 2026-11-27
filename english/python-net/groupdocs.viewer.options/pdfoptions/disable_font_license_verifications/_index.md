@@ -17,7 +17,7 @@ Many operations with fonts cannot be executed if they are prohibited by the font
 
 Be careful when using this flag. When it is set, it means that the person who sets this flag takes all responsibility for possible license or law violations. It is strongly recommended to use this flag only when you are fully confident that you are not breaking copyright law. The default value is `False`.
 
-For a code example, see the documentation at https://docs.groupdocs.com/viewer/net/render-pdf-documents/#skip-font-license-verification-when-rendering-xps-and-oxps-files
+For a code example, see the documentation: https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/
 
 ### Definition:
 ```python

@@ -24,14 +24,13 @@ The SpreadsheetFontInfo type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [serialize_to_css](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/serialize_to_css/#output) | Serializes the font info as a @font-face at-rule and writes it to the specified text writer. |
-| [serialize_to_css_text_writer](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/serialize_to_css_text_writer/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
 | [charset](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/charset/) | The character set of this font. |
 | [color](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/color/) | The color of this font. |
-| [content](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/content/) | The content of this font as a byte array. If only metainfo about this font is available and its binary content is unavailable, the property returns None. |
+| [content](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/content/) | The content of this font as a byte array. If only metadata about this font is available and the binary content is unavailable, the property returns None. |
 | [family_name](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/family_name/) | The family name of the font, without style, never is null or empty string. |
 | [format](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/format/) | The format of this font. |
 | [is_strikeout](/viewer/python-net/groupdocs.viewer.fonts/spreadsheetfontinfo/is_strikeout/) | The font has a single strikeout. |

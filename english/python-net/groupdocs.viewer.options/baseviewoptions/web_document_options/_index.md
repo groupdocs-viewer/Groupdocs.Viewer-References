@@ -13,7 +13,7 @@ weight: 2170
 
 The Web files view options.
 
-For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/net/render-web-documents/.
+For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/python-net/render-web-documents/.
 
 ### Definition:
 ```python

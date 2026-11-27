@@ -13,7 +13,7 @@ weight: 2030
 
 The keywords used to filter messages.
 
-Use this property to render all messages that contain specific text in the subject or body. For a code example, see the documentation.
+Use this property to render all messages that contain specific text in the subject or body. For code example, see the documentation.
 
 ### Definition:
 ```python

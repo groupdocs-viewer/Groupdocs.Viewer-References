@@ -13,7 +13,7 @@ weight: 2010
 
 The bottom margin of a page when converting to PDF.
 
-If the value is less than 0, the default margin is used.
+If the value is less than 0, the default margin is used. See the documentation for details.
 
 ### Definition:
 ```python

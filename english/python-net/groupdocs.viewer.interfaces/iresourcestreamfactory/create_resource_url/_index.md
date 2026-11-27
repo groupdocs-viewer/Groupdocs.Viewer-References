@@ -5,7 +5,7 @@ description: "Creates the URL for an HTML resource."
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/create_resource_url/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -24,6 +24,14 @@ def create_resource_url(self, page_number, resource):
 | resource | `Resource` | The HTML resource such as font, style, image or graphics. |
 
 **Returns:** str: URL for HTML resource.
+
+### Aliases
+
+These names call `create_resource_url` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `create_resource_url_int32` | `create_resource_url_int32(page_number, resource)` |
 
 ### See Also
 * class [`IResourceStreamFactory`](/viewer/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)

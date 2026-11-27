@@ -1,7 +1,7 @@
 ---
 title: OutlookOptions class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Contains options for rendering Outlook data files."
+description: "The class contains options for rendering Outlook data files."
 type: docs
 url: /python-net/groupdocs.viewer.options/outlookoptions/
 is_root: false
@@ -11,9 +11,9 @@ weight: 130
 
 ## OutlookOptions class
 
-Contains options for rendering Outlook data files.
+The class contains options for rendering Outlook data files.
 
-For details, see the GroupDocs documentation.
+For details, see the documentation.
 
 The OutlookOptions type exposes the following members:
 
@@ -25,7 +25,7 @@ The OutlookOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [address_filter](/viewer/python-net/groupdocs.viewer.options/outlookoptions/address_filter/) | The email-address used to filter messages by sender or recipient. |
+| [address_filter](/viewer/python-net/groupdocs.viewer.options/outlookoptions/address_filter/) | The email address used to filter messages by sender or recipient. |
 | [folder](/viewer/python-net/groupdocs.viewer.options/outlookoptions/folder/) | The name of the folder (e.g. Inbox, Sent Item or Deleted Items) to render. |
 | [max_items_in_folder](/viewer/python-net/groupdocs.viewer.options/outlookoptions/max_items_in_folder/) | The maximum number of messages or items that can be rendered from one folder. |
 | [text_filter](/viewer/python-net/groupdocs.viewer.options/outlookoptions/text_filter/) | The keywords used to filter messages. |
@@ -36,14 +36,19 @@ The OutlookOptions type exposes the following members:
 from groupdocs.viewer import Viewer
 from groupdocs.viewer.options import HtmlViewOptions
 
-def render_outlook():
+def render_outlook_with_max_items():
+    # Load Outlook data file
     with Viewer("sample.pst") as viewer:
+        # Create an HTML view with embedded resources.
         view_options = HtmlViewOptions.for_embedded_resources(
-            "outlook.html"
+            "render_outlook_with_max_items/outlook_with_max_items.html"
         )
         # Limit the number of items rendered per folder.
         view_options.outlook_options.max_items_in_folder = 30
         viewer.view(view_options)
+
+if __name__ == "__main__":
+    render_outlook_with_max_items()
 ```
 
 ### See Also

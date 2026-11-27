@@ -5,7 +5,7 @@ description: "Initializes an instance of the ViewInfoOptions class to retrieve i
 type: docs
 url: /python-net/groupdocs.viewer.options/viewinfooptions/for_png_view/
 is_root: false
-weight: 1060
+weight: 1040
 ---
 
 
@@ -55,8 +55,16 @@ def for_png_view(cls, extract_text):
 from groupdocs.viewer.options import ViewInfoOptions
 
 # Create view info options for PNG format with text extraction enabled
-options = ViewInfoOptions.for_png_view(extractText=True)
+options = ViewInfoOptions.for_png_view(extract_text=True)
 ```
+
+### Aliases
+
+These names call `for_png_view` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `for_png_view_boolean` | `for_png_view_boolean(extract_text)` |
 
 ### See Also
 * class [`ViewInfoOptions`](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/)

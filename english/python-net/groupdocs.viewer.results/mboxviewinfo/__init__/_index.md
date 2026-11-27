@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#file_type-pages-notes_count}
 
-Initializes a new [`MboxViewInfo`](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/) instance.
+Initializes a new MboxViewInfo instance.
 
 ```python
 def __init__(self, file_type, pages, notes_count):

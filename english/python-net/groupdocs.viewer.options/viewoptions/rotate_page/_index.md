@@ -13,8 +13,6 @@ weight: 1010
 
 Applies the clockwise rotation to a page.
 
-For details, see the documentation at https://docs.groupdocs.com/viewer/net/flip-or-rotate-pages/.
-
 ```python
 def rotate_page(self, page_number, rotation):
     ...
@@ -28,6 +26,14 @@ def rotate_page(self, page_number, rotation):
 | Raises | Description |
 | :- | :- |
 | `ValueError` | If rotation for the page with number `page_number` was already added. |
+
+### Aliases
+
+These names call `rotate_page` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `rotate_page_int32` | `rotate_page_int32(page_number, rotation)` |
 
 ### See Also
 * class [`ViewOptions`](/viewer/python-net/groupdocs.viewer.options/viewoptions/)

@@ -5,7 +5,7 @@ description: "The CAD drawing layers to render."
 type: docs
 url: /python-net/groupdocs.viewer.options/cadoptions/layers/
 is_root: false
-weight: 2040
+weight: 2050
 ---
 
 

@@ -13,7 +13,7 @@ weight: 1040
 
 Initializes an instance of the [`SpreadsheetOptions`](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering print areas and page breaks.
 
-For details, see the documentation at https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#render-worksheet-by-page-breaks-and-print-area.
+For details, see the documentation at https://docs.groupdocs.com/viewer/python-net/split-worksheet-into-pages/#render-worksheet-by-page-breaks-and-print-area.
 
 ```python
 def for_rendering_print_area_and_page_breaks(cls):

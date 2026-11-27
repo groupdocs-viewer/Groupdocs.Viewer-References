@@ -5,7 +5,7 @@ description: "Logging hooks and listener interfaces."
 type: docs
 url: /python-net/groupdocs.viewer.logging/
 is_root: false
-weight: 60
+weight: 70
 ---
 
 

@@ -18,7 +18,7 @@ def get_end_point_x(self):
     ...
 ```
 
-**Returns:** float: The X coordinate of the tile's end point.
+**Returns:** float: X coordinate of the highest right point where the tile ends.
 
 ### See Also
 * class [`Tile`](/viewer/python-net/groupdocs.viewer.options/tile/)

@@ -11,7 +11,9 @@ weight: 2010
 
 ## content property
 
-The content of the substituted font as a byte array. It is never None.
+The content of the substituted font as a byte array.
+
+Never is None.
 
 ### Definition:
 ```python

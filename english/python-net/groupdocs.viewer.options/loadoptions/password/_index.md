@@ -13,7 +13,7 @@ weight: 2040
 
 The password to open an encrypted file.
 
-For code example, see the documentation.
+For a code example, see the documentation.
 
 ### Definition:
 ```python

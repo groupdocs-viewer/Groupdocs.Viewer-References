@@ -5,7 +5,7 @@ description: "The PC3 plotter configuration file."
 type: docs
 url: /python-net/groupdocs.viewer.options/cadoptions/pc3_file/
 is_root: false
-weight: 2060
+weight: 2070
 ---
 
 

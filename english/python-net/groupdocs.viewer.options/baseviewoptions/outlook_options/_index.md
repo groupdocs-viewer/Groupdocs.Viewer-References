@@ -13,7 +13,7 @@ weight: 2060
 
 The Microsoft Outlook data files view options.
 
-For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/net/render-outlook-data-files/.
+For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/python-net/render-outlook-data-files/.
 
 ### Definition:
 ```python

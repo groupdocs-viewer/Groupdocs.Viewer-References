@@ -1,7 +1,7 @@
 ---
 title: PdfViewInfo class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Represents view information for a PDF document."
+description: "Represents view information for PDF document."
 type: docs
 url: /python-net/groupdocs.viewer.results/pdfviewinfo/
 is_root: false
@@ -11,7 +11,7 @@ weight: 140
 
 ## PdfViewInfo class
 
-Represents view information for a PDF document.
+Represents view information for PDF document.
 
 The PdfViewInfo type exposes the following members:
 
@@ -19,7 +19,7 @@ The PdfViewInfo type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/__init__/) | Initializes a new PdfViewInfo instance. |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/__init__/#file_type-pages-printing_allowed) | Initializes a new PdfViewInfo instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/__init__/#file_type-pages-printing_allowed) | Initializes new instance of [`PdfViewInfo`](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/) class. |
 
 ### Methods
 | Method | Description |

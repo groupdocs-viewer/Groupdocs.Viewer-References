@@ -1,7 +1,7 @@
 ---
 title: resize_images property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The property enables setting the maximum resolution in the output PDF file."
+description: "The property that enables setting the maximum resolution in the output PDF file."
 type: docs
 url: /python-net/groupdocs.viewer.options/pdfoptimizationoptions/resize_images/
 is_root: false
@@ -11,9 +11,9 @@ weight: 2110
 
 ## resize_images property
 
-The property enables setting the maximum resolution in the output PDF file.
+The property that enables setting the maximum resolution in the output PDF file.
 
-To allow this option, set the [`PdfOptimizationOptions.compress_images`](/viewer/python-net/groupdocs.viewer.options/pdfoptimizationoptions/compress_images/) property to `True`. This option allows setting the [`PdfOptimizationOptions.max_resolution`](/viewer/python-net/groupdocs.viewer.options/pdfoptimizationoptions/max_resolution/) property.
+To allow this option, set the `compress_images` property to `True`. This option also allows setting the `max_resolution` property. For a code example, see the documentation.
 
 ### Definition:
 ```python

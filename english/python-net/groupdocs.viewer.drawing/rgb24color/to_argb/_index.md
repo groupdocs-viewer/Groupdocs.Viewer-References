@@ -5,7 +5,7 @@ description: "Returns the ARGB value of this Rgb24Color instance, compatible wit
 type: docs
 url: /python-net/groupdocs.viewer.drawing/rgb24color/to_argb/
 is_root: false
-weight: 1100
+weight: 1070
 ---
 
 

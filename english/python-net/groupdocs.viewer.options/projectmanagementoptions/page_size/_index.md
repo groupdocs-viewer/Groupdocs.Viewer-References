@@ -13,7 +13,7 @@ weight: 2020
 
 The output page size.
 
-For code sample, see the documentation.
+For a code sample, see the documentation.
 
 ### Definition:
 ```python

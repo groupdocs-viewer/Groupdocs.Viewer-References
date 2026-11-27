@@ -5,7 +5,7 @@ description: "Creates a fully opaque (A=255) color from a single byte value appl
 type: docs
 url: /python-net/groupdocs.viewer.drawing/argb32color/from_single_value_rgb/
 is_root: false
-weight: 1110
+weight: 1060
 ---
 
 

@@ -39,5 +39,14 @@ def equals(self, obj):
 
 **Returns:** bool: True if equal, False otherwise.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_image_2d_format` | `equals_image_2d_format(other)` |
+| `equals_object` | `equals_object(obj)` |
+
 ### See Also
 * class [`Image2DFormat`](/viewer/python-net/groupdocs.viewer.drawing/image2dformat/)

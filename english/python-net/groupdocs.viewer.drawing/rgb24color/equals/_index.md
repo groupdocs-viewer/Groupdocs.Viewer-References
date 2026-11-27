@@ -54,5 +54,15 @@ def equals(self, obj):
 
 **Returns:** bool: True if both colors are equal, otherwise False.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_argb_32_color` | `equals_argb_32_color(other)` |
+| `equals_rgb_24_color` | `equals_rgb_24_color(other)` |
+| `equals_object` | `equals_object(obj)` |
+
 ### See Also
 * class [`Rgb24Color`](/viewer/python-net/groupdocs.viewer.drawing/rgb24color/)

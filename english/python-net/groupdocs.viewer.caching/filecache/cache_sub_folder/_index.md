@@ -1,7 +1,7 @@
 ---
 title: cache_sub_folder property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The sub-folder to append to the FileCache.cachepath."
+description: "The sub-folder to append to the FileCache.cache_path."
 type: docs
 url: /python-net/groupdocs.viewer.caching/filecache/cache_sub_folder/
 is_root: false

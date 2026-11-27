@@ -27,5 +27,14 @@ def error(self, message, exception):
 | :- | :- |
 | `ValueError` | When `exception` is None. |
 
+### Aliases
+
+These names call `error` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `error_file` | `error_file(message, exception)` |
+| `error_string` | `error_string(message, exception)` |
+
 ### See Also
 * class [`FileLogger`](/viewer/python-net/groupdocs.viewer.logging/filelogger/)

@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Initializes a new instance of the Layer class."
+description: "Initializes a new instance of Layer class."
 type: docs
 url: /python-net/groupdocs.viewer.results/layer/__init__/
 is_root: false
@@ -11,20 +11,11 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the [`Layer`](/viewer/python-net/groupdocs.viewer.results/layer/) class.
+Initializes a new instance of [`Layer`](/viewer/python-net/groupdocs.viewer.results/layer/) class.
 
 ```python
 def __init__(self):
     ...
-```
-
-### Example
-
-```python
-from groupdocs.viewer.results import Layer
-
-# Create a layer with the specified name.
-layer = Layer("QUADRANT")
 ```
 
 ## __init__ {#name}
@@ -42,15 +33,15 @@ def __init__(self, name):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Raised when `name` is None or empty. |
+| `ValueError` | When `name` is null or empty. |
 
 ### Example
 
 ```python
 from groupdocs.viewer.results import Layer
 
-# Create a layer with the specified name
-layer = Layer("QUADRANT")
+# Create a layer named "WALLS"
+layer = Layer("WALLS")
 ```
 
 ## __init__ {#name-visible}
@@ -69,19 +60,18 @@ def __init__(self, name, visible):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `name` is None or empty. |
+| `ValueError` | If `name` is None or empty. |
 
 ### Example
 
 ```python
-from groupdocs.viewer import Viewer
-from groupdocs.viewer.options import PdfViewOptions
 from groupdocs.viewer.results import Layer
 
-with Viewer("sample.dwg") as viewer:
-    options = PdfViewOptions("render_specific_layers/specific_layers.pdf")
-    options.cad_options.layers = [Layer("QUADRANT")]
-    viewer.view(options)
+# Render specific layers in a CAD drawing
+layers = [
+    Layer("WALLS"),
+    Layer("RACKS", visible=True)
+]
 ```
 
 ### See Also

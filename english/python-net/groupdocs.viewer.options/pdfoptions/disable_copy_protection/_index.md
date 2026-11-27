@@ -13,7 +13,7 @@ weight: 2020
 
 The property disables content copy protection when rendering to HTML.
 
-When rendering PDF files with protection against copying text and images to HTML, GroupDocs.Viewer adds an `inert` HTML attribute to the HTML BODY tag. The default value is `False`, meaning the `inert` attribute is added only if the PDF document is protected.
+When rendering PDF files with protection against copying text and images to HTML, GroupDocs.Viewer adds an `inert` HTML attribute to the HTML BODY tag. The default value of this option is `False`, indicating that the `intent` HTML attribute is added only if the PDF document is protected.
 
 For a code example, see the documentation.
 

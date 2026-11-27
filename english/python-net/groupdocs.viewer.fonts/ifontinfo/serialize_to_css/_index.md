@@ -22,5 +22,13 @@ def serialize_to_css(self, output):
 | :- | :- | :- |
 | output | `System.IO.TextWriter` | Device, into which the serialized text data should be written. |
 
+### Aliases
+
+These names call `serialize_to_css` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `serialize_to_css_text_writer` | `serialize_to_css_text_writer(output)` |
+
 ### See Also
 * class [`IFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/ifontinfo/)

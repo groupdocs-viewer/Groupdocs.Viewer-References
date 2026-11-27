@@ -42,5 +42,13 @@ def create_page_stream(self, page_number):
         viewer.view(PngViewOptions(create_page_stream))
     ```
 
+### Aliases
+
+These names call `create_page_stream` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `create_page_stream_int32` | `create_page_stream_int32(page_number)` |
+
 ### See Also
 * class [`IPageStreamFactory`](/viewer/python-net/groupdocs.viewer.interfaces/ipagestreamfactory/)

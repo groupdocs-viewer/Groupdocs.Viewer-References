@@ -28,16 +28,37 @@ def create_resource_stream(self, page_number, resource):
 ### Example
 
 ```python
+import io
 from groupdocs.viewer import Viewer
+from groupdocs.viewer.options import HtmlViewOptions
 
-viewer = Viewer()
-factory = viewer.resource_stream_factory
+pages, resources = {}, {}
 
-# Create a stream for a CSS resource on page 1
-stream = factory.create_resource_stream(pageNumber=1, resource="style.css")
-with stream:
-    stream.write(b"body { font-family: Arial; }")
+class PageStreams:
+    def create_page_stream(self, page_number):
+        pages[page_number] = io.BytesIO()
+        return pages[page_number]
+
+class ResourceStreams:
+    def create_resource_stream(self, page_number, resource_name):
+        # resource_name is the resource's file name, e.g. "s1.css"
+        resources[(page_number, resource_name)] = io.BytesIO()
+        return resources[(page_number, resource_name)]
+
+    def create_resource_url(self, page_number, resource_name):
+        return "res_{0}_{1}".format(page_number, resource_name)
+
+with Viewer("sample.docx") as viewer:
+    viewer.view(HtmlViewOptions.for_external_resources(PageStreams(), ResourceStreams()))
 ```
+
+### Aliases
+
+These names call `create_resource_stream` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `create_resource_stream_int32` | `create_resource_stream_int32(page_number, resource)` |
 
 ### See Also
 * class [`IResourceStreamFactory`](/viewer/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)

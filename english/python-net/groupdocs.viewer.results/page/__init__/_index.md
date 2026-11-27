@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#number-visible}
 
-Initializes a new [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) instance.
+Initializes a new Page instance.
 
 ```python
 def __init__(self, number, visible):
@@ -34,7 +34,7 @@ def __init__(self, number, visible):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `number` is less than or equal to zero. |
+| `ValueError` | When `number` is less or equal to zero. |
 
 ## __init__ {#number-name-visible}
 
@@ -53,7 +53,7 @@ def __init__(self, number, name, visible):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `number` is less or equal to zero. |
+| `ValueError` | Thrown when `number` is less or equal to zero. |
 
 ## __init__ {#number-visible-width-height}
 
@@ -77,7 +77,7 @@ def __init__(self, number, visible, width, height):
 
 ## __init__ {#number-name-visible-width-height}
 
-Initializes a new instance of [`Page`](/viewer/python-net/groupdocs.viewer.results/page/).
+Initializes a new [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) instance.
 
 ```python
 def __init__(self, number, name, visible, width, height):
@@ -94,11 +94,11 @@ def __init__(self, number, name, visible, width, height):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `height` is less or equal to zero. |
+| `ValueError` | If `height` is less than or equal to zero. |
 
 ## __init__ {#number-visible-width-height-lines}
 
-Initializes a new instance of [`Page`](/viewer/python-net/groupdocs.viewer.results/page/).
+Initializes a new instance of the [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) class.
 
 ```python
 def __init__(self, number, visible, width, height, lines):

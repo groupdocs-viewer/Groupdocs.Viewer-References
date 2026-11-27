@@ -5,7 +5,7 @@ description: "Initializes a ViewInfoOptions instance based on the provided JpgVi
 type: docs
 url: /python-net/groupdocs.viewer.options/viewinfooptions/from_jpg_view_options/
 is_root: false
-weight: 1090
+weight: 1060
 ---
 
 

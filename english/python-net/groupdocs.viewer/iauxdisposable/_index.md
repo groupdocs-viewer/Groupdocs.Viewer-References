@@ -20,5 +20,10 @@ The IAuxDisposable type exposes the following members:
 | :- | :- |
 | [is_disposed](/viewer/python-net/groupdocs.viewer/iauxdisposable/is_disposed/) | The property indicates whether a resource is already disposed (`True`) or not (`False`). |
 
+### Events
+| Event | Description |
+| :- | :- |
+| [disposed](/viewer/python-net/groupdocs.viewer/iauxdisposable/disposed/) | Occurs when object is disposed, right after the resources disposing is successfully completed |
+
 ### See Also
 * module [`groupdocs.viewer`](/viewer/python-net/groupdocs.viewer/)

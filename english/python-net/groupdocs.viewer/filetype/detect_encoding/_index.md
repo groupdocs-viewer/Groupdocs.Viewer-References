@@ -61,5 +61,16 @@ with open("message.txt", "rb") as stream:
     print(encoding)
 ```
 
+### Aliases
+
+These names call `detect_encoding` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `detect_encoding_file` | `detect_encoding_file(file_path)` |
+| `detect_encoding_string` | `detect_encoding_string(file_path)` |
+| `detect_encoding_stream` | `detect_encoding_stream(stream)` |
+| `detect_encoding_streams` | `detect_encoding_streams(stream)` |
+
 ### See Also
 * class [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/)

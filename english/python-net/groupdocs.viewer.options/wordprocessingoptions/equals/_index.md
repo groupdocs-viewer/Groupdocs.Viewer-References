@@ -24,5 +24,13 @@ def equals(self, options):
 
 **Returns:** True if equal, False otherwise.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_word_processing_options` | `equals_word_processing_options(options)` |
+
 ### See Also
 * class [`WordProcessingOptions`](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/)

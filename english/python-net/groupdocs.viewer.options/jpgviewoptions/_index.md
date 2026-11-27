@@ -28,12 +28,11 @@ The JpgViewOptions type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [rotate_page](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page/) | Applies the clockwise rotation to a page. (inherited from [`ViewOptions`](/viewer/python-net/groupdocs.viewer.options/viewoptions/)) |
-| [rotate_page_int32](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page_int32/) |  (inherited from [`ViewOptions`](/viewer/python-net/groupdocs.viewer.options/viewoptions/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [extract_text](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/extract_text/) | The property enables text extraction. |
+| [extract_text](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/extract_text/) | The extract_text property enables text extraction. |
 | [height](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/height/) | The height of the output image in pixels. |
 | [max_height](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/max_height/) | The maximum height of an output image in pixels. |
 | [max_width](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/max_width/) | The maximum width of an output image in pixels. |

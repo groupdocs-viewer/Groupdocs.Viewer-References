@@ -5,7 +5,7 @@ description: "Maps file extension to file type."
 type: docs
 url: /python-net/groupdocs.viewer/filetype/from_extension/
 is_root: false
-weight: 1090
+weight: 1030
 ---
 
 

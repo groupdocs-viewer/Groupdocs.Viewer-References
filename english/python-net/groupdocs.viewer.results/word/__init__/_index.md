@@ -38,7 +38,7 @@ def __init__(self, word, x, y, width, height, characters):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `characters` is null. |
+| `ValueError` | Thrown when `characters` is null. |
 
 ### See Also
 * class [`Word`](/viewer/python-net/groupdocs.viewer.results/word/)

@@ -5,7 +5,7 @@ description: "Initializes an instance of the ViewInfoOptions class based on the 
 type: docs
 url: /python-net/groupdocs.viewer.options/viewinfooptions/from_html_view_options/
 is_root: false
-weight: 1080
+weight: 1050
 ---
 
 
@@ -33,7 +33,7 @@ def from_html_view_options(cls, options):
 ```python
 from groupdocs.viewer.options import ViewInfoOptions, HtmlViewOptions
 
-html_opts = HtmlViewOptions()
+html_opts = HtmlViewOptions.for_embedded_resources("page_{0}.html")
 view_info_opts = ViewInfoOptions.from_html_view_options(html_opts)
 ```
 

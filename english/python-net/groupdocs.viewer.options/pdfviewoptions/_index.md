@@ -21,16 +21,15 @@ The PdfViewOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/__init__/#create_file_stream) | Initializes an instance of [`PdfViewOptions`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/__init__/#create_file_stream-release_file_stream) | Initializes a new PdfViewOptions instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/__init__/#create_file_stream-release_file_stream) | Initializes an instance of [`PdfViewOptions`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) class. |
 | [__init__](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/__init__/#file_stream_factory) | Initializes a PdfViewOptions instance. |
 | [__init__](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/__init__/) | Initializes a PdfViewOptions instance. |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/__init__/#output_file_path) | Initializes an instance of [`PdfViewOptions`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/__init__/#output_file_path) | Initializes a new [`PdfViewOptions`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) instance. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [rotate_page](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page/) | Applies the clockwise rotation to a page. (inherited from [`ViewOptions`](/viewer/python-net/groupdocs.viewer.options/viewoptions/)) |
-| [rotate_page_int32](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page_int32/) |  (inherited from [`ViewOptions`](/viewer/python-net/groupdocs.viewer.options/viewoptions/)) |
 
 ### Properties
 | Property | Description |
@@ -39,8 +38,8 @@ The PdfViewOptions type exposes the following members:
 | [image_max_height](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/image_max_height/) | The maximum height of an output image in pixels. |
 | [image_max_width](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/image_max_width/) | The maximum width of an output image in pixels. |
 | [image_width](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/image_width/) | The width of the output image in pixels. |
-| [pdf_optimization_options](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/pdf_optimization_options/) | The pdf_optimization_options property provides access to a [`PdfOptimizationOptions`](/viewer/python-net/groupdocs.viewer.options/pdfoptimizationoptions/) instance that reduces the output PDF file size by applying optimization techniques. |
-| [security](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/security/) | The security options for the output PDF document. |
+| [pdf_optimization_options](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/pdf_optimization_options/) | The PDF optimization options that reduce the output PDF file size by applying optimization techniques. |
+| [security](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/security/) | The output PDF document security options. |
 | [archive_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/archive_options/) | The archive files view options. (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
 | [cad_options](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/cad_options/) | The CAD drawing view options. (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
 | [default_font_name](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/default_font_name/) | The default font for a document used during rendering when a required font is missing. (inherited from [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/)) |
@@ -78,6 +77,8 @@ Task guides that use `PdfViewOptions`:
 * [Quick Start Guide](/viewer/python-net/guides/quick-start-guide/)
 * [Protect PDF document](/viewer/python-net/guides/protect-pdf-document/)
 * [Reorder pages](/viewer/python-net/guides/reorder-pages/)
+* [Save output to a stream](/viewer/python-net/guides/save-output-to-stream/)
+* [Cancel rendering](/viewer/python-net/guides/cancel-rendering/)
 
 ### See Also
 * module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

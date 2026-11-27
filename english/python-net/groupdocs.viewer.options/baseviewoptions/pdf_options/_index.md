@@ -13,7 +13,7 @@ weight: 2070
 
 The PDF document view options.
 
-For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/net/render-pdf-documents/.
+For more information and code examples, see the documentation.
 
 ### Definition:
 ```python

@@ -13,7 +13,7 @@ weight: 2010
 
 The height of an output image in pixels.
 
-Use this property to set the output image height (in pixels). GroupDocs.Viewer applies this property when rendering a single image to HTML only. For details, see the documentation at https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-pdf/.
+Use this property to set the output image height (in pixels). GroupDocs.Viewer applies this property when rendering a single image to HTML only. For details, see the documentation.
 
 If you set this property, the [`PdfViewOptions.ImageMaxHeight`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/image_max_height/) property is ignored.
 

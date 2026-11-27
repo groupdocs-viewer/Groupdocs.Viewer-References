@@ -24,14 +24,8 @@ The FileLogger type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [error](/viewer/python-net/groupdocs.viewer.logging/filelogger/error/#message-exception) | Writes an error message to the console. Error log messages provide information about unrecoverable events in the application flow. |
-| [error_file](/viewer/python-net/groupdocs.viewer.logging/filelogger/error_file/) |  |
-| [error_string](/viewer/python-net/groupdocs.viewer.logging/filelogger/error_string/) |  |
 | [trace](/viewer/python-net/groupdocs.viewer.logging/filelogger/trace/#message) | Writes a trace message to the log. Trace log messages provide generally useful information about application flow. |
-| [trace_file](/viewer/python-net/groupdocs.viewer.logging/filelogger/trace_file/) |  |
-| [trace_string](/viewer/python-net/groupdocs.viewer.logging/filelogger/trace_string/) |  |
 | [warning](/viewer/python-net/groupdocs.viewer.logging/filelogger/warning/#message) | Writes a warning message to the console. |
-| [warning_file](/viewer/python-net/groupdocs.viewer.logging/filelogger/warning_file/) |  |
-| [warning_string](/viewer/python-net/groupdocs.viewer.logging/filelogger/warning_string/) |  |
 
 ### Example
 
@@ -40,12 +34,16 @@ from groupdocs.viewer import Viewer, ViewerSettings
 from groupdocs.viewer.logging import FileLogger
 from groupdocs.viewer.options import HtmlViewOptions
 
-viewer_settings = ViewerSettings(logger=FileLogger("./log.txt"))
-with Viewer("./sample.docx", settings=viewer_settings) as viewer:
-    html_options = HtmlViewOptions.for_embedded_resources(
-        "write_logs_to_file/page_{0}.html"
-    )
-    viewer.view(html_options)
+def write_logs_to_file():
+    viewer_settings = ViewerSettings(logger=FileLogger("./log.txt"))
+    with Viewer("./sample.docx", settings=viewer_settings) as viewer:
+        html_options = HtmlViewOptions.for_embedded_resources(
+            "write_logs_to_file/page_{0}.html"
+        )
+        viewer.view(html_options)
+
+if __name__ == "__main__":
+    write_logs_to_file()
 ```
 
 ### See Also

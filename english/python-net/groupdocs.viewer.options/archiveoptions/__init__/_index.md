@@ -18,19 +18,5 @@ def __init__(self):
     ...
 ```
 
-### Example
-
-```python
-from groupdocs.viewer import Viewer
-from groupdocs.viewer.options import HtmlViewOptions
-
-with Viewer("documents.zip") as viewer:
-    view_options = HtmlViewOptions.for_embedded_resources(
-        "output/specific_folder.html"
-    )
-    view_options.archive_options.folder = "first_folder"
-    viewer.view(view_options)
-```
-
 ### See Also
 * class [`ArchiveOptions`](/viewer/python-net/groupdocs.viewer.options/archiveoptions/)

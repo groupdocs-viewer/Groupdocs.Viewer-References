@@ -5,7 +5,7 @@ description: "Initializes a ViewInfoOptions instance for retrieving view informa
 type: docs
 url: /python-net/groupdocs.viewer.options/viewinfooptions/for_pdf_view/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 

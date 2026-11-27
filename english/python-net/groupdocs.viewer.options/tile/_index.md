@@ -13,14 +13,14 @@ weight: 310
 
 Represents the drawing region.
 
-For details, see the documentation at https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#split-a-drawing-into-tiles.
+For details, see the documentation.
 
 The Tile type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/tile/__init__/#start_point_x-start_point_y-width-height) | Initializes an instance of the [`Tile`](/viewer/python-net/groupdocs.viewer.options/tile/) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/tile/__init__/#start_point_x-start_point_y-width-height) | Initializes a Tile instance. |
 
 ### Methods
 | Method | Description |
@@ -39,25 +39,13 @@ The Tile type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.viewer import Viewer
-from groupdocs.viewer.options import ViewInfoOptions, HtmlViewOptions, Tile
+from groupdocs.viewer.options import Tile
 
-with Viewer("sample.dwg") as viewer:
-    view_info = viewer.get_view_info(ViewInfoOptions.for_html_view())
-    width = view_info.pages[0].width
-    height = view_info.pages[0].height
+# Create a tile that starts at (0, 0) and spans 500 × 500 units
+tile = Tile(0, 0, 500, 500)
 
-    columns, rows = 2, 2
-    tile_width = width / columns
-    tile_height = height / rows
-
-    view_options = HtmlViewOptions.for_embedded_resources(
-        "output/drawing_tile_{0}.html"
-    )
-    for i in range(columns):
-        for j in range(rows):
-            tile = Tile(i * tile_width, j * tile_height, tile_width, tile_height)
-            view_options.cad_options.tiles.append(tile)
+# The tile can be added to the viewer's CAD options
+# view_options.cad_options.tiles.append(tile)
 ```
 
 ### See Also

@@ -26,8 +26,6 @@ The Layout type exposes the following members:
 | :- | :- |
 | [equals](/viewer/python-net/groupdocs.viewer.results/layout/equals/#other) | Determines whether the current Layout is the same as the specified Layout object. |
 | [equals](/viewer/python-net/groupdocs.viewer.results/layout/equals/#obj) | Determines whether the current [`Layout`](/viewer/python-net/groupdocs.viewer.results/layout/) is the same as the specified object. |
-| [equals_layout](/viewer/python-net/groupdocs.viewer.results/layout/equals_layout/) |  |
-| [equals_object](/viewer/python-net/groupdocs.viewer.results/layout/equals_object/) |  |
 | [get_hash_code](/viewer/python-net/groupdocs.viewer.results/layout/get_hash_code/) | Returns the hash code for the current [`Layout`](/viewer/python-net/groupdocs.viewer.results/layout/) object. |
 | [to_string](/viewer/python-net/groupdocs.viewer.results/layout/to_string/) | Returns a string that represents the current object. |
 

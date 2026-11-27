@@ -27,8 +27,6 @@ The FontStyles type exposes the following members:
 | :- | :- |
 | [equals](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/equals/#other) | Indicates whether this FontStyles instance is equal to the specified instance. |
 | [equals](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/equals/#other) | Indicates whether this [`FontStyles`](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/) instance is equal to the specified uncasted object. |
-| [equals_font_styles](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/equals_font_styles/) |  |
-| [equals_object](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/equals_object/) |  |
 | [get_hash_code](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/get_hash_code/) | Returns a hash-code of this instance. |
 | [to_string](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/to_string/) | Returns the name of this font style, same as [`FontStyles.name`](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/name/). |
 | [try_parse](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/try_parse/#style-parsed) | Tries to parse specified raw string as a font style name. |

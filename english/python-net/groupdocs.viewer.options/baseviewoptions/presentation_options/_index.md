@@ -13,7 +13,7 @@ weight: 2080
 
 The presentation files view options.
 
-For more information and code examples, see the documentation: https://docs.groupdocs.com/viewer/net/render-presentations/
+For more information and code examples, see the documentation: https://docs.groupdocs.com/viewer/python-net/render-presentations/
 
 ### Definition:
 ```python

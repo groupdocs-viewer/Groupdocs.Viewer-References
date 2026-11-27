@@ -13,7 +13,7 @@ weight: 380
 
 Contains options for rendering Word documents.
 
-For details, see the documentation at https://docs.groupdocs.com/viewer/net/render-word-documents/.
+For details, see the documentation at https://docs.groupdocs.com/viewer/python-net/render-word-documents/.
 
 The WordProcessingOptions type exposes the following members:
 
@@ -27,7 +27,6 @@ The WordProcessingOptions type exposes the following members:
 | :- | :- |
 | [clone](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/clone/) | Creates and returns a full deep copy of these options. |
 | [equals](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/equals/#options) | Determines whether the specified [`WordProcessingOptions`](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/) instance is equal to this instance. |
-| [equals_word_processing_options](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/equals_word_processing_options/) |  |
 
 ### Properties
 | Property | Description |
@@ -37,7 +36,7 @@ The WordProcessingOptions type exposes the following members:
 | [horizontal_resolution](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/horizontal_resolution/) | The horizontal resolution for generated images in dots per inch. This option is used when rendering WordProcessing documents to PNG or JPEG formats only. |
 | [left_margin](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/left_margin/) | The left margin of a page. |
 | [page_number_location](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/page_number_location/) | The page numbering location for the loaded WordProcessing document, which can forcibly apply page numbering; by default it is `WordsPageNumberLocation.not_apply`, leaving the document intact. |
-| [page_size](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/page_size/) | The size of the output page. |
+| [page_size](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/page_size/) | The size of the output page; defaults to `PageSize.Unspecified`, which uses the page size defined in page settings. |
 | [render_tracked_changes](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/render_tracked_changes/) | The property enables rendering of tracked changes (revisions). |
 | [right_margin](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/right_margin/) | The right margin of a page. |
 | [top_margin](/viewer/python-net/groupdocs.viewer.options/wordprocessingoptions/top_margin/) | The top margin of a page in points. |

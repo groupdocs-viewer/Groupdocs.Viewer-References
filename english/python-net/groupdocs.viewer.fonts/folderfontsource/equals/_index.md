@@ -39,5 +39,14 @@ def equals(self, obj):
 
 **Returns:** bool: True if `obj` is a FolderFontSource and is the same as the current FolderFontSource; otherwise False.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_folder_font_source` | `equals_folder_font_source(other)` |
+| `equals_object` | `equals_object(obj)` |
+
 ### See Also
 * class [`FolderFontSource`](/viewer/python-net/groupdocs.viewer.fonts/folderfontsource/)

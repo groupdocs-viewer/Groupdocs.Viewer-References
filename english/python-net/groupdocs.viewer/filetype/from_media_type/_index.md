@@ -5,7 +5,7 @@ description: "Maps a file media type to a FileType (e.g., 'application/pdf' maps
 type: docs
 url: /python-net/groupdocs.viewer/filetype/from_media_type/
 is_root: false
-weight: 1110
+weight: 1050
 ---
 
 

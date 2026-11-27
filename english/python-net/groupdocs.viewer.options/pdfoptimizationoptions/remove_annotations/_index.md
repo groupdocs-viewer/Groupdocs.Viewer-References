@@ -13,7 +13,7 @@ weight: 2070
 
 The property enables removing annotations from the output PDF file.
 
-For a code example, see the documentation: https://docs.groupdocs.com/viewer/net/optimization-pdf-remove-annotations/
+For a code example, see the documentation.
 
 ### Definition:
 ```python

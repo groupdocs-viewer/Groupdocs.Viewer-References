@@ -5,7 +5,7 @@ description: "Determines whether the current FileType is the same as the specifi
 type: docs
 url: /python-net/groupdocs.viewer/filetype/equals/
 is_root: false
-weight: 1060
+weight: 1020
 ---
 
 
@@ -38,6 +38,15 @@ def equals(self, obj):
 | obj | `Any` | The object to compare with the current `FileType` object. |
 
 **Returns:** bool: True if `obj` is a `FileType` and is the same as the current instance; otherwise, False.
+
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_file_type` | `equals_file_type(other)` |
+| `equals_object` | `equals_object(obj)` |
 
 ### See Also
 * class [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/)

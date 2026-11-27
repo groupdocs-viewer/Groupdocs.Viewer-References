@@ -26,7 +26,7 @@ def equals(self, other):
 
 ## equals {#obj}
 
-Checks whether the current [`Layer`](/viewer/python-net/groupdocs.viewer.results/layer/) is equal to the specified object.
+Determines whether the current [`Layer`](/viewer/python-net/groupdocs.viewer.results/layer/) is the same as the specified object.
 
 ```python
 def equals(self, obj):
@@ -37,7 +37,16 @@ def equals(self, obj):
 | :- | :- | :- |
 | obj | `Any` | The object to compare with the current `Layer` object. |
 
-**Returns:** bool: `True` if `obj` is a `Layer` and is the same as the current `Layer` object; otherwise `False`.
+**Returns:** True if `obj` is a `Layer` and is the same as the current `Layer`; otherwise False.
+
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_layer` | `equals_layer(other)` |
+| `equals_object` | `equals_object(obj)` |
 
 ### See Also
 * class [`Layer`](/viewer/python-net/groupdocs.viewer.results/layer/)

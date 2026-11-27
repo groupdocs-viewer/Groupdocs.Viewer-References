@@ -13,7 +13,7 @@ weight: 10
 
 Initializes a new [`TextOptions`](/viewer/python-net/groupdocs.viewer.options/textoptions/) instance.
 
-For details, see the documentation: https://docs.groupdocs.com/viewer/net/render-text-files/#specify-rendering-options.
+For details, see the documentation: https://docs.groupdocs.com/viewer/python-net/render-text-files/.
 
 ```python
 def __init__(self):

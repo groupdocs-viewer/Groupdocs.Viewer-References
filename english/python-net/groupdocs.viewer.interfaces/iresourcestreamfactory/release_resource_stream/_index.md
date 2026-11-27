@@ -1,11 +1,11 @@
 ---
 title: release_resource_stream method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Releases the stream created by IResourceStreamFactory.createresourcestream method."
+description: "Releases the stream created by IResourceStreamFactory.create_resource_stream method."
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/release_resource_stream/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 
@@ -25,6 +25,16 @@ def release_resource_stream(self, page_number, resource, resource_stream):
 | resource_stream | `io.RawIOBase` | Stream created by `IResourceStreamFactory.create_resource_stream` method. |
 
 **Returns:** None.
+
+### Aliases
+
+These names call `release_resource_stream` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `release_resource_stream_int32` | `release_resource_stream_int32(page_number, resource, resource_stream)` |
+| `release_resource_stream_stream` | `release_resource_stream_stream(page_number, resource, resource_stream)` |
+| `release_resource_stream_streams` | `release_resource_stream_streams(page_number, resource, resource_stream)` |
 
 ### See Also
 * class [`IResourceStreamFactory`](/viewer/python-net/groupdocs.viewer.interfaces/iresourcestreamfactory/)

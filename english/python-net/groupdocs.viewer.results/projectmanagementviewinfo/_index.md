@@ -19,7 +19,7 @@ The ProjectManagementViewInfo type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/projectmanagementviewinfo/__init__/) | Initializes a new instance of [`ProjectManagementViewInfo`](/viewer/python-net/groupdocs.viewer.results/projectmanagementviewinfo/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/projectmanagementviewinfo/__init__/#file_type-pages-start_date-end_date) | Initializes a new instance of ProjectManagementViewInfo. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/projectmanagementviewinfo/__init__/#file_type-pages-start_date-end_date) | Initializes a new ProjectManagementViewInfo instance. |
 
 ### Methods
 | Method | Description |

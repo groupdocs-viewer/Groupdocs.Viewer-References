@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#file_type-pages-folders}
 
-Initializes a new OutlookViewInfo instance.
+Initializes a new [`OutlookViewInfo`](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/) instance.
 
 ```python
 def __init__(self, file_type, pages, folders):
@@ -35,7 +35,7 @@ def __init__(self, file_type, pages, folders):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Thrown when `folders` is None. |
+| `ValueError` | If `folders` is None. |
 
 ### See Also
 * class [`OutlookViewInfo`](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/)

@@ -6,7 +6,7 @@ type: docs
 url: /python-net/
 is_root: true
 weight: 40
-version: 26.9.0
+version: 26.11.0
 ---
 
 
@@ -16,10 +16,11 @@ version: 26.9.0
 | [`groupdocs.viewer`](/viewer/python-net/groupdocs.viewer/) | Main GroupDocs.Viewer namespace with top-level API classes. |
 | [`groupdocs.viewer.caching`](/viewer/python-net/groupdocs.viewer.caching/) | Types under `groupdocs.viewer.caching`. |
 | [`groupdocs.viewer.drawing`](/viewer/python-net/groupdocs.viewer.drawing/) | Types under `groupdocs.viewer.drawing`. |
+| [`groupdocs.viewer.exceptions`](/viewer/python-net/groupdocs.viewer.exceptions/) | Product-specific exception types raised by the API. |
 | [`groupdocs.viewer.fonts`](/viewer/python-net/groupdocs.viewer.fonts/) | Font loading and substitution configuration. |
 | [`groupdocs.viewer.interfaces`](/viewer/python-net/groupdocs.viewer.interfaces/) | Types under `groupdocs.viewer.interfaces`. |
 | [`groupdocs.viewer.logging`](/viewer/python-net/groupdocs.viewer.logging/) | Logging hooks and listener interfaces. |
-| [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/) | Option classes for configuring conversions and operations. |
+| [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/) | Option classes that configure the API's operations. |
 | [`groupdocs.viewer.results`](/viewer/python-net/groupdocs.viewer.results/) | Result types produced by converter and processor methods. |
 
 ### Developer Guide

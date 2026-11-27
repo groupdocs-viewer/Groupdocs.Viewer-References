@@ -13,7 +13,7 @@ weight: 2090
 
 The top margin of a page in points.
 
-For details, see the documentation.
+For details, see the documentation at https://docs.groupdocs.com/viewer/python-net/render-word-documents/#define-page-margins.
 
 ### Definition:
 ```python

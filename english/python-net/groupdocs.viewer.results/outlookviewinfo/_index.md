@@ -19,7 +19,7 @@ The OutlookViewInfo type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/__init__/) | Initializes a new instance of [`OutlookViewInfo`](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/__init__/#file_type-pages-folders) | Initializes a new OutlookViewInfo instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/__init__/#file_type-pages-folders) | Initializes a new [`OutlookViewInfo`](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/) instance. |
 
 ### Methods
 | Method | Description |

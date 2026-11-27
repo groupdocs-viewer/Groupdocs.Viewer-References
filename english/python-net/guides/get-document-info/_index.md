@@ -97,7 +97,7 @@ if __name__ == "__main__":
 ```text
 File type: Portable Document Format File (.pdf)
 Pages count: 2
-Printing allowed: True
+Printing allowed: False
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/developer-guide/get-document-info/get_pdf_info/get-pdf-info.txt)
 {{< /tab >}}
@@ -140,8 +140,8 @@ if __name__ == "__main__":
 File type: Zipped File (.zip)
 Pages count: 1
 Folders:
-  /first_folder/
-  /second_folder/
+  /Invoices/
+  /Invoices/2025/
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/developer-guide/get-document-info/get_archive_info/get-archive-info.txt)
 {{< /tab >}}
@@ -188,11 +188,13 @@ File type: AutoCAD Drawing Database File (.dwg)
 Pages count: 1
 Layers:
   0 (visible=True)
-  CIRCLE (visible=True)
-  TRIANGLE (visible=True)
-  QUADRANT (visible=True)
-Layouts:
-  Model (26x23)
+  WALLS (visible=True)
+  OFFICE (visible=True)
+  TEXT (visible=True)
+  COLD (visible=True)
+  RACKS (visible=True)
+  DOCKS (visible=True)
+[TRUNCATED]
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/developer-guide/get-document-info/get_cad_info/get-cad-info.txt)
 {{< /tab >}}
@@ -237,12 +239,9 @@ Pages count: 1
 Folders:
   Inbox
   Deleted Items
-  Outbox
   Sent Items
-  Calendar
-  Contacts
-  Drafts
-[TRUNCATED]
+  Orders
+  Suppliers
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/developer-guide/get-document-info/get_outlook_info/get-outlook-info.txt)
 {{< /tab >}}
@@ -283,8 +282,8 @@ if __name__ == "__main__":
 ```text
 File type: Microsoft Project File (.mpp)
 Pages count: 1
-Start date: 2008-06-01 00:00:00+00:00
-End date: 2008-09-03 00:00:00+00:00
+Start date: 2026-09-07 00:00:00+00:00
+End date: 2027-01-20 00:00:00+00:00
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/developer-guide/get-document-info/get_project_info/get-project-info.txt)
 {{< /tab >}}
@@ -292,8 +291,8 @@ End date: 2008-09-03 00:00:00+00:00
 
 ## See also
 
-- [Rendering archives]() — render the contents of a ZIP, RAR, or 7Z archive.
-- [Rendering CAD drawings]() — apply CAD-specific options (layouts, tiles, background color).
-- [Rendering Outlook data files]() — filter messages by folder.
-- [Rendering PDF documents]() — PDF-specific options.
-- [Rendering Microsoft Project files]() — date range and time-unit options.
+- [Rendering archives](https://docs.groupdocs.com/viewer/python-net/render-archive-files/) — render the contents of a ZIP, RAR, or 7Z archive.
+- [Rendering CAD drawings](https://docs.groupdocs.com/viewer/python-net/render-cad-files/) — apply CAD-specific options (layouts, tiles, background color).
+- [Rendering Outlook data files](https://docs.groupdocs.com/viewer/python-net/render-outlook-data-files/) — filter messages by folder.
+- [Rendering PDF documents](https://docs.groupdocs.com/viewer/python-net/render-pdf-documents/) — PDF-specific options.
+- [Rendering Microsoft Project files](https://docs.groupdocs.com/viewer/python-net/render-ms-project-files/) — date range and time-unit options.

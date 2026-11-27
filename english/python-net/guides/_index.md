@@ -27,3 +27,5 @@ Task-oriented guides with runnable Python examples.
 | [Protect PDF document](/viewer/python-net/guides/protect-pdf-document/) | |
 | [Reorder pages](/viewer/python-net/guides/reorder-pages/) | |
 | [Save attachments](/viewer/python-net/guides/how-to-extract-and-save-attachments/) | |
+| [Save output to a stream](/viewer/python-net/guides/save-output-to-stream/) | |
+| [Cancel rendering](/viewer/python-net/guides/cancel-rendering/) | |

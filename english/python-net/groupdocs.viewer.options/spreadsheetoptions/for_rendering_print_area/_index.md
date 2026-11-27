@@ -13,7 +13,7 @@ weight: 1030
 
 Initializes an instance of the [`SpreadsheetOptions`](/viewer/python-net/groupdocs.viewer.options/spreadsheetoptions/) class for rendering the print areas only.
 
-For details, see the documentation at https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#render-a-print-area.
+For details, see the documentation at https://docs.groupdocs.com/viewer/python-net/split-worksheet-into-pages/#render-a-print-area.
 
 ```python
 def for_rendering_print_area(cls):

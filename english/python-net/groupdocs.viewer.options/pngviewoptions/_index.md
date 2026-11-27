@@ -13,24 +13,23 @@ weight: 190
 
 Represents options for rendering documents into PNG format.
 
-For more information, see the online documentation.
+For details, see the documentation page.
 
 The PngViewOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#create_page_stream) | Initializes a new [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) instance. |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes an instance of the [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) class. |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#page_stream_factory) | Initializes a new [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) instance. |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/) | Initializes a PngViewOptions instance. |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#file_path_format) | Initializes a new [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#create_page_stream) | Initializes an instance of the [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes an instance of the PngViewOptions class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#page_stream_factory) | Initializes an instance of the [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/) | Initializes a [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/__init__/#file_path_format) | Initializes an instance of the PngViewOptions class. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [rotate_page](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page/) | Applies the clockwise rotation to a page. (inherited from [`ViewOptions`](/viewer/python-net/groupdocs.viewer.options/viewoptions/)) |
-| [rotate_page_int32](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page_int32/) |  (inherited from [`ViewOptions`](/viewer/python-net/groupdocs.viewer.options/viewoptions/)) |
 
 ### Properties
 | Property | Description |
@@ -75,6 +74,8 @@ with Viewer("document.pdf") as viewer:
 Task guides that use `PngViewOptions`:
 
 * [Quick Start Guide](/viewer/python-net/guides/quick-start-guide/)
+* [Save output to a stream](/viewer/python-net/guides/save-output-to-stream/)
+* [Cancel rendering](/viewer/python-net/guides/cancel-rendering/)
 
 ### See Also
 * module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

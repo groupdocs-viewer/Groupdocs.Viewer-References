@@ -5,7 +5,7 @@ description: "Initializes a ViewInfoOptions instance from a PngViewOptions objec
 type: docs
 url: /python-net/groupdocs.viewer.options/viewinfooptions/from_png_view_options/
 is_root: false
-weight: 1110
+weight: 1080
 ---
 
 

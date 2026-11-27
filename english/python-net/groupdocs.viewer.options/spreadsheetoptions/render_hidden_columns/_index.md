@@ -13,7 +13,7 @@ weight: 2090
 
 The property enables rendering of hidden columns.
 
-For details, see the documentation: https://docs.groupdocs.com/viewer/net/specify-rendering-options/#render-hidden-rows-and-columns
+For details, see the documentation: https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/#render-hidden-rows-and-columns
 
 ### Definition:
 ```python

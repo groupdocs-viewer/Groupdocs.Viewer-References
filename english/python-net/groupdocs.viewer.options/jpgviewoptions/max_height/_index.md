@@ -13,7 +13,7 @@ weight: 2030
 
 The maximum height of an output image in pixels.
 
-Use this property to set the maximum output image height (in pixels). For code example, see the documentation at https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/.
+Use this property to set the maximum output image height (in pixels).
 
 If you set the [`JpgViewOptions.height`](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/height/) property, this property is ignored.
 

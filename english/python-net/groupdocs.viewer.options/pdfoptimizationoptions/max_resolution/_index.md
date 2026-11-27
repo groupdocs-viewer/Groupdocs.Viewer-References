@@ -13,7 +13,7 @@ weight: 2050
 
 The maximum resolution in the output PDF file.
 
-To enable this option, set the `CompressImages` and `MaxResolution` properties to `True`.
+To enable this option, set the `compress_images` and `max_resolution` properties to `True`.
 
 The default value is `300`.
 

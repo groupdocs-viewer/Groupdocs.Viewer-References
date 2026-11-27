@@ -21,5 +21,13 @@ def begin_invoke(self, callback, object):
 | callback | `System.AsyncCallback` |  |
 | object | `Any` |  |
 
+### Aliases
+
+These names call `begin_invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `begin_invoke_async_callback` | `begin_invoke_async_callback(callback, object)` |
+
 ### See Also
 * class [`CreateFileStream`](/viewer/python-net/groupdocs.viewer.interfaces/createfilestream/)

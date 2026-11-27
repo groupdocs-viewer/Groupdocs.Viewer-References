@@ -5,7 +5,7 @@ description: "Returns an Image2DFormat value that corresponds to the file extens
 type: docs
 url: /python-net/groupdocs.viewer.drawing/image2dformat/parse_from_filename_with_extension/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 

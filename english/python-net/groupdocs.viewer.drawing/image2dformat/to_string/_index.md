@@ -5,7 +5,7 @@ description: "Returns the Image2DFormat.name property."
 type: docs
 url: /python-net/groupdocs.viewer.drawing/image2dformat/to_string/
 is_root: false
-weight: 1070
+weight: 1050
 ---
 
 

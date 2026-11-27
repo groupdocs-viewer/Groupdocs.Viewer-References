@@ -11,11 +11,9 @@ weight: 2070
 
 ## image_width property
 
-The width of the output image (in pixels).
+The width of the output image (in pixels). Available only when converting a single image to HTML.
 
-Available only when converting a single image to HTML.
-
-For details and code example, see the documentation: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-html/
+For details and code example, see the documentation.
 
 ### Definition:
 ```python

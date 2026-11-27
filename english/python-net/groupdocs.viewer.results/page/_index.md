@@ -19,11 +19,11 @@ The Page type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/) | Initializes a new instance of [`Page`](/viewer/python-net/groupdocs.viewer.results/page/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-visible) | Initializes a new [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-visible) | Initializes a new Page instance. |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-name-visible) | Initializes a new Page instance. |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-visible-width-height) | Initializes a new [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) instance. |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-name-visible-width-height) | Initializes a new instance of [`Page`](/viewer/python-net/groupdocs.viewer.results/page/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-visible-width-height-lines) | Initializes a new instance of [`Page`](/viewer/python-net/groupdocs.viewer.results/page/). |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-name-visible-width-height) | Initializes a new [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-visible-width-height-lines) | Initializes a new instance of the [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) class. |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/page/__init__/#number-name-visible-width-height-lines) | Initializes a new instance of [`Page`](/viewer/python-net/groupdocs.viewer.results/page/). |
 
 ### Methods

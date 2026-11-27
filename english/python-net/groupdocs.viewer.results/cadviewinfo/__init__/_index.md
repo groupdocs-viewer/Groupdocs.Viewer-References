@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#file_type-pages-layers-layouts}
 
-Initializes a new CadViewInfo instance.
+Initializes a new [`CadViewInfo`](/viewer/python-net/groupdocs.viewer.results/cadviewinfo/) instance.
 
 ```python
 def __init__(self, file_type, pages, layers, layouts):
@@ -27,7 +27,7 @@ def __init__(self, file_type, pages, layers, layouts):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Thrown when `layouts` is None. |
+| `ValueError` | If `layouts` is None. |
 
 ### See Also
 * class [`CadViewInfo`](/viewer/python-net/groupdocs.viewer.results/cadviewinfo/)

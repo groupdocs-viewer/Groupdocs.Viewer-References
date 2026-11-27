@@ -18,7 +18,7 @@ The CadViewInfo type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/cadviewinfo/__init__/#file_type-pages-layers-layouts) | Initializes a new CadViewInfo instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/cadviewinfo/__init__/#file_type-pages-layers-layouts) | Initializes a new [`CadViewInfo`](/viewer/python-net/groupdocs.viewer.results/cadviewinfo/) instance. |
 
 ### Methods
 | Method | Description |

@@ -27,6 +27,11 @@ The EmailOptions type exposes the following members:
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.options/emailoptions/__init__/) | Initializes an instance of the [`EmailOptions`](/viewer/python-net/groupdocs.viewer.options/emailoptions/) class. |
 
+### Methods
+| Method | Description |
+| :- | :- |
+| [equals](/viewer/python-net/groupdocs.viewer.options/emailoptions/equals/#other) | Indicates whether this instance is equal to another [`EmailOptions`](/viewer/python-net/groupdocs.viewer.options/emailoptions/) instance. |
+
 ### Properties
 | Property | Description |
 | :- | :- |

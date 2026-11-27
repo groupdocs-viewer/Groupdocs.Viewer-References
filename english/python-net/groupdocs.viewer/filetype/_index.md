@@ -26,14 +26,8 @@ The FileType type exposes the following members:
 | :- | :- |
 | [detect_encoding](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding/#file_path) | Detects the encoding of text TXT, TSV, and CSV files by path. |
 | [detect_encoding](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding/#stream) | Attempts to detect the encoding of text files (TXT, TSV, CSV) from a stream. |
-| [detect_encoding_file](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_file/) |  |
-| [detect_encoding_stream](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_stream/) |  |
-| [detect_encoding_streams](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_streams/) |  |
-| [detect_encoding_string](/viewer/python-net/groupdocs.viewer/filetype/detect_encoding_string/) |  |
 | [equals](/viewer/python-net/groupdocs.viewer/filetype/equals/#other) | Determines whether the current [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) is the same as the specified [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/). |
 | [equals](/viewer/python-net/groupdocs.viewer/filetype/equals/#obj) | Determines whether the current [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) is the same as the specified object. |
-| [equals_file_type](/viewer/python-net/groupdocs.viewer/filetype/equals_file_type/) |  |
-| [equals_object](/viewer/python-net/groupdocs.viewer/filetype/equals_object/) |  |
 | [from_extension](/viewer/python-net/groupdocs.viewer/filetype/from_extension/#extension) | Maps file extension to file type. |
 | [from_file_path](/viewer/python-net/groupdocs.viewer/filetype/from_file_path/#file_path) | Extracts file extension and maps it to a file type. |
 | [from_media_type](/viewer/python-net/groupdocs.viewer/filetype/from_media_type/#media_type) | Maps a file media type to a [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) (e.g., 'application/pdf' maps to [`FileType.pdf`](/viewer/python-net/groupdocs.viewer/filetype/pdf/)). |
@@ -41,10 +35,6 @@ The FileType type exposes the following members:
 | [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/#stream-password) | Detects file type by reading the file signature. |
 | [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/#stream-logger) | Detects file type by reading the file signature. |
 | [from_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream/#stream-password-logger) | Detects the file type by reading the file signature. |
-| [from_stream_file](/viewer/python-net/groupdocs.viewer/filetype/from_stream_file/) |  |
-| [from_stream_stream](/viewer/python-net/groupdocs.viewer/filetype/from_stream_stream/) |  |
-| [from_stream_streams](/viewer/python-net/groupdocs.viewer/filetype/from_stream_streams/) |  |
-| [from_stream_string](/viewer/python-net/groupdocs.viewer/filetype/from_stream_string/) |  |
 | [get_hash_code](/viewer/python-net/groupdocs.viewer/filetype/get_hash_code/) | Returns the hash code for the current [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/) object. |
 | [get_supported_file_types](/viewer/python-net/groupdocs.viewer/filetype/get_supported_file_types/) | Retrieves supported file types. |
 | [to_string](/viewer/python-net/groupdocs.viewer/filetype/to_string/) | Returns a str that represents the current object. |

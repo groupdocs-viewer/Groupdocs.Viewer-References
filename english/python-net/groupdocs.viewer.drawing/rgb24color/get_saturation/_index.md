@@ -5,7 +5,7 @@ description: "The Hue‑Saturation‑Lightness (HSL) saturation for this Rgb24Co
 type: docs
 url: /python-net/groupdocs.viewer.drawing/rgb24color/get_saturation/
 is_root: false
-weight: 1090
+weight: 1060
 ---
 
 

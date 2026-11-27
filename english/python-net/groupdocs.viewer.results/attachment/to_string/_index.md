@@ -18,7 +18,7 @@ def to_string(self):
     ...
 ```
 
-**Returns:** A string that represents the current object.
+**Returns:** str: A string that represents the current object.
 
 ### See Also
 * class [`Attachment`](/viewer/python-net/groupdocs.viewer.results/attachment/)

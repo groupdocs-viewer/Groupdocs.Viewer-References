@@ -15,7 +15,7 @@ The folder to be rendered.
 
 By default, GroupDocs.Viewer renders items from all folders contained in the archive. To render items from a specific folder, set this property.
 
-For code example, see the documentation.
+For a code example, see the documentation.
 
 ### Definition:
 ```python

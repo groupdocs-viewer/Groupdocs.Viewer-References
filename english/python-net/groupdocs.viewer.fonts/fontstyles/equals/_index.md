@@ -39,5 +39,14 @@ def equals(self, other):
 
 **Returns:** bool: True if equal, False otherwise.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_font_styles` | `equals_font_styles(other)` |
+| `equals_object` | `equals_object(other)` |
+
 ### See Also
 * class [`FontStyles`](/viewer/python-net/groupdocs.viewer.fonts/fontstyles/)

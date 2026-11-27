@@ -18,7 +18,7 @@ The Resource type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/resource/__init__/) | Initializes a new Resource instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/resource/__init__/) | Initializes a new [`Resource`](/viewer/python-net/groupdocs.viewer.results/resource/) instance. |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/resource/__init__/#file_name-nested) | Initializes a new Resource instance. |
 
 ### Methods

@@ -1,32 +1,32 @@
 ---
 title: groupdocs.viewer.options
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Option classes for configuring conversions and operations."
+description: "Option classes that configure the API's operations."
 type: docs
 url: /python-net/groupdocs.viewer.options/
 is_root: false
-weight: 70
+weight: 80
 ---
 
 
-Option classes for configuring conversions and operations.
+Option classes that configure the API's operations.
 
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`ArchiveOptions`](/viewer/python-net/groupdocs.viewer.options/archiveoptions/) | Contains options for rendering the archive files. |
+| [`ArchiveOptions`](/viewer/python-net/groupdocs.viewer.options/archiveoptions/) | Represents options for rendering archive files. |
 | [`BaseViewOptions`](/viewer/python-net/groupdocs.viewer.options/baseviewoptions/) | Represents the base rendering options. |
-| [`CadOptions`](/viewer/python-net/groupdocs.viewer.options/cadoptions/) | The options for rendering CAD drawings. |
+| [`CadOptions`](/viewer/python-net/groupdocs.viewer.options/cadoptions/) | Contains options for rendering CAD drawings. |
 | [`EmailOptions`](/viewer/python-net/groupdocs.viewer.options/emailoptions/) | Contains options for rendering email messages. |
 | [`Field`](/viewer/python-net/groupdocs.viewer.options/field/) | Represents email message field e.g. From, To, Subject etc. |
 | [`FileName`](/viewer/python-net/groupdocs.viewer.options/filename/) | The filename. |
-| [`HtmlViewOptions`](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) | The options for rendering documents into HTML format. |
+| [`HtmlViewOptions`](/viewer/python-net/groupdocs.viewer.options/htmlviewoptions/) | Represents options for rendering documents into HTML format. |
 | [`IMaxSizeOptions`](/viewer/python-net/groupdocs.viewer.options/imaxsizeoptions/) | Represents limits of image size options. |
 | [`JpgViewOptions`](/viewer/python-net/groupdocs.viewer.options/jpgviewoptions/) | Provides options for rendering documents into JPG format. |
-| [`LoadOptions`](/viewer/python-net/groupdocs.viewer.options/loadoptions/) | The options used to open a file. |
+| [`LoadOptions`](/viewer/python-net/groupdocs.viewer.options/loadoptions/) | Represents options used to open a file. |
 | [`MailStorageOptions`](/viewer/python-net/groupdocs.viewer.options/mailstorageoptions/) | The class contains options for rendering Mail storage (Lotus Notes, MBox) data files. |
-| [`OutlookOptions`](/viewer/python-net/groupdocs.viewer.options/outlookoptions/) | Contains options for rendering Outlook data files. |
-| [`PdfOptimizationOptions`](/viewer/python-net/groupdocs.viewer.options/pdfoptimizationoptions/) | Represents the PDF optimization options to apply to the output PDF file. |
+| [`OutlookOptions`](/viewer/python-net/groupdocs.viewer.options/outlookoptions/) | The class contains options for rendering Outlook data files. |
+| [`PdfOptimizationOptions`](/viewer/python-net/groupdocs.viewer.options/pdfoptimizationoptions/) | Represents PDF optimization options to apply to the output PDF file. |
 | [`PdfOptions`](/viewer/python-net/groupdocs.viewer.options/pdfoptions/) | Represents options for rendering to PDF documents. |
 | [`PdfViewOptions`](/viewer/python-net/groupdocs.viewer.options/pdfviewoptions/) | Represents options for rendering documents into PDF format. |
 | [`PngViewOptions`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/) | Represents options for rendering documents into PNG format. |

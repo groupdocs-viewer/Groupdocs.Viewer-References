@@ -1,17 +1,17 @@
 ---
 title: to_hex_rgb method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Serializes this Argb32Color instance to the hexadecimal notation ##RRGGBB as a string without the alpha channel."
+description: "Serializes this Argb32Color instance to a hexadecimal ##RRGGBB string without the alpha channel."
 type: docs
 url: /python-net/groupdocs.viewer.drawing/argb32color/to_hex_rgb/
 is_root: false
-weight: 1170
+weight: 1120
 ---
 
 
 ## to_hex_rgb
 
-Serializes this [`Argb32Color`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/) instance to the hexadecimal notation `##RRGGBB` as a string without the alpha channel.
+Serializes this [`Argb32Color`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/) instance to a hexadecimal `##RRGGBB` string without the alpha channel.
 
 ```python
 def to_hex_rgb(self):

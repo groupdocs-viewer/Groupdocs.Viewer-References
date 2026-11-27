@@ -1,7 +1,7 @@
 ---
 title: for_rendering_by_scale_factor method
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Initializes a CadOptions instance for rendering by scale factor."
+description: "Initializes an instance of the CadOptions class for rendering by scale factor."
 type: docs
 url: /python-net/groupdocs.viewer.options/cadoptions/for_rendering_by_scale_factor/
 is_root: false
@@ -11,9 +11,9 @@ weight: 1020
 
 ## for_rendering_by_scale_factor {#scale_factor}
 
-Initializes a CadOptions instance for rendering by scale factor.
+Initializes an instance of the [`CadOptions`](/viewer/python-net/groupdocs.viewer.options/cadoptions/) class for rendering by scale factor.
 
-For code example, see the documentation.
+For a usage example, see the documentation.
 
 ```python
 def for_rendering_by_scale_factor(cls, scale_factor):
@@ -24,11 +24,11 @@ def for_rendering_by_scale_factor(cls, scale_factor):
 | :- | :- | :- |
 | scale_factor | `float` | Value higher than 1 enlarges output result; value between 0 and 1 reduces output result. |
 
-**Returns:** CadOptions: New instance of the CadOptions class for rendering by scale factor.
+**Returns:** CadOptions: New instance of the `CadOptions` class for rendering by scale factor.
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Raised when `scale_factor` is less or equal to zero. |
+| `ValueError` | When `scale_factor` is less or equal to zero. |
 
 ### Example
 
@@ -37,8 +37,11 @@ from groupdocs.viewer import Viewer
 from groupdocs.viewer.options import PngViewOptions, CadOptions
 
 def set_image_size():
+    # Load CAD file
     with Viewer("sample.dwg") as viewer:
-        png_options = PngViewOptions("set_image_size/image_with_size_limits.pdf")
+        # Convert the diagram to PNG.
+        png_options = PngViewOptions("set_image_size/image_with_size_limits.png")
+        # Specify a scale factor.
         png_options.cad_options = CadOptions.for_rendering_by_scale_factor(0.5)
         viewer.view(png_options)
 

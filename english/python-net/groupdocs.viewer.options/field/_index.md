@@ -20,6 +20,9 @@ The Field type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
+| [equals](/viewer/python-net/groupdocs.viewer.options/field/equals/#other) | Checks this instance for equality with another specified [`Field`](/viewer/python-net/groupdocs.viewer.options/field/) instance. |
+| [equals](/viewer/python-net/groupdocs.viewer.options/field/equals/#obj) | Checks this instance for equality with another instance, which should be of type [`Field`](/viewer/python-net/groupdocs.viewer.options/field/). |
+| [get_hash_code](/viewer/python-net/groupdocs.viewer.options/field/get_hash_code/) | Returns a hash code for this instance. |
 | [to_string](/viewer/python-net/groupdocs.viewer.options/field/to_string/) | Returns a string that represents the current object. |
 
 ### Properties

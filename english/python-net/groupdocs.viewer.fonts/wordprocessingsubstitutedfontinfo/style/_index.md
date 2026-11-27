@@ -11,9 +11,7 @@ weight: 2050
 
 ## style property
 
-The style of the original font — may be Regular, Bold, Italic, or Bold Italic.
-
-The substituted font is usually (but not always) of the same style.
+The style of the original font — may be Regular, Bold, Italic, or Bold Italic. Substituted font is usually (but not always) of the same style.
 
 ### Definition:
 ```python

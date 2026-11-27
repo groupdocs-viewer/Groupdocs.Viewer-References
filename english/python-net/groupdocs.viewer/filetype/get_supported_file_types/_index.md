@@ -5,7 +5,7 @@ description: "Retrieves supported file types."
 type: docs
 url: /python-net/groupdocs.viewer/filetype/get_supported_file_types/
 is_root: false
-weight: 1180
+weight: 1080
 ---
 
 
@@ -13,8 +13,7 @@ weight: 1180
 
 Retrieves supported file types.
 
-- Learn more about supported document formats: https://docs.groupdocs.com/display/viewernet/Supported+Document+Formats
-- Learn more about getting supported file types in C# code: https://docs.groupdocs.com/display/viewernet/Get+supported+file+formats
+- Learn more about supported document formats: https://docs.groupdocs.com/viewer/python-net/getting-started/supported-document-formats/
 
 ```python
 def get_supported_file_types(cls):

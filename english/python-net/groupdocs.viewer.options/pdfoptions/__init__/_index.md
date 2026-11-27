@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the PdfOptions class.
+Initializes a new instance of the [`PdfOptions`](/viewer/python-net/groupdocs.viewer.options/pdfoptions/) class.
 
 ```python
 def __init__(self):

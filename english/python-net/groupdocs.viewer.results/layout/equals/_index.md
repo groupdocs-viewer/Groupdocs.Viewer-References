@@ -39,5 +39,14 @@ def equals(self, obj):
 
 **Returns:** bool: True if `obj` is a `Layout` and is the same as the current `Layout`; otherwise, False.
 
+### Aliases
+
+These names call `equals` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `equals_layout` | `equals_layout(other)` |
+| `equals_object` | `equals_object(obj)` |
+
 ### See Also
 * class [`Layout`](/viewer/python-net/groupdocs.viewer.results/layout/)

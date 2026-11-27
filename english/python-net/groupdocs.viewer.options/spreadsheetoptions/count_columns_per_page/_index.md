@@ -13,7 +13,7 @@ weight: 2020
 
 The columns count to include on each page when splitting the worksheet into pages.
 
-For details, see the documentation: https://docs.groupdocs.com/viewer/net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows-and-columns
+For details, see the documentation: https://docs.groupdocs.com/viewer/python-net/split-worksheet-into-pages/#split-a-worksheet-into-pages-by-rows-and-columns
 
 ### Definition:
 ```python

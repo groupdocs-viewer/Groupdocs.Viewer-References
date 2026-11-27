@@ -19,7 +19,7 @@ The ViewInfo type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/viewinfo/__init__/) | Initializes a new instance of [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/viewinfo/__init__/#file_type-pages) | Initializes a new ViewInfo instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/viewinfo/__init__/#file_type-pages) | Initializes a new instance of [`ViewInfo`](/viewer/python-net/groupdocs.viewer.results/viewinfo/) class. |
 
 ### Methods
 | Method | Description |

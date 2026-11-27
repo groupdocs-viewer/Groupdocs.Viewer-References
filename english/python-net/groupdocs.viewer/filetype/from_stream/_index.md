@@ -5,7 +5,7 @@ description: "Detects file type by reading the file signature."
 type: docs
 url: /python-net/groupdocs.viewer/filetype/from_stream/
 is_root: false
-weight: 1120
+weight: 1060
 ---
 
 
@@ -68,6 +68,17 @@ def from_stream(cls, stream, password, logger):
 | logger | `ILogger` | The logger. |
 
 **Returns:** FileType: The detected file type, or `FileType.unknown` if detection fails.
+
+### Aliases
+
+These names call `from_stream` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `from_stream_stream` | `from_stream_stream(stream, password, logger)`<br>`from_stream_stream(stream, password)`<br>`from_stream_stream(stream, logger)`<br>`from_stream_stream(stream)` |
+| `from_stream_streams` | `from_stream_streams(stream, password, logger)`<br>`from_stream_streams(stream, password)`<br>`from_stream_streams(stream, logger)`<br>`from_stream_streams(stream)` |
+| `from_stream_file` | `from_stream_file(stream, password, logger)`<br>`from_stream_file(stream, password)` |
+| `from_stream_string` | `from_stream_string(stream, password, logger)`<br>`from_stream_string(stream, password)` |
 
 ### See Also
 * class [`FileType`](/viewer/python-net/groupdocs.viewer/filetype/)

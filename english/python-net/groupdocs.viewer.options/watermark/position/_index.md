@@ -11,7 +11,9 @@ weight: 2030
 
 ## position property
 
-The watermark position. Default value is `Position.diagonal`.
+The watermark position.
+
+Default value is `Position.diagonal`.
 
 ### Definition:
 ```python

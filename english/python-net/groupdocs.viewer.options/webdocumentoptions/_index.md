@@ -26,10 +26,10 @@ The WebDocumentOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [bottom_margin](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/bottom_margin/) | The bottom margin of a page. The default value is 72 points. |
-| [left_margin](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/left_margin/) | The left margin of a page (default is 5 points). |
+| [left_margin](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/left_margin/) | The left margin of a page. The default value is 5 points. |
 | [page_size](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/page_size/) | The size of the output page. |
 | [right_margin](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/right_margin/) | The right margin of a page. The default value is 5 points. |
-| [top_margin](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/top_margin/) | The top margin of a page (default is 72 points). |
+| [top_margin](/viewer/python-net/groupdocs.viewer.options/webdocumentoptions/top_margin/) | The top margin of a page. The default value is 72 points. |
 
 ### See Also
 * module [`groupdocs.viewer.options`](/viewer/python-net/groupdocs.viewer.options/)

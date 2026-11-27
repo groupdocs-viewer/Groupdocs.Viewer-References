@@ -13,7 +13,7 @@ weight: 2060
 
 The left margin of a page when converting to PDF.
 
-If the value is less than 0, the default margin is used. For more information, see the documentation.
+If the value is less than 0, the default margin is used. See the documentation for details.
 
 ### Definition:
 ```python

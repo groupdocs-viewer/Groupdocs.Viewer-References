@@ -1,7 +1,7 @@
 ---
 title: ArchiveOptions class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Contains options for rendering the archive files."
+description: "Represents options for rendering archive files."
 type: docs
 url: /python-net/groupdocs.viewer.options/archiveoptions/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## ArchiveOptions class
 
-Contains options for rendering the archive files.
+Represents options for rendering archive files.
 
 The ArchiveOptions type exposes the following members:
 
@@ -36,7 +36,7 @@ with Viewer("documents.zip") as viewer:
     view_options = HtmlViewOptions.for_embedded_resources(
         "render_specific_archive_folder/specific_archive_folder.html"
     )
-    view_options.archive_options.folder = "first_folder"
+    view_options.archive_options.folder = "Invoices"
     viewer.view(view_options)
 ```
 

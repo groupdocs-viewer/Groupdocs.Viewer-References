@@ -5,7 +5,7 @@ description: "ReleaseResourceStream.end_invoke method — GroupDocs.Viewer for P
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/releaseresourcestream/end_invoke/
 is_root: false
-weight: 1050
+weight: 1020
 ---
 
 
@@ -19,6 +19,14 @@ def end_invoke(self, result):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | result | `System.IAsyncResult` |  |
+
+### Aliases
+
+These names call `end_invoke` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `end_invoke_iasync_result` | `end_invoke_iasync_result(result)` |
 
 ### See Also
 * class [`ReleaseResourceStream`](/viewer/python-net/groupdocs.viewer.interfaces/releaseresourcestream/)

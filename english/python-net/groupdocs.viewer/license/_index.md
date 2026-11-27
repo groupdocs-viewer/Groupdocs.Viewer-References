@@ -1,28 +1,57 @@
 ---
 title: License class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Manages GroupDocs.Viewer licensing."
+description: "Provides methods to license the component."
 type: docs
 url: /python-net/groupdocs.viewer/license/
 is_root: false
-weight: 70
+weight: 40
 ---
 
 
 ## License class
 
-Manages GroupDocs.Viewer licensing.
+Provides methods to license the component.
 
-Licensed builds unlock the full feature set of the wrapper at
-runtime. Unlicensed builds run in evaluation mode with the same API
-surface but with limits on output size and watermarked content.
+- More about licensing: https://purchase.groupdocs.com/faqs/licensing
+- More about GroupDocs.Viewer licensing: https://docs.groupdocs.com/viewer/python-net/getting-started/licensing-and-subscription/
 
 The License type exposes the following members:
+
+### Constructors
+| Constructor | Description |
+| :- | :- |
+| [__init__](/viewer/python-net/groupdocs.viewer/license/__init__/) |  |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [set_license](/viewer/python-net/groupdocs.viewer/license/set_license/#license_source) | Apply a license to the current process. |
+| [set_license](/viewer/python-net/groupdocs.viewer/license/set_license/#license_stream) | Licenses the component. |
+| [set_license](/viewer/python-net/groupdocs.viewer/license/set_license/#license_path) | Licenses the component. |
+
+### Example
+
+```python
+import os
+from groupdocs.viewer import License
+
+def set_license_from_file():
+    license_path = os.path.abspath("./GroupDocs.Viewer.lic")
+    if not os.path.exists(license_path):
+        print(f"License file not found at: {license_path}")
+        return
+    license = License()
+    license.set_license(license_path)
+
+def set_license_from_stream():
+    license_path = os.path.abspath("./GroupDocs.Viewer.lic")
+    if not os.path.exists(license_path):
+        print(f"License file not found at: {license_path}")
+        return
+    with open(license_path, "rb") as license_stream:
+        license = License()
+        license.set_license(license_stream)
+```
 
 ### Guides
 Task guides that use `License`:

@@ -24,17 +24,16 @@ The PdfFontInfo type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [serialize_to_css](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/serialize_to_css/#output) | Serializes this font info as a @font-face at-rule and writes it to the specified text writer. |
-| [serialize_to_css_text_writer](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/serialize_to_css_text_writer/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [content](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/content/) | The content of this font as a byte array, or None if only metadata is available and the binary content is unavailable. |
+| [content](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/content/) | The content of this font as a byte array. If there is only metainfo about this font, but its binary content is unavailable, this property returns None. |
 | [family_name](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/family_name/) | The family name of the font, without style; never None or empty string. |
 | [format](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/format/) | The format of this font. |
 | [is_embedded](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/is_embedded/) | The property indicates whether the font is embedded inside the PDF document and loaded into the Viewer instance (`True`), or not. |
 | [is_installed](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/is_installed/) | The property indicates whether this font is present (installed) in the operating system where the GroupDocs.Viewer is running. |
-| [style](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/style/) | The style of the font; may be Regular, Bold, Italic, or Bold Italic. |
+| [style](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/style/) | The style of the font — may be Regular, Bold, Italic, or Bold Italic. |
 
 ### See Also
 * module [`groupdocs.viewer.fonts`](/viewer/python-net/groupdocs.viewer.fonts/)

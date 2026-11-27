@@ -5,7 +5,7 @@ description: "Writes a trace message to the console."
 type: docs
 url: /python-net/groupdocs.viewer.logging/consolelogger/trace/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 
@@ -26,7 +26,16 @@ def trace(self, message):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Raised when `message` is None. |
+| `ValueError` | When `message` is None. |
+
+### Aliases
+
+These names call `trace` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `trace_file` | `trace_file(message)` |
+| `trace_string` | `trace_string(message)` |
 
 ### See Also
 * class [`ConsoleLogger`](/viewer/python-net/groupdocs.viewer.logging/consolelogger/)

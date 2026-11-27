@@ -15,7 +15,7 @@ The quality of the output image.
 
 Use this property to adjust images quality. The value must be between 1 (minimum quality) and 100. The default value is 90.
 
-For a code example, see the documentation.
+For code example, see the documentation.
 
 ### Definition:
 ```python

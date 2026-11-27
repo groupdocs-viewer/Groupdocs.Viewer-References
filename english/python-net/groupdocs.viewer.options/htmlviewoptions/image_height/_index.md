@@ -11,9 +11,7 @@ weight: 2040
 
 ## image_height property
 
-The height of an output image (in pixels). This property is available when converting a single image to HTML only.
-
-For details and code example, see the documentation.
+The height of an output image (in pixels). Available only when converting a single image to HTML.
 
 ### Definition:
 ```python

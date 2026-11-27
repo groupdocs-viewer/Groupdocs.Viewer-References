@@ -1,7 +1,7 @@
 ---
 title: LoadOptions class
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The options used to open a file."
+description: "Represents options used to open a file."
 type: docs
 url: /python-net/groupdocs.viewer.options/loadoptions/
 is_root: false
@@ -11,7 +11,7 @@ weight: 110
 
 ## LoadOptions class
 
-The options used to open a file.
+Represents options used to open a file.
 
 The LoadOptions type exposes the following members:
 
@@ -19,7 +19,7 @@ The LoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.options/loadoptions/__init__/) | Initializes an instance of the [`LoadOptions`](/viewer/python-net/groupdocs.viewer.options/loadoptions/) class. |
-| [__init__](/viewer/python-net/groupdocs.viewer.options/loadoptions/__init__/#file_type) | Initializes a new LoadOptions instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.options/loadoptions/__init__/#file_type) | Initializes a new [`LoadOptions`](/viewer/python-net/groupdocs.viewer.options/loadoptions/) instance. |
 
 ### Properties
 | Property | Description |
@@ -37,7 +37,7 @@ The LoadOptions type exposes the following members:
 
 ```python
 from groupdocs.viewer import Viewer
-from groupdocs.viewer.options import HtmlViewOptions, LoadOptions
+from groupdocs.viewer.options import LoadOptions, HtmlViewOptions
 
 load_options = LoadOptions()
 load_options.password = "12345"

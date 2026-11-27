@@ -5,7 +5,7 @@ description: "Performs a text search and highlights the found text in the loaded
 type: docs
 url: /python-net/groupdocs.viewer/viewer/search/
 is_root: false
-weight: 1110
+weight: 1070
 ---
 
 
@@ -25,6 +25,14 @@ def search(self, options):
 | Raises | Description |
 | :- | :- |
 | `ValueError` | If `options` is None. |
+
+### Aliases
+
+These names call `search` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `search_search_highlight_options` | `search_search_highlight_options(options)` |
 
 ### See Also
 * class [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer/)

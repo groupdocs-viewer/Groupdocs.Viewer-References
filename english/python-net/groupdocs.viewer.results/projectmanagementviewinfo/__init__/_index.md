@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#file_type-pages-start_date-end_date}
 
-Initializes a new instance of ProjectManagementViewInfo.
+Initializes a new ProjectManagementViewInfo instance.
 
 ```python
 def __init__(self, file_type, pages, start_date, end_date):

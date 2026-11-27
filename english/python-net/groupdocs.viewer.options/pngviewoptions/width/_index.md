@@ -15,7 +15,7 @@ The width of the output image (in pixels).
 
 Use this property to set the output image width (in pixels). For code example, see the documentation.
 
-If you set this property, the [`PngViewOptions.MaxWidth`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/max_width/) property is ignored.
+If you set this property, the [`PngViewOptions.max_width`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/max_width/) property is ignored.
 
 ### Definition:
 ```python

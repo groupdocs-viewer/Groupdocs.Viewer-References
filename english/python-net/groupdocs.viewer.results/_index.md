@@ -5,7 +5,7 @@ description: "Result types produced by converter and processor methods."
 type: docs
 url: /python-net/groupdocs.viewer.results/
 is_root: false
-weight: 80
+weight: 90
 ---
 
 
@@ -15,7 +15,7 @@ Result types produced by converter and processor methods.
 | Class | Description |
 | :- | :- |
 | [`ArchiveViewInfo`](/viewer/python-net/groupdocs.viewer.results/archiveviewinfo/) | Represents view information for an archive file. |
-| [`Attachment`](/viewer/python-net/groupdocs.viewer.results/attachment/) | Represents an attachment file contained by an email message, archive, PDF document, or Outlook data file. |
+| [`Attachment`](/viewer/python-net/groupdocs.viewer.results/attachment/) | The attachment file contained by an email message, archive, PDF document, or Outlook data file. |
 | [`CadViewInfo`](/viewer/python-net/groupdocs.viewer.results/cadviewinfo/) | Represents view information for CAD drawing. |
 | [`Character`](/viewer/python-net/groupdocs.viewer.results/character/) | Represents relatively positioned rectangle which contains single character. |
 | [`FileInfo`](/viewer/python-net/groupdocs.viewer.results/fileinfo/) | Contains information about a file. |
@@ -27,7 +27,7 @@ Result types produced by converter and processor methods.
 | [`MboxViewInfo`](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/) | Represents view information for Mbox files storage. |
 | [`OutlookViewInfo`](/viewer/python-net/groupdocs.viewer.results/outlookviewinfo/) | Represents view information for Outlook Data file. |
 | [`Page`](/viewer/python-net/groupdocs.viewer.results/page/) | Represents a single page that can be viewed. |
-| [`PdfViewInfo`](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/) | Represents view information for a PDF document. |
+| [`PdfViewInfo`](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/) | Represents view information for PDF document. |
 | [`ProjectManagementViewInfo`](/viewer/python-net/groupdocs.viewer.results/projectmanagementviewinfo/) | Represents view information for MS Project document. |
 | [`Resource`](/viewer/python-net/groupdocs.viewer.results/resource/) | Represents HTML resource such as font, style, image or graphics. |
 | [`TextElement`](/viewer/python-net/groupdocs.viewer.results/textelement/) |  |

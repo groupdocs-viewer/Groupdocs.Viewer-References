@@ -5,15 +5,15 @@ description: "The output image quality for image resources when rendering to HTM
 type: docs
 url: /python-net/groupdocs.viewer.options/pdfoptions/image_quality/
 is_root: false
-weight: 2070
+weight: 2080
 ---
 
 
 ## image_quality property
 
-The output image quality for image resources when rendering to HTML. The default quality is `ImageQuality.LOW`.
+The output image quality for image resources when rendering to HTML. The default quality is `Low`.
 
-For a code example, see the documentation: https://docs.groupdocs.com/viewer/net/render-pdf-documents/#adjust-image-quality-in-the-output-html-file
+For a code example, see the documentation.
 
 ### Definition:
 ```python

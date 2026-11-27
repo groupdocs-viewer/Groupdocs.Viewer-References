@@ -20,20 +20,6 @@ def for_html_view(cls):
 
 **Returns:** ViewInfoOptions: A new ViewInfoOptions instance.
 
-### Example
-
-```python
-    from groupdocs.viewer import Viewer
-    from groupdocs.viewer.options import ViewInfoOptions
-
-    # Create view info options for HTML format (single page)
-    options = ViewInfoOptions.for_html_view(True)
-
-    # Load a document and retrieve view information
-    with Viewer("sample.xml") as viewer:
-        info = viewer.get_view_info(options)
-    ```
-
 ## for_html_view {#render_single_page}
 
 Initializes a ViewInfoOptions instance for retrieving view information when rendering to HTML.
@@ -63,6 +49,14 @@ with Viewer("sample.xml") as viewer:
     print("Document type:", info.file_type)
     print("Pages count:", len(info.pages))
 ```
+
+### Aliases
+
+These names call `for_html_view` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `for_html_view_boolean` | `for_html_view_boolean(render_single_page)` |
 
 ### See Also
 * class [`ViewInfoOptions`](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/)

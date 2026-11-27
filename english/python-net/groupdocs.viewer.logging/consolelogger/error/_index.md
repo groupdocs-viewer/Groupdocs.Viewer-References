@@ -13,8 +13,6 @@ weight: 1010
 
 Writes an error message to the console.
 
-Error log messages provide information about unrecoverable events in application flow.
-
 ```python
 def error(self, message, exception):
     ...
@@ -27,7 +25,16 @@ def error(self, message, exception):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Thrown when `exception` is None. |
+| `ValueError` | When `exception` is None. |
+
+### Aliases
+
+These names call `error` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `error_file` | `error_file(message, exception)` |
+| `error_string` | `error_string(message, exception)` |
 
 ### See Also
 * class [`ConsoleLogger`](/viewer/python-net/groupdocs.viewer.logging/consolelogger/)

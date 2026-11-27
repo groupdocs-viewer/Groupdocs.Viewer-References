@@ -1,23 +1,21 @@
 ---
 title: render_original_page_size property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The output page size is set to match the source PDF document's page size."
+description: "The output page size is set to the same as the source PDF document's page size."
 type: docs
 url: /python-net/groupdocs.viewer.options/pdfoptions/render_original_page_size/
 is_root: false
-weight: 2080
+weight: 2090
 ---
 
 
 ## render_original_page_size property
 
-The output page size is set to match the source PDF document's page size.
+The output page size is set to the same as the source PDF document's page size.
 
-By default, GroupDocs.Viewer calculates the output image page size for better rendering quality. Enable this option to ensure the output pages have the same size as the source PDF document's page size (in pixels). The default value is False.
+By default, GroupDocs.Viewer calculates output image page size for better rendering quality. Enable this option to ensure the output pages have the same size as the source PDF document's page size (in pixels). The default value is False.
 
 This option is available for rendering to PNG or JPG formats.
-
-For a code example, see the documentation.
 
 ### Definition:
 ```python

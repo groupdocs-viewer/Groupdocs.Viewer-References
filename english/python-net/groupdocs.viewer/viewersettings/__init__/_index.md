@@ -27,19 +27,6 @@ def __init__(self, cache, logger):
 | :- | :- |
 | `ValueError` | Raised when `cache` is None. |
 
-### Example
-
-```python
-from groupdocs.viewer import Viewer, ViewerSettings
-from groupdocs.viewer.logging import ConsoleLogger
-from groupdocs.viewer.options import HtmlViewOptions
-
-viewer_settings = ViewerSettings(logger=ConsoleLogger())
-with Viewer("./sample.docx", settings=viewer_settings) as viewer:
-    html_options = HtmlViewOptions.for_embedded_resources("output/page_{0}.html")
-    viewer.view(html_options)
-```
-
 ## __init__ {#cache}
 
 Initializes a new ViewerSettings instance.
@@ -55,7 +42,16 @@ def __init__(self, cache):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Raised when `cache` is None. |
+| `ValueError` | When `cache` is None. |
+
+### Example
+
+```python
+from groupdocs.viewer import ViewerSettings
+from groupdocs.viewer.logging import ConsoleLogger
+
+settings = ViewerSettings(logger=ConsoleLogger())
+```
 
 ## __init__ {#logger}
 
@@ -68,23 +64,20 @@ def __init__(self, logger):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| logger | `ILogger` | The logger. |
+| logger | `ILogger` | The logger to use for diagnostic output. |
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Raised when `logger` is None. |
+| `ValueError` | If `logger` is None. |
 
 ### Example
 
 ```python
-from groupdocs.viewer import Viewer, ViewerSettings
+from groupdocs.viewer import ViewerSettings
 from groupdocs.viewer.logging import ConsoleLogger
-from groupdocs.viewer.options import HtmlViewOptions
 
-viewer_settings = ViewerSettings(logger=ConsoleLogger())
-with Viewer("./sample.docx", settings=viewer_settings) as viewer:
-    html_options = HtmlViewOptions.for_embedded_resources("output/page_{0}.html")
-    viewer.view(html_options)
+# Create settings with a console logger
+settings = ViewerSettings(logger=ConsoleLogger())
 ```
 
 ### See Also

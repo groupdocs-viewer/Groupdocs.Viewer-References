@@ -13,7 +13,7 @@ weight: 2040
 
 The maximum width of an output image in pixels.
 
-Use this property to set the maximum output image width (in pixels). For code example, see the documentation: https://docs.groupdocs.com/viewer/net/set-image-size-limits-when-rendering-to-png-jpg/
+Use this property to set the maximum output image width (in pixels).
 
 If you set the [`PngViewOptions.width`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/width/) property, this property is ignored.
 

@@ -5,7 +5,7 @@ description: "Extracts file extension and maps it to a file type."
 type: docs
 url: /python-net/groupdocs.viewer/filetype/from_file_path/
 is_root: false
-weight: 1100
+weight: 1040
 ---
 
 

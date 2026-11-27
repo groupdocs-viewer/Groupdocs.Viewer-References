@@ -1,7 +1,7 @@
 ---
 title: address_filter property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The email-address used to filter messages by sender or recipient."
+description: "The email address used to filter messages by sender or recipient."
 type: docs
 url: /python-net/groupdocs.viewer.options/outlookoptions/address_filter/
 is_root: false
@@ -11,9 +11,9 @@ weight: 2010
 
 ## address_filter property
 
-The email-address used to filter messages by sender or recipient.
+The email address used to filter messages by sender or recipient.
 
-Use this property to render all messages that contain specific text in the sender’s or recipient’s address. For a code example, see the documentation.
+Use this property to render only messages that contain the specified text in the sender’s or recipient’s address. See the documentation for a full example.
 
 ### Definition:
 ```python

@@ -13,9 +13,9 @@ weight: 2010
 
 The property disables adding any fonts into the HTML document.
 
-By default, GroupDocs.Viewer embeds the fonts used in the document into the HTML markup, and this property has a `False` value. To prevent embedding fonts, set this property to `True`.
+By default, GroupDocs.Viewer embeds the fonts used in the document into HTML markup, and this property has a `False` value. To prevent embedding fonts, set this property to `True`.
 
-For details and a code example, see the documentation.
+For details and code example, see the documentation.
 
 ### Definition:
 ```python

@@ -5,7 +5,7 @@ description: "Inserts a cache entry into the cache."
 type: docs
 url: /python-net/groupdocs.viewer.caching/icache/set/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 
@@ -22,6 +22,15 @@ def set(self, key, value):
 | :- | :- | :- |
 | key | `str` | A unique identifier for the cache entry. |
 | value | `Any` | The object to insert. |
+
+### Aliases
+
+These names call `set` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `set_file` | `set_file(key, value)` |
+| `set_string` | `set_string(key, value)` |
 
 ### See Also
 * class [`ICache`](/viewer/python-net/groupdocs.viewer.caching/icache/)

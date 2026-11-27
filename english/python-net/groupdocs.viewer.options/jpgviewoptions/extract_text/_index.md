@@ -1,7 +1,7 @@
 ---
 title: extract_text property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The property enables text extraction."
+description: "The extract_text property enables text extraction."
 type: docs
 url: /python-net/groupdocs.viewer.options/jpgviewoptions/extract_text/
 is_root: false
@@ -11,11 +11,11 @@ weight: 2010
 
 ## extract_text property
 
-The property enables text extraction.
+The extract_text property enables text extraction.
 
 Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image-based rendering.
 
-For a code example, see the documentation at https://docs.groupdocs.com/viewer/net/image-viewer-get-text-coordinates/.
+For a code example, see the documentation.
 
 ### Definition:
 ```python

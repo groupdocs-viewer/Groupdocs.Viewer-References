@@ -30,7 +30,7 @@ def __init__(self, file_name, file_path):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | file_name | `str` | Attachment file name. |
-| file_path | `str` | Attachment relative path e.g. "folder/file.docx" or filename when the file is located in the root of an archive, in e‑mail message or data file. |
+| file_path | `str` | Attachment relative path e.g. `folder/file.docx` or filename when the file is located in the root of an archive, in e‑mail message or data file. |
 
 | Raises | Description |
 | :- | :- |
@@ -54,11 +54,11 @@ def __init__(self, id, file_name, file_path, size):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | If `file_path` is null or empty. |
+| `ValueError` | If `file_path` is None or empty. |
 
 ## __init__ {#id-file_name-file_path-file_type-size}
 
-Initializes a new instance of the Attachment class.
+Initializes a new [`Attachment`](/viewer/python-net/groupdocs.viewer.results/attachment/) instance.
 
 ```python
 def __init__(self, id, file_name, file_path, file_type, size):
@@ -75,7 +75,7 @@ def __init__(self, id, file_name, file_path, file_type, size):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `file_type` is null. |
+| `ValueError` | When `id`, `file_name`, or `file_path` is null or empty, or when `file_type` is null. |
 
 ### See Also
 * class [`Attachment`](/viewer/python-net/groupdocs.viewer.results/attachment/)

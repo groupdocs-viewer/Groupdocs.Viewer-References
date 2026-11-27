@@ -11,7 +11,7 @@ weight: 2030
 
 ## content property
 
-The content of this font as a byte array. If only metainfo about this font is available and its binary content is unavailable, the property returns None.
+The content of this font as a byte array. If only metadata about this font is available and the binary content is unavailable, the property returns None.
 
 ### Definition:
 ```python

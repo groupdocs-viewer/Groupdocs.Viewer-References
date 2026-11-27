@@ -13,7 +13,7 @@ weight: 2010
 
 The email address used to filter messages by sender or recipient.
 
-Use this property to render all messages that contain specific text in the sender’s or recipient’s address. For code example, see the documentation.
+Use this property to render only messages that contain the specified text in the sender’s or recipient’s address. See the documentation for a full example.
 
 ### Definition:
 ```python

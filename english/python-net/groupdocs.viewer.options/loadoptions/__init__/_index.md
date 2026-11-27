@@ -20,9 +20,9 @@ def __init__(self):
 
 ## __init__ {#file_type}
 
-Initializes a new LoadOptions instance.
+Initializes a new [`LoadOptions`](/viewer/python-net/groupdocs.viewer.options/loadoptions/) instance.
 
-For code example, see the documentation.
+For a code example, see the documentation.
 
 ```python
 def __init__(self, file_type):
@@ -40,13 +40,11 @@ def __init__(self, file_type):
 ### Example
 
 ```python
-from groupdocs.viewer import Viewer, FileType
-from groupdocs.viewer.options import LoadOptions, PdfViewOptions
+from groupdocs.viewer import FileType
+from groupdocs.viewer.options import LoadOptions
 
-load_options = LoadOptions(FileType.MD)  # specify the file type
-with Viewer("terms_of_service.txt", load_options) as viewer:
-    view_options = PdfViewOptions("output.pdf")
-    viewer.view(view_options)
+# Load a Markdown file with explicit file type.
+load_options = LoadOptions(FileType.MD)
 ```
 
 ### See Also

@@ -15,7 +15,7 @@ The height of the output image in pixels.
 
 Use this property to set the output image height (in pixels). For a code example, see the documentation.
 
-If this property is set, the [`PngViewOptions.max_height`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/max_height/) property is ignored.
+If you set this property, the [`PngViewOptions.max_height`](/viewer/python-net/groupdocs.viewer.options/pngviewoptions/max_height/) property is ignored.
 
 ### Definition:
 ```python

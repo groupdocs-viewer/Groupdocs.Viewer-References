@@ -1,7 +1,7 @@
 ---
 title: search_term property
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "The text (or regex pattern, if SearchHighlightOptions.issearchtermregex property is True) to search for."
+description: "The text (or regex pattern, if SearchHighlightOptions.is_search_term_reg_ex property is True) to search for."
 type: docs
 url: /python-net/groupdocs.viewer.options/searchhighlightoptions/search_term/
 is_root: false

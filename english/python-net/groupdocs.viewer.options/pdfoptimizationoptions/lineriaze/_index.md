@@ -13,7 +13,7 @@ weight: 2040
 
 The property enables optimization of the output PDF file for viewing online with a web browser.
 
-This optimization allows a browser to display the first pages of a PDF file when you open the document, instead of waiting for the entire file to download. For a code example, see the documentation.
+This optimization allows a browser to display the first pages of a PDF file when you open the document, instead of waiting for the entire file to download.
 
 ### Definition:
 ```python

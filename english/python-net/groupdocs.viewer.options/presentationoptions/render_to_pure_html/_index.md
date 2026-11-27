@@ -13,7 +13,7 @@ weight: 2020
 
 The property enables a new HTML rendering mode for Presentation documents — in this mode the files are rendered to pure HTML/CSS markup without SVG images. By default it is disabled (`False`), and the existing SVG‑based HTML renderer is used.
 
-For code sample, see the documentation at https://docs.groupdocs.com/viewer/net/render-presentations/#generate-pure-htmlcss-markup.
+For code sample, see the documentation at https://docs.groupdocs.com/viewer/python-net/render-presentations/.
 
 ### Definition:
 ```python

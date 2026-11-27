@@ -5,7 +5,7 @@ description: "FileCache.try_get_value method — GroupDocs.Viewer for Python via
 type: docs
 url: /python-net/groupdocs.viewer.caching/filecache/try_get_value/
 is_root: false
-weight: 1070
+weight: 1030
 ---
 
 
@@ -20,6 +20,15 @@ def try_get_value(self, key, value):
 | :- | :- | :- |
 | key | `str` |  |
 | value |  |  |
+
+### Aliases
+
+These names call `try_get_value` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `try_get_value_file` | `try_get_value_file(key, value)` |
+| `try_get_value_string` | `try_get_value_string(key, value)` |
 
 ### See Also
 * class [`FileCache`](/viewer/python-net/groupdocs.viewer.caching/filecache/)

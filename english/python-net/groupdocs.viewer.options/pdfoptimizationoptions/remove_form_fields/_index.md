@@ -13,7 +13,7 @@ weight: 2080
 
 The property enables removing form fields from a PDF file.
 
-For code example, see this documentation.
+For code example, see the documentation at https://docs.groupdocs.com/viewer/python-net/optimization-pdf-remove-fields/.
 
 ### Definition:
 ```python

@@ -5,7 +5,7 @@ description: "Returns a debug string containing font information in the format \
 type: docs
 url: /python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/to_string/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 

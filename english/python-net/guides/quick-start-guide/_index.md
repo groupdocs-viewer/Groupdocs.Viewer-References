@@ -16,7 +16,7 @@ This guide provides a quick overview of how to set up and start using GroupDocs.
 
 To proceed, make sure you have:
 
-1. **Configured** environment as described in the [System Requirements]() topic.
+1. **Configured** environment as described in the [System Requirements](https://docs.groupdocs.com/viewer/python-net/system-requirements/) topic.
 2. **Optionally** you may [Get a Temporary License](https://purchase.groupdocs.com/temporary-license/) to test all the product features. 
 
 ## Set Up Your Development Environment
@@ -87,10 +87,10 @@ python3 -m pip install groupdocs-viewer-net
 {{< /tab >}}
 {{< /tabs >}}
 
-Ensure the package is installed successfully. You should see the message 
+Ensure the package is installed successfully. pip also installs `groupdocs-shared-net`, the small package of modules every GroupDocs Python package shares. You should see the message
 
 ```bash
-Successfully installed groupdocs-viewer-net-*
+Successfully installed groupdocs-shared-net-26.11.0 groupdocs-viewer-net-26.11.0
 ```
 
 ## Example 1: Render document to HTML
@@ -132,9 +132,11 @@ if __name__ == "__main__":
 {{< /tab >}}
 {{< tab "render-docx-to-html-outputs.zip" >}}  
 ```text
-render_docx_to_html/page_1.html (317 KB)
-render_docx_to_html/page_2.html (149 KB)
-render_docx_to_html/page_3.html (113 KB)
+render_docx_to_html/page_1.html (253 KB)
+render_docx_to_html/page_2.html (110 KB)
+render_docx_to_html/page_3.html (148 KB)
+render_docx_to_html/page_4.html (1001 KB)
+render_docx_to_html/page_5.html (86 KB)
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/getting-started/quick-start-guide/render_docx_to_html/render-docx-to-html-outputs.zip)
 {{< /tab >}}
@@ -215,7 +217,7 @@ if __name__ == "__main__":
 {{< /tab >}}
 {{< tab "output.pdf" >}}  
 ```text
-Binary file (PDF, 234 KB)
+Binary file (PDF, 719 KB)
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/getting-started/quick-start-guide/render_docx_to_pdf/output.pdf)
 {{< /tab >}}
@@ -296,9 +298,11 @@ if __name__ == "__main__":
 {{< /tab >}}
 {{< tab "render-docx-to-png-outputs.zip" >}}  
 ```text
-render_docx_to_png/output_1.png (89 KB)
-render_docx_to_png/output_2.png (77 KB)
-render_docx_to_png/output_3.png (50 KB)
+render_docx_to_png/output_1.png (287 KB)
+render_docx_to_png/output_2.png (33 KB)
+render_docx_to_png/output_3.png (33 KB)
+render_docx_to_png/output_4.png (430 KB)
+render_docx_to_png/output_5.png (21 KB)
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/getting-started/quick-start-guide/render_docx_to_png/render-docx-to-png-outputs.zip)
 {{< /tab >}}
@@ -343,6 +347,7 @@ After running the app you can deactivate virtual environment by executing `deact
 ## Next Steps
 
 After completing the basics, explore additional resources to enhance your usage:
-- [Supported File Formats](): Review the full list of supported file types.
-- [Licensing](): Check details on licensing and evaluation.
-- [Technical Support](): Contact support for assistance if you encounter issues.
+- [Supported File Formats](https://docs.groupdocs.com/viewer/python-net/supported-document-formats/): Review the full list of supported file types.
+- [View documents in the browser](https://docs.groupdocs.com/viewer/python-net/view-documents-in-the-browser/): Open a document or a folder with the `groupdocs-viewer` command, without writing code.
+- [Licensing](https://docs.groupdocs.com/viewer/python-net/licensing-and-evaluation/): Check details on licensing and evaluation.
+- [Technical Support](https://docs.groupdocs.com/viewer/python-net/technical-support/): Contact support for assistance if you encounter issues.

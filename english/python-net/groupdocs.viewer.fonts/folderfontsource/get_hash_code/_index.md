@@ -5,7 +5,7 @@ description: "Returns the hash code for the current FolderFontSource object."
 type: docs
 url: /python-net/groupdocs.viewer.fonts/folderfontsource/get_hash_code/
 is_root: false
-weight: 1040
+weight: 1020
 ---
 
 

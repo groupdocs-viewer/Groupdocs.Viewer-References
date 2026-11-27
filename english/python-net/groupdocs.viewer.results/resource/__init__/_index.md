@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new Resource instance.
+Initializes a new [`Resource`](/viewer/python-net/groupdocs.viewer.results/resource/) instance.
 
 ```python
 def __init__(self):
@@ -34,7 +34,7 @@ def __init__(self, file_name, nested):
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Raised when `file_name` is None or empty. |
+| `ValueError` | When `file_name` is None or empty. |
 
 ### See Also
 * class [`Resource`](/viewer/python-net/groupdocs.viewer.results/resource/)

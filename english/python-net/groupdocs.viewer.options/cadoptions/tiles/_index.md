@@ -5,7 +5,7 @@ description: "The drawing regions to render."
 type: docs
 url: /python-net/groupdocs.viewer.options/cadoptions/tiles/
 is_root: false
-weight: 2090
+weight: 2100
 ---
 
 
@@ -13,7 +13,7 @@ weight: 2090
 
 The drawing regions to render.
 
-This option is available only for the [`FileType.dwg`](/viewer/python-net/groupdocs.viewer/filetype/dwg/) and [`FileType.dwt`](/viewer/python-net/groupdocs.viewer/filetype/dwt/) file types. The [`CadOptions.render_layouts`](/viewer/python-net/groupdocs.viewer.options/cadoptions/render_layouts/) and [`CadOptions.layout_name`](/viewer/python-net/groupdocs.viewer.options/cadoptions/layout_name/) options are ignored when rendering by tiles.
+Available only for the [`FileType.dwg`](/viewer/python-net/groupdocs.viewer/filetype/dwg/) and [`FileType.dwt`](/viewer/python-net/groupdocs.viewer/filetype/dwt/) file types. The [`CadOptions.render_layouts`](/viewer/python-net/groupdocs.viewer.options/cadoptions/render_layouts/) and [`CadOptions.layout_name`](/viewer/python-net/groupdocs.viewer.options/cadoptions/layout_name/) options are ignored when rendering by tiles.
 
 ### Definition:
 ```python

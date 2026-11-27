@@ -13,7 +13,7 @@ weight: 2020
 
 The X coordinate of the lowest left point on the drawing where the tile begins.
 
-For details, see the documentation: https://docs.groupdocs.com/viewer/net/specify-cad-rendering-options/#split-a-drawing-into-tiles
+For details, see the documentation: https://docs.groupdocs.com/viewer/python-net/specify-cad-rendering-options/#split-a-drawing-into-tiles
 
 ### Definition:
 ```python

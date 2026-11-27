@@ -19,7 +19,7 @@ The Line type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/line/__init__/) | Initializes a new instance of [`Line`](/viewer/python-net/groupdocs.viewer.results/line/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/line/__init__/#line-x-y-width-height-words) | Initializes a new instance of the [`Line`](/viewer/python-net/groupdocs.viewer.results/line/) class. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/line/__init__/#line-x-y-width-height-words) | Initializes a new [`Line`](/viewer/python-net/groupdocs.viewer.results/line/) instance. |
 
 ### Methods
 | Method | Description |

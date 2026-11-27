@@ -5,7 +5,7 @@ description: "Types under groupdocs.viewer.interfaces."
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/
 is_root: false
-weight: 50
+weight: 60
 ---
 
 
@@ -14,9 +14,9 @@ Types under `groupdocs.viewer.interfaces`.
 ### Classes
 | Class | Description |
 | :- | :- |
-| [`CreateFileStream`](/viewer/python-net/groupdocs.viewer.interfaces/createfilestream/) | Represents a method that creates a stream used to write output file data. |
-| [`CreatePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/createpagestream/) | Represents a method that creates a stream used to write output page data. |
-| [`CreateResourceStream`](/viewer/python-net/groupdocs.viewer.interfaces/createresourcestream/) | Represents a method that creates a stream for writing output HTML resource data. |
+| [`CreateFileStream`](/viewer/python-net/groupdocs.viewer.interfaces/createfilestream/) | Represents a method that instantiates a stream used to write output file data. |
+| [`CreatePageStream`](/viewer/python-net/groupdocs.viewer.interfaces/createpagestream/) | Represents the method that instantiates a stream used to write output page data. |
+| [`CreateResourceStream`](/viewer/python-net/groupdocs.viewer.interfaces/createresourcestream/) | Represents the method that instantiates a stream used to write output HTML resource data. |
 | [`CreateResourceUrl`](/viewer/python-net/groupdocs.viewer.interfaces/createresourceurl/) | Represents the method that creates a URL for an HTML resource. |
 | [`IFileStreamFactory`](/viewer/python-net/groupdocs.viewer.interfaces/ifilestreamfactory/) | Defines the methods required for instantiating and releasing an output file stream. |
 | [`IPageStreamFactory`](/viewer/python-net/groupdocs.viewer.interfaces/ipagestreamfactory/) | The interface defines methods required for instantiating and releasing output page streams. |

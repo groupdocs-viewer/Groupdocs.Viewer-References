@@ -11,7 +11,7 @@ weight: 2060
 
 ## is_empty property
 
-The property indicates whether this [`Argb32Color`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/) instance is uninitialized (all four channels are set to 0). It is equivalent to the default or transparent color and matches [`Argb32Color.is_default`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/is_default/).
+The property indicates whether this [`Argb32Color`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/) instance is uninitialized (all four channels are set to 0). It is equivalent to the default or transparent color and mirrors [`Argb32Color.is_default`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/is_default/).
 
 ### Definition:
 ```python

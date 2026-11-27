@@ -18,15 +18,5 @@ def dispose(self):
     ...
 ```
 
-### Example
-
-```python
-from groupdocs.viewer import Viewer
-
-viewer = Viewer("./sample.docx")
-# Perform operations with viewer
-viewer.dispose()
-```
-
 ### See Also
 * class [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer/)

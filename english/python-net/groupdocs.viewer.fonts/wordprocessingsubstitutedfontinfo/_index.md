@@ -13,7 +13,7 @@ weight: 120
 
 Encapsulates metainfo and binary data of one font from a WordProcessing document, which originally is not used in the loaded [`Viewer`](/viewer/python-net/groupdocs.viewer/viewer/) instance document, but serves as a substitution font for those that cannot be found on the target machine. Substituted fonts exist only for the WordProcessing formats family.
 
-Immutable struct. Its instances are produced and returned by the [`GroupDocs.Viewer`](/viewer/python-net/groupdocs.viewer/viewer/) public API and normally should not be created by the user. For details, see the documentation: https://docs.groupdocs.com/viewer/net/getting-used-fonts/
+Immutable struct. Its instances are produced and returned by the [`GroupDocs.Viewer`](/viewer/python-net/groupdocs.viewer/viewer/) public API and normally should not be created by the user.
 
 The WordProcessingSubstitutedFontInfo type exposes the following members:
 
@@ -26,17 +26,16 @@ The WordProcessingSubstitutedFontInfo type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [serialize_to_css](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/serialize_to_css/#output) | Serializes the font info as a @font-face at-rule and writes it to the specified text writer. |
-| [serialize_to_css_text_writer](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/serialize_to_css_text_writer/) |  |
 | [to_string](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/to_string/) | Returns a debug string containing font information in the format "original-name -> substituted-name style, format". |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [content](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/content/) | The content of the substituted font as a byte array. It is never None. |
+| [content](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/content/) | The content of the substituted font as a byte array. |
 | [family_name](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/family_name/) | The family name of the substituted font, without style. |
-| [format](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/format/) | The format of this substituted (not original) font. |
+| [format](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/format/) | The format of this substituted (not original) font. May be TrueType, TrueType Collection, OpenType, or Embedded OpenType. For the substituted font, because its binary content is available by definition, this property never returns a `FontFormat.unknown` value. |
 | [original_family_name](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/original_family_name/) | The family name of the original font, which cannot be found on a target machine, without style. Never is null or empty string. |
-| [style](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/style/) | The style of the original font — may be Regular, Bold, Italic, or Bold Italic. |
+| [style](/viewer/python-net/groupdocs.viewer.fonts/wordprocessingsubstitutedfontinfo/style/) | The style of the original font — may be Regular, Bold, Italic, or Bold Italic. Substituted font is usually (but not always) of the same style. |
 
 ### See Also
 * module [`groupdocs.viewer.fonts`](/viewer/python-net/groupdocs.viewer.fonts/)

@@ -13,7 +13,7 @@ weight: 2030
 
 The image quality in the output PDF file, expressed as a percentage.
 
-To change the image quality, first set the [`PdfOptimizationOptions.compress_images`](/viewer/python-net/groupdocs.viewer.options/pdfoptimizationoptions/compress_images/) property to `True`. For a code example, see the documentation.
+To change the image quality, first set the [`PdfOptimizationOptions.CompressImages`](/viewer/python-net/groupdocs.viewer.options/pdfoptimizationoptions/compress_images/) property to `True`. For a full example, see the GroupDocs Viewer documentation.
 
 ### Definition:
 ```python

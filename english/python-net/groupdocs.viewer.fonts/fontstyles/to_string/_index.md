@@ -5,7 +5,7 @@ description: "Returns the name of this font style, same as FontStyles.name."
 type: docs
 url: /python-net/groupdocs.viewer.fonts/fontstyles/to_string/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 

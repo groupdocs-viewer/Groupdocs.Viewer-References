@@ -5,7 +5,7 @@ description: "Returns this color in hexadecimal string representation."
 type: docs
 url: /python-net/groupdocs.viewer.drawing/rgb24color/to_hex/
 is_root: false
-weight: 1110
+weight: 1080
 ---
 
 
@@ -23,9 +23,9 @@ def to_hex(self):
 ### Example
 
 ```python
-    from GroupDocs.Viewer.Drawing import Rgb24Color
+    from groupdocs.viewer.drawing import Rgb24Color
 
-    hex_str = Rgb24Color.KnownColors.CssLevel1.Red.to_hex()
+    hex_str = Rgb24Color.KnownColors.CssLevel1.red.to_hex()
     print(hex_str)  # "#FF0000"
     ```
 

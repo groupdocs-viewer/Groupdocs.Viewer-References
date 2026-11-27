@@ -26,5 +26,13 @@ def serialize_to_css(self, output):
 | :- | :- |
 | `ValueError` | Output device is None. |
 
+### Aliases
+
+These names call `serialize_to_css` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `serialize_to_css_text_writer` | `serialize_to_css_text_writer(output)` |
+
 ### See Also
 * class [`PdfFontInfo`](/viewer/python-net/groupdocs.viewer.fonts/pdffontinfo/)

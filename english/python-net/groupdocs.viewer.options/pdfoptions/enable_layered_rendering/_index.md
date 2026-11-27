@@ -13,9 +13,7 @@ weight: 2050
 
 The property enables rendering text and graphics in the original PDF document's z-order when rendering to HTML.
 
-By default, GroupDocs.Viewer renders text and graphics as a single layer in HTML. This option lets you arrange objects in the same order as in the source file. The default value is False.
-
-For a code example, see the documentation.
+By default, GroupDocs.Viewer renders text and graphics as a single layer in HTML. This option lets you arrange objects in the same order as in the source file. The default value is `False`.
 
 ### Definition:
 ```python

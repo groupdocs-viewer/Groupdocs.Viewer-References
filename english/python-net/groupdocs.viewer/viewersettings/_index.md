@@ -5,7 +5,7 @@ description: "Defines settings for customizing Viewer behaviour."
 type: docs
 url: /python-net/groupdocs.viewer/viewersettings/
 is_root: false
-weight: 110
+weight: 70
 ---
 
 
@@ -38,7 +38,7 @@ from groupdocs.viewer.options import HtmlViewOptions
 viewer_settings = ViewerSettings(logger=ConsoleLogger())
 with Viewer("./sample.docx", settings=viewer_settings) as viewer:
     html_options = HtmlViewOptions.for_embedded_resources(
-        "example/page_{0}.html"
+        "write_logs_to_console/page_{0}.html"
     )
     viewer.view(html_options)
 ```

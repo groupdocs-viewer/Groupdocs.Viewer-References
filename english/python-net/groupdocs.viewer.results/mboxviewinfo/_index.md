@@ -19,7 +19,7 @@ The MboxViewInfo type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/__init__/) | Initializes a new instance of [`MboxViewInfo`](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/). |
-| [__init__](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/__init__/#file_type-pages-notes_count) | Initializes a new [`MboxViewInfo`](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/) instance. |
+| [__init__](/viewer/python-net/groupdocs.viewer.results/mboxviewinfo/__init__/#file_type-pages-notes_count) | Initializes a new MboxViewInfo instance. |
 
 ### Methods
 | Method | Description |

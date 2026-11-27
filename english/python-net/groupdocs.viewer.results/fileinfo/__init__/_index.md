@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Viewer for Python via .NET API References
-description: "Initializes a new instance of the FileInfo.filetype class."
+description: "Initializes a new instance of the FileInfo.file_type class."
 type: docs
 url: /python-net/groupdocs.viewer.results/fileinfo/__init__/
 is_root: false

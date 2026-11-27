@@ -13,7 +13,7 @@ weight: 2090
 
 The project management files view options.
 
-For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/net/render-ms-project-files/.
+For more information and code examples, see the documentation at https://docs.groupdocs.com/viewer/python-net/render-ms-project-files/.
 
 ### Definition:
 ```python

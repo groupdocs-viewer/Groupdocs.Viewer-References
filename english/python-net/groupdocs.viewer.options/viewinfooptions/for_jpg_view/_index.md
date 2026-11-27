@@ -5,7 +5,7 @@ description: "Initializes a ViewInfoOptions instance to retrieve information abo
 type: docs
 url: /python-net/groupdocs.viewer.options/viewinfooptions/for_jpg_view/
 is_root: false
-weight: 1030
+weight: 1020
 ---
 
 
@@ -50,6 +50,14 @@ def for_jpg_view(cls, extract_text):
 | extract_text | `bool` | Enables text extraction. |
 
 **Returns:** ViewInfoOptions: New instance of the ViewInfoOptions class.
+
+### Aliases
+
+These names call `for_jpg_view` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `for_jpg_view_boolean` | `for_jpg_view_boolean(extract_text)` |
 
 ### See Also
 * class [`ViewInfoOptions`](/viewer/python-net/groupdocs.viewer.options/viewinfooptions/)

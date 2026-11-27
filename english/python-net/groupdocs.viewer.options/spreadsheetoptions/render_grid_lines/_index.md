@@ -13,7 +13,7 @@ weight: 2070
 
 The property enables rendering of grid lines.
 
-For details, see the documentation at https://docs.groupdocs.com/viewer/net/specify-rendering-options/#render-worksheet-gridlines.
+For details, see the documentation at https://docs.groupdocs.com/viewer/python-net/specify-rendering-options/#render-worksheet-gridlines.
 
 ### Definition:
 ```python

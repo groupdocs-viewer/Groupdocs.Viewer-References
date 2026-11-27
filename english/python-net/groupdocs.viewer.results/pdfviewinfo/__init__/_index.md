@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#file_type-pages-printing_allowed}
 
-Initializes a new PdfViewInfo instance.
+Initializes new instance of [`PdfViewInfo`](/viewer/python-net/groupdocs.viewer.results/pdfviewinfo/) class.
 
 ```python
 def __init__(self, file_type, pages, printing_allowed):

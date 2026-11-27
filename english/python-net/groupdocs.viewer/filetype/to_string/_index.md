@@ -5,7 +5,7 @@ description: "Returns a str that represents the current object."
 type: docs
 url: /python-net/groupdocs.viewer/filetype/to_string/
 is_root: false
-weight: 1190
+weight: 1090
 ---
 
 

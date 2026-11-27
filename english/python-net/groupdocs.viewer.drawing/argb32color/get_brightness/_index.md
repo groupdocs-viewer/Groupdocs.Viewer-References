@@ -5,7 +5,7 @@ description: "Returns the Hue‑Saturation‑Lightness (HSL) lightness/brightnes
 type: docs
 url: /python-net/groupdocs.viewer.drawing/argb32color/get_brightness/
 is_root: false
-weight: 1120
+weight: 1070
 ---
 
 
@@ -17,6 +17,8 @@ Returns the Hue‑Saturation‑Lightness (HSL) lightness/brightness for this [`A
 def get_brightness(self):
     ...
 ```
+
+**Returns:** float: The lightness component, typically in the range 0.0 to 1.0.
 
 ### See Also
 * class [`Argb32Color`](/viewer/python-net/groupdocs.viewer.drawing/argb32color/)

@@ -5,7 +5,7 @@ description: "Writes a warning message."
 type: docs
 url: /python-net/groupdocs.viewer.logging/ilogger/warning/
 is_root: false
-weight: 1070
+weight: 1030
 ---
 
 
@@ -27,6 +27,15 @@ def warning(self, message):
 | Raises | Description |
 | :- | :- |
 | `ValueError` | When `message` is None. |
+
+### Aliases
+
+These names call `warning` too, limited to the overloads listed.
+
+| Alias | Accepts |
+| :- | :- |
+| `warning_file` | `warning_file(message)` |
+| `warning_string` | `warning_string(message)` |
 
 ### See Also
 * class [`ILogger`](/viewer/python-net/groupdocs.viewer.logging/ilogger/)

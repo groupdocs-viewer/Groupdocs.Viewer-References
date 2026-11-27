@@ -19,7 +19,6 @@ The ViewOptions type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [rotate_page](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page/#page_number-rotation) | Applies the clockwise rotation to a page. |
-| [rotate_page_int32](/viewer/python-net/groupdocs.viewer.options/viewoptions/rotate_page_int32/) |  |
 
 ### Properties
 | Property | Description |

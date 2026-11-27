@@ -15,7 +15,7 @@ The property enables text extraction.
 
 Use this property to get the text contained in a source document and its coordinates. Then you can use this data to add a selectable text over the image or to implement a text search in image‑based rendering.
 
-For a code example, see the documentation: https://docs.groupdocs.com/viewer/net/image-viewer-get-text-coordinates/
+For a code example, see the documentation.
 
 ### Definition:
 ```python

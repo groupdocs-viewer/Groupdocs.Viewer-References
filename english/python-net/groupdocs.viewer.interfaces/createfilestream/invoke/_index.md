@@ -5,7 +5,7 @@ description: "CreateFileStream.invoke method — GroupDocs.Viewer for Python via
 type: docs
 url: /python-net/groupdocs.viewer.interfaces/createfilestream/invoke/
 is_root: false
-weight: 1050
+weight: 1030
 ---
 
 

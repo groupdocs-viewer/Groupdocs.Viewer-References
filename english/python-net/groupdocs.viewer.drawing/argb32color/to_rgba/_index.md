@@ -5,7 +5,7 @@ description: "Serializes this Argb32Color instance to the 'rgba' CSS function no
 type: docs
 url: /python-net/groupdocs.viewer.drawing/argb32color/to_rgba/
 is_root: false
-weight: 1200
+weight: 1150
 ---
 
 

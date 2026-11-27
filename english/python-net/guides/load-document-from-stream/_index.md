@@ -45,12 +45,14 @@ if __name__ == "__main__":
 {{< /tab >}}
 {{< tab "load-document-from-stream-outputs.zip" >}}  
 ```text
-page_1.html (317 KB)
-page_2.html (149 KB)
-page_3.html (113 KB)
+page_1.html (253 KB)
+page_2.html (110 KB)
+page_3.html (148 KB)
+page_4.html (1001 KB)
+page_5.html (86 KB)
 ```
 [Download full output](https://docs.groupdocs.com/viewer/python-net/_output_files/developer-guide/loading-documents/load-document-from-stream/load_document_from_stream/load-document-from-stream-outputs.zip)
 {{< /tab >}}
 {{< /tabs >}}
 
-See also [Load document from URL]() for a concrete example of downloading a document into a `BytesIO` stream and rendering it without ever writing it to disk.
+See also [Load document from URL](/viewer/python-net/guides/load-document-from-url/) for a concrete example of downloading a document into a `BytesIO` stream and rendering it without ever writing it to disk.
